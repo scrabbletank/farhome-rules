@@ -101,38 +101,41 @@ Let's look at an example. You are trying to sneak past some guards and the DM as
 
 Wounds are used to determine how hard a character is to kill, the more wounds you have the more durable your character. Wounds are lost when you are hit by attacks, spells, or traps and are restored by taking rests or through certain spells.
 
-Sometimes you might gain a Lesser or Greater wounds. These do not inflict damage, but do leave lasting effects. Lesser wounds can be cured through magic, or will heal over a long rest. Greater wounds can be difficult to cure by magic and do not heal naturally.
+Some abilities or effects inflict Lesser or Greater wounds. These do not deal damage, but do leave lasting effects. Lesser wounds can be cured through magic, or heal naturally over a long rest. Greater wounds can be difficult to cure by magic and do not heal naturally.
 
 
 ### Death Saves
 
-Once a player reaches 0 wounds they go unconscious. They gain half their wounds as temporary health, rounding up. Each turn they roll a wound die, taking damage on a wound or nothing on a blank. A player only regains consciousness if they are healed above their temporary health or someone successfully stabilizes them.
+When a character takes enough damage to drop them to 0 wounds or below they become unconscious and start making death saves. While unconscious in this way you gain temporary wounds equal to half your total wounds rounded up. At the start of each of your turns you roll a wound die, losing 1 of your temporary wounds if the die rolls a wound. If you lose all of your temporary wounds your character dies.
 
-To stabilize a player you must spend 1 minute making a medicine check, during which the unconscious player does not make death saving throws. Add a bad die for every wound missing from their temporary health. A stabilized players's wounds are set to 1 and they no longer make death saving throws, gaining consciousness after 10 minutes.
+Death saves aren't the only way you can lose temporary wounds, creatures can still make attacks against you and any melee attacks that hit you deal full damage regardless of the wound dice rolled. Likewise, allies can attempt to bring you back with healing spells, potions, or by stabilizing you. While in this state healing effects restore any lost temporary wounds first before restoring your wounds. If this brings you 1 wound or above you regain consciousness and no longer make death saves.
+
+You can attempt to stabilize a character by making a medicine check. The check takes 10 AP and you must be beside the downed character to make it. Roll a medicine check, adding a Terrible die for every temporary wound the character is missing. On success the character is stabilized, on fail the character restores a temporary wound for every crit success in your medicine check. A stabilized players's wounds are set to 1 and they no longer make death saving throws, gaining consciousness after 10 minutes.
 
 
 ### Action Points
 
-Action Points (AP) are used during combat as a way of tracking how much you can get done during your turn. Action Points are refilled at the start of your turn and are spent taking actions, such as moving, attacking, or casting spells. Unspent action points can be spent on certain actions, called reactions, when it's not your turn. Reactions are usually triggered by another persons actions, such as when you are attacked or the target of a spell. However, action points aren't saved between turns, any remaining action points at the start of your next turn are lost.
+Action Points (AP) are used during combat as a way of tracking how much you can get done during your turn. Action Points are refilled at the start of your turn and are spent taking actions, such as moving, attacking, or casting spells. Any unspent Action Points can be spent on reactions even when it's not your turn. Reactions are triggered by specific actions, for example opportunity attacks can only be made when a creature tries to leave your zone of control. At the start of your next turn you lose any unspent Action Points from the previous turn.
 
 ### Maneuvers
 
-Spells for non magic users, because saying "I punch the bad guy 3 times" isn't as fun. Maneuvers can be used repeatedly, with some restrictions: You can only use 1 maneuver per turn, and you can't use a Maneuver you used the previous turn. The exception are maneuvers that are Reactions, which can be used in place of reactions, but usually only when a condition is met.
-```
-```
+Maneuvers are special actions and reactions that can be learned by your character. They can be learned by anyone, but most maneuvers require a weapon to be used. Using a maneuver is the same as taking any other action during your turn, however they have the following restrictions:
 
+- You may only use one maneuver per turn, reaction maneuvers excluded.
+- You cannot use the same maneuver on two consecutive turns in a row.
+
+Additionally, most maneuvers have weapon or level requirements, or can only be used in specific situations, such as when an ally is attacked. The level requirement for maneuvers shows 2 levels, the first being the level you need to learn the maneuver and the second being it's enhanced level. At that level the maneuver gains the effects described in the 'enhanced' textblock.
 
 ### Healing Surge
 
-Hit points aren't a thing, and so hit dice have been replaced with healing surges. The number of healing surges you start with is equal to your stamina (minimum of 1), gaining an additional one starting at level 5 and every 5 levels after. During a short or long rest you can spend a healing surge to roll 3 wound dice, healing a wound for every wound rolled.
+Healing surges are used to heal wounds your character has suffered during a short or long rest. Your character starts with healing surges equal to your stamina score (minimum of 1) and gains an additional healing surge every 5 levels. When spending a healing surge you roll 3 wound dice, healing for the number of wounds rolled. You can spend any number of healing surges during a short or long rest. After each long rest you regain up to 3 of your spent healing surges.
 
 ### Combat Advantage
 
-There are no more advantage or disadvantage rolls. Some abilities or circumstances will grant a creature combat advantage. Any attacks, maneuvers, or spell attacks made with combat advantage add an additional superior die to the roll.
-
+Some abilities may impose combat advantage against you or an enemy. Someone who grants combat advantage are easier to hit, giving anyone who makes an attack or spell attack against the creature an extra superior die to their roll.
 
 ### Attributes
-Farhome uses 6 core attributes: Strength, Dexterity, Stamina, Intelligence, Willpower, Charisma.
+Your characters aptitude is represented by 6 core attributes: Strength, Dexterity, Stamina, Intelligence, Willpower, Charisma.
 
 #### Strength
 How strong you are, effects how much you can lift, how many dice you roll when attacking with most melee weapons, and governs physical skill checks.
@@ -142,7 +145,6 @@ Effects how many dice you roll with ranged weapons and some melee weapons, how g
 
 #### Stamina
 Each point of Stamina increases your max wounds by 1. While not used in skill checks, this is used for things like resisting desease or poison and maintaining concentration.
-
 
 #### Intelligence
 How much of a smarty smarty pants you are. Effects how many dice you roll with arcane spells, and skills like arcana, investigation and perception.
@@ -155,8 +157,6 @@ Effects how many dice you roll with divine spells, how good you are at talking t
 
 ## Proficiency
 Farhome has no global proficiency modifier, instead each skill, spell school, attribute save, and weapon type has it's own proficiency modifier. When you create your character and when you level up you can gain proficiency points to spend across proficiencies.
-
-\page
 
 Proficiency improve the normal dice you use in the relevant roll, increasing one normal die to a proficient die for every proficiency point you have. There is no cap to your proficiencies, however you gain no benefit from a proficiency point if there are no normal dice to improve.
 
@@ -196,8 +196,8 @@ Skills represent how good your character is at completing different tasks and ac
 |  | Diplomacy |
 |  | Performance |
 |  | Religion |
-```
-```
+
+
 
 
 ### Tools
@@ -235,17 +235,18 @@ To cast a spell you must have a codex containing the spell you want to cast, hav
 
 ### Spellbooks
 
-Very few creatures are able to innately cast magic. Almost everyone must prepare spells they've written into a spellbook, or Codex. There is no limit on the school, level, or type of spell you can hold in your Codex. To copy a spell into your Codex you must have a spell scroll or a Codex of a defeated wizard. It costs 50 gold and 1 hour per level of spell you want to copy to your Codex. After copying a single spell the scroll or codex you copied from is destroyed.
-\page
+Very few creatures are able to innately cast magic. Almost everyone must prepare spells they've written into a spellbook, or Codex. There is no limit on the school, level, or type of spell you can hold in your Codex. New spells can be added to your Codex by copying from spell scrolls or a codex. This process is destructive, and destroys the scroll or codex after a spell is copied.
 
+##### Variant Rule - Spells from Codexes
+In some games spells may be limited, or codecies a rare occurance. With this variant when copying a spell from a codex, instead of destroying the codex you make an Arcana check against 2 bad dice. On success codex is not destroyed. Regardless a spell can only be copied once.
 
 ### Spell Slots
 
-To cast a spell you need an available spell slot. Spell slots come in different levels, and to cast a spell you must use a spell slot of equal or higher level. Spell slots are gained when leveling up, and once spent must be recovered during a short or long rest.
+Casting spells of 1st level and above takes a toll on the caster, a character can only cast so many of these spells before needing to rest. To cast a spell you need a spell slot with a level equal to or greater than the spells level. Once a spell slot is used you cannot use that spell slot again until you complete a rest.
 
 ### Preparing Spells
 
-Before you can cast a spell from your Codex you must prepare it. Every long rest you can prepare 3 spells, plus 3 additional spells for every point of intelligence you have.
+Before you can cast a spell from your Codex you must prepare it. Every long rest you can prepare 5 spells, adding 3 for every point of Intelligence you have. Having negative Intelligence does not reduce the number of spells you can prepare.
 
 
 ### Casting Spells
@@ -264,7 +265,7 @@ When you take damage while concentrating on a spell you must pass a Stamina save
 
 Cantrips are spells that do not require a spell slot to cast, but must still be prepared like the rest of your spells. For casting at a higher level, cantrips are considered level 0 spells and gain benefits when even a 1st level spell slot is used to cast it.
 
-### Misfires
+### Variant Rule - Misfires
 
 While anyone can cast any spell they have a spell slot for, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a different spell, you add 2 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
 
@@ -297,22 +298,28 @@ While there are no classes in Farhome, there is some starting structure to your 
 
 In addition to beginner feats you also pick a race. The race determines your starting wounds, how far you can move with a move action and how many tiles you can move while sprinting, as well as your starting stat bonuses.
 
-Next, you get to set your attributes. You start with a -1 to all attributes and get 9 points to buy attributes. Attributes cost 1 point per attribute, or 2 points for attributes above 3. The maximum value you can have is 5.
+Next, you get to set your attributes. You start with a -1 to all attributes and get 9 points to buy attributes. Attributes cost 1 point per attribute, or 2 points for attributes above 3. The maximum value you can have is 5. 
 
-Finally you get 5 perk points to spend on additional features and abilities.
+Choose an attribute gain proficiency in it's saving throw, starting it at 1. In addition you gain 4 proficiency points to spend on any skill, save, or abiltiy you are capable of.
 
-### Perks
-You start with 5 perk points you can spend on the following actions:
-- Gaining proficiency in an attribute saving throw
-- Gaining proficiency in a magic type
-- Gaining 4 proficiency points
-- Gaining 1 Feat
-- Gaining a maneuver and 2 proficiency with a weapon
+Finally, choose 2 of the following bonuses.
+
+#### Starting Bonuses
+- Gain proficiency in an attribute saving throw
+- Gain proficiency in a magic type
+- Gain 4 proficiency points
+- Learn 1 Feat
+- Learn a maneuver and gain 2 proficiency with a weapon type
+- Increase your max wounds by 1
+- Gain 3 level 1 spell slots
+
+##### Variant Rule - Rolling for Attributes
+Instead of using the rules above for attributes, your group may decide to roll your scores. For each attribute roll 1 Superior, 3 Normal, and 1 Terrible die, adding up the total successes. The minimum score for an attribute is -2, with any rolls below that counting as -2 for the roll.
 
 ### Starting Equipment.
 Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire starter and 50ft of rope. In addition you start with 50 gold which you can spend on gear or upgrades. Any unspent gold becomes your characters starting money.
 
-\page
+
 
 | Cost | Upgrade |
 |:----:|:-------------|
@@ -327,15 +334,18 @@ Depending on your background you may start with additional gear. All players sta
 
 ## Leveling Up
 
-When you earn 1000 experience your character levels up. Leveling is similar to spending Perk points when you created your character. You can choose not to spend all your perk points for this level, saving the leftovers for next. Each level gives you 2 perk points, with the max level being 30.
+When you earn 1000 experience your character levels up. Leveling is similar to spending Perk points when you created your character. You can choose not to spend all your perk points for this level, saving the leftovers for next. Each level you gain 2 proficiency points and choose one of the following bonuses:
 
-- Gain up to 2 spell slots
-- Gain 2 proficiency points
-- Learn a Feat or Maneuver (costs 2 points)
-- Increase your max Wounds (costs 2 points)
+- Gain up to 4 spell slots
+- Gain 4 proficiency points
+- Gain a Feat
+- Learn a Maneuver
+- Increase your max Wounds by 1
 
 ##### Spell Slots
-When gaining spell slots you may gain up to 2 slots. The sum total of the spell slot levels cannot exceed a level based on the following chart. You may instead upgrade up to 2 existing spell slots following the same rules.
+The sum total of spell slots gained each level cannot exceed twice your Spell level, and each spell slot cannot exceed your Spell level. 
+
+For example, a 2nd level player has a spell level of 1, and so can gain 2 level 1 spell slots. A 4th level character can get 2 2nd level spell slots, or 1 2nd level and 2 1st, or 4 1st level spell slots.
 
 | Player Level | Spell Level | Player Level | Spell Level |
 |:----:|:----:|:----:|:----:|
@@ -346,12 +356,14 @@ When gaining spell slots you may gain up to 2 slots. The sum total of the spell 
 | 12th | 5th | 27th | 10th |
 
 
-
 ### Attribute Score increase
 Starting at level 3, every 3 levels you can increase an attribute by 1.
 
 ### Action Points
 You gain an additional Action point at level 10 and 20.
+
+### Additional Saving Throw
+You gain proficiency in an additional saving throw at level 12.
 
 ### Earning Experience
 Players earn experience after every encounter based on the difficulty of the encounter. Ideally characters should be leveling up once every 2-4 encounters. Experience is earned based on how difficult it is for the players to overcome the encounter, not by how much experience an individual monster gives.
@@ -397,7 +409,7 @@ Until your next turn, you improve your defense dice to superior defense dice equ
 #### Move (3 AP, once per turn)
 You may move up to your move speed in tiles. Some terrain may cost more than 1 tile's worth of movespeed. Movement does not have be done all at once, using the 'Move' action essentially gives you move points that can be spent at any time during your turn.
 
-\page
+
 
 #### Sprint (2 AP, can only be used after move, once per turn)
 You may move up to your sprint speed + dexterity in tiles.
@@ -430,8 +442,8 @@ Many DM's will represent their world with a gameboard, with every tile on the bo
 | Large | 2x2 |
 | Huge | 3x3 |
 | Gargantuant | 4x4+ |
-```
-```
+
+
 
 
 #### Zone of Control
@@ -468,7 +480,7 @@ Short rests require an hour of uninterrupted rest to complete. During a short re
 
 Spellcasters restore up to 1/3rd of their level, rounded up, in spell slots. You may restore any number of spell slots this way as long as the sum level is not greater than 1/3rd of your level.
 
-\page
+
 ### Long Rest
 
 Long rests require 8 hours of rest, with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, brewing potions, etc. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds.
@@ -536,7 +548,7 @@ A staggered creature adds 2 bad dice to dexterity ability checks and saving thro
 
 ### Stunned
 A stunned creature cannot move or take actions, and automatically fail Strength and Dexterity saving throws. Attackers gain combat advantage against this target.
-\page
+
 
 ### Weaken
 When a weakened creature hits with any attack or maneuver, all guaranteed wounds are replaced with Wound dice, dealing a wound only if the die rolls a wound.
@@ -572,8 +584,8 @@ Some magic items grant bonuses to your attributes. While there is no limit on ho
 
 For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 to your Dexterity attribute. You still benefit from the remaining bonuses on those items.
 
-```
-```
+
+
 
 
 
@@ -606,7 +618,7 @@ You reduce the number of wounds dealt by the level of resistance. For example, _
 ##### Vulnerable
 You increase the number of wounds dealt by the level of vulernability. For example, _Bludgeoning Vulnerability 1_ increases the wounds taken by bludgeoning attacks by 1. If the attack can do damage, but didn't (due to rolling wound die) a Vulnerable creature still takes 1 additional damage.
 
-\page
+
 
 ## Races
 
@@ -664,8 +676,8 @@ ___
 
 As long as you are not the only ally in a creatures zone of control, you count as flanking the target. You can reroll 1 die when making Sleight of Hand and Stealth challenges.
 
-```
-```
+
+
 
 
 
@@ -679,7 +691,7 @@ ___
 
 ##### Adaptable
 
-Gain an additional perk point when creating your character.
+You choose 3 bonuses when creating your character instead of 2.
 
 #### Half-elf
 ___
@@ -689,7 +701,7 @@ ___
 
 ##### Innate Reflexes
 
-You gain 2 proficiency in a saving throw of your choice.
+You gain expertise in your starting attribute save.
 
 #### Fallen
 ___
@@ -722,7 +734,7 @@ ___
 ##### Hearty
 
 Your max wounds is increased by 1. Additionally you regain 1 extra wound during a long rest.
-\page
+
 
 ### Lizardmen
 
@@ -796,8 +808,8 @@ ___
 You attempt to send a telepathic message to a target you know. Make a spellcasting roll, adding a bad die for every 10 tiles you want the spell to travel, with a minimum of 1 bad die. On success the message is successfully broadcast. You know if the target recieved the message or not.
 
 Add a proficiency die for every level above cantrip.
-```
-```
+
+
 
 
 #### Thundering Blow
@@ -832,7 +844,7 @@ ___
 
 Make a spellcasting roll vs a targets stamina. On success the target gains Poison 1 for the next 10 minutes, gaining an additional level for every crit.
 
-Add a proficiency die for every level above 1st.
+Add a target for every level above 1st.
 
 #### Chilling Ray
 *1st Level*
@@ -846,7 +858,7 @@ You shoot a chilling beam at up to 3 targets in range. Make a spellcasting roll 
 
 Add a proficiency die for every level above 1st.
 
-\page
+
 
 #### Beam of Fire
 *1st Level*
@@ -896,8 +908,8 @@ ___
 Call a bolt of lightning to strike a nearby target. The target makes a Dexterity save vs your spellcasting. On hit they take 1 wound, plus 2 wound dice in damage, and are paralyzed until the end of their next turn on crit. If cast in rainy conditions this spell only costs 5 AP.
 
 Add a proficiency die for every level above first.
-```
-```
+
+
 
 #### Arcane Blasts
 *1st Level*
@@ -950,7 +962,7 @@ ___
 Attempt to learn the secrets of a magical item or trinket. When attempting to identify an item, use your spellcasting instead of your Lore skill to make the roll.
 
 Add a proficiency die for every level above 1st
-\page
+
 
 #### Detect Magic
 *1st Level*
@@ -999,8 +1011,8 @@ Create an energy barrier around yourself. Choose a damage type: fire, cold, ligh
 
 Add a proficiency die for every level above 2nd.
 
-```
-```
+
+
 
 #### Resilient Shield
 *2nd Level*
@@ -1043,7 +1055,7 @@ ___
 
 Cause up to 2 creatures in range to burst into flames. Targets makes a Dexterity save vs your spellcasting, on a fail they ignite in flames. At the start of their turn they take 1 wound. On their turn they may spend 5 AP rolling on the ground to extinguish the fire, leaving them prone.
 
-\page
+
 Add a target for every level above 2nd.
 
 
@@ -1093,8 +1105,8 @@ ___
 You attempt to dispel a magical effect targeting a creature or area. Make a spellcasting roll vs 1 proficient die per level of spell you are trying to dispel. If the effect you are trying to break is actively being concentrated on by another creature make a spellcasting roll vs the creatures concentration instead. On success the magical effect ends. If targeting an effect caused by an object, such as a magic item or animated armor, they regain their magical effects after 10 minutes.
 
 You may target an additional effect for every level past 2nd.
-```
-```
+
+
 #### Counter Spell
 *3rd Level*
 ___
@@ -1151,7 +1163,7 @@ ___
 
 You attempt to animate a simple object made of plant, wood, stone, or metal no more than 1 tile in size. If the object is part of a larger construction (a stone wall, a dirt mound, etc) you add 1 terrible die to your roll as you try to force it free.
 
-\page
+
 Make a spellcasting roll adding a terrible die if the target is metal, on success you create a golem out of the object. The golem has 3 wounds and acts on your turn. It can take a move action to move 4 tiles and can make a single attack. The golem's attack uses 3 dice, improing one die for every success and adding a die for every crit. After the duration or if the caster is incapacitated the golem reverts to inanimate material.
 
 Add a proficient die for every level above 3rd. At 5th level you may target a 2x2 area, and at 7th a 3x3 area.
@@ -1233,7 +1245,7 @@ For the duration of the spell a creature is undetectable by most forms of magic.
 
 You may target an additional creature for every level above the 4th.
 
-\page
+
 
 #### Fire Shell
 *4th Level*
@@ -1269,8 +1281,8 @@ ___
 You attempt to mold a passage into a surface made of wood, stone, earth or other inorganic material creating a doorway up to 2x2 tiles in size. The passage can be at most 4 tiles deep, if there is no exit on the other side the spell automatically fails. Make a spellcasting roll, adding a terrible die for every 2 tiles of distance the passage creates. On success the passage is created.
 
 Add a proficiency die and increase the maximum depth by 2 tiles for every level cast above 4th. At 7th level and above you may cast this on metal surfaces as well.
-```
-```
+
+
 
 #### Orb of Acid
 *4th Level*
@@ -1286,7 +1298,7 @@ Regardless of outcome acid covers the floor for the next minute. Any creature th
 
 The radius of the blast increases by 1 for every level above 4th.
 
-\page
+
 
 #### Conjure Elemental
 *4th Level*
@@ -1376,7 +1388,7 @@ ___
 
 You create an illusory landscape covering a 10x10x10 tile area. The illusion can change the look, smell, sounds and temperature of the area. All effects happen in the creatures mind and have no effect on the creature themselves. The illusion covers the landscape, you may extend the illusion up to 6 inches from a surface with no ill effects, creatures will believe they are interacting with the illusion.
 
-\page
+
 
 You may cast the illusion over a cliff or gap, for example creating a bridge over a a ravine. A creature falling from your illusion makes a Willpower save vs your spellcasting, on fail they rationalize a reason for the outcome. Similarly you may create an illusion of something inside the space (eg: creating an illusion of a tower in a flat meadow), with the creature making a Willpower save when attempting to interact with it.
 
@@ -1451,7 +1463,7 @@ You summon storm clouds overhead in a 20 tile radius. For the duration the area 
 - **Downpour:** Torrential rainfall covers the area, extinguishing fires and greatly reducing visibility. A creature attempting to see through the rain and mists must make a perception check against your spellcasting. On fail they cannot see further than 3 tiles.
 
 - **Thunderstrike:** Call town a thundering bolt of lightning at a target creature. The creature makes a Dexterity save vs your spellcasting, on fail taking 3 wound dice in lightning damage. In addition, all creatures within 2 tiles of the target must make a Stamina save or take 2 wound dice in thunder damage, being knocked prone on crit.
-\page
+
 Add a proficiency die for every level above 7th.
 
 #### Power Word: Fire
@@ -1523,7 +1535,7 @@ The image looks identical to the creature it's based on, copying all clothes, ar
 For the duration of the spell you may choose to perceive through your senses or the image's senses. You may control the image as you would your own body; moving, interacting, and speaking as the image. When casting spells you may choose the image to be the source of the spell, and you may make attacks using the image, using your spellcasting roll for the attack. The image cannot be healed or repaired, once drops to 0 temporary wounds the spell ends. The image is destroyed when entering a zone similar to that of _Anti-Magic Field_.
 
 The duration increases to 8 hours at 8th level, and 1 day at 9th level.
-\page
+
 ### Curse
 
 #### Life Sense
@@ -1563,8 +1575,8 @@ If the target is an unwilling creature they make the save again at the end of th
 
 The maximum weight doubles for every level above cantrip.
 
-```
-```
+
+
 
 #### Witchcraft
 *Cantrip*
@@ -1620,7 +1632,7 @@ ___
 Curse a creature with misfortune. They must make a willpower save vs your spellcasting. On fail, the creature adds a bad die to all saving throws for the next day. If you crit they add a terrible die instead. The curse can be removed through lesser restoration.
 
 You may target an additional person for every level above the 1st.
-\page
+
 #### Hex Bolt
 *1st Level*
 ___
@@ -1656,8 +1668,8 @@ You summon a crow with obsidian feathers capable of cutting through flesh and ar
 
 Add a proficiency die for every level above the 1st.
 
-```
-```
+
+
 #### Black Tendrils
 *1st Level*
 ___
@@ -1693,7 +1705,7 @@ You take on a charming persona, attempting to charm up to 5 creatures in range. 
 
 Add a proficiency die for every level above the 1st.
 
-\page
+
 
 #### Sleep
 *1st Level*
@@ -1781,7 +1793,7 @@ Curse a creature, extending their suffering. They must make a willpower save vs 
 
 You may target an additional person for every level above the 2nd.
 
-\page
+
 
 #### Dull Intellect
 *2nd Level*
@@ -1882,7 +1894,7 @@ ___
 - **Damage Type:** Death
 
 You conjure a number of deadly, black thorn arrows. Make a spellcasting roll to conjure up to 5 arrows, adding a bad die for every arrow conjoured. These arrows count as +1 ammunition and can be thrown instead of fired from a bow. When thrown they use your spellcasting modifier for the attack and have a range of 10.
-\page
+
 
 On hit these arrows explode in a star pattern with 1 radius dealing 2 wound dice in death damage and inflicting blind until the end of the targets next turn. All other creatures in the blast must make a Stamina check against the arrows attack roll, taking 1 wound die in death damage and gaining blind until the end of their next turn.
 
@@ -1974,7 +1986,7 @@ ___
 Your form blurs as several illusory projections of yourself hide your true position. You create 3 illusions. Any time you would be attacked by a single target spell or attack the attacker must roll a perception check against your spellcasting. On fail, the attack misses, destroying one of the illusions. The spell ends once all illusions have been destroyed.
 
 Add a proficiency die for every level above 3rd.
-\page
+
 
 #### Frog Morph
 *3rd Level*
@@ -2014,8 +2026,8 @@ Change a creatures size, either doubling or reducing by half. When targeting an 
 - Reduce: Your body halfs in all proportions, decreasing your size by 1 level. You add 1 terrible die to all strength skills and saves, and 1 superior die to all dexterity skills and saves. Attacks you make replace all wounds dealt with wound dice.
 
 You may target an additional creature for every level cast above 3rd. All targets must either be Enlarged or Reduced.
-```
-```
+
+
 
 
 
@@ -2057,7 +2069,7 @@ You transform your body, turning into a dangerous beast. The creature must have 
 Make a spellcasting roll, your max wounds are increased by 1 for every crit rolled. If you are reduced to 0 wounds while in this form the spell ends, you take 2 wounds of damage and are incapacitated until the end of your next turn from the strain.
 
 Add a proficiency die and increase the CR by 1 for every level above 3rd.
-\page
+
 
 #### Curse of Slowness
 *4th Level*
@@ -2150,7 +2162,7 @@ ___
 You target a 4x4 area bestowing all creatures with a potent hex. All creatures must make a Willpower save vs your spellcasting roll. On fail, they gain 1 level of Hex, increasing by 1 for every crit rolled.
 
 Increase the area by 1 for every level above 4th.
-\page
+
 
 #### Intsigate
 *4th Level*
@@ -2199,8 +2211,8 @@ ___
 Curse a creature with pain. Make a spellcasting roll vs the creatures Willpower. On success the creature takes an additional wound die every time they take damage, or a full wound on crit.
 
 You may target an additional person for every level above the 5th.
-```
-```
+
+
 
 
 #### Suggestion
@@ -2240,7 +2252,7 @@ Curse a creature with unnatural fear. Make a spellcasting roll vs the creatures 
 
 You may target an additional person for every level above the 6th.
 
-\page
+
 #### Gravity Well
 *7th Level*
 ___
@@ -2267,7 +2279,7 @@ Curse a creature with sudden mortality. They must make a willpower save vs your 
 
 You may target an additional creature for every level above 8th.
 
-\page
+
 
 ### Divine
 
@@ -2377,7 +2389,7 @@ Send healing energy to a single target. Make a spellcasting roll, adding 2 terri
 
 Add a normal die for every level above the 1st.
 
-\page
+
 
 #### Holy Weapon
 *1st Level*
@@ -2428,8 +2440,8 @@ ___
 Shine blinding light in a cone infront of you. A cone of light 3 tiles long shines from you. Each creature must make a Stamina save vs your spellcasting, on fail they are blinded until the end of their next turn. If the creature is sensitive to daylight or bright light they also take 1 wound in Holy damage.
 
 The the length of the cone increases by 1 for every level above 1st.
-```
-```
+
+
 
 #### Tremor
 *1st Level*
@@ -2477,7 +2489,7 @@ Protect a creature with a holy aura. Target up to 5 creatures. Make a spellcasti
 
 Add a proficiency die for every level above the 2nd.
 
-\page
+
 
 #### Enhance Ability
 *2nd Level*
@@ -2514,8 +2526,8 @@ ___
 Mark a 3x3 area centered on yourself, purifying the ground. Any undead or monstrosity attempting to enter the consecrated ground must make a Charisma save vs your spellcasting. On fail they cannot willingly enter. Any undead inside the consecrated ground takes 1 wound at the start of their turn. Allies inside the zone gain 1 proficiency on all saving throws. You may move normally, however leaving the area ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.
 
 The area increases by 2 for every level cast above 2nd (5x5 at 3rd level, 7x7 at 4th, etc).
-```
-```
+
+
 
 #### Gust
 *2nd level*
@@ -2567,7 +2579,7 @@ A blast of holy light emits from your symbol. All undead within 10 ft must make 
 
 Add a wound die for every level above the 3rd. Each wound rolled deals an additional wound if the target fails it's save.
 
-\page
+
 
 #### Revive
 *3rd Level*
@@ -2608,8 +2620,8 @@ Attempt to commune with local nature spirits, gaining one as your guide. Make a 
 - Wolf: +3 to diplomacy proficiency. When helping or being helped by an ally, add 2 superior dice instead of 1.
 
 Add a proficient die to your roll for every level cast above 3rd.
-```
-```
+
+
 #### Beacon
 *3rd level*
 ___
@@ -2647,7 +2659,7 @@ You attempt to summon a willing creature to your location. Make a spellcasting r
 You may instead cast this into a small object or trinket using the 'Passing Aquaintance' difficulty. Successfully casting this every day for 10 days makes the spell permanent. Anyone holding the object and speaking the command word is teleported to the casting location. For the spell to take hold it must be cast each day in the same place with the same target location.
 
 Add a proficiency die for every level cast above 3rd.
-\page
+
 ##### Summoning Difficulty
 | Familiarity | Difficult |
 |:----:|:-------------|
@@ -2697,8 +2709,8 @@ You draw poison and disease from up to 5 target creatures, purifying their bodie
 
 Add a proficiency die for every level above 3rd.
 
-```
-```
+
+
 
 
 
@@ -2750,7 +2762,7 @@ Choose a target in range you can see that is capable of looking at you. The targ
 
 Add a proficiency die to the roll for every level above the 4th.
 
-\page
+
 
 
 
@@ -2842,7 +2854,7 @@ A holy light eminates bright light in 3 tiles and dim light a further 3. Any und
 
 The radius of the bright light increases by 1 for every level above 5th.
 
-\page
+
 
 #### Awaken Soul
 *5th level*
@@ -2881,8 +2893,8 @@ ___
 Channel your divine wrath at a target creature, burning their body with holy might. Make a spellcasting roll vs the targets Stamina, on success the target takes 6 wounds, plus an additional wound die for every crit rolled. On fail the target takes 6 wound die in damage instead. Damage dealt from this spell reduces the targets maximum wounds an equal amount, recovering 1 max wound every day. casting _Heal_ on a creature removes this effect.
 
 This deals an additional wound for every level above the 6th.
-```
-```
+
+
 
 
 
@@ -2932,7 +2944,7 @@ ___
 
 You invoke the name of your deity to smite any creatures in range that can hear you. All creatures targeted must make a Charisma save vs your religion check, on fail they gain the following depending on their remaining wounds, increasing the threshold by 1 for every crit rolled:
 
-\page
+
 
 - 8 wounds or fewer: blinded for 1 minute
 - 5 wounds or fewer: blinded and feared for 10 minutes
@@ -3039,8 +3051,8 @@ As a reaction you can make an attack against any target moving in range of you. 
 
 ***Enhanced:*** Add a superior die to the attack roll.
 
-```
-```
+
+
 
 #### Protector
 ___
@@ -3102,7 +3114,7 @@ Make a ranged attack against a target, adding a proficiency die to the roll. On 
 
 ***Enhanced:*** Add a superior die instead of a proficiency die.
 
-\page
+
 
 #### Hail of Arrows
 ___
@@ -3151,8 +3163,8 @@ Can only be used when the target of a ranged weapon attack. Instead of making a 
 
 ***Enhanced:*** After catching the projectile you may spend 2 AP to fire the projectile back, as long as you have a ranged weapon that can fire the projectile. Add 1 proficiency die to the roll.
 
-```
-```
+
+
 
 #### Inspiring Words
 ___
@@ -3200,7 +3212,7 @@ Take advantage of a situation. Can only be used against a target that has a cond
 
 ***Enhanced:*** Add 2 superior dice to your attack roll.
 
-\page
+
 
 
 #### Suplex
@@ -3249,8 +3261,8 @@ Only usable against a target that rolls 4 or more defense dice. Slide your blade
 
 ***Enhanced:*** The targets superior defense dice are replaced with normal defence dice. On crit, the target takes a random lesser wound instead of adding a wound die.
 
-```
-```
+
+
 
 #### Smite
 ___
@@ -3295,7 +3307,7 @@ ___
 You channel magic into your weapon, empowering the next attack and consuming a spell slot. Make a weapon attack against a target adding 1 proficient die to the roll, on hit the target takes normal damage. Regardless of the outcome the arrow turns to energy and pierces through, hitting 2 tiles directly behind the target. Any creatures hit must make a defense roll vs your attack, taking a wound on hit. The arrow pierces 1 tile further per spell level consumed.
 
 ***Enhanced:*** On crit, deal an additional wound die to all targets.
-\page
+
 #### Careful Advance
 ___
 - **AP Cost:** 5/4
@@ -3345,8 +3357,8 @@ You begin with Hide Armor, and 3 weapons you are proficient in.
 #### Noble
 You start with double starting gold and gain proficiency in a martial weapon. Your skill in trade and court proceedings allows you to improve 1 proficient die to a superior die for all charisma skills. You gain 5 proficiency points to spend among skills. You start with Padded armor and 1 martial weapon of your choice.
 
-```
-```
+
+
 
 #### Ranger
 Your time hunting and wandering through the wilderness has honed your skills. You gain 1 proficency with a ranged weapon, Nature, Survival and Animal Handling and your Move speed increases by 1 tile. In addition, you can improve 1 die to a superior die for initiative, Nature, Survival, and Animal Handling rolls. You start with Studded armor and 1 weapon of your choice.
@@ -3373,7 +3385,7 @@ You have learned the trade of an enchanter, allowing you to empower mundane item
 #### Innate Gift
 You have always had an affinity to magic, either through heritage or bestowed upon you by a greater power. You are able to bend magic in ways others cant. When casting a spell you may reroll 1 dice in both the spellcasting roll and the damage roll, taking the new result. You can do this a number of times equal to your Intelligence, refreshing every long rest.
 
-\page
+
 
 You gain +1 proficiency in arcana and conversation. You start with 2 spell slots and 4 known spells, either cantrip or 1st level, in your codex.
 
@@ -3466,7 +3478,7 @@ If you move at least 2 tiles before making an attack or maneuver, roll an additi
 #### Charmer
 *Requires 2 Conversation Proficiency*
 When rolling a Conversation challenge against a non-hostile creature you add a superior die to the roll. On a crit the creature treats you as a friend for the next day.
-\page
+
 #### Keeper of Lore
 *Requires Proficiency with Lore*
 You add 2 superior dice when rolling a Lore challenge to identify a magic item. On crit you know if an item is cursed or not.
@@ -3526,8 +3538,8 @@ Choose a maneuver you know. This maneuver can be used every turn, and you add 1 
 Once per turn, when a creature takes a movement action towards you, you can spend 2 AP to make a ranged weapon attack as a reaction as long as the creature is in range.
 
 
-```
-```
+
+
 #### Blessed Healing
 *Requires proficiency with Divine spells*
 
@@ -3569,7 +3581,7 @@ When casting an Arcane spell you may cast a second copy of the spell, using an a
 
 Curses you cast last for 7 days instead of 1. If you only target a single creature with a curse, add a superior die to the spellcasting roll.
 
-\page
+
 #### Powerful Enchantments
 *Requires proficiency with Enchanters Tools*
 
@@ -3599,6 +3611,12 @@ If you enchant an item with the same property every day for 7 days the effect be
 *Requires proficiency with Apothecary Set*
 
 When using your Apothecary set you create 2 potions instead of 1.
+
+#### Keen Reflexes
+*Requires level 12*
+
+You gain expertise in 2 saving throws.
+
 ### Advanced
 
 #### Iron Grip
@@ -3692,7 +3710,7 @@ A set of tools for picking a variety of locks. Anyone can use a lockpicking set,
 
 
 
-\page
+
 
 
 
@@ -3794,7 +3812,7 @@ A rugged cloak lined with pockets, it billows heroically even when there is no w
 
 The item lasts for 1 hour, after which it turns to dust.
 
-\page
+
 #### Wand of Cinders
 *Wonderous Item*
 
@@ -3880,7 +3898,7 @@ While wearing this medallion your max wounds increases by 1.
 
 You are immune to fear. Anytime you make an Intelligence, Willpower, or Charisma save you may reroll 1 die, keeping the new value.
 
-\page
+
 
 #### Blueflame Lantern
 *Wonderous Item*
@@ -3963,7 +3981,7 @@ You channel the masks power to create a large orb of negative energy. You send t
 
 If this would reduce a creature to 0 wounds their body is consumed by the Orb, vaporizing and leaving no body behind. This manuever can be used once, afterwhich you must long rest before using again.
 
-\page
+
 
 #### Boneplate Armor
 *Magic Leather Armor +1, Requires Attunement*
@@ -4059,7 +4077,7 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
  
 </div>
 
-\page
+
 
 <div class='wide'>
 ### Wounds
@@ -4107,7 +4125,7 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
   You may attempt to repair a single piece of equipment over a long rest. Roll a Repair roll adding 2 bad and 1 terrible die. On success the gear is repaired by 1 level, or 2 on a critical. If you fail with a criticalical failure the gear instead loses a level. You may attempt to repair magical gear, adding a terrible die for every modifier on the item.
 </div>
 
-\page
+
   
 <div class='wide'>
 #### Apothecary Set
@@ -4167,8 +4185,8 @@ ___
 
 When brewing this potion choose an attribute. On drinking, for the next 4 hours all skill proficiencies for that attribute are increased by 1.
 
-```
-```
+
+
 
 
 
@@ -4211,7 +4229,7 @@ ___
 
 On hit, inflicts Poison 1 and reduces all proficiencies by 1 for 10 minutes.
 
-\page
+
 
 ##### Nightbleed Poison
 ___
