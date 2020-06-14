@@ -4027,6 +4027,7 @@ This dull blue dagger emits faint wisps of smoke visible even when sheathed. Whe
 
 
 <div class='wide'>
+
 ### Items
 
 #### Mundane Gear
@@ -4080,13 +4081,14 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 
 
 <div class='wide'>
+
 ### Wounds
 
   #### Lesser Wounds
   Roll 3 terrible dice, adding the successes. For each critical, move up one level.
   
 | | Roll | Wound | Effect |
-|:----:|:----:|:----|
+|:----:|:----:|:----:|:----:|
 | | -9 | Bleeding | All blank wound die rolled against you are rerolled. |
 | | -8 | Festering Wound | Your max wounds is reduced by 1. |
 | | -7 | Winded | You have 1 less maximum AP. |
@@ -4102,7 +4104,7 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
   Roll 3 terrible dice, adding the successes. For each critical, move up one level.
   
 | | Roll | Wound | Effect |
-|:----:|:----:|:----|
+|:----:|:----:|:----:|:----:|
 | | -9 | Deadly Infection | Your max wounds is reduced by 1. At the end of each Long rest your max wounds is reduced again. |
 | | -8 | Broken Arm | You can only hold a One-Handed weapon or shield, not both. |
 | | -7 | Punctured Chest | All wound dice count as a wound, regardless of result. |
@@ -4128,6 +4130,7 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 
   
 <div class='wide'>
+
 #### Apothecary Set
 
 A portable set of tools required to brew potions over a campfire. During a long rest you may attempt to brew a single potion or poison if you have the right ingredients, or you may search your surroundings for ingredients.
@@ -4136,7 +4139,7 @@ Based on your surroundings you you may make a normal Survival skill challenge, i
 
 ##### Wilderness Survival Rewards
 | Area | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Plains | Vitalflower | Skillwheat | Poison Nettle | Healroot | Healroot | None | None |
 | Forest  | Lucky Leaf | Nightshade | Cleansebloom | Poison Nettle | Healroot | Healroot | None |
 | Mountains | Buff Beetle | Cleansebloom | Skillwheat | Healroot | None | None | None |
