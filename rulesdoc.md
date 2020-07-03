@@ -2290,7 +2290,7 @@ ___
 - **Range:** 2
 - **Duration:** 1 minute
 
-Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature targeted. On a success the creature can add a proficiency die to their next attack roll. On crit they add a superiority die instead.
+Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature targeted. On a success, the creature can add a proficiency die to their next attack roll or damage-dealing spell roll. On crit they add a superiority die instead.
 
 Add a proficiency die for every level above cantrip.
 
