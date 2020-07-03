@@ -183,13 +183,13 @@ Skills represent how good your character is at completing different tasks and ac
 |  | Survival |
 | *Intelligence* |  |
 |  | Arcana |
+|  | Investigation |
 |  | Lore |
 |  | Medicine |
-|  | Nature |
 | *Willpower* |  |
 |  | Animal Handling |
 |  | Insight |
-|  | Investigation |
+|  | Nature |
 |  | Perception |
 | *Charisma* |  |
 |  | Conversation |
