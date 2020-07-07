@@ -103,7 +103,6 @@ Wounds are used to determine how hard a character is to kill, the more wounds yo
 
 Some abilities or effects inflict Lesser or Greater wounds. These do not deal damage, but do leave lasting effects. Lesser wounds can be cured through magic, or heal naturally over a long rest. Greater wounds can be difficult to cure by magic and do not heal naturally.
 
-
 ### Death Saves
 
 When a character takes enough damage to drop them to 0 wounds or below they become unconscious and start making death saves. While unconscious in this way you gain temporary wounds equal to half your total wounds rounded up. At the start of each of your turns you roll a wound die, losing 1 of your temporary wounds if the die rolls a wound. If you lose all of your temporary wounds your character dies.
@@ -112,19 +111,18 @@ Death saves aren't the only way you can lose temporary wounds, creatures can sti
 
 You can attempt to stabilize a character by making a medicine check. The check takes 10 AP and you must be beside the downed character to make it. Roll a medicine check, adding a Terrible die for every temporary wound the character is missing. On success the character is stabilized, on fail the character restores a temporary wound for every crit success in your medicine check. A stabilized players's wounds are set to 1 and they no longer make death saving throws, gaining consciousness after 10 minutes.
 
-
 ### Action Points
 
 Action Points (AP) are used during combat as a way of tracking how much you can get done during your turn. Action Points are refilled at the start of your turn and are spent taking actions, such as moving, attacking, or casting spells. Any unspent Action Points can be spent on reactions even when it's not your turn. Reactions are triggered by specific actions, for example opportunity attacks can only be made when a creature tries to leave your zone of control. At the start of your next turn you lose any unspent Action Points from the previous turn.
 
 ### Maneuvers
 
-Maneuvers are special actions and reactions that can be learned by your character. They can be learned by anyone, but most maneuvers require a weapon to be used. Using a maneuver is the same as taking any other action during your turn, however they have the following restrictions:
+Maneuvers are special abilities that can be learned by your character. They can be learned by anyone, but most maneuvers require a weapon to be used. Using a maneuver is the same as taking any other action during your turn, however they have the following restrictions:
 
 - You may only use one maneuver per turn, reaction maneuvers excluded.
 - You cannot use the same maneuver on two consecutive turns in a row.
 
-Additionally, most maneuvers have weapon or level requirements, or can only be used in specific situations, such as when an ally is attacked. The level requirement for maneuvers shows 2 levels, the first being the level you need to learn the maneuver and the second being it's enhanced level. At that level the maneuver gains the effects described in the 'enhanced' textblock.
+Additionally, most maneuvers have weapon or level requirements, or can only be used in specific situations, such as when an ally is attacked. The level requirement for maneuvers shows 2 levels, the first being the level you need to learn the maneuver and the second being it's enhanced level. When your character reaches the maneuver's enhanced level it gains the effects described in the 'enhanced' textblock.
 
 ### Healing Surge
 
@@ -135,37 +133,35 @@ Healing surges are used to heal wounds your character has suffered during a shor
 Some abilities may impose combat advantage against you or an enemy. Someone who grants combat advantage are easier to hit, giving anyone who makes an attack or spell attack against the creature an extra superior die to their roll.
 
 ### Attributes
-Your characters aptitude is represented by 6 core attributes: Strength, Dexterity, Stamina, Intelligence, Willpower, Charisma.
+Your characters aptitude is represented by 6 core attributes: Strength, Dexterity, Stamina, Intelligence, Willpower, Charisma. Each attribute governs a number of skills in addition to the following:
 
 #### Strength
-How strong you are, effects how much you can lift, how many dice you roll when attacking with most melee weapons, and governs physical skill checks.
+Each point of Strength adds an additional die to your melee attacks.
 
 #### Dexterity
-Effects how many dice you roll with ranged weapons and some melee weapons, how good you are at avoiding traps or spell effects, your initiative in combat and skill checks that require balance, sleight of hand, etc.
+Each point of Dexterity adds an additional die to your ranged attacks and melee weapons with the _finesse_ property
 
 #### Stamina
-Each point of Stamina increases your max wounds by 1. While not used in skill checks, this is used for things like resisting desease or poison and maintaining concentration.
+Each point of Stamina increases your max wounds by 1.
 
 #### Intelligence
-How much of a smarty smarty pants you are. Effects how many dice you roll with arcane spells, and skills like arcana, investigation and perception.
+Each point of Intelligence adds an additional die to your Arcane spellcasting rolls.
 
 #### Willpower
-The stamina of the brain. Effects how many dice you roll with curse spells and how good you are at saving against them.
+Each point of Willpower adds an additional die to your Curse spellcasting rolls.
 
 #### Charisma
-Effects how many dice you roll with divine spells, how good you are at talking to people.
+Each point of Charisma adds an additional die to your Divine spellcasting rolls.
 
 ## Proficiency
-Farhome has no global proficiency modifier, instead each skill, spell school, attribute save, and weapon type has it's own proficiency modifier. When you create your character and when you level up you can gain proficiency points to spend across proficiencies.
+Proficiency is a measure of how capable your character is at a given skill or task. Every skill, weapon type, spell school, tool, and attribute save have their own proficiency values which can be increased as your character grows. With the exception of spell schools or attribute saves, there is no limit on how many skills you can be proficient in.
 
-Proficiency improve the normal dice you use in the relevant roll, increasing one normal die to a proficient die for every proficiency point you have. There is no cap to your proficiencies, however you gain no benefit from a proficiency point if there are no normal dice to improve.
-
-Some proficiencies, such as spell schools and attribute saves, require a feat to learn or can only be gained when creating your character.
+When making a roll for something you are proficient in, you replace a normal die with a proficient die for every point of proficiency. If you have no normal dice to improve this way the remaining proficiency has no effect. If you have expertise in a skill you add superior dice instead of proficient.
 
 
 ### Skills
 
-Skills represent how good your character is at completing different tasks and actions. Each skill has an associated attribute, and each skill has it's own proficiency modifier. There is no restrictions in who can learn which skills, and new ones can be learned by spending proficiency points when you level up.
+Skills represent how good your character is at completing different tasks and actions. Each skill has an associated attribute, and each skill has it's own proficiency modifier. There are no restrictions for which skills a player can add proficiency for.
 
 ##### Skill Table
 |  |  |
@@ -183,22 +179,19 @@ Skills represent how good your character is at completing different tasks and ac
 |  | Survival |
 | *Intelligence* |  |
 |  | Arcana |
+|  | Investigation |
 |  | Lore |
 |  | Medicine |
-|  | Nature |
 | *Willpower* |  |
 |  | Animal Handling |
 |  | Insight |
-|  | Investigation |
+|  | Nature |
 |  | Perception |
 | *Charisma* |  |
 |  | Conversation |
 |  | Diplomacy |
 |  | Performance |
 |  | Religion |
-
-
-
 
 ### Tools
 
@@ -210,26 +203,25 @@ To use tools, you need to have at least 1 proficiency in the tool skill. Their f
 | Apothecary Set  | Willpower |
 | Enchanters Tools | Intelligence |
 
-
-
 ### Attribute Saves
 
-When creating your character you may spend some of your starting points on gaining proficiency in an attribute save. This is the only time these can be learned, but you may increase the proficiency modifier at any time for attribute saves you are proficient in.
+Each core attribute has an associated attribute save. Attribute saves are a measure of how resistant your character is to specific spells or effects. For example, someone trying to shove you would make a roll against your Strength save, or dodging a trap would roll against your Dexterity save.
+
+You can only add proficiency to attribute saves you have learned through creating your character and leveling up.
 
 ### Spell Schools
 
-There are 3 schools of magic: Arcane, Curse, and Divine. Each school uses its own proficiency, and can only be learned through feats.
-
+There are 3 schools of magic: Arcane, Curse, and Divine. Each school uses its own proficiency, and can only be learned through feats or during character creation.
 
 ### Weapons
 
-Weapons are split between simple and martial weapons. Simple weapons can be used by anyone and don't use their own proficiency modifier. Instead you use the relevant martial proficiency.
+Weapons are split between simple and martial weapons. Simple weapons can be used by anyone and don't use their own proficiency modifier. Instead you use the relevant martial proficiency. When using a martial weapon that you don't have proficiency with you add 1 terrible die to the attack roll.
 
-Martial weapons are split between 7 categories: One-hand and two-handed variants for Slashing, Piercing, and Bludgeoning weapons, and ranged weapons. You may still use a martial weapon you have no proficiency for, however you add 1 bad die to all attack rolls made with this weapon.
+Weapon proficiencies are split between 4 categories: One Handed, Two Handed, Ranged, and Unarmed.
 
 ## Spells
 
-Spells are split into 3 schools: Arcane, Curse, and Divine. Each school handles a different type of spell and uses a different attribute for its spellcasting. Arcane spells use the elements to deal as many wounds as possible and uses Intelligence. Curse spells disable and debuff their targets and uses Willpower. Divine spells center around healing and buffing targets and uses Charisma.
+Spells are split into 3 schools: Arcane, Curse, and Divine. Each school handles a different type of spell and uses a different attribute for its spellcasting. Arcane spells use the elements and raw power to defeat their foes, using Intelligence for its attribute. Curse spells disable and debuff their targets and uses Willpower. Divine spells center around healing and buffing targets and uses Charisma.
 
 To cast a spell you must have a codex containing the spell you want to cast, have the spell prepared, and have a spell slot with a high enough level to cast the spell.
 
@@ -248,10 +240,9 @@ Casting spells of 1st level and above takes a toll on the caster, a character ca
 
 Before you can cast a spell from your Codex you must prepare it. Every long rest you can prepare 5 spells, adding 3 for every point of Intelligence you have. Having negative Intelligence does not reduce the number of spells you can prepare.
 
-
 ### Casting Spells
 
-Each spell has either an AP cost or a time given as its Casting time. There is no limit to the number of spells you can cast a turn, as long as you meet the requirements. Casting a spell that lists a time instead of AP can still be used in combat, but requires the casting time worth of full turns. For example casting a spell with a cast time of 1 minute requires 3 full turns to cast.
+Each spell has either an AP cost or a time given as its casting time. There is no limit to the number of spells you can cast a turn, as long as you have the AP to do so. Casting a spell that lists a time instead of AP can still be used in combat, but requires the casting time worth of full turns. For example casting a spell with a cast time of 1 minute requires 3 full turns to cast.
 
 All spells, including cantrips, can be cast at a higher level if you have a spell slot available. Casting spells this way give additional effects listed in the spell.
 
@@ -294,13 +285,13 @@ Roll 2 bad dice, counting the successes.
 
 
 ## Creating a Character
-While there are no classes in Farhome, there is some starting structure to your character. All characters begin the game with a beginner feat. These feats are more powerful then normal feats and generally push your character towards one direction. For example, the _Witch_ feat gives you proficiency in Curse spells, a spellbook with 2 level 1 spells and 2 level 1 spell slots.
+Farhome has no classes or archtypes beyond the background feats you choose. Every player is free to create their character as they wish.
 
-In addition to beginner feats you also pick a race. The race determines your starting wounds, how far you can move with a move action and how many tiles you can move while sprinting, as well as your starting stat bonuses.
+To begin, choose a race for your character. The race determines your starting wounds, how far you can move or sprint, as well as your starting stat bonuses. Each race has a unique feat that all of people their race share. Choose a background feat for your character. These feats can only be gained during character creation and determine what kind of skills or abilities your character has learned.
 
-Next, you get to set your attributes. You start with a -1 to all attributes and get 9 points to buy attributes. Attributes cost 1 point per attribute, or 2 points for attributes above 3. The maximum value you can have is 5. 
+Next, assign your attribute scores. You start with a -1 to all attribute scores, applying any bonuses from your race, and finally adding 9 points split across your attributes. Increasing an attribute score above 3 costs 2 points, and no attribute can be above 5.
 
-Choose an attribute gain proficiency in it's saving throw, starting it at 1. In addition you gain 4 proficiency points to spend on any skill, save, or abiltiy you are capable of.
+Choose an attribute save, gaining 1 proficiency for that save. In addition you gain 4 proficiency points to spend on any skill, save, or abiltiy you are capable of.
 
 Finally, choose 2 of the following bonuses.
 
@@ -319,8 +310,6 @@ Instead of using the rules above for attributes, your group may decide to roll y
 ### Starting Equipment.
 Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire starter and 50ft of rope. In addition you start with 50 gold which you can spend on gear or upgrades. Any unspent gold becomes your characters starting money.
 
-
-
 | Cost | Upgrade |
 |:----:|:-------------|
 | 5g  | Buy any simple weapon. |
@@ -328,19 +317,18 @@ Depending on your background you may start with additional gear. All players sta
 | 10g | Basic Healing Potion |
 | 10g | Buckler |
 | 15g | Padded or Studded armor. |
-| 20g  | any martial weapon. |
-| 20g  | Upgrading armor to the next type |
-
+| 15g | any martial weapon. |
+| 20g | Upgrading armor to the next type |
 
 ## Leveling Up
 
-When you earn 1000 experience your character levels up. Leveling is similar to spending Perk points when you created your character. You can choose not to spend all your perk points for this level, saving the leftovers for next. Each level you gain 2 proficiency points and choose one of the following bonuses:
+When you earn 1000 experience your character levels up. Each level you gain 2 proficiency points and choose one of the following bonuses:
 
-- Gain up to 4 spell slots
+- Gain up to 4 spell slots*
 - Gain 4 proficiency points
 - Gain a Feat
 - Learn a Maneuver
-- Increase your max Wounds by 1
+- Increase your max wounds by 1
 
 ##### Spell Slots
 The sum total of spell slots gained each level cannot exceed twice your Spell level, and each spell slot cannot exceed your Spell level. 
@@ -360,21 +348,21 @@ For example, a 2nd level player has a spell level of 1, and so can gain 2 level 
 Starting at level 3, every 3 levels you can increase an attribute by 1.
 
 ### Action Points
-You gain an additional Action point at level 10 and 20.
+You gain an additional Action point at levels 10 and 20.
 
 ### Additional Saving Throw
 You gain proficiency in an additional saving throw at level 12.
 
 ### Earning Experience
-Players earn experience after every encounter based on the difficulty of the encounter. Ideally characters should be leveling up once every 2-4 encounters. Experience is earned based on how difficult it is for the players to overcome the encounter, not by how much experience an individual monster gives.
+Players earn experience after every encounter based on the difficulty of the encounter. Ideally characters should be leveling up once every 3-6 encounters. Experience is earned based on how difficult it is for the players to overcome the encounter, not by how much experience an individual monster gives.
 
 
 ##### Encounters
 | Difficulty | Experience | CR level |
 |:----:|:-------------:|:-------------:|
 | Easy  | 100 | 75% Party Level |
-| Average  | 250 | Party Level |
-| Hard | 500 | 125% Party Level |
+| Average  | 100-250 | Party Level |
+| Hard | 250-500 | 125% Party Level |
 
 
 ## Combat
@@ -3415,7 +3403,7 @@ Choose an enemy type: goblinoid, beast, humanoid, giant, dragon, fey, demon, und
 You do not take penalities to initiative, spellcasting, or dexterity checks while wearing medium armor as long as you meet the strength requirement. In addition, when you are the target of an attack, you may reroll a single defense die as long as the attack did not crit.
 
 #### Heavy Armor Expert
-You do not take penalities to initiative, spellcasting, or dexterity checks while wearing medium armor as long as you meet the strength requirement. In addition, you negate the effects of a single crit die when the target of an attack. The crit still counts as 2 successes, but does not trigger effects from critial hits.
+You do not take penalities to initiative, spellcasting, or dexterity checks while wearing heavy armor as long as you meet the strength requirement. In addition, you negate the effects of a single crit die when the target of an attack. The crit still counts as 2 successes, but does not trigger effects from critial hits.
 
 #### Quick Healing
 You gain 4 Healing Surges instead of 3 each long rest. When rolling Healing Surges, roll 4 wound dice instead of 3.
@@ -3585,7 +3573,7 @@ Curses you cast last for 7 days instead of 1. If you only target a single creatu
 #### Powerful Enchantments
 *Requires proficiency with Enchanters Tools*
 
-You improve 2 proficient die to superior when making Enchantment rolls. Enchantments you make last 7 days.
+You add 1 superior die when making Enchantment rolls. Enchantments you make last 7 days.
 
 #### Developed Gift
 *Requires Innate Gift, 5th Level*
@@ -4086,14 +4074,14 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
   Roll 3 terrible dice, adding the successes. For each critical, move up one level.
   
 | | Roll | Wound | Effect |
-|:----:|:----:|:----|
+|:----:|:----:|:----:|:----|
 | | -9 | Bleeding | All blank wound die rolled against you are rerolled. |
 | | -8 | Festering Wound | Your max wounds is reduced by 1. |
 | | -7 | Winded | You have 1 less maximum AP. |
 | | -6 | Sprained Wrist | Add a terrible die to all attack rolls made with your main-hand weapon. |
 | | -5 | Minor Concussion | Add 1 bad die to spellcasting rolls, you must pass a concentration check every turn while concentrating. |
 | | -4 | Bruised Leg | Your speed and sprint speed are reduced by 2, to a minimum of 1. |
-| | -3 | Bruised Shoulder | Bucklers add a normal die instead of a defense die, shields add a defense die instead of a superior defense die. |
+| | -3 | Bruised Shoulder | Shields do not add defense dice and offhand attacks add 1 bad die to the attack roll. |
 | | -2 | Face Wound | Add 2 bad dice to all Willpower and Charisma skill challenges. |
 | | -1 | Exhaustion | You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound. |
 | | 0 | Numb | You have 1 less proficiency for all modifiers. |
@@ -4102,8 +4090,8 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
   Roll 3 terrible dice, adding the successes. For each critical, move up one level.
   
 | | Roll | Wound | Effect |
-|:----:|:----:|:----|
-| | -9 | Deadly Infection | Your max wounds is reduced by 1. At the end of each Long rest your max wounds is reduced again. |
+|:----:|:----:|:----:|:----|
+| | -9 | Deadly Infection | Your max wounds are reduced by 1. At the end of each Long rest your max wounds are reduced again. |
 | | -8 | Broken Arm | You can only hold a One-Handed weapon or shield, not both. |
 | | -7 | Punctured Chest | All wound dice count as a wound, regardless of result. |
 | | -6 | Magic Tearing | Add bad dice to your spellcasting rolls equal to the spell slot's level. Spells Misfire if you fail your roll, regardless of ability. |
@@ -4136,7 +4124,7 @@ Based on your surroundings you you may make a normal Survival skill challenge, i
 
 ##### Wilderness Survival Rewards
 | Area | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Plains | Vitalflower | Skillwheat | Poison Nettle | Healroot | Healroot | None | None |
 | Forest  | Lucky Leaf | Nightshade | Cleansebloom | Poison Nettle | Healroot | Healroot | None |
 | Mountains | Buff Beetle | Cleansebloom | Skillwheat | Healroot | None | None | None |
