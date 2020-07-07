@@ -2278,7 +2278,7 @@ ___
 - **Range:** 2
 - **Duration:** 1 minute
 
-Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature targeted. On a success the creature can add a proficiency die to their next attack roll. On crit they add a superiority die instead.
+Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature targeted. On a success, the creature can add a proficiency die to their next attack roll or damage-dealing spell roll. On crit they add a superiority die instead.
 
 Add a proficiency die for every level above cantrip.
 
@@ -4015,6 +4015,7 @@ This dull blue dagger emits faint wisps of smoke visible even when sheathed. Whe
 
 
 <div class='wide'>
+
 ### Items
 
 #### Mundane Gear
@@ -4068,6 +4069,7 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 
 
 <div class='wide'>
+
 ### Wounds
 
   #### Lesser Wounds
@@ -4116,6 +4118,7 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 
   
 <div class='wide'>
+
 #### Apothecary Set
 
 A portable set of tools required to brew potions over a campfire. During a long rest you may attempt to brew a single potion or poison if you have the right ingredients, or you may search your surroundings for ingredients.
