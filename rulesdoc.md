@@ -45,7 +45,7 @@ When calculating your roll, regardless of type, you always add up your own dice 
 
 At this stage process any modifiers from abilities, skills or features that effect your roll. For example, you would process the Hex condition here, nullifying a remaining critical. If you do not have at least 1 success at this point the roll is considered a fail.
 
-Comparing rolls follows the same rules: Opponents remaining successes nullify your successes, and their criticals nullify your criticals. Finally, if you have 0 or more successes the roll is a success. All ties are considered a success for the instigator.
+Comparing rolls follows the same rules: Opponents remaining successes nullify your successes, and their criticals nullify your criticals. Finally, if you have 1 or more successes the roll is a success. Ties favor the defender if there is one, or the most neutral action.
 
 #### Types of Rolls
 The minimum number of dice you can roll is 1 normal die, or 1 defense die for defense rolls. Most rolls use an attribute, adding a normal dice for each point in the attribute. Attributes that are negative add bad dice instead. For example, making a roll that uses Strength you would roll 1 + your Strength score in dice.
@@ -375,11 +375,11 @@ Combat is broken down into rounds where every combatant gets a turn. Turn order 
 
 When combat starts every player rolls for initiative. By default, you roll 5 normal dice, improving 1 to proficient dice for every point of dexterity you have, with negative dex converting die to bad die.
 
-You add a flat success/fail modifier depending on the circumstances. Surprised creatures start with 3 failures. Unarmored creatures get 1 success, light armor gets none, medium armor gets 1 failure, and heavy armoy gets 2 failures. These values can be changed by feats or skills, and other die may be added.
+You add a flat success/fail modifier depending on the circumstances. Surprised creatures start with 3 failures. Unarmored creatures get 1 success, light armor gets none, medium armor gets 1 failure, and heavy armoy gets 2 failures. These values can be changed by feats or skills, and other dice may be added.
 
 ### On your turn
 
-Each turn your action points are refilled to your AP maximum. You can spend any amount of AP on your turn, and any unused AP can be used on reactions during the rest of the round. You gain no benefit for any unspent AP when your turn comes again.
+Each turn your action points are refilled. You can spend any amount of AP on your turn, and any unused AP can be used on reactions during the rest of the round. You gain no benefit for any unspent AP when your turn comes again.
 
 #### Attack (5 AP)
 Make a single weapon attack against a target creature. The actual damage, range, and effects of an attack depend on the individual weapon. Unarmed attacks use Strength and use a wound die to determine if the attack deals damage.
@@ -395,15 +395,13 @@ You may end a grapple at any time. A grappled creature can attempt to free thems
 Until your next turn, you improve your defense dice to superior defense dice equal to your dexterity, with a minimum of 1, or 2 with a shield.
 
 #### Move (3 AP, once per turn)
-You may move up to your move speed in tiles. Some terrain may cost more than 1 tile's worth of movespeed. Movement does not have be done all at once, using the 'Move' action essentially gives you move points that can be spent at any time during your turn.
-
-
+You may move up to your move speed in tiles. Some terrain may cost more than 1 tile's worth of movespeed. Movement does not have be done all at once, you can split your movement as many times as you want.
 
 #### Sprint (2 AP, can only be used after move, once per turn)
 You may move up to your sprint speed + dexterity in tiles.
 
 #### Reaction Attack (2 AP)
-When a creature tries to leave your zone of control (the 5 adjacent tiles in front of your character, making a U shape) you may make a reaction attack against them. Mechanics are identical to the 'Attack' action.
+When a creature tries to leave your zone of control (the 5 adjacent tiles in front of your character, making a U shape) you may make a reaction attack against them. You cannot use maneuvers (unless the maneuver says it can be used as a reaction) and the attack uses the default Attack rules.
 
 #### Off-hand Attack (2 AP, can only be used after attack, once per turn)
 When dual wielding, as long as you have made a single 'Attack' action, you may make an attack with your offhand weapon. This attack is identical to the 'Attack' action, except you do not get any bonus from proficiency.
@@ -411,12 +409,15 @@ When dual wielding, as long as you have made a single 'Attack' action, you may m
 #### Use (2 AP)
 The default for using an item, drinking a potion, activating a magic item, or interacting with an object (eg: pulling a switch). Some magic items will give their own AP costs, using those instead. You can only use one potion each turn.
 
+##### Variant Rule: Using potions on others
+You can use potions on willing or downed creatures by spending 5 AP instead of 2. Normal potion rules still apply.
+
 #### Spell (Varying AP)
-There is no limit to the number of spells you can cast, as long as you have enough AP to cast them. Most spells will require you to make a Spellcasting roll. These use normal dice equal to the spells spellcasting attribute, either Intelligence, Willpower, or Charisma. If you are proficient in that spell type, improve a number of normal dice to proficient dice equal to your proficiency modifier.
+There is no limit to the number of spells you can cast, as long as you have enough AP to cast them. Most spells will require you to make a Spellcasting roll. These use normal dice equal to the spells spellcasting attribute: either Intelligence, Willpower, or Charisma. If you are proficient in that spell type, improve a number of normal dice to proficient dice equal to your proficiency modifier.
 
 
 #### Maneuver (Varying AP)
-Maneuvers have a variety of triggers, but unless otherwise stated must be used on your turn. Each turn you can use a single maneuver, after which that maneuver can't be used the next turn. You may still use a different maneuver the next turn.
+Maneuvers have a variety of triggers, but unless otherwise stated must be used on your turn. Each turn you can use a single maneuver, after which that maneuver can't be used the next turn. You can still use a different maneuver the next turn.
 
 ### The Gameboard
 Many DM's will represent their world with a gameboard, with every tile on the board representing a 5 ft square in the world. Usually only a single creature can occupy 1 tile at a time. Some creatures can occupy more or than one tile. All abilities, spells and feats in Farhome uses tiles to determine distance.
@@ -431,9 +432,6 @@ Many DM's will represent their world with a gameboard, with every tile on the bo
 | Huge | 3x3 |
 | Gargantuant | 4x4+ |
 
-
-
-
 #### Zone of Control
 A creatures zone of control is used to determine what other creatures they are locked in combat and which tiles count as flanking. By default a creatures zone of controls are the 5 adjacent tiles centered in the direction the creature is facing. If a creature is facing north, his zone of control is the west, north-west, north, north-east, and east tiles. Some abilities and weapons, such as _Reach_ increase a creatures zone of control.
 
@@ -441,6 +439,9 @@ A creature that attempts to leave another creatures zone of control is open to o
 
 #### Flanking
 When a creature is attacked from a tile that is not in their zone of control it is considered a flanking attack. Flanking gives no bonus in and of itself, but some abilities and feats grant bonuses for flanking.
+
+##### Variant Rule: Combat Advantage From Flanking
+With this rule attacking a creature from behind grants Combat Advantage for the attack. This effects both player attacks and attacks from NPCs.
 
 #### Darkness
 Most creatures are unable to see in the dark, and take various penalities to all rolls made against creatures or targets in the dark. For example, a guard trying to spot a thief in the dark will take penalties, but a thief in the dark attacking a guard holding a torch will not.
@@ -457,8 +458,6 @@ Creatures hiding behind objects and terrain gain bonus defense dice depending on
 | 3 Quarters | +3 Superior Defense dice |
 | Full | Untargetable |
 
-
-
 ## Resting
 During the adventuring day you will sometimes need to take a rest to recover health and abilities. There are two types of rests: Short rests which take an hour and Long rests which take 8. Each day you can have at most two short rests and one long rest. Any more more rests then that have no effect.
 
@@ -468,18 +467,14 @@ Short rests require an hour of uninterrupted rest to complete. During a short re
 
 Spellcasters restore up to 1/3rd of their level, rounded up, in spell slots. You may restore any number of spell slots this way as long as the sum level is not greater than 1/3rd of your level.
 
-
 ### Long Rest
 
 Long rests require 8 hours of rest, with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, brewing potions, etc. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds.
 
-
-Spellcasters restore up to their level in spell slots. You may restore any number of spell slots this way as long as the sum level is not greater than your level. In addition you may prepare a number of spells for the day, equal to 3 times your Intelligence level. Cantrips do not require preparation.
+Spellcasters restore up to their level in spell slots. You may restore any number of spell slots this way as long as the sum level is not greater than your level. In addition you may prepare new spells for the day.
 
 ### Exhaustion
 All adventurers need to rest from time to time, trying to do too much in a day can leave you exhausted. You can gain exhaustion from many places, from travelling too long, not taking rests, spells, or abilities. At 6 levels of exhaustion you drop dead.
-
-
 
 A normal travelling day is 8 hours. For every 2 hours you travel past 8 you must make an exhaustion roll. At 10 hours, you make a roll against 2 Bad dice, on fail you gain a level of exhaustion and can't travel further. The difficulty of this roll increases by 1 terrible die each roll past the 1st.
 
@@ -518,7 +513,6 @@ An incapacitated creature takes no actions and automatically fails Strength and 
 ### Paralyzed
 A paralyzed creature automatically fail dexterity saving throws. When taking any Action they must first roll a Wound die. If the result is a wound they do not take the action and lose the AP spent.
 
-
 ### Poison
 A poisoned creature adds a terrible die to all attacks, saving throws, and ability checks, adding an additional terrible die for every level of poison. Only the highest level poison takes effect, eg: someone who has Poison and Poison 2 only adds 2 terrible die instead of 3.
 
@@ -536,7 +530,6 @@ A staggered creature adds 2 bad dice to dexterity ability checks and saving thro
 
 ### Stunned
 A stunned creature cannot move or take actions, and automatically fail Strength and Dexterity saving throws. Attackers gain combat advantage against this target.
-
 
 ### Weaken
 When a weakened creature hits with any attack or maneuver, all guaranteed wounds are replaced with Wound dice, dealing a wound only if the die rolls a wound.
@@ -571,11 +564,6 @@ You can still use magic items without identifying them, but its bonuses will be 
 Some magic items grant bonuses to your attributes. While there is no limit on how much this can increase an attribute, you cannot benefit from two items that give bonuses to the same attribute, instead taking only the larger one.
 
 For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 to your Dexterity attribute. You still benefit from the remaining bonuses on those items.
-
-
-
-
-
 
 ## Terms
 
