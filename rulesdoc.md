@@ -3975,6 +3975,27 @@ A book of common enchantments.
 - Rope trick: Enchant a rope to automatically tie itself to an object, such as a branch, or rock. The rope moves across surfaces, up walls, and can reach 2 tiles into the air.
 - Balancing: When making an Acrobatics or climbing check you cannot roll below a normal die.
 
+| Name | Spell Slot | Supplies | Roll | Effect |
+|:----:|:-----:|:-----:|:-----:|:-----:|:-------------|
+| Fire Starting | 1st | 1 |1B | Enchant a ring. Concentrating for a round allows you to light something on fire, such as a torch or camp fire. |
+| Swiftness | 1st | 1 |2B | Increase your move and sprint speed by 1. |
+| Balancing | 1st | 1 |2B | When making an Acrobatics or climbing check you cannot roll below a normal die. |
+| Rope Trick | 2nd | 2 |2B/1T | Enchant a rope to automatically tie itself to an object, such as a branch, or rock. The rope moves across surfaces, up walls, and can reach 2 tiles into the air. |
+
+#### Aventus's Arcane Armaments
+*Wonderous Item*
+
+A book of instructions for enchanting items, made by the battle mage Aventus.
+
+| | Name | Spell Slot | Supplies | Roll | Effect |
+|:----:|:-----:|:-----:|:-----:|:-----:|:-------------|
+| _Weapon_ | | | | | | 
+| | Firebolt | 2nd | 2 |2B | Enchant a weapon with the _Firebolt_ spell. This weapon gains the _Firebolt_ spell as a maneuver. |
+| | Returning | 3rd | 2 |2B/1T | After throwing this weapon you may call it, instantly returning it to your hand. |
+| _Armor_ | | | | | | 
+| | Shielding | 3rd | 4 |3B/1T | Enchant armor with a defensive spell. The spell must be one you can cast, or have cast on the armor during enchanting of 3rd level or lower. The stored spell can only be used once, and must target the wearer. The spellcasting roll for the spell uses 1 superior die, plus an additional superior die for every crit rolled in the enchantment check. |
+| | Resistance | 3rd | 4 |2B/2T | Enchant this armor to give you Resistance 1 against one of the following damage types: fire, cold, lightning, thunder, arcane |
+
 
 #### Darkmantle Cloak
 *Wonderous Item*
@@ -4248,21 +4269,21 @@ on hit inflicts Poison 3 for 10 minutes.
 | | Name | Spell Slot | Supplies | Roll | Effect |
 |:----:|:-----:|:-----:|:-----:|:-----:|:-------------|
 | _Weapon_ | | | | | | 
-| | Skillful&nbsp; |&nbsp; 1st &nbsp;|&nbsp; 1 &nbsp;|2B &nbsp;|&nbsp; You gain 1 proficiency with this weapon type. &nbsp;|
-| | Brutality&nbsp; |&nbsp; 2nd &nbsp;|&nbsp; 3 &nbsp;|2B/1T &nbsp;|&nbsp; When you critical with this weapon, add an additional wound die to the damage. &nbsp;|
-| | Hexblade&nbsp; |&nbsp; 2nd &nbsp;|&nbsp; 3 &nbsp;|2B/1T &nbsp;|&nbsp; When you critical with this weapon the target gains Hex 1 for 1 minute. &nbsp;|
-| | Quickened&nbsp; |&nbsp; 3rd &nbsp;|&nbsp; 4 &nbsp;|2B/2T &nbsp;|&nbsp; The first attack made with this weapon each turn costs 1 less AP. &nbsp;|
+| | Skillful | 1st | 1 |2B | You gain 1 proficiency with this weapon type. |
+| | Brutality | 2nd | 3 |2B/1T | When you critical with this weapon, add an additional wound die to the damage. |
+| | Hexblade | 2nd | 3 |2B/1T | When you critical with this weapon the target gains Hex 1 for 1 minute. |
+| | Quickened | 3rd | 4 |2B/2T | The first attack made with this weapon each turn costs 1 less AP. |
 | Armor | | | | | | 
-| | Durable&nbsp; |&nbsp; 2nd &nbsp;|&nbsp; 4 &nbsp;|2B/2T &nbsp;|&nbsp; If a spell or effect targetting this armor would damage it, roll a wound die. On a blank the armor takes no damge. &nbsp;|
-| | Lightened&nbsp; |&nbsp; 3rd &nbsp;|&nbsp; 4 &nbsp;|2B/2T &nbsp;|&nbsp; Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalities and initiative &nbsp;|
+| | Durable | 2nd | 4 |2B/2T | If a spell or effect targetting this armor would damage it, roll a wound die. On a blank the armor takes no damge. |
+| | Lightened | 3rd | 4 |2B/2T | Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalities and initiative |
 | _Shield_ | | | | | | 
-| | Lesser Block&nbsp; |&nbsp; 2nd &nbsp;|&nbsp; 2 &nbsp;|2B/1T &nbsp;|&nbsp; You may reroll 1 defense die when making defense rolls. &nbsp;|
-| | Greater Block&nbsp; |&nbsp; 4th &nbsp;|&nbsp; 5 &nbsp;|2B/3T &nbsp;|&nbsp; You may reroll 2 defense die when making defense rolls. &nbsp;|
+| | Lesser Block | 2nd | 2 |2B/1T | You may reroll 1 defense die when making defense rolls. |
+| | Greater Block | 4th | 5 |2B/3T | You may reroll 2 defense die when making defense rolls. |
 | _Ammunition_ | | | | | | 
-| | Staggering&nbsp; |&nbsp; 1st &nbsp;|&nbsp; 1 &nbsp;|2B &nbsp;|&nbsp; On critical the target is staggered until the start of your next turn. Makes 3 ammunition &nbsp;|
-| | Slowing&nbsp; |&nbsp; 1st &nbsp;|&nbsp; 1 &nbsp;|2B &nbsp;|&nbsp; On critical the target gains Slow 1 until the start of your next turn. Makes 3 ammunition &nbsp;|
-| | Homing&nbsp; |&nbsp; 2nd &nbsp;|&nbsp; 2 &nbsp;|2B/1T &nbsp;|&nbsp; Creates 3 +1 magical ammunition. &nbsp;|
-| | Slaying&nbsp; |&nbsp; 3rd &nbsp;|&nbsp; 2 &nbsp;|2B/3T &nbsp;|&nbsp; Choose a creature type. This arrow deals an additional 3 wound die against creatures of this type. &nbsp;|
+| | Staggering | 1st | 1 |2B | On critical the target is staggered until the start of your next turn. Makes 3 ammunition |
+| | Slowing | 1st | 1 |2B | On critical the target gains Slow 1 until the start of your next turn. Makes 3 ammunition |
+| | Homing | 2nd | 2 |2B/1T | Creates 3 +1 magical ammunition. |
+| | Slaying | 3rd | 2 |2B/3T | Choose a creature type. This arrow deals an additional 3 wound die against creatures of this type. |
 
 
   
