@@ -3976,7 +3976,7 @@ A book of common enchantments.
 - Balancing: When making an Acrobatics or climbing check you cannot roll below a normal die.
 
 | Name | Spell Slot | Supplies | Roll | Effect |
-|:----:|:-----:|:-----:|:-----:|:-----:|:-------------|
+|:-----:|:-----:|:-----:|:-----:|:-------------|
 | Fire Starting | 1st | 1 |1B | Enchant a ring. Concentrating for a round allows you to light something on fire, such as a torch or camp fire. |
 | Swiftness | 1st | 1 |2B | Increase your move and sprint speed by 1. |
 | Balancing | 1st | 1 |2B | When making an Acrobatics or climbing check you cannot roll below a normal die. |
