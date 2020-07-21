@@ -1,5 +1,89 @@
 # Farhome v2.1
 
+## Table of Contents
+[Introduction](#Introduction)
+- [How to Play](#How-to-Play)
+- [Custom Dice](#Custom-Dice)
+- [Calculating a Roll](#Calculating-a-Roll)
+  - [Types of Rolls](#Types-of-Rolls)
+  - [Attack](#Attack)
+  - [Defense](#Defense)
+  - [Attribute Saves](#Attribute-Saves)
+  - [Spellcasting](#Spellcasting)
+  - [Skill Challenge](#Skill-Challenge)
+- [Wounds](#Wounds)
+- [Death Saves](#Death-Saves)
+- [Action Points](#Action-Points)
+- [Maneuvers](#Maneuvers)
+- [Combat Advantage](#Combat-Advantage)
+- [Attributes](#Attributes)
+
+[Proficiency](#Proficiency)
+- [Skills](#Skills)
+- [Tools](#Tools)
+- [Attribute Saves](#Attribute-Saves-1)
+- [Spell Schools](#Spell-Schools)
+- [Weapons](#Weapons)
+
+[Spells](#Spells)
+- [Spellbooks](#Spellbooks)
+- [Spell Slots](#Spell-Slots)
+- [Preparing Spells](#Preparing-Spells)
+- [Casting Spells](#Casting-Spells)
+- [Concentration](#Concentration)
+- [Cantrips](#Cantrips)
+- [Spell Slots](#Spellbooks)
+
+[Creating a Character](#Creating-a-Character)
+- [Starting Equipment](#Starting-Equipment)
+- [Leveling Up](#Leveling-Up)
+- [Earning Experience](#Earning-Experience)
+
+[Combat](#Combat)
+- [On your Turn](#On-your-Turn)
+- [The Gameboard](#The-Gameboard)
+
+[Resting](#Combat)
+- [Short Rest](#Short-Rest)
+- [Long Rest](#Long-Rest)
+- [Exhaustion](#Exhaustion)
+
+[Conditions](#Conditions)
+
+[Magic Items](#Magic-Items)
+- [Attunement](#Attunement)
+- [Magic Weapons](#Magic-Weapons)
+- [Magic Armor](#Magic-Armor)
+- [Identifying Magic Items](#Identifying-Magic-Items)
+- [Gaining Attributes through Items](#Gaining-Attributes-through-Items)
+
+[Terms](#Terms)
+
+## Appendices
+[Races](#Races)
+
+[Spells](#Spells-1)
+- [Arcane](#Arcane)
+- [Curse](#Curse)
+- [Divine](#Divine)
+[Maneuvers](#Maneuvers)
+
+[Feats](#Feats)
+- [Backgrounds](#Backgrounds)
+- [Basic](#Basic)
+- [Journeyman](#Journeyman)
+- [Advanced](#Advanced)
+
+[Items](#Items)
+- [Consumables](#Consumables)
+- [Mundane Gear](#Mundane-Gear)
+- [Wounds](#Wounds)
+- [Tools](#Tools)
+  - [Lockpicks](#Lockpicks)
+  - [Repair Kit](#Repair-Kit)
+  - [Apothecary Set](#Apothecary-Set)
+  - [Enchanters Tools](#Enchanters-Tools)
+
 
 ## Introduction
 
@@ -40,7 +124,7 @@ Some dice have special symbols on them for Criticalical Successes and Criticalic
 | Superior Defense | CD | Dx2 | D | D | _ | _ |
 | Wound | W | W | W | _ | _ | _ |
 
-#### Calculating a Roll
+### Calculating a Roll
 When calculating your roll, regardless of type, you always add up your own dice first. Success and failures of the same type cancel each other out, Failures nullify Success, and Criticalical Failure nullify Criticalical Success. Add up the remaining successes, counting Criticalical Success as two successes.
 
 At this stage process any modifiers from abilities, skills or features that effect your roll. For example, you would process the Hex condition here, nullifying a remaining critical. If you do not have at least 1 success at this point the roll is considered a fail.
@@ -86,6 +170,9 @@ Skill Challenges are almost never made in contest, and instead the DM will ask y
 The outcome in these rolls isn't always a strict pass or fail, depending on the DM they may give a bonus if you roll a critical success or something bad may happen if you roll a critical fail.
 
 Let's look at an example. You are trying to sneak past some guards and the DM asks you to make a Stealth check. You have 4 Dexterity, but only 1 proficiency in Stealth so you roll 1 proficiency and 4 normal dice. The DM also gives you 2 bad and 1 terrible die as a challenge as the guards are alert and looking for trespassers. You make your roll, getting 3 successes on your dice, but 2 critical failures giving you a total of 1 failure. Because you had 2 critical failures and no critical successes the DM rules that in addition to being spotted you tripped over a stone, falling to the ground prone.
+
+##### Helping in Skill Challenges
+In some cases you may want to help someone with an action, such as trying to push a boulder or search a room. When helping every participant rolls the same skill check contested by a single challenge roll. The highest roll among the participants is used, adding a success for every crit rolled by others.
 
 ##### Challenge Difficulty Dice
 | Difficulty | 1 | 2 | 3 | 4 | 5 |
@@ -240,6 +327,8 @@ Casting spells of 1st level and above takes a toll on the caster, a character ca
 
 Before you can cast a spell from your Codex you must prepare it. Every long rest you can prepare 5 spells, adding 3 for every point of Intelligence you have. Having negative Intelligence does not reduce the number of spells you can prepare.
 
+Once prepared spells are castable until the next day, even without your Codex. The spells fade from your memory over the next long rest unless you prepare them again.
+
 ### Casting Spells
 
 Each spell has either an AP cost or a time given as its casting time. There is no limit to the number of spells you can cast a turn, as long as you have the AP to do so. Casting a spell that lists a time instead of AP can still be used in combat, but requires the casting time worth of full turns. For example casting a spell with a cast time of 1 minute requires 3 full turns to cast.
@@ -320,7 +409,7 @@ Depending on your background you may start with additional gear. All players sta
 | 15g | any martial weapon. |
 | 20g | Upgrading armor to the next type |
 
-## Leveling Up
+### Leveling Up
 
 When you earn 1000 experience your character levels up. Each level you gain 2 proficiency points and choose one of the following bonuses:
 
@@ -344,13 +433,13 @@ For example, a 2nd level player has a spell level of 1, and so can gain 2 level 
 | 12th | 5th | 27th | 10th |
 
 
-### Attribute Score increase
+#### Attribute Score increase
 Starting at level 3, every 3 levels you can increase an attribute by 1.
 
-### Action Points
+#### Action Points
 You gain an additional Action point at levels 10 and 20.
 
-### Additional Saving Throw
+#### Additional Saving Throw
 You gain proficiency in an additional saving throw at level 12.
 
 ### Earning Experience
@@ -492,46 +581,46 @@ If you go more than 24 hours without taking a long rest you must make an exhaust
 ## Conditions
 There are a number of conditions creatures can be subjected to, each with different effects. Some conditions have a level associated with them to determine how extreme that condition is. For example, Poison normally adds a terrible die to your attack rolls and saving throws, where Poison 2 and Poison 3 adds 2 and 3 terrible die respectively.
 
-### Blind
+##### Blind
 A blinded creature loses the ability to see. While blind they add 2 Terrible die to all attack, spellcasting, and dexterity saving throws. They cannot make reactions.
 
-### Dazed
+##### Dazed
 A dazed creature cannot take the Sprint or Reaction actions and grant combat advantage to attackers.
 
-### Fear
+##### Fear
 a feared creature cannot willingly move closer to the source of the fear. While the source is within line of sight, they add 1 bad die to any rolls made.
 
-### Grapple
+##### Grapple
 A grappled creature cannot move and adds 2 bad die to dexterity saving throws, and grants combat advantage to attackers, except for the grappler.
 
-### Hex
+##### Hex
 A Hexxed creature ignores the first critical for all rolls. Criticals ignored this way count as rolling a blank side, eg: do not trigger critical effects or give successes. Each level of Hex ignores an additional critical.
 
-### Incapacitated
+##### Incapacitated
 An incapacitated creature takes no actions and automatically fails Strength and Dexterity saving throws.
 
-### Paralyzed
+##### Paralyzed
 A paralyzed creature automatically fail dexterity saving throws. When taking any Action they must first roll a Wound die. If the result is a wound they do not take the action and lose the AP spent.
 
-### Poison
+##### Poison
 A poisoned creature adds a terrible die to all attacks, saving throws, and ability checks, adding an additional terrible die for every level of poison. Only the highest level poison takes effect, eg: someone who has Poison and Poison 2 only adds 2 terrible die instead of 3.
 
-### Prone
+##### Prone
 a prone creature grants combat advantage to any melee attacker. Ranged attacks against this creature add 2 bad dice to their roll.
 
-### Restrained
+##### Restrained
 A restrained creature cannot move and adds 2 bad die to dexterity saving throws and attack rolls. They lose the effects of a shield if wearing one and grant combat advantage to attackers.
 
-### Slowed
+##### Slowed
 A slowed creature's Move and Sprint speeds are reduced by 1. Each level of slow reduces the value by 1, to a minimum of 1.
 
-### Stagger
+##### Stagger
 A staggered creature adds 2 bad dice to dexterity ability checks and saving throws. In addition they are unable to take reactions.
 
-### Stunned
+##### Stunned
 A stunned creature cannot move or take actions, and automatically fail Strength and Dexterity saving throws. Attackers gain combat advantage against this target.
 
-### Weaken
+##### Weaken
 When a weakened creature hits with any attack or maneuver, all guaranteed wounds are replaced with Wound dice, dealing a wound only if the die rolls a wound.
 
 ## Magic Items
@@ -553,7 +642,7 @@ Magic armors can come with bonus modifiers from +1 to +3. When making defense ro
 <br></br>
 Shields cannot have bonus modifiers, but can have additional effects.
 
-### Itendifying Magic Items
+### Identifying Magic Items
 
 Magic items can be identified by a successful Lore challenge. Each character can only attempt a lore roll once, if you fail then you must either cast _Identify_ on the item or take it to someone who can appraise it.
 
@@ -736,6 +825,88 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 
 ## Spells
 ### Arcane
+
+#### Spells By Level
+
+##### Cantrip
+- [Cold Snap](#Cold-Snap)
+- [Firebolt](#Firebolt)
+- [Message](#Message)
+- [Minor Image](#Minor-Image)
+- [Static Shock](#Static-Shock)
+- [Thundering Blow](#Thundering-Blow)
+
+##### First
+- [Arcane Blasts](#Arcane-Blasts)
+- [Arcane Keys](#Arcane-Keys)
+- [Beam of Fire](#Beam-of-Fire)
+- [Call Lightning](#Call-Lightning)
+- [Chilling Ray](#Chilling-Ray)
+- [Detect Magic](#Detect-Magic)
+- [Identify](#Identify)
+- [Magic Sight](#Magic-Sight)
+- [Poison Trap](#Poison-Trap)
+- [Ray of Sickness](#Ray-of-Sickness)
+- [Sword Burst](#Sword-Burst)
+- [Thunderclap](#Thunderclap)
+
+##### Second
+- [Barrier](#Barrier)
+- [Combust](#Combust)
+- [Dispel Magic](#Dispel-Magic)
+- [Elemental Shell](#Elemental-Shell)
+- [Flurry](#Flurry)
+- [Imprint](#Imprint)
+- [Magic Weapon](#Magic-Weapon)
+- [Misty Step](#Misty-Step)
+- [Resilient Shield](#Resilient-Shield)
+
+##### Third
+- [Animate Guardian](#Animate-Guardian)
+- [Chain Lightning](#Chain-Lightning)
+- [Counter Spell](#Counter-Spell)
+- [Fire Sight](#Fire-Sight)
+- [Fireball](#Fireball)
+- [Flight](#Flight)
+- [Phantasmal Blades](#Phantasmal-Blades)
+- [Telepathic Bond](#Telepathic-Bond)
+
+##### Fourth
+- [Conjure Elemental](#Conjure-Elemental)
+- [Fire Shell](#Fire-Shell)
+- [Ice Lance](#Ice-Lance)
+- [Lightning Bolt](#Lightning-Bolt)
+- [Nondetection](#Nondetection)
+- [Orb of Acid](#Orb-of-Acid)
+- [Passwall](#Passwall)
+- [Starfall](#Starfall)
+
+##### Fifth
+- [Illusory Space](#Illusory-Space)
+- [Open Warren](#Open-Warren)
+- [Wall of Fire](#Wall-of-Fire)
+- [Ward Area](#Ward-Area)
+
+##### Sixth
+- [Anti-Magic Field](#Anti-Magic-Field)
+- [Conjuration](#Conjuration)
+- [Earthquake](#Earthquake)
+- [Forcewave](#Forcewave)
+
+##### Seventh
+- [Call Storm](#Call Storm)
+- [Power Word: Fire](#Power-Word:-Fire)
+- [Power Word: Ice](#Power-Word:-Ice)
+- [Power Word: Lightning](#Power-Word:-Lightning)
+- [Project Image](#Project-Image)
+
+##### Eigth
+- [Invulnerability](#Invulnerability)
+- [Slow Time](#Slow-Time)
+- [Stablize Warren](#Stablize-Warren)
+
+##### Ninth
+- [Armageddon](#Armageddon)
 
 #### Firebolt
 *Cantrip*
@@ -1514,6 +1685,91 @@ The duration increases to 8 hours at 8th level, and 1 day at 9th level.
 
 ### Curse
 
+#### Spells By Level
+
+##### Cantrip
+- [Eldritch Blast](#Eldritch-Blast)
+- [Levitate](#Levitate)
+- [Life Sense](#Life-Sense)
+- [Trickery](#Trickery)
+- [Witchcraft](#Witchcraft)
+
+##### First
+- [Black Tendrils](#Black-Tendrils)
+- [Charming Guise](#Charming-Guise)
+- [Concealment](#Concealment)
+- [Crow of Magthera](#Crow-of-Magthera)
+- [Curse of Misfortune](#Curse-of-Misfortune)
+- [Firefly Swarm](#Firefly-Swarm)
+- [Ghoulish Claws](#Ghoulish-Claws)
+- [Hex](#Hex)
+- [Hex Bolt](#Hex-Bolt)
+- [Occult Whispers](#Occult-Whispers)
+- [Quicken](#Quicken)
+- [Sleep](#Sleep)
+- [Weal](#Weal)
+
+##### Second
+- [Betrayal](#Betrayal)
+- [Bewitched Arrow](#Bewitched-Arrow)
+- [Binding](#Binding)
+- [Cloud of Teeth](#Cloud-of-Teeth)
+- [Command](#Command)
+- [Corpse Explosion](#Corpse-Explosion)
+- [Curse of Fragility](#Curse-of-Fragility)
+- [Curse of Suffering](#Curse-of-Suffering)
+- [Dark Sight](#Dark-Sight)
+- [Dull Intellect](#Dull-Intellect)
+- [Howling Whirlwind](#Howling-Whirlwind)
+- [Mass Web](#Mass-Web)
+- [Silent Passage](#Silent-Passage)
+
+##### Third
+- [Apathy](#Apathy)
+- [Curse of Weakness](#Curse-of-Weakness)
+- [Enlarge/Reduce](#Enlarge/Reduce)
+- [False Aura](#False-Aura)
+- [Fearful Presence](#Fearful-Presence)
+- [Frog Morph](#Frog-Morph)
+- [Inflict Wound](#Inflict-Wound)
+- [Shape Change](#Shape-Change)
+- [Shifting Image](#Shifting-Image)
+- [Shroud of Darkness](#Shroud-of-Darkness)
+
+##### Fourth
+- [Curse of Slowness](#Curse of Slowness)
+- [Exhaustion](#Exhaustion)
+- [Gloom](#Gloom)
+- [Haste](#Haste)
+- [Instigate](#Instigate)
+- [Mass Hex](#Mass Hex)
+- [Paralytic Cloud](#Paralytic-Cloud)
+- [Raise Dead](#Raise-Dead)
+- [Void Lure](#Void-Lure)
+- [Invisibility](#Invisibility)
+
+##### Fifth
+- [Curse of Pain](#Curse-of-Pain)
+- [Mind Break](#Mind Break)
+- [Suggestion](#Suggestion)
+- [True Sight](#True Sight)
+
+##### Sixth
+- [Curse of Fear](#Curse-of-Fear)
+- [Isolation](#Isolation)
+
+##### Seventh
+- [Curse of Obedience](#Curse-of-Obedience)
+- [Gravity Well](#Gravity-Well)
+
+##### Eigth
+- [Control](#Control)
+- [Curse of Death](#Curse-of-Death)
+
+##### Ninth
+- [Power Word: Kill](#Power-Word:-Kill)
+- [Seal](#Seal)
+
 #### Life Sense
 *Cantrip*
 ___
@@ -2258,6 +2514,82 @@ You may target an additional creature for every level above 8th.
 
 
 ### Divine
+
+#### Spells By Level
+
+##### Cantrip
+- [Guidance](#Guidance)
+- [Holy Protection](#Guidance)
+- [Light](#Guidance)
+- [Radiant Light](#Guidance)
+- [Spare From Death](#Guidance)
+- [Vine Whip](#Guidance)
+
+##### First
+- [Bonfire](#Guidance)
+- [Bramble](#Guidance)
+- [Chilling Fog](#Guidance)
+- [Close Wounds](#Guidance)
+- [Healing Word](#Guidance)
+- [Holy Weapon](#Guidance)
+- [Solar Flash](#Guidance)
+- [Tremor](#Guidance)
+
+##### Second
+- [Cleanse](#Guidance)
+- [Consecrate Ground](#Guidance)
+- [Enhance Ability](#Guidance)
+- [Gust](#Guidance)
+- [Seed of Renewal](#Guidance)
+- [Shield of Faith](#Guidance)
+- [Treate Injury](#Guidance)
+- [Wall of Faith](#Guidance)
+- [Winds of Battle](#Guidance)
+
+##### Third
+- [Beacon](#Guidance)
+- [Break Curse](#Guidance)
+- [Cure](#Guidance)
+- [Demonic Skull](#Guidance)
+- [Detect Creatures](#Guidance)
+- [Revive](#Guidance)
+- [Spirit Animal](#Guidance)
+- [Summoning](#Guidance)
+- [Travelers Protection](#Guidance)
+- [Turn Undead](#Guidance)
+
+##### Fourth
+- [Bind Creature](#Guidance)
+- [Commune With Nature](#Guidance)
+- [Destroy Monstrosity](#Guidance)
+- [Petrify](#Guidance)
+- [Purify Spirit](#Guidance)
+- [Regeneration](#Guidance)
+- [Shape Stone](#Guidance)
+- [Summon Demon](#Guidance)
+- [Ward From Death](#Guidance)
+
+##### Fifth
+- [Awaken Soul](#Guidance)
+- [Radiance](#Guidance)
+- [Resurrect](#Guidance)
+- [Spirit Warriors](#Guidance)
+
+##### Sixth
+- [Exorcism](#Guidance)
+- [Power Word: Harm](#Guidance)
+- [Power Word: Heal](#Guidance)
+- [Sanctuary](#Guidance)
+
+##### Seventh
+- [Divine Word](#Guidance)
+
+##### Eigth
+- [Light of Divinity](#Guidance)
+- [Restoration](#Guidance)
+
+##### Ninth
+- [Avatar](#Guidance)
 
 #### Guidance
 *Cantrip*
@@ -3670,364 +4002,7 @@ A vial of poison, enough to coat a weapon for 3 attacks or 10 arrowheads. Poison
 | Paralyzing | 1+/0 | creature is paralyzed for 10 minutes |
 | Confounding | 1+/0 | creatures proficiency modifiers are reduced by 1 + modifier. Negative proficiencies 'improve' die to bad dice. |
 
-### Tools
-
-#### Lockpicks
-
-A set of tools for picking a variety of locks. Anyone can use a lockpicking set, but only people proficient in lockpicking get the bonuses. Lockpicks come in several rarities.
-
-##### Lockpicks
-| Type | Bonus |
-|:----:|:-------------|
-| Basic  | None |
-| Expert  | Improves 1 proficient die to a superior die |
-| Masterwork | Improves 3 proficient dice to superior dice |
-| Skeleton Key | Adds 4 superior dice to a lockpicking roll. After making the roll, roll a terrible die. The skeleton key breaks on fail. |
-
-
-
-
-
-
-
-### Magic Items
-
-#### Ammunition +1, +2, +3
-*Magic Ammunition*
-
-Both arrows and bolts can be enchanted. When using magic ammunition add a wound die for each modifier on the ammunition. Once a hit has landed the ammunition becomes mundane.
-
-#### Flametail
-*Magic Weapon +1*
-
-A weapon whose blade can ignite in flames. Can be used as a torch. Grants the _Flame Slash_ maneuver.
-
-##### Flame Slash
-___
-- **AP Cost:** 5
-- **Weapon:** Slashing
-- **Range:** Melee
-
-Make a normal weapon attack against a creature, adding a proficiency die to the attack. The attack deals normal weapon damage, plus 2 wound die in fire damage.
-
-#### Shield of Eyes
-*Magic Shield*
-
-A shield covered in eyes that dart around, looking for any threats. Gives 1 superior die for perception checks and the _Terrifying Gaze_ maneuver.
-
-
-##### Terrifying Gaze
-___
-- **AP Cost:** 5
-- **Weapon:** Shield
-- **Range:** Area of Control
-
-All creatures in your zone of control must make a Willpower save vs 2 superior dice. On fail they become terrified for the next minute. They cannot move closer to you and they add a terrible die to all attack rolls.
-
-#### Cursebreaker
-*Wonderous Item*
-
-A pendant with a rest mist swirling in it's gemstone. Once per day you may use this to attempt to break a curse effecting you or a creature you can touch. The target makes a Willpower save against 1 terrible die. On success they end a single curse aflicting the target.
-
-#### Spear of the East
-*Magic Weapon +1*
-
-An incredibly light spear able to cut through armor. When making a basic attack you may reduce the AP cost by 1, to a minimum of 3. If you do, add 1 bad die to your roll.
-
-If you land 3 hits against the same target during your turn, the target is dazed until the end of their turn.
-
-#### Ring of Protection +1, +2, +3
-*Wonderous Item, Requires Attunement*
-
-A strange ring that wards the wearer from danger. When making a defense roll, you can spend 1 AP to reroll a number of defense die equal to the rings modifier.
-
-#### Forceblade
-*Magic Weapon +1*
-
-A blade that emits a cutting force beyond the edge of its sword. Damage dealt with this weapon is considered Force damage. You gain the _Cutting Force_ manuever.
-
-##### Cutting Force
-___
-- **AP Cost:** 6
-- **Weapon:** Slashing
-- **Range:** 7
-
-Send a blast of force at a target within range. Make a normal weapon attack against the target, on hit the target takes 2 wound die in force damage.
-
-
-#### Quake Hammer
-*Magic Weapon +1*
-
-A hammer infused with the power of earth. When attacking Elementals you deal an additional wound die in damage. You also gain the _Quake_ manuever.
-
-##### Quake
-___
-- **AP Cost:** 7
-- **Weapon:** Bludgeoning
-- **Range:** Melee
-
-Smash your hammer into the ground, causing the earth in your zone of control to break. Make a weapon attack roll, adding 1 proficient die to the roll. On hit each target takes 1 wound in Bludgeoning damage, and on crit are staggered until the start of your next turn.
-
-#### Arctic Hatchet
-*Magic Weapon +1*
-
-A hatchet inscribed with runes, cold to the touch. When thrown the Hatchet appears back in your hand at the end of your turn. You gain the _Icy Impact_ manuever.
-
-##### Icy Impact
-___
-- **AP Cost:** 6
-- **Weapon:** Slashing
-- **Range:** Thrown
-
-Empower your Axe with chilling cold. Throw the axe at a target position in range. On hit a 3x3 area of ice appears centered on the hatchet. All creatures inside the ice gain Slow 1 and add 1 Terrible die to all dexterity based saves, attacks, or skills. This effect ends once the creature leaves the area, and the area lasts until the start of your next turn.
-
-#### Adventurers Cloak
-*Wonderous Item*
-
-A rugged cloak lined with pockets, it billows heroically even when there is no wind. It starts with charges equal to the successes from 3 superior die. Once per hour you may expend a charge to grab something from the cloaks pocket. You may find one of the following : 50 ft of rope, 10 ft of fine iron chain, a bandage, a torch, a fire kit, a gallon of water, a grapling hook.
-
-The item lasts for 1 hour, after which it turns to dust.
-
-
-#### Wand of Cinders
-*Wonderous Item*
-
-A wand with a tip that looks like the embers from a campfire. Roll 5 superior die, this wand has charges equal to the total success. Spending 1 charge you can cast Firebolt at 1st level. Spending 2 charges you may cast Beam of Fire at 1st level.
-
-Spells cast with this wand do not benefit from any spellcasting feats, and use 3 superior dice for the spellcasting roll.
-
-#### Wand of Secrecy
-*Wonderous Item*
-
-A wand that emits black wisps of smoke. Roll 5 superior die, this wand has charges equal to the total success. You can spend a charge to turn all mundane lights in a 6x6 tile area to dim light for 10 minutes, covering half as much area as bright light. Spending 2 charges gives you the effects of _Concealment_ for 10 minutes.
-
-#### Wand of Sight
-*Wonderous Item*
-
-A wand with a crystal eye attached to the tip. Roll 5 superior die, this wand has charges equal to the total success. Spending 1 charge you gain the effects of _Dark Sight_ for 1 hour. Spending 3 charges you may cast _Magic Sight_ without concentrating on the spell.
-
-Spells cast with this wand do not benefit from any spellcasting feats, and use 3 superior dice for the spellcasting roll.
-
-#### Wand of Shooting Stars
-*Wonderous Item*
-
-A wand with a brass star on its tip. This wand is a simple weapon, using your Arcane spellcasting for the attack. It has a range of 5/10 and deals 1 wound die in force damage on hit. The star arcs over cover, ignoring all but total cover.
-
-If your attack roll has no successes and a critical fail the wand breaks, losing its magic.
-
-#### Wand of Shock
-*Wonderous Item*
-
-A wand in the shape of a lightning bolt. Roll 5 superior die, this wand has charges equal to the total success. Spending 1 charge you may cast the _Static Shock_ cantrip. If you do, you may spend up to 2 additional charges to add a superior die for each charge to the spellcasting roll.
-
-Spells cast with this wand do not benefit from any spellcasting feats, and use 2 superior dice for the spellcasting roll.
-
-#### Stamp of Beast Steed
-*Wonderous Item*
-
-Transform a beast into a loyal steed. Can only be used on a non-intelligent, medium or smaller beast you can touch. A hostile creature makes a willpower save vs 2 superior die, taking no effect on success. Once used the token bursts into a handful of dry leaves.
-
-The target beast transforms into a giant version of the animal, growing to the size of an average horse. The creature is charmed by you for the next 24 hours and can be used as a mount. They have 3 wounds and a move/sprint speed of 5/5. The gain +1 Strength, but their other stats are identical to their normal forms.
-
-After 24 hours the creature returns to normal, becoming hostile if it was hostile before.
-
-
-#### Ring of the Ram
-*Wonderous Item*
-
-A ring adorned with silver ram's head. You may cast _Thundering Blow_ as a cantrip, using your unarmed attack roll instead of spellcasting. This can be used 3 times, at which point the ram tarnishes. This ring can be used again after a successful repair roll.
-
-
-#### Ghostly Shackles
-*Wonderous Item*
-
-This weapon empowers your unarmed attacks, allowing you your attacks to strike those in the ethereal plane. You bypass the physical resistances of ghosts, and can hit creatures phasing to the ethereal plane.
-
-When attempting a grapple you may target creatures 1 tile away as the chains from your shackle bind the creature. If you crit your grapple roll the target is restrained instead.
-
-#### Falnalnen's Tome of Wands
-*Wonderous Item*
-
-This Tome, written in Elvish, contains instructions on how to construct a variety of wands. Someone proficient in enchanter's tools can spend 8 hours crafting a wand, given they have the materials. 
-
-Translating this book is difficult, and takes 8 days of successful translating to read the instructions for a single wand. To translate, you must successfully make an Intelligence save vs 2 bad dice each day, or else the day is wasted.
-
-This book gives instructions on how to craft the following wands:
-
-| Wand | Materials | Roll |
-|:----:|:----:|:-------------|
-| Wand of Secrecy  | a gemstone worth at least 10gp, 3 enchanting supplies, vial of black ink | 2B |
-| Wand of Sight  | a gemstone worth at least 25gp, 4 enchanting supplies, Eye of a beast | 2B |
-| Wand of Cinders  | a gemstone worth at least 50gp, 4 enchanting supplies, 1lb of charcoal | 2B/1T |
-| Wand of Shock  | 2 gemstones worth at least 50gp each, 2 enchanting supplies, a metal rod | 2B/1T |
-
-
-
-#### Medallion of Health
-*Wonderous Item, Requires Attunement*
-
-While wearing this medallion your max wounds increases by 1.
-
-
-#### Hero's Medallion
-*Wonderous Item*
-
-You are immune to fear. Anytime you make an Intelligence, Willpower, or Charisma save you may reroll 1 die, keeping the new value.
-
-
-
-#### Blueflame Lantern
-*Wonderous Item*
-
-This lantern has enough oil to light for 8 hours. When lit it acts as a normal lantern, shedding bright light 5 tiles out, and dim light a further 5. When invisible creatures or objects are within 10 tiles of the lantern the flame turns blue, and are visible while in the lanterns bright light.
-
-#### Cloak of Agility
-*Wonderous Item, Requires Attunement*
-
-This cloak grants you +1 to your Dexterity. If your movespeed is lower than your sprint speed, it is increased to your sprint speed.
-
-#### Cloak of Daggers
-*Wonderous Item*
-
-While wearing this cloak with the hood up it obscures your face from light, preventing penalties from being in bright light or sunlight. Bright light is reduced to dim light, and dim light is reduced to darkness in this way. In addition, you gain the following manuever.
-
-##### Fan of Blades
-___
-- **AP Cost:** 8
-- **Weapon:** Piercing
-- **Range:** Melee
-
-You spin your dagger tipped cloak, slashing all adjacent creatures. Make a piercing weapon attack roll against the targets Dexterity. If this is during or before the first round of combat, add 1 superior die to your roll. On hit they take 1 wound in piercing damage.
-
-#### Barrier Cloak
-*Wonderous Item, Requires Attunement*
-
-You gain Force Resistance 1 while wearing this cloak. Once per long rest you can spend 2 AP to cast _Barrier_ at 2nd level.
-
-
-#### Ritual Flask
-*Wonderous Item*
-
-This flask is made of iron with a band of runes engraved around it. Studying the runes teaches you a ritual for the flask. Using chalk to draw out a rune covering a 2x2 tile area, you can attempt to trap a Demon, Elemental, Outsider, or Celestial inside the flask. The creature must remain inside the rune for 1 minute, after which they make a Charisma save against 4 superior dice. On fail they are trapped inside the flask.
-
-A creature trapped inside the flask does not require food, air or water, and does not age. They cannot be communicated with, and a spell that locates a creature will instead locate the flask. 
-
-You may spend 5 AP to open the flask, releasing the trapped creature. A creature released must pass a Willpower save against 4 superior dice or be charmed by you for 1 hour. You may give commands to the creature, but cannot command it to hurt itself or take a course of action that will obviously cause itself harm.
-
-When finding a flask it may already contain a creature, and a successful Lore check will tell you if a creature is inside, but not which type.
-
-
-#### Belt of Dwarvenkind
-*Wonderous Item, Requires Attunement*
-
-While wearing this belt your gain +2 proficiency to your Stamina save. If you do not know Dwarvish, you are able to read and speak it, and add 1 superior die to Charisma skills with dwarves.
-
-#### Belt of Elvinkind
-*Wonderous Item, Requires Attunement*
-
-While wearing this belt your gain +2 proficiency to your Dexterity save. If you do not know Elvish, you are able to read and speak it, and add 1 superior die to Charisma skills with elves.
-
-#### Gloves of Ogre Strength
-*Wonderous Item, Requires Attunement*
-
-While wearing these gloves your Strength is increased by 1. Your carry weight is tripled, lifting heavy objects, such as a boulder, with ease.
-
-#### Twili Mask of Power
-*Wonderous Item, Requires Attunement*
-
-While wearing this mask you add 1 proficiency die to all spellcasting rolls. When taking a move action you can choose to hover. While hovering you ignore ground based effects and difficult terrain and can pass over creatures, returning to the ground at the end of your turn. You also learn two manuevers, _Shadow Magic_ and _Orb of Destruction_.
-
-***Curse.*** This item is cursed. After attuning to the mask you are unable to part with it, wearing it covering your face or off to one side. If you reach 0 wounds or suffer an effect that would kill you outright, the Mask consumes you and you return as a Shadowbeast. You are stalked by a powerful entity of shadow that wants the mask. This entity knows your general location and you cannot hide from it through magic.
-
-##### Shadow Magic
-___
-- **AP Cost:** 7
-- **Damage:** Death
-- **Range:** 7
-
-You summon 3 shadowbolts and launch them at targets in range. You may choose different targets, or have all bolts hit the same target. Make a curse spellcasting roll against the targets defense for each bolt, dealing 2 wound die on hit, and giving Hex 1 on crit. You gain 1 temporary wound for every 3 wounds dealt by this attack.
-
-##### Orb of Destruction
-___
-- **AP Cost:** 9
-- **Damage:** Death
-- **Range:** 10
-
-You channel the masks power to create a large orb of negative energy. You send the orb crashing into the earth, hitting all creatures in a 3x3 area centered on a position in range. All creatures hit make a Dexterity save vs your curse spellcasting. On hit they take 3 wounds in damage, plus an additional wound die for each crit.
-
-If this would reduce a creature to 0 wounds their body is consumed by the Orb, vaporizing and leaving no body behind. This manuever can be used once, afterwhich you must long rest before using again.
-
-
-
-#### Boneplate Armor
-*Magic Leather Armor +1, Requires Attunement*
-
-Leather armor with bones woven to reinforce it. Once per long rest, you may cast _Cloud of Teeth_ without a codex or expending a spell slot.
-
-
-#### Emillion's Everyday Enchantments
-*Wonderous Item*
-
-A book of common enchantments.
-
-- Swiftness: Increases your move and sprint speed by 1.
-- Fire Starting: Enchant a ring, concentrating for a round allows you to light something on fire, such as a torch or camp fire.
-- Rope trick: Enchant a rope to automatically tie itself to an object, such as a branch, or rock. The rope moves across surfaces, up walls, and can reach 2 tiles into the air.
-- Balancing: When making an Acrobatics or climbing check you cannot roll below a normal die.
-
-| Name | Spell Slot | Supplies | Roll | Effect |
-|:-----:|:-----:|:-----:|:-----:|:-------------|
-| Fire Starting | 1st | 1 |1B | Enchant a ring. Concentrating for a round allows you to light something on fire, such as a torch or camp fire. |
-| Swiftness | 1st | 1 |2B | Increase your move and sprint speed by 1. |
-| Balancing | 1st | 1 |2B | When making an Acrobatics or climbing check you cannot roll below a normal die. |
-| Rope Trick | 2nd | 2 |2B/1T | Enchant a rope to automatically tie itself to an object, such as a branch, or rock. The rope moves across surfaces, up walls, and can reach 2 tiles into the air. |
-
-#### Aventus's Arcane Armaments
-*Wonderous Item*
-
-A book of instructions for enchanting items, made by the battle mage Aventus.
-
-| | Name | Spell Slot | Supplies | Roll | Effect |
-|:----:|:-----:|:-----:|:-----:|:-----:|:-------------|
-| _Weapon_ | | | | | | 
-| | Firebolt | 2nd | 2 |2B | Enchant a weapon with the _Firebolt_ spell. This weapon gains the _Firebolt_ spell as a maneuver. |
-| | Returning | 3rd | 2 |2B/1T | After throwing this weapon you may call it, instantly returning it to your hand. |
-| _Armor_ | | | | | | 
-| | Shielding | 3rd | 4 |3B/1T | Enchant armor with a defensive spell. The spell must be one you can cast, or have cast on the armor during enchanting of 3rd level or lower. The stored spell can only be used once, and must target the wearer. The spellcasting roll for the spell uses 1 superior die, plus an additional superior die for every crit rolled in the enchantment check. |
-| | Resistance | 3rd | 4 |2B/2T | Enchant this armor to give you Resistance 1 against one of the following damage types: fire, cold, lightning, thunder, arcane |
-
-
-#### Darkmantle Cloak
-*Wonderous Item*
-
-A cloak made from the skin of a Darkmantle, imbued with magic. While in dim light or darkness you may wrap yourself in the cloak. While wrapped in the cloak, as long as you do not move you appear as a stalagmite and add 3 superior dice to any stealth checks made.
-
-Once per day you can use the cloak to conjure an aura of darkness radiating 3 tiles out in all directions. Mundane light cannot penetrate the darkness, and any light spell of 2nd level or lower inside the darkness is dispelled.
-
-#### Mage Slayer
-*Wonderous Greatsword +1*
-
-A sword used to execute rogue mages, this 6ft claymore is inscribed with protective runes. When taking the defend action you add this weapons bonus to all saving throws and defense rolls against magic. Once per day you may cast _Dispel Magic_ using 4 superior dice for the spellcasting roll.
-
-
-#### Band of Silence
-*Wonderous Item*
-
-This black metal band resizes itself to fit around the wearers forearm. Once per day you can command the band to emit a field of absolute silence for 10 minutes. Once activated the field stays until dispelled or the duration ends. The field extends to all adjacent tiles around the wearer and moves with the wearer. A creature in the field is unable to make or hear a sound, and gains resistance 3 to thunder damage.
-
-#### Shadowwalk Dagger
-*Wonderous Dagger +1*
-
-This dull blue dagger emits faint wisps of smoke visible even when sheathed. When making a ranged attack with this dagger you may speak a command word, causing you and the dagger to turn into shadow. Make an attack roll as normal, on hit you deal Death damage instead of piercing and you reform out of the shadows in a tile adjacent to the target. If the attack misses the DM determines where the dagger lands, with the wielder appearing in the closest unoccupied tile.
-
-## Appendix
-
-
-<div class='wide'>
-
-### Items
-
-#### Mundane Gear
+### Mundane Gear
 
 ##### Weapons
 | | Weapon | Modifiers | Damage | Type
@@ -4075,14 +4050,12 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
  
 </div>
 
-
-
 <div class='wide'>
 
 ### Wounds
 
-  #### Lesser Wounds
-  Roll 3 terrible dice, adding the successes. For each critical, move up one level.
+#### Lesser Wounds
+Roll 3 terrible dice, adding the successes. For each critical, move up one level.
   
 | | Roll | Wound | Effect |
 |:----:|:----:|:----:|:----|
@@ -4097,8 +4070,8 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 | | -1 | Exhaustion | You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound. |
 | | 0 | Numb | You have 1 less proficiency for all modifiers. |
 
-  #### Greater Wounds
-  Roll 3 terrible dice, adding the successes. For each critical, move up one level.
+#### Greater Wounds
+Roll 3 terrible dice, adding the successes. For each critical, move up one level.
   
 | | Roll | Wound | Effect |
 |:----:|:----:|:----:|:----|
@@ -4115,13 +4088,25 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 
 
 ### Tools
+
+#### Lockpicks
+
+A set of tools for picking a variety of locks. Anyone can use a lockpicking set, but only people proficient in lockpicking get the bonuses. Lockpicks come in several rarities.
+
+##### Lockpicks
+| Type | Bonus |
+|:----:|:-------------|
+| Basic  | None |
+| Expert  | Improves 1 proficient die to a superior die |
+| Masterwork | Improves 3 proficient dice to superior dice |
+| Skeleton Key | Adds 4 superior dice to a lockpicking roll. After making the roll, roll a terrible die. The skeleton key breaks on fail. |
   
-  #### Repair Kit
-  Any damage taken by your armor or weapons are permanent until repaired. An item that takes enough damage, magical or not is destroyed. A weapon that goes below a -2 modifier or armor that is reduced to a single die is destroyed and can no longer be repaired or used.
-  
-  A damaged weapon adds 1 bad die for every negative modifier, or reduces the superior die given from a magic weapon. Damaged armor reduces the number of defense dice given by 1, or reduces the superior defense die given from magic armor.
-  
-  You may attempt to repair a single piece of equipment over a long rest. Roll a Repair roll adding 2 bad and 1 terrible die. On success the gear is repaired by 1 level, or 2 on a critical. If you fail with a criticalical failure the gear instead loses a level. You may attempt to repair magical gear, adding a terrible die for every modifier on the item.
+#### Repair Kit
+Any damage taken by your armor or weapons are permanent until repaired. An item that takes enough damage, magical or not is destroyed. A weapon that goes below a -2 modifier or armor that is reduced to a single die is destroyed and can no longer be repaired or used.
+
+A damaged weapon adds 1 bad die for every negative modifier, or reduces the superior die given from a magic weapon. Damaged armor reduces the number of defense dice given by 1, or reduces the superior defense die given from magic armor.
+
+You may attempt to repair a single piece of equipment over a long rest. Roll a Repair roll adding 2 bad and 1 terrible die. On success the gear is repaired by 1 level, or 2 on a critical. If you fail with a criticalical failure the gear instead loses a level. You may attempt to repair magical gear, adding a terrible die for every modifier on the item.
 </div>
 
 
@@ -4185,11 +4170,6 @@ ___
 
 When brewing this potion choose an attribute. On drinking, for the next 4 hours all skill proficiencies for that attribute are increased by 1.
 
-
-
-
-
-
 ##### Fortify Mind Potion
 ___
 - **Ingredients:** 2 Brainfish, 1 Cleansebloom
@@ -4230,7 +4210,6 @@ ___
 On hit, inflicts Poison 1 and reduces all proficiencies by 1 for 10 minutes.
 
 
-
 ##### Nightbleed Poison
 ___
 - **Ingredients:** 2 Nightshade, 1 Poison Nettle
@@ -4258,7 +4237,7 @@ on hit inflicts Poison 3 for 10 minutes.
 
 <div class='wide'>
   
-### Enchanters Tools
+#### Enchanters Tools
   During a long rest you may attempt to enchant a single piece of mundane gear. Enchanted gear lasts for 3 days and count as magical equipment for the duration. After the Ehcantment ends the gear returns to being mundane. To enchant a piece of gear you must have a spell slot available and enough enchanting supplies for the enchantment. Then you must pass the enchanting roll, with failure consuming the spell slot and supplies but not giving the enchantment. Most cities and towns will sell enchanting supplies.
   
   The enchanting roll uses your skill with your enchanters tools. You may spend additional spell slots of equal level or higher to add proficient die for each spell slot spent. Ammunition loses it's enchantment on hit, whether the effect is triggered or not.
