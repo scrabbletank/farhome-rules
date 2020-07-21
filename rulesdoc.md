@@ -1210,10 +1210,10 @@ Add a target for every level above 2nd.
 *2nd Level*
 ___
 - **Casting Time:** 3 AP
-- **Range:** 5
+- **Range:** 5/10
 - **Duration:** instant
 
-Teleport to a unoccupied point you can see in range. Make a spellcasting roll, adding 2 bad die if you attempt to teleport more than 5 tiles. On success you teleport to that position, preventing any opportunity attacks or attacks that trigger on entering someones zone of control.
+Teleport to a unoccupied point you can see in range. Make a spellcasting roll, adding 2 bad die if you attempt to teleport more than 5 tiles, with a max range of 10. On success you teleport to that position, preventing any opportunity attacks or attacks that trigger on entering someones zone of control.
 
 Add a proficiency die for every level above 2nd.
 
