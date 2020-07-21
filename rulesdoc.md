@@ -66,6 +66,7 @@
 - [Arcane](#Arcane)
 - [Curse](#Curse)
 - [Divine](#Divine)
+
 [Maneuvers](#Maneuvers)
 
 [Feats](#Feats)
@@ -1737,12 +1738,12 @@ The duration increases to 8 hours at 8th level, and 1 day at 9th level.
 - [Shroud of Darkness](#Shroud-of-Darkness)
 
 ##### Fourth
-- [Curse of Slowness](#Curse of Slowness)
+- [Curse of Slowness](#Curse-of-Slowness)
 - [Exhaustion](#Exhaustion)
 - [Gloom](#Gloom)
 - [Haste](#Haste)
 - [Instigate](#Instigate)
-- [Mass Hex](#Mass Hex)
+- [Mass Hex](#Mass-Hex)
 - [Paralytic Cloud](#Paralytic-Cloud)
 - [Raise Dead](#Raise-Dead)
 - [Void Lure](#Void-Lure)
@@ -1750,9 +1751,9 @@ The duration increases to 8 hours at 8th level, and 1 day at 9th level.
 
 ##### Fifth
 - [Curse of Pain](#Curse-of-Pain)
-- [Mind Break](#Mind Break)
+- [Mind Break](#Mind-Break)
 - [Suggestion](#Suggestion)
-- [True Sight](#True Sight)
+- [True Sight](#True-Sight)
 
 ##### Sixth
 - [Curse of Fear](#Curse-of-Fear)
