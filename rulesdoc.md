@@ -896,9 +896,9 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 
 ##### Seventh
 - [Call Storm](#Call-Storm)
-- [Power Word: Fire](#Power-Word:-Fire)
-- [Power Word: Ice](#Power-Word:-Ice)
-- [Power Word: Lightning](#Power-Word:-Lightning)
+- [Power Word: Fire](#Power-Word-Fire)
+- [Power Word: Ice](#Power-Word-Ice)
+- [Power Word: Lightning](#Power-Word-Lightning)
 - [Project Image](#Project-Image)
 
 ##### Eigth
@@ -1802,7 +1802,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 - [Curse of Death](#Curse-of-Death)
 
 ##### Ninth
-- [Power Word: Kill](#Power-Word:-Kill)
+- [Power Word: Kill](#Power-Word-Kill)
 - [Seal](#Seal)
 
 ___
@@ -2663,8 +2663,8 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 
 ##### Sixth
 - [Exorcism](#Exorcism)
-- [Power Word: Harm](#Power-Word:-Harm)
-- [Power Word: Heal](#Power-Word:-Heal)
+- [Power Word: Harm](#Power-Word-Harm)
+- [Power Word: Heal](#Power-Word-Heal)
 - [Sanctuary](#Sanctuary)
 
 ##### Seventh
