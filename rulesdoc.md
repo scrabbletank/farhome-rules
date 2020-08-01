@@ -3722,9 +3722,6 @@ You gain proficiency in Curse spells. You gain 2 level 1 spell slot and start wi
 #### Priest
 You gain proficiency in Divine spells. You gain 2 level 1 spell slot and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency in Religion and Medicine.
 
-#### Warlock
-You've formed a pact with a powerful entity. You can learn 1 cantrip or 1st level spell, and add 1 superior die when casting that spell using this feature. This spell does not require a codex or spell slot, and always casts at your highest possible spell level. After this spell has been cast you must take a short or long rest before casting it again. You gain 1 proficiency in Curse, Lore and Nature.
-
 #### Soldier
 You learn 1 maneuver you meet the requirements for and gain proficiency in 3 martial weapons. You may also choose one of the following trainings:
 - Shield Master: When attacked, you may spend 1 AP to reroll an attackers die, taking the new value.
@@ -3736,9 +3733,6 @@ You begin with Hide Armor, and 3 weapons you are proficient in.
 
 #### Noble
 You start with double starting gold and gain proficiency in a martial weapon. Your skill in trade and court proceedings allows you to improve 1 proficient die to a superior die for all charisma skills. You gain 5 proficiency points to spend among skills. You start with Padded armor and 1 martial weapon of your choice.
-
-
-
 
 #### Ranger
 Your time hunting and wandering through the wilderness has honed your skills. You gain 1 proficency with a ranged weapon, Nature, Survival and Animal Handling and your Move speed increases by 1 tile. In addition, you can improve 1 die to a superior die for initiative, Nature, Survival, and Animal Handling rolls. You start with Studded armor and 1 weapon of your choice.
@@ -3755,19 +3749,12 @@ You start with Scalemail Armor and a martial weapon of your choice.
 Either by circumstance or choice, your time in the pits has honed your senses in battle. You gain 1 proficiency in Unarmed fighting and 2 proficiency points for any martial weapons. While wearing light or no armor your sprint speed is increased by 1. When attacked by a creature inside your zone of control you may improve one defense die to a superior defense die.
 
 #### Chosen
-You are beholden to a greater power, either by choice or folly. For better or worse they have given you some of their power. You learn a single spell from any spell school and are considered to have 2 proficiency when casting this spell. This spell does not require a codex, and can only be cast once per rest. Regardless of the spell chosen, it is always cast with a level equal to 1/3rd your level, rounded up. You may change the spell known when leveling up.
+You are beholden to a greater power, either by choice or folly. For better or worse they have given you some of their power. Each time you level up you choose a spell at or below your spell level. Once per rest you may cast that spell without needing to prepare it or expend a spell slot, adding 1 superior die to the spellcasting roll. Spells cast this way are cast at your highest spell level.
 
 You gain 1 proficiency with Lore, Religion, and Survival.
 
 #### Enchanter
 You have learned the trade of an enchanter, allowing you to empower mundane items. You gain 1 proficiency in Lore, Arcana, and Diplomacy, and Enchanting tools. Enchantments cost half as much when done by yourself, and you may use 2 pieces of enchanted gear instead of 1. You start with 2 level 1 spell slots.
-
-#### Innate Gift
-You have always had an affinity to magic, either through heritage or bestowed upon you by a greater power. You are able to bend magic in ways others cant. When casting a spell you may reroll 1 dice in both the spellcasting roll and the damage roll, taking the new result. You can do this a number of times equal to your Intelligence, refreshing every long rest.
-
-
-
-You gain +1 proficiency in arcana and conversation. You start with 2 spell slots and 4 known spells, either cantrip or 1st level, in your codex.
 
 
 #### Disciple
@@ -3786,7 +3773,7 @@ You gain a mastery of one handed weapons. When attacking with a one handed weapo
 When you make a roll, you may reroll up to your charisma worth of dice. This can be used twice, after which you must take a long rest to regain this feat.
 
 #### Durable
-When targeted by an attack or maneuver, the first crit rolled against you is treated as a single success and does not trigger crit effects.
+When making a defense roll each crit defend you roll negates two crit successes in the attack roll for features or abilities that gain benefits from criticals.
 
 #### Hunter
 Choose an enemy type: goblinoid, beast, humanoid, giant, dragon, fey, demon, undead, outsider, monstrosity. Attacks, maneuvers, spellcasting and skill checks against this creature type gain 1 superior die.
