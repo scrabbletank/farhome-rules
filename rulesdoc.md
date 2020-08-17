@@ -2368,7 +2368,7 @@ Enhance the speed of up to 3 creatures. Make a spellcasting roll, adding a terri
 Add a proficiency die for every level above the 4th.
 
 ___
-#### Intsigate
+#### Instigate
 *4th Level*
 - **Casting Time:** 8 AP
 - **Range:** 10
@@ -3608,10 +3608,10 @@ Can only be used against a grappled target. Make an unarmed attack against the t
 
 #### 7 Hand Strike
 ___
-- **AP Cost:** 7/6
+- **AP Cost:** 8/6
 - **Weapon:** Unarmed
 - **Range:** Melee
-- **Level Required:** 7/15
+- **Level Required:** 9/15
 
 Hit the target with a series of quick strikes. Make an unarmed attack against a target, adding a superior die. On hit, roll 5 wound dice. Add your wounds and crit successes, if it is 5 or more the target is stunned until the end of their next turn.
 
@@ -3693,7 +3693,7 @@ ___
 - **AP Cost:** 5/4
 - **Weapon:** Melee
 - **Range:** Weapon Range
-- **Level Required:** 1/9
+- **Level Required:** 2/9
 
 You carefully study your opponents movements, making a calculated attack. Make a normal weapon attack adding 1 proficient die, rerolling up 3 dice and keeping the new roll. Any crits rolled do not count as crits, but still count as 2 successes. If the attack hits you may shift 1 tile in any direction, preventing opportunity attacks from the creature hit.
 
@@ -3709,6 +3709,17 @@ ___
 Used in place of your movement action, you raise your shield to defend against arrows. As long as you don't sprint you gain 1 Resistance to physical damage dealt by ranged attacks.
 
 ***Enhanced:*** While your shield is raised you can reroll 1 die when making a defense roll.
+
+#### Volley
+___
+- **AP Cost:** 9/7
+- **Weapon:** Ranged
+- **Range:** Weapon Range
+- **Level Required:** 9/17
+
+Shoot a volley of arrows at 3 adjacent targets. Make a ranged weapon attack against each one, adding 1 Terrible die to the attack rolls. On hit you deal normal weapon damage.
+
+***Enhanced:*** Add a Bad die instead of a Terrible die.
 
 ## Feats
 ### Backgrounds
@@ -3765,7 +3776,6 @@ You have trained under masters, learning to perfect your mind and body. When cre
 #### Expertise
 Choose 2 skill proficiencies, Dice rolls using these skills improve normal dice to superior dice instead of proficient dice.
 
-
 #### Duelist
 You gain a mastery of one handed weapons. When attacking with a one handed weapon your first weapon proficiency improvement uses a superior die. If you hold nothing in your off hand all your weapon proficiency uses superior die.
 
@@ -3773,16 +3783,13 @@ You gain a mastery of one handed weapons. When attacking with a one handed weapo
 When you make a roll, you may reroll up to your charisma worth of dice. This can be used twice, after which you must take a long rest to regain this feat.
 
 #### Durable
-When making a defense roll each crit defend you roll negates two crit successes in the attack roll for features or abilities that gain benefits from criticals.
+When taking damage from any source you may reroll 1 wound die, taking the new value.
 
 #### Hunter
 Choose an enemy type: goblinoid, beast, humanoid, giant, dragon, fey, demon, undead, outsider, monstrosity. Attacks, maneuvers, spellcasting and skill checks against this creature type gain 1 superior die.
 
-#### Medium Armor Expert
-You do not take penalities to initiative, spellcasting, or dexterity checks while wearing medium armor as long as you meet the strength requirement. In addition, when you are the target of an attack, you may reroll a single defense die as long as the attack did not crit.
-
-#### Heavy Armor Expert
-You do not take penalities to initiative, spellcasting, or dexterity checks while wearing heavy armor as long as you meet the strength requirement. In addition, you negate the effects of a single crit die when the target of an attack. The crit still counts as 2 successes, but does not trigger effects from critial hits.
+#### Armor Expert
+You reduce the penalties of wearing armor to 1 Bad die for medium armor and 1 Terrible die for Heavy armor. When making a defense roll you ignore the first crit rolled against you. The crit still counts as 2 successes but does not trigger critical hit effects.
 
 #### Quick Healing
 You gain 4 Healing Surges instead of 3 each long rest. When rolling Healing Surges, roll 4 wound dice instead of 3.
@@ -3803,13 +3810,13 @@ You gain proficiency in Curse spells.
 You gain proficiency in Divine spells.
 
 #### Battle Mage
-If you cast a cantrip or 1st level spell, your next basic attack costs 2 less AP.
+If you cast a cantrip or 1st level spell, your next basic attack costs 2 less AP. The spell level increase to 2 at 7th level, and 3 at 15th level.
 
 #### Flurry of Blows
 After an unarmed attack, if you have nothing in your offhand you may take the Off-Hand attack action, making two unarmed attacks instead of one, each rolling a single wound for damage.
 
 #### Wrestler
-When grappling a creature, your move and sprint speeds are reduced to 2 instead of 1.
+When grappling a creature you gain 2 superior dice when making Strength rolls to move or shove a creature.
 
 #### Scribe
 Creating spell scrolls cost half as much and you may copy 2 spells from a Codex instead of 1. You gain 1 proficiency in an Intelligence skill of your choice.
@@ -3828,14 +3835,14 @@ You resonate particularly well with magic items. You may attune to 4 items at on
 Reduces the cost of basic attacks by 1 AP.
 
 #### Brutal Strikes
-*Requires 2 Strength*
+*Requires 2 Strength, 5th Level*
 
 When you crit with an attack, add an extra wound die.
 
 #### Second Wind
 *Requires 1 Stamina*
 
-While in combat you may spend 7 AP on your turn to use a Healing Surge. This can be used once per rest.
+While in combat you may spend 3 AP on your turn to use a Healing Surge. This can be used once per rest.
 
 #### Battering Ram
 *Requires 2 Stamina*
@@ -3843,11 +3850,11 @@ While in combat you may spend 7 AP on your turn to use a Healing Surge. This can
 If you move at least 2 tiles before making an attack or maneuver, add an extra wound die for the damage.
 
 #### Charmer
-*Requires 2 Conversation Proficiency*
+*Requires 2 Conversation proficiency*
 When rolling a Conversation challenge against a non-hostile creature you add a superior die to the roll. On a crit the creature treats you as a friend for the next day.
 
 #### Keeper of Lore
-*Requires Proficiency with Lore*
+*Requires proficiency with Lore*
 You add 2 superior dice when rolling a Lore challenge to identify a magic item. On crit you know if an item is cursed or not.
 
 #### Linguist
@@ -3856,10 +3863,9 @@ You add 2 superior dice when rolling a Lore challenge to identify a magic item. 
 You learn a new language of your choosing. When making a translation check add 2 superior die to the roll.
 
 #### Quickened Spellcasting
-*Requires Proficiency with a spell type*
+*Requires proficiency with a spell type*
 
 Reduces the cost of spells by 1 AP.
-
 
 #### Enduring Concentration
 *Requires 2 Stamina*
@@ -3892,25 +3898,23 @@ You can speak with animals and cast _Animal Messenger_ at 1st level without a co
 #### Action Surge
 *Requires 5th level*
 
-At any time you may use Action Surge to regain 6 AP. After using this feat, you must take a short or long rest before you can use it again.
+At any time you may use Action Surge to regain 7 AP. After using this feat, you must take a short or long rest before you can use it again.
 
 #### Signature Move
 *Requires 10th level*
 
-Choose a maneuver you know. This maneuver can be used every turn, and you add 1 superior die to the roll.
+Choose a maneuver you know with a Level requirement of 7 or lower. This maneuver can be used every turn, and you add 1 superior die to the roll.
 
 #### Overwatch
-*Requires proficiency in Perception*
+*Requires proficiency in Perception, 12th Level*
 
 Once per turn, when a creature takes a movement action towards you, you can spend 2 AP to make a ranged weapon attack as a reaction as long as the creature is in range.
-
-
-
 
 #### Blessed Healing
 *Requires proficiency with Divine spells*
 
 The target of your heals gains an extra superior die on their next attack or saving throw.
+
 #### Helping Hand
 *Requires proficiency with Divine spells*
 
@@ -3954,20 +3958,10 @@ Curses you cast last for 7 days instead of 1. If you only target a single creatu
 
 You add 1 superior die when making Enchantment rolls. Enchantments you make last 7 days.
 
-#### Developed Gift
-*Requires Innate Gift, 5th Level*
-
-When empowering a spell you may reroll 3 dice instead of 1.
-
-#### Stablizing Magic
-*Requires Innate Gift, 10th Level*
-
-When casting a spell that requires concentration you can expend one of your uses of _Innate Gift_ to remove the concentration requirement for 1 minute. After 1 minute if you do not or cannot concentrate on the spell, the spell ends.
-
 #### Mana Font
 *Requires 2 Intelligence*
 
-While in combat you may spend 7 AP to restore spell slots with a combined level equal to 1/3rd of your level, rounded up. After use, cannot be used again until taking a rest.
+While in combat you may spend 3 AP to restore spell slots with a combined level equal to 1/3rd of your level, rounded up. After use, cannot be used again until taking a rest.
 
 #### Arcane Forge
 *Requires proficiency with Enchanters Tools*
@@ -3983,6 +3977,42 @@ When using your Apothecary set you create 2 potions instead of 1.
 *Requires level 12*
 
 You gain expertise in 2 saving throws.
+
+#### Poison Resistance
+*Requires 2 Stamina*
+
+You gain Resistance 1 against poison damage. At the end of each of your turns if you are Poisoned reduce the level of Poison by 1.
+
+#### Danger Sense
+*Requires proficiency in Perception, 10th Level*
+
+When making a saving throw against an attack, damaging spell, or effect you can see you gain 1 superior die to your roll.
+
+#### Sticky Hands
+*Requires proficiency in Sleight of Hands*
+
+When in combat you can attempt to steal an item from your opponent. The item has to be visible and not being held. Using 5 AP you make a Sleight of Hand roll against the targets Dexterity or Defense, on success you take the item.
+
+#### Hiden in Plain Sight
+*Requires proficiency in Stealth*
+
+Your ability to sneak allows you to hide even in combat. When partially obscured you can spend 5 AP to make a Hide action. Make a stealth roll against the creatures perception. On success you hide from the creature. The creature is still aware of you but cannot find you.
+
+#### Actor
+*Requires proficiency in Performance*
+
+You are able to impersonate voices you have heard before, reducing the skill challenge for these rolls. When making conversation or diplomacy checks you can use your performance instead.
+
+#### Beast Whisperer
+*Requires proficiency in Animal Handling*
+
+You gain expertise in Animal Handling. Your skill with animals allows you to pacify even hostile beasts. You can spend your turn attempting to calm the beast, making an animal handling roll. On success the creature is no longer hostile.
+
+You can make an animal handling roll against a beast that hasn't been hostile towards you in an attempt to befriend it. On a crit the beast will defend you while in its habitat.
+
+#### Exertion
+*Requires 10th level*
+As long as you have at least 1 AP remaining you can take an an action costing 5 AP or less. After taking the action make an exhaustion roll, adding 1 bad die for every AP you overspent, gaining 1 level of exhaustion on fail.
 
 ### Advanced
 
@@ -4001,19 +4031,24 @@ Reduces the cost of basic attacks by 1 AP.
 
 You can concentrate on 2 separate spells at once, as long as these spells have different targets. Persistent effects, such as _Shroud of Darkness_ have no targets, and creatures inside the spells area do not count as already targeted for Split Mind.
 
-
 #### Lay on Hands
 *Requires Blessed Healing, 3 Charisma*
 
 You have a natural gift for healing, able to channel your Divine magic without the aid of a Codex. You may spend 5 AP to heal a single wound from a creature you touch. This can be used up to your charisma level, after which you must take a long rest to regain this feat.
-
-
 
 #### Jinx
 *Requires Potent Curses, 4 Willpower*
 
 You may affect the same creature with two different curses, instead of one. You gain 1 superior die to your saving throw when you are the target of a curse.
 
+#### Indomitable
+*Requires Durable, 3 Stamina, 12th Level*
+
+When taking lethal damage, as long as the total damage is less than or equal to your Stamina you are left with 1 wound, with the excess reducing your Stamina directly. Stamina lost in this way is returned after a long rest.
+
+#### Armor Mastery
+*Requires Armor Expert, 3 Strength, 10th Level*
+You take no penalties from wearing armor. When making a defense roll you may reroll 1 defense die, taking the new value.
 
 #### Eldritch Force
 *Requires Chosen, 1 Intelligence, 8th Level*
