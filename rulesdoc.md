@@ -690,8 +690,8 @@ You increase the number of wounds dealt by the level of vulernability. For examp
 
 ### Elves
 
-#### High Elf
 ___
+#### High Elf
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Strength
@@ -700,8 +700,8 @@ ___
 
 You may learn a single cantrip, this cantrip does not require a codex to cast. On a short rest you recover an additional level worth of spell slots.
 
-#### Wood Elf
 ___
+#### Wood Elf
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/3
 - **Attribute Bonuses:** +1 Dexterity, +1 Willpower, -1 Intelligence
@@ -710,8 +710,8 @@ ___
 
 You gain 1 proficiency with either a bow or a spear, and gain a maneuver that uses that weapon.
 
-#### Star Elf
 ___
+#### Star Elf
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Charisma, -1 Stamina
@@ -722,8 +722,8 @@ You gain 2 superior dice when making a save against a charm, possession, or fear
 
 ### Goblinoid
 
-#### Half-Orc
 ___
+#### Half-Orc
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/1
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Charisma
@@ -732,8 +732,8 @@ ___
 
 When making death saving throws you may reroll the die, taking the new result. If you pass 3 rounds in a row without failing a death save you become stablized.
 
-#### Twili (Night Goblin)
 ___
+#### Twili (Night Goblin)
 - **Starting Wounds:** 2
 - **Move/Sprint:** 4/3
 - **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Willpower
@@ -749,8 +749,8 @@ As long as you are not the only ally in a creatures zone of control, you count a
 
 ### Humanoid
 
-#### Human
 ___
+#### Human
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 to Any
@@ -759,8 +759,8 @@ ___
 
 You choose 3 bonuses when creating your character instead of 2.
 
-#### Half-elf
 ___
+#### Half-elf
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 to Dexterity
@@ -769,8 +769,8 @@ ___
 
 You gain expertise in your starting attribute save.
 
-#### Fallen
 ___
+#### Fallen
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Charisma, +1 Willpower, -1 Strength
@@ -781,8 +781,8 @@ You take no penalities when in dim light, and only add 1 bad die in total darkne
 
 ### Dwarf
 
-#### Hill Dwarf
 ___
+#### Hill Dwarf
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/1
 - **Attribute Bonuses:** +1 Willpower, +1 Stamina, -1 Dexterity
@@ -791,8 +791,8 @@ ___
 
 During a long rest you may enhance a piece of mundane gear, giving it +1 until the next day. At level 10 you can enhance two pieces of gear.
 
-#### Mountain Dwarf
 ___
+#### Mountain Dwarf
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/1
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Dexterity
@@ -804,8 +804,8 @@ Your max wounds is increased by 1. Additionally you regain 1 extra wound during 
 
 ### Lizardmen
 
-#### Lizardfolk Race
 ___
+#### Lizardfolk Race
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Strength, +1 Dexterity, -1 Intelligence
@@ -814,8 +814,8 @@ ___
 
 You gain 1 proficiency in unarmed combat and roll 2 wound dice when attacking unarmed.
 
-#### Dragonnewt
 ___
+#### Dragonnewt
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/3
 - **Attribute Bonus:** +1 Dexterity, +1 Willpower, -1 Charisma
@@ -2752,9 +2752,9 @@ Add a wound die for every level above cantrip.
 
 
 
+___
 #### Bonfire
 *1st Level*
-___
 - **Casting Time:** 1 minute
 - **Range:** Touch
 - **Duration:** 8 hours
@@ -2764,9 +2764,9 @@ You create a magical soothing bonfire. The bonfire takes a single tile of space,
 Add a proficient die for every level above the 1st.
 
 
+___
 #### Bramble
 *1st Level*
-___
 - **Casting Time:** 7 AP
 - **Range:** 7
 - **Duration:** 5 minutes
@@ -3374,8 +3374,8 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 
 ## Maneuvers
 
-#### Hamstring
 ___
+#### Hamstring
 - **AP Cost:** 5/4
 - **Weapon:** Any
 - **Range:** Melee
@@ -3386,8 +3386,8 @@ Make a melee attack against a target, adding 1 proficiency die. On hit deal norm
 ***Enhanced:*** Add a wound die to your attack roll, and the target gains Slow 2 instead.
 
 
-#### Armor Break
 ___
+#### Armor Break
 - **AP Cost:** 5/4
 - **Weapon:** Bludgeoning
 - **Range:** Melee
@@ -3397,8 +3397,8 @@ Make a melee attack against a target, adding 1 proficiency die. On hit deal norm
 
 ***Enhanced:*** Add a superiority die instead of a procient die.
 
-#### Cleave
 ___
+#### Cleave
 - **AP Cost:** 5/4
 - **Weapon:** Two-Handed weapon
 - **Range:** Melee
@@ -3409,8 +3409,8 @@ You may target creatures equal to your Strength. Targets must be inside your zon
 ***Enhanced:*** You no longer add a bad die to the roll, on hit targets take a wound instead of rolling a wound die.
 
 
-#### Sweeping Strike
 ___
+#### Sweeping Strike
 - **AP Cost:** 5/4
 - **Weapon:** Polearm
 - **Range:** 2
@@ -3420,8 +3420,8 @@ Make a melee attack against a target, adding 1 proficiency die. On hit deal norm
 
 ***Enhanced:*** Add a wound die to your attack roll.
 
-#### Spear Wall
 ___
+#### Spear Wall
 - **AP Cost:** 2
 - **Weapon:** Polearm
 - **Range:** 2
@@ -3434,8 +3434,8 @@ As a reaction you can make an attack against any target moving in range of you. 
 
 
 
-#### Protector
 ___
+#### Protector
 - **AP Cost:** 1
 - **Weapon:** Shield
 - **Range:** 1
@@ -3445,8 +3445,8 @@ When an ally adjacent to you is targeted by an attack you can spend 1 AP to add 
 
 ***Enhanced:*** If the attack is successfully blocked, you may make a reaction attack against the attacker if you are in range and have AP.
 
-#### Headbutt
 ___
+#### Headbutt
 - **AP Cost:** 3/2
 - **Weapon:** N/A
 - **Range:** Melee
@@ -3457,8 +3457,8 @@ After making a successful melee attack against the target you may attempt to hea
 ***Enhanced:*** You may upgrade one die in your Stamina roll. Roll a wound die, dealing the result to the losing creature.
 
 
-#### Aimed Shot
 ___
+#### Aimed Shot
 - **AP Cost:** 5-8/4-8
 - **Weapon:** Ranged Weapon
 - **Range:** min 15 ft
@@ -3471,8 +3471,8 @@ Make a ranged attack against a target, adding a proficiency die for each AP spen
 
 
 
-#### Target Weakness
 ___
+#### Target Weakness
 - **AP Cost:** 5/4
 - **Weapon:** Ranged Weapon
 - **Range:** any
@@ -3482,8 +3482,8 @@ Make a ranged attack against a target, adding up to 5 wound die. For each wound 
 
 ***Enhanced:*** On a crit, the target takes a random Lesser wound.
 
-#### Pinning Shot
 ___
+#### Pinning Shot
 - **AP Cost:** 6/5
 - **Weapon:** Ranged Weapon
 - **Range:** any
@@ -3496,8 +3496,8 @@ Make a ranged attack against a target, adding a proficiency die to the roll. On 
 
 
 
-#### Hail of Arrows
 ___
+#### Hail of Arrows
 - **AP Cost:** 8/7
 - **Weapon:** Ranged weapon without _Loading_
 - **Range:** any
@@ -3509,8 +3509,8 @@ Choose a point within range of your bow, targeting all creatures on or adjacent 
 ***Enhanced:*** You no longer add a bad die to your roll, deals 1 wound instead of 1 wound die.
 
 
-#### Sneak Attack
 ___
+#### Sneak Attack
 - **AP Cost:** 6/5
 - **Weapon:** Any 1 handed weapon
 - **Range:** Melee
@@ -3521,8 +3521,8 @@ Can only be used when flanking a target. Make a melee attack against the target,
 ***Enhanced:*** Can be used every turn instead of every other turn.
 
 
-#### Wild Attack
 ___
+#### Wild Attack
 - **AP Cost:** 5/4
 - **Weapon:** Any Slashing weapon
 - **Range:** Melee
@@ -3532,8 +3532,8 @@ Make a wild attack against a target, adding 1 proficiency die to your attack rol
 
 ***Enhanced:*** Add a superior die instead of a proficient die. If you deal 3 or more wounds with this attack the target gains a random Lesser Wound.
 
-#### Deflect
 ___
+#### Deflect
 - **AP Cost:** 2/1(3)
 - **Weapon:** N/A
 - **Range:** Melee
@@ -3546,8 +3546,8 @@ Can only be used when the target of a ranged weapon attack. Instead of making a 
 
 
 
-#### Inspiring Words
 ___
+#### Inspiring Words
 - **AP Cost:** 3/3
 - **Weapon:** N/A
 - **Range:** 6
@@ -3558,8 +3558,8 @@ You give words of encouragement to another creature. Make a performance roll, ad
 ***Enhanced:*** You can target up to 3 creatures, adding a bad die for each creature past the 1st.
 
 
-#### Daze
 ___
+#### Daze
 - **AP Cost:** 5/4
 - **Weapon:** Bludgeoning
 - **Range:** Melee
@@ -3570,8 +3570,8 @@ Make a normal weapon attack against a target, adding a proficient die to the rol
 ***Enhanced:*** Add a superior die instead of a proficient die. The target is dazed for 1 minute on crit.
 
 
-#### Press the Attack
 ___
+#### Press the Attack
 - **AP Cost:** 5/4
 - **Weapon:** Any
 - **Range:** Melee
@@ -3581,8 +3581,8 @@ Strike into the target, attempting to push them back. Make a normal weapon attac
 
 ***Enhanced:*** Add a wound die to the roll. If you make 2 critical successes, the target is knocked prone instead of staggered.
 
-#### Push Opportunity
 ___
+#### Push Opportunity
 - **AP Cost:** 5/4
 - **Weapon:** Any
 - **Range:** Melee
@@ -3595,8 +3595,8 @@ Take advantage of a situation. Can only be used against a target that has a cond
 
 
 
-#### Suplex
 ___
+#### Suplex
 - **AP Cost:** 5/4
 - **Weapon:** Unarmed
 - **Range:** Melee
@@ -3606,8 +3606,8 @@ Can only be used against a grappled target. Make an unarmed attack against the t
 
 ***Enhanced:*** Wound die you roll count as wounds instead.
 
-#### 7 Hand Strike
 ___
+#### 7 Hand Strike
 - **AP Cost:** 8/6
 - **Weapon:** Unarmed
 - **Range:** Melee
@@ -3618,8 +3618,8 @@ Hit the target with a series of quick strikes. Make an unarmed attack against a 
 ***Enhanced:*** You add 2 superior die to the attack, and you can target a creature up to 2 tiles away, moving yourself to an unoccupied adjacent tile for the attack.
 
 
-#### Steel Tempest
 ___
+#### Steel Tempest
 - **AP Cost:** 9/8
 - **Weapon:** Sword
 - **Range:** 2
@@ -3630,8 +3630,8 @@ Make a normal weapon attack against up to 5 creatures in range, adding 1 terribl
 ***Enhanced:*** If you manage to hit 5 creatures, they grant combat advantage until the start of your next turn.
 
 
-#### Puncture
 ___
+#### Puncture
 - **AP Cost:** 5/4
 - **Weapon:** One-Handed Slashing or Piercing
 - **Range:** Melee
@@ -3644,8 +3644,8 @@ Only usable against a target that rolls 4 or more defense dice. Slide your blade
 
 
 
-#### Smite
 ___
+#### Smite
 - **AP Cost:** 6/5
 - **Weapon:** Melee Weapon
 - **Range:** Melee
@@ -3655,8 +3655,8 @@ Empower your weapon with holy might. This attack consumes up to a 2nd level spel
 
 ***Enhanced:*** Add a superior die instead of a proficient die to your attack roll, you may use up to 4th level spell slots.
 
-#### Savage Leap
 ___
+#### Savage Leap
 - **AP Cost:** 5/4
 - **Weapon:** Any
 - **Range:** 2
@@ -3666,8 +3666,8 @@ Only usable if you are not adjacent to any hostile creature. You make a running 
 
 ***Enhanced:*** Add a proficient die to the attack roll.
 
-#### Shield Slam
 ___
+#### Shield Slam
 - **AP Cost:** 3/2
 - **Weapon:** Shield
 - **Range:** Melee
@@ -3677,8 +3677,8 @@ Make an attack with your shield, knocking the target off balance. Make a normal 
 
 ***Enhanced:*** Add a proficient die to the attack roll and the target is staggered regardless of crit.
 
-#### Magic Arrow
 ___
+#### Magic Arrow
 - **AP Cost:** 7/5
 - **Weapon:** Ranged
 - **Range:** Weapon Range
@@ -3688,8 +3688,8 @@ You channel magic into your weapon, empowering the next attack and consuming a s
 
 ***Enhanced:*** On crit, deal an additional wound die to all targets.
 
-#### Careful Advance
 ___
+#### Careful Advance
 - **AP Cost:** 5/4
 - **Weapon:** Melee
 - **Range:** Weapon Range
@@ -3699,8 +3699,8 @@ You carefully study your opponents movements, making a calculated attack. Make a
 
 ***Enhanced:*** Add a superior die instead of a proficient die, you may reroll up to 5 dice instead of 3.
 
-#### Raise Shield
 ___
+#### Raise Shield
 - **AP Cost:** 3/3
 - **Weapon:** Shield
 - **Range:** N/A
@@ -3771,6 +3771,7 @@ You have learned the trade of an enchanter, allowing you to empower mundane item
 #### Disciple
 You have trained under masters, learning to perfect your mind and body. When creating your character you gain proficiency in 2 attribute saving throws each time you take that perk. In addition you gain 2 proficiency in a single martial weapon and +1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
 
+___
 ### Basic
 
 #### Expertise
@@ -3827,6 +3828,7 @@ Spells with a range of 5 tiles or more gain +3 range. Spell attacks against crea
 #### Attuned Spirit
 You resonate particularly well with magic items. You may attune to 4 items at one time, instead of 3. If an item your attuned to grants you a bonus to your attributes, you gain an equal bonus to that attributes saving throw.
 
+___
 ### Journeyman
 
 #### Fast Attacks
@@ -4096,6 +4098,7 @@ A vial of poison, enough to coat a weapon for 3 attacks or 10 arrowheads. Poison
 | Paralyzing | 1+/0 | creature is paralyzed for 10 minutes |
 | Confounding | 1+/0 | creatures proficiency modifiers are reduced by 1 + modifier. Negative proficiencies 'improve' die to bad dice. |
 
+___
 ### Mundane Gear
 
 ##### Weapons
@@ -4146,6 +4149,7 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 
 <div class='wide'>
 
+___
 ### Wounds
 
 #### Lesser Wounds
@@ -4180,7 +4184,7 @@ Roll 3 terrible dice, adding the successes. For each critical, move up one level
 | | -1 | Concussed | Your Intelligence is reduced by 1, if you finish your turn with 0 AP remaining you are Dazed until the end of your next turn. |
 | | 0 | Torn Ligament | You add 2 bad dice to all dexterity saves. |
 
-
+___
 ### Tools
 
 #### Lockpicks
@@ -4194,7 +4198,8 @@ A set of tools for picking a variety of locks. Anyone can use a lockpicking set,
 | Expert  | Improves 1 proficient die to a superior die |
 | Masterwork | Improves 3 proficient dice to superior dice |
 | Skeleton Key | Adds 4 superior dice to a lockpicking roll. After making the roll, roll a terrible die. The skeleton key breaks on fail. |
-  
+
+___
 #### Repair Kit
 Any damage taken by your armor or weapons are permanent until repaired. An item that takes enough damage, magical or not is destroyed. A weapon that goes below a -2 modifier or armor that is reduced to a single die is destroyed and can no longer be repaired or used.
 
@@ -4207,6 +4212,7 @@ You may attempt to repair a single piece of equipment over a long rest. Roll a R
   
 <div class='wide'>
 
+___
 #### Apothecary Set
 
 A portable set of tools required to brew potions over a campfire. During a long rest you may attempt to brew a single potion or poison if you have the right ingredients, or you may search your surroundings for ingredients.
@@ -4228,99 +4234,99 @@ Based on your surroundings you you may make a normal Survival skill challenge, i
 #### Potions
   Each potion takes a set number of ingredients, with some potions being easier than others.
 
-  ##### Healing Potion
 ___
+  ##### Healing Potion
 - **Ingredients:** 2 Healroot
 - **Roll:** 2 Bad dice
 
 A basic healing potion. On use, heals 1 + 2 wound dice in health.
 
-##### Potion of Vitality
 ___
+##### Potion of Vitality
 - **Ingredients:** 2 Healroot, 1 Vitalflower
 - **Roll:** 2 Bad dice
 
 Increases your maximum wounds by 1 for 24 hours.
 
-##### Cleansing Potion
 ___
+##### Cleansing Potion
 - **Ingredients:** 2 Cleansebloom, 1 Healroot
 - **Roll:** 2 Bad dice
 
 Ends up to 2 of the following conditions: Dazed, Hex, Paralyzed, Weaken, Slowed. If the condition is level 3 or more, remove 2 levels instead. Conditions granted by wounds, curses, or persistent effects return at the start of your next turn.
 
-##### Potion of Strength
-  
 ___
+##### Potion of Strength
 - **Ingredients:** 2 Buff Beetle, 1 Skillwheat
 - **Roll:** 2 Bad dice, 1 Terrible die
 
 For the next hour, replace all wound die from weapon attacks with wounds.
 
-##### Potion of Ability
 ___
+##### Potion of Ability
 - **Ingredients:** 2 Skillwheat, 1 Healroot
 - **Roll:** 2 Bad dice, 1 Terrible die
 
 When brewing this potion choose an attribute. On drinking, for the next 4 hours all skill proficiencies for that attribute are increased by 1.
 
-##### Fortify Mind Potion
 ___
+##### Fortify Mind Potion
 - **Ingredients:** 2 Brainfish, 1 Cleansebloom
 - **Roll:** 2 Bad dice, 1 Terrible die
 
 For the next 4 hours you gain 1 superior die when rolling concnetration saves.
 
-##### Bracing Potion
 ___
+##### Bracing Potion
 - **Ingredients:** 1 Vitalflower, 1 Buff Beetle, 2 Cleansebloom
 - **Roll:** 2 Bad dice, 2 Terrible die
 
 For the next hour any time you take a condition roll a wound die instead, on a blank you are not effected by the condition.
 
-##### Potion of Firebreathing
 ___
+##### Potion of Firebreathing
 - **Ingredients:** 2 Dragonflower, 1 Scorchroot
 - **Roll:** 2 Bad dice, 2 Terrible die
 
 For the next 10 minutes, on your turn you may spend 7 AP to breath fire on all creatures in your zone of control. Each must make a Dexterity save vs 2 superior dice. On hit they take 1 wound of fire damage.
 
+___
 #### Poisons
 Poisons are applied to weapons and must hit to be effective. Each poison vial has enough to coat a weapon for a single hit, or coat 4 arrow tips. Does not work with blunt weapons.
 
 
-##### Nettle Fever
 ___
+##### Nettle Fever
 - **Ingredients:** 2 Poison Nettle
 - **Roll:** 2 Bad dice
 
 On hit inflicts Poison 1, or Poison 2 on critical. Lasts for 10 minutes.
 
-##### Sapping Poison
 ___
+##### Sapping Poison
 - **Ingredients:** 2 Poison Nettle, 2 Skillwheat
 - **Roll:** 2 Bad dice, 1 Terrible die
 
 On hit, inflicts Poison 1 and reduces all proficiencies by 1 for 10 minutes.
 
 
-##### Nightbleed Poison
 ___
+##### Nightbleed Poison
 - **Ingredients:** 2 Nightshade, 1 Poison Nettle
 - **Roll:** 2 Bad dice, 1 Terrible die
 
 On hit deals 1 wound die in poison damage, or 2 wound die on critical.
 
-##### Paralyzing Poison
 ___
+##### Paralyzing Poison
 - **Ingredients:** 2 Nightshade, 1 Scorpion Venom
 - **Roll:** 2 Bad dice, 2 Terrible die
 
 on hit inflicts Paralyzed for 1 minute.
 
 
-##### Deadly Toxins
 ___
+##### Deadly Toxins
 - **Ingredients:** 1 Toxic Frog, 1 Nightshade, 1 Poison Nettle
 - **Roll:** 2 Bad dice, 2 Terrible die
 
@@ -4330,7 +4336,8 @@ on hit inflicts Poison 3 for 10 minutes.
 
 
 <div class='wide'>
-  
+
+___
 #### Enchanters Tools
   During a long rest you may attempt to enchant a single piece of mundane gear. Enchanted gear lasts for 3 days and count as magical equipment for the duration. After the Ehcantment ends the gear returns to being mundane. To enchant a piece of gear you must have a spell slot available and enough enchanting supplies for the enchantment. Then you must pass the enchanting roll, with failure consuming the spell slot and supplies but not giving the enchantment. Most cities and towns will sell enchanting supplies.
   
