@@ -74,6 +74,7 @@
 - [Basic](#Basic)
 - [Journeyman](#Journeyman)
 - [Advanced](#Advanced)
+- [Legendary](#Legendary)
 
 [Items](#Items)
 - [Consumables](#Consumables)
@@ -4087,6 +4088,7 @@ When inscribing a rune you may add 1 Bad die to the challenge roll, on success y
 
 Your experience with spell scrolls enables you to create spell scrolls for spells you don't know. You may research any spell at or below your casting level. Researching a spell costs double the normal costs for creating a spell scroll and takes 1 week of work for spells below 4th level, adding an additional week for every level at 4th and above. You add 1 Terrible die to the challenge roll, creating the spell scroll on success.
 
+___
 ### Advanced
 
 #### Iron Grip
@@ -4134,6 +4136,7 @@ When casting Eldritch blast you may target 2 creatures.
 
 Runes you make are resistant to breaking. When one of your runes is activated roll a wound die, the rune is not consumed on a blank.
 
+___
 ### Legendary
 Each character can only take 1 legendary feat, regardless of requirements.
 
