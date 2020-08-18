@@ -4082,6 +4082,11 @@ When copying spells from a Codex you can instead use your scribing tools to crea
 
 When inscribing a rune you may add 1 Bad die to the challenge roll, on success you create two runes instead of one.
 
+#### Spell Researcher
+*Requires proficiency with Scribing Tools, 3 Intelligence, 10th Level*
+
+Your experience with spell scrolls enables you to create spell scrolls for spells you don't know. You may research any spell at or below your casting level. Researching a spell costs double the normal costs for creating a spell scroll and takes 1 week of work for spells below 4th level, adding an additional week for every level at 4th and above. You add 1 Terrible die to the challenge roll, creating the spell scroll on success.
+
 ### Advanced
 
 #### Iron Grip
