@@ -4134,6 +4134,30 @@ When casting Eldritch blast you may target 2 creatures.
 
 Runes you make are resistant to breaking. When one of your runes is activated roll a wound die, the rune is not consumed on a blank.
 
+### Legendary
+Each character can only take 1 legendary feat, regardless of requirements.
+
+#### Titan's Grip
+*Requires 5 Strength, 20th Level*
+
+When rolling wounds from an attack or maneuver that uses your strength you may instead treat all wound dice as wounds. You can do this up to your strength score, after which you must long rest before using again.
+
+#### Fleetfoot
+*Requires 5 Dexterity, 20th Level*
+
+When taking a move or sprint action you may spend 1 additional AP to become immune to opportunity attacks.
+
+#### Juggernaut
+*Requires 5 Strength, 20th Level*
+
+Once per long rest, as long as an attack does less than your max wounds in damage you can take no damage instead.
+
+#### Spellpower
+*Requires 5 Intelligence, 20th Level*
+
+Once per long rest, when casting a spell you may cast it at a spell level 4 levels higher.
+
+
 ## Items
 ### Consumables
 
