@@ -84,6 +84,7 @@
   - [Repair Kit](#Repair-Kit)
   - [Apothecary Set](#Apothecary-Set)
   - [Enchanters Tools](#Enchanters-Tools)
+  - [Scribing Tools](#Scribing-Tools)
 
 
 ## Introduction
@@ -3857,9 +3858,6 @@ After an unarmed attack, if you have nothing in your offhand you may take the Of
 #### Wrestler
 When grappling a creature you gain 2 superior dice when making Strength rolls to move or shove a creature.
 
-#### Scribe
-Creating spell scrolls cost half as much and you may copy 2 spells from a Codex instead of 1. You gain 1 proficiency in an Intelligence skill of your choice.
-
 #### Longcaster
 Spells with a range of 5 tiles or more gain +3 range. Spell attacks against creatures in cover grant them one less defense die.
 
@@ -4010,7 +4008,7 @@ If you enchant an item with the same property every day for 7 days the effect be
 #### Effecient Brewing
 *Requires proficiency with Apothecary Set*
 
-When using your Apothecary set you create 2 potions instead of 1.
+When using your Apothecary set you can add an additional ingredient from any of the required ingredients. If you do you create two potions on success instead of one.
 
 #### Keen Reflexes
 *Requires level 12*
@@ -4074,6 +4072,16 @@ You have perfected your defenses, allowing you to withstand almost any attack. W
 
 Your are able to mend even the most fatal of wounds. When casting a healing spell you add 1 wound die to the heal. Casting a healing spell on an unconscious ally always restores the maximum wounds possible.
 
+#### Careful Scribing
+*Requires proficiency with Scribing Tools*
+
+When copying spells from a Codex you can instead use your scribing tools to create a spell scroll. Doing so costs a single enchanting supply regardless of spell level, but ignores all other costs for creating spell scrolls. For each spell you want to remove from the Codex and turn into a scroll make a inscription roll against that spell levels difficulty. On success you create a spell scroll for that spell, with failure destroying the codex.
+
+#### Runesmith
+*Requires proficiency with Scribing Tools, 1 Dexterity*
+
+When inscribing a rune you may add 1 Bad die to the challenge roll, on success you create two runes instead of one.
+
 ### Advanced
 
 #### Iron Grip
@@ -4115,6 +4123,11 @@ You take no penalties from wearing armor. When making a defense roll you may rer
 *Requires Chosen, 1 Intelligence, 8th Level*
 
 When casting Eldritch blast you may target 2 creatures.
+
+#### Durable Runes
+*Requires Runesmith, 10th Level*
+
+Runes you make are resistant to breaking. When one of your runes is activated roll a wound die, the rune is not consumed on a blank.
 
 ## Items
 ### Consumables
@@ -4422,11 +4435,41 @@ ___
 | | Staggering | 1st | 1 |2B | On critical the target is staggered until the start of your next turn. Makes 3 ammunition |
 | | Slowing | 1st | 1 |2B | On critical the target gains Slow 1 until the start of your next turn. Makes 3 ammunition |
 | | Homing | 2nd | 2 |2B/1T | Creates 3 +1 magical ammunition. |
-| | Slaying | 3rd | 2 |2B/3T | Choose a creature type. This arrow deals an extra 3 wound die against creatures of this type. |
+| | Slaying | 3rd | 2 |2B/3T | Choose a creature type. This arrow deals an extra 3 wounds against creatures of this type. |
 
 
   
 </div>
 
+___
+#### Scribing Tools
+A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a single rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and wards requires spell slots and uses a mix of gemstones and enchanting supplies which can be found in most cities.
 
+#### Inscribing Spell Scrolls
+You can create a spell scroll for any spell in your codex that you are able to cast. Creating a spell scroll of 3rd level or lower can be done during a long rest, with spells of 4th level and higher taking 1 day of work for each level above 3rd. You must have a spell slot of the same level or higher available which is consumed in creating the scroll.
 
+##### Spell Scrolls
+| Level | Spell Slot | Gemstones | Supplies | Challenge Dice |
+|:-----:|:-----:|:-----:|:-----:|:-------------|
+| Cantrip | 1st | 10gp gemstone | 0 | 1B |
+| 1st | 1st | 10gp gemstone | 1 | 1T |
+| 2nd | 2nd | 25gp gemstone | 1 | 2T |
+| 3rd | 3rd | 25gp gemstone | 2 | 3T |
+| 4th | 4th | 50gp gemstone | 2 | 4T |
+| 5th | 5th | 50gp gemstone | 3 | 5T |
+| 6th | 6th | 100gp gemstone | 4 | 6T |
+| 7th | 7th | 250gp gemstone | 5 | 7T |
+| 8th | 8th | 500gp gemstone | 7 | 8T |
+| 9th | 9th | 1000gp gemstone | 10 | 9T |
+
+#### Inscribing Runes
+You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe you need to have the required supplies and a spell slot of the same level or higher which is consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Once triggered the rune is consumed regardless of the result. Unless otherwise stated, runes that agument spells require no AP to use while placing a rune takes 2 AP.
+
+##### Runes
+| Rune | Spell Slot | Gemstones | Supplies | Challenge Dice | Effect |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-------------|
+| Longcaster | 1st | 1 10gp gemstone | 0 | 1B | Doubles the range of a spell that does not have a range of self or touch. |
+| Potency | 1st | - | 1 | 2B | The first success in your spellcasting roll counts as a crit in addition to its dice value. |
+| Fire Ward | 2nd | - | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Dexterity save vs 2 Superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
+| Arc Ward | 2nd | - | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save vs 2 Superior dice, becoming Paralyzed for 1 minute on fail. |
+| Expanding | 3rd | 1 25gp gemstone | 1 | 2T | Increases the area effected by a spell by 1. |
