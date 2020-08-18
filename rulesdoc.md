@@ -4151,14 +4151,14 @@ When rolling wounds from an attack or maneuver that uses your strength you may i
 When taking a move or sprint action you may spend 1 additional AP to become immune to opportunity attacks.
 
 #### Juggernaut
-*Requires 5 Strength, 20th Level*
+*Requires 5 Stamina, 20th Level*
 
 Once per long rest, as long as an attack does less than your max wounds in damage you can take no damage instead.
 
 #### Spellpower
 *Requires 5 Intelligence, 20th Level*
 
-Once per long rest, when casting a spell you may cast it at a spell level 4 levels higher.
+Once per long rest, when casting a spell you may cast it as if it were 4 levels higher.
 
 
 ## Items
