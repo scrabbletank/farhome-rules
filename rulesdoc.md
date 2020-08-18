@@ -805,7 +805,7 @@ Your max wounds is increased by 1. Additionally you regain 1 extra wound during 
 ### Lizardmen
 
 ___
-#### Lizardfolk Race
+#### Lizardfolk
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Strength, +1 Dexterity, -1 Intelligence
@@ -892,6 +892,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Anti-Magic Field](#Anti-Magic-Field)
 - [Conjuration](#Conjuration)
 - [Earthquake](#Earthquake)
+- [Evocation](#Evocation)
 - [Forcewave](#Forcewave)
 
 ##### Seventh
@@ -975,7 +976,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Thunder
 
-conjure a rolling thunder to blast a target away. Make a spellcasting roll vs the targets Strength. On hit, roll a wound die and the target is pushed back 1 tile and is staggered, being pushed an additional tile for every crit. If the target is unable to move, either due to another creature or obstacle, roll a wound die for every tile remaining.
+conjure a rolling thunder to blast a target away. Make a spellcasting roll vs the targets Strength. On hit, roll a wound die and the target is pushed back 1 tile and is staggered until the end of their next turn, being pushed an additional tile for every crit. If the target is unable to move, either due to another creature or obstacle, roll a wound die for every tile remaining.
 
 Add a proficiency die for every level above cantrip.
 
@@ -1560,7 +1561,18 @@ ___
 
 You cause the ground to shake and tear, collapsing buildings and toppling trees in a 15x15 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save vs your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, and other objects fall apart over the duration. Structures made of stone collapse after the full 10 minutes.
 
-The length of the wave increases by 2 and wound dice increases by 1 for each level above 6th.
+The range and area of the spell increases by 5 and wound dice increases by 1 for each level above 6th.
+
+___
+#### Evocation
+*6th Level*
+- **Casting Time:** 7 AP
+- **Range:** Self
+- **Duration:** concentration, 10 minutes
+
+You tap in to the latent mana in your surroundings, empowering your spells. Make a spellcasting roll against 4 Terrible dice, on success you have expertise for all spellcasting rolls for the duration. Holding this connection is both mentally and physically exhausting. Should the spell end due to losing concentration you take 1 level of exhaustion, or 2 levels if you critically fail the concentration check.
+
+Add a proficiency die for every level above 6th.
 
 ___
 #### Forcewave
@@ -1773,7 +1785,6 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 
 ##### Fourth
 - [Curse of Slowness](#Curse-of-Slowness)
-- [Exhaustion](#Exhaustion)
 - [Gloom](#Gloom)
 - [Haste](#Haste)
 - [Instigate](#Instigate)
@@ -1785,6 +1796,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 
 ##### Fifth
 - [Curse of Pain](#Curse-of-Pain)
+- [Heart Grip](#Heart-Grip)
 - [Mind Break](#Mind-Break)
 - [Suggestion](#Suggestion)
 - [True Sight](#True-Sight)
@@ -2335,24 +2347,13 @@ Curse a creature with an unnatural slowness. They must make a willpower save vs 
 You may target an additional person for every level above the 4th.
 
 ___
-#### Exhaustion
-*4th Level*
-- **Casting Time:** 8 AP
-- **Range:** 5
-- **Duration:** 10 minutes
-
-Sap the energy from a target creature. Target makes an Exhaustion roll vs your spellcasting, on fail they gain 1 level of exhaustion, or 2 levels on crit. For the duration of the spell your move and sprint speed increases by the levels of exhaustion inflicted.
-
-Add a proficiency die for every level above the 4th.
-
-___
 #### Gloom
 *4th Level*
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Inflict an area with supernatural gloom. Choose a point you can see within range, making a spellcasting roll. Every success increases the raidus of the gloom by 1. Every undead creature inside the gloom adds 1 superior die to all rolls. Mundane lights only give dim light in the gloom. For the duration, undead heal 1 wound at the start of their turns and all healing effects on living creatures are reduced by 1.
+Inflict an area with supernatural gloom. Choose a point you can see within range, making a spellcasting roll. Every success increases the raidus of the gloom by 2. Every undead creature inside the gloom adds 1 superior die to all rolls. Mundane lights only give light in adjacent tiles and magical light covers half as far. For the duration, undead heal 1 wound at the start of their turns and all healing effects on living creatures are reduced by 1.
 
 Add a proficiency die for every level above the 4th.
 
@@ -2450,6 +2451,18 @@ ___
 Curse a creature with pain. Make a spellcasting roll vs the creatures Willpower. On success the creature takes an additional wound die every time they take damage, or a full wound on crit.
 
 You may target an additional person for every level above the 5th.
+
+___
+#### Heart Grip
+*5th Level*
+- **Casting Time:** 9 AP
+- **Range:** 7
+- **Duration:** instant
+- **Damage Type:** Death
+
+Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 4 wound die in damage and all healing they recieve is half as effective until they take a long rest. On crit they are stunned until the end of their next turn. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
+
+Add a proficiency die for every level above the 5th.
 
 ___
 #### Mind Break
@@ -2612,6 +2625,7 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 - [Vine Whip](#Vine-Whip)
 
 ##### First
+- [Animal Messenger](#Animal-Messenger)
 - [Bonfire](#Bonfire)
 - [Bramble](#Bramble)
 - [Chilling Fog](#Chilling-Fog)
@@ -2751,6 +2765,19 @@ Add a wound die for every level above cantrip.
 
 
 
+
+___
+#### Animal Messenger
+*1st Level*
+- **Casting Time:** 1 minute
+- **Range:** Touch
+- **Duration:** 1 day
+
+You attempt to summon a small beast to deliver a message for you. Make a spellcasting roll against 2 Terrible dice in an urban environment, or 2 Bad dice elsewhere. On success you summon a small beast local to the area, with the beast having wings on crit. You can give the beast a message up to 1 minute long and a description of who to deliver the message to. The beast will give the message to the first creature it finds that matches the description, and may have trouble with overly complex messages.
+
+On delivering the message the recipeint is able to give a 1 minute message in return. If the beast is unable to find a creature matching that description or unable to return the response within the spells duration the beast reverts back to a normal animal and the message is lost.
+
+The duration increases by 1 day for each level above the 1st.
 
 ___
 #### Bonfire
@@ -3577,7 +3604,7 @@ ___
 - **Range:** Melee
 - **Level Required:** 3/12
 
-Strike into the target, attempting to push them back. Make a normal weapon attack, adding a proficient die to the roll. On hit the target is pushed back 1 tile and you move to occupy their space. On crit the target is staggered.
+Strike into the target, attempting to push them back. Make a normal weapon attack, adding a proficient die to the roll. On hit the target is pushed back 1 tile and you move to occupy their space. On crit the target is staggered until the end of their next turn.
 
 ***Enhanced:*** Add a wound die to the roll. If you make 2 critical successes, the target is knocked prone instead of staggered.
 
@@ -3720,6 +3747,17 @@ ___
 Shoot a volley of arrows at 3 adjacent targets. Make a ranged weapon attack against each one, adding 1 Terrible die to the attack rolls. On hit you deal normal weapon damage.
 
 ***Enhanced:*** Add a Bad die instead of a Terrible die.
+
+___
+#### Disarm
+- **AP Cost:** 6/5
+- **Weapon:** Unarmed
+- **Range:** Melee
+- **Level Required:** 7/15
+
+You attempt to disarm an opponent, forcing them to drop their weapon. The target makes a Defense or Dexterity save against your unarmed attack, on hit their weapon falls to the ground, landing in an adjacent tile of your chosing. A creature standing on that tile can spend 2 AP retrieving the weapon.
+
+***Enhanced:*** On crit the target is also staggered until the end of their turn.
 
 ## Feats
 ### Backgrounds
@@ -3884,7 +3922,6 @@ Your ability to manipulate your patron's powers allows you to learn a 2nd spell,
 
 You permanently get the benefits of the spell _Dark Sight_, and gain 1 proficiency in perception.
 
-
 #### One with Shadows
 *Requires Chosen, proficiency in Stealth*
 
@@ -4012,9 +4049,30 @@ You gain expertise in Animal Handling. Your skill with animals allows you to pac
 
 You can make an animal handling roll against a beast that hasn't been hostile towards you in an attempt to befriend it. On a crit the beast will defend you while in its habitat.
 
+#### Book of Hymns
+*Requires proficiency in Religion*
+
+In addition to the spells you normally prepare, you may prepare Divine spells equal to your Charisma score.
+
 #### Exertion
 *Requires 10th level*
+
 As long as you have at least 1 AP remaining you can take an an action costing 5 AP or less. After taking the action make an exhaustion roll, adding 1 bad die for every AP you overspent, gaining 1 level of exhaustion on fail.
+
+#### Siphon Energy
+*Requires proficiency with Curse spells, 3 Willpower, 15th Level*
+
+You are able to siphon the fading life off enemies to create a temporary shield. When you kill an enemy using Death damage you gain 1 temporary wound lasting 24 hours. You may gain up to half your max wounds in temporary wounds this way.
+
+#### Perfect Defense
+*Requires 4 Strength, 15th level*
+
+You have perfected your defenses, allowing you to withstand almost any attack. While holding a shield or wearing heavy armor you may spend 1 AP to gain Resistance 1 against physical damage.
+
+#### Divine Healing
+*Requires proficiency with Divine spells, 3 Charisma, 15th level*
+
+Your are able to mend even the most fatal of wounds. When casting a healing spell you add 1 wound die to the heal. Casting a healing spell on an unconscious ally always restores the maximum wounds possible.
 
 ### Advanced
 
@@ -4036,7 +4094,7 @@ You can concentrate on 2 separate spells at once, as long as these spells have d
 #### Lay on Hands
 *Requires Blessed Healing, 3 Charisma*
 
-You have a natural gift for healing, able to channel your Divine magic without the aid of a Codex. You may spend 5 AP to heal a single wound from a creature you touch. This can be used up to your charisma level, after which you must take a long rest to regain this feat.
+You have a natural gift for healing, and are able to channel healing magic without the aid of a Codex. You may spend 5 AP to heal a single wound from a creature you touch. This can be used up to your Charisma score, after which you must take a long rest to regain this feat.
 
 #### Jinx
 *Requires Potent Curses, 4 Willpower*
@@ -4050,6 +4108,7 @@ When taking lethal damage, as long as the total damage is less than or equal to 
 
 #### Armor Mastery
 *Requires Armor Expert, 3 Strength, 10th Level*
+
 You take no penalties from wearing armor. When making a defense roll you may reroll 1 defense die, taking the new value.
 
 #### Eldritch Force
