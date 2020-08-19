@@ -2673,6 +2673,7 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 
 ##### Fifth
 - [Awaken Soul](#Awaken-Soul)
+- [Inner Fire](#Inner-Fire)
 - [Radiance](#Radiance)
 - [Resurrect](#Resurrect)
 - [Spirit Warriors](#Spirit-Warriors)
@@ -3134,7 +3135,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
 
-Bind a creature to this plane of existance. The target must make a Willpower save vs your spellcasting. On fail, the creature is bound for the duration. While bound they are unable to leave this plane through any means, nor can they magically teleport or enter the etheral plane. On crit, the target gains Slow 1 for the duration.
+Bind a creature to this plane of existence. The target must make a Willpower save vs your spellcasting. On fail, the creature is bound for the duration. While bound they are unable to leave this plane through any means, nor can they magically teleport or enter the etheral plane. On crit, the target gains Slow 1 for the duration.
 
 Add a proficiency die for every level cast above 4th.
 
@@ -3250,6 +3251,17 @@ Attempt to awaken a plant or creature with an intelligence of -1 or less. Make a
 Add a superior die for every level cast above the 5th. In addition, the length of charm increases to 14 days at 6th level, 30 days at 7th level, 180 days at 8th level, and a year and a day at 9th level.
 
 ___
+#### Inner Fire
+*5th level*
+- **Casting Time:** 8 AP
+- **Range:** 5
+- **Duration:** concentration, 10 minutes
+
+Empower a group of creatures with righteous fury. Target up to 5 creatures in range, adding a Terrible die for each creature targeted. On success the targeted creatures have expertise with all weapons and deal an extra wound die in holy damage with every attack.
+
+Add a proficiency die for every level above 5th.
+
+___
 #### Radiance
 *5th level*
 - **Casting Time:** 10 AP
@@ -3279,7 +3291,7 @@ ___
 - **Range:** 3
 - **Duration:** 10 minutes
 
-You call upon the fighting spirit of nearby dead creatures. Target any number of corpses within range with corpses of undead, monstrosities, or constructs being untargetable. Make a spellcasting roll adding a terrible die for every corpse targeted, on succes spirits of the creature rise from their bodies to defend you.
+You call upon the fighting spirit of nearby dead creatures. Target any number of corpses within range with corpses of undead, monstrosities, or constructs being untargetable. Make a spellcasting roll adding a Terrible die for every corpse targeted, on succes spirits of the creature rise from their bodies to defend you.
 
 The spirits have the same attributes and proficiencies they had in life, but lose any maneuvers, abilities, or spells. Each spirit has 2 wounds and Resistance 2 for all physical damage from non-silvered weapons. The warriors act immediately after the summoners turn and obey simple commands. The spirits vanish after the duration or when exposed to direct sunlight. Corpses that have had their spirits from this spell cannot be raised again.
 
@@ -3297,7 +3309,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-You attempt to exorcise an undead, fiend, fey, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. The target makes a Charisma save vs your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any posession or effects this creature was maintaining.
+You attempt to exorcise an undead, fiend, fey, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save vs your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any posession or effects this creature was maintaining.
 
 Add a proficiency die to the roll for every level above the 6th.
 
@@ -3309,7 +3321,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Holy
 
-Channel your divine wrath at a target creature, burning their body with holy might. Make a spellcasting roll vs the targets Stamina, on success the target takes 6 wounds, plus a wound die for every crit rolled. On fail the target takes 6 wound die in damage instead. Damage dealt from this spell reduces the targets maximum wounds an equal amount, recovering 1 max wound every day. casting _Heal_ on a creature removes this effect.
+Channel your divine wrath at a target creature, burning their body with holy might. Make a spellcasting roll vs the targets Stamina, on success the target takes 6 wounds, plus a wound die for every crit rolled. On fail the target takes 6 wound die in damage instead. Damage dealt from this spell reduces the targets maximum wounds an equal amount, recovering 1 max wound every day. casting _Power Word: Heal_ on a creature removes this effect.
 
 This deals an additional wound for every level above the 6th.
 
@@ -3320,7 +3332,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-Restore a creatures form, healing mortal wounds. Make a spellcasting roll, a creature restores 5 wounds, plus a wound for every crit rolled. They may also remove the effects of a single Lesser or Greater wound. A creature can only be healed by this spell once per long rest, unable to withstand the strain of repeated casts.		
+Restore a creatures form, healing mortal wounds. Make a spellcasting roll, a creature restores 5 wounds, plus a wound for every crit rolled. They may also remove the effects of a single Lesser or Greater wound. A creature can only be healed by this spell once per long rest, unable to withstand the strain of repeated casts.
 
 This heals an additional wound for every level above the 6th.
 
@@ -3343,7 +3355,7 @@ ___
 #### Divine Word
 *7th level*
 - **Casting Time:** 9 AP
-- **Range:** 5
+- **Range:** 10
 - **Duration:** instant
 - **Damage Type:** Holy
 
@@ -3353,7 +3365,7 @@ You invoke the name of your deity to smite any creatures in range that can hear 
 - 5 wounds or fewer: blinded and feared for 10 minutes
 - 3 wounds or fewer: killed instantly
 
-Regardless of the outcome, an undead, demon, or celestial targeted by this spell takes 3 wounds and is blinded for 1 minute.
+Regardless of the outcome, any undead, demon, or celestial targeted by this spell takes 3 wound dice in damge and are blinded for 1 minute.
 
 Add a proficient die to your roll for every level cast above 7th.
 
@@ -3369,7 +3381,7 @@ ___
 
 A blinding light shines down centered on a point in range. The light covers a 5x5 tile area, covering it in sunlight. You may choose any number of creatures inside the light to be uneffected, all other creatures must make a Charisma save vs your spellcasting. On fail the creatures are pushed to the closest unoccupied space outside of the light and take 2 wound die in damage.
 
-Creatures inside the light are considered to be on a different plane of existance, and any attack made through the the light fails. A creature can attempt to force their way into the light, making a Charisma save vs your spellcasting. On success they enter the light as normal, otherwise they are burned by the light, taking 2 wound dice.
+Creatures inside the light are considered to be on a different plane of existence, and any attack made through the the light fails. A creature can attempt to force their way into the light, making a Charisma save vs your spellcasting. On success they enter the light as normal, otherwise they are burned by the light, taking 2 wound dice.
 
 Add 1 superior die and the area becomes 7x7 at 9th level.
 
@@ -3410,7 +3422,7 @@ ___
 - **Range:** Melee
 - **Level Required:** 1/7
 
-Make a melee attack against a target, adding 1 proficiency die. On hit deal normal weapon damage. If you crit the target takes a Lesser Wound: The target gains Slow 1, lasts until the target takes a long rest.
+Make a melee attack against a target, adding 1 proficiency die. On hit deal normal weapon damage. If you crit the target takes a Lesser Wound: Hamstring. The target gains Slow 1, lasts until the target takes a long rest.
 
 ***Enhanced:*** Add a wound die to your attack roll, and the target gains Slow 2 instead.
 
@@ -3530,9 +3542,9 @@ ___
 - **AP Cost:** 8/7
 - **Weapon:** Ranged weapon without _Loading_
 - **Range:** any
-- **Level Required:** 6/15
+- **Level Required:** 10/18
 
-Choose a point within range of your bow, targeting all creatures on or adjacent to that tile. Make a ranged attack against the targets, adding 1 bad die to your roll. On hit they take 1 wound die in damage.
+Choose a point within range of your bow, targeting all creatures on or adjacent to that tile. Make a ranged attack against the targets, adding 1 bad die to your roll. On hit they take 1 wound die in damage. Cannot be used in constrained areas.
 
 
 ***Enhanced:*** You no longer add a bad die to your roll, deals 1 wound instead of 1 wound die.
@@ -3649,12 +3661,12 @@ Hit the target with a series of quick strikes. Make an unarmed attack against a 
 
 ___
 #### Steel Tempest
-- **AP Cost:** 9/8
+- **AP Cost:** 10/8
 - **Weapon:** Sword
 - **Range:** 2
 - **Level Required:** 11/22
 
-Make a normal weapon attack against up to 5 creatures in range, adding 1 terrible die to the roll. On hit you deal your weapon's wounds to the creature.
+Make a normal weapon attack against up to 5 creatures in range, adding 2 Terrible die to the roll. On hit you deal your weapon's wounds to the creature.
 
 ***Enhanced:*** If you manage to hit 5 creatures, they grant combat advantage until the start of your next turn.
 
@@ -3760,6 +3772,28 @@ ___
 You attempt to disarm an opponent, forcing them to drop their weapon. The target makes a Defense or Dexterity save against your unarmed attack, on hit their weapon falls to the ground, landing in an adjacent tile of your chosing. A creature standing on that tile can spend 2 AP retrieving the weapon.
 
 ***Enhanced:*** On crit the target is also staggered until the end of their turn.
+
+___
+#### Roundhouse Kick
+- **AP Cost:** 5/5
+- **Weapon:** Unarmed
+- **Range:** Melee
+- **Level Required:** 5/15
+
+Perform a spinning kick, knocking away opponents. Make an unarmed attack against a creature, adding 1 Proficiency die to the roll. on hit the target takes normal damage and is pushed back 1 tile, and staggered on crit.
+
+***Enhanced:*** You may target a second creature that is adjacent to you.
+
+___
+#### Inflict Wound
+- **AP Cost:** 5/4
+- **Weapon:** One-Handed
+- **Range:** Melee
+- **Level Required:** 9/16
+
+Attempt to mortally wound a target. Make a normal weapon attack, adding a Superior die if your flanking the target. On hit they take 1 wound die in damage, and gain a random Lesser Wound on crit.
+
+***Enhanced:*** The attack deals normal weapon damage and you attack with expertise if flanking the target.
 
 ## Feats
 ### Backgrounds
@@ -4056,7 +4090,7 @@ In addition to the spells you normally prepare, you may prepare Divine spells eq
 #### Exertion
 *Requires 10th level*
 
-As long as you have at least 1 AP remaining you can take an an action costing 5 AP or less. After taking the action make an exhaustion roll, adding 1 bad die for every AP you overspent, gaining 1 level of exhaustion on fail.
+As long as you have at least 1 AP remaining you can take an an action costing 5 AP or less. After taking the action make an exhaustion roll adding 1 bad die for every AP you overspent, gaining 1 level of exhaustion on fail.
 
 #### Siphon Energy
 *Requires proficiency with Curse spells, 3 Willpower, 15th Level*
@@ -4155,10 +4189,35 @@ When taking a move or sprint action you may spend 1 additional AP to become immu
 
 Once per long rest, as long as an attack does less than your max wounds in damage you can take no damage instead.
 
-#### Spellpower
-*Requires 5 Intelligence, 20th Level*
+#### Sorcerer
+*Requires 5 Arcane proficiency, 20th Level*
 
-Once per long rest, when casting a spell you may cast it as if it were 4 levels higher.
+Once per rest, when casting a spell you may cast it as if it were 4 levels higher.
+
+#### Necromancer
+*Requires 5 Curse proficiency, 20th Level*
+
+When gaining temporary wounds, you may heal missing wounds instead. When casting _Raise Dead_ you can target 2 additional corpses without adding Terrible dice.
+
+#### Saint
+*Requires 5 Divine proficiency, 20th Level*
+
+You add 2 Superior dice to Intelligence, Willpower, and Charisma saves against Undead, Fiends, Outsiders, Celestials and Fey. Divine spells you prepare are not forgotten when taking a long rest and do not require a codex to cast.
+
+#### Strength of Mind
+*Requires 5 Willpower, 20th Level*
+
+Once per long rest, you may pass an Intelligence, Willpower or Charisma save regardless of the roll.
+
+#### Purity of Soul
+*Requires 5 Charisma, 20th Level*
+
+You cannot be charmed or possessed and have Resistance 1 against Death damage.
+
+#### Unbridled Potential
+*Requires 20th Level*
+
+Your max attribute score is 6 instead of 5. You gain 1 attribute when taking this feat.
 
 
 ## Items
