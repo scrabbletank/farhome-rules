@@ -606,7 +606,7 @@ An incapacitated creature takes no actions and automatically fails Strength and 
 A paralyzed creature automatically fail dexterity saving throws. When taking any Action they must first roll a Wound die. If the result is a wound they do not take the action and lose the AP spent.
 
 ##### Poison
-A poisoned creature adds a terrible die to all attacks, saving throws, and ability checks, adding a terrible die for every level of poison. Only the highest level poison takes effect, eg: someone who has Poison and Poison 2 only adds 2 terrible die instead of 3.
+A poisoned creature adds a terrible die to all attacks, saving throws, and ability checks, adding a terrible die for every level of poison. Only the highest level poison takes effect, eg: someone who has Poison and Poison 2 only adds 2 terrible die instead of 3. At the end of each of your turns you roll a Stamina save vs 1 Bad die, adding a Terrible die for each level of Poison. On success you reduce the level of Poison by 1.
 
 ##### Prone
 a prone creature grants combat advantage to any melee attacker. Ranged attacks against this creature add 2 bad dice to their roll.
@@ -618,7 +618,7 @@ A restrained creature cannot move and adds 2 bad die to dexterity saving throws 
 A slowed creature's Move and Sprint speeds are reduced by 1. Each level of slow reduces the value by 1, to a minimum of 1.
 
 ##### Stagger
-A staggered creature adds 2 bad dice to dexterity ability checks and saving throws. In addition they are unable to take reactions.
+A staggered creature is unable to take reactions.
 
 ##### Stunned
 A stunned creature cannot move or take actions, and automatically fail Strength and Dexterity saving throws. Attackers gain combat advantage against this target.
@@ -885,6 +885,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Starfall](#Starfall)
 
 ##### Fifth
+- [Ice Block](#Ice-Block)
 - [Illusory Space](#Illusory-Space)
 - [Open Warren](#Open-Warren)
 - [Wall of Fire](#Wall-of-Fire)
@@ -1460,6 +1461,19 @@ Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 
 
 
+
+
+___
+#### Ice Block
+*5th Level*
+- **Casting Time:** 8 AP
+- **Range:** 7
+- **Duration:** 1 minute
+- **Damage Type:** Cold
+
+Targeting a creature you can see you incase them in a block of ice. Make a spellcasting roll vs a targets Stamina. On success they take 4 wound dice in damage and are restrained until the end of their next turn, gaining Slow 3 for 1 minute. On crit the target is incapacitated, frozen completely. While incapacitated they gain resistance 2 to all damage except Holy, Death, and Pyschic. They are incapacitated for the duration or until they take 1 wound in damage, causing the ice to shatter.
+
+The duration increases by 1 minute for every level above 5th.
 
 ___
 #### Illusory Space
@@ -4065,7 +4079,7 @@ When making a saving throw against an attack, damaging spell, or effect you can 
 
 When in combat you can attempt to steal an item from your opponent. The item has to be visible and not being held. Using 5 AP you make a Sleight of Hand roll against the targets Dexterity or Defense, on success you take the item.
 
-#### Hiden in Plain Sight
+#### Hidden in Plain Sight
 *Requires proficiency in Stealth*
 
 Your ability to sneak allows you to hide even in combat. When partially obscured you can spend 5 AP to make a Hide action. Make a stealth roll against the creatures perception. On success you hide from the creature. The creature is still aware of you but cannot find you.
@@ -4245,7 +4259,7 @@ Contains kindling, wood, and equipment to easily start a campfire. Can be used t
 A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the attack, while bolts only deal the base crossbow damage.
 
 #### Poison
-A vial of poison, enough to coat a weapon for 3 attacks or 10 arrowheads. Poisons have modifiers to determine their strength, ranging from +0 to +3. Being successfully hit by an attack with a poisoned weapon you must make a Stamina save or suffer the effects.
+A vial of poison, enough to coat a weapon for 3 attacks or 10 arrowheads. Poisons have modifiers to determine their strength, ranging from +0 to +3. On hit the target makes a Stamina save against the Poisons challenge roll, gaining it's effects on fail.
 
 ##### Poison Type
 | Name | Save (B/T) | Effect |
@@ -4256,10 +4270,10 @@ A vial of poison, enough to coat a weapon for 3 attacks or 10 arrowheads. Poison
 | Int | 1/1+ | Your Intelligence is lowered by 1 + modifier for 1 hour. |
 | Wil | 1/1+ | Your Willpower is lowered by 1 + modifier for 1 hour. |
 | Cha | 1/1+ | Your Charisma is lowered by 1 + modifier for 1 hour. |
-| Poison | 0/1+ | They take an additional wound in poison damage and gain 1 + modifier levels of poisoned for 1 hour. |
+| Poison | 0/1+ | They take an additional wound in poison damage and gain 1 + modifier levels of Poison for 1 hour. |
 | Toxin | 1/1+ | Roll 2 + modifier wound dice for the attack |
 | Paralyzing | 1+/0 | creature is paralyzed for 10 minutes |
-| Confounding | 1+/0 | creatures proficiency modifiers are reduced by 1 + modifier. Negative proficiencies 'improve' die to bad dice. |
+| Confounding | 1+/0 | creatures proficiency modifiers are reduced by 1 + modifier. Negative proficiencies 'improve' normal dice to bad dice. |
 
 ___
 ### Mundane Gear
@@ -4470,7 +4484,7 @@ ___
 - **Ingredients:** 2 Poison Nettle, 2 Skillwheat
 - **Roll:** 2 Bad dice, 1 Terrible die
 
-On hit, inflicts Poison 1 and reduces all proficiencies by 1 for 10 minutes.
+On hit, inflicts Poison 1, or Poison 2 on critical. Reduces the creatures proficiencies by 1 as long as they are poisoned. Lasts for 10 minutes.
 
 
 ___
@@ -4485,7 +4499,7 @@ ___
 - **Ingredients:** 2 Nightshade, 1 Scorpion Venom
 - **Roll:** 2 Bad dice, 2 Terrible die
 
-on hit inflicts Paralyzed for 1 minute.
+On hit inflicts Poison 1, or Poison 2 on critical. The creature is paralized as long as they are poisoned. Lasts for 1 minute.
 
 
 ___

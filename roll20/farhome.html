@@ -1,0 +1,558 @@
+<div class="container">
+    <div class="header">
+        <div class="3colrow">
+            <div class="col">
+                <label>Name: <input type="text" name="attr_character_name" /></label>
+                <br />
+                <label>Hero Dice: <input type="text" name="attr_hero_dice" /></label>
+                <br />
+            </div>
+            <div class="col">
+                <label>Race: <input type="text" name="attr_race" /></label>
+                <br />
+                <label>Background: <input type="text" name="attr_background" /></label>
+                <br />
+            </div>
+            <div class="col">
+                <label>Level: <input type="text" name="attr_level" /></label>
+                <br />
+                <label>XP: <input type="text" name="attr_xp" /></label>
+                <br />
+            </div>
+        </div>
+    </div>
+    <div class="attributes">
+        <h2>Stats</h2>
+        <span class="simple120">Attribute</span><span style="width:36px;font-weight: bold;">Score</span><span
+            style="width:36px;font-weight: bold;">Save</span>
+        <br />
+        <span class="simple120">Str </span><input type="number" name="attr_str" value="0" /><input type="number"
+            name="attr_strsave" value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Strength Save` `roll1|save str`'></button>
+        <br />
+        <span class="simple120">Dex </span><input type="number" name="attr_dex" value="0" /><input type="number"
+            name="attr_dexsave" value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Dexterity Save` `roll1|save dex`'></button>
+        <br />
+        <span class="simple120">Sta </span><input type="number" name="attr_sta" value="0" /><input type="number"
+            name="attr_stasave" value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Stamina Save` `roll1|save sta`'></button>
+        <br />
+        <span class="simple120">Int </span><input type="number" name="attr_int" value="0" /><input type="number"
+            name="attr_intsave" value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Intelligence Save` `roll1|save int`'></button>
+        <br />
+        <span class="simple120">Will </span><input type="number" name="attr_wil" value="0" /><input type="number"
+            name="attr_wilsave" value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Willpower Save` `roll1|save wil`'></button>
+        <br />
+        <span class="simple120">Cha </span><input type="number" name="attr_cha" value="0" /><input type="number"
+            name="attr_chasave" value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Charisma Save` `roll1|save cha`'></button>
+        <br />
+        <span class="simple120">Move/Sprint</span><input type="number" name="attr_movespeed" value="0" />/<input
+            type="number" name="attr_sprintspeed" value="0" />
+        <br />
+        <span class="simple120">Wounds</span><input type="number" name="attr_wounds" value="0" />/<input type="number"
+            name="attr_maxwounds" value="0" />
+        <br />
+        <span style="width:110px" class="simple120">Temp Wounds</span><input type="number" name="attr_tempwounds"
+            value="0" />
+        <br />
+        <span style="width:110px" class="simple120">Healing Surges</span><input type="number" name="attr_healingsurges"
+            value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Healing Surge` `roll1|wound 0 3`'></button>
+        <br />
+        <span style="width:110px" class="simple120">Exhaustion</span><input type="number" name="attr_exhaustionstack"
+            value="0" />
+        <br />
+        <div style="min-height: 30px;">
+            <h3>Potions</h3>
+            <label class="sheet-switch">
+                <input class="sheet-skillsPot" type="checkbox" name="attr_potvis" value="1">
+                <span class="sheet-slider"></span>
+            </label>
+            <br />
+            <input class="sheet-skillsPot sheet-hidden" type="checkbox" name="attr_potvis" value="1">
+            <div class="sheet-skillsec-pot">
+                <label class="short">Basic</label><input type="number" name="attr_potion" value="0" />
+                <button type='roll' name='roll_save' value='!rtmp `name|Basic Potion` `roll1|wound 1 2`'></button>
+                <br />
+                <label class="short">+1</label><input type="number" name="attr_potion1" value="0" />
+                <button type='roll' name='roll_save' value='!rtmp `name|Potion +1` `roll1|wound 1 3`'></button>
+                <br />
+                <label class="short">+3</label><input type="number" name="attr_potion3" value="0" />
+                <button type='roll' name='roll_save' value='!rtmp `name|Potion +3` `roll1|wound 1 5`'></button>
+                <br />
+                <label class="short">+5</label><input type="number" name="attr_potion5" value="0" />
+                <button type='roll' name='roll_save' value='!rtmp `name|Potion +5 ` `roll1|wound 1 7`'></button>
+                <br />
+                <label class="short">+7</label><input type="number" name="attr_potion7" value="0" />
+                <button type='roll' name='roll_save' value='!rtmp `name|Potion +7` `roll1|wound 1 9`'></button>
+                <br />
+            </div>
+        </div>
+        <h3>Currency</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsCur" type="checkbox" name="attr_curvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <br />
+        <input class="sheet-skillsCur sheet-hidden" type="checkbox" name="attr_curvis" value="1">
+        <div class="sheet-skillsec-cur">
+            <div class="2colrow">
+                <div class="col">
+                    <label style="width:25px">CP</label><input style="width:3em;max-width: 3em;" type="number"
+                        name="attr_cp" value="0" />
+                    <label style="width:25px">GP</label><input style="width:3em;max-width: 3em;" type="number"
+                        name="attr_gp" value="0" />
+                </div>
+                <div class="col">
+                    <label style="width:25px">SP</label><input style="width:3em;max-width: 3em;" type="number"
+                        name="attr_sp" value="0" />
+                    <label style="width:25px">PP</label><input style="width:3em;max-width: 3em;" type="number"
+                        name="attr_pp" value="0" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <h2>Proficiencies</h2>
+        <br />
+        <h3>Equipment</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsEquip" type="checkbox" name="attr_eqvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <input class="sheet-hidden sheet-skillsEquip" type="checkbox" name="attr_eqvis" value="1">
+        <br />
+        <div class="sheet-skillsec-equip">
+            <label class="sheet-long">Light Armor </label><input class="checkbox" type="checkbox" name="attr_lightarmor"
+                value="1" />
+            <br />
+            <label class="sheet-long">Medium Armor </label><input class="checkbox" type="checkbox" name="attr_medarmor"
+                value="1" />
+            <br />
+            <label class="sheet-long">Heavy Armor </label><input class="checkbox" type="checkbox" name="attr_heavyarmor"
+                value="1" />
+            <br />
+            <label class="sheet-long">Buckler </label><input class="checkbox" type="checkbox" name="attr_buckler"
+                value="1" />
+            <br />
+            <label class="sheet-long">Shield </label><input class="checkbox" type="checkbox" name="attr_shield"
+                value="1" />
+            <br />
+        </div>
+        <h3>Strength</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsStr" type="checkbox" name="attr_strvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <input class="sheet-hidden sheet-skillsStr" type="checkbox" name="attr_strvis" value="1">
+        <br />
+        <div class="sheet-skillsec-str">
+            <label class="sheet-long">Athletics </label><input type="number" name="attr_athletics" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_athleticsexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Athletics` `roll1|skill @{str} @{athletics} @{athleticsexp}`'></button>
+            <br />
+            <label class="sheet-long">Intimidation </label><input type="number" name="attr_intimidation"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_intimidationexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Intimidation` `roll1|skill @{str} @{intimidation} @{intimidationexp}`'></button>
+            <br />
+        </div>
+
+        <h3>Dexterity</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsDex" type="checkbox" name="attr_dexvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <input class="sheet-hidden sheet-skillsDex" type="checkbox" name="attr_dexvis" value="1">
+        <br />
+        <div class="sheet-skillsec-dex">
+            <label class="sheet-long">Acrbatics </label><input type="number" name="attr_acrobatics" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_acrobaticsexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Acrbatics` `roll1|skill @{dex} @{acrobatics} @{acrobaticsexp}`'></button>
+            <br />
+            <label class="sheet-long">Lockpicking </label><input type="number" name="attr_lockpicking"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_lockpickingexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Lockpicking` `roll1|skill @{dex} @{lockpicking} @{lockpickingexp}`'></button>
+            <br />
+            <label class="sheet-long">Stealth </label><input type="number" name="attr_stealth" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_stealthexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Stealth` `roll1|skill @{dex} @{stealth} @{stealthexp}`'></button>
+            <br />
+            <label class="sheet-long">Sleight of Hand </label><input type="number" name="attr_sleightofhand"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_sleightofhandexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Sleight of Hand` `roll1|skill @{dex} @{sleightofhand} @{sleightofhandexp}`'></button>
+            <br />
+        </div>
+
+        <h3>Stamina</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsSta" type="checkbox" name="attr_stavis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <input class="sheet-hidden sheet-skillsSta" type="checkbox" name="attr_stavis" value="1">
+        <br />
+        <div class="sheet-skillsec-sta">
+            <label class="sheet-long">Exhaustion </label><input type="number" name="attr_exhaustion" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_exhaustionexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Exhaustion` `roll1|skill @{sta} @{exhaustion} @{exhaustionexp}`'></button>
+            <br />
+            <label class="sheet-long">Survival </label><input type="number" name="attr_survival" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_survivalexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Survival` `roll1|skill @{sta} @{survival} @{survivalexp}`'></button>
+            <br />
+        </div>
+
+        <h3>Intelligence</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsInt" type="checkbox" name="attr_intvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <input class="sheet-hidden sheet-skillsInt" type="checkbox" name="attr_intvis" value="1">
+        <br />
+        <div class="sheet-skillsec-int">
+            <label class="sheet-long">Arcana </label><input type="number" name="attr_arcana" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_arcanaexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Arcana` `roll1|skill @{int} @{arcana} @{arcanaexp}`'></button>
+            <br />
+            <label class="sheet-long">Investigation </label><input type="number" name="attr_investigation"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_investigationexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Investigation` `roll1|skill @{int} @{investigation} @{investigationexp}`'></button>
+            <br />
+            <label class="sheet-long">Lore </label><input type="number" name="attr_lore" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_loreexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Lore` `roll1|skill @{int} @{lore} @{loreexp}`'></button>
+            <br />
+            <label class="sheet-long">Medicine </label><input type="number" name="attr_medicine" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_medicineexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Medicine` `roll1|skill @{int} @{medicine} @{medicineexp}`'></button>
+            <br />
+        </div>
+
+        <h3>Willpower</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsWil" type="checkbox" name="attr_wilvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <input class="sheet-hidden sheet-skillsWil" type="checkbox" name="attr_wilvis" value="1">
+        <br />
+        <div class="sheet-skillsec-wil">
+            <label class="sheet-long">Animal Handling </label><input type="number" name="attr_animalhandling"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_animalhandlingexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Animal Handling` `roll1|skill @{wil} @{animalhandling} @{animalhandlingexp}`'></button>
+            <br />
+            <label class="sheet-long">Insight </label><input type="number" name="attr_insight" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_insightexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Insight` `roll1|skill @{wil} @{insight} @{insightexp}`'></button>
+            <br />
+            <label class="sheet-long">Nature</label><input type="number" name="attr_nature" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_natureexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Nature` `roll1|skill @{wil} @{nature} @{natureexp}`'></button>
+            <br />
+            <label class="sheet-long">Perception</label><input type="number" name="attr_perception" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_perceptionexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Perception` `roll1|skill @{wil} @{perception} @{perceptionexp}`'></button>
+            <br />
+        </div>
+
+        <h3>Charisma</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsCha" type="checkbox" name="attr_chavis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <input class="sheet-hidden sheet-skillsCha" type="checkbox" name="attr_chavis" value="1">
+        <br />
+        <div class="sheet-skillsec-cha">
+            <label class="sheet-long">Conversation </label><input type="number" name="attr_conversation"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_conversationexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Conversation` `roll1|skill @{cha} @{conversation} @{conversationexp}`'></button>
+            <br />
+            <label class="sheet-long">Diplomacy </label><input type="number" name="attr_diplomacy" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_diplomacyexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Diplomacy` `roll1|skill @{cha} @{diplomacy} @{diplomacyexp}`'></button>
+            <br />
+            <label class="sheet-long">Performance </label><input type="number" name="attr_performance"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_performanceexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Performance` `roll1|skill @{cha} @{performance} @{performanceexp}`'></button>
+            <br />
+            <label class="sheet-long">Religion</label><input type="number" name="attr_religion" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_religionexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Religion` `roll1|skill @{cha} @{religion} @{religionexp}`'></button>
+            <br />
+        </div>
+
+        <h3>Weapons</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsWep" type="checkbox" name="attr_wepvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <input class="sheet-hidden sheet-skillsWep" type="checkbox" name="attr_wepvis" value="1">
+        <br />
+        <div class="sheet-skillsec-wep">
+            <label class="sheet-long">One Handed</label><input type="number" name="attr_1hand" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_1handexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|One Handed` `roll1|skill @{str} @{1hand} @{1handexp}`'></button>
+            <br />
+            <label class="sheet-long">Two Handed</label><input type="number" name="attr_2hand" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_2handexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Two Handed` `roll1|skill @{str} @{2hand} @{2handexp}`'></button>
+            <br />
+            <label class="sheet-long">Ranged</label><input type="number" name="attr_ranged" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_rangedexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Ranged` `roll1|skill @{dex} @{ranged} @{rangedexp}`'></button>
+            <br />
+            <label class="sheet-long">Unarmed</label><input type="number" name="attr_unarmed" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_unarmedexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Unarmed` `roll1|skill @{str} @{unarmed} @{unarmedexp}`'></button>
+            <br />
+        </div>
+
+        <h3>Tools</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsTool" type="checkbox" name="attr_toolvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <input class="sheet-hidden sheet-skillsTool" type="checkbox" name="attr_toolvis" value="1">
+        <br />
+        <div class="sheet-skillsec-tool">
+            <label class="sheet-long">Repair Kit (Str) </label><input type="number" name="attr_repairkit" value="0" /><input
+                class="checkbox" type='checkbox' name="attr_repairkitexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Repair Kit` `roll1|skill @{str} @{repairkit} @{repairkitexp}`'></button>
+            <br />
+            <label class="sheet-long">Enchanters Tools (Int) </label><input type="number" name="attr_enchanting"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_enchantingexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Enchanters Tools` `roll1|skill @{int} @{enchanting} @{enchantingexp}`'></button>
+            <br />
+            <label class="sheet-long">Apothecary Set (Wil) </label><input type="number" name="attr_apothecary"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_apothecaryexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Apothecary Set` `roll1|skill @{wil} @{apothecary} @{apothecaryexp}`'></button>
+            <br />
+            <label class="sheet-long">Scribing Tools (Int) </label><input type="number" name="attr_scribing"
+                value="0" /><input class="checkbox" type='checkbox' name="attr_scribingexp" value='1' />
+            <button type='roll' name='roll_save'
+                value='!rtmp `name|Scribing Tools` `roll1|skill @{int} @{scribing} @{scribingexp}`'></button>
+            <br />
+        </div>
+    </div>
+    <div class="feats">
+        <h2>Combat & Feats</h2>
+        <br />
+        <label class="med">Armor </label><input class="number" type="number" name="attr_supdefense" value="0" /><input
+            class="number" type="number" name="attr_defense" value="0" />
+        <button type='roll' name='roll_save' value='!defend @{supdefense} @{defense}'></button>
+        <br />
+        <label class="med">Initiative </label><input class="number" type="number" name="attr_supinit" value="0" /><input
+            class="number" type="number" name="attr_profinit" value="0" /><input class="number" type="number"
+            name="attr_init" value="0" /><input class="number" type="number" name="attr_badinit" value="0" /><input
+            class="number" type="number" name="attr_terinit" value="0" />
+        <button type='roll' name='roll_save'
+            value='!initiative @{supinit} @{profinit} @{init} @{badinit} @{terinit}'></button>
+        <br />
+
+        <h3>Attacks & Maneuvers</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsMan" type="checkbox" name="attr_manvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <br />
+        <input class="sheet-skillsMan sheet-hidden" type="checkbox" name="attr_manvis" value="1">
+        <div class="sheet-skillsec-man">
+            <div style="display:inline-block;width:80px;font-weight: bold;padding:2px">Name</div>
+            <div style="display:inline-block;width:25px;font-weight: bold;padding:2px">S</div>
+            <div style="display:inline-block;width:25px;font-weight: bold;padding:2px">P</div>
+            <div style="display:inline-block;width:25px;font-weight: bold;padding:2px">N</div>
+            <div style="display:inline-block;width:25px;font-weight: bold;padding:2px">B</div>
+            <div style="display:inline-block;width:25px;font-weight: bold;padding:2px">T</div>
+            <br />
+            <fieldset class="repeating_attacks">
+                <input style="width:82px;padding:2px" type="text" name="attr_rollname" value="Attack" />
+                <input style="width:28px;padding:2px" type="number" name="attr_sroll" value="0" />
+                <input style="width:28px;padding:2px" type="number" name="attr_proll" value="0" />
+                <input style="width:28px;padding:2px" type="number" name="attr_nroll" value="0" />
+                <input style="width:28px;padding:2px" type="number" name="attr_broll" value="0" />
+                <input style="width:28px;padding:2px" type="number" name="attr_troll" value="0" />
+                <button type='roll' name='roll_save'
+                    value='!rtmp `name|@{rollname}` `roll1|attack @{sroll} @{proll} @{nroll} @{broll} @{troll}` `roll2|wound @{gwroll} @{wroll}`'></button>
+                <br />
+                <div style="display:inline-block;width:107px;padding:2px">Wounds:</div>
+                <input style="width:28px;padding:2px" type="number" name="attr_gwroll" value="0" />
+                <br />
+                <div style="display:inline-block;width:107px;padding:2px">Wound Dice:</div>
+                <input style="width:28px;padding:2px" type="number" name="attr_wroll" value="0" />
+            </fieldset>
+        </div>
+
+        <h3>Feats</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsFeat" type="checkbox" name="attr_featvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <br />
+        <input class="sheet-skillsFeat sheet-hidden" type="checkbox" name="attr_featvis" value="1">
+        <div class="sheet-skillsec-feat">
+            <fieldset class="repeating_feats">
+                <input style="width:220px;font-weight: bold;" class="feattext" type="text" name="attr_featname"
+                    value="Enter Name.." />
+                <div class="horizontalline"></div>
+                <textarea class="featdesc" type="text" name="attr_featdesc">Enter Description Here...</textarea>
+            </fieldset>
+        </div>
+
+        <h3>Conditions</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsCond" type="checkbox" name="attr_condvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <br />
+        <input class="sheet-skillsCond sheet-hidden" type="checkbox" name="attr_condvis" value="1">
+        <div class="sheet-skillsec-cond">
+            <div class="2colrow">
+                <div class="col">
+                    <span class="simple120">Blind</span><input class="checkbox" style="float:right" type='checkbox'
+                        name="attr_blind" value='1' />
+                    <br />
+                    <span class="simple120">Feared</span><input class="checkbox" style="float:right" type='checkbox'
+                        name="attr_fear" value='1' />
+                    <br />
+                    <span class="simple120">Grappled</span><input class="checkbox" style="float:right" type='checkbox'
+                        name="attr_grapple" value='1' />
+                    <br />
+                    <span class="simple120">Hexxed</span><input type='number' style="float:right" name="attr_hex"
+                        value='0' />
+                    <br />
+                </div>
+                <div class="col">
+                    <span class="simple120">Poisoned</span><input type='number' style="float:right" name="attr_poison"
+                        value='0' />
+                    <br />
+                    <span class="simple120">Staggered</span><input class="checkbox" style="float:right" type='checkbox'
+                        name="attr_stagger" value='1' />
+                    <br />
+                    <span class="simple120">Restrained</span><input class="checkbox" style="float:right" type='checkbox'
+                        name="attr_restrained" value='1' />
+                    <br />
+                    <span class="simple120">Weakened</span><input class="checkbox" style="float:right" type='checkbox'
+                        name="attr_weaken" value='1' />
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spells">
+        <h3>Spell Slots</h3>
+        <br />
+        <div class="inlinespell">
+            <div style="margin-left: 15px" class="simple120">1st</div>
+            <br />
+            <input type="number" name="attr_first" value="0" />/<input type="number" name="attr_firstmax" value="0" />
+            <br />
+            <div style="margin-left: 15px" class="simple120">2nd</div>
+            <br />
+            <input type="number" name="attr_second" value="0" />/<input type="number" name="attr_secondmax" value="0" />
+            <br />
+            <div style="margin-left: 15px" class="simple120">3rd</div>
+            <br />
+            <input type="number" name="attr_third" value="0" />/<input type="number" name="attr_thirdmax" value="0" />
+        </div>
+        <div style="margin:-3px" class="inlinespell">
+            <div style="margin-left: 15px" class="simple120">4th</div>
+            <br />
+            <input type="number" name="attr_fourth" value="0" />/<input type="number" name="attr_fourthmax" value="0" />
+            <br />
+            <div style="margin-left: 15px" class="simple120">5th</div>
+            <br />
+            <input type="number" name="attr_fifth" value="0" />/<input type="number" name="attr_fifthmax" value="0" />
+            <br />
+            <div style="margin-left: 15px" class="simple120">6th</div>
+            <br />
+            <input type="number" name="attr_sixth" value="0" />/<input type="number" name="attr_sixthmax" value="0" />
+        </div>
+        <div style="margin:-3px" class="inlinespell">
+            <div style="margin-left: 15px" class="simple120">7th</div>
+            <br />
+            <input type="number" name="attr_seventh" value="0" />/<input type="number" name="attr_seventhmax"
+                value="0" />
+            <br />
+            <div style="margin-left: 15px" class="simple120">8th</div>
+            <br />
+            <input type="number" name="attr_eighth" value="0" />/<input type="number" name="attr_eighthmax" value="0" />
+            <br />
+            <div style="margin-left: 15px" class="simple120">9th</div>
+            <br />
+            <input type="number" name="attr_ninth" value="0" />/<input type="number" name="attr_ninthmax" value="0" />
+        </div>
+        <br />
+
+        <h3>Spell Proficiencies</h3>
+        <br />
+        <span class="simple120">Arcane</span>
+        <input type="number" name="attr_arcane" value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Arcane` `roll1|skill @{int} @{arcane}`'></button>
+        <br />
+        <span class="simple120">Curse</span>
+        <input type="number" name="attr_curse" value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Curse` `roll1|skill @{wil} @{curse}`'></button>
+        <br />
+        <span class="simple120">Divine</span>
+        <input type="number" name="attr_divine" value="0" />
+        <button type='roll' name='roll_save' value='!rtmp `name|Divine` `roll1|skill @{cha} @{divine}`'></button>
+    </div>
+    <div class="codex">
+        <h3>Codex</h3>
+        <br />
+        <textarea name="attr_spellbook"></textarea>
+    </div>
+
+    <div class="gear">
+        <h2>Gear</h2>
+        <br />
+        <textarea name="attr_gear"></textarea>
+    </div>
+    <div class="character">
+        <h2>Character</h2>
+        <br />
+        <textarea name="attr_character"></textarea>
+    </div>
+
+    <rolltemplate class="sheet-rolltemplate-CustomRoll">
+        <div class="container">
+            <div>
+                <h1>{{name}}</h1>
+            </div>
+            <div><span class="subheader">{{subtags}}</span></div>
+            <div class="arrow-container">
+                <div class="arrow-right"></div>
+            </div>
+            <div class="rowcolor"><span class="tcat">Attack: </span>{{attack}}</div>
+        </div>
+    </rolltemplate>
+</div>

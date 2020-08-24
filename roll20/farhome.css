@@ -1,0 +1,260 @@
+
+.charsheet {
+	min-width: 800px;
+}
+
+.sheet-container {
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: 200px 1fr 400px;
+    grid-template-rows: 140px 600px 350px 460px;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h3 {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+label {
+	display: inline-block;
+	width: 80px;
+    font-size: 1em;
+}
+
+input {
+	display: inline-block;
+    width: 120px;
+}
+
+input[type=number] {
+    width: 2em;
+    max-width: 2em;
+}
+
+input.sheet-number[type=number] {
+    width: 2em;
+    max-width: 2em;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.sheet-inlinespell {
+    display: inline-block;
+    width:65px;
+}
+
+.sheet-text200 {
+    max-height: 105px;
+	resize: vertical;
+}
+.sheet-textspell {
+    min-height: 70%;
+	resize: vertical;
+}
+
+.sheet-checkbox {
+    width: 30px;
+}
+
+.sheet-togglebox {
+    width: 30px;
+    float: right;
+    margin-top: 6px;
+}
+
+.sheet-short {
+	width: 50px;
+}
+
+.sheet-med {
+	width: 65px;
+}
+.sheet-long {
+	width: 100px;
+}
+
+img {
+	max-height: 100px;
+}
+
+textarea {
+    resize: none;
+    width: 88%;
+    height: 75%;
+    padding-left: 3%;
+    overflow:auto;
+}
+
+.sheet-feattext {
+    background-color: #ddd;
+    border-color: #ddd;
+}
+
+.sheet-featdesc {
+    background-color: #ddd;
+    border-color: #ddd;
+    width: 95%;
+    min-height: 65px;
+}
+
+.sheet-horizontalline {
+    width: 90%;
+    margin:1px;
+    height:2px;
+    background-color:#222;
+}
+
+.sheet-simple120 {
+    font-weight: bold;
+    width:80px;
+    line-height: 30px;
+    display:inline-block;
+}
+
+/*----------------- TOGGLE SWITCH MAGIC -----------------*/
+/* The switch - the box around the slider */
+.sheet-switch {
+    position: relative;
+    float: right;
+    width: 28px;
+    height: 20px;
+    margin: 0;
+    margin-top: 4px;
+}
+
+/* Hide default HTML checkbox */
+.sheet-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.sheet-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.sheet-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .sheet-slider {
+    background-color: #2196F3;
+}
+
+input:focus + .sheet-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .sheet-slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+/*----------------- END TOGGLE SWITCH MAGIC -----------------*/
+
+/*----------- Race Traits Display Setup -------------*/
+/*this hides the contents of each section by default*/
+.charsheet div[class^="sheet-skillsec"] {
+    display: none;
+}
+.sheet-hidden {
+    display: none;
+}
+
+/*this shows the race traits content when the appropriate input field is selected*/
+.charsheet input.sheet-skillsTool:checked ~ div.sheet-skillsec-tool,
+.charsheet input.sheet-skillsMan:checked ~ div.sheet-skillsec-man,
+.charsheet input.sheet-skillsFeat:checked ~ div.sheet-skillsec-feat,
+.charsheet input.sheet-skillsCond:checked ~ div.sheet-skillsec-cond,
+.charsheet input.sheet-skillsPot:checked ~ div.sheet-skillsec-pot,
+.charsheet input.sheet-skillsCur:checked ~ div.sheet-skillsec-cur,
+.charsheet input.sheet-skillsEquip:checked ~ div.sheet-skillsec-equip,
+.charsheet input.sheet-skillsWep:checked ~ div.sheet-skillsec-wep,
+.charsheet input.sheet-skillsStr:checked ~ div.sheet-skillsec-str,
+.charsheet input.sheet-skillsDex:checked ~ div.sheet-skillsec-dex,
+.charsheet input.sheet-skillsSta:checked ~ div.sheet-skillsec-sta,
+.charsheet input.sheet-skillsInt:checked ~ div.sheet-skillsec-int,
+.charsheet input.sheet-skillsWil:checked ~ div.sheet-skillsec-wil,
+.charsheet input.sheet-skillsCha:checked ~ div.sheet-skillsec-cha {
+    display: block;
+}
+  /*----------- End Race Traits Display Setup -----------*/
+
+.sheet-header {
+    grid-column: 1 / 5;
+    grid-row: 1;
+}
+.sheet-attributes {
+    overflow:auto;
+    grid-column: 1;
+    grid-row: 2;
+	background-color: #ddd;
+}
+.sheet-skills {
+    overflow:auto;
+    grid-column: 2;
+    grid-row: 2;
+	background-color: #ddd;
+}
+.sheet-feats {
+    overflow:auto;
+    grid-column: 3;
+    grid-row: 2;
+	background-color: #ddd;
+}
+.sheet-codex {
+    grid-column: 2 / 4;
+    grid-row: 3;
+	background-color: #ddd;
+}
+.sheet-spells {
+    grid-column: 1;
+    grid-row: 3;
+	background-color: #ddd;
+}
+/* .sheet-combat {
+    grid-column: 3;
+    grid-row: 3;
+	background-color: #ddd;
+} */
+.sheet-gear {
+    grid-column: 1;
+    grid-row: 4;
+	background-color: #ddd;
+}
+/* .sheet-feats {
+    grid-column: 2;
+    grid-row: 4;
+	background-color: #ddd;
+} */
+.sheet-character {
+    grid-column: 2 / 4;
+    grid-row: 4;
+	background-color: #ddd;
+}
