@@ -368,7 +368,7 @@ Roll 2 bad dice, counting the successes.
 
 | Roll | Misfire |
 |:----:|:-------------|
-| -4  | Lesser Wound: Mana leak. Every time you take at least 1 wound you lose your lowest spell slot available. Lasts until cured with Lesser Restoration or you take a Long Rest. |
+| -4  | Lesser Wound: Mana leak. Every time you take at least 1 wound you lose your lowest spell slot available. Lasts until cured with _Treat Injury_ or you take a Long Rest. |
 | -3 | Your spell backfires, roll a wound die for every remaining failure from your spellcasting roll, taking a wound for every wound rolled. |
 | -2 | Wild magic fills the area around you, you and all creatures within 3 tiles add 1 terrible die to their next roll |
 | -1 | Your flow of magic is interrupted, you add 1 terrible die to all spellcasting rolls for the next minute |
@@ -885,9 +885,9 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Starfall](#Starfall)
 
 ##### Fifth
-- [Ice Block](#Ice-Block)
 - [Illusory Space](#Illusory-Space)
 - [Open Warren](#Open-Warren)
+- [Poison Cloud](#Poison-Cloud)
 - [Wall of Fire](#Wall-of-Fire)
 - [Ward Area](#Ward-Area)
 
@@ -1378,7 +1378,7 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Fire
 
-A shell of fire surrounds your body. For the duration you add 1 defense die to your defense rolls against ranged attacks, incinerating the projectile on successful defense rolls. When a creature adjacent to you makes a melee attack against you, they must make a dexterity save vs your spellcasting. On fail, they take 1 wound die in fire damage, or 2 wound die on crit. The damage from Fire Shell happens before the attack lands, if the creature is killed their attack deals no damage.
+A shell of fire surrounds your body. For the duration you add 1 defense die to your defense rolls against ranged attacks, incinerating the projectile on successful defense rolls. When a creature adjacent to you makes a melee attack against you, they must make a dexterity save vs your spellcasting. On fail, they take 2 wound die in fire damage, or 2 wounds on crit. The damage from Fire Shell happens before the attack lands, if the creature is killed their attack deals no damage.
 
 Add a proficient die for every level above the 4th.
 
@@ -1390,7 +1390,7 @@ ___
 - **Duration:** 10 minutes
 - **Damage Type:** Cold
 
-You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your normal weapon attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The Lance is a Two-handed weapon with Reach, and deals 1 + 1 wound die in cold damage. Instead you may throw the lance at a target creature within 10 tiles. Make a spellcasting roll vs the creatures Defense, dealing 1 wound + 2 wound dice on hit and giving a level of Slow for every crit rolled. All adjacent creatures take 1 wound, and Slow 1 if you crit. The spell ends after 10 minutes or all spears have been thrown.
+You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your normal weapon attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The Lance is a Two-handed weapon with Reach, and deals 1 wound and 1 wound die in cold damage. Instead you may throw the lance at a target creature within 10 tiles. Make a spellcasting roll vs the creatures Defense, dealing 1 wound and 2 wound dice on hit and giving a level of Slow for every crit rolled. All adjacent creatures take 1 wound, and Slow 1 if you crit. The spell ends after 10 minutes or all spears have been thrown.
 
 You can make one attack, melee or thrown, when casting this spell.
 
@@ -1404,7 +1404,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Lightning
 
-Fire a bolt of lightning, hitting all creatures in a 15 tile line. The lightning ricochets off walls and solid objects. All creatures must make a Dexterity save vs your spellcasting. On fail, they take 3 wound dice, plus a wound die for every crit.
+Fire a bolt of lightning, hitting all creatures in a 15 tile line. The lightning ricochets off walls and solid objects. All creatures must make a Dexterity save vs your spellcasting. On fail, they take 1 wound and 2 wound dice, plus a wound die for every crit.
 
 Add a proficient die for every level above the 4th.
 
@@ -1427,11 +1427,11 @@ ___
 - **Duration:** instant
 - **Damage Type:** Poison
 
-You conjure an orb of vitriolic acid, launching it at a target in range. On impact the orb explodes in a splash of acid, hitting all creatures in a 2 tile radius star pattern. Creatures must make a Dexterity save vs your spellcasting modifier, on fail they take 3 wound die in damage and their armor breaks on crit, lowering its modifier by 1.
+You conjure an orb of vitriolic acid, launching it at a target in range. On impact the orb explodes in a splash of acid, hitting all creatures in a 2 tile radius star pattern. Creatures must make a Dexterity save vs your spellcasting modifier, on fail they take 3 wound dice in damage and their armor breaks on crit, lowering its modifier by 1.
 
 Regardless of outcome acid covers the floor for the next minute. Any creature that starts their turn, or takes a move or sprint action on the acid take 1 wound die in damage.
 
-The radius of the blast increases by 1 for every level above 4th.
+The radius of the blast and the wound dice of the initial attack increase by 1 for every level above 4th.
 
 ___
 #### Passwall
@@ -1463,17 +1463,6 @@ Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 
 
 
-___
-#### Ice Block
-*5th Level*
-- **Casting Time:** 8 AP
-- **Range:** 7
-- **Duration:** 1 minute
-- **Damage Type:** Cold
-
-Targeting a creature you can see you incase them in a block of ice. Make a spellcasting roll vs a targets Stamina. On success they take 4 wound dice in damage and are restrained until the end of their next turn, gaining Slow 3 for 1 minute. On crit the target is incapacitated, frozen completely. While incapacitated they gain resistance 2 to all damage except Holy, Death, and Pyschic. They are incapacitated for the duration or until they take 1 wound in damage, causing the ice to shatter.
-
-The duration increases by 1 minute for every level above 5th.
 
 ___
 #### Illusory Space
@@ -1506,14 +1495,28 @@ While inside the warren, every hour of travel is equivalent to 8 on the material
 You do not start making spellcasting rolls to stay inside the warren for an additional hour for every level cast above the 5th.
 
 ___
+#### Poison Cloud
+*5th Level*
+- **Casting Time:** 8 AP
+- **Range:** 15
+- **Duration:** 10 minutes
+- **Damage Type:** Poison
+
+You create a 7x7 cloud of poison at a point in range you can see. The poison cloud bends around corners and permeates surfaces. While inside the poison cloud, any creature starting their turn must make a Stamina save vs your spellcasting. On fail their Poison level increases by 1 to a max of 3 and they take 1 wound die per level of Poison effecting them. While inside the cloud creatures do not make Stamina saves at the end of their turns to reduce the poison effect. 
+
+Strong winds can move or reduce the size of the poison cloud, with spells like _Gust_ reducing the size of the cloud by 1 for every crit rolled.
+
+The size of the cloud increases by 2 and you add a proficiency die to your spellcasting roll for every level cast above 5th.
+
+___
 #### Wall of Fire
 *5th Level*
 - **Casting Time:** 8 AP
-- **Range:** 10
+- **Range:** 15
 - **Duration:** instant
 - **Damage Type:** Fire
 
-A great wall of fire, 7 tiles wide and 3 tiles high, errupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll vs your spellcasting. On hit they take 3 wound die in damage, and are ignited for 1 minute on a crit. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
+A great wall of fire, 10 tiles wide and 3 tiles high, errupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll vs your spellcasting. On hit they take 1 wound and 3 wound die in damage, and are ignited for 1 minute on a crit. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
 
 Add a wound die for every level above the 5th.
 
@@ -1598,9 +1601,9 @@ ___
 - **Duration:** instant
 - **Damage Type:** Force
 
-Harness your magic and unleash a destructive wave of force. A blast of force 3 tiles wide and 12 tiles long erupts from your hands. All creatures in the blast must make a Strength save vs your spellcasting. On fail they take 5 wound dice in damage and are thrown back half the distance of the wave, on success they take 2 wound dice and are pushed back 1 tile. Objects and structures in the waves path are destroyed, leaving difficult terrain. 
+Harness your magic and unleash a destructive wave of force. A blast of force 5 tiles wide and 12 tiles long erupts from your hands. All creatures in the blast must make a Strength save vs your spellcasting. On fail they take 5 wound dice in damage and are thrown back half the distance of the wave, on success they take 2 wound dice and are pushed back 1 tile. Objects and structures in the waves path are destroyed, leaving difficult terrain. 
 
-The length of the wave increases by 2 and wound dice increases by 1 for each level above 6th.
+The length of the wave increases by 3 and wound dice increases by 1 for each level above 6th.
 
 
 
@@ -1620,7 +1623,7 @@ You summon storm clouds overhead in a 20 tile radius. For the duration the area 
 
 - **Downpour:** Torrential rainfall covers the area, extinguishing fires and greatly reducing visibility. A creature attempting to see through the rain and mists must make a perception check against your spellcasting. On fail they cannot see further than 3 tiles.
 
-- **Thunderstrike:** Call town a thundering bolt of lightning at a target creature. The creature makes a Dexterity save vs your spellcasting, on fail taking 3 wound dice in lightning damage. In addition, all creatures within 2 tiles of the target must make a Stamina save or take 2 wound dice in thunder damage, being knocked prone on crit.
+- **Thunderstrike:** Call town a thundering bolt of lightning at a target creature. The creature makes a Dexterity save vs your spellcasting, on fail taking 2 wounds and 3 wound dice in lightning damage. In addition, all creatures within 2 tiles of the target must make a Stamina save or take 3 wound dice in thunder damage, being knocked prone on crit.
 
 Add a proficiency die for every level above 7th.
 
@@ -1629,14 +1632,14 @@ ___
 *7th Level*
 - **Casting Time:** 9 AP
 - **Range:** Self
-- **Duration:** 5 minutes
+- **Duration:** 5 minutes, concentration
 - **Damage Type:** Fire
 
 You speak a word of power as fire races across your body. Until the spell ends, you gain the following benefits:
 
 - You gain Fire Resistance 3.
-- Any creature that moves adjacent to you,begins their turn there or makes a melee attack against you are burned by the fire and take 1 wound die in damage.
-- You may spend 5 AP to unleash a cone of fire infront of you. The cone extends 3 tiles out and 3 tiles wide, all creatures hit by the fire must make a Dexterity save vs your spellcasting. On fail they take 3 wound dice in damage.
+- Any creature that moves adjacent to you,begins their turn there or makes a melee attack against you are burned by the fire and take 1 wound in damage.
+- You may spend 5 AP to unleash a cone of fire infront of you. The cone extends 5 tiles out and 3 tiles wide, all creatures hit by the fire must make a Dexterity save vs your spellcasting. On fail they take 1 wound and 2 wound dice in damage.
 
 Only a single Power Word can be active at once, casting another Power Word spell ends another Power Word spell you control.
 
@@ -1647,36 +1650,36 @@ ___
 *7th Level*
 - **Casting Time:** 9 AP
 - **Range:** Self
-- **Duration:** 5 minutes
+- **Duration:** 5 minutes, concentration
 - **Damage Type:** Cold
 
 You speak a word of power as ice rimes across your body. Until the spell ends, you gain the following benefits:
 
 - You gain Cold Resistance 3.
-- Any creature that moves within 2 tiles of you, or starts their turn there must make a Stamina save vs your spellcasting. On fail they gain Slow 1, or Slow 2 if you crit.
+- Any creature that moves within 3 tiles of you, or starts their turn there must make a Stamina save vs your spellcasting. On fail they gain Slow 1, or Slow 2 if you crit.
 - You may spend 5 AP to freeze a target within 5 tiles solid. A targeted creature must make a Stamina save vs your spellcasting. On fail they take 3 wound dice in damage, and on crit are frozen in ice until the end of their next turn. While frozen they gain Resistance 2 to physical damage and are incapacitated.
 
 Only a single Power Word can be active at once, casting another Power Word spell ends another Power Word spell you control.
 
-The range of both effects increase by 1 for every level above 7th.
+The range of both effects increase by 1 and you add a proficiency die to your spellcasting rolls for every level above 7th.
 
 ___
 #### Power Word: Lightning
 *7th Level*
 - **Casting Time:** 9 AP
 - **Range:** Self
-- **Duration:** 5 minutes
+- **Duration:** 5 minutes, concentration
 - **Damage Type:** Lightning
 
 You speak a word of power as ice rimes across your body. Until the spell ends, you gain the following benefits:
 
 - You gain Lightning Resistance 3.
 - As a reaction or on your turn you may spend 2 AP to teleport to an unoccupied tile within 3 tiles of your position.
-- You may spend 5 AP to fire a lightning bolt against a target creature within 10 tiles of you. Make a spellcasting roll vs the targets Dexterity, on success they take 1 wound, plus 1 wound die for every crit rolled. If the target is wearing or holding metal reroll any blank wound die.
+- You may spend 5 AP to fire a lightning bolt against 3 creatures within 10 tiles of you. Make a spellcasting roll vs the targets Dexterity, on success they take 1 wound, plus 1 wound die for every crit rolled.
 
 Only a single Power Word can be active at once, casting another Power Word spell ends another Power Word spell you control.
 
-Add a proficient die to your roll for every level above 7th.
+Add a superior die to your spellcasting roll for every level above 7th.
 
 ___
 #### Project Image
@@ -1751,6 +1754,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 #### Spells By Level
 
 ##### Cantrip
+- [Bleed](#Bleed)
 - [Eldritch Blast](#Eldritch-Blast)
 - [Levitate](#Levitate)
 - [Life Sense](#Life-Sense)
@@ -1820,6 +1824,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 ##### Sixth
 - [Curse of Fear](#Curse-of-Fear)
 - [Isolation](#Isolation)
+- [Ritual of Mordiggian](#Ritual-of-Mordiggian)
 
 ##### Seventh
 - [Curse of Obedience](#Curse-of-Obedience)
@@ -1834,6 +1839,18 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 - [Seal](#Seal)
 
 ___
+#### Bleed
+*Cantrip*
+- **Casting Time:** 5 AP
+- **Range:** 5
+- **Duration:** instant
+- **Damage Type:** Death
+
+Targeting a creature in range you can see you cause their wounds to reopen. The creature makes a Stamina save against your spellcasting roll. On fail they take 1 wound die in damage, or 3 wound dice if they have missing wounds.
+
+You may target an extra creature for every level cast above cantrip.
+
+___
 #### Eldritch Blast
 *Cantrip, Requires Chosen*
 - **Casting Time:** 5 AP
@@ -1841,9 +1858,9 @@ ___
 - **Duration:** instant
 - **Damage Type:** Force
 
-Blast a target with eldritch force. Make a spellcasting roll vs the targets Strength. On success they take 1 wound, adding a wound die on crit.
+Blast a target with eldritch force. Make a spellcasting roll against the targets Strength. On success they take 1 wound, adding a wound die on crit.
 
-Add a proficiency die to your spellcasting roll for every level above cantrip.
+Add a proficiency die to your spellcasting roll for every level cast above cantrip.
 
 ___
 #### Levitate
@@ -1856,7 +1873,7 @@ You magically levitate an object or creature weighing less than 25 lbs. If the t
 
 If the target is an unwilling creature they make the save again at the end of their turn, freeing themselves from your levitation on success. If the target is in the air when the spell ends it drops to the ground normally. If the target becomes heavier than the spell can carry (for example a creature standing ontop of a levitating slab) the spell ends.
 
-The maximum weight doubles for every level above cantrip.
+The maximum weight doubles for every level cast above cantrip.
 
 ___
 #### Life Sense
@@ -1865,9 +1882,9 @@ ___
 - **Range:** 10
 - **Duration:** 1 minute
 
-targeting a 3x3 cube, all living creatures give off the glow of life. Creatures must make a Willpower save vs your spellcasting. On a fail a dim light outlines their body. Any attacks against this creature can change a normal die for a proficiency die.
+targeting a 4x4 cube, all living creatures give off the glow of life. Creatures must make a Willpower save vs your spellcasting. On a fail a dim light outlines their body. Any attacks against this creature can change a normal die for a proficiency die.
 
-Add a proficiency die to your spellcasting roll for every level above cantrip.
+Add a proficiency die to your spellcasting roll for every level cast above cantrip.
 
 ___
 #### Trickery
@@ -1878,7 +1895,7 @@ ___
 
 When you or an ally is targeted by an attack or maneuver, you can use a reaction to distract the attacker, adding 1 bad die to their attack roll.
 
-Add a bad die for every level above cantrip.
+Add a bad die for every level above cast cantrip.
 
 ___
 #### Witchcraft
@@ -1956,7 +1973,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 day
 
-Curse a creature with misfortune. They must make a willpower save vs your spellcasting. On fail, the creature adds a bad die to all saving throws for the next day. If you crit they add a terrible die instead. The curse can be removed through lesser restoration.
+Curse a creature with misfortune. They must make a willpower save vs your spellcasting. On fail, the creature adds a bad die to all saving throws for the next day. If you crit they add a terrible die instead. The curse can be removed through _Cleanse_.
 
 You may target an additional person for every level above the 1st.
 
@@ -2476,7 +2493,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 4 wound die in damage and all healing they recieve is half as effective until they take a long rest. On crit they are stunned until the end of their next turn. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
+Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound die in damage and all healing they recieve is half as effective until they take a long rest. On crit they are stunned until the end of their next turn. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
 
 Add a proficiency die for every level above the 5th.
 
@@ -2545,7 +2562,29 @@ You sever the connections surrounding the target creature, leaving them utterly 
 
 Add a proficiency die for every level above 6th.
 
+___
+#### Ritual of Mordiggian
+*6th Level*
+- **Casting Time:** 10 minutes
+- **Range:** 5
+- **Duration:** instant
 
+Targetting a beast or willing creature you permanently alter their form, only ending when _Restoration_ has been cast on them. Make a spellcasting roll, giving the creature the _Nightmare_ template, increasing their max wounds by 1 for every crit rolled.
+
+Their max wounds increase by 1 for every level cast above 6th.
+
+> #### Nightmare Template
+> - **Bonus AP:** 4
+> - **Bonus Stats:** +1 Strength, +1 Stamina
+> - **Bonus Proficiencies:** +2 proficiency with Strength/Stamina saves, +3 proficiency with unarmed attacks
+> - **Bonus Wounds:** -
+> ___
+> ##### Additional Effects
+> At night this creature turns feral, actively seeking out and attacking nearby creatures. After killing a creature they will drink their blood for the remainder of the night.
+>
+> **Feral Form.** Their normal unarmed attacks are replaced with deadly claws costing 5 AP, dealing 1 wound in slashing and 2 wound dice in death damage. They gain a Bite attack costing 7 AP, dealing 1 wound in piercing and 3 wound dice in death damage. All attacks are Strength based.
+>
+> **Mordiggians Hunger.** Dealing death damage causes this creature to regenerate 1 wound. Not being able to feed at night reduces this creatures max wounds by 1 until they feed.
 
 
 
@@ -2570,7 +2609,7 @@ ___
 - **Duration:** concentration, 1 minute
 - **Damage Type:** Bludgeoning
 
-You create a crushing gravity well at a target point. Choose a 5x5 area at a position centered inside your range. All lose objects are flung towards the center, destroying mundane items. All creatures that enter the gravity well or start their turns there must make a Strength save vs your spellcasting. On fail they are flung into the center tile, taking 3 wound die in damage. On success their move and sprint speeds are reduced to 1, and cannot be improved. Creatures in the center take 1 wound at the start of their turn as they are crushed by the gravity well.
+You create a crushing gravity well at a target point. Choose a 5x5 area at a position centered inside your range. All lose objects are flung towards the center, destroying mundane items. All creatures that enter the gravity well or start their turns there must make a Strength save vs your spellcasting. On fail they are flung into the center tile, taking 2 wounds and 2 wound die in damage. On success their move and sprint speeds are reduced to 1, and cannot be improved. Creatures in the center take 1 wound and 1 wound die in damage at the start of their turn as they are crushed by the gravity well.
 
 The radius of the gravity well increases by 1 and you add 1 wound die to each source of damage for every level cast above 7th.
 
@@ -2688,6 +2727,7 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 ##### Fifth
 - [Awaken Soul](#Awaken-Soul)
 - [Inner Fire](#Inner-Fire)
+- [Judgement](#Judgement)
 - [Radiance](#Radiance)
 - [Resurrect](#Resurrect)
 - [Spirit Warriors](#Spirit-Warriors)
@@ -2825,12 +2865,12 @@ ___
 #### Chilling Fog
 *1st Level*
 - **Casting Time:** 6 AP
-- **Range:** 10
-- **Duration:** 1 minute.
+- **Range:** 15
+- **Duration:** 10 minute.
 
-A chilling fog appears in a 3x3 area at a target location. Make a spellcasting roll, all creatures gain slow equal to the number of crits rolled, with a minimum of 1. All creatures inisde the fog gain fire resistance 1.
+A chilling fog appears in a 5x5 area at a target location. Make a spellcasting roll, all creatures gain slow equal to the number of crits rolled, with a minimum of 1. All creatures inisde the fog gain fire resistance 1. The fog heavily obscures the area.
 
-The diameter of the cube increases by 1 for every level above 1st.
+The size and range of the fog increase by 2 for every level above 1st.
 
 ___
 #### Close Wound
@@ -2839,7 +2879,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-Mend a creature's wounds. Make a spellcasting roll, healing a single wound and adding a wound die for every crit rolled.
+Mend a creature's wounds. Make a spellcasting roll, healing a single wound and adding a wound for every crit rolled.
 
 Add a Wound die for every level above the 1st.
 
@@ -2869,7 +2909,7 @@ Duration increases by 1 minute for every level cast above 1st.
 ___
 #### Solar Flash
 *1st Level*
-- **Casting Time:** 8 AP
+- **Casting Time:** 6 AP
 - **Range:** Touch
 - **Duration:** instant
 
@@ -2974,7 +3014,7 @@ Add a proficiency die for every level above the 2nd.
 ___
 #### Wall of Faith
 *2nd level*
-- **Casting Time:** 7 (3) AP
+- **Casting Time:** 6 (3) AP
 - **Range:** 5
 - **Duration:** 1 turn
 
@@ -3131,9 +3171,9 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** Holy
 
-A blast of holy light emits from your symbol. All undead within 10 ft must make a charisma save vs your spellcasting. On fail, they take 2 wounds and are turned. On a success they take 1 wound instead.
+A blast of holy light emits from your symbol. All undead within 3 tiles must make a charisma save vs your spellcasting. On fail, they take 2 wounds and are turned. On a success they take 1 wound instead. An undead possessing a creature is forced out if they are turned.
 
-Add a wound die for every level above the 3rd. Each wound rolled deals an additional wound if the target fails it's save.
+Add a wound die and increase the area by 2 tiles for every level above the 3rd.
 
 
 
@@ -3274,6 +3314,18 @@ ___
 Empower a group of creatures with righteous fury. Target up to 5 creatures in range, adding a Terrible die for each creature targeted. On success the targeted creatures have expertise with all weapons and deal an extra wound die in holy damage with every attack.
 
 Add a proficiency die for every level above 5th.
+
+___
+#### Judgement
+*5th level*
+- **Casting Time:** 10 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** Holy
+
+You call down a holy judgement over a 5x5 area centered on a point you can see in range. All hostile creatures make a Charisma save vs your spellcasting. On fail they take 4 wound dice in damage with Undead taking 4 wounds. On crit the creature cannot move until the end of their next turn. If the damage would kill a living creature they are brought to 1 wound instead and stunned until the end of their turn. Undead killed this way cannot be raised again.
+
+Add a wound die for every level above 5th.
 
 ___
 #### Radiance
@@ -4451,7 +4503,7 @@ ___
 - **Ingredients:** 2 Brainfish, 1 Cleansebloom
 - **Roll:** 2 Bad dice, 1 Terrible die
 
-For the next 4 hours you gain 1 superior die when rolling concnetration saves.
+For the next 4 hours you gain 1 superior die when rolling Intelligence, Willpower, Charisma and concentration saves.
 
 ___
 ##### Bracing Potion
@@ -4492,7 +4544,7 @@ ___
 - **Ingredients:** 2 Nightshade, 1 Poison Nettle
 - **Roll:** 2 Bad dice, 1 Terrible die
 
-On hit deals 1 wound die in poison damage, or 2 wound die on critical.
+On hit deals 1 wound in poison damage, adding a wound die on critical.
 
 ___
 ##### Paralyzing Poison

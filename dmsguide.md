@@ -37,7 +37,7 @@ ___
 All creatures in your zone of control must make a Willpower save vs 2 superior dice. On fail they become terrified for the next minute. They cannot move closer to you and they add a terrible die to all attack rolls.
 
 #### Cursebreaker
-*Wonderous Item*
+*Wondrous Item*
 
 A pendant with a rest mist swirling in it's gemstone. Once per day you may use this to attempt to break a curse effecting you or a creature you can touch. The target makes a Willpower save against 1 terrible die. On success they end a single curse aflicting the target.
 
@@ -49,7 +49,7 @@ An incredibly light spear able to cut through armor. When making a basic attack 
 If you land 3 hits against the same target during your turn, the target is dazed until the end of their turn.
 
 #### Ring of Protection +1, +2, +3
-*Wonderous Item, Requires Attunement*
+*Wondrous Item, Requires Attunement*
 
 A strange ring that wards the wearer from danger. When making a defense roll, you can spend 1 AP to reroll a number of defense die equal to the rings modifier.
 
@@ -94,7 +94,7 @@ ___
 Empower your Axe with chilling cold. Throw the axe at a target position in range. On hit a 3x3 area of ice appears centered on the hatchet. All creatures inside the ice gain Slow 1 and add 1 Terrible die to all dexterity based saves, attacks, or skills. This effect ends once the creature leaves the area, and the area lasts until the start of your next turn.
 
 #### Adventurers Cloak
-*Wonderous Item*
+*Wondrous Item*
 
 A rugged cloak lined with pockets, it billows heroically even when there is no wind. It starts with charges equal to the successes from 3 superior die. Once per hour you may expend a charge to grab something from the cloaks pocket. You may find one of the following : 50 ft of rope, 10 ft of fine iron chain, a bandage, a torch, a fire kit, a gallon of water, a grapling hook.
 
@@ -102,40 +102,40 @@ The item lasts for 1 hour, after which it turns to dust.
 
 
 #### Wand of Cinders
-*Wonderous Item*
+*Wondrous Item*
 
 A wand with a tip that looks like the embers from a campfire. Roll 5 superior die, this wand has charges equal to the total success. Spending 1 charge you can cast Firebolt at 1st level. Spending 2 charges you may cast Beam of Fire at 1st level.
 
 Spells cast with this wand do not benefit from any spellcasting feats, and use 3 superior dice for the spellcasting roll.
 
 #### Wand of Secrecy
-*Wonderous Item*
+*Wondrous Item*
 
 A wand that emits black wisps of smoke. Roll 5 superior die, this wand has charges equal to the total success. You can spend a charge to turn all mundane lights in a 6x6 tile area to dim light for 10 minutes, covering half as much area as bright light. Spending 2 charges gives you the effects of _Concealment_ for 10 minutes.
 
 #### Wand of Sight
-*Wonderous Item*
+*Wondrous Item*
 
 A wand with a crystal eye attached to the tip. Roll 5 superior die, this wand has charges equal to the total success. Spending 1 charge you gain the effects of _Dark Sight_ for 1 hour. Spending 3 charges you may cast _Magic Sight_ without concentrating on the spell.
 
 Spells cast with this wand do not benefit from any spellcasting feats, and use 3 superior dice for the spellcasting roll.
 
 #### Wand of Shooting Stars
-*Wonderous Item*
+*Wondrous Item*
 
 A wand with a brass star on its tip. This wand is a simple weapon, using your Arcane spellcasting for the attack. It has a range of 5/10 and deals 1 wound die in force damage on hit. The star arcs over cover, ignoring all but total cover.
 
 If your attack roll has no successes and a critical fail the wand breaks, losing its magic.
 
 #### Wand of Shock
-*Wonderous Item*
+*Wondrous Item*
 
 A wand in the shape of a lightning bolt. Roll 5 superior die, this wand has charges equal to the total success. Spending 1 charge you may cast the _Static Shock_ cantrip. If you do, you may spend up to 2 additional charges to add a superior die for each charge to the spellcasting roll.
 
 Spells cast with this wand do not benefit from any spellcasting feats, and use 2 superior dice for the spellcasting roll.
 
 #### Stamp of Beast Steed
-*Wonderous Item*
+*Wondrous Item*
 
 Transform a beast into a loyal steed. Can only be used on a non-intelligent, medium or smaller beast you can touch. A hostile creature makes a willpower save vs 2 superior die, taking no effect on success. Once used the token bursts into a handful of dry leaves.
 
@@ -145,20 +145,20 @@ After 24 hours the creature returns to normal, becoming hostile if it was hostil
 
 
 #### Ring of the Ram
-*Wonderous Item*
+*Wondrous Item*
 
 A ring adorned with silver ram's head. You may cast _Thundering Blow_ as a cantrip, using your unarmed attack roll instead of spellcasting. This can be used 3 times, at which point the ram tarnishes. This ring can be used again after a successful repair roll.
 
 
 #### Ghostly Shackles
-*Wonderous Item*
+*Wondrous Item*
 
 This weapon empowers your unarmed attacks, allowing you your attacks to strike those in the ethereal plane. You bypass the physical resistances of ghosts, and can hit creatures phasing to the ethereal plane.
 
 When attempting a grapple you may target creatures 1 tile away as the chains from your shackle bind the creature. If you crit your grapple roll the target is restrained instead.
 
 #### Falnalnen's Tome of Wands
-*Wonderous Item*
+*Wondrous Item*
 
 This Tome, written in Elvish, contains instructions on how to construct a variety of wands. Someone proficient in enchanter's tools can spend 8 hours crafting a wand, given they have the materials. 
 
@@ -176,30 +176,30 @@ This book gives instructions on how to craft the following wands:
 
 
 #### Medallion of Health
-*Wonderous Item, Requires Attunement*
+*Wondrous Item, Requires Attunement*
 
 While wearing this medallion your max wounds increases by 1.
 
 
 #### Hero's Medallion
-*Wonderous Item*
+*Wondrous Item*
 
 You are immune to fear. Anytime you make an Intelligence, Willpower, or Charisma save you may reroll 1 die, keeping the new value.
 
 
 
 #### Blueflame Lantern
-*Wonderous Item*
+*Wondrous Item*
 
 This lantern has enough oil to light for 8 hours. When lit it acts as a normal lantern, shedding bright light 5 tiles out, and dim light a further 5. When invisible creatures or objects are within 10 tiles of the lantern the flame turns blue, and are visible while in the lanterns bright light.
 
 #### Cloak of Agility
-*Wonderous Item, Requires Attunement*
+*Wondrous Item, Requires Attunement*
 
 This cloak grants you +1 to your Dexterity. If your movespeed is lower than your sprint speed, it is increased to your sprint speed.
 
 #### Cloak of Daggers
-*Wonderous Item*
+*Wondrous Item*
 
 While wearing this cloak with the hood up it obscures your face from light, preventing penalties from being in bright light or sunlight. Bright light is reduced to dim light, and dim light is reduced to darkness in this way. In addition, you gain the following manuever.
 
@@ -212,13 +212,13 @@ ___
 You spin your dagger tipped cloak, slashing all adjacent creatures. Make a piercing weapon attack roll against the targets Dexterity. If this is during or before the first round of combat, add 1 superior die to your roll. On hit they take 1 wound in piercing damage.
 
 #### Barrier Cloak
-*Wonderous Item, Requires Attunement*
+*Wondrous Item, Requires Attunement*
 
 You gain Force Resistance 1 while wearing this cloak. Once per long rest you can spend 2 AP to cast _Barrier_ at 2nd level.
 
 
 #### Ritual Flask
-*Wonderous Item*
+*Wondrous Item*
 
 This flask is made of iron with a band of runes engraved around it. Studying the runes teaches you a ritual for the flask. Using chalk to draw out a rune covering a 2x2 tile area, you can attempt to trap a Demon, Elemental, Outsider, or Celestial inside the flask. The creature must remain inside the rune for 1 minute, after which they make a Charisma save against 4 superior dice. On fail they are trapped inside the flask.
 
@@ -230,22 +230,22 @@ When finding a flask it may already contain a creature, and a successful Lore ch
 
 
 #### Belt of Dwarvenkind
-*Wonderous Item, Requires Attunement*
+*Wondrous Item, Requires Attunement*
 
 While wearing this belt your gain +2 proficiency to your Stamina save. If you do not know Dwarvish, you are able to read and speak it, and add 1 superior die to Charisma skills with dwarves.
 
 #### Belt of Elvinkind
-*Wonderous Item, Requires Attunement*
+*Wondrous Item, Requires Attunement*
 
 While wearing this belt your gain +2 proficiency to your Dexterity save. If you do not know Elvish, you are able to read and speak it, and add 1 superior die to Charisma skills with elves.
 
 #### Gloves of Ogre Strength
-*Wonderous Item, Requires Attunement*
+*Wondrous Item, Requires Attunement*
 
 While wearing these gloves your Strength is increased by 1. Your carry weight is tripled, lifting heavy objects, such as a boulder, with ease.
 
 #### Twili Mask of Power
-*Wonderous Item, Requires Attunement*
+*Wondrous Item, Requires Attunement*
 
 While wearing this mask you add 1 proficiency die to all spellcasting rolls. When taking a move action you can choose to hover. While hovering you ignore ground based effects and difficult terrain and can pass over creatures, returning to the ground at the end of your turn. You also learn two manuevers, _Shadow Magic_ and _Orb of Destruction_.
 
@@ -278,7 +278,7 @@ Leather armor with bones woven to reinforce it. Once per long rest, you may cast
 
 
 #### Emillion's Everyday Enchantments
-*Wonderous Item*
+*Wondrous Item*
 
 A book of common enchantments.
 
@@ -295,7 +295,7 @@ A book of common enchantments.
 | Rope Trick | 2nd | 2 |2B/1T | Enchant a rope to automatically tie itself to an object, such as a branch, or rock. The rope moves across surfaces, up walls, and can reach 2 tiles into the air. |
 
 #### Aventus's Arcane Armaments
-*Wonderous Item*
+*Wondrous Item*
 
 A book of instructions for enchanting items, made by the battle mage Aventus.
 
@@ -310,24 +310,88 @@ A book of instructions for enchanting items, made by the battle mage Aventus.
 
 
 #### Darkmantle Cloak
-*Wonderous Item*
+*Wondrous Item*
 
 A cloak made from the skin of a Darkmantle, imbued with magic. While in dim light or darkness you may wrap yourself in the cloak. While wrapped in the cloak, as long as you do not move you appear as a stalagmite and add 3 superior dice to any stealth checks made.
 
 Once per day you can use the cloak to conjure an aura of darkness radiating 3 tiles out in all directions. Mundane light cannot penetrate the darkness, and any light spell of 2nd level or lower inside the darkness is dispelled.
 
 #### Mage Slayer
-*Wonderous Greatsword +1*
+*Wondrous Greatsword +1*
 
 A sword used to execute rogue mages, this 6ft claymore is inscribed with protective runes. When taking the defend action you add this weapons bonus to all saving throws and defense rolls against magic. Once per day you may cast _Dispel Magic_ using 4 superior dice for the spellcasting roll.
 
 
 #### Band of Silence
-*Wonderous Item*
+*Wondrous Item*
 
 This black metal band resizes itself to fit around the wearers forearm. Once per day you can command the band to emit a field of absolute silence for 10 minutes. Once activated the field stays until dispelled or the duration ends. The field extends to all adjacent tiles around the wearer and moves with the wearer. A creature in the field is unable to make or hear a sound, and gains resistance 3 to thunder damage.
 
 #### Shadowwalk Dagger
-*Wonderous Dagger +1*
+*Wondrous Dagger +1*
 
-This dull blue dagger emits faint wisps of smoke visible even when sheathed. When making a ranged attack with this dagger you may speak a command word, causing you and the dagger to turn into shadow. Make an attack roll as normal, on hit you deal Death damage instead of piercing and you reform out of the shadows in a tile adjacent to the target. If the attack misses the DM determines where the dagger lands, with the wielder appearing in the closest unoccupied tile.
+This dull blue dagger emits faint wisps of smoke visible even when sheathed. You gain the Shadowwalk maneuver while holding this dagger.
+
+##### Shadowwalk
+___
+- **AP Cost:** 5
+- **Damage:** Death
+- **Range:** 5/10
+
+Make an attack roll against a target, turning you and the dagger into shadow. On hit you deal Death damage instead of piercing and you reform out of the shadows in a tile adjacent to the target. If the attack misses the DM determines where the dagger lands, with the wielder appearing in the closest unoccupied tile.
+
+#### Mother Yama's Practical Potions
+*Wondrous Item*
+
+This leather-bound book is filled with mismatched pages describing a variety of plants and potions.
+
+You may search for these plants the same way you would search for apothecary ingredients, increasing the challenge by 1 tier.
+
+| Area | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Plains | Gracebloom | Gracebloom | Vitalflower | Silverleaf | Silverleaf | None | None |
+| Forest  | Lucky Leaf | Lucky Leaf | Hearty Root | Hearty Root | Silverleaf | Silverleaf | None |
+
+You learn how to make the following potions.
+
+___
+  ##### Healing Potion + 1
+- **Ingredients:** 2 Healroot/Basic Healing Potion, 1 Silverleaf
+- **Roll:** 2 Bad dice, 1 Terrible die
+
+A greater healing potion. On use, heals 1 + 3 wound dice in health.
+
+___
+  ##### Healing Potion + 3
+- **Ingredients:** Healing Potion +1, 1 Gracebloom
+- **Roll:** 2 Bad dice, 2 Terrible dice
+
+An advanced healing potion. On use, heals 1 + 5 wound dice in health.
+
+___
+  ##### Nettle Fever +1
+- **Ingredients:** 2 Poison Nettle/Nettle Fever, 1 Nightshade
+- **Roll:** 2 Bad dice, 1 Terrible die
+
+A concentrated poison. On hit inflicts Poison 2, or Poison 3 on crit.
+
+___
+  ##### Potion of Grace
+- **Ingredients:** 1 Gracebloom, 2 Silverleaf
+- **Roll:** 2 Bad dice, 1 Terrible die
+
+For the next hour you gain 2 proficiency in all saving throws.
+
+___
+  ##### Hero's Luck
+- **Ingredients:** 1 Lucky Leaf, 1 Silverleaf, 1 Skillwheat
+- **Roll:** 3 Terrible dice
+
+You gain 2 Hero dice for the next hour. Any unspent dice are lost after the potion fades.
+
+___
+  ##### Potion of Greater Vitality
+- **Ingredients:** 2 Healroot, 1 Vitalflower, 1 Hearty root
+- **Roll:** 2 Bad dice, 1 Terrible die
+
+Your max wounds increases by 1 for the next 24 hours. Every time you roll a healing surge you heal an extra wound.
