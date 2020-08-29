@@ -900,12 +900,14 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 
 ##### Seventh
 - [Call Storm](#Call-Storm)
+- [Mass Fireball](#Mass-Fireball)
 - [Power Word: Fire](#Power-Word-Fire)
 - [Power Word: Ice](#Power-Word-Ice)
 - [Power Word: Lightning](#Power-Word-Lightning)
 - [Project Image](#Project-Image)
 
 ##### Eigth
+- [Fiendfire](#Fiendfire)
 - [Invulnerability](#Invulnerability)
 - [Slow Time](#Slow-Time)
 - [Stablize Warren](#Stablize-Warren)
@@ -1625,7 +1627,19 @@ You summon storm clouds overhead in a 20 tile radius. For the duration the area 
 
 - **Thunderstrike:** Call town a thundering bolt of lightning at a target creature. The creature makes a Dexterity save vs your spellcasting, on fail taking 2 wounds and 3 wound dice in lightning damage. In addition, all creatures within 2 tiles of the target must make a Stamina save or take 3 wound dice in thunder damage, being knocked prone on crit.
 
-Add a proficiency die for every level above 7th.
+Add a proficiency die for every level cast above 7th.
+
+___
+#### Mass Fireball
+*7th Level*
+- **Casting Time:** 10 AP
+- **Range:** 20
+- **Duration:** instant
+- **Damage Type:** Fire
+
+You conjur a barrage of fireballs at points in range you can see. You summon 3 fireballs, each exploding in a 5x5 area and burning all creatures inside. All creatures inside the fireballs make a Dexterity save vs your spellcasting. On hit they take 2 wounds and 3 wound dice in damage, adding a wound die on crit. On success they take 3 wound dice in damage instead. The fireballs can overlap, with a creature making a single save against the spell. A creature hit by 2 or more fireballs adds an extra wound to the damage, or wound die on success.
+
+Add an extra fireball for every level cast above 7th.
 
 ___
 #### Power Word: Fire
@@ -1696,6 +1710,21 @@ For the duration of the spell you may choose to perceive through your senses or 
 
 The duration increases to 8 hours at 8th level, and 1 day at 9th level.
 
+
+___
+#### Fiendfire
+*8th Level*
+- **Casting Time:** 10 AP
+- **Range:** touch
+- **Duration:** instant
+- **Damage Type:** Fire
+
+Blast an area with the fires of hell. Fiendfire blasts from your hands in a narrow arc, extending 9 tiles long and 3 tiles wide. Each creature in the fire makes a Dexterity save against your spellcasting roll. On hit they take 2 wounds and 5 wound dice in damage, adding a wound die for every crit rolled. 
+
+The fire burns through trees, bushes, or other plant matter leaving only ash. On impacting stone or earth the fire burns through it, leaving a hole a size of half the remaining distance. Metal and other similar materials burn, leaving a hole only a quarty of the remaining distance. Any armor or weapon a creature is holding is destroyed if it is mundane, otherwise taking 1 level of damage.
+
+Add a wound and wound die at 9th level.
+
 ___
 #### Invulnerability
 *8th Level*
@@ -1745,7 +1774,7 @@ ___
 - **Duration:** 1 turn
 - **Damage Type:** Bludgeoning/Fire
 
-You attempt to bring forth the ruinous powers of armageddon. Make a spellcasting roll, conjuring up to 3 meteors and adding 3 terrible dice to your roll for each meteor conjured. On success, choose a tile in range for each meteor. At the start of your next turn the meteors impact the ground dealing 5 wound dice in bludgeoning damage and 5 wound dice in fire damage to all creatures within 10 tiles of the impact. A creature in range of multiple meteors instead adds 2 wound dice to both damage types for each additional meteor. Buildings take full damage regardless of roll.
+You attempt to bring forth the ruinous powers of armageddon. Make a spellcasting roll, conjuring up to 3 meteors and adding 3 terrible dice to your roll for each meteor conjured. On success, choose a tile in range for each meteor. At the start of your next turn the meteors impact the ground dealing 7 wound dice in bludgeoning damage and 7 wound dice in fire damage to all creatures within 7 tiles of the impact. A creature in range of multiple meteors instead adds 2 wound dice to both damage types for each additional meteor. Buildings take full damage regardless of roll.
 
 On fail the magic grounds itself through you, dealing 1 wound die in force damage for every failure in your spellcasting roll to you and every adjacent creature.
 
@@ -1824,6 +1853,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 ##### Sixth
 - [Curse of Fear](#Curse-of-Fear)
 - [Isolation](#Isolation)
+- [Psychic Scream](#Psychic-Scream)
 - [Ritual of Mordiggian](#Ritual-of-Mordiggian)
 
 ##### Seventh
@@ -2045,7 +2075,7 @@ ___
 - **Range:** 3
 - **Duration:** concentration, 10 minutes
 
-Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature you target. On success, the move action costs 2 less AP. In addition, for every crit the targets movespeed is increased by 1
+Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature you target. On success, the move action costs 2 less AP. In addition, for every crit the targets movespeed is increased by 1.
 
 Add a proficiency die for every level above the 1st.
 
@@ -2563,6 +2593,18 @@ You sever the connections surrounding the target creature, leaving them utterly 
 Add a proficiency die for every level above 6th.
 
 ___
+#### Psychic Scream
+*6th Level*
+- **Casting Time:** 8 AP
+- **Range:** Self
+- **Duration:** instant
+- **Damage Type:** Psychic
+
+You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes a Willpower save against your spellcasting roll. On fail they take 3 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn.
+
+Add a wound die for every level cast above 6th.
+
+___
 #### Ritual of Mordiggian
 *6th Level*
 - **Casting Time:** 10 minutes
@@ -2728,6 +2770,8 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 - [Awaken Soul](#Awaken-Soul)
 - [Inner Fire](#Inner-Fire)
 - [Judgement](#Judgement)
+- [Mass Healing Word](#Mass-Healing-Word)
+- [Mass Cleanse](#Mass-Cleanse)
 - [Radiance](#Radiance)
 - [Resurrect](#Resurrect)
 - [Spirit Warriors](#Spirit-Warriors)
@@ -2737,6 +2781,7 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 - [Power Word: Harm](#Power-Word-Harm)
 - [Power Word: Heal](#Power-Word-Heal)
 - [Sanctuary](#Sanctuary)
+- [Word of Command](#Word-of-Command)
 
 ##### Seventh
 - [Divine Word](#Divine-Word)
@@ -2939,7 +2984,7 @@ ___
 - **Range:** 3
 - **Duration:** instant
 
-Attempt to remove negative effects from a target. You may choose any number of conditions this spell can remove, adding a bad die to your spellcasting roll for each condition, and a bad die for every condition level above 1. On success, those conditions are removed from the target. Cleans can remove Slow, Poison, Hex, Daze, Stun, Blind, and Fear.
+Attempt to remove negative effects from a target. You may choose any number of conditions this spell can remove, adding a bad die to your spellcasting roll for each condition, and a bad die for every condition level above 1. On success, those conditions are removed from the target. Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, and Fear.
 
 Add a proficiency die for every level above the 1st.
 
@@ -3150,7 +3195,7 @@ Add a proficiency die for every level cast above 3rd.
 | Passing Aquaintance  | 2 Terrible Die, 1 Bad Die |
 | Casual Friendship | 1 Terrible Die, 1 Bad Die |
 | Intimate Knowledgge | 1 Bad Die |
-| More than 200 miles away | + 1 Terrible Die |
+| More than 200 miles away | +1 Terrible Die |
 
 ___
 #### Traveler's Protection
@@ -3328,6 +3373,28 @@ You call down a holy judgement over a 5x5 area centered on a point you can see i
 Add a wound die for every level above 5th.
 
 ___
+#### Mass Healing Word
+*5th level*
+- **Casting Time:** 6 AP
+- **Range:** 5
+- **Duration:** instant
+
+Targeting up to 5 creatures you can see, mend their wounds with a healing word. Make a spellcasting roll against 3 Terrible dice, on success you heal each creature for 1 wound adding a wound die for every success in your roll.
+
+Add a normal die for every level above 5th.
+
+___
+#### Mass Cleanse
+*5th level*
+- **Casting Time:** 6 AP
+- **Range:** 5
+- **Duration:** instant
+
+Attempt to remove afflictions from a group of creatures. Targetting up to 5 creatures, make a spellcasting roll adding 1 Terrible die for each creature added. On success you remove one negative condition effecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, and Fear.
+
+Add a normal die for every level above 5th.
+
+___
 #### Radiance
 *5th level*
 - **Casting Time:** 10 AP
@@ -3415,6 +3482,16 @@ Once the rift closes you must make a spellcasting roll against 3 terrible dice, 
 
 Add a proficiency die to the roll for every level above the 6th.
 
+___
+#### Word of Command
+*6th level*
+- **Casting Time:** 8 AP
+- **Range:** self
+- **Duration:** instant
+
+Your voice bellows a single command heard by all creatures within 10 tiles of you. Any creatures you choose make a Charisma save against your spellcasting roll, on fail they obey the command. You may command the creatures to not take a single action, such as preventing them from taking the Move, Attack, or Defend actions. Alternatively you may command them to immediately take an action, such as clearing a path or dropping their weapons. Creatures commanded this way will only take the action if they have AP remaining and are capable of doing so. The command is either resolved immediately or lasts until the end of the creatures next turn if the command prevents them from taking an action.
+
+Your voice carries an extra 2 tiles for every level cast above 6th.
 
 
 ___
@@ -3506,14 +3583,14 @@ Make a melee attack against a target, adding 1 proficiency die. On hit deal norm
 
 ___
 #### Cleave
-- **AP Cost:** 5/4
+- **AP Cost:** 7/6
 - **Weapon:** Two-Handed weapon
 - **Range:** Melee
-- **Level Required:** 1/7
+- **Level Required:** 1/9
 
-You may target creatures equal to your Strength. Targets must be inside your zone of control. Make a melee weapon attack against all targets, adding a bad die to the roll. On hit, targets take 1 wound die in damage.
+You may target creatures equal to your Strength. Targets must be inside your zone of control. Make a melee weapon attack against all targets, adding a bad die to the roll. On hit, targets take 1 wound in damage.
 
-***Enhanced:*** You no longer add a bad die to the roll, on hit targets take a wound instead of rolling a wound die.
+***Enhanced:*** You no longer add a bad die to the roll, on hit targets take normal weapon damage.
 
 
 ___
