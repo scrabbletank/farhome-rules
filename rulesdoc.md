@@ -123,8 +123,8 @@ Some dice have special symbols on them for Criticalical Successes and Criticalic
 | Normal | S | S | S | _ | _ | F |
 | Bad | _ | _ | F | F | F | CF |
 | Terrible | _ | F | F | F | Fx2 | CF |
-| Defense | CD | D | D | _ | _ | _ |
-| Superior Defense | CD | Dx2 | D | D | _ | _ |
+| Defense | CD | D | D | D | _ | _ |
+| Superior Defense | CD | CD | Dx2 | D | _ | _ |
 | Wound | W | W | W | _ | _ | _ |
 | Hero | S | S | Sx2 | Sx2 | CS | CS |
 
