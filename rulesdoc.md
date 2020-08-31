@@ -1537,7 +1537,7 @@ Attempt to stablize an area against magic. Choose a point within range making a 
 
 If a spell entering the field does not require a roll it must make one following the rules above.
 
-The area increases by 2 for each level above 6th.
+The area increases by 2 and you add a superior die to your spellcasting rolls for each level above 6th.
 
 ___
 #### Conjuration
@@ -1556,13 +1556,13 @@ ___
 #### Earthquake
 *6th Level*
 - **Casting Time:** 10 AP
-- **Range:** 30
+- **Range:** 200
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Bludgeoning
 
-You cause the ground to shake and tear, collapsing buildings and toppling trees in a 15x15 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save vs your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, and other objects fall apart over the duration. Structures made of stone collapse after the full 10 minutes.
+You cause the ground to shake and tear, collapsing buildings and toppling trees in a 60x60 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save vs your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage or partially break, depending on how the DM.
 
-The range and area of the spell increases by 5 and wound dice increases by 1 for each level above 6th.
+The range and area of the spell increases by 10 for each level above 6th.
 
 ___
 #### Evocation
@@ -1599,13 +1599,13 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Lightning, Thunder
 
-You summon storm clouds overhead in a 20 tile radius. For the duration the area is covered in light rainfall and strong winds. On casting this spell, or by spending 4 AP on following turns, you may activate one of the following effects:
+You summon storm clouds overhead in a 20 tile radius. For the duration the area is covered in light rainfall and strong winds. On casting this spell, and by spending 4 AP once per turn on following turns, you may activate one of the following effects:
 
 - **Gale winds:** The winds blow in a direction of your choosing, covering the area of the storm. All creautres in range must make a Strength save or be pushed back 2 tiles, and are knocked prone on crit. Until the start of your next turn moving into the wind counts as difficult terrain and ranged attacks made into the wind add a terrible die to the roll.
 
 - **Downpour:** Torrential rainfall covers the area, extinguishing fires and greatly reducing visibility. A creature attempting to see through the rain and mists must make a perception check against your spellcasting. On fail they cannot see further than 3 tiles.
 
-- **Thunderstrike:** Call town a thundering bolt of lightning at a target creature. The creature makes a Dexterity save vs your spellcasting, on fail taking 2 wounds and 3 wound dice in lightning damage. In addition, all creatures within 2 tiles of the target must make a Stamina save or take 3 wound dice in thunder damage, being knocked prone on crit.
+- **Thunderstrike:** Call town a thundering bolt of lightning at a target creature. The creature makes a Dexterity save vs your spellcasting, on fail taking 1 wounds and 4 wound dice in lightning damage. In addition, all creatures within 2 tiles of the target must make a Stamina save or take 2 wound dice in thunder damage, being knocked prone on crit.
 
 Add a proficiency die for every level cast above 7th.
 

@@ -58,6 +58,11 @@ var FarhomeDice = FarhomeDice || (function () {
                 var result = "";
                 var name = "";
 
+                if (character === undefined) {
+                    sendChat(msgFrom, 'No character selected. Select a token or change who your playing as.');
+                    return;
+                }
+
                 if (command === 'skill') {
                     name = "Skill Check";
                     result = skillRoll(params, character);
