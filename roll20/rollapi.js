@@ -367,7 +367,7 @@ var FarhomeDice = FarhomeDice || (function () {
             for (var i = 0; i < ops.length; i++) {
                 var opStr = ops[i].split('|');
                 var params = [];
-                if (opStr[0] == "roll1" || opStr[0] == "roll2" || opStr[0] == "roll3") {
+                if (opStr[0].substring(0, 4) == "roll") {
                     params = opStr[1].split(' ');
                     templateObj[opStr[0]] = handleRoll(params);
                 } else {
@@ -391,14 +391,11 @@ var FarhomeDice = FarhomeDice || (function () {
             }
             msg += '<div style="line-height: 20px;border-bottom: 2px solid transparent; border-left: 200px solid rgb(126, 45, 64); border-top: 2px solid transparent;"><div class="arrow-right"></div></div>';
 
-            if (values.roll1) {
-                msg += '<div ><span>Roll 1: </span>' + values.roll1 + '</div>';
-            }
-            if (values.roll2) {
-                msg += '<div ><span>Roll 2: </span>' + values.roll2 + '</div>';
-            }
-            if (values.roll3) {
-                msg += '<div ><span>Roll 3: </span>' + values.roll3 + '</div>';
+            var keys = Object.keys(values);
+            for (var i = 0; i < keys.length; i++) {
+                if (keys[i].substring(0, 4) === "roll") {
+                    msg += '<div style="font-size: 0.9em"><span>' + keys[i].substring(4) + ': </span>' + values[keys[i]] + '</div>';
+                }
             }
             msg += '<div style="line-height: 20px;border-bottom: 2px solid transparent; border-left: 200px solid rgb(126, 45, 64); border-top: 2px solid transparent;"><div class="arrow-right"></div></div>';
 
