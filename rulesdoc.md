@@ -974,7 +974,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Force
 
-You shoot a volley of 3 force blasts, sending a blast to any target in range. The blasts travel around corners and obstacles, homing in on their target. You may have all blasts target the same creature, or split the blasts between creatures. The target creatures make a Strength save vs your spellcasting roll. On fail they take 1 wound die for every blast aimed at them, upgrading a wound die to a wound for every crit rolled.
+You shoot a volley of 2 force blasts, sending a blast to any target in range. The blasts travel around corners and obstacles, homing in on their target. You may have all blasts target the same creature, or split the blasts between creatures. The target creatures make a Strength save vs your spellcasting roll. On fail they take 1 wound die for every blast aimed at them, upgrading a wound die to a wound for every crit rolled.
 
 Add a blast (and wound die) for every level above the first.
 
