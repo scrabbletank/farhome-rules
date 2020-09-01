@@ -2464,9 +2464,11 @@ ___
 - **Range:** 10
 - **Duration:** instant
 
-Attempt to break the barrier between this plane and the void. Make a spellcasting roll against 2 Terrible die, adding a terrible die for each successful cast of _Void Lure_ in this location the past day. On success a random Outsider heeds your call and is summoned to the target location. The creature must be of CR 8 or lower with the creature determined by the DM. After summoning roll a wound die, on success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims.
+Attempt to break the barrier between this plane and the void. Make a spellcasting roll against up to 3 Terrible dice. On success a random Outsider with a CR of 6 + 2 per Terrible dice heeds your call and is summoned to the target location. The exact creature summoned is determined by the DM, and multiple creatures may be summoned if their combined CR is less than the spells maximum. After summoning roll a wound die, on success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims. 
 
-Add a proficiency die for every level above 4th.
+For every successful casting of _Void Lure_ in this location the past day, add a Terrible die to the spellcasting roll. This die does not effect the CR of the summoned creature.
+
+Add a proficiency die for every level above 4th. The number of Terrible dice you can add to your roll increases by 1 for every level above 4th.
 
 ___
 #### Invisibility
@@ -3276,7 +3278,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 minute
 
-Fill a creature with healing energy, causing their wounds to close over time. For the duration, on the start of the creatures turn they heal 1 wound and remove the effects of 1 lesser wound.
+Fill a creature with healing energy, causing their wounds to close over time. Make a spellcasting roll against 2 Terrible dice. On success the target heals 1 wound for every crit rolled. For the duration, on the start of the creatures turn they heal 1 wound and remove the effects of 1 lesser wound.
 
 Regeneration lasts an additional turn for every level above the 4th.
 
