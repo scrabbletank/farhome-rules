@@ -18,7 +18,7 @@ Stat blocks for monsters as I make them, with some amount of organization.
 ___
 ***Magic Eater.*** When making saving throws or defense rolls against magic, this creature adds 1 Superior die.
 
-#### Actions
+**Actions**
 
 ***Claw.*** *Melee Attack:* 5 AP, 4/1/1/0/0</br>Deals a wound and 1 wound die. On crit add a wound die.
 
@@ -38,7 +38,7 @@ ___
 
 ___
 
-#### Actions
+**Actions**
 
 ***Claws.*** *Melee Attack:* 5 AP, 4/1/1/0/0</br>Deals a wound and 1 wound die. On crit add a wound die.
 
@@ -68,7 +68,7 @@ ___
 
 ***Green Dragon.*** The Dragon has _Resistance_ 2 against Fire and Poison damage. If affected by the Poison condition, remove a level of poison at the end of each turn without rolling a Stamina save.
 
-#### Actions
+**Actions**
 
 ***Claws.*** *Melee Attack:* 4 AP, 3/2/1/0/0</br>Deals a wound and 2 wound dice.
 
@@ -99,7 +99,7 @@ ___
 
 ***Green Dragon.*** The Dragon has _Resistance_ 2 against Fire and Poison damage. If affected by the Poison condition, remove a level of poison at the end of each turn without rolling a Stamina save.
 
-#### Actions
+**Actions**
 
 ***Claws.*** *Melee Attack:* 4 AP, 4/1/2/0/0</br>Deals a wound and 3 wound dice.
 
@@ -130,7 +130,7 @@ ___
 
 ***Green Dragon.*** The Dragon has _Resistance_ 3 against Fire and Poison damage. If affected by the Poison condition, remove a level of poison at the end of each turn without rolling a Stamina save.
 
-#### Actions
+**Actions**
 
 ***Claws.*** *Melee Attack:* 4 AP, 5/2/1/0/0</br>Deals a wound and 3 wound dice.
 
@@ -159,7 +159,7 @@ ___
 ___
 ***Flight.*** This creature can fly when using it's movement, hovering in place at the end of its movement.
 
-#### Actions
+**Actions**
 
 ***Trident Spear.*** *Reach 1, Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound and 1 wound die in damage.
 
@@ -182,7 +182,7 @@ ___
 ___
 ***Magic Resistance.*** This creature adds 1 Superior die to saving throws against magic.
 
-#### Actions
+**Actions**
 _The Vrock can only take 1 Talons or Bite attack a turn._
 
 ***Talons.*** *Melee Attack:* 5 AP, 1/3/1/0/0</br>Deals 1 wound and 1 wound die in damage.
@@ -208,7 +208,7 @@ ___
 
 ***Shadow Healing.*** Regain 1 wound when dealing death damage to a creature.
 
-#### Actions
+**Actions**
 
 ***Sacrificial Dagger.*** *Melee Attack:* 4 AP, 3/1/1/0/0</br>Deals 1 wound and 1 wound die in damage.
 
@@ -233,7 +233,7 @@ ___
 ___
 ***Body Purification.*** At the end of this creatures turn it reduces the level of Hex, Poison, and Slow by 1.
 
-#### Actions
+**Actions**
 
 ***Great Spear.*** *Reach 1, Melee Attack:* 4 AP, 4/1/2/0/0</br>Deals 1 wound and 2 wound dice in damage. On crit the target is pushed back 1 tile.
 
@@ -266,7 +266,7 @@ ___
 ___
 ***Quick.*** This creature is immune to opportunity attacks when using the Move action (but not sprint).
 
-#### Actions
+**Actions**
 
 ***Dagger.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>deals 1 wound.
 
@@ -287,7 +287,7 @@ ___
 ___
 ***Quick.*** This creature is immune to opportunity attacks when using the Move action (but not sprint).
 
-#### Actions
+**Actions**
 
 ***Dagger.*** *Melee Attack:* 5 AP, 2/1/2/0/0</br>deals 1 wound.
 
@@ -310,7 +310,7 @@ ___
 
 ***Spellcaster.*** This creature is an Arcane (2) caster and has 3 1st and 1 2nd level spell slots. They have a codex with the following spells: _Firebolt, Cold Snap, Static Shock, Poison Trap_.
 
-#### Actions
+**Actions**
 
 ***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0</br>deals 1 wound.
 ___
@@ -333,7 +333,7 @@ ___
 
 ***Deadly Warrior.*** The Orc may reroll up to 3 dice when making attack rolls, taking the new value.
 
-#### Actions
+**Actions**
 
 ***Great Sword.*** *Melee Attack:* 4 AP, 2/2/1/0/0</br>Deals 1 wound and 1 wound die.
 
@@ -360,7 +360,7 @@ ___
 
 ***Deadly Warrior.*** The Orc may reroll up to 3 dice when making attack rolls, taking the new value.
 
-#### Actions
+**Actions**
 
 ***Bone Spear.*** *Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound.
 
@@ -387,7 +387,7 @@ ___
 
 ***Spellcaster.*** The Orc Shaman is proficient in Curse (3) and Divine (1) spells. They have 3 1st, 2 2nd and 3rd, and 1 4th level spell slot and a codex with the following spells: _Hex, Quicken, Web, Frog Morph, Healing Word, Regeneration_.
 
-#### Actions
+**Actions**
 
 ***Staff.*** *Melee Attack:* 5 AP, 0/2/3/0/0</br>Deals 1 wound.
 ___
@@ -414,7 +414,7 @@ ___
 ___
 ***Undead.*** This creature gets 2 wounds per Stamina instead of 1. When taking lethal damage, as long as the attack did not crit roll a wound die. On blank the Zombie survives with 1 health.
 
-#### Actions
+**Actions**
 
 ***Slam.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 3 wound dice.
 
@@ -435,7 +435,7 @@ ___
 ___
 ***Skeletal Form.*** This creature has _Resistance 1_ to Piercing damage and _Vulernability 1_ to Bludgeoning damage.
 
-#### Actions
+**Actions**
 
 ***Rusty Sword.*** *Melee Attack:* 5 AP, 2/0/3/0/0</br>Deals 1 wound.
 
@@ -456,7 +456,7 @@ ___
 ___
 ***Skeletal Form.*** This creature has _Resistance 1_ to Piercing damage and _Vulernability 1_ to Bludgeoning damage.
 
-#### Actions
+**Actions**
 
 ***Spear.*** *Reach 1*, *Melee Attack:* 5 AP, 2/1/2/0/0</br>Deals 1 wound.
 
