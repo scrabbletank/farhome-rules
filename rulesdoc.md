@@ -2052,10 +2052,10 @@ ___
 #### Quicken
 *1st Level*
 - **Casting Time:** 7 AP
-- **Range:** 3
+- **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature you target. On success, the move action costs 2 less AP. In addition, for every crit the targets movespeed is increased by 1.
+Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature you target. On success, the move action costs 2 less AP and sprint costs 1 less AP. In addition, for every crit the targets movespeed is increased by 1.
 
 Add a proficiency die for every level above the 1st.
 
@@ -2230,7 +2230,7 @@ You create a mass of webs in a 3x3 area. All creatures inside the web or on the 
 
 The webs are extremely flammable, and ignite after taking 1 wound of fire damage. Any creature caught in the web takes 1 wound of fire damage and is freed. After the duration the webs remain but lose their stickiness, becoming difficult terrain until cleared.
 
-Add a proficiency die for every level cast above 2nd.
+Add a proficiency die and increase the area by 1 for every level cast above 2nd.
 
 ___
 #### Silent Passage
@@ -2346,7 +2346,7 @@ You transform your body, turning into a dangerous beast. The creature must have 
 
 Make a spellcasting roll, your max wounds are increased by 1 for every crit rolled. If you are reduced to 0 wounds while in this form the spell ends, you take 2 wounds of damage and are incapacitated until the end of your next turn from the strain.
 
-Add a proficiency die and increase the CR by 1 for every level above 3rd.
+Add a proficiency die and increase the CR by 2 for every level above 3rd.
 
 ___
 #### Shifting Image
@@ -3653,7 +3653,7 @@ ___
 - **Range:** any
 - **Level Required:** 3/10
 
-Make a ranged attack against a target, adding a proficiency die to the roll. On hit they take normal weapon damage, and on crit they are pinned. a Pinned creature has a move and sprint speed of 0, and may spend 2 AP on their turn to remove this effect.
+Make a ranged attack against a target, adding a proficiency die to the roll. On hit they take 1 wound, and on crit they are pinned. A Pinned creature has a move and sprint speed of 0 and grants combat advantage, and cannot move until they spend 5 AP to free themselves.
 
 
 ***Enhanced:*** Add a superior die instead of a proficiency die.
@@ -3692,9 +3692,9 @@ ___
 - **Range:** Melee
 - **Level Required:** 1/11
 
-Make a wild attack against a target, adding 1 proficiency die to your attack roll. On hit you deal an additional wound in damage. Regardless of the outcome you grant combat advantage to attackers until the start of your next turn.
+Make a wild attack against a target, adding 1 normal die to your attack roll. On hit you deal an additional wound in damage. Regardless of the outcome you grant combat advantage to attackers until the start of your next turn.
 
-***Enhanced:*** Add a superior die instead of a proficient die. If you deal 3 or more wounds with this attack the target gains a random Lesser Wound.
+***Enhanced:*** Add a proficient die instead of a normal die. If you deal 3 or more wounds with this attack the target gains a random Lesser Wound.
 
 ___
 #### Deflect
