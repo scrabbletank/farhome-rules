@@ -25,8 +25,8 @@ var FarhomeDice = FarhomeDice || (function () {
         { roll: [imgF, imgB, imgB, imgS, imgS, imgS], val: [-1, 0, 0, 1, 1, 1], crit: [0, 0, 0, 0, 0, 0], rrthresh: 0, clr: 'white' },
         { roll: [imgCF, imgF, imgF, imgF, imgB, imgB], val: [-2, -1, -1, -1, 0, 0], crit: [-1, 0, 0, 0, 0, 0], rrthresh: -1, clr: 'red' },
         { roll: [imgCF, imgF2, imgF, imgF, imgF, imgB], val: [-2, -2, -1, -1, -1, 0], crit: [-1, 0, 0, 0, 0, 0], rrthresh: -1, clr: 'purple' },
-        { roll: [imgB, imgB, imgD, imgD, imgD2, imgCD], val: [0, 0, 1, 1, 2, 2], crit: [0, 0, 0, 0, 0, 1], rrthresh: 0, clr: 'silver' },
-        { roll: [imgB, imgB, imgB, imgD, imgD, imgCD], val: [0, 0, 0, 1, 1, 2], crit: [0, 0, 0, 0, 0, 1], rrthresh: 0, clr: 'goldenrod' },
+        { roll: [imgB, imgB, imgD, imgD2, imgCD, imgCD], val: [0, 0, 1, 2, 2, 2], crit: [0, 0, 0, 0, 1, 1], rrthresh: 0, clr: 'silver' },
+        { roll: [imgB, imgB, imgD, imgD, imgD, imgCD], val: [0, 0, 1, 1, 1, 2], crit: [0, 0, 0, 0, 0, 1], rrthresh: 0, clr: 'goldenrod' },
         { roll: [imgW, imgW, imgW, imgW, imgW, imgW], val: [1, 1, 1, 1, 1, 1], crit: [0, 0, 0, 0, 0, 0], rrthresh: 0, clr: 'orangered' },
         { roll: [imgB, imgW, imgB, imgW, imgB, imgW], val: [0, 1, 0, 1, 0, 1], crit: [0, 0, 0, 0, 0, 0], rrthresh: 0, clr: 'orangered' },
         { roll: [imgS, imgS, imgS2, imgS2, imgCS, imgCS], val: [1, 1, 2, 2, 2, 2], crit: [0, 0, 0, 0, 1, 1], rrthresh: 0, clr: 'gold' }
@@ -55,9 +55,13 @@ var FarhomeDice = FarhomeDice || (function () {
                 }
 
                 var msgFrom = character ? 'character|' + character.id : 'player|' + player.id;
-                var whisper = player.get('_displayname');
                 var result = "";
                 var name = "";
+
+                if (character === undefined) {
+                    sendChat(msgFrom, 'No character selected. Select a token or change who your playing as.');
+                    return;
+                }
 
                 if (command === 'skill') {
                     name = "Skill Check";
@@ -147,13 +151,53 @@ var FarhomeDice = FarhomeDice || (function () {
             }
             return modObj;
         },
-
         getAttr = function (character, attrName, defaultValue) {
             var attr = findObjs({ type: 'attribute', characterid: character.id, name: attrName }, { caseInsensitive: true })[0];
             if (!attr) {
                 attr = createObj("attribute", { name: attrName, current: defaultValue, characterid: character.id });
             }
             return attr;
+        },
+        getAttrDice = function (attribute, proficiency, allowNegatives = true) {
+            var attributeUnder5 = Math.min(5, attribute);
+            var attributeOver5 = Math.max(0, attribute - 5);
+            var proficiencyOver5 = Math.max(0, proficiency - 5);
+
+            // We start with White dice
+            var dice = [0, 0, 5 + attributeOver5, 0, 0];
+            // Improve White to Green for every attribute point
+            if (attributeUnder5 > 0) {
+                dice[1] += attributeUnder5;
+                dice[2] -= attributeUnder5;
+            } else {
+                if (allowNegatives === true) {
+                    dice[3] -= attributeUnder5;
+                    dice[2] += attributeUnder5;
+                }
+            }
+            // Improve Green to Yellow for every proficiency point
+            if (proficiency > 0) {
+                var maxProf = Math.min(dice[1], proficiency);
+                dice[0] += maxProf;
+                dice[1] -= maxProf;
+            } else {
+                if (allowNegatives === true) {
+                    var greenToWhite = Math.min(dice[1], -proficiency);
+                    var redToPurple = Math.min(dice[3], (-proficiency) - greenToWhite);
+                    dice[1] -= greenToWhite;
+                    dice[2] += greenToWhite;
+                    dice[3] -= redToPurple;
+                    dice[4] += redToPurple;
+                }
+            }
+            // Attributes over 5 add White/improve to Green dice.
+            if (attributeOver5 > 0 && proficiencyOver5 > 0) {
+                var maxProf = Math.min(dice[2], proficiencyOver5);
+                dice[1] += maxProf;
+                dice[2] -= maxProf;
+            }
+
+            return dice;
         },
 
         saveRoll = function (stat, character) {
@@ -192,18 +236,14 @@ var FarhomeDice = FarhomeDice || (function () {
                     break;
             }
 
-            var baseDice = statVal >= 0 ? 1 + statVal : 1;
-
-            var pd = statProf >= 0 ? Math.min(statProf, baseDice) : 0,
-                nd = Math.max(0, baseDice - Math.abs(statProf)),
-                bd = (statVal < 0 ? Math.abs(statVal) : 0) + (statProf < 0 ? Math.min(baseDice, Math.abs(statProf)) : 0) +
-                    fear + (Math.max(grapple, restrained) * 2) + (stagger * 2),
-                td = poison + (blind * 2);
+            var dice = getAttrDice(statVal, statProf, false);
+            dice[4] += poison;
+            dice[3] += fear;
 
             var modObj = {};
             modObj.hex = hex;
 
-            return roll([0, pd, nd, bd, td], allDice.slice(0, 5), modObj)
+            return roll(dice, allDice.slice(0, 5), modObj)
         },
 
         skillRoll = function (params, character) {
@@ -216,20 +256,15 @@ var FarhomeDice = FarhomeDice || (function () {
 
             var expertise = params.length >= 2 ? parseInt(params[2]) : 0;
 
-            var baseDice = statVal >= 0 ? 1 + statVal : 1;
-
-            var pd = statProf >= 0 ? Math.min(statProf, baseDice) : 0,
-                nd = Math.max(0, baseDice - Math.abs(statProf)),
-                bd = (statVal < 0 ? Math.abs(statVal) : 0) + (statProf < 0 ? Math.min(baseDice, Math.abs(statProf)) : 0) + fear,
-                td = poison;
-
-            var msg = "";
             if (expertise == 1) {
-                return roll([pd, 0, nd, bd, td], allDice.slice(0, 5), modObj);
+                modObj.keepHighest = modObj.keepHighest ? modObj.keepHighest + 3 : 3;
             }
-            else {
-                return roll([0, pd, nd, bd, td], allDice.slice(0, 5), modObj);
-            }
+
+            var dice = getAttrDice(statVal, statProf);
+            dice[4] += poison;
+            dice[3] += fear;
+
+            return roll(dice, allDice.slice(0, 5), modObj);
         },
 
         customRoll = function (params, character) {
@@ -261,16 +296,7 @@ var FarhomeDice = FarhomeDice || (function () {
 
             var modObj = params.length > 5 ? getMods(params[5]) : {};
             modObj.hex = character ? parseInt(getAttr(character, "hex", 0).get("current")) : 0;
-            var light = character ? parseInt(getAttr(character, "lightarmor", 0).get("current")) : 0;
-            var medium = character ? parseInt(getAttr(character, "medarmor", 0).get("current")) : 0;
-            var heavy = character ? parseInt(getAttr(character, "heavyarmor", 0).get("current")) : 0;
-            var total = light == 0 && medium == 0 && heavy == 0 ? 1 : 0;
 
-            if (medium == 1) {
-                total -= 1;
-            } else if (heavy == 1) {
-                total -= 2;
-            }
             var msg = roll(diceVals, allDice.slice(0, 5), modObj);
             total += lastRollResult[0];
 
@@ -341,7 +367,7 @@ var FarhomeDice = FarhomeDice || (function () {
             for (var i = 0; i < ops.length; i++) {
                 var opStr = ops[i].split('|');
                 var params = [];
-                if (opStr[0] == "roll1" || opStr[0] == "roll2" || opStr[0] == "roll3") {
+                if (opStr[0].substring(0, 4) == "roll") {
                     params = opStr[1].split(' ');
                     templateObj[opStr[0]] = handleRoll(params);
                 } else {
@@ -365,14 +391,11 @@ var FarhomeDice = FarhomeDice || (function () {
             }
             msg += '<div style="line-height: 20px;border-bottom: 2px solid transparent; border-left: 200px solid rgb(126, 45, 64); border-top: 2px solid transparent;"><div class="arrow-right"></div></div>';
 
-            if (values.roll1) {
-                msg += '<div ><span>Roll 1: </span>' + values.roll1 + '</div>';
-            }
-            if (values.roll2) {
-                msg += '<div ><span>Roll 2: </span>' + values.roll2 + '</div>';
-            }
-            if (values.roll3) {
-                msg += '<div ><span>Roll 3: </span>' + values.roll3 + '</div>';
+            var keys = Object.keys(values);
+            for (var i = 0; i < keys.length; i++) {
+                if (keys[i].substring(0, 4) === "roll") {
+                    msg += '<div style="font-size: 0.9em"><span>' + keys[i].substring(4) + ': </span>' + values[keys[i]] + '</div>';
+                }
             }
             msg += '<div style="line-height: 20px;border-bottom: 2px solid transparent; border-left: 200px solid rgb(126, 45, 64); border-top: 2px solid transparent;"><div class="arrow-right"></div></div>';
 

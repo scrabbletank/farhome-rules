@@ -100,9 +100,9 @@ Your guide through all of this is the Dungeon Master. They're in charge of every
 
 What actions you take and the world they are taken in are limited only by your imagination, although there is more structure here than just make-believe. This book contains a multitude of rules (more guidelines really) that give structure and consistency to your adventures. Still, there are cases where the outcome is uncertain, for example does your attack hit the monster, are you able to climb this cliff, or evade the town guards. In these cases you roll dice to determine wether you succeed or fail.
 
-### Custom Dice
+### Rolling Dice
 
-Farhome uses a set of custom dice to determine outcomes. There are 8 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a number of dice determined by your characters skills or abilities and a number of challenge dice added by the DM depending on how difficult the task is. Rolling more successes than failures means your action succeeded, while a tie or worse means your action failed. Sometimes your roll may be in opposition to another characters roll, in which case success goes to whoever has the most successes.
+Farhome uses a set of 6-sided dice to determine outcomes. There are 9 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a number of dice determined by your characters skills or abilities and a number of challenge dice added by the DM depending on how difficult the task is. Rolling more successes than failures means your action succeeded, while a tie or worse means your action failed. Sometimes your roll may be in opposition to another characters roll, in which case success goes to whoever has the most successes.
 
 Some dice have special symbols on them for Criticalical Successes and Criticalical Failures. By default these are counted as 2 success or 2 failures, but in some cases may give different results. Defense dice work similarly to the other dice, having defense symbols instead of successes. Finally wound dice are used to determine damage, healing, or in some cases chance.
 
@@ -123,9 +123,10 @@ Some dice have special symbols on them for Criticalical Successes and Criticalic
 | Normal | S | S | S | _ | _ | F |
 | Bad | _ | _ | F | F | F | CF |
 | Terrible | _ | F | F | F | Fx2 | CF |
-| Defense | CD | D | D | _ | _ | _ |
-| Superior Defense | CD | Dx2 | D | D | _ | _ |
+| Defense | CD | D | D | D | _ | _ |
+| Superior Defense | CD | CD | Dx2 | D | _ | _ |
 | Wound | W | W | W | _ | _ | _ |
+| Hero | S | S | Sx2 | Sx2 | CS | CS |
 
 ### Calculating a Roll
 When calculating your roll, regardless of type, you always add up your own dice first. Success and failures of the same type cancel each other out, Failures nullify Success, and Criticalical Failure nullify Criticalical Success. Add up the remaining successes, counting Criticalical Success as two successes.
@@ -134,45 +135,30 @@ At this stage process any modifiers from abilities, skills or features that effe
 
 Comparing rolls follows the same rules: Opponents remaining successes nullify your successes, and their criticals nullify your criticals. Finally, if you have 1 or more successes the roll is a success. Ties favor the defender if there is one, or the most neutral action.
 
-#### Types of Rolls
-The minimum number of dice you can roll is 1 normal die, or 1 defense die for defense rolls. Most rolls use an attribute, adding a normal dice for each point in the attribute. Attributes that are negative add bad dice instead. For example, making a roll that uses Strength you would roll 1 + your Strength score in dice.
+#### Determining What Dice to Roll
+With the exception of Defense rolls, your Attributes and Proficiencies determine what dice you roll. Defense rolls use Defense and Superior Defense dice, while other rolls use Superior, Proficient, Normal, Bad, and Terrible dice. Wound dice are used to determine how much damage an action does, such as hitting a goblin with a sword or casting _Firebolt_.
 
-##### Attack
-Add normal dice equal to 1 + your Strength or Dexterity, depending on what attribute the weapon making the attack. If you are proficient with this weapon you improve a number of normal dice to proficient dice equal to your proficiency modifier.
+Rolls that use your Attributes will have one Attribute and one Proficiency score that determines what dice you use. For example, attacking with melee weapons uses your Strength attribute and has a different Proficiency score depending on if your using a one-handed or two-handed weapon. For these rolls you start with 5 Normal dice. For every Attribute point you have, replace a Normal die with a Proficient die. Next, for every Proficiency point you have, replace a Proficient die with a Superior die. Proficiency does not replace Normal dice, you only benefit from proficiency up to your Attribute score.
 
-This roll is contested by your opponents Defense, negating your remaining Success and Critical Success by their Defends and Critical Defends.
+In the case where you have a negative number for your Attribute score, replace a Normal die with a Bad die. If your Proficiency score is negative, replace a Proficient die with a Normal die, or a Bad die with a Terrible die.
 
-As an example, lets say you attack a goblin with your sword. You have 3 Strength, so you roll a total of 4 dice. You are compitent with your sword, having 2 proficiency points with it so you replace 2 of your dice with proficiency dice. Your total roll comes to 2 proficiency dice and 2 normal dice.
+Through feats, spells, or items you may have an Attribute score greater than 5. In this case for every point above 5 you have you add a Normal die, replacing it with a Proficient die for every Proficiency score above 5.
 
-While you roll your 4 dice, the goblin gets to roll his defense, in this case rolling 2 normal defense dice. You roll and come up with 3 successes and 1 failure, giving you 2 total successes. The goblin rolls and comes up with 1 defense. After comparing each others rolls you see you have more successes then the goblin has defense, meaning your attack hits.
-
-##### Defense
-When your character gets attacked by a weapon or spell you may need to make a Defense roll. Defense determines how hard you are to hit and uses your armor instead of any attribute. Defense dice have no failures, but in some cases you will need to add other dice to the roll, in these cases treat and success as a defend and failure as removing a defend.
-
-Lets run through an example. Lets say a necromancer has cast _Curse of Fragility_ on you and succeeded, adding 1 bad die to all Defense rolls. One of his skeletons makes an attack against you. Normally you would roll 1 superior defense and 2 defense dice, but because you are cursed you add 1 bad die to the roll. You make your roll getting 1 critical defend and 1 defend, but the bad die rolled a critical failure. The critical failure cancels out the critical defend, leaving you with 1 defend.
-
-The skeleton rolls its attack, getting 2 succeses. The skeletons 2 successes beat your 1 defend, landing it's attack.
+##### Defense Rolls
+When making a defense roll you use Defense and Superior Defense dice. The number and type of dice you roll is determined by what armor your wearing. You roll 2 Defense dice when not wearing any armor or the armors value if you have armor equipped. Holding a shield adds either a Defense or Superior Defense die, depending on the shield.
 
 ##### Attribute Saves
-Attribute saves are made when you need to make a roll that doesn't fall under any particular skills. Normally this is done in response to an attack or spell that calls for you to make a save, but these can also be from your DM in some cases, for example trying to remember certain facts could be an Intelligence save.
+Attribute Saves use the same rules as rolling a skill that uses an Attribute, with one exception: negative Attribute scores do not replace Normal dice with Bad dice. This means the lowest you can roll for an Attribute save is 5 Normal dice.
 
-Each attribute has it's own saving throw proficiency. When making a roll you follow the normal rules, improving dice equal to your proficiency. These rolls are usually done in contest to another roll, or the DM may ask you to add dice as you would in a skill challenge.
+##### Hero Dice
+Hero dice are special dice players can add to any roll. You gain a number of them at the start of your adventure and once spent are not replenished. You can add at most 1 Hero die to any roll, except wound rolls. You may choose to add a Hero dice even after you have rolled, as long as you haven't seen the opposing roll.
 
-As an example, let's say a wizard cast _Call Lightning_ on you, requiring you to make a Dexterity save. You have 2 Dexterity score and 1 proficiency in Dexterity saves, so you roll 1 proficiency and 2 normal dice. In this case your Dexterity save is contested by the wizard's spellcasting roll. You make your roll and end with 2 successes, while the wizard rolls 3 succeses and 1 failure. After the wizard adds up his roll his 2 successes match your 2 successes from your Dexterity save. Since you and the wizard tied, the victory goes to the defender and his spell misses you.
-
-##### Spellcasting
-There are 3 types of spells in Farhome: Arcane, Curse, and Divine. Each spell type uses a different attribute and has a different proficiency. When a spell asks you to make a spellcasting roll you use the attribute and proficiency associated with that spell type.
-
-For example, you want to cast _Fireball_ on a group of orcs. _Fireball_ is an arcane spell and so uses Intelligence and your arcane proficiency. You have 3 Intelligence and 2 arcane proficiency, so you roll 2 proficiency and 2 normal dice. In this case the spell hits multiple orcs, so each orc makes their own Dexterity save against your spellcasting roll. You make your roll once, comparing it to each of the orc's rolls. You end up rolling a critical success and 2 successes, giving you 4 total successes in your roll. Some of the orcs rolled poorly and take the full effect of your spell, while some rolled better and passed the save.
-
-Lets look at one orc in particular, he rolled a critical success and 1 failure on his Dexterity save, totalling 1 success. You compare your roll to his, and since the orc also rolled a critical success it cancels out your critical success. Your 4 successes still beat it's 1, but you do not deal extra damage to this orc from your critical.
+Your DM may reward you with extra Hero dice, but Hero dice are usually only given at the start of each adventure.
 
 ##### Skill Challenge
-Skill Challenges are almost never made in contest, and instead the DM will ask you to add dice depending on how challenging a task you are trying to accomplish. Each skill has its own proficiency and uses one of your attributes to determine dice. For example, an athletics check will use your Strength score while an acrobatics check will use your Dexterity score. Both athletics and acrobatics have their own proficiencies as well.
+Skill Challenges are rarely made in contest, instead the DM will ask you to add dice depending on how challenging a task you are trying to accomplish. Each skill has its own proficiency and uses one of your attributes to determine dice. For example, an athletics check will use your Strength score while an acrobatics check will use your Dexterity score. Both athletics and acrobatics have their own proficiencies as well.
 
 The outcome in these rolls isn't always a strict pass or fail, depending on the DM they may give a bonus if you roll a critical success or something bad may happen if you roll a critical fail.
-
-Let's look at an example. You are trying to sneak past some guards and the DM asks you to make a Stealth check. You have 4 Dexterity, but only 1 proficiency in Stealth so you roll 1 proficiency and 4 normal dice. The DM also gives you 2 bad and 1 terrible die as a challenge as the guards are alert and looking for trespassers. You make your roll, getting 3 successes on your dice, but 2 critical failures giving you a total of 1 failure. Because you had 2 critical failures and no critical successes the DM rules that in addition to being spotted you tripped over a stone, falling to the ground prone.
 
 ##### Helping in Skill Challenges
 In some cases you may want to help someone with an action, such as trying to push a boulder or search a room. When helping every participant rolls the same skill check contested by a single challenge roll. The highest roll among the participants is used, adding a success for every crit rolled by others.
@@ -229,7 +215,7 @@ Your characters aptitude is represented by 6 core attributes: Strength, Dexterit
 Each point of Strength adds a die to your melee attacks.
 
 #### Dexterity
-Each point of Dexterity adds a die to your ranged attacks and melee weapons with the _finesse_ property
+Each point of Dexterity adds a die to your ranged attacks and melee weapons with the _finesse_ property.
 
 #### Stamina
 Each point of Stamina increases your max wounds by 1.
@@ -244,9 +230,9 @@ Each point of Willpower adds a die to your Curse spellcasting rolls.
 Each point of Charisma adds a die to your Divine spellcasting rolls.
 
 ## Proficiency
-Proficiency is a measure of how capable your character is at a given skill or task. Every skill, weapon type, spell school, tool, and attribute save have their own proficiency values which can be increased as your character grows. With the exception of spell schools or attribute saves, there is no limit on how many skills you can be proficient in.
+Proficiency is a measure of how capable your character is at a given skill or task. Every skill, weapon type, spell school, tool, and attribute save have their own proficiency values which can be increased as your character grows. With the exception of spell schools, there is no limit on how many skills you can be proficient in. 
 
-When making a roll for something you are proficient in, you replace a normal die with a proficient die for every point of proficiency. If you have no normal dice to improve this way the remaining proficiency has no effect. If you have expertise in a skill you add superior dice instead of proficient.
+Some feats or abilities grant you expertise in a specific skill. When rolling a skill you have expertise in you may reroll 3 dice, taking the new values.
 
 
 ### Skills
@@ -296,8 +282,6 @@ To use tools, you need to have at least 1 proficiency in the tool skill. Their f
 ### Attribute Saves
 
 Each core attribute has an associated attribute save. Attribute saves are a measure of how resistant your character is to specific spells or effects. For example, someone trying to shove you would make a roll against your Strength save, or dodging a trap would roll against your Dexterity save.
-
-You can only add proficiency to attribute saves you have learned through creating your character and leveling up.
 
 ### Spell Schools
 
@@ -379,22 +363,21 @@ Roll 2 bad dice, counting the successes.
 ## Creating a Character
 Farhome has no classes or archtypes beyond the background feats you choose. Every player is free to create their character as they wish.
 
-To begin, choose a race for your character. The race determines your starting wounds, how far you can move or sprint, as well as your starting stat bonuses. Each race has a unique feat that all of people their race share. Choose a background feat for your character. These feats can only be gained during character creation and determine what kind of skills or abilities your character has learned.
+To begin, choose a race for your character. The race determines your starting wounds, how far you can move or sprint, as well as your starting stat bonuses. Each race has a unique feat that all people of their race share. Choose a background feat for your character. These feats can only be gained during character creation and determine what kind of skills or abilities your character has learned.
 
 Next, assign your attribute scores. You start with a -1 to all attribute scores, applying any bonuses from your race, and finally adding 9 points split across your attributes. Increasing an attribute score above 3 costs 2 points, and no attribute can be above 5.
 
-Choose an attribute save, gaining 1 proficiency for that save. In addition you gain 4 proficiency points to spend on any skill, save, or abiltiy you are capable of.
+You gain 4 proficiency points to spend on your skills and saving throws. If you have a background or feat that gives you proficiency in a spell school you may increase your spellcasting proficiency.
 
 Finally, choose 2 of the following bonuses.
 
 #### Starting Bonuses
-- Gain proficiency in an attribute saving throw
+- Increase an Attribute by 1, with a max of 3
 - Gain proficiency in a magic type
 - Gain 4 proficiency points
 - Learn 1 Feat
 - Learn a maneuver and gain 2 proficiency with a weapon type
 - Increase your max wounds by 1
-- Gain 3 level 1 spell slots
 
 ##### Variant Rule - Rolling for Attributes
 Instead of using the rules above for attributes, your group may decide to roll your scores. For each attribute roll 1 Superior, 3 Normal, and 1 Terrible die, adding up the total successes. The minimum score for an attribute is -2, with any rolls below that counting as -2 for the roll.
@@ -442,11 +425,8 @@ Starting at level 3, every 3 levels you can increase an attribute by 1.
 #### Action Points
 You gain an Action Point at levels 10 and 20.
 
-#### Additional Saving Throw
-You gain proficiency in a saving throw at level 12.
-
 ### Earning Experience
-Players earn experience after every encounter based on the difficulty of the encounter. Ideally characters should be leveling up once every 3-6 encounters. Experience is earned based on how difficult it is for the players to overcome the encounter, not by how much experience an individual monster gives.
+Players earn experience after every encounter based on the difficulty of the encounter. Ideally characters should be leveling up once every 4-8 encounters. Experience is earned based on how difficult it is for the players to overcome the encounter, not by how much experience an individual monster gives.
 
 
 ##### Encounters
@@ -456,12 +436,12 @@ Players earn experience after every encounter based on the difficulty of the enc
 | Average  | 100-250 | Party Level |
 | Hard | 250-500 | 125% Party Level |
 
+#### Variant - Milestones
+An alternative to experience is milestones. Experience can in some cases be hard to keep consistent across adventures and can lead to some gameification problems with players. With milestones you gain a level after completing an adventure, or a portion of one.
 
 ## Combat
 
 Combat is broken down into rounds where every combatant gets a turn. Turn order is handled by each characters initiative roll. Each round lasts ~20 seconds in in-game time.
-
-
 
 #### Initiative
 
@@ -484,13 +464,13 @@ Instead of making an attack you can attempt to grapple a creatrure. Make an athe
 You may end a grapple at any time. A grappled creature can attempt to free themselves on their turn in place of taking the attack action. To free yourself, you must pass a Strength save against the grapplers Atheletics.
 
 #### Defend (5 AP)
-Until your next turn, you improve your defense dice to superior defense dice equal to your dexterity, with a minimum of 1, or 2 with a shield.
+Until your next turn you reroll 2 dice when making a defense roll, taking the new value. If you're holding a shield reroll 3 dice instead.
 
 #### Move (3 AP, once per turn)
 You may move up to your move speed in tiles. Some terrain may cost more than 1 tile's worth of movespeed. Movement does not have be done all at once, you can split your movement as many times as you want.
 
 #### Sprint (2 AP, can only be used after move, once per turn)
-You may move up to your sprint speed + dexterity in tiles.
+You may move up to your sprint speed + Dexterity score in tiles. Negative Dexterity doesn't reduce the number of tiles you can sprint.
 
 #### Reaction Attack (2 AP)
 When a creature tries to leave your zone of control (the 5 adjacent tiles in front of your character, making a U shape) you may make a reaction attack against them. You cannot use maneuvers (unless the maneuver says it can be used as a reaction) and the attack uses the default Attack rules.
@@ -499,7 +479,7 @@ When a creature tries to leave your zone of control (the 5 adjacent tiles in fro
 When dual wielding, as long as you have made a single 'Attack' action, you may make an attack with your offhand weapon. This attack is identical to the 'Attack' action, except you do not get any bonus from proficiency.
 
 #### Use (2 AP)
-The default for using an item, drinking a potion, activating a magic item, or interacting with an object (eg: pulling a switch). Some magic items will give their own AP costs, using those instead. You can only use one potion each turn.
+The default for using an item, drinking a potion, activating a magic item, or interacting with an object (eg: pulling a switch). Some magic items will give their own AP costs, using those instead. You can only drink one potion each round.
 
 ##### Variant Rule: Using potions on others
 You can use potions on willing or downed creatures by spending 5 AP instead of 2. Normal potion rules still apply.
@@ -705,7 +685,7 @@ You may learn a single cantrip, this cantrip does not require a codex to cast. O
 ___
 #### Wood Elf
 - **Starting Wounds:** 3
-- **Move/Sprint:** 5/3
+- **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Willpower, -1 Intelligence
 
 ##### Hunter
@@ -727,7 +707,7 @@ You gain 2 superior dice when making a save against a charm, possession, or fear
 ___
 #### Half-Orc
 - **Starting Wounds:** 4
-- **Move/Sprint:** 4/1
+- **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Charisma
 
 ##### Resilience
@@ -769,7 +749,7 @@ ___
 
 ##### Innate Reflexes
 
-You gain expertise in your starting attribute save.
+You gain expertise in an Attribute save.
 
 ___
 #### Fallen
@@ -786,7 +766,7 @@ You take no penalities when in dim light, and only add 1 bad die in total darkne
 ___
 #### Hill Dwarf
 - **Starting Wounds:** 4
-- **Move/Sprint:** 4/1
+- **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Willpower, +1 Stamina, -1 Dexterity
 
 ##### Craftsdwarf
@@ -796,7 +776,7 @@ During a long rest you may enhance a piece of mundane gear, giving it +1 until t
 ___
 #### Mountain Dwarf
 - **Starting Wounds:** 4
-- **Move/Sprint:** 4/1
+- **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Dexterity
 
 ##### Hearty
@@ -935,7 +915,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Fire
 
-Blast a target with a bolt of fire. Make a spellcasting roll vs the targets defense. On hit the target takes a wound, adding a wound die on crit.
+Blast a target with a bolt of fire. Make a spellcasting roll against the targets defense. On hit the target takes a wound, adding a wound die on crit.
 
 Add a wound die for every level above cantrip.
 
@@ -989,14 +969,14 @@ Add a proficiency die for every level above cantrip.
 ___
 #### Arcane Blasts
 *1st Level*
-- **Casting Time:** 6-8 AP
-- **Range:** 5
+- **Casting Time:** 8 AP
+- **Range:** 7
 - **Duration:** instant
-- **Damage Type:** Arcane
+- **Damage Type:** Force
 
-You shoot an unblockable projectile at a target within range. You may spend up to 8 AP casting this spell, adding a projectile for each additional point spent and rolling a wound die for every projectile.
+You shoot a volley of 2 force blasts, sending a blast to any target in range. The blasts travel around corners and obstacles, homing in on their target. You may have all blasts target the same creature, or split the blasts between creatures. The target creatures make a Strength save vs your spellcasting roll. On fail they take 1 wound die for every blast aimed at them, upgrading a wound die to a wound for every crit rolled.
 
-Add a projectile (and wound die) for every level above the first.
+Add a blast (and wound die) for every level above the first.
 
 ___
 #### Arcane Key
@@ -1017,9 +997,9 @@ ___
 - **Duration:** instant
 - **Damage Type:** Fire
 
-A blast of fire shoots from your hands, hitting all creatures in a 3x1 beam. Make a spellcasting roll vs the targets dexterity. On hit the target takes a wound, if you crit the targets take another wound.
+A blast of fire shoots from your hands, hitting all creatures in a 3x1 beam. Make a spellcasting roll vs the targets defense. On hit the target takes a wound, if you crit the targets take another wound.
 
-The beam length increases by 1 per level and you add a proficiency die for every level above 1st
+The beam length increases by 1 per level and deals an extra wound die for every level above 1st
 
 ___
 #### Call Lightning
@@ -1109,11 +1089,11 @@ ___
 - **Casting Time:** 3 AP
 - **Range:** Self
 - **Duration:** 1 minute.
-- **Damage Type:** Arcane
+- **Damage Type:** Force
 
-Magically enchant your weapon to fire a burst of energy with your next attack. You gain _Reach 1_ for the duration of the spell. Any physical damage you deal with your attack is converted to Arcane damage. On hit, add a wound die to the damage roll. For every crit rolled in your attack change a wound die from your damage roll to a guaranteed wound. After making your attack the spell ends.
+Magically enchant your weapon to fire a burst of energy with your next attack. You gain _Reach 1_ for the duration of the spell. On your next attack the target makes a Strength save against your weapon attack roll. On fail, you connect with the attack, converting all physical damage to Force damage and adding an extra wound die to the damage roll. After you make the attack the spell ends.
 
-Your reach increases by 1 for every level above the 1st.
+Your reach increases by 1 and you add a wound die to the damage for every level above the 1st.
 
 ___
 #### Thunderclap
@@ -1123,7 +1103,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Thunder
 
-A wave of force slams the ground around you, hitting all creatures adjacent to you. Make a spellcasting roll vs the targets defense. On hit the target takes a wound, and on a crit the target is pushed away 1 tile from you. If an object or creature prevents them from moving they instead take a wound.
+A wave of force slams the ground around you, hitting all creatures adjacent to you. Make a spellcasting roll vs the targets defense. On hit the target takes a wound and a wound die in damage and is staggered, and on a crit the target is pushed away 1 tile from you, taking an extra wound if an object or creature blocks their movement.
 
 Add a proficiency die for every level above first.
 
@@ -1136,7 +1116,7 @@ ___
 - **Range:** Self
 - **Duration:** instant
 
-As a reaction you quickly pull up magical defenses, protecting you and all creatures adjacent to yourself. You and all effected creatures can add 2 superior dice against the incoming spell. If the spell does not require a save (such as _Arcane Blasts_), roll the 2 superior dice vs the casters spellcasting roll. On a success the spell has no effect.
+As a reaction you quickly pull up magical defenses, protecting you and all creatures adjacent to yourself. You and all effected creatures can add 2 superior dice against the incoming spell. If the spell does not require a save, roll the 2 superior dice vs the casters spellcasting roll. On a success the spell has no effect.
 
 Increase the range of protection by 1 for every level above the first.
 
@@ -1316,12 +1296,12 @@ Add a proficient die for every level above 3rd.
 ___
 #### Phantasmal Blades
 *3rd Level*
-- **Casting Time:** 7 AP
+- **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
 - **Damage Type:** Force
 
-Launch a series of arcane swords at a target. Roll a spellcasting roll vs targets defense. The target removes 1 die from his defense roll for every crit rolled in spellcasting. On success deal 3 wounds.
+Launch a series of arcane swords at a target. The target makes a Strength save vs your spellcasting, taking 3 wounds on fail.
 
 Add a wound and proficiency die for every level past 3rd.
 
@@ -1380,7 +1360,7 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Fire
 
-A shell of fire surrounds your body. For the duration you add 1 defense die to your defense rolls against ranged attacks, incinerating the projectile on successful defense rolls. When a creature adjacent to you makes a melee attack against you, they must make a dexterity save vs your spellcasting. On fail, they take 2 wound die in fire damage, or 2 wounds on crit. The damage from Fire Shell happens before the attack lands, if the creature is killed their attack deals no damage.
+A shell of fire surrounds your body. For the duration you add 1 superior defense die to your defense rolls against ranged attacks, incinerating the projectile on success. When a creature adjacent to you makes a melee attack against you, they must make a dexterity save vs your spellcasting. On fail, they take 2 wound die in fire damage, or 2 wounds on crit. The damage from Fire Shell happens before the attack lands, if the creature is killed their attack deals no damage.
 
 Add a proficient die for every level above the 4th.
 
@@ -1406,7 +1386,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Lightning
 
-Fire a bolt of lightning, hitting all creatures in a 15 tile line. The lightning ricochets off walls and solid objects. All creatures must make a Dexterity save vs your spellcasting. On fail, they take 1 wound and 2 wound dice, plus a wound die for every crit.
+Fire a bolt of lightning, hitting all creatures in a 15 tile line. The lightning ricochets off walls and solid objects. All creatures must make a Dexterity save vs your spellcasting. On fail, they take 1 wound and 2 wound dice, plus a wound die for every crit, or 1 wound on success.
 
 Add a proficient die for every level above the 4th.
 
@@ -1454,7 +1434,7 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** Force
 
-Summon magical star shards to fall over a target area. You cover a 9x9 tile area centered on a point in range. For the duration, any creature that starts their turn in the area rolls a wound die. On wound, a star falls into them and they must make a Dexterity save against your spellcasting, taking a wound on fail and adding a wound die on crit.
+Summon magical star shards to fall over a target area. You cover a 9x9 tile area centered on a point in range. For the duration, any creature that starts their turn in the area rolls a wound die. On wound, a star falls into them and they must make a Strength save against your spellcasting, taking a wound on fail and adding a wound die on crit.
 
 Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 
@@ -1518,7 +1498,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Fire
 
-A great wall of fire, 10 tiles wide and 3 tiles high, errupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll vs your spellcasting. On hit they take 1 wound and 3 wound die in damage, and are ignited for 1 minute on a crit. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
+A great wall of fire, 10 tiles wide and 3 tiles high, errupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll vs your spellcasting. On hit they take 1 wound and 3 wound die in damage, and are ignited for 1 minute on a crit. On success they take 1 wound. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
 
 Add a wound die for every level above the 5th.
 
@@ -1557,7 +1537,7 @@ Attempt to stablize an area against magic. Choose a point within range making a 
 
 If a spell entering the field does not require a roll it must make one following the rules above.
 
-The area increases by 2 for each level above 6th.
+The area increases by 2 and you add a superior die to your spellcasting rolls for each level above 6th.
 
 ___
 #### Conjuration
@@ -1576,13 +1556,13 @@ ___
 #### Earthquake
 *6th Level*
 - **Casting Time:** 10 AP
-- **Range:** 30
+- **Range:** 200
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Bludgeoning
 
-You cause the ground to shake and tear, collapsing buildings and toppling trees in a 15x15 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save vs your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, and other objects fall apart over the duration. Structures made of stone collapse after the full 10 minutes.
+You cause the ground to shake and tear, collapsing buildings and toppling trees in a 60x60 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save vs your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage or partially break, depending on how the DM.
 
-The range and area of the spell increases by 5 and wound dice increases by 1 for each level above 6th.
+The range and area of the spell increases by 10 for each level above 6th.
 
 ___
 #### Evocation
@@ -1619,13 +1599,13 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Lightning, Thunder
 
-You summon storm clouds overhead in a 20 tile radius. For the duration the area is covered in light rainfall and strong winds. On casting this spell, or by spending 4 AP on following turns, you may activate one of the following effects:
+You summon storm clouds overhead in a 20 tile radius. For the duration the area is covered in light rainfall and strong winds. On casting this spell, and by spending 4 AP once per turn on following turns, you may activate one of the following effects:
 
 - **Gale winds:** The winds blow in a direction of your choosing, covering the area of the storm. All creautres in range must make a Strength save or be pushed back 2 tiles, and are knocked prone on crit. Until the start of your next turn moving into the wind counts as difficult terrain and ranged attacks made into the wind add a terrible die to the roll.
 
 - **Downpour:** Torrential rainfall covers the area, extinguishing fires and greatly reducing visibility. A creature attempting to see through the rain and mists must make a perception check against your spellcasting. On fail they cannot see further than 3 tiles.
 
-- **Thunderstrike:** Call town a thundering bolt of lightning at a target creature. The creature makes a Dexterity save vs your spellcasting, on fail taking 2 wounds and 3 wound dice in lightning damage. In addition, all creatures within 2 tiles of the target must make a Stamina save or take 3 wound dice in thunder damage, being knocked prone on crit.
+- **Thunderstrike:** Call town a thundering bolt of lightning at a target creature. The creature makes a Dexterity save vs your spellcasting, on fail taking 1 wounds and 4 wound dice in lightning damage. In addition, all creatures within 2 tiles of the target must make a Stamina save or take 2 wound dice in thunder damage, being knocked prone on crit.
 
 Add a proficiency die for every level cast above 7th.
 
@@ -1653,7 +1633,7 @@ You speak a word of power as fire races across your body. Until the spell ends, 
 
 - You gain Fire Resistance 3.
 - Any creature that moves adjacent to you,begins their turn there or makes a melee attack against you are burned by the fire and take 1 wound in damage.
-- You may spend 5 AP to unleash a cone of fire infront of you. The cone extends 5 tiles out and 3 tiles wide, all creatures hit by the fire must make a Dexterity save vs your spellcasting. On fail they take 1 wound and 2 wound dice in damage.
+- You may spend 5 AP to unleash a cone of fire infront of you. The cone extends 5 tiles out and 3 tiles wide, all creatures hit by the fire must make a Defense roll against your spellcasting. On fail they take 1 wound and 2 wound dice in damage, or 1 wound on success.
 
 Only a single Power Word can be active at once, casting another Power Word spell ends another Power Word spell you control.
 
@@ -1719,7 +1699,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Fire
 
-Blast an area with the fires of hell. Fiendfire blasts from your hands in a narrow arc, extending 9 tiles long and 3 tiles wide. Each creature in the fire makes a Dexterity save against your spellcasting roll. On hit they take 2 wounds and 5 wound dice in damage, adding a wound die for every crit rolled. 
+Blast an area with the fires of hell. Fiendfire blasts from your hands in a narrow arc, extending 9 tiles long and 3 tiles wide. Each creature in the fire makes a Dexterity save against your spellcasting roll. On hit they take 2 wounds and 5 wound dice in damage, adding a wound die for every crit rolled. On success they take 3 wound dice instead.
 
 The fire burns through trees, bushes, or other plant matter leaving only ash. On impacting stone or earth the fire burns through it, leaving a hole a size of half the remaining distance. Metal and other similar materials burn, leaving a hole only a quarty of the remaining distance. Any armor or weapon a creature is holding is destroyed if it is mundane, otherwise taking 1 level of damage.
 
@@ -2017,7 +1997,7 @@ ___
 
 You summon a swarm of burning flies at a target tile in range. The flies attach themselves to nearby creatures, igniting themselves and burning the target. When a creature enters the swarm or begins their turn there, they make a Stamina save vs your spellcasting, taking 1 wound of fire damage on fail. Any invisible creatures hit by this lose their invisibility if it came from a spell, or becomes visible for 1 minute otherwise. There are enough fireflies to burn 3 times, after which the swarm disappears.
 
-The area increases by 1 and the number of burns increase by 1 for every level above 1st.
+The the fireflies spread across 1 more tile and the number of burns increase by 1 for every level above 1st.
 
 ___
 #### Ghoulish Claws
@@ -2072,10 +2052,10 @@ ___
 #### Quicken
 *1st Level*
 - **Casting Time:** 7 AP
-- **Range:** 3
+- **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature you target. On success, the move action costs 2 less AP. In addition, for every crit the targets movespeed is increased by 1.
+Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature you target. On success, the move action costs 2 less AP and sprint costs 1 less AP. In addition, for every crit the targets movespeed is increased by 1.
 
 Add a proficiency die for every level above the 1st.
 
@@ -2250,7 +2230,7 @@ You create a mass of webs in a 3x3 area. All creatures inside the web or on the 
 
 The webs are extremely flammable, and ignite after taking 1 wound of fire damage. Any creature caught in the web takes 1 wound of fire damage and is freed. After the duration the webs remain but lose their stickiness, becoming difficult terrain until cleared.
 
-Add a proficiency die for every level cast above 2nd.
+Add a proficiency die and increase the area by 1 for every level cast above 2nd.
 
 ___
 #### Silent Passage
@@ -2351,7 +2331,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-Scar the creature with death magic. Make a spellcasting roll against the targets defense. On hit, roll 1 wound + 2 wound dice, adding a wound die for every crit rolled. If this deals at least 3 wounds the target gains a random Lesser Wound, or a random Greater Wound if it deals 5 or more.
+Scar the creature with death magic. The target makes a Stamina save vs your spellcasting roll. On fail they take a wound and 2 wound dice, adding a wound die for every crit rolled. On success they take 1 wound instead. If this deals at least 3 wounds the target gains a random Lesser Wound, or a random Greater Wound if it deals 5 or more.
 
 Add a wound die for every level above the 3rd.
 
@@ -2366,7 +2346,7 @@ You transform your body, turning into a dangerous beast. The creature must have 
 
 Make a spellcasting roll, your max wounds are increased by 1 for every crit rolled. If you are reduced to 0 wounds while in this form the spell ends, you take 2 wounds of damage and are incapacitated until the end of your next turn from the strain.
 
-Add a proficiency die and increase the CR by 1 for every level above 3rd.
+Add a proficiency die and increase the CR by 2 for every level above 3rd.
 
 ___
 #### Shifting Image
@@ -2523,7 +2503,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound die in damage and all healing they recieve is half as effective until they take a long rest. On crit they are stunned until the end of their next turn. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
+Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound dice in damage and all healing they recieve is half as effective until they take a long rest and on crit they are stunned until the end of their next turn. On success they take 2 wound dice and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
 
 Add a proficiency die for every level above the 5th.
 
@@ -2535,7 +2515,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Psychic
 
-Can only be cast against a creature that can look into your eyes. You make a telepathic link to the target, using your will to shatter their mind. The target makes a Willpower save vs your spellcasting. On fail, roll a wound die for every remaining success from your spellcasting roll. If you deal at least 1 damage the target is dazed for the next minute.
+Can only be cast against a creature that can look into your eyes. You make a telepathic link to the target, using your will to shatter their mind. The target makes an Intelligence save vs your spellcasting. On fail, roll a wound die for every remaining success from your spellcasting roll. If you deal at least 1 damage the target is dazed for the next minute.
 
 Add a proficiency die for every level above 5th.
 
@@ -2600,7 +2580,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Psychic
 
-You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes a Willpower save against your spellcasting roll. On fail they take 3 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn.
+You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes an Intelligence save against your spellcasting roll. On fail they take 3 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn. On success they take 1 wound dice and are Dazed until the end of their next turn.
 
 Add a wound die for every level cast above 6th.
 
@@ -2935,7 +2915,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Send healing energy to a single target. Make a spellcasting roll, adding 2 terrible die. On success, roll a wound die for every success rolled, healing for the total wounds rolled.
+Send healing energy to a single target. Make a spellcasting roll, adding 3 Bad dice. On success, roll a wound die for every success rolled, healing for the total wounds rolled.
 
 Add a normal die for every level above the 1st.
 
@@ -3124,9 +3104,9 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** Fire
 
-You create a Flaming skull at position in range. When summoned, and again at the start of each of your turns the skull breathes fire at all creatures in its zone of control. Each creature must make a Dexterity save vs your spellcasting, on fail taking 1 wound. On your turn you may spend 3 AP to command the skull to move up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
+You create a Flaming skull at position in range. When summoned, and again at the start of each of your turns the skull breathes fire at all creatures in its zone of control. Each creature must make a Defense roll against your spellcasting. On fail they take 1 wound, adding a wound die on crit. On your turn you may spend 2 AP to command the skull to move up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
 
-Add a proficient die to your roll for every level cast above 3rd.
+Add a proficient die to your roll and increase the duration by 1 turn for every level cast above 3rd.
 
 ___
 #### Detect Creatures
@@ -3368,7 +3348,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Holy
 
-You call down a holy judgement over a 5x5 area centered on a point you can see in range. All hostile creatures make a Charisma save vs your spellcasting. On fail they take 4 wound dice in damage with Undead taking 4 wounds. On crit the creature cannot move until the end of their next turn. If the damage would kill a living creature they are brought to 1 wound instead and stunned until the end of their turn. Undead killed this way cannot be raised again.
+You call down a holy judgement over a 5x5 area centered on a point you can see in range. All hostile creatures make a Charisma save vs your spellcasting. On fail they take 4 wound dice in damage with Undead taking 4 wounds. On crit the creature cannot move until the end of their next turn. Creatures that pass their saving throw take 1 wound die instead. If the damage would kill a living creature they are brought to 1 wound instead and stunned until the end of their turn. Undead killed this way cannot be raised again.
 
 Add a wound die for every level above 5th.
 
@@ -3673,7 +3653,7 @@ ___
 - **Range:** any
 - **Level Required:** 3/10
 
-Make a ranged attack against a target, adding a proficiency die to the roll. On hit they take normal weapon damage, and on crit they are pinned. a Pinned creature has a move and sprint speed of 0, and may spend 2 AP on their turn to remove this effect.
+Make a ranged attack against a target, adding a proficiency die to the roll. On hit they take 1 wound, and on crit they are pinned. A Pinned creature has a move and sprint speed of 0 and grants combat advantage, and cannot move until they spend 5 AP to free themselves.
 
 
 ***Enhanced:*** Add a superior die instead of a proficiency die.
@@ -3700,21 +3680,21 @@ ___
 - **Range:** Melee
 - **Level Required:** 1/8
 
-Can only be used when flanking a target. Make a melee attack against the target, using superior dice instead of proficient dice for your proficiency. On hit deal normal weapon damage, plus a wound die for every crit.
+Can only be used when flanking a target. Make a melee attack against the target, rerolling up to 3 dice and taking the new values. On hit deal normal weapon damage, plus a wound die for every crit.
 
 ***Enhanced:*** Can be used every turn instead of every other turn.
 
 
 ___
 #### Wild Attack
-- **AP Cost:** 5/4
+- **AP Cost:** 5/5
 - **Weapon:** Any Slashing weapon
 - **Range:** Melee
-- **Level Required:** 1/7
+- **Level Required:** 1/11
 
-Make a wild attack against a target, adding 1 proficiency die to your attack roll. Before rolling the attack roll a wound die, on a wound the attack targets a different target in range. If no other target is available the attack misses. On hit you deal an additional wound die in damage.
+Make a wild attack against a target, adding 1 normal die to your attack roll. On hit you deal an additional wound in damage. Regardless of the outcome you grant combat advantage to attackers until the start of your next turn.
 
-***Enhanced:*** Add a superior die instead of a proficient die. If you deal 3 or more wounds with this attack the target gains a random Lesser Wound.
+***Enhanced:*** Add a proficient die instead of a normal die. If you deal 3 or more wounds with this attack the target gains a random Lesser Wound.
 
 ___
 #### Deflect
@@ -3776,9 +3756,6 @@ Take advantage of a situation. Can only be used against a target that has a cond
 
 ***Enhanced:*** Add 2 superior dice to your attack roll.
 
-
-
-
 ___
 #### Suplex
 - **AP Cost:** 5/4
@@ -3801,7 +3778,6 @@ Hit the target with a series of quick strikes. Make an unarmed attack against a 
 
 ***Enhanced:*** You add 2 superior die to the attack, and you can target a creature up to 2 tiles away, moving yourself to an unoccupied adjacent tile for the attack.
 
-
 ___
 #### Steel Tempest
 - **AP Cost:** 10/8
@@ -3813,7 +3789,6 @@ Make a normal weapon attack against up to 5 creatures in range, adding 2 Terribl
 
 ***Enhanced:*** If you manage to hit 5 creatures, they grant combat advantage until the start of your next turn.
 
-
 ___
 #### Puncture
 - **AP Cost:** 5/4
@@ -3824,9 +3799,6 @@ ___
 Only usable against a target that rolls 4 or more defense dice. Slide your blade between the joints of their armor, stabbing your weapon home. Make an normal weapon attack against a target. The target can only roll defense dice equal to their Dexterity. On hit deal normal weapon damage, adding a wound die on crit.
 
 ***Enhanced:*** The targets superior defense dice are replaced with normal defence dice. On crit, the target takes a random lesser wound instead of adding a wound die.
-
-
-
 
 ___
 #### Smite
@@ -3938,6 +3910,17 @@ Attempt to mortally wound a target. Make a normal weapon attack, adding a Superi
 
 ***Enhanced:*** The attack deals normal weapon damage and you attack with expertise if flanking the target.
 
+___
+#### Heavy Swing
+- **AP Cost:** 7/7
+- **Weapon:** Two-Handed
+- **Range:** Melee
+- **Level Required:** 3/12
+
+You bring the full weight of your weapon down on a target. Make a normal weapon attack, adding a Proficient die to the roll. On hit they take weapon damage, adding 1 wound in phsyical damage. On crit you may reroll any wound dice, taking the new value.
+
+***Enhanced:*** Add a Superior die to the attack roll and an extra wound die to the damage.
+
 ## Feats
 ### Backgrounds
 
@@ -3977,7 +3960,7 @@ You start with Scalemail Armor and a martial weapon of your choice.
 Either by circumstance or choice, your time in the pits has honed your senses in battle. You gain 1 proficiency in Unarmed fighting and 2 proficiency points for any martial weapons. While wearing light or no armor your sprint speed is increased by 1. When attacked by a creature inside your zone of control you may improve one defense die to a superior defense die.
 
 #### Chosen
-You are beholden to a greater power, either by choice or folly. For better or worse they have given you some of their power. Each time you level up you choose a spell at or below your spell level. Once per rest you may cast that spell without needing to prepare it or expend a spell slot, adding 1 superior die to the spellcasting roll. Spells cast this way are cast at your highest spell level.
+You are beholden to a greater power, either by choice or folly. For better or worse they have given you some of their power. Choose a cantrip or level 1 spell. Once per rest you may cast that spell without needing to prepare it or expend a spell slot, adding 1 superior die to the spellcasting roll. Spells cast this way are cast at your highest spell level. You may change your Chosen spell by spending a week of downtime, choosing a new spell at or below your spell level, and no higher than 5th level.
 
 You gain 1 proficiency with Lore, Religion, and Survival.
 
@@ -3986,13 +3969,13 @@ You have learned the trade of an enchanter, allowing you to empower mundane item
 
 
 #### Disciple
-You have trained under masters, learning to perfect your mind and body. When creating your character you gain proficiency in 2 attribute saving throws each time you take that perk. In addition you gain 2 proficiency in a single martial weapon and +1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
+You have trained under masters, learning to perfect your mind and body. You gain expertise in 2 saving throws of your choice. In addition you gain 2 proficiency in a single martial weapon and +1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
 
 ___
 ### Basic
 
 #### Expertise
-Choose 2 skill proficiencies, Dice rolls using these skills improve normal dice to superior dice instead of proficient dice.
+Choose 2 skill or tool proficiencies, You gain expertise in these skills.
 
 #### Duelist
 You gain a mastery of one handed weapons. When attacking with a one handed weapon your first weapon proficiency improvement uses a superior die. If you hold nothing in your off hand all your weapon proficiency uses superior die.
@@ -4250,10 +4233,10 @@ You have perfected your defenses, allowing you to withstand almost any attack. W
 
 Your are able to mend even the most fatal of wounds. When casting a healing spell you add 1 wound die to the heal. Casting a healing spell on an unconscious ally always restores the maximum wounds possible.
 
-#### Careful Scribing
-*Requires proficiency with Scribing Tools*
+#### Spellspeaker
+*Requires proficiency with Scribing Tools, Arcana*
 
-When copying spells from a Codex you can instead use your scribing tools to create a spell scroll. Doing so costs a single enchanting supply regardless of spell level, but ignores all other costs for creating spell scrolls. For each spell you want to remove from the Codex and turn into a scroll make a inscription roll against that spell levels difficulty. On success you create a spell scroll for that spell, with failure destroying the codex.
+You may use spell scrolls to cast the spell written on them. When using a spell scroll you cast as normal, consuming a spell slot but not requiring the spell to be prepared. After casting the spell make an Arcana check against the spells inscribing difficulty. On fail the spell scroll is destroyed.
 
 #### Runesmith
 *Requires proficiency with Scribing Tools, 1 Dexterity*
@@ -4264,6 +4247,11 @@ When inscribing a rune you may add 1 Bad die to the challenge roll, on success y
 *Requires proficiency with Scribing Tools, 3 Intelligence, 10th Level*
 
 Your experience with spell scrolls enables you to create spell scrolls for spells you don't know. You may research any spell at or below your casting level. Researching a spell costs double the normal costs for creating a spell scroll and takes 1 week of work for spells below 4th level, adding an additional week for every level at 4th and above. You add 1 Terrible die to the challenge roll, creating the spell scroll on success.
+
+#### Constitution
+*Requires 7th Level*
+
+Each point of Stamina increases your max wounds by 2 instead of 1.
 
 ___
 ### Advanced
@@ -4438,18 +4426,17 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 | | Armor | Defense | Strength | Dex/Spell Penalty
 |:----:|:----:|:----:|:----:|:----:|
 | *Light*  |  |  |  | |
-|  | Padded | 0/2 | 0 | None |
-|  | Leather, Studded | 1/1 | 0 | None |
+|  | Padded | 0/3 | - | None |
+|  | Leather, Studded | 1/2 | 0 | None |
 | *Medium*  |  |  |  | |
-|  | Hide | 1/2 | 1 | 2 Bad dice |
-|  | Chain Shirt, Scalemail | 2/1 | 2 | 2 Bad dice |
+|  | Hide | 1/3 | 1 | 2 Bad dice |
+|  | Chain Shirt, Scalemail | 2/2 | 2 | 2 Bad dice |
 | *Heavy*  |  |  |  | |
-|  | Half Plate | 2/2 | 3 | 2 Terrible dice |
-|  | Splint | 2/3 | 4 | 2 Terrible dice |
-|  | Full Plate | 3/2 | 5 | 2 Terrible dice |
+|  | Half Plate, Splint | 2/3 | 3 | 2 Terrible dice |
+|  | Full Plate | 3/2 | 4 | 2 Terrible dice |
 | *Shield*  |  |  |  | |
-|  | Buckler | +0/1 | 1 | None |
-|  | Shield | +1/0 | 3 | None |
+|  | Buckler | +0/1 | 0 | None |
+|  | Shield | +1/0 | 2 | None |
  
 </div>
 
@@ -4681,6 +4668,8 @@ A set of tools for writing spell scrolls and inscribing runes. During a long res
 
 #### Inscribing Spell Scrolls
 You can create a spell scroll for any spell in your codex that you are able to cast. Creating a spell scroll of 3rd level or lower can be done during a long rest, with spells of 4th level and higher taking 1 day of work for each level above 3rd. You must have a spell slot of the same level or higher available which is consumed in creating the scroll.
+
+When copying spells from a Codex you can instead use your scribing tools to create a spell scroll. Doing so costs a single enchanting supply regardless of spell level, but ignores all other costs for creating spell scrolls. For each spell you want to remove from the Codex and turn into a scroll make a inscription roll against that spell levels difficulty. On success you create a spell scroll for that spell, with failure destroying the codex.
 
 ##### Spell Scrolls
 | Level | Spell Slot | Gemstones | Supplies | Challenge Dice |
