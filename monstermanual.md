@@ -117,7 +117,7 @@ ___
  |:---|---:|:---|---:|
  | **Defense:** | 4/3 | **AP:** | 19 |
  | **Wounds:** | 66 | **Challenge:** | 85 |
- | **Move/Sprint** | 5/- | **Size:** | Gargantuant |
+ | **Move/Sprint** | 5/- | **Size:** | Gargantuan |
  
 |STR|DEX|CON|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
