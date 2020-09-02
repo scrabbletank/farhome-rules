@@ -21,6 +21,11 @@ Stat blocks for monsters as I make them, with some amount of organization.
 - [Ancient Green Dragon - C85](#Ancient-Green-Dragon)
 
 [Demons](#Demons)
+- [Imp - C1](#Imp)
+- [Vrock - C7](#Vrock)
+- [Spine Devil - C10](#Spine-Devil)
+- [Seraptis Demon - C18](#Seraptis-Demon)
+- [Baphomet - C35](#Baphomet)
 
 [Elementals](#Elementals)
 
@@ -34,7 +39,7 @@ Stat blocks for monsters as I make them, with some amount of organization.
 [Goblinoids](#Goblinoids)
 - [Goblin - C1/2](#Goblin)
 - [Goblin Fighter - C1](#Goblin-Fighter)
-- [Goblin Shaman - C13](#Goblin-Shaman)
+- [Goblin Shaman - C3](#Goblin-Shaman)
 - [Orc - C10](#Orc)
 - [Orc Wargrider - C12](#Orc-Wargrider)
 - [Orc Shaman - C14](#Orc-Shaman)
@@ -301,27 +306,27 @@ ___
 
 ### Demons
 
-#### Spine Devil
+#### Imp
  | | | | |
  |:---|---:|:---|---:|
- | **Defense:** | 0/4 | **AP:** | 11 |
- | **Wounds:** | 11 | **Challenge:** | 10 |
- | **Move/Sprint** | 3/6 | **Size:** | Large |
+ | **Defense:** | 0/2 | **AP:** | 10 |
+ | **Wounds:** | 2 | **Challenge:** | 1 |
+ | **Move/Sprint** | 4/5 | **Size:** | Small |
  
 |STR|DEX|CON|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|1/0|3/3|2/0|1/0|3/0|0/0|
+|0/0|3/0|0/0|0/0|1/0|-1/0|
 
 ___
-***Flight.*** This creature can fly when using it's movement, hovering in place at the end of its movement.
+***Turn Vulnerability.*** This creature counts as Undead for the purposes of the _Holy Weapon_ and _Turn Undead_ spells.
+
+***Limited Flight.*** This creature has limited flight. They may fly using their movement but must land the next turn or fall from the sky. Once landed they cannot fly until their next turn.
 
 **Actions**
 
-***Trident Spear.*** *Reach 1, Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound and 1 wound die in damage.
+***Claws.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>Deals 2 wound dice in damage.
 
-***Dive Bomb.*** *Maneuver, Melee Attack:* 5 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die in damage. The Spine devil must be flying before attacking. If the Spine devil drops 2 or more tiles before making the attack add a wound die to the damage.
-
-***Rain of Spines.*** *Maneuver, Special Attack:* 5 AP, 1/2/3/0/0</br>Fires razor sharp spines in a 90 degree arc 3 tiles long infront of it. All creatures in range make a Defense roll, taking 3 wound die on fail.
+***Barbed Tail.*** *Maneuver, Melee Attack:* 7 AP, 2/1/2/0/0</br>Deals 1 wound die in damage. On crit the target gains Poison 1 and takes an extra wound die in Poison damage for every crit rolled.
 ___
 
 #### Vrock
@@ -346,6 +351,29 @@ _The Vrock can only take 1 Talons or Bite attack a turn._
 ***Bite.*** *Melee Attack:* 5 AP, 2/2/1/0/0</br>Deals 3 wound die in damage.
 
 ***Screech.*** *Maneuver, Special Attack:* 8 AP, 0/2/3/0/0</br>Lets out a sonic scream hitting all creatures adjacent to the Vrock. Each creature makes a Stamina save, being stunned until the end of their next turn on fail.
+___
+
+#### Spine Devil
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/4 | **AP:** | 11 |
+ | **Wounds:** | 11 | **Challenge:** | 10 |
+ | **Move/Sprint** | 3/6 | **Size:** | Large |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1/0|3/3|2/0|1/0|3/0|0/0|
+
+___
+***Flight.*** This creature can fly when using it's movement, hovering in place at the end of its movement.
+
+**Actions**
+
+***Trident Spear.*** *Reach 1, Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound and 1 wound die in damage.
+
+***Dive Bomb.*** *Maneuver, Melee Attack:* 5 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die in damage. The Spine devil must be flying before attacking. If the Spine devil drops 2 or more tiles before making the attack add a wound die to the damage.
+
+***Rain of Spines.*** *Maneuver, Special Attack:* 5 AP, 1/2/3/0/0</br>Fires razor sharp spines in a 90 degree arc 3 tiles long infront of it. All creatures in range make a Defense roll, taking 3 wound die on fail.
 ___
 
 #### Seraptis Demon
