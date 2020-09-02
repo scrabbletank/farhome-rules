@@ -43,8 +43,8 @@ Stat blocks for monsters as I make them, with some amount of organization.
 - [Bandit - C1](#Bandit)
 - [Bandit Leader - C5](#Bandit-Leader)
 - [Cultist Initiate - C4](#Cultist-Initiate)
+- [Cultist Assassin - C6](#Cultist-Assassin)
 - [Cultist Acolyte - C8](#Cultist-Acolyte)
-- [Cultist Assassin - C8](#Cultist-Assassin)
 
 [Monstrosities](#Monstrosities)
 - [Harpy - C4](#Harpy)
@@ -675,6 +675,27 @@ ___
 ***Dagger.*** *Melee Attack:* 5 AP, 0/0/5/0/0</br>Deals 1 wound.
 ___
 
+#### Cultist Assassin
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 10 |
+ | **Wounds:** | 5 | **Challenge:** | 6 |
+ | **Move/Sprint** | 4/5 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|-1/0|3/0|0/0|2/1|1/1|0/0|
+
+___
+***Spellcaster.*** This creature is an Arcane (1) caster. They have 3 1st level and 1 2nd level spell slot, and a codex with the following spells prepared: _Cold Snap, Chilling Ray, Ray of Sickness, Detect Magic, Misty Step._
+
+***Infiltrator.*** Has Expertise in Stealth and Perception.
+
+**Actions**
+
+***Poisoned Dagger.*** *Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound. On crit the target gains Poison 1.
+___
+
 #### Cultist Acolyte
  | | | | |
  |:---|---:|:---|---:|
@@ -692,27 +713,6 @@ ___
 **Actions**
 
 ***Dagger.*** *Melee Attack:* 5 AP, 0/0/5/0/0</br>Deals 1 wound.
-___
-
-#### Cultist Assassin
- | | | | |
- |:---|---:|:---|---:|
- | **Defense:** | 0/2 | **AP:** | 10 |
- | **Wounds:** | 5 | **Challenge:** | 8 |
- | **Move/Sprint** | 4/2 | **Size:** | Medium |
- 
-|STR|DEX|CON|INT|WIL|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|-1/0|3/0|0/0|2/1|1/1|0/0|
-
-___
-***Spellcaster.*** This creature is an Arcane (1) caster. They have 3 1st level and 1 2nd level spell slot, and a codex with the following spells prepared: _Cold Snap, Chilling Ray, Ray of Sickness, Detect Magic, Misty Step._
-
-***Infiltrator.*** Has Expertise in Stealth and Perception.
-
-**Actions**
-
-***Poisoned Dagger.*** *Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound. On crit the target gains Poison 1.
 ___
 
 ### Monstrosities
