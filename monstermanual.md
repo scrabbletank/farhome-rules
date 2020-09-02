@@ -612,6 +612,104 @@ ___
 
 ### Humanoids
 
+#### Bandit
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 10 |
+ | **Wounds:** | 3 | **Challenge:** | 1 |
+ | **Move/Sprint** | 4/3 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|2/1|1/1|1/0|0/0|-1/0|1/0|
+
+___
+
+**Actions**
+
+***Short Sword.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>Deals 1 wound.
+___
+
+#### Bandit Leader
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 1/3 | **AP:** | 11 |
+ | **Wounds:** | 5 | **Challenge:** | 5 |
+ | **Move/Sprint** | 4/2 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/1|1/1|1/0|0/0|0/0|1/0|
+
+___
+***Leadership.*** All allied bandits add 1 proficiency die to their saving throws while within 5 tiles of the Bandit Leader.
+
+**Actions**
+
+***Short Sword.*** *Melee Attack:* 4 AP, 1/1/3/0/0</br>Deals 1 wound.
+
+***Healing Surge.*** *Special:* 3 AP</br>Usable once per day. Roll 3 wound dice, healing for the wounds rolled.
+___
+
+#### Cultist Initiate
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/2 | **AP:** | 10 |
+ | **Wounds:** | 4 | **Challenge:** | 4 |
+ | **Move/Sprint** | 4/2 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|-1/0|0/0|1/0|3/1|1/1|1/0|
+
+___
+***Spellcaster.*** This creature is an Arcane (2) caster. They have 3 1st level and 1 2nd level spell slot, and a codex with the following spells prepared: _Firebolt, Static Shock, Arcane Blasts, Call Lightning, Combust, Misty Step._
+
+**Actions**
+
+***Dagger.*** *Melee Attack:* 5 AP, 0/0/5/0/0</br>Deals 1 wound.
+___
+
+#### Cultist Acolyte
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/2 | **AP:** | 11 |
+ | **Wounds:** | 6 | **Challenge:** | 8 |
+ | **Move/Sprint** | 4/2 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|-1/0|0/0|1/0|3/1|2/1|1/0|
+
+___
+***Spellcaster.*** This creature is an Arcane (3) caster. They have 3 1st level and 2 2nd and 3rd level spell slots, and a codex with the following spells prepared: _Firebolt, Static Shock, Arcane Blasts, Call Lightning, Misty Step, Fireball, Phantasmal Blades._
+
+**Actions**
+
+***Dagger.*** *Melee Attack:* 5 AP, 0/0/5/0/0</br>Deals 1 wound.
+___
+
+#### Cultist Assassin
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/2 | **AP:** | 10 |
+ | **Wounds:** | 5 | **Challenge:** | 8 |
+ | **Move/Sprint** | 4/2 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|-1/0|3/0|0/0|2/1|1/1|0/0|
+
+___
+***Spellcaster.*** This creature is an Arcane (1) caster. They have 3 1st level and 1 2nd level spell slot, and a codex with the following spells prepared: _Cold Snap, Chilling Ray, Ray of Sickness, Detect Magic, Misty Step._
+
+***Infiltrator.*** Has Expertise in Stealth and Perception.
+
+**Actions**
+
+***Poisoned Dagger.*** *Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound. On crit the target gains Poison 1.
+___
+
 ### Monstrosities
 
 #### Harpy
@@ -667,6 +765,27 @@ The Harpy cannot attack while singing and must sing every turn or the effects en
 ___
 
 ### Outsiders
+
+#### Merculent
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 11 |
+ | **Wounds:** | 8 | **Challenge:** | 7 |
+ | **Move/Sprint** | 4/4 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|-1/0|2/0|0/0|3/0|2/0|0/0|
+
+___
+***Mimcry Casting.*** This creature does not require a codex to cast spells. Regardless of spell type they roll 0/3/2/0/0 for all spells, and add 2 Superior dice when the target of _Counter Spell_. They have 5 2nd level spell slots, but do not know any spells naturally. Instead the Merculent copies spells cast around them of 2nd level and below. The Merculent can cast the spell for the next 24 hours, after which the spell is forgotten.
+
+***Hover.*** This creature has flying and hovers over the ground.
+
+**Actions**
+
+***Tentacle.*** *Reach 1, Melee Attack:* 3 AP, 0/2/3/0/0</br>Deals 1 wound. Target gains Poison 1 for 10 minutes.
+___
 
 ### Undead
 
