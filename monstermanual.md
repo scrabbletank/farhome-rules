@@ -40,6 +40,11 @@ Stat blocks for monsters as I make them, with some amount of organization.
 - [Orc Shaman - C14](#Orc-Shaman)
 
 [Humanoids](#Humanoids)
+- [Bandit - C1](#Bandit)
+- [Bandit Leader - C5](#Bandit-Leader)
+- [Cultist Initiate - C4](#Cultist-Initiate)
+- [Cultist Acolyte - C8](#Cultist-Acolyte)
+- [Cultist Assassin - C8](#Cultist-Assassin)
 
 [Monstrosities](#Monstrosities)
 - [Harpy - C4](#Harpy)
