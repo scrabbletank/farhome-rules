@@ -23,6 +23,8 @@ ___
 ***Claw.*** *Melee Attack:* 5 AP, 4/1/1/0/0</br>Deals a wound and 1 wound die. On crit add a wound die.
 
 ***Beak.*** *Maneuver*, *Melee Attack:* 8 AP, 2/3/1/0/0</br>Deals 2 wounds and 3 wound die.
+
+***Arcane Screech.*** *Maneuver*, *Special:* 7 AP, 1/1/3/0/0</br>The Owelbears screech dispels magical effects. If a creature is effected by a spell requiring concentration, or is concentrating themselves they make a concentration check. Otherwise roll a proficient die for every level of the spell that created the effect. On fail the spell ends.
 ___
 
 #### Dire Bear
@@ -48,7 +50,105 @@ ___
 
 ### Celestials
 
+### Constructs
+
+#### Scarecrow
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/2 | **AP:** | 10 |
+ | **Wounds:** | 4 | **Challenge:** | 2 |
+ | **Move/Sprint** | 4/4 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|2/0|2/0|0/0|-/-|1/0|-1/0|
+
+___
+***Construct.*** This creature has no living parts and is immune to Stun, Daze, Poison, and cannot get Lesser or Greater Wounds. This construct has no Intelligence and passes Intelligence saving throws.
+
+***Facsimile.*** This creature hides in plain sight, looking like a normal scarecrow. A successful impossible perception challenge will spot this creature for what it is.
+
+**Actions**
+
+***Scythe.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>Deals 1 wound. Attacking a Feared target inflicts the effects of _Curse of Misfortune_.
+
+***Terror*** *Maneuver, Range 3, Special:* 7 AP, 0/1/4/0/0</br>Targeting a creature that can see the Scarecrow, they make a Willpower save. On fail they are afraid of the scarecrow for 1 minute.
+
+#### Enchanted Armor
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 2/3* | **AP:** | 10 |
+ | **Wounds:** | 5 | **Challenge:** | 5 |
+ | **Move/Sprint** | 4/2 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/0|-1/0|2/2|-/-|0/0|0/0|
+
+___
+***Construct.*** This creature has no living parts and is immune to Stun, Daze, Poison, and cannot get Lesser or Greater Wounds. This construct has no Intelligence and passes Intelligence saving throws.
+
+***Brittle.*** This creature loses 1 defense die for every wound it has taken, removing Defense dice before Superior Defense.
+
+***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. When the target of _Dispel Magic_, roll 4 Proficiency dice, becoming incapacitated for 10 minutes on fail.
+
+**Actions**
+
+***Punch.*** *Melee Attack:* 4 AP, 1/2/2/0/0</br>Deals 2 wound dice.
+
+***Crushing Blow.*** *Maneuver, Melee Attack:* 7 AP, 0/3/3/0/0</br>Crushes an opponent with a powerful attack, dealing 4 wound dice. On crit the target is staggered until the start of their next turn.
+
 ### Dragons
+
+#### Kobold
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 1/2 | **AP:** | 10 |
+ | **Wounds:** | 2 | **Challenge:** | 1 |
+ | **Move/Sprint** | 5/4 | **Size:** | Small |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0/0|2/0|1/0|-2/0|1/0|0/0|
+
+___
+***Pack Tactics.*** This creature has combat advantage when attacking a creature with the Kobolds ally in its zone of control.
+
+***Quick.*** This creature does not provoke opportunity attacks when taking the Move action, but still provokes when Sprinting.
+
+**Actions**
+
+***Bone Spear.*** *Melee Attack:* 5 AP, 0/2/3/0/0</br>Deals a wound.
+
+***Sling.*** *Ranged 5/10 Attack:* 5 AP, 1/1/3/0/0</br>Deals a wound.
+
+___
+
+#### Kobold Alchemist
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/2 | **AP:** | 10 |
+ | **Wounds:** | 3 | **Challenge:** | 2 |
+ | **Move/Sprint** | 5/5 | **Size:** | Small |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0/0|3/0|1/0|-1/0|2/0|0/0|
+
+___
+***Pack Tactics.*** This creature has combat advantage when attacking a creature with the Kobolds ally in its zone of control.
+
+***Quick.*** This creature does not provoke opportunity attacks when taking the Move action, but still provokes when Sprinting.
+
+**Actions**
+
+***Scorpion on a Stick.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals a wound. On crit the target gains Poison 1.
+
+***Wasps in a Jar.*** *Special:* 7 AP</br>Releases a swarm of wasps into an adjacent tile. The wasps randomly attack nearby creatures, dispersing after 1 minute. After releasing the Kobold must find more wasps before using again.
+
+***Green Slime.*** *Special, Ranged 5 Attack:* 7 AP</br>Throws a green slime at a target creature. On hit they are covered in green slime, taking 1 wound of Poison damage at the start of each of their turns. A creature can remove the slime by spending 5 AP to make a Strength check against 2 bad dice, destroying the slime. If the attack misses the slime lands on an adjacent tile, attaching itself to the next creature to step on it. After using the Kobold must find more green slime before using again.
+
+___
 
 #### Young-adult Green Dragon
  | | | | |
@@ -248,6 +348,73 @@ ___
 
 ### Fey
 
+#### Sprite
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | -/- | **AP:** | 10 |
+ | **Wounds:** | 1 | **Challenge:** | 1/2 |
+ | **Move/Sprint** | 4/3 | **Size:** | Small |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0/0|3/1|-1/0|0/0|1/0|2/0|
+
+___
+***Enchanting Presence.*** This creature cannot wear armor, instead any attack, maneuver or spell attack against this target adds 2 Bad dice to their rolls.
+
+**Actions**
+
+***Razor Dust.*** *Ranged 2 Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound die. On crit the target gains Hex 1 for 1 minute.
+
+***Trickery.*** *Maneuver*, *Reaction:* 2 AP, 1/2/2/0/0</br>If this creature or an adjacent ally is targeted by a melee attack you add 1 bad die to their attack roll. If they critically fail the attack they gain Hex 1 for 1 minute.
+___
+
+#### Peryton
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | -/- | **AP:** | 10 |
+ | **Wounds:** | 9 | **Challenge:** | 8 |
+ | **Move/Sprint** | 4/3 | **Size:** | Large |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/1|3/1|2/0|0/0|1/0|2/0|
+
+___
+***Enchanting Presence.*** This creature cannot wear armor, instead any attack, maneuver or spell attack against this target adds 3 Bad dice to their rolls.
+
+***Charge.*** If this creature move at least 2 tiles before making an attack it adds 1 wound die to the damage and knocks the target prone on crit.
+
+**Actions**
+
+***Slam.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>Deals 3 wound dice. If the attack does 3 or more damage the target gets the Lesser Wound: Bleeding, if an attacker rolls a crit against this target, add a wound die to the roll.
+
+***Tail Wind.*** *Maneuver*, *Special:* 5 AP, 0/3/2/0/0</br>Blasts wind at all creatures in its zone of control. Creatures make a Strength save against the attack. On fail they take 1 wound die in damage and are pushed back 1 tile, being knocked prone on crit.
+___
+
+#### Knight of the Moon Court
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 2/0 | **AP:** | 11 |
+ | **Wounds:** | 10 | **Challenge:** | 13 |
+ | **Move/Sprint** | 5/2 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/0|1/1|1/0|0/0|0/0|3/0|
+
+___
+***Enchanting Presence.*** Any attack, maneuver or spell attack against this target adds 2 Terrible dice to their rolls.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. Regardless of spell type they roll 2/2/1/0/0 for all spells, and add 2 Superior dice when the target of _Counter Spell_. The have 3 3rd level spell slots and know the following spells: _Phantasmal Blades_, _Fireball_, _, _Beacon_, _Sword Burst_, _Healing Word_.
+
+**Actions**
+
+***Claymore.*** *Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound die and 1 wound die.
+
+***Cleave.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0</br>Attacks all creatures inside its zone of control, dealing 1 wound to all targets on hit.
+___
+
 ### Giants
 
 ### Goblinoids
@@ -396,6 +563,54 @@ ___
 
 ### Monstrosities
 
+#### Harpy
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 1/2 | **AP:** | 10 |
+ | **Wounds:** | 4 | **Challenge:** | 4 |
+ | **Move/Sprint** | 5/5 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0/0|3/1|0/0|0/0|2/1|-1/0|
+
+___
+***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
+
+**Actions**
+
+***Talons.*** *Melee Attack:* 3 AP, 0/3/2/0/0</br>Deals 2 wound dice.
+
+***Song of Allure.*** *Special:* 5 AP, 0/1/5/0/0</br>The harpy sings a magical melody, effecting all Humanoids within 30 tiles. A creature in range that can hear the melody makes a Charisma save, becoming Charmed by the Harpy on fail. While Charmed the creature takes no action other than moving closer to the harpy. The creature will not avoid hazards, taking the most direct route. If the movement will cause harm to the creature, they take damage, or another creature spends 5 AP trying to wake them they may make another Charisma save, ending the effects on success. Once a creature has saved against the song they are immune to it for 24 hours. The creature has no memory of the time they were charmed.
+
+The Harpy cannot attack while singing and must sing every turn or the Charm ends.
+___
+
+#### Owlfeather Harpy
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 1/2 | **AP:** | 10 |
+ | **Wounds:** | 5 | **Challenge:** | 7 |
+ | **Move/Sprint** | 5/5 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0/0|3/1|0/0|0/0|3/2|-1/0|
+
+___
+***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
+
+**Actions**
+
+***Talons.*** *Melee Attack:* 3 AP, 0/3/2/0/0</br>Deals 2 wound dice.
+
+***Dream eater.*** *Maneuver, Special Attack:* 5 AP, 0/3/2/0/0</br>Works only on sleeping targets. Deals 3 wound dice in Death damage, healing the Harpy for the damage dealt. If this would kill the creature, they are incapacitated instead, taking 2 levels of exhaustion and waking with 1 health after a long rest.
+
+***Song of Sleep.*** *Special:* 5 AP, 0/1/5/0/0</br>The harpy sings a magical melody, effecting all Humanoids within 30 tiles. A creature in range that can hear the melody makes a Charisma save, becoming Dazed until the end of their next turn. A dazed creature that fails their save falls asleep instead. The sleep is restless, giving no benefit from a long or short rest while asleep. After taking damage or another creature spends 5 AP to wake them they may make a Charisma save, automatically succeeding if the harpy is no longer singing.
+
+The Harpy cannot attack while singing and must sing every turn or the effects end.
+___
+
 ### Outsiders
 
 ### Undead
@@ -463,4 +678,27 @@ ___
 ***Press the Attack.*** *Maneuver*, *Melee Attack:* 4 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
 
 ***Shield Slam.*** *Maneuver*, *Melee Attack:* 3 AP, 2/1/2/0/0</br>Deals 1 wound. Hit a target with your shield, on crit the target is staggered until the start of their next turn.
+___
+
+#### Corpse Beast
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/4 | **AP:** | 13 |
+ | **Wounds:** | 13 | **Challenge:** | 9 |
+ | **Move/Sprint** | 4/2 | **Size:** | Large |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|4/2|-2/0|4/1|0/0|1/0|1/1|
+
+___
+***Aura of Gloom.*** All undead within 5 tiles of this creature gain an extra proficiency die on all attacks and saving throws.
+
+***Ghoul Form.*** This creature is highly resistant to poison and paralysis. Paralysis is removed at the end of its turn and it reduces the level of Poison each turn without making a Stamina save.
+
+**Actions**
+
+***Claw.*** *Melee Attack:* 5 AP, 1/3/1/0/0</br>Deals 3 wound dice. On crit the target is paralyzed for 1 minute.
+
+***Devour.*** *Maneuver*, *Melee Attack:* 7 AP, 0/4/1/0/0</br>Only usable against paralyzed living creatures with a size of Medium or smaller. Target takes 2 wound dice in damage and are swalloed by the Corpse Beast. While they are devoured the Corpse Beasts movement is reduced to 1. The creature is incapacitated and at the start of their turn takes a wound in damage and gains a random Lesser Wound. After taking 5 or more damage in a single round the Corpse Beast regurgitates the creature leaving them prone in an adjacent tile. Only one creature may be Devoured at a time. A creature that dies inside a Corpse Beast is regurgitated as a Zombie.
 ___

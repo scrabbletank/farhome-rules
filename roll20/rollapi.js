@@ -424,7 +424,7 @@ var FarhomeDice = FarhomeDice || (function () {
                     msg += "<span>";
                     for (var t = 0; t < diceVals[i]; t++) {
                         var rollVal = randomInteger(6) - 1;
-                        if (i < 2 && rollVal == 5 && modObj.hex > 0) {
+                        if (dice[i].crit[rollVal] == 1 && modObj.hex > 0) {
                             msg += "<span style='background-color:" + dice[i].clr + "; border: 1px solid;'>Hex!</span>";
                             modObj.hex--;
                             continue;
