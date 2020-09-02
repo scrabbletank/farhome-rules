@@ -2,6 +2,57 @@
 Stat blocks for monsters as I make them, with some amount of organization.
 
 
+## Table of Contents
+[Beasts](#Beasts)
+- [Owlbear - C7](#Owlbear)
+- [Dire Bear - C15](#Dire-Bear)
+
+[Celestials](#Celestials)
+
+[Constructs](#Constructs)
+- [Scarecrow - C2](#Scarecrow)
+- [Enchanted Armor - C5](#Enchanted-Armor)
+
+[Dragons](#Dragons)
+- [Kobold - C1](#Kobold)
+- [Kobold Alchemist - C2](#Kobold-Alchemist)
+- [Young-adult Green Dragon - C45](#Young-adult-Green-Dragon)
+- [Adult Green Dragon - C65](#Adult-Green-Dragon)
+- [Ancient Green Dragon - C85](#Ancient-Green-Dragon)
+
+[Demons](#Demons)
+
+[Elementals](#Elementals)
+
+[Fey](#Fey)
+- [Sprite - C1/2](#Sprite)
+- [Peryton - C8](#Peryton)
+- [Knight of the Moon Court - C13](#Knight-of-the-Moon-Court)
+
+[Giants](#Giants)
+
+[Goblinoids](#Goblinoids)
+- [Goblin - C1/2](#Goblin)
+- [Goblin Fighter - C1](#Goblin-Fighter)
+- [Goblin Shaman - C13](#Goblin-Shaman)
+- [Orc - C10](#Orc)
+- [Orc Wargrider - C12](#Orc-Wargrider)
+- [Orc Shaman - C14](#Orc-Shaman)
+
+[Humanoids](#Humanoids)
+
+[Monstrosities](#Monstrosities)
+- [Harpy - C4](#Harpy)
+- [Owlfeather Harpy - C7](#Owlfeather-Harpy)
+
+[Outsiders](#Outsiders)
+
+[Undead](#Undead)
+- [Zombie - C2](#Zombie)
+- [Skeleton - C2](#Skeleton)
+- [Skeleton Knight - C6](#Skeleton-Knight)
+- [Corpse Beast - C9](#Corpse-Beast)
+
 ### Beasts
 
 #### Owlbear
@@ -577,6 +628,8 @@ ___
 ___
 ***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
 
+***Flying.*** This creature can use it's movement to fly, Hovering in place if ending their turn in the air.
+
 **Actions**
 
 ***Talons.*** *Melee Attack:* 3 AP, 0/3/2/0/0</br>Deals 2 wound dice.
@@ -599,6 +652,8 @@ ___
 
 ___
 ***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
+
+***Flying.*** This creature can use it's movement to fly, Hovering in place if ending their turn in the air.
 
 **Actions**
 
