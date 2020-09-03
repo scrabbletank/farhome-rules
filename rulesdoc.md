@@ -425,6 +425,9 @@ Starting at level 3, every 3 levels you can increase an attribute by 1.
 #### Action Points
 You gain an Action Point at levels 10 and 20.
 
+#### Max Wounds Increase
+You gain 1 max wound at levels 7, 14, 21, and 28.
+
 ### Earning Experience
 Players earn experience after every encounter based on the difficulty of the encounter. Ideally characters should be leveling up once every 4-8 encounters. Experience is earned based on how difficult it is for the players to overcome the encounter, not by how much experience an individual monster gives.
 
@@ -1068,7 +1071,7 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** Poison
 
-Choose 3 connected tiles in range. When a creature starts their turn or enters a tile for the first time they must make a constitution save vs your spellcasting. On a fail they take 1 wound. On a crit the target is poisoned until the end of their next turn. These tiles count as difficult terrain, and last for 1 minute.
+Choose 3 connected tiles in range. When a creature starts their turn or enters a tile for the first time they must make a Stamina save against your spellcasting. On a fail they take 1 wound. On a crit the target is poisoned until the end of their next turn. These tiles count as difficult terrain, and last for 1 minute.
 
 Add a tile for every level above first.
 
@@ -4036,7 +4039,7 @@ ___
 Reduces the cost of basic attacks by 1 AP.
 
 #### Brutal Strikes
-*Requires 2 Strength, 5th Level*
+*Requires 3 Strength, 5th Level*
 
 When you crit with an attack, add an extra wound die.
 
@@ -4046,7 +4049,7 @@ When you crit with an attack, add an extra wound die.
 While in combat you may spend 3 AP on your turn to use a Healing Surge. This can be used once per rest.
 
 #### Battering Ram
-*Requires 2 Stamina*
+*Requires 3 Stamina*
 
 If you move at least 2 tiles before making an attack or maneuver, add an extra wound die for the damage.
 
@@ -4111,12 +4114,12 @@ Choose a maneuver you know with a Level requirement of 7 or lower. This maneuver
 Once per turn, when a creature takes a movement action towards you, you can spend 2 AP to make a ranged weapon attack as a reaction as long as the creature is in range.
 
 #### Blessed Healing
-*Requires proficiency with Divine spells*
+*Requires 2 Charisma, proficiency with Divine spells*
 
 The target of your heals gains an extra superior die on their next attack or saving throw.
 
 #### Helping Hand
-*Requires proficiency with Divine spells*
+*Requires proficiency with Divine spells, 6th Level*
 
 When casting buffing spells, add a superior dice to the roll if you are not one of the targets.
 
@@ -4135,7 +4138,7 @@ Your mastery of magic has enhanced your abilities with a given element. Choose f
 #### Evasion
 *Requires Agile, 3 Dexterity*
 
-When targeted by a non-single target attack, maneuver, or spell you may spend up to your Dexterity in AP, moving 1 tile per AP spent. This movement does not trigger opportunity attacks and if you take no effect from the ability if you are able to leave its area of effect.
+When targeted by a non-single target attack, maneuver, or spell you may spend up to 3 AP, moving 1 tile per AP spent. This movement does not trigger opportunity attacks and you take no effect from the ability if you are able to leave its area of effect.
 
 #### Defensive Duelist
 *Requires proficiency with a Martial Weapon*
@@ -4179,7 +4182,7 @@ When using your Apothecary set you can add an additional ingredient from any of 
 You gain expertise in 2 saving throws.
 
 #### Poison Resistance
-*Requires 2 Stamina*
+*Requires 3 Stamina*
 
 You gain Resistance 1 against poison damage. At the end of each of your turns if you are Poisoned reduce the level of Poison by 1.
 
@@ -4211,7 +4214,7 @@ You gain expertise in Animal Handling. Your skill with animals allows you to pac
 You can make an animal handling roll against a beast that hasn't been hostile towards you in an attempt to befriend it. On a crit the beast will defend you while in its habitat.
 
 #### Book of Hymns
-*Requires proficiency in Religion*
+*Requires 2 Charisma, proficiency in Religion*
 
 In addition to the spells you normally prepare, you may prepare Divine spells equal to your Charisma score.
 
@@ -4250,36 +4253,31 @@ When inscribing a rune you may add 1 Bad die to the challenge roll, on success y
 
 Your experience with spell scrolls enables you to create spell scrolls for spells you don't know. You may research any spell at or below your casting level. Researching a spell costs double the normal costs for creating a spell scroll and takes 1 week of work for spells below 4th level, adding an additional week for every level at 4th and above. You add 1 Terrible die to the challenge roll, creating the spell scroll on success.
 
-#### Constitution
-*Requires 7th Level*
-
-Each point of Stamina increases your max wounds by 2 instead of 1.
-
 ___
 ### Advanced
 
 #### Iron Grip
-*Requires Brutal Strikes, 3 Strength*
+*Requires Brutal Strikes, 4 Strength*
 
 You can wield a Two-Handed weapon as if it was One-Handed, using either One or Two-Handed proficiency for the attack. You cannot dual wield while holding a Two-Handed weapon, but you can equip a shield.
 
 #### Quick Attacks
-*Requires Fast Attacks, 3 Dexterity, 10th Level*
+*Requires Fast Attacks, 3 Dexterity, 15th Level*
 
 Reduces the cost of basic attacks by 1 AP.
 
 #### Split Mind
-*Requires Enduring Concentration, 3 Intelligence*
+*Requires Enduring Concentration, 4 Intelligence, 10th Level*
 
 You can concentrate on 2 separate spells at once, as long as these spells have different targets. Persistent effects, such as _Shroud of Darkness_ have no targets, and creatures inside the spells area do not count as already targeted for Split Mind.
 
 #### Lay on Hands
-*Requires Blessed Healing, 3 Charisma*
+*Requires Blessed Healing, 3 Charisma, 10th Level*
 
-You have a natural gift for healing, and are able to channel healing magic without the aid of a Codex. You may spend 5 AP to heal a single wound from a creature you touch. This can be used up to your Charisma score, after which you must take a long rest to regain this feat.
+You have a natural gift for healing, and are able to channel healing magic without the aid of a Codex. You may spend 4 AP to heal 2 wounds from a creature you touch. This can be used up to your Charisma score, after which you must take a long rest to regain this feat.
 
 #### Jinx
-*Requires Potent Curses, 4 Willpower*
+*Requires Potent Curses, 4 Willpower, 10th Level*
 
 You may affect the same creature with two different curses, instead of one. You gain 1 superior die to your saving throw when you are the target of a curse.
 
@@ -4289,7 +4287,7 @@ You may affect the same creature with two different curses, instead of one. You 
 When taking lethal damage, as long as the total damage is less than or equal to your Stamina you are left with 1 wound, with the excess reducing your Stamina directly. Stamina lost in this way is returned after a long rest.
 
 #### Armor Mastery
-*Requires Armor Expert, 3 Strength, 10th Level*
+*Requires Armor Expert, 3 Strength, 12th Level*
 
 You take no penalties from wearing armor. When making a defense roll you may reroll 1 defense die, taking the new value.
 

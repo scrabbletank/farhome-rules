@@ -61,6 +61,8 @@ Stat blocks for monsters as I make them, with some amount of organization.
 - [Zombie - C2](#Zombie)
 - [Skeleton - C2](#Skeleton)
 - [Skeleton Knight - C6](#Skeleton-Knight)
+- [Ghost - C4](#Ghost)
+- [Shadow - C6](#Shadow)
 - [Corpse Beast - C9](#Corpse-Beast)
 
 ### Beasts
@@ -885,6 +887,56 @@ ___
 ***Press the Attack.*** *Maneuver*, *Melee Attack:* 4 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
 
 ***Shield Slam.*** *Maneuver*, *Melee Attack:* 3 AP, 2/1/2/0/0</br>Deals 1 wound. Hit a target with your shield, on crit the target is staggered until the start of their next turn.
+___
+
+#### Ghost
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/2 | **AP:** | 10 |
+ | **Wounds:** | 4 | **Challenge:** | 4 |
+ | **Move/Sprint** | 4/4 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|-1/0|2/0|0/0|0/0|2/0|1/0|
+
+___
+***Ethereal.*** This creature has _Resistance_ 2 to all physical damage from non-silvered weapons and _Vulnerability_ 1 to Force damage and attacks from magical weapons. This creature may move through walls and solid objects at will, but cannot enter a wall if they would end their turn there.
+
+***Ghostly Form.*** This creature has no physical body and is immune to the Charm, Possession, and Poison conditions.
+
+***Flying.*** This creature can fly with its movement.
+
+**Actions**
+
+***Grasp.*** *Melee Attack:* 5 AP, 0/2/3/0/0</br>Deals 2 wound dice in cold damage.
+
+***Possess.*** *Maneuver*, *Melee Special:* 10 AP, 0/1/4/0/0</br>The target makes a Charisma save, becoming Possessed by the Ghost on fail. While possessed the Ghost controls all actions the creature takes and is untargetable. Every time the creature takes 1 wound in damage they may make the Charisma save again, ending the possession on success. If the creature becomes incapacitated the possession ends with the Ghost appearing in an adjacent tile.
+___
+
+#### Shadow
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 10 |
+ | **Wounds:** | 5 | **Challenge:** | 6 |
+ | **Move/Sprint** | 4/4 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|-1/0|3/0|1/0|0/0|1/0|1/0|
+
+___
+***Ethereal.*** This creature has _Resistance_ 2 to all physical damage from non-silvered weapons and _Vulnerability_ 1 to Force damage and attacks from magical weapons. This creature may move through walls and solid objects at will, but cannot enter a wall if they would end their turn there.
+
+***Ghostly Form.*** This creature has no physical body and is immune to the Charm, Possession, and Poison conditions.
+
+***Flying.*** This creature can fly with its movement.
+
+**Actions**
+
+***Grasp.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>Deals 2 wound dice in death damage.
+
+***Strength Drain.*** *Maneuver*, *Melee Attack:* 7 AP, 1/0/4/0/0</br>The target makes a Stamina save, taking 1 wound in death damage, healing the Shadow for 1 wound. The target loses 1 Strength for every crit rolled, up to 2. Creatures regain their Strength after a long rest or after _Cleanse_ has been cast. A creature with a Strength of -4 or less dies, becoming a Shadow in 1 hour.
 ___
 
 #### Corpse Beast

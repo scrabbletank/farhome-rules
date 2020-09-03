@@ -46,13 +46,24 @@ In addition to skill checks and saving throws, you also have attack and spellcas
 Spellcasting is divided into two schools: Arcane spells and Divine spells. Arcane spells cover everything from shooting fire from your fingertips, turning people into frogs, creating illusions, or even teleporting to a new place. All Arcane spells use Mind as its attribute. Divine spells cover spells that heal, protect from or remove bad effects, to destroying undead or monstrous creatures. Divine spells use Charisma as its attribute.
 
 #### Spell Slots
-Casting spells requires a spell slot to be able to cast.
+To be able to cast a spell, just knowing the spell isn't enough. You need a spell slot of equal or higher level to cast a spell. Depending on your backgrounds your character will have a number of spell slots that increase as you level up. Casting a spell uses up a spell slot, but you regain spell slots every time you rest, up to your characters maximum.
+
+You don't need to match a spells level to cast a spell, you can use a spell slot with a higher level than the spell to increase the spells power. For example, you can cast a 1st level spell by using a 1st level spell slot or you can use a 2nd level spell slot to increase its potency. What benefits you get for casting at a higher level are listed in the spells discription. 
+
+Even Cantrips can be cast at a higher level, and are considered 0 level spells. This means using a 1st level spell slot will give a bonus to cantrips.
 
 #### Preparing Spells
+Another requirement for casting spells is having the spell prepared. Magic is difficult and requires constant study to keep the spells ready. Every time you long rest you can prepare a new set of spells. The number of spells you can prepare at any one time is equal to 5 plus 3 for every point of Mind you have.
+
+As long as you have spell slots remaining you may cast any prepared spell as many times as you want. For example, if I prepare the _Firebolt_ cantrip, I can cast it one time, every time, or never end up casting it.
+
+Prepared spells will eventually fade from your mind. Every time you make an Exhaustion roll due to skipping sleep or staying awake too long you have a chance of forgetting your prepared spells. Failing the Exhaustion roll causes you to forget everything but your cantrips, requiring you to take a long rest if you want to prepare more spells.
 
 #### Codex
+Before you can prepare a spell you need to have it written down somewhere. This is done in a spellbook, or codex. The codex holds all the spells you know, and you need to have your codex to be able to prepare spells from it. There's no limit to the number of spells you can have in your codex. When you find spell scrolls or other codices you can copy the spell into your spellbook. Copying is a destructive act, and will destroy the spell scroll or codex after copying 1 spell from it.
 
 #### Cantrips
+Cantrips are special spells that don't require a spell slot to cast, as long as they are prepared they are always available. Cantrips can still be cast at a higher level, and are considered 0 level spells for determining bonuses. When casting at a higher level you need a spell slot of that level to cast, regardless of if the spell is a Cantrip or not.
 
 ### Defense
 When defending against attacks and some spells you will need to make a Defense roll. Defense is gained through the armor you wear, if you have a shield, and can be effected by talents or abilities. Defense rolls use their own dice:
@@ -116,3 +127,43 @@ Starting at level 2 and every 2 levels after, when leveling up you increase one 
 
 #### Action Point Increase
 At levels 4, 7, and 10 your action point max increases by 1.
+
+
+### Combat
+When encountering hostile creatures you may end up in combat. In combat, each player or creature participating takes _turns_ in order. On your turn you have Action Points (or AP) to spend on a variety of actions. Once every player and creature has had a turn it marks the end of a _round_. Each round lasts 20 seconds in in-game time.
+
+#### Initiative
+When combat starts, every participating player and creature rolls initiative. Initiative determines the turn order, with higher initiative creatures going before lower initiative creatures.
+
+To determine your initiative you make a roll based on your Body attribute. This roll isn't considered a skill check or saving throw, and is only effected by some backgrounds and talents. To make your roll you roll 5 White dice, replacing a White die with a Green die for every point of Body you have.
+
+In some situations you or other creatures may be surprised. Surprised creatures add 3 failures to their Initiative rolls, and until they get their first turn any attacks against them have combat advantage.
+
+#### On your Turn
+Action Points, or AP, doesn't carry over from round to round. At the start of your turn your AP is set to your AP maximum, and you may take the following actions.
+
+##### Move (3AP, Once per Turn)
+When taking the move action, you may move up to your move speed in tiles. This movement doesn't have to happen all at once, and you may take other actions in between movements.
+
+##### Sprint(2AP, Once per Turn, usable only after the Move action)
+You may move up to your sprint speed in tiles. This movement follows the same rules as the Move action and may be split up between other actions.
+
+##### Attack (5 AP)
+You make an unarmed or weapon attack against a target in range.
+
+#### Off-hand Attack (2 AP, can only be used after attack, once per turn)
+If you are dual-wielding two weapons you can make an attack with your off-hand weapon. This acts the same as the Attack action, but uses your off-hand weapon instead.
+
+##### Defend (5 AP, Once per Turn)
+You take a defensive stance, adding 1 Defense die to your defense rolls, or 1 Superior Defense die if your wearing a shield. This lasts until the end of your next turn.
+
+##### Casting (AP Varies)
+You cast a spell you have prepared, as long as you meet the requirements for the spell. Each spell has their own AP cost, and as long as you have the AP there's no limit to the number of spells you can cast each turn.
+
+##### Maneuver (AP Varies)
+Maneuvers are special actions you can learn when leveling up. Each maneuver has it's own AP cost, and some have specific requirements in order to use. Maneuvers have a few other limitations:
+ - You may only use a single maneuver each turn.
+ - You can't use the same maneuver you used the previous turn.
+
+#### Use (2 AP)
+The default for using an item, drinking a potion, activating a magic item, or interacting with an object (eg: pulling a switch). Some magic items will give their own AP costs, using those instead. You can only drink one potion each round.
