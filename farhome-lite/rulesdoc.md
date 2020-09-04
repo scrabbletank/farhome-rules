@@ -151,7 +151,7 @@ You may move up to your sprint speed in tiles. This movement follows the same ru
 ##### Attack (5 AP)
 You make an unarmed or weapon attack against a target in range.
 
-#### Off-hand Attack (2 AP, can only be used after attack, once per turn)
+##### Off-hand Attack (2 AP, can only be used after attack, once per turn)
 If you are dual-wielding two weapons you can make an attack with your off-hand weapon. This acts the same as the Attack action, but uses your off-hand weapon instead.
 
 ##### Defend (5 AP, Once per Turn)
@@ -165,5 +165,68 @@ Maneuvers are special actions you can learn when leveling up. Each maneuver has 
  - You may only use a single maneuver each turn.
  - You can't use the same maneuver you used the previous turn.
 
-#### Use (2 AP)
+##### Use (2 AP)
 The default for using an item, drinking a potion, activating a magic item, or interacting with an object (eg: pulling a switch). Some magic items will give their own AP costs, using those instead. You can only drink one potion each round.
+
+#### Reactions
+Any AP you haven't spent on your turn can be spent on reactions. Reactions are special actions that are triggered by another creature taking some action. For example the spell _Counter Spell_ is a reaction that can only be used in response to another creature casting a spell. Creatures can take as many reactions as they want as long as they have enough AP to use those reactions.
+
+Surprised creatures have 0 AP and so cannot take reactions until after their first turn in combat. Creatures that haven't had their first turn but aren't surprised have all of their AP available.
+
+#### Zone of Control
+Each creature in combat creates a zone of control around them. Some abilities effect all creatures inside your zone of control, and opponents leaving your zone of control are open to opportunity attacks.
+
+Your zone of control covers all adjacent tiles when holding a melee weapon, extending out 1 tile if you have a weapon with _Reach_. Ranged weapons, such as bows or crossbows do not create zones of control.
+
+#### Darkness
+Depending on the action you gain bonuses or take penalties when taking actions in darkness. Most creatures cannot see in the dark, taking actions against a creature in darkness adds Red or Purple dice to your rolls. You add 1 Red die when attacking a creature in dim light, or 2 Purple dice when attacking a creature in darkness. A creature that can see in the dark has no penalties, and if the target cannot see them the attacker has combat advantage for the attack.
+
+#### Cover
+Creatures hiding behind cover add extra Superior Defense dice to their defense rolls or Yellow dice to their saving throws against ranged attacks and spells. There are two types of cover: partial and full cover. Partial cover would be given from something that either partially obscures you or is too small to fully hide behind, for example hiding behind a bush, or a wood fence. Full cover is given from something either large enough to hide behind or sturdy enough to block most attacks, such as a turned over table or hiding behind a stone wall. In either case cover gives you a bonus, with partial cover giving you 1 extra Superior Defense or Yellow die and full cover giving you 2 extra Superior Defense or Yellow dice.
+
+### Resting
+All adventurers need to rest from time to time. Resting replenishes your spell slots, your health, and can remove your exhaustion. There are two types of rests you can take: short rests and long rests. Short rests take an hour to complete while long rests take 8 hours, and you only get the benefit of the rest once the rest is completed. You can only take 2 short rests and 1 long rest a day, any more than that have no effect.
+
+#### Short Rest
+Short rests take an hour to complete. While resting you may roll any number of Healing Surges to restore missing wounds. If you have missing spell slots you restore up to 3 of them, starting with the lowest level slots and working your way up. Any talents or abilities that can only be used once per rest are recovered as well.
+
+#### Long Rest
+Long rests take 8 hours to complete. During your long rest you can spend at most 2 hours doing a simple, non-exhaustive task, such as preparing a meal or keeping watch. During your long rest you automatically heal 1 wound, and you may roll any number of Healing Surges to restore missing wounds. At the end of your long rest you regain 3 healing surges. If you have missing spell slots you restore up to 3 + your level in slots, starting with the lowesr level slots and working your way up. Any talents or items that can only be used a limited number of times per long rest are restored.
+
+#### Exhaustion
+
+### Conditions
+Conditions are negative effects that can be given a multitude of ways. Maneuvers, spells, and other abilities can inflict these conditions on players and creatures alike. While you can have multiple conditions effecting you at once, you can't have two of the same condition effecting your character. For example, if you're already Poisoned, getting poisoned again doesn't double its effect.
+
+#### Blind
+A Blind creature can't see and adds 2 Purple dice to any attacks or Body rolls.
+
+#### Dazed
+A Dazed creature can't take reactions and grants combat advantage to attackers.
+
+#### Feared
+A Feared creature adds 1 Bad die to all of their rolls (Except Mind saves) and can't move closer to the source of their fear.
+
+#### Grappled
+A Grappled creature can't move and automatically fails Body saving throws.
+
+#### Hexxed
+A Hexxed creature removes the first crit rolled from any dice roll they make. It does not count to your rolls total.
+
+#### Incapacitated
+An Incapacitated creature can't take any actions and fails all Body rolls.
+
+#### Paralyzed
+A paralyzed creature can't sprint and only gains half of their AP each turn.
+
+#### Poisoned
+A Poisoned creature adds 2 Bad dice to all attacks, skill checks, and saving throws.
+
+#### Slowed
+A Slowed creature has -1 to their move speed and doesn't add their Body score to their sprint speed.
+
+#### Staggered
+A Staggered creature grants combat advantage to attackers.
+
+#### Stunned
+A Stunned creature can't taky any actions, automatically fails Body rolls, and grants combat advantage to attackers.
