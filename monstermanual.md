@@ -28,6 +28,10 @@ Stat blocks for monsters as I make them, with some amount of organization.
 - [Baphomet - C35](#Baphomet)
 
 [Elementals](#Elementals)
+- [Fire Elemental - C5](#Fire-Elemental)
+- [Water Elemental - C5](#Water-Elemental)
+- [Air Elemental - C5](#Air-Elemental)
+- [Earth Elemental - C5](#Earth-Elemental)
 
 [Fey](#Fey)
 - [Sprite - C1/2](#Sprite)
@@ -56,6 +60,9 @@ Stat blocks for monsters as I make them, with some amount of organization.
 - [Owlfeather Harpy - C7](#Owlfeather-Harpy)
 
 [Outsiders](#Outsiders)
+- [Nothic - C4](#Nothic)
+- [Chasme - C6](#Chasme)
+- [Merculent - C7](#Merculent)
 
 [Undead](#Undead)
 - [Zombie - C2](#Zombie)
@@ -64,6 +71,7 @@ Stat blocks for monsters as I make them, with some amount of organization.
 - [Ghost - C4](#Ghost)
 - [Shadow - C6](#Shadow)
 - [Corpse Beast - C9](#Corpse-Beast)
+- [Helmed Horror - C13](#Helmed-Horror)
 
 ### Beasts
 
@@ -431,6 +439,98 @@ ___
 ___
 
 ### Elementals
+
+#### Fire Elemental
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 10 |
+ | **Wounds:** | - | **Challenge:** | 5 |
+ | **Move/Sprint** | 3/3 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/0|2/1|2/0|-1/0|1/0|0/0|
+
+___
+***Conjured.*** This Elemental is conjured, it's max wounds is determined by the spell that conjured it.
+
+***Elemental.*** This creature has _Resistance_ 2 to Fire damage.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound and 1 wound die in fire damage.
+
+***Firebolt.*** =*Ranged 10 Attack:* 5 AP, 0/2/3/0/0</br>Deals 1 wound in fire damage on hit, adding a wound die on crit.
+___
+
+#### Water Elemental
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 10 |
+ | **Wounds:** | - | **Challenge:** | 6 |
+ | **Move/Sprint** | 3/3 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/0|2/1|2/0|-1/0|1/0|0/0|
+
+___
+***Conjured.*** This Elemental is conjured, it's max wounds is determined by the spell that conjured it.
+
+***Elemental.*** This creature has _Resistance_ 2 to Cold damage.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound and 1 wound die in cold damage.
+
+***Freeze.*** *Maneuver, Melee Attack:* 5 AP, 0/3/2/0/0</br>Target makes a Stamina save. On fail they take 1 wound in Cold damage and gain Slow 1 for 1 minute, and are restraining until the end of their next turn on crit.
+___
+
+#### Air Elemental
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 10 |
+ | **Wounds:** | - | **Challenge:** | 6 |
+ | **Move/Sprint** | 3/3 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/0|2/1|2/0|-1/0|1/0|0/0|
+
+___
+***Conjured.*** This Elemental is conjured, it's max wounds is determined by the spell that conjured it.
+
+***Elemental.*** This creature has _Resistance_ 2 to Thunder and Lightning damage.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound and 1 wound die in thunder damage.
+
+***Gust.*** *Maneuver, Special:* 7 AP</br>Creates a torrent of wind in a direction away from the elemental. The gust is 3 tiles wide and 7 tiles long and lasts until the start of the elementals next turn. All creatures moving into the wind use an extra tile of movement for each tile moved. All ranged attacks moving into the wind add 1 Terrible dice to their attack.
+___
+
+#### Earth Elemental
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 10 |
+ | **Wounds:** | - | **Challenge:** | 6 |
+ | **Move/Sprint** | 3/3 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/0|2/1|2/0|-1/0|1/0|0/0|
+
+___
+***Conjured.*** This Elemental is conjured, it's max wounds is determined by the spell that conjured it.
+
+***Elemental.*** This creature has _Resistance_ 1 to Physical and Poison damage.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound and 1 wound die in thunder damage.
+
+***Harden.*** *Maneuver, Special:* 2 AP</br>Improve all defense dice to superior defense dice.
+___
 
 ### Fey
 
@@ -801,6 +901,47 @@ ___
 
 ### Outsiders
 
+#### Nothic
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 10 |
+ | **Wounds:** | 4 | **Challenge:** | 4 |
+ | **Move/Sprint** | 4/4 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|0/0|2/2|1/0|3/2|-1/0|1/0|
+
+___
+***Magic Sight.*** The Nothic's large eye can see the lingering effects of magic. It can see creatures under magical effects, see creatures hidden through magic, and can see disguised creatures as their true form. This feat has no effect if the Nothic is blinded.
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 4 AP, 1/1/3/0/0</br>Deals 2 wound dice in damage.
+
+***Tearing Gaze.*** *Maneuver, Ranged 3 Special:* 6 AP, 1/2/2/0/0</br>The target creature makes an Intelligence save. On fail they take 1 wound and 1 wound die in Psychic damage and the Nothic learns a secret or piece of information from the targets mind. On crit the target is stunned until the end of their next turn.
+___
+
+#### Chasme
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 1/3 | **AP:** | 10 |
+ | **Wounds:** | 6 | **Challenge:** | 6 |
+ | **Move/Sprint** | 4/2 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|4/0|1/0|1/0|-1/0|-1/0|1/0|
+
+___
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 4 AP, 1/3/1/0/0</br>Deals 3 wound dice in damage.
+
+***Savage Leap.*** *Maneuver, Melee Attack:* 5 AP, 1/3/1/0/0</br>Leap 2 tiles towards a target, avoiding opportunity attacks. On hit the target takes 1 wound and 2 wound dice in damage.
+___
+
 #### Merculent
  | | | | |
  |:---|---:|:---|---:|
@@ -960,4 +1101,27 @@ ___
 ***Claw.*** *Melee Attack:* 5 AP, 1/3/1/0/0</br>Deals 3 wound dice. On crit the target is paralyzed for 1 minute.
 
 ***Devour.*** *Maneuver*, *Melee Attack:* 7 AP, 0/4/1/0/0</br>Only usable against paralyzed living creatures with a size of Medium or smaller. Target takes 2 wound dice in damage and are swalloed by the Corpse Beast. While they are devoured the Corpse Beasts movement is reduced to 1. The creature is incapacitated and at the start of their turn takes a wound in damage and gains a random Lesser Wound. After taking 5 or more damage in a single round the Corpse Beast regurgitates the creature leaving them prone in an adjacent tile. Only one creature may be Devoured at a time. A creature that dies inside a Corpse Beast is regurgitated as a Zombie.
+___
+
+#### Helmed Horror
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 3/2 | **AP:** | 12 |
+ | **Wounds:** | 13 | **Challenge:** | 13 |
+ | **Move/Sprint** | 3/2 | **Size:** | Medium |
+ 
+|STR|DEX|CON|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|4/4|-2/0|4/3|0/0|2/1|0/0|
+
+___
+***Undead.*** This creature gets 2 wounds per Stamina instead of 1. When taking lethal damage, as long as the attack did not crit roll a wound die. On blank the Helmed Horror survives with 1 health.
+
+**Actions**
+
+***Serrated Blade.*** *Melee Attack:* 4 AP, 2/2/1/0/0</br>Deals 1 wound in damage.
+
+***Unholy Smite.*** *Maneuver, Melee Attack:* 4 AP, 3/2/1/0/0</br>Deals 1 wound and 2 wound dice in death damage. Can only be used 3 times per day.
+
+***Shield Bash.*** *Maneuver*, *Melee Attack:* 2 AP, 1/4/1/0/0</br>Deals 1 wound in damage and the target is staggered until the start of their next turn.
 ___

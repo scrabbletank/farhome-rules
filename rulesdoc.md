@@ -1333,7 +1333,7 @@ ___
 
 You conjure an elemental construct at a target location. You can create an air, water, earth, or fire elemental. Make a spellcasting roll against 2 Terrible dice, on success you conjure an elemental with wounds equal to your spellcasting roll. The elemental is a medium creature, becoming a large creature if it has 5 wounds or more. The elemental uses your spellcasting roll for attacks and has Resistance 2 against its own element.
 
-The elemental gains 1 max AP for every level cast above 4th.
+The elemental gains 1 max AP and you add a superior dice for every level cast above 4th.
 ___
 > ## Elemental
 > ___
@@ -1437,7 +1437,7 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** Force
 
-Summon magical star shards to fall over a target area. You cover a 9x9 tile area centered on a point in range. For the duration, any creature that starts their turn in the area rolls a wound die. On wound, a star falls into them and they must make a Strength save against your spellcasting, taking a wound on fail and adding a wound die on crit.
+Summon magical star shards to fall over a target area. You cover a 9x9 tile area centered on a point in range. For the duration, any creature that starts their turn in the area makes a Strength save against your spellcasting. On fail they take 1 wound, adding a wound die on crit.
 
 Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 
@@ -4030,6 +4030,9 @@ Spells with a range of 5 tiles or more gain +3 range. Spell attacks against crea
 #### Attuned Spirit
 You resonate particularly well with magic items. You may attune to 4 items at one time, instead of 3. If an item your attuned to grants you a bonus to your attributes, you gain an equal bonus to that attributes saving throw.
 
+#### Dual-Wield Expert
+You have no penalties from dual wielding, and you count as holding a shield when taking the Defend action.
+
 ___
 ### Journeyman
 
@@ -4252,6 +4255,11 @@ When inscribing a rune you may add 1 Bad die to the challenge roll, on success y
 *Requires proficiency with Scribing Tools, 3 Intelligence, 10th Level*
 
 Your experience with spell scrolls enables you to create spell scrolls for spells you don't know. You may research any spell at or below your casting level. Researching a spell costs double the normal costs for creating a spell scroll and takes 1 week of work for spells below 4th level, adding an additional week for every level at 4th and above. You add 1 Terrible die to the challenge roll, creating the spell scroll on success.
+
+#### Retaliate
+*Requires Dual-Wield Mastery, 6th Level*
+
+When a creature attacks you, you may make a reaction attack against them. This attack costs 2 AP, and you may only use this on the same creature once per round.
 
 ___
 ### Advanced
