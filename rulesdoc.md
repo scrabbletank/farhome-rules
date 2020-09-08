@@ -27,12 +27,11 @@
 
 [Spells](#Spells)
 - [Spellbooks](#Spellbooks)
-- [Spell Slots](#Spell-Slots)
+- [Mana](#Mana)
 - [Preparing Spells](#Preparing-Spells)
 - [Casting Spells](#Casting-Spells)
 - [Concentration](#Concentration)
 - [Cantrips](#Cantrips)
-- [Spell Slots](#Spellbooks)
 
 [Creating a Character](#Creating-a-Character)
 - [Starting Equipment](#Starting-Equipment)
@@ -297,7 +296,7 @@ Weapon proficiencies are split between 4 categories: One Handed, Two Handed, Ran
 
 Spells are split into 3 schools: Arcane, Curse, and Divine. Each school handles a different type of spell and uses a different attribute for its spellcasting. Arcane spells use the elements and raw power to defeat their foes, using Intelligence for its attribute. Curse spells disable and debuff their targets and uses Willpower. Divine spells center around healing and buffing targets and uses Charisma.
 
-To cast a spell you must have a codex containing the spell you want to cast, have the spell prepared, and have a spell slot with a high enough level to cast the spell.
+To cast a spell you must have a codex containing the spell you want to cast, have the spell prepared, and have enough mana to cast the spell.
 
 ### Spellbooks
 
@@ -306,9 +305,18 @@ Very few creatures are able to innately cast magic. Almost everyone must prepare
 ##### Variant Rule - Spells from Codexes
 In some games spells may be limited, or codecies a rare occurance. With this variant when copying a spell from a codex, instead of destroying the codex you make an Arcana check against 2 bad dice. On success codex is not destroyed. Regardless a spell can only be copied once.
 
-### Spell Slots
+### Mana
 
-Casting spells of 1st level and above takes a toll on the caster, a character can only cast so many of these spells before needing to rest. To cast a spell you need a spell slot with a level equal to or greater than the spells level. Once a spell slot is used you cannot use that spell slot again until you complete a rest.
+Casting spells of 1st level and above takes a toll on the caster, a character can only cast so many of these spells before needing to rest. Your mana is consumed each time you cast a spell, and you cannot cast a spell if you do not have the mana to cast it. Spells cost 1 mana per level to cast, increasing in cost at certain levels. You recover mana after taking a short or long rest.
+
+| Spell Level | Mana |
+|:----:|:-------------|
+| 1st-4th | Spell level |
+| 5th-8th  | Spell level +1 |
+| 9th-10th | Spell level +3 |
+
+### Spell Power
+Spell power determines how attuned your body is to spellcasting and how easily it is to get mana. When leveling up you may choose to get mana based on your spell power. By default your spell power is equal to your characters level, and can be increased through leveling up or through feats.
 
 ### Preparing Spells
 
@@ -320,7 +328,17 @@ Once prepared spells are castable until the next day, even without your Codex. T
 
 Each spell has either an AP cost or a time given as its casting time. There is no limit to the number of spells you can cast a turn, as long as you have the AP to do so. Casting a spell that lists a time instead of AP can still be used in combat, but requires the casting time worth of full turns. For example casting a spell with a cast time of 1 minute requires 3 full turns to cast.
 
-All spells, including cantrips, can be cast at a higher level if you have a spell slot available. Casting spells this way give additional effects listed in the spell.
+All spells, including cantrips, can be cast at a higher level if you have enough mana available. When casting at a higher level you spend Mana equal to the level your casting at, not the spells base level. Casting spells this way give additional effects listed in the spell.
+
+Depending on your character's level you will only be able to cast, or up-cast, spells to a certain level. The table blow shows the maximum level your character can cast based on their level.
+
+| Player Level | Spell Level | Player Level | Spell Level |
+|:----:|:----:|:----:|:----:|
+| 1st  | 1st | 15th | 6th |
+| 3rd  | 2nd | 18th | 7th |
+| 6th | 3rd | 21st | 8th |
+| 9th | 4th | 24th | 9th |
+| 12th | 5th | 27th | 10th |
 
 ### Concentration
 
@@ -330,11 +348,11 @@ When you take damage while concentrating on a spell you must pass a Stamina save
 
 ### Cantrips
 
-Cantrips are spells that do not require a spell slot to cast, but must still be prepared like the rest of your spells. For casting at a higher level, cantrips are considered level 0 spells and gain benefits when even a 1st level spell slot is used to cast it.
+Cantrips are spells that do not require mana to cast, but must still be prepared like the rest of your spells. For casting at a higher level, cantrips are considered level 0 spells and gain benefits when even 1 mana is used to cast it.
 
 ### Variant Rule - Misfires
 
-While anyone can cast any spell they have a spell slot for, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a different spell, you add 2 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
+While anyone can cast any spell they have the mana for, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a different spell, you add 2 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
 
 ##### Ability Ranks
 | Attribute | Spell Levels |
@@ -352,7 +370,7 @@ Roll 2 bad dice, counting the successes.
 
 | Roll | Misfire |
 |:----:|:-------------|
-| -4  | Lesser Wound: Mana leak. Every time you take at least 1 wound you lose your lowest spell slot available. Lasts until cured with _Treat Injury_ or you take a Long Rest. |
+| -4  | Lesser Wound: Mana leak. Every time you take at least 1 wound you lose 2 mana. Lasts until cured with _Treat Injury_ or you take a Long Rest. |
 | -3 | Your spell backfires, roll a wound die for every remaining failure from your spellcasting roll, taking a wound for every wound rolled. |
 | -2 | Wild magic fills the area around you, you and all creatures within 3 tiles add 1 terrible die to their next roll |
 | -1 | Your flow of magic is interrupted, you add 1 terrible die to all spellcasting rolls for the next minute |
@@ -399,24 +417,24 @@ Depending on your background you may start with additional gear. All players sta
 
 When you earn 1000 experience your character levels up. Each level you gain 2 proficiency points and choose one of the following bonuses:
 
-- Gain up to 4 spell slots*
+- Gain 3 spell power. Gain mana based on your spell power below.*
 - Gain 4 proficiency points
 - Gain a Feat
 - Learn a Maneuver
 - Increase your max wounds by 1
 
-##### Spell Slots
-The sum total of spell slots gained each level cannot exceed twice your Spell level, and each spell slot cannot exceed your Spell level. 
+**Mana**
+When gaining mana, you apply the spell power gained from leveling up before adding mana from the chart below.
 
-For example, a 2nd level player has a spell level of 1, and so can gain 2 level 1 spell slots. A 4th level character can get 2 2nd level spell slots, or 1 2nd level and 2 1st, or 4 1st level spell slots.
-
-| Player Level | Spell Level | Player Level | Spell Level |
-|:----:|:----:|:----:|:----:|
-| 1st  | 1st | 15th | 6th |
-| 3rd  | 2nd | 18th | 7th |
-| 6th | 3rd | 21st | 8th |
-| 9th | 4th | 24th | 9th |
-| 12th | 5th | 27th | 10th |
+| Player Level | Spell Level |
+|:----:|:----:|
+| 1-8  | 3 |
+| 9-18  | 4 |
+| 19-28 | 5 |
+| 29-40 | 7 |
+| 41-55 | 9 |
+| 56-70 | 12 |
+| 70+ | 15 |
 
 
 #### Attribute Score increase
@@ -538,15 +556,11 @@ During the adventuring day you will sometimes need to take a rest to recover hea
 
 ### Short Rest
 
-Short rests require an hour of uninterrupted rest to complete. During a short rest you may spend any number of healing surges to restore lost wounds. 
-
-Spellcasters restore up to 1/3rd of their level, rounded up, in spell slots. You may restore any number of spell slots this way as long as the sum level is not greater than 1/3rd of your level.
+Short rests require an hour of uninterrupted rest to complete. During a short rest you may spend any number of healing surges to restore lost wounds. You regain mana equal to half your character's level, rounded up, with a minimum of 1.
 
 ### Long Rest
 
-Long rests require 8 hours of rest, with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, brewing potions, etc. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds.
-
-Spellcasters restore up to their level in spell slots. You may restore any number of spell slots this way as long as the sum level is not greater than your level. In addition you may prepare new spells for the day.
+Long rests require 8 hours of rest, with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, brewing potions, etc. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds. You regain mana equal to 3 + your character's level.
 
 ### Exhaustion
 All adventurers need to rest from time to time, trying to do too much in a day can leave you exhausted. You can gain exhaustion from many places, from travelling too long, not taking rests, spells, or abilities. At 6 levels of exhaustion you drop dead.
@@ -683,7 +697,7 @@ ___
 
 ##### Innate Magic
 
-You may learn a single cantrip, this cantrip does not require a codex to cast. On a short rest you recover an additional level worth of spell slots.
+You may learn a single cantrip, this cantrip does not require a codex to cast. You start with 1 extra mana and recover 1 extra mana each short and long rest.
 
 ___
 #### Wood Elf
@@ -3812,9 +3826,9 @@ ___
 - **Range:** Melee
 - **Level Required:** 3/12
 
-Empower your weapon with holy might. This attack consumes up to a 2nd level spell slot. Make a normal weapon attack, using your divine spellcasting proficiency instead of your weapon proficiency, adding a proficient die to the roll. On hit, the target takes normal weapon damage, plus 1 wound die per spell level used in holy damage. If the target is undead, they take wounds instead. On crit, if the target is undead they are turned for 1 minute.
+Empower your weapon with holy might. This attack consumes up to 2 mana. Make a normal weapon attack, using your divine spellcasting proficiency instead of your weapon proficiency, adding a proficient die to the roll. On hit, the target takes normal weapon damage, plus 1 wound die per mana used in holy damage. If the target is undead, they take wounds instead. On crit, if the target is undead they are turned for 1 minute.
 
-***Enhanced:*** Add a superior die instead of a proficient die to your attack roll, you may use up to 4th level spell slots.
+***Enhanced:*** Add a superior die instead of a proficient die to your attack roll, you may use up to 4 mana.
 
 ___
 #### Savage Leap
@@ -3845,7 +3859,7 @@ ___
 - **Range:** Weapon Range
 - **Level Required:** 4/16
 
-You channel magic into your weapon, empowering the next attack and consuming a spell slot. Make a weapon attack against a target adding 1 proficient die to the roll, on hit the target takes normal damage. Regardless of the outcome the arrow turns to energy and pierces through, hitting 2 tiles directly behind the target. Any creatures hit must make a defense roll vs your attack, taking a wound on hit. The arrow pierces 1 tile further per spell level consumed.
+You channel magic into your weapon, empowering the next attack and consuming up to 3 mana. Make a weapon attack against a target adding 1 proficient die to the roll, on hit the target takes normal damage. Regardless of the outcome the arrow turns to energy and pierces through, hitting 2 tiles directly behind the target. Any creatures hit must make a defense roll against your attack, taking a wound on hit. The arrow pierces 1 tile further per mana consumed.
 
 ***Enhanced:*** On crit, deal an additional wound die to all targets.
 
@@ -3930,13 +3944,13 @@ You bring the full weight of your weapon down on a target. Make a normal weapon 
 ### Backgrounds
 
 #### Magician's Apprentice
-You gain proficiency in Arcane spells. You gain 2 level 1 spell slot and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency in Arcana and Lore.
+You gain proficiency in Arcane spells. You gain 2 mana and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency in Arcana and Lore.
 
 #### Coven Witch
-You gain proficiency in Curse spells. You gain 2 level 1 spell slot and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency Nature and apothecary tools.
+You gain proficiency in Curse spells. You gain 2 mana and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency Nature and Apothecary Tools.
 
 #### Priest
-You gain proficiency in Divine spells. You gain 2 level 1 spell slot and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency in Religion and Medicine.
+You gain proficiency in Divine spells. You gain 2 mana and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency in Religion and Medicine.
 
 #### Soldier
 You learn 1 maneuver you meet the requirements for and gain proficiency in 3 martial weapons. You may also choose one of the following trainings:
@@ -3965,12 +3979,12 @@ You start with Scalemail Armor and a martial weapon of your choice.
 Either by circumstance or choice, your time in the pits has honed your senses in battle. You gain 1 proficiency in Unarmed fighting and 2 proficiency points for any martial weapons. While wearing light or no armor your sprint speed is increased by 1. When attacked by a creature inside your zone of control you may improve one defense die to a superior defense die.
 
 #### Chosen
-You are beholden to a greater power, either by choice or folly. For better or worse they have given you some of their power. Choose a cantrip or level 1 spell. Once per rest you may cast that spell without needing to prepare it or expend a spell slot, adding 1 superior die to the spellcasting roll. Spells cast this way are cast at your highest spell level. You may change your Chosen spell by spending a week of downtime, choosing a new spell at or below your spell level, and no higher than 5th level.
+You are beholden to a greater power, either by choice or folly. For better or worse they have given you some of their power. Choose a cantrip or level 1 spell. Once per rest you may cast that spell without needing to prepare it or expend mana, adding 1 superior die to the spellcasting roll. Spells cast this way are cast at your highest spell level. You may change your Chosen spell by spending a week of downtime, choosing a new spell at or below your spell level, and no higher than 5th level.
 
 You gain 1 proficiency with Lore, Religion, and Survival.
 
 #### Enchanter
-You have learned the trade of an enchanter, allowing you to empower mundane items. You gain 1 proficiency in Lore, Arcana, and Diplomacy, and Enchanting tools. Enchantments cost half as much when done by yourself, and you may use 2 pieces of enchanted gear instead of 1. You start with 2 level 1 spell slots.
+You have learned the trade of an enchanter, allowing you to empower mundane items. You gain 1 proficiency in Lore, Arcana, and Diplomacy, and Enchanting tools. Enchantments cost half as much when done by yourself, and you may use 2 pieces of enchanted gear instead of 1. You start with 2 mana.
 
 
 #### Disciple
@@ -4016,7 +4030,7 @@ You gain proficiency in Curse spells.
 You gain proficiency in Divine spells.
 
 #### Battle Mage
-If you cast a cantrip or 1st level spell, your next basic attack costs 2 less AP. The spell level increase to 2 at 7th level, and 3 at 15th level.
+If you cast a cantrip or 1st level spell, your next basic attack costs 2 less AP. The spell level increase to 2 at 7th level, and 3 at 15th level, and 4th at 25th level.
 
 #### Flurry of Blows
 After an unarmed attack, if you have nothing in your offhand you may take the Off-Hand attack action, making two unarmed attacks instead of one, each rolling a single wound for damage.
@@ -4098,7 +4112,7 @@ While not in direct sunlight you have expertise in stealth. While in dim light o
 #### Beast Speech
 *Requires Chosen, proficiency in Conversation*
 
-You can speak with animals and cast _Animal Messenger_ at 1st level without a codex and without spending a spell slot.
+You can speak with animals and cast _Animal Messenger_ at 1st level without a codex and without spending mana.
 
 
 #### Action Surge
@@ -4136,7 +4150,7 @@ If used again before a long rest, add a terrible die for every time this has bee
 #### Elemental Affinity
 *Requires proficiency with Arcane spells, 3 Intelligence*
 
-Your mastery of magic has enhanced your abilities with a given element. Choose fire, cold, lightning, thunder, or poison. Spells you cast of this element ignore 1 level of resistance and you add 1 superior die to those spells spellcasting roll. In addition you gain 1 superior die when making saving throws against spells with that damage type.
+Your mastery of magic has enhanced your abilities with a given element. Choose fire, cold, lightning, thunder, force, or poison. Spells you cast of this element ignore 1 level of resistance and you add 1 superior die to those spells spellcasting roll. In addition you gain 1 superior die when making saving throws against spells with that damage type.
 
 #### Evasion
 *Requires Agile, 3 Dexterity*
@@ -4149,9 +4163,9 @@ When targeted by a non-single target attack, maneuver, or spell you may spend up
 When you make a melee attack against a creature with a weapon you are proficient in, they cannot make opportunity attacks against you until the start of your next turn, regardless of the outcome of the attack. In addition, you add 1 superior defense die to opportunity attacks made while taking the move action, but not sprinting.
 
 #### Twinned Spell
-*Requires Proficiency with Arcane spells, 15th Level*
+*Requires 4 Proficiency with Arcane spells, 15th Level*
 
-When casting an Arcane spell you may cast a second copy of the spell, using another spell slot but costing no additional AP. The spells must have different targets, and creatures can only be affected by one of the two spells when their area of effect overlap. You use a single spellcasting roll for both spells, adding 2 terrible die to your roll.
+When casting an Arcane spell you may cast a second copy of the spell, using twice the mana but costing no additional AP. The spells must have different targets, and creatures can only be affected by one of the two spells when their area of effect overlaps. You use a single spellcasting roll for both spells, adding 1 Terrible die to your roll.
 
 #### Potent Curses
 *Requires Witch or Coven Witch, 3 Willpower*
@@ -4167,7 +4181,7 @@ You add 1 superior die when making Enchantment rolls. Enchantments you make last
 #### Mana Font
 *Requires 2 Intelligence*
 
-While in combat you may spend 3 AP to restore spell slots with a combined level equal to 1/3rd of your level, rounded up. After use, cannot be used again until taking a rest.
+While in combat you may spend 3 AP to restore mana equal to half your level, rounded up. After use, cannot be used again until taking a rest.
 
 #### Arcane Forge
 *Requires proficiency with Enchanters Tools*
@@ -4244,7 +4258,7 @@ Your are able to mend even the most fatal of wounds. When casting a healing spel
 #### Spellspeaker
 *Requires proficiency with Scribing Tools, Arcana*
 
-You may use spell scrolls to cast the spell written on them. When using a spell scroll you cast as normal, consuming a spell slot but not requiring the spell to be prepared. After casting the spell make an Arcana check against the spells inscribing difficulty. On fail the spell scroll is destroyed.
+You may use spell scrolls to cast the spell written on them. When using a spell scroll you cast as normal, consuming mana but not requiring the spell to be prepared. After casting the spell make an Arcana check against the spells inscribing difficulty. On fail the spell scroll is destroyed.
 
 #### Runesmith
 *Requires proficiency with Scribing Tools, 1 Dexterity*
@@ -4261,6 +4275,10 @@ Your experience with spell scrolls enables you to create spell scrolls for spell
 
 When a creature attacks you, you may make a reaction attack against them. This attack costs 2 AP, and you may only use this on the same creature once per round.
 
+#### Mana Recovery
+*Requires 3 proficiency in Arcane, 7th Level*
+
+When casting _Barrier_, _Counter Spell_, or blocking spell damage with _Elemental Shell_ you regain 1 mana, or 2 mana if the spell is 6th level and above, regardless of the rolls outcome.
 ___
 ### Advanced
 
@@ -4330,10 +4348,10 @@ Each character can only take 1 legendary feat, regardless of requirements.
 
 When rolling wounds from an attack or maneuver that uses your strength you may instead treat all wound dice as wounds. You can do this up to your strength score, after which you must long rest before using again.
 
-#### Fleetfoot
+#### Turnabout
 *Requires 5 Dexterity, 20th Level*
 
-When taking a move or sprint action you may spend 1 additional AP to become immune to opportunity attacks.
+When the target of an attack, if the attack misses you may make an opportunity attack against the target.
 
 #### Juggernaut
 *Requires 5 Stamina, 20th Level*
@@ -4489,7 +4507,7 @@ Roll 3 terrible dice, adding the successes. For each critical, move up one level
 | | -9 | Deadly Infection | Your max wounds are reduced by 1. At the end of each Long rest your max wounds are reduced again. |
 | | -8 | Broken Arm | You can only hold a One-Handed weapon or shield, not both. |
 | | -7 | Punctured Chest | All wound dice count as a wound, regardless of result. |
-| | -6 | Magic Tearing | Add bad dice to your spellcasting rolls equal to the spell slot's level. Spells Misfire if you fail your roll, regardless of ability. |
+| | -6 | Magic Tearing | Add bad dice to your spellcasting rolls equal to the spells level. Spells Misfire if you fail your roll, regardless of ability. |
 | | -5 | Torn Muscle | You are permanently Weakened. |
 | | -4 | Collapsed Lung | Your stamina is reduced by 1, all conditions that last until the end of your turn last an extra turn. |
 | | -3 | Broken Leg | You cannot sprint, and your move speed is reduced by 2. |
@@ -4652,31 +4670,31 @@ on hit inflicts Poison 3 for 10 minutes.
 
 ___
 #### Enchanters Tools
-  During a long rest you may attempt to enchant a single piece of mundane gear. Enchanted gear lasts for 3 days and count as magical equipment for the duration. After the Ehcantment ends the gear returns to being mundane. To enchant a piece of gear you must have a spell slot available and enough enchanting supplies for the enchantment. Then you must pass the enchanting roll, with failure consuming the spell slot and supplies but not giving the enchantment. Most cities and towns will sell enchanting supplies.
+  During a long rest you may attempt to enchant a single piece of mundane gear. Enchanted gear lasts for 3 days and count as magical equipment for the duration. After the Ehcantment ends the gear returns to being mundane. To enchant a piece of gear you must have mana available and enough enchanting supplies for the enchantment. Then you must pass the enchanting roll, with failure consuming the mana and supplies but not giving the enchantment. Most cities and towns will sell enchanting supplies.
   
-  The enchanting roll uses your skill with your enchanters tools. You may spend additional spell slots of equal level or higher to add proficient die for each spell slot spent. Ammunition loses it's enchantment on hit, whether the effect is triggered or not.
+  The enchanting roll uses your skill with your enchanters tools. You may spend additional mana, adding a proficient die for every 3 mana added. Ammunition loses it's enchantment on hit, whether the effect is triggered or not.
 
   A creature can only use 1 piece of enchanted equipment at a time.
   
   ##### Enchantments
-| | Name | Spell Slot | Supplies | Roll | Effect |
+| | Name | Mana | Supplies | Roll | Effect |
 |:----:|:-----:|:-----:|:-----:|:-----:|:-------------|
 | _Weapon_ | | | | | | 
-| | Skillful | 1st | 1 |2B | You gain 1 proficiency with this weapon type. |
-| | Brutality | 2nd | 3 |2B/1T | When you critical with this weapon, add an extra wound die to the damage. |
-| | Hexblade | 2nd | 3 |2B/1T | When you critical with this weapon the target gains Hex 1 for 1 minute. |
-| | Quickened | 3rd | 4 |2B/2T | The first attack made with this weapon each turn costs 1 less AP. |
+| | Skillful | 1 | 1 |2B | You gain 1 proficiency with this weapon type. |
+| | Brutality | 2 | 3 |2B/1T | When you critical with this weapon, add an extra wound die to the damage. |
+| | Hexblade | 2 | 3 |2B/1T | When you critical with this weapon the target gains Hex 1 for 1 minute. |
+| | Quickened | 3 | 4 |2B/2T | The first attack made with this weapon each turn costs 1 less AP. |
 | Armor | | | | | | 
-| | Durable | 2nd | 4 |2B/2T | If a spell or effect targetting this armor would damage it, roll a wound die. On a blank the armor takes no damge. |
-| | Lightened | 3rd | 4 |2B/2T | Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalities and initiative |
+| | Durable | 2 | 4 |2B/2T | If a spell or effect targetting this armor would damage it, roll a wound die. On a blank the armor takes no damge. |
+| | Lightened | 3 | 4 |2B/2T | Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalities and initiative |
 | _Shield_ | | | | | | 
-| | Lesser Block | 2nd | 2 |2B/1T | You may reroll 1 defense die when making defense rolls. |
-| | Greater Block | 4th | 5 |2B/3T | You may reroll 2 defense die when making defense rolls. |
+| | Lesser Block | 2 | 2 |2B/1T | You may reroll 1 defense die when making defense rolls. |
+| | Greater Block | 4 | 5 |2B/3T | You may reroll 2 defense die when making defense rolls. |
 | _Ammunition_ | | | | | | 
-| | Staggering | 1st | 1 |2B | On critical the target is staggered until the start of your next turn. Makes 3 ammunition |
-| | Slowing | 1st | 1 |2B | On critical the target gains Slow 1 until the start of your next turn. Makes 3 ammunition |
-| | Homing | 2nd | 2 |2B/1T | Creates 3 +1 magical ammunition. |
-| | Slaying | 3rd | 2 |2B/3T | Choose a creature type. This arrow deals an extra 3 wounds against creatures of this type. |
+| | Staggering | 1 | 1 |2B | On critical the target is staggered until the start of your next turn. Makes 3 ammunition |
+| | Slowing | 1 | 1 |2B | On critical the target gains Slow 1 until the start of your next turn. Makes 3 ammunition |
+| | Homing | 2 | 2 |2B/1T | Creates 3 +1 magical ammunition. |
+| | Slaying | 3 | 2 |2B/3T | Choose a creature type. This arrow deals an extra 3 wounds against creatures of this type. |
 
 
   
@@ -4684,35 +4702,35 @@ ___
 
 ___
 #### Scribing Tools
-A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a single rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and wards requires spell slots and uses a mix of gemstones and enchanting supplies which can be found in most cities.
+A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a single rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and wards requires mana and uses a mix of gemstones and enchanting supplies which can be found in most cities.
 
 #### Inscribing Spell Scrolls
-You can create a spell scroll for any spell in your codex that you are able to cast. Creating a spell scroll of 3rd level or lower can be done during a long rest, with spells of 4th level and higher taking 1 day of work for each level above 3rd. You must have a spell slot of the same level or higher available which is consumed in creating the scroll.
+You can create a spell scroll for any spell in your codex that you are able to cast. Creating a spell scroll of 3rd level or lower can be done during a long rest, with spells of 4th level and higher taking 1 day of work for each level above 3rd. You must have enough mana available which is consumed in creating the scroll.
 
 When copying spells from a Codex you can instead use your scribing tools to create a spell scroll. Doing so costs a single enchanting supply regardless of spell level, but ignores all other costs for creating spell scrolls. For each spell you want to remove from the Codex and turn into a scroll make a inscription roll against that spell levels difficulty. On success you create a spell scroll for that spell, with failure destroying the codex.
 
 ##### Spell Scrolls
-| Level | Spell Slot | Gemstones | Supplies | Challenge Dice |
+| Level | Mana | Gemstones | Supplies | Challenge Dice |
 |:-----:|:-----:|:-----:|:-----:|:-------------|
-| Cantrip | 1st | 10gp gemstone | 0 | 1B |
-| 1st | 1st | 10gp gemstone | 1 | 1T |
-| 2nd | 2nd | 25gp gemstone | 1 | 2T |
-| 3rd | 3rd | 25gp gemstone | 2 | 3T |
-| 4th | 4th | 50gp gemstone | 2 | 4T |
-| 5th | 5th | 50gp gemstone | 3 | 5T |
-| 6th | 6th | 100gp gemstone | 4 | 6T |
-| 7th | 7th | 250gp gemstone | 5 | 7T |
-| 8th | 8th | 500gp gemstone | 7 | 8T |
-| 9th | 9th | 1000gp gemstone | 10 | 9T |
+| Cantrip | 1 | 10gp gemstone | 0 | 1B |
+| 1st | 1 | 10gp gemstone | 1 | 1T |
+| 2nd | 2 | 25gp gemstone | 1 | 2T |
+| 3rd | 3 | 25gp gemstone | 2 | 3T |
+| 4th | 4 | 50gp gemstone | 2 | 4T |
+| 5th | 6 | 50gp gemstone | 3 | 5T |
+| 6th | 7 | 100gp gemstone | 4 | 6T |
+| 7th | 8 | 250gp gemstone | 5 | 7T |
+| 8th | 9 | 500gp gemstone | 7 | 8T |
+| 9th | 12 | 1000gp gemstone | 10 | 9T |
 
 #### Inscribing Runes
-You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe you need to have the required supplies and a spell slot of the same level or higher which is consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Once triggered the rune is consumed regardless of the result. Unless otherwise stated, runes that agument spells require no AP to use while placing a rune takes 2 AP.
+You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe you need to have the required supplies and mana which are consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Once triggered the rune is consumed regardless of the result. Unless otherwise stated, runes that agument spells require no AP to use while placing a rune takes 2 AP.
 
 ##### Runes
-| Rune | Spell Slot | Gemstones | Supplies | Challenge Dice | Effect |
+| Rune | Mana | Gemstones | Supplies | Challenge Dice | Effect |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-------------|
-| Longcaster | 1st | 1 10gp gemstone | 0 | 1B | Doubles the range of a spell that does not have a range of self or touch. |
-| Potency | 1st | - | 1 | 2B | The first success in your spellcasting roll counts as a crit in addition to its dice value. |
-| Fire Ward | 2nd | - | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Dexterity save vs 2 Superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
-| Arc Ward | 2nd | - | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save vs 2 Superior dice, becoming Paralyzed for 1 minute on fail. |
-| Expanding | 3rd | 1 25gp gemstone | 1 | 2T | Increases the area effected by a spell by 1. |
+| Longcaster | 1 | 1 10gp gemstone | 0 | 1B | Doubles the range of a spell that does not have a range of self or touch. |
+| Potency | 1 | - | 1 | 2B | The first success in your spellcasting roll counts as a crit in addition to its dice value. |
+| Fire Ward | 2 | - | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Dexterity save vs 2 Superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
+| Arc Ward | 2 | - | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save vs 2 Superior dice, becoming Paralyzed for 1 minute on fail. |
+| Expanding | 3 | 1 25gp gemstone | 1 | 2T | Increases the area effected by a spell by 1. |
