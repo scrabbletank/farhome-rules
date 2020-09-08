@@ -401,17 +401,20 @@ Finally, choose 2 of the following bonuses.
 Instead of using the rules above for attributes, your group may decide to roll your scores. For each attribute roll 1 Superior, 3 Normal, and 1 Terrible die, adding up the total successes. The minimum score for an attribute is -2, with any rolls below that counting as -2 for the roll.
 
 ### Starting Equipment.
-Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire starter and 50ft of rope. In addition you start with 50 gold which you can spend on gear or upgrades. Any unspent gold becomes your characters starting money.
+Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire starter and 50ft of rope. In addition you start with 50 silver which you can spend on gear or upgrades. Any unspent silver becomes your characters starting money.
+
+#### Currency
+Currency in Farhome is divided into 3 types: the copper trite, silver cross, and platinum talent. An iron cross is worth 100 copper trites, and a platinum talent is worth 100 silver crosses.
 
 | Cost | Upgrade |
 |:----:|:-------------|
-| 5g  | Buy any simple weapon. |
-| 10g | Cantrip or Level 1 Spell |
-| 10g | Basic Healing Potion |
-| 10g | Buckler |
-| 15g | Padded or Studded armor. |
-| 15g | any martial weapon. |
-| 20g | Upgrading armor to the next type |
+| 5sc  | Buy any simple weapon. |
+| 10sc | Cantrip or Level 1 Spell |
+| 10sc | Basic Healing Potion |
+| 10sc | Buckler |
+| 15sc | Padded or Studded armor. |
+| 15sc | any martial weapon. |
+| 20sc | Upgrading armor to the next type |
 
 ### Leveling Up
 
@@ -477,7 +480,7 @@ Each turn your action points are refilled. You can spend any amount of AP on you
 #### Attack (5 AP)
 Make a single weapon attack against a target creature. The actual damage, range, and effects of an attack depend on the individual weapon. Unarmed attacks use Strength and use a wound die to determine if the attack deals damage.
 
-To make an attack you must succeed an attack roll vs the targets defense. You roll normal dice equal to your Strength/Dexterity, depending on what attribute the weapon uses. If you are proficient, improve a number of normal dice to proficient dice equal to your proficiency. If you have more successes vs the targets defense you hit. Draws are in favor of the defender.
+To make an attack you must succeed an attack roll vs the targets defense. If you have more successes vs the targets defense you hit. Draws are in favor of the defender.
 
 ##### Grapple
 Instead of making an attack you can attempt to grapple a creatrure. Make an atheletics check against a creatures Strength or Dexterity save, their choice. On success the creature is grappled. While grappling a creature your move and sprint speed are reduced to 1 and cannot be increased, however the grappled creature is dragged with you.
@@ -506,7 +509,7 @@ The default for using an item, drinking a potion, activating a magic item, or in
 You can use potions on willing or downed creatures by spending 5 AP instead of 2. Normal potion rules still apply.
 
 #### Spell (Varying AP)
-There is no limit to the number of spells you can cast, as long as you have enough AP to cast them. Most spells will require you to make a Spellcasting roll. These use normal dice equal to the spells spellcasting attribute: either Intelligence, Willpower, or Charisma. If you are proficient in that spell type, improve a number of normal dice to proficient dice equal to your proficiency modifier.
+There is no limit to the number of spells you can cast, as long as you have enough AP to cast them. Most spells will require you to make a Spellcasting roll against the targets defense or saving throw, with ties going in favor of the defender.
 
 
 #### Maneuver (Varying AP)
@@ -1191,7 +1194,7 @@ ___
 - **Range:** Self
 - **Duration:** concentration, 5 minutes
 
-Attempt to record your senses to an object, allowing a creature to replay your recording by holding the object and speaking a command word. Make a spellcasting roll, adding a superior die if a gemstone worth at least 50g is used. Depending on your successes the quality of the recording will change:
+Attempt to record your senses to an object, allowing a creature to replay your recording by holding the object and speaking a command word. Make a spellcasting roll, adding a superior die if a gemstone worth at least 50sc is used. Depending on your successes the quality of the recording will change:
 
 - **0-1**: There is no sound, and the visuals are too blurry to make out faces, but you can make out the type of area you are in.
 - **2-3**: You can determine each creatures race, but not face. You get a good idea of the area (in a cellar/building, number of trees, important PoI's such as a rock or pillar). You can hear if people are talking, but cannot make out words.
@@ -2112,7 +2115,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Fill a targets mind with rage, forcing it to lash out against its surroundings. Make a spellcasting roll vs the targets Willpower. On success the target loses all remaining AP and makes a single attack against a random target within range. For every crit rolled the target improves a die for all attack rolls for the duration. On each of this creatures turns they must either attack a random target in range or move towards the closest creature. Each time this creature takes damage they make a willpower save against 2 bad die, adding a superior die for every wound taken.
+Fill a targets mind with rage, forcing it to lash out against its surroundings. Make a spellcasting roll vs the targets Willpower. On success the target loses all remaining AP and makes a single attack against a random target within range. For every crit rolled the target adds a normal die for all attack rolls for the duration. On each of this creatures turns they must either attack a random target in range or move towards the closest creature. Each time this creature takes damage they make a willpower save against 2 bad die, adding a superior die for every wound taken.
 
 Add a proficiency die for every level above the 2nd.
 
@@ -2272,7 +2275,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Use your willpower to supress a creatures natural abilties. The target must make a willpower save, on fail you choose either Strength or Dexterity, the creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute. Each crit further decreases the proficiency by 1. A creature with negative proficiency improves normal dice to bad dice instead of proficient dice.
+Use your willpower to supress a creatures natural abilties. The target must make a willpower save, on fail you choose either Strength or Dexterity, the creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute. Each crit further decreases the proficiency by 1.
 
 Add a proficiency die for every level above 3rd.
 
@@ -3552,7 +3555,7 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 
 - You gain a flying speed equal to your movespeed.
 - You gain Resistance 1 to all damage.
-- All proficiencies improve normal dice to superior dice.
+- You have expertise in everything.
 - You add 2 superior dice to all saving throws.
 
 ## Maneuvers
@@ -3954,18 +3957,18 @@ You gain proficiency in Divine spells. You gain 2 mana and start with a codex co
 
 #### Soldier
 You learn 1 maneuver you meet the requirements for and gain proficiency in 3 martial weapons. You may also choose one of the following trainings:
-- Shield Master: When attacked, you may spend 1 AP to reroll an attackers die, taking the new value.
-- Weapon Expert: Choose a weapon type, when making attacks with this weapon improve 1 proficient die to a superior die.
-- Defensive Stance: You may spend 1 AP reroll 1 defense die when making a defense roll
+- Shield Master: When attacked, as long as you are holding a shield you may spend 1 AP to reroll 2 of the attackers dice, taking the new values.
+- Weapon Expert: Choose a weapon type, when making attacks with this weapon you may reroll 1 die, taking the new value.
+- Defensive Stance: You may reroll 1 defense die when making a defense roll.
 - Ranger: + 2 to your attack range before penalities, and you take no penalties from attacking when someone is in your zone of control.
 You begin with Hide Armor, and 3 weapons you are proficient in.
 
 
 #### Noble
-You start with double starting gold and gain proficiency in a martial weapon. Your skill in trade and court proceedings allows you to improve 1 proficient die to a superior die for all charisma skills. You gain 5 proficiency points to spend among skills. You start with Padded armor and 1 martial weapon of your choice.
+You start with double the starting silver and gain proficiency in a martial weapon. Your skill in trade and court proceedings allows you to reroll 1 die for all charisma skills checks. You gain 5 proficiency points to spend among skills. You start with Padded armor and 1 martial weapon of your choice.
 
 #### Ranger
-Your time hunting and wandering through the wilderness has honed your skills. You gain 1 proficency with a ranged weapon, Nature, Survival and Animal Handling and your Move speed increases by 1 tile. In addition, you can improve 1 die to a superior die for initiative, Nature, Survival, and Animal Handling rolls. You start with Studded armor and 1 weapon of your choice.
+Your time hunting and wandering through the wilderness has honed your skills. You gain 1 proficency with a ranged weapon, Nature, Survival and Animal Handling and your Move speed increases by 1 tile. In addition, you can reroll 1 die when making an initiative, Nature, Survival, or Animal Handling roll. You start with Studded armor and 1 weapon of your choice.
 
 #### Street Urchin
 You gain 1 proficiency in Sleight of Hand, Stealth and Lockpicking and have expertise in those skills. Using the Hide action takes 1 less AP. You start with a simple weapon of your choice.
@@ -3997,7 +4000,7 @@ ___
 Choose 2 skill or tool proficiencies, You gain expertise in these skills.
 
 #### Duelist
-You gain a mastery of one handed weapons. When attacking with a one handed weapon your first weapon proficiency improvement uses a superior die. If you hold nothing in your off hand all your weapon proficiency uses superior die.
+You gain a mastery of one handed weapons. When attacking with a one handed weapon you may reroll 1 die. If you hold nothing in your off hand you have expertise with that weapon.
 
 #### Lucky
 When you make a roll, you may reroll up to your charisma worth of dice. This can be used twice, after which you must take a long rest to regain this feat.
@@ -4428,7 +4431,7 @@ A vial of poison, enough to coat a weapon for 3 attacks or 10 arrowheads. Poison
 | Poison | 0/1+ | They take an additional wound in poison damage and gain 1 + modifier levels of Poison for 1 hour. |
 | Toxin | 1/1+ | Roll 2 + modifier wound dice for the attack |
 | Paralyzing | 1+/0 | creature is paralyzed for 10 minutes |
-| Confounding | 1+/0 | creatures proficiency modifiers are reduced by 1 + modifier. Negative proficiencies 'improve' normal dice to bad dice. |
+| Confounding | 1+/0 | creatures proficiency modifiers are reduced by 1 + modifier. |
 
 ___
 ### Mundane Gear
@@ -4526,8 +4529,8 @@ A set of tools for picking a variety of locks. Anyone can use a lockpicking set,
 | Type | Bonus |
 |:----:|:-------------|
 | Basic  | None |
-| Expert  | Improves 1 proficient die to a superior die |
-| Masterwork | Improves 3 proficient dice to superior dice |
+| Expert  | Adds 1 proficient die. |
+| Masterwork | Adds 2 proficient dice |
 | Skeleton Key | Adds 4 superior dice to a lockpicking roll. After making the roll, roll a terrible die. The skeleton key breaks on fail. |
 
 ___
@@ -4673,8 +4676,6 @@ ___
   During a long rest you may attempt to enchant a single piece of mundane gear. Enchanted gear lasts for 3 days and count as magical equipment for the duration. After the Ehcantment ends the gear returns to being mundane. To enchant a piece of gear you must have mana available and enough enchanting supplies for the enchantment. Then you must pass the enchanting roll, with failure consuming the mana and supplies but not giving the enchantment. Most cities and towns will sell enchanting supplies.
   
   The enchanting roll uses your skill with your enchanters tools. You may spend additional mana, adding a proficient die for every 3 mana added. Ammunition loses it's enchantment on hit, whether the effect is triggered or not.
-
-  A creature can only use 1 piece of enchanted equipment at a time.
   
   ##### Enchantments
 | | Name | Mana | Supplies | Roll | Effect |
@@ -4712,16 +4713,16 @@ When copying spells from a Codex you can instead use your scribing tools to crea
 ##### Spell Scrolls
 | Level | Mana | Gemstones | Supplies | Challenge Dice |
 |:-----:|:-----:|:-----:|:-----:|:-------------|
-| Cantrip | 1 | 10gp gemstone | 0 | 1B |
-| 1st | 1 | 10gp gemstone | 1 | 1T |
-| 2nd | 2 | 25gp gemstone | 1 | 2T |
-| 3rd | 3 | 25gp gemstone | 2 | 3T |
-| 4th | 4 | 50gp gemstone | 2 | 4T |
-| 5th | 6 | 50gp gemstone | 3 | 5T |
-| 6th | 7 | 100gp gemstone | 4 | 6T |
-| 7th | 8 | 250gp gemstone | 5 | 7T |
-| 8th | 9 | 500gp gemstone | 7 | 8T |
-| 9th | 12 | 1000gp gemstone | 10 | 9T |
+| Cantrip | 1 | 10sc gemstone | 0 | 1B |
+| 1st | 1 | 10sc gemstone | 1 | 1T |
+| 2nd | 2 | 25sc gemstone | 1 | 2T |
+| 3rd | 3 | 25sc gemstone | 2 | 3T |
+| 4th | 4 | 50sc gemstone | 2 | 4T |
+| 5th | 6 | 50sc gemstone | 3 | 5T |
+| 6th | 7 | 100sc gemstone | 4 | 6T |
+| 7th | 8 | 250sc gemstone | 5 | 7T |
+| 8th | 9 | 500sc gemstone | 7 | 8T |
+| 9th | 12 | 10pt gemstone | 10 | 9T |
 
 #### Inscribing Runes
 You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe you need to have the required supplies and mana which are consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Once triggered the rune is consumed regardless of the result. Unless otherwise stated, runes that agument spells require no AP to use while placing a rune takes 2 AP.
@@ -4729,8 +4730,8 @@ You can inscribe a rune during a long rest or with 2 hours of downtime. To inscr
 ##### Runes
 | Rune | Mana | Gemstones | Supplies | Challenge Dice | Effect |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-------------|
-| Longcaster | 1 | 1 10gp gemstone | 0 | 1B | Doubles the range of a spell that does not have a range of self or touch. |
+| Longcaster | 1 | 1 10sc gemstone | 0 | 1B | Doubles the range of a spell that does not have a range of self or touch. |
 | Potency | 1 | - | 1 | 2B | The first success in your spellcasting roll counts as a crit in addition to its dice value. |
 | Fire Ward | 2 | - | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Dexterity save vs 2 Superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
 | Arc Ward | 2 | - | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save vs 2 Superior dice, becoming Paralyzed for 1 minute on fail. |
-| Expanding | 3 | 1 25gp gemstone | 1 | 2T | Increases the area effected by a spell by 1. |
+| Expanding | 3 | 1 25sc gemstone | 1 | 2T | Increases the area effected by a spell by 1. |
