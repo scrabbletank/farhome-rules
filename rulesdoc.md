@@ -396,6 +396,7 @@ Finally, choose 2 of the following bonuses.
 - Learn 1 Feat
 - Learn a maneuver and gain 2 proficiency with a weapon type
 - Increase your max wounds by 1
+- Increase your spell power by 5 and gain 3 mana
 
 ##### Variant Rule - Rolling for Attributes
 Instead of using the rules above for attributes, your group may decide to roll your scores. For each attribute roll 1 Superior, 3 Normal, and 1 Terrible die, adding up the total successes. The minimum score for an attribute is -2, with any rolls below that counting as -2 for the roll.
@@ -418,10 +419,10 @@ Currency in Farhome is divided into 3 types: the copper trite, silver cross, and
 
 ### Leveling Up
 
-When you earn 1000 experience your character levels up. Each level you gain 2 proficiency points and choose one of the following bonuses:
+When you earn 1000 experience your character levels up. Each level you gain 1 proficiency point and choose one of the following bonuses:
 
-- Gain 3 spell power. Gain mana based on your spell power below.*
-- Gain 4 proficiency points
+- Gain 3 spell power. Gain mana based on your spell power.*
+- Gain 3 proficiency points
 - Gain a Feat
 - Learn a Maneuver
 - Increase your max wounds by 1
