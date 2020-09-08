@@ -4066,7 +4066,7 @@ When you crit with an attack, add an extra wound die.
 #### Second Wind
 *Requires 1 Stamina*
 
-While in combat you may spend 3 AP on your turn to use a Healing Surge. This can be used once per rest.
+While in combat you may spend 3 AP on your turn to roll a free Healing Surge. This can be used once per rest.
 
 #### Battering Ram
 *Requires 3 Stamina*
@@ -4184,7 +4184,7 @@ You add 1 superior die when making Enchantment rolls. Enchantments you make last
 #### Mana Font
 *Requires 2 Intelligence*
 
-While in combat you may spend 3 AP to restore mana equal to half your level, rounded up. After use, cannot be used again until taking a rest.
+While in combat you may spend 3 AP to restore mana equal to half your level, rounded up. After use, cannot be used again until taking a long rest.
 
 #### Arcane Forge
 *Requires proficiency with Enchanters Tools*
