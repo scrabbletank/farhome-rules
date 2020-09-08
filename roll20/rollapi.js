@@ -31,6 +31,48 @@ var FarhomeDice = FarhomeDice || (function () {
         { roll: [imgB, imgW, imgB, imgW, imgB, imgW], val: [0, 1, 0, 1, 0, 1], crit: [0, 0, 0, 0, 0, 0], rrthresh: 0, clr: 'orangered' },
         { roll: [imgS, imgS, imgS2, imgS2, imgCS, imgCS], val: [1, 1, 2, 2, 2, 2], crit: [0, 0, 0, 0, 1, 1], rrthresh: 0, clr: 'gold' }
     ];
+    var rollHistory = [];
+    var character = undefined;
+
+    var templateBtn = "background-color: transparent; padding: 0px; display: inline-block; color: black; border: 0.5px solid";
+
+    var spellText = {
+        "cold-snap": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: ["Sap the heat from a target. Make a spellcasting roll vs the targets stamina. On hit the target takes a wound. For every crit roll you the target gains a level of Slow until the end of their next turn.", "Add a proficiency die for every level above cantrip."] },
+        "firebolt": { dmg: [1, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1], txt: ["Blast a target with a bolt of fire. Make a spellcasting roll against the targets defense. On hit the target takes a wound, adding a wound die on crit.", "Add a wound die for every level above cantrip."] },
+        "message": { dmg: [], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: ["You attempt to send a telepathic message to a target you know. Make a spellcasting roll, adding a bad die for every 10 tiles you want the spell to travel, with a minimum of 1 bad die. On success the message is successfully broadcast. You know if the target recieved the message or not.", "Add a proficiency die for every level above cantrip."] },
+        "minor-image": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "static-shock": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "thundering-blow": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "arcane-blasts": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "arcane-key": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "beam-of-fire": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "call-lightning": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "chilling-ray": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "detect-magic": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "identify": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "magic-sight": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "poison-trap": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "ray-of-sickness": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "sword-burst": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "thunderclap": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "barrier": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "combust": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "dispel-magic": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "elemental-shell": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "flurry": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "imprint": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "magic-weapon": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "misty-step": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "resilient-shield": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "animate-guardian": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "chain-lightning": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "counter-spell": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "far-sight": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "fireball": { dmg: [2, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1], txt: ["shoot a ball of fire centered at a target location you can see. The fireball explodes on impact, hitting all creatures in a 5x5 area. Creatures must make a Dexterity save vs your spellcasting, taking 1 wound on success. On failure they take 2 wounds, plus a wound die on crit.", "Add a wound die for every level above 3rd."] },
+        "flight": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: ["Gain magical flight, allowing you to float through the air. Target up to 5 willing creatures, adding a Terrible die to the spellcasting roll for each creature targeted. On success all targeted creatures gain a flying speed equal to their movement speeds.", "Add a proficient die for every level above 3rd."] },
+        "phantasmal-blades": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: ["Launch a series of arcane swords at a target. The target makes a Strength save vs your spellcasting, taking 3 wounds on fail.", "Add a wound and proficiency die for every level past 3rd."] },
+
+    }
 
     var commandListener = function () {
         // Listens for API command
@@ -40,8 +82,8 @@ var FarhomeDice = FarhomeDice || (function () {
                 var params = processedMsg.substring(1).split(' '),
                     command = params[0].toLowerCase();
                 params = params.slice(1, params.length);
-                var character = findObjs({ type: 'character', name: msg.who })[0],
-                    player = getObj('player', msg.playerid);
+                character = findObjs({ type: 'character', name: msg.who })[0];
+                var player = getObj('player', msg.playerid);
 
 
                 if (msg.selected != undefined) {
@@ -58,6 +100,8 @@ var FarhomeDice = FarhomeDice || (function () {
                 var result = "";
                 var name = "";
 
+                rollHistory = [];
+
                 if (character === undefined) {
                     sendChat(msgFrom, 'No character selected. Select a token or change who your playing as.');
                     return;
@@ -65,14 +109,14 @@ var FarhomeDice = FarhomeDice || (function () {
 
                 if (command === 'skill') {
                     name = "Skill Check";
-                    result = skillRoll(params, character);
+                    result = skillRoll(params);
                 }
                 else if (command === 'initiative') {
                     if (params.length < 5) {
                         sendChat(msgFrom, 'Need values for all dice types');
                         return;
                     }
-                    initiative(msgFrom, params, character);
+                    initiative(msgFrom, params);
                 }
                 else if (command === 'attack') {
                     if (params.length < 5) {
@@ -80,7 +124,7 @@ var FarhomeDice = FarhomeDice || (function () {
                         return;
                     }
                     name = "Attack";
-                    result = attack(params, character);
+                    result = attack(params);
                 }
                 else if (command === 'save') {
                     if (!character) {
@@ -88,7 +132,7 @@ var FarhomeDice = FarhomeDice || (function () {
                         return;
                     }
                     name = "Saving Throw";
-                    result = saveRoll(params[0], character);
+                    result = saveRoll(params[0]);
                 }
                 else if (command === 'roll') {
                     if (params.length < 5) {
@@ -96,7 +140,7 @@ var FarhomeDice = FarhomeDice || (function () {
                         return;
                     }
                     name = "Roll";
-                    result = customRoll(params, character);
+                    result = customRoll(params);
                 }
                 else if (command === 'defend') {
                     if (params.length < 2) {
@@ -104,7 +148,7 @@ var FarhomeDice = FarhomeDice || (function () {
                         return;
                     }
                     name = "Defend";
-                    result = defend(params, character);
+                    result = defend(params);
                 }
                 else if (command === 'wound') {
                     if (params.length < 2) {
@@ -112,15 +156,23 @@ var FarhomeDice = FarhomeDice || (function () {
                         return;
                     }
                     name = "Wounds";
-                    result = wound(params, character);
+                    result = wound(params);
                 }
                 else if (command === 'hero') {
                     name = "Hero";
-                    result = hero(params, character);
+                    result = hero(params);
                 }
                 else if (command === 'rtmp') {
-                    handleTemplateRoll(msgFrom, processedMsg, character);
+                    handleTemplateRoll(msgFrom, processedMsg);
                 }
+                else if (command === 'srr') {
+                    togglereroll(params);
+                }
+                else if (command === 'rr') {
+                    reroll(msgFrom);
+                }
+
+
                 if (result != "") {
                     sendChat(msgFrom, "/direct " + makeTemplate({ name: name, roll1: result }));
                 }
@@ -151,7 +203,7 @@ var FarhomeDice = FarhomeDice || (function () {
             }
             return modObj;
         },
-        getAttr = function (character, attrName, defaultValue) {
+        getAttr = function (attrName, defaultValue) {
             var attr = findObjs({ type: 'attribute', characterid: character.id, name: attrName }, { caseInsensitive: true })[0];
             if (!attr) {
                 attr = createObj("attribute", { name: attrName, current: defaultValue, characterid: character.id });
@@ -164,7 +216,7 @@ var FarhomeDice = FarhomeDice || (function () {
             var proficiencyOver5 = Math.max(0, proficiency - 5);
 
             // We start with White dice
-            var dice = [0, 0, 5 + attributeOver5, 0, 0];
+            var dice = [0, 0, 5 + attributeOver5, 0, 0, 0, 0, 0, 0, 0];
             // Improve White to Green for every attribute point
             if (attributeUnder5 > 0) {
                 dice[1] += attributeUnder5;
@@ -200,39 +252,31 @@ var FarhomeDice = FarhomeDice || (function () {
             return dice;
         },
 
-        saveRoll = function (stat, character) {
-            var statVal = parseInt(getAttr(character, stat, -1).get("current"));
+        saveRoll = function (stat) {
+            var statVal = parseInt(getAttr(stat, -1).get("current"));
             var statProf = 0;
-            var poison = parseInt(getAttr(character, "poison", 0).get("current"));
-            var fear = parseInt(getAttr(character, "fear", 0).get("current"));
-            var hex = parseInt(getAttr(character, "hex", 0).get("current"));
-            var blind = 0;
-            var grapple = 0;
-            var restrained = 0;
-            var stagger = 0;
+            var poison = parseInt(getAttr("poison", 0).get("current"));
+            var fear = parseInt(getAttr("fear", 0).get("current"));
+            var hex = parseInt(getAttr("hex", 0).get("current"));
 
             switch (stat) {
                 case 'str':
-                    statProf = parseInt(getAttr(character, "strsave", 0).get("current"));
+                    statProf = parseInt(getAttr("strsave", 0).get("current"));
                     break;
                 case 'dex':
-                    statProf = parseInt(getAttr(character, "dexsave", 0).get("current"));
-                    grapple = parseInt(getAttr(character, "grapple", 0).get("current"));
-                    restrained = parseInt(getAttr(character, "restrained", 0).get("current"));
-                    stagger = parseInt(getAttr(character, "stagger", 0).get("current"));
-                    blind = parseInt(getAttr(character, "blind", 0).get("current"));
+                    statProf = parseInt(getAttr("dexsave", 0).get("current"));
                     break;
                 case 'sta':
-                    statProf = parseInt(getAttr(character, "stasave", 0).get("current"));
+                    statProf = parseInt(getAttr("stasave", 0).get("current"));
                     break;
                 case 'int':
-                    statProf = parseInt(getAttr(character, "intsave", 0).get("current"));
+                    statProf = parseInt(getAttr("intsave", 0).get("current"));
                     break;
                 case 'wil':
-                    statProf = parseInt(getAttr(character, "wilsave", 0).get("current"));
+                    statProf = parseInt(getAttr("wilsave", 0).get("current"));
                     break;
                 case 'cha':
-                    statProf = parseInt(getAttr(character, "chasave", 0).get("current"));
+                    statProf = parseInt(getAttr("chasave", 0).get("current"));
                     break;
             }
 
@@ -243,16 +287,16 @@ var FarhomeDice = FarhomeDice || (function () {
             var modObj = {};
             modObj.hex = hex;
 
-            return roll(dice, allDice.slice(0, 5), modObj)
+            return roll(dice, modObj)
         },
 
-        skillRoll = function (params, character) {
+        skillRoll = function (params) {
             var modObj = params.length > 3 ? getMods(params[3]) : {};
-            modObj.hex = character ? parseInt(getAttr(character, "hex", 0).get("current")) : 0;
+            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
             var statVal = parseInt(params[0]);
             var statProf = parseInt(params[1]);
-            var poison = character ? parseInt(getAttr(character, "poison", 0).get("current")) : 0;
-            var fear = character ? parseInt(getAttr(character, "fear", 0).get("current")) : 0;
+            var poison = character ? parseInt(getAttr("poison", 0).get("current")) : 0;
+            var fear = character ? parseInt(getAttr("fear", 0).get("current")) : 0;
 
             var expertise = params.length >= 2 ? parseInt(params[2]) : 0;
 
@@ -264,74 +308,132 @@ var FarhomeDice = FarhomeDice || (function () {
             dice[4] += poison;
             dice[3] += fear;
 
-            return roll(dice, allDice.slice(0, 5), modObj);
+            return roll(dice, modObj);
         },
 
-        customRoll = function (params, character) {
+        customRoll = function (params) {
             var modObj = params.length > 5 ? getMods(params[5]) : {};
-            modObj.hex = character ? parseInt(getAttr(character, "hex", 0).get("current")) : 0;
+            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
 
-            var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4])];
+            var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4]), 0, 0, 0, 0, 0];
 
-            return roll(diceVals, allDice.slice(0, 5), modObj);
+            return roll(diceVals, modObj);
         },
 
-        attack = function (params, character) {
+        attack = function (params) {
             var modObj = params.length > 5 ? getMods(params[5]) : {};
-            modObj.hex = character ? parseInt(getAttr(character, "hex", 0).get("current")) : 0;
-            var poison = character ? parseInt(getAttr(character, "poison", 0).get("current")) : 0;
-            var fear = character ? parseInt(getAttr(character, "fear", 0).get("current")) : 0;
-            var blind = character ? parseInt(getAttr(character, "blind", 0).get("current")) : 0;
-            var restrained = character ? parseInt(getAttr(character, "restarined", 0).get("current")) : 0;
-            var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4])];
+            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
+            var poison = character ? parseInt(getAttr("poison", 0).get("current")) : 0;
+            var fear = character ? parseInt(getAttr("fear", 0).get("current")) : 0;
+            var blind = character ? parseInt(getAttr("blind", 0).get("current")) : 0;
+            var restrained = character ? parseInt(getAttr("restarined", 0).get("current")) : 0;
+            var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4]), 0, 0, 0, 0, 0];
 
             diceVals[3] += fear + (restrained * 2);
             diceVals[4] += poison + (blind * 2);
 
-            return roll(diceVals, allDice.slice(0, 5), modObj);
+            return roll(diceVals, modObj);
         },
 
-        initiative = function (msgFrom, params, character) {
-            var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4])];
+        initiative = function (msgFrom, params) {
+            var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4]), 0, 0, 0, 0, 0];
 
             var modObj = params.length > 5 ? getMods(params[5]) : {};
-            modObj.hex = character ? parseInt(getAttr(character, "hex", 0).get("current")) : 0;
+            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
 
-            var msg = roll(diceVals, allDice.slice(0, 5), modObj);
-            total += lastRollResult[0];
+            var msg = roll(diceVals, modObj);
+            var total = lastRollResult[0];
+
+            var turnOrder = Campaign().get("turnorder") ? JSON.parse(Campaign().get("turnorder")) : [];
+            var added = false;
+            for (var i = 0; i < turnOrder.length; i++) {
+                if (total > turnOrder[i].pr) {
+                    turnOrder.splice(i, 0, { id: "-1", pr: total.toString(), custom: character.get("name"), _pageid: Campaign().get("playerpageid") });
+                    added = true;
+                    break;
+                }
+            }
+            if (added == false) {
+                turnOrder.splice(i, 0, { id: "-1", pr: total.toString(), custom: character.get("name"), _pageid: Campaign().get("playerpageid") });
+            }
+            Campaign().set("turnorder", JSON.stringify(turnOrder));
 
             sendChat(msgFrom, "/direct " + makeTemplate({ name: "Initiative", roll1: msg, initiative: total }));
         },
 
-        defend = function (params, character) {
-            var diceVals = [parseInt(params[0]), parseInt(params[1])];
+        defend = function (params) {
+            var diceVals = [0, 0, 0, 0, 0, parseInt(params[0]), parseInt(params[1]), 0, 0, 0];
             var modObj = params.length > 2 ? getMods(params[2]) : {};
-            modObj.hex = character ? parseInt(getAttr(character, "hex", 0).get("current")) : 0;
+            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
 
-            return roll(diceVals, allDice.slice(5, 7), modObj);
+            return roll(diceVals, modObj);
         },
 
-        hero = function (__params, __character) {
+        hero = function (__params) {
             var modObj = {};
             modObj.hex = 0;
 
-            return roll([1], [allDice[9]], modObj);
+            return roll([0, 0, 0, 0, 0, 0, 0, 0, 0, 1], modObj);
         },
 
-        wound = function (params, character) {
+        wound = function (params) {
             var modObj = params.length > 2 ? getMods(params[2]) : {};
-            var diceVals = [parseInt(params[0]), parseInt(params[1])];
+            var diceVals = [0, 0, 0, 0, 0, 0, 0, parseInt(params[0]), parseInt(params[1]), 0];
             if (character) {
-                var weaken = parseInt(getAttr(character, "weaken", 0).get("current"));
+                var weaken = parseInt(getAttr("weaken", 0).get("current"));
                 if (weaken == 1) {
                     diceVals[1] += diceVals[0];
                     diceVals[0] = 0;
                 }
             }
-            return roll(diceVals, allDice.slice(7, 9), modObj);
+            return roll(diceVals, modObj);
         },
 
-        handleTemplateRoll = function (msgFrom, msgContent, character) {
+        togglereroll = function (params) {
+            //toggle the reroll status of a die in the last roll.
+            var rolls = state.FarhomeDice.lastRolls[character.id];
+            //exit early if there is no roll history
+            if (rolls.length === 0) {
+                return;
+            }
+
+            var idx = [parseInt(params[0]), parseInt(params[1])];
+            // if for some reason the values don't line up (eg: old rolls, other players trying to toggle rolls) don't do anything
+            if (idx[0] >= rolls.length || idx[1] >= rolls[idx[0]].d.length) {
+                return;
+            }
+            rolls[idx[0]].r[idx[1]] = !rolls[idx[0]].r[idx[1]];
+
+            state.FarhomeDice.lastRolls[character.id] = rolls;
+        },
+
+        reroll = function (msgFrom) {
+            var lastRolls = state.FarhomeDice.lastRolls[character.id];
+            var values = { name: "Reroll" };
+            for (var i = 0; i < lastRolls.length; i++) {
+                var rollMsg = "<span>";
+                for (var t = 0; t < lastRolls[i].d.length; t++) {
+                    // we can't reroll hexes
+                    if (lastRolls[i].v[t] === -1) {
+                        rollMsg += "<span style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid;'>Hex!</span>";
+                    }
+                    else if (lastRolls[i].r[t] === true) {
+                        var newRoll = randomInteger(6) - 1;
+                        rollMsg += "<div style='display:inline-block'>(<img src='" + allDice[lastRolls[i].d[t]].roll[newRoll] + "' style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid;'>" +
+                            "<img src='" + allDice[lastRolls[i].d[t]].roll[lastRolls[i].v[t]] + "' style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid; opacity: 0.25;'>)</div>";
+                    }
+                    else {
+                        rollMsg += "<img src='" + allDice[lastRolls[i].d[t]].roll[lastRolls[i].v[t]] + "' style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid;'>";
+                    }
+                }
+                rollMsg += "</span>";
+                values["roll" + i] = rollMsg;
+            }
+            var msg = makeTemplate(values, false);
+            sendChat(msgFrom, "/direct " + msg);
+        },
+
+        handleTemplateRoll = function (msgFrom, msgContent) {
             // parsing message
             var idx = 0;
             var ops = [];
@@ -350,17 +452,17 @@ var FarhomeDice = FarhomeDice || (function () {
             //process template values
             var handleRoll = function (params) {
                 if (params[0] == "skill") {
-                    return skillRoll(params.slice(1, params.length), character);
+                    return skillRoll(params.slice(1, params.length));
                 } else if (params[0] == "save") {
-                    return saveRoll(params[1], character);
+                    return saveRoll(params[1]);
                 } else if (params[0] == "roll") {
-                    return customRoll(params.slice(1, params.length), character);
+                    return customRoll(params.slice(1, params.length));
                 } else if (params[0] == "attack") {
-                    return attack(params.slice(1, params.length), character);
+                    return attack(params.slice(1, params.length));
                 } else if (params[0] == "defend") {
-                    return defend(params.slice(1, params.length), character);
+                    return defend(params.slice(1, params.length));
                 } else if (params[0] == "wound") {
-                    return wound(params.slice(1, params.length), character);
+                    return wound(params.slice(1, params.length));
                 }
             };
             var templateObj = {};
@@ -379,7 +481,7 @@ var FarhomeDice = FarhomeDice || (function () {
             sendChat(msgFrom, "/direct " + msg);
         },
 
-        makeTemplate = function (values) {
+        makeTemplate = function (values, rrButton = true) {
             var msg = '' +
                 '<rolltemplate class="sheet-rolltemplate-CustomRoll">' +
                 '<div style="background-color: #ffffff; border: 1px solid; padding: 2px; width: 218px;">';
@@ -411,43 +513,64 @@ var FarhomeDice = FarhomeDice || (function () {
             if (values.initiative) {
                 msg += '<div style="font-size: 0.9em"><span style="font-weight:bold">Initiatve: </span>' + values.initiative + '</div>';
             }
+            if (rrButton === true) {
+                msg += '<div style="font-size: 0.9em"><a href="!rr" style="background-color: transparent; display: inline-block; color: black; border: 0.5px solid">Reroll Selected</a></div>';
+            }
             msg += '</div>' +
                 '</rolltemplate>';
+
+            // this is usually the last step to sending a message. Set the last roll to the character
+            state.FarhomeDice.lastRolls[character.id] = rollHistory;
             return msg;
         },
 
-        roll = function (diceVals, dice, modObj) {
+        roll = function (diceVals, modObj) {
             var msg = "";
             var successes = 0, crits = 0;
+            // we need to save the roll history to allow rerolls to happen
+            var rollResult = { d: [], v: [], r: [] };
+            var diceCount = 0;
             for (var i = 0; i < diceVals.length; i++) {
                 if (diceVals[i] > 0) {
                     msg += "<span>";
                     for (var t = 0; t < diceVals[i]; t++) {
+                        rollResult.d.push(i);
+                        rollResult.r.push(false);
                         var rollVal = randomInteger(6) - 1;
-                        if (dice[i].crit[rollVal] == 1 && modObj.hex > 0) {
-                            msg += "<span style='background-color:" + dice[i].clr + "; border: 1px solid;'>Hex!</span>";
+                        if (allDice[i].crit[rollVal] == 1 && modObj.hex > 0) {
+                            rollResult.v.push(-1);
+                            msg += "<span style='background-color:" + allDice[i].clr + "; border: 1px solid;'>Hex!</span>";
                             modObj.hex--;
-                            continue;
                         }
-                        if (dice[i].val[rollVal] <= dice[i].rrthresh && modObj.keepHighest > 0) {
-                            var oldVal = rollVal;
-                            rollVal = randomInteger(6) - 1;
-                            modObj.keepHighest--;
-                            successes += dice[i].val[rollVal];
-                            crits += dice[i].crit[rollVal];
-                            msg += "<div style='display:inline-block'>(<img src='" + dice[i].roll[rollVal] + "' style='background-color:" + dice[i].clr + "; border: 1px solid;'>" +
-                                "<img src='" + dice[i].roll[oldVal] + "' style='background-color:" + dice[i].clr + "; border: 1px solid; opacity: 0.25;'>)</div>";
-                            continue;
+                        // if (allDice[i].val[rollVal] <= allDice[i].rrthresh && modObj.keepHighest > 0) {
+                        //     var oldVal = rollVal;
+                        //     rollVal = randomInteger(6) - 1;
+                        //     modObj.keepHighest--;
+                        //     successes += allDice[i].val[rollVal];
+                        // //     crits += allDice[i].crit[rollVal];
+                        //     msg += "<div style='display:inline-block'>(<img src='" + allDice[i].roll[rollVal] + "' style='background-color:" + allDice[i].clr + "; border: 1px solid;'>" +
+                        //         "<img src='" + allDice[i].roll[oldVal] + "' style='background-color:" + allDice[i].clr + "; border: 1px solid; opacity: 0.25;'>)</div>";
+                        //     continue;
+                        // }
+                        else {
+                            rollResult.v.push(rollVal);
+                            successes += allDice[i].val[rollVal];
+                            crits += allDice[i].crit[rollVal];
+                            msg += "<a href='!srr " + rollHistory.length + " " + diceCount + "' style='" + templateBtn + "'>";
+                            msg += "<img src='" + allDice[i].roll[rollVal] + "' style='background-color:" + allDice[i].clr + "; border: none;'>";
+                            msg += "</a>";
                         }
-                        successes += dice[i].val[rollVal];
-                        crits += dice[i].crit[rollVal];
-                        msg += "<img src='" + dice[i].roll[rollVal] + "' style='background-color:" + dice[i].clr + "; border: 1px solid;'>";
+                        diceCount++;
                     }
                     msg += "</span>";
                 }
             }
             lastRollResult = [successes, crits];
+            rollHistory.push(rollResult);
             return msg;
+        },
+
+        spell = function (params, character) {
         };
 
     return {
@@ -460,4 +583,10 @@ on('ready', function () {
     'use strict';
 
     FarhomeDice.CommandListener();
+
+    if (state.FarhomeDice === undefined || state.FarhomeDice.version !== "v1.0") {
+        state.FarhomeDice = { lastRolls: {}, version: "v1.0" };
+    }
+
+    log("Farhome Dice v1.0 loaded");
 });

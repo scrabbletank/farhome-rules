@@ -558,11 +558,11 @@ If you go more than 24 hours without taking a long rest you must make an exhaust
 ##### Exhaustion Levels
 | Level | Proficiency | Max Wounds | Sprint
 |:----:|:----:|:----:|:-------------|
-| 1  | -1 | 0 | Yes |
-| 2  | -1 | -1 | Yes |
-| 3 | -2 | -2 | No |
-| 4 | -2 | -3 | No |
-| 5 | -3 | -4 | No |
+| 1  | -1 | -1 | Yes |
+| 2  | -1 | -2 | Yes |
+| 3 | -2 | -3 | No |
+| 4 | -2 | -4 | No |
+| 5 | -3 | -5 | No |
 
 ## Conditions
 There are a number of conditions creatures can be subjected to, each with different effects. Some conditions have a level associated with them to determine how extreme that condition is. For example, Poison normally adds a terrible die to your attack rolls and saving throws, where Poison 2 and Poison 3 adds 2 and 3 terrible die respectively.
@@ -4172,7 +4172,7 @@ While in combat you may spend 3 AP to restore spell slots with a combined level 
 #### Arcane Forge
 *Requires proficiency with Enchanters Tools*
 
-If you enchant an item with the same property every day for 7 days the effect becomes permanent, becoming a magic item.
+If you enchant an item with the same property every day for 7 days the effect becomes permanent, becoming a magic item. At 5 perficiency in Enchanters Tools you may attempt to add a second permanent enchantment after the first one has become permanent. You add a Terrible die to all enchanting rolls when adding the second enchantment.
 
 #### Effecient Brewing
 *Requires proficiency with Apothecary Set*
@@ -4229,7 +4229,7 @@ As long as you have at least 1 AP remaining you can take an an action costing 5 
 #### Siphon Energy
 *Requires proficiency with Curse spells, 3 Willpower, 15th Level*
 
-You are able to siphon the fading life off enemies to create a temporary shield. When you kill an enemy using Death damage you gain 1 temporary wound lasting 24 hours. You may gain up to half your max wounds in temporary wounds this way.
+You are able to siphon the fading life off enemies to create a temporary shield. When you kill a cursed enemy or kill an enemy using Death damage you gain 1 temporary wound lasting 24 hours. You may gain up to half your max wounds in temporary wounds this way.
 
 #### Perfect Defense
 *Requires 4 Strength, 15th level*
@@ -4308,6 +4308,18 @@ When casting Eldritch blast you may target 2 creatures.
 *Requires Runesmith, 10th Level*
 
 Runes you make are resistant to breaking. When one of your runes is activated roll a wound die, the rune is not consumed on a blank.
+
+#### Magic Weaving
+*Requires Powerful Enchantments or Arcane Forge, 15th level*
+
+You may enchant magic items. When enchanting a magic you add Terrible dice based on it's modifier or rarity below. Enchantments on magic items can't be made permanent with arcane forge, and you cannot enchant magic ammunition.
+
+**Enchantment Difficulty**
+| Modifier/Rarity | Difficulty
+|:----:|:-------------|
+| +1 or Uncommon  | +1 Terrible die |
+| +2 or Rare  | +2 Terrible dice |
+| +3 or Legendary  | +3 Terrible dice |
 
 ___
 ### Legendary

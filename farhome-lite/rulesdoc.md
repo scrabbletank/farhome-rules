@@ -8,16 +8,16 @@ Do this later lol
 ### Attributes
 Your character is governed by 4 core numbers called attributes. These define how strong, smart, or resilient your character is and are used in almost every roll. By default the highest your Attribute scores can go is 5, but items or other effects can increase this.
 
-##### Body
+**Body**
 Body is a measure of how physically capable you are. Body covers everything from how fast you can run, how much you can carry, and how strong you are.
 
-##### Mind
+**Mind**
 Mind represents your mental ability and your ability to cast spells. Mind covers everything from how perceptive you are, how much you know about nature, the world and magic, to how skilled you are at casting spells.
 
-##### Stamina
+**Stamina**
 Stamina is a measure of your body's constitution. Stamina covers how your body resists poisons and disease, how many hits you can take in combat, or how easy you are to get tired. Each point of Stamina increases your max wounds by 1.
 
-##### Charisma
+**Charisma**
 Charisma represents your force of personality. Charisma covers how well you can persuade others, how good you are at performing or playing an instrument, even how skilled you are at casting divine spells.
 
 ### Wounds
@@ -142,30 +142,30 @@ In some situations you or other creatures may be surprised. Surprised creatures 
 #### On your Turn
 Action Points, or AP, doesn't carry over from round to round. At the start of your turn your AP is set to your AP maximum, and you may take the following actions.
 
-##### Move (3AP, Once per Turn)
+**Move (3AP, Once per Turn)**
 When taking the move action, you may move up to your move speed in tiles. This movement doesn't have to happen all at once, and you may take other actions in between movements.
 
-##### Sprint(2AP, Once per Turn, usable only after the Move action)
+**Sprint(2AP, Once per Turn, usable only after the Move action)**
 You may move up to your sprint speed in tiles. This movement follows the same rules as the Move action and may be split up between other actions.
 
-##### Attack (5 AP)
+**Attack (5 AP)**
 You make an unarmed or weapon attack against a target in range.
 
-##### Off-hand Attack (2 AP, can only be used after attack, once per turn)
+**Off-hand Attack (2 AP, can only be used after attack, once per turn)**
 If you are dual-wielding two weapons you can make an attack with your off-hand weapon. This acts the same as the Attack action, but uses your off-hand weapon instead.
 
-##### Defend (5 AP, Once per Turn)
+**Defend (5 AP, Once per Turn)**
 You take a defensive stance, adding 1 Defense die to your defense rolls, or 1 Superior Defense die if your wearing a shield. This lasts until the end of your next turn.
 
-##### Casting (AP Varies)
+**Casting (AP Varies)**
 You cast a spell you have prepared, as long as you meet the requirements for the spell. Each spell has their own AP cost, and as long as you have the AP there's no limit to the number of spells you can cast each turn.
 
-##### Maneuver (AP Varies)
+**Maneuver (AP Varies)**
 Maneuvers are special actions you can learn when leveling up. Each maneuver has it's own AP cost, and some have specific requirements in order to use. Maneuvers have a few other limitations:
  - You may only use a single maneuver each turn.
  - You can't use the same maneuver you used the previous turn.
 
-##### Use (2 AP)
+**Use (2 AP)**
 The default for using an item, drinking a potion, activating a magic item, or interacting with an object (eg: pulling a switch). Some magic items will give their own AP costs, using those instead. You can only drink one potion each round.
 
 #### Reactions
@@ -194,39 +194,55 @@ Short rests take an hour to complete. While resting you may roll any number of H
 Long rests take 8 hours to complete. During your long rest you can spend at most 2 hours doing a simple, non-exhaustive task, such as preparing a meal or keeping watch. During your long rest you automatically heal 1 wound, and you may roll any number of Healing Surges to restore missing wounds. At the end of your long rest you regain 3 healing surges. If you have missing spell slots you restore up to 3 + your level in slots, starting with the lowesr level slots and working your way up. Any talents or items that can only be used a limited number of times per long rest are restored.
 
 #### Exhaustion
+Some actions have a chance of overexerting your character, such as staying awake for too long, travelling without taking rests, or from some abilities or talents. When exerting yourself in these ways you will need to make a Stamina check against a combination of Red and Purple dice, gaining a level of exhaustion on fail. At 6 levels of exhaustion your character dies. After completing a long rest you recover 1 level of exhaustion.
+
+**Exhaustion Levels**
+| Level | Proficiency | Max Wounds | Sprint
+|:----:|:----:|:----:|:-------------|
+| 1  | -1 | -1 | Yes |
+| 2  | -1 | -2 | Yes |
+| 3 | -2 | -3 | No |
+| 4 | -2 | -4 | No |
+| 5 | -3 | -5 | No |
 
 ### Conditions
 Conditions are negative effects that can be given a multitude of ways. Maneuvers, spells, and other abilities can inflict these conditions on players and creatures alike. While you can have multiple conditions effecting you at once, you can't have two of the same condition effecting your character. For example, if you're already Poisoned, getting poisoned again doesn't double its effect.
 
-#### Blind
+**Blind**
 A Blind creature can't see and adds 2 Purple dice to any attacks or Body rolls.
 
-#### Dazed
+**Dazed**
 A Dazed creature can't take reactions and grants combat advantage to attackers.
 
-#### Feared
+**Feared**
 A Feared creature adds 1 Bad die to all of their rolls (Except Mind saves) and can't move closer to the source of their fear.
 
-#### Grappled
+**Grappled**
 A Grappled creature can't move and automatically fails Body saving throws.
 
-#### Hexxed
+**Hexxed**
 A Hexxed creature removes the first crit rolled from any dice roll they make. It does not count to your rolls total.
 
-#### Incapacitated
+**Incapacitated**
 An Incapacitated creature can't take any actions and fails all Body rolls.
 
-#### Paralyzed
+**Paralyzed**
 A paralyzed creature can't sprint and only gains half of their AP each turn.
 
-#### Poisoned
+**Poisoned**
 A Poisoned creature adds 2 Bad dice to all attacks, skill checks, and saving throws.
 
-#### Slowed
+**Slowed**
 A Slowed creature has -1 to their move speed and doesn't add their Body score to their sprint speed.
 
-#### Staggered
+**Staggered**
 A Staggered creature grants combat advantage to attackers.
 
-#### Stunned
+**Stunned**
 A Stunned creature can't taky any actions, automatically fails Body rolls, and grants combat advantage to attackers.
+
+### Magic Items
+To use a magic item you must spend a short or long rest with the item to attune to it. Each character can benefit from up to 4 magic items at any one time, if you attune to a 5th item you must remove the attunement of another item. After removing an item's attunement you can regain it over a short or long rest as long as you are attuned to less than 4 other items.
+
+#### Magic Modifiers
+Magic weapons and armor may come with a +1, +2, or +3 modifier. Weapons with a modifier add the modifiers value in Yellow dice to any attack rolls made with that weapon. Magic armor adds its modifier value in Superior Defense dice to defense rolls. Other items may come with modifiers, with the effects of that modifier listed on the item.
