@@ -430,7 +430,7 @@ When you earn 1000 experience your character levels up. Each level you gain 1 pr
 **Mana**
 When gaining mana, you apply the spell power gained from leveling up before adding mana from the chart below.
 
-| Player Level | Spell Level |
+| Spell Power | Spell Level |
 |:----:|:----:|
 | 1-8  | 3 |
 | 9-18  | 4 |
@@ -781,6 +781,16 @@ ___
 ##### Devil Blood
 
 You take no penalities when in dim light, and only add 1 bad die in total darkness. While not in sunlight you can reroll 1 die when making Charisma skill challenges.
+
+___
+#### Sylvan
+- **Starting Wounds:** 3
+- **Move/Sprint:** 4/3
+- **Attribute Bonuses:** +1 Intelligence, +1 Charisma, -1 Strength
+
+##### Forestfolk
+
+During a short or long rest you restore 1 extra wound and mana. This feature has no effect if you've taken fire damage since your last rest.
 
 ### Dwarf
 
@@ -1137,9 +1147,9 @@ ___
 - **Range:** Self
 - **Duration:** instant
 
-As a reaction you quickly pull up magical defenses, protecting you and all creatures adjacent to yourself. You and all effected creatures can add 2 superior dice against the incoming spell. If the spell does not require a save, roll the 2 superior dice vs the casters spellcasting roll. On a success the spell has no effect.
+As a reaction you quickly pull up magical defenses, protecting you and all creatures adjacent to yourself. Make a spellcasting roll, you and all effected creatures add 1 superior die, adding an extra superior die for every crit, against the incoming spell. If the spell does not require a save, roll the superior dice against the casters spellcasting roll. On a success the spell has no effect.
 
-Increase the range of protection by 1 for every level above the first.
+Increase the range of protection by 1 and add a proficiency die for every level above the first.
 
 ___
 #### Combust
@@ -1255,9 +1265,9 @@ ___
 You attempt to animate a simple object made of plant, wood, stone, or metal no more than 1 tile in size. If the object is part of a larger construction (a stone wall, a dirt mound, etc) you add 1 terrible die to your roll as you try to force it free.
 
 
-Make a spellcasting roll adding a terrible die if the target is metal, on success you create a golem out of the object. The golem has 3 wounds and acts on your turn. It can take a move action to move 4 tiles and can make a single attack. The golem's attack uses 3 dice, improing one die for every success and adding a die for every crit. After the duration or if the caster is incapacitated the golem reverts to inanimate material.
+Make a spellcasting roll adding 2 terrible dice or 4 terrible dice if the meterial is metal. On success you create a golem out of the object. The golem has 3 wounds and acts on your turn. It can take a move action to move 4 tiles and can make a single attack. The golem's attack uses 5 normal dice, improing one die for every success and adding a die for every crit. The creature deals 1 wound on hit, adding a wound die for every size increase. After the duration or if the caster is incapacitated the golem reverts to inanimate material. Golems made of metal have _Resistance 1_ to physical damage.
 
-Add a proficient die for every level above 3rd. At 5th level you may target a 2x2 area, and at 7th a 3x3 area.
+Add a proficient die for every level above 3rd. At 5th level you may target a 2x2 area creating a golem with 5 wounds, and at 7th a 3x3 area creating a golem with 8 wounds and two attacks per turn.
 
 ___
 #### Chain Lightning

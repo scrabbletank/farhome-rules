@@ -592,7 +592,7 @@ ___
 ___
 ***Enchanting Presence.*** Any attack, maneuver or spell attack against this target adds 2 Terrible dice to their rolls.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. Regardless of spell type they roll 2/2/1/0/0 for all spells, and add 2 Superior dice when the target of _Counter Spell_. The have 3 3rd level spell slots and know the following spells: _Phantasmal Blades_, _Fireball_, _, _Beacon_, _Sword Burst_, _Healing Word_.
+***Innate Magic.*** This creature does not require a codex to cast spells. Regardless of spell type they roll 2/2/1/0/0 for all spells, and add 2 Superior dice when the target of _Counter Spell_. The are a 3rd level caster with 11 mana and know the following spells: _Phantasmal Blades_, _Fireball_, _, _Beacon_, _Sword Burst_, _Healing Word_.
 
 **Actions**
 
@@ -661,7 +661,7 @@ ___
 ___
 ***Quick.*** This creature is immune to opportunity attacks when using the Move action (but not sprint).
 
-***Spellcaster.*** This creature is an Arcane (2) caster and has 3 1st and 1 2nd level spell slots. They have a codex with the following spells: _Firebolt, Cold Snap, Static Shock, Poison Trap_.
+***Spellcaster.*** This creature is proficient Arcane (2) spells. They are a 2nd level caster with 5 mana and have a codex with the following spells: _Firebolt, Cold Snap, Static Shock, Poison Trap_.
 
 **Actions**
 
@@ -738,7 +738,7 @@ ___
 ___
 ***Enduring.*** When taking lethal damage, as long as the attack dealt 3 or fewer wounds the Orc survives with 1 wound. Can only be used once per day.
 
-***Spellcaster.*** The Orc Shaman is proficient in Curse (3) and Divine (1) spells. They have 3 1st, 2 2nd and 3rd, and 1 4th level spell slot and a codex with the following spells: _Hex, Quicken, Web, Frog Morph, Healing Word, Regeneration_.
+***Spellcaster.*** The Orc Shaman is proficient in Curse (3) and Divine (1) spells. They are a 4th level caster with 10 mana and a codex with the following spells: _Hex, Quicken, Web, Frog Morph, Healing Word, Regeneration_.
 
 **Actions**
 
@@ -798,7 +798,7 @@ ___
 |-1/0|0/0|1/0|3/1|1/1|1/0|
 
 ___
-***Spellcaster.*** This creature is an Arcane (2) caster. They have 3 1st level and 1 2nd level spell slot, and a codex with the following spells prepared: _Firebolt, Static Shock, Arcane Blasts, Call Lightning, Combust, Misty Step._
+***Spellcaster.*** This creature is proficient with Arcane (2) spells. They are a 2nd level caster with 6 mana and a codex with the following spells prepared: _Firebolt, Static Shock, Arcane Blasts, Call Lightning, Combust, Misty Step._
 
 **Actions**
 
@@ -817,7 +817,7 @@ ___
 |-1/0|3/0|0/0|2/1|1/1|0/0|
 
 ___
-***Spellcaster.*** This creature is an Arcane (1) caster. They have 3 1st level and 1 2nd level spell slot, and a codex with the following spells prepared: _Cold Snap, Chilling Ray, Ray of Sickness, Detect Magic, Misty Step._
+***Spellcaster.*** This creature is proficient with Arcane (1) spells. They are a 2nd level caster with 5 mana and a codex with the following spells prepared: _Cold Snap, Chilling Ray, Ray of Sickness, Detect Magic, Misty Step._
 
 ***Infiltrator.*** Has Expertise in Stealth and Perception.
 
@@ -838,7 +838,7 @@ ___
 |-1/0|0/0|1/0|3/1|2/1|1/0|
 
 ___
-***Spellcaster.*** This creature is an Arcane (3) caster. They have 3 1st level and 2 2nd and 3rd level spell slots, and a codex with the following spells prepared: _Firebolt, Static Shock, Arcane Blasts, Call Lightning, Misty Step, Fireball, Phantasmal Blades._
+***Spellcaster.*** This creature is proficient with Arcane (3) spells. They are a 3rd level caster with 9 mana and a codex with the following spells prepared: _Firebolt, Static Shock, Arcane Blasts, Call Lightning, Misty Step, Fireball, Phantasmal Blades._
 
 **Actions**
 
