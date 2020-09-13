@@ -36,42 +36,69 @@ var FarhomeDice = FarhomeDice || (function () {
 
     var templateBtn = "background-color: transparent; padding: 0px; display: inline-block; color: black; border: 0.5px solid";
 
-    var spellText = {
-        "cold-snap": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: ["Sap the heat from a target. Make a spellcasting roll vs the targets stamina. On hit the target takes a wound. For every crit roll you the target gains a level of Slow until the end of their next turn.", "Add a proficiency die for every level above cantrip."] },
-        "firebolt": { dmg: [1, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1], txt: ["Blast a target with a bolt of fire. Make a spellcasting roll against the targets defense. On hit the target takes a wound, adding a wound die on crit.", "Add a wound die for every level above cantrip."] },
-        "message": { dmg: [], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: ["You attempt to send a telepathic message to a target you know. Make a spellcasting roll, adding a bad die for every 10 tiles you want the spell to travel, with a minimum of 1 bad die. On success the message is successfully broadcast. You know if the target recieved the message or not.", "Add a proficiency die for every level above cantrip."] },
-        "minor-image": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "static-shock": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "thundering-blow": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "arcane-blasts": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "arcane-key": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "beam-of-fire": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "call-lightning": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "chilling-ray": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "detect-magic": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "identify": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "magic-sight": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "poison-trap": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "ray-of-sickness": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "sword-burst": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "thunderclap": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "barrier": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "combust": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "dispel-magic": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "elemental-shell": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "flurry": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "imprint": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "magic-weapon": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "misty-step": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "resilient-shield": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "animate-guardian": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "chain-lightning": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "counter-spell": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "far-sight": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: [] },
-        "fireball": { dmg: [2, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1], txt: ["shoot a ball of fire centered at a target location you can see. The fireball explodes on impact, hitting all creatures in a 5x5 area. Creatures must make a Dexterity save vs your spellcasting, taking 1 wound on success. On failure they take 2 wounds, plus a wound die on crit.", "Add a wound die for every level above 3rd."] },
-        "flight": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: ["Gain magical flight, allowing you to float through the air. Target up to 5 willing creatures, adding a Terrible die to the spellcasting roll for each creature targeted. On success all targeted creatures gain a flying speed equal to their movement speeds.", "Add a proficient die for every level above 3rd."] },
-        "phantasmal-blades": { dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0], txt: ["Launch a series of arcane swords at a target. The target makes a Strength save vs your spellcasting, taking 3 wounds on fail.", "Add a wound and proficiency die for every level past 3rd."] },
+    var spellInfo = {
+        "cold-snap": { stat: "int", prof: "arcane", level: 0, ap: 5, range: 1, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Sap the heat from a target. Make a spellcasting roll vs the targets stamina. On hit the target takes a wound. For every crit roll you the target gains a level of Slow until the end of their next turn.", "Add a proficiency die for every level above cantrip."] },
+        "firebolt": { stat: "int", prof: "arcane", level: 0, ap: 6, range: 8, dmg: [1, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["Blast a target with a bolt of fire. Make a spellcasting roll against the targets defense. On hit the target takes a wound, adding a wound die on crit.", "Add a wound die for every level above cantrip."] },
+        "message": { stat: "int", prof: "arcane", level: 0, ap: 2, range: 10, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You attempt to send a telepathic message to a target you know. Make a spellcasting roll, adding a bad die for every 10 tiles you want the spell to travel, with a minimum of 1 bad die. On success the message is successfully broadcast. You know if the target recieved the message or not.", "Add a proficiency die for every level above cantrip."] },
+        "minor-image": { stat: "int", prof: "arcane", level: 0, ap: 4, range: 10, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You create a small, soundless illusory image no larger than 1 tile at a point within range. The image has no physical presence and objects pass through it as if it wasn't there. Any creature attempting to see through the illusion must make a perception check against your spellcasting, seeing the illusion for what it is on success. A creature that touches or passes through the illusion automatically passes this check.", "Add a proficiency die for every level above cantrip."] },
+        "static-shock": { stat: "int", prof: "arcane", level: 0, ap: 6, range: 3, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Charge the air around the target. Make a spellcasting roll vs the targets Dexterity. On success the target takes a wound. If you roll a crit the spell bounces to a creature adjacent to the target, making a new roll for the new target. This spell ends when you do not roll a crit or you run out of targets. This cannot effect the same target twice.", "Add a proficiency die for every level above cantrip."] },
+        "thundering-blow": { stat: "int", prof: "arcane", level: 0, ap: 5, range: 0, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["conjure a rolling thunder to blast a target away. Make a spellcasting roll vs the targets Strength. On hit, roll a wound die and the target is pushed back 1 tile and is staggered until the end of their next turn, being pushed an additional tile for every crit. If the target is unable to move, either due to another creature or obstacle, roll a wound die for every tile remaining.", "Add a proficiency die for every level above cantrip."] },
+        "arcane-blasts": { stat: "int", prof: "arcane", level: 1, ap: 8, range: 7, dmg: [0, 3], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["You shoot a volley of 2 force blasts, sending a blast to any target in range. The blasts travel around corners and obstacles, homing in on their target. You may have all blasts target the same creature, or split the blasts between creatures. The target creatures make a Strength save vs your spellcasting roll. On fail they take 1 wound die for every blast aimed at them, upgrading a wound die to a wound for every crit rolled.", "Add a blast (and wound die) for every level above the first."] },
+        "arcane-key": { stat: "int", prof: "arcane", level: 1, ap: 30, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Magically force a lock to open. Make a lockpicking roll, using your spellcasting roll instead of your lockpicking skill. On success the lock is opened. This spell can open magical locks.", "Add a proficiency die for every level above 1st."] },
+        "beam-of-fire": { stat: "int", prof: "arcane", level: 1, ap: 7, range: 0, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["A blast of fire shoots from your hands, hitting all creatures in a 3x1 beam. Make a spellcasting roll vs the targets defense. On hit the target takes a wound, if you crit the targets take another wound.", "A blast of fire shoots from your hands, hitting all creatures in a 3x1 beam. Make a spellcasting roll vs the targets defense. On hit the target takes a wound, if you crit the targets take another wound."] },
+        "call-lightning": { stat: "int", prof: "arcane", level: 1, ap: 7, range: 10, dmg: [1, 2], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Call a bolt of lightning to strike a nearby target. The target makes a Dexterity save vs your spellcasting. On hit they take 1 wound, plus 2 wound dice in damage, and are paralyzed until the end of their next turn on crit. If cast in rainy conditions this spell only costs 5 AP.", "Add a proficiency die for every level above first."] },
+        "chilling-ray": { stat: "int", prof: "arcane", level: 1, ap: 6, range: 5, dmg: [0, 1], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You shoot a chilling beam at up to 3 targets in range. Make a spellcasting roll vs the targets Stamina. On hit, the target takes 1 wound die and gains Slow 1, or Slow 2 on crit.", "Add a proficiency die for every level above 1st."] },
+        "detect-magic": { stat: "int", prof: "arcane", level: 1, ap: 6, range: 10, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Target a 10x10 area, making a spellcasting roll against 2 bad die. On success you can see a faint outline over any magical effect in the area. For each crit you are able to determine the school of a given magic effect and a rough idea of the magic's purpose.", "Add a proficiency die for every level above the 1st."] },
+        "identify": { stat: "int", prof: "arcane", level: 1, ap: 30, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Attempt to learn the secrets of a magical item or trinket. When attempting to identify an item, use your spellcasting instead of your Lore skill to make the roll.", "Add a proficiency die for every level above 1st"] },
+        "magic-sight": { stat: "int", prof: "arcane", level: 1, ap: 10, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Create an invisible floating eye, visible only to those who can see the etheral plane or have cast Detect Magic. You can see, but not hear, everything the eye can see in addition to your normal senses. You can command the eye to move, moving 5 tiles each turn. If the eye moves more than 10 tiles away from you, you must make a spellcasting roll against 2 Bad die, repeating this roll every minute. On fail the spell ends. The eye cannot move through solid objects, but can fit through holes as small as 1 inch.", "If the eye is able to fully spot a creature behind cover, they gain 1 less bonus die from cover against your attacks.", "Add a proficiency die for every level above 1st."] },
+        "poison-trap": { stat: "int", prof: "arcane", level: 1, ap: 7, range: 5, dmg: [1, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Choose 3 connected tiles in range. When a creature starts their turn or enters a tile for the first time they must make a Stamina save against your spellcasting. On a fail they take 1 wound. On a crit the target is poisoned until the end of their next turn. These tiles count as difficult terrain, and last for 1 minute.", "Add a tile for every level above first."] },
+        "ray-of-sickness": { stat: "int", prof: "arcane", level: 1, ap: 5, range: 7, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Make a spellcasting roll vs a targets stamina. On success the target gains Poison 1 for the next 10 minutes, gaining a level for every crit.", "Add a target for every level above 1st."] },
+        "sword-burst": { stat: "int", prof: "arcane", level: 1, ap: 3, range: 0, dmg: [0, 1], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["Magically enchant your weapon to fire a burst of energy with your next attack. You gain Reach 1 for the duration of the spell. On your next attack the target makes a Strength save against your weapon attack roll. On fail, you connect with the attack, converting all physical damage to Force damage and adding an extra wound die to the damage roll. After you make the attack the spell ends.", "Your reach increases by 1 and you add a wound die to the damage for every level above the 1st."] },
+        "thunderclap": { stat: "int", prof: "arcane", level: 1, ap: 5, range: 0, dmg: [1, 1], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["A wave of force slams the ground around you, hitting all creatures adjacent to you. Make a spellcasting roll vs the targets defense. On hit the target takes a wound and a wound die in damage and is staggered, and on a crit the target is pushed away 1 tile from you, taking an extra wound if an object or creature blocks their movement.", "Add a proficiency die for every level above first."] },
+        "barrier": { stat: "int", prof: "arcane", level: 2, ap: 2, range: 0, dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["As a reaction you quickly pull up magical defenses, protecting you and all creatures adjacent to yourself. Make a spellcasting roll, you and all effected creatures add 1 superior die, adding an extra superior die for every crit, against the incoming spell. If the spell does not require a save, roll the superior dice against the casters spellcasting roll. On a success the spell has no effect.", "Increase the range of protection by 1 and add a proficiency die for every level above the first."] },
+        "combust": { stat: "int", prof: "arcane", level: 2, ap: 7, range: 10, dmg: [1, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Cause up to 2 creatures in range to burst into flames. Targets makes a Dexterity save vs your spellcasting, on a fail they ignite in flames. At the start of their turn they take 1 wound. On their turn they may spend 5 AP rolling on the ground to extinguish the fire, leaving them prone.", "Add a target for every level above 2nd."] },
+        "dispel-magic": { stat: "int", prof: "arcane", level: 2, ap: 5, range: 5, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You attempt to dispel a magical effect targeting a creature or area. Make a spellcasting roll vs 1 proficient die per level of spell you are trying to dispel. If the effect you are trying to break is actively being concentrated on by another creature make a spellcasting roll vs the creatures concentration instead. On success the magical effect ends. If targeting an effect caused by an object, such as a magic item or animated armor, they regain their magical effects after 10 minutes.", "You may target an additional effect for every level past 2nd."] },
+        "elemental-shell": { stat: "int", prof: "arcane", level: 2, ap: 5, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Create an energy barrier around yourself. Choose a damage type: fire, cold, lightning, thunder, poison. Make a spellcasting roll, gaining Resistance 1 to that damage type, increasing the resistance by 1 for every crit rolled.", "Add a proficiency die for every level above 2nd."] },
+        "flurry": { stat: "int", prof: "arcane", level: 2, ap: 7, range: 0, dmg: [0, 2], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["You conjure a flurry of ice shards in a 3x3 area. Each creature must make a Stamina save vs your spellcasting modifier. On fail they take 2 wound die, gaining 1 level of Slow for the next minute on crit.", "Increase the number of wound dice and area by 1 for every level above 2nd."] },
+        "imprint": { stat: "int", prof: "arcane", level: 2, ap: 0, range: 0, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "magic-weapon": { stat: "int", prof: "arcane", level: 2, ap: 10, range: 5, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Temporarily enchant a weapon with magic. Target up to 5 weapons, adding 1 terrible die to your spelclasting roll for each weapon targeted. On success the weapons are considered +1 magic weapons. If you lose or drop concentration before the hour is finished the weapons retain the magic for 1 minute before fading completely.", "Add a proficiency die for every level above 2nd."] },
+        "misty-step": { stat: "int", prof: "arcane", level: 2, ap: 3, range: 5, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Teleport to a unoccupied point you can see in range. Make a spellcasting roll, adding 2 bad die if you attempt to teleport more than 5 tiles, with a max range of 10. On success you teleport to that position, preventing any opportunity attacks or attacks that trigger on entering someones zone of control.", "Add a proficiency die for every level above 2nd."] },
+        "resilient-shield": { stat: "int", prof: "arcane", level: 2, ap: 4, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["On your turn, or as a reaction, you create a dampening shield around yourself. While the shield holds you gain Resistance 1 to all physical damage. Make a spellcasting roll, the shield can take 3 hits before shattering, adding a hit for each crit rolled. While the spell is active you cannot take the move or sprint actions, but movement effects do not break the spell.", "Add a proficiency die for every level above 2nd."] },
+        "animate-guardian": { stat: "int", prof: "arcane", level: 3, ap: 10, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You attempt to animate a simple object made of plant, wood, stone, or metal no more than 1 tile in size. If the object is part of a larger construction (a stone wall, a dirt mound, etc) you add 1 terrible die to your roll as you try to force it free.", "Make a spellcasting roll adding 2 terrible dice or 4 terrible dice if the meterial is metal. On success you create a golem out of the object. The golem has 3 wounds and acts on your turn. It can take a move action to move 4 tiles and can make a single attack. The golem's attack uses 5 normal dice, improing one die for every success and adding a die for every crit. The creature deals 1 wound on hit, adding a wound die for every size increase. After the duration or if the caster is incapacitated the golem reverts to inanimate material. Golems made of metal have Resistance 1 to physical damage.", "Add a proficient die for every level above 3rd. At 5th level you may target a 2x2 area creating a golem with 5 wounds, and at 7th a 3x3 area creating a golem with 8 wounds and two attacks per turn."] },
+        "chain-lightning": { stat: "int", prof: "arcane", level: 3, ap: 7, range: 5, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["A burst of lightning that bounces from target to target. The Lightning bounces from your target to a creature of your choice within 3 tiles of the target, bouncing this way up to 2 times. The lightning cannot bounce to the same creature twice and must bounce to a creature if able. Each creature hit by the lightning must make a Dexterity save vs your spellcasting, on hit they take 1 wound in damage, plus a wound die for every crit rolled in your spellcasting roll.", "The number of bounces increases by 1 and you add a proficient die to your spellcasting roll for every level above 3rd."] },
+        "counter-spell": { stat: "int", prof: "arcane", level: 3, ap: 2, range: 5, dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Attempt to counter the flow of magic. As a reaction make a spellcasting roll vs the targets Intelligence, adding a terrible/superior die for every level this spell is below/above the target spell. On success the spell is countered."] },
+        "far-sight": { stat: "int", prof: "arcane", level: 3, ap: 10, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["See far into the distance, bending your sight around obstacles. Choose a location in range, making a spellcasting roll against 2 Terrible die, or 3 if the location is unfamiliar to you. On success you can see the target location as long as it is not complete incased, for example you would be able to see the happenings in a town, but not inside buildings. You can see the location as if you were present there, but cannot make out sounds. At any time you may change the target of your sight, requiring a minute to reorient yourself.", "Add a proficient die for every level above 3rd."] },
+        "fireball": { stat: "int", prof: "arcane", level: 3, ap: 8, range: 10, dmg: [2, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["shoot a ball of fire centered at a target location you can see. The fireball explodes on impact, hitting all creatures in a 5x5 area. Creatures must make a Dexterity save vs your spellcasting, taking 1 wound on success. On failure they take 2 wounds, plus a wound die on crit.", "Add a wound die for every level above 3rd."] },
+        "flight": { stat: "int", prof: "arcane", level: 3, ap: 7, range: 5, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Gain magical flight, allowing you to float through the air. Target up to 5 willing creatures, adding a Terrible die to the spellcasting roll for each creature targeted. On success all targeted creatures gain a flying speed equal to their movement speeds.", "Add a proficient die for every level above 3rd."] },
+        "phantasmal-blades": { stat: "int", level: 3, prof: "arcane", ap: 8, range: 10, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Launch a series of arcane swords at a target. The target makes a Strength save vs your spellcasting, taking 3 wounds on fail.", "Add a wound and proficiency die for every level past 3rd."] },
 
+        "bleed": { stat: "wil", prof: "curse", level: 0, ap: 5, range: 5, dmg: [0, 1], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Targeting a creature in range you can see you cause their wounds to reopen. The creature makes a Stamina save against your spellcasting roll. On fail they take 1 wound die in damage, or 3 wound dice if they have missing wounds.", "You may target an extra creature for every level cast above cantrip."] },
+        "eldritch-blast": { stat: "wil", prof: "curse", level: 0, ap: 5, range: 8, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Blast a target with eldritch force. Make a spellcasting roll against the targets Strength. On success they take 1 wound, adding a wound die on crit.", "Add a proficiency die to your spellcasting roll for every level cast above cantrip."] },
+        "levitate": { stat: "wil", prof: "curse", level: 0, ap: 5, range: 5, dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You magically levitate an object or creature weighing less than 25 lbs. If the target is an unwilling creature you must make a spellcasting roll against thir Strength save. On success, each turn you may move the target 3 tiles upwards or downwards. This movement does not provoke opportunity attacks, and does not move them with enough force to damage them, but can force them prone (against the ceiling or floor).", "If the target is an unwilling creature they make the save again at the end of their turn, freeing themselves from your levitation on success. If the target is in the air when the spell ends it drops to the ground normally. If the target becomes heavier than the spell can carry (for example a creature standing ontop of a levitating slab) the spell ends.", "The maximum weight doubles for every level cast above cantrip."] },
+        "life-sense": { stat: "wil", prof: "curse", level: 0, ap: 5, range: 10, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["targeting a 4x4 cube, all living creatures give off the glow of life. Creatures must make a Willpower save vs your spellcasting. On a fail a dim light outlines their body. Any attacks against this creature can change a normal die for a proficiency die.", "Add a proficiency die to your spellcasting roll for every level cast above cantrip."] },
+        "trickery": { stat: "wil", prof: "curse", level: 0, ap: 5, range: 5, dmg: [0, 1], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+
+
+        "guidance": { stat: "cha", prof: "divine", level: 0, ap: 3, range: 2, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature targeted. On a success, the creature can add a proficiency die to their next attack roll or damage-dealing spell roll. On crit they add a superiority die instead.", "Add a proficiency die for every level above cantrip."] },
+        "holy-protection": { stat: "cha", prof: "divine", level: 0, ap: 4, range: 2, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Target up to 5 creatures. Make a spellcasting roll, adding a bad die for every creature targeted. On success, The next die to roll a crit against this creature is ignored.", "Add a proficiency die for every level above cantrip."] },
+        "light": { stat: "cha", prof: "divine", level: 0, ap: 6, range: 5, dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You cause a small object no larger than a fist to emit a bright light. You may control the intensity of the light, from 1 emitting 1 tile of dim light up to 3 tiles of bright light and 3 tiles of dim light. You may double the lights intensity, doubling the lights range but must make a concentration check each turn to maintain this effect. While intensifying the light, any creatures that are sensitive to bright light add 1 terrible die to their attack rolls while in this spells bright light.", "When this light enters magical darkness you must make a spellcasting roll vs the spellcasting roll of the effect that created the darkness. You add a superior or terrible die for every level above or below this light spell is compared to the darkness. On success the darkness is dispelled, and on fail this spell ends.", "The range of both the maximum bright and dim light increases by 1 tile for every level above cantrip. At level 5 and above this light is considered sunlight."] },
+        "radiant-light": { stat: "cha", prof: "divine", level: 0, ap: 6, range: 5, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["A ray of radiant light blasts a target creature in range. The creature makes a dexterity save vs your spellcasting. On a fail they take 1 wound, or 2 wounds if they are undead.", "Add a target for every level above cantrip."] },
+        "spare-from-death": { stat: "cha", prof: "divine", level: 0, ap: 4, range: 0, dmg: [0, 0], lroll: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Magically slow the heart and prevent blood loss. Make a Medicine check using your spellcasting for the roll, adding a bad die for every temporary wound missing. On success the target is stabilized and will regain consciousness in 10 minutes.", "Add a superior die for every level above cantrip."] },
+        "vine-whip": { stat: "cha", prof: "divine", level: 0, ap: 5, range: 5, dmg: [0, 1], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["Magically influence a plant to attack or grapple a nearby creature. Choose a location in range to grow a plant, or take control of a small or larger plant within 10 tiles. The plant grows a bramble whip it can use to attack creatures in melee range. You may use the plant to make an attack or grapple roll, using your spellcasting roll for the attack. On hit they take 1 wound die in damage, or 1 wound on crit.", "The plant lasts for 1 minute after which it returns to its original shape.", "Add a wound die for every level above cantrip."] },
+        "animal-messenger": { stat: "cha", prof: "divine", level: 1, ap: 30, range: 0, dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You attempt to summon a small beast to deliver a message for you. Make a spellcasting roll against 2 Terrible dice in an urban environment, or 2 Bad dice elsewhere. On success you summon a small beast local to the area, with the beast having wings on crit. You can give the beast a message up to 1 minute long and a description of who to deliver the message to. The beast will give the message to the first creature it finds that matches the description, and may have trouble with overly complex messages.", "On delivering the message the recipeint is able to give a 1 minute message in return. If the beast is unable to find a creature matching that description or unable to return the response within the spells duration the beast reverts back to a normal animal and the message is lost.", "The duration increases by 1 day for each level above the 1st."] },
+        "bonfire": { stat: "cha", prof: "divine", level: 1, ap: 30, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You create a magical soothing bonfire. The bonfire takes a single tile of space, emits bright light for 5 tiles, and dim light for an additional 5. Target up to 5 creatures and make a spellcasting roll, adding a bad die for every creature targeted. These creatures heal an additional wound during their long rest and recover 1 point of exhaustion.", "Add a proficient die for every level above the 1st."] },
+        "bramble": { stat: "cha", prof: "divine", level: 1, ap: 7, range: 7, dmg: [0, 1], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["A growth of razor sharp bramble appears at a target location. Choose a point in range, summoning bramble in a 3x3 square centered on that point. The bramble counts as difficult terrain. The bramble is flammable and a tile will burn away after taking 1 wound of fire damage.", "Any creature attempting to take a move or sprint action through the bramble must make a Dexterity save vs your spellcasting. On fail they take 1 wound die, with their movement ending on a crit. A creature makes this save only once per move or sprint action.", "The area increases by 1 for every level above 1st."] },
+        "chilling-fog": { stat: "cha", prof: "divine", level: 1, ap: 6, range: 15, dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["A chilling fog appears in a 5x5 area at a target location. Make a spellcasting roll, all creatures gain slow equal to the number of crits rolled, with a minimum of 1. All creatures inisde the fog gain fire resistance 1. The fog heavily obscures the area.", "The size and range of the fog increase by 2 for every level above 1st."] },
+        "close-wound": { stat: "cha", prof: "divine", level: 1, ap: 5, range: 0, dmg: [1, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["Mend a creature's wounds. Make a spellcasting roll, healing a single wound and adding a wound for every crit rolled.", "Add a Wound die for every level above the 1st."] },
+        "healing-word": { stat: "cha", prof: "divine", level: 1, ap: 4, range: 5, dmg: [0, 0], lroll: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0], txt: ["Send healing energy to a single target. Make a spellcasting roll, adding 3 Bad dice. On success, roll a wound die for every success rolled, healing for the total wounds rolled.", "Add a normal die for every level above the 1st."] },
+        "holy-weapon": { stat: "cha", prof: "divine", level: 1, ap: 4, range: 0, dmg: [0, 1], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Enchant your weapon with holy power. For the next minute you may use your divine spellcasting in place of attack rolls you make. Your attacks add an additional wound die to the damage, or 3 if the target is undead.", "Duration increases by 1 minute for every level cast above 1st."] },
+        "solar-flash": { stat: "cha", prof: "divine", level: 1, ap: 6, range: 0, dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Shine blinding light in a cone infront of you. A cone of light 3 tiles long shines from you. Each creature must make a Stamina save vs your spellcasting, on fail they are blinded until the end of their next turn. If the creature is sensitive to daylight or bright light they also take 1 wound in Holy damage.", "The the length of the cone increases by 1 for every level above 1st."] },
+        "tremor": { stat: "cha", prof: "divine", level: 1, ap: 7, range: 0, dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You cause the earth around you to tremor. All creatures within 2 tiles of you must make a Strength save vs your spellcasting. On fail the creature takes 1 wound die in damage, getting knocked prone on crit. If the ground in the area is loose earth or stone it becomes difficult terrain until cleared.", "The the effected tiles extends by 1 in all directions for every level above 1st."] },
+        "cleanse": { stat: "cha", prof: "divine", level: 2, ap: 3, range: 3, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Attempt to remove negative effects from a target. You may choose any number of conditions this spell can remove, adding a bad die to your spellcasting roll for each condition, and a bad die for every condition level above 1. On success, those conditions are removed from the target. Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, and Fear.", "Add a proficiency die for every level above the 1st."] },
+        "consecrate-ground": { stat: "cha", prof: "divine", level: 2, ap: 10, range: 0, dmg: [1, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Mark a 3x3 area centered on yourself, purifying the ground. Any undead or monstrosity attempting to enter the consecrated ground must make a Charisma save vs your spellcasting. On fail they cannot willingly enter. Any undead inside the consecrated ground takes 1 wound at the start of their turn. Allies inside the zone gain 1 proficiency on all saving throws. You may move normally, however leaving the area ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.", "The area increases by 2 for every level cast above 2nd"] },
+        "enhance-ability": { stat: "cha", prof: "divine", level: 2, ap: 5, range: 3, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Target up to 5 creatures. Make a spellcasting roll adding 1 terrible die, plus a terrible die for every creature targeted. On success the creatures gain +1 to a single attribute for the duration of the spell. They also gain +1 to their proficiency modifier in that attributes saving throw for every crit rolled.", "Add a proficiency die for every level above the 1st."] },
+        "gust": { stat: "cha", prof: "divine", level: 2, ap: 7, range: 0, dmg: [0, 1], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You cause strong winds to blow in a direction, 10 tiles long by 2 tiles wide. Each creature in the line must make a Strength save vs your spellcasting, on fail they are blown back 1 tile, plus an additional tile for every crit rolled. If they are unable to move due to a wall or obstacle they instead take 1 wound die in damage. Any creature moving against the direction of the wind must spend two tiles of movement for every tile moved. You may spend 2 AP to reverse the direction of the wind.", "Add a proficiency die for every level cast above 2nd."] },
+        "guidance": { stat: "cha", prof: "divine", level: 2, ap: 5, range: 5, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: [] },
     }
 
     var commandListener = function () {
@@ -171,6 +198,9 @@ var FarhomeDice = FarhomeDice || (function () {
                 else if (command === 'rr') {
                     reroll(msgFrom);
                 }
+                else if (command === 'spell') {
+                    spell(msgFrom, params);
+                }
 
 
                 if (result != "") {
@@ -195,11 +225,48 @@ var FarhomeDice = FarhomeDice || (function () {
                 return msg.content;
             }
         },
+        
+        getDefaultMods = function() {
+            return {
+                bonus: [0,0,0,0,0,0,0,0,0,0]
+            };
+        },
 
         getMods = function (param) {
-            var modObj = {}
-            if (param.substring(0, 2) === 'kh') {
-                modObj.keepHighest = param.substring(2, param.length);
+            var modObj = {
+                bonus: [0,0,0,0,0,0,0,0,0,0]
+            };
+            if (param.substring(0, 1) === 'b') {
+                var vals = param.substring(1).split('-');
+                for (var i = 0; i < vals.length; i++) {
+                    if (vals[i].length < 2) {
+                        continue;
+                    }
+                    var sub1 = vals[i].substring(0, 0), sub2 = vals[i].substring(0, 1);
+                    if (sub1 === 's' || sub1 === 'y') {
+                        modObj.bonus[0] += parseInt(vals[i].substring(1));
+                    } else if (sub1 === 'p' || sub1 === 'g') {
+                        modObj.bonus[1] += parseInt(vals[i].substring(1));
+                    } else if (sub1 === 'n' || sub1 === 'w') {
+                        modObj.bonus[2] += parseInt(vals[i].substring(1));
+                    } else if (sub1 === 'b' || sub1 === 'r') {
+                        modObj.bonus[3] += parseInt(vals[i].substring(1));
+                    } else if (sub1 === 't') {
+                        modObj.bonus[4] += parseInt(vals[i].substring(1));
+                    } else if (sub2 === 'pr') {
+                        modObj.bonus[5] += parseInt(vals[i].substring(2));
+                    } else if (sub2 === 'sd') {
+                        modObj.bonus[6] += parseInt(vals[i].substring(2));
+                    } else if (sub1 === 'd') {
+                        modObj.bonus[7] += parseInt(vals[i].substring(1));
+                    } else if (sub2 === 'gw') {
+                        modObj.bonus[8] += parseInt(vals[i].substring(2));
+                    } else if (sub1 === 'w') {
+                        modObj.bonus[9] += parseInt(vals[i].substring(1));
+                    } else if (sub1 === 'h') {
+                        modObj.bonus[10] += parseInt(vals[i].substring(1));
+                    }
+                }
             }
             return modObj;
         },
@@ -211,6 +278,7 @@ var FarhomeDice = FarhomeDice || (function () {
             return attr;
         },
         getAttrDice = function (attribute, proficiency, allowNegatives = true) {
+            log(attribute + " " + proficiency);
             var attributeUnder5 = Math.min(5, attribute);
             var attributeOver5 = Math.max(0, attribute - 5);
             var proficiencyOver5 = Math.max(0, proficiency - 5);
@@ -291,28 +359,24 @@ var FarhomeDice = FarhomeDice || (function () {
         },
 
         skillRoll = function (params) {
-            var modObj = params.length > 3 ? getMods(params[3]) : {};
+            var modObj = params.length > 3 ? getMods(params[2]) : getDefaultMods();
             modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
             var statVal = parseInt(params[0]);
             var statProf = parseInt(params[1]);
             var poison = character ? parseInt(getAttr("poison", 0).get("current")) : 0;
             var fear = character ? parseInt(getAttr("fear", 0).get("current")) : 0;
 
-            var expertise = params.length >= 2 ? parseInt(params[2]) : 0;
-
-            if (expertise == 1) {
-                modObj.keepHighest = modObj.keepHighest ? modObj.keepHighest + 3 : 3;
-            }
-
             var dice = getAttrDice(statVal, statProf);
             dice[4] += poison;
             dice[3] += fear;
+
+            log(dice);
 
             return roll(dice, modObj);
         },
 
         customRoll = function (params) {
-            var modObj = params.length > 5 ? getMods(params[5]) : {};
+            var modObj = params.length > 5 ? getMods(params[5]) : getDefaultMods();
             modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
 
             var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4]), 0, 0, 0, 0, 0];
@@ -321,7 +385,7 @@ var FarhomeDice = FarhomeDice || (function () {
         },
 
         attack = function (params) {
-            var modObj = params.length > 5 ? getMods(params[5]) : {};
+            var modObj = params.length > 5 ? getMods(params[5]) : getDefaultMods();
             modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
             var poison = character ? parseInt(getAttr("poison", 0).get("current")) : 0;
             var fear = character ? parseInt(getAttr("fear", 0).get("current")) : 0;
@@ -338,7 +402,7 @@ var FarhomeDice = FarhomeDice || (function () {
         initiative = function (msgFrom, params) {
             var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4]), 0, 0, 0, 0, 0];
 
-            var modObj = params.length > 5 ? getMods(params[5]) : {};
+            var modObj = params.length > 5 ? getMods(params[5]) : getDefaultMods();
             modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
 
             var msg = roll(diceVals, modObj);
@@ -363,7 +427,7 @@ var FarhomeDice = FarhomeDice || (function () {
 
         defend = function (params) {
             var diceVals = [0, 0, 0, 0, 0, parseInt(params[0]), parseInt(params[1]), 0, 0, 0];
-            var modObj = params.length > 2 ? getMods(params[2]) : {};
+            var modObj = params.length > 2 ? getMods(params[2]) : getDefaultMods();
             modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
 
             return roll(diceVals, modObj);
@@ -377,7 +441,7 @@ var FarhomeDice = FarhomeDice || (function () {
         },
 
         wound = function (params) {
-            var modObj = params.length > 2 ? getMods(params[2]) : {};
+            var modObj = params.length > 2 ? getMods(params[2]) : getDefaultMods();
             var diceVals = [0, 0, 0, 0, 0, 0, 0, parseInt(params[0]), parseInt(params[1]), 0];
             if (character) {
                 var weaken = parseInt(getAttr("weaken", 0).get("current"));
@@ -386,6 +450,7 @@ var FarhomeDice = FarhomeDice || (function () {
                     diceVals[0] = 0;
                 }
             }
+            log(modObj);
             return roll(diceVals, modObj);
         },
 
@@ -533,7 +598,7 @@ var FarhomeDice = FarhomeDice || (function () {
             for (var i = 0; i < diceVals.length; i++) {
                 if (diceVals[i] > 0) {
                     msg += "<span>";
-                    for (var t = 0; t < diceVals[i]; t++) {
+                    for (var t = 0; t < diceVals[i] + modObj.bonus[i]; t++) {
                         rollResult.d.push(i);
                         rollResult.r.push(false);
                         var rollVal = randomInteger(6) - 1;
@@ -542,16 +607,6 @@ var FarhomeDice = FarhomeDice || (function () {
                             msg += "<span style='background-color:" + allDice[i].clr + "; border: 1px solid;'>Hex!</span>";
                             modObj.hex--;
                         }
-                        // if (allDice[i].val[rollVal] <= allDice[i].rrthresh && modObj.keepHighest > 0) {
-                        //     var oldVal = rollVal;
-                        //     rollVal = randomInteger(6) - 1;
-                        //     modObj.keepHighest--;
-                        //     successes += allDice[i].val[rollVal];
-                        // //     crits += allDice[i].crit[rollVal];
-                        //     msg += "<div style='display:inline-block'>(<img src='" + allDice[i].roll[rollVal] + "' style='background-color:" + allDice[i].clr + "; border: 1px solid;'>" +
-                        //         "<img src='" + allDice[i].roll[oldVal] + "' style='background-color:" + allDice[i].clr + "; border: 1px solid; opacity: 0.25;'>)</div>";
-                        //     continue;
-                        // }
                         else {
                             rollResult.v.push(rollVal);
                             successes += allDice[i].val[rollVal];
@@ -570,7 +625,69 @@ var FarhomeDice = FarhomeDice || (function () {
             return msg;
         },
 
-        spell = function (params, character) {
+        spell = function (msgFrom, params) {
+            var values = {};
+            if (spellInfo[params[0]] === undefined) {
+                values.name = params[0];
+                values.effect = "Spell not listed. Either it's not coded or spelled incorrectly.";
+
+                var msg = makeTemplate(values);
+                sendChat(msgFrom, "/direct " + msg);
+                return;
+            }
+
+            var info = spellInfo[params[0]];
+            var modObj = getMods(params[params.length - 1]);
+            var dmg = [info.dmg[0], info.dmg[1]];
+            var level = parseInt(params[1]);
+            var levelDiff = level - info.level;
+            for (var i = 0; i < 7; i++) {
+                modObj.bonus[i] += info.lroll[i] * levelDiff;
+            }
+            dmg[0] += info.lroll[7] * levelDiff + modObj.bonus[7];
+            dmg[1] += info.lroll[8] * levelDiff + modObj.bonus[8];
+            modObj.bonus[7] = 0;
+            modObj.bonus[8] = 0;
+
+            if (level < info.level) {
+                values.name = params[0];
+                values.effect = "Did you enter the right level? Spell needs a minimum of " + info.level +", entered " + level;
+
+                var msg = makeTemplate(values);
+                sendChat(msgFrom, "/direct " + msg);
+                return;
+            }
+
+            //rebuild bonus dice to pass into skill roll
+            var prefix = ['y','g', 'w', 'r', 'pr', 'sd', 'd', 'gw', 'w', 'h'];
+            var bonus = "b";
+            var addDash = false;
+            for (var i = 0; i < modObj.bonus.length; i++) {
+                if (modObj.bonus[i] > 0) {
+                    if (addDash === true) {
+                        bonus += "-";
+                    } else {
+                        addDash = true;
+                    }
+                    bonus += prefix[i] + modObj.bonus[i];
+                }
+            }
+
+            values.name = params[0];
+            values.description = "Lv" + level + ", " + info.ap + "AP, " + (info.range != 0 ? "Range " + info.range : "Touch");
+            values.effect = "";
+            for (var i = 0; i < info.txt.length; i++) {
+                values.effect += info.txt[i] + (i !== info.txt.length - 1 ? "<br/><br/>" : "");
+            }
+            values.mana = level + (level >= 5 ? 1 : 0) + (level >= 8 ? 2: 0);
+
+            values.rollSpell = skillRoll([getAttr(info.stat, "0").get("current"), getAttr(info.prof, "0").get("current"), bonus]);
+            if (dmg[0] > 0 || dmg[1] > 0) {
+                values.rollDmg = wound([dmg[0].toString(), dmg[1].toString()]);
+            }
+            
+            var msg = makeTemplate(values);
+            sendChat(msgFrom, "/direct " + msg);
         };
 
     return {

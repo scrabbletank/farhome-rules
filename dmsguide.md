@@ -15,7 +15,6 @@ Both arrows and bolts can be enchanted. When using magic ammunition add a wound 
 A weapon whose blade can ignite in flames. Can be used as a torch. Grants the _Flame Slash_ maneuver.
 
 ##### Flame Slash
-___
 - **AP Cost:** 5
 - **Weapon:** Slashing
 - **Range:** Melee
@@ -29,7 +28,6 @@ A shield covered in eyes that dart around, looking for any threats. Gives 1 supe
 
 
 ##### Terrifying Gaze
-___
 - **AP Cost:** 5
 - **Weapon:** Shield
 - **Range:** Area of Control
@@ -59,7 +57,6 @@ A strange ring that wards the wearer from danger. When making a defense roll, yo
 A blade that emits a cutting force beyond the edge of its sword. Damage dealt with this weapon is considered Force damage. You gain the _Cutting Force_ manuever.
 
 ##### Cutting Force
-___
 - **AP Cost:** 6
 - **Weapon:** Slashing
 - **Range:** 7
@@ -73,7 +70,6 @@ Send a blast of force at a target within range. Make a normal weapon attack agai
 A hammer infused with the power of earth. When attacking Elementals you deal an additional wound die in damage. You also gain the _Quake_ manuever.
 
 ##### Quake
-___
 - **AP Cost:** 7
 - **Weapon:** Bludgeoning
 - **Range:** Melee
@@ -86,7 +82,6 @@ Smash your hammer into the ground, causing the earth in your zone of control to 
 A hatchet inscribed with runes, cold to the touch. When thrown the Hatchet appears back in your hand at the end of your turn. You gain the _Icy Impact_ manuever.
 
 ##### Icy Impact
-___
 - **AP Cost:** 6
 - **Weapon:** Slashing
 - **Range:** Thrown
@@ -252,7 +247,6 @@ While wearing this mask you add 1 proficiency die to all spellcasting rolls. Whe
 ***Curse.*** This item is cursed. After attuning to the mask you are unable to part with it, wearing it covering your face or off to one side. If you reach 0 wounds or suffer an effect that would kill you outright, the Mask consumes you and you return as a Shadowbeast. You are stalked by a powerful entity of shadow that wants the mask. This entity knows your general location and you cannot hide from it through magic.
 
 ##### Shadow Magic
-___
 - **AP Cost:** 7
 - **Damage:** Death
 - **Range:** 7
@@ -260,7 +254,6 @@ ___
 You summon 3 shadowbolts and launch them at targets in range. You may choose different targets, or have all bolts hit the same target. Make a curse spellcasting roll against the targets defense for each bolt, dealing 2 wound die on hit, and giving Hex 1 on crit. You gain 1 temporary wound for every 3 wounds dealt by this attack.
 
 ##### Orb of Destruction
-___
 - **AP Cost:** 9
 - **Damage:** Death
 - **Range:** 10
@@ -333,7 +326,6 @@ This black metal band resizes itself to fit around the wearers forearm. Once per
 This dull blue dagger emits faint wisps of smoke visible even when sheathed. You gain the Shadowwalk maneuver while holding this dagger.
 
 ##### Shadowwalk
-___
 - **AP Cost:** 5
 - **Damage:** Death
 - **Range:** 5/10
@@ -395,3 +387,25 @@ ___
 - **Roll:** 2 Bad dice, 1 Terrible die
 
 Your max wounds increases by 1 for the next 24 hours. Every time you roll a healing surge you heal an extra wound.
+
+
+#### Heart of the Forest
+*Wondrous Item, Requires Attunement*
+
+While wearing this pendant you gain 1 Stamina and have expertise when making Poison saves.
+
+#### Circlet of Power +1, +2, +3
+*Wondrous Item, Requires Attunement*
+
+A circlet worn around your wrist, adorned in arcane runes. When making a spellcasting roll you may reroll a number of dice equal to the circlets modifier.
+
+#### Spriggan Tunic
+*Magic Padded Armor*
+
+A tunic woven from the hair of a spriggan. While outside you have expertise in stealth as long as you aren't moving. While in a forest you gain the _Treewalk_ Maneuver
+
+##### Treewalk
+- **AP Cost:** 5
+- **Range:** 7
+
+When standing next to a tree you may magically enter the tree. While inside the tree you are untargetable by effects that do not target the ethereal plane. At the start of your next turn you appear beside a tree within range.

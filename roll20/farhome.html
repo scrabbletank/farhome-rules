@@ -50,7 +50,7 @@
             name="attr_chasave" value="0" />
         <button type='roll' name='roll_save' value='!rtmp `name|Charisma Save` `roll1|save cha`'></button>
         <br />
-        <span class="simple120">Action Points</span><input type="number" name="attr_actionpoints" value="0" />/<input
+        <span class="simple120">AP</span><input type="number" name="attr_actionpoints" value="0" />/<input
             type="number" name="attr_maxactionpoints" value="0" />
         <br />
         <span class="simple120">Move/Sprint</span><input type="number" name="attr_movespeed" value="0" />/<input
@@ -103,20 +103,15 @@
         <br />
         <input class="sheet-skillsCur sheet-hidden" type="checkbox" name="attr_curvis" value="1">
         <div class="sheet-skillsec-cur">
-            <div class="2colrow">
-                <div class="col">
-                    <label style="width:25px">CP</label><input style="width:3em;max-width: 3em;" type="number"
-                        name="attr_cp" value="0" />
-                    <label style="width:25px">GP</label><input style="width:3em;max-width: 3em;" type="number"
-                        name="attr_gp" value="0" />
-                </div>
-                <div class="col">
-                    <label style="width:25px">SP</label><input style="width:3em;max-width: 3em;" type="number"
-                        name="attr_sp" value="0" />
-                    <label style="width:25px">PP</label><input style="width:3em;max-width: 3em;" type="number"
-                        name="attr_pp" value="0" />
-                </div>
-            </div>
+            <label class="short">Trites</label><input style="width:3em;max-width: 3em;" type="number"
+                name="attr_ct" value="0" />
+                <br />
+            <label class="short">Crosses</label><input style="width:3em;max-width: 3em;" type="number"
+                name="attr_sc" value="0" />
+                <br />
+            <label class="short">Talents</label><input style="width:3em;max-width: 3em;" type="number"
+                name="attr_pt" value="0" />
+                <br />
         </div>
     </div>
     <div class="skills">
@@ -471,48 +466,13 @@
         </div>
     </div>
     <div class="spells">
-        <h3>Spell Slots</h3>
+        <h3>Spellcasting</h3>
         <br />
-        <div class="inlinespell">
-            <div style="margin-left: 15px" class="simple120">1st</div>
-            <br />
-            <input type="number" name="attr_first" value="0" />/<input type="number" name="attr_firstmax" value="0" />
-            <br />
-            <div style="margin-left: 15px" class="simple120">2nd</div>
-            <br />
-            <input type="number" name="attr_second" value="0" />/<input type="number" name="attr_secondmax" value="0" />
-            <br />
-            <div style="margin-left: 15px" class="simple120">3rd</div>
-            <br />
-            <input type="number" name="attr_third" value="0" />/<input type="number" name="attr_thirdmax" value="0" />
-        </div>
-        <div style="margin:-3px" class="inlinespell">
-            <div style="margin-left: 15px" class="simple120">4th</div>
-            <br />
-            <input type="number" name="attr_fourth" value="0" />/<input type="number" name="attr_fourthmax" value="0" />
-            <br />
-            <div style="margin-left: 15px" class="simple120">5th</div>
-            <br />
-            <input type="number" name="attr_fifth" value="0" />/<input type="number" name="attr_fifthmax" value="0" />
-            <br />
-            <div style="margin-left: 15px" class="simple120">6th</div>
-            <br />
-            <input type="number" name="attr_sixth" value="0" />/<input type="number" name="attr_sixthmax" value="0" />
-        </div>
-        <div style="margin:-3px" class="inlinespell">
-            <div style="margin-left: 15px" class="simple120">7th</div>
-            <br />
-            <input type="number" name="attr_seventh" value="0" />/<input type="number" name="attr_seventhmax"
-                value="0" />
-            <br />
-            <div style="margin-left: 15px" class="simple120">8th</div>
-            <br />
-            <input type="number" name="attr_eighth" value="0" />/<input type="number" name="attr_eighthmax" value="0" />
-            <br />
-            <div style="margin-left: 15px" class="simple120">9th</div>
-            <br />
-            <input type="number" name="attr_ninth" value="0" />/<input type="number" name="attr_ninthmax" value="0" />
-        </div>
+        <span class="simple120">Spell Power</span>
+        <input type="number" name="attr_spellpower" value="0" />
+        <br />
+        <span class="simple120">Mana</span>
+        <input type="number" name="attr_mana" value="0" />/<input type="number" name="attr_manamax" value="0" />
         <br />
 
         <h3>Spell Proficiencies</h3>
