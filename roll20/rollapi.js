@@ -70,7 +70,7 @@ var FarhomeDice = FarhomeDice || (function () {
         "far-sight": { stat: "int", prof: "arcane", level: 3, ap: 10, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["See far into the distance, bending your sight around obstacles. Choose a location in range, making a spellcasting roll against 2 Terrible die, or 3 if the location is unfamiliar to you. On success you can see the target location as long as it is not complete incased, for example you would be able to see the happenings in a town, but not inside buildings. You can see the location as if you were present there, but cannot make out sounds. At any time you may change the target of your sight, requiring a minute to reorient yourself.", "Add a proficient die for every level above 3rd."] },
         "fireball": { stat: "int", prof: "arcane", level: 3, ap: 8, range: 10, dmg: [2, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["shoot a ball of fire centered at a target location you can see. The fireball explodes on impact, hitting all creatures in a 5x5 area. Creatures must make a Dexterity save vs your spellcasting, taking 1 wound on success. On failure they take 2 wounds, plus a wound die on crit.", "Add a wound die for every level above 3rd."] },
         "flight": { stat: "int", prof: "arcane", level: 3, ap: 7, range: 5, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Gain magical flight, allowing you to float through the air. Target up to 5 willing creatures, adding a Terrible die to the spellcasting roll for each creature targeted. On success all targeted creatures gain a flying speed equal to their movement speeds.", "Add a proficient die for every level above 3rd."] },
-        "phantasmal-blades": { stat: "int", level: 3, prof: "arcane", ap: 8, range: 10, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Launch a series of arcane swords at a target. The target makes a Strength save vs your spellcasting, taking 3 wounds on fail.", "Add a wound and proficiency die for every level past 3rd."] },
+        "phantasmal-blades": { stat: "int", level: 3, prof: "arcane", ap: 8, range: 10, dmg: [3, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 1, 0], txt: ["Launch a series of arcane swords at a target. The target makes a Strength save vs your spellcasting, taking 3 wounds on fail.", "Add a wound and proficiency die for every level past 3rd."] },
 
         "bleed": { stat: "wil", prof: "curse", level: 0, ap: 5, range: 5, dmg: [0, 1], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Targeting a creature in range you can see you cause their wounds to reopen. The creature makes a Stamina save against your spellcasting roll. On fail they take 1 wound die in damage, or 3 wound dice if they have missing wounds.", "You may target an extra creature for every level cast above cantrip."] },
         "eldritch-blast": { stat: "wil", prof: "curse", level: 0, ap: 5, range: 8, dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Blast a target with eldritch force. Make a spellcasting roll against the targets Strength. On success they take 1 wound, adding a wound die on crit.", "Add a proficiency die to your spellcasting roll for every level cast above cantrip."] },
@@ -98,6 +98,13 @@ var FarhomeDice = FarhomeDice || (function () {
         "consecrate-ground": { stat: "cha", prof: "divine", level: 2, ap: 10, range: 0, dmg: [1, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Mark a 3x3 area centered on yourself, purifying the ground. Any undead or monstrosity attempting to enter the consecrated ground must make a Charisma save vs your spellcasting. On fail they cannot willingly enter. Any undead inside the consecrated ground takes 1 wound at the start of their turn. Allies inside the zone gain 1 proficiency on all saving throws. You may move normally, however leaving the area ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.", "The area increases by 2 for every level cast above 2nd"] },
         "enhance-ability": { stat: "cha", prof: "divine", level: 2, ap: 5, range: 3, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Target up to 5 creatures. Make a spellcasting roll adding 1 terrible die, plus a terrible die for every creature targeted. On success the creatures gain +1 to a single attribute for the duration of the spell. They also gain +1 to their proficiency modifier in that attributes saving throw for every crit rolled.", "Add a proficiency die for every level above the 1st."] },
         "gust": { stat: "cha", prof: "divine", level: 2, ap: 7, range: 0, dmg: [0, 1], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You cause strong winds to blow in a direction, 10 tiles long by 2 tiles wide. Each creature in the line must make a Strength save vs your spellcasting, on fail they are blown back 1 tile, plus an additional tile for every crit rolled. If they are unable to move due to a wall or obstacle they instead take 1 wound die in damage. Any creature moving against the direction of the wind must spend two tiles of movement for every tile moved. You may spend 2 AP to reverse the direction of the wind.", "Add a proficiency die for every level cast above 2nd."] },
+        "seed-of-renewal": { stat: "cha", prof: "divine", level: 2, ap: 30, range: 0, dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Putting a seed into the ground, sprout a rejuvenating bush, bearing fruit. You may add up to 5 uses of this bush, adding a bad die to the spellcasting roll for every use added. If used during a short or long rest the creature can spend a free healing surge. Users may also purge a single source of poison or disease, unless the effect comes from a spell cast at a higher level than Seed of Renewal.", "The bush can be used an additonal time for every level cast above 2nd."] },
+        "shield-of-faith": { stat: "cha", prof: "divine", level: 2, ap: 5, range: 3, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Protect a creature with a holy aura. Target up to 5 creatures. Make a spellcasting roll, adding a terrible die for every creature targeted. On success, target creatures gain 1 defense die, or a superior defense die on crit.", "Add a proficiency die for every level above the 2nd."] },
+        "miss": { stat: "cha", prof: "divine", level: 2, ap: 5, range: 5, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "winds-of-battle": { stat: "cha", prof: "divine", level: 2, ap: 4, range: 5, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["A flurry of wind surrounds up to 5 willing creatures. Make a spellcasting roll, adding a terrible die for each creature targeted. On success creatures can move freely without taking opportunity attacks as the wind wards off foes. On crit the winds guide the creatures attacks, allowing them to reroll 1 die in their attack rolls for each crit in your spellcasting roll.", "The winds last for the duration, or until the creature is hit by an attack.", "Add a proficiency die for every level cast above 2nd."] },
+        "more-missing": { stat: "cha", prof: "divine", level: 2, ap: 5, range: 5, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: [] },
+        "spirit-animal": { stat: "cha", prof: "divine", level: 3, ap: 300, range: 0, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["Attempt to commune with local nature spirits, gaining one as your guide. Make a spellcasting roll, adding 2 terrible dice to the roll, or 3 if casting this outside of a forest, plains, or swamp. On success you gain an spirit companion of your choosing. You may summon or dismiss the spirit for 5 AP. Each spirit has their own wounds, and if killed the spell ends. Spending a minute in concentration you may look through your spirit animals eyes, while doing so you gain the senses of the animal and lose your own.", "Elk: While within 10 tiles you gain +3 proficiency to athletics challenges and your movespeed increases by 1. Rabbit: While on your person, gives you +1 proficiency to Dexterity saves and Acrobatics challenges. The rabbit cannot be targeted while on your person. Bear: Your max wounds increase by 1. Snake: +1 proficiency to Intelligence saves and you cannot be charmed. Eagle: +3 to perception proficiency. The eagle has a flying speed of 5/5. Wolf: +3 to diplomacy proficiency. When helping or being helped by an ally, you may reroll 3 dice.", "Add a proficient die to your roll for every level cast above 3rd."] },
+        "traveler's-protection": { stat: "cha", prof: "divine", level: 3, ap: 90, range: 3, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["A protective ward for the journey ahead. Target up to 5 creatures, adding a bad die for every creature targeted. On success the targets maximum Wounds increase by 1. A creature can only be under the effects of one source of Traveler's Protection.", "Add a proficient die for every level above 3rd."] },
         "guidance": { stat: "cha", prof: "divine", level: 2, ap: 5, range: 5, dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: [] },
     }
 
@@ -201,6 +208,15 @@ var FarhomeDice = FarhomeDice || (function () {
                 else if (command === 'spell') {
                     spell(msgFrom, params);
                 }
+                else if (command === 'mana') {
+                    var mana = parseInt(params[0]);
+                    var manaAttr = getAttr("mana", 0);
+                    manaAttr.set("current", manaAttr.get("current") - mana);
+                    var msg = '<rolltemplate class="sheet-rolltemplate-CustomRoll"><div style="background-color: #ffffff; border: 1px solid; padding: 2px; width: 218px;">' +
+                        '<div style="font-size: 0.9em"><span style="font-weight:bold">Cast: </span>Spent ' + mana + ' mana</div>' +
+                        '</div></rolltemplate>';
+                        sendChat(msgFrom, "/direct " + msg);
+                }
 
 
                 if (result != "") {
@@ -225,16 +241,16 @@ var FarhomeDice = FarhomeDice || (function () {
                 return msg.content;
             }
         },
-        
-        getDefaultMods = function() {
+
+        getDefaultMods = function () {
             return {
-                bonus: [0,0,0,0,0,0,0,0,0,0]
+                bonus: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
             };
         },
 
         getMods = function (param) {
             var modObj = {
-                bonus: [0,0,0,0,0,0,0,0,0,0]
+                bonus: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
             };
             if (param.substring(0, 1) === 'b') {
                 var vals = param.substring(1).split('-');
@@ -242,7 +258,7 @@ var FarhomeDice = FarhomeDice || (function () {
                     if (vals[i].length < 2) {
                         continue;
                     }
-                    var sub1 = vals[i].substring(0, 0), sub2 = vals[i].substring(0, 1);
+                    var sub1 = vals[i].substring(0, 1), sub2 = vals[i].substring(0, 2);
                     if (sub1 === 's' || sub1 === 'y') {
                         modObj.bonus[0] += parseInt(vals[i].substring(1));
                     } else if (sub1 === 'p' || sub1 === 'g') {
@@ -278,7 +294,6 @@ var FarhomeDice = FarhomeDice || (function () {
             return attr;
         },
         getAttrDice = function (attribute, proficiency, allowNegatives = true) {
-            log(attribute + " " + proficiency);
             var attributeUnder5 = Math.min(5, attribute);
             var attributeOver5 = Math.max(0, attribute - 5);
             var proficiencyOver5 = Math.max(0, proficiency - 5);
@@ -352,14 +367,14 @@ var FarhomeDice = FarhomeDice || (function () {
             dice[4] += poison;
             dice[3] += fear;
 
-            var modObj = {};
+            var modObj = getDefaultMods();
             modObj.hex = hex;
 
             return roll(dice, modObj)
         },
 
         skillRoll = function (params) {
-            var modObj = params.length > 3 ? getMods(params[2]) : getDefaultMods();
+            var modObj = params.length > 2 ? getMods(params[2]) : getDefaultMods();
             modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
             var statVal = parseInt(params[0]);
             var statProf = parseInt(params[1]);
@@ -369,8 +384,6 @@ var FarhomeDice = FarhomeDice || (function () {
             var dice = getAttrDice(statVal, statProf);
             dice[4] += poison;
             dice[3] += fear;
-
-            log(dice);
 
             return roll(dice, modObj);
         },
@@ -434,7 +447,7 @@ var FarhomeDice = FarhomeDice || (function () {
         },
 
         hero = function (__params) {
-            var modObj = {};
+            var modObj = getDefaultMods();
             modObj.hex = 0;
 
             return roll([0, 0, 0, 0, 0, 0, 0, 0, 0, 1], modObj);
@@ -450,13 +463,16 @@ var FarhomeDice = FarhomeDice || (function () {
                     diceVals[0] = 0;
                 }
             }
-            log(modObj);
             return roll(diceVals, modObj);
         },
 
         togglereroll = function (params) {
             //toggle the reroll status of a die in the last roll.
             var rolls = state.FarhomeDice.lastRolls[character.id];
+
+            if (rolls === undefined) {
+                return;
+            }
             //exit early if there is no roll history
             if (rolls.length === 0) {
                 return;
@@ -474,6 +490,9 @@ var FarhomeDice = FarhomeDice || (function () {
 
         reroll = function (msgFrom) {
             var lastRolls = state.FarhomeDice.lastRolls[character.id];
+            if (lastRolls === undefined) {
+                return;
+            }
             var values = { name: "Reroll" };
             for (var i = 0; i < lastRolls.length; i++) {
                 var rollMsg = "<span>";
@@ -502,6 +521,7 @@ var FarhomeDice = FarhomeDice || (function () {
             // parsing message
             var idx = 0;
             var ops = [];
+            var hasRoll = false;
             while (idx < msgContent.length) {
                 if (msgContent[idx] == '`') {
                     for (var i = idx + 1; i < msgContent.length; i++) {
@@ -535,6 +555,7 @@ var FarhomeDice = FarhomeDice || (function () {
                 var opStr = ops[i].split('|');
                 var params = [];
                 if (opStr[0].substring(0, 4) == "roll") {
+                    hasRoll = true;
                     params = opStr[1].split(' ');
                     templateObj[opStr[0]] = handleRoll(params);
                 } else {
@@ -542,7 +563,7 @@ var FarhomeDice = FarhomeDice || (function () {
                 }
             }
 
-            var msg = makeTemplate(templateObj);
+            var msg = makeTemplate(templateObj, hasRoll);
             sendChat(msgFrom, "/direct " + msg);
         },
 
@@ -579,7 +600,11 @@ var FarhomeDice = FarhomeDice || (function () {
                 msg += '<div style="font-size: 0.9em"><span style="font-weight:bold">Initiatve: </span>' + values.initiative + '</div>';
             }
             if (rrButton === true) {
-                msg += '<div style="font-size: 0.9em"><a href="!rr" style="background-color: transparent; display: inline-block; color: black; border: 0.5px solid">Reroll Selected</a></div>';
+                msg += '<div style="font-size: 0.9em; display: inline-block"><a href="!rr" style="background-color: transparent; display: inline-block; color: black; border: 0.5px solid">Reroll Selected</a></div>';
+            }
+            if (values.mana) {
+                var mana = getAttr("mana", 0).get("current");
+                msg += '<div style="font-size: 0.9em; display: inline-block"><a href="!mana ' + values.mana + '" style="background-color: transparent; display: inline-block; color: black; border: 0.5px solid">Cast (' + mana + '/' + values.mana + ')</a></div>';
             }
             msg += '</div>' +
                 '</rolltemplate>';
@@ -596,7 +621,7 @@ var FarhomeDice = FarhomeDice || (function () {
             var rollResult = { d: [], v: [], r: [] };
             var diceCount = 0;
             for (var i = 0; i < diceVals.length; i++) {
-                if (diceVals[i] > 0) {
+                if (diceVals[i] + modObj.bonus[i] > 0) {
                     msg += "<span>";
                     for (var t = 0; t < diceVals[i] + modObj.bonus[i]; t++) {
                         rollResult.d.push(i);
@@ -651,7 +676,7 @@ var FarhomeDice = FarhomeDice || (function () {
 
             if (level < info.level) {
                 values.name = params[0];
-                values.effect = "Did you enter the right level? Spell needs a minimum of " + info.level +", entered " + level;
+                values.effect = "Did you enter the right level? Spell needs a minimum of " + info.level + ", entered " + level;
 
                 var msg = makeTemplate(values);
                 sendChat(msgFrom, "/direct " + msg);
@@ -659,7 +684,7 @@ var FarhomeDice = FarhomeDice || (function () {
             }
 
             //rebuild bonus dice to pass into skill roll
-            var prefix = ['y','g', 'w', 'r', 'pr', 'sd', 'd', 'gw', 'w', 'h'];
+            var prefix = ['y', 'g', 'w', 'r', 'pr', 'sd', 'd', 'gw', 'w', 'h'];
             var bonus = "b";
             var addDash = false;
             for (var i = 0; i < modObj.bonus.length; i++) {
@@ -679,13 +704,15 @@ var FarhomeDice = FarhomeDice || (function () {
             for (var i = 0; i < info.txt.length; i++) {
                 values.effect += info.txt[i] + (i !== info.txt.length - 1 ? "<br/><br/>" : "");
             }
-            values.mana = level + (level >= 5 ? 1 : 0) + (level >= 8 ? 2: 0);
+            var manaPerLevel = [0, 1, 2, 3, 4, 6, 8, 10, 13, 16, 20];
+            level = min(10, max(0, level));
+            values.mana = manaPerLevel(level);
 
             values.rollSpell = skillRoll([getAttr(info.stat, "0").get("current"), getAttr(info.prof, "0").get("current"), bonus]);
             if (dmg[0] > 0 || dmg[1] > 0) {
                 values.rollDmg = wound([dmg[0].toString(), dmg[1].toString()]);
             }
-            
+
             var msg = makeTemplate(values);
             sendChat(msgFrom, "/direct " + msg);
         };

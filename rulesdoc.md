@@ -312,8 +312,12 @@ Casting spells of 1st level and above takes a toll on the caster, a character ca
 | Spell Level | Mana |
 |:----:|:-------------|
 | 1st-4th | Spell level |
-| 5th-8th  | Spell level +1 |
-| 9th-10th | Spell level +3 |
+| 5th  | 6 |
+| 6th  | 8 |
+| 7th  | 10 |
+| 8th  | 13 |
+| 9th  | 16 |
+| 10th | 20 |
 
 ### Spell Power
 Spell power determines how attuned your body is to spellcasting and how easily it is to get mana. When leveling up you may choose to get mana based on your spell power. By default your spell power is equal to your characters level, and can be increased through leveling up or through feats.
@@ -2484,7 +2488,7 @@ ___
 - **Range:** 2
 - **Duration:** 1 day
 
-Attempt to raise a dead creature as a zombie, or take control of a zombie without an owner. You can target up to 4 medium sized corpses, adding a terrible die to the spellcasting roll for each corpse. You can target a Large sized corpse, adding 2 terrible die and taking up 2 of the 4 corpse maximum. On success, medium corpses are raised as Zombies and large corpses raised as Zombie Ogres. They act on your turn and are under your control for 1 day, at which point they turn to mindless zombies.
+Attempt to raise a dead creature as a zombie, or take control of a zombie without an owner. You can target up to 4 medium sized corpses, adding a terrible die to the spellcasting roll for each corpse. You can target a Large sized corpse, adding 2 terrible die and taking up 2 of the 4 corpse maximum. When targeting Undead they make a Charisma save against your spellcasting. On success, medium corpses are raised as Zombies and large corpses raised as Zombie Ogres. They act on your turn and are under your control for 1 day, at which point they turn to mindless zombies.
 
 The maximum targets increases by 1, and you add a superior die to your roll for every level above the 4th.
 
@@ -4290,9 +4294,34 @@ Your experience with spell scrolls enables you to create spell scrolls for spell
 When a creature attacks you, you may make a reaction attack against them. This attack costs 2 AP, and you may only use this on the same creature once per round.
 
 #### Mana Recovery
-*Requires 3 proficiency in Arcane, 7th Level*
+*Requires 3 proficiency in Arcane, 9th Level*
 
 When casting _Barrier_, _Counter Spell_, or blocking spell damage with _Elemental Shell_ you regain 1 mana, or 2 mana if the spell is 6th level and above, regardless of the rolls outcome.
+
+#### Soul Hex
+*Requires 3 proficiency in Curse, 12th level*
+
+When a creature dies while under the effects of Hex caused by your spells, the Hex moves to an adjacent target within 2 tiles of the creature. Make a spellcasting roll against their Willpower, on success the target creature gains Hex 1.
+
+#### Far Blessings
+*Requires 3 proficiency in Divine, 10th level*
+
+The spells _Guidance_, _Holy Protection_, _Enhance Ability_, _Shield of Faith_, and _Winds of Battle_ have +3 range. When cast at 1st level and above the effects of _Guidance_ and _Holy Protection_ last until the end of your next turn when triggered.
+
+#### Wildfire
+*Requires 3 proficiency in Arcane, 9th Level*
+
+Fire spells you cast that target an area, such as _Beam of Fire_ and _Fireball_ have their area of effect increased by 1.
+
+#### Lightning Rod
+*Requires 3 proficiency in Arcane, 9th Level*
+
+When casting a Lightning spell you may spend 1 additional mana to add one crit to your spellcasting roll. This crit adds no successes, but does trigger on crit effects.
+
+#### Banishment
+*Requires 3 proficiency in Divine, 12th level*
+
+The spells _Turn Undead_ and _Destroy Monstrosity_ can target Undead, Monstrosities, Demons, and Outsiders. When casting _Bind Creature_, if the creature is not native to this plane they add 1 Terrible die to all attacks and spells made while bound.
 ___
 ### Advanced
 
@@ -4307,7 +4336,7 @@ You can wield a Two-Handed weapon as if it was One-Handed, using either One or T
 Reduces the cost of basic attacks by 1 AP.
 
 #### Split Mind
-*Requires Enduring Concentration, 4 Intelligence, 10th Level*
+*Requires Enduring Concentration, 4 Intelligence, 15th Level*
 
 You can concentrate on 2 separate spells at once, as long as these spells have different targets. Persistent effects, such as _Shroud of Darkness_ have no targets, and creatures inside the spells area do not count as already targeted for Split Mind.
 
@@ -4317,7 +4346,7 @@ You can concentrate on 2 separate spells at once, as long as these spells have d
 You have a natural gift for healing, and are able to channel healing magic without the aid of a Codex. You may spend 4 AP to heal 2 wounds from a creature you touch. This can be used up to your Charisma score, after which you must take a long rest to regain this feat.
 
 #### Jinx
-*Requires Potent Curses, 4 Willpower, 10th Level*
+*Requires Potent Curses, 4 Willpower, 15th Level*
 
 You may affect the same creature with two different curses, instead of one. You gain 1 superior die to your saving throw when you are the target of a curse.
 
@@ -4375,12 +4404,12 @@ Once per long rest, as long as an attack does less than your max wounds in damag
 #### Sorcerer
 *Requires 5 Arcane proficiency, 20th Level*
 
-Once per rest, when casting a spell you may cast it as if it were 4 levels higher.
+You gain 10 Spell Power and Mana. During a short or long rest you recover 5 extra Mana.
 
 #### Necromancer
 *Requires 5 Curse proficiency, 20th Level*
 
-When gaining temporary wounds, you may heal missing wounds instead. When casting _Raise Dead_ you can target 2 additional corpses without adding Terrible dice.
+When gaining temporary wounds, you may heal missing wounds instead. When casting _Raise Dead_ you can target 2 additional corpses without adding Terrible dice, and you add 3 successes to _Gloom_'s spellcasting roll.
 
 #### Saint
 *Requires 5 Divine proficiency, 20th Level*
@@ -4605,7 +4634,7 @@ ___
 - **Ingredients:** 2 Buff Beetle, 1 Skillwheat
 - **Roll:** 2 Bad dice, 1 Terrible die
 
-For the next hour, replace all wound die from weapon attacks with wounds.
+For the next hour, when attacking with a weapon you may reroll all wound dice.
 
 ___
 ##### Potion of Ability
