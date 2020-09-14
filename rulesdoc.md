@@ -4306,7 +4306,7 @@ When a creature dies while under the effects of Hex caused by your spells, the H
 #### Far Blessings
 *Requires 3 proficiency in Divine, 10th level*
 
-The spells _Guidance_, _Holy Protection_, _Enhance Ability_, _Shield of Faith_, and _Winds of Battle_ have +3 range. When cast at 1st level and above the effects of _Guidance_ and _Holy Protection_ last until the end of your next turn when triggered.
+The spells _Guidance_, _Holy Protection_, _Enhance Ability_, _Shield of Faith_, and _Winds of Battle_ have +3 range. When cast at 1st level and above the effects of _Guidance_ and _Holy Protection_ last until the start of your next turn when triggered.
 
 #### Wildfire
 *Requires 3 proficiency in Arcane, 9th Level*
