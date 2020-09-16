@@ -88,7 +88,7 @@ ___
 - **Range:** 5
 - **Duration:** 10 minutes, requires a free hand
 
-Black tendrils erupt from your hand to bind a target. The target must make a Dexterity save vs your spellcasting. On fail, the target is grappled, or restrained on a crit. The Tendrils require a free hand to grasp, or else the target is freed. On each of your move and sprint actions you may pull or slide the grappled target 1 tile. The grappled creature can attempt to break free, but makes their Strength save vs your spellcasting roll instead. Any ability or effect that would cause them to move more than 5 tiles away from you uses your spellcasting roll for the save instead of the normal roll. If the target moves more than 5 tiles away from you the tendrils break and the spell ends.
+Black tendrils erupt from your hand to bind a target. The target must make a Dexterity save vs your spellcasting. On fail, the target is grappled, or restrained on a crit. The Tendrils require a free hand to grasp, or else the target is freed. On each of your move and sprint actions you may pull or slide the grappled target 1 tile. On their turn the grappled creature can spend 5 AP attempting to break free, making a Strength save against your casting. Any ability or effect that would cause them to move more than 5 tiles away from you uses your spellcasting roll for the save instead of the normal roll. If the target moves more than 5 tiles away from you the tendrils break and the spell ends.
 
 Add a proficiency die for every level above the 1st.
 
@@ -124,14 +124,14 @@ ___
 
 You summon a crow with obsidian feathers capable of cutting through flesh and armor. The target makes a Dexterity sav vs your spellcasting, on fail they take 1 wound in damage. On crit their armor is reduced by 1 die, lasting until repair. Armor that no longer provides a defense bonus is destroyed.
 
-Add a proficiency die for every level above the 1st.
+Add a wound die for every level above the 1st.
 
 ___
 #### Curse of Misfortune
 *1st Level*
 - **Casting Time:** 6 AP
 - **Range:** 5
-- **Duration:** 1 day
+- **Duration:** 7 days
 
 Curse a creature with misfortune. They must make a willpower save vs your spellcasting. On fail, the creature adds a bad die to all saving throws for the next day. If you crit they add a terrible die instead. The curse can be removed through _Cleanse_.
 
@@ -192,7 +192,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Pyschic
 
-You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the targets Willpower. On success the creature takes 1 wound of pyschic damage, and must spend its AP fleeing from you on crit. The creature, if able, moves 1 tile per remaining AP up to their movespeed, avoiding dangerous terrain if possible.
+You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the targets Intelligence. On success the creature takes 1 wound and 1 wound die of pyschic damage, and must spend its AP fleeing from you on crit. The creature, if able, moves 1 tile per remaining AP up to their movespeed, avoiding dangerous terrain if possible.
 
 Regardless of if the spell hits the creature is distracted by the whispers and cannot make opportunity attacks against you this turn.
 
@@ -257,10 +257,9 @@ ___
 - **Duration:** 1 day
 - **Damage Type:** Death
 
-You conjure a number of deadly, black thorn arrows. Make a spellcasting roll to conjure up to 5 arrows, adding a bad die for every arrow conjoured. These arrows count as +1 ammunition and can be thrown instead of fired from a bow. When thrown they use your spellcasting modifier for the attack and have a range of 10.
+You conjure a number of deadly, black thorn arrows. Make a spellcasting roll to conjure up to 5 arrows, adding a bad die for every arrow conjured. These arrows count as +1 ammunition and can be thrown instead of fired from a bow. When thrown they use your spellcasting modifier for the attack and have a range of 10.
 
-
-On hit these arrows explode in a star pattern with 1 radius dealing 2 wound dice in death damage and inflicting blind until the end of the targets next turn. All other creatures in the blast must make a Stamina check against the arrows attack roll, taking 1 wound die in death damage and gaining blind until the end of their next turn.
+When used the arrow explodes into black smoke. The target and all adjacent creatures make a Stamina save against the attack. On fail the main target takes 1 wound and 2 wound dice in damage with each adjacent creature taking 1 wound die instead. On crit each target is blind until the end of their next turn.
 
 You conjure an additional arrow for every level above 2nd.
 
@@ -271,7 +270,7 @@ ___
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Shimmering chains bind a creature in range. Make a spellcasting roll against the creatures Dexterity, adding 2 bad die to the roll if the creature is Large or bigger. On success the creature is restrained for the duration. At the start of each of their turns they can make a Strength save vs your spellcasting, breaking the chains on success.
+Shimmering chains bind a creature in range. Make a spellcasting roll against the creatures Dexterity, adding 2 bad die to the roll if the creature is Large or bigger. On success the creature is restrained for the duration. A restrained creature can spend 5 AP to try and break the chains, making a Strength save against your spellcasting. On success they are no longer restrained.
 
 You can target an additional creature for every level above 2nd.
 
@@ -285,7 +284,7 @@ ___
 
 You create a swirling cloud of teeth around yourself. These teeth fill gaps in your armor, if you roll 4 or less defense die add a defense die, otherwise improve 1 defense die. The cloud extends to all adjacent tiles, any creature entering it for the first time or starting their turn there must make a defense save vs your spellcasting. On hit they take a wound and gain Slow 1.
 
-The tiles effected increases by 1 in all directions for each level cast above the 2nd.
+The cloud's area increases by 1 and you improve a defense die with a superior defense die for each level cast above the 2nd.
 
 ___
 #### Command
@@ -308,7 +307,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-You cause a Large or smaller corpse to explode, shooting sharp shards of bone to adjacent creatures. Medium and smaller creatures explode in a 1 radius star, while Large creatures explode in a 2 radius star. All creatures caught in the blast must make a Stamina save vs your spellcasting. On hit they take 1 wound and are poisoned for 1 minute, adding an wound die to the damage on crit.
+You cause a Large or smaller corpse to explode, shooting sharp shards of bone to adjacent creatures. Medium and smaller creatures explode in a 1 tile radius, while Large creatures explode in a 2 tile radius. All creatures caught in the blast must make a Stamina save vs your spellcasting. On hit they take 1 wound and are poisoned for 1 minute, adding an wound die to the damage on crit. A creature caught in multiple blasts takes 1 extra wound die in damage per blast.
 
 You may target an additional corpse for each level cast above the 2nd.
 
@@ -317,7 +316,7 @@ ___
 *2nd Level*
 - **Casting Time:** 6 AP
 - **Range:** 5
-- **Duration:** 1 day
+- **Duration:** 7 days
 
 Curse a creature with fragility. They must make a willpower save vs your spellcasting. On a fail the creature adds a bad die to all defense rolls for the next day. If you crit they add a terrible die instead. The curse can be removed by remove curse.
 
@@ -328,7 +327,7 @@ ___
 *2nd Level*
 - **Casting Time:** 6 AP
 - **Range:** 5
-- **Duration:** 1 day
+- **Duration:** 7 days
 
 Curse a creature, extending their suffering. They must make a willpower save vs your spellcasting. On a fail any negative condition affecting the creature lasts an additional turn. If you crit, any time they gain Hex, Slow, or Poison they gain an additional level.
 
@@ -341,9 +340,9 @@ ___
 - **Range:** 5
 - **Duration:** 1 hour
 
-Magically enhance a creatures vision, giving it the ability to see in the dark. Target up to 5 creatures, adding a bad die to your spellcasting roll for every creature added. On success they gain dark vision.
+Magically enhance a creatures vision, giving it the ability to see in the dark. Target up to 5 creatures, adding a Bad die to your spellcasting roll for every creature added. On success they gain dark vision.
 
-Add a proficiency die for every level above the 2nd.
+Add a proficiency die for every level above 2nd.
 
 ___
 #### Dull Intellect
@@ -352,9 +351,9 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Attempt to cloud a targets mind. The creature makes a Willpower save vs your spellcasting. On a fail the creature adds a bad die to all spellcasting rolls. For each crit, use a terrible die instead.
+Attempt to cloud a targets mind. The creature makes a Willpower save vs your spellcasting. On a fail the creature adds a Bad die to all spellcasting rolls, or a terrible die on crit.
 
-The number of bad or terrible dice increases by 1 for every level above the 2nd.
+You may target an additional creature for each level above 2nd.
 
 ___
 #### Howling Whirlwind
@@ -363,7 +362,7 @@ ___
 - **Range:** 10
 - **Duration:** 1 minute
 
-You create a spiraling mass of wind on a tile in range. Any creature that moves adjacent to the Whirlwind must make a Strength save vs your spellcasting, on fail they are pushed back 2 tiles stopping if a creature or object is in the way. If they stop this way they take 1 wound in damage. Any mundane projectile firing over or adjacent to the whirlwind must roll a wound die, missing on wound.
+You create a spiraling mass of wind on a tile in range. Any creature that moves adjacent to the Whirlwind must make a Strength save vs your spellcasting, on fail they are pushed back 2 tiles stopping if a creature or object is in the way. If they stop this way they take 1 wound in damage. Any mundane projectile firing through or adjacent to the whirlwind must roll a wound die, missing on wound.
 
 For the duration starting on the next turn, you may move the Whirlwind up to 2 tiles once per turn.
 
@@ -376,7 +375,7 @@ ___
 - **Range:** 10
 - **Duration:** 1 minute
 
-You create a mass of webs in a 3x3 area. All creatures inside the web or on the first time they enter must make a Dexterity save vs your spellcasting, on fail they are grappled, or restrained on crit. A creature effected by your Webs can be freed by making a successful attack against 3 defense dice. Any creature in range is capable of making this attack.
+You create a mass of webs in a 5x5 area. All creatures inside the web or on the first time they enter must make a Dexterity save vs your spellcasting, on fail they are grappled, or restrained on crit. A creature effected by your Webs can be freed by making a successful attack against 3 defense dice. Any creature in range is capable of making this attack.
 
 The webs are extremely flammable, and ignite after taking 1 wound of fire damage. Any creature caught in the web takes 1 wound of fire damage and is freed. After the duration the webs remain but lose their stickiness, becoming difficult terrain until cleared.
 
@@ -405,20 +404,20 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Use your willpower to supress a creatures natural abilties. The target must make a willpower save, on fail you choose either Strength or Dexterity, the creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute. Each crit further decreases the proficiency by 1.
+Use your willpower to supress a creatures natural abilties. The target makes a Willpower save against your spellcasting. On fail you choose either Strength or Dexterity, the creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute. Each crit further decreases the proficiency by 1.
 
-Add a proficiency die for every level above 3rd.
+Add a target for each level above 3rd.
 
 ___
 #### Curse of Weakness
 *3rd Level*
 - **Casting Time:** 6 AP
 - **Range:** 5
-- **Duration:** 1 day
+- **Duration:** 7 days
 
 Curse a creature with weakness. They must make a willpower save vs your spellcasting. On a fail, They are Weakened. On a crit the creature cannot inflict Lesser or Greater wounds.
 
-You may target an additional person for every level above the 3rd.
+You may target an additional person for every level above 3rd.
 
 ___
 #### Enlarge/Reduce
@@ -469,7 +468,7 @@ ___
 
 Attempt to turn a creature into a harmless frog. Make a spellcasting roll against the targets Stamina, adding 1 terrible dice to your roll for every size larger than medium. On success the creature turns into a harmless frog for the duration. Items they are wearing are transformed with them, but anything they were holding drops to the ground.
 
-The creature spends its turns hopping around, moving a single tile in a random direction. The Frog has 1 wound and 1 Defense die. If reduced to 0 wounds the spell ends and the creature reverts to their old form keeping the damage dealt.
+The creature spends its turns hopping around, moving a single tile in a random direction. The Frog has 1 wound and 1 Defense die. If reduced to 0 wounds the spell ends and the creature reverts to their old form taking the remaining damage dealt.
 
 You may target an additional creature for every level above 3rd. If you try to cast this on multiple creatures larger than medium, sum the terrible dice across all creatures.
 
@@ -481,7 +480,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-Scar the creature with death magic. The target makes a Stamina save vs your spellcasting roll. On fail they take a wound and 2 wound dice, adding a wound die for every crit rolled. On success they take 1 wound instead. If this deals at least 3 wounds the target gains a random Lesser Wound, or a random Greater Wound if it deals 5 or more.
+Scar the creature with death magic. The target makes a Stamina save vs your spellcasting roll. On fail they take 2 wounds and a wound die in damage, adding a wound die for every crit rolled. On success they take 1 wound instead. If this deals at least 3 wounds the target gains a random Lesser Wound, or a random Greater Wound if it deals 5 or more.
 
 Add a wound die for every level above the 3rd.
 
@@ -516,16 +515,9 @@ ___
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-You shroud a 4x4 area in a consuming darkness, extinguishing mundane light. Make a spellcasting roll. Attacks, maneuvers, or spell made on targets inside the darkness, or coming from inside the darkness add 1 terrible die to their roll, plus 1 terrible die for every crit rolled in your spellcasting.
+You shroud a 4x4 area in a consuming darkness, extinguishing mundane light. Any creatures inside the darkness or when they enter make a Stamina save against your spellcasting, becoming blind until the end of their next turn on fail. If a creature is maintaining a _Light_ spell inside the darkness they must make a spellcasting roll against your spellcasting, ending the spell on fail.
 
-Add a proficiency die for every level above 3rd. In addition, the darkness size increases by 1 (5x5 at 4th lvl, 6x6 at 5th, etc).
-
-
-
-
-
-
-
+The area of the darkness increases by 2 for every level above 3rd.
 
 
 ___
@@ -533,7 +525,7 @@ ___
 *4th Level*
 - **Casting Time:** 6 AP
 - **Range:** 5
-- **Duration:** 1 day
+- **Duration:** 7 days
 
 Curse a creature with an unnatural slowness. They must make a willpower save vs your spellcasting. On a fail all actions they take costs 1 additional AP. On a crit they instead cost 2 additional AP.
 
@@ -546,7 +538,7 @@ ___
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Inflict an area with supernatural gloom. Choose a point you can see within range, making a spellcasting roll. Every success increases the raidus of the gloom by 2. Every undead creature inside the gloom adds 1 superior die to all rolls. Mundane lights only give light in adjacent tiles and magical light covers half as far. For the duration, undead heal 1 wound at the start of their turns and all healing effects on living creatures are reduced by 1.
+Inflict an area with supernatural gloom. Choose a point you can see within range, making a spellcasting roll. Every success increases the area of the gloom by 2. Every undead creature inside the gloom adds 1 superior die to all rolls. Mundane lights only give light in adjacent tiles and magical light covers half as far. For the duration, undead heal 1 wound at the start of their turns and all healing effects on living creatures are reduced by 1.
 
 Add a proficiency die for every level above the 4th.
 
@@ -590,9 +582,9 @@ ___
 *4th Level*
 - **Casting Time:** 7 AP
 - **Range:** 10
-- **Duration:** 1 minute
+- **Duration:** concentration, 10 minutes
 
-Create a 5x5 cloud of toxic spores. Any creature that starts their turn there or enters the cloud for the first time must make a Stamina save or be paralyzed until the end of their next turn. On crit the target is paralized for the next minute.
+Create a 5x5 cloud of toxic spores. Any creature that starts their turn there or enters the cloud for the first time must make a Stamina save or be paralyzed until the end of their next turn.
 
 Add a proficiency die for every level above the 4th.
 
@@ -624,12 +616,12 @@ ___
 #### Invisibility
 *4th Level*
 - **Casting Time:** 10 AP
-- **Range:** touch
+- **Range:** 2
 - **Duration:** concentration, 1 hour
 
 Turn yourself or another creature or object invisible. Make a spellcasting roll against 2 terrible dice. On success the target becomes completely invisible while standing still. Moving causes a barely noticable shimmer to the target. Creatures can make a perception check against your spellcasting to see a moving creature, spotting them on success. Attacks against an invisible creature add 2 terrible dice to their attack rolls.
 
-Add a proficiency die for every level above the 4th.
+Add a proficiency die to your spellcasting roll, and you may target an additional creature for every level above 4th. When targeting multiple creatures add a Terrible die for each creature targeted past the 1st.
 
 
 
@@ -641,11 +633,11 @@ ___
 *5th Level*
 - **Casting Time:** 6 AP
 - **Range:** 5
-- **Duration:** 1 day
+- **Duration:** 7 days
 
 Curse a creature with pain. Make a spellcasting roll vs the creatures Willpower. On success the creature takes an additional wound die every time they take damage, or a full wound on crit.
 
-You may target an additional person for every level above the 5th.
+You may target an additional person for every level above 5th.
 
 ___
 #### Heart Grip
@@ -657,7 +649,7 @@ ___
 
 Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound dice in damage and all healing they recieve is half as effective until they take a long rest and on crit they are stunned until the end of their next turn. On success they take 2 wound dice and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
 
-Add a proficiency die for every level above the 5th.
+Add a wound die to the damage for both success and failing the save for every level above 5th.
 
 ___
 #### Mind Break
@@ -669,7 +661,7 @@ ___
 
 Can only be cast against a creature that can look into your eyes. You make a telepathic link to the target, using your will to shatter their mind. The target makes an Intelligence save vs your spellcasting. On fail, roll a wound die for every remaining success from your spellcasting roll. If you deal at least 1 damage the target is dazed for the next minute.
 
-Add a proficiency die for every level above 5th.
+Add a normal die for every level above 5th.
 
 ___
 #### Suggestion
@@ -678,7 +670,7 @@ ___
 - **Range:** 15
 - **Duration:** 24 Hours
 
-You attempt to influence a group of people, suggesting a course or activity. You may target as many creatures in range as you want, adding a Terrible die for every 5 creatures targeted. The creatures must be able to understand you and be able to hear you.
+You attempt to influence a group of people, suggesting a course or activity. You may target as many creatures in range as you want, adding a Terrible die for every 3 creatures targeted. The creatures must be able to understand you and be able to hear you.
 
 Make a spellcasting roll against the creatures Willpower. On success you may give the creatures a 1 or 2 sentence command for them to follow. The command may have a condition to it, such as help the next dwarf they see. If they are unable to meet the conditions before the spell ends the command is ignored. 
 
@@ -707,7 +699,7 @@ ___
 *6th Level*
 - **Casting Time:** 6 AP
 - **Range:** 5
-- **Duration:** 1 day
+- **Duration:** 7 days
 
 Curse a creature with unnatural fear. Make a spellcasting roll vs the creatures Willpower. On success the creature gains Fear as long as there is a hostile creature within 10 tiles, or all creatures on crit. A creature gains no benefits from resting while under this curse.
 
@@ -732,7 +724,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Psychic
 
-You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes an Intelligence save against your spellcasting roll. On fail they take 3 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn. On success they take 1 wound dice and are Dazed until the end of their next turn.
+You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes an Intelligence save against your spellcasting roll. On fail they take 4 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn. On success they take 2 wound dice and are Dazed until the end of their next turn.
 
 Add a wound die for every level cast above 6th.
 
@@ -743,7 +735,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Targetting a beast or willing creature you permanently alter their form, only ending when _Restoration_ has been cast on them. Make a spellcasting roll, giving the creature the _Nightmare_ template, increasing their max wounds by 1 for every crit rolled.
+Targeting a beast or willing creature you permanently alter their form, only ending when _Restoration_ has been cast on them. Make a spellcasting roll, giving the creature the _Nightmare_ template, increasing their max wounds by 1 for every crit rolled.
 
 Their max wounds increase by 1 for every level cast above 6th.
 
@@ -769,7 +761,7 @@ ___
 *7th Level*
 - **Casting Time:** 7 AP
 - **Range:** 5
-- **Duration:** 1 day
+- **Duration:** 7 days
 
 Curse a creature to obey your every command. Make a spellcasting roll against the targets Willpower, on success the creature must follow your commands to the best of their ability. You cannot command the target to hurt itself or take an action that would obviously bring harm to the target (eg: telling them to jump off a cliff), however they must obey commands if harm is possible but not assured (eg: telling them to defend you).
 
@@ -779,11 +771,11 @@ ___
 #### Gravity Well
 *7th Level*
 - **Casting Time:** 9 AP
-- **Range:** 10
+- **Range:** 15
 - **Duration:** concentration, 1 minute
 - **Damage Type:** Bludgeoning
 
-You create a crushing gravity well at a target point. Choose a 5x5 area at a position centered inside your range. All lose objects are flung towards the center, destroying mundane items. All creatures that enter the gravity well or start their turns there must make a Strength save vs your spellcasting. On fail they are flung into the center tile, taking 2 wounds and 2 wound die in damage. On success their move and sprint speeds are reduced to 1, and cannot be improved. Creatures in the center take 1 wound and 1 wound die in damage at the start of their turn as they are crushed by the gravity well.
+You create a crushing gravity well at a target point. Choose a 7x7 area at a position centered inside your range. All loose objects are flung towards the center, destroying mundane items. All creatures that enter the gravity well or start their turns there must make a Strength save vs your spellcasting. On fail they are flung into the center tile, taking 2 wounds and 2 wound die in damage. On success their move and sprint speeds are reduced to 1, and cannot be improved. Creatures in the center take 1 wound and 1 wound die in damage at the start of their turn as they are crushed by the gravity well.
 
 The radius of the gravity well increases by 1 and you add 1 wound die to each source of damage for every level cast above 7th.
 
@@ -807,7 +799,7 @@ ___
 *8th Level*
 - **Casting Time:** 7 AP
 - **Range:** 5
-- **Duration:** 1 day
+- **Duration:** 7 days
 
 Curse a creature with sudden mortality. They must make a willpower save vs your spellcasting. On a fail, if their health drops below 7 wounds they instantly die. The death threshold increases by 1 wound for every crit rolled.
 

@@ -1,3 +1,4 @@
+
 ___
 #### Cold Snap
 *Cantrip*
@@ -64,7 +65,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Thunder
 
-conjure a rolling thunder to blast a target away. Make a spellcasting roll vs the targets Strength. On hit, roll a wound die and the target is pushed back 1 tile and is staggered until the end of their next turn, being pushed an additional tile for every crit. If the target is unable to move, either due to another creature or obstacle, roll a wound die for every tile remaining.
+conjure a rolling thunder to blast a target away. Make a spellcasting roll vs the targets Strength. On hit, they take a wound die in damage and the target is pushed back 1 tile and is staggered until the end of their next turn, being pushed an additional tile for every crit. If the target is unable to move, either due to another creature or obstacle, roll a wound die for every tile remaining.
 
 Add a proficiency die for every level above cantrip.
 

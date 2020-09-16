@@ -41,7 +41,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Holy
 
-A ray of radiant light blasts a target creature in range. The creature makes a dexterity save vs your spellcasting. On a fail they take 1 wound, or 2 wounds if they are undead.
+A ray of radiant light blasts a target creature in range. The creature makes a Charisma save against your spellcasting. On a fail they take 1 wound, or 2 wounds if they are undead.
 
 Add a target for every level above cantrip.
 
@@ -93,7 +93,7 @@ ___
 - **Range:** Touch
 - **Duration:** 8 hours
 
-You create a magical soothing bonfire. The bonfire takes a single tile of space, emits bright light for 5 tiles, and dim light for an additional 5. Target up to 5 creatures and make a spellcasting roll, adding a bad die for every creature targeted. These creatures heal an additional wound during their long rest and recover 1 point of exhaustion.
+You create a magical soothing bonfire. The bonfire takes a single tile of space, emits bright light for 5 tiles, and dim light for an additional 5. Target up to 5 creatures and make a spellcasting roll, adding a bad die for every creature targeted. These creatures recover an additional wound and mana during their long rest and recover 1 point of exhaustion.
 
 Add a proficient die for every level above the 1st.
 
@@ -224,7 +224,7 @@ ___
 - **Duration:** concentration, 1 minute
 - **Damage Type:** Bludgeoning
 
-You cause strong winds to blow in a direction, 10 tiles long by 2 tiles wide. Each creature in the line must make a Strength save vs your spellcasting, on fail they are blown back 1 tile, plus an additional tile for every crit rolled. If they are unable to move due to a wall or obstacle they instead take 1 wound die in damage. Any creature moving against the direction of the wind must spend two tiles of movement for every tile moved. You may spend 2 AP to reverse the direction of the wind.
+You cause strong winds to blow in a direction, 10 tiles long by 2 tiles wide. Each creature in the line must make a Strength save vs your spellcasting, on fail they are blown back 1 tile, plus an additional tile for every crit rolled. If they are unable to move due to a wall or obstacle they instead take 1 wound in damage. Any creature moving against the direction of the wind must spend two tiles of movement for every tile moved. You may spend 2 AP to reverse the direction of the wind.
 
 Add a proficiency die for every level cast above 2nd.
 
@@ -268,7 +268,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 turn
 
-Channel your faith to form a protective wall. Make a religion roll vs 2 bad die, on success you create a shimmering wall 4 tiles wide and 4 tiles tall. The wall is seethrough and blocks creatures and projectiles from passing through it. This spell can be cast as a reaction for 3 AP, using 2 terrible dice instead.
+Channel your faith to form a protective wall. Make a spellcasting roll vs 2 bad die, on success you create a shimmering wall 4 tiles wide and 4 tiles tall. The wall is seethrough and blocks creatures and projectiles from passing through it. This spell can be cast as a reaction for 3 AP, using 2 terrible dice instead.
 
 Add a proficiency die for every level cast above 2nd.
 
@@ -329,7 +329,7 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** Fire
 
-You create a Flaming skull at position in range. When summoned, and again at the start of each of your turns the skull breathes fire at all creatures in its zone of control. Each creature must make a Defense roll against your spellcasting. On fail they take 1 wound, adding a wound die on crit. On your turn you may spend 2 AP to command the skull to move up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
+You create a Flaming skull at position in range. When summoned, and again at the end of each of your turns the skull breathes fire at all creatures in its zone of control. Each creature must make a Defense roll against your spellcasting. On fail they take 1 wound, adding a wound die on crit. On your turn you may spend 4 AP to command the skull to move up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
 
 Add a proficient die to your roll and increase the duration by 1 turn for every level cast above 3rd.
 
@@ -470,7 +470,7 @@ ___
 
 Channel holy energy to destroy a creature living against the natural law. targeting an undead or monstrosity, make a spellcasting roll vs their stamina. On success they take 7 wounds. On fail, roll 7 wound die instead. Regardless of success, the target gains Slow equal to the number of crits you rolled.
 
-The number of wounds dealt increases by 1 for every level above 4th.
+The number of wounds dealt increases by 2 for every level above 4th.
 
 ___
 #### Petrify
@@ -479,9 +479,9 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Choose a target in range you can see that is capable of looking at you. The target must make a Stamina save vs your spellcasting. If they succeed they are paralized until the end of their next turn and make no more saving throws. On fail they are paralized for 1 minute. While they are paralized they must make a Stamina save against your spellcasting, on fail turning into stone. 
+Choose a target in range you can see that is capable of looking at you. The target must make a Stamina save against your spellcasting. If they succeed they are paralized until the end of their next turn and make no more saving throws. On fail they are paralized for 1 minute. While they are paralized they must make a Stamina save against your spellcasting, on fail turning into stone. 
 
-Add a proficiency die to the roll for every level above the 4th.
+Add a proficiency die to the roll for every level above 4th.
 
 ___
 #### Purify Spirit
@@ -647,7 +647,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-You attempt to exorcise an undead, fiend, fey, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save vs your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any posession or effects this creature was maintaining.
+You attempt to exorcise an undead, fiend, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save vs your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any posession or effects this creature was maintaining.
 
 Add a proficiency die to the roll for every level above the 6th.
 
@@ -670,7 +670,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-Restore a creatures form, healing mortal wounds. Make a spellcasting roll, a creature restores 5 wounds, plus a wound for every crit rolled. They may also remove the effects of a single Lesser or Greater wound. A creature can only be healed by this spell once per long rest, unable to withstand the strain of repeated casts.
+Restore a creatures form, healing mortal wounds. Make a spellcasting roll, a creature restores 6 wounds, plus a wound for every crit rolled. They may also remove the effects of a single Lesser or Greater wound. A creature can only be healed by this spell once per long rest, unable to withstand the strain of repeated casts.
 
 This heals an additional wound for every level above the 6th.
 
