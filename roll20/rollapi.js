@@ -34,6 +34,7 @@ var FarhomeDice = FarhomeDice || (function () {
     ];
     var rollHistory = [];
     var character = undefined;
+    var token = undefined;
 
     var templateBtn = "background-color: transparent; padding: 0px; display: inline-block; color: black; border: 0.5px solid";
 
@@ -228,7 +229,7 @@ var FarhomeDice = FarhomeDice || (function () {
         "power-word:-heal": { stat: "cha", prof: "divine", level: 6, ap: "9 AP", range: "Touch", duration: "instant", dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ['Restore a creatures form, healing mortal wounds. Make a spellcasting roll, a creature restores 6 wounds, plus a wound for every crit rolled. They may also remove the effects of a single Lesser or Greater wound. A creature can only be healed by this spell once per long rest, unable to withstand the strain of repeated casts.', 'This heals an additional wound for every level above the 6th.'] },
         "sanctuary": { stat: "cha", prof: "divine", level: 6, ap: "7 AP", range: "Touch", duration: "1 turn", dmg: [0, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ['You speak a word and open a rift to a location dedicated to your deity, such as a temple or altar on the same plane as you. A rift opens in an unoccupied space adjacent to you remaining open until the end of your next turn. Any creature you allow can enter the rift before it closes.', 'Once the rift closes you must make a spellcasting roll against 3 terrible dice, on success you appear at the location. On fail you appear in a random location within 20 miles of your target. Regardless of result the travel time takes 1 minute.', 'Add a proficiency die to the roll for every level above the 6th.'] },
         "word-of-command": { stat: "cha", prof: "divine", level: 6, ap: "8 AP", range: "self", duration: "instant", dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ['Your voice bellows a single command heard by all creatures within 10 tiles of you. Any creatures you choose make a Charisma save against your spellcasting roll, on fail they obey the command. You may command the creatures to not take a single action, such as preventing them from taking the Move, Attack, or Defend actions. Alternatively you may command them to immediately take an action, such as clearing a path or dropping their weapons. Creatures commanded this way will only take the action if they have AP remaining and are capable of doing so. The command is either resolved immediately or lasts until the end of the creatures next turn if the command prevents them from taking an action.', 'Your voice carries an extra 2 tiles for every level cast above 6th.'] },
-        "divine-word": { stat: "cha", prof: "divine", level: 7, ap: "9 AP", range: "10", duration: "instant", dmgType: "Holy", dmg: [0, 3], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ['You invoke the name of your deity to smite any creatures in range that can hear you. All creatures targeted must make a Charisma save vs your religion check, on fail they gain the following depending on their remaining wounds, increasing the threshold by 1 for every crit rolled:', '- 8 wounds or fewer: blinded for 1 minute', '- 5 wounds or fewer: blinded and feared for 10 minutes', '- 3 wounds or fewer: killed instantly', 'Regardless of the outcome, any undead, demon, or celestial targeted by this spell takes 3 wound dice in damge and are blinded for 1 minute.', 'Add a proficient die to your roll for every level cast above 7th.'] },
+        "divine-word": { stat: "cha", prof: "religion", level: 7, ap: "9 AP", range: "10", duration: "instant", dmgType: "Holy", dmg: [0, 3], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ['You invoke the name of your deity to smite any creatures in range that can hear you. All creatures targeted must make a Charisma save vs your religion check, on fail they gain the following depending on their remaining wounds, increasing the threshold by 1 for every crit rolled:', '- 8 wounds or fewer: blinded for 1 minute', '- 5 wounds or fewer: blinded and feared for 10 minutes', '- 3 wounds or fewer: killed instantly', 'Regardless of the outcome, any undead, demon, or celestial targeted by this spell takes 3 wound dice in damge and are blinded for 1 minute.', 'Add a proficient die to your roll for every level cast above 7th.'] },
         "light-of-divinity": { stat: "cha", prof: "divine", level: 8, ap: "10 AP", range: "10", duration: "concentration, 5 minutes", dmg: [0, 2], lroll: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ['A blinding light shines down centered on a point in range. The light covers a 5x5 tile area, covering it in sunlight. You may choose any number of creatures inside the light to be uneffected, all other creatures must make a Charisma save vs your spellcasting. On fail the creatures are pushed to the closest unoccupied space outside of the light and take 2 wound die in damage.', 'Creatures inside the light are considered to be on a different plane of existence, and any attack made through the the light fails. A creature can attempt to force their way into the light, making a Charisma save vs your spellcasting. On success they enter the light as normal, otherwise they are burned by the light, taking 2 wound dice.', 'Add 1 superior die and the area becomes 7x7 at 9th level.'] },
         "restoration": { stat: "cha", prof: "divine", level: 8, ap: "10 AP", range: "5", duration: "instant", dmg: [0, 0], lroll: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ["You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the target creature restores wounds equal to the rolls successes. Any conditions aflicting the creature are removed if they came from a spell of 5th level or below. In addition, you may heal a Lesser or Greater wound for every crit rolled.", 'Add 2 superior dice to your roll when casting at 9th level.'] },
         "avatar": { stat: "cha", prof: "divine", level: 9, ap: "1 turn", range: "Self", duration: "concentration, 10 minutes.", dmg: [0, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], txt: ['You channel your divine magic to become an avatar of your deity. Make a spellcasting roll against 3 terrible dice, On success, you heal a wound for each success. Starting on your next turn you become an embodiment of divine wrath, gaining the following effects:', '- You gain a flying speed equal to your movespeed.', '- You gain Resistance 1 to all damage.', '- You have expertise in everything.', '- You add 2 superior dice to all saving throws.'] },
@@ -245,11 +246,12 @@ var FarhomeDice = FarhomeDice || (function () {
                 params = params.slice(1, params.length);
                 character = findObjs({ type: 'character', name: msg.who })[0];
                 var player = getObj('player', msg.playerid);
+                token = undefined;
 
 
                 if (msg.selected != undefined) {
-                    var token = getObj('graphic', msg.selected[0]._id);
-                    if (token) {
+                   token = getObj('graphic', msg.selected[0]._id);
+                    if (token !== undefined) {
                         character = getObj('character', token.get('represents'));
                     }
                 }
@@ -370,15 +372,36 @@ var FarhomeDice = FarhomeDice || (function () {
         },
 
         getDefaultMods = function () {
-            return {
-                bonus: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            var modObj = {
+                bonus: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                hex: 0,
+                poison: 0
             };
+            if (token !== undefined) {
+                log (token.get("statusmarkers"));
+                var markers = token.get("statusmarkers").split(',');
+                for (var i = 0; i < markers.length; i++) {
+                    var name = markers[i].split(':')[0];
+                    if (name == 'poison1') {
+                        modObj.poison = 1;
+                    } else if (name == 'poison2') {
+                        modObj.poison = 2;
+                    } else if (name == 'poison3') {
+                        modObj.poison = 3;
+                    } else if (name == 'hex1') {
+                        modObj.hex = 1;
+                    } else if (name == 'hex2') {
+                        modObj.hex = 2;
+                    } else if (name == 'hex3') {
+                        modObj.hex = 3;
+                    }
+                }
+            }
+            return modObj;
         },
 
         getMods = function (param) {
-            var modObj = {
-                bonus: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-            };
+            var modObj = getDefaultMods();
             if (param.substring(0, 1) === 'b') {
                 var vals = param.substring(1).split('-');
                 for (var i = 0; i < vals.length; i++) {
@@ -463,11 +486,9 @@ var FarhomeDice = FarhomeDice || (function () {
         },
 
         saveRoll = function (stat) {
+            var modObj = getDefaultMods();
             var statVal = parseInt(getAttr(stat, -1).get("current"));
             var statProf = 0;
-            var poison = parseInt(getAttr("poison", 0).get("current"));
-            var fear = parseInt(getAttr("fear", 0).get("current"));
-            var hex = parseInt(getAttr("hex", 0).get("current"));
 
             switch (stat) {
                 case 'str':
@@ -491,33 +512,23 @@ var FarhomeDice = FarhomeDice || (function () {
             }
 
             var dice = getAttrDice(statVal, statProf, false);
-            dice[4] += poison;
-            dice[3] += fear;
-
-            var modObj = getDefaultMods();
-            modObj.hex = hex;
 
             return roll(dice, modObj)
         },
 
         skillRoll = function (params) {
             var modObj = params.length > 2 ? getMods(params[2]) : getDefaultMods();
-            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
             var statVal = parseInt(params[0]);
             var statProf = parseInt(params[1]);
-            var poison = character ? parseInt(getAttr("poison", 0).get("current")) : 0;
-            var fear = character ? parseInt(getAttr("fear", 0).get("current")) : 0;
 
             var dice = getAttrDice(statVal, statProf);
-            dice[4] += poison;
-            dice[3] += fear;
 
             return roll(dice, modObj);
         },
 
         customRoll = function (params) {
             var modObj = params.length > 5 ? getMods(params[5]) : getDefaultMods();
-            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
+            modObj.poison = 0;
 
             var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4]), 0, 0, 0, 0, 0];
 
@@ -526,15 +537,7 @@ var FarhomeDice = FarhomeDice || (function () {
 
         attack = function (params) {
             var modObj = params.length > 5 ? getMods(params[5]) : getDefaultMods();
-            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
-            var poison = character ? parseInt(getAttr("poison", 0).get("current")) : 0;
-            var fear = character ? parseInt(getAttr("fear", 0).get("current")) : 0;
-            var blind = character ? parseInt(getAttr("blind", 0).get("current")) : 0;
-            var restrained = character ? parseInt(getAttr("restarined", 0).get("current")) : 0;
             var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4]), 0, 0, 0, 0, 0];
-
-            diceVals[3] += fear + (restrained * 2);
-            diceVals[4] += poison + (blind * 2);
 
             return roll(diceVals, modObj);
         },
@@ -543,7 +546,6 @@ var FarhomeDice = FarhomeDice || (function () {
             var diceVals = [parseInt(params[0]), parseInt(params[1]), parseInt(params[2]), parseInt(params[3]), parseInt(params[4]), 0, 0, 0, 0, 0];
 
             var modObj = params.length > 5 ? getMods(params[5]) : getDefaultMods();
-            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
 
             var msg = roll(diceVals, modObj);
             var total = lastRollResult[0];
@@ -568,7 +570,7 @@ var FarhomeDice = FarhomeDice || (function () {
         defend = function (params) {
             var diceVals = [0, 0, 0, 0, 0, parseInt(params[0]), parseInt(params[1]), 0, 0, 0];
             var modObj = params.length > 2 ? getMods(params[2]) : getDefaultMods();
-            modObj.hex = character ? parseInt(getAttr("hex", 0).get("current")) : 0;
+            modObj.poison = 0;
 
             return roll(diceVals, modObj);
         },
@@ -576,6 +578,7 @@ var FarhomeDice = FarhomeDice || (function () {
         hero = function (__params) {
             var modObj = getDefaultMods();
             modObj.hex = 0;
+            modObj.poison = 0;
 
             return roll([0, 0, 0, 0, 0, 0, 0, 0, 0, 1], modObj);
         },
@@ -626,7 +629,8 @@ var FarhomeDice = FarhomeDice || (function () {
                 for (var t = 0; t < lastRolls[i].d.length; t++) {
                     // we can't reroll hexes
                     if (lastRolls[i].v[t] === -1) {
-                        rollMsg += "<span style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid;'>Hex!</span>";
+                        var imgSource = (lastRolls[i].d[t] == 5 || lastRolls[i].d[t] == 6) ? imgD : imgS;
+                        rollMsg += "<img src='" + imgSource + "' style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid;'>";
                     }
                     else if (lastRolls[i].r[t] === true) {
                         var newRoll = randomInteger(6) - 1;
@@ -747,28 +751,26 @@ var FarhomeDice = FarhomeDice || (function () {
             // we need to save the roll history to allow rerolls to happen
             var rollResult = { d: [], v: [], r: [] };
             var diceCount = 0;
+
+            if (modObj.poison !== undefined) {
+                diceVals[4] += modObj.poison;
+            }
+
             for (var i = 0; i < diceVals.length; i++) {
                 if (diceVals[i] + modObj.bonus[i] > 0) {
                     msg += "<span>";
                     for (var t = 0; t < diceVals[i] + modObj.bonus[i]; t++) {
+                        rollResult.d.push(i);
                         rollResult.r.push(false);
                         var rollVal = randomInteger(6) - 1;
-                        rollResult.v.push(rollVal);
-                        if (modObj.hex > 0 && (i == 0 || i == 1)) {
-                            rollResult.d.push(2);
-                            msg += "<a href='!srr " + rollHistory.length + " " + diceCount + "' style='" + templateBtn + "'>" +
-                                "<img src='" + allDice[2].roll[rollVal] + "' style='background-color:" + allDice[2].clr + "; border: none;'>" +
-                                "</a>";
+                        if (modObj.hex > 0 && allDice[i].crit[rollVal] == 1) {
+                            rollResult.v.push(-1);
+                            var imgSource = (i == 5 || i == 6) ? imgD : imgS;
+                            msg += "<div style='display:inline-block'>(<img src='" + imgSource + "' style='background-color:" + allDice[i].clr + "; border: 1px solid;'>" +
+                            "<img src='" + allDice[i].roll[rollVal] + "' style='background-color:" + allDice[i].clr + "; border: 1px solid; opacity: 0.25;'>)</div>";
                             modObj.hex--;
-                        }else if (modObj.hex > 0 && (i == 5 || i == 6)) {
-                            rollResult.d.push(10);
-                            msg += "<a href='!srr " + rollHistory.length + " " + diceCount + "' style='" + templateBtn + "'>" +
-                                "<img src='" + allDice[10].roll[rollVal] + "' style='background-color:" + allDice[10].clr + "; border: none;'>" +
-                                "</a>";
-                            modObj.hex--;
-                        }
-                        else {
-                            rollResult.d.push(i);
+                        } else {
+                            rollResult.v.push(rollVal);
                             successes += allDice[i].val[rollVal];
                             crits += allDice[i].crit[rollVal];
                             msg += "<a href='!srr " + rollHistory.length + " " + diceCount + "' style='" + templateBtn + "'>" +

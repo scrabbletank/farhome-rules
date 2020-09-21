@@ -1367,7 +1367,7 @@ ___
 You conjure an elemental construct at a target location. You can create an air, water, earth, or fire elemental. Make a spellcasting roll against 2 Terrible dice, on success you conjure an elemental with wounds equal to your spellcasting roll. The elemental is a medium creature, becoming a large creature if it has 5 wounds or more. The elemental uses your spellcasting roll for attacks and has Resistance 2 against its own element.
 
 The elemental gains 1 max AP and you add a superior dice for every level cast above 4th.
-___
+
 > ## Elemental
 > ___
 > - **Armor** 0/3
