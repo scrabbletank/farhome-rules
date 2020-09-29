@@ -150,7 +150,7 @@ When making a defense roll you use Defense and Superior Defense dice. The number
 Attribute Saves use the same rules as rolling a skill that uses an Attribute, with one exception: negative Attribute scores do not replace Normal dice with Bad dice. This means the lowest you can roll for an Attribute save is 5 Normal dice.
 
 ##### Hero Dice
-Hero dice are special dice players can add to any roll. You gain a number of them at the start of your adventure and once spent are not replenished. You can add at most 1 Hero die to any roll, except wound rolls. You may choose to add a Hero dice even after you have rolled, as long as you haven't seen the opposing roll.
+Hero dice are special dice players can add to any roll. You gain a number of them at the start of your adventure and once spent are not replenished. You can add at most 1 Hero die to any roll, except wound rolls. You may choose to add a Hero dice even after you have rolled, as long as you haven't seen the opposing roll. Hero dice are immune to any effects that would change the outcome of the roll, it cannot be hexed, rerolled, or negated.
 
 Your DM may reward you with extra Hero dice, but Hero dice are usually only given at the start of each adventure.
 
@@ -163,14 +163,19 @@ The outcome in these rolls isn't always a strict pass or fail, depending on the 
 In some cases you may want to help someone with an action, such as trying to push a boulder or search a room. When helping every participant rolls the same skill check contested by a single challenge roll. The highest roll among the participants is used, adding a success for every crit rolled by others.
 
 ##### Challenge Difficulty Dice
-| Difficulty | 1 | 2 | 3 | 4 | 5 |
-|:----:|:--|:--|:--|:--|:--|
-| Simple  | _ | _ | _ | _ | _ |
-| Easy  | B | _ | _ | _ | _ |
-| Average | B | B | _ | _ | _ |
-| Hard | B | B | T | _ | _ |
-| Difficult | B | B | T | T | _ |
-| Impossible | B | B | T | T | T |
+| Difficulty | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|:----:|:--|:--|:--|:--|:--|:--|:--|
+| Simple  | B | _ | _ | _ | _ | _ | _ |
+| Easy  | B | B | _ | _ | _ | _ | _ |
+| Average | B | B | T | _ | _ | _ | _ |
+| Hard | B | B | T | T | _ | _ | _ |
+| Difficult | B | B | B | T | T | T | _ |
+| Impossible | B | B | T | T | T | T | T |
+
+##### Rerolls
+Either through expertise, feats, or other abilities you may reroll a number of dice in your roll. When rerolling, you may choose any dice to reroll, taking the new value instead, and you may not reroll the same die again. You may reroll any dice that are considered part of your roll, such as bonus dice from upcasting a spell, dice added from abilities or spells such as _Guidance_, and dice given by negative effects, such as poison. When making a skill challenge, all challenge dice are considered part of your roll and may be rerolled. 
+
+Dice rolled in contest of your own roll, such as another creatures defend or saving throw, cannot be rerolled by you. Additionally, dice that have been replaced, such as dice that have been Hexed, cannot be rerolled.
 
 ### Wounds
 
@@ -603,7 +608,7 @@ a feared creature cannot willingly move closer to the source of the fear. While 
 A grappled creature cannot move and adds 2 bad die to dexterity saving throws, and grants combat advantage to attackers, except for the grappler.
 
 ##### Hex
-When making any roll, a Hexed creature replaces their best die with a white die for every level of Hex. This effects defense rolls, but does not effect wound and hero dice.
+When making any roll, a Hexed creature replaces a crit with a single success for every level of Hex on the creature. For example, a creature with Hex 2 will replace the first 2 crits they roll with a single success each.
 
 ##### Incapacitated
 An incapacitated creature takes no actions and automatically fails Strength and Dexterity saving throws.
@@ -612,7 +617,7 @@ An incapacitated creature takes no actions and automatically fails Strength and 
 A paralyzed creature automatically fail dexterity saving throws. When taking any Action they must first roll a Wound die. If the result is a wound they do not take the action and lose the AP spent.
 
 ##### Poison
-A poisoned creature adds a terrible die to all attacks, saving throws, and ability checks, adding a terrible die for every level of poison. Only the highest level poison takes effect, eg: someone who has Poison and Poison 2 only adds 2 terrible die instead of 3. At the end of each of your turns you roll a Stamina save vs 1 Bad die, adding a Terrible die for each level of Poison. On success you reduce the level of Poison by 1.
+A poisoned creature adds a bad die to all attacks, saving throws, and ability checks, adding a bad die for every level of poison. Only the highest level poison takes effect, eg: someone who has Poison and Poison 2 only adds 2 bad dice instead of 3. At the end of each of your turns you roll a Stamina save, including the effects of poison. On success you reduce the level of Poison by 1.
 
 ##### Prone
 a prone creature grants combat advantage to any melee attacker. Ranged attacks against this creature add 2 bad dice to their roll.
@@ -1935,13 +1940,13 @@ Add a proficiency die to your spellcasting roll for every level cast above cantr
 ___
 #### Trickery
 *Cantrip*
-- **Casting Time:** 2 AP
+- **Casting Time:** 4 (3) AP
 - **Range:** 3
-- **Duration:** instant
+- **Duration:** 1 turn
 
-When you or an ally is targeted by an attack or maneuver, you can use a reaction to distract the attacker, adding 1 bad die to their attack roll.
+Target up to 5 creatures, magically impairing their vision. Make a spellcasting roll, adding 1 bad die for every creature targeted. On success, the next attack those creatures make add a bad die to their roll. This effect ends after their first attack or at the end of their turn. You may cast this as a reaction for 3 AP, adding a terrible die for each creature instead.
 
-Add a bad die for every level above cast cantrip.
+Add a proficient die for every level above cast cantrip.
 
 ___
 #### Witchcraft
@@ -3947,7 +3952,7 @@ ___
 - **Range:** Melee
 - **Level Required:** 3/12
 
-You bring the full weight of your weapon down on a target. Make a normal weapon attack, adding a Proficient die to the roll. On hit they take weapon damage, adding 1 wound in phsyical damage. On crit you may reroll any wound dice, taking the new value.
+You bring the full weight of your weapon down on a target. Make a normal weapon attack, adding a Proficient die to the roll. On hit they take weapon damage, adding 1 wound in phsyical damage. On crit you may reroll all wound dice, taking the new value.
 
 ***Enhanced:*** Add a Superior die to the attack roll and an extra wound die to the damage.
 
@@ -4017,7 +4022,7 @@ When you make a roll, you may reroll up to your charisma worth of dice. This can
 When taking damage from any source you may reroll 1 wound die, taking the new value.
 
 #### Hunter
-Choose an enemy type: goblinoid, beast, humanoid, giant, dragon, fey, demon, undead, outsider, monstrosity. Attacks, maneuvers, spellcasting and skill checks against this creature type gain 1 superior die.
+Choose an enemy type: goblinoid, beast, humanoid, giant, dragon, fey, demon, undead, outsider, monstrosity. Attacks, maneuvers, spellcasting and skill checks against this creature type gain 1 superior die. You choose an additional type at 7th level and 18th level.
 
 #### Armor Expert
 You reduce the penalties of wearing armor to 1 Bad die for medium armor and 1 Terrible die for Heavy armor. When making a defense roll you ignore the first crit rolled against you. The crit still counts as 2 successes but does not trigger critical hit effects.
@@ -4029,7 +4034,7 @@ You gain 4 Healing Surges instead of 3 each long rest. When rolling Healing Surg
 You take no penalty to surprise and you add 1 superior die to initiative rolls.
 
 #### Agile
-As long as you aren't wearing armor, you roll defense die equal to your dexterity level.
+As long as you aren't wearing armor, you roll defense die equal to your Dexterity score.
 
 #### Wizard
 You gain proficiency in Arcane spells.
@@ -4047,7 +4052,7 @@ If you cast a cantrip or 1st level spell, your next basic attack costs 2 less AP
 After an unarmed attack, if you have nothing in your offhand you may take the Off-Hand attack action, making two unarmed attacks instead of one, each rolling a single wound for damage.
 
 #### Wrestler
-When grappling a creature you gain 2 superior dice when making Strength rolls to move or shove a creature.
+When grappling a creature you gain 2 superior dice when making Strength rolls to grapple, move or shove a creature.
 
 #### Longcaster
 Spells with a range of 5 tiles or more gain +3 range. Spell attacks against creatures in cover grant them one less defense die.
@@ -4102,7 +4107,7 @@ Reduces the cost of spells by 1 AP.
 #### Enduring Concentration
 *Requires 2 Stamina*
 
-You may add 1 superior die to your Concentration rolls.
+You add 1 superior die to your Concentration rolls.
 
 #### Unlocked Potential
 *Requires Chosen, 10th Level*
@@ -4169,7 +4174,7 @@ When targeted by a non-single target attack, maneuver, or spell you may spend up
 #### Defensive Duelist
 *Requires proficiency with a Martial Weapon*
 
-When you make a melee attack against a creature with a weapon you are proficient in, they cannot make opportunity attacks against you until the start of your next turn, regardless of the outcome of the attack. In addition, you add 1 superior defense die to opportunity attacks made while taking the move action, but not sprinting.
+When you make a melee attack against a creature with a weapon you are proficient in, they cannot make opportunity attacks against you until the start of your next turn, regardless of the outcome of the attack. In addition, you add 1 superior defense die to opportunity attacks.
 
 #### Twinned Spell
 *Requires 4 Proficiency with Arcane spells, 15th Level*
@@ -4208,7 +4213,7 @@ When using your Apothecary set you can add an additional ingredient from any of 
 You gain expertise in 2 saving throws.
 
 #### Poison Resistance
-*Requires 3 Stamina*
+*Requires 3 Stamina, 10th Level*
 
 You gain Resistance 1 against poison damage. At the end of each of your turns if you are Poisoned reduce the level of Poison by 1.
 
@@ -4289,10 +4294,10 @@ When a creature attacks you, you may make a reaction attack against them. This a
 
 When casting _Barrier_, _Counter Spell_, or blocking spell damage with _Elemental Shell_ you regain 1 mana, or 2 mana if the spell is 6th level and above, regardless of the rolls outcome.
 
-#### Soul Hex
+#### Living Hex
 *Requires 3 proficiency in Curse, 12th Level*
 
-When a creature dies while under the effects of Hex caused by your spells, the Hex moves to an adjacent target within 2 tiles of the creature. Make a spellcasting roll against their Willpower, on success the target creature gains Hex 1.
+When a creature dies while under the effects of Hex caused by your spells, the Hex moves to an adjacent target within 2 tiles of the creature. Make a spellcasting roll against their Willpower, on success the target creature gains Hex 1, or Hex 2 on crit.
 
 #### Far Blessings
 *Requires 3 proficiency in Divine, 10th Level*
@@ -4318,6 +4323,21 @@ The spells _Turn Undead_ and _Destroy Monstrosity_ can target Undead, Monstrosit
 *Requires 3 proficiency in Arcane, 15th Level*
 
 When landing a hit with a spell that deals Force damage you may shove the target, moving them 1 tile to the side or away from you. This movement does not trigger opportunity attacks. When rolling a crit with these spells you may reroll a single wound die in the damage roll.
+
+#### Reliable
+*Requires proficiency, 15th Level*
+
+Choose an attribute, your natural talent has made you reliable in all skill challenges related to that attribute. When rolling a skill challenge using that attribute your minimum successes are equal to your proficiency in that skill. This only takes into account positive dice, challenge dice and negative dice added by effects, such as poison, still reduce that number as normal.
+
+#### Assassinate
+*Requires 3 proficiency in 1 Handed weapons, 3 Dexterity, 9th Level*
+
+Once per turn, when making an 1 handed weapon attack against a creature you add 2 wound dice on crit.
+
+#### Uncanny Dodge
+*Requires Agile, 10th Level*
+
+Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from the next attack.
 ___
 ### Advanced
 

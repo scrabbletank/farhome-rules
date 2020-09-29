@@ -585,6 +585,8 @@ var FarhomeDice = FarhomeDice || (function () {
 
         wound = function (params) {
             var modObj = params.length > 2 ? getMods(params[2]) : getDefaultMods();
+            modObj.poison = 0;
+            modObj.hex = 0;
             var diceVals = [0, 0, 0, 0, 0, 0, 0, parseInt(params[0]), parseInt(params[1]), 0];
             if (character) {
                 var weaken = parseInt(getAttr("weaken", 0).get("current"));
@@ -753,7 +755,7 @@ var FarhomeDice = FarhomeDice || (function () {
             var diceCount = 0;
 
             if (modObj.poison !== undefined) {
-                diceVals[4] += modObj.poison;
+                diceVals[3] += modObj.poison;
             }
 
             for (var i = 0; i < diceVals.length; i++) {
