@@ -4682,7 +4682,7 @@ For the next 10 minutes, on your turn you may spend 7 AP to breath fire on all c
 
 ___
 #### Poisons
-Poisons are applied to weapons and must hit to be effective. Each poison vial has enough to coat a weapon for a single hit, or coat 4 arrow tips. Does not work with blunt weapons.
+Poisons are applied to weapons and must hit to be effective. Each poison vial has enough to coat a weapon for a single hit, or coat 10 arrowheads. Does not work with blunt weapons.
 
 
 ___
