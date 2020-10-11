@@ -66,7 +66,7 @@
 - [Curse](#Curse)
 - [Divine](#Divine)
 
-[Maneuvers](#Maneuvers)
+[Maneuvers](#Maneuvers-1)
 
 [Feats](#Feats)
 - [Backgrounds](#Backgrounds)
@@ -1858,6 +1858,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 - [Gloom](#Gloom)
 - [Haste](#Haste)
 - [Instigate](#Instigate)
+- [Laughing Skull](#Laughing-Skull)
 - [Mass Hex](#Mass-Hex)
 - [Paralytic Cloud](#Paralytic-Cloud)
 - [Raise Dead](#Raise-Dead)
@@ -1967,9 +1968,6 @@ You conjure up a display of witchcraft, displaying one of the following effects:
 A creature trying to see through these illusions must succeed on a perception check vs your spellcasting.
 
 Add 1 proficient die for every level above cantrip.
-
-
-
 
 
 ___
@@ -2456,6 +2454,18 @@ You incite a crowd or group of creatures to violence. All creatures in a 7x7 til
 A creature effected by this spell makes another save every time they are hit, making a Willpower roll vs 1 bad die, plus a bad die for every crit rolled in your spellcasting roll.
 
 Add a proficiency die for every level above the 4th.
+
+___
+#### Laughing Skull
+*4th Level*
+- **Casting Time:** 8 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** Fire/Death
+
+You summon a flaming skull that screeches a hideous laughter. The skull appears in an adjacent tile, moving up to 5 tiles before disappearing. The caster controls it's movement, passing through creatures. Each creature the skull passed through makes a Willpower save, taking 2 wound dice of both Fire and Death damage on fail. On crit the creature is feared until the end of their next turn, being forced to move and sprint away from the caster on their turn.
+
+The distance the skull travels increases by 2 for every level above 4th.
 
 ___
 #### Mass Hex
@@ -3554,9 +3564,6 @@ You restore a creature's body, ending negative effects on them and healing morta
 
 Add 2 superior dice to your roll when casting at 9th level.
 
-
-
-
 ___
 #### Avatar
 *9th Level*
@@ -4132,12 +4139,12 @@ You can speak with animals and cast _Animal Messenger_ at 1st level without a co
 #### Action Surge
 *Requires 5th Level*
 
-At any time you may use Action Surge to regain 7 AP. After using this feat, you must take a short or long rest before you can use it again.
+At any time you may use Action Surge to regain 7 AP, and you may use a second manuever on your turn. After using this feat, you must take a short or long rest before you can use it again.
 
 #### Signature Move
 *Requires 10th Level*
 
-Choose a maneuver you know with a Level requirement of 7 or lower. This maneuver can be used every turn, and you add 1 superior die to the roll.
+Choose a maneuver you know with a Level requirement of 7 or lower. This maneuver can be used once every turn, and you add 1 superior die to the roll.
 
 #### Overwatch
 *Requires proficiency in Perception, 12th Level*

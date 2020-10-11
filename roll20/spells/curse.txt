@@ -49,13 +49,13 @@ Add a proficiency die to your spellcasting roll for every level cast above cantr
 ___
 #### Trickery
 *Cantrip*
-- **Casting Time:** 2 AP
+- **Casting Time:** 4 (3) AP
 - **Range:** 3
-- **Duration:** instant
+- **Duration:** 1 turn
 
-When you or an ally is targeted by an attack or maneuver, you can use a reaction to distract the attacker, adding 1 bad die to their attack roll.
+Target up to 5 creatures, magically impairing their vision. Make a spellcasting roll, adding 1 bad die for every creature targeted. On success, the next attack those creatures make add a bad die to their roll. This effect ends after their first attack or at the end of their turn. You may cast this as a reaction for 3 AP, adding a terrible die for each creature instead.
 
-Add a bad die for every level above cast cantrip.
+Add a proficient die for every level above cast cantrip.
 
 ___
 #### Witchcraft
@@ -76,9 +76,6 @@ You conjure up a display of witchcraft, displaying one of the following effects:
 A creature trying to see through these illusions must succeed on a perception check vs your spellcasting.
 
 Add 1 proficient die for every level above cantrip.
-
-
-
 
 
 ___
@@ -565,6 +562,18 @@ You incite a crowd or group of creatures to violence. All creatures in a 7x7 til
 A creature effected by this spell makes another save every time they are hit, making a Willpower roll vs 1 bad die, plus a bad die for every crit rolled in your spellcasting roll.
 
 Add a proficiency die for every level above the 4th.
+
+___
+#### Laughing Skull
+*4th Level*
+- **Casting Time:** 8 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** Fire/Death
+
+You summon a flaming skull that screeches a hideous laughter. The skull appears in an adjacent tile, moving up to 5 tiles before disappearing. The caster controls it's movement, passing through creatures. Each creature the skull passed through makes a Willpower save, taking 2 wound dice of both Fire and Death damage on fail. On crit the creature is feared until the end of their next turn, being forced to move and sprint away from the caster on their turn.
+
+The distance the skull travels increases by 2 for every level above 4th.
 
 ___
 #### Mass Hex
