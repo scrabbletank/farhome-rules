@@ -2806,6 +2806,7 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 - [Turn Undead](#Turn-Undead)
 
 ##### Fourth
+- [Awaken](#Awaken)
 - [Bind Creature](#Bind-Creature)
 - [Commune With Nature](#Commune-With-Nature)
 - [Destroy Monstrosity](#Destroy-Monstrosity)
@@ -2817,7 +2818,6 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 - [Ward From Death](#Ward-From-Death)
 
 ##### Fifth
-- [Awaken Soul](#Awaken-Soul)
 - [Bind Familiar](#Bind-Familiar)
 - [Inner Fire](#Inner-Fire)
 - [Judgement](#Judgement)
@@ -4497,6 +4497,11 @@ You cannot be charmed or possessed and have Resistance 1 against Death damage.
 *Requires 20th Level*
 
 Your max attribute score is 6 instead of 5. You gain 1 attribute when taking this feat.
+
+#### Warrior
+*Requires 5 Willpower, 20th Level*
+
+Gain expertise in 2 weapon proficiencies.
 
 
 ## Items
