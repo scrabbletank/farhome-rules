@@ -893,6 +893,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Fireball](#Fireball)
 - [Flight](#Flight)
 - [Phantasmal Blades](#Phantasmal-Blades)
+- [Protective Sigil](#Protective-Sigil)
 - [Telepathic Bond](#Telepathic-Bond)
 
 ##### Fourth
@@ -907,6 +908,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 
 ##### Fifth
 - [Illusory Space](#Illusory-Space)
+- [Instant Fortification](#Instant-Fortification)
 - [Open Warren](#Open-Warren)
 - [Poison Cloud](#Poison-Cloud)
 - [Wall of Fire](#Wall-of-Fire)
@@ -1344,7 +1346,20 @@ ___
 
 Launch a series of arcane swords at a target. The target makes a Strength save vs your spellcasting, taking 3 wounds on fail.
 
-Add a wound and proficiency die for every level past 3rd.
+Add a wound and proficiency die for every level above 3rd.
+
+___
+#### Protective Sigil
+*3rd Level*
+- **Casting Time:** 1 minute
+- **Range:** Touch
+- **Duration:** 8 hours
+
+You create an invisible sigil on a willing creature, infused with another spell of 3rd level or below. When the target of a harmful spell or attack the sigil activates, casting the stored spell before the attack lands. The spell must have a target specified beforehand, such as the attacker or yourself. Spells that do not target a creature, such as _Counter Spell_ or _Conjure Elemental_ cannot be placed into the sigil. Spells that target multiple creatures can only target the attacker, and spells that target an area must be centered on the target. The spell must have a casting time of 10 AP or less to be stored in the sigil.
+
+To create the sigil make a spellcasting roll, adding Terrible dice equal to the stored spells level. On success the spell is placed inside the sigil. Regardless of the outcome you pay the mana cost for both _Protective Sigil_ and the spell you want to store. The sigil can be dismissed by the caster or removed with _Dispel Magic_.
+
+The spell level of the stored spell increases by 1 for every level cast above 3rd.
 
 ___
 #### Telepathic Bond
@@ -1355,7 +1370,7 @@ ___
 
 You form a telepathic connection with up to 5 willing creatures. Make a spellcasting roll, adding a bad die for every creature targeted. On success all creatures may communicate telepathically with each other over any distance, as long as they remain on the same plane. Creatures communicating this way understand each other even if they do not speak the same language.
 
-Add a proficient die for each level above the 3rd.
+Add a proficient die for each level above 3rd.
 
 
 
@@ -1496,13 +1511,26 @@ ___
 
 You create an illusory landscape covering a 10x10x10 tile area. The illusion can change the look, smell, sounds and temperature of the area. All effects happen in the creatures mind and have no effect on the creature themselves. The illusion covers the landscape, you may extend the illusion up to 6 inches from a surface with no ill effects, creatures will believe they are interacting with the illusion.
 
-
-
 You may cast the illusion over a cliff or gap, for example creating a bridge over a a ravine. A creature falling from your illusion makes a Willpower save vs your spellcasting, on fail they rationalize a reason for the outcome. Similarly you may create an illusion of something inside the space (eg: creating an illusion of a tower in a flat meadow), with the creature making a Willpower save when attempting to interact with it.
 
 A creature attempting to perceive the illusion must make a perception check against your spellcasting, on success they see the illusion for what it is.
 
 For every level above 5th you may extend the illusory space by another 10x10x10 area.
+
+___
+#### Instant Fortification
+*5th Level*
+- **Casting Time:** 11 AP
+- **Range:** 5
+- **Duration:** 1 hour, concentration
+
+You conjure fortifications of your design within a 5x5 tile area, extending 3 tiles high. The fortifications can be any shape, being made of shimmering bricks that sheds dim light over 2 tiles. The fortification can have multiple floors, stairs, ladders and doors, but cannot have complex structures such as a portcullis, draw bridge, or traps. It must contain at least one entrance, such as a door or gap 1 tile wide. Each tile square can be destroyed by taking a single wound in damage, or having more than 2000 lbs of weight. The structure does not obey gravity and will not collapse if sections are destroyed. The fortifications have resistance to all damage except Force damage.
+
+This spell may be cast on existing fortifications, granting them the light and resistance effects, but not conjuring any new structures. If cast in this way the area effected is doubled on each side, covering an area 4 times as large.
+
+You may give the walls up to resistance 3, with a minimum of 1. Make a spellcasting roll adding 2 Terrible die per level of resistance, conjuring the fortifications on success.
+
+For every level above the 5th you create an additional 5x5 area which must share a side with the existing fortifications.
 
 ___
 #### Open Warren
@@ -2707,9 +2735,6 @@ Curse a creature with sudden mortality. They must make a willpower save vs your 
 You may target an additional creature for every level above 8th.
 
 
-
-
-
 ___
 #### Power Word: Kill
 *9th Level*
@@ -2793,6 +2818,7 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 
 ##### Fifth
 - [Awaken Soul](#Awaken-Soul)
+- [Bind Familiar](#Bind-Familiar)
 - [Inner Fire](#Inner-Fire)
 - [Judgement](#Judgement)
 - [Mass Healing Word](#Mass-Healing-Word)
@@ -3253,6 +3279,17 @@ Add a wound die and increase the area by 2 tiles for every level above the 3rd.
 
 
 ___
+#### Awaken
+*4th Level*
+- **Casting Time:** 1 minute
+- **Range:** Touch
+- **Duration:** 7 days*
+
+Attempt to awaken a plant or creature with an intelligence of -1 or less. Make a spellcasting roll, adding a Terrible die for every 4 CR of the creature, with a minimum of 1. On success the plant or creature is awakened. While within 1 mile of you the awakened creature can speak the languages you can speak as well as communicate with you telepathically. For the duration, the creature obeys your commands to the best of its ability. Once the spell ends, they move more than 1 mile from you, or you dismiss them they revert to their original form.
+
+Add a superior die for every level cast above the 5th.
+
+___
 #### Bind Creature
 *4th Level*
 - **Casting Time:** 6 AP
@@ -3356,7 +3393,8 @@ ___
 
 Prevent a fatal blow from killing a creature. Target up to 5 creatures, adding 2 terrible die to your spellcasting roll for each creature. The next attack or spell that would either take them down to 0 wounds or instantly kill them instead leaves them at 1 wound. Once triggered the spell ends on the creature.
 
-Add a proficiency die to the roll for every level above the 4th.
+Add a proficiency die to the roll for every level above 4th.
+
 
 
 
@@ -3364,15 +3402,21 @@ Add a proficiency die to the roll for every level above the 4th.
 
 
 ___
-#### Awaken Soul
+#### Bind Familiar
 *5th Level*
-- **Casting Time:** 10 minutes
-- **Range:** Touch
-- **Duration:** 7 days*
+- **Casting Time:** 1 turn
+- **Range:** 3
+- **Duration:** 1 year
 
-Attempt to awaken a plant or creature with an intelligence of -1 or less. Make a spellcasting roll vs 3 terrible dice, on success you weave a soul into their body. Their intelligence is set to 1 and are able to communicate in a language you speak. Plants awakend this way gain the ability to move and speak, and gain human like senses. The creature is charmed by you for 7 days and acts as your guardian. After 7 days the charm ends and the creature can choose if they remain friendly, based on your actions.
+You bind a spirit to a beast to serve as your familiar. The creature must be a CR of 15 or less and have an intelligence of 0 or less to be targeted. Make a spellcasting roll, adding a Terrible die for every 3 CR of the target creature. On success you call a spirit (either celestial or demonic, depending on the DM) and bind it to the creature. The creature gains powers based on the spirit that inhabits it, gaining the ability to speak and communicate telepathically with whoever they form a contract with.
 
-Add a superior die for every level cast above the 5th. In addition, the length of charm increases to 14 days at 6th level, 30 days at 7th level, 180 days at 8th level, and a year and a day at 9th level.
+Once bound, the familiar offers a contract to the caster in exchange for one year of service. The offer can include anything, such as a large sum of money, an attribute point for the duration of the contract, needing to feed on human flesh every 7 days, or tracking down and punishing a wicked creature. The offer will be determined by the DM, but regardless of the cost accepting the contract reduces your maximum wounds by 2 for the duration.
+
+You gain part of the Familiar's powers while it's adjacent to you. The powers granted are included in the contract and can be anything, such as giving you expertise in a spell school or saving throw, allowing you to turn invisible, read the minds of nearby creatures, or giving you a powerful maneuver.
+
+Once successfully cast, regardless of whether a contract was formed this spell cannot be cast again for 7 days. You may only have a single Familiar bound to you at once. The contract ends after the Familiar dies or a year passes.
+
+Add a superior die to your roll for every level above 5th.
 
 ___
 #### Inner Fire
@@ -3415,7 +3459,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to remove afflictions from a group of creatures. Targetting up to 5 creatures, make a spellcasting roll adding 1 Terrible die for each creature added. On success you remove two negative conditions effecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, and Fear.
+Attempt to remove afflictions from a group of creatures. Targeting up to 5 creatures, make a spellcasting roll adding 1 Terrible die for each creature added. On success you remove two negative conditions effecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, and Fear.
 
 Add a normal die for every level above 5th.
 
@@ -4749,7 +4793,7 @@ ___
 | | Hexblade | 2 | 3 |2B/1T | When you critical with this weapon the target gains Hex 1 for 1 minute. |
 | | Quickened | 3 | 4 |2B/2T | The first attack made with this weapon each turn costs 1 less AP. |
 | Armor | | | | | | 
-| | Durable | 2 | 4 |2B/2T | If a spell or effect targetting this armor would damage it, roll a wound die. On a blank the armor takes no damge. |
+| | Durable | 2 | 4 |2B/2T | If a spell or effect targeting this armor would damage it, roll a wound die. On a blank the armor takes no damge. |
 | | Lightened | 3 | 4 |2B/2T | Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalities and initiative |
 | _Shield_ | | | | | | 
 | | Lesser Block | 2 | 2 |2B/1T | You may reroll 1 defense die when making defense rolls. |
