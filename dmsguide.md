@@ -28,7 +28,7 @@ A shield covered in eyes that dart around, looking for any threats. Gives 1 supe
 
 
 ##### Terrifying Gaze
-- **AP Cost:** 5
+- **AP Cost:** 6
 - **Weapon:** Shield
 - **Range:** Area of Control
 
@@ -49,12 +49,12 @@ If you land 3 hits against the same target during your turn, the target is dazed
 #### Ring of Protection +1, +2, +3
 *Wondrous Item, Requires Attunement*
 
-A strange ring that wards the wearer from danger. When making a defense roll, you can spend 1 AP to reroll a number of defense die equal to the rings modifier.
+A strange ring that wards the wearer from danger. When making a defense roll you can reroll a number of defense die equal to the rings modifier.
 
 #### Forceblade
 *Magic Weapon +1*
 
-A blade that emits a cutting force beyond the edge of its sword. Damage dealt with this weapon is considered Force damage. You gain the _Cutting Force_ manuever.
+A blade that emits a cutting force beyond the edge of its sword. Damage dealt with this weapon is considered Force damage. You gain the _Cutting Force_ maneuver.
 
 ##### Cutting Force
 - **AP Cost:** 6
@@ -67,7 +67,7 @@ Send a blast of force at a target within range. Make a normal weapon attack agai
 #### Quake Hammer
 *Magic Weapon +1*
 
-A hammer infused with the power of earth. When attacking Elementals you deal an additional wound die in damage. You also gain the _Quake_ manuever.
+A hammer infused with the power of earth. When attacking Elementals you deal an additional wound die in damage. You also gain the _Quake_ maneuver.
 
 ##### Quake
 - **AP Cost:** 7
@@ -79,7 +79,7 @@ Smash your hammer into the ground, causing the earth in your zone of control to 
 #### Arctic Hatchet
 *Magic Weapon +1*
 
-A hatchet inscribed with runes, cold to the touch. When thrown the Hatchet appears back in your hand at the end of your turn. You gain the _Icy Impact_ manuever.
+A hatchet inscribed with runes, cold to the touch. When thrown the Hatchet appears back in your hand at the end of your turn. You gain the _Icy Impact_ maneuver.
 
 ##### Icy Impact
 - **AP Cost:** 6
@@ -196,7 +196,7 @@ This cloak grants you +1 to your Dexterity. If your movespeed is lower than your
 #### Cloak of Daggers
 *Wondrous Item*
 
-While wearing this cloak with the hood up it obscures your face from light, preventing penalties from being in bright light or sunlight. Bright light is reduced to dim light, and dim light is reduced to darkness in this way. In addition, you gain the following manuever.
+While wearing this cloak with the hood up it obscures your face from light, preventing penalties from being in bright light or sunlight. Bright light is reduced to dim light, and dim light is reduced to darkness in this way. In addition, you gain the following maneuver.
 
 ##### Fan of Blades
 ___
@@ -204,7 +204,7 @@ ___
 - **Weapon:** Piercing
 - **Range:** Melee
 
-You spin your dagger tipped cloak, slashing all adjacent creatures. Make a piercing weapon attack roll against the targets Dexterity. If this is during or before the first round of combat, add 1 superior die to your roll. On hit they take 1 wound in piercing damage.
+You spin your dagger tipped cloak, slashing all adjacent creatures. Make a Dexterity save against the targets defense. If this is during or before the first round of combat, add 1 superior die to your roll. On hit they take 1 wound in piercing damage.
 
 #### Barrier Cloak
 *Wondrous Item, Requires Attunement*
@@ -239,10 +239,54 @@ While wearing this belt your gain +2 proficiency to your Dexterity save. If you 
 
 While wearing these gloves your Strength is increased by 1. Your carry weight is tripled, lifting heavy objects, such as a boulder, with ease.
 
+#### Circlet of Power +1, +2, +3
+*Wondrous Item, Requires Attunement*
+
+While wearing the circlet your spells are empowered. When making a spellcasting roll you may reroll dice equal to the circlets modifier.
+
+#### Magthera's Bone Charm
+*Wondrous Item, Requires Attunement*
+
+While attuned to the Bone Charm you may reroll 1 wound dice when dealing Death damage from spells. You gain the _Raise Skeleton_ maneuver.
+
+##### Raise Skeleton
+- **AP Cost:** 8
+- **Mana Cost:** 4
+- **Range:** 5
+
+You may target up to 3 corpses, making a spellcasting roll and adding a bad die for every corpse. On success a Skeleton raises from the corpse under your command for 24 hours. Alternatively you may cast this on up to 3 Skeleton creatures. If you do the Skeletons make a charisma save against your spellcasting, falling under your command for 24 hours on fail.
+
+After 24 hours you lose command over the skeletons and they behave like normal undead. You may only control up to 3 skeletons this way, attempting to control more will remove your command over your previous skeletons.
+
+#### Shardlight
+*Wondrous Item*
+
+A translucent white crystal. You may spend 5 AP to cause it to emit bright light out 3 tiles and dim light a further 3. Creatures in the bright light add a crit to saving throws against undead and demons.
+
+#### Scarf of Leadership
+*Wondrous Item, Requires Attunement*
+
+An otherwise unassuming red scarf. When worn it gives the wearer +1 to their Charisma score and Diplomacy proficiencies. When making a saving throw against an effect that causes fear you may use your Charisma save instead.
+
+#### Warp Band
+*Wondrous Item*
+
+This smooth crystal band is slick and cold to the touch. While worn, _Misty Step_ costs 1 less mana and travels double the distance, but you add 2 terrible dice to the spellcasting roll. While travelling through a warren with the _Open Warren_ spell the spellcaster maintaining the warren adds 1 failure to their roll.
+
+#### Driderweave Garments
+*Wonderous Item, Requires Attunement*
+
+Garments made from dridersilk and dyed with their blood, these clothes shrink and expand to fit their wearer. While wearing this you gain the following:
+
+- When poisoned the level is reduced by 1, being removed at level 0 or less.
+- You may walk along vertical surfaces and ceilings, keeping your hands free.
+- You automatically succeed on saving throws against being caught in spider webs, such as from the _Mass Web_ spell.
+- When taking the defend action, any melee attackers must make a Dexterity save against 3 Superior dice. On fail they are wrapped in webbing from the garments and are grappled. While grappled they may spend 5 AP to free themselves from the webbing.
+
 #### Twili Mask of Power
 *Wondrous Item, Requires Attunement*
 
-While wearing this mask you add 1 proficiency die to all spellcasting rolls. When taking a move action you can choose to hover. While hovering you ignore ground based effects and difficult terrain and can pass over creatures, returning to the ground at the end of your turn. You also learn two manuevers, _Shadow Magic_ and _Orb of Destruction_.
+While wearing this mask you add 1 proficiency die to all spellcasting rolls. When taking a move action you can choose to hover. While hovering you ignore ground based effects and difficult terrain and can pass over creatures, returning to the ground at the end of your turn. You also learn two maneuvers, _Shadow Magic_ and _Orb of Destruction_.
 
 ***Curse.*** This item is cursed. After attuning to the mask you are unable to part with it, wearing it covering your face or off to one side. If you reach 0 wounds or suffer an effect that would kill you outright, the Mask consumes you and you return as a Shadowbeast. You are stalked by a powerful entity of shadow that wants the mask. This entity knows your general location and you cannot hide from it through magic.
 
@@ -260,14 +304,14 @@ You summon 3 shadowbolts and launch them at targets in range. You may choose dif
 
 You channel the masks power to create a large orb of negative energy. You send the orb crashing into the earth, hitting all creatures in a 3x3 area centered on a position in range. All creatures hit make a Dexterity save vs your curse spellcasting. On hit they take 3 wounds in damage, plus an additional wound die for each crit.
 
-If this would reduce a creature to 0 wounds their body is consumed by the Orb, vaporizing and leaving no body behind. This manuever can be used once, afterwhich you must long rest before using again.
+If this would reduce a creature to 0 wounds their body is consumed by the Orb, vaporizing and leaving no body behind. This maneuver can be used once, afterwhich you must long rest before using again.
 
 
 
 #### Boneplate Armor
 *Magic Leather Armor +1, Requires Attunement*
 
-Leather armor with bones woven to reinforce it. Once per long rest, you may cast _Cloud of Teeth_ without a codex or expending a spell slot.
+Leather armor with bones woven to reinforce it. Once per long rest, you may cast _Cloud of Teeth_ at 3rd level.
 
 
 #### Emillion's Everyday Enchantments
@@ -318,7 +362,7 @@ A sword used to execute rogue mages, this 6ft claymore is inscribed with protect
 #### Band of Silence
 *Wondrous Item*
 
-This black metal band resizes itself to fit around the wearers forearm. Once per day you can command the band to emit a field of absolute silence for 10 minutes. Once activated the field stays until dispelled or the duration ends. The field extends to all adjacent tiles around the wearer and moves with the wearer. A creature in the field is unable to make or hear a sound, and gains resistance 3 to thunder damage.
+This black metal band resizes itself to fit around the wearers forearm. Once per day you can command the band to emit a field of absolute silence for 10 minutes. Once activated the field stays until dispelled or the duration ends. The field extends to all adjacent tiles around the wearer and moves with them. A creature in the field is unable to make or hear a sound, and gains resistance 3 to thunder damage.
 
 #### Shadowwalk Dagger
 *Wondrous Dagger +1*
