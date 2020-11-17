@@ -1446,7 +1446,7 @@ ___
 
 Fire a bolt of lightning, hitting all creatures in a 15 tile line. The lightning ricochets off walls and solid objects. All creatures must make a Dexterity save against your spellcasting. On fail, they take 1 wound and 2 wound dice, plus a wound die for every crit, or 1 wound on success.
 
-Add a proficient die for every level above4th.
+Add a proficient die for every level above 4th.
 
 ___
 #### Nondetection
@@ -1654,7 +1654,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Force
 
-Harness your magic and unleash a destructive wave of force. A blast of force 5 tiles wide and 12 tiles long erupts from your hands. All creatures in the blast must make a Strength save against your spellcasting. On fail they take 6 wound dice in damage and are thrown back half the distance of the wave, on success they are pushed back 1 tile and take half damage, rounded down. Objects and structures in the wave are destroyed, leaving difficult terrain.
+Harness your magic and unleash a destructive wave of force. A blast of force 5 tiles wide and 12 tiles long erupts from your hands. All creatures in the blast must make a Strength save against your spellcasting. On fail they take 7 wound dice in damage and are thrown back half the distance of the wave, on success they are pushed back 1 tile and take half damage, rounded down. Objects and structures in the wave are destroyed, leaving difficult terrain.
 
 The length of the wave increases by 3 and wound dice increases by 1 for each level above 6th.
 
@@ -2678,7 +2678,7 @@ Targeting a beast or willing creature you permanently alter their form, only end
 Their max wounds increase by 1 for every level cast above 6th.
 
 > #### Nightmare Template
-> - **Bonus AP:** 4
+> - **Bonus Action Points:** 4
 > - **Bonus Stats:** +1 Strength, +1 Stamina
 > - **Bonus Proficiencies:** +2 proficiency with Strength/Stamina saves, +3 proficiency with unarmed attacks
 > - **Bonus Wounds:** -
