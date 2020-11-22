@@ -1905,6 +1905,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 ##### Sixth
 - [Curse of Fear](#Curse-of-Fear)
 - [Isolation](#Isolation)
+- [Miasma](#Miasma)
 - [Psychic Scream](#Psychic-Scream)
 - [Ritual of Mordiggian](#Ritual-of-Mordiggian)
 
@@ -2784,6 +2785,7 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 - [Animal Messenger](#Animal-Messenger)
 - [Bonfire](#Bonfire)
 - [Bramble](#Bramble)
+- [Breath](#Bonfire)
 - [Chilling Fog](#Chilling-Fog)
 - [Close Wounds](#Close-Wounds)
 - [Healing Word](#Healing-Word)
@@ -3480,7 +3482,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to remove afflictions from a group of creatures. Targeting up to 5 creatures, make a spellcasting roll adding 1 Terrible die for each creature added. On success you remove two negative conditions effecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, and Fear.
+Attempt to remove afflictions from a group of creatures. Targeting up to 5 creatures, make a spellcasting roll adding 1 Terrible die for each creature added. On success you remove two negative conditions effecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, Weaken, and Fear or a single condition from a spell of 4th level or lower, such as _Petrify_.
 
 Add a normal die for every level above 5th.
 
