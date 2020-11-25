@@ -2785,7 +2785,7 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 - [Animal Messenger](#Animal-Messenger)
 - [Bonfire](#Bonfire)
 - [Bramble](#Bramble)
-- [Breath](#Bonfire)
+- [Breath](#Breath)
 - [Chilling Fog](#Chilling-Fog)
 - [Close Wounds](#Close-Wounds)
 - [Healing Word](#Healing-Word)
@@ -3647,40 +3647,64 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 
 ## Maneuvers
 
-___
-#### Hamstring
-- **AP Cost:** 5/4
-- **Weapon:** Any Melee
-- **Range:** Melee
-- **Level Required:** 1/7
 
-Make a melee attack against a target, adding 1 proficiency die. On hit deal normal weapon damage. If you crit the target takes a Lesser Wound: Hamstring. The target gains Slow 1, lasts until the target takes a long rest.
+#### Spells By Level
 
-***Enhanced:*** Add a wound die to your attack roll, and the target gains Slow 2 instead.
+##### Level 1
+- [Sweeping Strike](#Sweeping-Strike)
+- [Aimed Shot](#Aimed-Shot)
+- [Headbutt](#Headbutt)
+- [Hamstring](#Hamstring)
+- [Protector](#Protector)
+- [Spear Wall](#Spear-Wall)
+- [Sneak Attack](#Sneak-Attack)
+- [Inspiring Words](#Inspiring-Words)
+- [Savage Leap](#Savage-Leap)
+- [Shield Slam](#Shield-Slam)
 
+##### Level 2
+- [Careful Advance](#Careful-Advance)
+- [Daze](#Daze)
+- [Wild Attack](#Wild-Attack)
+- [Raise Shield](#Raise-Shield)
 
-___
-#### Armor Break
-- **AP Cost:** 5/4
-- **Weapon:** Bludgeoning
-- **Range:** Melee
-- **Level Required:** 3/11
+##### Level 3
+- [Pinning Shot](#Pinning-Shot)
+- [Heavy Swing](#Heavy-Swing)
+- [Press the Attack](#Press-the-Attack)
+- [Smite](#Smite)
 
-Make a melee attack against a target, adding 1 proficiency die. On hit deal normal weapon damage. If you crit the target's armor provides 1 fewer die until repaired.
+##### Level 4
+- [Deflect](#Deflect)
+- [Cleave](#Cleave)
+- [Flurry](#Flurry)
+- [Magic Arrow](#Magic-Arrow)
 
-***Enhanced:*** Add a superiority die instead of a procient die.
+##### Level 5
+- [Armor Break](#Armor-Break)
+- [Target Weakness](#Target-Weakness)
+- [Push Opportunity](#Push-Opportunity)
+- [Roundhouse Kick](#Roundhouse=Kick)
 
-___
-#### Cleave
-- **AP Cost:** 7/6
-- **Weapon:** Two-Handed weapon
-- **Range:** Melee
-- **Level Required:** 1/9
+##### Level 6
+- [Pommel Strike](#Pommel-Strike)
+- [Suplex](#Suplex)
+- [Puncture](#Puncture)
 
-You may target creatures equal to your Strength. Targets must be inside your zone of control. Make a melee weapon attack against all targets, adding a bad die to the roll. On hit, targets take 1 wound in damage.
+##### Level 7
+- [Disarm](#Disarm)
+- [Leaping Slam](#Leaping-Slam)
 
-***Enhanced:*** You no longer add a bad die to the roll, on hit targets take normal weapon damage.
+##### Level 8
+- [Hail of Arrows](#Hail-of-Arrows)
 
+##### Level 9
+- [7 Hand Strike](#7-Hand-Strike)
+- [Inflict Wounds](#Inflict-Wounds)
+- [Volley](#Volley)
+
+##### Level 11
+- [Steel Tempest](#Steel-Tempest)
 
 ___
 #### Sweeping Strike
@@ -3694,18 +3718,38 @@ Make a melee attack against a target, adding 1 proficiency die. On hit deal norm
 ***Enhanced:*** Add a wound die to your attack roll.
 
 ___
-#### Spear Wall
-- **AP Cost:** 2
-- **Weapon:** Polearm
-- **Range:** 2
+#### Aimed Shot
+- **AP Cost:** 5-8/4-8
+- **Weapon:** Ranged Weapon
+- **Range:** min 15 ft
 - **Level Required:** 1/7
 
-As a reaction you can make an attack against any target moving in range of you. On hit the targets move action ends. On crit the target is pushed back 1 tile.
-
-***Enhanced:*** Add a superior die to the attack roll.
+Make a ranged attack against a target, adding a proficiency die for each AP spent above 5.
 
 
+***Enhanced:*** Roll up to 3 wound die with your attack, one for each crit made in the attack roll.
 
+___
+#### Headbutt
+- **AP Cost:** 3/2
+- **Weapon:** N/A
+- **Range:** Melee
+- **Level Required:** 1/7
+
+After making a successful melee attack against the target you may attempt to headbutt them. Make a Stamina roll against their Stamina, the loser is staggered until the end of their next turn.
+
+***Enhanced:*** You may upgrade one die in your Stamina roll. Roll a wound die, dealing the result to the losing creature.
+
+___
+#### Hamstring
+- **AP Cost:** 5/4
+- **Weapon:** Any Melee
+- **Range:** Melee
+- **Level Required:** 1/7
+
+Make a melee attack against a target, adding 1 proficiency die. On hit deal normal weapon damage. If you crit the target takes a Lesser Wound: Hamstring. The target gains Slow 1, lasts until the target takes a long rest.
+
+***Enhanced:*** Add a wound die to your attack roll, and the target gains Slow 2 instead.
 
 ___
 #### Protector
@@ -3719,68 +3763,15 @@ When an ally adjacent to you is targeted by an attack you can spend 1 AP to add 
 ***Enhanced:*** If the attack is successfully blocked, you may make a reaction attack against the attacker if you are in range and have AP.
 
 ___
-#### Headbutt
-- **AP Cost:** 3/2
-- **Weapon:** N/A
-- **Range:** Melee
+#### Spear Wall
+- **AP Cost:** 2
+- **Weapon:** Polearm
+- **Range:** 2
 - **Level Required:** 1/7
 
-After making a successful melee attack against the target you may attempt to headbutt them. Make a Stamina roll against their Stamina, the loser is staggered until the end of their next turn.
+As a reaction you can make an attack against any target moving in range of you. On hit the targets move action ends. On crit the target is pushed back 1 tile.
 
-***Enhanced:*** You may upgrade one die in your Stamina roll. Roll a wound die, dealing the result to the losing creature.
-
-
-___
-#### Aimed Shot
-- **AP Cost:** 5-8/4-8
-- **Weapon:** Ranged Weapon
-- **Range:** min 15 ft
-- **Level Required:** 1/7
-
-Make a ranged attack against a target, adding a proficiency die for each AP spent above 5.
-
-
-***Enhanced:*** Roll up to 3 wound die with your attack, one for each crit made in the attack roll.
-
-
-
-___
-#### Target Weakness
-- **AP Cost:** 5/4
-- **Weapon:** Ranged Weapon
-- **Range:** any
-- **Level Required:** 5/14
-
-Make a ranged attack against a target, adding up to 5 wound die. For each wound die added, add a terrible die to your roll.
-
-***Enhanced:*** On a crit, the target takes a random Lesser wound.
-
-___
-#### Pinning Shot
-- **AP Cost:** 6/5
-- **Weapon:** Ranged Weapon
-- **Range:** any
-- **Level Required:** 3/10
-
-Make a ranged attack against a target, adding a proficiency die to the roll. On hit they take 1 wound, and on crit they are pinned. A Pinned creature has a move and sprint speed of 0 and grants combat advantage, and cannot move until they spend 5 AP to free themselves.
-
-
-***Enhanced:*** Add a superior die instead of a proficiency die.
-
-
-
-___
-#### Hail of Arrows
-- **AP Cost:** 8/7
-- **Weapon:** Ranged weapon without _Loading_
-- **Range:** any
-- **Level Required:** 10/18
-
-Choose a point within range of your bow, targeting all creatures on or adjacent to that tile. Make a ranged attack against the targets, adding 1 bad die to your roll. On hit they take 1 wound die in damage. Cannot be used in constrained areas.
-
-
-***Enhanced:*** You no longer add a bad die to your roll, deals 1 wound instead of 1 wound die.
-
+***Enhanced:*** Add a superior die to the attack roll.
 
 ___
 #### Sneak Attack
@@ -3793,32 +3784,6 @@ Can only be used when flanking a target. Make a melee attack against the target,
 
 ***Enhanced:*** Can be used every turn instead of every other turn.
 
-
-___
-#### Wild Attack
-- **AP Cost:** 5/5
-- **Weapon:** Any Slashing weapon
-- **Range:** Melee
-- **Level Required:** 1/11
-
-Make a wild attack against a target, adding 1 normal die to your attack roll. On hit you deal an additional wound in damage. Regardless of the outcome you grant combat advantage to attackers until the start of your next turn.
-
-***Enhanced:*** Add a proficient die instead of a normal die. If you deal 3 or more wounds with this attack the target gains a random Lesser Wound.
-
-___
-#### Deflect
-- **AP Cost:** 2/1(3)
-- **Weapon:** N/A
-- **Range:** Melee
-- **Level Required:** 3/11
-
-Can only be used when the target of a ranged weapon attack. Instead of making a defense roll against the attack, make a sleight of hand roll instead. On success you catch the projectile, taking no damage.
-
-***Enhanced:*** After catching the projectile you may spend 2 AP to fire the projectile back, as long as you have a ranged weapon that can fire the projectile. Add 1 proficiency die to the roll.
-
-
-
-
 ___
 #### Inspiring Words
 - **AP Cost:** 3/3
@@ -3829,96 +3794,6 @@ ___
 You give words of encouragement to another creature. Make a performance roll, adding 1 bad die to the check. On success the target creature can add a superior die to any roll they make for the next 10 minutes.
 
 ***Enhanced:*** You can target up to 3 creatures, adding a bad die for each creature past the 1st.
-
-
-___
-#### Daze
-- **AP Cost:** 5/4
-- **Weapon:** Bludgeoning
-- **Range:** Melee
-- **Level Required:** 1/7
-
-Make a normal weapon attack against a target, adding a proficient die to the roll. On crit the target is dazed until the end of their next turn.
-
-***Enhanced:*** Add a superior die instead of a proficient die. The target is dazed for 1 minute on crit.
-
-
-___
-#### Press the Attack
-- **AP Cost:** 5/4
-- **Weapon:** Any Melee
-- **Range:** Melee
-- **Level Required:** 3/12
-
-Strike into the target, attempting to push them back. Make a normal weapon attack, adding a proficient die to the roll. On hit the target is pushed back 1 tile and you move to occupy their space. On crit the target is staggered until the end of their next turn.
-
-***Enhanced:*** Add a wound die to the roll. If you make 2 critical successes, the target is knocked prone instead of staggered.
-
-___
-#### Push Opportunity
-- **AP Cost:** 5/4
-- **Weapon:** Any Melee
-- **Range:** Melee
-- **Level Required:** 5/15
-
-Take advantage of a situation. Can only be used against a target that has a condition or is granting combat advantage. Make a normal weapon attack, adding a superior die to the roll. You deal an extra wound die on crit.
-
-***Enhanced:*** Add 2 superior dice to your attack roll.
-
-___
-#### Suplex
-- **AP Cost:** 5/4
-- **Weapon:** Unarmed
-- **Range:** Melee
-- **Level Required:** 1/8
-
-Can only be used against a grappled target. Make an unarmed attack against the targets Strength save. On hit you slam the grappled creature into the tile behind you, knocking them prone and dealing normal unarmed damage. On crit the target is dazed until the end of their next turn. This ends the grapple on the target.
-
-***Enhanced:*** Wound die you roll count as wounds instead.
-
-___
-#### 7 Hand Strike
-- **AP Cost:** 8/6
-- **Weapon:** Unarmed
-- **Range:** Melee
-- **Level Required:** 9/15
-
-Hit the target with a series of quick strikes. Make an unarmed attack against a target, adding a superior die. On hit, roll 5 wound dice. Add your wounds and crit successes, if it is 5 or more the target is stunned until the end of their next turn.
-
-***Enhanced:*** You add 2 superior die to the attack, and you can target a creature up to 2 tiles away, moving yourself to an unoccupied adjacent tile for the attack.
-
-___
-#### Steel Tempest
-- **AP Cost:** 10/8
-- **Weapon:** Sword
-- **Range:** 2
-- **Level Required:** 11/22
-
-Make a normal weapon attack against up to 5 creatures in range, adding 2 Terrible die to the roll. On hit you deal your weapon's wounds to the creature.
-
-***Enhanced:*** If you manage to hit 5 creatures, they grant combat advantage until the start of your next turn.
-
-___
-#### Puncture
-- **AP Cost:** 5/4
-- **Weapon:** One-Handed Slashing or Piercing
-- **Range:** Melee
-- **Level Required:** 3/15
-
-Only usable against a target that rolls 4 or more defense dice. Slide your blade between the joints of their armor, stabbing your weapon home. Make an normal weapon attack against a target. The target can only roll defense dice equal to their Dexterity. On hit deal normal weapon damage, adding a wound die on crit.
-
-***Enhanced:*** The targets superior defense dice are replaced with normal defence dice. On crit, the target takes a random lesser wound instead of adding a wound die.
-
-___
-#### Smite
-- **AP Cost:** 6/5
-- **Weapon:** Melee Weapon
-- **Range:** Melee
-- **Level Required:** 3/12
-
-Empower your weapon with holy might. This attack consumes up to 2 mana. Make a normal weapon attack, using your divine spellcasting proficiency instead of your weapon proficiency, adding a proficient die to the roll. On hit, the target takes normal weapon damage, plus 1 wound die per mana used in holy damage. If the target is undead, they take wounds instead. On crit, if the target is undead they are turned for 1 minute.
-
-***Enhanced:*** Add a superior die instead of a proficient die to your attack roll, you may use up to 4 mana.
 
 ___
 #### Savage Leap
@@ -3943,17 +3818,6 @@ Make an attack with your shield, knocking the target off balance. Make a normal 
 ***Enhanced:*** Add a proficient die to the attack roll and the target is staggered regardless of crit.
 
 ___
-#### Magic Arrow
-- **AP Cost:** 7/5
-- **Weapon:** Ranged
-- **Range:** Weapon Range
-- **Level Required:** 4/16
-
-You channel magic into your weapon, empowering the next attack and consuming up to 3 mana. Make a weapon attack against a target adding 1 proficient die to the roll, on hit the target takes normal damage. Regardless of the outcome the arrow turns to energy and pierces through, hitting 2 tiles directly behind the target. Any creatures hit must make a defense roll against your attack, taking a wound on hit. The arrow pierces 1 tile further per mana consumed.
-
-***Enhanced:*** On crit, deal an additional wound die to all targets.
-
-___
 #### Careful Advance
 - **AP Cost:** 5/4
 - **Weapon:** Melee
@@ -3965,59 +3829,49 @@ You carefully study your opponents movements, making a calculated attack. Make a
 ***Enhanced:*** Add a superior die instead of a proficient die, you may reroll up to 5 dice instead of 3.
 
 ___
+#### Daze
+- **AP Cost:** 5/4
+- **Weapon:** Bludgeoning
+- **Range:** Melee
+- **Level Required:** 2/10
+
+Make a normal weapon attack against a target, adding a proficient die to the roll. On crit the target is dazed until the end of their next turn.
+
+***Enhanced:*** Add a superior die instead of a proficient die. The target is dazed for 1 minute on crit.
+
+___
+#### Wild Attack
+- **AP Cost:** 5/5
+- **Weapon:** Any Slashing weapon
+- **Range:** Melee
+- **Level Required:** 2/11
+
+Make a wild attack against a target, adding 1 normal die to your attack roll. On hit you deal an additional wound in damage. Regardless of the outcome you grant combat advantage to attackers until the start of your next turn.
+
+***Enhanced:*** Add a proficient die instead of a normal die. If you deal 3 or more wounds with this attack the target gains a random Lesser Wound.
+
+___
 #### Raise Shield
 - **AP Cost:** 3/3
 - **Weapon:** Shield
 - **Range:** N/A
-- **Level Required:** 1/12
+- **Level Required:** 2/12
 
 Used in place of your movement action, you raise your shield to defend against arrows. As long as you don't sprint you gain 1 Resistance to physical damage dealt by ranged attacks.
 
 ***Enhanced:*** While your shield is raised you can reroll 1 die when making a defense roll.
 
-#### Volley
 ___
-- **AP Cost:** 9/7
-- **Weapon:** Ranged
-- **Range:** Weapon Range
-- **Level Required:** 9/17
-
-Shoot a volley of arrows at 3 adjacent targets. Make a ranged weapon attack against each one, adding 1 Terrible die to the attack rolls. On hit you deal normal weapon damage.
-
-***Enhanced:*** Add a Bad die instead of a Terrible die.
-
-___
-#### Disarm
+#### Pinning Shot
 - **AP Cost:** 6/5
-- **Weapon:** Unarmed
-- **Range:** Melee
-- **Level Required:** 7/15
+- **Weapon:** Ranged Weapon
+- **Range:** any
+- **Level Required:** 3/10
 
-You attempt to disarm an opponent, forcing them to drop their weapon. The target makes a Defense or Dexterity save against your unarmed attack, on hit their weapon falls to the ground, landing in an adjacent tile of your chosing. A creature standing on that tile can spend 2 AP retrieving the weapon.
+Make a ranged attack against a target, adding a proficiency die to the roll. On hit they take 1 wound, and on crit they are pinned. A Pinned creature has a move and sprint speed of 0 and grants combat advantage, and cannot move until they spend 5 AP to free themselves.
 
-***Enhanced:*** On crit the target is also staggered until the end of their turn.
 
-___
-#### Roundhouse Kick
-- **AP Cost:** 5/5
-- **Weapon:** Unarmed
-- **Range:** Melee
-- **Level Required:** 5/15
-
-Perform a spinning kick, knocking away opponents. Make an unarmed attack against a creature, adding 1 Proficiency die to the roll. on hit the target takes normal damage and is pushed back 1 tile, and staggered on crit.
-
-***Enhanced:*** You may target a second creature that is adjacent to you.
-
-___
-#### Inflict Wound
-- **AP Cost:** 5/4
-- **Weapon:** One-Handed
-- **Range:** Melee
-- **Level Required:** 9/16
-
-Attempt to mortally wound a target. Make a normal weapon attack, adding a Superior die if your flanking the target. On hit they take 1 wound die in damage, and gain a random Lesser Wound on crit.
-
-***Enhanced:*** The attack deals normal weapon damage and you attack with expertise if flanking the target.
+***Enhanced:*** Add a superior die instead of a proficiency die.
 
 ___
 #### Heavy Swing
@@ -4031,6 +3885,50 @@ You bring the full weight of your weapon down on a target. Make a normal weapon 
 ***Enhanced:*** Add a Superior die to the attack roll and an extra wound die to the damage.
 
 ___
+#### Press the Attack
+- **AP Cost:** 5/4
+- **Weapon:** Any Melee
+- **Range:** Melee
+- **Level Required:** 3/12
+
+Strike into the target, attempting to push them back. Make a normal weapon attack, adding a proficient die to the roll. On hit the target is pushed back 1 tile and you move to occupy their space. On crit the target is staggered until the end of their next turn.
+
+***Enhanced:*** Add a wound die to the roll. If you make 2 critical successes, the target is knocked prone instead of staggered.
+
+___
+#### Smite
+- **AP Cost:** 6/5
+- **Weapon:** Melee Weapon
+- **Range:** Melee
+- **Level Required:** 3/12
+
+Empower your weapon with holy might. This attack consumes up to 2 mana. Make a normal weapon attack, using your divine spellcasting proficiency instead of your weapon proficiency, adding a proficient die to the roll. On hit, the target takes normal weapon damage, plus 1 wound die per mana used in holy damage. If the target is undead, they take wounds instead. On crit, if the target is undead they are turned for 1 minute.
+
+***Enhanced:*** Add a superior die instead of a proficient die to your attack roll, you may use up to 4 mana.
+
+___
+#### Deflect
+- **AP Cost:** 2/1(3)
+- **Weapon:** N/A
+- **Range:** Melee
+- **Level Required:** 4/12
+
+Can only be used when the target of a ranged weapon attack. Instead of making a defense roll against the attack, make a sleight of hand roll instead. On success you catch the projectile, taking no damage.
+
+***Enhanced:*** After catching the projectile you may spend 2 AP to fire the projectile back, as long as you have a ranged weapon that can fire the projectile. Add 1 proficiency die to the roll.
+
+___
+#### Cleave
+- **AP Cost:** 7/6
+- **Weapon:** Two-Handed weapon
+- **Range:** Melee
+- **Level Required:** 4/13
+
+You may target creatures equal to your Strength. Targets must be inside your zone of control. Make a melee weapon attack against all targets, adding a bad die to the roll. On hit, targets take 1 wound in damage.
+
+***Enhanced:*** You no longer add a bad die to the roll, on hit targets take normal weapon damage.
+
+___
 #### Flurry
 - **AP Cost:** 7/6
 - **Weapon:** One-Handed
@@ -4040,6 +3938,106 @@ ___
 You make two quick attacks against a single target. Make two weapon attacks, adding a Terrible die to each attack. On hit they take weapon damage.
 
 ***Enhanced:*** use a Bad die instead of a Terrible die.
+
+___
+#### Magic Arrow
+- **AP Cost:** 7/5
+- **Weapon:** Ranged
+- **Range:** Weapon Range
+- **Level Required:** 4/16
+
+You channel magic into your weapon, empowering the next attack and consuming up to 3 mana. Make a weapon attack against a target adding 1 proficient die to the roll, on hit the target takes normal damage. Regardless of the outcome the arrow turns to energy and pierces through, hitting 2 tiles directly behind the target. Any creatures hit must make a defense roll against your attack, taking a wound on hit. The arrow pierces 1 tile further per mana consumed.
+
+***Enhanced:*** On crit, deal an additional wound die to all targets.
+
+___
+#### Armor Break
+- **AP Cost:** 5/4
+- **Weapon:** Bludgeoning
+- **Range:** Melee
+- **Level Required:** 5/14
+
+Make a melee attack against a target, adding 1 proficiency die. On hit deal normal weapon damage. If you crit the target's armor provides 1 fewer die until repaired.
+
+***Enhanced:*** Add a superiority die instead of a procient die.
+
+___
+#### Target Weakness
+- **AP Cost:** 5/4
+- **Weapon:** Ranged Weapon
+- **Range:** any
+- **Level Required:** 5/14
+
+Make a ranged attack against a target, adding up to 5 wound die. For each wound die added, add a terrible die to your roll.
+
+***Enhanced:*** On a crit, the target takes a random Lesser wound.
+
+___
+#### Push Opportunity
+- **AP Cost:** 5/4
+- **Weapon:** Any Melee
+- **Range:** Melee
+- **Level Required:** 5/15
+
+Take advantage of a situation. Can only be used against a target that has a condition or is granting combat advantage. Make a normal weapon attack, adding a superior die to the roll. You deal an extra wound die on crit.
+
+***Enhanced:*** Add 2 superior dice to your attack roll.
+
+___
+#### Roundhouse Kick
+- **AP Cost:** 5/5
+- **Weapon:** Unarmed
+- **Range:** Melee
+- **Level Required:** 5/15
+
+Perform a spinning kick, knocking away opponents. Make an unarmed attack against a creature, adding 1 Proficiency die to the roll. on hit the target takes normal damage and is pushed back 1 tile, and staggered on crit.
+
+***Enhanced:*** You may target a second creature that is adjacent to you.
+
+___
+#### Pommel Strike
+- **AP Cost:** 5/4
+- **Weapon:** Any
+- **Range:** Melee
+- **Level Required:** 6/15
+
+You make an attack with the blunt part of your weapon. Make a weapon attack against a single target. On hit they take weapon damage, replacing all wounds dealt with wound dice and changing the damage type to bludgeoning. On crit the target is Weakened until the end of their next turn.
+
+***Enhanced:*** Add a superior die to the attack.
+
+___
+#### Suplex
+- **AP Cost:** 5/4
+- **Weapon:** Unarmed
+- **Range:** Melee
+- **Level Required:** 6/15
+
+Can only be used against a grappled target. Make an unarmed attack against the targets Strength save. On hit you slam the grappled creature into the tile behind you, knocking them prone and dealing normal unarmed damage. On crit the target is dazed until the end of their next turn. This ends the grapple on the target.
+
+***Enhanced:*** Wound die you roll count as wounds instead.
+
+___
+#### Puncture
+- **AP Cost:** 5/4
+- **Weapon:** One-Handed Slashing or Piercing
+- **Range:** Melee
+- **Level Required:** 6/16
+
+Only usable against a target that rolls 4 or more defense dice. Slide your blade between the joints of their armor, stabbing your weapon home. Make an normal weapon attack against a target. The target can only roll defense dice equal to their Dexterity. On hit deal normal weapon damage, adding a wound die on crit.
+
+***Enhanced:*** The targets superior defense dice are replaced with normal defence dice. On crit, the target takes a random lesser wound instead of adding a wound die.
+
+___
+#### Disarm
+- **AP Cost:** 6/5
+- **Weapon:** Unarmed
+- **Range:** Melee
+- **Level Required:** 7/15
+
+You attempt to disarm an opponent, forcing them to drop their weapon. The target makes a Defense or Dexterity save against your unarmed attack, on hit their weapon falls to the ground, landing in an adjacent tile of your chosing. A creature standing on that tile can spend 2 AP retrieving the weapon.
+
+***Enhanced:*** On crit the target is also staggered until the end of their turn.
+
 
 ___
 #### Leaping Slam
@@ -4053,15 +4051,62 @@ You jump up to 2 tiles making a weapon attack against a single target, adding a 
 ***Enhanced:*** You may hit up to 3 adjacent targets.
 
 ___
-#### Pommel Strike
-- **AP Cost:** 6/5
-- **Weapon:** Any
+#### Hail of Arrows
+- **AP Cost:** 8/7
+- **Weapon:** Ranged weapon without _Loading_
+- **Range:** any
+- **Level Required:** 8/18
+
+Choose a point within range of your bow, targeting all creatures on or adjacent to that tile. Make a ranged attack against the targets, adding 1 bad die to your roll. On hit they take 2 wound dice in damage. Cannot be used in constrained areas.
+
+
+***Enhanced:*** You no longer add a bad die to your roll, deals 1 wound and 1 wound die.
+
+___
+#### 7 Hand Strike
+- **AP Cost:** 8/7
+- **Weapon:** Unarmed
 - **Range:** Melee
-- **Level Required:** 6/15
+- **Level Required:** 9/15
 
-You make an attack with the blunt part of your weapon. Make a weapon attack against a single target. On hit they take weapon damage, replacing all wounds dealt with wound dice and changing the damage type to bludgeoning. On crit the target is Weakened until the end of their next turn.
+Hit the target with a series of quick strikes. Make an unarmed attack against a target, adding a superior die. On hit, roll 5 wound dice. Add your wounds and crit successes, if it is 5 or more the target is stunned until the end of their next turn.
 
-***Enhanced:*** Add a superior die to the attack.
+***Enhanced:*** You can target a creature up to 2 tiles away, moving yourself to an unoccupied adjacent tile for the attack.
+
+___
+#### Inflict Wound
+- **AP Cost:** 5/4
+- **Weapon:** One-Handed
+- **Range:** Melee
+- **Level Required:** 9/16
+
+Attempt to mortally wound a target. Make a normal weapon attack, adding a Superior die if your flanking the target. On hit they take 1 wound die in damage, and gain a random Lesser Wound on crit.
+
+***Enhanced:*** The attack deals normal weapon damage and you attack with expertise if flanking the target.
+
+#### Volley
+___
+- **AP Cost:** 9/7
+- **Weapon:** Ranged
+- **Range:** Weapon Range
+- **Level Required:** 9/17
+
+Shoot a volley of arrows at 3 adjacent targets. Make a ranged weapon attack against each one, adding 1 Terrible die to the attack rolls. On hit you deal normal weapon damage.
+
+***Enhanced:*** Add a Bad die instead of a Terrible die.
+
+___
+#### Steel Tempest
+- **AP Cost:** 10/8
+- **Weapon:** Sword
+- **Range:** 2
+- **Level Required:** 11/22
+
+Make a normal weapon attack against up to 5 creatures in range, adding 2 Terrible die to the roll. On hit you deal your weapon's wounds to the creature.
+
+***Enhanced:*** If you manage to hit 5 creatures, they grant combat advantage until the start of your next turn.
+
+
 
 ## Feats
 ### Backgrounds
