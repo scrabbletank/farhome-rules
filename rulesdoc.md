@@ -3650,7 +3650,7 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 ___
 #### Hamstring
 - **AP Cost:** 5/4
-- **Weapon:** Any
+- **Weapon:** Any Melee
 - **Range:** Melee
 - **Level Required:** 1/7
 
@@ -3846,7 +3846,7 @@ Make a normal weapon attack against a target, adding a proficient die to the rol
 ___
 #### Press the Attack
 - **AP Cost:** 5/4
-- **Weapon:** Any
+- **Weapon:** Any Melee
 - **Range:** Melee
 - **Level Required:** 3/12
 
@@ -3857,7 +3857,7 @@ Strike into the target, attempting to push them back. Make a normal weapon attac
 ___
 #### Push Opportunity
 - **AP Cost:** 5/4
-- **Weapon:** Any
+- **Weapon:** Any Melee
 - **Range:** Melee
 - **Level Required:** 5/15
 
@@ -3923,7 +3923,7 @@ Empower your weapon with holy might. This attack consumes up to 2 mana. Make a n
 ___
 #### Savage Leap
 - **AP Cost:** 5/4
-- **Weapon:** Any
+- **Weapon:** Any Melee
 - **Range:** 2
 - **Level Required:** 1/9
 
@@ -4029,6 +4029,39 @@ ___
 You bring the full weight of your weapon down on a target. Make a normal weapon attack, adding a Proficient die to the roll. On hit they take weapon damage, adding 1 wound in phsyical damage. On crit you may reroll all wound dice, taking the new value.
 
 ***Enhanced:*** Add a Superior die to the attack roll and an extra wound die to the damage.
+
+___
+#### Flurry
+- **AP Cost:** 7/6
+- **Weapon:** One-Handed
+- **Range:** Melee
+- **Level Required:** 4/13
+
+You make two quick attacks against a single target. Make two weapon attacks, adding a Terrible die to each attack. On hit they take weapon damage.
+
+***Enhanced:*** use a Bad die instead of a Terrible die.
+
+___
+#### Leaping Slam
+- **AP Cost:** 7/7
+- **Weapon:** Two-Handed
+- **Range:** Melee
+- **Level Required:** 7/18
+
+You jump up to 2 tiles making a weapon attack against a single target, adding a Bad die to the attack. On hit, they take weapon damage and are knocked back 2 tiles if the target is Large or smaller. On crit the target is knocked prone.
+
+***Enhanced:*** You may hit up to 3 adjacent targets.
+
+___
+#### Pommel Strike
+- **AP Cost:** 6/5
+- **Weapon:** Any
+- **Range:** Melee
+- **Level Required:** 6/15
+
+You make an attack with the blunt part of your weapon. Make a weapon attack against a single target. On hit they take weapon damage, replacing all wounds dealt with wound dice and changing the damage type to bludgeoning. On crit the target is Weakened until the end of their next turn.
+
+***Enhanced:*** Add a superior die to the attack.
 
 ## Feats
 ### Backgrounds
@@ -4282,7 +4315,7 @@ If you enchant an item with the same property every day for 7 days the effect be
 When using your Apothecary set you can add an additional ingredient from any of the required ingredients. If you do you create two potions on success instead of one.
 
 #### Keen Reflexes
-*Requires level 12*
+*Requires 12th Level*
 
 You gain expertise in 2 saving throws.
 
