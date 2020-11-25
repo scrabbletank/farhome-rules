@@ -3648,7 +3648,7 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 ## Maneuvers
 
 
-#### Spells By Level
+#### Maneuvers By Level
 
 ##### Level 1
 - [Sweeping Strike](#Sweeping-Strike)
