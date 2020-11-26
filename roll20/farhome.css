@@ -191,6 +191,7 @@ input:checked + .sheet-slider:before {
 .charsheet input.sheet-skillsTool:checked ~ div.sheet-skillsec-tool,
 .charsheet input.sheet-skillsMan:checked ~ div.sheet-skillsec-man,
 .charsheet input.sheet-skillsFeat:checked ~ div.sheet-skillsec-feat,
+.charsheet input.sheet-skillsItem:checked ~ div.sheet-skillsec-item,
 .charsheet input.sheet-skillsCond:checked ~ div.sheet-skillsec-cond,
 .charsheet input.sheet-skillsPot:checked ~ div.sheet-skillsec-pot,
 .charsheet input.sheet-skillsCur:checked ~ div.sheet-skillsec-cur,

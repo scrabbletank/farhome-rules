@@ -424,6 +424,27 @@
                 <textarea class="featdesc" type="text" name="attr_featdesc">Enter Description Here...</textarea>
             </fieldset>
         </div>
+
+        <h3>Magic Items</h3>
+        <label class="sheet-switch">
+            <input class="sheet-skillsItem" type="checkbox" name="attr_itemvis" value="1">
+            <span class="sheet-slider"></span>
+        </label>
+        <br />
+        <input class="sheet-skillsItem sheet-hidden" type="checkbox" name="attr_itemvis" value="1">
+        <div class="sheet-skillsec-item">
+            <fieldset class="repeating_items">
+                <input style="width:220px;font-weight: bold;" class="feattext" type="text" name="attr_itemname"
+                    value="Enter Name.." />
+                <div class="horizontalline"></div>
+                <div style="float:right; padding-right:30px">
+                    <label class="short">Attuned:</label><input style="width:28px;padding:2px" type="checkbox" name="attr_itemattune"/>
+                    <label class="short">Charges:</label><input style="width:28px;padding:2px" type="number" name="attr_charges"/>
+                </div>
+                <br/>
+                <textarea class="featdesc" type="text" name="attr_itemdesc">Enter Description Here...</textarea>
+            </fieldset>
+        </div>
     </div>
     <div class="spells">
         <h3>Spellcasting</h3>
