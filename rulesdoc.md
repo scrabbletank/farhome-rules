@@ -410,6 +410,9 @@ Finally, choose 2 of the following bonuses.
 ##### Variant Rule - Rolling for Attributes
 Instead of using the rules above for attributes, your group may decide to roll your scores. For each attribute roll 1 Superior, 3 Normal, and 1 Terrible die, adding up the total successes. The minimum score for an attribute is -2, with any rolls below that counting as -2 for the roll.
 
+##### Variant Rule - Group Rolls
+Many people prefer the randomness given by rolling for attributes, but this can often lead to very powerful or weak characters across a group. A way to ensure every player is on the same level, each player takes turns rolling an attribute score. Once 6 scores have been rolled the players use those scores to create their characters. The players can place the scores in any attribute they want, but they must use the same 6 scores as every other player.
+
 ### Starting Equipment.
 Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire starter and 50ft of rope. In addition you start with 50 silver which you can spend on gear or upgrades. Any unspent silver becomes your characters starting money.
 
@@ -1300,9 +1303,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to counter the flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the cast spells spellcasting roll. On success the spell is countered and has no effect.
-
-Add a normal die for every level cast above 3rd.
+Attempt to counter a creatures flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the caster's spellcasting roll, adding a success to your roll for every point of mana spent above the target spell or adding a failure for every point of mana spent below the target spell. On success the target spell has no effect.
 
 ___
 #### Far Sight
@@ -1911,6 +1912,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 
 ##### Seventh
 - [Curse of Obedience](#Curse-of-Obedience)
+- [Gateway](#Gateway)
 - [Gravity Well](#Gravity-Well)
 
 ##### Eigth
@@ -1972,11 +1974,11 @@ Add a proficiency die for every level cast above cantrip.
 ___
 #### Trickery
 *Cantrip*
-- **Casting Time:** 4 (3) AP
+- **Casting Time:** 4 AP
 - **Range:** 3
 - **Duration:** 1 turn
 
-Target up to 5 creatures, magically impairing their vision. Make a spellcasting roll, adding 1 bad die for every creature targeted. On success, the next attack those creatures make add a bad die to their roll. This effect ends after their first attack or at the end of their turn. You may cast this as a reaction for 3 AP, adding a terrible die for each creature instead.
+Target up to 5 creatures, magically impairing their vision. Make a spellcasting roll, adding 1 bad die for every creature targeted. On success, the next attack those creatures make add a bad die to their roll. This effect ends after their first attack or at the end of their turn. You may cast this as a reaction, adding a terrible die for each creature instead.
 
 Add a proficient die for every level above cast cantrip.
 
@@ -2705,6 +2707,19 @@ ___
 Curse a creature you can see to obey your every command. Make a spellcasting roll against the targets Willpower, on success the creature must follow your commands to the best of their ability. You cannot command the target to hurt itself or take an action that would obviously bring harm to the target (eg: telling them to jump off a cliff), however they must obey commands if harm is possible but not assured (eg: telling them to defend you).
 
 You may target an additional person for every level above 7th.
+
+___
+#### Gateway
+*7th Level*
+- **Casting Time:** 1 minute
+- **Range:** 5
+- **Duration:** 10 minutes
+
+You tear open a gateway to Hell, the Abyss, or the realms of creation. Make a spellcasting roll, adding 2 Terrible dice if you have been to the realm before or 5 if you have intimate knowledge of it. Trying to open a gateway to a realm you have only heard in passing or have a vague knowledge of automatically fails. On success a gateway 4 tiles wide and 4 tiles tall opens at a point in range you can see. For the duration creatures on either side can freely pass through the gateway, appearing in an empty tile adjacent to the gateway.
+
+Opening a gateway in the same area multiple times can cause reality to tear creating a permanent gateway between realms. Tears can be repaired by casting this spell on an opened gateway against challenge dice determined by the DM.
+
+You add a superior die to your roll for every level above 7th. At 9th level the casting time becomes 1 turn instead of 1 minute.
 
 ___
 #### Gravity Well

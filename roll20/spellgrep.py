@@ -80,5 +80,5 @@ def parseFile(filePath, stat, prof):
 
 
 # parseFile("spells\\arcane.txt", 'int', 'arcane')
-# parseFile("spells\\curse.txt", 'wil', 'curse')
-parseFile("spells\\divine.txt", 'cha', 'divine')
+parseFile("spells\\curse.txt", 'wil', 'curse')
+# parseFile("spells\\divine.txt", 'cha', 'divine')

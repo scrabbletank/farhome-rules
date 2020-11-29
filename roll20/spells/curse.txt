@@ -50,11 +50,11 @@ Add a proficiency die for every level cast above cantrip.
 ___
 #### Trickery
 *Cantrip*
-- **Casting Time:** 4 (3) AP
+- **Casting Time:** 4 AP
 - **Range:** 3
 - **Duration:** 1 turn
 
-Target up to 5 creatures, magically impairing their vision. Make a spellcasting roll, adding 1 bad die for every creature targeted. On success, the next attack those creatures make add a bad die to their roll. This effect ends after their first attack or at the end of their turn. You may cast this as a reaction for 3 AP, adding a terrible die for each creature instead.
+Target up to 5 creatures, magically impairing their vision. Make a spellcasting roll, adding 1 bad die for every creature targeted. On success, the next attack those creatures make add a bad die to their roll. This effect ends after their first attack or at the end of their turn. You may cast this as a reaction, adding a terrible die for each creature instead.
 
 Add a proficient die for every level above cast cantrip.
 
@@ -783,6 +783,19 @@ ___
 Curse a creature you can see to obey your every command. Make a spellcasting roll against the targets Willpower, on success the creature must follow your commands to the best of their ability. You cannot command the target to hurt itself or take an action that would obviously bring harm to the target (eg: telling them to jump off a cliff), however they must obey commands if harm is possible but not assured (eg: telling them to defend you).
 
 You may target an additional person for every level above 7th.
+
+___
+#### Gateway
+*7th Level*
+- **Casting Time:** 1 minute
+- **Range:** 5
+- **Duration:** 10 minutes
+
+You tear open a gateway to Hell, the Abyss, or the realms of creation. Make a spellcasting roll, adding 2 Terrible dice if you have been to the realm before or 5 if you have intimate knowledge of it. Trying to open a gateway to a realm you have only heard in passing or have a vague knowledge of automatically fails. On success a gateway 4 tiles wide and 4 tiles tall opens at a point in range you can see. For the duration creatures on either side can freely pass through the gateway, appearing in an empty tile adjacent to the gateway.
+
+Opening a gateway in the same area multiple times can cause reality to tear creating a permanent gateway between realms. Tears can be repaired by casting this spell on an opened gateway against challenge dice determined by the DM.
+
+You add a superior die to your roll for every level above 7th. At 9th level the casting time becomes 1 turn instead of 1 minute.
 
 ___
 #### Gravity Well

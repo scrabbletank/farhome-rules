@@ -1,6 +1,47 @@
 ## Dungeon Master's Guide
 
-I'll move creature stat blocks, magic items, and general tips for DM's here as I write them.
+### Running the Game
+
+- level 1 players are pretty much adventurers who have just picked up a weapon
+- how I intend the rules to be run vs how you run the rules
+- magical world, not low magic, not high magic, somewhere inbetween
+- dangerous world, small bit on the world the rules were created for
+
+- what you need to play (town, dungeon, players)
+
+### The world of Farhome
+
+- what are warrens and realms?
+- quick start level 1 adventures.
+
+### Adventuring Day
+
+- what resources players have and how to spend them
+- resting vs other games?
+
+### Building Combat Encounters
+
+- CR vs Monster Level
+- how difficult should encounters be, example encounter for 1st level parties
+- action economy not as impactful as other games
+- wound management?
+- a prepared party vs an unprepared party
+- surprise rounds
+
+#### Monster Level (CR)
+
+
+| Difficulty | Experience | Monster Level |
+|:----:|:-------------:|:-------------:|
+| Easy  | 50-100 | 50-75% Party Level |
+| Average  | 100-200 | Party Level |
+| Hard | 200-500 | 125-200% Party Level |
+
+#### Action Economy
+
+#### Player Preparation
+
+#### Creating Bosses
 
 ### Magic Items
 
