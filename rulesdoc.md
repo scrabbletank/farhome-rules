@@ -4187,8 +4187,8 @@ You have learned the trade of an enchanter, allowing you to empower mundane item
 #### Disciple
 You have trained under masters, learning to perfect your mind and body. You gain expertise in 2 saving throws of your choice. In addition you gain 2 proficiency in a single martial weapon and +1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
 
-#### Disciple
-You have trained under masters, learning to perfect your mind and body. You gain expertise in 2 saving throws of your choice. In addition you gain 2 proficiency in a single martial weapon and +1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
+#### Druid
+You have studied the natural world and have gained an affinity with nature. You gain 1 proficiency in Nature and Animal Handling and have expertise in those skills. You have a Codex with two cantrips of your choice.
 
 ___
 ### Basic
