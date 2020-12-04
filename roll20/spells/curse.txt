@@ -612,7 +612,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to break the barrier between this plane and the void. Make a spellcasting roll against up to 3 Terrible dice. On success a random Outsider with a CR of 6 + 2 per Terrible dice heeds your call and is summoned to a point in range of your choosing. The exact creature summoned is determined by the DM, and multiple creatures may be summoned if their combined CR is less than the spells maximum. After summoning roll a wound die, on success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims. 
+Attempt to break the barrier between this plane and the void. Make a spellcasting roll against up to 3 Terrible dice. On success a random Outsider with a CR of 6 + 2 per Terrible dice heeds your call and is summoned to a point in range of your choosing. The exact creature summoned is determined by the GM, and multiple creatures may be summoned if their combined CR is less than the spells maximum. After summoning roll a wound die, on success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims. 
 
 For every successful casting of _Void Lure_ in this location the past day, add a Terrible die to the spellcasting roll. This die does not effect the CR of the summoned creature.
 
@@ -793,7 +793,7 @@ ___
 
 You tear open a gateway to Hell, the Abyss, or the realms of creation. Make a spellcasting roll, adding 2 Terrible dice if you have been to the realm before or 5 if you have intimate knowledge of it. Trying to open a gateway to a realm you have only heard in passing or have a vague knowledge of automatically fails. On success a gateway 4 tiles wide and 4 tiles tall opens at a point in range you can see. For the duration creatures on either side can freely pass through the gateway, appearing in an empty tile adjacent to the gateway.
 
-Opening a gateway in the same area multiple times can cause reality to tear creating a permanent gateway between realms. Tears can be repaired by casting this spell on an opened gateway against challenge dice determined by the DM.
+Opening a gateway in the same area multiple times can cause reality to tear creating a permanent gateway between realms. Tears can be repaired by casting this spell on an opened gateway against challenge dice determined by the GM.
 
 You add a superior die to your roll for every level above 7th. At 9th level the casting time becomes 1 turn instead of 1 minute.
 
@@ -854,6 +854,6 @@ ___
 
 Seal a creature, binding their body and spirit to a location and preventing them from influencing their surroundings. Make a spellcasting roll against the targets Willpower, adding 4 terrible dice if the creature has half or more of its wounds. On success the creature is incased in a material based on your surroundings and is considered incapacitiated. 
 
-While sealed, the creature cannot take damage, does not need to breathe or eat, and does not age. The creature cannot be communicated with through any means and any telepathic or magical link between this creature and others is severed. Should the material sealing the creature be damaged the DM decides what actions are allowed by the sealed creature. Destroying the material ends the effects of this spell and returns the creature to the point it was sealed.
+While sealed, the creature cannot take damage, does not need to breathe or eat, and does not age. The creature cannot be communicated with through any means and any telepathic or magical link between this creature and others is severed. Should the material sealing the creature be damaged the GM decides what actions are allowed by the sealed creature. Destroying the material ends the effects of this spell and returns the creature to the point it was sealed.
 
 You may choose to spend a minute casting this spell instead. If you do so the seal lasts for 10 years instead of 1. Casting this spell on a sealed creature refreshes the seal, repairing any damage and extends the duration to 1 year if less than a year remains.

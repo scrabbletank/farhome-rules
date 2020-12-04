@@ -89,19 +89,19 @@
 
 ## Introduction
 
-Farhome is a homebrew tabletop RPG system set in a fantasy world of magic, monsters, and adventures. You and a group of friends play in a shared storytelling experience, each creating a character to experience the world through. Your guide through this world is taken on by another player called the Dungeon Master (or Game Master). Together you might explore an ancient ruin, defend a village from monsters, or fight a dragon.
+Farhome is a homebrew tabletop RPG system set in a fantasy world of magic, monsters, and adventures. You and a group of friends play in a shared storytelling experience, each creating a character to experience the world through. Your guide through this world is taken on by another player called the Game Master (or Game Master). Together you might explore an ancient ruin, defend a village from monsters, or fight a dragon.
 
 ### How to Play
 
 Farhome is a game about roleplaying and that means, well, playing a role. And while that may sound vague, at it's core roleplaying is about deciding which actions your character wishes to take and how your character responds to actions taken by others. To some this might be done by speaking in character, some describe what their character does, and others will say which action they want to take. The important thing while playing a role is that these choices come from Baranor the barbarian and not Steve the accountant.
 
-Your guide through all of this is the Dungeon Master. They're in charge of everything in the world that isn't the players, from the forest or towns you explore, to the people you interact with, and to the dangerous monsters you fight. Their job is to present to you the world so that your characters can make decisions. The role of the DM boils down to presenting the world to the players, listening to what actions they players wish to take, and then presenting the outcome of those actions. 
+Your guide through all of this is the Game Master. They're in charge of everything in the world that isn't the players, from the forest or towns you explore, to the people you interact with, and to the dangerous monsters you fight. Their job is to present to you the world so that your characters can make decisions. The role of the GM boils down to presenting the world to the players, listening to what actions they players wish to take, and then presenting the outcome of those actions. 
 
 What actions you take and the world they are taken in are limited only by your imagination, although there is more structure here than just make-believe. This book contains a multitude of rules (more guidelines really) that give structure and consistency to your adventures. Still, there are cases where the outcome is uncertain, for example does your attack hit the monster, are you able to climb this cliff, or evade the town guards. In these cases you roll dice to determine wether you succeed or fail.
 
 ### Rolling Dice
 
-Farhome uses a set of 6-sided dice to determine outcomes. There are 9 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a number of dice determined by your characters skills or abilities and a number of challenge dice added by the DM depending on how difficult the task is. Rolling more successes than failures means your action succeeded, while a tie or worse means your action failed. Sometimes your roll may be in opposition to another characters roll, in which case success goes to whoever has the most successes.
+Farhome uses a set of 6-sided dice to determine outcomes. There are 9 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a number of dice determined by your characters skills or abilities and a number of challenge dice added by the GM depending on how difficult the task is. Rolling more successes than failures means your action succeeded, while a tie or worse means your action failed. Sometimes your roll may be in opposition to another characters roll, in which case success goes to whoever has the most successes.
 
 Some dice have special symbols on them for Criticalical Successes and Criticalical Failures. By default these are counted as 2 success or 2 failures, but in some cases may give different results. Defense dice work similarly to the other dice, having defense symbols instead of successes. Finally wound dice are used to determine damage, healing, or in some cases chance.
 
@@ -152,12 +152,12 @@ Attribute Saves use the same rules as rolling a skill that uses an Attribute, wi
 ##### Hero Dice
 Hero dice are special dice players can add to any roll. You gain a number of them at the start of your adventure and once spent are not replenished. You can add at most 1 Hero die to any roll, except wound rolls. You may choose to add a Hero dice even after you have rolled, as long as you haven't seen the opposing roll. Hero dice are immune to any effects that would change the outcome of the roll, it cannot be hexed, rerolled, or negated.
 
-Your DM may reward you with extra Hero dice, but Hero dice are usually only given at the start of each adventure.
+Your GM may reward you with extra Hero dice, but Hero dice are usually only given at the start of each adventure.
 
 ##### Skill Challenge
-Skill Challenges are rarely made in contest, instead the DM will ask you to add dice depending on how challenging a task you are trying to accomplish. Each skill has its own proficiency and uses one of your attributes to determine dice. For example, an athletics check will use your Strength score while an acrobatics check will use your Dexterity score. Both athletics and acrobatics have their own proficiencies as well.
+Skill Challenges are rarely made in contest, instead the GM will ask you to add dice depending on how challenging a task you are trying to accomplish. Each skill has its own proficiency and uses one of your attributes to determine dice. For example, an athletics check will use your Strength score while an acrobatics check will use your Dexterity score. Both athletics and acrobatics have their own proficiencies as well.
 
-The outcome in these rolls isn't always a strict pass or fail, depending on the DM they may give a bonus if you roll a critical success or something bad may happen if you roll a critical fail.
+The outcome in these rolls isn't always a strict pass or fail, depending on the GM they may give a bonus if you roll a critical success or something bad may happen if you roll a critical fail.
 
 ##### Helping in Skill Challenges
 In some cases you may want to help someone with an action, such as trying to push a boulder or search a room. When helping every participant rolls the same skill check contested by a single challenge roll. The highest roll among the participants is used, adding a success for every crit rolled by others.
@@ -530,7 +530,7 @@ There is no limit to the number of spells you can cast, as long as you have enou
 Maneuvers have a variety of triggers, but unless otherwise stated must be used on your turn. Each turn you can use a single maneuver, after which that maneuver can't be used the next turn. You can still use a different maneuver the next turn.
 
 ### The Gameboard
-Many DM's will represent their world with a gameboard, with every tile on the board representing a 5 ft square in the world. Usually only a single creature can occupy 1 tile at a time. Some creatures can occupy more or than one tile. All abilities, spells and feats in Farhome uses tiles to determine distance.
+Many GM's will represent their world with a gameboard, with every tile on the board representing a 5 ft square in the world. Usually only a single creature can occupy 1 tile at a time. Some creatures can occupy more or than one tile. All abilities, spells and feats in Farhome uses tiles to determine distance.
 
 ##### Creature Size
 | Size | Tile's Occupied |
@@ -1305,6 +1305,8 @@ ___
 
 Attempt to counter a creatures flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the caster's spellcasting roll, adding a success to your roll for every point of mana spent above the target spell or adding a failure for every point of mana spent below the target spell. On success the target spell has no effect.
 
+Multiple casters can attempt to counter the same spell. When multiple casters cast _Counter Spell_ you use the combined mana across all casts when determining your roll.
+
 ___
 #### Far Sight
 *3rd Level*
@@ -1632,7 +1634,7 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Bludgeoning
 
-You cause the ground to shake and tear, collapsing buildings and toppling trees in a 60x60 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save against your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage or partially break, depending on how the DM.
+You cause the ground to shake and tear, collapsing buildings and toppling trees in a 60x60 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save against your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage or partially break, depending on how the GM.
 
 The range and area of the spell increases by 10 for each level above 6th.
 
@@ -1880,7 +1882,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 - [Fearful Presence](#Fearful-Presence)
 - [Frog Morph](#Frog-Morph)
 - [Inflict Wound](#Inflict-Wound)
-- [Shape Change](#Shape-Change)
+- [Shapechange](#Shapechange)
 - [Shifting Image](#Shifting-Image)
 - [Shroud of Darkness](#Shroud-of-Darkness)
 
@@ -2536,7 +2538,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to break the barrier between this plane and the void. Make a spellcasting roll against up to 3 Terrible dice. On success a random Outsider with a CR of 6 + 2 per Terrible dice heeds your call and is summoned to a point in range of your choosing. The exact creature summoned is determined by the DM, and multiple creatures may be summoned if their combined CR is less than the spells maximum. After summoning roll a wound die, on success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims. 
+Attempt to break the barrier between this plane and the void. Make a spellcasting roll against up to 3 Terrible dice. On success a random Outsider with a CR of 6 + 2 per Terrible dice heeds your call and is summoned to a point in range of your choosing. The exact creature summoned is determined by the GM, and multiple creatures may be summoned if their combined CR is less than the spells maximum. After summoning roll a wound die, on success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims. 
 
 For every successful casting of _Void Lure_ in this location the past day, add a Terrible die to the spellcasting roll. This die does not effect the CR of the summoned creature.
 
@@ -2717,7 +2719,7 @@ ___
 
 You tear open a gateway to Hell, the Abyss, or the realms of creation. Make a spellcasting roll, adding 2 Terrible dice if you have been to the realm before or 5 if you have intimate knowledge of it. Trying to open a gateway to a realm you have only heard in passing or have a vague knowledge of automatically fails. On success a gateway 4 tiles wide and 4 tiles tall opens at a point in range you can see. For the duration creatures on either side can freely pass through the gateway, appearing in an empty tile adjacent to the gateway.
 
-Opening a gateway in the same area multiple times can cause reality to tear creating a permanent gateway between realms. Tears can be repaired by casting this spell on an opened gateway against challenge dice determined by the DM.
+Opening a gateway in the same area multiple times can cause reality to tear creating a permanent gateway between realms. Tears can be repaired by casting this spell on an opened gateway against challenge dice determined by the GM.
 
 You add a superior die to your roll for every level above 7th. At 9th level the casting time becomes 1 turn instead of 1 minute.
 
@@ -2778,7 +2780,7 @@ ___
 
 Seal a creature, binding their body and spirit to a location and preventing them from influencing their surroundings. Make a spellcasting roll against the targets Willpower, adding 4 terrible dice if the creature has half or more of its wounds. On success the creature is incased in a material based on your surroundings and is considered incapacitiated. 
 
-While sealed, the creature cannot take damage, does not need to breathe or eat, and does not age. The creature cannot be communicated with through any means and any telepathic or magical link between this creature and others is severed. Should the material sealing the creature be damaged the DM decides what actions are allowed by the sealed creature. Destroying the material ends the effects of this spell and returns the creature to the point it was sealed.
+While sealed, the creature cannot take damage, does not need to breathe or eat, and does not age. The creature cannot be communicated with through any means and any telepathic or magical link between this creature and others is severed. Should the material sealing the creature be damaged the GM decides what actions are allowed by the sealed creature. Destroying the material ends the effects of this spell and returns the creature to the point it was sealed.
 
 You may choose to spend a minute casting this spell instead. If you do so the seal lasts for 10 years instead of 1. Casting this spell on a sealed creature refreshes the seal, repairing any damage and extends the duration to 1 year if less than a year remains.
 
@@ -3418,7 +3420,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-You attempt to call forth a demon from the abyss at a point in range. Choose a target location in range, making a spellcasting roll against 2 terrible die. On success a group of demons (determined by the DM) whose combined CR is 8 or lower appear in the target location. The demons make a Willpower save against your Willpower, on fail the demons obey you for the next hour, after which they revert to their default behavior. Each casting of _Summon Demon_ in this location over the past day increases the difficulty by 1 terrible die.
+You attempt to call forth a demon from the abyss at a point in range. Choose a target location in range, making a spellcasting roll against 2 terrible die. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear in the target location. The demons make a Willpower save against your Willpower, on fail the demons obey you for the next hour, after which they revert to their default behavior. Each casting of _Summon Demon_ in this location over the past day increases the difficulty by 1 terrible die.
 
 The maxium CR increases by 2 for every level cast above 4th.
 
@@ -3446,9 +3448,9 @@ ___
 - **Range:** 3
 - **Duration:** 1 year
 
-You bind a spirit to a beast to serve as your familiar. The creature must be a CR of 15 or less and have an intelligence of 0 or less to be targeted. Make a spellcasting roll, adding a Terrible die for every 3 CR of the target creature. On success you call a spirit (either celestial or demonic, depending on the DM) and bind it to the creature. The creature gains powers based on the spirit that inhabits it, gaining the ability to speak and communicate telepathically with whoever they form a contract with.
+You bind a spirit to a beast to serve as your familiar. The creature must be a CR of 15 or less and have an intelligence of 0 or less to be targeted. Make a spellcasting roll, adding a Terrible die for every 3 CR of the target creature. On success you call a spirit (either celestial or demonic, depending on the GM) and bind it to the creature. The creature gains powers based on the spirit that inhabits it, gaining the ability to speak and communicate telepathically with whoever they form a contract with.
 
-Once bound, the familiar offers a contract to the caster in exchange for one year of service. The offer can include anything, such as a large sum of money, an attribute point for the duration of the contract, needing to feed on human flesh every 7 days, or tracking down and punishing a wicked creature. The offer will be determined by the DM, but regardless of the cost accepting the contract reduces your maximum wounds by 2 for the duration.
+Once bound, the familiar offers a contract to the caster in exchange for one year of service. The offer can include anything, such as a large sum of money, an attribute point for the duration of the contract, needing to feed on human flesh every 7 days, or tracking down and punishing a wicked creature. The offer will be determined by the GM, but regardless of the cost accepting the contract reduces your maximum wounds by 2 for the duration.
 
 You gain part of the Familiar's powers while it's adjacent to you. The powers granted are included in the contract and can be anything, such as giving you expertise in a spell school or saving throw, allowing you to turn invisible, read the minds of nearby creatures, or giving you a powerful maneuver.
 
@@ -3680,6 +3682,7 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 ##### Level 2
 - [Careful Advance](#Careful-Advance)
 - [Daze](#Daze)
+- [Guided Strike](#Guided-Strike)
 - [Wild Attack](#Wild-Attack)
 - [Raise Shield](#Raise-Shield)
 
@@ -3692,7 +3695,7 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 ##### Level 4
 - [Deflect](#Deflect)
 - [Cleave](#Cleave)
-- [Flurry](#Flurry)
+- [Flurry](#Flurry-1)
 - [Magic Arrow](#Magic-Arrow)
 
 ##### Level 5
@@ -3853,6 +3856,17 @@ ___
 Make a normal weapon attack against a target, adding a proficient die to the roll. On crit the target is dazed until the end of their next turn.
 
 ***Enhanced:*** Add a superior die instead of a proficient die. The target is dazed for 1 minute on crit.
+
+___
+#### Guided Strike
+- **AP Cost:** 5/4
+- **Weapon:** Any
+- **Range:** Melee
+- **Level Required:** 2/10
+
+Make a weapon attack against a creature, using any spellcasting roll instead of your attack roll. On hit the target takes normal damage, and ignores 1 level of Resistance on crit.
+
+***Enhanced:*** You may spend 1 mana to add a wound of Fire, Cold, Lightning, or Poison damage to the attack.
 
 ___
 #### Wild Attack
@@ -4173,6 +4187,9 @@ You have learned the trade of an enchanter, allowing you to empower mundane item
 #### Disciple
 You have trained under masters, learning to perfect your mind and body. You gain expertise in 2 saving throws of your choice. In addition you gain 2 proficiency in a single martial weapon and +1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
 
+#### Disciple
+You have trained under masters, learning to perfect your mind and body. You gain expertise in 2 saving throws of your choice. In addition you gain 2 proficiency in a single martial weapon and +1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
+
 ___
 ### Basic
 
@@ -4189,7 +4206,7 @@ When you make a roll, you may reroll up to your charisma worth of dice. This can
 When taking damage from any source you may reroll 1 wound die, taking the new value.
 
 #### Hunter
-Choose an enemy type: goblinoid, beast, humanoid, giant, dragon, fey, demon, undead, outsider, monstrosity. Attacks, maneuvers, spellcasting and skill checks against this creature type gain 1 superior die. You choose an additional type at 7th level and 18th level.
+Choose an enemy type: goblinoid, beast, humanoid, giant, dragon, fey, demon, undead, outsider, monstrosity. Attacks, maneuvers, spellcasting and skill checks against this creature type gain 1 superior die. When encountering a creature of the chosen type you immediately recognize it belongs to that type. You choose an additional type at 11th level.
 
 #### Armor Expert
 You reduce the penalties of wearing armor to 1 Bad die for medium armor and 1 Terrible die for Heavy armor. When making a defense roll you ignore the first crit rolled against you. The crit still counts as 2 successes but does not trigger critical hit effects.
@@ -4461,10 +4478,15 @@ When a creature attacks you, you may make a reaction attack against them. This a
 
 When casting _Barrier_, _Counter Spell_, or blocking spell damage with _Elemental Shell_ you regain 1 mana, or 2 mana if the spell is 6th level and above, regardless of the rolls outcome.
 
+#### Malady
+*Requires 3 proficiency in Curse, 9th Level*
+
+For Curse spells that target multiple creatures, such as _Trickery_ or _Charming Guise_, you may target 1 extra creature without adding Bad or Terrible dice to the roll.
+
 #### Living Hex
 *Requires 3 proficiency in Curse, 12th Level*
 
-When a creature dies while under the effects of Hex caused by your spells, the Hex moves to an adjacent target within 2 tiles of the creature. Make a spellcasting roll against their Willpower, on success the target creature gains Hex 1, or Hex 2 on crit.
+When a creature dies while under the effects of Hex caused by your spells, the Hex moves to a target within 2 tiles of the creature. Make a spellcasting roll against their Willpower, on success the target creature gains Hex 1, or Hex 2 on crit.
 
 #### Far Blessings
 *Requires 3 proficiency in Divine, 10th Level*
@@ -4505,6 +4527,27 @@ Once per turn, when making an 1 handed weapon attack against a creature you add 
 *Requires Agile, 10th Level*
 
 Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from the next attack.
+
+#### Forest Kin
+*Requires proficiency in Nature, 2 Strength*
+
+When targeted by a wild beast or plant creature they must make a Willpower save against your Strength. On fail they must find a new target or the attack fails. Once a beast succeeds they are immune to this effect.
+
+#### Burst of Speed
+*Requires proficiency in Athletics*
+
+With a running start you can easily jump up to your Strength score in tiles, or half that from a standstill. When taking the sprint action you can spend 1 more AP to add your Athletics proficiency to your sprint speed instead of your Dexterity.
+
+#### Forager
+*Requires proficiency in Survival*
+
+When searching for food you find twice the amount with a successful survival roll. When searching for ingredients, for example when searching for apothecary ingredients, you find one extra ingredient.
+
+#### Intimidating Presence
+*Requires proficiency in Intimidation*
+
+You may use your Intimidation roll instead of your Conversation roll in conversation checks. In combat you can spend 5 AP to attempt to intimidate a humanoid creature within 2 tiles of you. The target makes a Willpower save against your Intimidation, becoming afraid of you for 1 minute on fail.
+
 ___
 ### Advanced
 

@@ -1,4 +1,17 @@
-## Dungeon Master's Guide
+## Game Master's Guide
+
+
+
+### What You Need To Play
+
+As a Game Master you need at least these 3 things before you can run your game:
+
+- A Town
+- A Dungeon
+- Some Wilderness
+
+And that's it. Actually you don't even need that much, just the _name_ of a town will work, enough rooms of the dungeon finished to last a few hours, and one, maybe two encounters your players might see on the way to the dungeon.
+
 
 ### Running the Game
 
@@ -288,7 +301,7 @@ While wearing the circlet your spells are empowered. When making a spellcasting 
 #### Magthera's Bone Charm
 *Wondrous Item, Requires Attunement*
 
-While attuned to the Bone Charm you may reroll 1 wound dice when dealing Death damage from spells. You gain the _Raise Skeleton_ maneuver.
+While attuned to the Bone Charm you may reroll 1 wound dice when dealing Death damage from spells. You gain the _Raise Skeleton_ spell.
 
 ##### Raise Skeleton
 - **AP Cost:** 8
@@ -298,6 +311,18 @@ While attuned to the Bone Charm you may reroll 1 wound dice when dealing Death d
 You may target up to 3 corpses, making a spellcasting roll and adding a bad die for every corpse. On success a Skeleton raises from the corpse under your command for 24 hours. Alternatively you may cast this on up to 3 Skeleton creatures. If you do the Skeletons make a charisma save against your spellcasting, falling under your command for 24 hours on fail.
 
 After 24 hours you lose command over the skeletons and they behave like normal undead. You may only control up to 3 skeletons this way, attempting to control more will remove your command over your previous skeletons.
+
+#### Magthera's Staff
+*Magic Weapon +2, Requires Attunement*
+
+The staff of the great necromancer Magthera. When casting a spell you may reroll 2 dice in your spellcasting roll, taking the new values. Melee attacks with this staff add wound dice to the attack instead of superior dice based on it's modifier, dealing Death damage. The staff can be empowered with the wielders mana, giving the _Obliterate_ spell attack.
+
+##### Obliterate
+- **AP Cost:** 8
+- **Mana Cost:** 7
+- **Range:** Touch
+
+Necrotic energy pulses from the staff. All creatures in a 3x3 area in front of the caster makes a Stamina save against 5 superior dice, taking half damage on success. This attack deals full damage to plants. Wood in the area splinters and shatters, while stone cracks and crumbles, losing any ability to support a structure.
 
 #### Shardlight
 *Wondrous Item*
@@ -348,12 +373,79 @@ You channel the masks power to create a large orb of negative energy. You send t
 If this would reduce a creature to 0 wounds their body is consumed by the Orb, vaporizing and leaving no body behind. This maneuver can be used once, afterwhich you must long rest before using again.
 
 
+#### Chains of Binding
+*Wondrous Item*
+
+Magical chains made out of a mysterious golden metal, with a single broken chain link separated from the rest. When used on a Celestial, Fey, Undead, Elemental, Fiend or Outsider the creature must make a Willpower save against 5 superior dice. On success the creature is under the effects of the _Bind Creature_ spell until the chain is removed. While bound the creature is unable to use magic. Once per day the creature can attempt to break the chains making a Strength save against 8 superior dice, destroying the chains on success.
+
+Touching the broken chain link to the chain unlocks the bindings and ends the effects.
+
+#### Dragonbone Charm
+*Wondrous Item*
+
+A dragon skull has been carved from the bones of a dragon, fashioned into a small charm. Wearing this charm on your person protects you from fire and death. The charm absorbs 4 wounds worth of fire or death damage, after which it crumbles to dust.
+
+#### Essence Ring
+*Wondrous Item, Requires Attunement*
+
+This ring imbues an extreme vitality to the user. Once per day the wearer can activate the ring by spending 2 AP, gaining 3 wounds and increasing their max wounds by the same amount. The wounds last for 10 minutes, after which the wearer loses 3 wounds and their max wounds returns to normal.
+
+If this brings the wearer to 0 wounds or below they are consumed by the ring, leaving no body.
 
 #### Boneplate Armor
 *Magic Leather Armor +1, Requires Attunement*
 
 Leather armor with bones woven to reinforce it. Once per long rest, you may cast _Cloud of Teeth_ at 3rd level.
 
+#### Foxfire Arrows
+*Magic Ammunition +1*
+
+Magical arrows enchanted by mischievous fey. When fired the arrow transforms into foxfire, chasing down its target. The target makes a dexterity save vs your attack instead of a defense roll, dealing fire damage on hit. Targets gain no benefit from cover from these arrows.
+
+#### Myrmidon Bow
+*Magic Bow +1*
+
+A bow blessed by a water spirit and empowered by one of its scales. The bow is a +1 Magic weapon that gives the _Lightning Arrow_ and _Water Arrow_ maneuvers.
+
+##### Lightning Arrow
+- **AP Cost:** 6
+- **Damage:** Lightning
+- **Range:** 10
+
+Fires a bolt of lightning in the target direction. All creatures in a 10 tile line must make a dexterity save against 3 superior dice, taking 1 wound on fail plus 1 wound die on crit.
+
+##### Water Arrow
+- **AP Cost:** 6
+- **Range:** Bow Range
+
+Fires a bolt of compressed water that explodes on impact. All creatures adjacent to the tile of impact must make a strength save against 3 superior dice. being pushed away 1 tile, and being knocked prone on crit. The blast of water extinguishes magical and non-magical fires on all tiles hit.
+
+#### Ring of Free Action
+*Wondrous Item, Requires Attunement*
+
+Your max AP increases by 1 and any slow effect against you is reduced by 1.
+
+#### Shadow Pendant
+*Wondrous Item, Requires Attunement*
+
+An opal pendant, a thick black mist swirls across the opals surface. Once per day you may make a shadow clone of yourself. Spending 5 AP, The shadowy mist on your pendant takes form, creating a mirror image of you in a place within 5 tiles. The illusion can move, sharing your movement stats. It does not make noise and you cannot see or sense through the illusion. When casting a spell you may choose the illusion to be the casting point instead of yourself.
+
+The illusion is purely visual, lasts for 10 minutes, and is destroyed if it takes 1 wound in force damage.
+
+#### Spell Gem
+*Wondrous Item*
+
+A pristine red gemstone that fits in the palm of your hand. You may cast a spell of 4th level or lower into the gem, doing so increases the spells cast time by 10 minutes. Once a spell is stored you may spend 5 AP to cast the spell, ignoring the spells casting time. The spell uses 3 superior dice for its spellcasting roll regardless of the casting ability of the original caster. Only one spell can be stored at a time, casting a new spell into the gem replaces any spell stored.
+
+#### Greater Spell Gem
+*Wondrous Item*
+
+A pristine red gemstone that fits in the palm of your hand. You may cast a spell of 7th level or lower into the gem, doing so increases the spells cast time by 10 minutes. Once a spell is stored you may spend 5 AP to cast the spell, ignoring the spells casting time. The spell uses 5 superior dice for its spellcasting roll regardless of the casting ability of the original caster. Only one spell can be stored at a time, casting a new spell into the gem replaces any spell stored.
+
+#### Staff of Bascilius
+*Magic Staff, Requires Attunement*
+
+A staff made of blackened oak. While attuned to this staff the wielder gains +1 Intelligence. When preparing spells for the day you may choose two spells to be enhanced by the staff. For the rest of the day you have expertise when casting these spells.
 
 #### Emillion's Everyday Enchantments
 *Wondrous Item*
@@ -415,7 +507,7 @@ This dull blue dagger emits faint wisps of smoke visible even when sheathed. You
 - **Damage:** Death
 - **Range:** 5/10
 
-Make an attack roll against a target, turning you and the dagger into shadow. On hit you deal Death damage instead of piercing and you reform out of the shadows in a tile adjacent to the target. If the attack misses the DM determines where the dagger lands, with the wielder appearing in the closest unoccupied tile.
+Make an attack roll against a target, turning you and the dagger into shadow. On hit you deal Death damage instead of piercing and you reform out of the shadows in a tile adjacent to the target. If the attack misses the GM determines where the dagger lands, with the wielder appearing in the closest unoccupied tile.
 
 #### Mother Yama's Practical Potions
 *Wondrous Item*

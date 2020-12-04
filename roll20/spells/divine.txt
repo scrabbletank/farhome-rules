@@ -547,7 +547,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-You attempt to call forth a demon from the abyss at a point in range. Choose a target location in range, making a spellcasting roll against 2 terrible die. On success a group of demons (determined by the DM) whose combined CR is 8 or lower appear in the target location. The demons make a Willpower save against your Willpower, on fail the demons obey you for the next hour, after which they revert to their default behavior. Each casting of _Summon Demon_ in this location over the past day increases the difficulty by 1 terrible die.
+You attempt to call forth a demon from the abyss at a point in range. Choose a target location in range, making a spellcasting roll against 2 terrible die. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear in the target location. The demons make a Willpower save against your Willpower, on fail the demons obey you for the next hour, after which they revert to their default behavior. Each casting of _Summon Demon_ in this location over the past day increases the difficulty by 1 terrible die.
 
 The maxium CR increases by 2 for every level cast above 4th.
 
@@ -575,9 +575,9 @@ ___
 - **Range:** 3
 - **Duration:** 1 year
 
-You bind a spirit to a beast to serve as your familiar. The creature must be a CR of 15 or less and have an intelligence of 0 or less to be targeted. Make a spellcasting roll, adding a Terrible die for every 3 CR of the target creature. On success you call a spirit (either celestial or demonic, depending on the DM) and bind it to the creature. The creature gains powers based on the spirit that inhabits it, gaining the ability to speak and communicate telepathically with whoever they form a contract with.
+You bind a spirit to a beast to serve as your familiar. The creature must be a CR of 15 or less and have an intelligence of 0 or less to be targeted. Make a spellcasting roll, adding a Terrible die for every 3 CR of the target creature. On success you call a spirit (either celestial or demonic, depending on the GM) and bind it to the creature. The creature gains powers based on the spirit that inhabits it, gaining the ability to speak and communicate telepathically with whoever they form a contract with.
 
-Once bound, the familiar offers a contract to the caster in exchange for one year of service. The offer can include anything, such as a large sum of money, an attribute point for the duration of the contract, needing to feed on human flesh every 7 days, or tracking down and punishing a wicked creature. The offer will be determined by the DM, but regardless of the cost accepting the contract reduces your maximum wounds by 2 for the duration.
+Once bound, the familiar offers a contract to the caster in exchange for one year of service. The offer can include anything, such as a large sum of money, an attribute point for the duration of the contract, needing to feed on human flesh every 7 days, or tracking down and punishing a wicked creature. The offer will be determined by the GM, but regardless of the cost accepting the contract reduces your maximum wounds by 2 for the duration.
 
 You gain part of the Familiar's powers while it's adjacent to you. The powers granted are included in the contract and can be anything, such as giving you expertise in a spell school or saving throw, allowing you to turn invisible, read the minds of nearby creatures, or giving you a powerful maneuver.
 

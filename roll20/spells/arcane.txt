@@ -692,7 +692,7 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Bludgeoning
 
-You cause the ground to shake and tear, collapsing buildings and toppling trees in a 60x60 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save against your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage or partially break, depending on how the DM.
+You cause the ground to shake and tear, collapsing buildings and toppling trees in a 60x60 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save against your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage or partially break, depending on how the GM.
 
 The range and area of the spell increases by 10 for each level above 6th.
 
