@@ -349,6 +349,23 @@ Garments made from dridersilk and dyed with their blood, these clothes shrink an
 - You automatically succeed on saving throws against being caught in spider webs, such as from the _Mass Web_ spell.
 - When taking the defend action, any melee attackers must make a Dexterity save against 3 Superior dice. On fail they are wrapped in webbing from the garments and are grappled. While grappled they may spend 5 AP to free themselves from the webbing.
 
+#### Spear of Decay
+*Magic Spear +1*
+
+An otherwise ordinary spear, it's metal tip is covered in a black tarnish. When attacking, the target creature gains _Vulnerability_ 1 to Death damage on crit for the next minute.
+
+#### Carrion Feather Armor
+*Scalemail Armor, Requires Attunement*
+
+Scale armor adorned with feathers from a Carrion bird. When worn gives _Resistance 1_ to Death damage.
+
+#### Bone Chimes of Prophecy
+*Wondrous Item, Requires Attunement*
+
+Chimes made from the bones of Lizardfolk elders. When worn increases your Willpower by 1. The Chimes hold a max of 6 charges. Each morning roll a superior dice, regaining charges based on how many successes were rolled. You may spend a charge to cast Weal on up to 5 creatures, automatically succeeding on the spellcasting roll.
+
+The Chimes can be used to ask the spirits for guidance. Spending a charge and meditating for 1 minute you may ask the spirits a single yes or no question, or a question that results in a direction. For example, asking "which path leads to the tomb we seek?" is valid, but "which tomb do we seek?" is not. The spirits will give you a feeling of determination, apprehension, or a sense of direction as their answer. The spirits do not like to be disturbed, with each question asked within the last few days giving an increasing chance of the spirits answering incorrectly.
+
 #### Twili Mask of Power
 *Wondrous Item, Requires Attunement*
 
