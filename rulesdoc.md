@@ -4256,7 +4256,7 @@ ___
 Reduces the cost of basic attacks by 1 AP.
 
 #### Brutal Strikes
-*Requires 3 Strength, 5th Level*
+*Requires 3 Strength, 3th Level*
 
 When you crit with an attack, add an extra wound die.
 
@@ -4270,18 +4270,10 @@ While in combat you may spend 3 AP on your turn to roll a free Healing Surge. Th
 
 If you move at least 2 tiles before making an attack or maneuver, add an extra wound die for the damage.
 
-#### Charmer
-*Requires 2 Conversation proficiency*
-When rolling a Conversation challenge against a non-hostile creature you add a superior die to the roll. On a crit the creature treats you as a friend for the next day.
-
-#### Keeper of Lore
-*Requires proficiency with Lore*
-You add 2 superior dice when rolling a Lore challenge to identify a magic item. On crit you know if an item is cursed or not.
-
 #### Linguist
 *Requires 2 Intelligence*
 
-You learn a new language of your choosing. When making a translation check add 2 superior die to the roll.
+You learn a new language of your choosing. You are able to translate writings written in a language used by the common races, making an Intelligence check and using your Intelligence save for the roll. On success it takes you 10 minutes to translate a sentence, or 1 minute with a reference.
 
 #### Quickened Spellcasting
 *Requires proficiency with a spell type*
@@ -4324,7 +4316,7 @@ At any time you may use Action Surge to regain 7 AP, and you may use a second ma
 Choose a maneuver you know with a Level requirement of 7 or lower. This maneuver can be used once every turn, and you add 1 superior die to the roll.
 
 #### Overwatch
-*Requires proficiency in Perception, 12th Level*
+*Requires proficiency in Perception, 8th Level*
 
 Once per turn, when a creature takes a movement action towards you, you can spend 2 AP to make a ranged weapon attack as a reaction as long as the creature is in range.
 
@@ -4421,6 +4413,14 @@ Your ability to sneak allows you to hide even in combat. When partially obscured
 
 You are able to impersonate voices you have heard before, reducing the skill challenge for these rolls. When making conversation or diplomacy checks you can use your performance instead.
 
+#### Charmer
+*Requires proficiency in Conversation*
+When rolling a Conversation challenge against a non-hostile creature you add a superior die to the roll. On a crit the creature treats you as a friend for the next day.
+
+#### Keeper of Lore
+*Requires proficiency with Lore*
+You add 2 superior dice when rolling a Lore challenge to identify a magic item, and on crit you know if the item is cursed or not. When taking this feat you may choose a race, nation, or area of the world to gain an expert understanding of that land, culture and history. You make make a Lore check to recall information in that topic.
+
 #### Beast Whisperer
 *Requires proficiency in Animal Handling*
 
@@ -4433,23 +4433,58 @@ You can make an animal handling roll against a beast that hasn't been hostile to
 
 In addition to the spells you normally prepare, you may prepare Divine spells equal to your Charisma score.
 
+#### Forest Kin
+*Requires proficiency in Nature, 2 Strength*
+
+When targeted by a wild beast or plant creature they must make a Willpower save against your Strength. On fail they must find a new target or the attack fails. Once a beast succeeds they are immune to this effect.
+
+#### Burst of Speed
+*Requires proficiency in Athletics*
+
+With a running start you can easily jump up to your Strength score in tiles, or half that from a standstill. When taking the sprint action you can spend 1 more AP to add your Athletics proficiency to your sprint speed instead of your Dexterity.
+
+#### Forager
+*Requires proficiency in Survival*
+
+When searching for food you find twice the amount with a successful survival roll. When searching for ingredients, for example when searching for apothecary ingredients, you find one extra ingredient.
+
+#### Intimidating Presence
+*Requires proficiency in Intimidation*
+
+You may use your Intimidation roll instead of your Conversation roll in conversation checks. In combat you can spend 5 AP to attempt to intimidate a humanoid creature within 2 tiles of you. The target makes a Willpower save against your Intimidation, becoming afraid of you for 1 minute on fail.
+
+#### Constitution
+*Requires proficiency in Exhaustion*
+
+You are used to pushing your body to its limits. When traveling or staying awake you automatically pass your first exhaustion roll, allowing you to travel an extra 2 hours a day or stay up another 24 hours without negative effects. As long as you have no levels of exhaustion or Lesser or Greater wounds, your first healing surge used during a rest heals for its maximum value.
+
+#### Nimble
+*Requires proficiency in Acrobatics*
+
+You may use your Acrobatics roll in place of Athletics checks, and standing up takes 1 tile of movement instead of half your movement. You can climb near vertical walls and cliffs with ease, even without climbing gear.
+
+#### Magic Sight
+*Requires proficiency in Arcana*
+
+You can see the faint traces of magic around you. When making a Perception check you may use your Arcana roll to detect any magic objects or traps within 6 tiles of you.
+
 #### Exertion
 *Requires 10th Level*
 
 As long as you have at least 1 AP remaining you can take an an action costing 5 AP or less. After taking the action make an exhaustion roll adding 1 bad die for every AP you overspent, gaining 1 level of exhaustion on fail.
 
 #### Siphon Energy
-*Requires proficiency with Curse spells, 3 Willpower, 15th Level*
+*Requires proficiency with Curse spells, 3 Willpower, 12th Level*
 
 You are able to siphon the fading life off enemies to create a temporary shield. When you kill a cursed enemy or kill an enemy using Death damage you gain 1 temporary wound lasting 24 hours. You may gain up to half your max wounds in temporary wounds this way.
 
 #### Perfect Defense
-*Requires 4 Strength, 15th Level*
+*Requires 4 Strength, 12th Level*
 
 You have perfected your defenses, allowing you to withstand almost any attack. While holding a shield or wearing heavy armor you may spend 1 AP to gain Resistance 1 against physical damage.
 
 #### Divine Healing
-*Requires proficiency with Divine spells, 3 Charisma, 15th Level*
+*Requires proficiency with Divine spells, 3 Charisma, 12th Level*
 
 Your are able to mend even the most fatal of wounds. When casting a healing spell you add 1 wound die to the heal. Casting a healing spell on an unconscious ally always restores the maximum wounds possible.
 
@@ -4503,18 +4538,18 @@ Fire spells you cast that target an area, such as _Beam of Fire_ and _Fireball_ 
 
 When casting a Lightning spell you may spend 1 additional mana to add one crit to your spellcasting roll. This crit adds no successes, but does trigger on crit effects.
 
+#### Unrelenting Force
+*Requires 3 proficiency in Arcane, 9th Level*
+
+When landing a hit with a spell that deals Force damage you may shove the target, moving them 1 tile to the side or away from you. This movement does not trigger opportunity attacks. When rolling a crit with these spells you may reroll a single wound die in the damage roll.
+
 #### Banishment
 *Requires 3 proficiency in Divine, 12th Level*
 
 The spells _Turn Undead_ and _Destroy Monstrosity_ can target Undead, Monstrosities, Demons, and Outsiders. When casting _Bind Creature_, if the creature is not native to this plane they add 1 Terrible die to all attacks and spells made while bound.
 
-#### Unrelenting Force
-*Requires 3 proficiency in Arcane, 15th Level*
-
-When landing a hit with a spell that deals Force damage you may shove the target, moving them 1 tile to the side or away from you. This movement does not trigger opportunity attacks. When rolling a crit with these spells you may reroll a single wound die in the damage roll.
-
 #### Reliable
-*Requires proficiency, 15th Level*
+*Requires proficiency, 12th Level*
 
 Choose an attribute, your natural talent has made you reliable in all skill challenges related to that attribute. When rolling a skill challenge using that attribute your minimum successes are equal to your proficiency in that skill. This only takes into account positive dice, challenge dice and negative dice added by effects, such as poison, still reduce that number as normal.
 
@@ -4527,26 +4562,6 @@ Once per turn, when making an 1 handed weapon attack against a creature you add 
 *Requires Agile, 10th Level*
 
 Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from the next attack.
-
-#### Forest Kin
-*Requires proficiency in Nature, 2 Strength*
-
-When targeted by a wild beast or plant creature they must make a Willpower save against your Strength. On fail they must find a new target or the attack fails. Once a beast succeeds they are immune to this effect.
-
-#### Burst of Speed
-*Requires proficiency in Athletics*
-
-With a running start you can easily jump up to your Strength score in tiles, or half that from a standstill. When taking the sprint action you can spend 1 more AP to add your Athletics proficiency to your sprint speed instead of your Dexterity.
-
-#### Forager
-*Requires proficiency in Survival*
-
-When searching for food you find twice the amount with a successful survival roll. When searching for ingredients, for example when searching for apothecary ingredients, you find one extra ingredient.
-
-#### Intimidating Presence
-*Requires proficiency in Intimidation*
-
-You may use your Intimidation roll instead of your Conversation roll in conversation checks. In combat you can spend 5 AP to attempt to intimidate a humanoid creature within 2 tiles of you. The target makes a Willpower save against your Intimidation, becoming afraid of you for 1 minute on fail.
 
 ___
 ### Advanced

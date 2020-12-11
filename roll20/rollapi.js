@@ -38,6 +38,8 @@ var FarhomeDice = FarhomeDice || (function () {
 
     var templateBtn = "background-color: transparent; padding: 0px; display: inline-block; color: black; border: 0.5px solid";
 
+    var exhaustMod = [-1, -1, -2, -2, -3];
+
     var spellInfo = {
         "cold-snap": { stat: "int", prof: "arcane", level: 0, ap: "5 AP", range: "1", duration: "instant", dmgType: "Cold", dmg: [1, 0], lroll: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], txt: ['Sap the heat from a target. Make a spellcasting roll against the targets Stamina. On hit the target takes a wound, and for every crit rolled the target gains a level of Slow until the end of their next turn.', 'Add a proficiency die for every level above cantrip.'] },
         "firebolt": { stat: "int", prof: "arcane", level: 0, ap: "6 AP", range: "8", duration: "instant", dmgType: "Fire", dmg: [1, 0], lroll: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], txt: ['Blast a creature you can see with a bolt of fire. Make a spellcasting roll against the targets defense. On hit the target takes a wound, adding a wound die on crit.', 'Add a wound die for every level above cantrip.'] },
@@ -449,6 +451,8 @@ var FarhomeDice = FarhomeDice || (function () {
             return attr;
         },
         getAttrDice = function (attribute, proficiency, allowNegatives = true) {
+            var exhaustion = parseInt(getAttr("exhaustionstack", 0).get("current"));
+            proficiency += exhaustMod[exhaustion];
             var attributeUnder5 = Math.min(5, attribute);
             var attributeOver5 = Math.max(0, attribute - 5);
             var proficiencyOver5 = Math.max(0, proficiency - 5);
