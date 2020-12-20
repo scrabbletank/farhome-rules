@@ -596,10 +596,20 @@ A circlet worn around your wrist, adorned in arcane runes. When making a spellca
 #### Spriggan Tunic
 *Magic Padded Armor*
 
-A tunic woven from the hair of a spriggan. While outside you have expertise in stealth as long as you aren't moving. While in a forest you gain the _Treewalk_ Maneuver
+A tunic woven from the hair of a spriggan. While outside you have expertise in stealth as long as you aren't moving. While in a forest you gain the _Treewalk_ Maneuver.
 
 ##### Treewalk
 - **AP Cost:** 5
 - **Range:** 7
 
 When standing next to a tree you may magically enter the tree. While inside the tree you are untargetable by effects that do not target the ethereal plane. At the start of your next turn you appear beside a tree within range.
+
+#### Emblem of Leona
+*Wondrous Item*
+
+Once per day you may cast Wall of Faith, automatically succeeding the roll. When holding this emblem you may reroll 1 die when making Religion checks.
+
+#### Sky Stone
+*Woundrous Item, Requires Attunement*
+
+A large blue orb with storm clouds swirling inside. While attuned to this item all Lightning spells you cast start with 1 crit (but no successes) and you may reroll 1 die for those rolls. Regardless of the weather, while you hold the orb it is always considered stormy weather for the purposes of spellcasting.
