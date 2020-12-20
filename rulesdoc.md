@@ -3150,11 +3150,11 @@ Add a proficiency die for every level above 2nd.
 ___
 #### Wall of Faith
 *2nd Level*
-- **Casting Time:** 6 (3) AP
+- **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** 1 turn
 
-Channel your faith to form a protective wall centered on a point in range you can see. Make a spellcasting roll against 2 bad die, on success you create a shimmering wall 4 tiles wide and 4 tiles tall. The wall is seethrough and blocks creatures and projectiles from passing through it. This spell can be cast as a reaction for 3 AP, using 2 terrible dice instead.
+Channel your faith to form a protective wall centered on a point in range you can see. Make a spellcasting roll against 2 bad die, on success you create a shimmering wall 4 tiles wide and 4 tiles tall. The wall is seethrough and blocks creatures and projectiles from passing through it. Using 2 terrible dice instead.
 
 Add a proficiency die for every level cast above 2nd.
 
@@ -4098,7 +4098,7 @@ ___
 - **Range:** Melee
 - **Level Required:** 9/15
 
-Hit the target with a series of quick strikes. Make an unarmed attack against a target, adding a superior die. On hit, roll 5 wound dice. Add your wounds and crit successes, if it is 5 or more the target is stunned until the end of their next turn.
+Hit the target with a series of quick strikes. Make an unarmed attack against a target, adding a superior die. On hit, roll 5 wound dice. If the target is humanoid, add your wounds and crit successes, if it is 5 or more the target is stunned until the end of their next turn.
 
 ***Enhanced:*** You can target a creature up to 2 tiles away, moving yourself to an unoccupied adjacent tile for the attack.
 
@@ -4673,7 +4673,7 @@ You cannot be charmed or possessed and have Resistance 1 against Death damage.
 Your max attribute score is 6 instead of 5. You gain 1 attribute when taking this feat.
 
 #### Warrior
-*Requires 5 Willpower, 20th Level*
+*Requires 8 combined weapon proficiencies, 20th Level*
 
 Gain expertise in 2 weapon proficiencies.
 
