@@ -4635,7 +4635,7 @@ When rolling wounds from an attack or maneuver that uses your strength you may i
 #### Turnabout
 *Requires 5 Dexterity, 20th Level*
 
-When the target of an attack, if the attack misses you may make an opportunity attack against the target.
+When the target of an attack, if the attack misses you may make a free opportunity attack against the target.
 
 #### Juggernaut
 *Requires 5 Stamina, 20th Level*
@@ -4676,6 +4676,28 @@ Your max attribute score is 6 instead of 5. You gain 1 attribute when taking thi
 *Requires 8 combined weapon proficiencies, 20th Level*
 
 Gain expertise in 2 weapon proficiencies.
+
+#### Marksman
+*Requires 5 Ranged proficiency, 20th Level*
+
+You do not add bad dice with ranged attacks when targeting a creature outside of your close range. When making a ranged attack or maneuver you can ignore all bad and terrible dice added to the roll. You may do this up to your Ranged proficiency, after which you must take a long rest to regain this feat.
+
+___
+### Fae Court
+Only those blessed by the fae can take these feats
+
+#### Alluring Presence
+*Requires proficiency in Conversation*
+
+Using your fae allure you can attempt to charm a humanoid creature. They make a Willpower save against your Conversation, on fail they are charmed by you until you release them. They become infatuated with you to the point they will follow every command as long as it does not bring harm to them. You may have up to your Charisma score in creatures under your charm at any time. If the charmed creature takes damage they make their saving throw again, ending the effect on success.
+
+#### Foxfire
+
+Spending 2 mana you may enchant your next single target attack or maneuver with foxfire. The defending creature makes a Dexterity save against the attack instead of their normal roll and the attack deals an extra 2 wound dice of fire damage on hit. You may instead Enchant arrows with the Foxfire effect. When you or another makes an Enchanting roll to create Homing Arrows you may spend 2 mana to create Foxfire arrows instead.
+
+#### Enchantment
+
+As long as you are not wearing or carrying iron, any attack, maneuver, or spell attack against you adds 1 bad die to the roll.
 
 
 ## Items
