@@ -613,3 +613,52 @@ Once per day you may cast Wall of Faith, automatically succeeding the roll. When
 *Woundrous Item, Requires Attunement*
 
 A large blue orb with storm clouds swirling inside. While attuned to this item all Lightning spells you cast start with 1 crit (but no successes) and you may reroll 1 die for those rolls. Regardless of the weather, while you hold the orb it is always considered stormy weather for the purposes of spellcasting.
+
+
+## Swords of Tyr
+
+### Archeon, The Radiant Dawn
+
+#### Archeon +1
+*Magic Sword +1*
+
+This sword has 3 charges, regaining a charge every day as long as it is exposed to the light of dawn. You may use a charge to take the _Justice_ maneuver.
+
+**Justice**
+AP: 5
+
+Make a weapon attack against a target. On hit the attack deals normal weapon damage, adding 2 wounds in Holy damage. On crit the target is blind until the end of their next turn.
+
+#### Archeon +2
+*Magic Sword +2, Requires Attunement*
+
+The sword has 6 charges, regaining 2 charges every day as long as it is exposed to the light of dawn. When activating the sword, either by spending a charge or taking the Justice maneuver, you gain the effects of the spell _Radiance_ for 10 minutes.
+
+You may spend all charges to awaken Archeon, becoming a +3 weapon for a minute per charge spent. While awakwened Archeon does an extra wound of Holy damage with each attack, or 3 wounds to chaotic demons, outsiders and monstrosities. In addition you may use the _Law_ maneuver.
+
+**Law**
+AP: 6
+Range: 10
+
+A target creature in range makes a Charisma save against 5 superior dice. On fail, if they are not lawfully aligned they are unable to roll criticals for the next 24 hours, with any critical rolled counting as 2 successes instead. If the creature is chaotic they are Blind, Dazed, and gain Slow 3 until the start of your next turn. These conditions bypass any resistances.
+
+### Astraea, The Falling Star
+
+#### Astraea +1
+*Magic Sword +1*
+
+Can cast starfall at 4th level, using 4 superior die for the roll.
+
+#### Astraea +2
+*Magic Sword +2*
+
+Can cast starfall at 4th level, using 4 superior die for the roll.
+
+The sword has 6 charges, regaining all charges when bathed in the light of a full moon. When activating the sword, either by spending a charge or taking the _Starcall_ Maneuver, you gain the effects of _Enhance Ability_ for 10 minutes. You may use a charge to take the _Starcall_ Maneuver.
+
+**Starcall**
+
+-AP: 5
+-Range: 5
+
+Targeting up to 3 creatures in range, they make a Strength save against 4 Superior dice. On hit they take 1 wound in force damage, adding a wound die on crit.
