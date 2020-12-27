@@ -78,7 +78,7 @@
 [Items](#Items)
 - [Consumables](#Consumables)
 - [Mundane Gear](#Mundane-Gear)
-- [Wounds](#Wounds)
+- [Wounds](#Wounds-1)
 - [Tools](#Tools)
   - [Lockpicks](#Lockpicks)
   - [Repair Kit](#Repair-Kit)
