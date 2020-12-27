@@ -181,7 +181,7 @@ Dice rolled in contest of your own roll, such as another creatures defend or sav
 
 Wounds are used to determine how hard a character is to kill, the more wounds you have the more durable your character. Wounds are lost when you are hit by attacks, spells, or traps and are restored by taking rests or through certain spells.
 
-Some abilities or effects inflict Lesser or Greater wounds. These do not deal damage, but do leave lasting effects. Lesser wounds can be cured through magic, or heal naturally over a long rest. Greater wounds can be difficult to cure by magic and do not heal naturally.
+Some abilities or effects inflict Lesser or Greater wounds. These do not deal damage, but do leave lasting effects. Lesser wounds can be cured through magic, or after each long rest you choose a single Lesser Wound to remove. Greater wounds can be difficult to cure by magic. Each week you have a Greater Wound you make a Stamina save against 3 Terrible dice, removing a single Greater wound on success. Some Greater wounds, such as losing an arm, cannot be healed naturally.
 
 ### Death Saves
 
@@ -4795,36 +4795,32 @@ ___
 ### Wounds
 
 #### Lesser Wounds
-Roll 3 terrible dice, adding the successes. For each critical, move up one level.
+Roll 4 bad dice, adding the successes.
   
 | | Roll | Wound | Effect |
 |:----:|:----:|:----:|:----|
-| | -9 | Bleeding | All blank wound die rolled against you are rerolled. |
-| | -8 | Festering Wound | Your max wounds is reduced by 1. |
+| | -8 | Bleeding | All blank wound die rolled against you are rerolled. |
 | | -7 | Winded | You have 1 less maximum AP. |
-| | -6 | Sprained Wrist | Add a terrible die to all attack rolls made with your main-hand weapon. |
-| | -5 | Minor Concussion | Add 1 bad die to spellcasting rolls, you must pass a concentration check every turn while concentrating. |
-| | -4 | Bruised Leg | Your speed and sprint speed are reduced by 2, to a minimum of 1. |
-| | -3 | Bruised Shoulder | Shields do not add defense dice and offhand attacks add 1 bad die to the attack roll. |
-| | -2 | Face Wound | Add 2 bad dice to all Willpower and Charisma skill challenges. |
-| | -1 | Exhaustion | You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound. |
-| | 0 | Numb | You have 1 less proficiency for all modifiers. |
+| | -6 | Festering Wound | Your max wounds is reduced by 1. |
+| | -5 | Sprained Wrist | Add a bad die to attacks and maneuvers |
+| | -4 | Minor Concussion | Add 1 bad die to spellcasting rolls, you must pass a concentration check every turn while concentrating. |
+| | -3 | Bruised Leg | Your move and sprint speeds are reduced by 1 and you add a terrible die to Dexterity saves. |
+| | -2 | Head Wound | Add 2 bad dice to all Willpower, Intelligence and Charisma saves and skills. |
+| | -1/0 | Exhaustion | You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound. |
 
 #### Greater Wounds
-Roll 3 terrible dice, adding the successes. For each critical, move up one level.
+Roll 4 bad dice, adding the successes.
   
 | | Roll | Wound | Effect |
 |:----:|:----:|:----:|:----|
-| | -9 | Deadly Infection | Your max wounds are reduced by 1. At the end of each Long rest your max wounds are reduced again. |
-| | -8 | Broken Arm | You can only hold a One-Handed weapon or shield, not both. |
-| | -7 | Punctured Chest | All wound dice count as a wound, regardless of result. |
-| | -6 | Magic Tearing | Add bad dice to your spellcasting rolls equal to the spells level. Spells Misfire if you fail your roll, regardless of ability. |
-| | -5 | Torn Muscle | You are permanently Weakened. |
-| | -4 | Collapsed Lung | Your stamina is reduced by 1, all conditions that last until the end of your turn last an extra turn. |
-| | -3 | Broken Leg | You cannot sprint, and your move speed is reduced by 2. |
-| | -2 | Sliced Eye | You have -3 proficiency to all Willpower skills. Ranged attacks or spells you make add 1 terrible die. |
-| | -1 | Concussed | Your Intelligence is reduced by 1, if you finish your turn with 0 AP remaining you are Dazed until the end of your next turn. |
-| | 0 | Torn Ligament | You add 2 bad dice to all dexterity saves. |
+| | -8 | Deadly Infection | Your max wounds are reduced by 1. At the end of each Long rest your max wounds are reduced by 1 again. |
+| | -7 | Broken Arm | You can only hold a One-Handed weapon or shield, not both. |
+| | -6 | Internal Bruising | Opposing rolls add 1 crit. |
+| | -5 | Collapsed Lung | Your stamina is reduced by 1 and you automatically fail Exhaustion rolls. |
+| | -4 | Broken Leg | You cannot sprint, and your move speed is reduced by 1. |
+| | -3 | Sliced Eye | You have -3 proficiency to all Willpower skills. Ranged attacks or spells you make add 1 terrible die to the roll. |
+| | -2 | Concussed | Your Intelligence is reduced by 1 and you are unable to concentrate on spells. |
+| | -1/0 | Torn Ligament | You add 1 Terrible dice to all dexterity saves. |
 
 ___
 ### Tools
