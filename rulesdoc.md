@@ -1456,7 +1456,7 @@ ___
 - **Duration:** 10 minutes
 - **Damage Type:** Cold
 
-You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your normal weapon attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The Lance is a Two-handed weapon with Reach, and deals 1 wound and 1 wound die in cold damage. Instead you may throw the lance at a target creature within 10 tiles. Make a spellcasting roll against the creatures Defense, dealing 1 wound and 2 wound dice on hit and giving a level of Slow for every crit rolled. All adjacent creatures take 1 wound, and Slow 1 if you crit. The spell ends after 10 minutes or all spears have been thrown.
+You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your normal weapon attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The Lance is a Two-handed weapon with Reach, and deals 1 wound and 2 wound dice in cold damage. You may throw the lance at a target creature within 10 tiles causing it to explode and hit all adjacent creatures. Make a spellcasting roll against the creatures Defense, dealing 1 wound and 2 wound dice on hit and giving a level of Slow for every crit rolled.
 
 You can make one attack, melee or thrown, when casting this spell.
 
@@ -1481,7 +1481,7 @@ ___
 - **Range:** Touch
 - **Duration:** 24 hours
 
-For the duration of the spell a creature is undetectable by most forms of magic. Any spell of 4th level or below that grants sight does not see this creature, and locate spells of a similar level fail to find them. When using spells of 5th level or higher, such as _Scrying_, roll 4 superior die against the spellcasting roll, staying undetectable on success.
+For the duration of the spell a creature is undetectable by most forms of magic. Any spell of 4th level or below that grants sight does not see this creature, and locate spells of a similar level fail to find them. When using spells of 5th level or higher, such as _Scrying_, roll your spellcasting roll against the _Scrying_ spellcasting roll, staying undetectable on success.
 
 You may target an additional creature for every level above 4th.
 
@@ -1595,7 +1595,9 @@ ___
 - **Duration:** instant
 - **Damage Type:** Fire
 
-A great wall of fire, 10 tiles wide and 3 tiles high, errupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll against your spellcasting. On hit they take 1 wound and 3 wound die in damage, and are ignited for 1 minute on a crit. On success they take half damage, rounded down. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
+A great wall of fire, 10 tiles wide and 3 tiles high, errupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll against your spellcasting. On hit they take 1 wound and 3 wound dice in damage, and are ignited for 1 minute on a crit. On success they take half damage, rounded down. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
+
+Ignited creatures take 1 wound of fire damage at the start of their turn. They may spend 5 AP extinguishing the fire, leaving them prone.
 
 Add a wound die for every level above 5th.
 
@@ -2959,8 +2961,9 @@ ___
 - **Casting Time:** 5 AP
 - **Range:** 5 (10)
 - **Duration:** instant
+- **Damage Type:** Bludgeoning
 
-Magically influence a plant to attack or grapple a nearby creature you can see. Choose a location in range to grow a plant, or take control of a small or larger plant within 10 tiles. The plant grows a bramble whip it can use to attack creatures in melee range. You may use the plant to make an attack or grapple roll, using your spellcasting roll for the attack. On hit they take 1 wound die in damage, or 1 wound on crit.
+Magically influence a plant to attack or grapple a nearby creature you can see. Choose a location in range to grow a plant, or take control of a small or larger plant within 10 tiles. The plant grows a bramble whip it can use to attack creatures in melee range. You may use the plant to make an attack or grapple roll, using your spellcasting roll for the attack. On hit they take 2 wound dice in damage.
 
 The plant lasts for 1 minute after which it returns to its original shape.
 
@@ -3001,6 +3004,7 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 7
 - **Duration:** 5 minutes
+- **Damage Type:** Piercing
 
 A 3x3 growth of razor sharp bramble appears centered on a point in range you can see. The bramble counts as difficult terrain and is flammable, each tile burning away after taking 1 wound of fire damage.
 
@@ -3082,6 +3086,7 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** Self
 - **Duration:** instant
+- **Damage Type:** Bludgeoning
 
 You cause the earth around you to tremor. All creatures within 2 tiles of you must make a Strength save against your spellcasting. On fail the creature takes 1 wound die in damage, getting knocked prone on crit. If the ground in the area is loose earth or stone it becomes difficult terrain until cleared.
 
