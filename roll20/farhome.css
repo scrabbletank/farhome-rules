@@ -6,7 +6,7 @@
 .sheet-container {
     display: grid;
     grid-gap: 4px;
-    grid-template-columns: 200px 1fr 400px;
+    grid-template-columns: 210px 225px 1fr;
     grid-template-rows: 140px 600px 350px 460px;
 }
 
@@ -97,6 +97,15 @@ textarea {
 .sheet-feattext {
     background-color: #ddd;
     border-color: #ddd;
+    width: 260px;
+}
+.sheet-leveluptext {
+    background-color: #ddd;
+    border-color: #ddd;
+    border-bottom: 1px solid black;
+    width: 150px;
+    padding: none;
+    margin: none;
 }
 
 .sheet-featdesc {
@@ -230,12 +239,12 @@ input:checked + .sheet-slider:before {
 	background-color: #ddd;
 }
 .sheet-codex {
-    grid-column: 2 / 4;
+    grid-column: 3;
     grid-row: 3;
 	background-color: #ddd;
 }
 .sheet-spells {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 3;
 	background-color: #ddd;
 }
@@ -257,5 +266,11 @@ input:checked + .sheet-slider:before {
 .sheet-character {
     grid-column: 2 / 4;
     grid-row: 4;
+	background-color: #ddd;
+}
+.sheet-levelups {
+    overflow:auto;
+    grid-column: 1;
+    grid-row: 3;
 	background-color: #ddd;
 }

@@ -63,7 +63,7 @@
             value="0" />
         <br />
         <span style="width:110px" class="simple120">Healing Surges</span><input type="number" name="attr_healingsurges"
-            value="0" />
+            value="0" />/<input type="number" name="attr_maxhealingsurges" value="0" />
         <button type='roll' name='roll_save' value='!rtmp `name|Healing Surge` `roll1|wound 0 3`'></button>
         <br />
         <span style="width:110px" class="simple120">Exhaustion</span><input type="number" name="attr_exhaustionstack"
@@ -418,7 +418,7 @@
         <input class="sheet-skillsFeat sheet-hidden" type="checkbox" name="attr_featvis" value="1">
         <div class="sheet-skillsec-feat">
             <fieldset class="repeating_feats">
-                <input style="width:220px;font-weight: bold;" class="feattext" type="text" name="attr_featname"
+                <input style="width:280px;font-weight: bold;" class="feattext" type="text" name="attr_featname"
                     value="Enter Name.." />
                 <div class="horizontalline"></div>
                 <textarea class="featdesc" type="text" name="attr_featdesc">Enter Description Here...</textarea>
@@ -434,7 +434,7 @@
         <input class="sheet-skillsItem sheet-hidden" type="checkbox" name="attr_itemvis" value="1">
         <div class="sheet-skillsec-item">
             <fieldset class="repeating_items">
-                <input style="width:220px;font-weight: bold;" class="feattext" type="text" name="attr_itemname"
+                <input style="width:280px;font-weight: bold;" class="feattext" type="text" name="attr_itemname"
                     value="Enter Name.." />
                 <div class="horizontalline"></div>
                 <div style="float:right; padding-right:30px">
@@ -485,6 +485,39 @@
         <h2>Character</h2>
         <br />
         <textarea name="attr_character"></textarea>
+    </div>
+    <div class="levelups">
+        <h3>Level Bonuses</h3>
+        <br />
+        <label style="width:15px">2:</label><input class="leveluptext" type="text" name="attr_lv2"/><br />
+        <label style="width:15px">3:</label><input class="leveluptext" type="text" name="attr_lv3"/><br />
+        <label style="width:15px">4:</label><input class="leveluptext" type="text" name="attr_lv4"/><br />
+        <label style="width:15px">5:</label><input class="leveluptext" type="text" name="attr_lv5"/><br />
+        <label style="width:15px">6:</label><input class="leveluptext" type="text" name="attr_lv6"/><br />
+        <label style="width:15px">7:</label><input class="leveluptext" type="text" name="attr_lv7"/><br />
+        <label style="width:15px">8:</label><input class="leveluptext" type="text" name="attr_lv8"/><br />
+        <label style="width:15px">9:</label><input class="leveluptext" type="text" name="attr_lv9"/><br />
+        <label style="width:15px">10:</label><input class="leveluptext" type="text" name="attr_lv10"/><br />
+        <label style="width:15px">11:</label><input class="leveluptext" type="text" name="attr_lv11"/><br />
+        <label style="width:15px">12:</label><input class="leveluptext" type="text" name="attr_lv12"/><br />
+        <label style="width:15px">13:</label><input class="leveluptext" type="text" name="attr_lv13"/><br />
+        <label style="width:15px">14:</label><input class="leveluptext" type="text" name="attr_lv14"/><br />
+        <label style="width:15px">15:</label><input class="leveluptext" type="text" name="attr_lv15"/><br />
+        <label style="width:15px">16:</label><input class="leveluptext" type="text" name="attr_lv16"/><br />
+        <label style="width:15px">17:</label><input class="leveluptext" type="text" name="attr_lv17"/><br />
+        <label style="width:15px">18:</label><input class="leveluptext" type="text" name="attr_lv18"/><br />
+        <label style="width:15px">19:</label><input class="leveluptext" type="text" name="attr_lv19"/><br />
+        <label style="width:15px">20:</label><input class="leveluptext" type="text" name="attr_lv20"/><br />
+        <label style="width:15px">21:</label><input class="leveluptext" type="text" name="attr_lv21"/><br />
+        <label style="width:15px">22:</label><input class="leveluptext" type="text" name="attr_lv22"/><br />
+        <label style="width:15px">23:</label><input class="leveluptext" type="text" name="attr_lv23"/><br />
+        <label style="width:15px">24:</label><input class="leveluptext" type="text" name="attr_lv24"/><br />
+        <label style="width:15px">25:</label><input class="leveluptext" type="text" name="attr_lv25"/><br />
+        <label style="width:15px">26:</label><input class="leveluptext" type="text" name="attr_lv26"/><br />
+        <label style="width:15px">27:</label><input class="leveluptext" type="text" name="attr_lv27"/><br />
+        <label style="width:15px">28:</label><input class="leveluptext" type="text" name="attr_lv28"/><br />
+        <label style="width:15px">29:</label><input class="leveluptext" type="text" name="attr_lv29"/><br />
+        <label style="width:15px">30:</label><input class="leveluptext" type="text" name="attr_lv30"/><br />
     </div>
 
     <rolltemplate class="sheet-rolltemplate-CustomRoll">

@@ -22,7 +22,7 @@ var FarhomeDice = FarhomeDice || (function () {
     var allDice = [
         { roll: [imgB, imgS, imgS, imgS, imgS2, imgCS], val: [0, 1, 1, 1, 2, 2], crit: [0, 0, 0, 0, 0, 1], rrthresh: 0, clr: 'yellow' },
         { roll: [imgB, imgB, imgS, imgS, imgS, imgCS], val: [0, 0, 1, 1, 1, 2], crit: [0, 0, 0, 0, 0, 1], rrthresh: 0, clr: 'green' },
-        { roll: [imgF, imgB, imgB, imgS, imgS, imgS], val: [-1, 0, 0, 1, 1, 1], crit: [0, 0, 0, 0, 0, 0], rrthresh: 0, clr: 'white' },
+        { roll: [imgB, imgB, imgB, imgB, imgS, imgS], val: [0, 0, 0, 0, 1, 1], crit: [0, 0, 0, 0, 0, 0], rrthresh: 0, clr: 'white' },
         { roll: [imgCF, imgF, imgF, imgF, imgB, imgB], val: [-2, -1, -1, -1, 0, 0], crit: [-1, 0, 0, 0, 0, 0], rrthresh: -1, clr: 'red' },
         { roll: [imgCF, imgF2, imgF, imgF, imgF, imgB], val: [-2, -2, -1, -1, -1, 0], crit: [-1, 0, 0, 0, 0, 0], rrthresh: -1, clr: 'purple' },
         { roll: [imgB, imgB, imgD, imgD2, imgCD, imgCD], val: [0, 0, 1, 2, 2, 2], crit: [0, 0, 0, 0, 1, 1], rrthresh: 0, clr: 'silver' },
@@ -303,7 +303,7 @@ var FarhomeDice = FarhomeDice || (function () {
                         return;
                     }
                     name = "Saving Throw";
-                    result = saveRoll(params[0]);
+                    result = saveRoll(params);
                 }
                 else if (command === 'roll') {
                     if (params.length < 5) {
@@ -494,12 +494,12 @@ var FarhomeDice = FarhomeDice || (function () {
             return dice;
         },
 
-        saveRoll = function (stat) {
-            var modObj = getDefaultMods();
-            var statVal = parseInt(getAttr(stat, -1).get("current"));
+        saveRoll = function (params) {
+            var modObj = params.length > 1 ? getMods(params[1]) : getDefaultMods();
+            var statVal = parseInt(getAttr(params[0], -1).get("current"));
             var statProf = 0;
 
-            switch (stat) {
+            switch (params[0]) {
                 case 'str':
                     statProf = parseInt(getAttr("strsave", 0).get("current"));
                     break;
@@ -630,26 +630,27 @@ var FarhomeDice = FarhomeDice || (function () {
         },
 
         reroll = function (msgFrom) {
-            var lastRolls = state.FarhomeDice.lastRolls[character.id];
-            if (lastRolls === undefined) {
+            rollHistory = state.FarhomeDice.lastRolls[character.id];
+            if (rollHistory === undefined) {
                 return;
             }
             var values = { name: "Reroll" };
-            for (var i = 0; i < lastRolls.length; i++) {
+            for (var i = 0; i < rollHistory.length; i++) {
                 var rollMsg = "<span>";
-                for (var t = 0; t < lastRolls[i].d.length; t++) {
+                for (var t = 0; t < rollHistory[i].d.length; t++) {
                     // we can't reroll hexes
-                    if (lastRolls[i].v[t] === -1) {
-                        var imgSource = (lastRolls[i].d[t] == 5 || lastRolls[i].d[t] == 6) ? imgD : imgS;
-                        rollMsg += "<img src='" + imgSource + "' style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid;'>";
+                    if (rollHistory[i].v[t] === -1) {
+                        var imgSource = (rollHistory[i].d[t] == 5 || rollHistory[i].d[t] == 6) ? imgD : imgS;
+                        rollMsg += "<img src='" + imgSource + "' style='background-color:" + allDice[rollHistory[i].d[t]].clr + "; border: 1px solid;'>";
                     }
-                    else if (lastRolls[i].r[t] === true) {
+                    else if (rollHistory[i].r[t] === true) {
                         var newRoll = randomInteger(6) - 1;
-                        rollMsg += "<div style='display:inline-block'>(<img src='" + allDice[lastRolls[i].d[t]].roll[newRoll] + "' style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid;'>" +
-                            "<img src='" + allDice[lastRolls[i].d[t]].roll[lastRolls[i].v[t]] + "' style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid; opacity: 0.25;'>)</div>";
+                        rollMsg += "<div style='display:inline-block'>(<img src='" + allDice[rollHistory[i].d[t]].roll[newRoll] + "' style='background-color:" + allDice[rollHistory[i].d[t]].clr + "; border: 1px solid;'>" +
+                            "<img src='" + allDice[rollHistory[i].d[t]].roll[rollHistory[i].v[t]] + "' style='background-color:" + allDice[rollHistory[i].d[t]].clr + "; border: 1px solid; opacity: 0.25;'>)</div>";
+                        rollHistory[i].v[t] = newRoll;
                     }
                     else {
-                        rollMsg += "<img src='" + allDice[lastRolls[i].d[t]].roll[lastRolls[i].v[t]] + "' style='background-color:" + allDice[lastRolls[i].d[t]].clr + "; border: 1px solid;'>";
+                        rollMsg += "<img src='" + allDice[rollHistory[i].d[t]].roll[rollHistory[i].v[t]] + "' style='background-color:" + allDice[rollHistory[i].d[t]].clr + "; border: 1px solid;'>";
                     }
                 }
                 rollMsg += "</span>";
@@ -657,6 +658,7 @@ var FarhomeDice = FarhomeDice || (function () {
             }
             var msg = makeTemplate(values, false);
             sendChat(msgFrom, "/direct " + msg);
+            state.FarhomeDice.lastRolls[character.id] = [];
         },
 
         handleTemplateRoll = function (msgFrom, msgContent) {
@@ -681,7 +683,7 @@ var FarhomeDice = FarhomeDice || (function () {
                 if (params[0] == "skill") {
                     return skillRoll(params.slice(1, params.length));
                 } else if (params[0] == "save") {
-                    return saveRoll(params[1]);
+                    return saveRoll(params.slice(1, params.length));
                 } else if (params[0] == "roll") {
                     return customRoll(params.slice(1, params.length));
                 } else if (params[0] == "attack") {
@@ -710,6 +712,21 @@ var FarhomeDice = FarhomeDice || (function () {
         },
 
         makeTemplate = function (values, rrButton = true) {
+            var suc = 0
+            var crit = 0;
+            for (var i = 0; i < rollHistory.length; i++) {
+                for (var s = 0; s < rollHistory[i].v.length; s++) {
+                    if (rollHistory[i].d[s] === 7 || rollHistory[i].d[s] === 8) {
+                        continue;
+                    }
+                    if (rollHistory[i].v[s] === -1) {
+                        suc += 1;
+                    } else {
+                        suc += allDice[rollHistory[i].d[s]].val[rollHistory[i].v[s]];
+                        crit += allDice[rollHistory[i].d[s]].crit[rollHistory[i].v[s]];
+                    }
+                }
+            }
             var msg = '' +
                 '<rolltemplate class="sheet-rolltemplate-CustomRoll">' +
                 '<div style="background-color: #ffffff; border: 1px solid; padding: 2px; width: 218px;">';
@@ -727,6 +744,14 @@ var FarhomeDice = FarhomeDice || (function () {
                     msg += '<div style="font-size: 0.9em"><span>' + keys[i].substring(4) + ': </span>' + values[keys[i]] + '</div>';
                 }
             }
+
+            if (suc !== 0 || crit !== 0) {
+                msg += '<div style="font-size: 1.1em; text-align:center; font-weight:bold">' + 
+                '<span style="color: ' + (suc > 0 ? 'green' : (suc === 0 ? 'black' : 'red')) + '">' + suc + '</span>' +  
+                '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + 
+                '<span style="color: ' + (crit > 0 ? 'green' : (crit === 0 ? 'black' : 'red')) + '">' + crit + '</span></div>';
+            }
+
             msg += '<div style="line-height: 20px;border-bottom: 2px solid transparent; border-left: 200px solid rgb(126, 45, 64); border-top: 2px solid transparent;"><div class="arrow-right"></div></div>';
 
             if (values.effect) {
@@ -820,7 +845,6 @@ var FarhomeDice = FarhomeDice || (function () {
             }
             dmg[0] += info.lroll[7] * levelDiff + modObj.bonus[7];
             dmg[1] += info.lroll[8] * levelDiff + modObj.bonus[8];
-            console.log(modObj);
             modObj.bonus[7] = 0;
             modObj.bonus[8] = 0;
 

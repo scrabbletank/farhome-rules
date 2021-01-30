@@ -3,18 +3,20 @@
 ## Table of Contents
 [Introduction](#Introduction)
 - [How to Play](#How-to-Play)
-- [Custom Dice](#Custom-Dice)
+- [Rolling Dice](#Rolling-Dice)
 - [Calculating a Roll](#Calculating-a-Roll)
-  - [Types of Rolls](#Types-of-Rolls)
-  - [Attack](#Attack)
-  - [Defense](#Defense)
+  - [Determining What Dice to Roll](#Determining-What-Dice-to-Roll)
+  - [Defense Rolls](#Defense-Rolls)
   - [Attribute Saves](#Attribute-Saves)
-  - [Spellcasting](#Spellcasting)
+  - [Hero Dice](#Hero-Dice)
   - [Skill Challenge](#Skill-Challenge)
+  - [Helping in Skill Challenges](#Helping-in-Skill-Challenges)
+  - [Rerolls](#Rerolls)
 - [Wounds](#Wounds)
 - [Death Saves](#Death-Saves)
 - [Action Points](#Action-Points)
 - [Maneuvers](#Maneuvers)
+- [Healing Surge](#Healing-Surge)
 - [Combat Advantage](#Combat-Advantage)
 - [Attributes](#Attributes)
 
@@ -26,8 +28,9 @@
 - [Weapons](#Weapons)
 
 [Spells](#Spells)
-- [Spellbooks](#Spellbooks)
+- [Codexes](#Codexes)
 - [Mana](#Mana)
+- [Spell Power](#Spell-Power)
 - [Preparing Spells](#Preparing-Spells)
 - [Casting Spells](#Casting-Spells)
 - [Concentration](#Concentration)
@@ -74,6 +77,9 @@
 - [Journeyman](#Journeyman)
 - [Advanced](#Advanced)
 - [Legendary](#Legendary)
+- [Fae Court](#Fae-Court)
+- [Earthen](#Earthen)
+- [Blight](#Blight)
 
 [Items](#Items)
 - [Consumables](#Consumables)
@@ -103,15 +109,15 @@ What actions you take and the world they are taken in are limited only by your i
 
 Farhome uses a set of 6-sided dice to determine outcomes. There are 9 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a number of dice determined by your characters skills or abilities and a number of challenge dice added by the GM depending on how difficult the task is. Rolling more successes than failures means your action succeeded, while a tie or worse means your action failed. Sometimes your roll may be in opposition to another characters roll, in which case success goes to whoever has the most successes.
 
-Some dice have special symbols on them for Criticalical Successes and Criticalical Failures. By default these are counted as 2 success or 2 failures, but in some cases may give different results. Defense dice work similarly to the other dice, having defense symbols instead of successes. Finally wound dice are used to determine damage, healing, or in some cases chance.
+Some dice have special symbols on them for Critical Successes and Critical Failures. By default these are counted as 2 success or 2 failures, but in some cases may give different results. Defense dice work similarly to the other dice, having defense symbols instead of successes. Finally wound dice are used to determine damage, healing, or in some cases chance.
 
 #### Legend
-- CS -- Criticalical Success
+- CS -- Critical Success
 - S -- Success
 - F -- Fail
-- CF -- Criticalical Fail
+- CF -- Critical Fail
 - D -- Defend
-- CD -- Criticalical Defend
+- CD -- Critical Defend
 - W -- Wound
 
 #### Dice Values
@@ -119,7 +125,7 @@ Some dice have special symbols on them for Criticalical Successes and Criticalic
 |:----:|:--:|:--:|:--:|:--:|:--:|:--|
 | Superior  | CS | Sx2 | S | S| S | _ |
 | Proficient  | CS | S | S | S | _ | _ |
-| Normal | S | S | S | _ | _ | F |
+| Normal | S | S | _ | _ | _ | _ |
 | Bad | _ | _ | F | F | F | CF |
 | Terrible | _ | F | F | F | Fx2 | CF |
 | Defense | CD | D | D | D | _ | _ |
@@ -128,7 +134,7 @@ Some dice have special symbols on them for Criticalical Successes and Criticalic
 | Hero | S | S | Sx2 | Sx2 | CS | CS |
 
 ### Calculating a Roll
-When calculating your roll, regardless of type, you always add up your own dice first. Success and failures of the same type cancel each other out, Failures nullify Success, and Criticalical Failure nullify Criticalical Success. Add up the remaining successes, counting Criticalical Success as two successes.
+When calculating your roll, regardless of type, you always add up your own dice first. Success and failures of the same type cancel each other out, Failures nullify Success, and Critical Failure nullify Critical Success. Add up the remaining successes, counting Critical Success as two successes.
 
 At this stage process any modifiers from abilities, skills or features that effect your roll. If you do not have at least 1 success at this point the roll is considered a fail.
 
@@ -143,23 +149,23 @@ In the case where you have a negative number for your Attribute score, replace a
 
 Through feats, spells, or items you may have an Attribute score greater than 5. In this case for every point above 5 you have you add a Normal die, replacing it with a Proficient die for every Proficiency score above 5.
 
-##### Defense Rolls
+#### Defense Rolls
 When making a defense roll you use Defense and Superior Defense dice. The number and type of dice you roll is determined by what armor your wearing. You roll 2 Defense dice when not wearing any armor or the armors value if you have armor equipped. Holding a shield adds either a Defense or Superior Defense die, depending on the shield.
 
-##### Attribute Saves
+#### Attribute Saves
 Attribute Saves use the same rules as rolling a skill that uses an Attribute, with one exception: negative Attribute scores do not replace Normal dice with Bad dice. This means the lowest you can roll for an Attribute save is 5 Normal dice.
 
-##### Hero Dice
-Hero dice are special dice players can add to any roll. You gain a number of them at the start of your adventure and once spent are not replenished. You can add at most 1 Hero die to any roll, except wound rolls. You may choose to add a Hero dice even after you have rolled, as long as you haven't seen the opposing roll. Hero dice are immune to any effects that would change the outcome of the roll, it cannot be hexed, rerolled, or negated.
+#### Hero Dice
+Hero dice are special dice players can add to any roll. You gain a number of them at the start of your adventure and once spent are not replenished. You can add at most 1 Hero die to any roll, except wound rolls. You may choose to add a Hero dice after you have rolled. Hero dice are immune to any effects that would change the outcome of the roll, it cannot be hexed, rerolled, or negated.
 
 Your GM may reward you with extra Hero dice, but Hero dice are usually only given at the start of each adventure.
 
-##### Skill Challenge
+#### Skill Challenge
 Skill Challenges are rarely made in contest, instead the GM will ask you to add dice depending on how challenging a task you are trying to accomplish. Each skill has its own proficiency and uses one of your attributes to determine dice. For example, an athletics check will use your Strength score while an acrobatics check will use your Dexterity score. Both athletics and acrobatics have their own proficiencies as well.
 
 The outcome in these rolls isn't always a strict pass or fail, depending on the GM they may give a bonus if you roll a critical success or something bad may happen if you roll a critical fail.
 
-##### Helping in Skill Challenges
+#### Helping in Skill Challenges
 In some cases you may want to help someone with an action, such as trying to push a boulder or search a room. When helping every participant rolls the same skill check contested by a single challenge roll. The highest roll among the participants is used, adding a success for every crit rolled by others.
 
 ##### Challenge Difficulty Dice
@@ -172,10 +178,17 @@ In some cases you may want to help someone with an action, such as trying to pus
 | Difficult | B | B | B | T | T | T | _ |
 | Impossible | B | B | T | T | T | T | T |
 
-##### Rerolls
+#### Rerolls
 Either through expertise, feats, or other abilities you may reroll a number of dice in your roll. When rerolling, you may choose any dice to reroll, taking the new value instead, and you may not reroll the same die again. You may reroll any dice that are considered part of your roll, such as bonus dice from upcasting a spell, dice added from abilities or spells such as _Guidance_, and dice given by negative effects, such as poison. When making a skill challenge, all challenge dice are considered part of your roll and may be rerolled. 
 
 Dice rolled in contest of your own roll, such as another creatures defend or saving throw, cannot be rerolled by you. Additionally, dice that have been replaced, such as dice that have been Hexed, cannot be rerolled.
+
+#### Adding Dice
+Some abilities allow you to add dice to certain rolls. Dice that are added as part of a spell, or from abilities that apply to your next roll must be added and rolled together. Hero dice, or abilities that allow you to add dice to any roll within a timeframe can be added after your roll, but before the outcome is determined.
+
+For example, dice added from the spells _Guidance_ or _Weal_ add dice to your next roll that satisfies the condition. These dice must be added the next time you make that roll. 
+
+On the other hand, dice added by the _Inspiring Words_ maneuver can be added to any roll made in the timeframe. If you wanted to add _Inspiring Words_ to your attack, you may wait to see the opponents defense before adding the superior die. Similarly, your opponent can wait to see your attack roll before deciding to add dice to their defense roll.
 
 ### Wounds
 
@@ -303,12 +316,12 @@ Spells are split into 3 schools: Arcane, Curse, and Divine. Each school handles 
 
 To cast a spell you must have a codex containing the spell you want to cast, have the spell prepared, and have enough mana to cast the spell.
 
-### Spellbooks
+### Codexes
 
 Very few creatures are able to innately cast magic. Almost everyone must prepare spells they've written into a spellbook, or Codex. There is no limit on the school, level, or type of spell you can hold in your Codex. New spells can be added to your Codex by copying from spell scrolls or a codex. This process is destructive, and destroys the scroll or codex after a spell is copied.
 
 ##### Variant Rule - Spells from Codexes
-In some games spells may be limited, or codecies a rare occurance. With this variant when copying a spell from a codex, instead of destroying the codex you make an Arcana check against 2 bad dice. On success codex is not destroyed. Regardless a spell can only be copied once.
+In some games spells may be limited, or codecies a rare occurance. With this variant when copying a spell from a codex, instead of destroying the codex you make an Arcana check against 2 bad dice. On success codex is not destroyed. Regardless each spell can only be copied once.
 
 ### Mana
 
@@ -349,11 +362,26 @@ Depending on your character's level you will only be able to cast, or up-cast, s
 | 9th | 4th | 24th | 9th |
 | 12th | 5th | 27th | 10th |
 
+##### Variant Rule - Attribute Based Spell Levels
+Instead of your spell level being determined by your level, with this rule your spell level is determined by your attribute for a given spellcasting school. Your max spell level for Arcane spells is based on your Intelligence, Curse spells are based on your Willpower, and Divine spells are based on your Charisma. This means an exceptionally intelligent caster could cast high level spells at an early level- if they have the mana and spell prepared.
+
+Your max spell level is determined on the chart below:
+
+| Attribute Score | Spell Level |
+|:----:|:----:|
+| 0 or Less  | Cantrip |
+| 1  | 1st |
+| 2  | 2nd |
+| 3  | 3rd-4th |
+| 4  | 5th-6th |
+| 5  | 7th-8th |
+| 6+  | 9th-10th |
+
 ### Concentration
 
 Some spells require concentration to maintain. You may only concentrate on a single spell at a time, casting a new spell with concentration will end the effects of the previous spell.
 
-When you take damage while concentrating on a spell you must pass a Stamina save or the spell ends, adding 1 terrible die, plus a terrible die for every wound taken from the attack.
+When you take damage while concentrating on a spell you must pass a Stamina save or the spell ends, adding 1 bad die, plus a bad die for every wound taken from the attack.
 
 ### Cantrips
 
@@ -361,16 +389,17 @@ Cantrips are spells that do not require mana to cast, but must still be prepared
 
 ### Variant Rule - Misfires
 
-While anyone can cast any spell they have the mana for, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a different spell, you add 2 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
+While anyone can cast any spell they have the mana for, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a different spell, you add 1 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
 
 ##### Ability Ranks
-| Attribute | Spell Levels |
+| Attribute Score | Spell Levels |
 |:----:|:-------------|
-| 1  | 1-2 |
-| 2  | 3-4 |
-| 3 | 5-6 |
-| 4 | 7-8 |
-| 5 | 9 |
+| 1  | 1st |
+| 2  | 2nd |
+| 3  | 3rd-4th |
+| 4  | 5th-6th |
+| 5  | 7th-8th |
+| 6+  | 9th-10th |
 
 
 ##### Misfire Chart
@@ -383,8 +412,7 @@ Roll 2 bad dice, counting the successes.
 | -3 | Your spell backfires, roll a wound die for every remaining failure from your spellcasting roll, taking a wound for every wound rolled. |
 | -2 | Wild magic fills the area around you, you and all creatures within 3 tiles add 1 terrible die to their next roll |
 | -1 | Your flow of magic is interrupted, you add 1 terrible die to all spellcasting rolls for the next minute |
-| 0 | Minor backlash. You take 1 wound of Force damage |
-| 1-2 | The magic fades, but no harm comes from it. |
+| 0 | Minor backlash. You take 1 wound die of Force damage |
 
 
 ## Creating a Character
@@ -413,7 +441,7 @@ Instead of using the rules above for attributes, your group may decide to roll y
 ##### Variant Rule - Group Rolls
 Many people prefer the randomness given by rolling for attributes, but this can often lead to very powerful or weak characters across a group. A way to ensure every player is on the same level, each player takes turns rolling an attribute score. Once 6 scores have been rolled the players use those scores to create their characters. The players can place the scores in any attribute they want, but they must use the same 6 scores as every other player.
 
-### Starting Equipment.
+### Starting Equipment
 Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire starter and 50ft of rope. In addition you start with 50 silver which you can spend on gear or upgrades. Any unspent silver becomes your characters starting money.
 
 #### Currency
@@ -428,6 +456,7 @@ Currency in Farhome is divided into 3 types: the copper trite, silver cross, and
 | 15sc | Padded or Studded armor. |
 | 15sc | any martial weapon. |
 | 20sc | Upgrading armor to the next type |
+| 30sc | A Repair Kit, Apothecary Set, or Scribing Tools |
 
 ### Leveling Up
 
@@ -596,7 +625,7 @@ If you go more than 24 hours without taking a long rest you must make an exhaust
 | 5 | -3 | -5 | No |
 
 ## Conditions
-There are a number of conditions creatures can be subjected to, each with different effects. Some conditions have a level associated with them to determine how extreme that condition is. For example, Poison normally adds a terrible die to your attack rolls and saving throws, where Poison 2 and Poison 3 adds 2 and 3 terrible die respectively.
+There are a number of conditions creatures can be subjected to, each with different effects. Some conditions have a level associated with them to determine how extreme that condition is. For example, Poison normally adds a bad die to your attack rolls and saving throws, where Poison 2 and Poison 3 adds 2 and 3 bad die respectively.
 
 ##### Blind
 A blinded creature loses the ability to see. While blind they add 2 Terrible die to all attack, spellcasting, and dexterity saving throws. They cannot make reactions.
@@ -620,7 +649,7 @@ An incapacitated creature takes no actions and automatically fails Strength and 
 A paralyzed creature automatically fail dexterity saving throws. When taking any Action they must first roll a Wound die. If the result is a wound they do not take the action and lose the AP spent.
 
 ##### Poison
-A poisoned creature adds a bad die to all attacks, saving throws, and ability checks, adding a bad die for every level of poison. Only the highest level poison takes effect, eg: someone who has Poison and Poison 2 only adds 2 bad dice instead of 3. At the end of each of your turns you roll a Stamina save, including the effects of poison. On success you reduce the level of Poison by 1.
+A poisoned creature adds a bad die to all attacks, saving throws, and ability checks, adding a bad die for every level of poison. Only the highest level poison takes effect. For example someone who has Poison and Poison 2 only adds 2 bad dice instead of 3.
 
 ##### Prone
 a prone creature grants combat advantage to any melee attacker. Ranged attacks against this creature add 2 bad dice to their roll.
@@ -646,24 +675,23 @@ Magic items give a variety of effects and bonuses. Only some magic items require
 
 ### Attunement
 
-Some powerful magic items require attunement to use. To attune to a magic item you must spend a long rest with the item. If you are already attuned to 3 magic items you must choose which item to lose attunement to when attuning to a new item.
-
+Some powerful magic items require attunement to use. To attune to a magic item you must spend 10 minutes focusing on it, and can be done during a short or long rest without interrupting the rest. If you are already attuned to 3 magic items you must choose which item to lose attunement to when attuning to a new item.
 
 ### Magic Weapons
 
-Magic weapons usually come with a bonus modifier, from +1 to +3. When making attack rolls with these weapons you add a superior die for every bonus modifier.
+Magic weapons can come with bonus modifiers from +1 to +3. When making attack rolls with these weapons you add a superior die for every bonus modifier.
 
 ### Magic Armor
 
 Magic armors can come with bonus modifiers from +1 to +3. When making defense rolls with this armor you add a superior defense die for every bonus modifier.
-<br></br>
+
 Shields cannot have bonus modifiers, but can have additional effects.
 
 ### Identifying Magic Items
 
 Magic items can be identified by a successful Lore challenge. Each character can only attempt a lore roll once, if you fail then you must either cast _Identify_ on the item or take it to someone who can appraise it.
 
-You can still use magic items without identifying them, but its bonuses will be unknown to you.
+You can still use magic items without identifying them, but its bonuses will be unknown to you. If the item requires attunement you only benefit from its bonus modifiers unless stated otherwise.
 
 ### Gaining Attributes through Items
 
@@ -683,24 +711,22 @@ This weapon can make attacks 1 tile further, and their zone of control extends a
 This weapon can only be used to attack once per turn.
 
 ##### Range
-This weapon can attack at range. Attacks further than the first number add 1 terrible die to the roll, and cannot attack farther than the 2nd.
+This weapon can attack at range. Attacks further than the first number add 1 terrible dice to the roll, and cannot attack farther than the 2nd.
 
 ##### Thrown
-This weapon is thrown when used as a ranged weapon
+This weapon is thrown when used as a ranged weapon.
 
 ##### Versatile
 This weapon can be used with two hands, using the two-handed proficiency. When used this way roll additional wound dice equal to the Versatile level.
 
 ##### Two-Handed
-This weapon requires both hands to use, and cannot be used with a shield.
+This weapon requires both hands to use.
 
 ##### Resistance
 You reduce the number of wounds dealt by the level of resistance. For example, _Fire Resistance 1_ reduces all wounds taken from fire damage by 1.
 
 ##### Vulnerable
-You increase the number of wounds dealt by the level of vulernability. For example, _Bludgeoning Vulnerability 1_ increases the wounds taken by bludgeoning attacks by 1. If the attack can do damage, but didn't (due to rolling wound die) a Vulnerable creature still takes 1 additional damage.
-
-
+You increase the number of wounds dealt by the level of vulernability. For example, _Bludgeoning Vulnerability 1_ increases the wounds taken by bludgeoning attacks by 1. If the attack can do damage, but didn't (due to rolling wound dice) a Vulnerable creature still takes the extra damage.
 
 ## Races
 
@@ -752,14 +778,11 @@ ___
 #### Twili (Night Goblin)
 - **Starting Wounds:** 2
 - **Move/Sprint:** 4/3
-- **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Willpower
+- **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Strength
 
-##### Hidden
+##### Occult
 
-As long as you are not the only ally in a creatures zone of control, you count as flanking the target. You can reroll 1 die when making Sleight of Hand and Stealth challenges.
-
-
-
+You are always under the effects of the spell _Dark Sight_ and you gain 1 superior die when making stealth rolls in dim light or darkness.
 
 
 
@@ -1939,9 +1962,9 @@ You may target an extra creature for every level cast above cantrip.
 
 ___
 #### Eldritch Blast
-*Cantrip, Requires Chosen*
+*Cantrip*
 - **Casting Time:** 5 AP
-- **Range:** 8
+- **Range:** 7
 - **Duration:** instant
 - **Damage Type:** Force
 
@@ -2260,7 +2283,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 hour
 
-Magically enhance a creatures vision, giving it the ability to see in the dark. Target up to 5 creatures, adding a Bad die to your spellcasting roll for every creature added. On success they gain dark vision out to 24 tiles.
+Magically enhance a creatures vision, giving it the ability to see in the dark. Target up to 5 creatures, adding a Bad die to your spellcasting roll for every creature added. On success they are able to see through dim light and darkness within 30 tiles as if they were bright light.
 
 Add a proficiency die for every level above 2nd.
 
@@ -3226,7 +3249,7 @@ ___
 - **Range:** 1 mile
 - **Duration:** concentration, 10 minutes
 
-You attempt to detect the location of a type of creature in range. Choose one of the following: _Beast, Goblinoid, Humanoid, Fey, Monstrosity, Undead, Elemental, Fiend, Celestial_, or _Outsider_. Make a spellcasting roll, adding dice depending on the table below. On success you know the rough direction of creatures of that type, as well as a rough estimate of the strength of the strongest creature. You can detect their location for the duration or until you dismiss the spell.
+You attempt to detect the location of a type of creature in range. Choose one of the following: _Beast, Goblinoid, Humanoid, Fey, Monstrosity, Undead, Elemental, Demon, Celestial_, or _Outsider_. Make a spellcasting roll, adding dice depending on the table below. On success you know the rough direction of creatures of that type, as well as a rough estimate of the strength of the strongest creature. You can detect their location for the duration or until you dismiss the spell.
 
 The range increases by 1 mile for every level above 3rd.
 
@@ -3551,7 +3574,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-You attempt to exorcise an undead, fiend, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any posession or effects this creature was maintaining.
+You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any posession or effects this creature was maintaining.
 
 Add a proficiency die to the roll for every level above 6th.
 
@@ -4144,41 +4167,43 @@ Make a normal weapon attack against up to 5 creatures in range, adding 2 Terribl
 You gain proficiency in Arcane spells. You gain 2 mana and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency in Arcana and Lore.
 
 #### Coven Witch
-You gain proficiency in Curse spells. You gain 2 mana and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency Nature and Apothecary Tools.
+You gain proficiency in Curse spells. You gain 2 mana and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency Nature and Insight.
 
 #### Priest
 You gain proficiency in Divine spells. You gain 2 mana and start with a codex containing 4 cantrip or level 1 spells of your choosing. You gain 1 proficiency in Religion and Medicine.
 
 #### Soldier
 You learn 1 maneuver you meet the requirements for and gain proficiency in 3 martial weapons. You may also choose one of the following trainings:
-- Shield Master: When attacked, as long as you are holding a shield you may spend 1 AP to reroll 2 of the attackers dice, taking the new values.
-- Weapon Expert: Choose a weapon type, when making attacks with this weapon you may reroll 1 die, taking the new value.
-- Defensive Stance: You may reroll 1 defense die when making a defense roll.
-- Ranger: + 2 to your attack range before penalities, and you take no penalties from attacking when someone is in your zone of control.
+- **Shield Master:** When attacked, as long as you are holding a shield you may spend 1 AP to reroll 2 of the attackers dice, taking the new values.
+- **Weapon Expert:** Choose a weapon type, when making attacks with this weapon you may reroll 1 die, taking the new value.
+- **Defensive Stance:** You may reroll 1 defense die when making a defense roll.
+- **Ranger:** + 2 to your attack range before penalities, and you take no penalties from attacking when someone is in your zone of control.
 You begin with Hide Armor, and 3 weapons you are proficient in.
 
 
 #### Noble
-You start with double the starting silver and gain proficiency in a martial weapon. Your skill in trade and court proceedings allows you to reroll 1 die for all charisma skills checks. You gain 5 proficiency points to spend among skills. You start with Padded armor and 1 martial weapon of your choice.
+You start with double the starting silver and gain 1 proficiency in a martial weapon. Your skill in trade and court proceedings allows you to reroll 1 die for all charisma skills checks. You gain 5 proficiency points to spend among skills. You start with Padded armor and 1 martial weapon of your choice.
 
 #### Ranger
 Your time hunting and wandering through the wilderness has honed your skills. You gain 1 proficency with a ranged weapon, Nature, Survival and Animal Handling and your Move speed increases by 1 tile. In addition, you can reroll 1 die when making an initiative, Nature, Survival, or Animal Handling roll. You start with Studded armor and 1 weapon of your choice.
 
 #### Street Urchin
-You gain 1 proficiency in Sleight of Hand, Stealth and Lockpicking and have expertise in those skills. Using the Hide action takes 1 less AP. You start with a simple weapon of your choice.
+You gain 1 proficiency in Sleight of Hand, Stealth and Lockpicking and have expertise in those skills. Your naturally hard to pin down, when taking the move or sprint action you may spend an extra 2 AP to prevent opportunity attacks for the movement. You start with a simple weapon of your choice.
 
 #### Order Initiate
-You gain proficiency in Divine spells and a martial weapon. You have a Codex with two cantrips. Your devotion to your order gives you an unnatural ability to seek out evil. You have expertise in Insight, and gain 1 proficiency in Diplomacy and Religion. In addition, you add a superiority die for Willpower and Charisma skill challenges against evil creatures (or good creatures if you belong to an evil Order).
+You gain proficiency in Divine spells and a martial weapon. You have a Codex with two cantrips. Your devotion to your order gives you an unnatural ability to seek out evil. You have expertise in Insight, and gain 1 proficiency in Diplomacy and Religion. In addition, you add a superiority die for Willpower and Charisma saves and skill challenges against Demons and Undead.
 
 You start with Scalemail Armor and a martial weapon of your choice.
 
 #### Pit Fighter
 Either by circumstance or choice, your time in the pits has honed your senses in battle. You gain 1 proficiency in Unarmed fighting and 2 proficiency points for any martial weapons. While wearing light or no armor your sprint speed is increased by 1. When attacked by a creature inside your zone of control you may improve one defense die to a superior defense die.
 
-#### Chosen
-You are beholden to a greater power, either by choice or folly. For better or worse they have given you some of their power. Choose a cantrip or level 1 spell. Once per rest you may cast that spell without needing to prepare it or expend mana, adding 1 superior die to the spellcasting roll. Spells cast this way are cast at your highest spell level. You may change your Chosen spell by spending a week of downtime, choosing a new spell at or below your spell level, and no higher than 5th level.
+#### Blessed
+Known to you or not, you have been given a blessing by a powerful being. You gain access to additional feats based on which being has given you their blessing. In addition, you gain starting benefits based on the blessing:
 
-You gain 1 proficiency with Lore, Religion, and Survival.
+- **Fae Court:** You are an innate spellcaster. You start with 2 mana and you add 1 superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_.
+- **Earthen:** When unarmored you roll 3 defense dice instead of 2. Regardless of duration, when you gain Poison 1 it disappears at the end of your next turn. This has no effect on effects with Poison 2 or higher.
+- **Blight:** You have a natural affinity with the Undead. You can sense the presence of Undead within 10 tiles of you. When dealing necrotic damage you deal a minimum of 1 wound.
 
 #### Enchanter
 You have learned the trade of an enchanter, allowing you to empower mundane items. You gain 1 proficiency in Lore, Arcana, and Diplomacy, and Enchanting tools. Enchantments cost half as much when done by yourself, and you may use 2 pieces of enchanted gear instead of 1. You start with 2 mana.
@@ -4188,7 +4213,16 @@ You have learned the trade of an enchanter, allowing you to empower mundane item
 You have trained under masters, learning to perfect your mind and body. You gain expertise in 2 saving throws of your choice. In addition you gain 2 proficiency in a single martial weapon and +1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
 
 #### Druid
-You have studied the natural world and have gained an affinity with nature. You gain 1 proficiency in Nature and Animal Handling and have expertise in those skills. You have a Codex with two cantrips of your choice.
+You have studied the natural world and have gained an affinity with nature. You gain 1 proficiency in Nature and Animal Handling and have expertise in those skills. You have a Codex with two cantrips of your choice, and start with 2 mana.
+
+#### Village Healer
+You have studied the traditional methods of healing. You start with an apothecary set and any 3 plants from the apothecary wilderness survival rewards table. You have 2 proficiency with the apothecary set and 1 proficiency with Nature, Medicine, and Survival. When making an apothecary roll your experience lets you reroll one die in the roll, taking the new roll. You have a Codex with two cantrips from the Curse or Divine schools.
+
+#### Wanderer
+You've never had a home, instead relying on your own skills to survive in the wild. You gain 2 proficiency in Survival and have expertise in that skill. You gain 1 proficiency in Athletics and a weapon proficiency of your choice. Once per day when taking lethal damage, if the damage dealt is less than your Stamina score you survive with 1 wound. You do not start with any silver, but start with Hide armor and 2 weapons of your choice.
+
+#### Scribe
+You have spent years learning the history of your tribe, village, or city, and with your steady hands have commit it to paper. You gain 2 proficiency in Lore and have expertise in it. You gain 1 proficiency in Sleight of Hand and Scribing tools, and know 2 additional languages. You start with scribing tools and a spell scroll containing a cantrip or 1st level spell.
 
 ___
 ### Basic
@@ -4276,7 +4310,7 @@ If you move at least 2 tiles before making an attack or maneuver, add an extra w
 You learn a new language of your choosing. You are able to translate writings written in a language used by the common races, making an Intelligence check and using your Intelligence save for the roll. On success it takes you 10 minutes to translate a sentence, or 1 minute with a reference.
 
 #### Quickened Spellcasting
-*Requires proficiency with a spell type*
+*Requires proficiency with a spell school*
 
 Reduces the cost of spells by 1 AP.
 
@@ -4313,7 +4347,7 @@ At any time you may use Action Surge to regain 7 AP, and you may use a second ma
 #### Signature Move
 *Requires 10th Level*
 
-Choose a maneuver you know with a Level requirement of 7 or lower. This maneuver can be used once every turn, and you add 1 superior die to the roll.
+Choose a maneuver you know with a Level requirement of 7 or lower. This maneuver can be used once every turn, and you have expertise for rolls with that maneuver.
 
 #### Overwatch
 *Requires proficiency in Perception, 8th Level*
@@ -4323,12 +4357,12 @@ Once per turn, when a creature takes a movement action towards you, you can spen
 #### Blessed Healing
 *Requires 2 Charisma, proficiency with Divine spells*
 
-The target of your heals gains an extra superior die on their next attack or saving throw.
+The target of your heals gains an extra superior die on their next attack or saving throw within the next 10 minutes.
 
 #### Helping Hand
 *Requires proficiency with Divine spells, 6th Level*
 
-When casting buffing spells, add a superior dice to the roll if you are not one of the targets.
+When casting non-damaing spells on allies, add a superior dice to the roll if you are not one of the targets.
 
 #### Overcharge
 *Requires Proficiency with Arcane spells, 6th Level*
@@ -4358,7 +4392,7 @@ When you make a melee attack against a creature with a weapon you are proficient
 When casting an Arcane spell you may cast a second copy of the spell, using twice the mana but costing no additional AP. The spells must have different targets, and creatures can only be affected by one of the two spells when their area of effect overlaps. You use a single spellcasting roll for both spells, adding 1 Terrible die to your roll.
 
 #### Potent Curses
-*Requires Witch or Coven Witch, 3 Willpower, 8th Level*
+*Requires proficiency with Curse spells, 3 Willpower, 8th Level*
 
 Curses you cast last until dispelled. If you only target a single creature with a curse, add a superior die to the spellcasting roll.
 
@@ -4396,17 +4430,17 @@ You gain Resistance 1 against poison damage. At the end of each of your turns if
 #### Danger Sense
 *Requires proficiency in Perception, 10th Level*
 
-When making a saving throw against an attack, damaging spell, or effect you can see you gain 1 superior die to your roll.
+When making a saving throw against an attack, damaging spell, or damaging effect you can see you gain 1 superior die to your roll.
 
 #### Sticky Hands
 *Requires proficiency in Sleight of Hands*
 
-When in combat you can attempt to steal an item from your opponent. The item has to be visible and not being held. Using 5 AP you make a Sleight of Hand roll against the targets Dexterity or Defense, on success you take the item.
+When in combat you can attempt to steal an item from your opponent. The item has to be visible and is not being held. Using 5 AP you make a Sleight of Hand roll against the targets Dexterity or Defense, on success you take the item.
 
 #### Hidden in Plain Sight
 *Requires proficiency in Stealth*
 
-Your ability to sneak allows you to hide even in combat. When partially obscured you can spend 5 AP to make a Hide action. Make a stealth roll against the creatures perception. On success you hide from the creature. The creature is still aware of you but cannot find you.
+Your ability to sneak allows you to hide even in combat. When partially obscured you can spend 5 AP to take a Hide action. Make a stealth roll against the creatures perception. On success you hide from the creature. The creature is still aware of you but cannot find you.
 
 #### Actor
 *Requires proficiency in Performance*
@@ -4655,7 +4689,7 @@ When gaining temporary wounds, you may heal missing wounds instead. When casting
 #### Saint
 *Requires 5 Divine proficiency, 20th Level*
 
-You add 2 Superior dice to Intelligence, Willpower, and Charisma saves against Undead, Fiends, Outsiders, Celestials and Fey. Divine spells you prepare are not forgotten when taking a long rest and do not require a codex to cast.
+You add 2 Superior dice to Intelligence, Willpower, and Charisma saves against Undead, Demons, Outsiders, Celestials and Fey. Divine spells you prepare are not forgotten when taking a long rest and do not require a codex to cast.
 
 #### Strength of Mind
 *Requires 5 Willpower, 20th Level*
@@ -4699,6 +4733,39 @@ Spending 2 mana you may enchant your next single target attack or maneuver with 
 
 As long as you are not wearing or carrying iron, any attack, maneuver, or spell attack against you adds 1 bad die to the roll.
 
+___
+### Earthen
+Only those blessed by nature or earth elementals can take these feats
+
+#### Stone Skin
+*Requires 5th Level*
+
+Your skin is supernaturally tough, able to deflect blows with ease. When not wearing armor you improve a defense die to a superior defense die for every point of Stamina.
+
+#### Tremor Sense
+*Requires proficiency in Perception and Nature*
+
+You can feel the presence of nearby creatures by their movement. While a creature is moving while touching the ground you do not get any disadvantage for Perception checks when trying to detect them, regardless of if they are invisible or hidden by other means. You can detect creatures this way out to 10 tiles.
+
+#### Force of Earth
+*Requires proficiency in a Spell School, 9th level*
+
+Spells you cast that knock back or move creatures push them one additional tile. Spells you cast that deal physical damage deal and extra wound die.
+
+___
+### Blight
+Only those blessed by a powerful undead can take these feats
+
+#### Tame Undead
+*Requires proficiency in Willpower saves, 5th Level*
+
+You are able to exert your will over mindless undead. On your turn you may spend 7 AP to attempt to control a mindless Undead (an Undead creature having an intelligence of -1 or below). The creature makes a Willpower save against your Willpower, obeying your commands for the next 24 hours on fail. This effect ends if you damage the undead, are incapacitated, or move further than 20 tiles from them. A creature that saves is immune to this feat for 24 hours.
+
+You may have up to your Willpower score in Undead under your control. For each undead under your control you add 1 bad die to your willpower rolls with this feat.
+
+#### Siphon Undead
+
+You can sense the life force keeping Undead alive. On your turn you may spend 5 AP to touch an undead, draining their life force to heal yourself. If targeting an unwilling creature they make a Stamina save against your Willpower. On fail they take 2 wounds in damage and you regain 1 wound of health.
 
 ## Items
 ### Consumables
@@ -4843,7 +4910,7 @@ Any damage taken by your armor or weapons are permanent until repaired. An item 
 
 A damaged weapon adds 1 bad die for every negative modifier, or reduces the superior die given from a magic weapon. Damaged armor reduces the number of defense dice given by 1, or reduces the superior defense die given from magic armor.
 
-You may attempt to repair a single piece of equipment over a long rest. Roll a Repair roll adding 2 bad and 1 terrible die. On success the gear is repaired by 1 level, or 2 on a critical. If you fail with a criticalical failure the gear instead loses a level. You may attempt to repair magical gear, adding a terrible die for every modifier on the item.
+You may attempt to repair a single piece of equipment over a long rest. Roll a Repair roll adding 2 bad and 1 terrible die. On success the gear is repaired by 1 level, or 2 on a critical. If you fail with a Critical failure the gear instead loses a level. You may attempt to repair magical gear, adding a terrible die for every modifier on the item.
 </div>
 
 
