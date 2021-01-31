@@ -63,8 +63,9 @@ ___
 - **Casting Time:** 5 AP
 - **Range:** 5 (10)
 - **Duration:** instant
+- **Damage Type:** Bludgeoning
 
-Magically influence a plant to attack or grapple a nearby creature you can see. Choose a location in range to grow a plant, or take control of a small or larger plant within 10 tiles. The plant grows a bramble whip it can use to attack creatures in melee range. You may use the plant to make an attack or grapple roll, using your spellcasting roll for the attack. On hit they take 1 wound die in damage, or 1 wound on crit.
+Magically influence a plant to attack or grapple a nearby creature you can see. Choose a location in range to grow a plant, or take control of a small or larger plant within 10 tiles. The plant grows a bramble whip it can use to attack creatures in melee range. You may use the plant to make an attack or grapple roll, using your spellcasting roll for the attack. On hit they take 2 wound dice in damage.
 
 The plant lasts for 1 minute after which it returns to its original shape.
 
@@ -105,6 +106,7 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 7
 - **Duration:** 5 minutes
+- **Damage Type:** Piercing
 
 A 3x3 growth of razor sharp bramble appears centered on a point in range you can see. The bramble counts as difficult terrain and is flammable, each tile burning away after taking 1 wound of fire damage.
 
@@ -186,6 +188,7 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** Self
 - **Duration:** instant
+- **Damage Type:** Bludgeoning
 
 You cause the earth around you to tremor. All creatures within 2 tiles of you must make a Strength save against your spellcasting. On fail the creature takes 1 wound die in damage, getting knocked prone on crit. If the ground in the area is loose earth or stone it becomes difficult terrain until cleared.
 
@@ -277,11 +280,11 @@ Add a proficiency die for every level above 2nd.
 ___
 #### Wall of Faith
 *2nd Level*
-- **Casting Time:** 6 (3) AP
+- **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** 1 turn
 
-Channel your faith to form a protective wall centered on a point in range you can see. Make a spellcasting roll against 2 bad die, on success you create a shimmering wall 4 tiles wide and 4 tiles tall. The wall is seethrough and blocks creatures and projectiles from passing through it. This spell can be cast as a reaction for 3 AP, using 2 terrible dice instead.
+Channel your faith to form a protective wall centered on a point in range you can see. Make a spellcasting roll against 2 bad die, on success you create a shimmering wall 4 tiles wide and 4 tiles tall. The wall is seethrough and blocks creatures and projectiles from passing through it. Using 2 terrible dice instead.
 
 Add a proficiency die for every level cast above 2nd.
 
@@ -353,7 +356,7 @@ ___
 - **Range:** 1 mile
 - **Duration:** concentration, 10 minutes
 
-You attempt to detect the location of a type of creature in range. Choose one of the following: _Beast, Goblinoid, Humanoid, Fey, Monstrosity, Undead, Elemental, Fiend, Celestial_, or _Outsider_. Make a spellcasting roll, adding dice depending on the table below. On success you know the rough direction of creatures of that type, as well as a rough estimate of the strength of the strongest creature. You can detect their location for the duration or until you dismiss the spell.
+You attempt to detect the location of a type of creature in range. Choose one of the following: _Beast, Goblinoid, Humanoid, Fey, Monstrosity, Undead, Elemental, Demon, Celestial_, or _Outsider_. Make a spellcasting roll, adding dice depending on the table below. On success you know the rough direction of creatures of that type, as well as a rough estimate of the strength of the strongest creature. You can detect their location for the duration or until you dismiss the spell.
 
 The range increases by 1 mile for every level above 3rd.
 
@@ -626,7 +629,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to remove afflictions from a group of creatures. Targeting up to 5 creatures, make a spellcasting roll adding 1 Terrible die for each creature added. On success you remove two negative conditions effecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, and Fear.
+Attempt to remove afflictions from a group of creatures. Targeting up to 5 creatures, make a spellcasting roll adding 1 Terrible die for each creature added. On success you remove two negative conditions effecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, Weaken, and Fear or a single condition from a spell of 4th level or lower, such as _Petrify_.
 
 Add a normal die for every level above 5th.
 
@@ -678,7 +681,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-You attempt to exorcise an undead, fiend, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any posession or effects this creature was maintaining.
+You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any posession or effects this creature was maintaining.
 
 Add a proficiency die to the roll for every level above 6th.
 

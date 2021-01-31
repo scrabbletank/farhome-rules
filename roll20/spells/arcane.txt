@@ -361,9 +361,9 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to counter the flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the cast spells spellcasting roll. On success the spell is countered and has no effect.
+Attempt to counter a creatures flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the caster's spellcasting roll, adding a success to your roll for every point of mana spent above the target spell or adding a failure for every point of mana spent below the target spell. On success the target spell has no effect.
 
-Add a normal die for every level cast above 3rd.
+Multiple casters can attempt to counter the same spell. When multiple casters cast _Counter Spell_ you use the combined mana across all casts when determining your roll.
 
 ___
 #### Far Sight
@@ -491,7 +491,7 @@ ___
 - **Duration:** 10 minutes
 - **Damage Type:** Cold
 
-You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your normal weapon attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The Lance is a Two-handed weapon with Reach, and deals 1 wound and 1 wound die in cold damage. Instead you may throw the lance at a target creature within 10 tiles. Make a spellcasting roll against the creatures Defense, dealing 1 wound and 2 wound dice on hit and giving a level of Slow for every crit rolled. All adjacent creatures take 1 wound, and Slow 1 if you crit. The spell ends after 10 minutes or all spears have been thrown.
+You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your normal weapon attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The Lance is a Two-handed weapon with Reach, and deals 1 wound and 2 wound dice in cold damage. You may throw the lance at a target creature within 10 tiles causing it to explode and hit all adjacent creatures. Make a spellcasting roll against the creatures Defense, dealing 1 wound and 2 wound dice on hit and giving a level of Slow for every crit rolled.
 
 You can make one attack, melee or thrown, when casting this spell.
 
@@ -516,7 +516,7 @@ ___
 - **Range:** Touch
 - **Duration:** 24 hours
 
-For the duration of the spell a creature is undetectable by most forms of magic. Any spell of 4th level or below that grants sight does not see this creature, and locate spells of a similar level fail to find them. When using spells of 5th level or higher, such as _Scrying_, roll 4 superior die against the spellcasting roll, staying undetectable on success.
+For the duration of the spell a creature is undetectable by most forms of magic. Any spell of 4th level or below that grants sight does not see this creature, and locate spells of a similar level fail to find them. When using spells of 5th level or higher, such as _Scrying_, roll your spellcasting roll against the _Scrying_ spellcasting roll, staying undetectable on success.
 
 You may target an additional creature for every level above 4th.
 
@@ -630,7 +630,9 @@ ___
 - **Duration:** instant
 - **Damage Type:** Fire
 
-A great wall of fire, 10 tiles wide and 3 tiles high, errupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll against your spellcasting. On hit they take 1 wound and 3 wound die in damage, and are ignited for 1 minute on a crit. On success they take half damage, rounded down. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
+A great wall of fire, 10 tiles wide and 3 tiles high, errupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll against your spellcasting. On hit they take 1 wound and 3 wound dice in damage, and are ignited for 1 minute on a crit. On success they take half damage, rounded down. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
+
+Ignited creatures take 1 wound of fire damage at the start of their turn. They may spend 5 AP extinguishing the fire, leaving them prone.
 
 Add a wound die for every level above 5th.
 
@@ -715,7 +717,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Force
 
-Harness your magic and unleash a destructive wave of force. A blast of force 5 tiles wide and 12 tiles long erupts from your hands. All creatures in the blast must make a Strength save against your spellcasting. On fail they take 6 wound dice in damage and are thrown back half the distance of the wave, on success they are pushed back 1 tile and take half damage, rounded down. Objects and structures in the wave are destroyed, leaving difficult terrain.
+Harness your magic and unleash a destructive wave of force. A blast of force 5 tiles wide and 12 tiles long erupts from your hands. All creatures in the blast must make a Strength save against your spellcasting. On fail they take 7 wound dice in damage and are thrown back half the distance of the wave, on success they are pushed back 1 tile and take half damage, rounded down. Objects and structures in the wave are destroyed, leaving difficult terrain.
 
 The length of the wave increases by 3 and wound dice increases by 1 for each level above 6th.
 
