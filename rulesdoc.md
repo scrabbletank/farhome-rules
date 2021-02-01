@@ -1926,6 +1926,7 @@ On fail the magic grounds itself through you, dealing 1 wound die in force damag
 ##### Fifth
 - [Curse of Pain](#Curse-of-Pain)
 - [Heart Grip](#Heart-Grip)
+- [Impale](#Impale)
 - [Mind Break](#Mind-Break)
 - [Suggestion](#Suggestion)
 - [True Sight](#True-Sight)
