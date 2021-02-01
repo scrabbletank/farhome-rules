@@ -748,7 +748,7 @@ ___
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Willpower, -1 Intelligence
 
-##### Hunter
+##### Forest Warrior
 
 You gain 1 proficiency with either a bow or a spear, and gain a maneuver that uses that weapon.
 
@@ -1470,7 +1470,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Lightning
 
-Fire a bolt of lightning, hitting all creatures in a 15 tile line. The lightning ricochets off walls and solid objects. All creatures must make a Dexterity save against your spellcasting. On fail, they take 1 wound and 2 wound dice, plus a wound die for every crit, or 1 wound on success.
+Fire a bolt of lightning, hitting all creatures in a 25 tile line. The lightning ricochets off walls and solid objects. All creatures must make a Dexterity save against your spellcasting. On fail, they take 1 wound and 2 wound dice, plus a wound die for every crit, or 1 wound on success.
 
 Add a proficient die for every level above 4th.
 
@@ -1495,7 +1495,7 @@ ___
 
 You conjure an orb of vitriolic acid, launching it at a target point in range you can see. On impact the orb explodes in a splash of acid, hitting all creatures in a 5 tile diamond. Creatures must make a Dexterity save against your spellcasting modifier, on fail they take 3 wound dice in damage. On crit, the acid breaks any creature wearing armor causing it to give one less defense die. Armor that gives no bonus is destroyed.
 
-Regardless of outcome acid covers the floor for the next minute. Any creature that starts their turn, or takes a move or sprint action onto the acid take 1 wound die in damage.
+Regardless of outcome acid covers the floor for the next minute. Any creature that starts their turn, or takes a move or sprint action onto the acid take 1 wound in damage.
 
 The area of the blast increases by 2 and the initial damage adds 1 wound die for every level above 4th.
 
@@ -2127,9 +2127,9 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 1 minute
-- **Damage Type:** Pyschic
+- **Damage Type:** Psychic
 
-Fire a bolt of pyschic force at a creature in range you can see. If the target is not Hexxed add 1 bad die to your roll. Make a spellcasting roll against the targets Willpower. On success deal 1 wound, rolling a wound die if the target is also Hexxed. On crit, the target gains Hex, or increases their level of Hex for 1 minute up to a max of 3. For the next minute, once per turn you may spend 2 AP to make an attack against the same target or move it to another target within 30 ft.
+Fire a bolt of psychic force at a creature in range you can see. If the target is not Hexxed add 1 bad die to your roll. Make a spellcasting roll against the targets Willpower. On success deal 1 wound, rolling a wound die if the target is also Hexxed. On crit, the target gains Hex, or increases their level of Hex for 1 minute up to a max of 3. For the next minute, once per turn you may spend 2 AP to make an attack against the same target or move it to another target within 30 ft.
 
 Add a proficiency die for every level above 1st.
 
@@ -2139,9 +2139,9 @@ ___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
-- **Damage Type:** Pyschic
+- **Damage Type:** Psychic
 
-You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the targets Intelligence. On success the creature takes 1 wound and 1 wound die of pyschic damage, and must spend its AP fleeing from you on crit. The creature, if able, moves 1 tile per remaining AP up to their movespeed, avoiding dangerous terrain if possible.
+You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the targets Intelligence. On success the creature takes 1 wound and 1 wound die of psychic damage, and must spend its AP fleeing from you on crit. The creature, if able, moves 1 tile per remaining AP up to their movespeed, avoiding dangerous terrain if possible.
 
 Regardless of if the spell hits the creature is distracted by the whispers and cannot make opportunity attacks against you this turn.
 
@@ -2601,9 +2601,23 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound dice in damage and all healing they recieve is half as effective until they take a long rest and on crit they are stunned until the end of their next turn. On success they take half damage, rounded down, and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
+Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound dice in damage and all healing they recieve is half as effective until they take a long rest. On crit they are stunned until the end of their next turn. On success they take half damage, rounded down, and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
 
 Add a wound die to the damage for every level above 5th.
+
+___
+#### Impale
+*5th Level*
+- **Casting Time:** 8 AP
+- **Range:** Touch
+- **Duration:** instant
+- **Damage Type:** Piercing
+
+A line of bones sprout from the ground, impaling all creatures in a 5 tile line. All creatures in the line make a Defense roll against your spellcasting roll. On fail they take 2 wound and 3 wound dice in damage and the bones impale them, restraining them in place. On success the creatures take no damage and are grappled instead.
+
+The bones extend 8 feet high and are permanent, blocking movement through those tiles. The bones have 1 wound and roll 3 superior defense dice when saving against any attack or spell. To free a grappled or restrained creature the bones holding that creature must be destroyed.
+
+Add a proficient die to the spellcasting roll and increase the length of the line by 1 tile for every level above 5th.
 
 ___
 #### Mind Break
@@ -2613,7 +2627,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Psychic
 
-Can only be cast against a creature that can look into your eyes. You make a telepathic link to the target, using your will to shatter their mind. The target makes an Intelligence save against your spellcasting. On fail, roll a wound die for every remaining success from your spellcasting roll. If you deal at least 1 damage the target is dazed for the next minute.
+Can only be cast against a creature that can look into your eyes. You make a telepathic link to the target, using your will to shatter their mind. The target makes an Intelligence save against your spellcasting. On fail, roll a wound die for every remaining success and crit from your spellcasting roll. If you deal at least 1 damage the target is dazed for the next minute.
 
 Add a normal die to the spellcasting roll for every level above 5th.
 
@@ -2692,7 +2706,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Psychic
 
-You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes an Intelligence save against your spellcasting roll. On fail they take 4 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn. On success they take half damage and Dazed until the end of their next turn.
+You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes an Intelligence save against your spellcasting roll. On fail they take 5 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn. On success they take half damage and Dazed until the end of their next turn.
 
 Add a wound die for every level cast above 6th.
 
@@ -2771,7 +2785,7 @@ ___
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-You overpower a creatures mind you can see, taking control of it. Make a spellcasting roll against the targets Willpower, on success you possess the creature, sensing through the creatures senses and taking actions for the creature. For the duration you become incapacitated, taking actions for the creature during the creatures turn. Taking damage as the creature causes you to make concentration checks as if you took the damage yourself. If the creature dies while you are still in control of it you take 3 wounds of pyschic damage from the strain of dying.
+You overpower a creatures mind you can see, taking control of it. Make a spellcasting roll against the targets Willpower, on success you possess the creature, sensing through the creatures senses and taking actions for the creature. For the duration you become incapacitated, taking actions for the creature during the creatures turn. Taking damage as the creature causes you to make concentration checks as if you took the damage yourself. If the creature dies while you are still in control of it you take 3 wounds of psychic damage from the strain of dying.
 
 Add a superior die for every level above 8th.
 
@@ -4245,16 +4259,18 @@ When you make a roll, you may reroll up to your charisma worth of dice. This can
 When taking damage from any source you may reroll 1 wound die, taking the new value.
 
 #### Hunter
-Choose an enemy type: goblinoid, beast, humanoid, giant, dragon, fey, demon, undead, outsider, monstrosity. Attacks, maneuvers, spellcasting and skill checks against this creature type gain 1 superior die. When encountering a creature of the chosen type you immediately recognize it belongs to that type. You choose an additional type at 11th level.
+Your skill in hunting creatures has given you an edge in identifying weaknesses. You may study the body of a dead non-humanoid creature to learn its weaknesses. Studying a creature takes an hour after which you learn 1 piece of information about the creature, such as its max wounds, an attribute, a resistance or vulnerability or one of its features.
+
+Each day you can study your notes to gain 1 critical to all of your rolls against this creature until your next long rest. Preparing weaknesses is done the same way you prepare spells and counts towards your prepared spells for that day.
 
 #### Armor Expert
-You reduce the penalties of wearing armor to 1 Bad die for medium armor and 1 Terrible die for Heavy armor. When making a defense roll you ignore the first crit rolled against you. The crit still counts as 2 successes but does not trigger critical hit effects.
+You reduce the penalties of wearing armor to 1 Bad die for medium armor and 1 Terrible die for Heavy armor. When making a defense roll you start with 1 critical success.
 
 #### Quick Healing
 You gain 4 Healing Surges instead of 3 each long rest. When rolling Healing Surges, roll 4 wound dice instead of 3.
 
 #### Alert
-You take no penalty to surprise and you add 1 superior die to initiative rolls.
+You take no penalty from being surprised and you add 1 superior die to initiative rolls.
 
 #### Agile
 As long as you aren't wearing armor, you roll defense die equal to your Dexterity score.
@@ -4269,10 +4285,10 @@ You gain proficiency in Curse spells.
 You gain proficiency in Divine spells.
 
 #### Battle Mage
-If you cast a cantrip or 1st level spell, your next basic attack costs 2 less AP. The spell level increase to 2 at 7th level, and 3 at 15th level, and 4th at 25th level.
+Once per turn, if you cast a cantrip or 1st level spell your next basic attack costs 2 less AP. Alternatively if you make a basi attack your next cantrip or 1st level spell costs 2 less AP, with a minimum of 1. The spell level increases to 2 at 7th level, and 3 at 15th level, and 4th at 25th level.
 
 #### Flurry of Blows
-After an unarmed attack, if you have nothing in your offhand you may take the Off-Hand attack action, making two unarmed attacks instead of one, each rolling a single wound for damage.
+After an unarmed attack if you have nothing in your offhand you may take the Off-Hand Attack action, attacking the creature twice. The attacks add 1 bad die to their roll and do not use proficiency.
 
 #### Wrestler
 When grappling a creature you gain 2 superior dice when making Strength rolls to grapple, move or shove a creature.

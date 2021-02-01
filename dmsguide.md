@@ -614,6 +614,18 @@ Once per day you may cast Wall of Faith, automatically succeeding the roll. When
 
 A large blue orb with storm clouds swirling inside. While attuned to this item all Lightning spells you cast start with 1 crit (but no successes) and you may reroll 1 die for those rolls. Regardless of the weather, while you hold the orb it is always considered stormy weather for the purposes of spellcasting.
 
+#### Void Stone
+*Wondrous Item*
+
+A magic stone from the Astral Void. While holding the stone you can spend 3 AP and 2 mana to open up a rift in space that pulls in the user. At the start of your next turn you attempt to exit the rift in an open space within 1000 ft (200 tiles). Make a hard Arcana check, on success you appear within a few tiles, with each failure placing you progressively farther away.
+
+#### Heart of Madness
+*Wondrous Item, Requires Attunement*
+
+A pitch black cube, untarnished through age where not even dust settles on it. Each edge is exactly the same length, and the edges seems to bend light causing it to glitter.
+
+While attuned to the Heart of Madness you may use it to cast any damaging spell you have prepared, reducing its mana cost by 3. When cast this way the spells damage type changes to Death damage and it no longer inflicts any conditions or effects other than damage and it ignores critical effects. Instead, on crit target creatures gains Hex 1 for 1 minute.
+
 
 ## Swords of Tyr
 
@@ -662,3 +674,38 @@ The sword has 6 charges, regaining all charges when bathed in the light of a ful
 -Range: 5
 
 Targeting up to 3 creatures in range, they make a Strength save against 4 Superior dice. On hit they take 1 wound in force damage, adding a wound die on crit.
+
+#### Astraea +3
+*Magic Sword +3*
+
+Once per day, can cast Starfall at 4th level using 5 superior die for the roll.
+
+The sword has 10 charges, regaining 2 charges every night Astraea can see the sky. When activating the sword, either by spending a charge or taking the _Starcall_ Maneuver, you gain the effects of _Enhance Ability_ for 10 minutes. While attuned to Astraea you gain the _Starcall_ and _Dimension Door_ maneuvers.
+
+This sword is always under the effects of the spell _Sword Burst_ (1st level), and when landing a critical hit with the sword you may drain an attribute from the creature. You choose the attribute with the creature losing 1 point and you gaining 1 point in the chosen attribute. This effect lasts for 1 hour, during which you have expertise on all rolls using that attribute and gain madness. This can only effect one creature at a time and applying this to a new creature ends the effects on the old creature.
+
+**Dimension Door**
+
+-AP: 5
+-Range: 60
+-Cost: 2 Charges
+
+You create a magical rift at a target location you can see, visualize, or recall within range. The rift pulls you and anything you're carrying in and instantly teleports you to the target location. The maneuver fails if you attempt to teleport into a solid object or otherwise can't pass through the rift.
+
+You may instead use this maneuver targetting an adjacent creature. The creature makes a Dexterity save against 4 superior dice, being teleported to the location on fail.
+
+### Death
+
+#### Death +1
+*Magic Weapon +1*
+
+The sword exudes necrotic energy. After killing a creature, for the next hour when making an attack or maneuver with this weapon it deals an extra wound of Death damage on crit.
+
+#### Death +2
+*Magic Weapon +2*
+
+This weapon has 5 charges, regaining 1 after killing a creature with it, or all charges after killing a Good aligned creature. You may spend 1 charge to cast _Bleed_ at 2nd level using 4 superior dice for the spellcasting roll.
+
+After killing a creature, for the next hour you gain the following effects:
+- When making an attack or maneuver with this weapon it deals an extra wound of Death damage on crit.
+- You gain 1 temporary wound every time you deal death damage with this sword.
