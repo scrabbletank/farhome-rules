@@ -4702,6 +4702,11 @@ When gaining temporary wounds, you may heal missing wounds instead. When casting
 
 You add 2 Superior dice to Intelligence, Willpower, and Charisma saves against Undead, Demons, Outsiders, Celestials and Fey. Divine spells you prepare are not forgotten when taking a long rest and do not require a codex to cast.
 
+#### Tactician
+*Requires 5 Intelligence, 20th Level*
+
+Once per long rest, when rolling initiative as long as you are not surprised you may move a single creature you are aware of to any position in the initiative. You have expertise in Insight, Diplomacy and those skills use Intelligence instead of their normal attribute.
+
 #### Strength of Mind
 *Requires 5 Willpower, 20th Level*
 
