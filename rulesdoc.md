@@ -2614,11 +2614,11 @@ ___
 - **Duration:** instant
 - **Damage Type:** Piercing
 
-A line of bones sprout from the ground, impaling all creatures in a 5 tile line. All creatures in the line make a Defense roll against your spellcasting roll. On fail they take 2 wound and 3 wound dice in damage and the bones impale them, restraining them in place. On success the creatures take no damage and are grappled instead.
+A line of bones sprout from the ground, impaling all creatures in a 5 tile line. All creatures in the line make a Defense roll against your spellcasting roll. On fail they take 1 wound and 3 wound dice in damage and the bones impale them, restraining them in place. On success the creatures take no damage and are grappled instead.
 
 The bones extend 8 feet high and are permanent, blocking movement through those tiles. The bones have 1 wound and roll 3 superior defense dice when saving against any attack or spell. To free a grappled or restrained creature the bones holding that creature must be destroyed.
 
-Add a proficient die to the spellcasting roll and increase the length of the line by 1 tile for every level above 5th.
+Add a wound die to the damage and increase the length of the line by 1 tile for every level above 5th.
 
 ___
 #### Mind Break
@@ -3734,6 +3734,7 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 - [Heavy Swing](#Heavy-Swing)
 - [Press the Attack](#Press-the-Attack)
 - [Smite](#Smite)
+- [Sucker Punch](#Sucker-Punch)
 
 ##### Level 4
 - [Deflect](#Deflect)
@@ -3904,7 +3905,7 @@ ___
 #### Guided Strike
 - **AP Cost:** 5/4
 - **Weapon:** Any
-- **Range:** Melee
+- **Range:** Weapon Range
 - **Level Required:** 2/10
 
 Make a weapon attack against a creature, using any spellcasting roll instead of your attack roll. On hit the target takes normal damage, and ignores 1 level of Resistance on crit.
@@ -3979,15 +3980,26 @@ Empower your weapon with holy might. This attack consumes up to 2 mana. Make a n
 ***Enhanced:*** Add a superior die instead of a proficient die to your attack roll, you may use up to 4 mana.
 
 ___
+#### Sucker Punch
+- **AP Cost:** 2/2
+- **Weapon:** N/A
+- **Range:** Melee
+- **Level Required:** 3/13
+
+Take advantage of an opponents spellcasting to quickly attack. As a reaction, when a hostile creature adjacent to you begins casting a spell you may make a normal weapon attack against them. On hit you deal a wound die in damage and add a bad die to their spellcasting roll, adding additional bad dice for every crit rolled in your attack.
+
+***Enhanced:*** On hit, the first die added to their spellcasting roll is a terrible die instead of a bad die.
+
+___
 #### Deflect
-- **AP Cost:** 2/1(3)
+- **AP Cost:** 2/1
 - **Weapon:** N/A
 - **Range:** Melee
 - **Level Required:** 4/12
 
 Can only be used when the target of a ranged weapon attack. Instead of making a defense roll against the attack, make a sleight of hand roll instead. On success you catch the projectile, taking no damage.
 
-***Enhanced:*** After catching the projectile you may spend 2 AP to fire the projectile back, as long as you have a ranged weapon that can fire the projectile. Add 1 proficiency die to the roll.
+***Enhanced:*** After catching the projectile you may spend 2 AP to fire the projectile back. Make a ranged attack against a target within 5 tiles adding a proficient die to your roll. On hit you deal normal damage with that ammunition.
 
 ___
 #### Cleave
@@ -4221,9 +4233,10 @@ Either by circumstance or choice, your time in the pits has honed your senses in
 #### Blessed
 Known to you or not, you have been given a blessing by a powerful being. You gain access to additional feats based on which being has given you their blessing. In addition, you gain starting benefits based on the blessing:
 
-- **Fae Court:** You are an innate spellcaster. You start with 2 mana and you add 1 superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_.
+- **Fae Court:** You are an innate spellcaster. You start with 2 mana and you add 1 superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
 - **Earthen:** When unarmored you roll 3 defense dice instead of 2. Regardless of duration, when you gain Poison 1 it disappears at the end of your next turn. This has no effect on effects with Poison 2 or higher.
-- **Blight:** You have a natural affinity with the Undead. You can sense the presence of Undead within 10 tiles of you. When dealing necrotic damage you deal a minimum of 1 wound.
+- **Blight:** You have a natural affinity with the Undead. You can sense the presence of Undead within 10 tiles of you. When dealing necrotic damage you deal a minimum of 1 wound before resistances.
+- **Abyssal:** You have unnatural luck. Once per long rest you may redo a roll, rerolling all dice and taking the new roll. You know the spell _Eldritch Blast_ without needing to prepare it and can cast it without a codex. Casting _Eldritch Blast_ costs 1 less AP.
 
 #### Enchanter
 You have learned the trade of an enchanter, allowing you to empower mundane items. You gain 1 proficiency in Lore, Arcana, and Diplomacy, and Enchanting tools. Enchantments cost half as much when done by yourself, and you may use 2 pieces of enchanted gear instead of 1. You start with 2 mana.
@@ -4340,26 +4353,6 @@ Reduces the cost of spells by 1 AP.
 *Requires 2 Stamina*
 
 You add 1 superior die to your Concentration rolls.
-
-#### Unlocked Potential
-*Requires Chosen, 10th Level*
-
-Your ability to manipulate your patron's powers allows you to learn a 2nd spell, following the same rules as _Chosen_. In addition you may cast up to 2 spells this way before needing to rest.
-
-#### Elder Sight
-*Requires Chosen, 2 Willpower*
-
-You permanently get the benefits of the spell _Dark Sight_, and gain 1 proficiency in perception.
-
-#### One with Shadows
-*Requires Chosen, proficiency in Stealth*
-
-While not in direct sunlight you have expertise in stealth. While in dim light or darkness you can spend 5 AP to become invisible. The invisibilty ends when you move or take an action.
-
-#### Beast Speech
-*Requires Chosen, proficiency in Conversation*
-
-You can speak with animals and cast _Animal Messenger_ at 1st level without a codex and without spending mana.
 
 #### Action Surge
 *Requires 5th Level*
@@ -4657,11 +4650,6 @@ When taking lethal damage, as long as the total damage is less than or equal to 
 
 You take no penalties from wearing armor. When making a defense roll you may reroll 1 defense die, taking the new value.
 
-#### Eldritch Force
-*Requires Chosen, 1 Intelligence, 8th Level*
-
-When casting Eldritch blast you may target 2 creatures.
-
 #### Durable Runes
 *Requires Runesmith, 10th Level*
 
@@ -4749,15 +4737,26 @@ Using your fae allure you can attempt to charm a humanoid creature. They make a 
 
 #### Foxfire
 
-Spending 2 mana you may enchant your next single target attack or maneuver with foxfire. The defending creature makes a Dexterity save against the attack instead of their normal roll and the attack deals an extra 2 wound dice of fire damage on hit. You may instead Enchant arrows with the Foxfire effect. When you or another makes an Enchanting roll to create Homing Arrows you may spend 2 mana to create Foxfire arrows instead.
+Spending 2 mana you may enchant your next attack or maneuver with foxfire. The defending creature makes a Dexterity save against the attack instead of their normal roll and the attack deals an extra 2 wound dice of fire damage for single target attacks or 1 wound die when targeting multiple creatures. You may instead Enchant arrows with the Foxfire effect. When you or another makes an Enchanting roll to create Homing Arrows you may spend 2 mana to create Foxfire arrows instead.
 
 #### Enchantment
+*Requires 8th Level*
 
 As long as you are not wearing or carrying iron, any attack, maneuver, or spell attack against you adds 1 bad die to the roll.
+
+#### Jinx
+*Requires 2 Charisma*
+
+Before casting a non-damaging spell you can empower it. An empowered spell in addition to the spells effects causes the target creatures to gain Hex 1 for 1 minute on crit. You can do this up to your Charisma score, after which you must long rest to use this again.
 
 ___
 ### Earthen
 Only those blessed by nature or earth elementals can take these feats
+
+#### Beast Speech
+*Requires proficiency in Conversation*
+
+You can speak with animals. You know the spell _Animal Messenger_ without needing to prepare it and you may cast it without a codex and without spending mana.
 
 #### Stone Skin
 *Requires 5th Level*
@@ -4788,6 +4787,41 @@ You may have up to your Willpower score in Undead under your control. For each u
 #### Siphon Undead
 
 You can sense the life force keeping Undead alive. On your turn you may spend 5 AP to touch an undead, draining their life force to heal yourself. If targeting an unwilling creature they make a Stamina save against your Willpower. On fail they take 2 wounds in damage and you regain 1 wound of health.
+
+#### Undead Vitality
+*Requires 2 Stamina, 5th Level*
+
+When you long rest, for every healing surge you regain that exceeds your maximum you instead gain temporary wounds equal to the excess healing surges.
+
+#### Sleepless
+*Requires proficiency in Exhaustion*
+
+When targeted by the _Sleep_ spell you count as having twice as many wounds. For any other effects that cause you to fall asleep you add 3 superior dice to the saving throw. You only need 4 hours for a long rest instead of 8.
+
+___
+### Abyssal
+Only those blessed by a powerful demon can take these feats
+
+#### Elder Sight
+*Requires 2 Willpower*
+
+You permanently gain the benefits of the spell _Dark Sight_, and gain 1 proficiency in Perception.
+
+#### One with Shadows
+*Requires proficiency in Stealth*
+
+While not in direct sunlight you have expertise in Stealth. While in dim light or darkness you can spend 5 AP to become invisible. The invisibilty ends when you move or take an action.
+
+#### Eldritch Force
+*Requires proficiency with Curse spells, 8th Level*
+
+When casting Eldritch blast at 1st level or above you add 1 wound to the damage.
+
+#### Fiendish Trickery
+*Requires proficiency in Sleight of Hand*
+
+When targeted by a damaging attack, maneuver or spell you may add 1 Terrible die to their attack or spellcasting roll. You may do this a number of times equal to your Sleight of Hand proficiency, after which you must long rest before using this feat again.
+
 
 ## Items
 ### Consumables
