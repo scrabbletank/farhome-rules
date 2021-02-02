@@ -80,6 +80,7 @@
 - [Fae Court](#Fae-Court)
 - [Earthen](#Earthen)
 - [Blight](#Blight)
+- [Abyssal](#Abyssal)
 
 [Items](#Items)
 - [Consumables](#Consumables)
