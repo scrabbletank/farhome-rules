@@ -94,6 +94,14 @@
   - [Scribing Tools](#Scribing-Tools)
 
 
+## Preface
+
+What once started as a series of homebrew rules has turned into a full fledged rule book. Inside this book is a set of rules that many of you will be familiar with. Anyone who's played a fantasy tabletop roleplaying game has probably rolled dice to hit a goblin, made an athletics check to kick down a door, or cast an iconic fireball into a crowd of monsters. The rules in this book describe an alternate way to play the same game we've been playing for ages, one that hopefully gives a simplified, more engaging experience that offers players more _freedom_ with their characters. And _fun_, because I wouldn't be writing this if I didn't have fun playing it.
+
+There are a few things here you won't find elsewhere, however. There are **no classes** in Farhome. Instead you are given a blank slate. **Backgrounds** help define who your character was before becoming an adventurer, leaving how they grow and advance up to you. Combat has been streamlined with **action points**, giving you more options in playing your turn. Dice rolls are always **contested** by either the GM or another player, keeping the game active and engaging. Dice rolls also use a **success/failure** system instead of adding numbers, with failure (and success!) always being a possibility.
+
+While many things have been simplified, there's still loads of depth in these rules. They offer more ways to be creative with your characters and their actions, providing opportunities for teamwork while still giving each character their space to shine. Which is neat.
+
 ## Introduction
 
 Farhome is a tabletop role playing system set in a fantasy world of magic, monsters, and adventures. You and a group of friends play as adventurers, exploring and interacting with a world created by another one of your friends, the Game Master. While the rules in the book give structure to how your adventurers interact with the world, largely the game is driven by you and your friends imaginations. 
@@ -120,13 +128,23 @@ Each time your group meets to play you can expect to spend 2-3 hours playing. Du
 
 Adventures usually have a distinct beginning and end. As an example an adventure may require you to save a village from monsters. You will need to talk to the villagers and gather information about whats attacking them. The villagers may tell you the monsters live in the forest outside town, which you will need to explore. On finding the monsters lair you come up with a plan to defeat it, and after defeating it return to the village where they reward you with a magical sword. Your group may finish an adventure in a single session, or it might take many sessions, spanning many locations, people, and monsters.
 
-When one adventure ends, another can begin. This string of quests and adventures is called a campaign. Campaigns can span months or years, with each adventure adding to one large story. Your character might die over the course of the campaign, either at the hand of a dangerous monster, villain, or any manner of way. You friends might search for a way to revive you, or you might create a new character. Over the course of the Campaign your group may fail,or everyone may meet their demise. Even so, at the end of the day a successful campaign is one where everyone is able to have a good time, regardless of if your characters 'win' or 'lose'.
+When one adventure ends, another can begin. This string of quests and adventures is called a campaign. Campaigns can span months or years, with each adventure adding to one large story. Your character might die over the course of the campaign, either at the hand of a dangerous monster, villain, or any manner of way. You friends might search for a way to revive you, or you might create a new character. Over the course of the campaign your group may fail,or everyone may meet their demise. Even so, at the end of the day a successful campaign is one where everyone is able to have a good time, regardless of if your characters 'win' or 'lose'.
 
 With that out of the way, how exactly do you start playing Farhome? Well, that part is fairly easy. The following pages describe everything from rolling dice, creating a character, and how combat works. With this you and your friends should be able to create a group of adventurers ready to explore a new and exciting world.
 
 ### GM Quick Start Guide
 
-//TODO
+Creating a world of infinite possibilities can seem like a daunting task, and well, that's because it is. This book is woefully lax in guidelines on how to run the game, but I can at least get you started and out the door. Thankfully that won't take much, as while the world is infinite the space the characters are interacting with is tiny and constrained. For now anyways, more on that later.
+
+To start, you'll need a minimum of 3 things: A town, a dungeon, and an obstacle for the players to overcome. Your players have to start somewhere in your world, and that place is usually a town. You don't need much for a town, a few names for the people living there, a tavern for players to meet them, and 1 or 2 places for your players to interact with, such as the mayors house or blacksmith.
+
+Next is a dungeon. It doesn't have to be a literal dungeon, it could be an abandoned temple, a cave, or the lair of some ferocious beast. Whatever it is, it should be big enough for the players to explore, but not too big to get lost in. This usually means 2 or 3 rooms or 'encounters'. Your dungeon may have traps to prevent entry, or be filled with hositile creatures, or both! It needs something that adds challenge and danger for your players when they explore it. It also needs a reward for completing it. A magic item held by the strongest creature in the dungeon, or some treasure hidden behind the most dangerous traps.
+
+Finally we need a reason for the players to explore the dungeon, the obstacle. This can be anything that motivates your players, for example the blacksmiths daughter was kidnapped and is being held there, it could contain a cure for a disease plaguing the town (and now players!), or it even could be a rumor of treasure. The obstacle serves to tie the town to the dungeon in a way that motivates the players. The players learn about the obstacle in the town, and head to the dungeon to overcome it.
+
+With those 3 things you have your first adventure and are ready to run your first game. Making your second adventure will be easier than your first, you already have the town after all. As your game progresses, so does the world you created, adding other towns and villages as you need them. Maybe this land is ruled by a king, or some fiendish villian is plotting against the players behind the scenes.
+
+As your players experience your world they'll eventually want to branch out. They may get access to spells making travel easier, want to seek out that dastardly villain, or just want to explore. Eventually you'll need a big world for them to explore, but all of that starts with a town, a dungeon, and an obstacle.
 
 ### Rolling Dice
 
@@ -252,22 +270,22 @@ Some abilities may impose combat advantage against you or an enemy. Someone who 
 Your characters aptitude is represented by 6 core attributes: Strength, Dexterity, Stamina, Intelligence, Willpower, Charisma. Each attribute governs a number of skills in addition to the following:
 
 #### Strength
-Each point of Strength adds a die to your melee attacks.
+Each point of Strength improves your melee attacks.
 
 #### Dexterity
-Each point of Dexterity adds a die to your ranged attacks and melee weapons with the _finesse_ property.
+Each point of Dexterity improves your ranged attacks and melee weapons with the _finesse_ property.
 
 #### Stamina
 Each point of Stamina increases your max wounds by 1.
 
 #### Intelligence
-Each point of Intelligence adds a die to your Arcane spellcasting rolls.
+Each point of Intelligence improves your Arcane spellcasting rolls.
 
 #### Willpower
-Each point of Willpower adds a die to your Curse spellcasting rolls.
+Each point of Willpower improves your Curse spellcasting rolls.
 
 #### Charisma
-Each point of Charisma adds a die to your Divine spellcasting rolls.
+Each point of Charisma improves your Divine spellcasting rolls.
 
 ## Proficiency
 Proficiency is a measure of how capable your character is at a given skill or task. Every skill, weapon type, spell school, tool, and attribute save have their own proficiency values which can be increased as your character grows. With the exception of spell schools, there is no limit on how many skills you can be proficient in. 
