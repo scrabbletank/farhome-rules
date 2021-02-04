@@ -1,8 +1,11 @@
 # Farhome v2.1
 
 ## Table of Contents
+[Preface](#Preface)
 [Introduction](#Introduction)
-- [How to Play](#How-to-Play)
+[How to Play](#How-to-Play)
+[GM Quick Start Guide](#GM-Quick-Start-Guide)
+[Playing The Game](#Playing-The-Game)
 - [Rolling Dice](#Rolling-Dice)
 - [Calculating a Roll](#Calculating-a-Roll)
   - [Determining What Dice to Roll](#Determining-What-Dice-to-Roll)
@@ -118,7 +121,7 @@ At the end of the day Farhome is a game about make-believe and having fun. It is
 - come to an untimely death
 - roll a lot of dice along the way
 
-### How to Play
+## How to Play
 
 Before you begin, you and your friends will need to determine who will be the Game Master. The Game Master (or GM) is in charge of the world, handling all the locations, monsters, and people in the world, while everyone else is in charge of an adventurer, or character. Usually the GM is played by the same person every game, but in some games it makes sense to rotate that responsibility. Regardless, the GM acts as the main story teller, or referee. If there's ever any confusion as to how something works, or if the players want to do something that this book doesn't cover the GM has the final say on what happens.
 
@@ -132,7 +135,7 @@ When one adventure ends, another can begin. This string of quests and adventures
 
 With that out of the way, how exactly do you start playing Farhome? Well, that part is fairly easy. The following pages describe everything from rolling dice, creating a character, and how combat works. With this you and your friends should be able to create a group of adventurers ready to explore a new and exciting world.
 
-### GM Quick Start Guide
+## GM Quick Start Guide
 
 Creating a world of infinite possibilities can seem like a daunting task, and well, that's because it is. This book is woefully lax in guidelines on how to run the game, but I can at least get you started and out the door. Thankfully that won't take much, as while the world is infinite the space the characters are interacting with is tiny and constrained. For now anyways, more on that later.
 
@@ -145,6 +148,8 @@ Finally we need a reason for the players to explore the dungeon, the obstacle. T
 With those 3 things you have your first adventure and are ready to run your first game. Making your second adventure will be easier than your first, you already have the town after all. As your game progresses, so does the world you created, adding other towns and villages as you need them. Maybe this land is ruled by a king, or some fiendish villian is plotting against the players behind the scenes.
 
 As your players experience your world they'll eventually want to branch out. They may get access to spells making travel easier, want to seek out that dastardly villain, or just want to explore. Eventually you'll need a big world for them to explore, but all of that starts with a town, a dungeon, and an obstacle.
+
+## Playing The Game
 
 ### Rolling Dice
 
