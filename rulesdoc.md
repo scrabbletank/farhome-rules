@@ -2,9 +2,13 @@
 
 ## Table of Contents
 [Preface](#Preface)
+
 [Introduction](#Introduction)
+
 [How to Play](#How-to-Play)
+
 [GM Quick Start Guide](#GM-Quick-Start-Guide)
+
 [Playing The Game](#Playing-The-Game)
 - [Rolling Dice](#Rolling-Dice)
 - [Calculating a Roll](#Calculating-a-Roll)
