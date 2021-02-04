@@ -157,9 +157,9 @@ As your players experience your world they'll eventually want to branch out. The
 
 ### Rolling Dice
 
-Farhome uses a set of 6-sided dice to determine outcomes. There are 9 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a number of dice determined by your characters skills or abilities and a number of challenge dice added by the GM depending on how difficult the task is. Rolling more successes than failures means your action succeeded, while a tie or worse means your action failed. Sometimes your roll may be in opposition to another characters roll, in which case success goes to whoever has the most successes.
+Farhome uses a set of 6-sided dice to determine outcomes. There are 9 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a set of dice determined by your characters skills or abilities, adding challenge dice depending on the difficulty of the task. Rolling more successes than failures means your action succeeded. Sometimes your roll is contested by another characters roll. In these cases ties always go to the defender.
 
-Some dice have special symbols on them for Critical Successes and Critical Failures. By default these are counted as 2 success or 2 failures, but in some cases may give different results. Defense dice work similarly to the other dice, having defense symbols instead of successes. Finally wound dice are used to determine damage, healing, or in some cases chance.
+Some dice have special symbols on them for Critical Successes and Critical Failures. These count as 2 successes and 2 failures respectively as well as adding or removing a crit. Defense dice work similarly to the other dice, having defense symbols instead of successes. Finally wound dice are used to determine damage, healing, or in some cases chance.
 
 #### Legend
 - CS -- Critical Success
@@ -184,11 +184,9 @@ Some dice have special symbols on them for Critical Successes and Critical Failu
 | Hero | S | S | Sx2 | Sx2 | CS | CS |
 
 ### Calculating a Roll
-When calculating your roll, regardless of type, you always add up your own dice first. Success and failures of the same type cancel each other out, Failures nullify Success, and Critical Failure nullify Critical Success. Add up the remaining successes, counting Critical Success as two successes.
+When making a roll you add up all your successes and critical successes, negating any failures and critical failures. Keep in mind that critical rolls count as both 2 successes and a crit. For example, 2 failures can negate the successes from a critical success, but it doesn't remove the critical part of that roll. Some abilities allow you to reroll dice or change the results of a die, which can change the outcome of your roll. Your roll is then contested by either the GM adding challenge dice to your roll or by another creatures roll. The roll is a success if you have more successes than your opponent, with ties favoring the defender if there is one, or the most neutral action
 
-At this stage process any modifiers from abilities, skills or features that effect your roll. If you do not have at least 1 success at this point the roll is considered a fail.
-
-Comparing rolls follows the same rules: Opponents remaining successes nullify your successes, and their criticals nullify your criticals. Finally, if you have 1 or more successes the roll is a success. Ties favor the defender if there is one, or the most neutral action.
+It's important to remember that rolls contested by a creature can change the outcome of your roll. The defenders criticals negate any criticals you have in your roll. For example, if you have more total successes than the opponents roll, but they rolled more criticals than you the action succeeds, but does not trigger any critical effects.
 
 #### Determining What Dice to Roll
 With the exception of Defense rolls, your Attributes and Proficiencies determine what dice you roll. Defense rolls use Defense and Superior Defense dice, while other rolls use Superior, Proficient, Normal, Bad, and Terrible dice. Wound dice are used to determine how much damage an action does, such as hitting a goblin with a sword or casting _Firebolt_.
@@ -204,6 +202,9 @@ When making a defense roll you use Defense and Superior Defense dice. The number
 
 #### Attribute Saves
 Attribute Saves use the same rules as rolling a skill that uses an Attribute, with one exception: negative Attribute scores do not replace Normal dice with Bad dice. This means the lowest you can roll for an Attribute save is 5 Normal dice.
+
+#### Wound Dice
+Many attacks and spells deal wounds and wound dice to their targets. When an attack says it deals wound dice you roll the dice, dealing damage based on how many wounds you rolled. For example, a spell that deals 1 wound and 2 wound dice in damage will 1 wound of damage, adding the result of the 2 wound dice to the target.
 
 #### Hero Dice
 Hero dice are special dice players can add to any roll. You gain a number of them at the start of your adventure and once spent are not replenished. You can add at most 1 Hero die to any roll, except wound rolls. You may choose to add a Hero dice after you have rolled. Hero dice are immune to any effects that would change the outcome of the roll, it cannot be hexed, rerolled, or negated.
@@ -248,7 +249,7 @@ Some abilities or effects inflict Lesser or Greater wounds. These do not deal da
 
 ### Death Saves
 
-When a character takes enough damage to drop them to 0 wounds or below they become unconscious and start making death saves. While unconscious in this way you gain temporary wounds equal to half your total wounds rounded up. At the start of each of your turns you roll a wound die, losing 1 of your temporary wounds if the die rolls a wound. If you lose all of your temporary wounds your character dies.
+When a character takes enough damage to drop them to 0 wounds or below they become unconscious and start making death saves. While unconscious you gain temporary wounds equal to half your total wounds rounded up. At the start of each turn you roll a wound die, losing 1 of your temporary wounds if the die rolls a wound. If you lose all of your temporary wounds your character dies.
 
 Death saves aren't the only way you can lose temporary wounds, creatures can still make attacks against you and any melee attacks that hit you deal full damage regardless of the wound dice rolled. Likewise, allies can attempt to bring you back with healing spells, potions, or by stabilizing you. While in this state healing effects restore any lost temporary wounds first before restoring your wounds. If this brings you 1 wound or above you regain consciousness and no longer make death saves.
 
@@ -256,7 +257,7 @@ You can attempt to stabilize a character by making a medicine check. The check t
 
 ### Action Points
 
-Action Points (AP) are used during combat as a way of tracking how much you can get done during your turn. Action Points are refilled at the start of your turn and are spent taking actions, such as moving, attacking, or casting spells. Any unspent Action Points can be spent on reactions even when it's not your turn. Reactions are triggered by specific actions, for example opportunity attacks can only be made when a creature tries to leave your zone of control. At the start of your next turn you lose any unspent Action Points from the previous turn.
+Action Points (AP) are used during combat. Each turn you refill your pool of action points which are spent taking actions, from moving, attacking, to casting spells. Aside from a few actions (listed in the Combat section) there is no limit on which actions you can take on your turn. Any unspent action points can be spent on reactions even when it's not your turn. Reactions are triggered by specific actions, for example opportunity attacks can only be made when a creature tries to leave your zone of control.
 
 ### Maneuvers
 
@@ -265,7 +266,7 @@ Maneuvers are special abilities that can be learned by your character. They can 
 - You may only use one maneuver per turn, reaction maneuvers excluded.
 - You cannot use the same maneuver on two consecutive turns in a row.
 
-Additionally, most maneuvers have weapon or level requirements, or can only be used in specific situations, such as when an ally is attacked. The level requirement for maneuvers shows 2 levels, the first being the level you need to learn the maneuver and the second being it's enhanced level. When your character reaches the maneuver's enhanced level it gains the effects described in the 'enhanced' textblock.
+Additionally, most maneuvers have weapon or level requirements, or can only be used in specific situations, such as when an ally is attacked. The level requirement for maneuvers shows two levels, the first being the level you need to learn the maneuver and the second being the level it becomes **enhanced**. When your character reaches the maneuver's enhanced level it gains the effects described in the **enhanced** textblock.
 
 ### Healing Surge
 
@@ -273,7 +274,7 @@ Healing surges are used to heal wounds your character has suffered during a shor
 
 ### Combat Advantage
 
-Some abilities may impose combat advantage against you or an enemy. Someone who grants combat advantage are easier to hit, giving anyone who makes an attack or spell attack against the creature an extra superior die to their roll.
+Some abilities may impose combat advantage against you or an enemy. Someone who grants combat advantage are easier to hit, giving anyone who makes an attack, maneuver, or spell attack against the creature an extra superior die to their roll.
 
 ### Attributes
 Your characters aptitude is represented by 6 core attributes: Strength, Dexterity, Stamina, Intelligence, Willpower, Charisma. Each attribute governs a number of skills in addition to the following:
@@ -297,7 +298,7 @@ Each point of Willpower improves your Curse spellcasting rolls.
 Each point of Charisma improves your Divine spellcasting rolls.
 
 ## Proficiency
-Proficiency is a measure of how capable your character is at a given skill or task. Every skill, weapon type, spell school, tool, and attribute save have their own proficiency values which can be increased as your character grows. With the exception of spell schools, there is no limit on how many skills you can be proficient in. 
+Proficiency is a measure of how capable your character is at a given skill or task. Every skill, weapon type, spell school, tool, and attribute save have their own proficiency values which can be increased as your character grows. With the exception of spell proficiencies, there is no limit on how many skills you can be proficient in. You may only increase spell proficiencies if you have the appropriate background or feat.
 
 Some feats or abilities grant you expertise in a specific skill. When rolling a skill you have expertise in you may reroll 3 dice, taking the new values.
 
@@ -345,6 +346,7 @@ To use tools, you need to have at least 1 proficiency in the tool skill. Their f
 | Repair Kit | Strength |
 | Apothecary Set  | Willpower |
 | Enchanters Tools | Intelligence |
+| Scribing Tools | Intelligence |
 
 ### Attribute Saves
 
@@ -352,13 +354,13 @@ Each core attribute has an associated attribute save. Attribute saves are a meas
 
 ### Spell Schools
 
-There are 3 schools of magic: Arcane, Curse, and Divine. Each school uses its own proficiency, and can only be learned through feats or during character creation.
+There are 3 schools of magic: Arcane, Curse, and Divine. Each school uses its own proficiency, and these proficiencies can only be increased if you have a background or feat that specifies if you are proficient in that spell school.
 
 ### Weapons
 
 Weapons are split between simple and martial weapons. Simple weapons can be used by anyone and don't use their own proficiency modifier. Instead you use the relevant martial proficiency. When using a martial weapon that you don't have proficiency with you add 1 terrible die to the attack roll.
 
-Weapon proficiencies are split between 4 categories: One Handed, Two Handed, Ranged, and Unarmed.
+Weapon proficiencies are split between 4 categories: One Handed, Two Handed, Ranged, and Unarmed. By default melee weapons and unarmed use Strength while Ranged weapons use Dexterity, but this can changed based on the weapon. For example a weapon with the _finesse_ property can use Dexterity, while weapons with _Thrown_ can use Strength when used as a ranged weapon.
 
 ## Spells
 
@@ -375,7 +377,7 @@ In some games spells may be limited, or codecies a rare occurance. With this var
 
 ### Mana
 
-Casting spells of 1st level and above takes a toll on the caster, a character can only cast so many of these spells before needing to rest. Your mana is consumed each time you cast a spell, and you cannot cast a spell if you do not have the mana to cast it. Spells cost 1 mana per level to cast, increasing in cost at certain levels. You recover mana after taking a short or long rest.
+Casting spells of 1st level and above takes a toll on the caster. A character can only cast so many of these spells before needing to rest. Your mana is consumed each time you cast a spell, and you cannot cast a spell if you do not have the mana to cast it. Spells cost 1 mana per level to cast, increasing in cost at certain levels. You recover mana after taking a short or long rest.
 
 | Spell Level | Mana |
 |:----:|:-------------|
@@ -388,21 +390,19 @@ Casting spells of 1st level and above takes a toll on the caster, a character ca
 | 10th | 20 |
 
 ### Spell Power
-Spell power determines how attuned your body is to spellcasting and how easily it is to get mana. When leveling up you may choose to get mana based on your spell power. By default your spell power is equal to your characters level, and can be increased through leveling up or through feats.
+Spell power determines how attuned your body is to spellcasting and how easy it is to increase your mana. When your character levels up you may choose to get mana based on your spell power. By default your spell power is equal to your characters level, and can be increased through leveling up or through feats.
 
 ### Preparing Spells
 
-Before you can cast a spell from your Codex you must prepare it. Every long rest you can prepare 5 spells, adding 3 for every point of Intelligence you have. Having negative Intelligence does not reduce the number of spells you can prepare.
-
-Once prepared spells are castable until the next day, even without your Codex. The spells fade from your memory over the next long rest unless you prepare them again.
+Before you can cast a spell from your Codex you must prepare it. Every long rest you can prepare 5 spells, adding 3 for every point of Intelligence you have. Having negative Intelligence does not reduce the number of spells you can prepare. Once prepared spells are castable until the next day, even without your Codex. The spells fade from your memory over the next long rest unless you prepare them again.
 
 ### Casting Spells
 
-Each spell has either an AP cost or a time given as its casting time. There is no limit to the number of spells you can cast a turn, as long as you have the AP to do so. Casting a spell that lists a time instead of AP can still be used in combat, but requires the casting time worth of full turns. For example casting a spell with a cast time of 1 minute requires 3 full turns to cast.
+Each spell has either an AP cost or a time given as its casting time. There is no limit to the number of spells you can cast a turn as long as you have the AP to do so. Casting a spell that lists a time instead of AP can still be used in combat, but requires the casting time worth of full turns. For example casting a spell with a cast time of 1 minute requires 3 full turns to cast.
 
-All spells, including cantrips, can be cast at a higher level if you have enough mana available. When casting at a higher level you spend Mana equal to the level your casting at, not the spells base level. Casting spells this way give additional effects listed in the spell.
+All spells, including cantrips, can be cast at a higher level if you have enough mana available. When casting at a higher level you spend Mana equal to the level your casting at, not the spells base level. Casting spells this way gives additional effects listed in the spell.
 
-Depending on your character's level you will only be able to cast, or up-cast, spells to a certain level. The table blow shows the maximum level your character can cast based on their level.
+Depending on your character's level you will only be able to cast spells to a certain level. The table blow shows the maximum level your character can cast based on their level.
 
 | Player Level | Spell Level | Player Level | Spell Level |
 |:----:|:----:|:----:|:----:|
@@ -429,9 +429,7 @@ Your max spell level is determined on the chart below:
 
 ### Concentration
 
-Some spells require concentration to maintain. You may only concentrate on a single spell at a time, casting a new spell with concentration will end the effects of the previous spell.
-
-When you take damage while concentrating on a spell you must pass a Stamina save or the spell ends, adding 1 bad die, plus a bad die for every wound taken from the attack.
+Some spells require concentration to maintain. You may only concentrate on a single spell at a time, casting a new spell with concentration will end the effects of the previous spell. When you take damage while concentrating on a spell you must pass a Stamina save or the spell ends, adding 1 bad die, plus a bad die for every wound taken from the attack.
 
 ### Cantrips
 
@@ -466,13 +464,13 @@ Roll 2 bad dice, counting the successes.
 
 
 ## Creating a Character
-Farhome has no classes or archtypes beyond the background feats you choose. Every player is free to create their character as they wish.
+Creating a character is simple, with only a few choices that you need to make early on. To start, choose a race for your character. The race determines your starting wounds, how far you can move or sprint, as well as your starting attribute bonuses. In addition, each race has a unique feat that all people of their race share. 
 
-To begin, choose a race for your character. The race determines your starting wounds, how far you can move or sprint, as well as your starting stat bonuses. Each race has a unique feat that all people of their race share. Choose a background feat for your character. These feats can only be gained during character creation and determine what kind of skills or abilities your character has learned.
+After picking a race, choose a background feat for your character. These are unique feats that can only be chosen during character creation and determine what kind of skills or abilities your character has learned before becoming an adventurer.
 
-Next, assign your attribute scores. You start with a -1 to all attribute scores, applying any bonuses from your race, and finally adding 9 points split across your attributes. Increasing an attribute score above 3 costs 2 points, and no attribute can be above 5.
+Next, assign your attribute scores. You start with a -1 to all attribute scores, adding any bonuses from your race. You get 9 free points you can arrange across your attributes how you want. At this stage characters can have a max attribute score of 3, with 5 being the maximum you can increase an attribute from leveling up.
 
-You gain 4 proficiency points to spend on your skills and saving throws. If you have a background or feat that gives you proficiency in a spell school you may increase your spellcasting proficiency.
+You have 4 proficiency points to spend on your skills and saving throws. If you have a background or feat that gives you proficiency in a spell school you may increase your spellcasting proficiency.
 
 Finally, choose 2 of the following bonuses.
 
@@ -506,21 +504,21 @@ Currency in Farhome is divided into 3 types: the copper trite, silver cross, and
 | 15sc | Padded or Studded armor. |
 | 15sc | any martial weapon. |
 | 20sc | Upgrading armor to the next type |
-| 30sc | A Repair Kit, Apothecary Set, or Scribing Tools |
+| 30sc | A Repair Kit, Apothecary Set, Enchanters Tools, or Scribing Tools |
 
 ### Leveling Up
 
 When you earn 1000 experience your character levels up. Each level you gain 1 proficiency point and choose one of the following bonuses:
 
-- Gain 3 spell power. Gain mana based on your spell power.*
+- Gain 3 spell power and gain mana based on your spell power
 - Gain 3 proficiency points
-- Gain a Feat
-- Learn a Maneuver
+- Gain a feat
+- Learn a maneuver
 - Increase your max wounds by 1
 
 **Mana**
 
-When gaining mana, you apply the spell power gained from leveling up before adding mana from the chart below.
+When gaining mana, you apply the spell power gained from leveling up before increasing your mana based on the table below.
 
 | Spell Power | Spell Level |
 |:----:|:----:|
@@ -533,16 +531,19 @@ When gaining mana, you apply the spell power gained from leveling up before addi
 | 70+ | 15 |
 
 
-#### Attribute Score increase
+**Attribute Score increase**
+
 Starting at level 3, every 3 levels you can increase an attribute by 1.
 
-#### Action Points
+**Action Points**
+
 You gain an Action Point at levels 10 and 20.
 
-#### Max Wounds Increase
+**Max Wounds Increase**
+
 You gain 1 max wound at levels 7, 14, 21, and 28.
 
-### Earning Experience
+#### Earning Experience
 Players earn experience after every encounter based on the difficulty of the encounter. Ideally characters should be leveling up once every 4-8 encounters. Experience is earned based on how difficult it is for the players to overcome the encounter, not by how much experience an individual monster gives.
 
 
@@ -562,44 +563,46 @@ Combat is broken down into rounds where every combatant gets a turn. Turn order 
 
 #### Initiative
 
-When combat starts every player rolls for initiative. By default, you roll 5 normal dice, improving 1 to proficient dice for every point of dexterity you have, with negative dex converting die to bad die.
+When combat starts every character and creature in combat rolls for initiative. By default, you roll 5 normal dice, improving 1 to proficient dice for every point of dexterity you have, with negative dex converting die to bad die.
 
 You add a flat success/fail modifier depending on the circumstances. Surprised creatures start with 3 failures. Unarmored creatures get 1 success, light armor gets none, medium armor gets 1 failure, and heavy armoy gets 2 failures. These values can be changed by feats or skills, and other dice may be added.
+
+Combatants take turns, starting with whoever rolled the highest and ending with whoever rolled the lowest initiative. After every combatant has had a turn the round ends and a new round begins, starting with the creature that had the highest initiative. This repeats until combat is over or one side has defeated all other combatants.
 
 ### On your turn
 
 Each turn your action points are refilled. You can spend any amount of AP on your turn, and any unused AP can be used on reactions during the rest of the round. You gain no benefit for any unspent AP when your turn comes again.
 
 #### Attack (5 AP)
-Make a single weapon attack against a target creature. The actual damage, range, and effects of an attack depend on the individual weapon. Unarmed attacks use Strength and use a wound die to determine if the attack deals damage.
+Make a single weapon attack against a target creature. The actual damage, range, and effects of an attack depend on the weapon used in the attack. Unarmed attacks use Strength and deal a wound die in damage.
 
-To make an attack you must succeed an attack roll against the targets defense. If you have more successes than the targets defense you hit. Draws are in favor of the defender.
+To make an attack you must succeed an attack roll against the targets defense. If you have more successes than the targets defense you hit, with ties favoring the defender and counting as a miss.
 
 ##### Grapple
-Instead of making an attack you can attempt to grapple a creatrure. Make an atheletics check against a creatures Strength or Dexterity save, their choice. On success the creature is grappled. While grappling a creature your move and sprint speed are reduced to 1 and cannot be increased, however the grappled creature is dragged with you.
+Instead of making an attack you can attempt to grapple a creatrure. To grapple, you make an atheletics check, with the target chosing to make either a dexterity or strength save. On success the creature is grappled by you. While grappling a creature your move and sprint speed are reduced to 1 and cannot be increased, however the grappled creature is dragged with you. Anything that changes the AP cost of your attacks also effects grapples. Likewise you may attempt to grapple as many times as you want as long as you have AP and aren't currently grappling anyone.
 
-You may end a grapple at any time. A grappled creature can attempt to free themselves on their turn in place of taking the attack action. To free yourself, you must pass a Strength save against the grapplers Atheletics.
+You may end a grapple at any time. A grappled creature can attempt to free themselves on their turn by spending 5 AP. They make a strength save against your athletics check, freeing themselves on success.
 
 #### Defend (5 AP)
 Until your next turn you reroll 2 dice when making a defense roll, taking the new value. If you're holding a shield reroll 3 dice instead.
 
 #### Move (3 AP, once per turn)
-You may move up to your move speed in tiles. Some terrain may cost more than 1 tile's worth of movespeed. Movement does not have be done all at once, you can split your movement as many times as you want.
+You may move up to your move speed in tiles. Some terrain, such as difficult terrain, requires 2 tiles of movement for every tile you traverse. Movement does not have be done all at once, you can split your movement as many times as you want. For example if you have a movement of 5 you may move 3 tiles, take another action, and then move the remaining 2 tiles.
 
 #### Sprint (2 AP, can only be used after move, once per turn)
-You may move up to your sprint speed + Dexterity score in tiles. Negative Dexterity doesn't reduce the number of tiles you can sprint.
+You may move up to your sprint speed plus dexterity score in tiles. Negative dexterity has no effect on your sprint speed. Moving while sprinting follows the same rules as the Move action.
 
 #### Reaction Attack (2 AP)
 When a creature tries to leave your zone of control (the 5 adjacent tiles in front of your character, making a U shape) you may make a reaction attack against them. You cannot use maneuvers (unless the maneuver says it can be used as a reaction) and the attack uses the default Attack rules.
 
 #### Off-hand Attack (2 AP, can only be used after attack, once per turn)
-When dual wielding, as long as you have made a single 'Attack' action, you may make an attack with your offhand weapon. This attack is identical to the 'Attack' action, except you do not get any bonus from proficiency.
+When dual wielding, as long as you have made a single 'Attack' action, you may make an attack with your offhand weapon. This attack is identical to the _Attack_ action, except you do not get any bonus from proficiency.
 
 #### Use (2 AP)
-The default for using an item, drinking a potion, activating a magic item, or interacting with an object (eg: pulling a switch). Some magic items will give their own AP costs, using those instead. You can only drink one potion each round.
+This covers a wide range of actions, covering things such as: using an item, drinking a potion, activating a magic item, or interacting with an object (eg: pulling a switch). Some magic items will give their own AP costs, using those instead. While there is no limit in how many times a turn you can take the Use action, some items may have restrictions. A creature can only benefit from a single potion each round.
 
 ##### Variant Rule: Using potions on others
-You can use potions on willing or downed creatures by spending 5 AP instead of 2. Normal potion rules still apply.
+You can use potions on downed creatures by spending 5 AP instead of 2. Normal potion rules still apply.
 
 #### Spell (Varying AP)
 There is no limit to the number of spells you can cast, as long as you have enough AP to cast them. Most spells will require you to make a Spellcasting roll against the targets defense or saving throw, with ties going in favor of the defender.
@@ -761,10 +764,10 @@ This weapon can make attacks 1 tile further, and their zone of control extends a
 This weapon can only be used to attack once per turn.
 
 ##### Range
-This weapon can attack at range. Attacks further than the first number add 1 terrible dice to the roll, and cannot attack farther than the 2nd.
+This weapon can attack at range. Attacks further than the close range add 2 terrible dice to the roll, and cannot attack farther than the far range.
 
 ##### Thrown
-This weapon is thrown when used as a ranged weapon.
+This weapon can be thrown using the ranged weapon proficiency instead. You may use either Strength or Dexterity for the roll. Attacks further than the close range add 2 terrible dice to the roll, and cannot attack farther than the far range.
 
 ##### Versatile
 This weapon can be used with two hands, using the two-handed proficiency. When used this way roll additional wound dice equal to the Versatile level.
@@ -4944,8 +4947,8 @@ ___
 | | Spear | Reach | 1 | Piercing |
 | | Crossbow | Loading | 1 | Piercing |
 | *Martial*  |  |  |  | |
-| | Javelin | Range 5/10, Thrown | 1 | Piercing |
-| | Hatchet | Range 5/10, Thrown | 1 | Slashing |
+| | Javelin | Thrown 5/10, _Finesse_ | 1 | Piercing |
+| | Hatchet | Thrown 5/10 | 1 | Slashing |
 | | Axe |  | 1 | Slashing |
 | | Halberd | Versatile 1, Reach | 1 | Piercing |
 | | Flail | Versatile 1 | 1 | Bludgeoning |
@@ -4953,7 +4956,7 @@ ___
 | | Warhammer | Two-Handed | 1 + 1 wound die | Bludgeoning |
 | | Sword | Finesse | 1 | Slashing |
 | | Great Sword | Two-Handed | 1 + 1 wound die | Slashing |
-| | Battle Axe | Two-Handed | 3 wound die | Slashing |
+| | Battle Axe | Two-Handed | 3 wound dice | Slashing |
 | | Bow | Range 15/25 | 1 + arrow damage | Piercing |
 | | Arrow |  | 1 wound die | Piercing |
 
