@@ -96,15 +96,37 @@
 
 ## Introduction
 
-Farhome is a homebrew tabletop RPG system set in a fantasy world of magic, monsters, and adventures. You and a group of friends play in a shared storytelling experience, each creating a character to experience the world through. Your guide through this world is taken on by another player called the Game Master (or Game Master). Together you might explore an ancient ruin, defend a village from monsters, or fight a dragon.
+Farhome is a tabletop role playing system set in a fantasy world of magic, monsters, and adventures. You and a group of friends play as adventurers, exploring and interacting with a world created by another one of your friends, the Game Master. While the rules in the book give structure to how your adventurers interact with the world, largely the game is driven by you and your friends imaginations. 
+
+You won't find any rules in this book about what you need to roll to climb up an ogre's back, but that doesn't mean your adventurer can't try. For every scenario that isn't handled by the book it's ultimately up to the Game Master to decide how it happens, or if it's possible. In this respect the players work together with the Game Master; the players describing the actions they want to take and the Game Master describing the outcome of those actions and how the world responds.
+
+At the end of the day Farhome is a game about make-believe and having fun. It is a _collaborative_ experience, working with the Game Master to tell a story. With that being said you can expect to experience the following:
+- battle goblins and orcs
+- delve into dangerous dungeons
+- find wondrous treasures, magical trinkets, or ancient weapons
+- explore an ancient wode, a scorching desert, or the depths below the mountains
+- meet noble kings and nefarious villains
+- solve challenging puzzles and avoid deadly traps
+- come to an untimely death
+- roll a lot of dice along the way
 
 ### How to Play
 
-Farhome is a game about roleplaying and that means, well, playing a role. And while that may sound vague, at it's core roleplaying is about deciding which actions your character wishes to take and how your character responds to actions taken by others. To some this might be done by speaking in character, some describe what their character does, and others will say which action they want to take. The important thing while playing a role is that these choices come from Baranor the barbarian and not Steve the accountant.
+Before you begin, you and your friends will need to determine who will be the Game Master. The Game Master (or GM) is in charge of the world, handling all the locations, monsters, and people in the world, while everyone else is in charge of an adventurer, or character. Usually the GM is played by the same person every game, but in some games it makes sense to rotate that responsibility. Regardless, the GM acts as the main story teller, or referee. If there's ever any confusion as to how something works, or if the players want to do something that this book doesn't cover the GM has the final say on what happens.
 
-Your guide through all of this is the Game Master. They're in charge of everything in the world that isn't the players, from the forest or towns you explore, to the people you interact with, and to the dangerous monsters you fight. Their job is to present to you the world so that your characters can make decisions. The role of the GM boils down to presenting the world to the players, listening to what actions they players wish to take, and then presenting the outcome of those actions. 
+Farhome follows a narrative gameplay loop: the GM begins by describing the environment the adveturers are in, the players describe what they want their adventurers do, and finally the GM describes the results of those actions. This is the core of the game and is seen in every aspect of the game. For example the GM could be describing the dungeon your group of adventurers are exploring, giving the players a basic set of actions they could follow (the layout of the room, how many doors there are, if the adventurers see any creatures, and so on). The players then tell the GM what they want their characters to do, such as opening a door, searching for traps, or attacking a monster. The GM then describes the results of their actions: the door may be locked, or they find a poison dart trap, or surprise the monster. This often leads to another choice for the players, which starts the narrative loop all over again. This gameplay loop continues whether the players are exploring a dungeon, fighting monsters, or investigating for clues in a town.
 
-What actions you take and the world they are taken in are limited only by your imagination, although there is more structure here than just make-believe. This book contains a multitude of rules (more guidelines really) that give structure and consistency to your adventures. Still, there are cases where the outcome is uncertain, for example does your attack hit the monster, are you able to climb this cliff, or evade the town guards. In these cases you roll dice to determine wether you succeed or fail.
+Each time your group meets to play you can expect to spend 2-3 hours playing. During this time you can reasonably expect to: meet and interact with a notable non-player character (or NPC), explore a new location, fight dangerous monsters, and find something memorable. While some sessions you might never interact with an NPC, or encounter any monsters, it's these 4 experiences that build an adventure.
+
+Adventures usually have a distinct beginning and end. As an example an adventure may require you to save a village from monsters. You will need to talk to the villagers and gather information about whats attacking them. The villagers may tell you the monsters live in the forest outside town, which you will need to explore. On finding the monsters lair you come up with a plan to defeat it, and after defeating it return to the village where they reward you with a magical sword. Your group may finish an adventure in a single session, or it might take many sessions, spanning many locations, people, and monsters.
+
+When one adventure ends, another can begin. This string of quests and adventures is called a campaign. Campaigns can span months or years, with each adventure adding to one large story. Your character might die over the course of the campaign, either at the hand of a dangerous monster, villain, or any manner of way. You friends might search for a way to revive you, or you might create a new character. Over the course of the Campaign your group may fail,or everyone may meet their demise. Even so, at the end of the day a successful campaign is one where everyone is able to have a good time, regardless of if your characters 'win' or 'lose'.
+
+With that out of the way, how exactly do you start playing Farhome? Well, that part is fairly easy. The following pages describe everything from rolling dice, creating a character, and how combat works. With this you and your friends should be able to create a group of adventurers ready to explore a new and exciting world.
+
+### GM Quick Start Guide
+
+//TODO
 
 ### Rolling Dice
 
@@ -662,7 +684,7 @@ A restrained creature cannot move and adds 2 bad die to dexterity saving throws 
 A slowed creature's Move and Sprint speeds are reduced by 1. Each level of slow reduces the value by 1, to a minimum of 1.
 
 ##### Stagger
-A staggered creature is unable to take reactions.
+A staggered creature is unable to take reactions until the start of their next turn.
 
 ##### Stunned
 A stunned creature cannot move or take actions, and automatically fail Strength and Dexterity saving throws. Attackers gain combat advantage against this target.
@@ -919,6 +941,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Far Sight](#Far-Sight)
 - [Fireball](#Fireball)
 - [Flight](#Flight)
+- [Ice Knives](#Ice-Knives)
 - [Phantasmal Blades](#Phantasmal-Blades)
 - [Protective Sigil](#Protective-Sigil)
 - [Telepathic Bond](#Telepathic-Bond)
@@ -1233,7 +1256,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Cold
 
-You conjure a flurry of ice shards in a 3x3 area. Each creature makes a Stamina save against your spellcasting roll. On fail they take 2 wound die, gaining 1 level of Slow for the next minute on crit.
+You conjure a flurry of ice shards in a 3x3 area. Each creature makes a Stamina save against your spellcasting roll. On fail they take 2 wound dice, gaining 1 level of Slow for the next minute on crit.
 
 Increase the wound dice by 1 and level of slow by 1 for every level above 2nd.
 
@@ -1350,7 +1373,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Fire
 
-shoot a ball of fire centered at a target point in range you can see. The fireball explodes on impact, hitting all creatures in a 5x5 area. Creatures must make a Dexterity save against your spellcasting. On failure they take 2 wounds, plus a wound die on crit, or half damage (rounding down) on success.
+You launch a ball of fire centered at a target point in range you can see. The fireball explodes on impact, hitting all creatures in a 5x5 area. Creatures must make a Dexterity save against your spellcasting. On failure they take 2 wounds, plus a wound die on crit, or half damage (rounding down) on success.
 
 Add a wound die for every level above 3rd.
 
@@ -1364,6 +1387,18 @@ ___
 Gain magical flight, allowing you to float through the air. Target up to 5 willing creatures, adding a Terrible die to the spellcasting roll for each creature targeted. On success all targeted creatures gain a flying speed equal to their movement speeds.
 
 Add a proficient die for every level above 3rd.
+
+___
+#### Ice Knives
+*3rd Level*
+- **Casting Time:** 7 AP
+- **Range:** Touch
+- **Duration:** instant
+- **Damage Type:** Cold
+
+You conjure an barrage of icicles, hitting all adjacent creatures and blasting an area 3 tiles wide and 4 tiles long infront of you. Creatures make a Stamina save against your spellcasting, taking 2 wounds in damage, being staggered on crit.
+
+Add a wound die for every level above 3rd.
 
 ___
 #### Phantasmal Blades
@@ -4521,7 +4556,7 @@ You can see the faint traces of magic around you. When making a Perception check
 #### Exertion
 *Requires 10th Level*
 
-As long as you have at least 1 AP remaining you can take an an action costing 5 AP or less. After taking the action make an exhaustion roll adding 1 bad die for every AP you overspent, gaining 1 level of exhaustion on fail.
+As long as you have at least 1 AP remaining you can take an an action that leaves you at -5 AP or more. After taking the action make an exhaustion roll adding 1 bad die for every AP you overspent, gaining 1 level of exhaustion on fail.
 
 #### Siphon Energy
 *Requires proficiency with Curse spells, 3 Willpower, 12th Level*
@@ -4753,7 +4788,7 @@ As long as you are not wearing or carrying iron, any attack, maneuver, or spell 
 #### Jinx
 *Requires 2 Charisma*
 
-Before casting a non-damaging spell you can empower it. An empowered spell in addition to the spells effects causes the target creatures to gain Hex 1 for 1 minute on crit. You can do this up to your Charisma score, after which you must long rest to use this again.
+Before casting a non-damaging spell you can empower it. An empowered spell in addition to the spells effects causes the target creatures to gain Hex 1 until the end of their next turn on crit. You can do this up to your Charisma score, after which you must long rest to use this again.
 
 ___
 ### Earthen
