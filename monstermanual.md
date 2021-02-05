@@ -184,7 +184,7 @@ ___
 
 ***Beak.*** *Maneuver*, *Melee Attack:* 8 AP, 2/3/1/0/0</br>Deals 1 wounds and 3 wound die.
 
-***Arcane Screech.*** *Maneuver*, *Special:* 7 AP, 1/1/3/0/0</br>The Owelbears screech dispels magical effects. If a creature is effected by a spell requiring concentration, or is concentrating themselves they make a concentration check. Otherwise roll a proficient die for every level of the spell that created the effect. On fail the spell ends.
+***Arcane Screech.*** *Maneuver*, *Special:* 7 AP, 1/1/3/0/0</br>The Owlbears screech dispels magical effects. If a creature is effected by a spell requiring concentration, or is concentrating themselves they make a concentration check. Otherwise roll a proficient die for every level of the spell that created the effect. On fail the spell ends.
 ___
 
 #### Bulette
@@ -199,7 +199,7 @@ ___
 |4/2|0/0|4/2|-2/0|1/0|-2/0|
 
 ___
-***Burrow.*** As part of it's movement the Bulette may burrow or unborrow as long as it is on earth or sand. After burrowing or unborrowing it cannot do this again until its next turn.
+***Burrow.*** As part of it's movement the Bulette may burrow or unburrow as long as it is on earth or sand. After burrowing or unburrowing, it cannot do this again until its next turn.
 
 **Actions**
 
@@ -245,7 +245,7 @@ ___
 |2/0|3/3|1/0|6/3|2/2|4/3|
 
 ___
-***Spellcaster.*** This creature has an Arcane and Curse spellasting proficiency of 4, 27 mana, and is a 6th level caster. They do not require a codex and know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
+***Spellcaster.*** This creature has an Arcane and Curse spellcasting proficiency of 4, 27 mana, and is a 6th level caster. They do not require a codex and know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
 
 ***Spell-Eater.*** The owl devours a spell targeting it or a point within 2 tiles. Roll 3 superior dice, if this roll is higher than the casters spellcasting roll the spell is countered and the owl gains 1 temporary wound.
 
@@ -516,7 +516,7 @@ ___
 
 ***Dive Bomb.*** *Maneuver, Melee Attack:* 5 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die in damage. The Spine devil must be flying before attacking. If the Spine devil drops 2 or more tiles before making the attack add a wound die to the damage.
 
-***Rain of Spines.*** *Maneuver, Special Attack:* 5 AP, 1/2/3/0/0</br>Fires razor sharp spines in a 90 degree arc 3 tiles long infront of it. All creatures in range make a Defense roll, taking 3 wound die on fail.
+***Rain of Spines.*** *Maneuver, Special Attack:* 5 AP, 1/2/3/0/0</br>Fires razor sharp spines in a 90 degree arc 3 tiles long in front of it. All creatures in range make a Defense roll, taking 3 wound die on fail.
 ___
 
 #### Seraptis Demon
@@ -606,7 +606,7 @@ ___
 |2/0|0/0|2/0|0/0|-1/0|0/0|
 
 ___
-***Physical Resistance.*** This creature has Resistance 1 against physical damage and Vulernability 1 against fire damage.
+***Physical Resistance.*** This creature has Resistance 1 against physical damage and Vulnerability 1 against fire damage.
 
 **Actions**
 
@@ -850,7 +850,7 @@ ___
 ___
 ***Regeneration.*** As long as this creature hasn't taken Holy or Fire damage they regenerate 2 wound dice of damage every round.
 
-***Troll Resistance.*** This creature has Resistance 2 to Poison damage and Vulernability 1 to Fire and Holy damage.
+***Troll Resistance.*** This creature has Resistance 2 to Poison damage and Vulnerability 1 to Fire and Holy damage.
 
 **Actions**
 This creature can only take 1 Bite action per turn.
@@ -1034,7 +1034,7 @@ ___
 
 ***Sneak Attack.*** *Maneuver, Melee Attack:* 3 AP, 3/1/1/0/0</br>Only usable if you are flanking or have Combat Advantage. You may reroll 4 dice in the attack roll and this deals 1 wound on hit. For every crit in your attack roll add an extra wound die to the damage.
 
-***Sucker Punch.*** *Maneuver, Reaction:* 2 AP, 3/1/1/0/0</br>When an adjacent creature is casting a spell you may attack them before their spell completes, dealing 1 wound die on hit. If the attack lands the creature adds 1 bad die, plus a bad die for every crit in your attack roll to their spelclasting roll.
+***Sucker Punch.*** *Maneuver, Reaction:* 2 AP, 3/1/1/0/0</br>When an adjacent creature is casting a spell you may attack them before their spell completes, dealing 1 wound die on hit. If the attack lands the creature adds 1 bad die, plus a bad die for every crit in your attack roll to their spellcasting roll.
 ___
 
 #### Twili Witch
@@ -1127,7 +1127,7 @@ ___
 ___
 ***Enduring.*** When taking lethal damage, as long as the attack dealt 3 or fewer wounds the Orc survives with 1 wound. Can only be used once per day.
 
-***Spellcaster.*** The Orc Shaman has 3 proficieny with Curse spells and 1 proficiency with Divine spells. They are a 4th level caster with 10 mana and a codex with the following spells: _Hex, Quicken, Web, Frog Morph, Healing Word, Regeneration_.
+***Spellcaster.*** The Orc Shaman has 3 proficiency with Curse spells and 1 proficiency with Divine spells. They are a 4th level caster with 10 mana and a codex with the following spells: _Hex, Quicken, Web, Frog Morph, Healing Word, Regeneration_.
 
 **Actions**
 
@@ -1508,7 +1508,7 @@ ___
 |-1/0|2/0|0/0|3/0|2/0|0/0|
 
 ___
-***Mimcry Casting.*** This creature does not require a codex to cast spells. Regardless of spell type they roll 0/3/2/0/0 for all spells, and add 2 Superior dice when the target of _Counter Spell_. They have 5 2nd level spell slots, but do not know any spells naturally. Instead the Merculent copies spells cast around them of 2nd level and below. The Merculent can cast the spell for the next 24 hours, after which the spell is forgotten.
+***Mimicry Casting.*** This creature does not require a codex to cast spells. Regardless of spell type they roll 0/3/2/0/0 for all spells, and add 2 Superior dice when the target of _Counter Spell_. They have 5 2nd level spell slots, but do not know any spells naturally. Instead the Merculent copies spells cast around them of 2nd level and below. The Merculent can cast the spell for the next 24 hours, after which the spell is forgotten.
 
 ***Hover.*** This creature has flying and hovers over the ground.
 
@@ -1600,7 +1600,7 @@ ___
 |2/0|1/0|2/0|-1/0|0/0|-1/0|
 
 ___
-***Skeletal Form.*** This creature has _Resistance 1_ to Piercing damage and _Vulernability 1_ to Bludgeoning damage.
+***Skeletal Form.*** This creature has _Resistance 1_ to Piercing damage and _Vulnerability 1_ to Bludgeoning damage.
 
 **Actions**
 
@@ -1621,7 +1621,7 @@ ___
 |3/1|1/1|3/1|-1/0|0/0|-1/0|
 
 ___
-***Skeletal Form.*** This creature has _Resistance 1_ to Piercing damage and _Vulernability 1_ to Bludgeoning damage.
+***Skeletal Form.*** This creature has _Resistance 1_ to Piercing damage and _Vulnerability 1_ to Bludgeoning damage.
 
 **Actions**
 
@@ -1702,7 +1702,7 @@ ___
 
 ***Claw.*** *Melee Attack:* 5 AP, 1/3/1/0/0</br>Deals 3 wound dice. On crit the target is paralyzed for 1 minute.
 
-***Devour.*** *Maneuver*, *Melee Attack:* 7 AP, 0/4/1/0/0</br>Only usable against paralyzed living creatures with a size of Medium or smaller. Target takes 2 wound dice in damage and are swalloed by the Corpse Beast. While they are devoured the Corpse Beasts movement is reduced to 1. The creature is incapacitated and at the start of their turn takes a wound in damage and gains a random Lesser Wound. After taking 5 or more damage in a single round the Corpse Beast regurgitates the creature leaving them prone in an adjacent tile. Only one creature may be Devoured at a time. A creature that dies inside a Corpse Beast is regurgitated as a Zombie.
+***Devour.*** *Maneuver*, *Melee Attack:* 7 AP, 0/4/1/0/0</br>Only usable against paralyzed living creatures with a size of Medium or smaller. Target takes 2 wound dice in damage and are swallowed by the Corpse Beast. While they are devoured the Corpse Beasts movement is reduced to 1. The creature is incapacitated and at the start of their turn takes a wound in damage and gains a random Lesser Wound. After taking 5 or more damage in a single round the Corpse Beast regurgitates the creature leaving them prone in an adjacent tile. Only one creature may be Devoured at a time. A creature that dies inside a Corpse Beast is regurgitated as a Zombie.
 ___
 
 #### Helmed Horror
