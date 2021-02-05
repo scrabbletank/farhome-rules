@@ -199,7 +199,7 @@ ___
 |4/2|0/0|4/2|-2/0|1/0|-2/0|
 
 ___
-***Burrow.*** As part of it's movement the Bulette may burrow or un-burrow as long as it is on earth or sand. After burrowing or un-burrowing, it cannot do this again until its next turn.
+***Burrow.*** As part of it's movement the Bulette may burrow or unburrow as long as it is on earth or sand. After burrowing or unburrowing, it cannot do this again until its next turn.
 
 **Actions**
 
@@ -1444,7 +1444,7 @@ ___
 ___
 ***Monstrous Resistance.*** This creature has Resistance 1 to Fire and Cold damage.
 
-***Burrow.*** This creature can burrow through the snow as part of its movement, becoming un-targetable. It cannot burrow or un-burrow during the same turn.
+***Burrow.*** This creature can burrow through the snow as part of its movement, becoming untargetable. It cannot burrow or unburrow during the same turn.
 
 **Actions**
 
@@ -1654,7 +1654,7 @@ ___
 
 ***Grasp.*** *Melee Attack:* 5 AP, 0/2/3/0/0</br>Deals 2 wound dice in cold damage.
 
-***Possess.*** *Maneuver*, *Melee Special:* 10 AP, 0/1/4/0/0</br>The target makes a Charisma save, becoming Possessed by the Ghost on fail. While possessed the Ghost controls all actions the creature takes and is un-targetable. Every time the creature takes 1 wound in damage they may make the Charisma save again, ending the possession on success. If the creature becomes incapacitated the possession ends with the Ghost appearing in an adjacent tile.
+***Possess.*** *Maneuver*, *Melee Special:* 10 AP, 0/1/4/0/0</br>The target makes a Charisma save, becoming Possessed by the Ghost on fail. While possessed the Ghost controls all actions the creature takes and is untargetable. Every time the creature takes 1 wound in damage they may make the Charisma save again, ending the possession on success. If the creature becomes incapacitated the possession ends with the Ghost appearing in an adjacent tile.
 ___
 
 #### Shadow

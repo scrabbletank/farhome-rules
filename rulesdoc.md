@@ -648,7 +648,7 @@ Creatures hiding behind objects and terrain gain bonus defense dice depending on
 | Quarter  | +1 Superior Defense die |
 | Half  | +2 Superior Defense dice |
 | 3 Quarters | +3 Superior Defense dice |
-| Full | Un-targetable |
+| Full | untargetable |
 
 ## Resting
 During the adventuring day you will sometimes need to take a rest to recover health and abilities. There are two types of rests: Short rests which take an hour and Long rests which take 8. Each day you can have at most two short rests and one long rest. Any more more rests then that have no effect.
@@ -2910,7 +2910,7 @@ You may choose to spend a minute casting this spell instead. If you do so the se
 - [Bramble](#Bramble)
 - [Breath](#Breath)
 - [Chilling Fog](#Chilling-Fog)
-- [Close Wound](#Close-Wound)
+- [Close Wounds](#Close-Wounds)
 - [Healing Word](#Healing-Word)
 - [Holy Weapon](#Holy-Weapon)
 - [Solar Flash](#Solar-Flash)
@@ -3117,7 +3117,7 @@ A chilling fog appears in a 5x5 area centered on a point in range you can see. M
 The size and range of the fog increase by 2 for every level above 1st.
 
 ___
-#### Close Wound
+#### Close Wounds
 *1st Level*
 - **Casting Time:** 5 AP
 - **Range:** Touch
@@ -3642,7 +3642,7 @@ ___
 - **Range:** 3
 - **Duration:** 10 minutes
 
-You call upon the fighting spirit of nearby dead creatures. Target any number of corpses within range with corpses of undead, monstrosities, or constructs being un-targetable. Make a spellcasting roll adding a Terrible die for every corpse targeted, on success spirits of the creature rise from their bodies to defend you.
+You call upon the fighting spirit of nearby dead creatures. Target any number of corpses within range with corpses of undead, monstrosities, or constructs being untargetable. Make a spellcasting roll adding a Terrible die for every corpse targeted, on success spirits of the creature rise from their bodies to defend you.
 
 The spirits have the same attributes and proficiencies they had in life, but lose any maneuvers, abilities, or spells. Each spirit has 2 wounds and Resistance 2 for all physical damage from non-silvered weapons. The warriors act immediately after the summoners turn and obey simple commands. The spirits vanish after the duration or when exposed to direct sunlight. Corpses that have had their spirits from this spell cannot be raised again.
 

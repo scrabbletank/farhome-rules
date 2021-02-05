@@ -602,7 +602,7 @@ A tunic woven from the hair of a spriggan. While outside you have expertise in s
 - **AP Cost:** 5
 - **Range:** 7
 
-When standing next to a tree you may magically enter the tree. While inside the tree you are un-targetable by effects that do not target the ethereal plane. At the start of your next turn you appear beside a tree within range.
+When standing next to a tree you may magically enter the tree. While inside the tree you are untargetable by effects that do not target the ethereal plane. At the start of your next turn you appear beside a tree within range.
 
 #### Emblem of Leona
 *Wondrous Item*
