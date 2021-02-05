@@ -730,16 +730,16 @@ During the adventuring day you will sometimes need to take a rest to recover hea
 
 ### Short Rest
 
-Short rests require an hour of uninterrupted rest to complete. During a short rest you may spend any number of healing surges to restore lost wounds. You regain mana equal to half your character's level, rounded up, with a minimum of 1.
+Short rests require an hour of uninterrupted rest to complete. During a short rest you may spend any number of healing surges to restore lost wounds. You regain mana equal to half your character's level, rounded up, with a minimum of 1. You only get the benefits of a short rest if you are able to complete it. Taking other actions, such as brewing a potion, breaks your rest.
 
 ### Long Rest
 
-Long rests require 8 hours of rest, with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, brewing potions, etc. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds. You regain mana equal to 3 + your character's level.
+Long rests require 8 hours of rest with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, or brewing potions. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds. You regain mana equal to 3 + your character's level.
 
 ### Exhaustion
-All adventurers need to rest from time to time, trying to do too much in a day can leave you exhausted. You can gain exhaustion from many places, from travelling too long, not taking rests, spells, or abilities. At 6 levels of exhaustion you drop dead.
+All adventurers need to rest from time to time, trying to do too much in a day can leave you exhausted. You can gain exhaustion from many situations, from travelling too long, not taking rests, spells, or abilities. At 6 levels of exhaustion your character drops dead.
 
-A normal travelling day is 8 hours. For every 2 hours you travel past 8 you must make an exhaustion roll. At 10 hours, you make a roll against 2 Bad dice, on fail you gain a level of exhaustion and can't travel further. The difficulty of this roll increases by 1 terrible die each roll past the 1st.
+A normal travelling day is 8 hours. For every 2 hours you travel past 8 you must make an exhaustion roll. At 10 hours, you make a roll against 2 Bad dice, on fail you gain a level of exhaustion and can't travel further. The difficulty of this roll increases by 1 terrible die for each roll past the 1st.
 
 If you go more than 24 hours without taking a long rest you must make an exhaustion save against 2 bad dice and 1 terrible die. You make this check every 24 hours without a long rest.
 
@@ -753,7 +753,7 @@ If you go more than 24 hours without taking a long rest you must make an exhaust
 | 5 | -3 | -5 | No |
 
 ## Conditions
-There are a number of conditions creatures can be subjected to, each with different effects. Some conditions have a level associated with them to determine how extreme that condition is. For example, Poison normally adds a bad die to your attack rolls and saving throws, where Poison 2 and Poison 3 adds 2 and 3 bad die respectively.
+There are a number of conditions creatures can be subjected to, each with different effects. Some conditions have a level associated with them to determine the potency of that condition. For example, Poison normally adds a bad die to your attack rolls and saving throws, where Poison 2 and Poison 3 adds 2 and 3 bad dice respectively.
 
 ##### Blind
 A blinded creature loses the ability to see. While blind they add 2 Terrible die to all attack, spellcasting, and dexterity saving throws. They cannot make reactions.
@@ -5124,7 +5124,7 @@ ___
 
 A portable set of tools required to brew potions over a campfire. During a long rest you may attempt to brew a single potion or poison if you have the right ingredients, or you may search your surroundings for ingredients.
 
-Based on your surroundings you you may make a normal Survival skill challenge, increasing or decreasing the difficulty based on how barren the wilderness is. Searching takes 1 hour. On success roll 2 superior dice, adding up their total successes, with criticals counting as 3 successes. You gain a number of ingredients equal to the successes in your survival check.
+Based on your surroundings you you may make a normal Survival skill challenge, increasing or decreasing the difficulty based the abundance of the wilderness. Searching takes 1 hour. On success roll 2 superior dice, adding up their total successes, with criticals counting as 3 successes. You gain a number of ingredients equal to the successes in your survival check.
 
 ##### Wilderness Survival Rewards
 | Area | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
