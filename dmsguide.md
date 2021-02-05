@@ -17,7 +17,7 @@ And that's it. Actually you don't even need that much, just the _name_ of a town
 
 - level 1 players are pretty much adventurers who have just picked up a weapon
 - how I intend the rules to be run vs how you run the rules
-- magical world, not low magic, not high magic, somewhere inbetween
+- magical world, not low magic, not high magic, somewhere in between
 - dangerous world, small bit on the world the rules were created for
 
 - what you need to play (town, dungeon, players)
@@ -91,7 +91,7 @@ All creatures in your zone of control must make a Willpower save vs 2 superior d
 #### Cursebreaker
 *Wondrous Item*
 
-A pendant with a rest mist swirling in it's gemstone. Once per day you may use this to attempt to break a curse effecting you or a creature you can touch. The target makes a Willpower save against 1 terrible die. On success they end a single curse aflicting the target.
+A pendant with a rest mist swirling in it's gemstone. Once per day you may use this to attempt to break a curse effecting you or a creature you can touch. The target makes a Willpower save against 1 terrible die. On success they end a single curse afflicting the target.
 
 #### Spear of the East
 *Magic Weapon +1*
@@ -145,7 +145,7 @@ Empower your Axe with chilling cold. Throw the axe at a target position in range
 #### Adventurers Cloak
 *Wondrous Item*
 
-A rugged cloak lined with pockets, it billows heroically even when there is no wind. It starts with charges equal to the successes from 3 superior die. Once per hour you may expend a charge to grab something from the cloaks pocket. You may find one of the following : 50 ft of rope, 10 ft of fine iron chain, a bandage, a torch, a fire kit, a gallon of water, a grapling hook.
+A rugged cloak lined with pockets, it billows heroically even when there is no wind. It starts with charges equal to the successes from 3 superior die. Once per hour you may expend a charge to grab something from the cloaks pocket. You may find one of the following : 50 ft. of rope, 10 ft. of fine iron chain, a bandage, a torch, a fire kit, a gallon of water, a grappling hook.
 
 The item lasts for 1 hour, after which it turns to dust.
 
@@ -245,7 +245,7 @@ This lantern has enough oil to light for 8 hours. When lit it acts as a normal l
 #### Cloak of Agility
 *Wondrous Item, Requires Attunement*
 
-This cloak grants you +1 to your Dexterity. If your movespeed is lower than your sprint speed, it is increased to your sprint speed.
+This cloak grants you +1 to your Dexterity. If your move speed is lower than your sprint speed, it is increased to your sprint speed.
 
 #### Cloak of Daggers
 *Wondrous Item*
@@ -283,7 +283,7 @@ When finding a flask it may already contain a creature, and a successful Lore ch
 
 While wearing this belt your gain +2 proficiency to your Stamina save. If you do not know Dwarvish, you are able to read and speak it, and add 1 superior die to Charisma skills with dwarves.
 
-#### Belt of Elvinkind
+#### Belt of Elvenkind
 *Wondrous Item, Requires Attunement*
 
 While wearing this belt your gain +2 proficiency to your Dexterity save. If you do not know Elvish, you are able to read and speak it, and add 1 superior die to Charisma skills with elves.
@@ -387,7 +387,7 @@ You summon 3 shadowbolts and launch them at targets in range. You may choose dif
 
 You channel the masks power to create a large orb of negative energy. You send the orb crashing into the earth, hitting all creatures in a 3x3 area centered on a position in range. All creatures hit make a Dexterity save vs your curse spellcasting. On hit they take 3 wounds in damage, plus an additional wound die for each crit.
 
-If this would reduce a creature to 0 wounds their body is consumed by the Orb, vaporizing and leaving no body behind. This maneuver can be used once, afterwhich you must long rest before using again.
+If this would reduce a creature to 0 wounds their body is consumed by the Orb, vaporizing and leaving no body behind. This maneuver can be used once, after which you must long rest before using again.
 
 
 #### Chains of Binding
@@ -602,7 +602,7 @@ A tunic woven from the hair of a spriggan. While outside you have expertise in s
 - **AP Cost:** 5
 - **Range:** 7
 
-When standing next to a tree you may magically enter the tree. While inside the tree you are untargetable by effects that do not target the ethereal plane. At the start of your next turn you appear beside a tree within range.
+When standing next to a tree you may magically enter the tree. While inside the tree you are un-targetable by effects that do not target the ethereal plane. At the start of your next turn you appear beside a tree within range.
 
 #### Emblem of Leona
 *Wondrous Item*
@@ -610,14 +610,14 @@ When standing next to a tree you may magically enter the tree. While inside the 
 Once per day you may cast Wall of Faith, automatically succeeding the roll. When holding this emblem you may reroll 1 die when making Religion checks.
 
 #### Sky Stone
-*Woundrous Item, Requires Attunement*
+*Wondrous Item, Requires Attunement*
 
 A large blue orb with storm clouds swirling inside. While attuned to this item all Lightning spells you cast start with 1 crit (but no successes) and you may reroll 1 die for those rolls. Regardless of the weather, while you hold the orb it is always considered stormy weather for the purposes of spellcasting.
 
 #### Void Stone
 *Wondrous Item*
 
-A magic stone from the Astral Void. While holding the stone you can spend 3 AP and 2 mana to open up a rift in space that pulls in the user. At the start of your next turn you attempt to exit the rift in an open space within 1000 ft (200 tiles). Make a hard Arcana check, on success you appear within a few tiles, with each failure placing you progressively farther away.
+A magic stone from the Astral Void. While holding the stone you can spend 3 AP and 2 mana to open up a rift in space that pulls in the user. At the start of your next turn you attempt to exit the rift in an open space within 1000 ft. (200 tiles). Make a hard Arcana check, on success you appear within a few tiles, with each failure placing you progressively farther away.
 
 #### Heart of Madness
 *Wondrous Item, Requires Attunement*
@@ -646,7 +646,7 @@ Make a weapon attack against a target. On hit the attack deals normal weapon dam
 
 The sword has 6 charges, regaining 2 charges every day as long as it is exposed to the light of dawn. When activating the sword, either by spending a charge or taking the Justice maneuver, you gain the effects of the spell _Radiance_ for 10 minutes.
 
-You may spend all charges to awaken Archeon, becoming a +3 weapon for a minute per charge spent. While awakwened Archeon does an extra wound of Holy damage with each attack, or 3 wounds to chaotic demons, outsiders and monstrosities. In addition you may use the _Law_ maneuver.
+You may spend all charges to awaken Archeon, becoming a +3 weapon for a minute per charge spent. While awakened Archeon does an extra wound of Holy damage with each attack, or 3 wounds to chaotic demons, outsiders and monstrosities. In addition you may use the _Law_ maneuver.
 
 **Law**
 AP: 6
@@ -692,7 +692,7 @@ This sword is always under the effects of the spell _Sword Burst_ (1st level), a
 
 You create a magical rift at a target location you can see, visualize, or recall within range. The rift pulls you and anything you're carrying in and instantly teleports you to the target location. The maneuver fails if you attempt to teleport into a solid object or otherwise can't pass through the rift.
 
-You may instead use this maneuver targetting an adjacent creature. The creature makes a Dexterity save against 4 superior dice, being teleported to the location on fail.
+You may instead use this maneuver targeting an adjacent creature. The creature makes a Dexterity save against 4 superior dice, being teleported to the location on fail.
 
 ### Death
 
