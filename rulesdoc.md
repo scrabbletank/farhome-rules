@@ -115,7 +115,7 @@ Farhome is a tabletop role playing system set in a fantasy world of magic, monst
 
 You won't find any rules in this book about what you need to roll to climb up an ogre's back, but that doesn't mean your adventurer can't try. For every scenario that isn't handled by the book it's ultimately up to the Game Master to decide how it happens, or if it's possible. In this respect the players work together with the Game Master; the players describing the actions they want to take and the Game Master describing the outcome of those actions and how the world responds.
 
-At the end of the day Farhome is a game about make-believe and having fun. It is a _collaborative_ experience, working with the Game Master to tell a story. With that being said you can expect to experience the following:
+At the end of the day Farhome is a game about creativity, imagination, and having fun with your friends. It is a _collaborative_ experience, working with the Game Master to tell a story. With that being said you can expect to experience the following:
 - battle goblins and orcs
 - delve into dangerous dungeons
 - find wondrous treasures, magical trinkets, or ancient weapons
@@ -201,7 +201,9 @@ Through feats, spells, or items you may have an Attribute score greater than 5. 
 When making a defense roll you use Defense and Superior Defense dice. The number and type of dice you roll is determined by what armor your wearing. You roll 2 Defense dice when not wearing any armor or the armors value if you have armor equipped. Holding a shield adds either a Defense or Superior Defense die, depending on the shield.
 
 #### Attribute Saves
-Attribute Saves use the same rules as rolling a skill that uses an Attribute, with one exception: negative Attribute scores do not replace Normal dice with Bad dice. This means the lowest you can roll for an Attribute save is 5 Normal dice.
+Attribute Saves use the same rules as rolling a skill that uses an Attribute, with one exception: negative Attribute scores do not replace Normal dice with Bad dice. This means that the lowest you can roll is 5 normal dice. However, other effects and conditions, such as Poison, still add dice. In almost every case when you roll an attribute save you are seen as the defender, with the roll siding in your favor on a tie.
+
+In some cases your GM may ask you to roll a raw attribute. Rolling a raw attribute uses your attribute save proficiency and **is** effected by negative attribute scores.
 
 #### Wound Dice
 Many attacks and spells deal wounds and wound dice to their targets. When an attack says it deals wound dice you roll the dice, dealing damage based on how many wounds you rolled. For example, a spell that deals 1 wound and 2 wound dice in damage will 1 wound of damage, adding the result of the 2 wound dice to the target.
@@ -214,7 +216,7 @@ Your GM may reward you with extra Hero dice, but Hero dice are usually only give
 #### Skill Challenge
 Skill Challenges are rarely made in contest, instead the GM will ask you to add dice depending on how challenging a task you are trying to accomplish. Each skill has its own proficiency and uses one of your attributes to determine dice. For example, an athletics check will use your Strength score while an acrobatics check will use your Dexterity score. Both athletics and acrobatics have their own proficiencies as well.
 
-The outcome in these rolls isn't always a strict pass or fail, depending on the GM they may give a bonus if you roll a critical success or something bad may happen if you roll a critical fail.
+The outcome in these rolls isn't always a strict pass or fail, depending on the GM they may give a bonus if you roll a critical success or something bad may happen if you roll a critical fail. For skill challenges the character is always considered the 'attacker', with a tie or ending with 0 total successes counting as a fail.
 
 #### Helping in Skill Challenges
 In some cases you may want to help someone with an action, such as trying to push a boulder or search a room. When helping every participant rolls the same skill check contested by a single challenge roll. The highest roll among the participants is used, adding a success for every crit rolled by others.
@@ -611,8 +613,28 @@ There is no limit to the number of spells you can cast, as long as you have enou
 #### Maneuver (Varying AP)
 Maneuvers have a variety of triggers, but unless otherwise stated must be used on your turn. Each turn you can use a single maneuver, after which that maneuver can't be used the next turn. You can still use a different maneuver the next turn.
 
+#### Ready (Varying AP)
+There are times you may want to hold your action, waiting for a specific circumstance before you take that action. At any point in your turn you may 'Ready' an action. You may only ready a single action and must pay the AP cost for the action immediately. For example, you could ready the _Attack_ action but not both the _Attack_ and _Move_ actions.
+
+To ready an action you must first describe the circumstance that will trigger the action. This can be anything your character can perceive, such as "I want to attack if a goblin moves closer to me" or "I want to cast this spell when an enemy rounds that corner." You must also specify which action you want to take and must have enough AP remaining to take that action. If the circumstance did not happen before your next turn starts you lose the action.
+
+Sometimes more than one readied action could be triggered by the same circumstance. In this case the actions occur in initiative order.
+
 ### The Gameboard
-Many GM's will represent their world with a gameboard, with every tile on the board representing a 5 ft square in the world. Usually only a single creature can occupy 1 tile at a time. Some creatures can occupy more or than one tile. All abilities, spells and feats in Farhome uses tiles to determine distance.
+
+Most GM's use a gameboard when your adventurers are exploring a dungeon or fighting monsters. It can be difficult for players to visualize combat and see what choices they have without one. This rule book assumes you play with a square or hex grid along with miniatures or tokens. If you don't use a grid or use _theatre of the mind_ for your combat your GM may need to adjust or homebrew some of the rules in this section.
+
+#### The Tile Grid
+
+The game world uses a sqaure or hex tile grid with each tile representing a 5x5 foot area. Each creature takes up a number of tiles based on their size, which in the case of your adventurers is a single tile. For simplicities sake when determining movement or ability ranges on a square grid we assume that distance is _non-euclidean_. Basically all this means is travelling to a square diagonal to you costs the same amount of movement as moving to a square orthogonal to you. Hex grids do a much better job at handling movement in all directions, but it can be hard to find resources that support hex grids.
+
+##### Variant Rule - No Diagonal Movement
+
+Another way to deal with diagonal movement costs is to prevent diagonal movement entirely. This essentially means that travelling diagonally costs 2 tiles worth of movement. If you do use this variant rule, make sure you calculate ranged attacks using the same method, taking 2 'range' to target someone on a diagonal.
+
+#### Creatures
+
+Each creature is represented by a miniature or token on the gameboard. Creatures come in all different shapes and sizes, with each size taking up more or less of the board.
 
 ##### Creature Size
 | Size | Tile's Occupied |
@@ -624,24 +646,43 @@ Many GM's will represent their world with a gameboard, with every tile on the bo
 | Huge | 3x3 |
 | Gargantuant | 4x4+ |
 
+#### Movement
+All creatures movement speeds are listed in tiles. Any time a creature takes the move or sprint actions they can move up to that many tiles. When moving you may move through allies, but cannot move through a hostile creatures tile. If your movement takes you out of hostile creatures zone of control they can make an opportunity attack against you as long as they have enough AP.
+
+#### Flying
+Creatures that are able to fly can use their movement to move vertically, following the same rules as normal movement. Unless the creature is able to hover, any effect that reduces their movement speed to 0, grapples, restrains, or knocks them prone causes them to fall from the air. Falling creatures fall 10 tiles per round, increasing the amount by 10 for each round they spend falling. On hitting the ground or a solid object after falling 5 or more tiles they take a wound and a wound die in bludgeoning damage for every 5 tiles they fell.
+
+#### Prone and Crawling
+A prone creature grants combat advantage to all melee attackers, with ranged attacks adding 2 bad dice to their roll instead. A creature that is prone can crawl, spending an extra tile of movement for every tile travelled. Unless the creature has a move speed of 0 they can stand up by spending half of their move speed, rounded down.
+
 #### Zone of Control
-A creatures zone of control is used to determine what other creatures they are locked in combat and which tiles count as flanking. By default a creatures zone of controls are the 5 adjacent tiles centered in the direction the creature is facing. If a creature is facing north, his zone of control is the west, north-west, north, north-east, and east tiles. Some abilities and weapons, such as _Reach_ increase a creatures zone of control.
+A creatures zone of control is a representation of the area they threaten in combat. A creatures zone of control is determined by his weapons reach. For most weapons this covers the 5 adjacent tiles to the creature centered on the direction the creature is facing. If a creature is using a weapon with _Reach_ their zone of control is increased by the same amount, extending outward. You may enter a creatures zone of control without penalty, but attempting to move out of a creatures zone of control allows them to make an opportunity attack against you. The 3 tiles behind a creature are not part of its zone of control and so do not provoke opportunity attacks.
 
-A creature that attempts to leave another creatures zone of control is open to opportunity attacks.
+##### Variant Rule - Ignore Creature Facing
+Sometimes tracking the direction a creature is facing can be difficult or slow down the game. When using this variant rule a creatures zone of control covers all tiles adjacent to the creature. If you play with flanking rules you can consider a creature as flanked if it has two hostile creatures adjacent to it with at least 1 tile of space between them.
 
-#### Flanking
-When a creature is attacked from a tile that is not in their zone of control it is considered a flanking attack. Flanking gives no bonus in and of itself, but some abilities and feats grant bonuses for flanking.
+##### Variant Rule - Flanking
+When a creature is attacked by a melee attack from an attacker that is not in its zone of control the attacker is considered to be flanking that creature. Any attacks made while flanking a creature add 1 critical to their roll.
 
-##### Variant Rule: Combat Advantage From Flanking
-With this rule attacking a creature from behind grants Combat Advantage for the attack. This effects both player attacks and attacks from NPCs.
+##### Variant Rule - Ranged Attack Disadvantage
+With this variant any creature that tries to make a ranged attack, maneuver, or spell attack while another creature is adjacent to them adds 1 terrible die to their roll.
+
+#### Hazards and Terrain
+Creatures are not the only thing on the battle field. Depending on the location there could be a deep river that inhibits movement, a trap that fires poison darts, a pit of bubbling acid, or even plain old darkness. Regardless of the location these environments have an effect on your adventurers, and the clever ones can use it to their advantage.
+
+#### Difficult Terrain
+Deep water, thick brush, or a rubble filled room could be considered difficult terrain. When moving over difficult terrain every tile of movement costs an extra tile. For example, to move through a deep river 2 tiles wide you need to spend 4 tiles of movement. Climbing a wall or rock face also takes an extra tile of movement, with a difficult to climb wall taking 3 tiles for every 1 tile climbed.
+
+#### Traps and Hazards
+Dungeons may be filled with traps or other hazards. Traps may be hidden, triggered only by a careless step or trip of a wire. Other hazards are blatantly obvious, like a pool of lava or omnious pit. While the exact mechanics of a trap or hazard is left up to the GM, characters can attempt to search or spot traps around them. Characters that succeed on a Perception or Investigation challenge may spot a trap or understand how it's triggered.
+
+Hazards, such as a pool of lava or acid, are more obvious. Creatures that enter those tiles take damage immediately, taking damage again at the start of their turn for as long as they are in the hazard. A creature doesn't need to willingly move into a hazard to be effected by it. Characters can shove or push other creatures, or cast spells that knock creatures back.
 
 #### Darkness
-Most creatures are unable to see in the dark, and take various penalities to all rolls made against creatures or targets in the dark. For example, a guard trying to spot a thief in the dark will take penalties, but a thief in the dark attacking a guard holding a torch will not.
-
-Creatures in dim light add 1 bad die to all rolls, while creatures in total darkness add 2 terrible dice.
+Most creatures are unable to see in the dark and struggle to see creatures in dim light. When making an attack, maneuver, spell attack, or trying to detect a creature in darkness you add 2 terrible dice to your roll, or 1 bad die if they are in dim light instead. Most of the time if a creature has a free hand they can light a torch, covering a 3 tile area around the creature in bright light and a further 3 tiles in dim light.
 
 #### Cover
-Creatures hiding behind objects and terrain gain bonus defense dice depending on how much cover the objects provide. For example, a fence or bush might provide quarter cover, a fallen tree or brick fence would provide half, and an upturned table or door would provide 3 quarters cover.
+Some terrain can be used as cover, protecting creatures from attacks. Anything that obscures the creature or is large enough to hide behind can be used as cover, such as a stone fence, pillar, tree, or overturned table. The benefit you gain depends on the size of the cover and how well it could reasonably defend you against attacks. A creature that is fully behind cover, for example being behind a wall, are untargetable by most attacks. When the target of an attack, maneuver, or spell attack that targets your defense you add dice based on the table below:
 
 | Cover | Bonus |
 |:----:|:-------------|
@@ -649,6 +690,27 @@ Creatures hiding behind objects and terrain gain bonus defense dice depending on
 | Half  | +2 Superior Defense dice |
 | 3 Quarters | +3 Superior Defense dice |
 | Full | Untargetable |
+
+#### Attack Types
+Maneuvers and spells come in all kinds of shapes and sizes. Some might target a single creature, with others targeting an area. Depending on the description these attacks use one of the following areas.
+
+##### Area of Control
+When used by a maneuver this attack hits all creatures inside your zone of control. If your zone of control is extended by a weapon with _Reach_ then so too does the area of this attack. Spells that target your area of control, unless otherwise specified, do not benefit from _Reach_.
+
+##### Line
+Line attacks hit all creatures in a line extending outward from the attacker. This line doesn't need to follow the grid exactly and can be any direction you wish. A good rule of thumb is if the line crosses more than 1/3rd of the creatures tile it effects that creature.
+
+##### Area
+Area attacks hit all creatures in a square or rectangular shape centered on a tile. The spell or attack determines the size of the area. For example, the spell _Fireball_ hits all creatures in a 5x5 tile area. Spells that effect all creatures in a radius use this type, creating a square centered on a point with the given radius.
+
+#### Diamond
+Diamond patterns are similar to area attacks, but rotated 45 degrees. Diamond patterns will usually have a size before them, for example a 3 tile diamond would have a size of 3. To determine if a creature is inside a diamond pattern, first make a horizontal and vertical line of tiles based on the dimaonds size, centered on the target of the attack. Then draw a line connecting each of the ends of the lines, if a tile is entirely inside the line they are hit by the attack.
+
+#### Touch
+Some attacks have a range of 'touch'. Touch attacks require you to be adjacent to the target, or have their effects begin in an adjacent tile.
+
+#### Cone
+Cone attacks are given as a length and width. The cone starts centered along the width, only effecting the center tile. The cone expands as you go down the length of the attack, reaching its width at the end. If the cone covers at least 1/3rd of the creatures tile it effects that creature.
 
 ## Resting
 During the adventuring day you will sometimes need to take a rest to recover health and abilities. There are two types of rests: Short rests which take an hour and Long rests which take 8. Each day you can have at most two short rests and one long rest. Any more more rests then that have no effect.
