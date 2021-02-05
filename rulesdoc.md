@@ -50,7 +50,20 @@
 
 [Combat](#Combat)
 - [On your Turn](#On-your-Turn)
-- [The Gameboard](#The-Gameboard)
+
+[The Gameboard](#The-Gameboard)
+- [The Tile Grid](#The-Tile-Grid)
+- [Creatures](#Creatures)
+  - [Movement](#Movement)
+  - [Flying](#Movement)
+  - [Prone and Crawling](#Prone-and-Crawling)
+  - [Zone of Control](#Zone-of-Control)
+- [Hazards and Terrain](#Hazards-and-Terrain)
+  - [Difficult Terrain](#Difficult-Terrain)
+  - [Traps and Hazards](#Traps-and-Hazards)
+  - [Darkness](#Darkness)
+  - [Cover](#Cover)
+- [Attack Types](#Attack-Types)
 
 [Resting](#Combat)
 - [Short Rest](#Short-Rest)
@@ -620,11 +633,11 @@ To ready an action you must first describe the circumstance that will trigger th
 
 Sometimes more than one readied action could be triggered by the same circumstance. In this case the actions occur in initiative order.
 
-### The Gameboard
+## The Gameboard
 
 Most GM's use a gameboard when your adventurers are exploring a dungeon or fighting monsters. It can be difficult for players to visualize combat and see what choices they have without one. This rule book assumes you play with a square or hex grid along with miniatures or tokens. If you don't use a grid or use _theatre of the mind_ for your combat your GM may need to adjust or homebrew some of the rules in this section.
 
-#### The Tile Grid
+### The Tile Grid
 
 The game world uses a sqaure or hex tile grid with each tile representing a 5x5 foot area. Each creature takes up a number of tiles based on their size, which in the case of your adventurers is a single tile. For simplicities sake when determining movement or ability ranges on a square grid we assume that distance is _non-euclidean_. Basically all this means is travelling to a square diagonal to you costs the same amount of movement as moving to a square orthogonal to you. Hex grids do a much better job at handling movement in all directions, but it can be hard to find resources that support hex grids.
 
@@ -632,7 +645,7 @@ The game world uses a sqaure or hex tile grid with each tile representing a 5x5 
 
 Another way to deal with diagonal movement costs is to prevent diagonal movement entirely. This essentially means that travelling diagonally costs 2 tiles worth of movement. If you do use this variant rule, make sure you calculate ranged attacks using the same method, taking 2 'range' to target someone on a diagonal.
 
-#### Creatures
+### Creatures
 
 Each creature is represented by a miniature or token on the gameboard. Creatures come in all different shapes and sizes, with each size taking up more or less of the board.
 
@@ -667,7 +680,7 @@ When a creature is attacked by a melee attack from an attacker that is not in it
 ##### Variant Rule - Ranged Attack Disadvantage
 With this variant any creature that tries to make a ranged attack, maneuver, or spell attack while another creature is adjacent to them adds 1 terrible die to their roll.
 
-#### Hazards and Terrain
+### Hazards and Terrain
 Creatures are not the only thing on the battle field. Depending on the location there could be a deep river that inhibits movement, a trap that fires poison darts, a pit of bubbling acid, or even plain old darkness. Regardless of the location these environments have an effect on your adventurers, and the clever ones can use it to their advantage.
 
 #### Difficult Terrain
@@ -691,11 +704,11 @@ Some terrain can be used as cover, protecting creatures from attacks. Anything t
 | 3 Quarters | +3 Superior Defense dice |
 | Full | untargetable |
 
-#### Attack Types
+### Attack Types
 Maneuvers and spells come in all kinds of shapes and sizes. Some might target a single creature, with others targeting an area. Depending on the description these attacks use one of the following areas.
 
 ##### Area of Control
-When used by a maneuver this attack hits all creatures inside your zone of control. If your zone of control is extended by a weapon with _Reach_ then so too does the area of this attack. Spells that target your area of control, unless otherwise specified, do not benefit from _Reach_.
+When used by a maneuver this attack hits all creatures inside your zone of control. If your zone of control is extended by a weapon with _Reach_ then this attack's area is also extended. Spells that target your area of control, unless otherwise specified, do not benefit from _Reach_.
 
 ##### Line
 Line attacks hit all creatures in a line extending outward from the attacker. This line doesn't need to follow the grid exactly and can be any direction you wish. A good rule of thumb is if the line crosses more than 1/3rd of the creatures tile it effects that creature.
