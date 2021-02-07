@@ -15,11 +15,11 @@ ___
 #### Eldritch Blast
 *Cantrip*
 - **Casting Time:** 5 AP
-- **Range:** 8
+- **Range:** 7
 - **Duration:** instant
 - **Damage Type:** Force
 
-Blast a creature in range you can see with eldritch force. Make a spellcasting roll against the targets Strength. On success they take 1 wound, adding a wound die on crit.
+Blast a creature in range you can see with eldritch force. Make a spellcasting roll against the targets Strength. On success they take 1 wound, adding a wound die on a critical.
 
 Add a proficiency die for every level cast above cantrip.
 
@@ -30,9 +30,9 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 5 minutes
 
-You magically levitate an object or creature weighing less than 25 lbs. If the target is an unwilling creature you must make a spellcasting roll against thir Strength save. On success, each turn you may move the target 3 tiles upwards or downwards. This movement does not provoke opportunity attacks, and does not move them with enough force to damage them, but can force them prone (against the ceiling or floor).
+You magically levitate an object or creature weighing less than 25 lbs. If the target is an unwilling creature you must make a spellcasting roll against their Strength save. On success, each turn you may move the target 3 tiles upwards or downwards. This movement does not provoke opportunity attacks, and does not move them with enough force to damage them, but can force them prone (against the ceiling or floor).
 
-If the target is an unwilling creature they make the save again at the end of their turn, freeing themselves from your levitation on success. If the target is in the air when the spell ends it drops to the ground normally. If the target becomes heavier than the spell can carry (for example a creature standing ontop of a levitating slab) the spell ends.
+If the target is an unwilling creature they make the save again at the end of their turn, freeing themselves from your levitation on success. If the target is in the air when the spell ends it drops to the ground normally. If the target becomes heavier than the spell can carry (for example a creature standing on top of a levitating slab) the spell ends.
 
 The maximum weight doubles for every level cast above cantrip.
 
@@ -86,7 +86,7 @@ ___
 - **Range:** 5
 - **Duration:** 10 minutes, requires a free hand
 
-Black tendrils erupt from your hand to bind a target you can see. The target must make a Dexterity save against your spellcasting. On fail, the target is grappled, or restrained on a crit. The Tendrils require a free hand to grasp, or else the target is freed. On each of your move and sprint actions you may pull or slide the grappled target 1 tile. On their turn the grappled creature can spend 5 AP attempting to break free, making a Strength save against your casting. Any ability or effect that would cause them to move more than 5 tiles away from you uses your spellcasting roll for the save instead of the normal roll. If the target moves more than 5 tiles away from you the tendrils break and the spell ends.
+Black tendrils erupt from your hand to bind a target you can see. The target must make a Dexterity save against your spellcasting. On fail, the target is grappled, or restrained on a critical. The Tendrils require a free hand to grasp, or else the target is freed. On each of your move and sprint actions you may pull or slide the grappled target 1 tile. On their turn the grappled creature can spend 5 AP attempting to break free, making a Strength save against your casting. Any ability or effect that would cause them to move more than 5 tiles away from you uses your spellcasting roll for the save instead of the normal roll. If the target moves more than 5 tiles away from you the tendrils break and the spell ends.
 
 Add a proficiency die for every level above 1st.
 
@@ -97,7 +97,7 @@ ___
 - **Range:** 10
 - **Duration:** 1 hour
 
-You take on a charming persona, attempting to charm up to 5 creatures in range. Make a spellcasting roll against the targets Willpower, adding 1 bad die for every creature targeted. If the creature is hostile to you it adds 2 superior die to the roll. On success, the targets are charmed by you for the duration. Charmed creatures treat you as a friendly aquaintance. The charm ends if they take any damage, or if you act in a harmful way towards them. After the spell ends the target knows it was charmed.
+You take on a charming persona, attempting to charm up to 5 creatures in range. Make a spellcasting roll against the targets Willpower, adding 1 bad die for every creature targeted. If the creature is hostile to you it adds 2 superior die to the roll. On success, the targets are charmed by you for the duration. Charmed creatures treat you as a friendly acquaintance. The charm ends if they take any damage, or if you act in a harmful way towards them. After the spell ends the target knows it was charmed.
 
 Add a proficiency die for every level above 1st.
 
@@ -106,9 +106,9 @@ ___
 *1st Level*
 - **Casting Time:** 10 AP
 - **Range:** 5
-- **Duration:** concentration, 10 mintues
+- **Duration:** concentration, 10 minutes
 
-A dull sheen covers your body, hiding your presence. Target up to 5 creatures and make a spellcasting roll, adding 1 Terrible die for every creature targeted. On success you are concealed for the duration. Strangers passing you on the street have trouble remembering you, not being able to recall details such as race, gender, or appearance. As long as you are undetected by a creature, you gain 1 superior die for all stealth checks against that creature, adding a superior die for every crit rolled. Concealment ends after taking a hostile action against another creature.
+A dull sheen covers your body, hiding your presence. Target up to 5 creatures and make a spellcasting roll, adding 1 Terrible die for every creature targeted. On success you are concealed for the duration. Strangers passing you on the street have trouble remembering you, not being able to recall details such as race, gender, or appearance. As long as you are undetected by a creature, you gain 1 superior die for all stealth checks against that creature, adding a superior die for every critical rolled. Concealment ends after taking a hostile action against another creature.
 
 Add a proficiency die for every level above 1st.
 
@@ -120,7 +120,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-You summon a crow with obsidian feathers capable of cutting through flesh and armor, targeting a creature in range you can see. The target makes a Dexterity sav against your spellcasting, on fail they take 1 wound in damage. On crit their armor is reduced by 1 die, lasting until repair. Armor that no longer provides a defense bonus is destroyed.
+You summon a crow with obsidian feathers capable of cutting through flesh and armor, targeting a creature in range you can see. The target makes a Dexterity sav against your spellcasting, on fail they take 1 wound in damage. On a critical their armor is reduced by 1 die, lasting until repair. Armor that no longer provides a defense bonus is destroyed.
 
 Add a wound die for every level above 1st.
 
@@ -131,7 +131,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see with misfortune. They must make a willpower save against your spellcasting. On fail, the creature adds a bad die to all saving throws for the next day. If you crit they add a terrible die instead. The curse can be removed through _Cleanse_.
+Curse a creature you can see with misfortune. They must make a willpower save against your spellcasting. On fail, the creature adds a bad die to all saving throws for the next day. If you critical they add a terrible die instead. The curse can be removed through _Cleanse_.
 
 You may target an additional person for every level above 1st.
 
@@ -155,7 +155,7 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** Poison
 
-Your hands elongate becoming deadly claws. When casting this ability, and for the duration of the spell you may make an attack against a target in range. Make a spellcasting roll against the targets Defense, on hit they take 3 wound dice in poison damage, paralyzing the target on crit until the end of their next turn.
+Your hands elongate becoming deadly claws. When casting this ability, and for the duration of the spell you may make an attack against a target in range. Make a spellcasting roll against the targets Defense, on hit they take 3 wound dice in poison damage, paralyzing the target on a critical until the end of their next turn.
 
 The duration increases by 1 minute for every level above 1st.
 
@@ -166,7 +166,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Hex a target in range you can see. Make a spellcasting roll against the targets Willpower. On success they gain Hex for 10 minutes, or Hex 2 on crit.
+Hex a target in range you can see. Make a spellcasting roll against the targets Willpower. On success they gain Hex for 10 minutes, or Hex 2 on a critical.
 
 Add a proficiency die for every level above 1st.
 
@@ -176,9 +176,9 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 1 minute
-- **Damage Type:** Pyschic
+- **Damage Type:** Psychic
 
-Fire a bolt of pyschic force at a creature in range you can see. If the target is not Hexxed add 1 bad die to your roll. Make a spellcasting roll against the targets Willpower. On success deal 1 wound, rolling a wound die if the target is also Hexxed. On crit, the target gains Hex, or increases their level of Hex for 1 minute up to a max of 3. For the next minute, once per turn you may spend 2 AP to make an attack against the same target or move it to another target within 30 ft.
+Fire a bolt of psychic force at a creature in range you can see. If the target is not Hexxed add 1 bad die to your roll. Make a spellcasting roll against the targets Willpower. On success deal 1 wound, rolling a wound die if the target is also Hexxed. On a critical, the target gains Hex, or increases their level of Hex for 1 minute up to a max of 3. For the next minute, once per turn you may spend 2 AP to make an attack against the same target or move it to another target within 30 ft.
 
 Add a proficiency die for every level above 1st.
 
@@ -188,9 +188,9 @@ ___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
-- **Damage Type:** Pyschic
+- **Damage Type:** Psychic
 
-You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the targets Intelligence. On success the creature takes 1 wound and 1 wound die of pyschic damage, and must spend its AP fleeing from you on crit. The creature, if able, moves 1 tile per remaining AP up to their movespeed, avoiding dangerous terrain if possible.
+You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the targets Intelligence. On success the creature takes 1 wound and 1 wound die of psychic damage, and must spend its AP fleeing from you on a critical. The creature, if able, moves 1 tile per remaining AP up to their move speed, avoiding dangerous terrain if possible.
 
 Regardless of if the spell hits the creature is distracted by the whispers and cannot make opportunity attacks against you this turn.
 
@@ -203,7 +203,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Target up to 5 creatures in range you can see. Make a spellcasting roll, adding a bad die for every creature you target. On success, the move action costs 2 less AP and sprint costs 1 less AP. In addition, for every crit the targets movespeed is increased by 1.
+Target up to 5 creatures in range you can see. Make a spellcasting roll, adding a bad die for every creature you target. On success, the move action costs 2 less AP and sprint costs 1 less AP. In addition, for every critical the targets move speed is increased by 1.
 
 Add a proficiency die for every level above 1st.
 
@@ -229,7 +229,7 @@ ___
 
 Take a moment to study your surroundings, watching for signs of the future. This can come in many forms: the smell of a forest, the pattern of dust, the movement of clouds in the sky. Make a spellcasting roll, targeting up to 5 creatures and adding Terrible die to the roll for each. On success each creature chooses an action and rolls a superior die. For the duration the next time the creature takes this action they add the value of the die to their roll.
 
-Add a proficienct die to the spellcasting roll for every level above 1st.
+Add a proficient die to the spellcasting roll for every level above 1st.
 
 
 ___
@@ -239,7 +239,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Fill a targets mind with rage, forcing it to lash out against its surroundings. Make a spellcasting roll against the targets Willpower. On success the target loses all remaining AP and makes a single attack against a random target within range. For every crit rolled the target adds a normal die for all attack rolls for the duration. On each of this creatures turns they must either attack a random target in range or move towards the closest creature. Each time this creature takes damage they make a willpower save against 2 bad die, adding a superior die for every wound taken.
+Fill a targets mind with rage, forcing it to lash out against its surroundings. Make a spellcasting roll against the targets Willpower. On success the target loses all remaining AP and makes a single attack against a random target within range. For every critical rolled the target adds a normal die for all attack rolls for the duration. On each of this creatures turns they must either attack a random target in range or move towards the closest creature. Each time this creature takes damage they make a willpower save against 2 bad die, adding a superior die for every wound taken.
 
 Add a proficiency die for every level above 2nd.
 
@@ -253,7 +253,7 @@ ___
 
 You conjure a number of deadly, black thorn arrows. Make a spellcasting roll to conjure up to 5 arrows, adding a bad die for every arrow conjured. These arrows can be thrown instead of fired from a bow. When thrown they use your spellcasting roll for the attack and have a range of 10.
 
-When used the arrow explodes into black smoke. The target and all adjacent creatures make a Stamina save against the attack. On fail the main target takes 1 wound and 2 wound dice in damage with each adjacent creature taking 1 wound die instead. On crit each target is blind until the end of their next turn.
+When used the arrow explodes into black smoke. The target and all adjacent creatures make a Stamina save against the attack. On fail the main target takes 1 wound and 2 wound dice in damage with each adjacent creature taking 1 wound die instead. On a critical each target is blind until the end of their next turn.
 
 You conjure an additional arrow for every level above 2nd.
 
@@ -301,7 +301,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-You cause a Large or smaller corpse to explode, shooting sharp shards of bone to adjacent creatures. Medium and smaller creatures explode in a 3 tile diamond, while Large creatures explode in a 5 tile diamond. All creatures caught in the blast must make a Stamina save against your spellcasting. On hit they take 1 wound and are poisoned for 1 minute, adding an wound die to the damage on crit. A creature caught in multiple blasts takes 1 extra wound die in damage per blast.
+You cause a Large or smaller corpse to explode, shooting sharp shards of bone to adjacent creatures. Medium and smaller creatures explode in a 3 tile diamond, while Large creatures explode in a 5 tile diamond. All creatures caught in the blast must make a Stamina save against your spellcasting. On hit they take 1 wound and are poisoned for 1 minute, adding an wound die to the damage on a critical. A creature caught in multiple blasts takes 1 extra wound die in damage per blast.
 
 You may target an additional corpse for each level cast above 2nd.
 
@@ -312,7 +312,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see with fragility. They must make a willpower save against your spellcasting. On a fail the creature adds a bad die to all defense rolls for the next day. If you crit they add a terrible die instead. The curse can be removed by remove curse.
+Curse a creature you can see with fragility. They must make a willpower save against your spellcasting. On a fail the creature adds a bad die to all defense rolls for the next day. If you critical they add a terrible die instead. The curse can be removed by remove curse.
 
 You may target an additional person for every level above 2nd.
 
@@ -323,7 +323,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see, extending their suffering. They must make a willpower save against your spellcasting. On a fail any negative condition affecting the creature lasts an additional turn after being removed, either naturally or through other means, such as with the _Cleanse_ spell. If you crit, any time they gain Hex, Slow, or Poison they gain an additional level.
+Curse a creature you can see, extending their suffering. They must make a willpower save against your spellcasting. On a fail any negative condition affecting the creature lasts an additional turn after being removed, either naturally or through other means, such as with the _Cleanse_ spell. If you critical, any time they gain Hex, Slow, or Poison they gain an additional level.
 
 You may target an additional person for every level above 2nd.
 
@@ -334,7 +334,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 hour
 
-Magically enhance a creatures vision, giving it the ability to see in the dark. Target up to 5 creatures, adding a Bad die to your spellcasting roll for every creature added. On success they gain dark vision out to 24 tiles.
+Magically enhance a creatures vision, giving it the ability to see in the dark. Target up to 5 creatures, adding a Bad die to your spellcasting roll for every creature added. On success they are able to see through dim light and darkness within 30 tiles as if they were bright light.
 
 Add a proficiency die for every level above 2nd.
 
@@ -345,7 +345,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Attempt to cloud a creatures mind in range that you can see. The creature makes a Willpower save against your spellcasting. On a fail the creature adds a Bad die to all spellcasting rolls, or a terrible die on crit.
+Attempt to cloud a creatures mind in range that you can see. The creature makes a Willpower save against your spellcasting. On a fail the creature adds a Bad die to all spellcasting rolls, or a terrible die on a critical.
 
 You may target an additional creature for each level above 2nd.
 
@@ -369,7 +369,7 @@ ___
 - **Range:** 10
 - **Duration:** 1 minute
 
-You create a mass of webs in a 5x5 area centered on a point in range you can see. All creatures inside the web or on the first time they enter must make a Dexterity save against your spellcasting, on fail they are grappled, being restrained on crit. A creature effected by your Webs can be freed by making a successful attack against 3 defense dice. Any creature in range is capable of making this attack.
+You create a mass of webs in a 5x5 area centered on a point in range you can see. All creatures inside the web or on the first time they enter must make a Dexterity save against your spellcasting, on fail they are grappled, being restrained on a critical. A creature effected by your Webs can be freed by making a successful attack against 3 defense dice. Any creature in range is capable of making this attack.
 
 The webs are extremely flammable, and ignite after taking 1 wound of fire damage. Any creature caught in the web takes 1 wound of fire damage and is freed. After the duration the webs remain but lose their stickiness, becoming difficult terrain until cleared.
 
@@ -398,7 +398,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Use your willpower to supress a creatures natural abilties. The target makes a Willpower save against your spellcasting. On fail you choose either Strength or Dexterity, the creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute. Each crit further decreases the proficiency by 1.
+Use your willpower to suppress a creatures natural abilities. The target makes a Willpower save against your spellcasting. On fail you choose either Strength or Dexterity, the creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute. Each critical further decreases the proficiency by 1.
 
 Add a target for each level above 3rd.
 
@@ -409,7 +409,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see with weakness. They must make a willpower save against your spellcasting. On a fail, They are Weakened. On a crit the creature cannot inflict Lesser or Greater wounds.
+Curse a creature you can see with weakness. They must make a willpower save against your spellcasting. On a fail, They are Weakened. On a critical the creature cannot inflict Lesser or Greater wounds.
 
 You may target an additional person for every level above 3rd.
 
@@ -423,7 +423,7 @@ ___
 Change a creatures size, either doubling or reducing by half. When targeting an unwilling creature, they must make a Stamina save against your spellcasting. On fail, you choose if they are Enlarged or Reduced for the duration. This has no effect on Huge or larger creatures.
 
 - Enlarge: Your body doubles in all proportions, increasing your size by 1 level. You add 1 superior die to all strength skills, attacks and saves, and 1 terrible die to all dexterity skills, attacks and saves. Attacks you make deal an additional wound in damage.
-- Reduce: Your body halfs in all proportions, decreasing your size by 1 level. You add 1 terrible die to all strength skills, attacks and saves, and 1 superior die to all dexterity skills, attacks and saves. Attacks you make replace all wounds dealt with wound dice.
+- Reduce: Your body halves in all proportions, decreasing your size by 1 level. You add 1 terrible die to all strength skills, attacks and saves, and 1 superior die to all dexterity skills, attacks and saves. Attacks you make replace all wounds dealt with wound dice.
 
 You may target an additional creature for every level cast above 3rd. All targets must either be Enlarged or Reduced.
 
@@ -436,7 +436,7 @@ ___
 
 You change the aura of a creature or object, changing how it appears to magical effects, such as _Detect Magic_ or _Identify_. Target up to 5 creatures or objects, adding a bad die to the spellcasting roll for every target. On success, you may do any of the following:
 
-You can cause a mundane object to appear magical, a magical object appear mundane, or change it's magical aura to belong to a different school. For example, you could cause an arcane effect to appear as divine when seen by _Detect Magic_. You can change how a creature appears to different spells, such as disguising an Undead creature as a Human for the effects of _Concencrate Ground_. You may change how their race, type, or size appears to spells.
+You can cause a mundane object to appear magical, a magical object appear mundane, or change it's magical aura to belong to a different school. For example, you could cause an arcane effect to appear as divine when seen by _Detect Magic_. You can change how a creature appears to different spells, such as disguising an Undead creature as a Human for the effects of _Consecrate Ground_. You may change how their race, type, or size appears to spells.
 
 If you cast this spell on a creature or object with the same effect every day for 30 days the aura becomes permanent, lasting until dispelled.
 
@@ -474,7 +474,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-Scar the creature with death magic. The target makes a Stamina save against your spellcasting roll. On fail they take 2 wounds and a wound die in damage, adding a wound die for every crit rolled. On success they take half damage, rounding down. If this deals at least 3 wounds the target gains a random Lesser Wound, or a random Greater Wound if it deals 5 or more.
+Scar the creature with death magic. The target makes a Stamina save against your spellcasting roll. On fail they take 2 wounds and a wound die in damage, adding a wound die for every critical rolled. On success they take half damage, rounding down. If this deals at least 3 wounds the target gains a random Lesser Wound, or a random Greater Wound if it deals 5 or more.
 
 Add a wound die for every level above 3rd.
 
@@ -487,7 +487,7 @@ ___
 
 You transform your body, turning into a dangerous beast. The creature must have a CR of 5 or lower and must be one you have seen before. While in this shape your max wounds become the max wounds of the creature and you take the Strength, Dexterity, and Stamina attributes, keeping your Intelligence, Willpower, and Charisma. 
 
-Make a spellcasting roll, your max wounds are increased by 1 for every crit rolled. If you are reduced to 0 wounds while in this form the spell ends, you take 2 wounds of damage and are incapacitated until the end of your next turn from the strain.
+Make a spellcasting roll, your max wounds are increased by 1 for every critical rolled. If you are reduced to 0 wounds while in this form the spell ends, you take 2 wounds of damage and are incapacitated until the end of your next turn from the strain.
 
 Add a proficiency die and increase the CR by 2 for every level above 3rd.
 
@@ -521,7 +521,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see with an unnatural slowness. They must make a willpower save against your spellcasting. On a fail all actions they take costs 1 additional AP. On a crit they instead cost 2 additional AP.
+Curse a creature you can see with an unnatural slowness. They must make a willpower save against your spellcasting. On a fail all actions they take costs 1 additional AP. On a critical they instead cost 2 additional AP.
 
 You may target an additional person for every level above 4th.
 
@@ -556,7 +556,7 @@ ___
 
 You incite a crowd or group of creatures to violence. All creatures in a 7x7 tile area centered on a point in range must make a Willpower save against your spellcasting modifier. On fail, non-hostile creatures begin to act violently, turning into an angry mob. The mob will provoke others, destroy or vandalize nearby buildings, carts, or other objects, and may attack others. Hostile creatures effected by this spell lose any organization they have and may ignore orders by others, instead becoming reckless. 
 
-A creature effected by this spell makes another save every time they are hit, making a Willpower roll against 1 bad die, plus a bad die for every crit rolled in your spellcasting roll.
+A creature effected by this spell makes another save every time they are hit, making a Willpower roll against 1 bad die, plus a bad die for every critical rolled in your spellcasting roll.
 
 Add a proficiency die for every level above 4th.
 
@@ -568,7 +568,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Fire/Death
 
-You summon a flaming skull that screeches a hideous laughter. The skull appears in an adjacent tile, moving up to 5 tiles before disappearing. The caster controls it's movement, passing through creatures. Each creature the skull passed through makes a Willpower save, taking 2 wound dice of both Fire and Death damage on fail. On crit the creature is feared until the end of their next turn, being forced to move and sprint away from the caster on their turn.
+You summon a flaming skull that screeches a hideous laughter. The skull appears in an adjacent tile, moving up to 5 tiles before disappearing. The caster controls it's movement, passing through creatures. Each creature the skull passed through makes a Willpower save, taking 2 wound dice of both Fire and Death damage on fail. On a critical the creature is feared until the end of their next turn, being forced to move and sprint away from the caster on their turn.
 
 The distance the skull travels increases by 2 for every level above 4th.
 
@@ -579,7 +579,7 @@ ___
 - **Range:** 10
 - **Duration:** instant
 
-You target a 4x4 area centered on a point in range, bestowing all creatures with a potent hex. All creatures must make a Willpower save against your spellcasting roll. On fail, they gain 1 level of Hex, or Hex 2 on crit.
+You target a 4x4 area centered on a point in range, bestowing all creatures with a potent hex. All creatures must make a Willpower save against your spellcasting roll. On fail, they gain 1 level of Hex, or Hex 2 on a critical.
 
 Increase the area by 1 for every level above 4th.
 
@@ -625,7 +625,7 @@ ___
 - **Range:** 2
 - **Duration:** concentration, 1 hour
 
-Turn yourself or another creature or object invisible. Make a spellcasting roll against 2 terrible dice. On success the target becomes completely invisible while standing still. Moving causes a barely noticable shimmer to the target. Creatures can make a perception check against your spellcasting to see a moving creature, spotting them on success. Attacks against an invisible creature add 2 terrible dice to their attack rolls.
+Turn yourself or another creature or object invisible. Make a spellcasting roll against 2 terrible dice. On success the target becomes completely invisible while standing still. Moving causes a barely noticeable shimmer to the target. Creatures can make a perception check against your spellcasting to see a moving creature, spotting them on success. Attacks against an invisible creature add 2 terrible dice to their attack rolls.
 
 Add a proficiency die to your spellcasting roll, and you may target an additional creature for every level above 4th. When targeting multiple creatures add a Terrible die for each creature targeted past the 1st.
 
@@ -638,7 +638,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see with pain. Make a spellcasting roll against the creatures Willpower. On success the creature takes an additional wound die every time they take damage, or a full wound on crit.
+Curse a creature you can see with pain. Make a spellcasting roll against the creatures Willpower. On success the creature takes an additional wound die every time they take damage, or a full wound on a critical.
 
 You may target an additional person for every level above 5th.
 
@@ -650,9 +650,23 @@ ___
 - **Duration:** instant
 - **Damage Type:** Death
 
-Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound dice in damage and all healing they recieve is half as effective until they take a long rest and on crit they are stunned until the end of their next turn. On success they take half damage, rounded down, and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
+Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound dice in damage and all healing they receive is half as effective until they take a long rest. On a critical they are stunned until the end of their next turn. On success they take half damage, rounded down, and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
 
 Add a wound die to the damage for every level above 5th.
+
+___
+#### Impale
+*5th Level*
+- **Casting Time:** 8 AP
+- **Range:** Touch
+- **Duration:** instant
+- **Damage Type:** Piercing
+
+A line of bones sprout from the ground, impaling all creatures in a 5 tile line. All creatures in the line make a Defense roll against your spellcasting roll. On fail they take 1 wound and 3 wound dice in damage and the bones impale them, restraining them in place. On success the creatures take no damage and are grappled instead.
+
+The bones extend 8 feet high and are permanent, blocking movement through those tiles. The bones have 1 wound and roll 3 superior defense dice when saving against any attack or spell. To free a grappled or restrained creature the bones holding that creature must be destroyed.
+
+Add a wound die to the damage and increase the length of the line by 1 tile for every level above 5th.
 
 ___
 #### Mind Break
@@ -662,7 +676,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Psychic
 
-Can only be cast against a creature that can look into your eyes. You make a telepathic link to the target, using your will to shatter their mind. The target makes an Intelligence save against your spellcasting. On fail, roll a wound die for every remaining success from your spellcasting roll. If you deal at least 1 damage the target is dazed for the next minute.
+Can only be cast against a creature that can look into your eyes. You make a telepathic link to the target, using your will to shatter their mind. The target makes an Intelligence save against your spellcasting. On fail, roll a wound die for every remaining success and critical from your spellcasting roll. If you deal at least 1 damage the target is dazed for the next minute.
 
 Add a normal die to the spellcasting roll for every level above 5th.
 
@@ -688,7 +702,7 @@ ___
 - **Range:** Self
 - **Duration:** 1 Hour
 
-Enhance your vision, seeing through illusions and invisiblity, seeing things for how they really are. Make a spellcasting roll against 2 bad die, on success you gain True sight out to 15 tiles, seeing into the etheral plane.
+Enhance your vision, seeing through illusions and invisibility, seeing things for how they really are. Make a spellcasting roll against 2 bad die, on success you gain True sight out to 15 tiles, seeing into the ethereal plane.
 
 The duration increases by 1 hour for every level above 5th.
 
@@ -704,7 +718,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see with unnatural fear. Make a spellcasting roll against the creatures Willpower. On success the creature gains Fear as long as there is a hostile creature within 10 tiles, or all creatures on crit. A creature gains no benefits from resting while under this curse.
+Curse a creature you can see with unnatural fear. Make a spellcasting roll against the creatures Willpower. On success the creature gains Fear as long as there is a hostile creature within 10 tiles, or all creatures on a critical. A creature gains no benefits from resting while under this curse.
 
 You may target an additional person for every level above 6th.
 
@@ -727,7 +741,7 @@ ___
 - **Duration:** 10 minutes
 - **Damage Type:** Poison/Death
 
-A thick miasma flows from your body, covering a 7x7 tile area centered on a point in range. The miasma flows around walls and down hills, but cannot climb more than 2 tiles. Any creature that is not the caster that begins thier turn inside or enters the miasma for the first time makes a Stamina save against your spellcasting, taking 1 wound and 1 wound die each of Poison and Death damage on fail or half as much on success. A creature that fails its save gains Poison 1 and Hex 1 regardless of immunities or other effects until the start of their next turn.
+A thick miasma flows from your body, covering a 7x7 tile area centered on a point in range. The miasma flows around walls and down hills, but cannot climb more than 2 tiles. Any creature that is not the caster that begins their turn inside or enters the miasma for the first time makes a Stamina save against your spellcasting, taking 1 wound and 1 wound die each of Poison and Death damage on fail or half as much on success. A creature that fails its save gains Poison 1 and Hex 1 regardless of immunities or other effects until the start of their next turn.
 
 The miasma is a thick, viscous cloud. Except for the caster, a creature inside the miasma can only see adjacent tiles. If there is a strong wind, such as wind created by _Gust_, the miasma cloud moves 1 tile per turn in the direction of the wind.
 
@@ -741,7 +755,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Psychic
 
-You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes an Intelligence save against your spellcasting roll. On fail they take 4 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn. On success they take half damage and Dazed until the end of their next turn.
+You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes an Intelligence save against your spellcasting roll. On fail they take 5 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn. On success they take half damage and Dazed until the end of their next turn.
 
 Add a wound die for every level cast above 6th.
 
@@ -752,7 +766,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Targeting a beast or willing creature you permanently alter their form, only ending when _Restoration_ has been cast on them. Make a spellcasting roll, giving the creature the _Nightmare_ template, increasing their max wounds by 1 for every crit rolled.
+Targeting a beast or willing creature you permanently alter their form, only ending when _Restoration_ has been cast on them. Make a spellcasting roll, giving the creature the _Nightmare_ template, increasing their max wounds by 1 for every critical rolled.
 
 Their max wounds increase by 1 for every level cast above 6th.
 
@@ -820,7 +834,7 @@ ___
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-You overpower a creatures mind you can see, taking control of it. Make a spellcasting roll against the targets Willpower, on success you possess the creature, sensing through the creatures senses and taking actions for the creature. For the duration you become incapacitated, taking actions for the creature during the creatures turn. Taking damage as the creature causes you to make concentration checks as if you took the damage yourself. If the creature dies while you are still in control of it you take 3 wounds of pyschic damage from the strain of dying.
+You overpower a creatures mind you can see, taking control of it. Make a spellcasting roll against the targets Willpower, on success you possess the creature, sensing through the creatures senses and taking actions for the creature. For the duration you become incapacitated, taking actions for the creature during the creatures turn. Taking damage as the creature causes you to make concentration checks as if you took the damage yourself. If the creature dies while you are still in control of it you take 3 wounds of psychic damage from the strain of dying.
 
 Add a superior die for every level above 8th.
 
@@ -831,7 +845,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see with sudden mortality. They must make a willpower save against your spellcasting. On a fail, if their health drops below 7 wounds they instantly die. The death threshold increases by 1 wound for every crit rolled.
+Curse a creature you can see with sudden mortality. They must make a willpower save against your spellcasting. On a fail, if their health drops below 7 wounds they instantly die. The death threshold increases by 1 wound for every critical rolled.
 
 You may target an additional creature for every level above 8th.
 
@@ -852,7 +866,7 @@ ___
 - **Range:** touch
 - **Duration:** 1 year
 
-Seal a creature, binding their body and spirit to a location and preventing them from influencing their surroundings. Make a spellcasting roll against the targets Willpower, adding 4 terrible dice if the creature has half or more of its wounds. On success the creature is incased in a material based on your surroundings and is considered incapacitiated. 
+Seal a creature, binding their body and spirit to a location and preventing them from influencing their surroundings. Make a spellcasting roll against the targets Willpower, adding 4 terrible dice if the creature has half or more of its wounds. On success the creature is incased in a material based on your surroundings and is considered incapacitated. 
 
 While sealed, the creature cannot take damage, does not need to breathe or eat, and does not age. The creature cannot be communicated with through any means and any telepathic or magical link between this creature and others is severed. Should the material sealing the creature be damaged the GM decides what actions are allowed by the sealed creature. Destroying the material ends the effects of this spell and returns the creature to the point it was sealed.
 

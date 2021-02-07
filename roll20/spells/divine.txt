@@ -6,7 +6,7 @@ ___
 - **Range:** 2
 - **Duration:** 1 minute
 
-Target up to 5 creatures you can see. Make a spellcasting roll, adding a bad die for every creature targeted. On a success, the creature can add a proficiency die to their next attack roll or damage-dealing spell roll. On crit they add a superiority die instead.
+Target up to 5 creatures you can see. Make a spellcasting roll, adding a bad die for every creature targeted. On a success, the creature can add a proficiency die to their next attack roll or damage-dealing spell roll. On a critical they add a superiority die instead.
 
 Add a proficiency die for every level above cantrip.
 
@@ -17,7 +17,7 @@ ___
 - **Range:** 2
 - **Duration:** 1 minute
 
-Target up to 5 creatures you can see. Make a spellcasting roll, adding a bad die for every creature targeted. On success, The next die to roll a crit against this creature is ignored.
+Target up to 5 creatures you can see. Make a spellcasting roll, adding a bad die for every creature targeted. On success, The next die to roll a critical against this creature is ignored.
 
 Add a proficiency die for every level above cantrip.
 
@@ -82,9 +82,9 @@ ___
 - **Range:** Touch
 - **Duration:** 1 day
 
-You attempt to summon a small beast to deliver a message for you. Make a spellcasting roll against 2 Terrible dice in an urban environment, or 2 Bad dice elsewhere. On success you summon a small beast local to the area, with the beast having wings on crit. You can give the beast a message up to 1 minute long and a description of who to deliver the message to. The beast will give the message to the first creature it finds that matches the description, and may have trouble with overly complex messages.
+You attempt to summon a small beast to deliver a message for you. Make a spellcasting roll against 2 Terrible dice in an urban environment, or 2 Bad dice elsewhere. On success you summon a small beast local to the area, with the beast having wings on a critical. You can give the beast a message up to 1 minute long and a description of who to deliver the message to. The beast will give the message to the first creature it finds that matches the description, and may have trouble with overly complex messages.
 
-On delivering the message the recipeint is able to give a 1 minute message in return. If the beast is unable to find a creature matching that description or unable to return the response within the spells duration the beast reverts back to a normal animal and the message is lost.
+On delivering the message the recipient is able to give a 1 minute message in return. If the beast is unable to find a creature matching that description or unable to return the response within the spells duration the beast reverts back to a normal animal and the message is lost.
 
 The duration increases by 1 day for each level above 1st.
 
@@ -110,7 +110,7 @@ ___
 
 A 3x3 growth of razor sharp bramble appears centered on a point in range you can see. The bramble counts as difficult terrain and is flammable, each tile burning away after taking 1 wound of fire damage.
 
-Any creature attempting to take a move or sprint action through the bramble must make a Dexterity save against your spellcasting. On fail they take 1 wound die, with their movement ending on a crit. A creature makes this save only once per move or sprint action.
+Any creature attempting to take a move or sprint action through the bramble must make a Dexterity save against your spellcasting. On fail they take 1 wound die, with their movement ending on a critical. A creature makes this save only once per move or sprint action.
 
 The area increases by 1 for every level above 1st.
 
@@ -133,18 +133,18 @@ ___
 - **Range:** 15
 - **Duration:** 10 minutes
 
-A chilling fog appears in a 5x5 area centered on a point in range you can see. Make a spellcasting roll, all creatures gain slow equal to the number of crits rolled, with a minimum of 1. All creatures inisde the fog gain fire resistance 1. The fog heavily obscures the area.
+A chilling fog appears in a 5x5 area centered on a point in range you can see. Make a spellcasting roll, all creatures gain slow equal to the number of crits rolled, with a minimum of 1. All creatures inside the fog gain fire resistance 1. The fog heavily obscures the area.
 
 The size and range of the fog increase by 2 for every level above 1st.
 
 ___
-#### Close Wound
+#### Close Wounds
 *1st Level*
 - **Casting Time:** 5 AP
 - **Range:** Touch
 - **Duration:** instant
 
-Mend a creature's wounds. Make a spellcasting roll, healing a single wound and adding a wound for every crit rolled.
+Mend a creature's wounds. Make a spellcasting roll, healing a single wound and adding a wound for every critical rolled.
 
 Add a Wound die for every level above 1st.
 
@@ -190,7 +190,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Bludgeoning
 
-You cause the earth around you to tremor. All creatures within 2 tiles of you must make a Strength save against your spellcasting. On fail the creature takes 1 wound die in damage, getting knocked prone on crit. If the ground in the area is loose earth or stone it becomes difficult terrain until cleared.
+You cause the earth around you to tremor. All creatures within 2 tiles of you must make a Strength save against your spellcasting. On fail the creature takes 1 wound die in damage, getting knocked prone on a critical. If the ground in the area is loose earth or stone it becomes difficult terrain until cleared.
 
 The the effected tiles extends by 1 and damage is increased by 1 wound die for every level above 1st.
 
@@ -228,7 +228,7 @@ ___
 - **Range:** 3
 - **Duration:** concentration, 1 hour
 
-Target up to 5 creatures in range that you can see. Make a spellcasting roll adding 1 terrible die, plus a terrible die for every creature targeted. On success the creatures gain +1 to a single attribute for the duration of the spell. They also gain +1 to their proficiency modifier in that attributes saving throw for every crit rolled.
+Target up to 5 creatures in range that you can see. Make a spellcasting roll adding 1 terrible die, plus a terrible die for every creature targeted. On success the creatures gain +1 to a single attribute for the duration of the spell. They also gain +1 to their proficiency modifier in that attributes saving throw for every critical rolled.
 
 Add a proficiency die for every level above 1st.
 
@@ -240,7 +240,7 @@ ___
 - **Duration:** concentration, 1 minute
 - **Damage Type:** Bludgeoning
 
-You cause strong winds to blow in a direction, 10 tiles long by 2 tiles wide. Each creature in the line must make a Strength save against your spellcasting, on fail they are blown back 1 tile, plus an additional tile for every crit rolled. If they are unable to move due to a wall or obstacle they instead take 1 wound in damage. Any creature moving against the direction of the wind must spend two tiles of movement for every tile moved. You may spend 2 AP to reverse the direction of the wind.
+You cause strong winds to blow in a direction, 10 tiles long by 2 tiles wide. Each creature in the line must make a Strength save against your spellcasting, on fail they are blown back 1 tile, plus an additional tile for every critical rolled. If they are unable to move due to a wall or obstacle they instead take 1 wound in damage. Any creature moving against the direction of the wind must spend two tiles of movement for every tile moved. You may spend 2 AP to reverse the direction of the wind.
 
 Add a proficiency die for every level cast above 2nd.
 
@@ -253,7 +253,7 @@ ___
 
 Putting a seed into the ground, sprout a rejuvenating bush, bearing fruit. You may add up to 5 uses of this bush, adding a bad die to the spellcasting roll for every use added. If used during a short or long rest the creature can spend a free healing surge. Users may also purge a single source of poison or disease, unless the effect comes from a spell cast at a higher level than _Seed of Renewal_.
 
-The bush can be used an additonal time for every level cast above 2nd.
+The bush can be used an additional time for every level cast above 2nd.
 
 ___
 #### Shield of Faith
@@ -262,7 +262,7 @@ ___
 - **Range:** 3
 - **Duration:** concentration, 10 minutes
 
-A shimmering aura protects up to 5 creatures in range that you can see. Make a spellcasting roll, adding a terrible die for every creature targeted. On success, target creatures gain 1 defense die, or a superior defense die on crit.
+A shimmering aura protects up to 5 creatures in range that you can see. Make a spellcasting roll, adding a terrible die for every creature targeted. On success, target creatures gain 1 defense die, or a superior defense die on a critical.
 
 Add a proficiency die for every level above 2nd.
 
@@ -284,7 +284,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 turn
 
-Channel your faith to form a protective wall centered on a point in range you can see. Make a spellcasting roll against 2 bad die, on success you create a shimmering wall 4 tiles wide and 4 tiles tall. The wall is seethrough and blocks creatures and projectiles from passing through it. Using 2 terrible dice instead.
+Channel your faith to form a protective wall centered on a point in range you can see. Make a spellcasting roll against 2 bad die, on success you create a shimmering wall 4 tiles wide and 4 tiles tall. The wall is see-through and blocks creatures and projectiles from passing through it. Using 2 terrible dice instead.
 
 Add a proficiency die for every level cast above 2nd.
 
@@ -295,7 +295,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 minute
 
-A flurry of wind surrounds up to 5 willing creatures in range you can see. Make a spellcasting roll, adding a terrible die for each creature targeted. On success creatures can move freely without taking opportunity attacks as the wind wards off foes. On crit the winds guide the creatures attacks, allowing them to reroll 1 die in their attack rolls for each crit in your spellcasting roll.
+A flurry of wind surrounds up to 5 willing creatures in range you can see. Make a spellcasting roll, adding a terrible die for each creature targeted. On success creatures can move freely without taking opportunity attacks as the wind wards off foes. On a critical the winds guide the creatures attacks, allowing them to reroll 1 die in their attack rolls for each critical in your spellcasting roll.
 
 The winds last for the duration, or until the creature is hit by an attack.
 
@@ -345,7 +345,7 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** Fire
 
-You create a Flaming skull at position in range you can see. When summoned, and again at the end of each of your turns the skull breathes fire at all creatures in its zone of control. Each creature must make a Defense roll against your spellcasting. On fail they take 1 wound, adding a wound die on crit. On your turn you may spend 3 AP to command the skull to move up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
+You create a Flaming skull at position in range you can see. When summoned, and again at the end of each of your turns the skull breathes fire at all creatures in its zone of control. Each creature must make a Defense roll against your spellcasting. On fail they take 1 wound, adding a wound die on a critical. On your turn you may spend 3 AP to command the skull to move up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
 
 Add a proficient die to your roll and increase the duration by 1 turn for every level cast above 3rd.
 
@@ -387,7 +387,7 @@ ___
 
 Attempt to commune with local nature spirits, gaining one as your guide. Make a spellcasting roll, adding 2 terrible dice to the roll, or 3 if casting this outside of a forest, plains, or swamp. On success you gain an spirit companion of your choosing. You may summon or dismiss the spirit for 5 AP. Each spirit has their own wounds, and if killed the spell ends. Spending a minute in concentration you may look through your spirit animals eyes, while doing so you gain the senses of the animal and lose your own.
 
-- Elk: While within 10 tiles you gain +3 proficiency to athletics challenges and your movespeed increases by 1.
+- Elk: While within 10 tiles you gain +3 proficiency to athletics challenges and your move speed increases by 1.
 - Rabbit: While on your person, gives you +1 proficiency to Dexterity saves and Acrobatics challenges. The rabbit cannot be targeted while on your person.
 - Bear: Your max wounds increase by 1.
 - Snake: +1 proficiency to Intelligence saves and you cannot be charmed.
@@ -405,7 +405,7 @@ ___
 
 You attempt to summon a willing creature to your location. Make a spellcasting roll, adding dice according to the table below. On a success the creature is summoned to the location you touch. The creature gets a glimpse of the area they are being summoned to when the spell is cast.
 
-You may instead cast this into a small object or trinket using the 'Passing Aquaintance' difficulty. Successfully casting this every day for 10 days makes the spell permanent. Anyone holding the object and speaking the command word is teleported to the casting location. For the spell to take hold it must be cast each day in the same place with the same target location.
+You may instead cast this into a small object or trinket using the 'Passing Acquaintance' difficulty. Successfully casting this every day for 10 days makes the spell permanent. Anyone holding the object and speaking the command word is teleported to the casting location. For the spell to take hold it must be cast each day in the same place with the same target location.
 
 Add a proficiency die for every level cast above 3rd.
 
@@ -413,9 +413,9 @@ Add a proficiency die for every level cast above 3rd.
 | Familiarity | Difficult |
 |:----:|:-------------|
 | Second hand description or unknown name  | 4 Terrible Die |
-| Passing Aquaintance  | 2 Terrible Die, 1 Bad Die |
+| Passing Acquaintance  | 2 Terrible Die, 1 Bad Die |
 | Casual Friendship | 1 Terrible Die, 1 Bad Die |
-| Intimate Knowledgge | 1 Bad Die |
+| Intimate Knowledge | 1 Bad Die |
 | More than 200 miles away | +1 Terrible Die |
 
 ___
@@ -466,7 +466,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
 
-Bind a creature to this plane of existence, targeting a creature in range you can see. The target must make a Willpower save against your spellcasting. On fail, the creature is bound for the duration. While bound they are unable to leave this plane through any means, nor can they magically teleport or enter the etheral plane. On crit, the target gains Slow 1 for the duration.
+Bind a creature to this plane of existence, targeting a creature in range you can see. The target must make a Willpower save against your spellcasting. On fail, the creature is bound for the duration. While bound they are unable to leave this plane through any means, nor can they magically teleport or enter the ethereal plane. On a critical, the target gains Slow 1 for the duration.
 
 Add a proficiency die for every level cast above 4th.
 
@@ -477,7 +477,7 @@ ___
 - **Range:** Self
 - **Duration:** instant
 
-You spend time in medidation, listening to the land itself. Covering a radius 3 miles out from your location you may learn any number of things, adding a Bad die to the roll for each:
+You spend time in meditation, listening to the land itself. Covering a radius 3 miles out from your location you may learn any number of things, adding a Bad die to the roll for each:
 
 - General lay of the land and bodies of water.
 - Prevalent plants, creatures, or minerals
@@ -495,7 +495,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Holy
 
-Channel holy energy to destroy a creature living against the natural law. targeting an undead or monstrosity in range that you can see, make a spellcasting roll against thier Stamina. On success they take 7 wounds, or taking 6 wounds minus 1 for every success difference between your rolls on fail. Regardless of success, the target gains Slow equal to the number of crits you rolled.
+Channel holy energy to destroy a creature living against the natural law. targeting an undead or monstrosity in range that you can see, make a spellcasting roll against their Stamina. On success they take 7 wounds, or taking 6 wounds minus 1 for every success difference between your rolls on fail. Regardless of success, the target gains Slow equal to the number of crits you rolled.
 
 The number of wounds dealt increases by 2 for every level above 4th.
 
@@ -506,7 +506,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Choose a target in range you can see that is capable of looking at you. The target must make a Stamina save against your spellcasting. If they succeed they are paralized until the end of their next turn and make no more saving throws. On fail they are paralized for 1 minute. While they are paralized they must make a Stamina save against your spellcasting, on fail turning into stone. 
+Choose a target in range you can see that is capable of looking at you. The target must make a Stamina save against your spellcasting. If they succeed they are paralyzed until the end of their next turn and make no more saving throws. On fail they are paralyzed for 1 minute. While they are paralyzed they must make a Stamina save against your spellcasting, on fail turning into stone. 
 
 Add a proficiency die to the roll for every level above 4th.
 
@@ -528,7 +528,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 minute
 
-Fill a creature with healing energy, causing their wounds to close over time. Make a spellcasting roll against 2 Terrible dice. On success the target heals 1 wound for every crit rolled. For the duration, on the start of the creatures turn they heal 1 wound and remove the effects of 1 lesser wound.
+Fill a creature with healing energy, causing their wounds to close over time. Make a spellcasting roll against 2 Terrible dice. On success the target heals 1 wound for every critical rolled. For the duration, on the start of the creatures turn they heal 1 wound and remove the effects of 1 lesser wound.
 
 Regeneration lasts an additional turn for every level above 4th.
 
@@ -539,7 +539,7 @@ ___
 - **Range:** Touch
 - **Duration:** 1 hour
 
-Attempt to shape stone to a suitable form. Make a spellcasting roll against 2 bad die, on success an area of stone no larger than 1 tile takes the form of your chosing. The stone can have multiple parts, but cannot be more complex than a door. You can shape the stone into anything following these contraints, such as a weapon, an idol, or a chair. This can be used to seal a door shut or create a passage way through a wall as long as the wall is no more than 1 tile thick. After the spell ends the stone returns to its original shape.
+Attempt to shape stone to a suitable form. Make a spellcasting roll against 2 bad die, on success an area of stone no larger than 1 tile takes the form of your choosing. The stone can have multiple parts, but cannot be more complex than a door. You can shape the stone into anything following these constraints, such as a weapon, an idol, or a chair. This can be used to seal a door shut or create a passage way through a wall as long as the wall is no more than 1 tile thick. After the spell ends the stone returns to its original shape.
 
 You can increase the tiles effected by 1 for each level cast above 4th. The tiles must be adjacent.
 
@@ -552,7 +552,7 @@ ___
 
 You attempt to call forth a demon from the abyss at a point in range. Choose a target location in range, making a spellcasting roll against 2 terrible die. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear in the target location. The demons make a Willpower save against your Willpower, on fail the demons obey you for the next hour, after which they revert to their default behavior. Each casting of _Summon Demon_ in this location over the past day increases the difficulty by 1 terrible die.
 
-The maxium CR increases by 2 for every level cast above 4th.
+The maximum CR increases by 2 for every level cast above 4th.
 
 ___
 #### Ward From Death
@@ -607,7 +607,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Holy
 
-You call down a holy judgement over a 5x5 area centered on a point you can see in range. All hostile creatures make a Charisma save against your spellcasting. On fail they take 4 wound dice in damage with Undead taking 4 wounds. On crit the creature cannot move until the end of their next turn. Creatures that pass their saving throw take 1 wound die instead. If the damage would kill a living creature they are brought to 1 wound instead and stunned until the end of their turn. Undead killed this way cannot be raised again.
+You call down a holy judgement over a 5x5 area centered on a point you can see in range. All hostile creatures make a Charisma save against your spellcasting. On fail they take 4 wound dice in damage with Undead taking 4 wounds. On a critical the creature cannot move until the end of their next turn. Creatures that pass their saving throw take 1 wound die instead. If the damage would kill a living creature they are brought to 1 wound instead and stunned until the end of their turn. Undead killed this way cannot be raised again.
 
 Add a wound die for every level above 5th.
 
@@ -641,7 +641,7 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Holy
 
-A holy light eminates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity starting their turn inside or entering it for the first time must make a Stamina save against your spellcasting. On fail they take 1 wound and are blind until the end of their next turn. Any creature making an attack roll against you add 1 terrible die to their roll. You and any creatures you choose inside the light add 1 superior die to all saving throws.
+A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity starting their turn inside or entering it for the first time must make a Stamina save against your spellcasting. On fail they take 1 wound and are blind until the end of their next turn. Any creature making an attack roll against you add 1 terrible die to their roll. You and any creatures you choose inside the light add 1 superior die to all saving throws.
 
 The radius of the bright light increases by 1 for every level above 5th.
 
@@ -652,7 +652,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-Attempt to bring back a creature that has died in the past week. A majority of the creature must be present, and this spell restores missing body parts. Make a spellcasting roll, adding 2 bad die plus a terrible die for every time this creature has died in the past year. On success the target is brought back to life with 1 wound, plus a wound for every crit you rolled.
+Attempt to bring back a creature that has died in the past week. A majority of the creature must be present, and this spell restores missing body parts. Make a spellcasting roll, adding 2 bad die plus a terrible die for every time this creature has died in the past year. On success the target is brought back to life with 1 wound, plus a wound for every critical you rolled.
 
 Add a proficiency die to the roll for every level above 5th.
 
@@ -663,7 +663,7 @@ ___
 - **Range:** 3
 - **Duration:** 10 minutes
 
-You call upon the fighting spirit of nearby dead creatures. Target any number of corpses within range with corpses of undead, monstrosities, or constructs being untargetable. Make a spellcasting roll adding a Terrible die for every corpse targeted, on succes spirits of the creature rise from their bodies to defend you.
+You call upon the fighting spirit of nearby dead creatures. Target any number of corpses within range with corpses of undead, monstrosities, or constructs being untargetable. Make a spellcasting roll adding a Terrible die for every corpse targeted, on success spirits of the creature rise from their bodies to defend you.
 
 The spirits have the same attributes and proficiencies they had in life, but lose any maneuvers, abilities, or spells. Each spirit has 2 wounds and Resistance 2 for all physical damage from non-silvered weapons. The warriors act immediately after the summoners turn and obey simple commands. The spirits vanish after the duration or when exposed to direct sunlight. Corpses that have had their spirits from this spell cannot be raised again.
 
@@ -681,7 +681,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any posession or effects this creature was maintaining.
+You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any possession or effects this creature was maintaining.
 
 Add a proficiency die to the roll for every level above 6th.
 
@@ -693,7 +693,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** Holy
 
-Channel your divine wrath at a target creature, burning their body with holy might. Make a spellcasting roll against the targets Stamina, on success the target takes 6 wounds, plus a wound die for every crit rolled. On fail the target takes 6 wound die in damage instead. Damage dealt from this spell reduces the targets maximum wounds an equal amount, recovering 1 max wound every day. casting _Power Word: Heal_ on a creature removes this effect.
+Channel your divine wrath at a target creature, burning their body with holy might. Make a spellcasting roll against the targets Stamina, on success the target takes 6 wounds, plus a wound die for every critical rolled. On fail the target takes 6 wound die in damage instead. Damage dealt from this spell reduces the targets maximum wounds an equal amount, recovering 1 max wound every day. casting _Power Word: Heal_ on a creature removes this effect.
 
 This deals an additional wound for every level above 6th.
 
@@ -704,7 +704,7 @@ ___
 - **Range:** Touch
 - **Duration:** instant
 
-Restore a creatures form, healing mortal wounds. Make a spellcasting roll, a creature restores 6 wounds, plus a wound for every crit rolled. They may also remove the effects of a single Lesser or Greater wound. A creature can only be healed by this spell once per long rest, unable to withstand the strain of repeated casts.
+Restore a creatures form, healing mortal wounds. Make a spellcasting roll, a creature restores 6 wounds, plus a wound for every critical rolled. They may also remove the effects of a single Lesser or Greater wound. A creature can only be healed by this spell once per long rest, unable to withstand the strain of repeated casts.
 
 This heals an additional wound for every level above 6th.
 
@@ -741,13 +741,13 @@ ___
 - **Duration:** instant
 - **Damage Type:** Holy
 
-You invoke the name of your deity to smite any creatures in range that can hear you. All creatures targeted must make a Charisma save against your religion check, on fail they gain the following depending on their remaining wounds, increasing the threshold by 1 for every crit rolled:
+You invoke the name of your deity to smite any creatures in range that can hear you. All creatures targeted must make a Charisma save against your religion check, on fail they gain the following depending on their remaining wounds, increasing the threshold by 1 for every critical rolled:
 
 - 8 wounds or fewer: blinded for 1 minute
 - 5 wounds or fewer: blinded and feared for 10 minutes
 - 3 wounds or fewer: killed instantly
 
-Regardless of the outcome, any undead, demon, or celestial targeted by this spell takes 3 wound dice in damge and are blinded for 1 minute.
+Regardless of the outcome, any undead, demon, or celestial targeted by this spell takes 3 wound dice in damage and are blinded for 1 minute.
 
 Add a proficient die to your roll for every level cast above 7th.
 
@@ -761,7 +761,7 @@ ___
 - **Range:** 10
 - **Duration:** concentration, 5 minutes
 
-A blinding light shines down centered on a point in range. The light covers a 5x5 tile area, covering it in sunlight. You may choose any number of creatures inside the light to be uneffected, all other creatures must make a Charisma save against your spellcasting. On fail the creatures are pushed to the closest unoccupied space outside of the light and take 2 wound die in damage.
+A blinding light shines down centered on a point in range. The light covers a 5x5 tile area, covering it in sunlight. You may choose any number of creatures inside the light to be unaffected, all other creatures must make a Charisma save against your spellcasting. On fail the creatures are pushed to the closest unoccupied space outside of the light and take 2 wound die in damage.
 
 Creatures inside the light are considered to be on a different plane of existence, and any attack made through the the light fails. A creature can attempt to force their way into the light, making a Charisma save against your spellcasting. On success they enter the light as normal, otherwise they are burned by the light, taking 2 wound dice.
 
@@ -774,7 +774,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the target creature restores wounds equal to the rolls successes. Any conditions aflicting the creature are removed if they came from a spell of 5th level or below. In addition, you may heal a Lesser or Greater wound for every crit rolled.
+You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the target creature restores wounds equal to the rolls successes. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below. In addition, you may heal a Lesser or Greater wound for every critical rolled.
 
 Add 2 superior dice to your roll when casting at 9th level.
 
@@ -787,7 +787,7 @@ ___
 
 You channel your divine magic to become an avatar of your deity. Make a spellcasting roll against 3 terrible dice, On success, you heal a wound for each success. Starting on your next turn you become an embodiment of divine wrath, gaining the following effects:
 
-- You gain a flying speed equal to your movespeed.
+- You gain a flying speed equal to your move speed.
 - You gain Resistance 1 to all damage.
 - You have expertise in everything.
 - You add 2 superior dice to all saving throws.
