@@ -4469,7 +4469,7 @@ At any time you may use Action Surge to regain 7 AP, and you may use a second ma
 You are able to impersonate voices you have heard before, reducing the skill challenge for these rolls. When making conversation or diplomacy checks you can use your performance instead.
 
 #### Arcane Forge
-*Requires proficiency with Enchanters Tools*
+*Requires proficiency in Enchanters Tools*
 
 If you enchant an item with the same property every day for 7 days the effect becomes permanent, becoming a magic item. At 5 proficiency in Enchanters Tools, you may attempt to add a second permanent enchantment after the first one has become permanent. You add a Terrible die to all enchanting rolls when adding the second enchantment.
 
@@ -4479,7 +4479,7 @@ If you enchant an item with the same property every day for 7 days the effect be
 Once per turn, when making an 1 handed weapon attack against a creature you add 2 wound dice on a critical.
 
 #### Banishment
-*Requires 3 proficiency in Divine, 12th Level*
+*Requires 3 proficiency in Divine spells, 12th Level*
 
 The spells _Turn Undead_ and _Destroy Monstrosity_ can target Undead, Monstrosities, Demons, and Outsiders. When casting _Bind Creature_, if the creature is not native to this plane they add 1 Terrible die to all attacks and spells made while bound.
 
@@ -4496,7 +4496,7 @@ You gain expertise in Animal Handling. Your skill with animals allows you to pac
 You can make an animal handling roll against a beast that hasn't been hostile towards you in an attempt to befriend it. On a critical the beast will defend you while in its habitat.
 
 #### Blessed Healing
-*Requires 2 Charisma, proficiency with Divine spells*
+*Requires 2 Charisma, proficiency in Divine spells*
 
 The target of your heals gains an extra superior die on their next attack or saving throw within the next 10 minutes.
 
@@ -4530,22 +4530,22 @@ You are used to pushing your body to its limits. When traveling or staying awake
 When making a saving throw against an attack, damaging spell, or damaging effect you can see you gain 1 superior die to your roll.
 
 #### Defensive Duelist
-*Requires proficiency with a Martial Weapon*
+*Requires proficiency in a Martial Weapon*
 
 When you make a melee attack against a creature with a weapon you are proficient in, they cannot make opportunity attacks against you until the start of your next turn, regardless of the outcome of the attack. In addition, you add 1 superior defense die to opportunity attacks.
 
 #### Divine Healing
-*Requires proficiency with Divine spells, 3 Charisma, 12th Level*
+*Requires proficiency in Divine spells, 3 Charisma, 12th Level*
 
 Your are able to mend even the most fatal of wounds. When casting a healing spell you add 1 wound die to the heal. Casting a healing spell on an unconscious ally always restores the maximum wounds possible.
 
 #### Efficient Brewing
-*Requires proficiency with Apothecary Set*
+*Requires proficiency in Apothecary Set*
 
 When using your Apothecary set you can add an additional ingredient from any of the required ingredients. If you do you create two potions on success instead of one.
 
 #### Elemental Affinity
-*Requires proficiency with Arcane spells, 3 Intelligence*
+*Requires proficiency in Arcane spells, 3 Intelligence*
 
 Your mastery of magic has enhanced your abilities with a given element. Choose fire, cold, lightning, thunder, force, or poison. Spells you cast of this element ignore 1 level of resistance and you add 1 superior die to those spells spellcasting roll. In addition you gain 1 superior die when making saving throws against spells with that damage type.
 
@@ -4570,7 +4570,7 @@ As long as you have at least 1 AP remaining you can take an an action that leave
 Reduces the cost of basic attacks by 1 AP.
 
 #### Far Blessings
-*Requires 3 proficiency in Divine, 10th Level*
+*Requires 3 proficiency in Divine spells, 10th Level*
 
 The spells _Guidance_, _Holy Protection_, _Enhance Ability_, _Shield of Faith_, and _Winds of Battle_ have +3 range. When cast at 1st level and above the effects of _Guidance_ and _Holy Protection_ last until the start of your next turn when triggered.
 
@@ -4585,7 +4585,7 @@ When searching for food you find twice the amount with a successful survival rol
 When targeted by a wild beast or plant creature they must make a Willpower save against your Strength. On fail they must find a new target or the attack fails. Once a beast succeeds they are immune to this effect.
 
 #### Helping Hand
-*Requires proficiency with Divine spells, 6th Level*
+*Requires proficiency in Divine spells, 6th Level*
 
 When casting non-damaging spells on allies, add a superior dice to the roll if you are not one of the targets.
 
@@ -4600,7 +4600,7 @@ Your ability to sneak allows you to hide even in combat. When partially obscured
 You may use your Intimidation roll instead of your Conversation roll in conversation checks. In combat you can spend 5 AP to attempt to intimidate a humanoid creature within 2 tiles of you. The target makes a Willpower save against your Intimidation, becoming afraid of you for 1 minute on fail.
 
 #### Keeper of Lore
-*Requires proficiency with Lore*
+*Requires proficiency in Lore*
 You add 2 superior dice when rolling a Lore challenge to identify a magic item, and on a critical you know if the item is cursed or not. When taking this feat you may choose a race, nation, or area of the world to gain an expert understanding of that land, culture and history. You make make a Lore check to recall information in that topic.
 
 #### Keen Reflexes
@@ -4609,7 +4609,7 @@ You add 2 superior dice when rolling a Lore challenge to identify a magic item, 
 You gain expertise in 2 saving throws.
 
 #### Lightning Rod
-*Requires 3 proficiency in Arcane, 9th Level*
+*Requires 3 proficiency in Arcane spells, 9th Level*
 
 When casting a Lightning spell you may spend 1 additional mana to add one critical to your spellcasting roll. This critical adds no successes, but does trigger on a critical effects.
 
@@ -4619,12 +4619,12 @@ When casting a Lightning spell you may spend 1 additional mana to add one critic
 You learn a new language of your choosing. You are able to translate writings written in a language used by the common races, making an Intelligence check and using your Intelligence save for the roll. On success it takes you 10 minutes to translate a sentence, or 1 minute with a reference.
 
 #### Living Hex
-*Requires 3 proficiency in Curse, 12th Level*
+*Requires 3 proficiency in Curse spells, 12th Level*
 
 When a creature dies while under the effects of Hex caused by your spells, the Hex moves to a target within 2 tiles of the creature. Make a spellcasting roll against their Willpower, on success the target creature gains Hex 1, or Hex 2 on a critical.
 
 #### Malady
-*Requires 3 proficiency in Curse, 9th Level*
+*Requires 3 proficiency in Curse spells, 9th Level*
 
 For Curse spells that target multiple creatures, such as _Trickery_ or _Charming Guise_, you may target 1 extra creature without adding Bad or Terrible dice to the roll.
 
@@ -4639,7 +4639,7 @@ You can see the faint traces of magic around you. When making a Perception check
 While in combat you may spend 3 AP to restore mana equal to half your level, rounded up. After use, cannot be used again until taking a long rest.
 
 #### Mana Recovery
-*Requires 3 proficiency in Arcane, 9th Level*
+*Requires 3 proficiency in Arcane spells, 9th Level*
 
 When casting _Barrier_, _Counter Spell_, or blocking spell damage with _Elemental Shell_ you regain 1 mana, or 2 mana if the spell is 6th level and above, regardless of the rolls outcome.
 
@@ -4649,7 +4649,7 @@ When casting _Barrier_, _Counter Spell_, or blocking spell damage with _Elementa
 You may use your Acrobatics roll in place of Athletics checks, and standing up takes 1 tile of movement instead of half your movement. You can climb near vertical walls and cliffs with ease, even without climbing gear.
 
 #### Overcharge
-*Requires Proficiency with Arcane spells, 6th Level*
+*Requires Proficiency in Arcane spells, 6th Level*
 
 When casting an Arcane spell that deals at least 1 wound you may overcharge it, causing it to deal an additional wound on hit. Add a terrible die to your spellcasting roll, if you have 0 or fewer successes before the roll is contested the spell misfires.
 
@@ -4671,17 +4671,17 @@ You have perfected your defenses, allowing you to withstand almost any attack. W
 You gain Resistance 1 against poison damage. At the end of each of your turns if you are Poisoned reduce the level of Poison by 1.
 
 #### Potent Curses
-*Requires proficiency with Curse spells, 3 Willpower, 8th Level*
+*Requires proficiency in Curse spells, 3 Willpower, 8th Level*
 
 Curses you cast last until dispelled. If you only target a single creature with a curse, add a superior die to the spellcasting roll.
 
 #### Powerful Enchantments
-*Requires proficiency with Enchanters Tools*
+*Requires proficiency in Enchanters Tools*
 
 You add 1 superior die when making Enchantment rolls. Enchantments you make last 7 days.
 
 #### Quickened Spellcasting
-*Requires proficiency with a spell school*
+*Requires proficiency in a spell school*
 
 Reduces the cost of spells by 1 AP.
 
@@ -4696,7 +4696,7 @@ Choose an attribute, your natural talent has made you reliable in all skill chal
 When a creature attacks you, you may make a reaction attack against them. This attack costs 2 AP, and you may only use this on the same creature once per round.
 
 #### Runesmith
-*Requires proficiency with Scribing Tools, 1 Dexterity*
+*Requires proficiency in Scribing Tools, 1 Dexterity*
 
 When inscribing a rune you may add 1 Bad die to the challenge roll, on success you create two runes instead of one.
 
@@ -4705,23 +4705,28 @@ When inscribing a rune you may add 1 Bad die to the challenge roll, on success y
 
 While in combat you may spend 3 AP on your turn to roll a free Healing Surge. This can be used once per rest.
 
+#### Sentinel
+*Requires 2 proficiency in Perception, 7th Level*
+
+The first opportunity attack you make each turn costs 1 AP less. Hostile creatures treat your Zone of Control as difficult terrain.
+
 #### Signature Move
 *Requires 10th Level*
 
 Choose a maneuver you know with a Level requirement of 7 or lower. This maneuver can be used once every turn, and you have expertise for rolls with that maneuver.
 
 #### Siphon Energy
-*Requires proficiency with Curse spells, 3 Willpower, 12th Level*
+*Requires proficiency in Curse spells, 3 Willpower, 12th Level*
 
 You are able to siphon the fading life off enemies to create a temporary shield. When you kill a cursed enemy or kill an enemy using Death damage you gain 1 temporary wound lasting 24 hours. You may gain up to half your max wounds in temporary wounds this way.
 
 #### Spell Researcher
-*Requires proficiency with Scribing Tools, 3 Intelligence, 10th Level*
+*Requires proficiency in Scribing Tools, 3 Intelligence, 10th Level*
 
 Your experience with spell scrolls enables you to create spell scrolls for spells you don't know. You may research any spell at or below your casting level. Researching a spell costs double the normal costs for creating a spell scroll and takes 1 week of work for spells below 4th level, adding an additional week for every level at 4th and above. You add 1 Terrible die to the challenge roll, creating the spell scroll on success.
 
 #### Spellspeaker
-*Requires proficiency with Scribing Tools, Arcana*
+*Requires proficiency in Scribing Tools, Arcana*
 
 You may use spell scrolls to cast the spell written on them. When using a spell scroll you cast as normal, consuming mana but not requiring the spell to be prepared. After casting the spell make an Arcana check against the spells inscribing difficulty. On fail the spell scroll is destroyed.
 
@@ -4731,22 +4736,22 @@ You may use spell scrolls to cast the spell written on them. When using a spell 
 When in combat you can attempt to steal an item from your opponent. The item has to be visible and is not being held. Using 5 AP you make a Sleight of Hand roll against the targets Dexterity or Defense, on success you take the item.
 
 #### Twinned Spell
-*Requires 4 Proficiency with Arcane spells, 15th Level*
+*Requires 4 Proficiency in Arcane spells, 15th Level*
 
 When casting an Arcane spell you may cast a second copy of the spell, using twice the mana but costing no additional AP. The spells must have different targets, and creatures can only be affected by one of the two spells when their area of effect overlaps. You use a single spellcasting roll for both spells, adding 1 Terrible die to your roll.
 
-#### Uncanny Dodge
-*Requires Agile, 10th Level*
-
-Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from the next attack.
-
 #### Unrelenting Force
-*Requires 3 proficiency in Arcane, 9th Level*
+*Requires 3 proficiency in Arcane spells, 9th Level*
 
 When landing a hit with a spell that deals Force damage you may shove the target, moving them 1 tile to the side or away from you. This movement does not trigger opportunity attacks. When rolling a critical with these spells you may reroll a single wound die in the damage roll.
 
+#### Vigilance
+*Requires 2 Strength*
+
+Effects that push or pull you move you one less tile. When the target of a shove or grappling attack or effect you have expertise with Strength saves against those effects.
+
 #### Wildfire
-*Requires 3 proficiency in Arcane, 9th Level*
+*Requires 3 proficiency in Arcane spells, 9th Level*
 
 Fire spells you cast that target an area, such as _Beam of Fire_ and _Fireball_ have their area of effect increased by 1.
 
@@ -4805,6 +4810,11 @@ Reduces the cost of basic attacks by 1 AP.
 
 You can concentrate on 2 separate spells at once, as long as these spells have different targets. Persistent effects, such as _Shroud of Darkness_ have no targets, and creatures inside the spells area do not count as already targeted for Split Mind.
 
+#### Uncanny Dodge
+*Requires Agile, 10th Level*
+
+Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from the next attack.
+
 ___
 ### Legendary
 Each character can only take 1 legendary feat, regardless of requirements.
@@ -4815,12 +4825,12 @@ Each character can only take 1 legendary feat, regardless of requirements.
 Once per long rest, as long as an attack does less than your max wounds in damage you can take no damage instead.
 
 #### Marksman
-*Requires 5 Ranged proficiency, 20th Level*
+*Requires 5 proficiency in Ranged attacks, 20th Level*
 
 You do not add bad dice with ranged attacks when targeting a creature outside of your close range. When making a ranged attack or maneuver you can ignore all bad and terrible dice added to the roll. You may do this up to your Ranged proficiency, after which you must take a long rest to regain this feat.
 
 #### Necromancer
-*Requires 5 Curse proficiency, 20th Level*
+*Requires 5 proficiency in Curse spells, 20th Level*
 
 When gaining temporary wounds, you may heal missing wounds instead. When casting _Raise Dead_ you can target 2 additional corpses without adding Terrible dice, and you add 3 successes to _Gloom_'s spellcasting roll.
 
@@ -4830,12 +4840,12 @@ When gaining temporary wounds, you may heal missing wounds instead. When casting
 You cannot be charmed or possessed and have Resistance 1 against Death damage.
 
 #### Saint
-*Requires 5 Divine proficiency, 20th Level*
+*Requires 5 proficiency in Divine spells, 20th Level*
 
 You add 2 Superior dice to Intelligence, Willpower, and Charisma saves against Undead, Demons, Outsiders, Celestials and Fey. Divine spells you prepare are not forgotten when taking a long rest and do not require a codex to cast.
 
 #### Sorcerer
-*Requires 5 Arcane proficiency, 20th Level*
+*Requires 5 proficiency in Arcane spells, 20th Level*
 
 You gain 10 Spell Power and Mana. During a short or long rest you recover 5 extra Mana.
 
@@ -4878,14 +4888,14 @@ Only those blessed by the fae can take these feats
 
 Using your fae allure you can attempt to charm a humanoid creature. They make a Willpower save against your Conversation, on fail they are charmed by you until you release them. They become infatuated with you to the point they will follow every command as long as it does not bring harm to them. You may have up to your Charisma score in creatures under your charm at any time. If the charmed creature takes damage they make their saving throw again, ending the effect on success.
 
-#### Foxfire
-
-Spending 2 mana you may enchant your next attack or maneuver with foxfire. The defending creature makes a Dexterity save against the attack instead of their normal roll and the attack deals an extra 2 wound dice of fire damage for single target attacks or 1 wound die when targeting multiple creatures. You may instead Enchant arrows with the Foxfire effect. When you or another makes an Enchanting roll to create Homing Arrows you may spend 2 mana to create Foxfire arrows instead.
-
 #### Enchantment
 *Requires 8th Level*
 
 As long as you are not wearing or carrying iron, any attack, maneuver, or spell attack against you adds 1 bad die to the roll.
+
+#### Foxfire
+
+Spending 2 mana you may enchant your next attack or maneuver with foxfire. The defending creature makes a Dexterity save against the attack instead of their normal roll and the attack deals an extra 2 wound dice of fire damage for single target attacks or 1 wound die when targeting multiple creatures. You may instead Enchant arrows with the Foxfire effect. When you or another makes an Enchanting roll to create Homing Arrows you may spend 2 mana to create Foxfire arrows instead.
 
 #### Jinx
 *Requires 2 Charisma*
@@ -4901,6 +4911,11 @@ Only those blessed by nature or earth elementals can take these feats
 
 You can speak with animals. You know the spell _Animal Messenger_ without needing to prepare it and you may cast it without a codex and without spending mana.
 
+#### Force of Earth
+*Requires proficiency in a spell school, 9th level*
+
+Spells you cast that knock back or move creatures push them one additional tile. Spells you cast that deal physical damage deal and extra wound die.
+
 #### Stone Skin
 *Requires 5th Level*
 
@@ -4911,14 +4926,18 @@ Your skin is supernaturally tough, able to deflect blows with ease. When not wea
 
 You can feel the presence of nearby creatures by their movement. While a creature is moving while touching the ground you do not get any disadvantage for Perception checks when trying to detect them, regardless of if they are invisible or hidden by other means. You can detect creatures this way out to 10 tiles.
 
-#### Force of Earth
-*Requires proficiency in a Spell School, 9th level*
-
-Spells you cast that knock back or move creatures push them one additional tile. Spells you cast that deal physical damage deal and extra wound die.
-
 ___
 ### Blight
 Only those blessed by a powerful undead can take these feats
+
+#### Siphon Undead
+
+You can sense the life force keeping Undead alive. On your turn you may spend 5 AP to touch an undead, draining their life force to heal yourself. If targeting an unwilling creature they make a Stamina save against your Willpower. On fail they take 2 wounds in damage and you regain 1 wound of health.
+
+#### Sleepless
+*Requires proficiency in Exhaustion*
+
+When targeted by the _Sleep_ spell you count as having twice as many wounds. For any other effects that cause you to fall asleep you add 3 superior dice to the saving throw. You only need 4 hours for a long rest instead of 8.
 
 #### Tame Undead
 *Requires proficiency in Willpower saves, 5th Level*
@@ -4927,19 +4946,10 @@ You are able to exert your will over mindless undead. On your turn you may spend
 
 You may have up to your Willpower score in Undead under your control. For each undead under your control you add 1 bad die to your willpower rolls with this feat.
 
-#### Siphon Undead
-
-You can sense the life force keeping Undead alive. On your turn you may spend 5 AP to touch an undead, draining their life force to heal yourself. If targeting an unwilling creature they make a Stamina save against your Willpower. On fail they take 2 wounds in damage and you regain 1 wound of health.
-
 #### Undead Vitality
 *Requires 2 Stamina, 5th Level*
 
 When you long rest, for every healing surge you regain that exceeds your maximum you instead gain temporary wounds equal to the excess healing surges.
-
-#### Sleepless
-*Requires proficiency in Exhaustion*
-
-When targeted by the _Sleep_ spell you count as having twice as many wounds. For any other effects that cause you to fall asleep you add 3 superior dice to the saving throw. You only need 4 hours for a long rest instead of 8.
 
 ___
 ### Abyssal
@@ -4950,13 +4960,8 @@ Only those blessed by a powerful demon can take these feats
 
 You permanently gain the benefits of the spell _Dark Sight_, and gain 1 proficiency in Perception.
 
-#### One with Shadows
-*Requires proficiency in Stealth*
-
-While not in direct sunlight you have expertise in Stealth. While in dim light or darkness you can spend 5 AP to become invisible. The invisibility ends when you move or take an action.
-
 #### Eldritch Force
-*Requires proficiency with Curse spells, 8th Level*
+*Requires proficiency in Curse spells, 8th Level*
 
 When casting Eldritch blast at 1st level or above you add 1 wound to the damage.
 
@@ -4964,6 +4969,11 @@ When casting Eldritch blast at 1st level or above you add 1 wound to the damage.
 *Requires proficiency in Sleight of Hand*
 
 When targeted by a damaging attack, maneuver or spell you may add 1 Terrible die to their attack or spellcasting roll. You may do this a number of times equal to your Sleight of Hand proficiency, after which you must long rest before using this feat again.
+
+#### One with Shadows
+*Requires proficiency in Stealth*
+
+While not in direct sunlight you have expertise in Stealth. While in dim light or darkness you can spend 5 AP to become invisible. The invisibility ends when you move or take an action.
 
 
 ## Items
