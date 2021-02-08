@@ -41,6 +41,28 @@ And that's it. Actually you don't even need that much, just the _name_ of a town
 - a prepared party vs an unprepared party
 - surprise rounds
 
+
+## Things for later
+
+
+## Base of Operations
+
+Over the course of your campaign your adventurers may acquire a base of operations, a place for you to interact with and influence the world around you. Your base of operations can be almost anything: from a tall wizards tower, to a keep or fort, a tavern outside the city or a hunters lodge. To be a base of operations it must meet 3 requirements:
+
+- It must be a place your party owns or runs.
+- It must be a place people will want to work for or a place that provides a service to people.
+- It must be influential enough to be noticed by other influential people, such as nobles, merchants, or priests.
+
+Acquiring a base of operations can be an adventure in itself. You may gain one as a reward for helping a rich noble or merchant. You might clear a fort overrun by orcs, taking it for yourself. You could even build your own assuming you can hire someone to build it. Regardless of how you obtain one your base of operations gives you a number of bonuses.
+
+### Hero Dice
+Occasionally you will need to return to your base of operations. Your character may need to meet with important clients, tend to their hirelings, or any number of tasks required to keep your base of operations running. If you spend 7 days of downtime in your base you gain an extra Hero die. You can only gain one extra hero dice this way and can only be regained by spending time at your base.
+
+### Underlings
+Most bases require someone to run them while you're away adventuring. For example a thieves guild might need a quartermaster to manage the base and thieves to operate. A tavern would need a barkeep and a cook to tend to the daily visitors. When you acquire a base of operations you also attract followers, or underlings. Underlings don't cost you anything, but they also don't provide anything other than ensuring the base of operations runs smoothly while your away.
+
+
+
 #### Monster Level (CR)
 
 

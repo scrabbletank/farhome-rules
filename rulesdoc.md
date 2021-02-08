@@ -48,6 +48,12 @@
 - [Leveling Up](#Leveling-Up)
 - [Earning Experience](#Earning-Experience)
 
+[The Adventuring Day](#The-Adventuring-Day)
+- [Travelling](#Travelling)
+- [Short Rest](#Short-Rest)
+- [Long Rest](#Long-Rest)
+- [Exhaustion](#Exhaustion)
+
 [Combat](#Combat)
 - [On your Turn](#On-your-Turn)
 
@@ -64,11 +70,6 @@
   - [Darkness](#Darkness)
   - [Cover](#Cover)
 - [Attack Types](#Attack-Types)
-
-[Resting](#Combat)
-- [Short Rest](#Short-Rest)
-- [Long Rest](#Long-Rest)
-- [Exhaustion](#Exhaustion)
 
 [Conditions](#Conditions)
 
@@ -505,7 +506,7 @@ Instead of using the rules above for attributes, your group may decide to roll y
 Many people prefer the randomness given by rolling for attributes, but this can often lead to very powerful or weak characters across a group. A way to ensure every player is on the same level, each player takes turns rolling an attribute score. Once 6 scores have been rolled the players use those scores to create their characters. The players can place the scores in any attribute they want, but they must use the same 6 scores as every other player.
 
 ### Starting Equipment
-Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire starter and 50ft of rope. In addition you start with 50 silver which you can spend on gear or upgrades. Any unspent silver becomes your characters starting money.
+Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire kit and 50ft of rope. In addition you start with 50 silver which you can spend on gear or upgrades. Any unspent silver becomes your characters starting money.
 
 #### Currency
 Currency in Farhome is divided into 3 types: the copper trite, silver cross, and platinum talent. An iron cross is worth 100 copper trites, and a platinum talent is worth 100 silver crosses.
@@ -571,6 +572,47 @@ Players earn experience after every encounter based on the difficulty of the enc
 
 #### Variant - Milestones
 An alternative to experience is milestones. Experience can in some cases be hard to keep consistent across adventures and can lead to some gamification problems with players. With milestones you gain a level after completing an adventure, or a portion of one.
+
+## The Adventuring Day
+As an adventurer you'll be spending just as much time travelling to and from the dungeon as you will delving its depths. Even the most battle hardened adventurers need to rest from time to time. Resting comes in two forms: short and long rests. Each day you can take at most two short rests and one long rest, taking any more than that has no effect.
+
+### Travelling
+
+A normal travelling day is 8 hours, with the distance travelled based on the terrain. You can push yourself to travel for longer at risk of gaining exhaustion. For every hour you spend travelling past 8 you make an exhaustion roll. Starting against 2 bad dice, you add 1 terrible die every time you make this roll. If you fail the exhaustion roll you gain 1 level of exhaustion and cannot travel further.
+
+Travelling with a mount makes travel easier, removing most of the strain of travel. However, while travelling is easier for you most mounts won't spend more than 8 hours a day in travel. If your mount has the ability to fly you do not take any penalties to travel based on the terrain.
+
+##### Travel Speed
+|  | Type | Miles per Day |
+|:----:|:-------------:|:-------------:|
+| _Terrain_  |  |  |
+|  | Road | 16 |
+|  | Plains, Forest | 12 |
+|  | Mountain, Swamp | 8 |
+| _Mounts_ | | |
+|  | Horse, Mule | +2 |
+|  | War Horse | +4 |
+|  | Exotic | +2-8 |
+
+### Short Rest
+
+Short rests require an hour of uninterrupted rest to complete. During a short rest you may spend any number of healing surges to restore lost wounds. You regain mana equal to half your character's level, rounded up, with a minimum of 1. You only get the benefits of a short rest if you are able to complete it. Taking other actions, such as brewing a potion, breaks your rest.
+
+### Long Rest
+
+Long rests require 8 hours of rest with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, or brewing potions. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds. You regain mana equal to 3 + your character's level. If you go more than 24 hours without taking a long rest you must make an exhaustion roll against 2 bad dice and 1 terrible die. You make this check every 24 hours without a long rest.
+
+### Exhaustion
+All adventurers need to rest from time to time, trying to do too much in a day can leave you exhausted. You can gain exhaustion from many situations, from travelling too long, not taking rests, spells, or abilities. At 6 levels of exhaustion your character drops dead.
+
+##### Exhaustion Levels
+| Level | All Proficiences | Max Wounds | Sprint
+|:----:|:----:|:----:|:-------------|
+| 1  | -1 | -1 | Yes |
+| 2  | -1 | -2 | Yes |
+| 3 | -2 | -3 | No |
+| 4 | -2 | -4 | No |
+| 5 | -3 | -5 | No |
 
 ## Combat
 
@@ -724,33 +766,6 @@ Some attacks have a range of 'touch'. Touch attacks require you to be adjacent t
 
 #### Cone
 Cone attacks are given as a length and width. The cone starts centered along the width, only effecting the center tile. The cone expands as you go down the length of the attack, reaching its width at the end. If the cone covers at least 1/3rd of the creatures tile it effects that creature.
-
-## Resting
-During the adventuring day you will sometimes need to take a rest to recover health and abilities. There are two types of rests: Short rests which take an hour and Long rests which take 8. Each day you can have at most two short rests and one long rest. Any more more rests then that have no effect.
-
-### Short Rest
-
-Short rests require an hour of uninterrupted rest to complete. During a short rest you may spend any number of healing surges to restore lost wounds. You regain mana equal to half your character's level, rounded up, with a minimum of 1. You only get the benefits of a short rest if you are able to complete it. Taking other actions, such as brewing a potion, breaks your rest.
-
-### Long Rest
-
-Long rests require 8 hours of rest with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, or brewing potions. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds. You regain mana equal to 3 + your character's level.
-
-### Exhaustion
-All adventurers need to rest from time to time, trying to do too much in a day can leave you exhausted. You can gain exhaustion from many situations, from travelling too long, not taking rests, spells, or abilities. At 6 levels of exhaustion your character drops dead.
-
-A normal travelling day is 8 hours. For every 2 hours you travel past 8 you must make an exhaustion roll. At 10 hours, you make a roll against 2 Bad dice, on fail you gain a level of exhaustion and can't travel further. The difficulty of this roll increases by 1 terrible die for each roll past the 1st.
-
-If you go more than 24 hours without taking a long rest you must make an exhaustion save against 2 bad dice and 1 terrible die. You make this check every 24 hours without a long rest.
-
-##### Exhaustion Levels
-| Level | Proficiency | Max Wounds | Sprint
-|:----:|:----:|:----:|:-------------|
-| 1  | -1 | -1 | Yes |
-| 2  | -1 | -2 | Yes |
-| 3 | -2 | -3 | No |
-| 4 | -2 | -4 | No |
-| 5 | -3 | -5 | No |
 
 ## Conditions
 There are a number of conditions creatures can be subjected to, each with different effects. Some conditions have a level associated with them to determine the potency of that condition. For example, Poison normally adds a bad die to your attack rolls and saving throws, where Poison 2 and Poison 3 adds 2 and 3 bad dice respectively.
@@ -4995,7 +5010,7 @@ A vial filled with a blood red liquid. On use they heal 1 wound plus 2 wound dic
 Can be used during a short or long rest. You may reroll any of the wound dice when rolling Healing Surges during this rest.
 
 #### Fire Kit
-Contains kindling, wood, and equipment to easily start a campfire. Can be used to pass a survival check when building a fire.
+Contains kindling and equipment to easily start a campfire. Can be used to pass a survival check when building a fire.
 
 #### Ammunition
 A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the attack, while bolts only deal the base crossbow damage.
@@ -5021,26 +5036,27 @@ ___
 ### Mundane Gear
 
 ##### Weapons
-| | Weapon | Modifiers | Damage | Type
-|:----:|:----:|:----:|:----:|:----:|
-| *Simple*  |  |  |  | |
-| | Dagger  | Finesse | 1 | Piercing |
-| | Club  |  | 1 wound die | Bludgeoning |
-| | Spear | Reach | 1 | Piercing |
-| | Crossbow | Loading | 1 | Piercing |
-| *Martial*  |  |  |  | |
-| | Javelin | Thrown 5/10, _Finesse_ | 1 | Piercing |
-| | Hatchet | Thrown 5/10 | 1 | Slashing |
-| | Axe |  | 1 | Slashing |
-| | Halberd | Versatile 1, Reach | 1 | Piercing |
-| | Flail | Versatile 1 | 1 | Bludgeoning |
-| | Mace |  | 1 | Bludgeoning |
-| | Warhammer | Two-Handed | 1 + 1 wound die | Bludgeoning |
-| | Sword | Finesse | 1 | Slashing |
-| | Great Sword | Two-Handed | 1 + 1 wound die | Slashing |
-| | Battle Axe | Two-Handed | 3 wound dice | Slashing |
-| | Bow | Range 15/25 | 1 + arrow damage | Piercing |
-| | Arrow |  | 1 wound die | Piercing |
+| | Weapon | Modifiers | Damage | Cost | Type
+|:----:|:----:|:----:|:----:|:----:|:----:|
+| *Simple*  |  |  |  | | |
+| | Dagger  | Finesse | 1 | 5sc | Piercing |
+| | Club  |  | 1 wound die | 4sc | Bludgeoning |
+| | Spear | Reach | 1 | 8sc | Piercing |
+| | Crossbow | Loading | 1 | 35sc | Piercing |
+| *Martial*  |  |  |  | | |
+| | Javelin | Thrown 5/10, _Finesse_ | 4sc | 1 | Piercing |
+| | Hatchet | Thrown 5/10 | 1 | 8sc | Slashing |
+| | Axe |  | 1 | 15sc | Slashing |
+| | Halberd | Versatile 1, Reach | 1 | 25sc | Piercing |
+| | Flail | Versatile 1 | 1 | 55sc | Bludgeoning |
+| | Mace |  | 1 | Bludgeoning | 30sc |
+| | Warhammer | Two-Handed | 1 + 1 wound die | 80sc | Bludgeoning |
+| | Sword | Finesse | 1 | 35sc | Slashing |
+| | Great Sword | Two-Handed | 1 + 1 wound die | 70sc | Slashing |
+| | Battle Axe | Two-Handed | 3 wound dice | 70sc | Slashing |
+| | Bow | Range 15/25 | 1 + arrow damage | 30sc | Piercing |
+| | Arrow |  | 1 wound die | 5ct | Piercing |
+| | Bolt |  | - | 5ct | Piercing |
 
 ##### Armor
 
@@ -5048,20 +5064,20 @@ There are 3 different types of armor: Light, Medium, and Heavy. There is no prof
 
 If you do not meet the Strength requirement for wearing your armor you add 1 terrible die to all attack, attribute saves and spellcasting rolls.
 
-| | Armor | Defense | Strength | Dex/Spell Penalty
-|:----:|:----:|:----:|:----:|:----:|
-| *Light*  |  |  |  | |
-|  | Padded | 0/3 | - | None |
-|  | Leather, Studded | 1/2 | 0 | None |
-| *Medium*  |  |  |  | |
-|  | Hide | 1/3 | 1 | 2 Bad dice |
-|  | Chain Shirt, Scalemail | 2/2 | 2 | 2 Bad dice |
-| *Heavy*  |  |  |  | |
-|  | Half Plate, Splint | 2/3 | 3 | 2 Terrible dice |
-|  | Full Plate | 3/2 | 4 | 2 Terrible dice |
-| *Shield*  |  |  |  | |
-|  | Buckler | +0/1 | 0 | None |
-|  | Shield | +1/0 | 2 | None |
+| | Armor | Defense | Strength | Cost | Dex/Spell Penalty
+|:----:|:----:|:----:|:----:|:----:|:----:|
+| *Light*  |  |  |  | | |
+|  | Padded | 0/3 | - | 20sc | None |
+|  | Leather, Studded | 1/2 | 0 | 30sc | None |
+| *Medium*  |  |  |  | | |
+|  | Hide | 1/3 | 1 | 55sc | 2 Bad dice |
+|  | Chain Shirt, Scalemail | 2/2 | 2 | 75sc | 2 Bad dice |
+| *Heavy*  |  |  |  | | |
+|  | Half Plate, Splint | 2/3 | 3 | 140sc | 2 Terrible dice |
+|  | Full Plate | 3/2 | 4 | 225sc | 2 Terrible dice |
+| *Shield*  |  |  |  | | |
+|  | Buckler | +0/1 | 0 | 15sc | None |
+|  | Shield | +1/0 | 2 | 40sc | None |
  
 </div>
 
