@@ -187,7 +187,7 @@ Some dice have special symbols on them for Critical Successes and Critical Failu
 #### Dice Values
 | Die | 1 | 2 | 3 | 4 | 5 | 6 |
 |:----:|:--:|:--:|:--:|:--:|:--:|:--|
-| Superior  | CS | Sx2 | S | S| S | _ |
+| Superior  | CS | Sx2 | S | S | S | _ |
 | Enhanced  | CS | S | S | S | _ | _ |
 | Normal | S | S | _ | _ | _ | _ |
 | Bad | _ | _ | F | F | F | CF |
@@ -269,7 +269,7 @@ When a character takes enough damage to drop them to 0 wounds or below they beco
 
 Death saves aren't the only way you can lose temporary wounds, creatures can still make attacks against you and any melee attacks that hit you deal full damage regardless of the wound dice rolled. Likewise, allies can attempt to bring you back with healing spells, potions, or by stabilizing you. While in this state healing effects restore any lost temporary wounds first before restoring your wounds. If this brings you 1 wound or above you regain consciousness and no longer make death saves.
 
-You can attempt to stabilize a character by making a medicine check. The check takes 10 AP and you must be beside the downed character to make it. Roll a medicine check, adding a Terrible die for every temporary wound the character is missing. On success the character is stabilized, on fail the character restores a temporary wound for every critical success in your medicine check. A stabilized players's wounds are set to 1 and they no longer make death saving throws, gaining consciousness after 10 minutes.
+You can attempt to stabilize a character by making a medicine check. The check takes 10 AP and you must be beside the downed character to make it. Roll a medicine check, adding a Terrible die for every temporary wound the character is missing. On success the character is stabilized, on failure the character restores a temporary wound for every critical success in your medicine check. A stabilized players's wounds are set to 1 and they no longer make death saving throws, gaining consciousness after 10 minutes.
 
 ### Action Points
 
@@ -578,7 +578,7 @@ As an adventurer you'll be spending just as much time travelling to and from the
 
 ### Travelling
 
-A normal travelling day is 8 hours, with the distance travelled based on the terrain. You can push yourself to travel for longer at risk of gaining exhaustion. For every hour you spend travelling past 8 you make an exhaustion roll. Starting against 2 bad dice, you add 1 terrible die every time you make this roll. If you fail the exhaustion roll you gain 1 level of exhaustion and cannot travel further.
+A normal travelling day is 8 hours, with the distance travelled based on the terrain. You can push yourself to travel for longer at risk of gaining exhaustion. For every hour you spend travelling past 8 you make an exhaustion roll. Starting against 2 bad dice, you add 1 terrible die every time you make this roll. If you failure the exhaustion roll you gain 1 level of exhaustion and cannot travel further.
 
 Travelling with a mount makes travel easier, removing most of the strain of travel. However, while travelling is easier for you most mounts won't spend more than 8 hours a day in travel. If your mount has the ability to fly you do not take any penalties to travel based on the terrain.
 
@@ -620,7 +620,7 @@ Combat is broken down into rounds where every combatant gets a turn. Turn order 
 
 #### Initiative
 
-When combat starts every character and creature in combat rolls for initiative. By default, you roll 5 normal dice, improving 1 to an enhanced die for every point of dexterity you have, with negative dexterity converting die to bad die. You add a flat success/fail modifier depending on the circumstances. Surprised creatures start with 3 failures. These values can be changed by feats or skills, and other dice may be added.
+When combat starts every character and creature in combat rolls for initiative. By default, you roll 5 normal dice, improving 1 to an enhanced die for every point of dexterity you have, with negative dexterity converting die to bad die. You add a flat success/failure modifier depending on the circumstances. Surprised creatures start with 3 failures. These values can be changed by feats or skills, and other dice may be added.
 
 Combatants take turns, starting with whoever rolled the highest and ending with whoever rolled the lowest initiative. After every combatant has had a turn the round ends and a new round begins, starting with the creature that had the highest initiative. This repeats until combat is over or one side has defeated all other combatants.
 
@@ -787,7 +787,7 @@ When making any roll, a Hexed creature replaces a critical with a single success
 An incapacitated creature takes no actions and automatically fails Strength and Dexterity saving throws.
 
 ##### Paralyzed
-A paralyzed creature automatically fail dexterity saving throws. When taking any Action they must first roll a Wound die. If the result is a wound they do not take the action and lose the AP spent.
+A paralyzed creature automatically failure dexterity saving throws. When taking any Action they must first roll a Wound die. If the result is a wound they do not take the action and lose the AP spent.
 
 ##### Poison
 A poisoned creature adds a bad die to all attacks, saving throws, and ability checks, adding a bad die for every level of poison. Only the highest level poison takes effect. For example someone who has Poison and Poison 2 only adds 2 bad dice instead of 3.
@@ -805,7 +805,7 @@ A slowed creature's Move and Sprint speeds are reduced by 1. Each level of slow 
 A staggered creature is unable to take reactions until the start of their next turn.
 
 ##### Stunned
-A stunned creature cannot move or take actions, and automatically fail Strength and Dexterity saving throws. Attackers gain combat advantage against this target.
+A stunned creature cannot move or take actions, and automatically failure Strength and Dexterity saving throws. Attackers gain combat advantage against this target.
 
 ##### Weaken
 When a weakened creature hits with any attack or maneuver, all guaranteed wounds are replaced with Wound dice, dealing a wound only if the die rolls a wound.
@@ -830,7 +830,7 @@ Shields cannot have bonus modifiers, but can have additional effects.
 
 ### Identifying Magic Items
 
-Magic items can be identified by a successful Lore challenge. Each character can only attempt a lore roll once, if you fail then you must either cast _Identify_ on the item or take it to someone who can appraise it.
+Magic items can be identified by a successful Lore challenge. Each character can only attempt a lore roll once, if you failure then you must either cast _Identify_ on the item or take it to someone who can appraise it.
 
 You can still use magic items without identifying them, but its bonuses will be unknown to you. If the item requires attunement you only benefit from its bonus modifiers unless stated otherwise.
 
@@ -1187,7 +1187,7 @@ ___
 - **Casting Time:** 5 AP
 - **Range:** 2
 - **Duration:** instant
-- **Damage Type:** Cold
+- **Damage Type:** cold
 
 Sap the heat from a creature you can see. Make a spellcasting roll against the creatures Stamina. On success the creature takes a wound in cold damage and for every critical rolled the creature gains a level of Slow until the end of their next turn.
 
@@ -1199,7 +1199,7 @@ ___
 - **Casting Time:** 6 AP
 - **Range:** 8
 - **Duration:** instant
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
 Blast a creature you can see with a bolt of fire. Make a spellcasting roll against the creatures defense. On success the creature takes a wound in fire damage, adding a wound die on a critical.
 
@@ -1233,7 +1233,7 @@ ___
 - **Casting Time:** 6 AP
 - **Range:** 3
 - **Duration:** instant
-- **Damage Type:** Lightning
+- **Damage Type:** lightning
 
 Charge the air around a creature in range, causing sparks to strike the creature. Make a spellcasting roll against the creatures Dexterity. On success the creature takes a wound in lightning damage. If you roll a critical the spell bounces to a creature adjacent to the target, making a new roll for the new creature. This cannot bounce to the same creature twice and must bounce if there is a creature adjacent to the initial target.
 
@@ -1243,9 +1243,9 @@ ___
 #### Thundering Blow
 *Cantrip*
 - **Casting Time:** 5 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
-- **Damage Type:** Thunder
+- **Damage Type:** thunder
 
 conjure a rolling thunder to blast a creature away. Make a spellcasting roll against the creatures Strength. On success they take a wound die in thunder damage, pushed back 1 tile and staggered until the end of their next turn. For every critical rolled the creature is pushed an extra tile. If the creature is unable to move, either due to another creature or obstacle, add a wound die to the damage for every tile remaining.
 
@@ -1258,7 +1258,7 @@ ___
 - **Casting Time:** 8 AP
 - **Range:** 7
 - **Duration:** instant
-- **Damage Type:** Force
+- **Damage Type:** force
 
 You shoot a volley force blasts, sending 3 blasts to any creatures in range. The blasts travel around corners and obstacles, homing in on their target. You may have all blasts target the same creature, or split the blasts between creatures. Make a spellcasting roll against the creatures Strength. On success they take 1 wound die in force damage for every blast aimed at them. Replace a wound die with a wound for every critical rolled.
 
@@ -1268,7 +1268,7 @@ ___
 #### Arcane Key
 *1st Level*
 - **Casting Time:** 10 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 Magically force a lock to open. Touching a lock you may make a lockpicking check using your spellcasting roll instead of your lockpicking skill. On success the lock is opened. This spell can open magical locks.
@@ -1279,9 +1279,9 @@ ___
 #### Beam of Fire
 *1st Level*
 - **Casting Time:** 7 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** instant
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
 A blast of fire shoots from your hands, hitting all creatures in a 3 tile line. Make a spellcasting roll against the creatures defense. On success the target takes a wound in fire damage, or two wounds on a critical.
 
@@ -1293,7 +1293,7 @@ ___
 - **Casting Time:** 7 (5) AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Lightning
+- **Damage Type:** lightning
 
 Call a bolt of lightning to strike a nearby creature you can see. Make a spellcasting roll against the creatures Dexterity. On success they take 1 wound and 2 wound dice in lightning damage, becoming paralyzed until the end of their next turn on a critical. If cast in rainy conditions this spell only costs 5 AP.
 
@@ -1305,7 +1305,7 @@ ___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
-- **Damage Type:** Cold
+- **Damage Type:** cold
 
 You shoot a chilling beam at up to 3 creatures in range. Make a spellcasting roll against the creatures Stamina. On success, the target takes 1 wound die in cold damage and gains Slow 1, or Slow 2 on a critical.
 
@@ -1326,7 +1326,7 @@ ___
 #### Identify
 *1st Level*
 - **Casting Time:** 1 minute
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 Attempt to learn the secrets of a magical item or trinket. Make a lore check using your spellcasting roll for the check. On success you learn the properties of the item.
@@ -1337,10 +1337,10 @@ ___
 #### Magic Sight
 *1st Level*
 - **Casting Time:** 10 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 1 hour
 
-Create an invisible floating eye, visible only to those who can see the ethereal plane or have cast the spell _Detect Magic_ on it. You can see, but not hear, everything the eye can see in addition to your normal senses. On your turn you can command the eye to move up to 5 tiles as a free action. If the eye moves more than 10 tiles away from you, you must make a spellcasting roll against 2 Bad dice, repeating this roll every minute. On fail the spell ends. The eye cannot move through solid objects, but can fit through a 1 inch hole.
+Create an invisible floating eye, visible only to those who can see the ethereal plane or have cast the spell _Detect Magic_ on it. You can see, but not hear, everything the eye can see in addition to your normal senses. On your turn you can command the eye to move up to 5 tiles as a free action. If the eye moves more than 10 tiles away from you, you must make a spellcasting roll against 2 Bad dice, repeating this roll every minute. On failure the spell ends. The eye cannot move through solid objects, but can fit through a 1 inch hole.
 
 If the eye is able to fully spot a creature behind cover, they gain 1 less bonus die from cover against your attacks.
 
@@ -1352,7 +1352,7 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 1 minute
-- **Damage Type:** Poison
+- **Damage Type:** poison
 
 Summon bubbling acid on 3 tiles at points in range you can see. When a creature starts their turn or enters a tile for the first time on a round you make a spellcasting roll against their Stamina. On success they take 1 wound in poison damage and on a critical gain Poison 1 until the end of their next turn. These tiles count as difficult terrain, and last for 1 minute.
 
@@ -1373,9 +1373,9 @@ ___
 #### Sword Burst
 *1st Level*
 - **Casting Time:** 3 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** 1 minute.
-- **Damage Type:** Force
+- **Damage Type:** force
 
 Magically enchant your weapon to fire a burst of energy with your next attack. You gain _Reach 1_ for the duration of the spell. On your next attack the target creature makes a Strength save instead of rolling defense. On hit, all physical damage dealt by the attack is converted to force damage and you deal an extra wound die of force damage with the attack. After you make the attack the spell ends.
 
@@ -1385,9 +1385,9 @@ ___
 #### Thunderclap
 *1st Level*
 - **Casting Time:** 5 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** instant
-- **Damage Type:** Thunder
+- **Damage Type:** thunder
 
 A wave of thunder slams the ground around you, hitting all creatures adjacent to you. Make a spellcasting roll against the creatures defense. On success the creature takes 1 wound and 1 wound die in thunder damage and is staggered. On a critical the target is pushed away 1 tile from you taking an extra wound in thunder damage if an object or creature blocks their movement.
 
@@ -1399,7 +1399,7 @@ ___
 #### Barrier
 *2nd Level*
 - **Casting Time:** 2 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** instant
 
 As a reaction you quickly pull up magical defenses, protecting you and all adjacent creatures from an incoming spell. Making a spellcasting roll, you and all adjacent creatures add 1 superior die to their saving throw, adding an extra superior die for every critical. Creatures in the barrier gain _Resistance 2_ to Force damage.
@@ -1412,7 +1412,7 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 minute
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
 Cause up to 2 creatures you can see in range to burst into flames. Make a spellcasting roll against the creatures Dexterity, on success they ignite in flames. At the start of their turn they take 1 wound in fire damage from the flames. On their turn they may spend 5 AP rolling on the ground to extinguish the fire, leaving them prone. Taking cold damage or being doused in water extinguishes the fire.
 
@@ -1436,7 +1436,7 @@ ___
 #### Elemental Shell
 *2nd Level*
 - **Casting Time:** 5 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 10 minutes
 
 Create an energy barrier around yourself. Choose a damage type: fire, cold, lightning, thunder, poison. Make a spellcasting roll, on success you gain Resistance 1 to that damage type, increasing the resistance by 1 for every critical rolled.
@@ -1447,9 +1447,9 @@ ___
 #### Flurry
 *2nd Level*
 - **Casting Time:** 7 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
-- **Damage Type:** Cold
+- **Damage Type:** cold
 
 You conjure a flurry of ice shards in a 3x3 area adjacent to you. Make a spellcasting roll against the creatures stamina save. On success they take 2 wound dice in cold damage, gaining 1 level of Slow for the next minute on a critical.
 
@@ -1459,7 +1459,7 @@ ___
 #### Imprint
 *2nd Level*
 - **Casting Time:** up to 5 minutes
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 5 minutes
 
 Attempt to record your senses to an object, allowing a creature to replay your recording by holding the object and speaking a command word. Make a spellcasting roll, adding a superior die if a gemstone worth at least 50sc is used to store the recording. You can record a memory from the past 24 hours or record what you are currently experiencing. Depending on your successes the quality of the recording will change:
@@ -1499,7 +1499,7 @@ ___
 #### Resilient Shield
 *2nd Level*
 - **Casting Time:** 4 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 10 minutes
 
 On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against 1 bad die, or 2 if cast as a reaction. On success you create a shield of force around youself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions, but movement effects do not break the spell.
@@ -1516,7 +1516,7 @@ ___
 #### Animate Guardian
 *3rd Level*
 - **Casting Time:** 10 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** concentration, 1 hour
 - **Damage Type:** Bludgeoning
 
@@ -1533,7 +1533,7 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** instant
-- **Damage Type:** Lightning
+- **Damage Type:** lightning
 
 A burst of lightning shoots from your hands that bounces from creature to creature. Targeting a creature you can see within range, the lightning bounces from them to up to 2 other creatures each within 3 tiles of the previous creature. The lightning cannot bounce to the same creature twice and must bounce to a creature if able. Make a spellcasting roll against the creatures dexterity. On success they take 1 wound in lightning damage, adding a wound die for every critical.
 
@@ -1557,7 +1557,7 @@ ___
 - **Range:** 1 mile
 - **Duration:** concentration, 10 minutes
 
-See far into the distance, bending your sight around obstacles. Choose a location in range, making a spellcasting roll against 2 Terrible die, or 3 if the location is unfamiliar to you. On success you can see the target location as long as it is not complete incased, for example you would be able to see the happenings in a town, but not inside buildings. You can see the location as if you were present there, but cannot make out sounds. At any time you may change the target of your sight, requiring a minute to reorient yourself.
+See far into the distance, bending your sight around obstacles. Choose a location in range and make a spellcasting roll against 2 Terrible die, or 3 if the location is unfamiliar to you. On success you can see the target location as long as it is not complete incased, for example you would be able to see the happenings in a town, but not inside buildings. You can see the location as if you were present there, but cannot make out sounds. At any time you may change the target of your sight, requiring a turn to reorient yourself.
 
 Add an enhanced die for every level above 3rd.
 
@@ -1567,9 +1567,9 @@ ___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
-You launch a ball of fire centered at a target point in range you can see. The fireball explodes on impact, hitting all creatures in a 5x5 area. Creatures must make a Dexterity save against your spellcasting. On failure they take 2 wounds, plus a wound die on a critical, or half damage (rounding down) on success.
+Launch a ball of fire centered at a target point in range you can see. The fireball explodes on impact, hitting all creatures in a 5x5 tile area. Make a spellcasting roll against the creatures dexterity save. On success they take 2 wounds in fire damage, adding a wound die on a critical. On failure the creatures take half damage, rounding down.
 
 Add a wound die for every level above 3rd.
 
@@ -1580,7 +1580,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Gain magical flight, allowing you to float through the air. Target up to 5 willing creatures, adding a Terrible die to the spellcasting roll for each creature targeted. On success all targeted creatures gain a flying speed equal to their movement speeds.
+Gain magical flight, allowing you to float through the air. Choosing up to 5 willing creatures, make a spellcasting roll against 1 terrible die for each creature chosen. On success all creatures gain a flying speed equal to their movement speeds.
 
 Add an enhanced die for every level above 3rd.
 
@@ -1588,11 +1588,11 @@ ___
 #### Ice Knives
 *3rd Level*
 - **Casting Time:** 7 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
-- **Damage Type:** Cold
+- **Damage Type:** cold
 
-You conjure an barrage of icicles, hitting all adjacent creatures and blasting an area 3 tiles wide and 4 tiles long in front of you. Creatures make a Stamina save against your spellcasting, taking 2 wounds in damage, being staggered on a critical.
+You conjure an barrage of icicles, hitting all adjacent creatures and blasting an area 3 tiles wide and 4 tiles long adjacent to you. Make a spellcasting roll against the creatures stamina save. On success they take 2 wounds in cold damage, being staggered on a critical.
 
 Add a wound die for every level above 3rd.
 
@@ -1602,9 +1602,9 @@ ___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Force
+- **Damage Type:** force
 
-Launch a barrage of arcane swords at a creature in range you can see. The target makes a Strength save against your spellcasting, taking 3 wounds on fail.
+Launch a barrage of arcane swords at a creature in range you can see. Make a spellcasting roll against the creatures strength save. On success they take 3 wounds in force damage.
 
 Add a wound die and enhanced die for every level above 3rd.
 
@@ -1612,14 +1612,14 @@ ___
 #### Protective Sigil
 *3rd Level*
 - **Casting Time:** 1 minute
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 8 hours
 
-You create an invisible sigil on a willing creature, infused with another spell of 3rd level or below. When the target of a harmful spell or attack the sigil activates, casting the stored spell before the attack lands. The spell must have a target specified beforehand, such as the attacker or yourself. Spells that do not target a creature, such as _Counter Spell_ or _Conjure Elemental_ cannot be placed into the sigil. Spells that target multiple creatures can only target the attacker, and spells that target an area must be centered on the target. The spell must have a casting time of 10 AP or less to be stored in the sigil.
+You create an invisible sigil on a willing creature, infused with another spell of 3rd level or below. When the target of a harmful spell or attack the sigil activates, casting the stored spell before the attack lands. The spell must have a target specified beforehand, such as the attacker or yourself. Spells that do not target a creature, such as _Counter Spell_ or _Conjure Elemental_ cannot be placed into the sigil. Spells that target multiple creatures can only target the attacker, and spells that target an area must be centered on the attacker or yourself. The spell must have a casting time of 10 AP or less to be stored in the sigil.
 
-To create the sigil make a spellcasting roll, adding Terrible dice equal to the stored spells level. On success the spell is placed inside the sigil. Regardless of the outcome you pay the mana cost for both _Protective Sigil_ and the spell you want to store. The sigil can be dismissed by the caster or removed with _Dispel Magic_.
+To create the sigil make a spellcasting roll against 2 terrible dice. On success the spell is placed inside the sigil. Regardless of the outcome you pay the mana cost for both _Protective Sigil_ and the spell you want to store. The sigil can be dismissed by the caster or removed with _Dispel Magic_.
 
-The spell level of the stored spell increases by 1 for every level cast above 3rd.
+You may choose a spell to store that is one level higher for every level cast above 3rd.
 
 ___
 #### Telepathic Bond
@@ -1628,7 +1628,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 hour
 
-You form a telepathic connection with up to 5 willing creatures. Make a spellcasting roll, adding a bad die for every creature targeted. On success all creatures may communicate telepathically with each other over any distance, as long as they remain on the same plane. Creatures communicating this way understand each other even if they do not speak the same language.
+You form a telepathic connection with up to 5 willing creatures. Make a spellcasting roll, adding a bad die for every creature. On success all creatures may communicate telepathically with each other over any distance as long as they remain on the same plane. Creatures communicating this way understand each other even if they do not speak the same language.
 
 Add an enhanced die for each level above 3rd.
 
@@ -1641,12 +1641,11 @@ ___
 *4th Level*
 - **Casting Time:** 7 AP
 - **Range:** 5
-- **Duration:** instant
-- **Damage Type:** Poison
+- **Duration:** concentration, 1 hour
 
-You conjure an elemental construct at a target location. You can create an air, water, earth, or fire elemental. Make a spellcasting roll against 2 Terrible dice, on success you conjure an elemental with wounds equal to your spellcasting roll. The elemental is a medium creature, becoming a large creature if it has 5 wounds or more. The elemental uses your spellcasting roll for attacks and has Resistance 2 against its own element.
+You conjure an elemental construct at a target location. You can create an air, water, earth, or fire elemental. Make a spellcasting roll against 2 Terrible dice, on success you conjure an elemental with wounds equal to your spellcasting roll. The elemental is a medium creature, becoming a large creature if it has 5 wounds or more. The elemental uses your spellcasting roll for attacks and has Resistance 3 against its own element. The elemental takes its turn along side yours.
 
-The elemental gains 1 max AP and you add a superior dice for every level cast above 4th.
+The elemental gains 1 max AP and you add a superior dice to your spellcasting roll for every level cast above 4th.
 
 > ## Elemental
 > ___
@@ -1657,26 +1656,26 @@ The elemental gains 1 max AP and you add a superior dice for every level cast ab
 >___
 >|STR|DEX|STA|INT|WIL|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|1/3|1/2|0/3|0/0|0/1|0/0|
+>|3/1|2/1|3/0|-2/0|1/0|0/0|
 >___
-> - **Resistance:** 2 against their element
+> - **Resistance:** 3 against their element
 > - **Elemental Affinity:** Each elemental gains a different bonus. *Fire:* melee attacks deal an extra wound die on a critical. *Earth:* gain 1 defense die. *Air:* gain a flying speed equal to their movement speed. *Water:* gains 1 to their move and sprint speeds.
 > ### Actions
-> - ***Attack.*** *All* 5 AP, melee, Make a spellcasting roll against target's defense, dealing 1 wound + 1 wound die in damage based on it's element.
-> - ***Firebolt.*** *Fire Only* 5 AP, range 10, Make a spellcasting roll against a target's defense, dealing 1 wound in fire damage, plus 1 wound die on a critical.
-> - ***Harden.*** *Earth Only* 3 AP, Improve all defense dice to superior defense dice.
-> - ***Gust.*** *Air Only* 7 AP, Creates a torrent of wind in a direction away from the elemental. The gust is 3 tiles wide and 7 tiles long and lasts until the start of the elementals next turn. All creatures moving into the wind use an extra tile of movement for each tile moved. All ranged attacks moving into the wind add 1 terrible dice to their attack.
-> - ***Freeze*** *Water Only* 5 AP, melee, Attempt to freeze a creature in place, make a spellcasting roll against the targets Dexterity, dealing 1 wound in cold damage and restraining them until the start of your next turn on a critical.
+> - ***Attack.*** *All* 5 AP, melee, Make a spellcasting roll against the creatures defense, dealing 1 wound + 1 wound die in damage based on it's element.
+> - ***Firebolt.*** *Fire Only* 5 AP, range 10, Make a spellcasting roll against a creatures defense, dealing 1 wound in fire damage, plus 1 wound die on a critical.
+> - ***Harden.*** *Earth Only* 3 AP, reaction, Improve all defense dice to superior defense dice.
+> - ***Gust.*** *Air Only* 7 AP, Creates a torrent of wind in a direction away from the elemental. The gust is 3 tiles wide and 7 tiles long and lasts until the start of the elementals next turn. All creatures moving into the wind use an extra tile of movement for each tile moved. All ranged attacks moving into the wind add 1 terrible die to their attack.
+> - ***Freeze*** *Water Only* 5 AP, melee, Attempt to freeze a creature in place, make a spellcasting roll against the creatures dexterity save. On success dealing 1 wound in cold damage, restraining them until the start of your next turn on a critical.
 
 ___
 #### Fire Shell
 *4th Level*
 - **Casting Time:** 6 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 10 minutes
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
-A shell of fire surrounds your body. For the duration you add 1 superior defense die to your defense rolls against ranged attacks, incinerating the projectile on success. When a creature adjacent to you makes a melee attack against you, they must make a dexterity save against your spellcasting. On fail, they take 2 wound die in fire damage, or 2 wounds on a critical. The damage from Fire Shell happens before the attack lands, if the creature is killed their attack deals no damage.
+A shell of fire surrounds your body. For the duration you add 1 superior defense die to your defense rolls against ranged attacks, incinerating the projectile if the attack misses. When a creature adjacent to you makes a melee attack against you they must make a dexterity save against your spellcasting. On fail, they take 2 wound dice in fire damage, or 2 wounds on a critical. The damage from Fire Shell happens before the attack lands, if the creature is killed their attack deals no damage.
 
 Add an enhanced die for every level above 4th.
 
@@ -1684,11 +1683,11 @@ ___
 #### Ice Lance
 *4th Level*
 - **Casting Time:** 8 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 10 minutes
-- **Damage Type:** Cold
+- **Damage Type:** cold
 
-You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your normal weapon attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The Lance is a Two-handed weapon with Reach, and deals 1 wound and 2 wound dice in cold damage. You may throw the lance at a target creature within 10 tiles causing it to explode and hit all adjacent creatures. Make a spellcasting roll against the creatures Defense, dealing 1 wound and 2 wound dice on hit and giving a level of Slow for every critical rolled.
+You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your normal weapon attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The lance is a two-handed weapon with reach, and deals 1 wound and 2 wound dice in cold damage on hit. You may throw the lance at a creature within 10 tiles causing it to explode, hitting all adjacent creatures. Make a spellcasting roll against the creatures defense, dealing 1 wound and 2 wound dice in cold damage on hit, giving a level of Slow for every critical rolled. After the last lance is thrown the spell ends.
 
 You can make one attack, melee or thrown, when casting this spell.
 
@@ -1698,11 +1697,11 @@ ___
 #### Lightning Bolt
 *4th Level*
 - **Casting Time:** 8 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** instant
-- **Damage Type:** Lightning
+- **Damage Type:** lightning
 
-Fire a bolt of lightning, hitting all creatures in a 25 tile line. The lightning ricochets off walls and solid objects. All creatures must make a Dexterity save against your spellcasting. On fail, they take 1 wound and 2 wound dice, plus a wound die for every critical, or 1 wound on success.
+Fire a bolt of lightning, hitting all creatures in a 25 tile line. The lightning ricochets off walls and solid objects. Make a spellcasting roll against the creatures dexterity save. On success they take 1 wound and 2 wound dice in lightning damage, adding a wound die for every critical. On failure they take 1 wound in lightning damage instead.
 
 Add an enhanced die for every level above 4th.
 
@@ -1710,10 +1709,10 @@ ___
 #### Nondetection
 *4th Level*
 - **Casting Time:** 10 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 24 hours
 
-For the duration of the spell a creature is undetectable by most forms of magic. Any spell of 4th level or below that grants sight does not see this creature, and locate spells of a similar level fail to find them. When using spells of 5th level or higher, such as _Scrying_, roll your spellcasting roll against the _Scrying_ spellcasting roll, staying undetectable on success.
+For the duration of the spell a creature is undetectable by most forms of magic. Any spell of 4th level or below that grants sight does not see this creature, and locate spells of a similar level failure to find them. When spells of 5th level or higher, such as _Scrying_, attempt to detect the creature make a spellcasting roll against the spell's spellcasting roll. On success the creature remains undetected by that spell.
 
 You may target an additional creature for every level above 4th.
 
@@ -1723,22 +1722,22 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Poison
+- **Damage Type:** poison
 
-You conjure an orb of vitriolic acid, launching it at a target point in range you can see. On impact the orb explodes in a splash of acid, hitting all creatures in a 5 tile diamond. Creatures must make a Dexterity save against your spellcasting modifier, on fail they take 3 wound dice in damage. On a critical, the acid breaks any creature wearing armor causing it to give one less defense die. Armor that gives no bonus is destroyed.
+You conjure an orb of vitriolic acid, launching it at a target point in range you can see. On impact the orb explodes in a splash of acid, hitting all creatures in a 5 tile diamond. Make a spellcasting roll against the creatures dexterity save. On success they take 3 wound dice in poison damage. On a critical, the acid breaks the armor worn by the creatures causing it to give one less defense die. Armor that gives no bonus is destroyed.
 
-Regardless of outcome acid covers the floor for the next minute. Any creature that starts their turn, or takes a move or sprint action onto the acid take 1 wound in damage.
+Regardless of outcome acid covers the floor for the next minute. Any creature that starts their turn, or moves into it for the first time this round takes 1 wound in poison damage.
 
-The area of the blast increases by 2 and the initial damage adds 1 wound die for every level above 4th.
+The area of the blast increases by 2 and the initial damage increases by 1 wound die for every level above 4th.
 
 ___
 #### Passwall
 *4th Level*
 - **Casting Time:** 1 minute
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 1 hour
 
-You attempt to mold a passage into a surface made of wood, stone, earth or other inorganic material creating a doorway up to 2x2 tiles in size. The passage can be at most 4 tiles deep, if there is no exit on the other side the spell automatically fails. Make a spellcasting roll, adding a terrible die for every 2 tiles of distance the passage creates. On success the passage is created.
+You attempt to mold a passage into a surface made of wood, stone, earth or other inorganic material creating a doorway up to 2x2 tiles in size. The passage can be at most 4 tiles deep, if there is no area to exit on the other side the spell automatically fails. Make a spellcasting roll, adding a terrible die for every 2 tiles of distance the passage creates. On success a passage forms in the wall.
 
 Add an enhanced die and increase the maximum depth by 2 tiles for every level cast above 4th. At 7th level and above you may cast this on metal surfaces as well.
 
@@ -1748,9 +1747,9 @@ ___
 - **Casting Time:** 9 AP
 - **Range:** 25
 - **Duration:** 1 minute
-- **Damage Type:** Force
+- **Damage Type:** force
 
-Summon magical star shards to fall over a 9x9 area centered on a point in range. For the duration, any creature that starts their turn in the area makes a Strength save against your spellcasting. On fail they take 1 wound, adding a wound die on a critical.
+Summon glowing star shards to fall over a 9x9 area centered on a point in range. For the duration, any creature that starts their turn in the area makes a strength save against your spellcasting roll. On failure they take 1 wound in force damage, adding a wound die on a critical.
 
 Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 
@@ -1769,9 +1768,9 @@ ___
 - **Range:** 20
 - **Duration:** concentration, 1 Hour
 
-You create an illusory landscape covering a 10x10x10 tile area centered on a point in range you can see. The illusion can change the look, smell, sounds and temperature of the area. All effects happen in the creatures mind and have no effect on the creature themselves. The illusion covers the landscape, you may extend the illusion up to 6 inches from a surface with no ill effects, creatures will believe they are interacting with the illusion.
+You create an illusory landscape covering a 10x10x10 tile area centered on a point in range you can see. The illusion can change the look, smell, sounds and temperature of the area. All effects happen in the creatures mind and have no effect on the creature themselves. The illusion covers the landscape and you may extend the illusion up to 6 inches away from a surface with no ill effects, creatures that touch the illusion will believe they are interacting with it.
 
-You may cast the illusion over a cliff or gap, for example creating a bridge over a a ravine. A creature falling from your illusion makes a Willpower save against your spellcasting, on fail they rationalize a reason for the outcome. Similarly you may create an illusion of something inside the space (eg: creating an illusion of a tower in a flat meadow), with the creature making a Willpower save when attempting to interact with it.
+You may cast the illusion over a cliff or gap, for example creating a bridge over a a ravine. A creature that passes through your illusion and falls makes a willpower save against your spellcasting roll. On failure they rationalize a reason for the outcome. Similarly you may create an illusion of something inside the space (eg: creating an illusion of a tower in a flat meadow), with the creature making a Willpower save when attempting to interact with it.
 
 A creature attempting to perceive the illusion must make a perception check against your spellcasting, on success they see the illusion for what it is.
 
@@ -1784,9 +1783,9 @@ ___
 - **Range:** 5
 - **Duration:** 1 hour, concentration
 
-You conjure fortifications of your design within a 5x5 tile area, extending 3 tiles high. The fortifications can be any shape, being made of shimmering bricks that sheds dim light over 2 tiles. The fortification can have multiple floors, stairs, ladders and doors, but cannot have complex structures such as a portcullis, draw bridge, or traps. It must contain at least one entrance, such as a door or gap 1 tile wide. Each tile square can be destroyed by taking a single wound in damage, or having more than 2000 lbs. of weight. The structure does not obey gravity and will not collapse if sections are destroyed. The fortifications have resistance to all damage except Force damage.
+You conjure fortifications of your design within a 5x5 tile area, extending 3 tiles high. The fortifications can be any shape, being made of shimmering bricks that sheds dim light over 2 tiles. The fortification can have multiple floors, stairs, ladders and doors, but cannot have complex structures such as a portcullis, draw bridge, or traps. It must contain at least one entrance, such as a door or gap 1 tile wide. Each tile square can be destroyed by taking a single wound in damage, or having more than 2000 lbs of force or weight applied to it. The structure does not obey gravity and will not collapse if sections are destroyed. The fortifications have resistance to all damage except Force damage.
 
-This spell may be cast on existing fortifications, granting them the light and resistance effects, but not conjuring any new structures. If cast in this way the area effected is doubled on each side, covering an area 4 times as large.
+This spell may be cast on existing fortifications, granting them the light and resistance effects, but not conjuring any new structures. If cast in this way the area effected is doubled on each side, covering a 10x10 tile area.
 
 You may give the walls up to resistance 3, with a minimum of 1. Make a spellcasting roll adding 2 Terrible die per level of resistance, conjuring the fortifications on success.
 
@@ -1799,11 +1798,9 @@ ___
 - **Range:** 5
 - **Duration:** 1 minute, concentration
 
-Rip open a hole in this plane, leading to a Warren. You can hold the warren open for one minute, after which the gate closes. 
+Force open a rift leading to a Warren. You can hold the warren open for one minute, after which the gate closes. While inside the warren, every hour of travel is equivalent to 8 hours of travel on the material plane. On entering and at the start of every hour you must make a spellcasting roll against 1 terrible die for every hour you've stayed in the warren. On failure you are ejected from the Warren, being randomly placed within 20 miles of your position. While inside the warren you gain no benefits from taking short or long rests. You may end the spell at any time, opening a gate back to the material plane.
 
-While inside the warren, every hour of travel is equivalent to 8 on the material plane. Every hour you must make a spellcasting roll against 1 terrible die. On failure you are ejected from the Warren, randomly placed within 20 miles of your position. For every roll made, add a terrible die. You gain no benefits from short or long rests while inside a warren. You may end the spell at any time, opening a gate back to the material plane.
-
-You do not start making spellcasting rolls to stay inside the warren for an additional hour for every level cast above 5th.
+You do not start making spellcasting rolls to stay inside the warren for an hour for every level cast above 5th.
 
 ___
 #### Poison Cloud
@@ -1811,9 +1808,9 @@ ___
 - **Casting Time:** 8 AP
 - **Range:** 15
 - **Duration:** 10 minutes
-- **Damage Type:** Poison
+- **Damage Type:** poison
 
-You create a 7x7 cloud of poison centered on a point in range you can see. The poison cloud bends around corners and permeates surfaces. While inside the poison cloud, any creature starting their turn must make a Stamina save against your spellcasting. On fail their Poison level increases by 1 to a max of 3 and they take 1 wound die per level of Poison effecting them. While inside the cloud creatures do not make Stamina saves at the end of their turns to reduce the poison effect. 
+You create a 7x7 cloud of poison centered on a point in range you can see. The poison cloud bends around corners and permeates surfaces. While inside the poison cloud, any creature starting their turn must make a stamina save against your spellcasting roll. On failure they gain poison 1 or have any poison effects increase in level and take 1 wound die in poison damage for each level of poison effecting them.
 
 Strong winds can move or reduce the size of the poison cloud, with spells like _Gust_ reducing the size of the cloud by 1 for every critical rolled.
 
@@ -1825,9 +1822,9 @@ ___
 - **Casting Time:** 8 AP
 - **Range:** 15
 - **Duration:** instant
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
-A great wall of fire, 10 tiles wide and 3 tiles high, erupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll against your spellcasting. On hit they take 1 wound and 3 wound dice in damage, and are ignited for 1 minute on a critical. On success they take half damage, rounded down. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
+A great wall of fire, 10 tiles wide and 3 tiles high, erupts from the ground. Any creature that starts their turn in or adjacent to the wall or enters the wall for the first time this round must make a defense roll against your spellcasting roll. On hit they take 1 wound and 3 wound dice in fire damage, igniting for 1 minute on a critical. On success they take half damage, rounded down. Any ranged weapon or spell attack made through the wall adds 2 bad dice to the attack, being incinerated by the wall if the attack misses.
 
 Ignited creatures take 1 wound of fire damage at the start of their turn. They may spend 5 AP extinguishing the fire, leaving them prone.
 
@@ -1843,13 +1840,13 @@ ___
 You crystalize the weave of magic around an area no larger than 100 tiles, securing it from outsiders. You may choose any or all of the following effects:
 
 - Sound cannot pass through the warded area, preventing sounds from entering or leaving.
-- The barrier becomes opaque preventing vision, looking like a dense cloud from the outside.
+- The barrier becomes opaque preventing vision, looking like a dense cloud from either side.
 - Magical sensors, such as those created by _Magic Sight_, cannot pass through or be created inside the barrier.
-- Divination magic targeting a creature inside the barrier automatically fail.
+- locating or scrying magic targeting a creature inside the barrier automatically fail.
 - Teleportation by any means is prevented inside the barrier.
-- Planar travel is prevented inside the barrier.
+- rifts to warrens or other realms are prevented from opening inside the barrier.
 
-Make a spellcasting roll adding a bad die for every effect chosen. On success the barrier is created over the target area.
+Make a spellcasting roll adding a bad die for every effect chosen. On success the barrier is created over the target area. Casting this every day for 30 days in the same location makes it permanent, only ending if dispelled.
 
 The number of tiles effected increases by 100 for every level cast above 5th.
 
@@ -1864,9 +1861,7 @@ ___
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Attempt to stabilize an area against magic, creating a 5x5 anti-magic field centered on a point in range you can see. Make a spellcasting roll against 2 Terrible die, on success the field is created. For the duration, any spell or magical effect passing through or targeted inside the field must have more successes than your spellcasting roll or else the spell has no effect. 
-
-If a spell entering the field does not require a roll it must make one following the rules above.
+Attempt to stabilize an area against magic, creating a 5x5 anti-magic field centered on a point in range you can see. Make a spellcasting roll against 2 Terrible die, on success the field is created. For the duration, any time a spell or magical effect passes through or targets inside the area make a spellcasting roll. If the spell has less successes than your spellcasting roll the spell fails and has no effect. If a spell entering the field does not require a roll it must make one, either determined by the GM or by rolling 1 enhanced die for every spell level of the effect.
 
 The area increases by 2 and you add a superior die to your spellcasting rolls for each level above 6th.
 
@@ -1874,10 +1869,10 @@ ___
 #### Conjuration
 *6th Level*
 - **Casting Time:** 10 minutes
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 1 day
 
-You conjure or reshape material into a form of your choosing. The material can be made of organic or inorganic material, such as leather, food, stone, or iron as long as you have seen the material before. Conjuring precious metals and materials, such as gemstones, gold, or diamonds will be brittle, crumbling after 10 minutes. The object cannot be magical in nature, such as a magic sword, potion, or scroll, and must be simple, no more complex than a crossbow. For example, you may be able to conjure a door with hinges, a cart with wheels, or a chest but would not be able conjure a clock.
+You conjure or reshape material into a form of your choosing. The material can be made of organic or inorganic material, such as leather, food, stone, or iron as long as you have seen the material before. Conjuring precious metals and materials, such as gemstones, gold, or diamonds will be brittle, crumbling after 10 minutes. The object cannot be magical in nature, such as a magic sword, potion, or scroll and must be simple, no more complex than a crossbow. For example, you may be able to conjure a door with hinges, a cart with wheels, or a chest but would not be able conjure a clock.
 
 On casting the spell make a spellcasting roll against 3 bad dice, on success you conjure an object or objects up to 4 tiles in size, or 1/4th that size when conjuring items made of stone or metal.
 
@@ -1891,7 +1886,7 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Bludgeoning
 
-You cause the ground to shake and tear, collapsing buildings and toppling trees in a 60x60 area centered on a point in range. Now, and at the start of each of your turns each creature in the area must make a Dexterity save against your spellcasting, on fail they take 1 wound die in damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, trees, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage or partially break, depending on how the GM.
+You cause the ground to shake and tear, collapsing buildings and toppling trees in a 60x60 area centered on a point in range. Now, and at the start of each of your turns make a spellcasting roll with each creature in the earthquake making a strength save. On success they take 1 wound die in bludgeoning damage and are knocked prone. The strength of the earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, leather, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage, with cracks and holes opening in its outer walls.
 
 The range and area of the spell increases by 10 for each level above 6th.
 
@@ -1899,10 +1894,10 @@ ___
 #### Evocation
 *6th Level*
 - **Casting Time:** 7 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 10 minutes
 
-You tap in to the latent mana in your surroundings, empowering your spells. Make a spellcasting roll against 4 Terrible dice, on success you may reroll up to 5 dice between your spellcasting and spell damage rolls for the duration. Holding this connection is both mentally and physically exhausting. Should the spell end due to losing concentration you take 1 level of exhaustion, or 2 levels if you critically fail the concentration check.
+You tap in to the latent mana in your surroundings, empowering your spells. Make a spellcasting roll against 4 Terrible dice, on success you may reroll up to 5 dice between your spellcasting and spell damage rolls for the duration. Holding this connection is both mentally and physically exhausting. Should the spell end due to losing concentration you take 1 level of exhaustion, or 2 levels if you critically failure the concentration check.
 
 Add an enhanced die for every level above 6th.
 
@@ -1910,13 +1905,13 @@ ___
 #### Forcewave
 *6th Level*
 - **Casting Time:** 8 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
-- **Damage Type:** Force
+- **Damage Type:** force
 
-Harness your magic and unleash a destructive wave of force. A blast of force 5 tiles wide and 12 tiles long erupts from your hands. All creatures in the blast must make a Strength save against your spellcasting. On fail they take 7 wound dice in damage and are thrown back half the distance of the wave, on success they are pushed back 1 tile and take half damage, rounded down. Objects and structures in the wave are destroyed, leaving difficult terrain.
+Harness your magic and unleash a destructive wave of force. A cone of force 5 tiles wide and 12 tiles long erupts from your hands. All creatures in the blast must make a strength save against your spellcasting. On failure they take 7 wound dice in damage and are thrown back half the distance of the wave, on success they are pushed back 1 tile and take half damage, rounded down. Objects and structures made of wood or stone in the wave are destroyed, leaving difficult terrain.
 
-The length of the wave increases by 3 and wound dice increases by 1 for each level above 6th.
+The length of the wave increases by 3 and wound dice increases by 2 for each level above 6th.
 
 
 
@@ -1928,15 +1923,15 @@ ___
 - **Casting Time:** 10 AP
 - **Range:** 20
 - **Duration:** concentration, 10 minutes
-- **Damage Type:** Lightning, Thunder
+- **Damage Type:** lightning, Thunder
 
-You summon storm clouds covering a 20 tile radius centered on a point in range. For the duration the area is covered in light rainfall and strong winds. On casting this spell, and by spending 4 AP once per turn on following turns, you may activate one of the following effects:
+You summon storm clouds covering a 40x40 tile area centered on a point in range. For the duration the area is covered in light rainfall and strong winds. On casting this spell, and by spending 4 AP once per turn on following turns, you may activate one of the following effects:
 
-- **Gale winds:** The winds blow in a direction of your choosing, covering the area of the storm. All creatures in range must make a Strength save or be pushed back 2 tiles, and are knocked prone on a critical. Until the start of your next turn moving into the wind counts as difficult terrain and ranged attacks made into the wind add a terrible die to the roll.
+- **Gale winds:** The winds blow in a direction of your choosing, covering the area of the storm. All creatures in the storm make a strength save against your spellcasting roll. On fail they are pushed back 2 tiles, being knocked prone on a critical. Until the start of your next turn moving into the wind takes 3 tiles of movement for every tile moved and ranged attacks made into the wind add 2 terrible dice to the roll.
 
-- **Downpour:** Torrential rainfall covers the area, extinguishing fires and greatly reducing visibility. A creature attempting to see through the rain and mists must make a perception check against your spellcasting. On fail they cannot see further than 3 tiles.
+- **Downpour:** Torrential rainfall covers the area, extinguishing fires and greatly reducing visibility. A creature attempting to see through the rain and mists make a perception check against your spellcasting roll. On failure they cannot see further than 3 tiles.
 
-- **Thunderstrike:** Call town a thundering bolt of lightning at a target creature in range. The creature makes a Dexterity save against your spellcasting, on fail taking 1 wounds and 4 wound dice in lightning damage. In addition, all creatures within 2 tiles of the target must make a Stamina save or take 2 wound dice in thunder damage, being knocked prone on a critical.
+- **Thunderstrike:** Call town a thundering bolt of lightning at a creature inside the storm. Make a spellcasting roll against the creatures dexterity save. On success they take 1 wound and 4 wound dice in lightning damage. All creatures within 2 tiles of the lightning blast make a stamina save against your spellcasting roll instead. On failure they take 3 wound dice in thunder damage and are staggered.
 
 Add an enhanced die for every level cast above 7th.
 
@@ -1946,9 +1941,9 @@ ___
 - **Casting Time:** 10 AP
 - **Range:** 20
 - **Duration:** instant
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
-You conjure 3 fireballs which explode in a 5x5 area centered on points in range you can see. All creatures inside the fireballs make a Dexterity save against your spellcasting. On hit they take 2 wounds and 3 wound dice in damage, adding a wound die on a critical. On success they take half damage, rounded down. The fireballs can overlap, with a creature making a single save against the spell. A creature hit by 2 or more fireballs adds an extra wound to the damage.
+You conjure 3 fireballs which explode in a 5x5 area centered on points in range you can see. All creatures hit by the fireballs make a dexterity save against your spellcasting roll. On failure they take 2 wounds and 3 wound dice in fire damage damage, adding 2 wound dice on a critical. On success they take half damage, rounded down. The fireballs can overlap, with a creature making a single save against the spell. A creature hit by 2 or more fireballs adds an extra wound to the damage if they fail their save.
 
 Add an extra fireball for every level cast above 7th.
 
@@ -1956,17 +1951,17 @@ ___
 #### Power Word: Fire
 *7th Level*
 - **Casting Time:** 9 AP
-- **Range:** Self
-- **Duration:** 5 minutes, concentration
-- **Damage Type:** Fire
+- **Range:** self
+- **Duration:** concentration, 5 minutes
+- **Damage Type:** fire
 
 You speak a word of power as fire races across your body. Until the spell ends, you gain the following benefits:
 
-- You gain Fire Resistance 3.
-- Any creature that moves adjacent to you,begins their turn there or makes a melee attack against you are burned by the fire and take 1 wound in damage.
-- You may spend 5 AP to unleash a cone of fire in front of you. The cone extends 5 tiles out and 3 tiles wide, all creatures hit by the fire must make a Defense roll against your spellcasting. On fail they take 1 wound and 2 wound dice in damage, or half damage rounded down on success.
+- You gain Resistance 3 to fire damage.
+- Any creature that moves adjacent to you for the first time this round, begins their turn there or makes a melee attack against you are burned by the fire and take 1 wound in fire damage.
+- You may spend 5 AP to unleash a cone of fire in front of you. The cone extends 5 tiles out and 3 tiles wide. Make a spellcasting roll against the creatures defense. On success they take 1 wound and 3 wound dice in fire damage.
 
-Only a single Power Word can be active at once, casting another Power Word spell ends another Power Word spell you've cast.
+Only a single Power Word can be active at once, casting another Power Word spell ends any other Power Word spells you've cast.
 
 The damage from both sources increases by 1 wound die for every level above 7th.
 
@@ -1974,17 +1969,17 @@ ___
 #### Power Word: Ice
 *7th Level*
 - **Casting Time:** 9 AP
-- **Range:** Self
-- **Duration:** 5 minutes, concentration
-- **Damage Type:** Cold
+- **Range:** self
+- **Duration:** concentration, 5 minutes
+- **Damage Type:** cold
 
 You speak a word of power as ice rimes across your body. Until the spell ends, you gain the following benefits:
 
-- You gain Cold Resistance 3.
-- Any creature that moves within 3 tiles of you, or starts their turn there must make a Stamina save against your spellcasting. On fail they gain Slow 1, or Slow 2 if you critical.
-- You may spend 5 AP to freeze a target within 5 tiles solid. A targeted creature must make a Stamina save against your spellcasting. On fail they take 3 wound dice in damage, and on a critical are frozen in ice until the end of their next turn. While frozen they gain Resistance 2 to physical damage and are incapacitated.
+- You gain Resistance 3 to cold damage.
+- Any creature that moves within 3 tiles of you for the first time this round or starts their turn there makes a stamina save against your spellcasting. On failure they gain Slow 3 until the end of their turn.
+- You may spend 5 AP to freeze a creature within 5 tiles. Make a spellcasting roll against the creatures stamina save. On success they take 3 wound dice in cold damage, being frozen in ice until the end of their next turn on a critical. While frozen they gain Resistance 2 to all but psychic damage and are stunned.
 
-Only a single Power Word can be active at once, casting another Power Word spell ends another Power Word spell you've cast.
+Only a single Power Word can be active at once, casting another Power Word spell ends any other Power Word spells you've cast.
 
 The range of both effects increase by 1 and you add an enhanced die to your spellcasting rolls for every level above 7th.
 
@@ -1992,17 +1987,17 @@ ___
 #### Power Word: Lightning
 *7th Level*
 - **Casting Time:** 9 AP
-- **Range:** Self
-- **Duration:** 5 minutes, concentration
-- **Damage Type:** Lightning
+- **Range:** self
+- **Duration:** concentration, 5 minutes
+- **Damage Type:** lightning
 
-You speak a word of power as ice rimes across your body. Until the spell ends, you gain the following benefits:
+You speak a word of power as lightning runs through your body. Until the spell ends, you gain the following benefits:
 
-- You gain Lightning Resistance 3.
+- You gain Resistance 3 to lightning damage.
 - As a reaction or on your turn you may spend 2 AP to teleport to an unoccupied tile within 3 tiles of your position.
-- You may spend 5 AP to fire a lightning bolt against 3 creatures within 10 tiles of you. Make a spellcasting roll against the targets Dexterity, on success they take 1 wound, plus 1 wound die for every critical rolled.
+- You may spend 5 AP to fire a lightning bolt against 3 creatures within 10 tiles of you. Make a spellcasting roll against the creatures dexterity save. On success they take 1 wound and 2 wound dice in lightning damage, being paralyzed on a critical.
 
-Only a single Power Word can be active at once, casting another Power Word spell ends another Power Word spell you've cast.
+Only a single Power Word can be active at once, casting another Power Word spell ends any other Power Word spells you've cast.
 
 Add a superior die for every level above 7th.
 
@@ -2013,11 +2008,11 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-You create a perfect image of a willing creature. Make a spellcasting roll against 2 terrible die, on success an illusory copy of the creature appears next to the target creature. The illusion can interact with its surroundings and has temporary wounds equal to the number of successes in your spellcasting roll. A creature can make a perception check against your spellcasting to perceive the image as an illusion.
+You create a perfect image of a willing creature. Make a spellcasting roll against 2 terrible dice. On success an illusory copy of the creature appears in an empty tile adjcanet to the creature. The illusion can interact with its surroundings and has temporary wounds equal to the number of successes in your spellcasting roll. Another creature can attempt to see through the illusion, making a perception check against your spellcasting roll. On success they know the illusion isn't real.
 
-The image looks identical to the creature it's based on, copying all clothes, armor, or weapons they are carrying. Any magical items are copied in appearance only, for example a magical sword will look magical but not have any of the properties of the original sword. The image does not need food, water, or air and any non-damaging spell targeting it fails. The image rolls defense equal to the gear the image is wearing, minus any magic properties. Only the appearance and items of a creature are copied, the image does not gain any of its features or abilities.
+The image looks identical to the creature it's based on, copying all clothes, armor, or weapons they are carrying. Any magical items are copied in appearance only. For example, a magical sword will look magical but not have any of the properties of the original sword. The image does not need food, water, or air and any non-damaging spell targeting it fails. The image rolls defense equal to the gear the image is wearing, minus any magic properties. The image does not gain any of the features or abilities of the creature its copying.
 
-For the duration of the spell you may choose to perceive through your senses or the image's senses. You may control the image as you would your own body; moving, interacting, and speaking as the image. When casting spells you may choose the image to be the source of the spell, and you may make attacks using the image, using your spellcasting roll for the attack. The image cannot be healed or repaired, once drops to 0 temporary wounds the spell ends. The image is destroyed when entering a zone similar to that of _Anti-Magic Field_.
+For the duration of the spell you may choose to perceive through your senses or the image's senses. You may control the image as you would your own body; moving, interacting, and speaking as the image. When casting spells you may choose the image to be the source of the spell, and you may make attacks using the image, using your spellcasting roll for the attack. The image cannot be healed or repaired and has Vulnerability 3 to force damage. The image is destroyed when entering a zone similar to that of _Anti-Magic Field_.
 
 The duration increases to 8 hours at 8th level, and 1 day at 9th level.
 
@@ -2028,13 +2023,13 @@ ___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
-Blast an area with the fires of hell. Fiendfire blasts from your hands in a narrow arc, extending 9 tiles long and 3 tiles wide. Each creature in the fire makes a Dexterity save against your spellcasting roll. On hit they take 3 wounds and 5 wound dice in damage, adding a wound die for every critical rolled. On success they take half damage, rounded down.
+Summon the fires of hell, vaporizing everything in a narrow arc extending 9 tiles long and 3 tiles wide. Make a spellcasting roll against the creatures dexterity save. On success they take 3 wounds and 5 wound dice in fire damage, adding a wound die for every critical. Any armor or weapon a creature is holding is destroyed if it is mundane, otherwise taking 1 level of damage. On success they take half damage, rounded down. A creature reduced to 0 wounds from this spell is immediately killed, turning to ash.
 
-The fire burns through trees, bushes, or other plant matter leaving only ash. On impacting stone or earth the fire burns through it, leaving a hole a size of half the remaining distance. Metal and other similar materials burn, leaving a hole only a quarter of the remaining distance. Any armor or weapon a creature is holding is destroyed if it is mundane, otherwise taking 1 level of damage.
+The fire burns through trees, bushes, or other plant matter leaving only ash. On impacting stone or earth the fire burns through it, leaving a hole a size of half the remaining distance. Metal and other similar materials burn, leaving a hole only a quarter of the remaining distance. 
 
-Add a wound and wound die at 9th level.
+Add 2 wounds at 9th level.
 
 ___
 #### Invulnerability
@@ -2043,7 +2038,7 @@ ___
 - **Range:** self
 - **Duration:** concentration, 1 minute
 
-You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain Resistance 1 to all damage, increasing it by 1 for every critical rolled.
+You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain Resistance 1 to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining poison, slow, and are uneffected by hazardous terrain.
 
 The duration increases to 2 minutes at 9th level.
 
@@ -2054,11 +2049,11 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 1 minute
 
-Slow time, causing others to freeze in place. Choose up to 5 creatures, yourself included, and make a spellcasting roll adding 2 terrible dice for each creature added. On success these creatures are able to freely move, while all other creatures experience time at a rate 100 times slower.
+Slow time, causing other creatures to freeze in place. You may choose up to 5 creatures, yourself included, to be excluded from this spell. Make a spellcasting roll against 2 terrible dice for every creature chosen. On success these creatures are able to freely move, while all other creatures experience time at a rate 100 times slower.
 
 While time is slowed, all objects and terrain not held are frozen, unable to move. Interacting with another creature, such as attacking or casting a spell on them ends the effects of _Slow Time_ for the attacker, resolving the action once the spell ends.
 
-At the start each of the casters turn they must make an exhaustion check against 2 terrible dice, gaining 1 level of exhaustion and ending the spell on fail.
+At the start each of the casters turn they must make an exhaustion check against 2 terrible dice, gaining 1 level of exhaustion and ending the spell on failure.
 
 Add 2 superior dice to the spellcasting roll at 9th level.
 
@@ -2069,9 +2064,9 @@ ___
 - **Range:** self
 - **Duration:** 24 hours
 
-You stabilize a Warren existing in the space between worlds. Make a spellcasting roll, adding 5 Terrible dice. On success you create a Warren with a name of your choosing. Any creature that knows the name can travel to your warren with the _Open Warren_ spell.
+You stabilize a warren existing in the space between worlds. Make a spellcasting roll against 4 Terrible dice. On success you create a Warren with a name of your choosing. Any creature that knows the name can travel to your warren with the _Open Warren_ spell.
 
-The warren is accessible from the plane it was created on, but you may connect your warren to any plane you have been before. You may choose the atmosphere, terrain, and weather inside the warren. While the Warren is stabilized you automatically succeed spellcasting rolls while travelling through this Warren with the _Open Warren_ spell. After the duration the warren begins to decay and you lose any benefits for travelling this warren.
+The warren is accessible from the realm it was created on, but you may connect your warren to any realm you have been to before. You may choose the atmosphere, terrain, and weather inside the warren. While the Warren is stabilized you automatically succeed spellcasting rolls while travelling through it with the _Open Warren_ spell. After the duration the warren begins to decay and you lose any benefits for travelling this warren, fully decaying after 7 days.
 
 Repeating this spell every day for a week will stabilize the Warren for 1 year.
 
@@ -2085,9 +2080,9 @@ ___
 - **Duration:** 1 turn
 - **Damage Type:** Bludgeoning/Fire
 
-You attempt to bring forth the ruinous powers of Armageddon. Make a spellcasting roll, conjuring up to 3 meteors and adding 3 terrible dice to your roll for each meteor conjured. On success, choose a tile in range for each meteor. At the start of your next turn the meteors impact the ground dealing 7 wound dice in bludgeoning damage and 7 wound dice in fire damage to all creatures within 7 tiles of the impact. A creature in range of multiple meteors instead adds 2 wound dice to both damage types for each additional meteor. Buildings take full damage regardless of roll.
+You attempt to bring forth the ruinous powers of Armageddon. Make a spellcasting roll, conjuring up to 3 meteors and adding 2 terrible dice to your roll for each meteor conjured. On success, choose a tile in range for each meteor. At the start of your next turn the meteors impact the ground dealing 8 wound dice in bludgeoning damage and 8 wound dice in fire damage to all creatures within 7 tiles of the impact. A creature in range of multiple meteors instead adds 2 wound dice to both damage types for each additional meteor. Buildings take full damage regardless of roll.
 
-On fail the magic grounds itself through you, dealing 1 wound die in force damage for every failure in your spellcasting roll to you and every adjacent creature.
+On failure the magic grounds itself through you, dealing 1 wound die in force damage for every failure in your spellcasting roll to you and every adjacent creature.
 
 ### Curse
 
@@ -2189,9 +2184,9 @@ ___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
-- **Damage Type:** Death
+- **Damage Type:** death
 
-Targeting a creature in range you can see you cause their wounds to reopen. The creature makes a Stamina save against your spellcasting roll. On fail they take 1 wound die in damage, or 3 wound dice if they have missing wounds.
+Targeting a creature in range you can see you cause their wounds to reopen. The creature makes a Stamina save against your spellcasting roll. On failure they take 1 wound die in damage, or 3 wound dice if they have missing wounds.
 
 You may target an extra creature for every level cast above cantrip.
 
@@ -2201,7 +2196,7 @@ ___
 - **Casting Time:** 5 AP
 - **Range:** 7
 - **Duration:** instant
-- **Damage Type:** Force
+- **Damage Type:** force
 
 Blast a creature in range you can see with eldritch force. Make a spellcasting roll against the targets Strength. On success they take 1 wound, adding a wound die on a critical.
 
@@ -2227,7 +2222,7 @@ ___
 - **Range:** 10
 - **Duration:** 1 minute
 
-targeting a 4x4 cube centered on a point in range, all living creatures give off the glow of life. Creatures must make a Willpower save against your spellcasting. On a fail a dim light outlines their body. Any attacks against this creature can change a normal die for an enhanced die.
+targeting a 4x4 cube centered on a point in range, all living creatures give off the glow of life. Creatures must make a Willpower save against your spellcasting. On a failure a dim light outlines their body. Any attacks against this creature can change a normal die for an enhanced die.
 
 Add an enhanced die for every level cast above cantrip.
 
@@ -2302,9 +2297,9 @@ ___
 - **Casting Time:** 6 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Death
+- **Damage Type:** death
 
-You summon a crow with obsidian feathers capable of cutting through flesh and armor, targeting a creature in range you can see. The target makes a Dexterity sav against your spellcasting, on fail they take 1 wound in damage. On a critical their armor is reduced by 1 die, lasting until repair. Armor that no longer provides a defense bonus is destroyed.
+You summon a crow with obsidian feathers capable of cutting through flesh and armor, targeting a creature in range you can see. The target makes a Dexterity sav against your spellcasting, on failure they take 1 wound in damage. On a critical their armor is reduced by 1 die, lasting until repair. Armor that no longer provides a defense bonus is destroyed.
 
 Add a wound die for every level above 1st.
 
@@ -2325,7 +2320,7 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 7
 - **Duration:** 1 minute
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
 You summon a swarm of burning flies at a target tile in range. The flies attach themselves to nearby creatures, igniting themselves and burning the target. When a creature enters the swarm or begins their turn there, they make a Stamina save against your spellcasting, taking 1 wound of fire damage on fail. Any invisible creatures hit by this lose their invisibility if it came from a spell, or becomes visible for 1 minute otherwise. There are enough fireflies to burn 3 times, after which the swarm disappears.
 
@@ -2337,7 +2332,7 @@ ___
 - **Casting Time:** 5 AP
 - **Range:** 1
 - **Duration:** 1 minute
-- **Damage Type:** Poison
+- **Damage Type:** poison
 
 Your hands elongate becoming deadly claws. When casting this ability, and for the duration of the spell you may make an attack against a target in range. Make a spellcasting roll against the targets Defense, on hit they take 3 wound dice in poison damage, paralyzing the target on a critical until the end of their next turn.
 
@@ -2431,13 +2426,13 @@ ___
 #### Bewitched Arrow
 *2nd Level*
 - **Casting Time:** 1 minute
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 1 day
-- **Damage Type:** Death
+- **Damage Type:** death
 
 You conjure a number of deadly, black thorn arrows. Make a spellcasting roll to conjure up to 5 arrows, adding a bad die for every arrow conjured. These arrows can be thrown instead of fired from a bow. When thrown they use your spellcasting roll for the attack and have a range of 10.
 
-When used the arrow explodes into black smoke. The target and all adjacent creatures make a Stamina save against the attack. On fail the main target takes 1 wound and 2 wound dice in damage with each adjacent creature taking 1 wound die instead. On a critical each target is blind until the end of their next turn.
+When used the arrow explodes into black smoke. The target and all adjacent creatures make a Stamina save against the attack. On failure the main target takes 1 wound and 2 wound dice in damage with each adjacent creature taking 1 wound die instead. On a critical each target is blind until the end of their next turn.
 
 You conjure an additional arrow for every level above 2nd.
 
@@ -2456,7 +2451,7 @@ ___
 #### Cloud of Teeth
 *2nd Level*
 - **Casting Time:** 6 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Piercing
 
@@ -2483,7 +2478,7 @@ ___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Death
+- **Damage Type:** death
 
 You cause a Large or smaller corpse to explode, shooting sharp shards of bone to adjacent creatures. Medium and smaller creatures explode in a 3 tile diamond, while Large creatures explode in a 5 tile diamond. All creatures caught in the blast must make a Stamina save against your spellcasting. On hit they take 1 wound and are poisoned for 1 minute, adding an wound die to the damage on a critical. A creature caught in multiple blasts takes 1 extra wound die in damage per blast.
 
@@ -2496,7 +2491,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see with fragility. They must make a willpower save against your spellcasting. On a fail the creature adds a bad die to all defense rolls for the next day. If you critical they add a terrible die instead. The curse can be removed by remove curse.
+Curse a creature you can see with fragility. They must make a willpower save against your spellcasting. On a failure the creature adds a bad die to all defense rolls for the next day. If you critical they add a terrible die instead. The curse can be removed by remove curse.
 
 You may target an additional person for every level above 2nd.
 
@@ -2507,7 +2502,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see, extending their suffering. They must make a willpower save against your spellcasting. On a fail any negative condition affecting the creature lasts an additional turn after being removed, either naturally or through other means, such as with the _Cleanse_ spell. If you critical, any time they gain Hex, Slow, or Poison they gain an additional level.
+Curse a creature you can see, extending their suffering. They must make a willpower save against your spellcasting. On a failure any negative condition affecting the creature lasts an additional turn after being removed, either naturally or through other means, such as with the _Cleanse_ spell. If you critical, any time they gain Hex, Slow, or Poison they gain an additional level.
 
 You may target an additional person for every level above 2nd.
 
@@ -2529,7 +2524,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Attempt to cloud a creatures mind in range that you can see. The creature makes a Willpower save against your spellcasting. On a fail the creature adds a Bad die to all spellcasting rolls, or a terrible die on a critical.
+Attempt to cloud a creatures mind in range that you can see. The creature makes a Willpower save against your spellcasting. On a failure the creature adds a Bad die to all spellcasting rolls, or a terrible die on a critical.
 
 You may target an additional creature for each level above 2nd.
 
@@ -2540,7 +2535,7 @@ ___
 - **Range:** 10
 - **Duration:** 1 minute
 
-You create a spiraling mass of wind on a tile in range. Any creature that moves adjacent to the Whirlwind must make a Strength save against your spellcasting, on fail they are pushed back 2 tiles stopping if a creature or object is in the way. If they are stopped they take 1 wound in damage. Any mundane projectile firing through or adjacent to the whirlwind must roll a wound die, missing on wound.
+You create a spiraling mass of wind on a tile in range. Any creature that moves adjacent to the Whirlwind must make a Strength save against your spellcasting, on failure they are pushed back 2 tiles stopping if a creature or object is in the way. If they are stopped they take 1 wound in damage. Any mundane projectile firing through or adjacent to the whirlwind must roll a wound die, missing on wound.
 
 For the duration starting on the next turn, you may move the Whirlwind up to 2 tiles once per turn.
 
@@ -2553,7 +2548,7 @@ ___
 - **Range:** 10
 - **Duration:** 1 minute
 
-You create a mass of webs in a 5x5 area centered on a point in range you can see. All creatures inside the web or on the first time they enter must make a Dexterity save against your spellcasting, on fail they are grappled, being restrained on a critical. A creature effected by your Webs can be freed by making a successful attack against 3 defense dice. Any creature in range is capable of making this attack.
+You create a mass of webs in a 5x5 area centered on a point in range you can see. All creatures inside the web or on the first time they enter must make a Dexterity save against your spellcasting, on failure they are grappled, being restrained on a critical. A creature effected by your Webs can be freed by making a successful attack against 3 defense dice. Any creature in range is capable of making this attack.
 
 The webs are extremely flammable, and ignite after taking 1 wound of fire damage. Any creature caught in the web takes 1 wound of fire damage and is freed. After the duration the webs remain but lose their stickiness, becoming difficult terrain until cleared.
 
@@ -2582,7 +2577,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Use your willpower to suppress a creatures natural abilities. The target makes a Willpower save against your spellcasting. On fail you choose either Strength or Dexterity, the creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute. Each critical further decreases the proficiency by 1.
+Use your willpower to suppress a creatures natural abilities. The target makes a Willpower save against your spellcasting. On failure you choose either Strength or Dexterity, the creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute. Each critical further decreases the proficiency by 1.
 
 Add a target for each level above 3rd.
 
@@ -2615,7 +2610,7 @@ ___
 #### False Aura
 *3rd Level*
 - **Casting Time:** 10 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 24 hours
 
 You change the aura of a creature or object, changing how it appears to magical effects, such as _Detect Magic_ or _Identify_. Target up to 5 creatures or objects, adding a bad die to the spellcasting roll for every target. On success, you may do any of the following:
@@ -2654,11 +2649,11 @@ ___
 #### Inflict Wound
 *3rd Level*
 - **Casting Time:** 6 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
-- **Damage Type:** Death
+- **Damage Type:** death
 
-Scar the creature with death magic. The target makes a Stamina save against your spellcasting roll. On fail they take 2 wounds and a wound die in damage, adding a wound die for every critical rolled. On success they take half damage, rounding down. If this deals at least 3 wounds the target gains a random Lesser Wound, or a random Greater Wound if it deals 5 or more.
+Scar the creature with death magic. The target makes a Stamina save against your spellcasting roll. On failure they take 2 wounds and a wound die in damage, adding a wound die for every critical rolled. On success they take half damage, rounding down. If this deals at least 3 wounds the target gains a random Lesser Wound, or a random Greater Wound if it deals 5 or more.
 
 Add a wound die for every level above 3rd.
 
@@ -2666,7 +2661,7 @@ ___
 #### Shapechange
 *3rd Level*
 - **Casting Time:** 7 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** 1 hour
 
 You transform your body, turning into a dangerous beast. The creature must have a CR of 5 or lower and must be one you have seen before. While in this shape your max wounds become the max wounds of the creature and you take the Strength, Dexterity, and Stamina attributes, keeping your Intelligence, Willpower, and Charisma. 
@@ -2679,7 +2674,7 @@ ___
 #### Shifting Image
 *3rd Level*
 - **Casting Time:** 7 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 10 minutes
 
 Your form blurs as several illusory projections of yourself hide your true position. You create 3 illusions. Any time you would be attacked by a single target spell or attack the attacker must roll a perception check against your spellcasting. On fail, the attack misses, destroying one of the illusions. The spell ends once all illusions have been destroyed.
@@ -2705,7 +2700,7 @@ ___
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see with an unnatural slowness. They must make a willpower save against your spellcasting. On a fail all actions they take costs 1 additional AP. On a critical they instead cost 2 additional AP.
+Curse a creature you can see with an unnatural slowness. They must make a willpower save against your spellcasting. On a failure all actions they take costs 1 additional AP. On a critical they instead cost 2 additional AP.
 
 You may target an additional person for every level above 4th.
 
@@ -2750,7 +2745,7 @@ ___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Fire/Death
+- **Damage Type:** fire/death
 
 You summon a flaming skull that screeches a hideous laughter. The skull appears in an adjacent tile, moving up to 5 tiles before disappearing. The caster controls it's movement, passing through creatures. Each creature the skull passed through makes a Willpower save, taking 2 wound dice of both Fire and Death damage on fail. On a critical the creature is feared until the end of their next turn, being forced to move and sprint away from the caster on their turn.
 
@@ -2832,9 +2827,9 @@ ___
 - **Casting Time:** 9 AP
 - **Range:** 7
 - **Duration:** instant
-- **Damage Type:** Death
+- **Damage Type:** death
 
-Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound dice in damage and all healing they receive is half as effective until they take a long rest. On a critical they are stunned until the end of their next turn. On success they take half damage, rounded down, and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
+Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On failure they take 5 wound dice in damage and all healing they receive is half as effective until they take a long rest. On a critical they are stunned until the end of their next turn. On success they take half damage, rounded down, and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
 
 Add a wound die to the damage for every level above 5th.
 
@@ -2842,11 +2837,11 @@ ___
 #### Impale
 *5th Level*
 - **Casting Time:** 8 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 - **Damage Type:** Piercing
 
-A line of bones sprout from the ground, impaling all creatures in a 5 tile line. All creatures in the line make a Defense roll against your spellcasting roll. On fail they take 1 wound and 3 wound dice in damage and the bones impale them, restraining them in place. On success the creatures take no damage and are grappled instead.
+A line of bones sprout from the ground, impaling all creatures in a 5 tile line. All creatures in the line make a Defense roll against your spellcasting roll. On failure they take 1 wound and 3 wound dice in damage and the bones impale them, restraining them in place. On success the creatures take no damage and are grappled instead.
 
 The bones extend 8 feet high and are permanent, blocking movement through those tiles. The bones have 1 wound and roll 3 superior defense dice when saving against any attack or spell. To free a grappled or restrained creature the bones holding that creature must be destroyed.
 
@@ -2883,7 +2878,7 @@ ___
 #### True Sight
 *5th Level*
 - **Casting Time:** 5 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** 1 Hour
 
 Enhance your vision, seeing through illusions and invisibility, seeing things for how they really are. Make a spellcasting roll against 2 bad die, on success you gain True sight out to 15 tiles, seeing into the ethereal plane.
@@ -2923,9 +2918,9 @@ ___
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** 10 minutes
-- **Damage Type:** Poison/Death
+- **Damage Type:** poison/Death
 
-A thick miasma flows from your body, covering a 7x7 tile area centered on a point in range. The miasma flows around walls and down hills, but cannot climb more than 2 tiles. Any creature that is not the caster that begins their turn inside or enters the miasma for the first time makes a Stamina save against your spellcasting, taking 1 wound and 1 wound die each of Poison and Death damage on fail or half as much on success. A creature that fails its save gains Poison 1 and Hex 1 regardless of immunities or other effects until the start of their next turn.
+A thick miasma flows from your body, covering a 7x7 tile area centered on a point in range. The miasma flows around walls and down hills, but cannot climb more than 2 tiles. Any creature that is not the caster that begins their turn inside or enters the miasma for the first time makes a Stamina save against your spellcasting, taking 1 wound and 1 wound die each of Poison and Death damage on failure or half as much on success. A creature that fails its save gains Poison 1 and Hex 1 regardless of immunities or other effects until the start of their next turn.
 
 The miasma is a thick, viscous cloud. Except for the caster, a creature inside the miasma can only see adjacent tiles. If there is a strong wind, such as wind created by _Gust_, the miasma cloud moves 1 tile per turn in the direction of the wind.
 
@@ -2935,11 +2930,11 @@ ___
 #### Psychic Scream
 *6th Level*
 - **Casting Time:** 8 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** instant
 - **Damage Type:** Psychic
 
-You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes an Intelligence save against your spellcasting roll. On fail they take 5 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn. On success they take half damage and Dazed until the end of their next turn.
+You send out a wave of mental force to all creatures within 5 tiles of you. Each creature in range makes an Intelligence save against your spellcasting roll. On failure they take 5 wound dice in damage and are Dazed and gain Slow 1 for 1 minute. If a creature fails by 4 or more they are incapacitated until the end of their next turn. On success they take half damage and Dazed until the end of their next turn.
 
 Add a wound die for every level cast above 6th.
 
@@ -3003,7 +2998,7 @@ ___
 - **Duration:** concentration, 1 minute
 - **Damage Type:** Bludgeoning
 
-You create a crushing gravity well. Choose a 7x7 area centered at a point in range you can see. All loose objects are flung towards the center, destroying mundane items. All creatures that enter the gravity well or start their turns there must make a Strength save against your spellcasting. On fail they are flung into the center tile, taking 2 wounds and 2 wound die in damage. On success their move and sprint speeds are reduced to 1, and cannot be improved. Creatures in the center take 1 wound and 1 wound die in damage at the start of their turn as they are crushed by the gravity well.
+You create a crushing gravity well. Choose a 7x7 area centered at a point in range you can see. All loose objects are flung towards the center, destroying mundane items. All creatures that enter the gravity well or start their turns there must make a Strength save against your spellcasting. On failure they are flung into the center tile, taking 2 wounds and 2 wound die in damage. On success their move and sprint speeds are reduced to 1, and cannot be improved. Creatures in the center take 1 wound and 1 wound die in damage at the start of their turn as they are crushed by the gravity well.
 
 The radius of the gravity well increases by 1 and you add 1 wound die to each source of damage for every level cast above 7th.
 
@@ -3170,12 +3165,12 @@ ___
 #### Light
 *Cantrip*
 - **Casting Time:** 6 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** concentration, 10 minutes.
 
 You cause a small object no larger than a fist to emit a bright light. You may control the intensity of the light, from 1 emitting 1 tile of dim light up to 3 tiles of bright light and 3 tiles of dim light. You may double the lights intensity, doubling the lights range but must make a concentration check each turn to maintain this effect. While intensifying the light, any creatures that are sensitive to bright light add 1 terrible die to their attack rolls while in this spells bright light.
 
-When this light enters magical darkness you must make a spellcasting roll against the spellcasting roll of the effect that created the darkness. You add a superior or terrible die for every level above or below this light spell is compared to the darkness. On success the darkness is dispelled, and on fail this spell ends.
+When this light enters magical darkness you must make a spellcasting roll against the spellcasting roll of the effect that created the darkness. You add a superior or terrible die for every level above or below this light spell is compared to the darkness. On success the darkness is dispelled, and on failure this spell ends.
 
 The range of both the maximum bright and dim light increases by 1 tile for every level above cantrip. At level 5 and above this light is considered sunlight.
 
@@ -3185,9 +3180,9 @@ ___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
-- **Damage Type:** Holy
+- **Damage Type:** holy
 
-A ray of radiant light blasts a target creature in range. The creature makes a Charisma save against your spellcasting. On a fail they take 1 wound, or 2 wounds if they are undead.
+A ray of radiant light blasts a target creature in range. The creature makes a Charisma save against your spellcasting. On a failure they take 1 wound, or 2 wounds if they are undead.
 
 Add a target for every level above cantrip.
 
@@ -3195,7 +3190,7 @@ ___
 #### Spare From Death
 *Cantrip*
 - **Casting Time:** 4 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 Magically slow the heart and prevent blood loss of an incapacitated creature. Make a Medicine check using your spellcasting for the roll, adding a bad die for every temporary wound missing. On success the creature is stabilized and will regain consciousness in 10 minutes with 1 wound.
@@ -3224,7 +3219,7 @@ ___
 #### Animal Messenger
 *1st Level*
 - **Casting Time:** 1 minute
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 1 day
 
 You attempt to summon a small beast to deliver a message for you. Make a spellcasting roll against 2 Terrible dice in an urban environment, or 2 Bad dice elsewhere. On success you summon a small beast local to the area, with the beast having wings on a critical. You can give the beast a message up to 1 minute long and a description of who to deliver the message to. The beast will give the message to the first creature it finds that matches the description, and may have trouble with overly complex messages.
@@ -3237,7 +3232,7 @@ ___
 #### Bonfire
 *1st Level*
 - **Casting Time:** 1 minute
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 8 hours
 
 You create a magical soothing bonfire. The bonfire takes a single tile of space, emits bright light for 5 tiles, and dim light for an additional 5. Target up to 5 creatures and make a spellcasting roll, adding a bad die for every creature targeted. These creatures recover an additional wound and mana during their long rest and recover 1 point of exhaustion.
@@ -3255,7 +3250,7 @@ ___
 
 A 3x3 growth of razor sharp bramble appears centered on a point in range you can see. The bramble counts as difficult terrain and is flammable, each tile burning away after taking 1 wound of fire damage.
 
-Any creature attempting to take a move or sprint action through the bramble must make a Dexterity save against your spellcasting. On fail they take 1 wound die, with their movement ending on a critical. A creature makes this save only once per move or sprint action.
+Any creature attempting to take a move or sprint action through the bramble must make a Dexterity save against your spellcasting. On failure they take 1 wound die, with their movement ending on a critical. A creature makes this save only once per move or sprint action.
 
 The area increases by 1 for every level above 1st.
 
@@ -3286,7 +3281,7 @@ ___
 #### Close Wounds
 *1st Level*
 - **Casting Time:** 5 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 Mend a creature's wounds. Make a spellcasting roll, healing a single wound and adding a wound for every critical rolled.
@@ -3308,9 +3303,9 @@ ___
 #### Holy Weapon
 *1st Level*
 - **Casting Time:** 4 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 1 minute
-- **Damage Type:** Holy
+- **Damage Type:** holy
 
 Enchant your weapon with holy power. For the next minute you may use your divine spellcasting in place of attack rolls you make. Your attacks add an additional wound die to the damage, or 3 wound dice if the target is undead.
 
@@ -3320,10 +3315,10 @@ ___
 #### Solar Flash
 *1st Level*
 - **Casting Time:** 6 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
-You create a cone of blinding light 3 tiles long and 3 tiles wide. Each creature in the light must make a Stamina save against your spellcasting, on fail they are blinded until the end of their next turn. If the creature is sensitive to daylight or bright light they also take 1 wound in Holy damage.
+You create a cone of blinding light 3 tiles long and 3 tiles wide. Each creature in the light must make a Stamina save against your spellcasting, on failure they are blinded until the end of their next turn. If the creature is sensitive to daylight or bright light they also take 1 wound in Holy damage.
 
 The the length and width of the cone increases by 1 for every level above 1st.
 
@@ -3331,11 +3326,11 @@ ___
 #### Tremor
 *1st Level*
 - **Casting Time:** 7 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** instant
 - **Damage Type:** Bludgeoning
 
-You cause the earth around you to tremor. All creatures within 2 tiles of you must make a Strength save against your spellcasting. On fail the creature takes 1 wound die in damage, getting knocked prone on a critical. If the ground in the area is loose earth or stone it becomes difficult terrain until cleared.
+You cause the earth around you to tremor. All creatures within 2 tiles of you must make a Strength save against your spellcasting. On failure the creature takes 1 wound die in damage, getting knocked prone on a critical. If the ground in the area is loose earth or stone it becomes difficult terrain until cleared.
 
 The the effected tiles extends by 1 and damage is increased by 1 wound die for every level above 1st.
 
@@ -3358,11 +3353,11 @@ ___
 #### Consecrate Ground
 *2nd Level*
 - **Casting Time:** 10 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 10 minutes
-- **Damage Type:** Holy
+- **Damage Type:** holy
 
-Mark a 3x3 area centered on yourself, purifying the ground. Any undead or monstrosity attempting to enter the consecrated ground must make a Charisma save against your spellcasting. On fail they cannot willingly enter. Any undead inside the consecrated ground takes 1 wound at the start of their turn. Allies inside the zone gain 1 proficiency on all saving throws. You may move normally, however leaving the area ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.
+Mark a 3x3 area centered on yourself, purifying the ground. Any undead or monstrosity attempting to enter the consecrated ground must make a Charisma save against your spellcasting. On failure they cannot willingly enter. Any undead inside the consecrated ground takes 1 wound at the start of their turn. Allies inside the zone gain 1 proficiency on all saving throws. You may move normally, however leaving the area ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.
 
 The area increases by 2 for every level cast above 2nd.
 
@@ -3381,11 +3376,11 @@ ___
 #### Gust
 *2nd Level*
 - **Casting Time:** 7 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** concentration, 1 minute
 - **Damage Type:** Bludgeoning
 
-You cause strong winds to blow in a direction, 10 tiles long by 2 tiles wide. Each creature in the line must make a Strength save against your spellcasting, on fail they are blown back 1 tile, plus an additional tile for every critical rolled. If they are unable to move due to a wall or obstacle they instead take 1 wound in damage. Any creature moving against the direction of the wind must spend two tiles of movement for every tile moved. You may spend 2 AP to reverse the direction of the wind.
+You cause strong winds to blow in a direction, 10 tiles long by 2 tiles wide. Each creature in the line must make a Strength save against your spellcasting, on failure they are blown back 1 tile, plus an additional tile for every critical rolled. If they are unable to move due to a wall or obstacle they instead take 1 wound in damage. Any creature moving against the direction of the wind must spend two tiles of movement for every tile moved. You may spend 2 AP to reverse the direction of the wind.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -3393,7 +3388,7 @@ ___
 #### Seed of Renewal
 *2nd Level*
 - **Casting Time:** 1 minute
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 10 minutes
 
 Putting a seed into the ground, sprout a rejuvenating bush, bearing fruit. You may add up to 5 uses of this bush, adding a bad die to the spellcasting roll for every use added. If used during a short or long rest the creature can spend a free healing surge. Users may also purge a single source of poison or disease, unless the effect comes from a spell cast at a higher level than _Seed of Renewal_.
@@ -3415,7 +3410,7 @@ ___
 #### Treat Injury
 *2nd Level*
 - **Casting Time:** 1 minute
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 Try to restore a targets body, healing injuries and closing wounds. You may attempt to remove as many Lesser and Greater Wounds as you wish. Make a spellcasting roll, adding 2 Bad dice for every Lesser Wound and 4 Terrible dice for every Greater Wound. On a success the effects of these wounds are removed.
@@ -3466,7 +3461,7 @@ ___
 #### Break Curse
 *3rd Level*
 - **Casting Time:** 10 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 You attempt to remove a curse from a creature. Make a spellcasting roll, adding a superior or terrible die to your spellcasting roll for ever level above or bellow this spell is compared to the curse affecting the creature. On success the curse ends for the creature.
@@ -3488,9 +3483,9 @@ ___
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** 1 minute
-- **Damage Type:** Fire
+- **Damage Type:** fire
 
-You create a Flaming skull at position in range you can see. When summoned, and again at the end of each of your turns the skull breathes fire at all creatures in its zone of control. Each creature must make a Defense roll against your spellcasting. On fail they take 1 wound, adding a wound die on a critical. On your turn you may spend 3 AP to command the skull to move up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
+You create a Flaming skull at position in range you can see. When summoned, and again at the end of each of your turns the skull breathes fire at all creatures in its zone of control. Each creature must make a Defense roll against your spellcasting. On failure they take 1 wound, adding a wound die on a critical. On your turn you may spend 3 AP to command the skull to move up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
 
 Add an enhanced die to your roll and increase the duration by 1 turn for every level cast above 3rd.
 
@@ -3516,7 +3511,7 @@ ___
 #### Revive
 *3rd Level*
 - **Casting Time:** 10 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 Attempt to bring back a creature that has died in the past 10 minutes. Make a spellcasting roll, adding 2 terrible die plus a terrible die for every time this creature has died. On success the target is brought back to life with 1 wound. For the next 3 days they take a -1 to all attributes.
@@ -3527,7 +3522,7 @@ ___
 #### Spirit Animal
 *3rd Level*
 - **Casting Time:** 10 minutes
-- **Range:** Self
+- **Range:** self
 - **Duration:** 3 days
 
 Attempt to commune with local nature spirits, gaining one as your guide. Make a spellcasting roll, adding 2 terrible dice to the roll, or 3 if casting this outside of a forest, plains, or swamp. On success you gain an spirit companion of your choosing. You may summon or dismiss the spirit for 5 AP. Each spirit has their own wounds, and if killed the spell ends. Spending a minute in concentration you may look through your spirit animals eyes, while doing so you gain the senses of the animal and lose your own.
@@ -3545,7 +3540,7 @@ ___
 #### Summoning
 *3rd Level*
 - **Casting Time:** 10 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 You attempt to summon a willing creature to your location. Make a spellcasting roll, adding dice according to the table below. On a success the creature is summoned to the location you touch. The creature gets a glimpse of the area they are being summoned to when the spell is cast.
@@ -3578,9 +3573,9 @@ ___
 #### Turn Undead
 *3rd Level*
 - **Casting Time:** 6 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** 1 minute
-- **Damage Type:** Holy
+- **Damage Type:** holy
 
 A blast of holy light emits from your symbol. All undead within 3 tiles must make a charisma save against your spellcasting. On fail, they take 2 wounds and are turned. On a success they take 1 wound instead. An undead possessing a creature is forced out if they are turned.
 
@@ -3597,7 +3592,7 @@ ___
 #### Awaken
 *4th Level*
 - **Casting Time:** 1 minute
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 7 days*
 
 Attempt to awaken a plant or creature with an intelligence of -1 or less. Make a spellcasting roll, adding a Terrible die for every 4 CR of the creature, with a minimum of 1. On success the plant or creature is awakened. While within 1 mile of you the awakened creature can speak the languages you can speak as well as communicate with you telepathically. For the duration, the creature obeys your commands to the best of its ability. Once the spell ends, they move more than 1 mile from you, or you dismiss them they revert to their original form.
@@ -3619,7 +3614,7 @@ ___
 #### Commune with Nature
 *4th Level*
 - **Casting Time:** 10 minutes
-- **Range:** Self
+- **Range:** self
 - **Duration:** instant
 
 You spend time in meditation, listening to the land itself. Covering a radius 3 miles out from your location you may learn any number of things, adding a Bad die to the roll for each:
@@ -3638,7 +3633,7 @@ ___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Holy
+- **Damage Type:** holy
 
 Channel holy energy to destroy a creature living against the natural law. targeting an undead or monstrosity in range that you can see, make a spellcasting roll against their Stamina. On success they take 7 wounds, or taking 6 wounds minus 1 for every success difference between your rolls on fail. Regardless of success, the target gains Slow equal to the number of crits you rolled.
 
@@ -3651,7 +3646,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Choose a target in range you can see that is capable of looking at you. The target must make a Stamina save against your spellcasting. If they succeed they are paralyzed until the end of their next turn and make no more saving throws. On fail they are paralyzed for 1 minute. While they are paralyzed they must make a Stamina save against your spellcasting, on fail turning into stone. 
+Choose a target in range you can see that is capable of looking at you. The target must make a Stamina save against your spellcasting. If they succeed they are paralyzed until the end of their next turn and make no more saving throws. On failure they are paralyzed for 1 minute. While they are paralyzed they must make a Stamina save against your spellcasting, on failure turning into stone. 
 
 Add an enhanced die to the roll for every level above 4th.
 
@@ -3681,7 +3676,7 @@ ___
 #### Shape Stone
 *4th Level*
 - **Casting Time:** 8 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 1 hour
 
 Attempt to shape stone to a suitable form. Make a spellcasting roll against 2 bad die, on success an area of stone no larger than 1 tile takes the form of your choosing. The stone can have multiple parts, but cannot be more complex than a door. You can shape the stone into anything following these constraints, such as a weapon, an idol, or a chair. This can be used to seal a door shut or create a passage way through a wall as long as the wall is no more than 1 tile thick. After the spell ends the stone returns to its original shape.
@@ -3695,7 +3690,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-You attempt to call forth a demon from the abyss at a point in range. Choose a target location in range, making a spellcasting roll against 2 terrible die. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear in the target location. The demons make a Willpower save against your Willpower, on fail the demons obey you for the next hour, after which they revert to their default behavior. Each casting of _Summon Demon_ in this location over the past day increases the difficulty by 1 terrible die.
+You attempt to call forth a demon from the abyss at a point in range. Choose a target location in range, making a spellcasting roll against 2 terrible die. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear in the target location. The demons make a Willpower save against your Willpower, on failure the demons obey you for the next hour, after which they revert to their default behavior. Each casting of _Summon Demon_ in this location over the past day increases the difficulty by 1 terrible die.
 
 The maximum CR increases by 2 for every level cast above 4th.
 
@@ -3750,9 +3745,9 @@ ___
 - **Casting Time:** 10 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Holy
+- **Damage Type:** holy
 
-You call down a holy judgement over a 5x5 area centered on a point you can see in range. All hostile creatures make a Charisma save against your spellcasting. On fail they take 4 wound dice in damage with Undead taking 4 wounds. On a critical the creature cannot move until the end of their next turn. Creatures that pass their saving throw take 1 wound die instead. If the damage would kill a living creature they are brought to 1 wound instead and stunned until the end of their turn. Undead killed this way cannot be raised again.
+You call down a holy judgement over a 5x5 area centered on a point you can see in range. All hostile creatures make a Charisma save against your spellcasting. On failure they take 4 wound dice in damage with Undead taking 4 wounds. On a critical the creature cannot move until the end of their next turn. Creatures that pass their saving throw take 1 wound die instead. If the damage would kill a living creature they are brought to 1 wound instead and stunned until the end of their turn. Undead killed this way cannot be raised again.
 
 Add a wound die for every level above 5th.
 
@@ -3782,11 +3777,11 @@ ___
 #### Radiance
 *5th Level*
 - **Casting Time:** 10 AP
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 10 minutes
-- **Damage Type:** Holy
+- **Damage Type:** holy
 
-A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity starting their turn inside or entering it for the first time must make a Stamina save against your spellcasting. On fail they take 1 wound and are blind until the end of their next turn. Any creature making an attack roll against you add 1 terrible die to their roll. You and any creatures you choose inside the light add 1 superior die to all saving throws.
+A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity starting their turn inside or entering it for the first time must make a Stamina save against your spellcasting. On failure they take 1 wound and are blind until the end of their next turn. Any creature making an attack roll against you add 1 terrible die to their roll. You and any creatures you choose inside the light add 1 superior die to all saving throws.
 
 The radius of the bright light increases by 1 for every level above 5th.
 
@@ -3794,7 +3789,7 @@ ___
 #### Resurrect
 *5th Level*
 - **Casting Time:** 10 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 Attempt to bring back a creature that has died in the past week. A majority of the creature must be present, and this spell restores missing body parts. Make a spellcasting roll, adding 2 bad die plus a terrible die for every time this creature has died in the past year. On success the target is brought back to life with 1 wound, plus a wound for every critical you rolled.
@@ -3823,10 +3818,10 @@ ___
 #### Exorcism
 *6th Level*
 - **Casting Time:** 8 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
-You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any possession or effects this creature was maintaining.
+You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On failure the creature is banished to their home plane, ending any possession or effects this creature was maintaining.
 
 Add an enhanced die to the roll for every level above 6th.
 
@@ -3836,9 +3831,9 @@ ___
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Holy
+- **Damage Type:** holy
 
-Channel your divine wrath at a target creature, burning their body with holy might. Make a spellcasting roll against the targets Stamina, on success the target takes 6 wounds, plus a wound die for every critical rolled. On fail the target takes 6 wound die in damage instead. Damage dealt from this spell reduces the targets maximum wounds an equal amount, recovering 1 max wound every day. casting _Power Word: Heal_ on a creature removes this effect.
+Channel your divine wrath at a target creature, burning their body with holy might. Make a spellcasting roll against the targets Stamina, on success the target takes 6 wounds, plus a wound die for every critical rolled. On failure the target takes 6 wound die in damage instead. Damage dealt from this spell reduces the targets maximum wounds an equal amount, recovering 1 max wound every day. casting _Power Word: Heal_ on a creature removes this effect.
 
 This deals an additional wound for every level above 6th.
 
@@ -3846,7 +3841,7 @@ ___
 #### Power Word: Heal
 *6th Level*
 - **Casting Time:** 9 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** instant
 
 Restore a creatures form, healing mortal wounds. Make a spellcasting roll, a creature restores 6 wounds, plus a wound for every critical rolled. They may also remove the effects of a single Lesser or Greater wound. A creature can only be healed by this spell once per long rest, unable to withstand the strain of repeated casts.
@@ -3857,12 +3852,12 @@ ___
 #### Sanctuary
 *6th Level*
 - **Casting Time:** 7 AP
-- **Range:** Touch
+- **Range:** touch
 - **Duration:** 1 turn
 
 You speak a word and open a rift to a location dedicated to your deity, such as a temple or altar on the same plane as you. A rift opens in an unoccupied space adjacent to you remaining open until the end of your next turn. Any creature you allow can enter the rift before it closes.
 
-Once the rift closes you must make a spellcasting roll against 3 terrible dice, on success you appear at the location. On fail you appear in a random location within 20 miles of your target. Regardless of result the travel time takes 1 minute.
+Once the rift closes you must make a spellcasting roll against 3 terrible dice, on success you appear at the location. On failure you appear in a random location within 20 miles of your target. Regardless of result the travel time takes 1 minute.
 
 Add an enhanced die to the roll for every level above 6th.
 
@@ -3873,7 +3868,7 @@ ___
 - **Range:** self
 - **Duration:** instant
 
-Your voice bellows a single command heard by all creatures within 10 tiles of you. Any creatures you choose make a Charisma save against your spellcasting roll, on fail they obey the command. You may command the creatures to not take a single action, such as preventing them from taking the Move, Attack, or Defend actions. Alternatively you may command them to immediately take an action, such as clearing a path or dropping their weapons. Creatures commanded this way will only take the action if they have AP remaining and are capable of doing so. The command is either resolved immediately or lasts until the end of the creatures next turn if the command prevents them from taking an action.
+Your voice bellows a single command heard by all creatures within 10 tiles of you. Any creatures you choose make a Charisma save against your spellcasting roll, on failure they obey the command. You may command the creatures to not take a single action, such as preventing them from taking the Move, Attack, or Defend actions. Alternatively you may command them to immediately take an action, such as clearing a path or dropping their weapons. Creatures commanded this way will only take the action if they have AP remaining and are capable of doing so. The command is either resolved immediately or lasts until the end of the creatures next turn if the command prevents them from taking an action.
 
 Your voice carries an extra 2 tiles for every level cast above 6th.
 
@@ -3884,9 +3879,9 @@ ___
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** instant
-- **Damage Type:** Holy
+- **Damage Type:** holy
 
-You invoke the name of your deity to smite any creatures in range that can hear you. All creatures targeted must make a Charisma save against your religion check, on fail they gain the following depending on their remaining wounds, increasing the threshold by 1 for every critical rolled:
+You invoke the name of your deity to smite any creatures in range that can hear you. All creatures targeted must make a Charisma save against your religion check, on failure they gain the following depending on their remaining wounds, increasing the threshold by 1 for every critical rolled:
 
 - 8 wounds or fewer: blinded for 1 minute
 - 5 wounds or fewer: blinded and feared for 10 minutes
@@ -3906,7 +3901,7 @@ ___
 - **Range:** 10
 - **Duration:** concentration, 5 minutes
 
-A blinding light shines down centered on a point in range. The light covers a 5x5 tile area, covering it in sunlight. You may choose any number of creatures inside the light to be unaffected, all other creatures must make a Charisma save against your spellcasting. On fail the creatures are pushed to the closest unoccupied space outside of the light and take 2 wound die in damage.
+A blinding light shines down centered on a point in range. The light covers a 5x5 tile area, covering it in sunlight. You may choose any number of creatures inside the light to be unaffected, all other creatures must make a Charisma save against your spellcasting. On failure the creatures are pushed to the closest unoccupied space outside of the light and take 2 wound die in damage.
 
 Creatures inside the light are considered to be on a different plane of existence, and any attack made through the the light fails. A creature can attempt to force their way into the light, making a Charisma save against your spellcasting. On success they enter the light as normal, otherwise they are burned by the light, taking 2 wound dice.
 
@@ -3927,7 +3922,7 @@ ___
 #### Avatar
 *9th Level*
 - **Casting Time:** 1 turn
-- **Range:** Self
+- **Range:** self
 - **Duration:** concentration, 10 minutes.
 
 You channel your divine magic to become an avatar of your deity. Make a spellcasting roll against 3 terrible dice, On success, you heal a wound for each success. Starting on your next turn you become an embodiment of divine wrath, gaining the following effects:
@@ -4673,7 +4668,7 @@ When searching for food you find twice the amount with a successful survival rol
 #### Forest Kin
 *Requires proficiency in Nature, 2 Strength*
 
-When targeted by a wild beast or plant creature they must make a Willpower save against your Strength. On fail they must find a new target or the attack fails. Once a beast succeeds they are immune to this effect.
+When targeted by a wild beast or plant creature they must make a Willpower save against your Strength. On failure they must find a new target or the attack fails. Once a beast succeeds they are immune to this effect.
 
 #### Helping Hand
 *Requires proficiency in Divine spells, 6th Level*
@@ -4819,7 +4814,7 @@ Your experience with spell scrolls enables you to create spell scrolls for spell
 #### Spellspeaker
 *Requires proficiency in Scribing Tools, Arcana*
 
-You may use spell scrolls to cast the spell written on them. When using a spell scroll you cast as normal, consuming mana but not requiring the spell to be prepared. After casting the spell make an Arcana check against the spells inscribing difficulty. On fail the spell scroll is destroyed.
+You may use spell scrolls to cast the spell written on them. When using a spell scroll you cast as normal, consuming mana but not requiring the spell to be prepared. After casting the spell make an Arcana check against the spells inscribing difficulty. On failure the spell scroll is destroyed.
 
 #### Sticky Hands
 *Requires proficiency in Sleight of Hands*
@@ -4977,7 +4972,7 @@ Only those blessed by the fae can take these feats
 #### Alluring Presence
 *Requires proficiency in Conversation*
 
-Using your fae allure you can attempt to charm a humanoid creature. They make a Willpower save against your Conversation, on fail they are charmed by you until you release them. They become infatuated with you to the point they will follow every command as long as it does not bring harm to them. You may have up to your Charisma score in creatures under your charm at any time. If the charmed creature takes damage they make their saving throw again, ending the effect on success.
+Using your fae allure you can attempt to charm a humanoid creature. They make a Willpower save against your Conversation, on failure they are charmed by you until you release them. They become infatuated with you to the point they will follow every command as long as it does not bring harm to them. You may have up to your Charisma score in creatures under your charm at any time. If the charmed creature takes damage they make their saving throw again, ending the effect on success.
 
 #### Enchantment
 *Requires 8th Level*
@@ -5023,7 +5018,7 @@ Only those blessed by a powerful undead can take these feats
 
 #### Siphon Undead
 
-You can sense the life force keeping Undead alive. On your turn you may spend 5 AP to touch an undead, draining their life force to heal yourself. If targeting an unwilling creature they make a Stamina save against your Willpower. On fail they take 2 wounds in damage and you regain 1 wound of health.
+You can sense the life force keeping Undead alive. On your turn you may spend 5 AP to touch an undead, draining their life force to heal yourself. If targeting an unwilling creature they make a Stamina save against your Willpower. On failure they take 2 wounds in damage and you regain 1 wound of health.
 
 #### Sleepless
 *Requires proficiency in Exhaustion*
@@ -5184,7 +5179,7 @@ Roll 4 bad dice, adding the successes.
 | | -8 | Deadly Infection | Your max wounds are reduced by 1. At the end of each Long rest your max wounds are reduced by 1 again. |
 | | -7 | Broken Arm | You can only hold a One-Handed weapon or shield, not both. |
 | | -6 | Internal Bruising | Opposing rolls add 1 critical. |
-| | -5 | Collapsed Lung | Your stamina is reduced by 1 and you automatically fail Exhaustion rolls. |
+| | -5 | Collapsed Lung | Your stamina is reduced by 1 and you automatically failure Exhaustion rolls. |
 | | -4 | Broken Leg | You cannot sprint, and your move speed is reduced by 1. |
 | | -3 | Sliced Eye | You have -3 proficiency to all Willpower skills. Ranged attacks or spells you make add 1 terrible die to the roll. |
 | | -2 | Concussed | Your Intelligence is reduced by 1 and you are unable to concentrate on spells. |
@@ -5211,7 +5206,7 @@ Any damage taken by your armor or weapons are permanent until repaired. An item 
 
 A damaged weapon adds 1 bad die for every negative modifier, or reduces the superior die given from a magic weapon. Damaged armor reduces the number of defense dice given by 1, or reduces the superior defense die given from magic armor.
 
-You may attempt to repair a single piece of equipment over a long rest. Roll a Repair roll adding 2 bad and 1 terrible die. On success the gear is repaired by 1 level, or 2 on a critical. If you fail with a Critical failure the gear instead loses a level. You may attempt to repair magical gear, adding a terrible die for every modifier on the item.
+You may attempt to repair a single piece of equipment over a long rest. Roll a Repair roll adding 2 bad and 1 terrible die. On success the gear is repaired by 1 level, or 2 on a critical. If you failure with a Critical failure the gear instead loses a level. You may attempt to repair magical gear, adding a terrible die for every modifier on the item.
 </div>
 
 
