@@ -445,7 +445,7 @@ Your max spell level is determined on the chart below:
 
 ### Concentration
 
-Some spells require concentration to maintain. You may only concentrate on a single spell at a time, casting a new spell with concentration will end the effects of the previous spell. When you take damage while concentrating on a spell you must pass a stamina save or the spell ends, adding 1 bad die, plus a bad die for every wound taken from the attack.
+Some spells require concentration to maintain. You may only concentrate on a single spell at a time, casting a new spell with concentration will end the effects of the previous spell. When you take damage while concentrating on a spell you must pass a stamina save or the spell ends, adding 1 bad die, adding a bad die for every wound taken from the attack.
 
 ### Cantrips
 
@@ -645,7 +645,7 @@ Until your next turn you reroll 2 dice when making a defense roll, taking the ne
 You may move up to your move speed in tiles. Some terrain, such as difficult terrain, requires 2 tiles of movement for every tile you traverse. Movement does not have be done all at once, you can split your movement as many times as you want. For example if you have a movement of 5 you may move 3 tiles, take another action, and then move the remaining 2 tiles.
 
 #### Sprint (2 AP, can only be used after move, once per turn)
-You may move up to your sprint speed plus dexterity score in tiles. Negative dexterity has no effect on your sprint speed. Moving while sprinting follows the same rules as the Move action.
+You may move up to your sprint speed, adding your dexterity score in tiles. Negative dexterity has no effect on your sprint speed. Moving while sprinting follows the same rules as the Move action.
 
 #### Reaction Attack (2 AP)
 When a creature tries to leave your zone of control (the 5 adjacent tiles in front of your character, making a U shape) you may make a reaction attack against them. You cannot use maneuvers (unless the maneuver says it can be used as a reaction) and the attack uses the default Attack rules.
@@ -1191,7 +1191,7 @@ ___
 
 Sap the heat from a creature you can see. Make a spellcasting roll against the creatures stamina. On success the creature takes a wound in cold damage and for every critical rolled the creature gains a level of Slow until the end of their next turn.
 
-Add an enhanced die for every level above cantrip.
+Add an enhanced die for every level cast above cantrip.
 
 ___
 #### Firebolt
@@ -1203,7 +1203,7 @@ ___
 
 Blast a creature you can see with a bolt of fire. Make a spellcasting roll against the creatures defense. On success the creature takes a wound in fire damage, adding a wound die on a critical.
 
-Add a wound die for every level above cantrip.
+Add a wound die for every level cast above cantrip.
 
 ___
 #### Message
@@ -1214,7 +1214,7 @@ ___
 
 You attempt to send a telepathic message to a creature you're familiar with or that you can see. Make a spellcasting roll, adding a bad die for every 10 tiles of distance between you and the recipient. On success the recipient receives the message. You know whether the spell is successful or not.
 
-Add an enhanced die for every level above cantrip.
+Add an enhanced die for every level cast above cantrip.
 
 ___
 #### Minor Image
@@ -1225,7 +1225,7 @@ ___
 
 You create a small, soundless illusory image no larger than 1 tile at a point within range you can see. The image has no physical presence and objects pass through it as if it wasn't there. Any creature attempting to see through the illusion must make a perception check against your spellcasting, seeing the illusion for what it is on success. A creature that touches or passes through the illusion automatically succeeds this check.
 
-Add an enhanced die for every level above cantrip.
+Add an enhanced die for every level cast above cantrip.
 
 ___
 #### Static Shock
@@ -1237,7 +1237,7 @@ ___
 
 Charge the air around a creature in range, causing sparks to strike the creature. Make a spellcasting roll against the creatures Dexterity. On success the creature takes a wound in lightning damage. If you roll a critical the spell bounces to a creature adjacent to the target, making a new roll for the new creature. This cannot bounce to the same creature twice and must bounce if there is a creature adjacent to the initial target.
 
-Add an enhanced die for every level above cantrip.
+Add an enhanced die for every level cast above cantrip.
 
 ___
 #### Thundering Blow
@@ -1249,7 +1249,7 @@ ___
 
 conjure a rolling thunder to blast a creature away. Make a spellcasting roll against the creatures strength. On success they take a wound die in thunder damage, pushed back 1 tile and staggered until the end of their next turn. For every critical rolled the creature is pushed an extra tile. If the creature is unable to move, either due to another creature or obstacle, add a wound die to the damage for every tile remaining.
 
-Add an enhanced die for every level above cantrip.
+Add an enhanced die for every level cast above cantrip.
 
 
 ___
@@ -1262,7 +1262,7 @@ ___
 
 You shoot a volley force blasts, sending 3 blasts to any creatures in range. The blasts travel around corners and obstacles, homing in on their target. You may have all blasts target the same creature, or split the blasts between creatures. Make a spellcasting roll against the creatures strength. On success they take 1 wound die in force damage for every blast aimed at them. Replace a wound die with a wound for every critical rolled.
 
-Fire another blast for every level above 1st.
+Fire another blast for every level cast above 1st.
 
 ___
 #### Arcane Key
@@ -1273,7 +1273,7 @@ ___
 
 Magically force a lock to open. Touching a lock you may make a lockpicking check using your spellcasting roll instead of your lockpicking skill. On success the lock is opened. This spell can open magical locks.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Beam of Fire
@@ -1285,7 +1285,7 @@ ___
 
 A blast of fire shoots from your hands, hitting all creatures in a 3 tile line. Make a spellcasting roll against the creatures defense. On success the target takes a wound in fire damage, or two wounds on a critical.
 
-The beam reaches 1 tile further and deals an extra wound die for every level above 1st.
+The beam reaches 1 tile further and deals an extra wound die for every level cast above 1st.
 
 ___
 #### Call Lightning
@@ -1297,7 +1297,7 @@ ___
 
 Call a bolt of lightning to strike a nearby creature you can see. Make a spellcasting roll against the creatures Dexterity. On success they take 1 wound and 2 wound dice in lightning damage, becoming paralyzed until the end of their next turn on a critical. If cast in rainy conditions this spell only costs 5 AP.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Chilling Ray
@@ -1309,7 +1309,7 @@ ___
 
 You shoot a chilling beam at up to 3 creatures in range. Make a spellcasting roll against the creatures stamina. On success, the target takes 1 wound die in cold damage and gains Slow 1, or Slow 2 on a critical.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Detect Magic
@@ -1320,7 +1320,7 @@ ___
 
 Attempt to read the flow of magic in a 10x10 area centered on a point in range. Making a spellcasting roll against 2 bad dice. On success you can see a faint outline over any magical effect in the area. For each critical you are able to determine the school of a given magic effect and a rough idea of the magic's purpose.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Identify
@@ -1331,7 +1331,7 @@ ___
 
 Attempt to learn the secrets of a magical item or trinket. Make a lore check using your spellcasting roll for the check. On success you learn the properties of the item.
 
-Add an enhanced die for every level above 1st
+Add an enhanced die for every level cast above 1st
 
 ___
 #### Magic Sight
@@ -1344,7 +1344,7 @@ Create an invisible floating eye, visible only to those who can see the ethereal
 
 If the eye is able to fully spot a creature behind cover, they gain 1 less bonus die from cover against your attacks.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Poison Trap
@@ -1356,7 +1356,7 @@ ___
 
 Summon bubbling acid on 3 tiles at points in range you can see. When a creature starts their turn or enters a tile for the first time on a round you make a spellcasting roll against their stamina. On success they take 1 wound in poison damage and on a critical gain Poison 1 until the end of their next turn. These tiles count as difficult terrain, and last for 1 minute.
 
-Add a tile for every level above 1st.
+Add a tile for every level cast above 1st.
 
 ___
 #### Ray of Sickness
@@ -1367,7 +1367,7 @@ ___
 
 A sickening beam blasts a creature in range you can see. Make a spellcasting roll against the creatures stamina. On success the target gains Poison 1 for the next 10 minutes, or Poison 2 on a critical.
 
-Add a target for every level above 1st.
+Add a target for every level cast above 1st.
 
 ___
 #### Sword Burst
@@ -1379,7 +1379,7 @@ ___
 
 Magically enchant your weapon to fire a burst of energy with your next attack. You gain _Reach 1_ for the duration of the spell. On your next attack the target creature makes a strength save instead of rolling defense. On hit, all physical damage dealt by the attack is converted to force damage and you deal an extra wound die of force damage with the attack. After you make the attack the spell ends.
 
-Your reach increases by 1 and you add a wound die to the damage for every level above 1st.
+Your reach increases by 1 and you add a wound die to the damage for every level cast above 1st.
 
 ___
 #### Thunderclap
@@ -1391,7 +1391,7 @@ ___
 
 A wave of thunder slams the ground around you, hitting all creatures adjacent to you. Make a spellcasting roll against the creatures defense. On success the creature takes 1 wound and 1 wound die in thunder damage and is staggered. On a critical the target is pushed away 1 tile from you taking an extra wound in thunder damage if an object or creature blocks their movement.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 
 
@@ -1404,7 +1404,7 @@ ___
 
 As a reaction you quickly pull up magical defenses, protecting you and all adjacent creatures from an incoming spell. Making a spellcasting roll, you and all adjacent creatures add 1 superior die to their saving throw, adding an extra superior die for every critical. Creatures in the barrier gain _Resistance 2_ to Force damage.
 
-Increase the range of protection by 1 and add an enhanced die for every level above 2nd.
+Increase the range of protection by 1 and add an enhanced die for every level cast above 2nd.
 
 ___
 #### Combust
@@ -1417,7 +1417,7 @@ ___
 Cause up to 2 creatures you can see in range to burst into flames. Make a spellcasting roll against the creatures Dexterity, on success they ignite in flames. At the start of their turn they take 1 wound in fire damage from the flames. On their turn they may spend 5 AP rolling on the ground to extinguish the fire, leaving them prone. Taking cold damage or being doused in water extinguishes the fire.
 
 
-Add a target for every level above 2nd.
+Add a target for every level cast above 2nd.
 
 ___
 #### Dispel Magic
@@ -1430,7 +1430,7 @@ You attempt to dispel a single magical effect targeting a creature or area. Make
 
 Some magical effects may not come from a spell. In these cases the GM determines the challenge rating or if the spell fails.
 
-You may target an additional effect for every level above 2nd.
+You may target an additional effect for every level cast above 2nd.
 
 ___
 #### Elemental Shell
@@ -1441,7 +1441,7 @@ ___
 
 Create an energy barrier around yourself. Choose a damage type: fire, cold, lightning, thunder, poison. Make a spellcasting roll, on success you gain Resistance 1 to that damage type, increasing the resistance by 1 for every critical rolled.
 
-Add an enhanced die for every level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 ___
 #### Flurry
@@ -1453,7 +1453,7 @@ ___
 
 You conjure a flurry of ice shards in a 3x3 area adjacent to you. Make a spellcasting roll against the creatures stamina save. On success they take 2 wound dice in cold damage, gaining 1 level of Slow for the next minute on a critical.
 
-Increase the wound dice and level of slow by 1 for every level above 2nd.
+Increase the wound dice and level of slow by 1 for every level cast above 2nd.
 
 ___
 #### Imprint
@@ -1471,7 +1471,7 @@ Attempt to record your senses to an object, allowing a creature to replay your r
 
 The recording is permanent, unless a command word is spoken to end the spell or _Dispel Magic_ is cast on it. A creature under _Nondetection_ appears as a blurry patch and their voice is unrecognizable regardless of the quality of recording.
 
-Add an enhanced die for every level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 ___
 #### Magic Weapon
@@ -1482,7 +1482,7 @@ ___
 
 Temporarily enchant a weapon with magic. You may target up to 5 weapons, adding 1 terrible die to your spellcasting roll for each weapon. On success the weapons are considered +1 magic weapons. If you lose or drop concentration before the hour is finished the weapons retain the magic for 1 minute before fading completely.
 
-Add an enhanced die for every level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 ___
 #### Blink
@@ -1493,7 +1493,7 @@ ___
 
 Blink out of existence, teleporting to a unoccupied point you can see in range. Make a spellcasting roll, adding 2 bad die if you attempt to teleport more than 5 tiles with a maximum range of 10. On success you teleport to that position, preventing any opportunity attacks or attacks that trigger on entering someone's zone of control.
 
-Add an enhanced die for every level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 ___
 #### Resilient Shield
@@ -1504,7 +1504,7 @@ ___
 
 On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against 1 bad die, or 2 if cast as a reaction. On success you create a shield of force around youself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions, but movement effects do not break the spell.
 
-Add an enhanced die for every level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 
 
@@ -1525,7 +1525,7 @@ You attempt to animate a simple object made of plant, wood, stone, or metal no m
 
 Make a spellcasting roll adding 2 terrible dice, or 4 terrible dice if the material is made of metal. On success you create a golem out of the object. The golem has 3 wounds and gains Resistance 1 to a damage type of your choosing: physical, fire, cold, lightning, poison. On your turn it can take a move action to move 4 tiles and can make a single attack as free actions. The golem's attack uses your spellcasting roll instead of a normal attack roll. The creature deals a wound and wound die of bludgeoning damage on hit, adding a wound die for every size increase. After the duration or if the caster is incapacitated the golem reverts to inanimate material. Golems made of metal have Resistance 2 to your chosen damage type instead.
 
-Add an enhanced die for every level above 3rd. At 5th level you may target a 2x2 area creating a golem with 5 wounds, and at 7th a 3x3 area creating a golem with 8 wounds and two attacks per turn.
+Add an enhanced die for every level cast above 3rd. At 5th level you may target a 2x2 area creating a golem with 5 wounds, and at 7th a 3x3 area creating a golem with 8 wounds and two attacks per turn.
 
 ___
 #### Chain Lightning
@@ -1537,7 +1537,7 @@ ___
 
 A burst of lightning shoots from your hands that bounces from creature to creature. Targeting a creature you can see within range, the lightning bounces from them to up to 2 other creatures each within 3 tiles of the previous creature. The lightning cannot bounce to the same creature twice and must bounce to a creature if able. Make a spellcasting roll against the creatures dexterity. On success they take 1 wound in lightning damage, adding a wound die for every critical.
 
-The number of bounces increases by 1 and you add an enhanced die for every level above 3rd.
+The number of bounces increases by 1 and you add an enhanced die for every level cast above 3rd.
 
 ___
 #### Counter Spell
@@ -1559,7 +1559,7 @@ ___
 
 See far into the distance, bending your sight around obstacles. Choose a location in range and make a spellcasting roll against 2 Terrible die, or 3 if the location is unfamiliar to you. On success you can see the target location as long as it is not complete incased, for example you would be able to see the happenings in a town, but not inside buildings. You can see the location as if you were present there, but cannot make out sounds. At any time you may change the target of your sight, requiring a turn to reorient yourself.
 
-Add an enhanced die for every level above 3rd.
+Add an enhanced die for every level cast above 3rd.
 
 ___
 #### Fireball
@@ -1571,7 +1571,7 @@ ___
 
 Launch a ball of fire centered at a target point in range you can see. The fireball explodes on impact, hitting all creatures in a 5x5 tile area. Make a spellcasting roll against the creatures dexterity save. On success they take 2 wounds in fire damage, adding a wound die on a critical. On failure the creatures take half damage, rounding down.
 
-Add a wound die for every level above 3rd.
+Add a wound die for every level cast above 3rd.
 
 ___
 #### Flight
@@ -1582,7 +1582,7 @@ ___
 
 Gain magical flight, allowing you to float through the air. Choosing up to 5 willing creatures, make a spellcasting roll against 1 terrible die for each creature chosen. On success all creatures gain a flying speed equal to their movement speeds.
 
-Add an enhanced die for every level above 3rd.
+Add an enhanced die for every level cast above 3rd.
 
 ___
 #### Ice Knives
@@ -1594,7 +1594,7 @@ ___
 
 You conjure an barrage of icicles, hitting all adjacent creatures and blasting an area 3 tiles wide and 4 tiles long adjacent to you. Make a spellcasting roll against the creatures stamina save. On success they take 2 wounds in cold damage, being staggered on a critical.
 
-Add a wound die for every level above 3rd.
+Add a wound die for every level cast above 3rd.
 
 ___
 #### Phantasmal Blades
@@ -1606,7 +1606,7 @@ ___
 
 Launch a barrage of arcane swords at a creature in range you can see. Make a spellcasting roll against the creatures strength save. On success they take 3 wounds in force damage.
 
-Add a wound die and enhanced die for every level above 3rd.
+Add a wound die and enhanced die for every level cast above 3rd.
 
 ___
 #### Protective Sigil
@@ -1662,7 +1662,7 @@ The elemental gains 1 max AP and you add a superior dice to your spellcasting ro
 > - **Elemental Affinity:** Each elemental gains a different bonus. *Fire:* melee attacks deal an extra wound die on a critical. *Earth:* gain 1 defense die. *Air:* gain a flying speed equal to their movement speed. *Water:* gains 1 to their move and sprint speeds.
 > ### Actions
 > - ***Attack.*** *All* 5 AP, melee, Make a spellcasting roll against the creatures defense, dealing 1 wound + 1 wound die in damage based on it's element.
-> - ***Firebolt.*** *Fire Only* 5 AP, range 10, Make a spellcasting roll against a creatures defense, dealing 1 wound in fire damage, plus 1 wound die on a critical.
+> - ***Firebolt.*** *Fire Only* 5 AP, range 10, Make a spellcasting roll against a creatures defense, dealing 1 wound in fire damage, adding 1 wound die on a critical.
 > - ***Harden.*** *Earth Only* 3 AP, reaction, Improve all defense dice to superior defense dice.
 > - ***Gust.*** *Air Only* 7 AP, Creates a torrent of wind in a direction away from the elemental. The gust is 3 tiles wide and 7 tiles long and lasts until the start of the elementals next turn. All creatures moving into the wind use an extra tile of movement for each tile moved. All ranged attacks moving into the wind add 1 terrible die to their attack.
 > - ***Freeze*** *Water Only* 5 AP, melee, Attempt to freeze a creature in place, make a spellcasting roll against the creatures dexterity save. On success dealing 1 wound in cold damage, restraining them until the start of your next turn on a critical.
@@ -1677,7 +1677,7 @@ ___
 
 A shell of fire surrounds your body. For the duration you add 1 superior defense die to your defense rolls against ranged attacks, incinerating the projectile if the attack misses. When a creature adjacent to you makes a melee attack against you they must make a dexterity save against your spellcasting. On fail, they take 2 wound dice in fire damage, or 2 wounds on a critical. The damage from Fire Shell happens before the attack lands, if the creature is killed their attack deals no damage.
 
-Add an enhanced die for every level above 4th.
+Add an enhanced die for every level cast above 4th.
 
 ___
 #### Ice Lance
@@ -1687,11 +1687,11 @@ ___
 - **Duration:** 10 minutes
 - **Damage Type:** cold
 
-You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your normal weapon attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The lance is a two-handed weapon with reach, and deals 1 wound and 2 wound dice in cold damage on hit. You may throw the lance at a creature within 10 tiles causing it to explode, hitting all adjacent creatures. Make a spellcasting roll against the creatures defense, dealing 1 wound and 2 wound dice in cold damage on hit, giving a level of Slow for every critical rolled. After the last lance is thrown the spell ends.
+You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your melee attack with an Ice Lance, using your Arcane spellcasting for the attack roll. The lance is a two-handed weapon with reach, and deals 1 wound and 2 wound dice in cold damage on hit. You may throw the lance at a creature within 10 tiles causing it to explode, hitting all adjacent creatures. Make a spellcasting roll against the creatures defense, dealing 1 wound and 2 wound dice in cold damage on hit, giving a level of Slow for every critical rolled. After the last lance is thrown the spell ends.
 
 You can make one attack, melee or thrown, when casting this spell.
 
-You create an additional lance for every level above 4th.
+You create an additional lance for every level cast above 4th.
 
 ___
 #### Lightning Bolt
@@ -1703,7 +1703,7 @@ ___
 
 Fire a bolt of lightning, hitting all creatures in a 25 tile line. The lightning ricochets off walls and solid objects. Make a spellcasting roll against the creatures dexterity save. On success they take 1 wound and 2 wound dice in lightning damage, adding a wound die for every critical. On failure they take 1 wound in lightning damage instead.
 
-Add an enhanced die for every level above 4th.
+Add an enhanced die for every level cast above 4th.
 
 ___
 #### Nondetection
@@ -1714,7 +1714,7 @@ ___
 
 For the duration of the spell a creature is undetectable by most forms of magic. Any spell of 4th level or below that grants sight does not see this creature, and locate spells of a similar level failure to find them. When spells of 5th level or higher, such as _Scrying_, attempt to detect the creature make a spellcasting roll against the spell's spellcasting roll. On success the creature remains undetected by that spell.
 
-You may target an additional creature for every level above 4th.
+You may target an additional creature for every level cast above 4th.
 
 ___
 #### Orb of Acid
@@ -1728,7 +1728,7 @@ You conjure an orb of vitriolic acid, launching it at a target point in range yo
 
 Regardless of outcome acid covers the floor for the next minute. Any creature that starts their turn, or moves into it for the first time this round takes 1 wound in poison damage.
 
-The area of the blast increases by 2 and the initial damage increases by 1 wound die for every level above 4th.
+The area of the blast increases by 2 and the initial damage increases by 1 wound die for every level cast above 4th.
 
 ___
 #### Passwall
@@ -1774,7 +1774,7 @@ You may cast the illusion over a cliff or gap, for example creating a bridge ove
 
 A creature attempting to perceive the illusion must make a perception check against your spellcasting, on success they see the illusion for what it is.
 
-For every level above 5th you may extend the illusory space by another 10x10x10 area.
+For every level cast above 5th you may extend the illusory space by another 10x10x10 area.
 
 ___
 #### Instant Fortification
@@ -1789,7 +1789,7 @@ This spell may be cast on existing fortifications, granting them the light and r
 
 You may give the walls up to resistance 3, with a minimum of 1. Make a spellcasting roll adding 2 Terrible die per level of resistance, conjuring the fortifications on success.
 
-For every level above 5th you create an additional 5x5 area which must share a side with the existing fortifications.
+For every level cast above 5th you create an additional 5x5 area which must share a side with the existing fortifications.
 
 ___
 #### Open Warren
@@ -1828,7 +1828,7 @@ A great wall of fire, 10 tiles wide and 3 tiles high, erupts from the ground. An
 
 Ignited creatures take 1 wound of fire damage at the start of their turn. They may spend 5 AP extinguishing the fire, leaving them prone.
 
-Add a wound die for every level above 5th.
+Add a wound die for every level cast above 5th.
 
 ___
 #### Ward Area
@@ -1899,7 +1899,7 @@ ___
 
 You tap in to the latent mana in your surroundings, empowering your spells. Make a spellcasting roll against 4 Terrible dice, on success you may reroll up to 5 dice between your spellcasting and spell damage rolls for the duration. Holding this connection is both mentally and physically exhausting. Should the spell end due to losing concentration you take 1 level of exhaustion, or 2 levels if you critically failure the concentration check.
 
-Add an enhanced die for every level above 6th.
+Add an enhanced die for every level cast above 6th.
 
 ___
 #### Forcewave
@@ -1963,7 +1963,7 @@ You speak a word of power as fire races across your body. Until the spell ends, 
 
 Only a single Power Word can be active at once, casting another Power Word spell ends any other Power Word spells you've cast.
 
-The damage from both sources increases by 1 wound die for every level above 7th.
+The damage from both sources increases by 1 wound die for every level cast above 7th.
 
 ___
 #### Power Word: Ice
@@ -1981,7 +1981,7 @@ You speak a word of power as ice rimes across your body. Until the spell ends, y
 
 Only a single Power Word can be active at once, casting another Power Word spell ends any other Power Word spells you've cast.
 
-The range of both effects increase by 1 and you add an enhanced die to your spellcasting rolls for every level above 7th.
+The range of both effects increase by 1 and you add an enhanced die to your spellcasting rolls for every level cast above 7th.
 
 ___
 #### Power Word: Lightning
@@ -1999,7 +1999,7 @@ You speak a word of power as lightning runs through your body. Until the spell e
 
 Only a single Power Word can be active at once, casting another Power Word spell ends any other Power Word spells you've cast.
 
-Add a superior die for every level above 7th.
+Add a superior die for every level cast above 7th.
 
 ___
 #### Project Image
@@ -2235,7 +2235,7 @@ ___
 
 You conjure up a barrage of illusory light to distract up to 5 creatures. Make a spellcasting roll, adding a terrible die for every creature you target. On success, the creatures add 1 bad die to their first attack or spell attack roll on their next turn. This effect ends after their first attack or at the end of their turn. You may cast this as a reaction for 2 AP, targeting a single creature and making a spellcasting roll against 2 terrible dice instead.
 
-Add an enhanced die for every level above cast cantrip.
+Add an enhanced die for every level cast above cast cantrip.
 
 ___
 #### Witchcraft
@@ -2255,7 +2255,7 @@ You conjure up a display of witchcraft, displaying one of the following effects:
 
 A creature trying to see through these illusions must succeed on a perception check against your spellcasting roll.
 
-Add an enhanced die for every level above cantrip.
+Add an enhanced die for every level cast above cantrip.
 
 
 ___
@@ -2267,7 +2267,7 @@ ___
 
 Black tendrils erupt from your hand to bind a creature in range you can see. Make a spellcasting roll against the creatures strength or dexterity save. On success the creature is grappled, or restrained on a critical. The Tendrils require a free hand to grasp, or else the creature is freed. On each of your move and sprint actions you may move the grappled target 1 tile. On their turn the creature can spend 5 AP to make a strength save against your spellcasting roll, freeing themselves on success. If the creature moves more than 5 tiles away from you the tendrils break and the spell ends.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Charming Guise
@@ -2278,7 +2278,7 @@ ___
 
 You take on a charming persona, attempting to charm up to 5 creatures in range you can see. Make a spellcasting roll against the creatures willpower save, adding 1 bad die for every creature past the first. If the creature is hostile to you it adds 2 superior dice to their save. On success, the creatures are charmed by you for the duration. Charmed creatures treat you as a friendly acquaintance. The charm ends if they take any damage, or if you act in a harmful way towards them. After the spell ends the target knows it was charmed.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Concealment
@@ -2289,7 +2289,7 @@ ___
 
 A dull sheen covers your body, hiding your presence. Targeting up to 5 creatures, make a spellcasting roll, adding 1 terrible die for every creature. On success you are concealed for the duration. Creatures that don't know you have trouble remembering you after you pass, not being able to recall details such as race, gender, or appearance. As long as you are undetected by a creature you gain 1 superior die for all stealth checks, adding a superior die for every critical rolled. Concealment ends after taking a hostile action against another creature.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Crow of Magthera
@@ -2301,7 +2301,7 @@ ___
 
 You summon a crow with obsidian feathers capable of cutting through flesh and armor. The crow flies through a creature in range you can see. Make a spellcasting roll against the creatures dexterity save. On success they take 1 wound in death damage. On a critical the creatures armor provides 1 less defense die until repaired. Armor that no longer provides a defense bonus is destroyed.
 
-Add a wound die for every level above 1st.
+Add a wound die for every level cast above 1st.
 
 ___
 #### Curse of Misfortune
@@ -2312,7 +2312,7 @@ ___
 
 Curse a creature you can see with misfortune. Make a spellcasting roll against the creatures willpower save. On success the creature is cursed, adding a bad die to all saving throws, or a terrible die on a critical. This curse can be removed through _Cleanse_ as if it was a normal condition.
 
-You may target an additional person for every level above 1st.
+You may target an additional person for every level cast above 1st.
 
 ___
 #### Firefly Swarm
@@ -2324,7 +2324,7 @@ ___
 
 You summon a swarm of burning fireflies on a tile in range. The flies attach themselves to nearby creatures, igniting themselves. When a creature enters the swarm for the first time this round or begins their turn there they make a stamina save against your spellcasting roll. On failure they 1 wound of fire damage. Any invisible creatures hit by this lose their invisibility if it came from a spell, or becomes visible for 1 minute otherwise. There are enough fireflies to burn 3 times, after which the swarm disappears.
 
-The the fireflies spread across 1 more tile and the number of burns increase by 1 for every level above 1st.
+The the fireflies spread across 1 more tile and the number of burns increase by 1 for every level cast above 1st.
 
 ___
 #### Ghoulish Claws
@@ -2336,7 +2336,7 @@ ___
 
 Your hands elongate, becoming deadly poison claws. When casting this ability and for the duration of the spell you may make an attack against a target in range, using your spellcasting roll instead of an attack roll. On hit they take 3 wound dice in poison damage, paralyzing the target on a critical until the end of their next turn.
 
-The duration increases by 1 minute for every level above 1st.
+The duration increases by 1 minute for every level cast above 1st.
 
 ___
 #### Hex
@@ -2347,7 +2347,7 @@ ___
 
 Spin a hex around a creature you can see. Make a spellcasting roll against the creatures willpower save. On success they gain hex, or hex 2 on a critical.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Hex Bolt
@@ -2359,7 +2359,7 @@ ___
 
 Fire a bolt of psychic force, sticking to a creature in range you can see. Make a spellcasting roll against the creatures willpower save, adding 1 bad die to your roll if the creature is not hexed. On success deal 1 wound in psychic damage, adding a wound die if the creature is hexed. On a critical, the creature gains hex for 1 minute, or increases their level of hex up to a max of 3. For the next minute, once per turn you may spend 2 AP to make the same attack against the same creature, or move the hex bolt and attack a different creature within 2 tiles.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Occult Whispers
@@ -2373,7 +2373,7 @@ You whisper eldritch words into a creatures mind, causing it to panic. Make a sp
 
 Regardless of if the spell succeeds the creature is distracted by the whispers and cannot make opportunity attacks this turn.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Quicken
@@ -2384,7 +2384,7 @@ ___
 
 Enchant up to 5 creatures you can see, imbuing them with unnatural speed. Make a spellcasting roll against a bad die for each creature targeted. On success, the creatures move and sprint actions cost 1 AP. In addition, for every critical the creatures move speed is increased by 1.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Sleep
@@ -2408,7 +2408,7 @@ Take a moment to study your surroundings, watching for signs of the near future 
 
 They can describe a condition to fufill or trigger before they take the action or simply choose the next time they take that action. Regardless they must add the superior die to the first action that meets the requirements. For example, if they choose "when I make a stealth check once I'm inside the dungeon" any stealth checks rolled outside the dungeon do not add dice while the first check inside the dungeon will.
 
-Add an enhanced die to the spellcasting roll for every level above 1st.
+Add an enhanced die to the spellcasting roll for every level cast above 1st.
 
 
 ___
@@ -2420,7 +2420,7 @@ ___
 
 Attempt to fill a creatures mind with rage, preventing it from seeing friend from foe. Make a spellcasting roll against the creatures willpower save. On success the creature loses all remaining AP and makes a single attack against a random creature within its attack range. For every critical rolled the target adds a normal die for all attack rolls for the duration. On each of this creatures turns they must spend it either attacking a random creature in range or move towards the closest creature. Each time this creature takes damage they make a willpower save against 2 bad dice, ending this effect on success.
 
-Add an enhanced die for every level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 ___
 #### Bewitched Arrow
@@ -2432,7 +2432,7 @@ ___
 
 You conjure up to 5 deadly, blackthorn arrows. Make a spellcasting roll against a bad die per arrow. The arrows can be thrown up to 10 tiles or fired from a bow. When used the arrows explode into a 3x3 tile cloud of black smoke. All creatures in the smoke make a stamina save against your spellcasting roll. On failure they take a wound and a wound die in death damage, becoming blind until the end of their next turn on a critical.
 
-You conjure an additional arrow for every level above 2nd.
+You conjure an additional arrow for every level cast above 2nd.
 
 ___
 #### Binding
@@ -2443,7 +2443,7 @@ ___
 
 Attempt to bind a creature you can see in shimmering chains. Make a spellcasting roll against the creatures dexterity save, adding 2 bad dice if the creature is large or bigger. On success the creature is restrained for the duration. A restrained creature can spend 5 AP to try and break the chains, making a strength save against your spellcasting. On success they are no longer restrained.
 
-You can target an additional creature for every level above 2nd.
+You can target an additional creature for every level cast above 2nd.
 
 ___
 #### Cloud of Teeth
@@ -2491,7 +2491,7 @@ ___
 
 Curse a creature you can see with fragility. Make a spellcasting roll against the creatures willpower save. On success they add a bad die to their defense rolls, or a terrible die on a critical. This effect can only be removed by _Remove Curse_ or similar spells.
 
-You may target an additional person for every level above 2nd.
+You may target an additional person for every level cast above 2nd.
 
 ___
 #### Curse of Suffering
@@ -2502,7 +2502,7 @@ ___
 
 Curse a creature you can see, extending their suffering. Make a spellcasting roll against their willpower save. On success any negative condition affecting the creature lasts an additional turn after being removed. Negative conditions last an additional turn even if removed through magic, such as with _Cleanse_. On a critical any time they gain hex, slow, or poison they gain an additional level of that condition.
 
-You may target an additional person for every level above 2nd.
+You may target an additional person for every level cast above 2nd.
 
 ___
 #### Dark Sight
@@ -2513,7 +2513,7 @@ ___
 
 Magically enhance the sight of up to 5 creatures, giving them the ability to see in the dark. Make a spellcasting roll against a bad die for each creature targeted. On success they are able to see through dim light and darkness within 30 tiles as if they were bright light.
 
-Add an enhanced die for every level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 ___
 #### Dull Intellect
@@ -2538,7 +2538,7 @@ You create a spiraling mass of wind covering a 3x3 tile area centered on a point
 
 For the duration, starting on your next turn you may move the Whirlwind up to 3 tiles once per turn.
 
-The area of the whirlwind increases by 2 for every level above 2nd. When cast at 5th level and above the whirlwind can damage buildings and can push large, heavy objects, such as barrels or carts.
+The area of the whirlwind increases by 2 for every level cast above 2nd. When cast at 5th level and above the whirlwind can damage buildings and can push large, heavy objects, such as barrels or carts.
 
 ___
 #### Mass Web
@@ -2589,7 +2589,7 @@ ___
 
 Curse a creature you can see with weakness. Make a spellcasting roll against the creatures willpower save. On success, they are weakened, and are unable to inflict lesser or greater wounds with attacks on a critical.
 
-You may target an additional person for every level above 3rd.
+You may target an additional person for every level cast above 3rd.
 
 ___
 #### Enlarge/Reduce
@@ -2631,7 +2631,7 @@ ___
 
 You assume a horrifying visage, fearing up to 5 creatures in range that can see you. Make a spellcasting roll, adding 1 bad die for every creature targeted after the first, against the creatures willpower save. On success the creatures are feared with you as the source. Each time they take damage they can make a willpower save against your spellcasting roll, ending the effect on success.
 
-Add an enhanced die for every level above 3rd.
+Add an enhanced die for every level cast above 3rd.
 
 ___
 #### Frog Morph
@@ -2644,7 +2644,7 @@ Attempt to turn a creature you can see into a harmless frog. Make a spellcasting
 
 The creature spends its turns hopping around, moving a single tile in a random direction. The Frog has 1 wound rolls 1 defense die. If reduced to 0 wounds the spell ends and the creature reverts to their old form, taking any remaining damage.
 
-You may target an additional creature for every level above 3rd. If you try to cast this on multiple creatures larger than medium you add the terrible dice based on size across all creatures.
+You may target an additional creature for every level cast above 3rd. If you try to cast this on multiple creatures larger than medium you add the terrible dice based on size across all creatures.
 
 ___
 #### Inflict Wound
@@ -2656,7 +2656,7 @@ ___
 
 touch a creature, causing mortal wounds to open. Make a spellcasting roll against the creatures stamina save. On success they take 2 wounds and a wound die in death damage, adding a wound die for every critical rolled. On failure they take half damage, rounding down. If this deals at least 3 wounds the target gains a random lesser wound, or a random greater wound if it deals 5 wounds or more.
 
-Add a wound die for every level above 3rd.
+Add a wound die for every level cast above 3rd.
 
 ___
 #### Shapechange
@@ -2669,7 +2669,7 @@ You transform your body into a dangerous beast. The creature must have a CR of 5
 
 Make a spellcasting roll, your max wounds are increased by 1 for every critical rolled. If you are reduced to 0 wounds while in this form the spell ends and you transform back to your normal shape, taking 2 wounds of damage and are stunned until the end of your next turn from the strain.
 
-Add an enhanced die and increase the CR by 3 for every level above 3rd.
+Add an enhanced die and increase the CR by 3 for every level cast above 3rd.
 
 ___
 #### Shifting Image
@@ -2680,7 +2680,7 @@ ___
 
 Your form blurs as 3 illusory projections of yourself hide your true position. Any time you would be attacked by a single target attack, spell, or maneuver, the attacker must roll a perception check against your  roll. On failure the attack misses destroying one of the illusions. The spell ends once all illusions have been destroyed. A creature that can see through ilusions is unaffected by this spell.
 
-Add an enhanced die for every level above 3rd.
+Add an enhanced die for every level cast above 3rd.
 
 ___
 #### Shroud of Darkness
@@ -2691,7 +2691,7 @@ ___
 
 You shroud a 5x5 area centered on a point in range in a consuming darkness that extinguishes mundane light. All tiles in the area are treated as being in complete darkness. Any creatures that enter the darkness for the first time this round or start their turn there makes a stamina save against your spellcasting roll. On fail they are blind until the end of their next turn. If a creature is maintaining a _Light_ spell inside the darkness they must make a spellcasting roll against your spellcasting roll, ending the spell on fail.
 
-The area of the darkness increases by 2 for every level above 3rd.
+The area of the darkness increases by 2 for every level cast above 3rd.
 
 
 ___
@@ -2703,7 +2703,7 @@ ___
 
 Curse a creature you can see with an unnatural slowness. Make a spellcasting roll against the creatures willpower save. On success all actions they take costs 1 extra AP, or 2 extra AP on a critical.
 
-You may target an additional person for every level above 4th.
+You may target an additional person for every level cast above 4th.
 
 ___
 #### Gloom
@@ -2714,7 +2714,7 @@ ___
 
 Inflict an area with a supernatural gloom centered on a point you can see within range. Make a spellcasting roll, with the total area of the gloom increasing by 2 for every success. Every undead creature inside the gloom adds 1 superior die to all rolls. Mundane lights only provides light to adjacent tiles and magical light covers half as far. All undead inside the gloom regain 1 wound at the start of their turns while healing effects on living creatures heal for half of their value, rounding up.
 
-Add an enhanced die for every level above 4th.
+Add an enhanced die for every level cast above 4th.
 
 ___
 #### Haste
@@ -2725,7 +2725,7 @@ ___
 
 Enhance the speed of up to 3 willing creatures you can see. Make a spellcasting roll against 2 terrible dice for each creature targeted. On success, all creatures gain 3 to their move and sprint speeds, 4 to their max AP, and gain 2 superior dice to their dexterity saves. When the spell ends all creatures make an exhaustion roll against 2 bad and 1 terrible dice, gaining a level of exhaustion on fail.
 
-Add an enhanced die for every level above 4th.
+Add an enhanced die for every level cast above 4th.
 
 ___
 #### Instigate
@@ -2736,7 +2736,7 @@ ___
 
 You incite a crowd or group of creatures to violence. All creatures in a 7x7 tile area centered on a point in range must make a willpower save against your spellcasting roll. On fail, non-hostile creatures begin to act violently, turning into an angry mob. The mob will provoke others, destroy or vandalize nearby buildings, carts, or other objects, and may attack other creatures. Hostile creatures effected by this spell lose any organization they have and recklessly attack their enemies. Each time a creature takes damage they make a willpower save against 1 bad die, ending the effects of this spell on success.
 
-Add an enhanced die for every level above 4th.
+Add an enhanced die for every level cast above 4th.
 
 ___
 #### Laughing Skull
@@ -2748,7 +2748,7 @@ ___
 
 You summon a flaming skull that screeches a hideous laughter. The skull appears in an adjacent tile and moves up to 5 tiles with the caster controlling its movement. Each creature the skull passed through makes a willpower save against your spellcasting roll. on failure they take 2 wound dice of both Fire and Death damage, being feared until the end of their next turn on a critical. While feared they must use their move and sprint actions to move as far away from you as they can.
 
-The distance the skull travels increases by 2 for every level above 4th.
+The distance the skull travels increases by 2 for every level cast above 4th.
 
 ___
 #### Mass Hex
@@ -2759,7 +2759,7 @@ ___
 
 You target a 4x4 area centered on a point in range, bestowing a potent hex to all creatures in the area. Make a spellcasting roll against the creatures willpower save. On success each creature gains hex for 1 hour, or hex 2 on a critical.
 
-Increase the area by 1 for every level above 4th.
+Increase the area by 1 for every level cast above 4th.
 
 ___
 #### Paralytic Cloud
@@ -2770,7 +2770,7 @@ ___
 
 Summon a cloud of toxic spores in a 5x5 tile area centered on a point in range. Any creature that enters the cloud for the first time this round or starts their turn there makes a stamina save against your spellcasting. On failure they are paralyzed until the end of their next turn.
 
-Add an enhanced die for every level above 4th.
+Add an enhanced die for every level cast above 4th.
 
 ___
 #### Raise Dead
@@ -2781,7 +2781,7 @@ ___
 
 Attempt to raise a dead creature as a zombie, or take control of a zombie without an owner. You can target up to 4 medium sized corpses or 2 large corpses, or 4 zombies. Make a spellcasting roll, adding a bad die for each medium corpse and 2 terrible dice for each large corpse. When targeting zombies make a spellcasting roll against their charisma save instead. On success, medium corpses are raised as zombies and large corpses raised as zombie ogres. They act on your turn and are under your control for 1 day, at which point they turn to mindless zombies.
 
-You may target an extra medium or large corpse and add a superior die to your roll for every level above 4th.
+You may target an extra medium or large corpse and add a superior die to your roll for every level cast above 4th.
 
 ___
 #### Void Lure
@@ -2794,7 +2794,7 @@ Attempt to break the barrier between this plane and the void. Make a spellcastin
 
 For every successful casting of _Void Lure_ in this location the past day, add a terrible die to the spellcasting roll. This die does not effect the CR of the summoned creature.
 
-Add an enhanced die for every level above 4th. The number of terrible dice you can add to your roll increases by 1 for every level above 4th.
+Add an enhanced die for every level cast above 4th. The number of terrible dice you can add to your roll increases by 1 for every level cast above 4th.
 
 ___
 #### Invisibility
@@ -2805,7 +2805,7 @@ ___
 
 Turn yourself or another creature or object invisible. Make a spellcasting roll against 2 terrible dice. On success the target becomes completely invisible while standing still. Moving causes a barely noticeable shimmer on the creature. Creatures can make a perception check against your spellcasting roll to see a moving creature, spotting them on success. Single target attacks, spells, and maneuvers against an invisible creature add 2 terrible dice to their rolls.
 
-Add an enhanced die to your spellcasting roll, and you may target an additional creature for every level above 4th. When targeting multiple creatures add a terrible die for each creature targeted past the 1st.
+Add an enhanced die to your spellcasting roll, and you may target an additional creature for every level cast above 4th. When targeting multiple creatures add a terrible die for each creature targeted past the 1st.
 
 
 
@@ -2818,7 +2818,7 @@ ___
 
 Curse a creature you can see with pain. Make a spellcasting roll against the creatures willpower save. On success the creature takes an extra wound die every time they take damage, or a full wound on a critical.
 
-You may target an additional creature for every level above 5th.
+You may target an additional creature for every level cast above 5th.
 
 ___
 #### Heart Grip
@@ -2830,7 +2830,7 @@ ___
 
 Reach out to a creature you can see and stop their heart. Make a spellcasting roll against the creatures stamina save, adding a terrible die if they have more than half their wounds remaining. On failure they take 5 wound dice in damage and all healing they receive is half as effective until they take a long rest. On a critical they are stunned until the end of their next turn. On success they take half damage, rounded down, and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
 
-Add a wound die to the damage for every level above 5th.
+Add a wound die to the damage for every level cast above 5th.
 
 ___
 #### Impale
@@ -2844,7 +2844,7 @@ A line of bones sprout from the ground, impaling all creatures in a 5 tile line.
 
 The bones extend 8 feet high and are permanent, blocking movement through those tiles. The bones have 1 wound and roll 3 superior defense dice when saving against any attack, spell, or maneuver. To free a grappled or restrained creature the bones holding that creature must be destroyed.
 
-Add a wound die to the damage and increase the length of the line by 1 tile for every level above 5th.
+Add a wound die to the damage and increase the length of the line by 1 tile for every level cast above 5th.
 
 ___
 #### Mind Break
@@ -2856,7 +2856,7 @@ ___
 
 Attempt to overpower the mind of a creature in range that can see you. You make a telepathic link to the creature, using your will to shatter their mind. Make a spellcasting roll against the creatures intelligence save. On success they take a wound die in psychic damage for every success remaining in your roll. If you deal at least 1 damage the target is dazed for the next minute.
 
-Add a normal die to the spellcasting roll for every level above 5th.
+Add a normal die to the spellcasting roll for every level cast above 5th.
 
 ___
 #### Suggestion
@@ -2882,7 +2882,7 @@ ___
 
 Enhance your vision, seeing through illusions and invisibility and seeing things for how they really are. Make a spellcasting roll against 2 bad dice. On success you gain true sight out to 30 tiles.
 
-The duration increases by 1 hour for every level above 5th.
+The duration increases by 1 hour for every level cast above 5th.
 
 
 
@@ -2898,7 +2898,7 @@ ___
 
 Curse a creature you can see with unnatural fear. Make a spellcasting roll against the creatures willpower save. On success the creature is feared as long as there is a hostile creature within 10 tiles, or is afraid of all creatures on a critical. A creature gains no benefits from resting while under this curse.
 
-You may target an additional person for every level above 6th.
+You may target an additional person for every level cast above 6th.
 
 ___
 #### Isolation
@@ -2909,7 +2909,7 @@ ___
 
 You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures willpower save. On success the creature loses any spells, abilities, or magical effects that did not come from their own magic. While isolated, magic that is not their own cannot reach them, they cannot be detected by magical means and they cannot be contacted through telepathy. Any powers given from a deity or other being cannot be used while isolated.
 
-Add an enhanced die for every level above 6th.
+Add an enhanced die for every level cast above 6th.
 
 ___
 #### Miasma
@@ -2923,7 +2923,7 @@ A thick miasma flows from your body, covering a 7x7 tile area centered on a poin
 
 The miasma is a thick, viscous cloud. Except for the caster, a creature inside the miasma can only see adjacent tiles. If there is a strong wind, such as wind created by _Gust_, the miasma cloud moves 1 tile per turn in the direction of the wind.
 
-The size of the miasma increases by 1 and you add an enhanced die to the spellcasting roll for every level above 6th.
+The size of the miasma increases by 1 and you add an enhanced die to the spellcasting roll for every level cast above 6th.
 
 ___
 #### Psychic Scream
@@ -2974,7 +2974,7 @@ ___
 
 Curse a creature you can see to obey your every command. Make a spellcasting roll against the targets willpower save. On success the creature must follow your commands to the best of their ability. You cannot command the target to hurt itself or take an action that would obviously bring harm to the target, such as jumping off a cliff. However you may still command the creature to take dangerous actions, such as defending you from attackers.
 
-You may target an additional person for every level above 7th.
+You may target an additional person for every level cast above 7th.
 
 ___
 #### Gateway
@@ -2987,7 +2987,7 @@ You create a gateway to hell, the abyss, or the realms of creation. Make a spell
 
 Opening a gateway in the same area multiple times can cause reality to tear creating a permanent gateway between realms. Tears can be repaired by casting this spell on an opened gateway against challenge dice determined by the GM.
 
-You add a superior die to your roll for every level above 7th. At 9th level the casting time becomes 1 turn instead of 1 minute.
+You add a superior die to your roll for every level cast above 7th. At 9th level the casting time becomes 1 turn instead of 1 minute.
 
 ___
 #### Gravity Well
@@ -3014,7 +3014,7 @@ ___
 
 You overpower the mind of a creature you can see, taking control of the creature. Make a spellcasting roll against the creatures willpower save. On success you possess the creature, sensing through the creatures senses. For the duration you are incapacitated, instead taking actions for the creature during the creatures turn. Taking damage as the controlled creature causes you to make concentration checks as if you took the damage yourself. If the controlled creature dies while you are still in control of it you take 3 wounds of psychic damage and are stunned until the end of your next turn from the strain of dying.
 
-Add a superior die for every level above 8th.
+Add a superior die for every level cast above 8th.
 
 ___
 #### Curse of Death
@@ -3025,7 +3025,7 @@ ___
 
 Curse a creature you can see with sudden mortality. Make a spellcasting roll against the creatures willpower save. On success, if their health drops to 7 wounds or below they instantly die, increasing the threshold by 1 for every critical.
 
-You may target an additional creature for every level above 8th.
+You may target an additional creature for every level cast above 8th.
 
 
 ___
@@ -3147,7 +3147,7 @@ ___
 
 Enchant up to 5 creatures you can see with divine guidance. Make a spellcasting roll against a bad die for each creature targeted. On a success, the creatures can add an enhanced die to their next attack, maneuver, or damage-dealing spell roll, adding a superior die instead on a critical.
 
-Add an enhanced die for every level above cantrip.
+Add an enhanced die for every level cast above cantrip.
 
 ___
 #### Holy Protection
@@ -3158,7 +3158,7 @@ ___
 
 Enchant up to 5 creatures you can see with protection. Make a spellcasting roll against a bad die for each creature targeted. On success the next die to roll a critical against this creature is ignored, counting as 0 successes.
 
-Add an enhanced die for every level above cantrip.
+Add an enhanced die for every level cast above cantrip.
 
 ___
 #### Light
@@ -3169,7 +3169,7 @@ ___
 
 You cause a small object no larger than a fist to emit a bright light. You may control the intensity of the light, from 1 emitting 1 tile of dim light up to 3 tiles of bright light and 3 tiles of dim light. The lights ranged can be doubled, requiring you to roll a concentration check against 1 bad die every turn. While intensifying the light, any creatures that are sensitive to bright light add 1 terrible die to their attack rolls while in this spells bright light.
 
-The range of the maximum bright and dim light increases by 1 tile for every level above cantrip. At 5th level and above this light is considered sunlight.
+The range of the maximum bright and dim light increases by 1 tile for every level cast above cantrip. At 5th level and above this light is considered sunlight.
 
 ___
 #### Radiant Light
@@ -3181,7 +3181,7 @@ ___
 
 A ray of radiant light envelops a target creature in range. Make a spellcasting roll against the creatures charisma save. On success they take 1 wound in holy damage, or 2 wounds if they are undead.
 
-Add a target for every level above cantrip.
+Add a target for every level cast above cantrip.
 
 ___
 #### Spare From Death
@@ -3192,7 +3192,7 @@ ___
 
 Magically slow the heart and prevent blood loss of an incapacitated creature. Make a spellcasting roll against a bad die for every temporary wound the creature is missing. On success the creature is stabilized and will regain consciousness in 10 minutes with 1 wound.
 
-Add a superior die for every level above cantrip.
+Add a superior die for every level cast above cantrip.
 
 ___
 #### Vine Whip
@@ -3206,7 +3206,7 @@ Cause a plant to attack or grapple a nearby creature you can see. Choose a locat
 
 The plant lasts for 1 minute after which it withers or returns to its original shape.
 
-Add a wound die for every level above cantrip.
+Add a wound die for every level cast above cantrip.
 
 
 
@@ -3234,7 +3234,7 @@ ___
 
 You create a magical soothing bonfire. The bonfire takes a single tile of space, emits bright light for 5 tiles and dim light a further 5. Make a spellcasting roll against 2 bad dice. On success any creature that takes a long rest while in the fires light restores an extra wound and recovers an additional level of exhaustion.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 
 ___
@@ -3249,7 +3249,7 @@ A 3x3 tile growth of razor sharp bramble appears centered on a point in range yo
 
 Any creature attempting to take a move or sprint action through the bramble makes a dexterity save against your spellcasting roll. On failure they take 1 wound die in piercing damage, and they are tangled in the bramble on a critical, ending their movement. A creature makes this save only once per move or sprint action.
 
-The area increases by 1 for every level above 1st.
+The area increases by 1 for every level cast above 1st.
 
 
 ___
@@ -3261,7 +3261,7 @@ ___
 
 You summon a swirling vortex of breathable air around up to 5 creatures in range you can see. Make a spellcasting roll, adding a bad die for every creature. On success, each creature is able to breathe normally when they otherwise couldn't, such as when underwater, in a smoke filled room, or in a vacuum. Creatures also get expertise when saving against poisonous or harmful gasses, such as from _Poison Cloud_ or _Miasma_.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Chilling Fog
@@ -3272,7 +3272,7 @@ ___
 
 Create a chilling fog covering a 5x5 tile area centered on a point in range you can see. A creature that enters the fog for the first time this round or starts their turn there makes a stamina save against your spellcasting roll. On failure they gain slow 1, increasing to slow 2 on a crit. All creatures inside the fog have resistance 1 to fire damage. The fog heavily obscures the area counting as quarter cover.
 
-The size and range of the fog increases by 2 for every level above 1st.
+The size and range of the fog increases by 2 for every level cast above 1st.
 
 ___
 #### Close Wounds
@@ -3283,7 +3283,7 @@ ___
 
 Mend a creature's wounds. Make a spellcasting roll, healing a single wound and adding a wound for every critical rolled.
 
-Add a Wound die for every level above 1st.
+Add a Wound die for every level cast above 1st.
 
 ___
 #### Healing Word
@@ -3294,7 +3294,7 @@ ___
 
 Send healing energy to a single creature in range you can see. Make a spellcasting roll against 3 bad dice. On success, the target heals a wound die for every success in your roll.
 
-Add a normal die for every level above 1st.
+Add a normal die for every level cast above 1st.
 
 ___
 #### Holy Weapon
@@ -3317,7 +3317,7 @@ ___
 
 You create a cone of shining light 3 tiles long and 3 tiles wide, blinding all creatures in the light. Make a spellcasting roll against the creatures stamina save. On success the creatures are blinded until the end of their next turn. If the creature is sensitive to daylight or bright light they also take 1 wound in Holy damage.
 
-The the length and width of the cone increases by 1 for every level above 1st.
+The the length and width of the cone increases by 1 for every level cast above 1st.
 
 ___
 #### Tremor
@@ -3329,7 +3329,7 @@ ___
 
 You cause tremors in the earth around you. All creatures within 2 tiles of you make a strength save against your spellcasting roll. On failure the creatures takes 1 wound die in bludgeoning damage, being knocked prone on a critical. If the ground in the area is loose earth or stone it becomes difficult terrain until cleared.
 
-The the affected tiles extends by 1 and damage is increased by 1 wound die for every level above 1st.
+The the affected tiles extends by 1 and damage is increased by 1 wound die for every level cast above 1st.
 
 
 
@@ -3344,7 +3344,7 @@ ___
 
 Attempt to remove negative conditions of a creature in range that you can see. Make a spellcasting roll against a bad die for each condition you want to cleanse. For conditions with levels, such as poison, add 1 bad die for each level of that condition. On success you end the chosen conditions on the creature. This spell can remove slow, poison, hex, daze, stun, blind, weakened, and fear.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Consecrate Ground
@@ -3367,7 +3367,7 @@ ___
 
 You bless up to 5 creatures in range that you can see. Make a spellcasting roll against a terrible die, adding a terrible die for each creature targeted. On success the creatures gain +1 to an attribute of their choosing for the duration of the spell, increasing the proficiency of that attributes saving throw for every critical.
 
-Add an enhanced die for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ___
 #### Gust
@@ -3401,7 +3401,7 @@ ___
 
 A shimmering aura protects up to 5 creatures in range that you can see. Make a spellcasting roll against a terrible die for each creature targeted. On success creatures add a defense die to their defense rolls, or a superior defense die on a critical.
 
-Add an enhanced die for every level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 ___
 #### Treat Injury
@@ -3412,7 +3412,7 @@ ___
 
 Try to restore a targets body, healing injuries and closing wounds. You may attempt to remove as many Lesser and Greater Wounds as you wish. Make a spellcasting roll, adding 2 Bad dice for every Lesser Wound and 4 Terrible dice for every Greater Wound. On success the effects of these wounds are removed.
 
-Add an enhanced die for every level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 ___
 #### Wall of Faith
@@ -3472,7 +3472,7 @@ ___
 
 You cleanse poison and disease from up to 5 creatures you can see. Make a spellcasting roll against a terrible die for each creature targeted. on success you end any poison affecting them and cure one disease.
 
-Add an enhanced die for every level above 3rd.
+Add an enhanced die for every level cast above 3rd.
 
 ___
 #### Demonic Skull
@@ -3482,7 +3482,7 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** fire
 
-You create a Flaming skull at position in range you can see. When summoned, and again at the end of each of your turns the skull breathes fire at all creatures in its zone of control. Each creature must make a Defense roll against your spellcasting. On failure they take 1 wound, adding a wound die on a critical. On your turn you may spend 3 AP to command the skull to move up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
+You summon a flaming skull at position in range you can see. When this spell is cast and again at the end of each of your turns the skull breathes fire at all creatures in its zone of control. Make a spellcasting roll against the creatures defense. On success they take 1 wound in fire damage, adding a wound die on a critical. On your turn you may spend 3 AP to move the skull up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
 
 Add an enhanced die to your roll and increase the duration by 1 turn for every level cast above 3rd.
 
@@ -3491,18 +3491,16 @@ ___
 *3rd Level*
 - **Casting Time:** 10 AP
 - **Range:** 1 mile
-- **Duration:** concentration, 10 minutes
+- **Duration:** instant
 
-You attempt to detect the location of a type of creature in range. Choose one of the following: _Beast, Goblinoid, Humanoid, Fey, Monstrosity, Undead, Elemental, Demon, Celestial_, or _Outsider_. Make a spellcasting roll, adding dice depending on the table below. On success you know the rough direction of creatures of that type, as well as a rough estimate of the strength of the strongest creature. You can detect their location for the duration or until you dismiss the spell.
+You attempt to detect the location of a type of creature in range. Choose one of the following: _Beast, Celestial, Construct, Demon, Draconic, Elemental, Giant, Goblinoid, Fey, Humanoid, Monstrosity, Undead_, or _Outsider_. Make a spellcasting roll against 2 bad dice. On success you know the rough direction and strength of creatures matching that type in the spells range. The spells accuracy is determined by how many success are in your roll:
 
-The range increases by 1 mile for every level above 3rd.
+- **0-2**: You cannot sense how many creatures have been detected and their direction is accurate to within 1000 ft.
+- **3-4**: You have a vague count of the number of creatures in range, within 10, and their direction is accurate to within 500 ft.
+- **5-7**: You have a moderate idea of the number of creatures in range, within 5, and their direction is accurate to within 100 ft.
+- **8+**: You know exactly how many creatures are in range and their direction is accurate to within 10 ft.
 
-| Accuracy | Dice Modifier |
-|:----:|:-------------|
-| groups of 10+, within 1000 ft.  | 2B |
-| groups of 5-10, within 500 ft.  | 2B/1T |
-| groups of 2-5, within 100 ft. | 2B/2T |
-| groups of 1, within 10 ft. | 2B/3T |
+The range increases by 1 mile for every level cast above 3rd.
 
 ___
 #### Revive
@@ -3511,9 +3509,9 @@ ___
 - **Range:** touch
 - **Duration:** instant
 
-Attempt to bring back a creature that has died in the past 10 minutes. Make a spellcasting roll, adding 2 terrible die plus a terrible die for every time this creature has died. On success the target is brought back to life with 1 wound. For the next 3 days they take a -1 to all attributes.
+Attempt to bring back a creature that has been dead for no longer than 10 minutes. Make a spellcasting roll against 2 terrible dice, adding a terrible die for every time this creature has died. On success the creature is brought back to life with 1 wound. For the next 3 days their attribute scores are reduced by 1.
 
-Add an enhanced die to the roll for every level above 3rd.
+Add an enhanced die to the roll for every level cast above 3rd.
 
 ___
 #### Spirit Animal
@@ -3522,14 +3520,14 @@ ___
 - **Range:** self
 - **Duration:** 3 days
 
-Attempt to commune with local nature spirits, gaining one as your guide. Make a spellcasting roll, adding 2 terrible dice to the roll, or 3 if casting this outside of a forest, plains, or swamp. On success you gain an spirit companion of your choosing. You may summon or dismiss the spirit for 5 AP. Each spirit has their own wounds, and if killed the spell ends. Spending a minute in concentration you may look through your spirit animals eyes, while doing so you gain the senses of the animal and lose your own.
+Attempt to commune with local nature spirits, gaining one as your guide. Make a spellcasting roll against 3 terrible dice, or 2 if you are in a forest, swamp, or plains. On success you gain an spirit companion of your choosing. You may summon or dismiss the spirit for 5 AP, appearing in a tile adjacent to you. Each spirit has 3 wounds, with the spell ending if they are killed. Spending a minute in concentration you may look through your spirit animals eyes. While doing so you gain the senses of the animal and lose your own. Other than their max wounds the spirit animal has the same attributes, abilities, and attacks as the animal they're based on. You only gain the bonuses if the spirit animal is within 10 tiles of you.
 
-- Elk: While within 10 tiles you gain +3 proficiency to athletics challenges and your move speed increases by 1.
-- Rabbit: While on your person, gives you +1 proficiency to Dexterity saves and Acrobatics challenges. The rabbit cannot be targeted while on your person.
+- Elk: You add 2 superior dice with athletics checks and your move speed increases by 1.
+- Rabbit: You add a superior die to dexterity saves and acrobatics checks. The rabbit has 1 wound cannot be hurt while on your person.
 - Bear: Your max wounds increase by 1.
-- Snake: +1 proficiency to intelligence saves and you cannot be charmed.
-- Eagle: +3 to perception proficiency. The eagle has a flying speed of 5/5.
-- Wolf: +3 to diplomacy proficiency. When helping or being helped by an ally, you may reroll 3 dice.
+- Snake: You add 1 superior die to intelligence saves and you cannot be charmed. The snake has 1 wound and cannot be hurt while on your person.
+- Eagle: You add 2 superior dice to perception checks. The eagle has a flying speed of 5/5.
+- Wolf: You add 1 superior die to conversation and diplomacy checks. When helping or being helped by an ally you may reroll 3 dice.
 
 Add an enhanced die to your roll for every level cast above 3rd.
 
@@ -3540,20 +3538,20 @@ ___
 - **Range:** touch
 - **Duration:** instant
 
-You attempt to summon a willing creature to your location. Make a spellcasting roll, adding dice according to the table below. On a success the creature is summoned to the location you touch. The creature gets a glimpse of the area they are being summoned to when the spell is cast.
+You attempt to summon a willing creature to your location. Make a spellcasting roll, adding dice according to the table below. On a success the creature is summoned to the location you touch. The creature gets a glimpse of the area they are being summoned to when the spell is cast and may refuse the summons.
 
-You may instead cast this into a small object or trinket using the 'Passing Acquaintance' difficulty. Successfully casting this every day for 10 days makes the spell permanent. Anyone holding the object and speaking the command word is teleported to the casting location. For the spell to take hold it must be cast each day in the same place with the same target location.
+You may instead cast this into a small object or trinket using the 'Passing Acquaintance' difficulty. Successfully casting this every day for 10 days makes the spell permanent. Anyone holding the object and speaking the command word is teleported to the casting location. For the spell to take hold it must be cast each day in the same place.
 
 Add an enhanced die for every level cast above 3rd.
 
 ##### Summoning Difficulty
 | Familiarity | Difficult |
 |:----:|:-------------|
-| Second hand description or unknown name  | 4 Terrible Die |
-| Passing Acquaintance  | 2 Terrible Die, 1 Bad Die |
-| Casual Friendship | 1 Terrible Die, 1 Bad Die |
-| Intimate Knowledge | 1 Bad Die |
-| More than 200 miles away | +1 Terrible Die |
+| Second hand description or unknown name  | 4 terrible dice |
+| Passing acquaintance | 2 terrible dice, 1 bad die |
+| Casual friendship | 1 terrible die, 1 bad die |
+| Intimate knowledge | 1 bad die |
+| More than 200 miles away | +1 terrible die |
 
 ___
 #### Traveler's Protection
@@ -3562,9 +3560,9 @@ ___
 - **Range:** 5
 - **Duration:** 8 hours
 
-A protective ward for the journey ahead. Target up to 5 creatures, adding a bad die for every creature targeted. On success the targets maximum Wounds increase by 1. A creature can only be under the effects of one source of _Traveler's Protection_.
+Create a protective ward that fills up to 5 creatures with vigor. Make a spellcasting roll against 1 bad die for each creature targeted. On success the creatures maximum wounds increase by 1. Casting _Traveler's Protection_ on a creature already under its effects refreshes the duration.
 
-Add an enhanced die for every level above 3rd.
+Add an enhanced die for every level cast above 3rd.
 
 ___
 #### Turn Undead
@@ -3574,9 +3572,9 @@ ___
 - **Duration:** 1 minute
 - **Damage Type:** holy
 
-A blast of holy light emits from your symbol. All undead within 3 tiles must make a charisma save against your spellcasting. On fail, they take 2 wounds and are turned. On a success they take 1 wound instead. An undead possessing a creature is forced out if they are turned.
+You create a wave of holy light. All undead within 3 tiles of you makes a charisma save against your spellcasting roll. On failure they take 2 wounds in holy damage and are turned for 10 minutes. On a success they take 1 wound instead. An undead possessing a creature is forced to leave that creature if they are turned. While turned undead cannot sprint, attack, or take hostile actions and must spend their turn moving away from you. This effect lasts until they take damage.
 
-Add a wound die and increase the area by 2 tiles for every level above 3rd.
+Add a wound die and increase the area by 2 tiles for every level cast above 3rd.
 
 
 
@@ -3592,7 +3590,7 @@ ___
 - **Range:** touch
 - **Duration:** 7 days*
 
-Attempt to awaken a plant or creature with an intelligence of -1 or less. Make a spellcasting roll, adding a Terrible die for every 4 CR of the creature, with a minimum of 1. On success the plant or creature is awakened. While within 1 mile of you the awakened creature can speak the languages you can speak as well as communicate with you telepathically. For the duration, the creature obeys your commands to the best of its ability. Once the spell ends, they move more than 1 mile from you, or you dismiss them they revert to their original form.
+Attempt to awaken a plant or creature with an intelligence of -2 or less. Make a spellcasting roll against a terrible die for every 4 CR of the creature, with a minimum of 1. On success the plant or creature is awakened, gaining intelligence. While within 1 mile of you the awakened creature can speak the languages you can speak as well as communicate with you telepathically. For the duration, the creature obeys your commands to the best of its ability. Once the spell ends, or if they move more than 1 mile from you, or if you dismiss them they revert to their original form.
 
 Add a superior die for every level cast above 4th.
 
@@ -3603,7 +3601,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
 
-Bind a creature to this plane of existence, targeting a creature in range you can see. The target must make a willpower save against your spellcasting. On fail, the creature is bound for the duration. While bound they are unable to leave this plane through any means, nor can they magically teleport or enter the ethereal plane. On a critical, the target gains Slow 1 for the duration.
+Bind a creature in range you can see to this realm. Make a spellcasting roll against the creatures charisma save. On success the creature is bound for the duration. While bound they are unable to leave this plane through any means, nor can they magically teleport or enter the ethereal plane. A ghost or similar creature cannot possess a creature or move through solid objects while bound. The creature gains Slow 1 for the duration on a critical.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -3611,10 +3609,10 @@ ___
 #### Commune with Nature
 *4th Level*
 - **Casting Time:** 10 minutes
-- **Range:** self
+- **Range:** 3 miles
 - **Duration:** instant
 
-You spend time in meditation, listening to the land itself. Covering a radius 3 miles out from your location you may learn any number of things, adding a Bad die to the roll for each:
+You spend time in meditation, listening to the land itself. Covering a radius 3 miles out from your location you may learn any number of things. Make a spellcasting roll against a bad die for each piece of information. On success you learn any of the following you've chosen:
 
 - General lay of the land and bodies of water.
 - Prevalent plants, creatures, or minerals
@@ -3632,9 +3630,9 @@ ___
 - **Duration:** instant
 - **Damage Type:** holy
 
-Channel holy energy to destroy a creature living against the natural law. targeting an undead or monstrosity in range that you can see, make a spellcasting roll against their stamina. On success they take 7 wounds, or taking 6 wounds minus 1 for every success difference between your rolls on fail. Regardless of success, the target gains Slow equal to the number of crits you rolled.
+Channel holy energy to destroy an undead or monstrosity. Make a spellcasting roll against the creatures stamina save. On success they take 7 wounds, or taking 6 wounds minus 1 for every difference in success between your rolls on fail. Regardless of success the creature gains slow 1 for 1 minute.
 
-The number of wounds dealt increases by 2 for every level above 4th.
+The number of wounds dealt increases by 2 for every level cast above 4th.
 
 ___
 #### Petrify
@@ -3643,9 +3641,9 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Choose a target in range you can see that is capable of looking at you. The target must make a stamina save against your spellcasting. If they succeed they are paralyzed until the end of their next turn and make no more saving throws. On failure they are paralyzed for 1 minute. While they are paralyzed they must make a stamina save against your spellcasting, on failure turning into stone. 
+Choose a creature in range you that can see you, turning them to stone. Make a spellcasting roll against the creatures stamina save. On success they are paralyzed for the next minute. While they are paralyzed, at the start of their turn they make a stamina save against your spellcasting roll turning to stone on fail.
 
-Add an enhanced die to the roll for every level above 4th.
+Add an enhanced die to the roll for every level cast above 4th.
 
 ___
 #### Purify Spirit
@@ -3654,7 +3652,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to purify a hostile spirit, returning it into a neutral or friendly state. Target a Celestial, Fey, or Elemental you can see, they must make a Charisma save against your spellcasting. If they have less than half of their wounds remaining, add 2 superior dice to your roll. On fail, they are no longer hostile to you or your allies, but not necessarily helpful. They remain this way for 24 hours unless you or an ally takes a hostile action against them.
+Attempt to purify a hostile celestial, fey, or elemental, returning it into a neutral or friendly state. Make a spellcasting roll against the creatures charisma save. If they have less than half of their wounds remaining add 2 superior dice to your roll. On success they are no longer hostile to you or your allies, but not necessarily helpful. They remain this way for 24 hours or until you or an ally takes a hostile action against them.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -3665,9 +3663,9 @@ ___
 - **Range:** 5
 - **Duration:** 1 minute
 
-Fill a creature with healing energy, causing their wounds to close over time. Make a spellcasting roll against 2 Terrible dice. On success the target heals 1 wound for every critical rolled. For the duration, on the start of the creatures turn they heal 1 wound and remove the effects of 1 lesser wound.
+Fill a creature with healing energy, causing their wounds to close over time. Make a spellcasting roll against 2 Terrible dice. On success the creature heals a wound, adding a wound for every critical rolled. For the duration, at the start of the creatures turn they heal 1 wound and remove a lesser wound.
 
-Regeneration lasts an additional turn for every level above 4th.
+Regeneration lasts an additional turn and you add an enhanced die for every level cast above 4th.
 
 ___
 #### Shape Stone
@@ -3676,9 +3674,9 @@ ___
 - **Range:** touch
 - **Duration:** 1 hour
 
-Attempt to shape stone to a suitable form. Make a spellcasting roll against 2 bad die, on success an area of stone no larger than 1 tile takes the form of your choosing. The stone can have multiple parts, but cannot be more complex than a door. You can shape the stone into anything following these constraints, such as a weapon, an idol, or a chair. This can be used to seal a door shut or create a passage way through a wall as long as the wall is no more than 1 tile thick. After the spell ends the stone returns to its original shape.
+Attempt to shape stone into a form of your choosing. Make a spellcasting roll against 2 bad dice. on success an area of stone no larger than 1 tile takes the form of your choosing. The stone can have multiple parts, but cannot be more complex than a door. You can shape the stone into anything following these constraints, such as a weapon, an statue, or a chair. This can be used to seal a door shut or create a passage way through a wall as long as the wall is no more than 1 tile thick. After the spell ends the stone returns to its original shape.
 
-You can increase the tiles effected by 1 for each level cast above 4th. The tiles must be adjacent.
+You number of tiles shaped increases by 1 for each level cast above 4th. The tiles must be adjacent.
 
 ___
 #### Summon Demon
@@ -3687,9 +3685,9 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-You attempt to call forth a demon from the abyss at a point in range. Choose a target location in range, making a spellcasting roll against 2 terrible die. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear in the target location. The demons make a willpower save against your willpower, on failure the demons obey you for the next hour, after which they revert to their default behavior. Each casting of _Summon Demon_ in this location over the past day increases the difficulty by 1 terrible die.
+You attempt to call forth a demon from the abyss at a point in range you can see. Make a spellcasting roll against 2 terrible dice. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear at the target location. When they appear the demons make a willpower save against your raw willpower. On failure the demons obey you for the next hour after which they revert to their default behavior. Each casting of _Summon Demon_ in this location over the past day adds 1 terrible die to your spellcasting roll.
 
-The maximum CR increases by 2 for every level cast above 4th.
+The maximum CR increases by 3 for every level cast above 4th.
 
 ___
 #### Ward From Death
@@ -3698,9 +3696,9 @@ ___
 - **Range:** 5
 - **Duration:** 8 hours
 
-Prevent a fatal blow from killing a creature. Target up to 5 creatures, adding 2 terrible die to your spellcasting roll for each creature. The next attack or spell that would either take them down to 0 wounds or instantly kill them instead leaves them at 1 wound. Once triggered the spell ends on the creature.
+Cast a ward on up to 5 creatures, protecting them from death. Make a spellcasting roll against 2 terrible dice for each creature targeted. The next attack or spell that would either take them to 0 wounds or instantly kill them instead leaves them at 1 wound. Once triggered the spell ends on the creature.
 
-Add an enhanced die to the roll for every level above 4th.
+Add an enhanced die to the roll for every level cast above 4th.
 
 
 
@@ -3715,15 +3713,15 @@ ___
 - **Range:** 3
 - **Duration:** 1 year
 
-You bind a spirit to a beast to serve as your familiar. The creature must be a CR of 15 or less and have an intelligence of 0 or less to be targeted. Make a spellcasting roll, adding a Terrible die for every 3 CR of the target creature. On success you call a spirit (either celestial or demonic, depending on the GM) and bind it to the creature. The creature gains powers based on the spirit that inhabits it, gaining the ability to speak and communicate telepathically with whoever they form a contract with.
+You bind a spirit to a beast to serve as your familiar. The creature must have a CR of 15 or less and an intelligence of -1 or less to become your familiar. Make a spellcasting roll against a terrible die for every 3 CR of the creature. On success you call a spirit (75% chance for a celestial spirit, 25% chance for a demonic spirit) and bind it to the creature. The creature gains powers based on the spirit that inhabits it, gaining the ability to speak and communicate telepathically with whoever they form a contract with.
 
 Once bound, the familiar offers a contract to the caster in exchange for one year of service. The offer can include anything, such as a large sum of money, an attribute point for the duration of the contract, needing to feed on human flesh every 7 days, or tracking down and punishing a wicked creature. The offer will be determined by the GM, but regardless of the cost accepting the contract reduces your maximum wounds by 2 for the duration.
 
-You gain part of the Familiar's powers while it's adjacent to you. The powers granted are included in the contract and can be anything, such as giving you expertise in a spell school or saving throw, allowing you to turn invisible, read the minds of nearby creatures, or giving you a powerful maneuver.
+You gain part of the familiar's powers while it's within 10 tiles of you. The powers granted are included in the contract and can be anything, such as giving you expertise in a spell school or saving throw, allowing you to turn invisible, read the minds of nearby creatures, or giving you a powerful maneuver.
 
-Once successfully cast, regardless of whether a contract was formed this spell cannot be cast again for 7 days. You may only have a single Familiar bound to you at once. The contract ends after the Familiar dies or a year passes.
+Once successfully cast, regardless of whether a contract was formed this spell cannot be cast again for 7 days. You may only have a single familiar bound to you at once. The contract ends after the familiar dies or a year passes.
 
-Add a superior die to your roll for every level above 5th.
+Add a superior die to your roll for every level cast above 5th.
 
 ___
 #### Inner Fire
@@ -3732,9 +3730,9 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Empower a group of creatures with righteous fury. Target up to 5 creatures in range, adding a Terrible die for each creature targeted. On success the targeted creatures have expertise with all weapons and deal an extra wound die in holy damage with every attack.
+Empower up to 5 creatures with righteous fury. Make a spellcasting roll against a terrible die for each creature targeted. On success the creatures have expertise with all weapons and deal an extra wound die in holy damage with every attack.
 
-Add an enhanced die for every level above 5th.
+Add an enhanced die for every level cast above 5th.
 
 ___
 #### Judgement
@@ -3744,9 +3742,9 @@ ___
 - **Duration:** instant
 - **Damage Type:** holy
 
-You call down a holy judgement over a 5x5 area centered on a point you can see in range. All hostile creatures make a Charisma save against your spellcasting. On failure they take 4 wound dice in damage with Undead taking 4 wounds. On a critical the creature cannot move until the end of their next turn. Creatures that pass their saving throw take 1 wound die instead. If the damage would kill a living creature they are brought to 1 wound instead and stunned until the end of their turn. Undead killed this way cannot be raised again.
+You call down a holy judgement over a 5x5 tile area centered on a point you can see in range. All creatures of your choosing in the area makes a charisma save against your spellcasting roll. On failure they take 5 wound dice in damage with Undead taking 5 wounds, or half damage, rounding down, on success. On a critical the creature cannot move until the end of their next turn. If the damage would kill a living creature they are brought to 1 wound instead and stunned until the end of their turn. Undead killed this way cannot be raised again.
 
-Add a wound die for every level above 5th.
+Add a wound die for every level cast above 5th.
 
 ___
 #### Mass Healing Word
@@ -3755,9 +3753,9 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Targeting up to 5 creatures you can see, mend their wounds with a healing word. Make a spellcasting roll against 3 Terrible dice, on success you heal each creature for 1 wound adding a wound die for every success in your roll.
+Mend the wounds of up to 5 creatures in range you can see. Make a spellcasting roll against 3 terrible dice. On success you heal each creature for 1 wound, adding a wound die for every success in your roll.
 
-Add a normal die for every level above 5th.
+Add a normal die for every level cast above 5th.
 
 ___
 #### Mass Cleanse
@@ -3766,9 +3764,9 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to remove afflictions from a group of creatures. Targeting up to 5 creatures, make a spellcasting roll adding 1 Terrible die for each creature added. On success you remove two negative conditions effecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, Weaken, and Fear or a single condition from a spell of 4th level or lower, such as _Petrify_.
+Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll against a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove slow, poison, hex, daze, stun, blind, weaken, fear, or a single condition from a spell of 4th level or lower, such as _Petrify_.
 
-Add a normal die for every level above 5th.
+Add a normal die for every level cast above 5th.
 
 ___
 #### Radiance
@@ -3778,9 +3776,9 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** holy
 
-A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity starting their turn inside or entering it for the first time must make a stamina save against your spellcasting. On failure they take 1 wound and are blind until the end of their next turn. Any creature making an attack roll against you add 1 terrible die to their roll. You and any creatures you choose inside the light add 1 superior die to all saving throws.
+A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity entering the bright light for the first time this round or starting their turn in it makes a stamina save against your spellcasting roll. On failure they take 1 wound in holy damage and are blind until the end of their next turn. Any creature making an attack roll against you adds a terrible die to their roll. You and any creatures you choose inside the light adds a superior die to all saving throws.
 
-The radius of the bright light increases by 1 for every level above 5th.
+The radius of the bright light increases by 1 for every level cast above 5th.
 
 ___
 #### Resurrect
@@ -3789,9 +3787,9 @@ ___
 - **Range:** touch
 - **Duration:** instant
 
-Attempt to bring back a creature that has died in the past week. A majority of the creature must be present, and this spell restores missing body parts. Make a spellcasting roll, adding 2 bad die plus a terrible die for every time this creature has died in the past year. On success the target is brought back to life with 1 wound, plus a wound for every critical you rolled.
+Attempt to bring back a creature that has died in the past week. A majority of the creature must be present, and this spell restores missing body parts. Make a spellcasting roll against 2 bad dice, adding a terrible die for every time this creature has died in the past year. On success the target is brought back to life with 1 wound, adding a wound for every critical you rolled.
 
-Add an enhanced die to the roll for every level above 5th.
+Add an enhanced die to the roll for every level cast above 5th.
 
 ___
 #### Spirit Warriors
@@ -3800,11 +3798,11 @@ ___
 - **Range:** 3
 - **Duration:** 10 minutes
 
-You call upon the fighting spirit of nearby dead creatures. Target any number of corpses within range with corpses of undead, monstrosities, or constructs being untargetable. Make a spellcasting roll adding a Terrible die for every corpse targeted, on success spirits of the creature rise from their bodies to defend you.
+You call upon the fighting spirit of nearby dead creatures. You may choose any number of corpses within range, except the corpses of undead, monstrosities, or constructs. Make a spellcasting roll against a terrible die for each corpse. On success spirits of the creature rise from their bodies to defend you.
 
-The spirits have the same attributes and proficiencies they had in life, but lose any maneuvers, abilities, or spells. Each spirit has 2 wounds and Resistance 2 for all physical damage from non-silvered weapons. The warriors act immediately after the summoners turn and obey simple commands. The spirits vanish after the duration or when exposed to direct sunlight. Corpses that have had their spirits from this spell cannot be raised again.
+The spirits have the same attributes and proficiencies they had in life, but lose any maneuvers, abilities, or spells. Each spirit has 2 wounds and Resistance 2 for all physical damage from non-silvered weapons. The warriors act immediately and obey simple commands. The spirits vanish after the duration or when exposed to direct sunlight. Corpses that have been targeted by this spell cannot be used again.
 
-Add an enhanced die for every level above 5th.
+Add an enhanced die for every level cast above 5th.
 
 
 
@@ -3818,9 +3816,9 @@ ___
 - **Range:** touch
 - **Duration:** instant
 
-You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On failure the creature is banished to their home plane, ending any possession or effects this creature was maintaining.
+You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home realm. If the creature is in it's home realm it is instead banished to a warren, appearing within 40 miles of your location within the next hour. Make a spellcasting roll against the creatures charisma save, adding a bad die if the creature has no negative conditions. On success the creature is banished to their home realm or warren, ending any possession or effects this creature was maintaining.
 
-Add an enhanced die to the roll for every level above 6th.
+Add an enhanced die to the roll for every level cast above 6th.
 
 ___
 #### Power Word: Harm
@@ -3830,9 +3828,9 @@ ___
 - **Duration:** instant
 - **Damage Type:** holy
 
-Channel your divine wrath at a target creature, burning their body with holy might. Make a spellcasting roll against the targets stamina, on success the target takes 6 wounds, plus a wound die for every critical rolled. On failure the target takes 6 wound die in damage instead. Damage dealt from this spell reduces the targets maximum wounds an equal amount, recovering 1 max wound every day. casting _Power Word: Heal_ on a creature removes this effect.
+Channel your divine wrath at a creature in range you can see. Make a spellcasting roll against the creatures stamina save. On success the creature takes 6 wounds in holy damage, adding a wound die for every critical rolled. This damage bypasses any resistances. Damage dealt from this spell reduces the creatures maximum wounds an equal amount, recovering 1 max wound every day. casting _Power Word: Heal_ on a creature removes this effect.
 
-This deals an additional wound for every level above 6th.
+Add a wound for every level cast above 6th.
 
 ___
 #### Power Word: Heal
@@ -3841,9 +3839,9 @@ ___
 - **Range:** touch
 - **Duration:** instant
 
-Restore a creatures form, healing mortal wounds. Make a spellcasting roll, a creature restores 6 wounds, plus a wound for every critical rolled. They may also remove the effects of a single Lesser or Greater wound. A creature can only be healed by this spell once per long rest, unable to withstand the strain of repeated casts.
+Restore the body of a creature in range you can see. Make a spellcasting roll. The creature heals 6 wounds and removes all lesser and greater wounds, healing an extra wound for every critical rolled. A creature can only be healed by this spell once per long rest.
 
-This heals an additional wound for every level above 6th.
+Add a wound for every level cast above 6th.
 
 ___
 #### Sanctuary
@@ -3852,20 +3850,20 @@ ___
 - **Range:** touch
 - **Duration:** 1 turn
 
-You speak a word and open a rift to a location dedicated to your deity, such as a temple or altar on the same plane as you. A rift opens in an unoccupied space adjacent to you remaining open until the end of your next turn. Any creature you allow can enter the rift before it closes.
+When casting this spell you may choose to mark a location as your sanctuary or open a portal to your sanctuary. When marking a location as your sanctuary the spell takes 1 hour to cast and does not require a roll.
 
-Once the rift closes you must make a spellcasting roll against 3 terrible dice, on success you appear at the location. On failure you appear in a random location within 20 miles of your target. Regardless of result the travel time takes 1 minute.
+When opening a portal it remains open until the end of your next turn and any creature you allow can enter it before it closes. Once the portal closes make a spellcasting roll against 3 terrible dice. On success you appear at the location, otherwise you appear in a random location within 20 miles of your sanctuary. Regardless of result it takes 1 minute to travel through the portal.
 
-Add an enhanced die to the roll for every level above 6th.
+Add an enhanced die to the roll for every level cast above 6th.
 
 ___
 #### Word of Command
 *6th Level*
 - **Casting Time:** 8 AP
-- **Range:** self
+- **Range:** 10
 - **Duration:** instant
 
-Your voice bellows a single command heard by all creatures within 10 tiles of you. Any creatures you choose make a Charisma save against your spellcasting roll, on failure they obey the command. You may command the creatures to not take a single action, such as preventing them from taking the Move, Attack, or Defend actions. Alternatively you may command them to immediately take an action, such as clearing a path or dropping their weapons. Creatures commanded this way will only take the action if they have AP remaining and are capable of doing so. The command is either resolved immediately or lasts until the end of the creatures next turn if the command prevents them from taking an action.
+Your voice bellows a single command heard by all creatures within 10 tiles of you. Any creatures you choose makes a charisma save against your spellcasting roll. On failure they obey your command. You may command the creatures to not take an action, such as preventing them from taking the move, attack, or defend actions. Alternatively you may command them to immediately take an action, such as clearing a path or dropping their weapons. Creatures commanded this way will only take the action if they have AP remaining and are capable of doing so. The command is either resolved immediately or lasts until the end of the creatures next turn if the command prevents them from taking an action.
 
 Your voice carries an extra 2 tiles for every level cast above 6th.
 
@@ -3878,13 +3876,13 @@ ___
 - **Duration:** instant
 - **Damage Type:** holy
 
-You invoke the name of your deity to smite any creatures in range that can hear you. All creatures targeted must make a Charisma save against your religion check, on failure they gain the following depending on their remaining wounds, increasing the threshold by 1 for every critical rolled:
+You speak a divine word to smite any creatures in range that can hear you. Make a spellcasting roll against the creatures charisma save. On success the following effects occur depending on the creatures remaining wounds, increasing the threshold by 1 for every critical rolled:
 
 - 8 wounds or fewer: blinded for 1 minute
 - 5 wounds or fewer: blinded and feared for 10 minutes
 - 3 wounds or fewer: killed instantly
 
-Regardless of the outcome, any undead, demon, or celestial targeted by this spell takes 3 wound dice in damage and are blinded for 1 minute.
+Regardless of the outcome, any undead, demon, or celestial targeted by this spell takes 3 wound dice in holy damage and are blind until the end of their next turn.
 
 Add an enhanced die to your roll for every level cast above 7th.
 
@@ -3897,10 +3895,11 @@ ___
 - **Casting Time:** 10 AP
 - **Range:** 10
 - **Duration:** concentration, 5 minutes
+- **Damage Type:** holy
 
-A blinding light shines down centered on a point in range. The light covers a 5x5 tile area, covering it in sunlight. You may choose any number of creatures inside the light to be unaffected, all other creatures must make a Charisma save against your spellcasting. On failure the creatures are pushed to the closest unoccupied space outside of the light and take 2 wound die in damage.
+A blinding light shines down covering a 5x5 tile area in sunlight centered on a point in range.  You may choose any number of creatures inside the light to be unaffected. All other creatures make a charisma save against your spellcasting roll. On failure the creatures are pushed to the closest empty tile outside of the light and take 2 wound dice in holy damage.
 
-Creatures inside the light are considered to be on a different plane of existence, and any attack made through the the light fails. A creature can attempt to force their way into the light, making a Charisma save against your spellcasting. On success they enter the light as normal, otherwise they are burned by the light, taking 2 wound dice.
+Creatures inside the light are considered to be in a different realm, and any attack or spell made through the the light fails. A creature can attempt to force their way into the light, making a charisma save against your spellcasting roll. On success they enter the light as normal, otherwise they are burned by the light,taking 2 wound dice in holy damage and cannot enter.
 
 Add 1 superior die and the area becomes 7x7 at 9th level.
 
@@ -3911,7 +3910,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the target creature restores wounds equal to the rolls successes. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below. In addition, you may heal a Lesser or Greater wound for every critical rolled.
+You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the creature restores wounds equal to the rolls successes. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below. All lesser and greater wounds are removed.
 
 Add 2 superior dice to your roll when casting at 9th level.
 
@@ -3922,7 +3921,7 @@ ___
 - **Range:** self
 - **Duration:** concentration, 10 minutes.
 
-You channel your divine magic to become an avatar of your deity. Make a spellcasting roll against 3 terrible dice, On success, you heal a wound for each success. Starting on your next turn you become an embodiment of divine wrath, gaining the following effects:
+You channel your divine magic to become a divine avatar. Make a spellcasting roll against 3 terrible dice. On success you heal a wound die for each success. Starting on your next turn you become an embodiment of divine wrath, gaining the following effects:
 
 - You gain a flying speed equal to your move speed.
 - You gain Resistance 1 to all damage.
@@ -3969,7 +3968,6 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 ##### Level 5
 - [Armor Break](#Armor-Break)
 - [Target Weakness](#Target-Weakness)
-- [Push Opportunity](#Push-Opportunity)
 - [Roundhouse Kick](#Roundhouse=Kick)
 
 ##### Level 6
@@ -3995,80 +3993,82 @@ You channel your divine magic to become an avatar of your deity. Make a spellcas
 ___
 #### Sweeping Strike
 - **AP Cost:** 5/4
-- **Weapon:** Polearm
+- **Weapon:** any spear or polearm
 - **Range:** 2
 - **Level Required:** 1/5
 
-Make a melee attack against a target, adding 1 enhanced die. On hit deal normal weapon damage. On a critical the target is knocked prone.
+Make a melee attack against a creature, adding 1 enhanced die. On hit you deal normal damage, knocking the creature prone on a critical.
 
-***Enhanced:*** Add a wound die to your attack roll.
+***Enhanced:*** Add a wound die to the damage.
 
 ___
 #### Aimed Shot
 - **AP Cost:** 5-8/4-8
-- **Weapon:** Ranged Weapon
+- **Weapon:** any ranged weapon
 - **Range:** min 15 ft.
 - **Level Required:** 1/7
 
-Make a ranged attack against a target, adding an enhanced die for each AP spent above 5.
+Make a ranged attack against a creature, adding an enhanced die for each AP spent above the minimum.
 
 
-***Enhanced:*** Roll up to 3 wound die with your attack, one for each critical made in the attack roll.
+***Enhanced:*** For each critical in your attack add a wound die to the damage, up to a max of 3.
 
 ___
 #### Headbutt
-- **AP Cost:** 3/2
+- **AP Cost:** 2/1
 - **Weapon:** N/A
-- **Range:** Melee
+- **Range:** melee
 - **Level Required:** 1/7
 
-After making a successful melee attack against the target you may attempt to headbutt them. Make a stamina roll against their stamina, the loser is staggered until the end of their next turn.
+After making a successful melee attack against a creature you may attempt to headbutt them. Make a raw stamina roll against their stamina save, the loser is staggered until the end of their next turn.
 
-***Enhanced:*** You may upgrade one die in your stamina roll. Roll a wound die, dealing the result to the losing creature.
+***Enhanced:*** Add an enhanced die to your stamina roll. The loser takes a wound die in damage.
 
 ___
 #### Hamstring
 - **AP Cost:** 5/4
-- **Weapon:** Any Melee
-- **Range:** Melee
+- **Weapon:** any melee weapon
+- **Range:** melee
 - **Level Required:** 1/7
 
-Make a melee attack against a target, adding 1 enhanced die. On hit deal normal weapon damage. If you critical the target takes a Lesser Wound: Hamstring. The target gains Slow 1, lasts until the target takes a long rest.
+Make a melee attack against a creature, adding 1 enhanced die. On hit you deal normal damage, inflicting the lesser wound, hamstring, on a critical.
+
+- **Hamstring:** The creature has slow 1.
 
 ***Enhanced:*** Add a wound die to your attack roll, and the target gains Slow 2 instead.
 
 ___
 #### Protector
 - **AP Cost:** 1
-- **Weapon:** Shield
+- **Weapon:** any shield
 - **Range:** 1
 - **Level Required:** 1/7
 
-When an ally adjacent to you is targeted by an attack you can spend 1 AP to add your shields defense dice to their roll.
+When a creature adjacent to you is targeted by an attack you add your shields defense dice to their defense roll.
 
-***Enhanced:*** If the attack is successfully blocked, you may make a reaction attack against the attacker if you are in range and have AP.
+***Enhanced:*** If the attack misses you may make an opportunity attack against the attacker if you are in range and have AP for the attack.
 
 ___
 #### Spear Wall
 - **AP Cost:** 2
-- **Weapon:** Polearm
+- **Weapon:** any spear or polearm
 - **Range:** 2
 - **Level Required:** 1/7
 
-As a reaction you can make an attack against any target moving in range of you. On hit the targets move action ends. On a critical the target is pushed back 1 tile.
+As a reaction you make an opportunity attack against any creature moving in your zone of control. On hit you deal normal damage and the creatures move action ends. On a critical the target is pushed back 1 tile.
 
-***Enhanced:*** Add a superior die to the attack roll.
+***Enhanced:*** Add an enhanced die to the attack roll.
 
 ___
 #### Sneak Attack
 - **AP Cost:** 6/5
-- **Weapon:** Any 1 handed weapon
-- **Range:** Melee
+- **Weapon:** any one-handed weapon
+- **Range:** melee
 - **Level Required:** 1/8
 
-Can only be used when flanking a target. Make a melee attack against the target, rerolling up to 3 dice and taking the new values. On hit deal normal weapon damage, plus a wound die for every critical.
+Can only be used when flanking a creature or if you have combat advantage. Make a melee attack against the creature, rerolling up to 3 dice. On hit you deal normal damage, adding a wound die for every critical.
 
-***Enhanced:*** Can be used every turn instead of every other turn.
+***Enhanced:*** Sneak Attack can be used every turn and you may reroll any wound dice added by this maneuver.
 
 ___
 #### Inspiring Words
@@ -4077,95 +4077,95 @@ ___
 - **Range:** 6
 - **Level Required:** 1/9
 
-You give words of encouragement to another creature. Make a performance roll, adding 1 bad die to the check. On success the target creature can add a superior die to any roll they make for the next 10 minutes.
+You give words of encouragement to another creature. Make a performance check against a bad die. On success the creature can add a superior die to a single roll they make in the next 10 minutes.
 
-***Enhanced:*** You can target up to 3 creatures, adding a bad die for each creature past the 1st.
+***Enhanced:*** You can target up to 3 creatures, adding a bad die for each creature past the first.
 
 ___
 #### Savage Leap
 - **AP Cost:** 5/4
-- **Weapon:** Any Melee
+- **Weapon:** any melee weapon
 - **Range:** 2
 - **Level Required:** 1/9
 
-Only usable if you are not adjacent to any hostile creature. You make a running leap at a target, jumping 2 tiles towards the target and making a normal weapon attack. This leap passes over difficult terrain and half cover as long as there is space for you to do so. On hit you deal an additional wound die in damage, and on a critical you stagger the target until the end of their next turn.
+This cannot be used if you are adjacent to your target. You make a running leap at a creature, jumping 2 tiles towards the creature and making a melee attack. This leap passes over difficult terrain and half cover as long as there is space for you to do so. On hit you deal an extra wound die in damage, staggering them on a critical.
 
 ***Enhanced:*** Add an enhanced die to the attack roll.
 
 ___
 #### Shield Slam
 - **AP Cost:** 3/2
-- **Weapon:** Shield
-- **Range:** Melee
+- **Weapon:** any shield
+- **Range:** melee
 - **Level Required:** 1/12
 
-Make an attack with your shield, knocking the target off balance. Make a normal weapon attack. On hit the target takes 1 wound if you used a shield, or 1 wound die with a buckler. On a critical the target is staggered until the end of their next turn.
+Make an attack with your shield, knocking the target off balance. Make a melee attack against a creature. On hit the creature takes 1 wound if you used a shield, or 1 wound die if you used a buckler. On a critical the creature is staggered.
 
-***Enhanced:*** Add an enhanced die to the attack roll and the target is staggered regardless of critical.
+***Enhanced:*** Add an enhanced die to the attack roll and the creature is staggered on hit.
 
 ___
 #### Careful Advance
 - **AP Cost:** 5/4
-- **Weapon:** Melee
-- **Range:** Weapon Range
+- **Weapon:** any melee weapon
+- **Range:** weapon range
 - **Level Required:** 2/9
 
-You carefully study your opponents movements, making a calculated attack. Make a normal weapon attack adding an enhanced die, rerolling up 3 dice and keeping the new roll. Any crits rolled do not count as crits, but still count as 2 successes. If the attack hits you may shift 1 tile in any direction, preventing opportunity attacks from the creature hit.
+You carefully study your opponents movements, making a calculated attack. Make a melee attack against a creature adding a normal die and rerolling up 3 dice in the atack roll. You ignore any criticals in your roll, counting only the successes. If the attack hits you may move 1 tile in any direction, ignoring opportunity attacks.
 
-***Enhanced:*** Add a superior die instead of an enhanced die, you may reroll up to 5 dice instead of 3.
+***Enhanced:*** Add an enhanced die instead of a normal die and you may reroll 5 dice in your attack roll.
 
 ___
 #### Daze
 - **AP Cost:** 5/4
-- **Weapon:** Bludgeoning
-- **Range:** Melee
+- **Weapon:** any bludgeoning weapon
+- **Range:** melee
 - **Level Required:** 2/10
 
-Make a normal weapon attack against a target, adding an enhanced die to the roll. On a critical the target is dazed until the end of their next turn.
+Make a melee attack against a large or smaller creature adding an enhanced die to the attack roll. On hit you deal normal damage, dazing the creature until the end of their next turn on a critical.
 
-***Enhanced:*** Add a superior die instead of an enhanced die. The target is dazed for 1 minute on a critical.
+***Enhanced:*** Add a superior die instead of an enhanced die and the creature is dazed for 1 minute on a critical.
 
 ___
 #### Guided Strike
 - **AP Cost:** 5/4
-- **Weapon:** Any
+- **Weapon:** any weapon
 - **Range:** Weapon Range
 - **Level Required:** 2/10
 
-Make a weapon attack against a creature, using any spellcasting roll instead of your attack roll. On hit the target takes normal damage, and ignores 1 level of Resistance on a critical.
+Make a melee attack against a creature using any spellcasting roll instead of your attack roll. On hit the creature takes normal damage, ignoring 1 level of resistance on a critical.
 
 ***Enhanced:*** You may spend 1 mana to add a wound of Fire, Cold, Lightning, or Poison damage to the attack.
 
 ___
 #### Wild Attack
 - **AP Cost:** 5/5
-- **Weapon:** Any Slashing weapon
-- **Range:** Melee
-- **Level Required:** 2/11
+- **Weapon:** any slashing weapon
+- **Range:** melee
+- **Level Required:** 2/12
 
-Make a wild attack against a target, adding 1 normal die to your attack roll. On hit you deal an additional wound in damage. Regardless of the outcome you grant combat advantage to attackers until the start of your next turn.
+Make a wild melee attack against a creature, adding 1 normal die to your attack roll. On hit you deal an extra wound in damage. After making the attack you grant combat advantage to attackers until the start of your next turn.
 
-***Enhanced:*** Add an enhanced die instead of a normal die. If you deal 3 or more wounds with this attack the target gains a random Lesser Wound.
+***Enhanced:*** Add an enhanced die instead of a normal die. If you deal 3 or more wounds with this attack the target gains a random lesser wound.
 
 ___
 #### Raise Shield
 - **AP Cost:** 3/3
-- **Weapon:** Shield
+- **Weapon:** any shield
 - **Range:** N/A
 - **Level Required:** 2/12
 
-Used in place of your movement action, you raise your shield to defend against arrows. As long as you don't sprint you gain 1 Resistance to physical damage dealt by ranged attacks.
+Can only be used if you haven't sprinted this turn. You raise your shield to defend against arrows, preventing you from taking the sprint action. You gain Resistance 1 to physical damage dealt by ranged attacks until the start of your next turn.
 
-***Enhanced:*** While your shield is raised you can reroll 1 die when making a defense roll.
+***Enhanced:*** While your shield is raised you can reroll 1 die when making a defense roll against ranged attacks.
 
 ___
 #### Pinning Shot
 - **AP Cost:** 6/5
-- **Weapon:** Ranged Weapon
+- **Weapon:** any ranged weapon
 - **Range:** any
 - **Level Required:** 3/10
 
-Make a ranged attack against a target, adding an enhanced die to the roll. On hit they take 1 wound, and on a critical they are pinned. A Pinned creature has a move and sprint speed of 0 and grants combat advantage, and cannot move until they spend 5 AP to free themselves.
+Make a ranged attack against a humanoid creature, adding an enhanced die to the roll. On hit they take 1 wound in piercing damage, pinning them to the wall on a critical. A pinned creature grants combat advantage and cannot take the move or sprint actions until they spend 5 AP unpinning themselves.
 
 
 ***Enhanced:*** Add a superior die instead of an enhanced die.
@@ -4173,44 +4173,44 @@ Make a ranged attack against a target, adding an enhanced die to the roll. On hi
 ___
 #### Heavy Swing
 - **AP Cost:** 7/7
-- **Weapon:** Two-Handed
-- **Range:** Melee
+- **Weapon:** any two-handed weapon
+- **Range:** melee
 - **Level Required:** 3/12
 
-You bring the full weight of your weapon down on a target. Make a normal weapon attack, adding an enhanced die to the roll. On hit they take weapon damage, adding 1 wound in physical damage. On a critical you may reroll all wound dice, taking the new value.
+You bring the full weight of your weapon down on a creature. Make a melee attack against a creature, adding an enhanced die to the roll. On hit they take an extra wound in damage, rerolling all wound dice on a critical.
 
-***Enhanced:*** Add a Superior die to the attack roll and an extra wound die to the damage.
+***Enhanced:*** Add a Superior die instead of an enhanced die to the attack roll and an extra wound die to the damage.
 
 ___
 #### Press the Attack
 - **AP Cost:** 5/4
-- **Weapon:** Any Melee
-- **Range:** Melee
+- **Weapon:** any melee weapon
+- **Range:** melee
 - **Level Required:** 3/12
 
-Strike into the target, attempting to push them back. Make a normal weapon attack, adding an enhanced die to the roll. On hit the target is pushed back 1 tile and you move to occupy their space. On a critical the target is staggered until the end of their next turn.
+Strike into the target, pushing them back. Make a melee attack against a creature, adding a normal die to the roll. On hit the target is pushed back 1 tile and you move to occupy their space ignoring all opportunity attacks, staggering them on a critical.
 
-***Enhanced:*** Add a wound die to the roll. If you make 2 critical successes, the target is knocked prone instead of staggered.
+***Enhanced:*** Add a wound die to the damage. If you roll 3 critical successes the creature is knocked prone instead of staggered.
 
 ___
 #### Smite
 - **AP Cost:** 6/5
-- **Weapon:** Melee Weapon
-- **Range:** Melee
+- **Weapon:** any melee weapon
+- **Range:** melee
 - **Level Required:** 3/12
 
-Empower your weapon with holy might. This attack consumes up to 2 mana. Make a normal weapon attack, using your divine spellcasting proficiency instead of your weapon proficiency, adding an enhanced die to the roll. On hit, the target takes normal weapon damage, plus 1 wound die per mana used in holy damage. If the target is undead, they take wounds instead. On a critical, if the target is undead they are turned for 1 minute.
+Empower your weapon with holy might, consuming up to 2 mana. Make a melee attack against a creature using your divine spellcasting roll for the attack and adding an enhanced die to the roll. On hit the creature takes an extra wound die, adding 1 for each mana spent in holy damage. If the target is undead, they take wounds instead. If the target is undead they are turned for 1 minute on a critical.
 
-***Enhanced:*** Add a superior die instead of an enhanced die to your attack roll, you may use up to 4 mana.
+***Enhanced:*** Add a superior die instead of an enhanced die to your attack roll and you may use up to 4 mana.
 
 ___
 #### Sucker Punch
 - **AP Cost:** 2/2
-- **Weapon:** N/A
-- **Range:** Melee
+- **Weapon:** any melee weapon
+- **Range:** melee
 - **Level Required:** 3/13
 
-Take advantage of an opponents spellcasting to quickly attack. As a reaction, when a hostile creature adjacent to you begins casting a spell you may make a normal weapon attack against them. On hit you deal a wound die in damage and add a bad die to their spellcasting roll, adding additional bad dice for every critical rolled in your attack.
+Take advantage of an opponents spellcasting to quickly attack. As a reaction, when a hostile creature adjacent to you begins casting a spell you may make a melee attack against them. On hit you deal a wound die in bludgeoning damage and you add a bad die to their spellcasting roll, adding an extra bad die for every critical.
 
 ***Enhanced:*** On hit, the first die added to their spellcasting roll is a terrible die instead of a bad die.
 
@@ -4218,128 +4218,117 @@ ___
 #### Deflect
 - **AP Cost:** 2/1
 - **Weapon:** N/A
-- **Range:** Melee
+- **Range:** melee
 - **Level Required:** 4/12
 
-Can only be used when the target of a ranged weapon attack. Instead of making a defense roll against the attack, make a sleight of hand roll instead. On success you catch the projectile, taking no damage.
+This can only be used when the target of a ranged weapon attack. Instead of making a defense roll against the attack, make a sleight of hand roll. On success you catch the projectile, taking no damage.
 
 ***Enhanced:*** After catching the projectile you may spend 2 AP to fire the projectile back. Make a ranged attack against a target within 5 tiles adding an enhanced die to your roll. On hit you deal normal damage with that ammunition.
 
 ___
 #### Cleave
 - **AP Cost:** 7/6
-- **Weapon:** Two-Handed weapon
-- **Range:** Melee
+- **Weapon:** any two-handed weapon
+- **Range:** melee
 - **Level Required:** 4/13
 
-You may target creatures equal to your strength. Targets must be inside your zone of control. Make a melee weapon attack against all targets, adding a bad die to the roll. On hit, targets take 1 wound in damage.
+With a wide swing you cleave all creatures in your zone of control. Make a melee weapon attack, adding a bad die to the roll. On hit the creatures take 1 wound in damage.
 
-***Enhanced:*** You no longer add a bad die to the roll, on hit targets take normal weapon damage.
+***Enhanced:*** You no longer add a bad die to the roll and you deal normal damage to all creatures.
 
 ___
 #### Flurry
 - **AP Cost:** 7/6
-- **Weapon:** One-Handed
-- **Range:** Melee
+- **Weapon:** any melee weapon
+- **Range:** melee
 - **Level Required:** 4/13
 
-You make two quick attacks against a single target. Make two weapon attacks, adding a Terrible die to each attack. On hit they take weapon damage.
+You make two quick attacks against a single creature. Make two weapon attacks, adding a terrible die to each attack. On hit the creature takes normal damage.
 
-***Enhanced:*** use a Bad die instead of a Terrible die.
+***Enhanced:*** You add a bad die instead of a terrible die to your attack roll.
 
 ___
 #### Magic Arrow
-- **AP Cost:** 7/5
-- **Weapon:** Ranged
+- **AP Cost:** 7/6
+- **Weapon:** any ranged weapon
 - **Range:** Weapon Range
 - **Level Required:** 4/16
 
-You channel magic into your weapon, empowering the next attack and consuming up to 3 mana. Make a weapon attack against a target adding an enhanced die to the roll, on hit the target takes normal damage. Regardless of the outcome the arrow turns to energy and pierces through, hitting 2 tiles directly behind the target. Any creatures hit must make a defense roll against your attack, taking a wound on hit. The arrow pierces 1 tile further per mana consumed.
+You channel magic into your weapon, empowering the next attack and consuming 1 to 3 mana. The arrow pierces its target hitting all creatures in a 2 tile line, increasing the tiles by 1 for each mana spent. All creatures in the line make a defense roll against your attack, adding an enhanced die to the attack roll. On hit the creatures take 1 wound in damage.
 
-***Enhanced:*** On a critical, deal an additional wound die to all targets.
+***Enhanced:*** The attack deals normal damage.
 
 ___
 #### Armor Break
 - **AP Cost:** 5/4
-- **Weapon:** Bludgeoning
-- **Range:** Melee
+- **Weapon:** any bludgeoning weapon
+- **Range:** melee
 - **Level Required:** 5/14
 
-Make a melee attack against a target, adding 1 enhanced die. On hit deal normal weapon damage. If you critical the target's armor provides 1 fewer die until repaired.
+Make a melee attack against a creature, adding 1 enhanced die. On hit you deal normal damage, breaking their armor on a critical. Armor broken this way provides 1 less defense die until repaired.
 
-***Enhanced:*** Add a superiority die instead of an enhanced die.
+***Enhanced:*** Add a superior die instead of an enhanced die.
 
 ___
 #### Target Weakness
 - **AP Cost:** 5/4
-- **Weapon:** Ranged Weapon
+- **Weapon:** any ranged weapon
 - **Range:** any
 - **Level Required:** 5/14
 
-Make a ranged attack against a target, adding up to 5 wound die. For each wound die added, add a terrible die to your roll.
+Make a ranged attack against a creature, adding up to 5 wound dice to the damage. For each wound die added, add a terrible die to your roll attack roll.
 
-***Enhanced:*** On a critical, the target takes a random Lesser wound.
-
-___
-#### Push Opportunity
-- **AP Cost:** 5/4
-- **Weapon:** Any Melee
-- **Range:** Melee
-- **Level Required:** 5/15
-
-Take advantage of a situation. Can only be used against a target that has a condition or is granting combat advantage. Make a normal weapon attack, adding a superior die to the roll. You deal an extra wound die on a critical.
-
-***Enhanced:*** Add 2 superior dice to your attack roll.
+***Enhanced:*** The creature gains a random lesser wound on a critical.
 
 ___
 #### Roundhouse Kick
 - **AP Cost:** 5/5
-- **Weapon:** Unarmed
-- **Range:** Melee
+- **Weapon:** unarmed
+- **Range:** melee
 - **Level Required:** 5/15
 
-Perform a spinning kick, knocking away opponents. Make an unarmed attack against a creature, adding 1 enhanced die to the roll. on hit the target takes normal damage and is pushed back 1 tile, and staggered on a critical.
+Perform a spinning kick. Make an unarmed attack against a creature, adding an enhanced die to the roll. On hit the creature takes normal damage and is pushed back 1 tile, being staggered on a critical.
 
-***Enhanced:*** You may target a second creature that is adjacent to you.
+***Enhanced:*** You may target 2 creatures with the attack.
 
 ___
 #### Pommel Strike
 - **AP Cost:** 5/4
-- **Weapon:** Any
-- **Range:** Melee
+- **Weapon:** any two-handed weapon
+- **Range:** melee
 - **Level Required:** 6/15
 
-You make an attack with the blunt part of your weapon. Make a weapon attack against a single target. On hit they take weapon damage, replacing all wounds dealt with wound dice and changing the damage type to bludgeoning. On a critical the target is Weakened until the end of their next turn.
+Make a weapon attack against a creature, adding a normal die to the attack roll. On hit they take 2 wound dice in bludgeoning damage, and are weakened until the end of their next turn on a critical.
 
-***Enhanced:*** Add a superior die to the attack.
+***Enhanced:*** Add an enhanced die instead of a normal die to the attack.
 
 ___
 #### Suplex
 - **AP Cost:** 5/4
-- **Weapon:** Unarmed
-- **Range:** Melee
+- **Weapon:** unarmed
+- **Range:** melee
 - **Level Required:** 6/15
 
-Can only be used against a grappled target. Make an unarmed attack against the targets strength save. On hit you slam the grappled creature into the tile behind you, knocking them prone and dealing normal unarmed damage. On a critical the target is dazed until the end of their next turn. This ends the grapple on the target.
+Can only be used against a grappled creature. Make an unarmed attack against the creatures strength save. On hit you slam the grappled creature into the tile behind you, ending the grapple, knocking the creature prone and dealing normal damage.
 
-***Enhanced:*** Wound die you roll count as wounds instead.
+***Enhanced:*** All wound dice in your damage roll are replaced with wounds.
 
 ___
 #### Puncture
 - **AP Cost:** 5/4
-- **Weapon:** One-Handed Slashing or Piercing
-- **Range:** Melee
+- **Weapon:** any one-handed slashing or piercing weapon
+- **Range:** melee
 - **Level Required:** 6/16
 
-Only usable against a target that rolls 4 or more defense dice. Slide your blade between the joints of their armor, stabbing your weapon home. Make an normal weapon attack against a target. The target can only roll defense dice equal to their Dexterity. On hit deal normal weapon damage, adding a wound die on a critical.
+Only usable against a target that rolls 4 or more defense dice. Slide your blade between the joints of their armor, stabbing your weapon home. Make an melee attack against a target. The target can only roll defense dice equal to their Dexterity. On hit deal normal damage, adding a wound die on a critical.
 
 ***Enhanced:*** The targets superior defense dice are replaced with normal defense dice. On a critical, the target takes a random lesser wound instead of adding a wound die.
 
 ___
 #### Disarm
 - **AP Cost:** 6/5
-- **Weapon:** Unarmed
-- **Range:** Melee
+- **Weapon:** unarmed
+- **Range:** melee
 - **Level Required:** 7/15
 
 You attempt to disarm an opponent, forcing them to drop their weapon. The target makes a Defense or Dexterity save against your unarmed attack, on hit their weapon falls to the ground, landing in an adjacent tile of your choosing. A creature standing on that tile can spend 2 AP retrieving the weapon.
@@ -4350,8 +4339,8 @@ You attempt to disarm an opponent, forcing them to drop their weapon. The target
 ___
 #### Leaping Slam
 - **AP Cost:** 7/7
-- **Weapon:** Two-Handed
-- **Range:** Melee
+- **Weapon:** any two-handed weapon
+- **Range:** melee
 - **Level Required:** 7/18
 
 You jump up to 2 tiles making a weapon attack against a single target, adding a Bad die to the attack. On hit, they take weapon damage and are knocked back 2 tiles if the target is Large or smaller. On a critical the target is knocked prone.
@@ -4361,7 +4350,7 @@ You jump up to 2 tiles making a weapon attack against a single target, adding a 
 ___
 #### Hail of Arrows
 - **AP Cost:** 8/7
-- **Weapon:** Ranged weapon without _Loading_
+- **Weapon:** any ranged weapon without _Loading_
 - **Range:** any
 - **Level Required:** 8/18
 
@@ -4373,8 +4362,8 @@ Choose a point within range of your bow, targeting all creatures on or adjacent 
 ___
 #### 7 Hand Strike
 - **AP Cost:** 8/7
-- **Weapon:** Unarmed
-- **Range:** Melee
+- **Weapon:** unarmed
+- **Range:** melee
 - **Level Required:** 9/15
 
 Hit the target with a series of quick strikes. Make an unarmed attack against a target, adding a superior die. On hit, roll 5 wound dice. If the target is humanoid, add your wounds and critical successes, if it is 5 or more the target is stunned until the end of their next turn.
@@ -4384,33 +4373,33 @@ Hit the target with a series of quick strikes. Make an unarmed attack against a 
 ___
 #### Inflict Wound
 - **AP Cost:** 5/4
-- **Weapon:** One-Handed
-- **Range:** Melee
+- **Weapon:** any one-handed weapon
+- **Range:** melee
 - **Level Required:** 9/16
 
-Attempt to mortally wound a target. Make a normal weapon attack, adding a Superior die if your flanking the target. On hit they take 1 wound die in damage, and gain a random Lesser Wound on a critical.
+Attempt to mortally wound a target. Make a melee attack, adding a Superior die if your flanking the target. On hit they take 1 wound die in damage, and gain a random Lesser Wound on a critical.
 
-***Enhanced:*** The attack deals normal weapon damage and you attack with expertise if flanking the target.
+***Enhanced:*** The attack deals normal damage and you attack with expertise if flanking the target.
 
 #### Volley
 ___
 - **AP Cost:** 9/7
-- **Weapon:** Ranged
-- **Range:** Weapon Range
+- **Weapon:** any ranged weapon
+- **Range:** weapon range
 - **Level Required:** 9/17
 
-Shoot a volley of arrows at 3 adjacent targets. Make a ranged weapon attack against each one, adding 1 Terrible die to the attack rolls. On hit you deal normal weapon damage.
+Shoot a volley of arrows at 3 adjacent targets. Make a ranged weapon attack against each one, adding 1 Terrible die to the attack rolls. On hit you deal normal damage.
 
 ***Enhanced:*** Add a Bad die instead of a Terrible die.
 
 ___
 #### Steel Tempest
 - **AP Cost:** 10/8
-- **Weapon:** Sword
+- **Weapon:** any sword
 - **Range:** 2
 - **Level Required:** 11/22
 
-Make a normal weapon attack against up to 5 creatures in range, adding 2 Terrible die to the roll. On hit you deal your weapon's wounds to the creature.
+Make a melee attack against up to 5 creatures in range, adding 2 Terrible die to the roll. On hit you deal your weapon's wounds to the creature.
 
 ***Enhanced:*** If you manage to hit 5 creatures, they grant combat advantage until the start of your next turn.
 
