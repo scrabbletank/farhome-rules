@@ -631,7 +631,7 @@ Combatants take turns, starting with whoever rolled the highest and ending with 
 Each turn your action points are refilled. You can spend any amount of AP on your turn, and any unused AP can be used on reactions during the rest of the round. You gain no benefit for any unspent AP when your turn comes again.
 
 #### Attack (5 AP)
-Make a single weapon attack against a target creature. The actual damage, range, and effects of an attack depend on the weapon used in the attack. Unarmed attacks use strength and deal a wound die in damage.
+Make a weapon attack against a target creature. The actual damage, range, and effects of an attack depend on the weapon used in the attack. Unarmed attacks use strength and deal a wound die in damage.
 
 To make an attack you must succeed an attack roll against the targets defense. If you have more successes than the targets defense you hit, with ties favoring the defender and counting as a miss.
 
@@ -653,7 +653,7 @@ You may move up to your sprint speed, adding your dexterity score in tiles. Nega
 When a creature tries to leave your zone of control (the 5 adjacent tiles in front of your character, making a U shape) you may make a reaction attack against them. You cannot use maneuvers (unless the maneuver says it can be used as a reaction) and the attack uses the default Attack rules.
 
 #### Off-hand Attack (2 AP, can only be used after attack, once per turn)
-When dual wielding, as long as you have made a single 'Attack' action, you may make an attack with your offhand weapon. This attack is identical to the _Attack_ action, except you do not get any bonus from proficiency.
+When dual wielding, as long as you have taken the _Attack_ action, you may make an attack with your offhand weapon. This attack is identical to the _Attack_ action, except you do not get any bonus from proficiency.
 
 #### Use (2 AP)
 This covers a wide range of actions, covering things such as: using an item, drinking a potion, activating a magic item, or interacting with an object (eg: pulling a switch). Some magic items will give their own AP costs, using those instead. While there is no limit in how many times a turn you can take the Use action, some items may have restrictions. A creature can only benefit from a single potion each round.
@@ -702,7 +702,7 @@ Each creature is represented by a miniature or token on the gameboard. Creatures
 | Gargantuan | 4x4+ |
 
 #### Movement
-All creatures movement speeds are listed in tiles. Any time a creature takes the move or sprint actions they can move up to that many tiles. When moving you may move through allies, but cannot move through a hostile creatures tile. If your movement takes you out of hostile creatures zone of control they can make an opportunity attack against you as long as they have enough AP.
+All creatures movement speeds are listed in tiles. Any time a creature takes the move or sprint actions they can move up to that many tiles. When moving you may move through allies, but cannot move through a hostile creatures tile. If your movement takes you out of a hostile creatures zone of control they may make an opportunity attack against you as long as they have enough AP.
 
 #### Flying
 Creatures that are able to fly can use their movement to move vertically, following the same rules as normal movement. Unless the creature is able to hover, any effect that reduces their movement speed to 0, grapples, restrains, or knocks them prone causes them to fall from the air. Falling creatures fall 10 tiles per round, increasing the amount by 10 for each round they spend falling. On hitting the ground or a solid object after falling 5 or more tiles they take a wound and a wound die in bludgeoning damage for every 5 tiles they fell.
@@ -854,7 +854,7 @@ This weapon can only be used to attack once per turn.
 This weapon can attack at range. Attacks further than the close range add 2 terrible dice to the roll, and cannot attack farther than the far range.
 
 ##### Reach
-This weapon can make attacks 1 tile further, and their zone of control extends an additional tile.
+This weapon can attack creatures 1 tile further, and their zone of control extends an additional tile.
 
 ##### Resistance
 You reduce the number of wounds dealt by the level of resistance. For example, _Fire Resistance 1_ reduces all wounds taken from fire damage by 1.
@@ -889,7 +889,7 @@ ___
 
 ##### Innate Magic
 
-You may learn a single cantrip, this cantrip does not require a codex to cast. You start with 1 extra mana and recover 1 extra mana each short and long rest.
+You learn a single cantrip. This cantrip does not need to be prepared or in your codex to cast. You start with 1 extra mana and recover 1 extra mana each short and long rest.
 
 ___
 #### Wood Elf
@@ -1525,7 +1525,7 @@ ___
 You attempt to animate a simple object made of plant, wood, stone, or metal no more than 1 tile in size. If the object is part of a larger construction (a stone wall, a dirt mound, etc.) you add 1 terrible die to your roll as you try to force it free.
 
 
-Make a spellcasting roll adding 2 terrible dice, or 4 terrible dice if the material is made of metal. On success you create a golem out of the object. The golem has 3 wounds and gains Resistance 1 to a damage type of your choosing: physical, fire, cold, lightning, poison. On your turn it can take a move action to move 4 tiles and can make a single attack as free actions. The golem's attack uses your spellcasting roll instead of a normal attack roll. The creature deals a wound and wound die of bludgeoning damage on hit, adding a wound die for every size increase. After the duration or if the caster is incapacitated the golem reverts to inanimate material. Golems made of metal have Resistance 2 to your chosen damage type instead.
+Make a spellcasting roll adding 2 terrible dice, or 4 terrible dice if the material is made of metal. On success you create a golem out of the object. The golem has 3 wounds and gains Resistance 1 to a damage type of your choosing: physical, fire, cold, lightning, poison. On your turn it can take a move action to move 4 tiles and may make an attack as free actions. The golem's attack uses your spellcasting roll instead of a normal attack roll. The creature deals a wound and wound die of bludgeoning damage on hit, adding a wound die for every size increase. After the duration or if the caster is incapacitated the golem reverts to inanimate material. Golems made of metal have Resistance 2 to your chosen damage type instead.
 
 Add an enhanced die for every level cast above 3rd. At 5th level you may target a 2x2 area creating a golem with 5 wounds, and at 7th a 3x3 area creating a golem with 8 wounds and two attacks per turn.
 
@@ -1691,7 +1691,7 @@ ___
 
 You create 3 spears of solid ice that last for 10 minutes. For the duration you may replace your melee attack with an Ice Lance, using your spellcasting roll for the attack roll. The lance is a two-handed weapon with reach, and deals 1 wound and 2 wound dice in cold damage on hit. You may throw the lance at a creature within 10 tiles causing it to explode, hitting all adjacent creatures. Make a spellcasting roll against the creatures defense, dealing 1 wound and 2 wound dice in cold damage on hit, giving a level of Slow for every critical rolled. After the last lance is thrown the spell ends.
 
-You can make one attack, melee or thrown, when casting this spell.
+You may make one attack, melee or thrown, when casting this spell.
 
 You create an additional lance for every level cast above 4th.
 
@@ -1785,7 +1785,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 hour, concentration
 
-You conjure fortifications of your design within a 5x5 tile area, extending 3 tiles high. The fortifications can be any shape, being made of shimmering bricks that sheds dim light over 2 tiles. The fortification can have multiple floors, stairs, ladders and doors, but cannot have complex structures such as a portcullis, draw bridge, or traps. It must contain at least one entrance, such as a door or gap 1 tile wide. Each tile square can be destroyed by taking a single wound in damage, or having more than 2000 lbs of force or weight applied to it. The structure does not obey gravity and will not collapse if sections are destroyed. The fortifications have resistance to all damage except Force damage.
+You conjure fortifications of your design within a 5x5 tile area, extending 3 tiles high. The fortifications can be any shape, being made of shimmering bricks that sheds dim light over 2 tiles. The fortification can have multiple floors, stairs, ladders and doors, but cannot have complex structures such as a portcullis, draw bridge, or traps. It must contain at least one entrance, such as a door or gap 1 tile wide. Each tile square can be destroyed by taking a wound in damage, or having more than 2000 lbs of force or weight applied to it. The structure does not obey gravity and will not collapse if sections are destroyed. The fortifications have resistance to all damage except Force damage.
 
 This spell may be cast on existing fortifications, granting them the light and resistance effects, but not conjuring any new structures. If cast in this way the area effected is doubled on each side, covering a 10x10 tile area.
 
@@ -2420,7 +2420,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Attempt to fill a creatures mind with rage, preventing it from seeing friend from foe. Make a spellcasting roll against the creatures willpower save. On success the creature loses all remaining AP and makes a single attack against a random creature within its attack range. For every critical rolled the target adds a normal die for all attack rolls for the duration. On each of this creatures turns they must spend it either attacking a random creature in range or move towards the closest creature. Each time this creature takes damage they make a willpower save against 2 bad dice, ending this effect on success.
+Attempt to fill a creatures mind with rage, preventing it from seeing friend from foe. Make a spellcasting roll against the creatures willpower save. On success the creature loses all remaining AP and makes an attack against a random creature within its attack range. For every critical rolled the target adds a normal die for all attack rolls for the duration. On each of this creatures turns they must spend it either attacking a random creature in range or move towards the closest creature. Each time this creature takes damage they make a willpower save against 2 bad dice, ending this effect on success.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -2631,7 +2631,7 @@ ___
 - **Range:** 15
 - **Duration:** 1 minute
 
-You assume a horrifying visage, fearing up to 5 creatures in range that can see you. Make a spellcasting roll, adding 1 bad die for every creature targeted after the first, against the creatures willpower save. On success the creatures are feared with you as the source. Each time they take damage they can make a willpower save against your spellcasting roll, ending the effect on success.
+You assume a horrifying visage, fearing up to 5 creatures in range that can see you. Make a spellcasting roll, adding 1 bad die for every creature targeted after the first, against the creatures willpower save. On success the creatures are feared with you as the source. Each time they take damage they make a willpower save against your spellcasting roll, ending the effect on success.
 
 Add an enhanced die for every level cast above 3rd.
 
@@ -2680,7 +2680,7 @@ ___
 - **Range:** self
 - **Duration:** concentration, 10 minutes
 
-Your form blurs as 3 illusory projections of yourself hide your true position. Any time you would be attacked by a single target attack, spell, or maneuver, the attacker must roll a perception check against your  roll. On failure the attack misses destroying one of the illusions. The spell ends once all illusions have been destroyed. A creature that can see through ilusions is unaffected by this spell.
+Your form blurs as 3 illusory projections of yourself hide your true position. Any time you would be attacked by a single target attack, spell, or maneuver, the attacker must roll a perception check against your roll. On failure the attack misses destroying one of the illusions. The spell ends once all illusions have been destroyed. A creature that can see through ilusions is unaffected by this spell.
 
 Add an enhanced die for every level cast above 3rd.
 
@@ -2805,7 +2805,7 @@ ___
 - **Range:** 2
 - **Duration:** concentration, 1 hour
 
-Turn yourself or another creature or object invisible. Make a spellcasting roll against 2 terrible dice. On success the target becomes completely invisible while standing still. Moving causes a barely noticeable shimmer on the creature. Creatures can make a perception check against your spellcasting roll to see a moving creature, spotting them on success. Single target attacks, spells, and maneuvers against an invisible creature add 2 terrible dice to their rolls.
+Turn yourself or another creature or object invisible. Make a spellcasting roll against 2 terrible dice. On success the target becomes completely invisible while standing still. Moving causes a barely noticeable shimmer on the creature. Creatures may make a perception check against your spellcasting roll to see a moving creature, spotting them on success. Single target attacks, spells, and maneuvers against an invisible creature add 2 terrible dice to their rolls.
 
 Add an enhanced die to your spellcasting roll, and you may target an additional creature for every level cast above 4th. When targeting multiple creatures add a terrible die for each creature targeted past the 1st.
 
@@ -3234,7 +3234,7 @@ ___
 - **Range:** touch
 - **Duration:** 8 hours
 
-You create a magical soothing bonfire. The bonfire takes a single tile of space, emits bright light for 5 tiles and dim light a further 5. Make a spellcasting roll against 2 bad dice. On success any creature that takes a long rest while in the fires light restores an extra wound and recovers an additional level of exhaustion.
+You create a magical soothing bonfire. The bonfire takes up a tile of space, emits bright light for 5 tiles and dim light a further 5. Make a spellcasting roll against 2 bad dice. On success any creature that takes a long rest while in the fires light restores an extra wound and recovers an additional level of exhaustion.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -3283,7 +3283,7 @@ ___
 - **Range:** touch
 - **Duration:** instant
 
-Mend a creature's wounds. Make a spellcasting roll, healing a single wound and adding a wound for every critical rolled.
+Mend a creature's wounds. Make a spellcasting roll, healing a wound and adding a wound for every critical rolled.
 
 Add a wound die for every level cast above 1st.
 
@@ -3294,7 +3294,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Send healing energy to a single creature in range you can see. Make a spellcasting roll against 3 bad dice. On success, the target heals a wound die for every success in your roll.
+Send healing energy to a creature in range you can see. Make a spellcasting roll against 3 bad dice. On success, the target heals a wound die for every success in your roll.
 
 Add a normal die for every level cast above 1st.
 
@@ -3390,7 +3390,7 @@ ___
 - **Range:** touch
 - **Duration:** 10 minutes
 
-Putting a seed into the ground, sprout a rejuvenating, fruit bearing bush. The bush can have up to 5 uses, making a spellcasting roll against a bad die per use. On success a creature can eat the fruit during a short or long rest to gain a healing surge. They may also remove a single poison or disease affecting them, unless the effect comes from a spell cast at a higher level than _Seed of Renewal_.
+Putting a seed into the ground, sprout a rejuvenating, fruit bearing bush. The bush can have up to 5 uses, making a spellcasting roll against a bad die per use. On success a creature can eat the fruit during a short or long rest to gain a healing surge. They may also remove a poison or disease affecting them, unless the effect comes from a spell cast at a higher level than _Seed of Renewal_.
 
 The bush can be used an additional time for every level cast above 2nd.
 
@@ -3766,7 +3766,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll against a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove slow, poison, hex, daze, stun, blind, weaken, fear, or a single condition from a spell of 4th level or lower, such as _Petrify_.
+Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll against a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove slow, poison, hex, daze, stun, blind, weaken, fear, or a condition from a spell of 4th level or lower, such as _Petrify_.
 
 Add a normal die for every level cast above 5th.
 
@@ -4078,7 +4078,7 @@ ___
 - **Range:** 6
 - **Level Required:** 1/9
 
-You give words of encouragement to another creature. Make a performance check against a bad die. On success the creature can add a superior die to a single roll they make in the next 10 minutes.
+You give words of encouragement to another creature. Make a performance check against a bad die. On success the creature can add a superior die to one roll they make in the next 10 minutes.
 
 ***Enhanced:*** You can target up to 3 creatures, adding a bad die for each creature past the first.
 
@@ -4244,7 +4244,7 @@ ___
 - **Range:** melee
 - **Level Required:** 4/13
 
-You make two quick attacks against a single creature. Make two weapon attacks, adding a terrible die to each attack. On hit the creature takes normal damage.
+You make two quick attacks against a creature. Make two weapon attacks, adding a terrible die to each attack. On hit the creature takes normal damage.
 
 ***Enhanced:*** You add a bad die instead of a terrible die to your attack roll.
 
@@ -4333,7 +4333,7 @@ ___
 - **Range:** melee
 - **Level Required:** 7/18
 
-You jump up to 2 tiles making a weapon attack against a single target adding a bad die to the attack roll. On hit they take normal damage and are knocked back 2 tiles if the target is Large or smaller. On a critical the target is knocked prone.
+You jump up to 2 tiles making a weapon attack against a creature adding a bad die to the attack roll. On hit they take normal damage and are knocked back 2 tiles if the target is Large or smaller. On a critical the target is knocked prone.
 
 ***Enhanced:*** The attack hits 2 adjacent creatures to the main creature.
 
@@ -4557,7 +4557,7 @@ If you move at least 2 tiles before making an attack or maneuver you deal an ext
 
 You gain expertise in animal handling. Your skill with animals allows you to pacify even hostile beasts. You can spend your turn attempting to calm the beast, making an animal handling roll. On success the creature is no longer hostile.
 
-You can make an animal handling roll against a beast that hasn't been hostile towards you in the past day in an attempt to befriend it. On success the beast sees you as an ally and on a critical the beast will defend you while in its habitat.
+You may make an animal handling roll against a beast that hasn't been hostile towards you in the past day in an attempt to befriend it. On success the beast sees you as an ally and on a critical the beast will defend you while in its habitat.
 
 #### Blessed Healing
 *Requires 2 charisma, proficiency in divine spells*
@@ -4858,9 +4858,9 @@ You may enchant magic items. When enchanting a magic item you add terrible dice 
 **Enchantment Difficulty**
 | Modifier/Rarity | Difficulty
 |:----:|:-------------|
-| +1 or Uncommon  | +1 terrible die |
-| +2 or Rare  | +2 terrible dice |
-| +3 or Legendary  | +3 terrible dice |
+| +1 or Uncommon | +1 terrible die |
+| +2 or Rare | +2 terrible dice |
+| +3 or Legendary | +3 terrible dice |
 
 #### Quick Attacks
 *Requires Fast Attacks, 3 dexterity, 15th level*
@@ -4919,7 +4919,7 @@ Once per short or long rest, you may pass an intelligence, willpower, or charism
 #### Tactician
 *Requires 5 intelligence, 20th level*
 
-Once per long rest, when rolling initiative as long as you are not surprised you may move a single creature you are aware of to any position in the initiative. You have expertise in insight and diplomacy, with those skills use intelligence instead of their normal attribute.
+Once per long rest, when rolling initiative as long as you are not surprised you may move a creature you are aware of to any position in the initiative. You have expertise in insight and diplomacy, with those skills use intelligence instead of their normal attribute.
 
 #### Titanic Blow
 *Requires 5 strength, 20th level*
@@ -5063,8 +5063,8 @@ On use they heal 1 wound and 2 wound dice. Health Potions come in different pote
 
 | Modifier | Total Wound Dice |
 |:----:|:-------------|
-| 0  | 2 |
-| +1  | 3 |
+| 0 | 2 |
+| +1 | 3 |
 | +3 | 5 |
 | +5 | 7 |
 | +7 | 9 |
@@ -5179,12 +5179,12 @@ Any damage taken by your armor or weapons are permanent until repaired. An item 
 
 A damaged weapon adds 1 bad die for every negative modifier, or reduces the superior dice given from a magic weapon. Damaged armor reduces the number of defense dice given by 1, or reduces the superior defense die given from magic armor.
 
-You may attempt to repair a single piece of equipment over a long rest. Roll a repair roll against 3 bad dice. On success the gear is repaired by 1 level, or 2 on a critical. You may attempt to repair magical gear, adding a terrible die to the repair roll.
+You may attempt to repair a piece of equipment over a long rest. Roll a repair roll against 3 bad dice. On success the gear is repaired by 1 level, or 2 on a critical. You may attempt to repair magical gear, adding a terrible die to the repair roll.
 
 ___
 #### Apothecary Set
 
-A portable set of tools required to brew potions over a campfire. During a long rest you may attempt to brew a single potion or poison if you have the right ingredients, or you may search your surroundings for ingredients.
+A portable set of tools required to brew potions over a campfire. During a long rest you may attempt to brew a potion or poison if you have the right ingredients, or you may search your surroundings for ingredients.
 
 Based on your surroundings you make an average difficulty survival check, increasing or decreasing the difficulty based the abundance of the wilderness. Searching for ingredients takes 1 hour. On success you roll 3 superior dice to determine the ingredient found on the table below. You gain a number of ingredients equal to the successes in your survival check.
 
@@ -5315,7 +5315,7 @@ On hit inflicts poison 3 for 10 minutes.
 
 ___
 #### Enchanters Tools
-  During a long rest you may attempt to enchant a single piece of mundane gear. Enchanted gear lasts for 3 days and counts as magical equipment for the duration. After the enchantment ends the gear returns to normal. To enchant a piece of gear you must have mana available and enough enchanting supplies for the enchantment. Then you must pass the enchanting roll, with failure consuming the mana and supplies but not giving the enchantment. Most cities and towns will sell enchanting supplies.
+  During a long rest you may attempt to enchant a piece of mundane gear. Enchanted gear lasts for 3 days and counts as magical equipment for the duration. After the enchantment ends the gear returns to normal. To enchant a piece of gear you must have mana available and enough enchanting supplies for the enchantment. Then you must pass the enchanting roll, with failure consuming the mana and supplies but not giving the enchantment. Most cities and towns will sell enchanting supplies.
   
   The enchanting roll uses your skill with your enchanters tools. You may spend additional mana, adding an enhanced die for every 2 mana spent. Ammunition enchantments are permanent, lasting until the ammunition is used.
   
@@ -5345,7 +5345,7 @@ ___
 
 ___
 #### Scribing Tools
-A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a single rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and runes requires mana and uses a mix of gemstones and enchanting supplies which can be found in most cities and towns.
+A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and runes requires mana and uses a mix of gemstones and enchanting supplies which can be found in most cities and towns.
 
 #### Inscribing Spell Scrolls
 You can create a spell scroll for any spell in your codex that you are able to cast. Creating a spell scroll of 3rd level or lower can be done during a long rest, with spells of 4th level and higher taking 1 day of work for each level above 3rd. You must have mana available which is consumed in creating the scroll.
