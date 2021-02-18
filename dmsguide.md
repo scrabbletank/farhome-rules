@@ -591,13 +591,6 @@ ___
 For the next hour you gain 2 proficiency in all saving throws.
 
 ___
-  ##### Hero's Luck
-- **Ingredients:** 1 Lucky Leaf, 1 Silverleaf, 1 Skillwheat
-- **Roll:** 3 Terrible dice
-
-You gain 2 Hero dice for the next hour. Any unspent dice are lost after the potion fades.
-
-___
   ##### Potion of Greater Vitality
 - **Ingredients:** 2 Healroot, 1 Vitalflower, 1 Hearty root
 - **Roll:** 2 Bad dice, 1 Terrible die
