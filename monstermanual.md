@@ -2,6 +2,20 @@
 Stat blocks for monsters as I make them, with some amount of organization.
 
 
+#### Monster Level (CR)
+A Monster's strength is represented by a challenge rating, usually abbreviated as C or CR. When building encounters first start by adding together the levels of all the characters in your party. To make an average difficulty encounter you'll want a group of monsters whose CR adds up to your party's level.
+
+For example, if you were building an average encounter for a party with 4, 2nd level characters you would want a group of monsters who adds up to 8 CR. You could use a single owlbear, or a group of monsters such as a goblin shaman, 1-2 fighters and 4-6 normal goblins. 
+
+You can make the encounter easier by adding or removing monsters. The table below gives a rough guideline on what CR you should aim for when building an encounter of a given difficulty.
+
+
+| Difficulty |  Monster Level |
+|:----:|:-------------:|
+| Easy  | 50-75% Party Level |
+| Average  | Party Level |
+| Hard | 125-200% Party Level |
+
 ## Table of Contents
 [Beasts](#Beasts)
 - [Wolf - C1](#Wolf)
