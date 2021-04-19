@@ -601,7 +601,7 @@ ___
 ___
 ***Fire Resistance.*** This creature has Resistance 2 against fire damage and takes 1 wound when exposed to water.
 
-***Volitile.*** If this creature is reduced to 0 health from a source other than water it violently explodes. All adjacent creatures make a Dexterity save, taking 2 wound dice in Fire damage on fail.
+***Volatile.*** If this creature is reduced to 0 health from a source other than water it violently explodes. All adjacent creatures make a Dexterity save, taking 2 wound dice in Fire damage on fail.
 
 **Actions**
 

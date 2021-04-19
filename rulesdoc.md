@@ -648,7 +648,7 @@ When taking a long rest in the wilderness you must light a fire and make camp to
 All adventurers need to rest from time to time, trying to do too much in a day can leave you exhausted. You can gain exhaustion from many situations, from travelling too long, not taking rests, spells, or abilities. You lose a level of exhaustion after every long rest. At 6 levels of exhaustion your character drops dead.
 
 ##### Exhaustion Levels
-| Level | All Proficiences | Max Wounds | Sprint
+| Level | All Proficiencies | Max Wounds | Sprint
 |:----:|:----:|:----:|:-------------|
 | 1  | -1 | -1 | Yes |
 | 2  | -1 | -2 | Yes |
@@ -807,7 +807,7 @@ Most GM's use a gameboard when your adventurers are exploring a dungeon or fight
 
 ### The Tile Grid
 
-The game world uses a sqaure or hex tile grid with each tile representing a 5x5 foot area. Each creature takes up a number of tiles based on their size, which in the case of your adventurers is a single tile. For simplicities sake when determining movement or ability ranges on a square grid we assume that distance is _non-euclidean_. Basically all this means is travelling to a square diagonal to you costs the same amount of movement as moving to a square orthogonal to you. Hex grids do a much better job at handling movement in all directions, but it can be hard to find resources that support hex grids.
+The game world uses a square or hex tile grid with each tile representing a 5x5 foot area. Each creature takes up a number of tiles based on their size, which in the case of your adventurers is a single tile. For simplicities sake when determining movement or ability ranges on a square grid we assume that distance is _non-Euclidean_. Basically all this means is travelling to a square diagonal to you costs the same amount of movement as moving to a square orthogonal to you. Hex grids do a much better job at handling movement in all directions, but it can be hard to find resources that support hex grids.
 
 ___
 >##### Variant Rule - No Diagonal Movement
@@ -860,7 +860,7 @@ Creatures are not the only thing on the battle field. Depending on the location 
 Deep water, thick brush, or a rubble filled room could be considered difficult terrain. When moving over difficult terrain every tile of movement costs an extra tile. For example, to move through a deep river 2 tiles wide you need to spend 4 tiles of movement. Climbing a wall or rock face also takes an extra tile of movement, with a difficult to climb wall taking 3 tiles of movement for every 1 tile climbed.
 
 #### Traps and Hazards
-Dungeons may be filled with traps or other hazards. Traps may be hidden, triggered only by a careless step or trip of a wire. Other hazards are blatantly obvious, like a pool of lava or omnious pit. While the exact mechanics of a trap or hazard is left up to the GM, characters can attempt to search or spot traps around them. Characters that succeed on a perception or investigation challenge may spot a trap or understand how it's triggered.
+Dungeons may be filled with traps or other hazards. Traps may be hidden, triggered only by a careless step or trip of a wire. Other hazards are blatantly obvious, like a pool of lava or ominous pit. While the exact mechanics of a trap or hazard is left up to the GM, characters can attempt to search or spot traps around them. Characters that succeed on a perception or investigation challenge may spot a trap or understand how it's triggered.
 
 Hazards, such as a pool of lava or acid, are more obvious. Creatures that enter those tiles take damage immediately, taking damage again at the start of their turn for as long as they are in the hazard. A creature doesn't need to willingly move into a hazard to be affected by it. Characters can shove or push other creatures, or cast spells that knock creatures back.
 
@@ -903,7 +903,7 @@ Line attacks hit all creatures in a line extending outward from the attacker. Th
 Area attacks hit all creatures in a square or rectangular shape centered on a tile. The spell or attack determines the size of the area. For example, the spell _Fireball_ hits all creatures in a 5x5 tile area. Spells that effect all creatures in a radius use this type, creating a square centered on a point with the given radius.
 
 ##### Diamond
-Diamond patterns are similar to area attacks, but rotated 45 degrees. Diamond patterns will usually have a size before them, for example a 3 tile diamond would have a size of 3. To determine if a creature is inside a diamond pattern, first make a horizontal and vertical line of tiles based on the dimaonds size, centered on the target of the attack. Then draw a line connecting each of the ends of the lines, if a tile is entirely inside the line they are hit by the attack.
+Diamond patterns are similar to area attacks, but rotated 45 degrees. Diamond patterns will usually have a size before them; for example, a 3 tile diamond would have a size of 3. To determine if a creature is inside a diamond pattern, first make a horizontal and vertical line of tiles based on the diamond's size and centered on the target of the attack. Then, draw a line connecting each of the ends of the lines; if a tile is entirely inside the line, they are hit by the attack.
 
 ##### Touch
 Touch attacks require you to be adjacent to the target, or have their effects begin in an adjacent tile.
@@ -912,10 +912,10 @@ Touch attacks require you to be adjacent to the target, or have their effects be
 Cone attacks are given as a length and width. The cone starts centered along the width, only effecting the center tile. The cone expands as you go down the length of the attack, reaching its width at the end. If the cone covers at least 1/3rd of the creatures tile it effects that creature.
 
 ### Damage Types
-Damage can come from a variety of sources, such as the swing of a sword, an explosion of magic, or a deadly trap. Regardless of how it's inflicted, damage always falls into one of 3 categories: phsyical damage, elemental damage, and ethereal damage.
+Damage can come from a variety of sources, such as the swing of a sword, an explosion of magic, or a deadly trap. Regardless of how it's inflicted, damage always falls into one of 3 categories: physical damage, elemental damage, and ethereal damage.
 
 ##### Physical Damage
-The majority of phsyical damage comes from weapons. From the stab of a spear, swing of a sword, or impact of a hammer, physical damage covers 3 types:
+The majority of physical damage comes from weapons. From the stab of a spear, swing of a sword, or impact of a hammer, physical damage covers 3 types:
 
 ___
 - **Bludgeoning:** Impact from a weapon or heavy object.
@@ -939,7 +939,7 @@ Ethereal damage directly effects a creatures body and soul. Draining life, causi
 ___
 - **Death:** Draining life or unnatural decay.
 - **Holy:** smiting a creature or attacking their spirit.
-- **Pyschic:** causing madness or deteriorating the mind.
+- **Psychic:** causing madness or deteriorating the mind.
 
 ## Magic Items
 
@@ -952,7 +952,7 @@ Some powerful magic items require attunement to use. To attune to a magic item y
 
 ### Magic Gear
 
-Magic weapons and armor can come with bonus modifiers from +1 to +3. When making an attack roll with a magic weapon you add superior dice to the roll equal to its bonus modifier. For magic armor you add superior dice to your defense roll equal to its bonus moidifer instead. Shields do not have bonus modifiers, but can have additional effects.
+Magic weapons and armor can come with bonus modifiers from +1 to +3. When making an attack roll with a magic weapon you add superior dice to the roll equal to its bonus modifier. For magic armor you add superior dice to your defense roll equal to its bonus modifier instead. Shields do not have bonus modifiers, but can have additional effects.
 
 ### Identifying Magic Items
 
@@ -1007,7 +1007,7 @@ For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elv
 
 Like most elves, high elves display an otherwordly grace in all that they do. Often living in ancient, timeless forests, humans see high elves as beautiful and elegant, if not slightly arrogant. High elves stand slightly taller than the average human, ranging from 5 and a half feet to nearly 7 feet. However they are more slender, weighing between 100 to 150 pounds. While their complexion matches humans, their hair encompasses a larger range, from silver-white to deep black. Like all elves they have long, pointed ears.
 
-It is rumored that high elves are decended from the fae, a group of magical and supernatural beings of another realm, seeming to explain their natural affinity with magic. Because of this many of the more mundane or superstitious races are wary of high elves, believing them to be responsible for any malady affecting their small villages.
+It is rumored that high elves are descended from the fae, a group of magical and supernatural beings of another realm, seeming to explain their natural affinity with magic. Because of this many of the more mundane or superstitious races are wary of high elves, believing them to be responsible for any malady affecting their small villages.
 
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
@@ -1021,7 +1021,7 @@ You learn a single cantrip. This cantrip does not need to be prepared or in your
 ___
 #### Wood Elf
 
-Unlike the timless, magical forests of the high elves, the wood elves call the savage forests as their home. Wood elves display grace and strength in equal measure, being capable hunters and defenders of their forests. Their complexion tends to take on darker tones compared to their high elf cousins, often taking on a copper hue. Their hair ranges from deep reds to brown and black, but is occasionally blond or silver. They are slightly smaller than high elves, ranging from 5 to 6 feet. While they are still slender compared to humans their life in the forest has hardened their bodies, weighing between 120 to 160 pounds.
+Unlike the timeless, magical forests of the high elves, the wood elves call the savage forests their home. Wood elves display grace and strength in equal measure, being capable hunters and defenders of their forests. Their complexion tends to take on darker tones compared to their high elf cousins, often taking on a copper hue. Their hair ranges from deep reds to brown and black, but is occasionally blond or silver. They are slightly smaller than high elves, ranging from 5 to 6 feet. While they are still slender compared to humans their life in the forest has hardened their bodies, weighing between 120 to 160 pounds.
 
 Due to their fierce dedication to their homeland, wood elves tend to be mistrustful of others, at least until they determine if they are a threat. Because of this most wood elves tend to stay in their forests, but there are those whose wanderlust takes them to explore the world beyond.
 
@@ -1057,7 +1057,7 @@ ___
 
 While most orcs are filled with an all-consuming lust for battle, there are some born free from their curse. Those that are often seek out neighboring human or elven settlements, resulting in half-orcs. Half-orcs retain much of their parents strength and ferocity, free from bloodlust and tempered by their other half. Because of this half-orcs are widely loved among the fringe villages and settlements of the world.
 
-Half orcs stand between 6 and 7 feet. They tend to have strong, wide jaws with small but noticable tusks, making it impossible to hid their orcish heritage. Their skin tends to be tinted gray green, and with their towering build they weigh between 200 to 250 pounds. Even with human parents half orcs have short, pointed ears, although those with elven parents tend to be longer. While their hair shares the color of their parents, often times they end up with black hair.
+Half orcs stand between 6 and 7 feet. They tend to have strong, wide jaws with small but noticeable tusks, making it impossible to hid their orcish heritage. Their skin tends to be tinted gray green, and with their towering build they weigh between 200 to 250 pounds. Even with human parents half orcs have short, pointed ears, although those with elven parents tend to be longer. While their hair shares the color of their parents, often times they end up with black hair.
 
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/2
@@ -1071,9 +1071,9 @@ When making death saving throws you may reroll the die, taking the new result. I
 ___
 #### Tlani
 
-Often confused for goblins or imps, tlani live far from the rest of the civilized world, prefering to make their homes high in the mountains or deep under the ground. They are short in stature, rarely standing taller than 4 feet. Like elves they have a strange, unnatural beauty to them that contrasts with their more beastial features, having long pointed ears, cat-like eyes and pointed teeth. Their complexion ranges from dark greys and blues to black with a white or silver underbelly. Their hair tends to match the color of their skin, but rarely it can be blue, green, or purple. Tlani are light, weighing between 40 and 60 pounds, and maintain a youthful appearance well into their 150s.
+Often confused for goblins or imps, tlani live far from the rest of the civilized world, preferring to make their homes high in the mountains or deep under the ground. They are short in stature, rarely standing taller than 4 feet. Like elves they have a strange, unnatural beauty to them that contrasts with their more beastial features, having long pointed ears, cat-like eyes and pointed teeth. Their complexion ranges from dark greys and blues to black with a white or silver underbelly. Their hair tends to match the color of their skin, but rarely it can be blue, green, or purple. Tlani are light, weighing between 40 and 60 pounds, and maintain a youthful appearance well into their 150s.
 
-Due to their small stature, beast-like appearance and affinity for darkness they are usually called night goblins by humans. Tlani are extremely practical, preffering a logical and efficient solution to their problems leading to others seeing them as cold and amoral.
+Due to their small stature, beast-like appearance and affinity for darkness they are usually called night goblins by humans. Tlani are extremely practical, preferring a logical and efficient solution to their problems leading to others seeing them as cold and amoral.
 
 - **Starting Wounds:** 2
 - **Move/Sprint:** 4/3
@@ -1090,7 +1090,7 @@ You are always under the effects of the spell _Dark Sight_ and you gain 1 superi
 
 #### Fallen
 
-Despite their resemblence, fallen are not demons as some humans claim. They are one of the oldest races to emerge, along with the tlani, but their kind has dwindled, now living among the other races with no home of their own. Often seen as outsiders, fallen have relied on their wit and cunning to perservere, relying on their charm to get out of difficult situations.
+Despite their resemblance, fallen are not demons as some humans claim. They are one of the oldest races to emerge, along with the tlani, but their kind has dwindled, now living among the other races with no home of their own. Often seen as outsiders, fallen have relied on their wit and cunning to persevere, relying on their charm to get out of difficult situations.
 
 While at times they can be mistaken for humans, all fallen are born with horns. They are taller on average, standing between 6 to 7 feet tall for males, with females being slightly smaller. Fallen are deceptively strong, and make adept warriors with their keen eyesight and bestial claws. Despite their slim stature, they weigh between 180-250 pounds.
 
@@ -1106,7 +1106,7 @@ You take no penalties when in dim light, and only add 1 bad die in total darknes
 ___
 #### Human
 
-Out of all the common races humans are by far the most numerous. While humans are short lived compared to most, they are tenacious and adaptable, which has allowed them to spread to all corners of the world. Due to this humans span a variety of cultures and morals, taking in customs and traditions from their neighbours and adapting others.
+Out of all the common races humans are by far the most numerous. While humans are short lived compared to most, they are tenacious and adaptable, which has allowed them to spread to all corners of the world. Due to this humans span a variety of cultures and morals, taking in customs and traditions from their neighbors and adapting others.
 
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/2
@@ -1120,7 +1120,7 @@ You choose 3 bonuses when creating your character instead of 2.
 ___
 #### Sylvan
 
-Also known as forestfolk, sylvan make their homes in the gentle forests, meadows, and hills of the world. Like the elves, Sylan have an affinity with nature, preffering to live in small, rural villages instead of big cities. Naturally cheerful, sylvan recover quickly, be it from a night of bosterious revelling or from the dangers of the forest.
+Also known as forestfolk, sylvan make their homes in the gentle forests, meadows, and hills of the world. Like the elves, Sylan have an affinity with nature, preferring to live in small, rural villages instead of big cities. Naturally cheerful, sylvan recover quickly, be it from a night of boisterous reveling or from the dangers of the forest.
 
 Sylvan are short compared to most, standing 3 and a half to 4 feet tall. Sylvan range from slim, almost child like figures to broad, almost dwarf like bodies. Because of this their weight varies wildly, ranging anywhere from 40 to 100 pounds. While their hair follows the usual shades of red, black and blond, it's not uncommon for some families to have emerald green hair and eyes.
 
@@ -1164,7 +1164,7 @@ Making their homes above ground in the hills around mountains, hill dwarves are 
 Hill dwarves are the shortest of the dwarves, being a few inches shorter than mountain dwarves. They make up for their height by being the heaviest, weighing between 200 and 300 pounds. While most hill dwarves have beards, many trim or even shave them completely if they become an impedance to their craft. They are usually fair skinned with hair to match, with blond, brown and red being most common.
 
 - settled above ground
-- expert crafters, creating ingenous machines
+- expert crafters, creating ingenious machines
 - travels to improve their craft
 
 - **Starting Wounds:** 4
@@ -1216,7 +1216,7 @@ ___
 
 While lacking the strength of their lizardfolk cousins, drakes use their cunning to survive the deadly environments they call home. Drakes are canny crafters, creating simple yet ingenious creations to aid in their survival. Drakes are almost singularly focused on survival, because of this they rarely experience fear or courage. Drakes rarely leave their lands, but can occasionally seek out allies from other races. When they do they are often confused by their companions actions, seemingly unable to understand the morals and behavior of civilized races.
 
-Drakes are smaller than lizardfolks, standing 5 and a half feet at most. Their bodies are lean, weighing between 150 and 200 pounds. Their large, dragon-like wings allow them to easily glide through the air. Drake scales share the green, blue and red coloring of their cousins, but rarely some drakes are born a metalic bronze color.
+Drakes are smaller than lizardfolks, standing 5 and a half feet at most. Their bodies are lean, weighing between 150 and 200 pounds. Their large, dragon-like wings allow them to easily glide through the air. Drake scales share the green, blue and red coloring of their cousins, but rarely some drakes are born a metallic bronze color.
 
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/3
@@ -1626,7 +1626,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** cold
 
-You conjure a flurry of ice shards in a 3x3 tilr area adjacent to you. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wound dice in cold damage, gaining 1 level of Slow for the next minute on a critical.
+You conjure a flurry of ice shards in a 3x3 tile area adjacent to you. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wound dice in cold damage, gaining 1 level of Slow for the next minute on a critical.
 
 add a wound die and increase the area by 1 for every level cast above 2nd.
 
@@ -1686,7 +1686,7 @@ ___
 - **Range:** self
 - **Duration:** concentration, 10 minutes
 
-On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against 1 bad die, or 2 if cast as a reaction. On success you create a shield of force around youself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions.
+On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against 1 bad die, or 2 if cast as a reaction. On success you create a shield of force around yourself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -2303,11 +2303,7 @@ ___
 - **Range:** self
 - **Duration:** concentration, 1 minute
 
-<<<<<<< HEAD
-You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain Resistance 1 to all damage, increasing it by 1 for every crit rolled.
-=======
-You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining poison, slow, and are uneffected by hazardous terrain.
->>>>>>> master
+You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining poison, slow, and are unaffected by hazardous terrain.
 
 The duration increases by 1 minute for each level cast above 8th.
 
@@ -2730,7 +2726,7 @@ ___
 
 Take a moment to study your surroundings, watching for signs of the near future for up to 5 creatures. This can come in many forms: the smell of the forest, the pattern of dust, the movement of clouds in the sky. Make a spellcasting roll adding a terrible die for each creature targeted. On success each creature adds a superior die to the next action of their choosing. 
 
-They can describe a condition to fufill or trigger before they take the action or simply choose the next time they take that action. Regardless they must add the superior die to the first action that meets the requirements. For example, if they choose "when I make a stealth check once I'm inside the dungeon" any stealth checks rolled outside the dungeon do not add dice while the first check inside the dungeon will.
+They can describe a condition to fulfill or trigger before they take the action or simply choose the next time they take that action. Regardless they must add the superior die to the first action that meets the requirements. For example, if they choose "when I make a stealth check once I'm inside the dungeon" any stealth checks rolled outside the dungeon do not add dice while the first check inside the dungeon will.
 
 Add an enhanced die to the spellcasting roll for every level cast above 1st.
 
@@ -2795,7 +2791,7 @@ ___
 - **Range:** 10
 - **Duration:** 8 hours
 
-You attempt to force a creature in range to obey a given command or simple task. This spell automatically fails if the creature cannot be charmed, does not speak your language, or would harm the creature. The command can be no more than one sentence and must be someting they can reasonably complete. For example, commanding a commoner to kill a dragon or hurt their friends will fail, but asking a peasant to buy you a drink wont.
+You attempt to force a creature in range to obey a given command or simple task. This spell automatically fails if the creature cannot be charmed, does not speak your language, or would harm the creature. The command can be no more than one sentence and must be something they can reasonably complete. For example, commanding a commoner to kill a dragon or hurt their friends will fail, but asking a peasant to buy you a drink wont.
 
 Make a spellcasting roll against the creatures Willpower save. On success they must complete the command to the best of their abilities. The spell ends when they have completed their task or they take damage. Creatures don't immediately know they were under the spells effects, but do remember their actions.
 
@@ -3028,7 +3024,7 @@ ___
 - **Range:** self
 - **Duration:** concentration, 10 minutes
 
-Your form blurs as 3 illusory projections of yourself hide your true position. Any time you would be attacked by a single target attack, spell, or maneuver, the attacker must roll a perception check against your roll. On failure the attack misses destroying one of the illusions. The spell ends once all illusions have been destroyed. A creature that can see through ilusions is unaffected by this spell.
+Your form blurs as 3 illusory projections of yourself hide your true position. Any time you would be attacked by a single target attack, spell, or maneuver, the attacker must roll a perception check against your roll. On failure the attack misses destroying one of the illusions. The spell ends once all illusions have been destroyed. A creature that can see through illusions is unaffected by this spell.
 
 Add an enhanced die for every level cast above 3rd.
 
@@ -4295,7 +4291,7 @@ ___
 - **Range:** touch
 - **Duration:** instant
 
-Attempt to bring back a creature that has died in the past week. A majority of the creature must be present, with this spell restoring missing body parts. Make a spellcasting roll against 2 bad dice, adding a terrible die for every time this creature has died in the past year. On success the crreature is brought back to life with 1 wound, adding a wound for every critical you rolled.
+Attempt to bring back a creature that has died in the past week. A majority of the creature must be present, with this spell restoring missing body parts. Make a spellcasting roll against 2 bad dice, adding a terrible die for every time this creature has died in the past year. On success the creature is brought back to life with 1 wound, adding a wound for every critical you rolled.
 
 Add an enhanced die to the roll for every level cast above 5th.
 
@@ -4306,13 +4302,7 @@ ___
 - **Range:** 3
 - **Duration:** 10 minutes
 
-<<<<<<< HEAD
-You call upon the fighting spirit of nearby dead creatures. Target any number of corpses within range with corpses of undead, monstrosities, or constructs being untargetable. Make a spellcasting roll adding a Terrible die for every corpse targeted, on success spirits of the creature rise from their bodies to defend you.
-
-The spirits have the same attributes and proficiencies they had in life, but lose any maneuvers, abilities, or spells. Each spirit has 2 wounds and Resistance 2 for all physical damage from non-silvered weapons. The warriors act immediately after the summoners turn and obey simple commands. The spirits vanish after the duration or when exposed to direct sunlight. Corpses that have had their spirits from this spell cannot be raised again.
-=======
 You call upon the fighting spirit of nearby dead creatures. You may choose any number of corpses within range, except the corpses of undead, monstrosities, or constructs. Make a spellcasting roll adding a terrible die for each corpse. On success spirits of the creature rise from their bodies to defend you.
->>>>>>> master
 
 The spirits have the same attributes and proficiencies they had in life, but lose any maneuvers, abilities, or spells. Each spirit has 2 wounds in health and _Resistance 2_ for all physical damage from non-silvered weapons. The warriors act immediately and obey simple commands. The spirits vanish after the duration or when exposed to direct sunlight. Corpses that have been targeted by this spell cannot be used again.
 
@@ -4417,7 +4407,7 @@ Regardless of the outcome, any undead, demon, or celestial targeted by this spel
 Add a superior die to your roll for every level cast above 7th.
 
 
-### Eigth Level
+### Eighth Level
 
 ___
 #### Light of Divinity
@@ -4687,7 +4677,7 @@ ___
 - **Range:** weapon range
 - **Level Required:** 2/8
 
-You carefully study your opponents movements, making a calculated attack. Make a melee attack against a creature adding a normal die and rerolling up 3 dice in the atack roll. You ignore any criticals in your roll, counting only the successes. If the attack hits you may move 1 tile in any direction, ignoring opportunity attacks.
+You carefully study your opponents movements, making a calculated attack. Make a melee attack against a creature adding a normal die and rerolling up 3 dice in the attack roll. You ignore any criticals in your roll, counting only the successes. If the attack hits you may move 1 tile in any direction, ignoring opportunity attacks.
 
 ***Enhanced:*** Add an enhanced die instead of a normal die and you may reroll 5 dice in your attack roll.
 <div style='margin-top:-6px'>
