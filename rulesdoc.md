@@ -394,15 +394,10 @@ To cast a spell you must have a codex containing the spell you want to cast, hav
 
 Very few creatures are able to innately cast magic. Almost everyone must prepare spells they've written into a spellbook, or codex. There is no limit on the school, level, or type of spell you can hold in your codex. New spells can be added to your codex by copying spells from spell scrolls or a codex. This process is destructive, and destroys the scroll or codex after a spell is copied.
 
-<<<<<<< HEAD
-##### Variant Rule - Spells from Codexes
-In some games spells may be limited, or codecies a rare occurrence. With this variant when copying a spell from a codex, instead of destroying the codex you make an Arcana check against 2 bad dice. On success codex is not destroyed. Regardless each spell can only be copied once.
-=======
 ___
 >**Variant Rule - Spells from Codexes**
 >
 >In some games spells may be limited, or codexes a rare occurrence. With this variant when copying a spell from a codex, instead of destroying the codex you make an arcana check against 2 bad dice. On success the codex is not destroyed. Copying a spell removes the spell from the codex.
->>>>>>> master
 
 ### Mana
 
@@ -635,12 +630,7 @@ Short rests require an hour of uninterrupted rest to complete. During a short re
 
 ### Long Rests
 
-<<<<<<< HEAD
-#### Variant - Milestones
-An alternative to experience is milestones. Experience can in some cases be hard to keep consistent across adventures and can lead to some gamification problems with players. With milestones you gain a level after completing an adventure, or a portion of one.
-=======
 Long rests require 8 hours of rest with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, or brewing potions. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds. You regain mana equal to 3 + your character's level, recover 1 point of exhaustion, and end the effect of one lesser wound. If you go more than 24 hours without taking a long rest you must make an exhaustion roll against 2 bad dice and 1 terrible die. You make this check every 24 hours without a long rest.
->>>>>>> master
 
 When taking a long rest in the wilderness you must light a fire and make camp to gain the full benefits. To start a fire, make an average difficulty survival check. Depending on your location this roll may be easier or harder. On failure, instead of the normal benefits you regain 1 healing surge and restore mana equal to half your character's level. You may still spend any number of healing surges during this rest.
 
@@ -663,11 +653,7 @@ There will be times when combat is unavoidable. Your adventurer may encounter zo
 
 ### Initiative
 
-<<<<<<< HEAD
-You add a flat success/fail modifier depending on the circumstances. Surprised creatures start with 3 failures. Unarmored creatures get 1 success, light armor gets none, medium armor gets 1 failure, and heavy armor gets 2 failures. These values can be changed by feats or skills, and other dice may be added.
-=======
 When combat starts every character and creature in combat rolls for initiative. By default you roll 5 normal dice, replacing 1 with an enhanced die for every point of Dexterity you have. Negative Dexterity converts normal dice to bad dice instead. You add a flat success/failure modifier depending on the circumstances. Surprised creatures start with 3 failures. These values can be changed by feats or skills, and other dice may be added.
->>>>>>> master
 
 Combatants take turns, starting with whoever rolled the highest initiative and ending with whoever rolled the lowest. After every combatant has had a turn the round ends and a new round begins. This repeats until combat is over or one side has defeated all other combatants.
 
@@ -681,11 +667,7 @@ Make a weapon attack against a creature. The actual damage, range, and effects o
 To make an attack you make an attack roll against the creatures defense. If you have more successes than the targets defense you hit, with ties favoring the defender and counting as a miss.
 
 ##### Grapple
-<<<<<<< HEAD
-Instead of making an attack you can attempt to grapple a creature. To grapple, you make an athletics check, with the target choosing to make either a dexterity or strength save. On success the creature is grappled by you. While grappling a creature your move and sprint speed are reduced to 1 and cannot be increased, however the grappled creature is dragged with you. Anything that changes the AP cost of your attacks also effects grapples. Likewise you may attempt to grapple as many times as you want as long as you have AP and aren't currently grappling anyone.
-=======
 Instead of making an attack you can attempt to grapple a creature. Make an athletics check, with the target choosing to make either a Dexterity or Strength save. On success you grapple the creature. While grappling a creature your move and sprint speed are reduced to 1 and cannot be increased, however the grappled creature is dragged with you. Anything that changes the AP cost of your attacks also effects grapples. Likewise you may attempt to grapple as many times as you want as long as you have AP and aren't currently grappling anyone.
->>>>>>> master
 
 You may end a grapple at any time. A grappled creature can attempt to free themselves on their turn by spending 5 AP. They make a Strength save against your athletics check, freeing themselves on success.
 
@@ -872,12 +854,6 @@ Some terrain can be used as cover, protecting creatures from attacks. Anything t
 
 | Cover | Bonus |
 |:----:|:-------------|
-<<<<<<< HEAD
-| Quarter  | +1 Superior Defense die |
-| Half  | +2 Superior Defense dice |
-| 3 Quarters | +3 Superior Defense dice |
-| Full | untargetable |
-=======
 | Quarter  | +1 superior defense die |
 | Half  | +2 superior defense dice |
 | 3 Quarters | +3 superior defense dice |
@@ -887,7 +863,6 @@ Some terrain can be used as cover, protecting creatures from attacks. Anything t
 Some dungeons may be submerged, or your adventures may take you to the depths of the sea. Creatures that do not have a swim speed or some method of moving underwater treat all underwater tiles as difficult terrain. Similarly, creatures that cannot breath underwater can only hold their breath for a limited time. A creature can hold their breath for 1 minute, adding a minute for each point of Stamina while not in combat. The exertion of combat greatly limits the time you can hold your breath, with creatures able to hold it for 1 turn, adding a turn for each point of Stamina.
 
 For every minute, or turn in combat, a creature goes beyond their limit they make an exhaustion check against 2 terrible dice and 1 bad die. On failure they gain a level of exhaustion.
->>>>>>> master
 
 
 ### Attack Types
@@ -964,40 +939,7 @@ You can still use magic items without identifying them, but its bonuses will be 
 
 Some magic items grant bonuses to your attributes. While there is no limit on how much this can increase an attribute, you cannot benefit from two items that give bonuses to the same attribute, instead taking only the larger one.
 
-<<<<<<< HEAD
-For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 to your Dexterity attribute. You still benefit from the remaining bonuses on those items.
-
-## Terms
-
-##### Finesse
-This weapon can use either Strength or Dexterity for attack rolls.
-
-##### Reach
-This weapon can make attacks 1 tile further, and their zone of control extends an additional tile.
-
-##### Loading
-This weapon can only be used to attack once per turn.
-
-##### Range
-This weapon can attack at range. Attacks further than the close range add 2 terrible dice to the roll, and cannot attack farther than the far range.
-
-##### Thrown
-This weapon can be thrown using the ranged weapon proficiency instead. You may use either Strength or Dexterity for the roll. Attacks further than the close range add 2 terrible dice to the roll, and cannot attack farther than the far range.
-
-##### Versatile
-This weapon can be used with two hands, using the two-handed proficiency. When used this way roll additional wound dice equal to the Versatile level.
-
-##### Two-Handed
-This weapon requires both hands to use.
-
-##### Resistance
-You reduce the number of wounds dealt by the level of resistance. For example, _Fire Resistance 1_ reduces all wounds taken from fire damage by 1.
-
-##### Vulnerable
-You increase the number of wounds dealt by the level of vulnerability. For example, _Bludgeoning Vulnerability 1_ increases the wounds taken by bludgeoning attacks by 1. If the attack can do damage, but didn't (due to rolling wound dice) a Vulnerable creature still takes the extra damage.
-=======
 For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 Dexterity. You still benefit from the remaining bonuses on those items.
->>>>>>> master
 
 ## Races
 
@@ -1131,11 +1073,7 @@ Sylvan are short compared to most, standing 3 and a half to 4 feet tall. Sylvan 
 
 ##### Forestfolk
 
-<<<<<<< HEAD
-You take no penalties when in dim light, and only add 1 bad die in total darkness. While not in sunlight you can reroll 1 die when making Charisma skill challenges.
-=======
 During a short or long rest you restore 1 extra wound and mana. This feature has no effect if you've taken fire damage since your last rest.
->>>>>>> master
 
 ___
 #### Half-Elf
@@ -1352,11 +1290,7 @@ ___
 - **Range:** 10+
 - **Duration:** instant
 
-<<<<<<< HEAD
-You attempt to send a telepathic message to a target you know. Make a spellcasting roll, adding a bad die for every 10 tiles you want the spell to travel, with a minimum of 1 bad die. On success the message is successfully broadcast. You know if the target received the message or not.
-=======
 You attempt to send a telepathic message to a creature you're familiar with or that you can see. Make a spellcasting roll, adding a bad die for every 10 tiles of distance between you and the recipient. On success the recipient receives the message. You know whether the spell is successful or not.
->>>>>>> master
 
 Add an enhanced die for every level cast above cantrip.
 
@@ -1494,11 +1428,7 @@ ___
 - **Range:** self
 - **Duration:** concentration, 1 hour
 
-<<<<<<< HEAD
-Create an invisible floating eye, visible only to those who can see the ethereal plane or have cast _Detect Magic_. You can see, but not hear, everything the eye can see in addition to your normal senses. You can command the eye to move, moving 5 tiles each turn. If the eye moves more than 10 tiles away from you, you must make a spellcasting roll against 2 Bad die, repeating this roll every minute. On fail the spell ends. The eye cannot move through solid objects, but can fit through holes as small as 1 inch.
-=======
 Create a floating eye, visible only to those who can see the ethereal plane or have cast the spell _Detect Magic_ on it. You can see, but not hear, everything the eye can see in addition to your normal senses. On your turn you can command the eye to move up to 5 tiles as a free action. If the eye moves more than 10 tiles away from you, you must make a spellcasting roll against 2 bad dice, repeating this roll every minute. On failure the spell ends. The eye cannot move through solid objects, but can fit through a 1 inch hole.
->>>>>>> master
 
 If the eye is able to fully spot a creature behind cover, they gain 1 less bonus die from cover against your attacks.
 
@@ -1658,26 +1588,9 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
 
-<<<<<<< HEAD
-Temporarily enchant a weapon with magic. Target up to 5 weapons, adding 1 terrible die to your spellcasting roll for each weapon targeted. On success the weapons are considered +1 magic weapons. If you lose or drop concentration before the hour is finished the weapons retain the magic for 1 minute before fading completely.
-
-Add a proficiency die for every level above 2nd.
-
-___
-#### Misty Step
-*2nd Level*
-- **Casting Time:** 3 AP
-- **Range:** 5/10
-- **Duration:** instant
-
-Teleport to a unoccupied point you can see in range. Make a spellcasting roll, adding 2 bad die if you attempt to teleport more than 5 tiles, with a max range of 10. On success you teleport to that position, preventing any opportunity attacks or attacks that trigger on entering someone's zone of control.
-
-Add a proficiency die for every level above 2nd.
-=======
 Temporarily enchant a weapon with magic. You may target up to 5 weapons, adding a terrible die to your spellcasting roll for each weapon. On success the weapons are considered +1 magic weapons. If you lose concentration before the hour is finished the weapons retain the magic for 1 minute before fading completely.
 
 Add an enhanced die for every level cast above 2nd.
->>>>>>> master
 
 ___
 #### Resilient Shield
@@ -1703,18 +1616,10 @@ ___
 
 You attempt to animate a simple object made of plant, wood, stone, or metal no more than 1 tile in size. If the object is part of a larger construction (a stone wall, a dirt mound, etc.) you add 1 terrible die to your roll as you try to force it free.
 
-<<<<<<< HEAD
-You attempt to animate a simple object made of plant, wood, stone, or metal no more than 1 tile in size. If the object is part of a larger construction (a stone wall, a dirt mound, etc.) you add 1 terrible die to your roll as you try to force it free.
-=======
->>>>>>> master
 
 Make a spellcasting roll adding 2 terrible dice, or 4 terrible dice if the material is made of metal. On success you create a golem out of the object. The golem has 3 wounds and gains Resistance 1 to a damage type of your choosing: physical, fire, cold, lightning, poison. On your turn it can take a move action to move 4 tiles and may make an attack as free actions. The golem's attack uses your spellcasting roll instead of a normal attack roll. The creature deals a wound and wound die of bludgeoning damage on hit, adding a wound die for every size increase. After the duration or if the caster is incapacitated the golem reverts to inanimate material. Golems made of metal have Resistance 1 to all damage types instead.
 
-<<<<<<< HEAD
-Make a spellcasting roll adding 2 terrible dice or 4 terrible dice if the material is metal. On success you create a golem out of the object. The golem has 3 wounds and acts on your turn. It can take a move action to move 4 tiles and can make a single attack. The golem's attack uses 5 normal dice, improving one die for every success and adding a die for every crit. The creature deals 1 wound on hit, adding a wound die for every size increase. After the duration or if the caster is incapacitated the golem reverts to inanimate material. Golems made of metal have _Resistance 1_ to physical damage.
-=======
 Add an enhanced die for every level cast above 3rd. At 5th level you may target a 2x2 area creating a golem with 5 wounds, and at 7th a 3x3 area creating a golem with 8 wounds and two attacks per turn.
->>>>>>> master
 
 
 ___
@@ -1785,11 +1690,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** cold
 
-<<<<<<< HEAD
-You conjure an barrage of icicles, hitting all adjacent creatures and blasting an area 3 tiles wide and 4 tiles long in front of you. Creatures make a Stamina save against your spellcasting, taking 2 wounds in damage, being staggered on crit.
-=======
 You conjure an barrage of icicles, hitting all adjacent creatures and blasting an area 3 tiles wide and 4 tiles long adjacent to you. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wounds in cold damage, being staggered on a critical.
->>>>>>> master
 
 Add a wound die for every level cast above 3rd.
 
@@ -1992,11 +1893,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-<<<<<<< HEAD
-You conjure fortifications of your design within a 5x5 tile area, extending 3 tiles high. The fortifications can be any shape, being made of shimmering bricks that sheds dim light over 2 tiles. The fortification can have multiple floors, stairs, ladders and doors, but cannot have complex structures such as a portcullis, draw bridge, or traps. It must contain at least one entrance, such as a door or gap 1 tile wide. Each tile square can be destroyed by taking a single wound in damage, or having more than 2000 lbs. of weight. The structure does not obey gravity and will not collapse if sections are destroyed. The fortifications have resistance to all damage except Force damage.
-=======
 You conjure fortifications of your design within a 5x5 tile area, extending 3 tiles high. The fortifications can be any shape and is made of shimmering bricks that sheds dim light over 2 tiles. The fortification can have multiple floors, stairs, ladders and doors, but cannot have complex structures such as a portcullis, draw bridge, or traps. It must contain at least one entrance, such as a door or gap 1 tile wide. Each tile square can be destroyed by taking a wound in damage, or having more than 2000 pounds of force or weight applied to it. The structure does not obey gravity and will not collapse if sections are destroyed. The fortifications have resistance to all damage except force damage.
->>>>>>> master
 
 This spell may be cast on existing fortifications, granting them the light and resistance effects, but not conjuring any new structures. If cast in this way the area effected is doubled on each side, covering a 10x10 tile area.
 
@@ -2045,10 +1942,6 @@ Ignited creatures take 1 wound of fire damage at the start of their turn and may
 
 Add a wound die and increase the width by 2 tiles for every level cast above 5th.
 
-<<<<<<< HEAD
-A great wall of fire, 10 tiles wide and 3 tiles high, erupts from the ground. Any creature that starts their turn in or enters the wall for the first time must make a defense roll against your spellcasting. On hit they take 1 wound and 3 wound dice in damage, and are ignited for 1 minute on a crit. On success they take half damage, rounded down. Any ranged weapon or spell attack made through the wall adds 2 bad die to the attack, being incinerated by the wall if the attack misses.
-=======
->>>>>>> master
 
 
 
@@ -2083,13 +1976,7 @@ ___
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-<<<<<<< HEAD
-Attempt to stabilize an area against magic, creating a 5x5 anti-magic field centered on a point in range you can see. Make a spellcasting roll against 2 Terrible die, on success the field is created. For the duration, any spell or magical effect passing through or targeted inside the field must have more successes than your spellcasting roll or else the spell has no effect. 
-
-If a spell entering the field does not require a roll it must make one following the rules above.
-=======
 Attempt to stabilize an area against magic, creating a 5x5 tile anti-magic field centered on a point in range you can see. Make a spellcasting roll against 3 terrible dice, on success the field is created. For the duration, any time a spell or magical effect passes through or targets a point inside the area make a spellcasting roll. If the spell has less successes than your spellcasting roll the spell fails and has no effect. If a spell entering the field does not require a roll it must make one, either determined by the GM or by rolling 1 enhanced die for every spell level of the effect.
->>>>>>> master
 
 The area increases by 2 and you add a superior die to your spellcasting rolls for each level above 6th.
 
@@ -2127,15 +2014,11 @@ ___
 - **Range:** self
 - **Duration:** concentration, 10 minutes
 
-<<<<<<< HEAD
-You tap in to the latent mana in your surroundings, empowering your spells. Make a spellcasting roll against 4 Terrible dice, on success you may reroll up to 5 dice between your spellcasting and spell damage rolls for the duration. Holding this connection is both mentally and physically exhausting. Should the spell end due to losing concentration you take 1 level of exhaustion, or 2 levels if you critically fail the concentration check.
-=======
 You tap in to the latent mana in your surroundings, empowering your spells. Make a spellcasting roll against 3 terrible dice. On success you may reroll up to 5 dice between your spellcasting and spell damage rolls for the duration. Holding this connection is both mentally and physically exhausting. Should the spell end due to failing a concentration check you take 1 level of exhaustion, or 2 levels if you critically fail the concentration check.
 
 Add an enhanced die for every level cast above 6th.
 
 
->>>>>>> master
 
 
 ___
@@ -2162,18 +2045,12 @@ ___
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** lightning, Thunder
 
-<<<<<<< HEAD
-You summon storm clouds covering a 20 tile radius centered on a point in range. For the duration the area is covered in light rainfall and strong winds. On casting this spell, and by spending 4 AP once per turn on following turns, you may activate one of the following effects:
-
-- **Gale winds:** The winds blow in a direction of your choosing, covering the area of the storm. All creatures in range must make a Strength save or be pushed back 2 tiles, and are knocked prone on crit. Until the start of your next turn moving into the wind counts as difficult terrain and ranged attacks made into the wind add a terrible die to the roll.
-=======
 You summon storm clouds covering a 40x40 tile area centered on a point in range. For the duration the area is covered in light rainfall and strong winds. On casting this spell, and by spending 3 AP once per turn on following turns, you may activate one of the following effects:
 
 ___
 - **Gale winds:** The winds blow in a direction of your choosing, covering the area of the storm. All creatures in the storm make a Strength save against your spellcasting roll. On failure they are pushed back 2 tiles, being knocked prone on a critical. Until the start of your next turn moving into the wind takes 3 tiles of movement for every tile moved and ranged attacks made into the wind add 2 terrible dice to the roll.
 
 - **Downpour:** Torrential rainfall covers the area, extinguishing fires and greatly reducing visibility. A creature attempting to see through the rain and mists make a perception check against your spellcasting roll. On failure they cannot see further than 3 tiles.
->>>>>>> master
 
 - **Thunderstrike:** Call town a thundering bolt at a creature inside the storm. Make a spellcasting roll against the creatures Dexterity save. On success they take 1 wound and 4 wound dice in lightning damage. All creatures within 2 tiles of the lightning blast make a Stamina save against your spellcasting roll instead. On failure they take 3 wound dice in thunder damage and are staggered.
 
@@ -2212,12 +2089,6 @@ Only a single Power Word can be active at once, casting another Power Word spell
 The damage from both sources increases by 1 wound die for every level cast above 7th.
 
 
-<<<<<<< HEAD
-- You gain Fire Resistance 3.
-- Any creature that moves adjacent to you,begins their turn there or makes a melee attack against you are burned by the fire and take 1 wound in damage.
-- You may spend 5 AP to unleash a cone of fire in front of you. The cone extends 5 tiles out and 3 tiles wide, all creatures hit by the fire must make a Defense roll against your spellcasting. On fail they take 1 wound and 2 wound dice in damage, or half damage rounded down on success.
-=======
->>>>>>> master
 
 
 
@@ -2289,11 +2160,7 @@ Summon the fires of hell, vaporizing everything in a narrow arc extending 9 tile
 
 The fire burns through trees, bushes, or other plant matter leaving only ash. On impacting stone or earth the fire burns through it, leaving a hole a size of half the remaining distance. Metal and other similar materials melt, leaving a hole only a quarter of the remaining distance. 
 
-<<<<<<< HEAD
-The fire burns through trees, bushes, or other plant matter leaving only ash. On impacting stone or earth the fire burns through it, leaving a hole a size of half the remaining distance. Metal and other similar materials burn, leaving a hole only a quarter of the remaining distance. Any armor or weapon a creature is holding is destroyed if it is mundane, otherwise taking 1 level of damage.
-=======
 Add 2 wounds for each level cast above 8th.
->>>>>>> master
 
 
 ___
@@ -2325,24 +2192,11 @@ Add 2 superior dice to the spellcasting roll for each level cast above 8th.
 
 ___
 #### Stabilize Warren
-<<<<<<< HEAD
-*8th Level*
-=======
 *8th level*
->>>>>>> master
 - **Casting Time:** 10 minutes
 - **Range:** self
 - **Duration:** 24 hours
 
-<<<<<<< HEAD
-You stabilize a Warren existing in the space between worlds. Make a spellcasting roll, adding 5 Terrible dice. On success you create a Warren with a name of your choosing. Any creature that knows the name can travel to your warren with the _Open Warren_ spell.
-
-The warren is accessible from the plane it was created on, but you may connect your warren to any plane you have been before. You may choose the atmosphere, terrain, and weather inside the warren. While the Warren is stabilized you automatically succeed spellcasting rolls while travelling through this Warren with the _Open Warren_ spell. After the duration the warren begins to decay and you lose any benefits for travelling this warren.
-
-Repeating this spell every day for a week will stabilize the Warren for 1 year.
-
-When cast at 9th level the duration increases to 1 year, and casting every day for a week stabilizes the warren for 77 years.
-=======
 You stabilize a warren in the space between realms. Make a spellcasting roll against 4 terrible dice. On success you create a warren with a name of your choosing. Any creature that knows the name can travel to your warren with the _Open Warren_ spell.
 
 The warren is accessible from the realm it was created on, but you may connect your warren to any realm you have been to before. You may choose the atmosphere, terrain, and weather inside the warren. While the warren is stabilized you automatically succeed spellcasting rolls made to travel= through it with the _Open Warren_ spell. After the duration the warren begins to decay and you lose any benefits for travelling this warren, fully decaying after 7 days.
@@ -2352,7 +2206,6 @@ Repeating this spell every day for a week will stabilize the Warren for 1 year.
 When cast at 9th level the duration increases to 1 year, or 77 years after casting for a week. At 10th level the duration increases to 10 years, or 300 years after casting for a week.
 
 ### Ninth Level
->>>>>>> master
 
 ___
 #### Armageddon
@@ -2362,11 +2215,7 @@ ___
 - **Duration:** 1 turn
 - **Damage Type:** bludgeoning/fire
 
-<<<<<<< HEAD
-You attempt to bring forth the ruinous powers of Armageddon. Make a spellcasting roll, conjuring up to 3 meteors and adding 3 terrible dice to your roll for each meteor conjured. On success, choose a tile in range for each meteor. At the start of your next turn the meteors impact the ground dealing 7 wound dice in bludgeoning damage and 7 wound dice in fire damage to all creatures within 7 tiles of the impact. A creature in range of multiple meteors instead adds 2 wound dice to both damage types for each additional meteor. Buildings take full damage regardless of roll.
-=======
 You attempt to bring forth the ruinous powers of Armageddon. Make a spellcasting roll, conjuring up to 3 meteors and adding 2 terrible dice to your roll for each meteor conjured. On success, choose a point in range for each meteor. At the start of your next turn the meteors impact the ground dealing 8 wounds in bludgeoning damage and 8 wound dice in fire damage to all creatures within 7 tiles of the impact. A creature in range of multiple meteors instead adds 2 wound dice to both damage types for each additional meteor. Buildings take full damage regardless of roll.
->>>>>>> master
 
 On failure the magic grounds itself through you, dealing 1 wound die in force damage for every failure in your spellcasting roll to you and every adjacent creature.
 
@@ -2499,15 +2348,9 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 5 minutes
 
-<<<<<<< HEAD
-You magically levitate an object or creature weighing less than 25 lbs. If the target is an unwilling creature you must make a spellcasting roll against their Strength save. On success, each turn you may move the target 3 tiles upwards or downwards. This movement does not provoke opportunity attacks, and does not move them with enough force to damage them, but can force them prone (against the ceiling or floor).
-
-If the target is an unwilling creature they make the save again at the end of their turn, freeing themselves from your levitation on success. If the target is in the air when the spell ends it drops to the ground normally. If the target becomes heavier than the spell can carry (for example a creature standing on top of a levitating slab) the spell ends.
-=======
 You magically levitate an object or creature weighing less than 40 lbs. If the creature is unwilling you make a spellcasting roll against their Strength save. On success you levitate the creature. Each turn you may move the creature 3 tiles up or down as a free action. This movement does not provoke opportunity attacks, and does not move them with enough force to damage them, but can force them prone (against the ceiling or floor).
 
 The creature can attempt to move while levitated, moving a single tile horizontally when taking the move or sprint actions. On their turn a creature can attempt to free themselves by spending 5 AP to remake the save. If the creature moves more than 10 tiles away from you or their weight exceeds the spells limit the spell ends.
->>>>>>> master
 
 The maximum weight doubles for every level cast above cantrip.
 
@@ -2577,11 +2420,7 @@ ___
 - **Range:** 10
 - **Duration:** 1 hour
 
-<<<<<<< HEAD
-You take on a charming persona, attempting to charm up to 5 creatures in range. Make a spellcasting roll against the targets Willpower, adding 1 bad die for every creature targeted. If the creature is hostile to you it adds 2 superior die to the roll. On success, the targets are charmed by you for the duration. Charmed creatures treat you as a friendly acquaintance. The charm ends if they take any damage, or if you act in a harmful way towards them. After the spell ends the target knows it was charmed.
-=======
 You take on a charming persona, attempting to charm up to 5 creatures in range you can see. Make a spellcasting roll against the creatures Willpower save, adding 1 bad die for every creature past the first. If the creature is hostile to you it adds 1 superior die to their save. On success, the creatures are charmed by you for the duration. Charmed creatures treat you as a friendly acquaintance. The charm ends if they take any damage, or if you act in a harmful way towards them. After the spell ends the target knows it was charmed.
->>>>>>> master
 
 Add an enhanced die for every level cast above 1st.
 
@@ -2681,11 +2520,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** psychic
 
-<<<<<<< HEAD
-You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the targets Intelligence. On success the creature takes 1 wound and 1 wound die of psychic damage, and must spend its AP fleeing from you on crit. The creature, if able, moves 1 tile per remaining AP up to their move speed, avoiding dangerous terrain if possible.
-=======
 You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the creatures Intelligence save. On success the creature takes a wound and a wound die of psychic damage, immediately fleeing on a critical. While fleeing the creature, if able, moves 1 tile per remaining AP up to their move speed, avoiding dangerous terrain if possible.
->>>>>>> master
 
 Regardless of success the creature is distracted by the whispers and cannot make opportunity attacks this turn.
 
@@ -2698,11 +2533,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-<<<<<<< HEAD
-Target up to 5 creatures in range you can see. Make a spellcasting roll, adding a bad die for every creature you target. On success, the move action costs 2 less AP and sprint costs 1 less AP. In addition, for every crit the targets move speed is increased by 1.
-=======
 Enchant up to 5 creatures you can see, imbuing them with unnatural speed. Make a spellcasting roll adding a bad die for each creature targeted. On success, the creatures move and sprint actions cost 1 AP. In addition, for every critical the creatures move speed is increased by 1.
->>>>>>> master
 
 Add an enhanced die for every level cast above 1st.
 
@@ -2731,10 +2562,6 @@ They can describe a condition to fulfill or trigger before they take the action 
 Add an enhanced die to the spellcasting roll for every level cast above 1st.
 
 
-<<<<<<< HEAD
-Add a proficient die to the spellcasting roll for every level above 1st.
-=======
->>>>>>> master
 
 
 ### Second Level
@@ -2907,11 +2734,7 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-<<<<<<< HEAD
-Use your willpower to suppress a creatures natural abilities. The target makes a Willpower save against your spellcasting. On fail you choose either Strength or Dexterity, the creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute. Each crit further decreases the proficiency by 1.
-=======
 Suppress a creatures natural abilities. Make a spellcasting roll against the creatures Willpower save. On success you choose either Strength or Dexterity. The creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute, decreasing by 1 for every critical.
->>>>>>> master
 
 You may target an additional creature for each level above 3rd.
 
@@ -2937,13 +2760,8 @@ ___
 
 Change a creatures size, either doubling or reducing it by half. When targeting an unwilling creature they make a Stamina save against your spellcasting roll. On fail, you choose if they are enlarged or reduced for the duration. This has no effect on huge or larger creatures.
 
-<<<<<<< HEAD
-- Enlarge: Your body doubles in all proportions, increasing your size by 1 level. You add 1 superior die to all strength skills, attacks and saves, and 1 terrible die to all dexterity skills, attacks and saves. Attacks you make deal an additional wound in damage.
-- Reduce: Your body halves in all proportions, decreasing your size by 1 level. You add 1 terrible die to all strength skills, attacks and saves, and 1 superior die to all dexterity skills, attacks and saves. Attacks you make replace all wounds dealt with wound dice.
-=======
 - Enlarge: Your body doubles in all proportions, increasing your size by 1 level. You add 1 superior die to all Strength skills, attacks and saves, and 1 terrible die to all Dexterity skills, attacks and saves. Attacks you make deal an extra wound in damage.
 - Reduce: Your body halves in all proportions, decreasing your size by 1 level. You add 1 terrible die to all Strength skills, attacks and saves, and 1 superior die to all Dexterity skills, attacks and saves. Attacks you make replace all wounds dealt with wound dice.
->>>>>>> master
 
 You may target an additional creature for every level cast above 3rd. All targets must either be enlarged or reduced.
 
@@ -2956,13 +2774,9 @@ ___
 
 You cover up to 5 creatures or objects in a false aura, changing how they appear to magical detection, such as _Detect Magic_ or _Identify_. Make a spellcasting roll adding 2 bad dice per object or creature. On success, you may do any of the following:
 
-<<<<<<< HEAD
-You can cause a mundane object to appear magical, a magical object appear mundane, or change it's magical aura to belong to a different school. For example, you could cause an arcane effect to appear as divine when seen by _Detect Magic_. You can change how a creature appears to different spells, such as disguising an Undead creature as a Human for the effects of _Consecrate Ground_. You may change how their race, type, or size appears to spells.
-=======
 - You can cause a mundane object to appear magical, a magical object appear mundane, or change it's magical aura to belong to a different school. For example, you could cause an arcane effect to appear as divine when seen by _Detect Magic_. 
 - You can change how a creature appears to spells, such as disguising an undead creature as a human for the effects of _Consecrate Ground_. 
 - You may change how their race, type, or size appears to spells. Spells restricted to a type or size of creature use their original type and size. For example _Bind Creature_ still adds bad dice against large creatures even if they are under the effects of this spell to appear as a medium creature.
->>>>>>> master
 
 If you cast this spell on a creature or object with the same effect every day for 30 days the aura becomes permanent, lasting until dispelled.
 
@@ -3157,13 +2971,9 @@ ___
 - **Range:** 2
 - **Duration:** concentration, 1 hour
 
-<<<<<<< HEAD
-Turn yourself or another creature or object invisible. Make a spellcasting roll against 2 terrible dice. On success the target becomes completely invisible while standing still. Moving causes a barely noticeable shimmer to the target. Creatures can make a perception check against your spellcasting to see a moving creature, spotting them on success. Attacks against an invisible creature add 2 terrible dice to their attack rolls.
-=======
 Turn yourself or another creature or an object invisible. Make a spellcasting roll against 2 terrible dice. On success the target becomes completely invisible while standing still. Moving causes a barely noticeable shimmer on the creature. Creatures may make a perception check against your spellcasting roll to see a moving creature, spotting them on success. Single target attacks, spells, and maneuvers against an invisible creature add 2 terrible dice to their rolls.
 
 Add an enhanced die to your spellcasting roll, and you may target an additional creature or object for every level cast above 4th. When targeting multiple creatures add a terrible die for each creature targeted past the 1st.
->>>>>>> master
 
 
 
@@ -3190,11 +3000,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** death
 
-<<<<<<< HEAD
-Reach out to a creature you can see and stop their heart. The target creature makes a Stamina save against your spellcasting roll, adding a Superior die if they have at least half their wounds, otherwise adding a Terrible die. On fail they take 5 wound dice in damage and all healing they receive is half as effective until they take a long rest. On crit they are stunned until the end of their next turn. On success they take half damage, rounded down, and have no additional effects. Casting this on a creature already under the effects of _Heart Grip_ has no effect.
-=======
 Reach out to a creature you can see and stop their heart. Make a spellcasting roll against the creatures Stamina save. On failure they take 5 wound dice in damage and all healing they receive is half as effective until they take a long rest, being stunned until the end of their next turn on a critical. On success they take half damage, rounded down, and have no additional effects. A creature already under the effects of _Heart Grip_ automatically saves.
->>>>>>> master
 
 Add a wound to the damage for every level cast above 5th.
 
@@ -3245,15 +3051,8 @@ ___
 #### True Sight
 *5th level*
 - **Casting Time:** 5 AP
-<<<<<<< HEAD
-- **Range:** Self
-- **Duration:** 1 Hour
-
-Enhance your vision, seeing through illusions and invisibility, seeing things for how they really are. Make a spellcasting roll against 2 bad die, on success you gain True sight out to 15 tiles, seeing into the ethereal plane.
-=======
 - **Range:** self
 - **Duration:** 1 hour
->>>>>>> master
 
 Enhance your vision, seeing through illusions, invisibility and the true forms of creatures. Make a spellcasting roll against 2 bad dice. On success you gain true sight out to 30 tiles.
 
@@ -3307,10 +3106,6 @@ The size of the miasma increases by 1 and you add an enhanced die to the spellca
 
 
 
-<<<<<<< HEAD
-A thick miasma flows from your body, covering a 7x7 tile area centered on a point in range. The miasma flows around walls and down hills, but cannot climb more than 2 tiles. Any creature that is not the caster that begins their turn inside or enters the miasma for the first time makes a Stamina save against your spellcasting, taking 1 wound and 1 wound die each of Poison and Death damage on fail or half as much on success. A creature that fails its save gains Poison 1 and Hex 1 regardless of immunities or other effects until the start of their next turn.
-=======
->>>>>>> master
 
 
 
@@ -3444,11 +3239,7 @@ ___
 
 Seal a creature, binding their body and spirit to the current location and preventing them from influencing their surroundings. Make a spellcasting roll against the creatures Willpower save, adding 5 terrible dice if the creature has half or more of its wounds. On success the creature is incased in a material based on your surroundings and is incapacitated. 
 
-<<<<<<< HEAD
-Seal a creature, binding their body and spirit to a location and preventing them from influencing their surroundings. Make a spellcasting roll against the targets Willpower, adding 4 terrible dice if the creature has half or more of its wounds. On success the creature is incased in a material based on your surroundings and is considered incapacitated. 
-=======
 While sealed, the creature cannot take damage, does not need to eat or breathe, and does not age. The creature cannot communicate through any means and any telepathic or magical link between this creature and others is severed. If the seal is damaged the creature is no longer incapacitated and the GM determines what actions the sealed creature can take. Destroying the seal ends the effects of this spell and returns the creature.
->>>>>>> master
 
 The seal slowly degrades over the duration. Casting this spell on a sealed creature refreshes the seal, repairing any damage and extends the duration to 10 years.
 
@@ -3633,10 +3424,6 @@ The duration increases by 1 day for each level cast above 1st.
 
 
 
-<<<<<<< HEAD
-On delivering the message the recipient is able to give a 1 minute message in return. If the beast is unable to find a creature matching that description or unable to return the response within the spells duration the beast reverts back to a normal animal and the message is lost.
-=======
->>>>>>> master
 
 
 ___
@@ -3684,20 +3471,7 @@ ___
 - **Range:** 15
 - **Duration:** 10 minutes
 
-<<<<<<< HEAD
-A chilling fog appears in a 5x5 area centered on a point in range you can see. Make a spellcasting roll, all creatures gain slow equal to the number of crits rolled, with a minimum of 1. All creatures inside the fog gain fire resistance 1. The fog heavily obscures the area.
-
-The size and range of the fog increase by 2 for every level above 1st.
-
-___
-#### Close Wounds
-*1st Level*
-- **Casting Time:** 5 AP
-- **Range:** Touch
-- **Duration:** instant
-=======
 A chilling fog covers a 5x5 tile area centered on a point in range you can see. A creature that enters the fog for the first time this round or starts their turn there makes a Stamina save against your spellcasting roll. On failure they gain slow 1 for the next minute, increasing to slow 2 on a crit. All creatures inside the fog have _Resistance 1_ to fire damage. The fog heavily obscures the area counting as quarter cover.
->>>>>>> master
 
 The size and range of the fog increases by 2 for every level cast above 1st.
 
@@ -3819,11 +3593,7 @@ ___
 
 Conjure a rejuvenating, fruit bearing bush. The bush can have up to 5 fruit, making a spellcasting roll, adding a bad die per fruit. On success a creature may eat one of the fruit during a short or long rest to restore a healing surge. They may also remove a poison or disease affecting them, unless the effect comes from a spell cast at a higher level than _Seed of Renewal_.
 
-<<<<<<< HEAD
-The bush can be used an additional time for every level cast above 2nd.
-=======
 Add an enhanced die for every level cast above 2nd.
->>>>>>> master
 
 ___
 #### Shield of Faith
@@ -3856,11 +3626,7 @@ ___
 - **Range:** 5
 - **Duration:** 1 turn
 
-<<<<<<< HEAD
-Channel your faith to form a protective wall centered on a point in range you can see. Make a spellcasting roll against 2 bad die, on success you create a shimmering wall 4 tiles wide and 4 tiles tall. The wall is see-through and blocks creatures and projectiles from passing through it. Using 2 terrible dice instead.
-=======
 Channel your faith to form a protective wall 4 tiles wide and 4 tiles tall centered on a point in range you can see. Make a spellcasting roll adding 2 bad dice. On success the wall is created. The wall is transparent, blocking creatures and projectiles from passing through it. This can be cast as a reaction using 2 terrible dice instead of 2 bad dice. The wall lasts until the start of your next turn.
->>>>>>> master
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -3972,16 +3738,7 @@ ___
 - **Eagle:** You add 2 superior dice to perception checks. The eagle has a flying speed of 5/5.
 - **Wolf:** You add 1 superior die to conversation and diplomacy checks. When helping or being helped by an ally you may reroll 3 dice.
 
-<<<<<<< HEAD
-- Elk: While within 10 tiles you gain +3 proficiency to athletics challenges and your move speed increases by 1.
-- Rabbit: While on your person, gives you +1 proficiency to Dexterity saves and Acrobatics challenges. The rabbit cannot be targeted while on your person.
-- Bear: Your max wounds increase by 1.
-- Snake: +1 proficiency to Intelligence saves and you cannot be charmed.
-- Eagle: +3 to perception proficiency. The eagle has a flying speed of 5/5.
-- Wolf: +3 to diplomacy proficiency. When helping or being helped by an ally, you may reroll 3 dice.
-=======
 Add an enhanced die for every level cast above 3rd.
->>>>>>> master
 
 
 ___
@@ -3993,24 +3750,11 @@ ___
 
 You attempt to summon a willing creature to your location. Make a spellcasting roll, adding dice according to the table below. On success the creature is summoned to the location you touch. The creature gets a glimpse of the area they are being summoned to when the spell is cast and may refuse the summons.
 
-<<<<<<< HEAD
-You may instead cast this into a small object or trinket using the 'Passing Acquaintance' difficulty. Successfully casting this every day for 10 days makes the spell permanent. Anyone holding the object and speaking the command word is teleported to the casting location. For the spell to take hold it must be cast each day in the same place with the same target location.
-=======
 You may instead cast this into a small object or trinket using the 'Passing Acquaintance' difficulty. Successfully casting this in the same location every day for 3 days permanently binds the spell to the object. A creature holding the object that speaks the command word is teleported to the casting location. After using it reverts to a mundane object.
->>>>>>> master
 
 Add an enhanced die for every level cast above 3rd.
 
 ##### Summoning Difficulty
-<<<<<<< HEAD
-| Familiarity | Difficult |
-|:----:|:-------------|
-| Second hand description or unknown name  | 4 Terrible Die |
-| Passing Acquaintance  | 2 Terrible Die, 1 Bad Die |
-| Casual Friendship | 1 Terrible Die, 1 Bad Die |
-| Intimate Knowledge | 1 Bad Die |
-| More than 200 miles away | +1 Terrible Die |
-=======
 | Familiarity | Difficulty Dice |
 |:----|-------------:|
 | Second hand description or unknown name  | 4T |
@@ -4018,7 +3762,6 @@ Add an enhanced die for every level cast above 3rd.
 | Casual friendship | 1T/2B |
 | Intimate knowledge | 2B |
 | More than 200 miles away | +1T |
->>>>>>> master
 
 ___
 #### Traveler's Protection
@@ -4067,13 +3810,9 @@ ___
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
 
-<<<<<<< HEAD
-Bind a creature to this plane of existence, targeting a creature in range you can see. The target must make a Willpower save against your spellcasting. On fail, the creature is bound for the duration. While bound they are unable to leave this plane through any means, nor can they magically teleport or enter the ethereal plane. On crit, the target gains Slow 1 for the duration.
-=======
 Bind a creature in range you can see to this realm. Make a spellcasting roll against the creatures Charisma save. On success the creature is bound for the duration. While bound they are unable to leave this realm through any means, nor can they magically teleport, enter the ethereal plane, or possess a creature. Ethereal creatures are forced to the material plane, losing any resistances and cannot move through solid objects. The creature gains slow 1 for the duration on a critical.
 
 Add an enhanced die for every level cast above 4th.
->>>>>>> master
 
 
 ___
@@ -4083,11 +3822,7 @@ ___
 - **Range:** 3 miles
 - **Duration:** instant
 
-<<<<<<< HEAD
-You spend time in meditation, listening to the land itself. Covering a radius 3 miles out from your location you may learn any number of things, adding a Bad die to the roll for each:
-=======
 You spend time in meditation, listening to the land itself covering an area 3 miles out in all directions. Make a spellcasting roll adding a bad die for each piece of information. On success you learn any of the following you've chosen:
->>>>>>> master
 
 - General lay of the land and bodies of water.
 - Prevalent plants, creatures, or minerals.
@@ -4106,11 +3841,7 @@ ___
 - **Duration:** instant
 - **Damage Type:** holy
 
-<<<<<<< HEAD
-Channel holy energy to destroy a creature living against the natural law. targeting an undead or monstrosity in range that you can see, make a spellcasting roll against their Stamina. On success they take 7 wounds, or taking 6 wounds minus 1 for every success difference between your rolls on fail. Regardless of success, the target gains Slow equal to the number of crits you rolled.
-=======
 Channel holy energy to destroy an undead or monstrosity. Make a spellcasting roll against the creatures Stamina save. On success they take 7 wounds, or 2 wounds on failure. Regardless of success the creature gains slow 1 for 1 minute.
->>>>>>> master
 
 The number of wounds dealt increases by 2 for every level cast above 4th.
 
@@ -4121,11 +3852,7 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-<<<<<<< HEAD
-Choose a target in range you can see that is capable of looking at you. The target must make a Stamina save against your spellcasting. If they succeed they are paralyzed until the end of their next turn and make no more saving throws. On fail they are paralyzed for 1 minute. While they are paralyzed they must make a Stamina save against your spellcasting, on fail turning into stone. 
-=======
 Attempt to purify a hostile celestial, fey, or elemental, returning it into a neutral or friendly state. Make a spellcasting roll against the creatures Charisma save. If they have less than half of their wounds remaining add 2 superior dice to your roll. On success they are no longer hostile to you or your allies, but not necessarily helpful. They remain this way for 24 hours or until you or an ally takes a hostile action against them.
->>>>>>> master
 
 Add an enhanced die for every level cast above 4th.
 
@@ -4150,11 +3877,7 @@ ___
 - **Range:** touch
 - **Duration:** instant
 
-<<<<<<< HEAD
-Attempt to shape stone to a suitable form. Make a spellcasting roll against 2 bad die, on success an area of stone no larger than 1 tile takes the form of your choosing. The stone can have multiple parts, but cannot be more complex than a door. You can shape the stone into anything following these constraints, such as a weapon, an idol, or a chair. This can be used to seal a door shut or create a passage way through a wall as long as the wall is no more than 1 tile thick. After the spell ends the stone returns to its original shape.
-=======
 Attempt to shape stone into a form of your choosing. Make a spellcasting roll adding 2 bad dice. On success an area of stone no larger than 2 tiles takes the form of your choosing. The stone can have multiple parts, but cannot be more complex than a door. You can shape the stone into anything following these constraints, such as a weapon, an statue, or a chair. This can be used to seal a door shut or create a passage way through a wall.
->>>>>>> master
 
 You number of tiles shaped increases by 2 for each level cast above 4th. The tiles must be adjacent.
 
@@ -4167,11 +3890,7 @@ ___
 
 You attempt to call forth a demon from the abyss at a point in range you can see. Make a spellcasting roll against 2 terrible dice. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear at the target location. When they appear the demons make a Willpower save against your raw Willpower. On failure the demons obey you for the next hour after which they revert to their default behavior. Each successful casting of _Summon Demon_ in this location over the past day adds 1 terrible die to your spellcasting roll.
 
-<<<<<<< HEAD
-The maximum CR increases by 2 for every level cast above 4th.
-=======
 The maximum CR increases by 3 for every level cast above 4th.
->>>>>>> master
 
 ___
 #### Ward From Death
@@ -4277,11 +3996,7 @@ ___
 
 A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity entering the bright light for the first time this round or starting their turn there makes a Stamina save against your spellcasting roll. On failure they take 1 wound in holy damage and are blind until the end of their next turn. Any creature making an attack roll against you adds a terrible die to their roll. You and any creatures you choose inside the light adds a superior die to all saving throws.
 
-<<<<<<< HEAD
-A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity starting their turn inside or entering it for the first time must make a Stamina save against your spellcasting. On fail they take 1 wound and are blind until the end of their next turn. Any creature making an attack roll against you add 1 terrible die to their roll. You and any creatures you choose inside the light add 1 superior die to all saving throws.
-=======
 The radius of the bright light increases by 1 for every level cast above 5th.
->>>>>>> master
 
 
 ___
@@ -4320,11 +4035,7 @@ ___
 - **Range:** touch
 - **Duration:** instant
 
-<<<<<<< HEAD
-You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home plane. This spell has no effect if the creature is on it's home plane of existence. Undead can always be targeted regardless of their home plane. The target makes a Charisma save against your spellcasting, adding 2 superior dice if they are not under any conditions. On fail the creature is banished to their home plane, ending any possession or effects this creature was maintaining.
-=======
 You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home realm. If the creature is in it's home realm it is instead banished to a warren, appearing within 40 miles of your location within the next hour. Make a spellcasting roll against the creatures Charisma save, adding a bad die if the creature has no negative conditions. On success the creature is banished to their home realm or warren, ending any possession or effects this creature was maintaining.
->>>>>>> master
 
 Add an enhanced die to the roll for every level cast above 6th.
 
@@ -4396,13 +4107,7 @@ You speak a divine word to smite any creatures in range that can hear you. Make 
 - 5 wounds or fewer: blinded and feared for 10 minutes
 - 3 wounds or fewer: killed instantly
 
-<<<<<<< HEAD
-Regardless of the outcome, any undead, demon, or celestial targeted by this spell takes 3 wound dice in damage and are blinded for 1 minute.
-
-Add a proficient die to your roll for every level cast above 7th.
-=======
 Regardless of the outcome, any undead, demon, or celestial targeted by this spell takes 3 wounds in holy damage.
->>>>>>> master
 
 Add a superior die to your roll for every level cast above 7th.
 
@@ -4419,11 +4124,7 @@ ___
 
 A blinding light shines down covering a 5x5 tile area in sunlight centered on a point in range.  You may choose any number of creatures inside the light to be unaffected. All other creatures make a Charisma save against your spellcasting roll. On failure the creatures are pushed to the closest empty tile outside of the light and take 2 wound dice in holy damage.
 
-<<<<<<< HEAD
-A blinding light shines down centered on a point in range. The light covers a 5x5 tile area, covering it in sunlight. You may choose any number of creatures inside the light to be unaffected, all other creatures must make a Charisma save against your spellcasting. On fail the creatures are pushed to the closest unoccupied space outside of the light and take 2 wound die in damage.
-=======
 Creatures inside the light are considered to be in a different realm and any attack or spell made through the the light fails. A creature can attempt to force their way into the light, making a Charisma save against your spellcasting roll. On success they enter the light as normal, otherwise they are burned by the light, taking 2 wound dice in holy damage and cannot enter.
->>>>>>> master
 
 Add a superior die and increase the area by 2 for every level cast above 8th.
 
@@ -4435,14 +4136,10 @@ ___
 - **Range:** 5
 - **Duration:** instant
 
-<<<<<<< HEAD
-You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the target creature restores wounds equal to the rolls successes. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below. In addition, you may heal a Lesser or Greater wound for every crit rolled.
-=======
 You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the creature restores wounds equal to the rolls successes. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below. All lesser and greater wounds are removed.
 
 Add 2 superior dice to your roll for every level cast above 8th.
 
->>>>>>> master
 
 ### Ninth Level
 
@@ -4531,13 +4228,8 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 ___
 #### Aimed Shot
 - **AP Cost:** 5-8/4-8
-<<<<<<< HEAD
-- **Weapon:** Ranged Weapon
-- **Range:** min 15 ft.
-=======
 - **Weapon:** any ranged weapon
 - **Range:** min 3 tiles, weapon range
->>>>>>> master
 - **Level Required:** 1/7
 
 Make a ranged attack against a creature, adding an enhanced die for each AP spent above the minimum.
@@ -4744,11 +4436,7 @@ ___
 - **Range:** melee
 - **Level Required:** 3/12
 
-<<<<<<< HEAD
-You bring the full weight of your weapon down on a target. Make a normal weapon attack, adding a Proficient die to the roll. On hit they take weapon damage, adding 1 wound in physical damage. On crit you may reroll all wound dice, taking the new value.
-=======
 You bring the full weight of your weapon down on a creature. Make a melee attack against a creature, adding an enhanced die to the roll. On hit they take an extra wound in damage, and you may reroll all wound dice on a critical.
->>>>>>> master
 
 ***Enhanced:*** Add a Superior die instead of an enhanced die to the attack roll and an extra wound die to the damage.
 
@@ -4858,11 +4546,7 @@ ___
 
 Make a melee attack against a creature, adding a normal die. On hit you deal normal damage, breaking their armor on a critical. Armor broken this way provides 1 less defense die until repaired.
 
-<<<<<<< HEAD
-***Enhanced:*** Add a superiority die instead of a proficient die.
-=======
 ***Enhanced:*** Add an enhanced die instead of a normal die.
->>>>>>> master
 
 ___
 #### Roundhouse Kick
@@ -4921,13 +4605,9 @@ ___
 
 Only usable when targeted by an attack, maneuver, spell attack, or when travelling over hazardous terrain. You dive to avoid the attack, making a dexterity save instead of the normal save for the attack. On success you avoid the attack and may move up to 2 tiles in any direction. This maneuver may only be used once per round.
 
-<<<<<<< HEAD
-***Enhanced:*** The targets superior defense dice are replaced with normal defense dice. On crit, the target takes a random lesser wound instead of adding a wound die.
-=======
 ***Enhanced:*** You have expertise on the dexterity save.
 
 ### Level 7
->>>>>>> master
 
 ___
 #### Disarm
@@ -4936,14 +4616,10 @@ ___
 - **Range:** melee
 - **Level Required:** 7/15
 
-<<<<<<< HEAD
-You attempt to disarm an opponent, forcing them to drop their weapon. The target makes a Defense or Dexterity save against your unarmed attack, on hit their weapon falls to the ground, landing in an adjacent tile of your choosing. A creature standing on that tile can spend 2 AP retrieving the weapon.
-=======
 You attempt to disarm a creature, forcing them to drop their weapon. The creature makes a defense or Dexterity save against your unarmed attack. On success they drop their weapon, landing on a tile of your choosing within 2 tiles of the creature. A creature standing on that tile can spend 2 AP to retrieve the weapon.
 
 ***Enhanced:*** The creature is also staggered.
 
->>>>>>> master
 
 
 
@@ -5039,18 +4715,8 @@ Known to you or not, you have been given a blessing by a powerful being. You gai
 #### Coven Witch
 You are trained in curse spells. You start with 4 mana and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency nature and insight.
 
-<<<<<<< HEAD
-#### Soldier
-You learn 1 maneuver you meet the requirements for and gain proficiency in 3 martial weapons. You may also choose one of the following trainings:
-- **Shield Master:** When attacked, as long as you are holding a shield you may spend 1 AP to reroll 2 of the attackers dice, taking the new values.
-- **Weapon Expert:** Choose a weapon type, when making attacks with this weapon you may reroll 1 die, taking the new value.
-- **Defensive Stance:** You may reroll 1 defense die when making a defense roll.
-- **Ranger:** + 2 to your attack range before penalties, and you take no penalties from attacking when someone is in your zone of control.
-You begin with Hide Armor, and 3 weapons you are proficient in.
-=======
 #### Disciple
 You have trained under masters, learning to perfect your mind and body. You have expertise in 2 saving throws of your choice, 2 proficiency in a weapon type, and 1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
->>>>>>> master
 
 #### Druid
 You have studied the natural world and have gained an affinity with nature. You have 1 proficiency in nature and animal handling and have expertise in those skills. You start with 2 mana and have a codex with two cantrips of your choice.
@@ -5058,13 +4724,8 @@ You have studied the natural world and have gained an affinity with nature. You 
 #### Enchanter
 You have learned the trade of an enchanter allowing you to empower mundane items. You have 1 proficiency in lore, arcana, diplomacy, and enchanting tools. Enchantments cost half as many enchanting supplies when done by yourself. You start with 2 mana, a codex with 2 cantrips, and enchanting tools.
 
-<<<<<<< HEAD
-#### Ranger
-Your time hunting and wandering through the wilderness has honed your skills. You gain 1 proficiency with a ranged weapon, Nature, Survival and Animal Handling and your Move speed increases by 1 tile. In addition, you can reroll 1 die when making an initiative, Nature, Survival, or Animal Handling roll. You start with Studded armor and 1 weapon of your choice.
-=======
 #### Magician's Apprentice
 You are trained proficiency in arcane spells. You start with 4 mana and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in arcana and lore.
->>>>>>> master
 
 #### Noble
 You start with double the starting silver and have 1 proficiency in a weapon type. Your skill in trade and court proceedings allows you to reroll 1 die for all Charisma skill checks. You have 5 proficiency points to spend among skills. You start with padded armor and 1 martial weapon of your choice.
@@ -5146,13 +4807,8 @@ You keep a log of all creatures you've studied. During a long rest you can prepa
 #### Longcaster
 Spells you cast with a range of 5 tiles or more have 3 extra range. Spell attacks against creatures in cover grant them one less defense die.
 
-<<<<<<< HEAD
-#### Battle Mage
-Once per turn, if you cast a cantrip or 1st level spell your next basic attack costs 2 less AP. Alternatively if you make a basic attack your next cantrip or 1st level spell costs 2 less AP, with a minimum of 1. The spell level increases to 2 at 7th level, and 3 at 15th level, and 4th at 25th level.
-=======
 #### Lucky
 When you make a roll you may reroll dice equal to your Charisma score. This can be used twice, after which you must take a long rest to regain this feat.
->>>>>>> master
 
 #### Priest
 You have training in divine spells.
@@ -5205,11 +4861,7 @@ If you move at least 2 tiles before making an attack or maneuver you deal an ext
 #### Beast Whisperer
 *Requires proficiency in animal handling*
 
-<<<<<<< HEAD
-At any time you may use Action Surge to regain 7 AP, and you may use a second maneuver on your turn. After using this feat, you must take a short or long rest before you can use it again.
-=======
 You gain expertise in animal handling. Your skill with animals allows you to pacify even hostile beasts. You can spend your turn attempting to calm the beast, making an animal handling roll. On success the creature is no longer hostile.
->>>>>>> master
 
 You may make an animal handling roll against a beast that hasn't been hostile towards you in the past day in an attempt to befriend it. On success the beast sees you as an ally and on a critical the beast will defend you while in its habitat.
 
@@ -5228,12 +4880,8 @@ In addition to the spells you normally prepare, you may prepare divine spells eq
 
 When making an attack or maneuver against a creature you add a wound die to the damage on a critical.
 
-<<<<<<< HEAD
-When casting non-damaging spells on allies, add a superior dice to the roll if you are not one of the targets.
-=======
 #### Burst of Speed
 *Requires proficiency in athletics*
->>>>>>> master
 
 With a running start you can easily jump up to your Strength score in tiles, or half that from a standstill. When taking the sprint action you can spend 1 more AP to add your athletics proficiency to your sprint speed instead of your Dexterity score.
 
@@ -5680,16 +5328,7 @@ Only those blessed by a powerful demon can take these feats.
 #### Elder Sight
 *Requires 2 Willpower*
 
-<<<<<<< HEAD
-You permanently gain the benefits of the spell _Dark Sight_, and gain 1 proficiency in Perception.
-
-#### One with Shadows
-*Requires proficiency in Stealth*
-
-While not in direct sunlight you have expertise in Stealth. While in dim light or darkness you can spend 5 AP to become invisible. The invisibility ends when you move or take an action.
-=======
 You are permanently under the effects of the spell _Dark Sight_ and you gain 1 proficiency in perception.
->>>>>>> master
 
 #### Eldritch Force
 *Requires proficiency in curse spells, 8th level*
@@ -5751,54 +5390,6 @@ A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the att
 
 ### Mundane Gear
 
-<<<<<<< HEAD
-##### Weapons
-| | Weapon | Modifiers | Damage | Type
-|:----:|:----:|:----:|:----:|:----:|
-| *Simple*  |  |  |  | |
-| | Dagger  | Finesse | 1 | Piercing |
-| | Club  |  | 1 wound die | Bludgeoning |
-| | Spear | Reach | 1 | Piercing |
-| | Crossbow | Loading | 1 | Piercing |
-| *Martial*  |  |  |  | |
-| | Javelin | Thrown 5/10, _Finesse_ | 1 | Piercing |
-| | Hatchet | Thrown 5/10 | 1 | Slashing |
-| | Axe |  | 1 | Slashing |
-| | Halberd | Versatile 1, Reach | 1 | Piercing |
-| | Flail | Versatile 1 | 1 | Bludgeoning |
-| | Mace |  | 1 | Bludgeoning |
-| | Warhammer | Two-Handed | 1 + 1 wound die | Bludgeoning |
-| | Sword | Finesse | 1 | Slashing |
-| | Great Sword | Two-Handed | 1 + 1 wound die | Slashing |
-| | Battle Axe | Two-Handed | 3 wound dice | Slashing |
-| | Bow | Range 15/25 | 1 + arrow damage | Piercing |
-| | Arrow |  | 1 wound die | Piercing |
-
-##### Armor
-
-There are 3 different types of armor: Light, Medium, and Heavy. There is no proficiency required to wear armor, but different types give different penalties. Medium armor adds 2 Bad dice to all Dexterity saves, Stealth checks, and spellcasting rolls. Heavy armor adds 2 Terrible dice to all Dexterity saves, Stealth checks, and spellcasting rolls.
-
-If you do not meet the Strength requirement for wearing your armor you add 1 terrible die to all attack, attribute saves and spellcasting rolls.
-
-| | Armor | Defense | Strength | Dex/Spell Penalty
-|:----:|:----:|:----:|:----:|:----:|
-| *Light*  |  |  |  | |
-|  | Padded | 0/3 | - | None |
-|  | Leather, Studded | 1/2 | 0 | None |
-| *Medium*  |  |  |  | |
-|  | Hide | 1/3 | 1 | 2 Bad dice |
-|  | Chain Shirt, Scalemail | 2/2 | 2 | 2 Bad dice |
-| *Heavy*  |  |  |  | |
-|  | Half Plate, Splint | 2/3 | 3 | 2 Terrible dice |
-|  | Full Plate | 3/2 | 4 | 2 Terrible dice |
-| *Shield*  |  |  |  | |
-|  | Buckler | +0/1 | 0 | None |
-|  | Shield | +1/0 | 2 | None |
- 
-</div>
-
-<div class='wide'>
-=======
 #### Weapons
 <br/>
 
@@ -5844,7 +5435,6 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 | *Shield*  |  |  | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Buckler | +0/1 | 0 | 15sc | none |
 | &nbsp;&nbsp;&nbsp;&nbsp;Shield | +1/0 | 2 | 50sc | none |
->>>>>>> master
 
 ___
 ### Wounds
@@ -6017,11 +5607,7 @@ ___
 - **Ingredients:** 2 Nightshade, 1 Scorpion Venom
 - **Roll:** 2 bad dice, 2 terrible dice
 
-<<<<<<< HEAD
-On hit inflicts Poison 1, or Poison 2 on critical. The creature is paralyzed as long as they are poisoned. Lasts for 1 minute.
-=======
 On hit inflicts poison 1, or poison 2 on a critical. The creature is paralyzed as long as they are poisoned. Lasts for 10 minutes.
->>>>>>> master
 
 
 ___
@@ -6032,45 +5618,12 @@ ___
 On hit inflicts poison 3 for 10 minutes.
 
 ___
-<<<<<<< HEAD
-#### Enchanters Tools
-  During a long rest you may attempt to enchant a single piece of mundane gear. Enchanted gear lasts for 3 days and count as magical equipment for the duration. After the Enchantment ends the gear returns to being mundane. To enchant a piece of gear you must have mana available and enough enchanting supplies for the enchantment. Then you must pass the enchanting roll, with failure consuming the mana and supplies but not giving the enchantment. Most cities and towns will sell enchanting supplies.
-=======
 ### Enchanters Tools
 During a long rest you may attempt to enchant a piece of mundane gear. Enchantments lasts for 3 days and counts as magical equipment for the duration. After the enchantment ends the gear returns to normal. To enchant a piece of gear you must have mana and enchanting supplies available. Make an enchanting roll, adding the difficulty dice for the enchantment. On success you make the enchantment, otherwise losing the supplies on failure. Most cities and towns will sell enchanting supplies.
->>>>>>> master
   
 You may spend additional mana to improve your roll, adding an enhanced die for every 2 mana spent. Ammunition enchantments are permanent, lasting until the ammunition is used.
   
   ##### Enchantments
-<<<<<<< HEAD
-| | Name | Mana | Supplies | Roll | Effect |
-|:----:|:-----:|:-----:|:-----:|:-----:|:-------------|
-| _Weapon_ | | | | | | 
-| | Skillful | 1 | 1 |2B | You gain 1 proficiency with this weapon type. |
-| | Brutality | 2 | 3 |2B/1T | When you critical with this weapon, add an extra wound die to the damage. |
-| | Hexblade | 2 | 3 |2B/1T | When you critical with this weapon the target gains Hex 1 for 1 minute. |
-| | Quickened | 3 | 4 |2B/2T | The first attack made with this weapon each turn costs 1 less AP. |
-| Armor | | | | | | 
-| | Durable | 2 | 4 |2B/2T | If a spell or effect targeting this armor would damage it, roll a wound die. On a blank the armor takes no damage. |
-| | Lightened | 3 | 4 |2B/2T | Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalties and initiative |
-| _Shield_ | | | | | | 
-| | Lesser Block | 2 | 2 |2B/1T | You may reroll 1 defense die when making defense rolls. |
-| | Greater Block | 4 | 5 |2B/3T | You may reroll 2 defense die when making defense rolls. |
-| _Ammunition_ | | | | | | 
-| | Staggering | 1 | 1 |2B | On critical the target is staggered until the start of your next turn. Makes 3 ammunition |
-| | Slowing | 1 | 1 |2B | On critical the target gains Slow 1 until the start of your next turn. Makes 3 ammunition |
-| | Homing | 2 | 2 |2B/1T | Creates 3 +1 magical ammunition. |
-| | Slaying | 3 | 2 |2B/3T | Choose a creature type. This arrow deals an extra 3 wounds against creatures of this type. |
-
-
-  
-</div>
-
-___
-#### Scribing Tools
-A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a single rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and wards requires mana and uses a mix of gemstones and enchanting supplies which can be found in most cities.
-=======
 |Name | &nbsp;&nbsp;Mana&nbsp;&nbsp; | &nbsp;&nbsp;Supplies&nbsp;&nbsp; | Dice | Effect |
 |:-----|:-----:|:-----:|:-----:|-------------:|
 | _Weapon_ | | | | | 
@@ -6093,7 +5646,6 @@ A set of tools for writing spell scrolls and inscribing runes. During a long res
 ___
 ### Scribing Tools
 A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and runes requires mana and uses a mix of gemstones and enchanting supplies which can be found in most cities and towns.
->>>>>>> master
 
 #### Inscribing Spell Scrolls
 You can create a spell scroll for any spell in your codex that you are able to cast. Creating a spell scroll of 3rd level or lower can be done during a long rest, with spells of 4th level and higher taking 1 day of work for each level above 3rd. You must have mana available which is consumed in creating the scroll.
@@ -6115,11 +5667,7 @@ When copying spells from a codex you can instead use your scribing tools to crea
 | 9th | 12 | 10pt gemstone | 10 | 2B/5T |
 
 #### Inscribing Runes
-<<<<<<< HEAD
-You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe you need to have the required supplies and mana which are consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Once triggered the rune is consumed regardless of the result. Unless otherwise stated, runes that augment spells require no AP to use while placing a rune takes 2 AP.
-=======
 You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe a rune you need to have the required supplies and mana which are consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Unless otherwise stated, runes that augment spells require no AP to use while placing a rune takes 2 AP.
->>>>>>> master
 
 ##### Runes
 | Rune | &nbsp;Mana&nbsp; | &nbsp;Gemstones&nbsp; | &nbsp;Supplies&nbsp; | &nbsp;Challenge&nbsp; | Effect |
