@@ -801,8 +801,7 @@ When combat starts every character and creature in combat rolls for initiative. 
 
 Combatants take turns, starting with whoever rolled the highest initiative and ending with whoever rolled the lowest. After every combatant has had a turn the round ends and a new round begins. This repeats until combat is over or one side has defeated all other combatants.
 
-```
-```
+Combatants take turns, starting with whoever rolled the highest initiative and ending with whoever rolled the lowest. After every combatant has had a turn the round ends and a new round begins. This repeats until combat is over or one side has defeated all other combatants.
 
 ### On your turn
 
