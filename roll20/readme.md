@@ -3,6 +3,51 @@
 Here you'll find all the resources you'll need to start a game of Farhome using roll20. Due to using custom character sheets and API scripts, at least one player will need to have a pro subscription to create the game.
 
 ## Character Sheet
+To use Farhome's Character sheet effectively you'll need a game with both custom character sheets and API scripts enabled. You can add the custom character sheet to your game without the API scripts, however none of the roll buttons will work correctly.
+
+### Adding the Character Sheet to your Game
+
+To add the Farhome character sheet to your game you will need to copy the contents of both [farhome.html](farhome.html) and [farhome.css](farhome.css) to the character sheet boxes in your game's game settings. Open your game settings by clicking Settings -> Game Settings from your game's main page.
+
+![](images/sheetinstall1.png)
+
+Scroll down to your Character Sheet Template and change the setting to 'Custom'. In the HTML Layout box copy the contents of [farhome.html](farhome.html) and in the CSS Styling box copy the contents of [farhome.css](farhome.css).
+
+![](images/sheetinstall2.png)
+
+After saving your settings, any character you create in your game will use the Farhome character sheet.
+
+### Character Sheet Features
+While the Farhome sheet does a lot of things for you, you will still want to make abilities for attacks, spells, or other rolls not handled by the sheet. Most sections in the character sheet have a toggle button that collapses or reveals that section. Here's a rundown of what the sheet does handle.
+
+#### Stats
+Here you enter your 6 core stats along with their attribute save proficiencies. Clicking the roll button beside each will roll that attribute save. The button beside your healing surges will roll 3 wound dice, but does not automatically heal your character or decrement your healing surges. Setting your Exhaustion field will reduce all of your proficiencies by the correct amount, but does not automatically change your max wounds.
+
+#### Potions
+Clicking the roll buttons will roll the wound dice that potion would heal, but does not decrement the potion on your sheet.
+
+#### Proficiencies
+Here you'll find every skill, tool, and weapon proficiency. Clicking on the roll button will roll that skill. The checkbox beside each skill is used to denote expertise in that skill. The equipment section has no effect on your rolls, but is there for your reference.
+
+#### Combat and Feats
+The roll button beisde your armor will make a defend roll with the given dice. The initiative roll button rolls your initiative and adds your character to the initiative tracker.
+
+The Attacks and Maneuvers section lets you add attacks or maneuvers without needing to use the APIs or abilities. Pressing the roll button will make a roll with the given dice (Superior, Enhanced, Normal, Bad, Terrible, in order) and damage, combined into a single roll.
+
+The Feats section lets you to add feat descriptions to your sheet for easy reference. Adding feats here has no effect on any rolls you make.
+
+The Magic Items section lets you add magic items with their descriptions. Each magic item has a checkbox for attunement and a textbox for charges for ease of tracking.
+
+#### Attributes and Abilities
+While not added by this character sheet, the Attributes and Abilities tab is extremely useful. From here you can add abilities, which let you enter in chat macros that directly reference your character sheet. You can make them appear whenever your token is selected by checking the 'Show as Token Action' box.
+
+For example, if you wanted a one-handed attack roll that uses your dexterity instead of your strength, you can create an ability with this command:
+
+```
+!skill @{dex} @{1hand}
+```
+
+This command will read your Dexterity attribute (the @{dex} tag) and your one-handed proficiency (the @{1hand} tag) when making this roll.
 
 ## Roll API
 The roll API makes use of roll20's API scripts, and requires your game to have been made by an account that has access to that feature. To add the script to your game you'll want to go to your game's API script settings page, which you can get to from the game's main page and clicking Settings -> API scripts.
@@ -16,6 +61,16 @@ Once there, you'll want to add this script to your game. Click on 'New Script', 
 ![](images/apiinstall2.png)
 
 Press 'Save Script', and after a few seconds you should see 'Farhome Dice v1.0 loaded' in the output box below. Congradulations! You should have access to all the commands below. To use a command, launch your game and enter it into the chat window. You can also use these commands by writing it in an ability from your character sheet, or as a macro.
+
+### Roll Icons
+If you do not see dice icons when making your rolls you may need to upload the [dice icons provided](../images). Personally I use imgur to host the images, but any image host should work, as long as you can get a url of the images. Once uploaded, replace the following urls in the script with the urls of the icons you've uploaded:
+
+![](images/apiinstall3.png)
+
+Save the script and retry your roll. If the image urls are publicly accessable you should see dice icons with your rolls.
+
+### Status Effects
+I've also provided a number of status icons. You may use any status icons you wish, however icons with a name of hex1-3, or posion1-3 will have an effect on rolls made by those tokens. For example, making an attack roll while a token with a poison2 status icon is selected will add 2 bad dice to the roll.
 
 ## Roll API Documentation
 In roll20 all API commands are prefixed with a '!'. For example, roll20's built in dice roller uses the '/r' or '/roll' command, while to roll dice using the roll API you use '!roll'.
@@ -216,7 +271,7 @@ To break this down further, lets take a look at the bonus string in the example,
 
 You can use many of the built in roll20 commands along with the API script commands, allowing you to make some pretty handy macros and abilities. Here's a few examples.
 
-### Adding a Query to select the level for your spell
+#### Adding a Query to select the level for your spell
 
 Using roll20's query syntax lets you define a set of options to select from whenver you use the command. If we wanted to choose which level to cast our _Firebolt_ spell, you can do something like this:
 
@@ -224,15 +279,15 @@ Using roll20's query syntax lets you define a set of options to select from when
 !spell firebolt ?{Level?|0|1|2|3|4|5|6|7|8|9|10}
 ```
 
-### Adding dice for each target in a spell
+#### Adding dice for each target in a spell
 
 You can use queries and the bonus dice string to handle spells that add dice based on how many targets you choose.
 
 ```
-!spell charming-guise 1 bb?{Targets?||1,0|2,1|3,2|4,3|5,4}
+!spell charming-guise 1 bb?{Targets?|1,0|2,1|3,2|4,3|5,4}
 ```
 
-### Referencing your Characters Attributes
+#### Referencing your Characters Attributes
 
 You can reference your characters attributes directly when writing an ability in your character sheet.
 

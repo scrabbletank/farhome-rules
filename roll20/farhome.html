@@ -28,27 +28,27 @@
         <br />
         <span class="simple120">Str </span><input type="number" name="attr_str" value="0" /><input type="number"
             name="attr_strsave" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Strength Save` `roll1|save str`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Strength Save` `roll.1|save str`'></button>
         <br />
         <span class="simple120">Dex </span><input type="number" name="attr_dex" value="0" /><input type="number"
             name="attr_dexsave" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Dexterity Save` `roll1|save dex`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Dexterity Save` `roll.1|save dex`'></button>
         <br />
         <span class="simple120">Sta </span><input type="number" name="attr_sta" value="0" /><input type="number"
             name="attr_stasave" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Stamina Save` `roll1|save sta`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Stamina Save` `roll.1|save sta`'></button>
         <br />
         <span class="simple120">Int </span><input type="number" name="attr_int" value="0" /><input type="number"
             name="attr_intsave" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Intelligence Save` `roll1|save int`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Intelligence Save` `roll.1|save int`'></button>
         <br />
         <span class="simple120">Will </span><input type="number" name="attr_wil" value="0" /><input type="number"
             name="attr_wilsave" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Willpower Save` `roll1|save wil`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Willpower Save` `roll.1|save wil`'></button>
         <br />
         <span class="simple120">Cha </span><input type="number" name="attr_cha" value="0" /><input type="number"
             name="attr_chasave" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Charisma Save` `roll1|save cha`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Charisma Save` `roll.1|save cha`'></button>
         <br />
         <span class="simple120">AP</span><input type="number" name="attr_actionpoints" value="0" />/<input
             type="number" name="attr_maxactionpoints" value="0" />
@@ -64,7 +64,7 @@
         <br />
         <span style="width:110px" class="simple120">Healing Surges</span><input type="number" name="attr_healingsurges"
             value="0" />/<input type="number" name="attr_maxhealingsurges" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Healing Surge` `roll1|wound 0 3`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Healing Surge` `roll.1|wound 0 3`'></button>
         <br />
         <span style="width:110px" class="simple120">Exhaustion</span><input type="number" name="attr_exhaustionstack"
             value="0" />
@@ -79,19 +79,19 @@
             <input class="sheet-skillsPot sheet-hidden" type="checkbox" name="attr_potvis" value="1">
             <div class="sheet-skillsec-pot">
                 <label class="short">Basic</label><input type="number" name="attr_potion" value="0" />
-                <button type='roll' name='roll_save' value='!rtmp `name|Basic Potion` `roll1|wound 1 2`'></button>
+                <button type='roll' name='roll_save' value='!rtmp `name|Basic Potion` `roll.1|wound 1 2`'></button>
                 <br />
                 <label class="short">+1</label><input type="number" name="attr_potion1" value="0" />
-                <button type='roll' name='roll_save' value='!rtmp `name|Potion +1` `roll1|wound 1 3`'></button>
+                <button type='roll' name='roll_save' value='!rtmp `name|Potion +1` `roll.1|wound 1 3`'></button>
                 <br />
                 <label class="short">+3</label><input type="number" name="attr_potion3" value="0" />
-                <button type='roll' name='roll_save' value='!rtmp `name|Potion +3` `roll1|wound 1 5`'></button>
+                <button type='roll' name='roll_save' value='!rtmp `name|Potion +3` `roll.1|wound 1 5`'></button>
                 <br />
                 <label class="short">+5</label><input type="number" name="attr_potion5" value="0" />
-                <button type='roll' name='roll_save' value='!rtmp `name|Potion +5 ` `roll1|wound 1 7`'></button>
+                <button type='roll' name='roll_save' value='!rtmp `name|Potion +5 ` `roll.1|wound 1 7`'></button>
                 <br />
                 <label class="short">+7</label><input type="number" name="attr_potion7" value="0" />
-                <button type='roll' name='roll_save' value='!rtmp `name|Potion +7` `roll1|wound 1 9`'></button>
+                <button type='roll' name='roll_save' value='!rtmp `name|Potion +7` `roll.1|wound 1 9`'></button>
                 <br />
             </div>
         </div>
@@ -152,12 +152,12 @@
             <label class="sheet-long">Athletics </label><input type="number" name="attr_athletics" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_athleticsexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Athletics` `roll1|skill @{str} @{athletics} @{athleticsexp}`'></button>
+                value='!rtmp `name|Athletics` `roll.1|skill @{str} @{athletics} @{athleticsexp}`'></button>
             <br />
             <label class="sheet-long">Intimidation </label><input type="number" name="attr_intimidation"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_intimidationexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Intimidation` `roll1|skill @{str} @{intimidation} @{intimidationexp}`'></button>
+                value='!rtmp `name|Intimidation` `roll.1|skill @{str} @{intimidation} @{intimidationexp}`'></button>
             <br />
         </div>
 
@@ -172,22 +172,22 @@
             <label class="sheet-long">Acrbatics </label><input type="number" name="attr_acrobatics" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_acrobaticsexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Acrbatics` `roll1|skill @{dex} @{acrobatics} @{acrobaticsexp}`'></button>
+                value='!rtmp `name|Acrbatics` `roll.1|skill @{dex} @{acrobatics} @{acrobaticsexp}`'></button>
             <br />
             <label class="sheet-long">Lockpicking </label><input type="number" name="attr_lockpicking"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_lockpickingexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Lockpicking` `roll1|skill @{dex} @{lockpicking} @{lockpickingexp}`'></button>
+                value='!rtmp `name|Lockpicking` `roll.1|skill @{dex} @{lockpicking} @{lockpickingexp}`'></button>
             <br />
             <label class="sheet-long">Stealth </label><input type="number" name="attr_stealth" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_stealthexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Stealth` `roll1|skill @{dex} @{stealth} @{stealthexp}`'></button>
+                value='!rtmp `name|Stealth` `roll.1|skill @{dex} @{stealth} @{stealthexp}`'></button>
             <br />
             <label class="sheet-long">Sleight of Hand </label><input type="number" name="attr_sleightofhand"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_sleightofhandexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Sleight of Hand` `roll1|skill @{dex} @{sleightofhand} @{sleightofhandexp}`'></button>
+                value='!rtmp `name|Sleight of Hand` `roll.1|skill @{dex} @{sleightofhand} @{sleightofhandexp}`'></button>
             <br />
         </div>
 
@@ -202,12 +202,12 @@
             <label class="sheet-long">Exhaustion </label><input type="number" name="attr_exhaustion" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_exhaustionexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Exhaustion` `roll1|skill @{sta} @{exhaustion} @{exhaustionexp}`'></button>
+                value='!rtmp `name|Exhaustion` `roll.1|skill @{sta} @{exhaustion} @{exhaustionexp}`'></button>
             <br />
             <label class="sheet-long">Survival </label><input type="number" name="attr_survival" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_survivalexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Survival` `roll1|skill @{sta} @{survival} @{survivalexp}`'></button>
+                value='!rtmp `name|Survival` `roll.1|skill @{sta} @{survival} @{survivalexp}`'></button>
             <br />
         </div>
 
@@ -222,22 +222,22 @@
             <label class="sheet-long">Arcana </label><input type="number" name="attr_arcana" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_arcanaexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Arcana` `roll1|skill @{int} @{arcana} @{arcanaexp}`'></button>
+                value='!rtmp `name|Arcana` `roll.1|skill @{int} @{arcana} @{arcanaexp}`'></button>
             <br />
             <label class="sheet-long">Investigation </label><input type="number" name="attr_investigation"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_investigationexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Investigation` `roll1|skill @{int} @{investigation} @{investigationexp}`'></button>
+                value='!rtmp `name|Investigation` `roll.1|skill @{int} @{investigation} @{investigationexp}`'></button>
             <br />
             <label class="sheet-long">Lore </label><input type="number" name="attr_lore" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_loreexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Lore` `roll1|skill @{int} @{lore} @{loreexp}`'></button>
+                value='!rtmp `name|Lore` `roll.1|skill @{int} @{lore} @{loreexp}`'></button>
             <br />
             <label class="sheet-long">Medicine </label><input type="number" name="attr_medicine" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_medicineexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Medicine` `roll1|skill @{int} @{medicine} @{medicineexp}`'></button>
+                value='!rtmp `name|Medicine` `roll.1|skill @{int} @{medicine} @{medicineexp}`'></button>
             <br />
         </div>
 
@@ -252,22 +252,22 @@
             <label class="sheet-long">Animal Handling </label><input type="number" name="attr_animalhandling"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_animalhandlingexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Animal Handling` `roll1|skill @{wil} @{animalhandling} @{animalhandlingexp}`'></button>
+                value='!rtmp `name|Animal Handling` `roll.1|skill @{wil} @{animalhandling} @{animalhandlingexp}`'></button>
             <br />
             <label class="sheet-long">Insight </label><input type="number" name="attr_insight" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_insightexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Insight` `roll1|skill @{wil} @{insight} @{insightexp}`'></button>
+                value='!rtmp `name|Insight` `roll.1|skill @{wil} @{insight} @{insightexp}`'></button>
             <br />
             <label class="sheet-long">Nature</label><input type="number" name="attr_nature" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_natureexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Nature` `roll1|skill @{wil} @{nature} @{natureexp}`'></button>
+                value='!rtmp `name|Nature` `roll.1|skill @{wil} @{nature} @{natureexp}`'></button>
             <br />
             <label class="sheet-long">Perception</label><input type="number" name="attr_perception" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_perceptionexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Perception` `roll1|skill @{wil} @{perception} @{perceptionexp}`'></button>
+                value='!rtmp `name|Perception` `roll.1|skill @{wil} @{perception} @{perceptionexp}`'></button>
             <br />
         </div>
 
@@ -282,22 +282,22 @@
             <label class="sheet-long">Conversation </label><input type="number" name="attr_conversation"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_conversationexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Conversation` `roll1|skill @{cha} @{conversation} @{conversationexp}`'></button>
+                value='!rtmp `name|Conversation` `roll.1|skill @{cha} @{conversation} @{conversationexp}`'></button>
             <br />
             <label class="sheet-long">Diplomacy </label><input type="number" name="attr_diplomacy" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_diplomacyexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Diplomacy` `roll1|skill @{cha} @{diplomacy} @{diplomacyexp}`'></button>
+                value='!rtmp `name|Diplomacy` `roll.1|skill @{cha} @{diplomacy} @{diplomacyexp}`'></button>
             <br />
             <label class="sheet-long">Performance </label><input type="number" name="attr_performance"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_performanceexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Performance` `roll1|skill @{cha} @{performance} @{performanceexp}`'></button>
+                value='!rtmp `name|Performance` `roll.1|skill @{cha} @{performance} @{performanceexp}`'></button>
             <br />
             <label class="sheet-long">Religion</label><input type="number" name="attr_religion" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_religionexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Religion` `roll1|skill @{cha} @{religion} @{religionexp}`'></button>
+                value='!rtmp `name|Religion` `roll.1|skill @{cha} @{religion} @{religionexp}`'></button>
             <br />
         </div>
 
@@ -312,22 +312,22 @@
             <label class="sheet-long">One Handed</label><input type="number" name="attr_1hand" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_1handexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|One Handed` `roll1|skill @{str} @{1hand} @{1handexp}`'></button>
+                value='!rtmp `name|One Handed` `roll.1|skill @{str} @{1hand} @{1handexp}`'></button>
             <br />
             <label class="sheet-long">Two Handed</label><input type="number" name="attr_2hand" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_2handexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Two Handed` `roll1|skill @{str} @{2hand} @{2handexp}`'></button>
+                value='!rtmp `name|Two Handed` `roll.1|skill @{str} @{2hand} @{2handexp}`'></button>
             <br />
             <label class="sheet-long">Ranged</label><input type="number" name="attr_ranged" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_rangedexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Ranged` `roll1|skill @{dex} @{ranged} @{rangedexp}`'></button>
+                value='!rtmp `name|Ranged` `roll.1|skill @{dex} @{ranged} @{rangedexp}`'></button>
             <br />
             <label class="sheet-long">Unarmed</label><input type="number" name="attr_unarmed" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_unarmedexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Unarmed` `roll1|skill @{str} @{unarmed} @{unarmedexp}`'></button>
+                value='!rtmp `name|Unarmed` `roll.1|skill @{str} @{unarmed} @{unarmedexp}`'></button>
             <br />
         </div>
 
@@ -342,22 +342,22 @@
             <label class="sheet-long">Repair Kit (Str) </label><input type="number" name="attr_repairkit" value="0" /><input
                 class="checkbox" type='checkbox' name="attr_repairkitexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Repair Kit` `roll1|skill @{str} @{repairkit} @{repairkitexp}`'></button>
+                value='!rtmp `name|Repair Kit` `roll.1|skill @{str} @{repairkit} @{repairkitexp}`'></button>
             <br />
             <label class="sheet-long">Enchanters Tools (Int) </label><input type="number" name="attr_enchanting"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_enchantingexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Enchanters Tools` `roll1|skill @{int} @{enchanting} @{enchantingexp}`'></button>
+                value='!rtmp `name|Enchanters Tools` `roll.1|skill @{int} @{enchanting} @{enchantingexp}`'></button>
             <br />
             <label class="sheet-long">Apothecary Set (Wil) </label><input type="number" name="attr_apothecary"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_apothecaryexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Apothecary Set` `roll1|skill @{wil} @{apothecary} @{apothecaryexp}`'></button>
+                value='!rtmp `name|Apothecary Set` `roll.1|skill @{wil} @{apothecary} @{apothecaryexp}`'></button>
             <br />
             <label class="sheet-long">Scribing Tools (Int) </label><input type="number" name="attr_scribing"
                 value="0" /><input class="checkbox" type='checkbox' name="attr_scribingexp" value='1' />
             <button type='roll' name='roll_save'
-                value='!rtmp `name|Scribing Tools` `roll1|skill @{int} @{scribing} @{scribingexp}`'></button>
+                value='!rtmp `name|Scribing Tools` `roll.1|skill @{int} @{scribing} @{scribingexp}`'></button>
             <br />
         </div>
     </div>
@@ -399,7 +399,7 @@
                 <input style="width:28px;padding:2px" type="number" name="attr_broll" value="0" />
                 <input style="width:28px;padding:2px" type="number" name="attr_troll" value="0" />
                 <button type='roll' name='roll_save'
-                    value='!rtmp `name|@{rollname}` `roll1|attack @{sroll} @{proll} @{nroll} @{broll} @{troll}` `roll2|wound @{gwroll} @{wroll}`'></button>
+                    value='!rtmp `name|@{rollname}` `roll.1|attack @{sroll} @{proll} @{nroll} @{broll} @{troll}` `roll.2|wound @{gwroll} @{wroll}`'></button>
                 <br />
                 <div style="display:inline-block;width:107px;padding:2px">Wounds:</div>
                 <input style="width:28px;padding:2px" type="number" name="attr_gwroll" value="0" />
@@ -460,15 +460,15 @@
         <br />
         <span class="simple120">Arcane</span>
         <input type="number" name="attr_arcane" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Arcane` `roll1|skill @{int} @{arcane}`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Arcane` `roll.1|skill @{int} @{arcane}`'></button>
         <br />
         <span class="simple120">Curse</span>
         <input type="number" name="attr_curse" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Curse` `roll1|skill @{wil} @{curse}`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Curse` `roll.1|skill @{wil} @{curse}`'></button>
         <br />
         <span class="simple120">Divine</span>
         <input type="number" name="attr_divine" value="0" />
-        <button type='roll' name='roll_save' value='!rtmp `name|Divine` `roll1|skill @{cha} @{divine}`'></button>
+        <button type='roll' name='roll_save' value='!rtmp `name|Divine` `roll.1|skill @{cha} @{divine}`'></button>
     </div>
     <div class="codex">
         <h3>Codex</h3>

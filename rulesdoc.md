@@ -121,10 +121,11 @@ While many things have been simplified, there's still loads of depth in these ru
 
 ## What is Farhome?
 
-Farhome is a tabletop role playing system set in a fantasy world of magic, monsters, and adventures. You and a group of friends play as adventurers, exploring and interacting with a world created by another one of your friends, the Game Master. While the rules in the book give structure to how your adventurers interact with the world, largely the game is driven by you and your friends imaginations. 
+Farhome is a tabletop role playing system set in a fantasy world of magic, monsters, and adventures. You and a group of friends play as adventurers, exploring and interacting with a world created by another one of your friends, the Game Master. While the rules in the book give structure to how your adventurers interact with the world, largely the game is driven by you and your friends' imaginations. 
 
 You won't find any rules in this book about what you need to roll to climb up an ogre's back, but that doesn't mean your adventurer can't try. For every scenario that isn't handled by the book it's ultimately up to the Game Master to decide how it happens, or if it's possible. In this respect the players work together with the Game Master; the players describing the actions they want to take and the Game Master describing the outcome of those actions and how the world responds.
-
+```
+```
 At the end of the day Farhome is a game about creativity, imagination, and having fun with your friends. It is a _collaborative_ experience, working with the Game Master to tell a story. With that being said you can expect to experience the following:
 - battle goblins and orcs
 - delve into dangerous dungeons
@@ -137,15 +138,18 @@ At the end of the day Farhome is a game about creativity, imagination, and havin
   
 ## How to Play
 
-Before you begin, you and your friends will need to determine who will be the Game Master. The Game Master (or GM) is in charge of the world, handling all the locations, monsters, and people in the world, while everyone else is in charge of an adventurer, or character. Usually the GM is played by the same person every game, but in some games it makes sense to rotate that responsibility. Regardless, the GM acts as the main story teller, or referee. If there's ever any confusion as to how something works, or if the players want to do something that this book doesn't cover the GM has the final say on what happens.
+Before you begin, you and your friends will need to determine who will be the Game Master. The Game Master (or GM) is in charge of the world, handling all the locations, monsters, and people in the world, while everyone else is in charge of an adventurer, or character. Usually the GM is played by the same person every game, but in some games it makes sense to rotate that responsibility. Regardless, the GM acts as the main storyteller, or referee. If there's ever any confusion as to how something works, or if the players want to do something that this book doesn't cover the GM has the final say on what happens.
 
-Farhome follows a narrative gameplay loop: the GM begins by describing the environment the adventurers are in, the players describe what they want their adventurers do, and finally the GM describes the results of those actions. This is the core of the game and is seen in every aspect of the game. For example the GM could be describing the dungeon your group of adventurers are exploring, giving the players a basic set of actions they could follow (the layout of the room, how many doors there are, if the adventurers see any creatures, and so on). The players then tell the GM what they want their characters to do, such as opening a door, searching for traps, or attacking a monster. The GM then describes the results of their actions: the door may be locked, or they find a poison dart trap, or surprise the monster. This often leads to another choice for the players, which starts the narrative loop all over again. This gameplay loop continues whether the players are exploring a dungeon, fighting monsters, or investigating for clues in a town.
+Farhome follows a narrative gameplay loop: the GM begins by describing the environment the adventurers are in, the players describe what they want their adventurers do, and finally the GM describes the results of those actions. This is the core of the game and is seen in every aspect of the game. For example, the GM could be describing the dungeon your group of adventurers are exploring, giving the players a basic set of actions they could follow (the layout of the room, how many doors there are, if the adventurers see any creatures, and so on). The players then tell the GM what they want their characters to do, such as opening a door, searching for traps, or attacking a monster. The GM then describes the results of their actions: the door may be locked, or they find a poison dart trap, or surprise the monster. This often leads to another choice for the players, which starts the narrative loop all over again. This gameplay loop continues whether the players are exploring a dungeon, fighting monsters, or investigating for clues in a town.
 
 Each time your group meets to play you can expect to spend 2-3 hours playing. During this time you can reasonably expect to: meet and interact with a notable non-player character (or NPC), explore a new location, fight dangerous monsters, and find something memorable. While some sessions you might never interact with an NPC, or encounter any monsters, it's these 4 experiences that build an adventure.
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 
-Adventures usually have a distinct beginning and end. As an example an adventure may require you to save a village from monsters. You will need to talk to the villagers and gather information about whats attacking them. The villagers may tell you the monsters live in the forest outside town, which you will need to explore. On finding the monsters lair you come up with a plan to defeat it, and after defeating it return to the village where they reward you with a magical sword. Your group may finish an adventure in a single session, or it might take many sessions, spanning many locations, people, and monsters.
+Adventures usually have a distinct beginning and end. As an example an adventure may require you to save a village from monsters. You will need to talk to the villagers and gather information about what's attacking them. The villagers may tell you the monsters live in the forest outside town, which you will need to explore. On finding the monster's lair you come up with a plan to defeat it, and after defeating it return to the village where they reward you with a magical sword. Your group may finish an adventure in a single session, or it might take many sessions, spanning many locations, people, and monsters.
 
-When one adventure ends, another can begin. This string of quests and adventures is called a campaign. Campaigns can span months or years, with each adventure adding to one large story. Your character might die over the course of the campaign, either at the hand of a dangerous monster, villain, or any manner of way. You friends might search for a way to revive you, or you might create a new character. Over the course of the campaign your group may fail,or everyone may meet their demise. Even so, at the end of the day a successful campaign is one where everyone is able to have a good time, regardless of if your characters 'win' or 'lose'.
+When one adventure ends, another can begin. This string of quests and adventures is called a campaign. Campaigns can span months or years, with each adventure adding to one large story. Your character might die over the course of the campaign, either at the hand of a dangerous monster, villain, or any manner of way. You friends might search for a way to revive you, or you might create a new character. Over the course of the campaign your group may fail, or everyone may meet their demise. Even so, at the end of the day a successful campaign is one where everyone is able to have a good time, regardless of if your characters 'win' or 'lose'.
+
 
 
 With that out of the way, how exactly do you start playing Farhome? Well, that part is fairly easy. The following pages describe everything from rolling dice, creating a character, and how combat works. With this you and your friends should be able to create a group of adventurers ready to explore a new and exciting world.
@@ -162,13 +166,13 @@ Finally we need a reason for the players to explore the dungeon, the obstacle. T
 
 With those 3 things you have your first adventure and are ready to run your first game. Making your second adventure will be easier than your first, you already have the town after all. As your game progresses, so does the world you created, adding other towns and villages as you need them. Maybe this land is ruled by a king, or some fiendish villain is plotting against the players behind the scenes.
 
-As your players experience your world they'll eventually want to branch out. They may get access to spells making travel easier, want to seek out that dastardly villain, or just want to explore. Eventually you'll need a big world for them to explore, but all of that starts with a town, a dungeon, and an obstacle.
+As your players experience your world they will eventually want to branch out. They may get access to spells making travel easier, want to seek out that dastardly villain, or just want to explore. Eventually you'll need a big world for them to explore, but all of that starts with a town, a dungeon, and an obstacle.
 
 # Playing The Game
 
 ### Rolling Dice
 
-Farhome uses a set of 6-sided dice to determine outcomes. There are 9 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a set of dice determined by your characters skills or abilities, adding challenge dice depending on the difficulty of the task. Rolling more successes than failures means your action succeeded. Sometimes your roll is contested by another characters roll. In these cases ties always go to the defender.
+Farhome uses a set of 6-sided dice to determine outcomes. There are 9 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a set of dice determined by your characters skills or abilities, adding challenge dice depending on the difficulty of the task. Rolling more successes than failures means your action succeeded. Sometimes your roll is contested by another character's roll. In these cases ties always go to the defender.
 
 Some dice have special symbols on them for Critical Successes and Critical Failures. These count as 2 successes and 2 failures respectively as well as adding or removing a critical. Defense dice work similarly to the other dice, having defense symbols instead of successes. Finally wound dice are used to determine damage, healing, or in some cases chance.
 
@@ -240,7 +244,8 @@ In some cases you may want to help someone with an action, such as trying to pus
 | Hard | B | B | T | T | _ | _ | _ |
 | Difficult | B | B | B | T | T | T | _ |
 | Impossible | B | B | T | T | T | T | T |
-
+```
+```
 #### Rerolls
 Either through expertise, feats, or other abilities you may reroll a number of dice when making a roll. When rerolling you may choose any dice, except wound dice, to reroll, taking the new value instead. Once rerolled you may not reroll the same die again. You may reroll any dice that are considered part of your roll, such as bonus dice from upcasting a spell, dice added from abilities or spells such as _Guidance_, and dice given by negative effects, such as poison. When making a skill challenge, all challenge dice are considered part of your roll and may be rerolled. 
 
@@ -353,6 +358,9 @@ Skills represent how good your character is at completing different tasks and ac
 |  | Performance |
 |  | Religion |
 
+```
+```
+
 ### Tools
 
 To use tools you must have at least 1 proficiency score with the tool. Their use is shown in the Appendix.
@@ -412,6 +420,9 @@ Casting spells of 1st level and above takes a toll on the caster. A character ca
 | 8th  | 13 |
 | 9th  | 16 |
 | 10th | 20 |
+
+```
+```
 
 ### Spell Power
 Spell power determines how attuned your body is to spellcasting and how easy it is to increase your mana, or magical energy. When your character levels up you may choose to increase your mana based on your spell power. By default your spell power is equal to your characters level, and can be increased through leveling up or through feats.
@@ -495,6 +506,46 @@ ___
 >| -1 | Your flow of magic is interrupted. You add 1 terrible die to all spellcasting rolls for the next minute |
 >| 0 | Minor backlash. You take 1 wound die of Force damage |
 
+```
+```
+___
+>#### Variant Rule - Misfires
+>
+>While anyone can cast any spell, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a spell, you add 1 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
+>
+>##### Ability Ranks
+>| Attribute Score | Spell Levels |
+>|:----:|:-------------|
+>| 1  | 1st |
+>| 2  | 2nd |
+>| 3  | 3rd-4th |
+>| 4  | 5th-6th |
+>| 5  | 7th-8th |
+>| 6+  | 9th-10th |
+>
+>
+>##### Misfire Chart
+>
+>Roll 2 bad dice, counting the successes.
+>
+>| Roll | Misfire |
+>|:----:|:-------------|
+>| -4  | Lesser wound: Mana leak. Every time you take at least 1 wound you lose 2 mana. Lasts until cured with _Treat Injury_ or you take a Long Rest. |
+>| -3 | Your spell backfires, roll a wound die for every remaining failure from your spellcasting roll, taking a wound for every wound rolled. |
+>| -2 | Wild magic fills the area around you, you and all creatures within 3 tiles add 1 terrible die to their next roll. |
+>| -1 | Your flow of magic is interrupted. You add 1 terrible die to all spellcasting rolls for the next minute |
+>| 0 | Minor backlash. You take 1 wound die of Force damage |
+
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+
+
+<img
+	src="https://i.imgur.com/prfttrX.jpg"
+	style='position:absolute;top:0px;left:0px;width:100%'/>
+    
+<div class="wide" style="height:51%">
+</div>
 
 # Creating a Character
 </br>
@@ -809,6 +860,9 @@ Each creature is represented by a miniature or token on the gameboard. Creatures
 | Huge | 3x3 |
 | Gargantuan | 4x4+ |
 
+```
+```
+
 #### Movement
 All creatures move and sprint speeds are listed in tiles. Any time a creature takes the move or sprint actions they can move up to that many tiles. When moving you may move through allies, but not through hostile creatures. If your movement takes you out of a hostile creatures zone of control they may make an opportunity attack against you.
 
@@ -873,6 +927,9 @@ When used by a maneuver this attack hits all creatures inside your zone of contr
 
 ##### Line
 Line attacks hit all creatures in a line extending outward from the attacker. This line doesn't need to follow the grid exactly and can be any direction you wish. A good rule of thumb is if the line crosses more than 1/3rd of the creatures tile it effects that creature.
+
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
 
 ##### Area
 Area attacks hit all creatures in a square or rectangular shape centered on a tile. The spell or attack determines the size of the area. For example, the spell _Fireball_ hits all creatures in a 5x5 tile area. Spells that effect all creatures in a radius use this type, creating a square centered on a point with the given radius.
@@ -941,7 +998,6 @@ Some magic items grant bonuses to your attributes. While there is no limit on ho
 
 For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 Dexterity. You still benefit from the remaining bonuses on those items.
 
-## Races
 
 ### Elves
 
@@ -951,6 +1007,7 @@ Like most elves, high elves display an otherwordly grace in all that they do. Of
 
 It is rumored that high elves are descended from the fae, a group of magical and supernatural beings of another realm, seeming to explain their natural affinity with magic. Because of this many of the more mundane or superstitious races are wary of high elves, believing them to be responsible for any malady affecting their small villages.
 
+___
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Strength
@@ -960,13 +1017,22 @@ It is rumored that high elves are descended from the fae, a group of magical and
 
 You learn a single cantrip. This cantrip does not need to be prepared or in your codex to cast. You start with 1 extra mana and recover 1 extra mana each short and long rest.
 
-___
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+<img
+     src="https://i.imgur.com/JhF7YjM.png"
+     style='position:absolute;top:25px;left:5px;width:540px;mix-blend-mode:darken'/>
+     
+```
+```
+
 #### Wood Elf
 
 Unlike the timeless, magical forests of the high elves, the wood elves call the savage forests their home. Wood elves display grace and strength in equal measure, being capable hunters and defenders of their forests. Their complexion tends to take on darker tones compared to their high elf cousins, often taking on a copper hue. Their hair ranges from deep reds to brown and black, but is occasionally blond or silver. They are slightly smaller than high elves, ranging from 5 to 6 feet. While they are still slender compared to humans their life in the forest has hardened their bodies, weighing between 120 to 160 pounds.
 
 Due to their fierce dedication to their homeland, wood elves tend to be mistrustful of others, at least until they determine if they are a threat. Because of this most wood elves tend to stay in their forests, but there are those whose wanderlust takes them to explore the world beyond.
 
+___
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Willpower, -1 Intelligence
@@ -976,13 +1042,22 @@ Due to their fierce dedication to their homeland, wood elves tend to be mistrust
 
 You gain 1 proficiency with either a bow or a spear, and gain a maneuver that uses that weapon.
 
-___
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
+
+<img
+     src="https://i.imgur.com/zh2TKw6.png"
+     style='position:absolute;top:30px;left:250px;width:650px;mix-blend-mode:darken'/>
+
+
+     
 #### Star Elf
 
 Seekers of knowledge, the star elves are nomads by nature. Their long lives allow them to see the world from a different perspective compared to the short lived races who see the star elves as aloof and unempathetic. Star elves are naturally curious, and because of this are gifted conversationalists. They love telling tales just as much as they do hearing them.
 
 They are among the tallest races, averaging 7 feet tall, and also the rarest. They have a blue complexion that tends to fade to a pale white, with purple colorations being rare. Their hair is almost always a silvery blue, with eyes a dark blue or purple. Like other elves they have a slender appearance, weighing between 120 to 180 pounds.
 
+___
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Charisma, -1 Stamina
@@ -992,15 +1067,17 @@ They are among the tallest races, averaging 7 feet tall, and also the rarest. Th
 
 You gain 2 superior dice when making a save against a charm, possession, or fear effect.
 
+
 ### Goblinoid
 
-___
 #### Half-Orc
 
 While most orcs are filled with an all-consuming lust for battle, there are some born free from their curse. Those that are often seek out neighboring human or elven settlements, resulting in half-orcs. Half-orcs retain much of their parents strength and ferocity, free from bloodlust and tempered by their other half. Because of this half-orcs are widely loved among the fringe villages and settlements of the world.
 
 Half orcs stand between 6 and 7 feet. They tend to have strong, wide jaws with small but noticeable tusks, making it impossible to hid their orcish heritage. Their skin tends to be tinted gray green, and with their towering build they weigh between 200 to 250 pounds. Even with human parents half orcs have short, pointed ears, although those with elven parents tend to be longer. While their hair shares the color of their parents, often times they end up with black hair.
 
+
+___
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Charisma
@@ -1010,13 +1087,26 @@ Half orcs stand between 6 and 7 feet. They tend to have strong, wide jaws with s
 
 When making death saving throws you may reroll the die, taking the new result. If you pass 3 rounds in a row without failing a death save you become stabilized.
 
-___
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+
+
+
+<img
+     src="https://i.imgur.com/I5amzSw.png"
+     style='position:absolute;top:20px;left:230px;width:600px;mix-blend-mode:darken;transform: scaleX(-1)'/>
+     
+<div style='margin-top:470px'></div>
+
+
+
 #### Tlani
 
 Often confused for goblins or imps, tlani live far from the rest of the civilized world, preferring to make their homes high in the mountains or deep under the ground. They are short in stature, rarely standing taller than 4 feet. Like elves they have a strange, unnatural beauty to them that contrasts with their more beastial features, having long pointed ears, cat-like eyes and pointed teeth. Their complexion ranges from dark greys and blues to black with a white or silver underbelly. Their hair tends to match the color of their skin, but rarely it can be blue, green, or purple. Tlani are light, weighing between 40 and 60 pounds, and maintain a youthful appearance well into their 150s.
 
 Due to their small stature, beast-like appearance and affinity for darkness they are usually called night goblins by humans. Tlani are extremely practical, preferring a logical and efficient solution to their problems leading to others seeing them as cold and amoral.
 
+___
 - **Starting Wounds:** 2
 - **Move/Sprint:** 4/3
 - **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Strength
@@ -1024,11 +1114,12 @@ Due to their small stature, beast-like appearance and affinity for darkness they
 
 ##### Occult
 
-You are always under the effects of the spell _Dark Sight_ and you gain 1 superior die when making stealth rolls in dim light or darkness.
+You are always under the effects of the spell _Dark Sight_ and you add a superior die when making stealth rolls in dim light or darkness.
 
 
 
-### Humanoid
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 
 #### Fallen
 
@@ -1050,6 +1141,7 @@ ___
 
 Out of all the common races humans are by far the most numerous. While humans are short lived compared to most, they are tenacious and adaptable, which has allowed them to spread to all corners of the world. Due to this humans span a variety of cultures and morals, taking in customs and traditions from their neighbors and adapting others.
 
+___
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 to Any
@@ -1059,13 +1151,38 @@ Out of all the common races humans are by far the most numerous. While humans ar
 
 You choose 3 bonuses when creating your character instead of 2.
 
+#### Human
+
+Out of all the common races, humans are by far the most numerous. While humans are short lived compared to most, they are tenacious and adaptable, which has allowed them to spread to all corners of the world. Due to this, humans span a variety of cultures and morals, taking in customs and traditions from their neighbors and adapting them to human life.
+
 ___
+- **Starting Wounds:** 3
+- **Move/Sprint:** 4/2
+- **Attribute Bonuses:** +1 to Any
+- **Lifespan:** 70 years
+
+##### Adaptable
+
+You choose 3 bonuses when creating your character instead of 2.
+
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+
+
+<img
+     src="https://i.imgur.com/yeLw0ML.png"
+     style='position:absolute;top:50px;left:-170px;width:590px;mix-blend-mode:darken'/>
+     
+```
+```
+
 #### Sylvan
 
 Also known as forestfolk, sylvan make their homes in the gentle forests, meadows, and hills of the world. Like the elves, Sylan have an affinity with nature, preferring to live in small, rural villages instead of big cities. Naturally cheerful, sylvan recover quickly, be it from a night of boisterous reveling or from the dangers of the forest.
 
 Sylvan are short compared to most, standing 3 and a half to 4 feet tall. Sylvan range from slim, almost child like figures to broad, almost dwarf like bodies. Because of this their weight varies wildly, ranging anywhere from 40 to 100 pounds. While their hair follows the usual shades of red, black and blond, it's not uncommon for some families to have emerald green hair and eyes.
 
+___
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/3
 - **Attribute Bonuses:** +1 Intelligence, +1 Charisma, -1 Strength
@@ -1095,11 +1212,33 @@ You have expertise in an attribute save.
 ### Dwarf
 
 ___
+- **Starting Wounds:** 3
+- **Move/Sprint:** 5/2
+- **Attribute Bonuses:** +1 to Dexterity
+- **Lifespan:** 200 years
+
+##### Innate Reflexes
+
+You have expertise in an attribute save.
+
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
+
+
+<img
+     src="https://i.imgur.com/fAjwpNw.jpg"
+     style='position:absolute;top:-35px;left:-145px;width:655px;mix-blend-mode:darken'/>
+     
+```
+```
+
+### Dwarf
+
 #### Hill Dwarf
 
 Making their homes above ground in the hills around mountains, hill dwarves are experts at harnessing the power of nature. Building complex contraptions, hill dwarves construct water and wind mills to power their forges. They are meticulous crafters and skilled tradesdwarves. It is not unheard of for hill dwarves to travel far from their homes to study the craftsmanship of other races. Because of this hill dwarves are welcoming of most races, only shunning those they believe lack artistic talent, such as goblins or orcs.
 
-Hill dwarves are the shortest of the dwarves, being a few inches shorter than mountain dwarves. They make up for their height by being the heaviest, weighing between 200 and 300 pounds. While most hill dwarves have beards, many trim or even shave them completely if they become an impedance to their craft. They are usually fair skinned with hair to match, with blond, brown and red being most common.
+Hill dwarves are the shortest of the dwarves, being a few inches shorter than mountain dwarves. They make up for their height by being the heaviest, weighing between 200 &nbsp;&nbsp;and 300 pounds. While most hill dwarves have beards, many trim or even shave them completely if they become an impedance to their craft. They are usually fair skinned with hair to match, with blond, brown and red being most common.
 
 - settled above ground
 - expert crafters, creating ingenious machines
@@ -1114,13 +1253,13 @@ Hill dwarves are the shortest of the dwarves, being a few inches shorter than mo
 
 During a long rest you may enhance a piece of mundane gear, giving it +1 until the next day. At level 10 you can enhance two pieces of gear.
 
-___
 #### Mountain Dwarf
 
 Among all the dwarves, none are as stout or hearty as mountain dwarves. Carving grand kingdoms under the mountains, they spend most of their lives below ground. Mountain dwarves uphold their traditions with an almost zealous fervor, believing that their traditions are what make them dwarves rather than their birth. Because of this dwarves are often staunch followers of the law, putting their clan above themselves.
 
 While dwarves are shorter than humans, standing 4 to 5 feet tall, they are just as heavy. They are naturally strong, able to endure long hours of work even into old age. Dwarves hold their beards and hair in high regard, keeping them well groomed and often braiding or weaving beads and fabric into their beards. Mountain dwarves commonly have black or brown hair, but rarely have red or even blond hair. Their eyes match the metals and gemstones they mine, commonly being silver or gold, but can be a deep blue, red, or green.
 
+___
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Dexterity
@@ -1130,32 +1269,40 @@ While dwarves are shorter than humans, standing 4 to 5 feet tall, they are just 
 
 Your max wounds is increased by 1 and you recover 1 extra wound during a long rest.
 
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+
+
+<img
+     src="https://i.imgur.com/5rf8ZqI.png"
+     style='position:absolute;top:90px;left:405px;width:575px;mix-blend-mode:darken'/>
+
 
 ### Lizardmen
 
-___
 #### Lizardfolk
 
 Lizardfolk live in the deadlier swamps and jungles of the world, forming small clans and tribes for survival. Most lizardfolk are unable to grasp the morals and customs of traditional civilization, their harsh environment giving them a singular focus: to survive. Lizardfolk are well suited to this life as they make deadly warriors, just as dangerous unarmed as they are with a spear or axe. While lizardfolk aren't skilled artisans, they are resourceful, using the bones and hides of their prey to fashion weapons and armor.
 
 Lizardfolk tower over others, with some standing 7 and a half feet tall. With their long tails and hulking bodies, lizardfolk weigh between 300 and 400 pounds. Depending on the tribe they come from their scales can take on a multitude of colors, with green, blue, and red being the most common. While lizardfolk are hairless, some tribes have bright feathers covering their heads, extending down their backs.
 
+___
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/2
-- **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Intelligence
+- **Attribute Bonuses:** +1 Strength, +1 Stamina, <br/>-1 Intelligence
 - **Lifespan:** 60 years
 
 ##### Claw and Fang
 
 You have 1 proficiency with unarmed weapons and deal 2 wound dice in damage when making unarmed attacks.
 
-___
 #### Drake
 
 While lacking the strength of their lizardfolk cousins, drakes use their cunning to survive the deadly environments they call home. Drakes are canny crafters, creating simple yet ingenious creations to aid in their survival. Drakes are almost singularly focused on survival, because of this they rarely experience fear or courage. Drakes rarely leave their lands, but can occasionally seek out allies from other races. When they do they are often confused by their companions actions, seemingly unable to understand the morals and behavior of civilized races.
 
 Drakes are smaller than lizardfolks, standing 5 and a half feet at most. Their bodies are lean, weighing between 150 and 200 pounds. Their large, dragon-like wings allow them to easily glide through the air. Drake scales share the green, blue and red coloring of their cousins, but rarely some drakes are born a metallic bronze color.
 
+___
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/3
 - **Attribute Bonus:** +1 Dexterity, +1 Willpower, -1 Charisma
@@ -1165,32 +1312,128 @@ Drakes are smaller than lizardfolks, standing 5 and a half feet at most. Their b
 
 You can maintain flight for a limited time. On your turn, you may take flight using your movement. If you fly this way you must touch the ground by the end of your next turn or plummet from the sky. You cannot fly again until the start of your next turn.
 
-## Spells
-### Arcane
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 
-#### Spells By Level
+# Appendix - Spells
 
+<div class='spellList'>
+## Arcane
 ##### Cantrip
-- [Cold Snap](#Cold-Snap)
-- [Firebolt](#Firebolt)
-- [Message](#Message)
-- [Minor Image](#Minor-Image)
-- [Static Shock](#Static-Shock)
-- [Thundering Blow](#Thundering-Blow)
+- Cold Snap
+- Firebolt
+- Minor Image
+- Static Shock
+- Static Shock
+- Thundering Blow
+  
+##### First
+- Arcane Blasts
+- Arcane Key
+- Beam of Fire
+- Call Lightning
+- Chilling Ray
+- Detect Magic
+- Identify
+- Magic Sight
+- Poison Trap
+- Ray of Sickness
+- Sword Burst
+- Thunderclap
+  
+##### Second
+- Barrier
+- Blink
+- Combust
+- Dispel Magic
+- Elemental Shell
+- Hailstorm
+- Imprint
+- Magic Weapon
+- Resilient Shield
+  
+##### Third
+- Animate Guardian
+- Chain Lightning
+- Counter Spell
+- Far Sight
+- Fireball
+- Flight
+- Ice Knives
+- Phantasmal Blades
+- Protective Sigil
+- Telepathic Bond
+  
+##### Fourth
+- Conjure Elemental
+- Fire Shell
+- Ice Lance
+- Lightning Bolt
+- Nondetection
+- Orb of Acid
+- Passwall
+- Starfall
+  
+##### Fifth
+- Illusory Space
+- Instant Fortification
+- Open Warren
+- Poison Cloud
+- Wall of Fire
+- Ward Area
+  
+##### Sixth
+- Anti-Magic Field
+- Conjuration
+- Earthquake
+- Evocation
+- Forcewave
+  
+##### Seventh
+- Call Storm
+- Mass Fireball
+- Power Word: Fire
+- Power Word: Ice
+- Power Word: Lightning
+- Project Image
+  
+##### Eighth
+- Fiendfire
+- Invulnerability
+- Slow Time
+- Stabilize Warren
+  
+##### Ninth
+- Armageddon
+<br/>
+<br/>
+<br/>
+
+<br/>
+## Curse
+  
+##### Cantrip
+- Bleed
+- Eldritch Blast
+- Levitate
+- Life Sense
+- Trickery
+- Witchcraft
 
 ##### First
-- [Arcane Blasts](#Arcane-Blasts)
-- [Arcane Key](#Arcane-Key)
-- [Beam of Fire](#Beam-of-Fire)
-- [Call Lightning](#Call-Lightning)
-- [Chilling Ray](#Chilling-Ray)
-- [Detect Magic](#Detect-Magic)
-- [Identify](#Identify)
-- [Magic Sight](#Magic-Sight)
-- [Poison Trap](#Poison-Trap)
-- [Ray of Sickness](#Ray-of-Sickness)
-- [Sword Burst](#Sword-Burst)
-- [Thunderclap](#Thunderclap)
+- Black Tendrils
+- Charming Guise
+- Concealment
+- Crow of Magthera
+- Curse of Misfortune
+- Firefly Swarm
+- Ghoulish Claws
+- Hex
+- Hex Bolt
+- Occult Whispers
+- Quicken
+- Sleep
+- Weal
 
 ##### Second
 - [Barrier](#Barrier)
@@ -1204,63 +1447,60 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Resilient Shield](#Resilient-Shield)
 
 ##### Third
-- [Animate Guardian](#Animate-Guardian)
-- [Chain Lightning](#Chain-Lightning)
-- [Counter Spell](#Counter-Spell)
-- [Far Sight](#Far-Sight)
-- [Fireball](#Fireball)
-- [Flight](#Flight)
-- [Ice Knives](#Ice-Knives)
-- [Phantasmal Blades](#Phantasmal-Blades)
-- [Protective Sigil](#Protective-Sigil)
-- [Telepathic Bond](#Telepathic-Bond)
+- Apathy
+- Curse of Weakness
+- Enlarge/Reduce
+- False Aura
+- Fearful Presence
+- Frog Morph
+- Inflict Wound
+- Shapechange
+- Shifting Image
+- Shroud of Darkness
 
 ##### Fourth
-- [Conjure Elemental](#Conjure-Elemental)
-- [Fire Shell](#Fire-Shell)
-- [Ice Lance](#Ice-Lance)
-- [Lightning Bolt](#Lightning-Bolt)
-- [Nondetection](#Nondetection)
-- [Orb of Acid](#Orb-of-Acid)
-- [Passwall](#Passwall)
-- [Starfall](#Starfall)
+- Curse of Slowness
+- Gloom
+- Haste
+- Instigate
+- Laughing Skull
+- Mass Hex
+- Paralytic Cloud
+- Raise Dead
+- Void Lure
+- Invisibility
 
 ##### Fifth
-- [Illusory Space](#Illusory-Space)
-- [Instant Fortification](#Instant-Fortification)
-- [Open Warren](#Open-Warren)
-- [Poison Cloud](#Poison-Cloud)
-- [Wall of Fire](#Wall-of-Fire)
-- [Ward Area](#Ward-Area)
+- Curse of Pain
+- Heart Grip
+- Impale
+- Mind Break
+- Suggestion
+- True Sight
 
 ##### Sixth
-- [Anti-Magic Field](#Anti-Magic-Field)
-- [Conjuration](#Conjuration)
-- [Earthquake](#Earthquake)
-- [Evocation](#Evocation)
-- [Forcewave](#Forcewave)
+- Curse of Fear
+- Isolation
+- Miasma
+- Psychic Scream
+- Ritual of Mordiggian
 
 ##### Seventh
-- [Call Storm](#Call-Storm)
-- [Mass Fireball](#Mass-Fireball)
-- [Power Word: Fire](#Power-Word-Fire)
-- [Power Word: Ice](#Power-Word-Ice)
-- [Power Word: Lightning](#Power-Word-Lightning)
-- [Project Image](#Project-Image)
+- Curse of Obedience
+- Gateway
+- Gravity Well
 
 ##### Eighth
-- [Fiendfire](#Fiendfire)
-- [Invulnerability](#Invulnerability)
-- [Slow Time](#Slow-Time)
-- [Stabilize Warren](#Stabilize-Warren)
+- Control
+- Curse of Death
 
 ##### Ninth
 - [Armageddon](#Armageddon)
 ### Cantrips
 
-___
 #### Cold Snap
 *Cantrip*
+___
 - **Casting Time:** 5 AP
 - **Range:** 2
 - **Duration:** instant
@@ -1270,9 +1510,9 @@ Sap heat from a creature you can see. Make a spellcasting roll against the creat
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Firebolt
 *Cantrip*
+___
 - **Casting Time:** 6 AP
 - **Range:** 8
 - **Duration:** instant
@@ -1286,6 +1526,7 @@ Add a wound die for every level cast above cantrip.
 ___
 #### Message
 *Cantrip*
+___
 - **Casting Time:** 2 AP
 - **Range:** 10+
 - **Duration:** instant
@@ -1294,9 +1535,9 @@ You attempt to send a telepathic message to a creature you're familiar with or t
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Minor Image
 *Cantrip*
+___
 - **Casting Time:** 4 AP
 - **Range:** 10
 - **Duration:** 5 minutes
@@ -1309,6 +1550,7 @@ Add an enhanced die for every level cast above cantrip.
 ___
 #### Static Shock
 *Cantrip*
+___
 - **Casting Time:** 6 AP
 - **Range:** 3
 - **Duration:** instant
@@ -1318,9 +1560,9 @@ Charge the air around a creature in range causing it to discharge through the cr
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Thundering Blow
 *Cantrip*
+___
 - **Casting Time:** 5 AP
 - **Range:** touch
 - **Duration:** instant
@@ -1332,9 +1574,9 @@ Add an enhanced die for every level cast above cantrip.
 
 ### First Level
 
-___
 #### Arcane Blasts
 *1st level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 7
 - **Duration:** instant
@@ -1349,6 +1591,7 @@ Fire another blast for every level cast above 1st.
 ___
 #### Arcane Key
 *1st level*
+___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -1361,6 +1604,7 @@ Add an enhanced die for every level cast above 1st.
 ___
 #### Beam of Fire
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** instant
@@ -1370,9 +1614,9 @@ A blast of fire erupts from your hands hitting all creatures in a 4 tile line. M
 
 The beam reaches 2 tiles further and deals an extra wound die for every level cast above 1st.
 
-___
 #### Call Lightning
 *1st level*
+___
 - **Casting Time:** 7 (5) AP
 - **Range:** 10
 - **Duration:** instant
@@ -1386,6 +1630,7 @@ Add an enhanced die for every level cast above 1st.
 ___
 #### Chilling Ray
 *1st level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
@@ -1402,6 +1647,7 @@ Add an enhanced die for every level cast above 1st.
 ___
 #### Detect Magic
 *1st level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 10
 - **Duration:** instant
@@ -1410,9 +1656,9 @@ Attempt to read the flow of magic in a 10x10 area centered on a point in range. 
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Identify
 *1st level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** instant
@@ -1421,9 +1667,9 @@ Attempt to learn the secrets of a magical item or trinket. Make a lore check usi
 
 Add an enhanced die for every level cast above 1st
 
-___
 #### Magic Sight
 *1st level*
+___
 - **Casting Time:** 10 AP
 - **Range:** self
 - **Duration:** concentration, 1 hour
@@ -1434,9 +1680,9 @@ If the eye is able to fully spot a creature behind cover, they gain 1 less bonus
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Poison Trap
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -1451,6 +1697,7 @@ Add a tile for every level cast above 1st.
 ___
 #### Ray of Sickness
 *1st level*
+___
 - **Casting Time:** 5 AP
 - **Range:** 7
 - **Duration:** instant
@@ -1459,9 +1706,9 @@ A sickening beam blasts a creature in range you can see. Make a spellcasting rol
 
 You may target an additional creature for every level cast above 1st.
 
-___
 #### Sword Burst
 *1st level*
+___
 - **Casting Time:** 3 AP
 - **Range:** self
 - **Duration:** 1 minute.
@@ -1471,9 +1718,9 @@ Magically enchant your weapon to fire a burst of energy with your next attack. Y
 
 Your reach increases by 1 and you add a wound die to the damage for every level cast above 1st.
 
-___
 #### Thunderclap
 *1st level*
+___
 - **Casting Time:** 5 AP
 - **Range:** self
 - **Duration:** instant
@@ -1488,6 +1735,7 @@ Add an enhanced die for every level cast above 1st.
 ___
 #### Barrier
 *2nd level*
+___
 - **Casting Time:** 2 AP
 - **Range:** self
 - **Duration:** instant
@@ -1509,9 +1757,23 @@ Attempt to teleport yourself to a unoccupied point you can see in range. Make a 
 
 Add an enhanced die for every level cast above 2nd.
 
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
+
+#### Blink
+*2nd level*
 ___
+- **Casting Time:** 3 AP
+- **Range:** 5/10
+- **Duration:** instant
+
+Attempt to teleport yourself to a unoccupied point you can see in range. Make a spellcasting roll against 1 bad die, or 3 bad dice if you attempt to teleport more than 5 tiles. On success you teleport to that position, preventing any opportunity attacks or attacks that trigger on entering someone's zone of control.
+
+Add an enhanced die for every level cast above 2nd.
+
 #### Combust
 *2nd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 minute
@@ -1522,9 +1784,9 @@ Cause 2 creatures you can see in range to burst into flames. Make a spellcasting
 
 You may target an additional creature for every level cast above 2nd.
 
-___
 #### Dispel Magic
 *2nd level*
+___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
@@ -1540,6 +1802,7 @@ You may target an additional effect for every level cast above 2nd.
 ___
 #### Elemental Shell
 *2nd level*
+___
 - **Casting Time:** 5 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -1551,6 +1814,7 @@ Add an enhanced die for every level cast above 2nd.
 ___
 #### Hailstorm
 *2nd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** touch
 - **Duration:** instant
@@ -1560,9 +1824,10 @@ You conjure a flurry of ice shards in a 3x3 tile area adjacent to you. Make a sp
 
 add a wound die and increase the area by 1 for every level cast above 2nd.
 
-___
+<div style='height=1000px;margin-top:-1px'>
 #### Imprint
 *2nd level*
+___
 - **Casting Time:** up to 5 minutes
 - **Range:** self
 - **Duration:** concentration, 5 minutes
@@ -1577,6 +1842,11 @@ Attempt to record your senses into an object, allowing a creature to replay your
 The recording is permanent, unless a command word is spoken to end the spell or _Dispel Magic_ is cast on it. A creature under _Nondetection_ appears as a blurry patch and their voice is unrecognizable regardless of the quality of recording.
 
 Add an enhanced die for every level cast above 2nd.
+</div>
+
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+
 
 
 
@@ -1584,6 +1854,7 @@ Add an enhanced die for every level cast above 2nd.
 ___
 #### Magic Weapon
 *2nd level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
@@ -1592,9 +1863,9 @@ Temporarily enchant a weapon with magic. You may target up to 5 weapons, adding 
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Resilient Shield
 *2nd level*
+___
 - **Casting Time:** 4 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -1609,6 +1880,7 @@ Add an enhanced die for every level cast above 2nd.
 ___
 #### Animate Guardian
 *3rd level*
+___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** concentration, 1 hour
@@ -1625,6 +1897,7 @@ Add an enhanced die for every level cast above 3rd. At 5th level you may target 
 ___
 #### Chain Lightning
 *3rd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** instant
@@ -1634,9 +1907,9 @@ Conjure a burst of lightning that bounces from creature to creature. Targeting a
 
 The number of bounces increases by 1 and you add an enhanced die for every level cast above 3rd.
 
-___
 #### Counter Spell
 *3rd level*
+___
 - **Casting Time:** 2 AP
 - **Range:** 5
 - **Duration:** instant
@@ -1645,9 +1918,9 @@ Attempt to counter a creatures flow of magic, stopping a spell before it can be 
 
 Multiple casters can attempt to counter the same spell. When multiple casters cast _Counter Spell_ you use the combined mana across all casts when determining your roll.
 
-___
 #### Far Sight
 *3rd level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 1 mile
 - **Duration:** concentration, 10 minutes
@@ -1662,6 +1935,7 @@ Add an enhanced die for every level cast above 3rd.
 ___
 #### Fireball
 *3rd level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -1671,9 +1945,9 @@ Launch a ball of fire centered at a target point in range you can see. The fireb
 
 Add a wound die for every level cast above 3rd.
 
-___
 #### Flight
 *3rd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -1682,7 +1956,6 @@ Gain magical flight, allowing you to float through the air. Choosing up to 5 wil
 
 Add an enhanced die for every level cast above 3rd.
 
-___
 #### Ice Knives
 *3rd level*
 - **Casting Time:** 8 AP
@@ -1694,9 +1967,9 @@ You conjure an barrage of icicles, hitting all adjacent creatures and blasting a
 
 Add a wound die for every level cast above 3rd.
 
-___
 #### Phantasmal Blades
 *3rd level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -1707,9 +1980,11 @@ Summon a barrage of force blades at a creature in range you can see. Make a spel
 Add a wound die and normal die for every level cast above 3rd.
 
 
-___
+```
+```
 #### Protective Sigil
 *3rd level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 8 hours
@@ -1720,9 +1995,9 @@ To create the sigil make a spellcasting roll against 2 terrible dice. On success
 
 You may choose a spell to store that is one level higher for every level cast above 3rd.
 
-___
 #### Telepathic Bond
 *3rd level*
+___
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 1 hour
@@ -1731,7 +2006,11 @@ You form a telepathic connection with up to 5 willing creatures. Make a spellcas
 
 Add an enhanced die for each level above 3rd.
 
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
 
+  
+### Fourth Level
 
   
 ### Fourth Level
@@ -1739,6 +2018,7 @@ Add an enhanced die for each level above 3rd.
 ___
 #### Conjure Elemental
 *4th level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -1773,8 +2053,6 @@ ___
 > - ***Freeze*** *Water Only* 5 AP, melee, Attempt to freeze a creature in place, make a spellcasting roll against the creatures Dexterity save. On success you dealing 1 wound in cold damage, restraining them until the start of your next turn on a critical.
 
 
-
-___
 #### Fire Shell
 *4th level*
 - **Casting Time:** 7 AP
@@ -1786,9 +2064,9 @@ A shell of fire surrounds your body. For the duration you add 1 superior defense
 
 Add an enhanced die for every level cast above 4th.
 
-___
 #### Ice Lance
 *4th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** touch
 - **Duration:** 10 minutes
@@ -1800,9 +2078,9 @@ You may make one attack, melee or thrown, when casting this spell.
 
 You create an additional lance for every level cast above 4th.
 
-___
 #### Lightning Bolt
 *4th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** self
 - **Duration:** instant
@@ -1819,6 +2097,7 @@ Add an enhanced die for every level cast above 4th.
 ___
 #### Nondetection
 *4th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** concentration, 24 hours
@@ -1827,9 +2106,9 @@ For the duration of the spell a creature is undetectable by most forms of magic.
 
 You may target an additional creature for every level cast above 4th.
 
-___
 #### Orb of Acid
 *4th level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** instant
@@ -1841,9 +2120,9 @@ Regardless of the outcome acid covers the floor for the next minute. Any creatur
 
 The area of the blast increases by 2 and the initial damage increases by 1 wound die for every level cast above 4th.
 
-___
 #### Passwall
 *4th level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 1 hour
@@ -1857,6 +2136,7 @@ Add an enhanced die and increase the maximum depth by 2 tiles for every level ca
 ___
 #### Starfall
 *4th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 25
 - **Duration:** 1 minute
@@ -1871,13 +2151,14 @@ Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 ___
 #### Illusory Space
 *5th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 20
 - **Duration:** concentration, 1 hour
 
 You create an illusory landscape covering a 10x10x10 tile cube centered on a point in range you can see. The illusion can change the look, smell, sounds and temperature of the area and create sounds that can be heard up to 1 mile. All effects happen in the creatures mind and have no effect on the creature themselves. The illusion covers the landscape and you may extend the illusion up to 6 inches away from a surface with creatures that touch the illusion will believing they are interacting with it.
 
-You may cast the illusion over a cliff or gap, for example creating a bridge over a a ravine. A creature that passes through your illusion and falls makes a Willpower save against your spellcasting roll. On failure they rationalize a reason for the outcome. Similarly you may create an illusion of something inside the space (eg: creating an illusion of a tower in a flat meadow), with the creature making a Willpower save when attempting to interact with it.
+You may cast the illusion over a cliff or gap, for example creating a bridge over a ravine. A creature that passes through your illusion and falls makes a Willpower save against your spellcasting roll. On failure they rationalize a reason for the outcome. Similarly you may create an illusion of something inside the space (e.g. creating an illusion of a tower in a flat meadow), with the creature making a Willpower save when attempting to interact with it.
 
 A creature attempting to perceive the illusion must make a perception check against your spellcasting, on success they see the illusion for what it is.
 
@@ -1885,8 +2166,6 @@ For every level cast above 5th you may extend the illusory space by another 10x1
 
 
 
-
-___
 #### Instant Fortification
 *5th level*
 - **Casting Time:** 1 turn
@@ -1901,9 +2180,9 @@ You may give the walls up to _Resistance 3_, with a minimum of 1. Make a spellca
 
 For every level cast above 5th you create an additional 5x5 area which must share a side with the existing fortifications.
 
-___
 #### Open Warren
 *5th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** 1 minute, concentration
@@ -1917,6 +2196,7 @@ You do not start making spellcasting rolls to stay inside the warren for an hour
 ___
 #### Poison Cloud
 *5th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 15
 - **Duration:** 10 minutes
@@ -1928,9 +2208,9 @@ Strong winds can move or reduce the size of the poison cloud, with spells like _
 
 The size of the cloud increases by 2 and you add an enhanced die for every level cast above 5th.
 
-___
 #### Wall of Fire
 *5th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 15
 - **Duration:** instant
@@ -1945,9 +2225,9 @@ Add a wound die and increase the width by 2 tiles for every level cast above 5th
 
 
 
-___
 #### Ward Area
 *5th level*
+___
 - **Casting Time:** 10 minutes
 - **Range:** 5
 - **Duration:** 24 hours
@@ -1968,10 +2248,9 @@ The number of tiles effected increases by 100 for every level cast above 5th.
 ### Sixth Level
 
 
-
-___
 #### Anti-Magic Field
 *6th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -1985,6 +2264,7 @@ The area increases by 2 and you add a superior die to your spellcasting rolls fo
 ___
 #### Conjuration
 *6th level*
+___
 - **Casting Time:** 10 minutes
 - **Range:** touch
 - **Duration:** 1 day
@@ -1995,9 +2275,9 @@ On casting the spell make a spellcasting roll against 3 bad dice, on success you
 
 The amount you can conjure doubles with each level above 6th; up to 8 tiles at 7th level, 16 tiles at 8th level, and 32 tiles at 9th level.
 
-___
 #### Earthquake
 *6th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 200
 - **Duration:** concentration, 10 minutes
@@ -2007,9 +2287,9 @@ You cause the ground to quake and tremble, collapsing buildings and toppling tre
 
 The range and area of the spell increases by 10 for each level above 6th.
 
-___
 #### Evocation
 *6th level*
+___
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -2024,6 +2304,7 @@ Add an enhanced die for every level cast above 6th.
 ___
 #### Forcewave
 *6th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** touch
 - **Duration:** instant
@@ -2036,10 +2317,9 @@ The length of the wave increases by 3 and wound dice increases by 2 for each lev
 
 ### Seventh Level
 
-
-___
 #### Call Storm
 *7th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 20
 - **Duration:** concentration, 10 minutes
@@ -2060,6 +2340,7 @@ Add an enhanced die for every level cast above 7th.
 ___
 #### Mass Fireball
 *7th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 20
 - **Duration:** instant
@@ -2069,9 +2350,9 @@ You conjure 3 fireballs which explode in a 5x5 tile area centered on points in r
 
 Add an extra fireball for every level cast above 7th.
 
-___
 #### Power Word: Fire
 *7th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** self
 - **Duration:** concentration, 5 minutes
@@ -2095,6 +2376,7 @@ The damage from both sources increases by 1 wound die for every level cast above
 ___
 #### Power Word: Ice
 *7th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** self
 - **Duration:** concentration, 5 minutes
@@ -2111,9 +2393,9 @@ Only a single Power Word can be active at once, casting another Power Word spell
 
 The range of both effects increase by 1 and you add an enhanced die to your spellcasting rolls for every level cast above 7th.
 
-___
 #### Power Word: Lightning
 *7th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** self
 - **Duration:** concentration, 5 minutes
@@ -2134,6 +2416,7 @@ Add a superior die for every level cast above 7th.
 ___
 #### Project Image
 *7th level*
+___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -2148,9 +2431,9 @@ The duration increases to 8 hours at 8th level, 1 day at 9th level, and 7 days a
 
 ### Eighth Level
 
-___
 #### Fiendfire
 *8th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -2163,9 +2446,9 @@ The fire burns through trees, bushes, or other plant matter leaving only ash. On
 Add 2 wounds for each level cast above 8th.
 
 
-___
 #### Invulnerability
 *8th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** self
 - **Duration:** concentration, 1 minute
@@ -2174,9 +2457,9 @@ You cover yourself in a layer of force, warding yourself from harm. Make a spell
 
 The duration increases by 1 minute for each level cast above 8th.
 
-___
 #### Slow Time
 *8th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** concentration, 1 minute
@@ -2190,9 +2473,9 @@ At the start each of the casters turn they must make an exhaustion check against
 Add 2 superior dice to the spellcasting roll for each level cast above 8th.
 
 
-___
 #### Stabilize Warren
 *8th level*
+___
 - **Casting Time:** 10 minutes
 - **Range:** self
 - **Duration:** 24 hours
@@ -2207,7 +2490,6 @@ When cast at 9th level the duration increases to 1 year, or 77 years after casti
 
 ### Ninth Level
 
-___
 #### Armageddon
 *9th level*
 - **Casting Time:** 1 turn
@@ -2287,39 +2569,23 @@ Add 3 superior dice when cast at 10th level.
 - [Void Lure](#Void-Lure)
 - [Invisibility](#Invisibility)
 
-##### Fifth
-- [Curse of Pain](#Curse-of-Pain)
-- [Heart Grip](#Heart-Grip)
-- [Impale](#Impale)
-- [Mind Break](#Mind-Break)
-- [Suggestion](#Suggestion)
-- [True Sight](#True-Sight)
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 
-##### Sixth
-- [Curse of Fear](#Curse-of-Fear)
-- [Isolation](#Isolation)
-- [Miasma](#Miasma)
-- [Psychic Scream](#Psychic-Scream)
-- [Ritual of Mordiggian](#Ritual-of-Mordiggian)
 
-##### Seventh
-- [Curse of Obedience](#Curse-of-Obedience)
-- [Gateway](#Gateway)
-- [Gravity Well](#Gravity-Well)
+<div class='wide'>
+## Curse
+</div>
 
-##### Eighth
-- [Control](#Control)
-- [Curse of Death](#Curse-of-Death)
+### Cantrip
 
-##### Ninth
-- [Power Word: Kill](#Power-Word-Kill)
-- [Seal](#Seal)
 
 ### Cantrip
 
 ___
 #### Bleed
 *Cantrip*
+___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
@@ -2329,9 +2595,9 @@ Force open the wounds of a creature in range you can see. Make a spellcasting ro
 
 You may target an extra creature for every level cast above cantrip.
 
-___
 #### Eldritch Blast
 *Cantrip*
+___
 - **Casting Time:** 5 AP
 - **Range:** 7
 - **Duration:** instant
@@ -2341,9 +2607,9 @@ Fire a burst of force at a creature in range you can see. Make a spellcasting ro
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Levitate
 *Cantrip*
+___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** concentration, 5 minutes
@@ -2358,6 +2624,7 @@ The maximum weight doubles for every level cast above cantrip.
 ___
 #### Life Sense
 *Cantrip*
+___
 - **Casting Time:** 5 AP
 - **Range:** 10
 - **Duration:** 1 minute
@@ -2366,9 +2633,9 @@ You sense the presence of living creatures in a 3x3 tile area centered on a poin
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Trickery
 *Cantrip*
+___
 - **Casting Time:** 4 (2) AP
 - **Range:** 3
 - **Duration:** 1 turn
@@ -2377,9 +2644,9 @@ You conjure up a display of illusory light to distract up to 5 creatures. Make a
 
 Add an enhanced die for every level cast above cast cantrip.
 
-___
 #### Witchcraft
 *Cantrip*
+___
 - **Casting Time:** 3 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -2397,6 +2664,11 @@ A creature trying to see through these illusions must succeed on a perception ch
 
 Add an enhanced die for every level cast above cantrip.
 
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+
+
+### First Level
 
 
 
@@ -2405,6 +2677,7 @@ Add an enhanced die for every level cast above cantrip.
 ___
 #### Black Tendrils
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 10 minutes, requires a free hand
@@ -2413,9 +2686,9 @@ Black tendrils erupt from your hand to bind a creature in range you can see. Mak
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Charming Guise
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 hour
@@ -2424,9 +2697,9 @@ You take on a charming persona, attempting to charm up to 5 creatures in range y
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Concealment
 *1st level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -2439,6 +2712,7 @@ Add an enhanced die for every level cast above 1st.
 ___
 #### Crow of Magthera
 *1st level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 10
 - **Duration:** instant
@@ -2448,9 +2722,9 @@ You summon a crow with obsidian feathers capable of cutting through flesh and me
 
 Add a wound die for every level cast above 1st.
 
-___
 #### Curse of Misfortune
 *1st level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -2463,6 +2737,7 @@ You may target an additional creature for every level cast above 1st.
 ___
 #### Firefly Swarm
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 7
 - **Duration:** 1 minute
@@ -2474,9 +2749,9 @@ The the fireflies cover 1 additional adjacent tile and the number of burns incre
 
 
 
-___
 #### Ghoulish Claws
 *1st level*
+___
 - **Casting Time:** 6 AP
 - **Range:** Self
 - **Duration:** 1 minute
@@ -2486,9 +2761,11 @@ Your hands elongate, becoming deadly poisonous claws. While under the effects of
 
 The duration increases by 1 minute for every level cast above 1st.
 
-___
+<div style='margin-top:-5px'>
+
 #### Hex
 *1st level*
+___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** 10 minutes
@@ -2496,12 +2773,15 @@ ___
 inflict a creature you can see with a hex. Make a spellcasting roll against the creatures Willpower save. On success they gain hex, or hex 2 on a critical.
 
 Add an enhanced die for every level cast above 1st.
+  
+</div>
 
 
 
   ___
 #### Hex Bolt
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -2510,11 +2790,13 @@ Add an enhanced die for every level cast above 1st.
 Fire a bolt of psychic force, sticking to a creature in range you can see. Make a spellcasting roll against the creatures Willpower save, adding a bad die to your roll if the creature is not hexed. On success you deal 1 wound in psychic damage, adding a wound die if the creature is hexed. On a critical, the creature gains hex for 1 minute, or increases their level of hex up to a max of 3. For the next minute, once per turn you may spend 4 AP to make the same attack against the same creature, or move the hex bolt and attack a different creature within 2 tiles.
 
 Add an enhanced die for every level cast above 1st.
+</div>
 
 
 ___
 #### Occult Whispers
 *1st level*
+___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
@@ -2526,9 +2808,12 @@ Regardless of success the creature is distracted by the whispers and cannot make
 
 Add an enhanced die for every level cast above 1st.
 
-___
+```
+```
+
 #### Quicken
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -2537,9 +2822,9 @@ Enchant up to 5 creatures you can see, imbuing them with unnatural speed. Make a
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Sleep
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 hour
@@ -2548,9 +2833,9 @@ You attempt to put a group of living creatures to sleep. Targeting a 6x6 tile ar
 
 Add 2 superior dice for each level above 1st.
 
-___
 #### Weal
 *1st level*
+___
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 4 hours
@@ -2568,6 +2853,7 @@ Add an enhanced die to the spellcasting roll for every level cast above 1st.
 ___
 #### Betrayal
 *2nd level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -2576,9 +2862,9 @@ Attempt to fill a creatures mind with rage, preventing it from seeing friend or 
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Bewitched Arrow
 *2nd level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 1 day
@@ -2588,9 +2874,9 @@ You conjure up to 5 deadly, blackthorn arrows. Make a spellcasting roll adding a
 
 You conjure an additional arrow for every level cast above 2nd.
 
-___
 #### Binding
 *2nd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -2599,9 +2885,11 @@ Attempt to bind a creature you can see in shimmering chains. Make a spellcasting
 
 You can target an additional creature for every level cast above 2nd.
 
-___
+```
+```
 #### Cloud of Teeth
 *2nd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -2611,9 +2899,9 @@ You create a swirling cloud of teeth around yourself. If you roll 4 or less defe
 
 The cloud's area increases by 1 and you add or improve a defense die for each level cast above 2nd.
 
-___
 #### Command
 *2nd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 8 hours
@@ -2624,9 +2912,9 @@ Make a spellcasting roll against the creatures Willpower save. On success they m
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Corpse Explosion
 *2nd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** instant
@@ -2636,9 +2924,11 @@ You cause a large or smaller corpse to explode, launching sharp bone shards at n
 
 You may target an additional corpse for each level cast above 2nd.
 
-___
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 #### Curse of Fragility
 *2nd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -2649,9 +2939,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 2nd.
 
-___
 #### Curse of Suffering
 *2nd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -2662,9 +2952,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 2nd.
 
-___
 #### Dark Sight
 *2nd level*
+___
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 1 hour
@@ -2673,9 +2963,9 @@ Magically enhance the sight of up to 5 creatures, giving them the ability to see
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Dull Intellect
 *2nd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -2684,9 +2974,11 @@ Attempt to cloud the mind of a creature in range you can see. Make a spellcastin
 
 You may target an additional creature for each level above 2nd.
 
-___
+```
+```
 #### Howling Whirlwind
 *2nd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 minute
@@ -2698,9 +2990,9 @@ For the duration, starting on your next turn you may move the whirlwind up to 3 
 
 The area of the whirlwind increases by 2 for every level cast above 2nd. When cast at 5th level and above the whirlwind can damage buildings and can push large, heavy objects, such as barrels or carts.
 
-___
 #### Mass Web
 *2nd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 10
 - **Duration:** 1 minute
@@ -2711,9 +3003,9 @@ The webs are extremely flammable and ignite after taking 1 wound of fire damage.
 
 Add an enhanced die and increase the area by 1 for every level cast above 2nd.
 
-___
 #### Silent Passage
 *2nd level*
+___
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -2722,14 +3014,18 @@ You emanate an aura of silence around yourself, extending out to a 5 tile radius
 
 Add an enhanced die for every level cast above 2nd.
 
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
 
 
+### Third Level
 
 ### Third Level
 
 ___
 #### Apathy
 *3rd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -2738,9 +3034,9 @@ Suppress a creatures natural abilities. Make a spellcasting roll against the cre
 
 You may target an additional creature for each level above 3rd.
 
-___
 #### Curse of Weakness
 *3rd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -2751,9 +3047,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 3rd.
 
-___
 #### Enlarge/Reduce
 *3rd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -2765,9 +3061,11 @@ Change a creatures size, either doubling or reducing it by half. When targeting 
 
 You may target an additional creature for every level cast above 3rd. All targets must either be enlarged or reduced.
 
-___
+```
+```
 #### False Aura
 *3rd level*
+___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** 24 hours
@@ -2782,9 +3080,9 @@ If you cast this spell on a creature or object with the same effect every day fo
 
 The spell lasts an additional 24 hours for every level cast above 3rd.
 
-___
 #### Fearful Presence
 *3rd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 15
 - **Duration:** 1 minute
@@ -2793,9 +3091,11 @@ You assume a horrifying visage, fearing up to 5 creatures in range that can see 
 
 Add an enhanced die for every level cast above 3rd.
 
-___
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 #### Frog Morph
 *3rd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -2806,9 +3106,9 @@ The creature spends its turns hopping around, moving a single tile in a random d
 
 You may target an additional creature for every level cast above 3rd. If you try to cast this on multiple creatures larger than medium you add the terrible dice based on size across all creatures.
 
-___
 #### Inflict Wound
 *3rd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** touch
 - **Duration:** instant
@@ -2818,9 +3118,9 @@ touch a creature, inflicting mortal wounds. Make a spellcasting roll against the
 
 Add a wound die for every level cast above 3rd.
 
-___
 #### Shapechange
 *3rd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** 1 hour
@@ -2830,10 +3130,11 @@ You transform your body into a dangerous beast. The creature must have a CR of 5
 Make a spellcasting roll, your max wounds are increased by 1 for every critical rolled. If you are reduced to 0 wounds while in this form the spell ends and you transform back to your normal shape, taking 2 wounds of damage and are stunned until the end of your next turn from the strain.
 
 Add an enhanced die and increase the CR by 3 for every level cast above 3rd.
-
-___
+```
+```
 #### Shifting Image
 *3rd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -2842,9 +3143,9 @@ Your form blurs as 3 illusory projections of yourself hide your true position. A
 
 Add an enhanced die for every level cast above 3rd.
 
-___
 #### Shroud of Darkness
 *3rd level*
+___
 - **Casting Time:** 5 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -2855,9 +3156,9 @@ The area of the darkness increases by 2 for every level cast above 3rd.
 
 ### Fourth Level
 
-___
 #### Curse of Slowness
 *4th level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -2870,9 +3171,9 @@ You may target an additional creature for every level cast above 4th.
 
 
 
-___
 #### Gloom
 *4th level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 hour
@@ -2881,9 +3182,9 @@ Inflict an area with a supernatural gloom centered on a point you can see within
 
 Add an enhanced die for every level cast above 4th.
 
-___
 #### Haste
 *4th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -2892,9 +3193,9 @@ Enhance the speed of up to 5 willing creatures you can see. Make a spellcasting 
 
 Add an enhanced die for every level cast above 4th.
 
-___
 #### Instigate
 *4th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** 10 minutes
@@ -2907,6 +3208,7 @@ Add an enhanced die for every level cast above 4th.
 ___
 #### Laughing Skull
 *4th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -2916,9 +3218,9 @@ You summon a flaming skull that screeches a hideous laughter. The skull appears 
 
 The distance the skull travels increases by 2 for every level cast above 4th.
 
-___
 #### Mass Hex
 *4th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** instant
@@ -2927,9 +3229,9 @@ You target a 4x4 tile area centered on a point in range, bestowing a potent hex 
 
 Increase the area by 1 for every level cast above 4th.
 
-___
 #### Paralytic Cloud
 *4th level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -2943,6 +3245,7 @@ Add an enhanced die for every level cast above 4th.
 ___
 #### Raise Dead
 *4th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 2
 - **Duration:** 1 day
@@ -2951,9 +3254,9 @@ Attempt to raise a dead creature as a zombie, or take control of a zombie withou
 
 You may target an extra medium or large corpse and add a superior die to your roll for every level cast above 4th.
 
-___
 #### Void Lure
 *4th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** instant
@@ -2964,9 +3267,9 @@ For every successful casting of _Void Lure_ in this location in the past day, ad
 
 The CR of the summoned creature increases by 2 for every level cast above 4th.
 
-___
 #### Invisibility
 *4th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 2
 - **Duration:** concentration, 1 hour
@@ -2975,13 +3278,17 @@ Turn yourself or another creature or an object invisible. Make a spellcasting ro
 
 Add an enhanced die to your spellcasting roll, and you may target an additional creature or object for every level cast above 4th. When targeting multiple creatures add a terrible die for each creature targeted past the 1st.
 
+```
+```
 
+### Fifth Level
 
 ### Fifth Level
 
 ___
 #### Curse of Pain
 *5th level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -2992,9 +3299,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 5th.
 
-___
 #### Heart Grip
 *5th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 7
 - **Duration:** instant
@@ -3004,9 +3311,9 @@ Reach out to a creature you can see and stop their heart. Make a spellcasting ro
 
 Add a wound to the damage for every level cast above 5th.
 
-___
 #### Impale
 *5th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** touch
 - **Duration:** instant
@@ -3020,9 +3327,9 @@ Add a wound to the damage and increase the length of the line by 1 tile for ever
 
 
 
-___
 #### Mind Break
 *5th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -3032,9 +3339,9 @@ Attempt to overpower the mind of a creature in range that can see you. You make 
 
 Add a normal die to the spellcasting roll for every level cast above 5th.
 
-___
 #### Suggestion
 *5th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 15
 - **Duration:** 24 hours
@@ -3047,9 +3354,9 @@ Creatures that are immune to charm are immune to this spell. The command must be
 
 Add an enhanced die for every level cast above 5th.
 
-___
 #### True Sight
 *5th level*
+___
 - **Casting Time:** 5 AP
 - **Range:** self
 - **Duration:** 1 hour
@@ -3058,7 +3365,11 @@ Enhance your vision, seeing through illusions, invisibility and the true forms o
 
 The duration increases by 1 hour for every level cast above 5th.
 
+```
+```
 
+<div style='margin-top:-13px'>
+### Sixth Level
 
 
 ### Sixth Level
@@ -3066,6 +3377,7 @@ The duration increases by 1 hour for every level cast above 5th.
 ___
 #### Curse of Fear
 *6th level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -3077,9 +3389,13 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 You may target an additional creature for every level cast above 6th.
 
 
-___
+You may target an additional creature for every level cast above 6th.
+</div>
+
+<div style='margin-top:-9px'>
 #### Isolation
 *6th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -3087,12 +3403,14 @@ ___
 You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures Charisma save. On success the creature loses any spells, abilities, or magical effects that did not come from their own magic. While isolated, magic that is not their own cannot reach them, they cannot be detected by magical means and they cannot be contacted through telepathy. Any powers given from a deity or other being cannot be used and they do not benefit from magic items while isolated.
 
 Add an enhanced die for every level cast above 6th.
+</div>
 
 
 
 ___
 #### Miasma
 *6th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** 10 minutes
@@ -3103,6 +3421,14 @@ A thick miasma flows from your body, covering a 7x7 tile area centered on a poin
 The miasma is a thick, viscous cloud. Creatures inside the miasma can only see adjacent tiles. The caster can feel any creature in the miasma, bypassing the need for sight. If there is a strong wind, such as wind created by _Gust_, the miasma cloud moves 1 tile per turn in the direction of the wind.
 
 The size of the miasma increases by 1 and you add an enhanced die to the spellcasting roll for every level cast above 6th.
+</div>
+
+
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
+
+
+
 
 
 
@@ -3112,6 +3438,7 @@ The size of the miasma increases by 1 and you add an enhanced die to the spellca
 ___
 #### Psychic Scream
 *6th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** self
 - **Duration:** instant
@@ -3121,9 +3448,9 @@ You send out a wave of mental force to all creatures within 5 tiles of you. Make
 
 Add a wound die for every level cast above 6th.
 
-___
 #### Ritual of Mordiggian
 *6th level*
+___
 - **Casting Time:** 10 minutes
 - **Range:** 5
 - **Duration:** instant
@@ -3146,12 +3473,16 @@ ___
 >
 > **Mordiggians Hunger.** Dealing death damage with their claws or fangs causes this creature to heal 1 wound. Not being able to feed at night reduces this creatures max wounds by 1, regaining all wounds lost this way on their next feeding.
 
+```
+```
 
+### Seventh Level
 
 ### Seventh Level
 ___
 #### Curse of Obedience
 *7th level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -3162,9 +3493,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 7th.
 
-___
 #### Gateway
 *7th level*
+___
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 10 minutes
@@ -3180,6 +3511,7 @@ You add a superior die to your roll for every level cast above 7th. At 9th level
 ___
 #### Gravity Well
 *7th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 15
 - **Duration:** concentration, 1 minute
@@ -3195,6 +3527,7 @@ The radius of the gravity well increases by 1 and you add 1 wound die to each so
 ___
 #### Control
 *8th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 10
 - **Duration:** concentration, 1 hour
@@ -3203,9 +3536,9 @@ Overpower the mind of a creature you can see, taking control of the creature. Ma
 
 Add a superior die for every level cast above 8th.
 
-___
 #### Curse of Death
 *8th level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -3216,12 +3549,17 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 8th.
 
+```
+```
+
+### Ninth Level
 
 
 ### Ninth Level
 ___
 #### Power Word: Kill
 *9th level*
+___
 - **Casting Time:** 11 AP
 - **Range:** 10
 - **Duration:** instant
@@ -3233,6 +3571,7 @@ Add 3 superior dice when cast at 10th level.
 ___
 #### Seal
 *9th level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 10 years
@@ -3245,7 +3584,8 @@ The seal slowly degrades over the duration. Casting this spell on a sealed creat
 
 When cast at 10th level the duration increases to 100 years and you add 2 superior dice to your spellcasting roll.
 
-
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 
 ### Divine
 
@@ -3316,28 +3656,18 @@ When cast at 10th level the duration increases to 100 years and you add 2 superi
 - [Resurrect](#Resurrect)
 - [Spirit Warriors](#Spirit-Warriors)
 
-##### Sixth
-- [Exorcism](#Exorcism)
-- [Power Word: Harm](#Power-Word-Harm)
-- [Power Word: Heal](#Power-Word-Heal)
-- [Sanctuary](#Sanctuary)
-- [Word of Command](#Word-of-Command)
+<div class='wide'>
+## Divine
+</div>
 
-##### Seventh
-- [Divine Word](#Divine-Word)
-
-##### Eighth
-- [Light of Divinity](#Light-of-Divinity)
-- [Restoration](#Restoration)
-
-##### Ninth
-- [Avatar](#Avatar)
+### Cantrips
 
 ### Cantrips
 
 ___
 #### Guidance
 *Cantrip*
+___
 - **Casting Time:** 3 AP
 - **Range:** 2
 - **Duration:** 1 minute
@@ -3348,6 +3678,7 @@ Add an enhanced die for every level cast above cantrip.
 ___
 #### Holy Protection
 *Cantrip*
+___
 - **Casting Time:** 4 AP
 - **Range:** 2
 - **Duration:** 1 minute
@@ -3356,9 +3687,9 @@ Enchant up to 5 creatures you can see with protection. Make a spellcasting roll 
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Light
 *Cantrip*
+___
 - **Casting Time:** 6 AP
 - **Range:** touch
 - **Duration:** concentration, 10 minutes.
@@ -3367,9 +3698,9 @@ You cause a small object no larger than a fist to emit a bright light. You may c
 
 The range of the maximum bright and dim light increases by 1 tile for every level cast above cantrip. At 5th level and above this light is considered sunlight.
 
-___
 #### Radiant Light
 *Cantrip*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
@@ -3381,9 +3712,9 @@ You may target an additional creature for every level cast above cantrip.
 
 
 
-___
 #### Spare From Death
 *Cantrip*
+___
 - **Casting Time:** 4 AP
 - **Range:** touch
 - **Duration:** instant
@@ -3396,6 +3727,7 @@ Add a superior die for every level cast above cantrip.
 ___
 #### Vine Whip
 *Cantrip*
+___
 - **Casting Time:** 5 AP
 - **Range:** 5 (10)
 - **Duration:** instant
@@ -3412,6 +3744,7 @@ Add a wound die for every level cast above cantrip.
 ___
 #### Animal Messenger
 *1st level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 1 day
@@ -3425,10 +3758,9 @@ The duration increases by 1 day for each level cast above 1st.
 
 
 
-
-___
 #### Bonfire
 *1st level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 8 hours
@@ -3440,6 +3772,7 @@ Add an enhanced die for every level cast above 1st.
 ___
 #### Bramble
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** 7
 - **Duration:** 5 minutes
@@ -3454,6 +3787,7 @@ The area increases by 1 for every level cast above 1st.
 ___
 #### Breath
 *1st level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -3461,12 +3795,14 @@ ___
 You summon a swirling vortex of breathable air around up to 5 creatures in range you can see. Make a spellcasting roll, adding a bad die for every creature targeted. On success, each creature is able to breathe normally when they otherwise couldn't, such as when underwater, in a smoke filled room, or in a vacuum. Creatures also get expertise when saving against poisonous or harmful gasses, such as from the spells _Poison Cloud_ or _Miasma_.
 
 Add an enhanced die for every level cast above 1st.
+</div>
 
 
 
 ___
 #### Chilling Fog
 *1st level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 15
 - **Duration:** 10 minutes
@@ -3474,11 +3810,16 @@ ___
 A chilling fog covers a 5x5 tile area centered on a point in range you can see. A creature that enters the fog for the first time this round or starts their turn there makes a Stamina save against your spellcasting roll. On failure they gain slow 1 for the next minute, increasing to slow 2 on a crit. All creatures inside the fog have _Resistance 1_ to fire damage. The fog heavily obscures the area counting as quarter cover.
 
 The size and range of the fog increases by 2 for every level cast above 1st.
+</div>
+
+```
+```
 
 
 ___
 #### Close Wounds
 *1st level*
+___
 - **Casting Time:** 5 AP
 - **Range:** touch
 - **Duration:** instant
@@ -3490,6 +3831,7 @@ Add a wound die for every level cast above 1st.
 ___
 #### Holy Weapon
 *1st level*
+___
 - **Casting Time:** 4 AP
 - **Range:** self
 - **Duration:** concentration, 1 minute
@@ -3498,10 +3840,12 @@ ___
 Enchant your weapon with holy power. For the next minute you may use your spellcasting roll in place of attack rolls you make. Your attacks add an additional wound die of holy damage, or 3 wound dice if the target is undead.
 
 Duration increases by 1 minute for every level cast above 1st.
+</div>
 
-___
+<div style='margin-top:-8px'>
 #### Solar Flash
 *1st level*
+___
 - **Casting Time:** 6 AP
 - **Range:** touch
 - **Duration:** instant
@@ -3510,9 +3854,10 @@ You create a cone of shining light 3 tiles long and 3 tiles wide, blinding all c
 
 The length and width of the cone increases by 1 for every level cast above 1st.
 
-___
+<div style='margin-top:-7px'>
 #### Tremor
 *1st level*
+___
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** instant
@@ -3522,13 +3867,14 @@ You cause tremors in the earth around you. All creatures within 2 tiles of you m
 
 The affected tiles extends by 1 and damage is increased by 1 wound die for every level cast above 1st.
 
-
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 
 ### Second Level
 
-___
 #### Cleanse
 *2nd level*
+___
 - **Casting Time:** 3 AP
 - **Range:** 3
 - **Duration:** instant
@@ -3537,9 +3883,9 @@ Attempt to remove negative conditions afflicting a creature in range that you ca
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Consecrate Ground
 *2nd level*
+___
 - **Casting Time:** 10 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -3549,9 +3895,9 @@ Mark a 3x3 tile area centered on yourself. Any undead or monstrosity attempting 
 
 The area increases by 2 for every level cast above 2nd.
 
-___
 #### Enhance Ability
 *2nd level*
+___
 - **Casting Time:** 5 AP
 - **Range:** 3
 - **Duration:** concentration, 1 hour
@@ -3564,6 +3910,7 @@ Add an enhanced die for every level cast above 1st.
 ___
 #### Gust
 *2nd level*
+___
 - **Casting Time:** 7 AP
 - **Range:** touch
 - **Duration:** concentration, 1 minute
@@ -3573,6 +3920,8 @@ You cause strong winds to blow down the length of a 10x2 tile line. On casting a
 
 Add an enhanced die for every level cast above 2nd.
 
+#### Healing Word
+*2nd level*
 ___
 #### Healing Word
 *2nd level*
@@ -3587,6 +3936,7 @@ Add a normal die for every level cast above 2nd.
 ___
 #### Seed of Renewal
 *2nd level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 10 minutes
@@ -3595,9 +3945,9 @@ Conjure a rejuvenating, fruit bearing bush. The bush can have up to 5 fruit, mak
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Shield of Faith
 *2nd level*
+___
 - **Casting Time:** 5 AP
 - **Range:** 3
 - **Duration:** concentration, 10 minutes
@@ -3611,6 +3961,7 @@ Add an enhanced die for every level cast above 2nd.
 ___
 #### Treat Injury
 *2nd level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** instant
@@ -3619,9 +3970,9 @@ Restore a creatures body, healing injuries and mending bones. You may attempt to
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Wall of Faith
 *2nd level*
+___
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** 1 turn
@@ -3630,9 +3981,9 @@ Channel your faith to form a protective wall 4 tiles wide and 4 tiles tall cente
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Winds of Battle
 *2nd level*
+___
 - **Casting Time:** 4 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -3646,6 +3997,7 @@ Add an enhanced die for every level cast above 2nd.
 ___
 #### Beacon
 *3rd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -3656,9 +4008,9 @@ Add an enhanced die for every level cast above 3rd.
 
 
 
-___
 #### Break Curse
 *3rd level*
+___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -3667,9 +4019,9 @@ You attempt to remove a curse afflicting a creature. Make a spellcasting roll ag
 
 Add an enhanced die for every level cast above 3rd.
 
-___
 #### Cure
 *3rd level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 3
 - **Duration:** instant
@@ -3678,9 +4030,9 @@ You cleanse poison and disease from up to 5 creatures you can see. Make a spellc
 
 Add an enhanced die for every level cast above 3rd.
 
-___
 #### Demonic Skull
 *3rd level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -3692,8 +4044,6 @@ Add an enhanced die and increase the duration by 1 turn for every level cast abo
 
 
 
-
-___
 #### Detect Creatures
 *3rd level*
 - **Casting Time:** 1 minute
@@ -3710,9 +4060,9 @@ ___
 
 The range increases by 1 mile for every level cast above 3rd.
 
-___
 #### Revive
 *3rd level*
+___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -3721,15 +4071,14 @@ Attempt to bring back a creature back to life that has been dead for no longer t
 
 Add a normal die for every level cast above 3rd.
 
-___
 #### Spirit Animal
 *3rd level*
+___
 - **Casting Time:** 10 minutes
 - **Range:** self
 - **Duration:** 3 days
 
 Attempt to commune with local nature spirits, gaining one as your guide. Make a spellcasting roll adding 2 terrible dice, or 3 if you are not in a forest, swamp, or plains. On success you gain an spirit companion of your choosing. You may summon or dismiss the spirit for 5 AP, appearing in a tile adjacent to you. Each spirit has 3 wounds with the spell ending if they are killed. Spending a minute in concentration you may look through your spirit animal's eyes. While doing so you gain the senses of the animal and lose your own. Besides their max wounds the spirit animal has the same attributes, abilities, and attacks as the animal they're based on. You gain the following bonuses if the spirit animal is within 10 tiles of you.
-
 ___
 - **Elk:** You add 2 superior dice with athletics checks and your move speed increases by 1.
 - **Rabbit:** You add a superior die to Dexterity saves and acrobatics checks. The rabbit has 1 wound cannot be hurt while on your person.
@@ -3741,9 +4090,9 @@ ___
 Add an enhanced die for every level cast above 3rd.
 
 
-___
 #### Summoning
 *3rd level*
+___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -3763,9 +4112,9 @@ Add an enhanced die for every level cast above 3rd.
 | Intimate knowledge | 2B |
 | More than 200 miles away | +1T |
 
-___
 #### Traveler's Protection
 *3rd level*
+___
 - **Casting Time:** 3 minutes
 - **Range:** 5
 - **Duration:** 8 hours
@@ -3780,6 +4129,7 @@ Add an enhanced die for every level cast above 3rd.
 ___
 #### Turn Undead
 *3rd level*
+___
 - **Casting Time:** 6 AP
 - **Range:** self
 - **Duration:** 1 minute
@@ -3795,6 +4145,7 @@ Add a wound die and increase the area by 2 tiles for every level cast above 3rd.
 ___
 #### Awaken
 *4th level*
+___
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 7 days*
@@ -3803,9 +4154,9 @@ Attempt to awaken a plant or creature with an Intelligence of -2 or less. Make a
 
 Add a superior die for every level cast above 4th.
 
-___
 #### Bind Creature
 *4th level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
@@ -3818,6 +4169,7 @@ Add an enhanced die for every level cast above 4th.
 ___
 #### Commune with Nature
 *4th level*
+___
 - **Casting Time:** 10 minutes
 - **Range:** 3 miles
 - **Duration:** instant
@@ -3836,6 +4188,7 @@ Add a superior die for every level cast above 4th.
 ___
 #### Destroy Monstrosity
 *4th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -3848,6 +4201,7 @@ The number of wounds dealt increases by 2 for every level cast above 4th.
 ___
 #### Purify Spirit
 *4th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** instant
@@ -3870,9 +4224,10 @@ Fill a creature with healing energy, causing their wounds to close over time. Ma
 
 Add an enhanced die for every level cast above 4th.
 
-___
+<div style='margin-top:-4px'>
 #### Shape Stone
 *4th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** touch
 - **Duration:** instant
@@ -3881,9 +4236,10 @@ Attempt to shape stone into a form of your choosing. Make a spellcasting roll ad
 
 You number of tiles shaped increases by 2 for each level cast above 4th. The tiles must be adjacent.
 
-___
+<div style='margin-top:-4px'>
 #### Summon Demon
 *4th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** instant
@@ -3891,10 +4247,12 @@ ___
 You attempt to call forth a demon from the abyss at a point in range you can see. Make a spellcasting roll against 2 terrible dice. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear at the target location. When they appear the demons make a Willpower save against your raw Willpower. On failure the demons obey you for the next hour after which they revert to their default behavior. Each successful casting of _Summon Demon_ in this location over the past day adds 1 terrible die to your spellcasting roll.
 
 The maximum CR increases by 3 for every level cast above 4th.
+</div>
 
-___
+<div style='margin-top:-4px'>
 #### Ward From Death
 *4th level*
+___
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 8 hours
@@ -3902,13 +4260,17 @@ ___
 Cast a ward on up to 5 creatures, protecting them from death. Make a spellcasting roll against 2 terrible dice for each creature targeted. The next attack or spell that would either take them to 0 wounds or instantly kill them instead leaves them at 1 wound. Once triggered the spell ends on the creature.
 
 Add an enhanced die to the roll for every level cast above 4th.
+</div>
 
+```
+```
 
 ### Fifth Level
 
 ___
 #### Bind Familiar
 *5th level*
+___
 - **Casting Time:** 1 turn
 - **Range:** 3
 - **Duration:** 1 year
@@ -3923,9 +4285,9 @@ Once successfully cast, regardless of whether a contract was formed this spell c
 
 Add a superior die to your roll for every level cast above 5th.
 
-___
 #### Inner Fire
 *5th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -3940,6 +4302,7 @@ Add an enhanced die for every level cast above 5th.
 ___
 #### Judgement
 *5th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 10
 - **Duration:** instant
@@ -3949,9 +4312,10 @@ You call down a holy judgement over a 5x5 tile area centered on a point in range
 
 Add a wound for every level cast above 5th.
 
-___
+<div style='margin-top:-4px'>
 #### Mass Healing Word
 *5th level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
@@ -3959,10 +4323,12 @@ ___
 Mend the wounds of up to 5 creatures in range you can see. Make a spellcasting roll adding 3 terrible dice. On success you heal each creature for 1 wound, adding a wound die for every success in your roll.
 
 Add a normal die for every level cast above 5th.
+</div>
 
-___
+<div style='margin-top:-4px'>
 #### Mass Cleanse
 *5th level*
+___
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
@@ -3970,6 +4336,7 @@ ___
 Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll adding a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove slow, poison, hex, daze, stun, blind, weaken, fear, petrification, or a condition inflicted by a spell of 4th level or lower.
 
 Add a normal die for every level cast above 5th.
+</div>
 
 
 ___
@@ -3987,8 +4354,22 @@ You may target an additional creature for every level cast above 5th.
 
 
 ___
+- **Casting Time:** 8 AP
+- **Range:** 5
+- **Duration:** concentration, 1 minute
+
+Petrify a creature in range you that can see you, turning them to stone. Make a spellcasting roll against the creatures Stamina save. On success they are paralyzed for the next minute. You must maintain line of sight with the creature or the spell ends. After 1 minute you make another spellcasting roll against the creatures Stamina save. On success the creature is turned to stone.
+
+You add a terrible die to your roll when cast on a large creature, or 3 terrible dice when cast on a huge or larger creature.
+
+You may target an additional creature for every level cast above 5th.
+
+```
+```
+
 #### Radiance
 *5th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -4002,6 +4383,7 @@ The radius of the bright light increases by 1 for every level cast above 5th.
 ___
 #### Resurrect
 *5th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -4010,9 +4392,9 @@ Attempt to bring back a creature that has died in the past week. A majority of t
 
 Add an enhanced die to the roll for every level cast above 5th.
 
-___
 #### Spirit Warriors
 *5th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 3
 - **Duration:** 10 minutes
@@ -4023,8 +4405,11 @@ The spirits have the same attributes and proficiencies they had in life, but los
 
 Add an enhanced die for every level cast above 5th.
 
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 
 
+### Sixth Level
 
 ### Sixth Level
 
@@ -4039,9 +4424,9 @@ You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, 
 
 Add an enhanced die to the roll for every level cast above 6th.
 
-___
 #### Power Word: Harm
 *6th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** instant
@@ -4051,9 +4436,9 @@ Channel your divine wrath at a creature in range you can see. Make a spellcastin
 
 Add a wound for every level cast above 6th.
 
-___
 #### Power Word: Heal
 *6th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** touch
 - **Duration:** instant
@@ -4064,9 +4449,12 @@ Add a wound for every level cast above 6th.
 
 
 
-___
+```
+```
+
 #### Sanctuary
 *6th level*
+___
 - **Casting Time:** 7 AP
 - **Range:** touch
 - **Duration:** 1 turn
@@ -4081,6 +4469,7 @@ Add an enhanced die to the roll for every level cast above 6th.
 ___
 #### Word of Command
 *6th level*
+___
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -4093,9 +4482,9 @@ Your voice carries an extra 5 tiles for every level cast above 6th.
 
 ### Seventh Level
 
-___
 #### Divine Word
 *7th level*
+___
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** instant
@@ -4117,6 +4506,7 @@ Add a superior die to your roll for every level cast above 7th.
 ___
 #### Light of Divinity
 *8th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 10
 - **Duration:** concentration, 5 minutes
@@ -4129,9 +4519,9 @@ Creatures inside the light are considered to be in a different realm and any att
 Add a superior die and increase the area by 2 for every level cast above 8th.
 
 
-___
 #### Restoration
 *8th level*
+___
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** instant
@@ -4143,9 +4533,9 @@ Add 2 superior dice to your roll for every level cast above 8th.
 
 ### Ninth Level
 
-___
 #### Avatar
 *9th level*
+___
 - **Casting Time:** 1 turn
 - **Range:** self
 - **Duration:** concentration, 10 minutes.
@@ -4161,9 +4551,12 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 
 ## Maneuvers
 
+<div class='wide'>
+### Maneuvers By Level
+</div>
 
-#### Maneuvers By Level
 
+<div class='spellList'>
 ##### Level 1
 - [Aimed Shot](#Aimed-Shot)
 - [Hamstring](#Hamstring)
@@ -4208,11 +4601,11 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 - [Tumble](#Tumble)
 
 ##### Level 7
-- [Disarm](#Disarm)
-- [Leaping Slam](#Leaping-Slam)
+- Disarm
+- Leaping Slam
 
 ##### Level 8
-- [Hail of Arrows](#Hail-of-Arrows)
+- Hail of Arrows
 
 ##### Level 9
 - [7 Hand Strike](#7-Hand-Strike)
@@ -4220,13 +4613,17 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 - [Wounding Strike](#Wounding-Strike)
 
 ##### Level 11
-- [Steel Tempest](#Steel-Tempest)
+- Steel Tempest
+</div>
+
+<div class='wide'>
+<div style='margin-top:20px'></div>
 
 
 ### Level 1
 
-___
 #### Aimed Shot
+___
 - **AP Cost:** 5-8/4-8
 - **Weapon:** any ranged weapon
 - **Range:** min 3 tiles, weapon range
@@ -4252,8 +4649,24 @@ Make a melee attack against a creature, adding an enhanced die. On hit you deal 
 
 
 
+#### Hamstring
 ___
+- **AP Cost:** 5/4
+- **Weapon:** any melee weapon
+- **Range:** melee
+- **Level Required:** 1/9
+
+Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, inflicting the lesser wound, hamstring, on a critical.
+
+- **Hamstring:** The creature has slow 1.
+
+***Enhanced:*** Add a wound die to the damage, and the lesser wound inflicts slow 2.
+
+```
+```
+
 #### Headbutt
+___
 - **AP Cost:** 2/1
 - **Weapon:** N/A
 - **Range:** melee
@@ -4263,6 +4676,7 @@ After making a successful melee attack against a creature you may attempt to hea
 
 ***Enhanced:*** Add an enhanced die to your Stamina roll. The loser is dazed until the end of their next turn.
 
+#### Inspiring Words
 ___
 #### Inspiring Words
 - **AP Cost:** 3/3
@@ -4274,8 +4688,8 @@ You give words of encouragement to up to 3 creatures. Make a performance check a
 
 ***Enhanced:*** Creatures add a superior die instead.
 
-___
 #### Protector
+___
 - **AP Cost:** 1
 - **Weapon:** any shield
 - **Range:** melee
@@ -4314,6 +4728,7 @@ Make an attack with your shield, knocking the target off balance. Make a melee a
 </div>
 
 
+#### Shove
 ___
 #### Shove
 - **AP Cost:** 2
@@ -4325,6 +4740,7 @@ Attempt to knock a Large or smaller creature off balance with a strong push or k
 
 ***Enhanced:*** On a critical you have combat advantage against the creature while they are staggered.
 
+#### Sneak Attack
 ___
 #### Sneak Attack
 - **AP Cost:** 6/5
@@ -4349,6 +4765,10 @@ As a reaction you make an opportunity attack against any creature moving into yo
 ***Enhanced:*** Add an enhanced die to the attack roll.
 <div style='height:8px'></div>
 
+```
+```
+
+#### Sweeping Strike
 ___
 #### Sweeping Strike
 - **AP Cost:** 5/5
@@ -4362,8 +4782,8 @@ Make a melee attack against a creature, adding an enhanced die. On hit you deal 
 
 ### Level 2
 
-___
 #### Careful Advance
+___
 - **AP Cost:** 5/4
 - **Weapon:** any melee weapon
 - **Range:** weapon range
@@ -4374,8 +4794,8 @@ You carefully study your opponents movements, making a calculated attack. Make a
 ***Enhanced:*** Add an enhanced die instead of a normal die and you may reroll 5 dice in your attack roll.
 <div style='margin-top:-6px'>
 
-___
 #### Daze
+___
 - **AP Cost:** 5/4
 - **Weapon:** any bludgeoning weapon
 - **Range:** melee
@@ -4391,6 +4811,7 @@ Make a melee attack against a large or smaller creature adding an enhanced die t
 <div style='margin-top:-6px'>
 ___
 #### Guided Strike
+___
 - **AP Cost:** 5/4
 - **Weapon:** any weapon
 - **Range:** weapon range
@@ -4403,6 +4824,7 @@ Make a melee attack against a creature using any spellcasting roll instead of yo
 
 ___
 #### Raise Shield
+___
 - **AP Cost:** 3/3
 - **Weapon:** any shield
 - **Range:** N/A
@@ -4429,8 +4851,8 @@ Make a wild melee attack against a creature, adding a normal die to your attack 
 
 ### Level 3
 
-___
 #### Heavy Swing
+___
 - **AP Cost:** 7/7
 - **Weapon:** any two-handed weapon
 - **Range:** melee
@@ -4440,6 +4862,7 @@ You bring the full weight of your weapon down on a creature. Make a melee attack
 
 ***Enhanced:*** Add a Superior die instead of an enhanced die to the attack roll and an extra wound die to the damage.
 
+#### Pinning Shot
 ___
 #### Pinning Shot
 - **AP Cost:** 6/5
@@ -4454,6 +4877,7 @@ Make a ranged attack against a medium or smaller creature, adding an enhanced di
 
 ___
 #### Press the Attack
+___
 - **AP Cost:** 5/4
 - **Weapon:** any melee weapon
 - **Range:** melee
@@ -4464,8 +4888,10 @@ Strike into a creature, pushing them back. Make a melee attack against a creatur
 ***Enhanced:*** Add a wound die to the damage. If you have higher strength than the creature they are knocked prone instead.
 
 
-___
+```
+```
 #### Smite
+___
 - **AP Cost:** 6/5
 - **Weapon:** any melee weapon
 - **Range:** melee
@@ -4475,8 +4901,8 @@ Empower your weapon with holy might, consuming up to 2 mana. Make a melee attack
 
 ***Enhanced:*** Add a superior die instead of an enhanced die to your attack roll and you may use up to 4 mana.
 
-___
 #### Sucker Punch
+___
 - **AP Cost:** 2/2
 - **Weapon:** any
 - **Range:** melee
@@ -4488,8 +4914,8 @@ Take advantage of an opponents spellcasting to quickly attack. As a reaction, wh
 
 ### Level 4
 
-___
 #### Cleave
+___
 - **AP Cost:** 7/6
 - **Weapon:** any two-handed weapon
 - **Range:** melee
@@ -4499,8 +4925,8 @@ With a wide swing you cleave all creatures in your zone of control. Make a melee
 
 ***Enhanced:*** You deal normal damage to all creatures.
 
-___
 #### Deflect
+___
 - **AP Cost:** 2/1
 - **Weapon:** N/A
 - **Range:** melee
@@ -4515,6 +4941,7 @@ This can only be used when the targeted by a ranged weapon. Instead of making a 
 
 ___
 #### Flurry
+___
 - **AP Cost:** 7/6
 - **Weapon:** any melee weapon
 - **Range:** melee
@@ -4524,8 +4951,8 @@ You make two quick attacks against a creature. Make two weapon attacks, adding a
 
 ***Enhanced:*** You add a bad die instead of a terrible die to your attack roll.
 
-___
 #### Magic Arrow
+___
 - **AP Cost:** 7/6
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
@@ -4539,6 +4966,7 @@ You channel magic into your weapon, empowering the next attack and consuming up 
 
 ___
 #### Armor Break
+___
 - **AP Cost:** 5/4
 - **Weapon:** any bludgeoning weapon
 - **Range:** melee
@@ -4559,8 +4987,19 @@ Perform a spinning kick. Make an unarmed attack against a creature adding an enh
 
 ***Enhanced:*** You may target 3 creatures with the attack.
 
+#### Roundhouse Kick
 ___
+- **AP Cost:** 5/5
+- **Weapon:** unarmed
+- **Range:** melee
+- **Level Required:** 5/15
+
+Perform a spinning kick. Make an unarmed attack against a creature adding an enhanced die to the roll. On hit the creature takes normal damage, is pushed back 1 tile, and staggered.
+
+***Enhanced:*** You may target 3 creatures with the attack.
+
 #### Target Weakness
+___
 - **AP Cost:** 5/4
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
@@ -4571,11 +5010,10 @@ Make a ranged attack against a creature, adding up to 5 wound dice to the damage
 ***Enhanced:*** The creature gains a random lesser wound on a critical.
 
 
-
 ### Level 6
 
-___
 #### Pommel Strike
+___
 - **AP Cost:** 5/4
 - **Weapon:** any two-handed weapon
 - **Range:** melee
@@ -4585,8 +5023,8 @@ Make a weapon attack against a creature adding a normal die to the attack roll. 
 
 ***Enhanced:*** Add an enhanced die instead of a normal die to the attack.
 
+#### Supplex
 ___
-#### Suplex
 - **AP Cost:** 5/4
 - **Weapon:** unarmed
 - **Range:** melee
@@ -4596,6 +5034,7 @@ Can only be used against a grappled creature. Make an unarmed attack against the
 
 ***Enhanced:*** All wound dice in your damage roll are replaced with wounds.
 
+#### Tumble
 ___
 #### Tumble
 - **AP Cost:** 3/2
@@ -4611,6 +5050,7 @@ Only usable when targeted by an attack, maneuver, spell attack, or when travelli
 
 ___
 #### Disarm
+___
 - **AP Cost:** 6/5
 - **Weapon:** unarmed
 - **Range:** melee
@@ -4622,9 +5062,8 @@ You attempt to disarm a creature, forcing them to drop their weapon. The creatur
 
 
 
-
-___
 #### Leaping Slam
+___
 - **AP Cost:** 7/7
 - **Weapon:** any two-handed weapon
 - **Range:** melee
@@ -4636,8 +5075,8 @@ You jump up to 2 tiles making a weapon attack against a creature adding a bad di
 
 ### Level 8
 
-___
 #### Hail of Arrows
+___
 - **AP Cost:** 8/7
 - **Weapon:** any ranged weapon without _Loading_
 - **Range:** weapon range
@@ -4645,13 +5084,12 @@ ___
 
 This cannot be used in constrained areas. Launch a volley of arrows hitting all creatures in a 3x3 tile area centered on a point in range. Make a ranged attack against the creatures adding a bad die to your roll. On hit they take 2 wound dice in damage.
 
-
 ***Enhanced:*** You no longer add a bad die to your roll and you deal normal weapon damage.
 
 ### Level 9
 
-___
 #### 7 Hand Strike
+___
 - **AP Cost:** 8/7
 - **Weapon:** unarmed
 - **Range:** melee
@@ -4688,8 +5126,24 @@ Attempt to mortally wound a creature. Make a weapon attack adding a superior die
 
 ### Level 11
 
+```
+```
+#### Wounding Strike
 ___
+- **AP Cost:** 5/4
+- **Weapon:** any one-handed weapon
+- **Range:** melee
+- **Level Required:** 9/16
+
+Attempt to mortally wound a creature. Make a weapon attack adding a superior die if you are flanking the creature. On hit they take 1 wound die in damage, gaining a random lesser wound on a critical.
+
+***Enhanced:*** The attack deals normal damage and you have expertise for the attack if you are flanking the creature.
+
+
+### Level 11
+
 #### Steel Tempest
+___
 - **AP Cost:** 10/8
 - **Weapon:** any sword
 - **Range:** 2
@@ -4699,10 +5153,14 @@ Swiftly strike up to 5 creatures in range. Make a weapon attack against the crea
 
 ***Enhanced:*** If you hit every target they grant combat advantage until the start of your next turn.
 
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
 
-
-## Feats
+## Appendix - Feats
+<div class='wide'>
 ### Backgrounds
+</div>
+
 
 #### Blessed
 Known to you or not, you have been given a blessing by a powerful being. You gain access to additional feats based on the being that has given you their blessing. In addition, you gain starting benefits based on the blessing:
@@ -4727,6 +5185,8 @@ You have learned the trade of an enchanter allowing you to empower mundane items
 #### Magician's Apprentice
 You are trained proficiency in arcane spells. You start with 4 mana and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in arcana and lore.
 
+```
+```
 #### Noble
 You start with double the starting silver and have 1 proficiency in a weapon type. Your skill in trade and court proceedings allows you to reroll 1 die for all Charisma skill checks. You have 5 proficiency points to spend among skills. You start with padded armor and 1 martial weapon of your choice.
 
@@ -4766,7 +5226,6 @@ You have studied the traditional methods of healing. You start with an apothecar
 #### Wanderer
 You've never had a home, instead relying on your own skills to survive in the wild. You gain 2 proficiency in survival and have expertise in that skill. You gain 1 proficiency in athletics and a weapon type of your choice. Once per day when taking lethal damage, if the damage dealt is less than your Stamina score you survive with 1 wound. You do not start with any currency, instead starting with hide armor and 2 weapons of your choice.
 
-___
 ### Basic
 
 #### Agile
@@ -4810,6 +5269,10 @@ Spells you cast with a range of 5 tiles or more have 3 extra range. Spell attack
 #### Lucky
 When you make a roll you may reroll dice equal to your Charisma score. This can be used twice, after which you must take a long rest to regain this feat.
 
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+
+
 #### Priest
 You have training in divine spells.
 
@@ -4825,7 +5288,6 @@ You have training in arcane spells.
 #### Wrestler
 You add 2 superior dice when making Strength rolls to grapple, move or shove a creature.
 
-___
 ### Journeyman
 
 #### Action Surge
@@ -4857,6 +5319,9 @@ The spells _Turn Undead_ and _Destroy Monstrosity_ can target Undead, Monstrosit
 *Requires 3 Stamina, 3rd Level*
 
 If you move at least 2 tiles before making an attack or maneuver you deal an extra wound die in damage.
+
+```
+```
 
 #### Beast Whisperer
 *Requires proficiency in animal handling*
@@ -4899,6 +5364,9 @@ You are used to pushing your body to its limits. When traveling or staying awake
 *Requires proficiency in perception, 10th level*
 
 When making a saving throw against an attack, damaging spell, or damaging effect you can see you add 1 superior die to the roll.
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
+
 
 #### Defensive Duelist
 *Requires proficiency with a weapon*
@@ -4933,7 +5401,7 @@ You add 1 superior die to your concentration checks and saving throws that would
 #### Exertion
 *Requires 10th level*
 
-As long as you have at least 1 AP remaining you may take an an action that leaves you at -5 AP or more. After taking the action make an exhaustion roll adding 1 bad die for every AP you overspent. On failure you gain a level of exhaustion.
+As long as you have at least 1 AP remaining you may take an action that leaves you at -5 AP or more. After taking the action make an exhaustion roll adding 1 bad die for every AP you overspent. On failure you gain a level of exhaustion.
 
 #### Fast Attacks
 *Requires 1 Dexterity*
@@ -4944,6 +5412,9 @@ Basic attacks cost 4 AP instead of 5.
 *Requires 3 proficiency in divine spells, 10th level*
 
 The spells _Guidance_, _Holy Protection_, _Enhance Ability_, _Shield of Faith_, and _Winds of Battle_ have 3 extra range. When cast at 1st level and above the effects of _Guidance_ and _Holy Protection_ last for a full turn instead of a single attack.
+
+```
+```
 
 #### Forager
 *Requires proficiency in survival*
@@ -4984,6 +5455,10 @@ You gain expertise in 2 saving throws.
 *Requires 3 proficiency in arcane spells, 9th level*
 
 When casting a spell that deals lightning damage you may spend 1 mana to add a critical to your spellcasting roll.
+
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+
 
 #### Linguist
 *Requires 2 Intelligence*
@@ -5075,6 +5550,10 @@ When inscribing a rune you may add 1 bad die to the scribing roll. On success yo
 
 While in combat you may spend 3 AP on your turn to use a free healing surge. This can be used once per long rest.
 
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
+
+
 #### Sentinel
 *Requires 2 proficiency in perception, 7th level*
 
@@ -5125,8 +5604,12 @@ Effects that push or pull you move you one less tile. You have expertise on Stre
 
 Area of effect fire spells you cast, such as _Beam of Fire_ and _Fireball_, have their area of effect increased by 1.
 
-___
 ### Advanced
+
+#### Affliction
+*Requires Potent Curses, 4 Willpower, 12th level*
+
+You may afflict a creature with two different curses instead of one. You gain a superior die to your saving throw when you are the target of a curse.
 
 #### Armor Mastery
 *Requires Armor Expert, 3 Strength, 8th level*
@@ -5185,9 +5668,9 @@ You can concentrate on 2 spells at once as long as these spells have different t
 
 Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from the single target attack, maneuver, or spell attack.
 
-___
 ### Legendary
-Each character can only take 1 legendary feat, regardless of requirements.
+You may only take 1 legendary feat, regardless of requirements.
+
 
 #### Juggernaut
 *Requires 5 Stamina, 20th level*
@@ -5249,7 +5732,10 @@ Your max attribute score is 6 instead of 5. You gain 1 attribute when taking thi
 
 Gain expertise in 2 weapon proficiencies.
 
-___
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
+
+
 ### Fae Court
 Only those blessed by the fae can take these feats.
 
@@ -5272,7 +5758,6 @@ When making an attack or maneuver you may spend 2 mana to enchant it with foxfir
 
 Before casting a non-damaging spell you may empower it with fae magic. In addition to the spells effects, an empowered spell causes the all creatures hit to gain hex 1 until the end of their next turn on a critical. You can do this up to your Charisma score, after which you must long rest to use this again.
 
-___
 ### Earthen
 Only those blessed by nature or earth elementals can take these feats.
 
@@ -5286,6 +5771,9 @@ You can speak with animals. You know the spell _Animal Messenger_ without needin
 
 Spells you cast that push or move creatures push them an additional tile. Spells you cast that deal physical damage deal and extra wound die in damage.
 
+```
+```
+
 #### Stone Skin
 *Requires 5th level*
 
@@ -5296,7 +5784,6 @@ Your skin is supernaturally tough, able to deflect blows with ease. While not we
 
 You can feel the presence of nearby creatures by their movement. When a creature touching the ground within 10 tiles of you moves you know their location unless they are magically silenced, such as from the spell _Silent Passage_.
 
-___
 ### Blight
 Only those blessed by a powerful undead can take these feats.
 
@@ -5321,7 +5808,9 @@ You may have up to your Willpower score in undead creatures under your control. 
 
 When you long rest, for every healing surge you regain that exceeds your maximum you instead gain temporary wounds equal to the excess healing surges.
 
-___
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
+
 ### Abyssal
 Only those blessed by a powerful demon can take these feats.
 
@@ -5346,6 +5835,8 @@ When targeted by a damaging attack, maneuver or spell you may add a terrible die
 
 While not in direct sunlight you have expertise in stealth. While in dim light or darkness you can spend 5 AP to become invisible. The invisibility ends when you move or take an action.
 
+<div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
+\page
 
 # Items
 ### Adventuring Gear
@@ -5435,7 +5926,6 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 | *Shield*  |  |  | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Buckler | +0/1 | 0 | 15sc | none |
 | &nbsp;&nbsp;&nbsp;&nbsp;Shield | +1/0 | 2 | 50sc | none |
-
 ___
 ### Wounds
 Some abilities leave lasting wounds. If an ability inflicts a random lesser or greater wound, roll on the tables below to determine the effect.
@@ -5517,55 +6007,58 @@ ___
 
 A basic healing potion. On use heals for a wound and 2 wound dice.
 
-___
 ##### Potion of Vitality
+___
 - **Ingredients:** 2 Healroot, 1 Vitalflower
 - **Roll:** 2 bad dice
 
 Increases your maximum wounds by 1 for 24 hours.
-
-___
+```
+```
 ##### Cleansing Potion
+___
 - **Ingredients:** 2 Cleansebloom, 1 Healroot
 - **Roll:** 2 bad dice
 
 Ends up to 2 of the following conditions: daze, hex, paralyze, poison, slow, stun, and weaken. If the condition is level 3 or more, remove 2 levels instead. Conditions inflicted by wounds, curses, or persistent effects return at the start of your next turn.
 
-___
 ##### Potion of Strength
+___
 - **Ingredients:** 2 Buff Beetle, 1 Skillwheat
 - **Roll:** 2 bad dice, 1 terrible die
 
 For the next hour, when making an attack or maneuver you may reroll 3 wound dice in the damage roll.
-
-___
+<div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
+\page
 ##### Potion of Ability
+___
 - **Ingredients:** 2 Skillwheat, 1 Healroot
 - **Roll:** 2 bad dice, 1 terrible die
 
 When brewing this potion choose an attribute. On use increases that attribute score and saving throw proficiency by 1 for 4 hours.
 
-___
 ##### Fortify Mind Potion
+___
 - **Ingredients:** 2 Brainfish, 1 Cleansebloom
 - **Roll:** 2 bad dice, 1 terrible die
 
 For the next 4 hours you add 1 superior die when rolling Intelligence, Willpower, Charisma saves and concentration checks.
 
-___
 ##### Bracing Potion
+___
 - **Ingredients:** 1 Vitalflower, 1 Buff Beetle, 2 Cleansebloom
 - **Roll:** 2 bad dice, 2 terrible die
 
 For the next hour, any time you gain a condition roll a wound die instead. On a blank you don't gain the condition.
 
+##### Potion of Fire Breathing
 ___
-##### Potion of Firebreathing
 - **Ingredients:** 2 Dragonflower, 1 Scorchroot
 - **Roll:** 2 bad dice, 2 terrible die
 
 For the next 10 minutes, as a maneuver you may spend 7 AP to breath fire, hitting all creatures in your zone of control. Creatures make a Dexterity save against 3 superior dice. On hit they take 1 wound of fire damage.
 
+##### Hero's Luck
 ___
 ##### Hero's Luck
 - **Ingredients:** 1 Lucky Leaf, 2 Skillwheat
@@ -5580,38 +6073,40 @@ Poisons are applied to weapons and inflict their effects after landing an attack
 
 
 
-___
 ##### Nettle Fever
+___
 - **Ingredients:** 2 Poison Nettle
 - **Roll:** 2 bad dice
 
 On hit inflicts poison 1, or poison 2 on a critical. Lasts for 10 minutes.
 
-___
 ##### Sapping Poison
+___
 - **Ingredients:** 2 Poison Nettle, 2 Skillwheat
 - **Roll:** 2 bad dice, 1 terrible die
 
-On hit inflicts poison 1, or poison 2 on a critical. Reduces the creatures proficiencies by 1 as long as they are poisoned. Lasts for 10 minutes.
+On hit inflicts poison 1, or poison 2 on a critical. Reduces the creature's proficiencies by 1 as long as they are poisoned. Lasts for 10 minutes.
 
+```
+```
 
-___
 ##### Nightbleed Poison
+___
 - **Ingredients:** 2 Nightshade, 1 Poison Nettle
 - **Roll:** 2 bad dice, 1 terrible die
 
 On hit deals 1 wound in poison damage, adding a wound die on a critical.
 
-___
 ##### Paralyzing Poison
+___
 - **Ingredients:** 2 Nightshade, 1 Scorpion Venom
 - **Roll:** 2 bad dice, 2 terrible dice
 
 On hit inflicts poison 1, or poison 2 on a critical. The creature is paralyzed as long as they are poisoned. Lasts for 10 minutes.
 
 
-___
 ##### Deadly Toxins
+___
 - **Ingredients:** 1 Toxic Frog, 1 Nightshade, 1 Poison Nettle
 - **Roll:** 2 bad dice, 2 terrible dice
 
@@ -5665,7 +6160,7 @@ When copying spells from a codex you can instead use your scribing tools to crea
 | 7th | 8 | 250sc gemstone | 5 | 1B/4T |
 | 8th | 9 | 500sc gemstone | 7 | 2B/4T |
 | 9th | 12 | 10pt gemstone | 10 | 2B/5T |
-
+<div class='wide'>
 #### Inscribing Runes
 You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe a rune you need to have the required supplies and mana which are consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Unless otherwise stated, runes that augment spells require no AP to use while placing a rune takes 2 AP.
 
