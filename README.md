@@ -8,15 +8,12 @@ Learn the rules, create characters, or use as an easy, searchable reference. The
 
 [Rulebook](rulesdoc.md)
 
-<<<<<<< HEAD
 ## Character Sheet
 
 Comes as a printable PDF for those who play in-person.
 
 [Character Sheet](character-sheet.pdf)
 
-=======
->>>>>>> master
 ## Monster Manual
 
 Here you'll find a collection of prebuilt monster stat blocks. There's ~70 monsters blocks spanning every type and level.
