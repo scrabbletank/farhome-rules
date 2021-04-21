@@ -63,7 +63,7 @@ Once there, you'll want to add this script to your game. Click on 'New Script', 
 Press 'Save Script', and after a few seconds you should see 'Farhome Dice v1.0 loaded' in the output box below. Congradulations! You should have access to all the commands below. To use a command, launch your game and enter it into the chat window. You can also use these commands by writing it in an ability from your character sheet, or as a macro.
 
 ### Roll Icons
-If you do not see dice icons when making your rolls you may need to upload the [dice icons provided](../images). Personally I use imgur to host the images, but any image host should work, as long as you can get a url of the images. Once uploaded, replace the following urls in the script with the urls of the icons you've uploaded:
+If you do not see dice icons when making your rolls you may need to upload the [dice icons provided](../icons). Personally I use imgur to host the images, but any image host should work, as long as you can get a url of the images. Once uploaded, replace the following urls in the script with the urls of the icons you've uploaded:
 
 ![](images/apiinstall3.png)
 
