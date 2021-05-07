@@ -9,17 +9,17 @@ var FarhomeDice = FarhomeDice || (function () {
     // !!REPLACE THESE!!
     // If the dice icons are not showing up in your game you may need to rehost the images
     // in the icons folder and replace the urls here with the ones you hosted.
-    var imgF = "https://i.imgur.com/QBMFnbG.png",
-        imgF2 = "https://i.imgur.com/qNxzZ8H.png",
-        imgCF = "https://i.imgur.com/Iu0kVaQ.png)",
-        imgB = "https://i.imgur.com/t97ry57.png",
-        imgS = "https://i.imgur.com/tOlBtko.jpg",
-        imgS2 = "https://i.imgur.com/3QNjHck.png",
-        imgCS = "https://i.imgur.com/tjkXQRp.png",
-        imgD = "https://i.imgur.com/qOnblaK.png",
-        imgD2 = "https://i.imgur.com/Tc2uZcT.png",
-        imgCD = "https://i.imgur.com/13TOHYx.png",
-        imgW = "https://i.imgur.com/BEExXAk.png"
+    var imgF = "https://www.farhomerpg.com/diceroller/images/fail.png",
+        imgF2 = "https://www.farhomerpg.com/diceroller/images/failx2.png",
+        imgCF = "https://www.farhomerpg.com/diceroller/images/crit-fail.png",
+        imgB = "https://www.farhomerpg.com/diceroller/images/blank.png",
+        imgS = "https://www.farhomerpg.com/diceroller/images/success.png",
+        imgS2 = "https://www.farhomerpg.com/diceroller/images/successx2.png",
+        imgCS = "https://www.farhomerpg.com/diceroller/images/crit-success.png",
+        imgD = "https://www.farhomerpg.com/diceroller/images/defend.png",
+        imgD2 = "https://www.farhomerpg.com/diceroller/images/defendx2.png",
+        imgCD = "https://www.farhomerpg.com/diceroller/images/crit-defend.png",
+        imgW = "https://www.farhomerpg.com/diceroller/images/wound.png"
 
     var allDice = [
         { roll: [imgB, imgS, imgS, imgS, imgS2, imgCS], val: [0, 1, 1, 1, 2, 2], crit: [0, 0, 0, 0, 0, 1], rrthresh: 0, clr: 'yellow' },
@@ -593,7 +593,7 @@ var FarhomeDice = FarhomeDice || (function () {
             }
             Campaign().set("turnorder", JSON.stringify(turnOrder));
 
-            sendChat(msgFrom, "/direct " + makeTemplate({ name: "Initiative", rolls: { r: msg } }));
+            sendChat(msgFrom, "/direct " + makeTemplate({ name: "Initiative", rolls: { r: msg }, text: {} }));
         },
 
         defend = function (params) {
