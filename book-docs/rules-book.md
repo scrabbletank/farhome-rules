@@ -78,7 +78,7 @@
 
 <div class='footnote' style='font-size:0.33cm;color:black;position:absolute;top:950px;left:65px;width:100%'>
 ##### Credits
-**Cover Art:** Ciao Diniz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Additional Art:** Julianne Grepp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Designer:** Andrew Solheim
+**Cover Art:** Ciao Diniz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Additional Art:** Julianne Griepp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Designer:** Andrew Solheim
 </div>
 
 
@@ -801,7 +801,8 @@ When combat starts every character and creature in combat rolls for initiative. 
 
 Combatants take turns, starting with whoever rolled the highest initiative and ending with whoever rolled the lowest. After every combatant has had a turn the round ends and a new round begins. This repeats until combat is over or one side has defeated all other combatants.
 
-Combatants take turns, starting with whoever rolled the highest initiative and ending with whoever rolled the lowest. After every combatant has had a turn the round ends and a new round begins. This repeats until combat is over or one side has defeated all other combatants.
+```
+```
 
 ### On your turn
 
@@ -3866,7 +3867,9 @@ A chilling fog covers a 5x5 tile area centered on a point in range you can see. 
 The size and range of the fog increases by 2 for every level cast above 1st.
 </div>
 
-<br/>
+```
+```
+
 #### Close Wounds
 *1st level*
 ___
@@ -4794,7 +4797,9 @@ ___
 As a reaction you make an opportunity attack against any creature moving into your zone of control. On hit you deal normal damage and the creatures move action ends. On a critical the target is pushed back 1 tile.
 
 ***Enhanced:*** Add an enhanced die to the attack roll.
-<div style='height:6px'></div>
+
+```
+```
 
 #### Sweeping Strike
 ___
@@ -5506,13 +5511,14 @@ You may use your acrobatics roll in place of athletics checks, and standing up t
 
 When casting an arcane spell that deals at least 1 wound of damage you may overcharge it by spending 1 extra mana and adding a terrible die to your spellcasting roll. Overcharged spells deal an extra wound with single target spells or a wound die with area of effect spells.
 
-```
-```
 
 #### Overwatch
 *Requires proficiency in perception, 8th level*
 
 Once per turn when a creature takes a movement action towards you, you may spend 2 AP to make a ranged weapon attack as a reaction as long as the creature is within your weapons near range.
+
+```
+```
 
 #### Perfect Defense
 *Requires 4 Strength, 12th level*
@@ -5533,6 +5539,11 @@ Curses you cast, such as _Curse of Misfortune_, last until dispelled. If you onl
 *Requires proficiency in enchanters tools*
 
 You add 1 superior die to your enchanting rolls. Enchantments you make last 7 days instead of 3.
+
+#### Punishment
+*Requires proficiency in curse spells, 7th level*
+
+Creatures under negative effects caused by your spells also grant combat advantage to your attacks against those creatures.
 
 #### Quickened Spellcasting
 *Requires proficiency in a spell school*
@@ -5619,6 +5630,11 @@ Area of effect fire spells you cast, such as _Beam of Fire_ and _Fireball_, have
 
 ### Advanced
 
+#### Affliction
+*Requires Potent Curses, 4 Willpower, 12th level*
+
+You may afflict a creature with two different curses instead of one. You gain a superior die to your saving throw when you are the target of a curse.
+
 #### Armor Mastery
 *Requires Armor Expert, 3 Strength, 8th level*
 
@@ -5638,11 +5654,6 @@ When taking lethal damage, as long as the total damage is less than or equal to 
 *Requires Brutal Strikes, 4 Strength*
 
 You can wield a two-handed weapon as if it was one-handed, using either one or two-handed proficiency for attack rolls. You cannot dual wield while holding a two-handed weapon, but you can hold a shield.
-
-#### Affliction
-*Requires Potent Curses, 4 Willpower, 12th level*
-
-You may afflict a creature with two different curses instead of one. You gain a superior die to your saving throw when you are the target of a curse.
 
 #### Lay on Hands
 *Requires Blessed Healing, 3 Charisma, 10th level*
@@ -5679,6 +5690,11 @@ You can concentrate on 2 spells at once as long as these spells have different t
 
 Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from the single target attack, maneuver, or spell attack.
 
+#### Warlock
+*Requires Potent Curses, 14th level*
+
+You may prepare 3 additional curses, such as _Curse of Misfortune_ or _Curse of Fragility_. These spells do not count towards your spell limit and they cost 1 less mana to cast.
+
 ### Legendary
 You may only take 1 legendary feat, regardless of requirements.
 
@@ -5693,13 +5709,14 @@ Once per short or long rest, as long as an attack does less than your max wounds
 
 You do not add bad or terrible dice with ranged attacks when targeting a creature outside of your close range. When making a ranged attack or maneuver you may ignore all bad and terrible dice added to the roll. You may do this up to your ranged weapon proficiency, after which you must take a long rest to regain this feat.
 
+```
+```
+
 #### Necromancer
 *Requires 5 proficiency in curse spells, 20th level*
 
 When gaining temporary wounds from any source, you may heal missing wounds instead. When casting _Raise Dead_ you may target 2 additional corpses without adding bad or terrible dice, and you add 3 successes to _Gloom_'s spellcasting roll.
 
-```
-```
 #### Purity of Soul
 *Requires 5 Charisma, 20th level*
 
