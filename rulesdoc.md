@@ -3092,7 +3092,6 @@ Add an enhanced die for every level cast above 6th.
 
 #### Miasma
 *6th level*
-___
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** 10 minutes
