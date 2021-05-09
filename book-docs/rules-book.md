@@ -790,7 +790,7 @@ All adventurers need to rest from time to time, trying to do too much in a day c
     
 <div class="wide" style="height:51%">
 </div>
-  
+
 # Combat
 </br>
 There will be times when combat is unavoidable. Your adventurer may encounter zombies in an underground crypt, or be ambushed by a group of bandits. When this happens every creature participating in combat rolls for initiative. Once initiative order has been set, each creature takes a turn. Once every creature has had a turn the round ends and a new one begins starting with the first creature. Each round lasts 20 seconds.
@@ -1182,7 +1182,7 @@ You gain 1 proficiency with either a bow or a spear, and gain a maneuver that us
      style='position:absolute;top:30px;left:250px;width:650px;mix-blend-mode:darken'/>
 
 
-     
+  
 #### Star Elf
 
 Seekers of knowledge, the star elves are nomads by nature. Their long lives allow them to see the world from a different perspective compared to the short lived races who see the star elves as aloof and unempathetic. Star elves are naturally curious, and because of this are gifted conversationalists. They love telling tales just as much as they do hearing them.
@@ -2215,7 +2215,7 @@ Add an enhanced die for each level above 3rd.
 <div class='pageNumber auto' style='color:black;   padding-left: 11mm;'></div>
 \page
 
-  
+
 ### Fourth Level
 
 #### Conjure Elemental
@@ -2924,7 +2924,7 @@ Add an enhanced die for every level cast above 1st.
 
 
 <div style='margin-top:-5px'>
-  
+
 #### Hex Bolt
 *1st level*
 ___
@@ -3071,6 +3071,7 @@ You may target an additional corpse for each level cast above 2nd.
 
 <div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
 \page
+
 #### Curse of Fragility
 *2nd level*
 ___
@@ -3236,6 +3237,7 @@ Add an enhanced die for every level cast above 3rd.
 
 <div class='pageNumber auto' style='color:black;   padding-right: 11mm;'></div>
 \page
+
 #### Frog Morph
 *3rd level*
 ___
@@ -5869,6 +5871,7 @@ While not in direct sunlight you have expertise in stealth. While in dim light o
 \page
 
 # Items
+
 ### Adventuring Gear
 Most towns and some villages will have adventuring gear for sale. While the actual costs are determined by the GM, this list can be used to give guidelines for the costs of typical gear adventurers will need.
 
@@ -5943,7 +5946,7 @@ A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the att
 \page
 
 <div class='wide'>
-  
+
 #### Armor
 
 There are 3 different types of armor: light, medium, and heavy. There is no proficiency required to wear armor, but different armors give different penalties. Medium armor adds 2 bad dice to all Dexterity saves, stealth checks, and spellcasting rolls. Heavy armor adds 2 terrible dice to all Dexterity saves, stealth checks, and spellcasting rolls.
@@ -6045,7 +6048,7 @@ To search for ingredients make an average difficulty survival check, increasing 
 Each potion requires a number of ingredients and has their own difficulty dice. When brewing a potion make an apothecary roll against the potions difficulty dice. On success you brew the chosen potion, losing the ingredients on failure.
 </div>
 
-  ##### Healing Potion
+##### Healing Potion
 ___
 - **Ingredients:** 2 Healroot
 - **Roll:** 2 bad dice

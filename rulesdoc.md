@@ -3090,6 +3090,19 @@ You sever the connections surrounding a creature you can see, leaving them utter
 
 Add an enhanced die for every level cast above 6th.
 
+#### Miasma
+*6th level*
+___
+- **Casting Time:** 9 AP
+- **Range:** 5
+- **Duration:** 10 minutes
+- **Damage Type:** poison/Death
+
+A thick miasma flows from your body, covering a 7x7 tile area centered on a point in range. The miasma flows around walls and down hills, but cannot climb more than 2 tiles. Any creature, except the caster, that enters the miasma for the first time this round or starts their turn there makes a Stamina save against your spellcasting roll. On failure they take a wound and 1 wound die in both poison and death damage, or half damage rounding down on success. A creature that fails its save gains poison 1 and hex 1 regardless of immunities or other effects until the start of their next turn.
+
+The miasma is a thick, viscous cloud. Creatures inside the miasma can only see adjacent tiles. The caster can feel any creature in the miasma, bypassing the need for sight. If there is a strong wind, such as wind created by _Gust_, the miasma cloud moves 1 tile per turn in the direction of the wind.
+
+The size of the miasma increases by 1 and you add an enhanced die to the spellcasting roll for every level cast above 6th.
 
 #### Psychic Scream
 *6th level*
