@@ -1233,6 +1233,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Fireball](#Fireball)
 - [Flight](#Flight)
 - [Ice Knives](#Ice-Knives)
+- [Major Image](#Major-Image)
 - [Phantasmal Blades](#Phantasmal-Blades)
 - [Protective Sigil](#Protective-Sigil)
 - [Telepathic Bond](#Telepathic-Bond)
@@ -1548,13 +1549,9 @@ You may target an additional creature for every level cast above 2nd.
 - **Range:** 5
 - **Duration:** instant
 
-You attempt to dispel a single magical effect targeting a creature or area. Make a spellcasting roll against 1 enhanced die per level of spell you are trying to dispel. If the effect you are trying to dispel is being concentrated on by another creature make a spellcasting roll against the creatures spellcasting roll instead. On success the magical effect ends. If targeting an effect caused by an object, such as a magic item or animated armor, they regain their magical effects after 10 minutes.
+You attempt to dispel a single magical effect targeting a creature or area. Make a spellcasting roll against 2 terrible dice, adding successes or failures based on the difference between this spell level and the target effect's spell level. For example, you add 2 successes when casting _Dispel Magic_ at 4th level against an effect from a 2nd level spell, or 3 failures when casting at 2nd level against a 5th level effect. On success the effect immediately ends.
 
-Some magical effects may not come from a spell. In these cases the GM determines the challenge rating or if the spell fails.
-
-You may target an additional effect for every level cast above 2nd.
-
-
+Some magical effects may not come from a spell. In these cases the GM determines how many successes and failures to add or if the spell fails.
 
 #### Elemental Shell
 *2nd level*
@@ -1658,9 +1655,9 @@ The number of bounces increases by 1 and you add an enhanced die for every level
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to counter a creatures flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the caster's spellcasting roll, adding a success to your roll for every point of mana spent above the target spell or adding a failure for every point of mana spent below the target spell. On success the target spell has no effect.
+Attempt to counter a creatures flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the caster's spellcasting roll. Each caster adds a success equal to the level of each spell cast. On success the target spell has no effect.
 
-Multiple casters can attempt to counter the same spell. When multiple casters cast _Counter Spell_ you use the combined mana across all casts when determining your roll.
+Multiple casters can attempt to counter the same spell, using the highest spellcasting roll and adding successes equal to the total spell level of all _Counter Spell_'s cast.
 
 #### Far Sight
 *3rd level*
@@ -1708,6 +1705,19 @@ Add an enhanced die for every level cast above 3rd.
 You conjure an barrage of icicles, hitting all adjacent creatures and blasting an area 3 tiles wide and 4 tiles long adjacent to you. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wounds in cold damage, being staggered on a critical.
 
 Add a wound die for every level cast above 3rd.
+
+#### Major Image
+*3rd level*
+
+- **Casting Time:** 4 AP
+- **Range:** 10
+- **Duration:** concentration, 10 minutes
+
+You create a auditory or visual illusion no larger than 4 tiles at a point within range you can see. The illusion has no physical presence, a creature that touches the illusion makes a Willpower save against your spellcasting roll, seeing through the illusion on success.. A creature may attempt to see through the illusion by making a perception check against your spellcasting roll. On success they see through the illusion. A creature that touches or passes through the illusion makes a Willpower save instead, rationalizing a reason for the interaction on failure.
+
+You may split the image into any number of auditory or visual illusions as long as the total size of the illusion is less than 4 tiles. For each separate illusion you maintain you add a terrible die to your spellcasting rolls for this spell.
+
+Add an enhanced die for every level cast above 3rd.
 
 #### Phantasmal Blades
 *3rd level*
@@ -3830,6 +3840,18 @@ Add a superior die for every level cast above 4th.
 Channel holy energy to destroy an undead or monstrosity. Make a spellcasting roll against the creatures Stamina save. On success they take 7 wounds, or 2 wounds on failure. Regardless of success the creature gains slow 1 for 1 minute.
 
 The number of wounds dealt increases by 2 for every level cast above 4th.
+
+#### Purge
+*4th level*
+
+- **Casting Time:** 7 AP
+- **Range:** 3
+- **Duration:** instant
+- **Damage Type:** lightning
+
+Attempt to break the flow of magic around a creature or object, dispelling all magical effects targeting them. Make a spellcasting roll against 2 bad dice. Starting with the lowest level effect, subtract its spell level from your reminaing successes, if you have 0 or more the effect ends. Repeat this until every effect is dispelled or you have no remaining successes. The torn magic grounds itself through the creature, taking a wound die in damage for each effect purged. If the creature takes at least 1 wound they gain Slow 3 and are Paralyzed until the end of their next turn.
+
+Add a normal die for every level cast above 4th.
 
 #### Purify Spirit
 *4th level*

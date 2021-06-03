@@ -416,12 +416,12 @@ A book of common enchantments.
 - Rope trick: Enchant a rope to automatically tie itself to an object, such as a branch, or rock. The rope moves across surfaces, up walls, and can reach 2 tiles into the air.
 - Balancing: When making an Acrobatics or climbing check you cannot roll below a normal die.
 
-| Name | Spell Slot | Supplies | Roll | Effect |
+| Name | Mana | Supplies | Roll | Effect |
 |:-----:|:-----:|:-----:|:-----:|:-------------|
-| Fire Starting | 1st | 1 |1B | Enchant a ring. Concentrating for a round allows you to light something on fire, such as a torch or camp fire. |
-| Swiftness | 1st | 1 |2B | Increase your move and sprint speed by 1. |
-| Balancing | 1st | 1 |2B | When making an Acrobatics or climbing check you cannot roll below a normal die. |
-| Rope Trick | 2nd | 2 |2B/1T | Enchant a rope to automatically tie itself to an object, such as a branch, or rock. The rope moves across surfaces, up walls, and can reach 2 tiles into the air. |
+| Fire Starting | 1 | 1 |1B | Enchant a ring. Concentrating for a round allows you to light something on fire, such as a torch or camp fire. |
+| Balancing | 2 | 2 |2B | When making an Acrobatics or Athletics check you cannot roll below a normal die. |
+| Rope Trick | 3 | 2 |2B/1T | Enchant a rope to automatically tie itself to an object, such as a branch, or rock. The rope moves across surfaces, up walls, and can reach 2 tiles into the air. |
+| Swiftness | 3 | 3 |2B/1T | Increase your move and sprint speed by 1. |
 
 #### Aventus's Arcane Armaments
 *Wondrous Item*

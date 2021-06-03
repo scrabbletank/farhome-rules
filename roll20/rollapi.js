@@ -819,6 +819,7 @@ var FarhomeDice = FarhomeDice || (function () {
                             msg += "<div style='display:inline-block'>(" + imgMacro(imgSource, allDice[i].clr) +
                                 rerollImgMacro(allDice[i].roll[rollVal], allDice[i].clr) + ")</div>";
                             modObj.hex--;
+                            successes += 1;
                         } else {
                             rollResult.v.push(rollVal);
                             successes += allDice[i].val[rollVal];
