@@ -1241,6 +1241,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 ##### Fourth
 - [Conjure Elemental](#Conjure-Elemental)
 - [Fire Shell](#Fire-Shell)
+- [Fissure](#Fissure)
 - [Ice Lance](#Ice-Lance)
 - [Lightning Bolt](#Lightning-Bolt)
 - [Nondetection](#Nondetection)
@@ -1809,6 +1810,18 @@ A shell of fire surrounds your body. For the duration you add 1 superior defense
 
 Add an enhanced die for every level cast above 4th.
 
+#### Fissure
+*4th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 10
+- **Duration:** 5 minutes
+- **Damage Type:** fire/bludgeoning
+
+A fissure of super hot steam and rock errupts from the ground starting at a point in range you can see. The fissure is 5 tiles long and can take any shape as long as each tile is adjacent to the previous tile. When cast the fissure errupts in a bout of steam and rock hitting all creatures on or adjacent to the fissure. Each creature makes a Defense roll against your spellcasting roll. On fail they take a wound each of fire and bludgeoning damage. For the duration the steam obscures the fissure, granting half cover against ranged attacks and spells. The fissure counts as difficult terrain and any creature moving through the the fissure takes a wound in fire damage from the steam.
+
+Add a wound in bludgeoning damage to the initial hit and increase the length of the fissure by 1 for every level cast above 4th.
+
 #### Ice Lance
 *4th level*
 
@@ -2277,6 +2290,7 @@ Add 3 superior dice when cast at 10th level.
 - [Howling Whirlwind](#Howling-Whirlwind)
 - [Mass Web](#Mass-Web)
 - [Silent Passage](#Silent-Passage)
+- [Snake Totem](#Snake-Totem)
 
 ##### Third
 - [Apathy](#Apathy)
@@ -2304,6 +2318,7 @@ Add 3 superior dice when cast at 10th level.
 
 ##### Fifth
 - [Curse of Pain](#Curse-of-Pain)
+- [Enchantment](#Enchantment)
 - [Heart Grip](#Heart-Grip)
 - [Impale](#Impale)
 - [Mind Break](#Mind-Break)
@@ -2739,6 +2754,18 @@ You emanate an aura of silence around yourself, extending out to a 5 tile radius
 
 Add an enhanced die for every level cast above 2nd.
 
+#### Snake Totem
+*2nd level*
+
+- **Casting Time:** 9 AP
+- **Range:** 5
+- **Duration:** concentration, 10 minutes
+- **Damage Type:** poison
+
+You summon up to 3 ethereal totems on points in range you can see. Make a spellcasting roll against 2 bad dice for every totem summoned. On success you summon the totems. When casting this spell, and once per turn by spending 4 AP, you may command your totems to attack. The totems have a range of 5 and use your spellcasting roll for the attack. Creatures make a Stamina save against the attack, taking a wound of poison damage on a failure and gaining Poison 1 for 1 minute on a critical. The totems have 2 wounds and use 3 defense dice with their defense roll.
+
+Add an enhanced die to the summoning roll for each level cast above 2nd.
+
 ### Third Level
 
 
@@ -3007,6 +3034,26 @@ Curse a creature you can see with pain. Make a spellcasting roll against the cre
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Misfortune_, ends this curses effects.
 
 You may target an additional creature for every level cast above 5th.
+
+#### Enchantment
+*5th level*
+
+- **Casting Time:** 10 minutes
+- **Range:** 2
+- **Duration:** 7 days
+
+Enchant up to 5 creatures or objects, changing their behavior and perception. You may change a creatures perception or an aspect of their behaviour as long as it is does not harm the creature. For example, you may enchant a creature with one of the following effects:
+
+- Prevent them from entering a building, such as a church or castle, or a location, such as the nearby forest.
+- Perceive a creature as someone else, changing their race, size, or gender.
+- Ignore the actions of a creature or group, perceiving them as normal.
+- Redirect their affection or opinion of a person, group, or organization to another creature or entity. Enchantment cannot create new emotions, but can redirect them.
+- Prevent them from speaking or sharing specific information. For example the details and location of a magic item, the wearabouts of a person or group, or the week a noble passed through town.
+- Force them to communicate in a specific language. The language must be known to either the creature or the caster, having no effect otherwise.
+
+When casting the enchantment make a spellcasting roll against the creatures Willpower save, adding a Terrible die for every creature or object targeted. On a success the creature is enchanted. When enchanting objects the enchantment lasts for 1 year, saving the result of your spellcasting roll. When a creature holds or wears the object they make a Willpower save against that roll, becoming enchanted on fail. Successfully casting this on the same object each day for 7 days makes the enchantment permanent.
+
+Add an enhanced die and double the duration for every level cast above 5th.
 
 #### Heart Grip
 *5th level*
@@ -3303,6 +3350,7 @@ When cast at 10th level the duration increases to 100 years and you add 2 superi
 - [Bind Creature](#Bind-Creature)
 - [Commune With Nature](#Commune-With-Nature)
 - [Destroy Monstrosity](#Destroy-Monstrosity)
+- [Earthen Pillars](#Earthen-Pillars)
 - [Purify Spirit](#Purify-Spirit)
 - [Regeneration](#Regeneration)
 - [Shape Stone](#Shape-Stone)
@@ -3840,6 +3888,21 @@ Add a superior die for every level cast above 4th.
 Channel holy energy to destroy an undead or monstrosity. Make a spellcasting roll against the creatures Stamina save. On success they take 7 wounds, or 2 wounds on failure. Regardless of success the creature gains slow 1 for 1 minute.
 
 The number of wounds dealt increases by 2 for every level cast above 4th.
+
+
+#### Earthen Pillars
+*4th level*
+
+- **Casting Time:** 8 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** bludgeoning
+
+Choosing 4 tiles within range, raise the earth creating a 6 tile high stone pillar. Pillars can be raised from any earth or stone surface, extending sideways if targeting a wall or down if targeting a ceiling. A creature crushed by the pillars makes a Strength save against your spellcasting. On failure they take 3 wound dice in damage, are knocked prone, and grappled. A creature pinned by your pillar can spend 5 AP on their turn to attempt to break free, making the save again.
+
+You may combine 4 pillars into a larger 2x2 pillar, dealing 2 wounds and 3 wound dice instead. Each pillar has _Resistance_ 2 to all damage except force damage and takes 3 wounds to destroy.
+
+The number of pillars increases by 2 for every level cast above 4th.
 
 #### Purge
 *4th level*
