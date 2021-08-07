@@ -3048,7 +3048,7 @@ Enchant up to 5 creatures or objects, changing their behavior and perception. Yo
 - Perceive a creature as someone else, changing their race, size, or gender.
 - Ignore the actions of a creature or group, perceiving them as normal.
 - Redirect their affection or opinion of a person, group, or organization to another creature or entity. Enchantment cannot create new emotions, but can redirect them.
-- Prevent them from speaking or sharing specific information. For example the details and location of a magic item, the wearabouts of a person or group, or the week a noble passed through town.
+- Prevent them from speaking or sharing specific information. For example the details and location of a magic item, the whereabouts of a person or group, or the week a noble passed through town.
 - Force them to communicate in a specific language. The language must be known to either the creature or the caster, having no effect otherwise.
 
 When casting the enchantment make a spellcasting roll against the creatures Willpower save, adding a Terrible die for every creature or object targeted. On a success the creature is enchanted. When enchanting objects the enchantment lasts for 1 year, saving the result of your spellcasting roll. When a creature holds or wears the object they make a Willpower save against that roll, becoming enchanted on fail. Successfully casting this on the same object each day for 7 days makes the enchantment permanent.
