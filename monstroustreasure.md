@@ -3352,6 +3352,109 @@ A pitch black cube, untarnished through age where not even dust settles on it. E
 
 While attuned to the Heart of Madness you may use it to cast any damaging spell you have prepared, reducing its mana cost by 3. When cast this way the spells damage type changes to Death damage and it no longer inflicts any conditions or effects other than damage and it ignores critical effects. Instead, on crit target creatures gains Hex 1 for 1 minute.
 
+#### Staff of Mantus
+*Legendary Staff +3*
+
+A staff made from black onyx capped with a human skull. The staff was created by the Demon Lord Mantus using one of his onyx claws and carries his personality. The staff dispises mortals and refuses to use its full power when wielded by one. While held by a mortal the staff feigns obedience while whispering promises of power to its holder, while its true intention is to cause as much destruction in mortal realms as possible.
+
+The staff seeks an immortal master to serve. If the staff is particularly desparate for a master it will tell its wielder about a tablet containing the secrets of life and death. The tablet was hidden away by Mantus himself in his fortress in Hell. After studying the tablet a creature learns how to create a Lich's phylactery and become immortal.
+
+When a mortal attempts to attune to the staff they take 5/5 in death damage. This effect happens the first time a creature attunes to this item, having no effect if the creature reattunes to it again. The staff curses mortals with _Vulnerability_ 1 to all damage, lasting until the creature dies. This curse is not removed when breaking attunement with the staff. The curse can be broken by successfully casting _Break Curse_ against an 8th level curse.
+
+While attuned to the staff you may reroll 3 dice when making spellcasting rolls. Attacks with this weapon deal 1 wound and 1 wound die in death damage, ignoring a level of resistance. Once per day you may cast _Fiendfire_ using 6 Superior dice for the roll.
+
+Once per day you may spend 8 AP to summon an undead legion. Roll 8 Superior dice, conjuring a Skeleton within 10 tiles of yourself for each success rolled. The skeletons obey your commands and last for 1 hour after which they turn to dust.
+
+#### Armor of Impending Doom
+*Magical Medium Armor*
+
+When attuned to this armor you have _Resistance_ 1 to physical damage. Attuning to this armor curses the wearer. While cursed they are unable to remove the armor and any physical damage they take reduces their maximum health an equal amount. The curse can be broken by casting _Break Curse_ against a 4th level curse, restoring their max wounds to normal.
+
+#### Hydrascale Armor
+*Magical Medium Armor +1*
+
+Armor made from the hide of a Hydra and imbued with its essence. While attuned your max healing surges inceases by 1. At the start of your turn if have less than half your max wounds remaining you spend a healing surge, healing for the value rolled.
+
+#### Armor of the Chromatic Dragon
+*Magical Medium Armor +1*
+
+This armor is made from the scales of each chromatic dragon. You have _Resistance_ 1 against elemental damage and _Resistance 3_ against dragon breath attacks.
+
+#### Indomitable Armor
+*Magical Heavy Armor +2*
+
+This armor is made of an extremely dense metal able to resist even the strongest of blows. This armor requires 5 Strength to wear, reducing your move and sprint speeds to 0 if worn with less. While worn your sprint speed is reduced by 1 and any knockback effects push you 2 tiles less.
+
+#### Battle Fury
+*Magical Battleaxe +2*
+
+This massive battle axe requires 4 Strength to wield. Attacks with this weapon cost 2 more AP but deal an additional wound of damage. Basic attacks always cleave hitting a creature adjacent to your target if they are in your zone of control. While attuned to this weapon, after landing the killing blow on a creature using this weapon you may spend a healing surge, healing for the wounds rolled.
+
+#### Repeater
+*Magical Crossbow +1*
+
+This heavy crossbow has a second chamber that will occasionally cause it to fire twice. Once per turn, when you land a critical hit with this weapon you make a second basic attack against the target as a free action. The second attack consumes ammunition as normal.
+
+#### Skirmishers Buckler
+*Magical Buckler*
+
+When taking the defend action you are immune to opportunity attacks until the start of your next turn.
+
+#### Shield of Unity +1/+2/+3
+*Magical Shield*
+
+While attuned you add successes equal to its bonus modifier to attacks against a creature as long as you are adjacent to an ally inside the creatures zone of control. Adjacent allies add successes equal to its bonus modifier to Strength, Dexterity, and Stamina saving throws.
+
+#### Tower Shield
+*Magical Shield*
+
+This massive shield requires 4 Strength to wield. When taking a defend action you choose a direction, gaining half cover against ranged attacks from that direction until the start of your next turn.
+
+#### Bolt of Purification
+*Magical Ammunition*
+
+These crossbow bolts contain a small vial of holy water. On hit these bolts do normal damage, adding 2 wounds of holy damage against Demons, Monstrosities, and Undead.
+
+#### Magic Weapon +1/+2/+3
+*Magical Weapon*
+
+Attacks made with this weapon add Superior dice equal to its bonus modifier to attack rolls.
+
+#### Magic Armor +1/+2/+3
+*Magical Armor*
+
+You add Superior Defense dice equal to its bonus modifier when making Defense rolls.
+
+#### Elfsong Armor
+*Legendary Padded Armor +3*
+
+Woven from thin strands of songsteel, this armor is incredibly durable, able to block even the most deadly attacks. While wearing this armor you are immune to gaining Lesser Wounds from attacks.
+
+#### Cloth of Dampening
+*Magical Padded Armor +1*
+
+Robes enchanted to protect the wearer against harm. While attuned to this item you have _Resistance_ 1 against bludgeoning and force damage, and take half as much damage from falling.
+
+#### Force Shield
+*Magical Shield*
+
+This magical shield looks like an ordinary brass ball. When attuned to the shield you may command it to activate, projecting a magical shield that wards attacks. While holding the activated shield you add 1 Defense die to defense rolls and have _Resistance_ 3 against force damage.
+
+#### Spellblade
+*Magical Weapon +1*
+
+This weapon has no blade, ending at the hilt. When attuned to this item you may command it to activate, summoning a sword made out of an element matching the gemstone in its hilt. When making attacks with this weapon you may use your weapon roll or a spellcasting roll for the attack. The attack does 1 wound in damage depending on its element, converting any added damage to that element.
+
+| Gemstone | Damage Type |
+|:----:|:-------------|
+| Ruby  | Fire |
+| Saphire  | Cold |
+| Diamond | Lightning |
+| Topaz | Thunder |
+| Emerald | Poison |
+| Opal | Force |
+
+
 ## Swords of Tyr
 The 8 Swords of Tyr are split across the various alignments:
 
