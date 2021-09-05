@@ -1,6 +1,7 @@
-___
+
 #### Guidance
 *Cantrip*
+
 - **Casting Time:** 3 AP
 - **Range:** 2
 - **Duration:** 1 minute
@@ -8,9 +9,10 @@ ___
 Enchant up to 5 creatures you can see with divine guidance. Make a spellcasting roll adding a bad die for each creature targeted. On a success, the creatures can add an enhanced die to their next attack, maneuver, or damage-dealing spell roll, or a superior die on a critical.
 
 Add an enhanced die for every level cast above cantrip.
-___
+
 #### Holy Protection
 *Cantrip*
+
 - **Casting Time:** 4 AP
 - **Range:** 2
 - **Duration:** 1 minute
@@ -19,9 +21,9 @@ Enchant up to 5 creatures you can see with protection. Make a spellcasting roll 
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Light
 *Cantrip*
+
 - **Casting Time:** 6 AP
 - **Range:** touch
 - **Duration:** concentration, 10 minutes.
@@ -30,9 +32,9 @@ You cause a small object no larger than a fist to emit a bright light. You may c
 
 The range of the maximum bright and dim light increases by 1 tile for every level cast above cantrip. At 5th level and above this light is considered sunlight.
 
-___
 #### Radiant Light
 *Cantrip*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
@@ -44,9 +46,9 @@ You may target an additional creature for every level cast above cantrip.
 
 
 
-___
 #### Spare From Death
 *Cantrip*
+
 - **Casting Time:** 4 AP
 - **Range:** touch
 - **Duration:** instant
@@ -56,9 +58,9 @@ Slow the heart and prevent blood loss of an incapacitated creature. Make a spell
 Add a superior die for every level cast above cantrip.
 
 
-___
 #### Vine Whip
 *Cantrip*
+
 - **Casting Time:** 5 AP
 - **Range:** 5 (10)
 - **Duration:** instant
@@ -70,10 +72,11 @@ The plant lasts for 1 minute after which it withers or returns to its original s
 
 Add a wound die for every level cast above cantrip.
 
+### First Level
 
-___
 #### Animal Messenger
-*1st Level*
+*1st level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 1 day
@@ -86,11 +89,9 @@ The duration increases by 1 day for each level cast above 1st.
 
 
 
-
-
-___
 #### Bonfire
-*1st Level*
+*1st level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 8 hours
@@ -99,9 +100,9 @@ You create a magical soothing bonfire. The bonfire takes up a tile of space, emi
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Bramble
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** 7
 - **Duration:** 5 minutes
@@ -113,9 +114,9 @@ Any creature taking a move or sprint action through the bramble makes a Dexterit
 
 The area increases by 1 for every level cast above 1st.
 
-___
 #### Breath
-*1st Level*
+*1st level*
+
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -125,10 +126,9 @@ You summon a swirling vortex of breathable air around up to 5 creatures in range
 Add an enhanced die for every level cast above 1st.
 
 
-
-___
 #### Chilling Fog
-*1st Level*
+*1st level*
+
 - **Casting Time:** 6 AP
 - **Range:** 15
 - **Duration:** 10 minutes
@@ -138,9 +138,9 @@ A chilling fog covers a 5x5 tile area centered on a point in range you can see. 
 The size and range of the fog increases by 2 for every level cast above 1st.
 
 
-___
 #### Close Wounds
-*1st Level*
+*1st level*
+
 - **Casting Time:** 5 AP
 - **Range:** touch
 - **Duration:** instant
@@ -149,9 +149,9 @@ Mend a creature's wounds. Make a spellcasting roll, healing a wound and adding a
 
 Add a wound die for every level cast above 1st.
 
-___
 #### Holy Weapon
-*1st Level*
+*1st level*
+
 - **Casting Time:** 4 AP
 - **Range:** self
 - **Duration:** concentration, 1 minute
@@ -161,9 +161,9 @@ Enchant your weapon with holy power. For the next minute you may use your spellc
 
 Duration increases by 1 minute for every level cast above 1st.
 
-___
 #### Solar Flash
-*1st Level*
+*1st level*
+
 - **Casting Time:** 6 AP
 - **Range:** touch
 - **Duration:** instant
@@ -172,9 +172,9 @@ You create a cone of shining light 3 tiles long and 3 tiles wide, blinding all c
 
 The length and width of the cone increases by 1 for every level cast above 1st.
 
-___
 #### Tremor
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** instant
@@ -184,12 +184,11 @@ You cause tremors in the earth around you. All creatures within 2 tiles of you m
 
 The affected tiles extends by 1 and damage is increased by 1 wound die for every level cast above 1st.
 
+### Second Level
 
-
-
-___
 #### Cleanse
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 3 AP
 - **Range:** 3
 - **Duration:** instant
@@ -198,9 +197,9 @@ Attempt to remove negative conditions afflicting a creature in range that you ca
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Consecrate Ground
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 10 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -210,9 +209,9 @@ Mark a 3x3 tile area centered on yourself. Any undead or monstrosity attempting 
 
 The area increases by 2 for every level cast above 2nd.
 
-___
 #### Enhance Ability
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 5 AP
 - **Range:** 3
 - **Duration:** concentration, 1 hour
@@ -222,9 +221,9 @@ You bless up to 5 creatures in range that you can see. Make a spellcasting roll 
 Add an enhanced die for every level cast above 1st.
 
 
-___
 #### Gust
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 7 AP
 - **Range:** touch
 - **Duration:** concentration, 1 minute
@@ -234,9 +233,9 @@ You cause strong winds to blow down the length of a 10x2 tile line. On casting a
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Healing Word
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
@@ -245,9 +244,9 @@ Send healing energy to a creature in range you can see. Make a spellcasting roll
 
 Add a normal die for every level cast above 2nd.
 
-___
 #### Seed of Renewal
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 10 minutes
@@ -256,9 +255,9 @@ Conjure a rejuvenating, fruit bearing bush. The bush can have up to 5 fruit, mak
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Shield of Faith
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 5 AP
 - **Range:** 3
 - **Duration:** concentration, 10 minutes
@@ -268,10 +267,9 @@ A shimmering aura protects up to 5 creatures in range that you can see. Make a s
 Add an enhanced die for every level cast above 2nd.
 
 
-
-___
 #### Treat Injury
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** instant
@@ -280,9 +278,9 @@ Restore a creatures body, healing injuries and mending bones. You may attempt to
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Wall of Faith
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** 1 turn
@@ -291,9 +289,9 @@ Channel your faith to form a protective wall 4 tiles wide and 4 tiles tall cente
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Winds of Battle
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 4 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -302,10 +300,11 @@ A flurry of wind surrounds up to 5 willing creatures in range you can see. Make 
 
 Add an enhanced die for every level cast above 2nd.
 
+### Third Level
 
-___
 #### Beacon
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -316,9 +315,9 @@ Add an enhanced die for every level cast above 3rd.
 
 
 
-___
 #### Break Curse
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -327,9 +326,9 @@ You attempt to remove a curse afflicting a creature. Make a spellcasting roll ag
 
 Add an enhanced die for every level cast above 3rd.
 
-___
 #### Cure
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 10 AP
 - **Range:** 3
 - **Duration:** instant
@@ -338,9 +337,9 @@ You cleanse poison and disease from up to 5 creatures you can see. Make a spellc
 
 Add an enhanced die for every level cast above 3rd.
 
-___
 #### Demonic Skull
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -352,15 +351,15 @@ Add an enhanced die and increase the duration by 1 turn for every level cast abo
 
 
 
-
-___
 #### Detect Creatures
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 1 minute
 - **Range:** 1 mile
 - **Duration:** instant
 
 You attempt to detect the location of a type of creature in range. Choose one of the following: _beast, celestial, construct, demon, draconic, elemental, giant, goblinoid, fey, humanoid, monstrosity, undead_, or _outsider_. Make a spellcasting roll adding 2 bad dice. On success you know the rough direction and Strength of creatures matching that type in the spells range. The spells accuracy is determined by how many success are in your roll:
+
 
 - **0-2**: You cannot sense how many creatures have been detected and their direction is accurate to within 2000 ft.
 - **3-4**: You have a vague count of the number of creatures in range, within 10, and their direction is accurate to within 500 ft.
@@ -369,9 +368,9 @@ You attempt to detect the location of a type of creature in range. Choose one of
 
 The range increases by 1 mile for every level cast above 3rd.
 
-___
 #### Revive
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -380,14 +379,15 @@ Attempt to bring back a creature back to life that has been dead for no longer t
 
 Add a normal die for every level cast above 3rd.
 
-___
 #### Spirit Animal
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 10 minutes
 - **Range:** self
 - **Duration:** 3 days
 
 Attempt to commune with local nature spirits, gaining one as your guide. Make a spellcasting roll adding 2 terrible dice, or 3 if you are not in a forest, swamp, or plains. On success you gain an spirit companion of your choosing. You may summon or dismiss the spirit for 5 AP, appearing in a tile adjacent to you. Each spirit has 3 wounds with the spell ending if they are killed. Spending a minute in concentration you may look through your spirit animal's eyes. While doing so you gain the senses of the animal and lose your own. Besides their max wounds the spirit animal has the same attributes, abilities, and attacks as the animal they're based on. You gain the following bonuses if the spirit animal is within 10 tiles of you.
+
 
 - **Elk:** You add 2 superior dice with athletics checks and your move speed increases by 1.
 - **Rabbit:** You add a superior die to Dexterity saves and acrobatics checks. The rabbit has 1 wound cannot be hurt while on your person.
@@ -399,9 +399,9 @@ Attempt to commune with local nature spirits, gaining one as your guide. Make a 
 Add an enhanced die for every level cast above 3rd.
 
 
-___
 #### Summoning
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -412,9 +412,9 @@ You may instead cast this into a small object or trinket using the 'Passing Acqu
 
 Add an enhanced die for every level cast above 3rd.
 
-___
 #### Traveler's Protection
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 3 minutes
 - **Range:** 5
 - **Duration:** 8 hours
@@ -425,10 +425,9 @@ Add an enhanced die for every level cast above 3rd.
 
 
 
-
-___
 #### Turn Undead
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 6 AP
 - **Range:** self
 - **Duration:** 1 minute
@@ -438,11 +437,12 @@ You create a wave of holy force. All undead within 3 tiles of you makes a Charis
 
 Add a wound die and increase the area by 2 tiles for every level cast above 3rd.
 
+### Fourth Level
 
 
-___
 #### Awaken
-*4th Level*
+*4th level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 7 days*
@@ -451,9 +451,9 @@ Attempt to awaken a plant or creature with an Intelligence of -2 or less. Make a
 
 Add a superior die for every level cast above 4th.
 
-___
 #### Bind Creature
-*4th Level*
+*4th level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
@@ -463,9 +463,9 @@ Bind a creature in range you can see to this realm. Make a spellcasting roll aga
 Add an enhanced die for every level cast above 4th.
 
 
-___
 #### Commune with Nature
-*4th Level*
+*4th level*
+
 - **Casting Time:** 10 minutes
 - **Range:** 3 miles
 - **Duration:** instant
@@ -481,9 +481,9 @@ You spend time in meditation, listening to the land itself covering an area 3 mi
 Add a superior die for every level cast above 4th.
 
 
-___
 #### Destroy Monstrosity
-*4th Level*
+*4th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -493,9 +493,36 @@ Channel holy energy to destroy an undead or monstrosity. Make a spellcasting rol
 
 The number of wounds dealt increases by 2 for every level cast above 4th.
 
-___
+
+#### Earthen Pillars
+*4th level*
+
+- **Casting Time:** 8 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** bludgeoning
+
+Choosing 4 tiles within range, raise the earth creating a 6 tile high stone pillar. Pillars can be raised from any earth or stone surface, extending sideways if targeting a wall or down if targeting a ceiling. A creature crushed by the pillars makes a Strength save against your spellcasting. On failure they take 3 wound dice in damage, are knocked prone, and grappled. A creature pinned by your pillar can spend 5 AP on their turn to attempt to break free, making the save again.
+
+You may combine 4 pillars into a larger 2x2 pillar, dealing 2 wounds and 3 wound dice instead. Each pillar has _Resistance_ 2 to all damage except force damage and takes 3 wounds to destroy.
+
+The number of pillars increases by 2 for every level cast above 4th.
+
+#### Purge
+*4th level*
+
+- **Casting Time:** 7 AP
+- **Range:** 3
+- **Duration:** instant
+- **Damage Type:** lightning
+
+Attempt to break the flow of magic around a creature or object, dispelling all magical effects targeting them. Make a spellcasting roll against 2 bad dice. Starting with the lowest level effect, subtract its spell level from your reminaing successes, if you have 0 or more the effect ends. Repeat this until every effect is dispelled or you have no remaining successes. The torn magic grounds itself through the creature, taking a wound die in damage for each effect purged. If the creature takes at least 1 wound they gain Slow 3 and are Paralyzed until the end of their next turn.
+
+Add a normal die for every level cast above 4th.
+
 #### Purify Spirit
-*4th Level*
+*4th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** instant
@@ -506,10 +533,9 @@ Add an enhanced die for every level cast above 4th.
 
 
 
-
-___
 #### Regeneration
-*4th Level*
+*4th level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** instant
@@ -518,9 +544,9 @@ Fill a creature with healing energy, causing their wounds to close over time. Ma
 
 Add an enhanced die for every level cast above 4th.
 
-___
 #### Shape Stone
-*4th Level*
+*4th level*
+
 - **Casting Time:** 8 AP
 - **Range:** touch
 - **Duration:** instant
@@ -529,9 +555,9 @@ Attempt to shape stone into a form of your choosing. Make a spellcasting roll ad
 
 You number of tiles shaped increases by 2 for each level cast above 4th. The tiles must be adjacent.
 
-___
 #### Summon Demon
-*4th Level*
+*4th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** instant
@@ -540,9 +566,9 @@ You attempt to call forth a demon from the abyss at a point in range you can see
 
 The maximum CR increases by 3 for every level cast above 4th.
 
-___
 #### Ward From Death
-*4th Level*
+*4th level*
+
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 8 hours
@@ -553,9 +579,11 @@ Add an enhanced die to the roll for every level cast above 4th.
 
 
 
-___
+### Fifth Level
+
 #### Bind Familiar
-*5th Level*
+*5th level*
+
 - **Casting Time:** 1 turn
 - **Range:** 3
 - **Duration:** 1 year
@@ -570,9 +598,9 @@ Once successfully cast, regardless of whether a contract was formed this spell c
 
 Add a superior die to your roll for every level cast above 5th.
 
-___
 #### Inner Fire
-*5th Level*
+*5th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -582,11 +610,9 @@ Empower up to 5 creatures with righteous fury. Make a spellcasting roll adding a
 Add an enhanced die for every level cast above 5th.
 
 
-
-
-___
 #### Judgement
-*5th Level*
+*5th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 10
 - **Duration:** instant
@@ -596,9 +622,9 @@ You call down a holy judgement over a 5x5 tile area centered on a point in range
 
 Add a wound for every level cast above 5th.
 
-___
 #### Mass Healing Word
-*5th Level*
+*5th level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
@@ -607,9 +633,9 @@ Mend the wounds of up to 5 creatures in range you can see. Make a spellcasting r
 
 Add a normal die for every level cast above 5th.
 
-___
 #### Mass Cleanse
-*5th Level*
+*5th level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
@@ -619,9 +645,9 @@ Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll a
 Add a normal die for every level cast above 5th.
 
 
-___
 #### Petrify
-*5th Level*
+*5th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** concentration, 1 minute
@@ -633,9 +659,10 @@ You add a terrible die to your roll when cast on a large creature, or 3 terrible
 You may target an additional creature for every level cast above 5th.
 
 
-___
+
 #### Radiance
-*5th Level*
+*5th level*
+
 - **Casting Time:** 10 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -646,20 +673,20 @@ A holy light emanates bright light in 3 tiles and dim light a further 3. Any und
 The radius of the bright light increases by 1 for every level cast above 5th.
 
 
-___
 #### Resurrect
-*5th Level*
+*5th level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
 
-Attempt to bring back a creature that has died in the past week. A majority of the creature must be present, with this spell restoring missing body parts. Make a spellcasting roll against 2 bad dice, adding a terrible die for every time this creature has died in the past year. On success the crreature is brought back to life with 1 wound, adding a wound for every critical you rolled.
+Attempt to bring back a creature that has died in the past week. A majority of the creature must be present, with this spell restoring missing body parts. Make a spellcasting roll against 2 bad dice, adding a terrible die for every time this creature has died in the past year. On success the creature is brought back to life with 1 wound, adding a wound for every critical you rolled.
 
 Add an enhanced die to the roll for every level cast above 5th.
 
-___
 #### Spirit Warriors
-*5th Level*
+*5th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 3
 - **Duration:** 10 minutes
@@ -671,12 +698,11 @@ The spirits have the same attributes and proficiencies they had in life, but los
 Add an enhanced die for every level cast above 5th.
 
 
+### Sixth Level
 
-
-
-___
 #### Exorcism
-*6th Level*
+*6th level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -685,9 +711,9 @@ You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, 
 
 Add an enhanced die to the roll for every level cast above 6th.
 
-___
 #### Power Word: Harm
-*6th Level*
+*6th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** instant
@@ -697,9 +723,9 @@ Channel your divine wrath at a creature in range you can see. Make a spellcastin
 
 Add a wound for every level cast above 6th.
 
-___
 #### Power Word: Heal
-*6th Level*
+*6th level*
+
 - **Casting Time:** 9 AP
 - **Range:** touch
 - **Duration:** instant
@@ -710,9 +736,9 @@ Add a wound for every level cast above 6th.
 
 
 
-___
 #### Sanctuary
-*6th Level*
+*6th level*
+
 - **Casting Time:** 7 AP
 - **Range:** touch
 - **Duration:** 1 turn
@@ -724,9 +750,9 @@ When opening a portal it remains open until the end of your next turn and any cr
 Add an enhanced die to the roll for every level cast above 6th.
 
 
-___
 #### Word of Command
-*6th Level*
+*6th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -736,11 +762,11 @@ Your voice bellows a single command heard by all creatures within 10 tiles of yo
 Your voice carries an extra 5 tiles for every level cast above 6th.
 
 
+### Seventh Level
 
-
-___
 #### Divine Word
-*7th Level*
+*7th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** instant
@@ -756,11 +782,11 @@ Regardless of the outcome, any undead, demon, or celestial targeted by this spel
 
 Add a superior die to your roll for every level cast above 7th.
 
+### Eighth Level
 
-
-___
 #### Light of Divinity
-*8th Level*
+*8th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 10
 - **Duration:** concentration, 5 minutes
@@ -768,14 +794,13 @@ ___
 
 A blinding light shines down covering a 5x5 tile area in sunlight centered on a point in range.  You may choose any number of creatures inside the light to be unaffected. All other creatures make a Charisma save against your spellcasting roll. On failure the creatures are pushed to the closest empty tile outside of the light and take 2 wound dice in holy damage.
 
-Creatures inside the light are considered to be in a different realm and any attack or spell made through the the light fails. A creature can attempt to force their way into the light, making a Charisma save against your spellcasting roll. On success they enter the light as normal, otherwise they are burned by the light, taking 2 wound dice in holy damage and cannot enter.
+Creatures inside the light are considered to be in a different realm and any attack or spell made through the light fails. A creature can attempt to force their way into the light, making a Charisma save against your spellcasting roll. On success they enter the light as normal, otherwise they are burned by the light, taking 2 wound dice in holy damage and cannot enter.
 
 Add a superior die and increase the area by 2 for every level cast above 8th.
 
-
-___
 #### Restoration
-*8th Level*
+*8th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** instant
@@ -786,9 +811,11 @@ Add 2 superior dice to your roll for every level cast above 8th.
 
 
 
-___
+### Ninth Level
+
 #### Avatar
-*9th Level*
+*9th level*
+
 - **Casting Time:** 1 turn
 - **Range:** self
 - **Duration:** concentration, 10 minutes.

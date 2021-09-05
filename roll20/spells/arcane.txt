@@ -1,6 +1,7 @@
-___
+
 #### Cold Snap
 *Cantrip*
+
 - **Casting Time:** 5 AP
 - **Range:** 2
 - **Duration:** instant
@@ -10,9 +11,9 @@ Sap heat from a creature you can see. Make a spellcasting roll against the creat
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Firebolt
 *Cantrip*
+
 - **Casting Time:** 6 AP
 - **Range:** 8
 - **Duration:** instant
@@ -23,9 +24,9 @@ Blast a creature you can see with a bolt of fire. Make a spellcasting roll again
 Add a wound die for every level cast above cantrip.
 
 
-___
 #### Message
 *Cantrip*
+
 - **Casting Time:** 2 AP
 - **Range:** 10+
 - **Duration:** instant
@@ -34,9 +35,9 @@ You attempt to send a telepathic message to a creature you're familiar with or t
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Minor Image
 *Cantrip*
+
 - **Casting Time:** 4 AP
 - **Range:** 10
 - **Duration:** 5 minutes
@@ -46,9 +47,9 @@ You create a small, soundless, illusory image no larger than 1 tile at a point w
 Add an enhanced die for every level cast above cantrip.
 
 
-___
 #### Static Shock
 *Cantrip*
+
 - **Casting Time:** 6 AP
 - **Range:** 3
 - **Duration:** instant
@@ -58,9 +59,9 @@ Charge the air around a creature in range causing it to discharge through the cr
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Thundering Blow
 *Cantrip*
+
 - **Casting Time:** 5 AP
 - **Range:** touch
 - **Duration:** instant
@@ -70,9 +71,11 @@ Conjure a rolling thunder to blast a creature away. Make a spellcasting roll aga
 
 Add an enhanced die for every level cast above cantrip.
 
-___
+### First Level
+
 #### Arcane Blasts
-*1st Level*
+*1st level*
+
 - **Casting Time:** 8 AP
 - **Range:** 7
 - **Duration:** instant
@@ -84,9 +87,9 @@ Fire another blast for every level cast above 1st.
 
 
 
-___
 #### Arcane Key
-*1st Level*
+*1st level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -96,9 +99,9 @@ Force a lock to open. Touching a lock you may make a lockpicking check using you
 Add an enhanced die for every level cast above 1st.
 
 
-___
 #### Beam of Fire
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** instant
@@ -108,9 +111,9 @@ A blast of fire erupts from your hands hitting all creatures in a 4 tile line. M
 
 The beam reaches 2 tiles further and deals an extra wound die for every level cast above 1st.
 
-___
 #### Call Lightning
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 (5) AP
 - **Range:** 10
 - **Duration:** instant
@@ -121,9 +124,9 @@ Call a bolt of lightning to strike a nearby creature you can see. Make a spellca
 Add an enhanced die for every level cast above 1st.
 
 
-___
 #### Chilling Ray
-*1st Level*
+*1st level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** instant
@@ -134,12 +137,9 @@ Fire a frigid beam at 3 creatures in range you can see. Make a spellcasting roll
 Add an enhanced die for every level cast above 1st.
 
 
-
-
-
-___
 #### Detect Magic
-*1st Level*
+*1st level*
+
 - **Casting Time:** 6 AP
 - **Range:** 10
 - **Duration:** instant
@@ -148,9 +148,9 @@ Attempt to read the flow of magic in a 10x10 area centered on a point in range. 
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Identify
-*1st Level*
+*1st level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** instant
@@ -159,9 +159,9 @@ Attempt to learn the secrets of a magical item or trinket. Make a lore check usi
 
 Add an enhanced die for every level cast above 1st
 
-___
 #### Magic Sight
-*1st Level*
+*1st level*
+
 - **Casting Time:** 10 AP
 - **Range:** self
 - **Duration:** concentration, 1 hour
@@ -172,9 +172,9 @@ If the eye is able to fully spot a creature behind cover, they gain 1 less bonus
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Poison Trap
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -186,9 +186,9 @@ Add a tile for every level cast above 1st.
 
 
 
-___
 #### Ray of Sickness
-*1st Level*
+*1st level*
+
 - **Casting Time:** 5 AP
 - **Range:** 7
 - **Duration:** instant
@@ -197,9 +197,9 @@ A sickening beam blasts a creature in range you can see. Make a spellcasting rol
 
 You may target an additional creature for every level cast above 1st.
 
-___
 #### Sword Burst
-*1st Level*
+*1st level*
+
 - **Casting Time:** 3 AP
 - **Range:** self
 - **Duration:** 1 minute.
@@ -209,9 +209,9 @@ Magically enchant your weapon to fire a burst of energy with your next attack. Y
 
 Your reach increases by 1 and you add a wound die to the damage for every level cast above 1st.
 
-___
 #### Thunderclap
-*1st Level*
+*1st level*
+
 - **Casting Time:** 5 AP
 - **Range:** self
 - **Duration:** instant
@@ -221,10 +221,11 @@ A wave of thunder roars around you, hitting all creatures adjacent to you. Make 
 
 Add an enhanced die for every level cast above 1st.
 
+### Second Level
 
-___
 #### Barrier
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 2 AP
 - **Range:** self
 - **Duration:** instant
@@ -234,10 +235,9 @@ As a reaction you quickly summon magical defenses, protecting you and all adjace
 Increase the range of protection by 1 and add an enhanced die for every level cast above 2nd.
 
 
-
-___
 #### Blink
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 3 AP
 - **Range:** 5/10
 - **Duration:** instant
@@ -246,9 +246,9 @@ Attempt to teleport yourself to a unoccupied point you can see in range. Make a 
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Combust
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 minute
@@ -259,24 +259,20 @@ Cause 2 creatures you can see in range to burst into flames. Make a spellcasting
 
 You may target an additional creature for every level cast above 2nd.
 
-___
 #### Dispel Magic
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
 
-You attempt to dispel a single magical effect targeting a creature or area. Make a spellcasting roll against 1 enhanced die per level of spell you are trying to dispel. If the effect you are trying to dispel is being concentrated on by another creature make a spellcasting roll against the creatures spellcasting roll instead. On success the magical effect ends. If targeting an effect caused by an object, such as a magic item or animated armor, they regain their magical effects after 10 minutes.
+You attempt to dispel a single magical effect targeting a creature or area. Make a spellcasting roll against 2 terrible dice, adding successes or failures based on the difference between this spell level and the target effect's spell level. For example, you add 2 successes when casting _Dispel Magic_ at 4th level against an effect from a 2nd level spell, or 3 failures when casting at 2nd level against a 5th level effect. On success the effect immediately ends.
 
-Some magical effects may not come from a spell. In these cases the GM determines the challenge rating or if the spell fails.
+Some magical effects may not come from a spell. In these cases the GM determines how many successes and failures to add or if the spell fails.
 
-You may target an additional effect for every level cast above 2nd.
-
-
-
-___
 #### Elemental Shell
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 5 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -285,21 +281,21 @@ Create an energy barrier around yourself. Choose a damage type: fire, cold, ligh
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Hailstorm
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 7 AP
 - **Range:** touch
 - **Duration:** instant
 - **Damage Type:** cold
 
-You conjure a flurry of ice shards in a 3x3 tilr area adjacent to you. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wound dice in cold damage, gaining 1 level of Slow for the next minute on a critical.
+You conjure a flurry of ice shards in a 3x3 tile area adjacent to you. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wound dice in cold damage, gaining 1 level of Slow for the next minute on a critical.
 
 add a wound die and increase the area by 1 for every level cast above 2nd.
 
-___
 #### Imprint
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** up to 5 minutes
 - **Range:** self
 - **Duration:** concentration, 5 minutes
@@ -316,11 +312,9 @@ The recording is permanent, unless a command word is spoken to end the spell or 
 Add an enhanced die for every level cast above 2nd.
 
 
-
-
-___
 #### Magic Weapon
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
@@ -329,23 +323,23 @@ Temporarily enchant a weapon with magic. You may target up to 5 weapons, adding 
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Resilient Shield
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 4 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
 
-On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against 1 bad die, or 2 if cast as a reaction. On success you create a shield of force around youself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions.
+On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against 1 bad die, or 2 if cast as a reaction. On success you create a shield of force around yourself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions.
 
 Add an enhanced die for every level cast above 2nd.
 
 ### Third Level
 
 
-___
 #### Animate Guardian
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** concentration, 1 hour
@@ -359,9 +353,9 @@ Make a spellcasting roll adding 2 terrible dice, or 4 terrible dice if the mater
 Add an enhanced die for every level cast above 3rd. At 5th level you may target a 2x2 area creating a golem with 5 wounds, and at 7th a 3x3 area creating a golem with 8 wounds and two attacks per turn.
 
 
-___
 #### Chain Lightning
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** instant
@@ -371,20 +365,20 @@ Conjure a burst of lightning that bounces from creature to creature. Targeting a
 
 The number of bounces increases by 1 and you add an enhanced die for every level cast above 3rd.
 
-___
 #### Counter Spell
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 2 AP
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to counter a creatures flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the caster's spellcasting roll, adding a success to your roll for every point of mana spent above the target spell or adding a failure for every point of mana spent below the target spell. On success the target spell has no effect.
+Attempt to counter a creatures flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the caster's spellcasting roll. Each caster adds a success equal to the level of each spell cast. On success the target spell has no effect.
 
-Multiple casters can attempt to counter the same spell. When multiple casters cast _Counter Spell_ you use the combined mana across all casts when determining your roll.
+Multiple casters can attempt to counter the same spell, using the highest spellcasting roll and adding successes equal to the total spell level of all _Counter Spell_'s cast.
 
-___
 #### Far Sight
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 10 AP
 - **Range:** 1 mile
 - **Duration:** concentration, 10 minutes
@@ -394,11 +388,9 @@ See far into the distance, bending your sight around obstacles. Choose a locatio
 Add an enhanced die for every level cast above 3rd.
 
 
-
-
-___
 #### Fireball
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -408,9 +400,9 @@ Launch a ball of fire centered at a target point in range you can see. The fireb
 
 Add a wound die for every level cast above 3rd.
 
-___
 #### Flight
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -419,9 +411,9 @@ Gain magical flight, allowing you to float through the air. Choosing up to 5 wil
 
 Add an enhanced die for every level cast above 3rd.
 
-___
 #### Ice Knives
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 8 AP
 - **Range:** touch
 - **Duration:** instant
@@ -431,9 +423,22 @@ You conjure an barrage of icicles, hitting all adjacent creatures and blasting a
 
 Add a wound die for every level cast above 3rd.
 
-___
+#### Major Image
+*3rd level*
+
+- **Casting Time:** 4 AP
+- **Range:** 10
+- **Duration:** concentration, 10 minutes
+
+You create a auditory or visual illusion no larger than 4 tiles at a point within range you can see. The illusion has no physical presence, a creature that touches the illusion makes a Willpower save against your spellcasting roll, seeing through the illusion on success.. A creature may attempt to see through the illusion by making a perception check against your spellcasting roll. On success they see through the illusion. A creature that touches or passes through the illusion makes a Willpower save instead, rationalizing a reason for the interaction on failure.
+
+You may split the image into any number of auditory or visual illusions as long as the total size of the illusion is less than 4 tiles. For each separate illusion you maintain you add a terrible die to your spellcasting rolls for this spell.
+
+Add an enhanced die for every level cast above 3rd.
+
 #### Phantasmal Blades
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -444,9 +449,9 @@ Summon a barrage of force blades at a creature in range you can see. Make a spel
 Add a wound die and normal die for every level cast above 3rd.
 
 
-___
 #### Protective Sigil
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 8 hours
@@ -457,9 +462,9 @@ To create the sigil make a spellcasting roll against 2 terrible dice. On success
 
 You may choose a spell to store that is one level higher for every level cast above 3rd.
 
-___
 #### Telepathic Bond
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 1 hour
@@ -468,9 +473,12 @@ You form a telepathic connection with up to 5 willing creatures. Make a spellcas
 
 Add an enhanced die for each level above 3rd.
 
-___
+
+### Fourth Level
+
 #### Conjure Elemental
-*4th Level*
+*4th level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -480,9 +488,10 @@ You conjure an elemental construct at a target location. You create an air, wate
 The elemental gains 1 max AP and you add a superior dice to your spellcasting roll for every level cast above 4th.
 
 
-___
+
 #### Fire Shell
-*4th Level*
+*4th level*
+
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -492,9 +501,21 @@ A shell of fire surrounds your body. For the duration you add 1 superior defense
 
 Add an enhanced die for every level cast above 4th.
 
-___
+#### Fissure
+*4th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 10
+- **Duration:** 5 minutes
+- **Damage Type:** fire/bludgeoning
+
+A fissure of super hot steam and rock errupts from the ground starting at a point in range you can see. The fissure is 5 tiles long and can take any shape as long as each tile is adjacent to the previous tile. When cast the fissure errupts in a bout of steam and rock hitting all creatures on or adjacent to the fissure. Each creature makes a Defense roll against your spellcasting roll. On fail they take a wound each of fire and bludgeoning damage. For the duration the steam obscures the fissure, granting half cover against ranged attacks and spells. The fissure counts as difficult terrain and any creature moving through the the fissure takes a wound in fire damage from the steam.
+
+Add a wound in bludgeoning damage to the initial hit and increase the length of the fissure by 1 for every level cast above 4th.
+
 #### Ice Lance
-*4th Level*
+*4th level*
+
 - **Casting Time:** 8 AP
 - **Range:** touch
 - **Duration:** 10 minutes
@@ -506,9 +527,9 @@ You may make one attack, melee or thrown, when casting this spell.
 
 You create an additional lance for every level cast above 4th.
 
-___
 #### Lightning Bolt
-*4th Level*
+*4th level*
+
 - **Casting Time:** 8 AP
 - **Range:** self
 - **Duration:** instant
@@ -520,11 +541,9 @@ Add an enhanced die for every level cast above 4th.
 
 
 
-
-
-___
 #### Nondetection
-*4th Level*
+*4th level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** concentration, 24 hours
@@ -533,9 +552,9 @@ For the duration of the spell a creature is undetectable by most forms of magic.
 
 You may target an additional creature for every level cast above 4th.
 
-___
 #### Orb of Acid
-*4th Level*
+*4th level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** instant
@@ -547,9 +566,9 @@ Regardless of the outcome acid covers the floor for the next minute. Any creatur
 
 The area of the blast increases by 2 and the initial damage increases by 1 wound die for every level cast above 4th.
 
-___
 #### Passwall
-*4th Level*
+*4th level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 1 hour
@@ -560,9 +579,9 @@ Add an enhanced die and increase the maximum depth by 2 tiles for every level ca
 
 
 
-___
 #### Starfall
-*4th Level*
+*4th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 25
 - **Duration:** 1 minute
@@ -572,28 +591,27 @@ Summon glowing star shards falling over a 9x9 tile area centered on a point in r
 
 Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 
+### Fifth Level
 
-___
 #### Illusory Space
-*5th Level*
+*5th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 20
 - **Duration:** concentration, 1 hour
 
 You create an illusory landscape covering a 10x10x10 tile cube centered on a point in range you can see. The illusion can change the look, smell, sounds and temperature of the area and create sounds that can be heard up to 1 mile. All effects happen in the creatures mind and have no effect on the creature themselves. The illusion covers the landscape and you may extend the illusion up to 6 inches away from a surface with creatures that touch the illusion will believing they are interacting with it.
 
-You may cast the illusion over a cliff or gap, for example creating a bridge over a a ravine. A creature that passes through your illusion and falls makes a Willpower save against your spellcasting roll. On failure they rationalize a reason for the outcome. Similarly you may create an illusion of something inside the space (eg: creating an illusion of a tower in a flat meadow), with the creature making a Willpower save when attempting to interact with it.
+You may cast the illusion over a cliff or gap, for example creating a bridge over a ravine. A creature that passes through your illusion and falls makes a Willpower save against your spellcasting roll. On failure they rationalize a reason for the outcome. Similarly you may create an illusion of something inside the space (e.g. creating an illusion of a tower in a flat meadow), with the creature making a Willpower save when attempting to interact with it.
 
 A creature attempting to perceive the illusion must make a perception check against your spellcasting, on success they see the illusion for what it is.
 
 For every level cast above 5th you may extend the illusory space by another 10x10x10 cube.
 
 
-
-
-___
 #### Instant Fortification
-*5th Level*
+*5th level*
+
 - **Casting Time:** 1 turn
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -606,9 +624,9 @@ You may give the walls up to _Resistance 3_, with a minimum of 1. Make a spellca
 
 For every level cast above 5th you create an additional 5x5 area which must share a side with the existing fortifications.
 
-___
 #### Open Warren
-*5th Level*
+*5th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** 1 minute, concentration
@@ -619,9 +637,9 @@ You do not start making spellcasting rolls to stay inside the warren for an hour
 
 
 
-___
 #### Poison Cloud
-*5th Level*
+*5th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 15
 - **Duration:** 10 minutes
@@ -633,9 +651,9 @@ Strong winds can move or reduce the size of the poison cloud, with spells like _
 
 The size of the cloud increases by 2 and you add an enhanced die for every level cast above 5th.
 
-___
 #### Wall of Fire
-*5th Level*
+*5th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 15
 - **Duration:** instant
@@ -648,11 +666,9 @@ Ignited creatures take 1 wound of fire damage at the start of their turn and may
 Add a wound die and increase the width by 2 tiles for every level cast above 5th.
 
 
-
-
-___
 #### Ward Area
-*5th Level*
+*5th level*
+
 - **Casting Time:** 10 minutes
 - **Range:** 5
 - **Duration:** 24 hours
@@ -670,12 +686,13 @@ Make a spellcasting roll adding a bad die for every effect chosen. On success th
 
 The number of tiles effected increases by 100 for every level cast above 5th.
 
+### Sixth Level
 
 
 
-___
 #### Anti-Magic Field
-*6th Level*
+*6th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -686,9 +703,9 @@ The area increases by 2 and you add a superior die to your spellcasting rolls fo
 
 
 
-___
 #### Conjuration
-*6th Level*
+*6th level*
+
 - **Casting Time:** 10 minutes
 - **Range:** touch
 - **Duration:** 1 day
@@ -699,9 +716,9 @@ On casting the spell make a spellcasting roll against 3 bad dice, on success you
 
 The amount you can conjure doubles with each level above 6th; up to 8 tiles at 7th level, 16 tiles at 8th level, and 32 tiles at 9th level.
 
-___
 #### Earthquake
-*6th Level*
+*6th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 200
 - **Duration:** concentration, 10 minutes
@@ -711,9 +728,9 @@ You cause the ground to quake and tremble, collapsing buildings and toppling tre
 
 The range and area of the spell increases by 10 for each level above 6th.
 
-___
 #### Evocation
-*6th Level*
+*6th level*
+
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -723,11 +740,9 @@ You tap in to the latent mana in your surroundings, empowering your spells. Make
 Add an enhanced die for every level cast above 6th.
 
 
-
-
-___
 #### Forcewave
-*6th Level*
+*6th level*
+
 - **Casting Time:** 8 AP
 - **Range:** touch
 - **Duration:** instant
@@ -738,17 +753,19 @@ Harness your magic and unleash a destructive wave of force. A cone of force 5 ti
 The length of the wave increases by 3 and wound dice increases by 2 for each level above 6th.
 
 
+### Seventh Level
 
 
-___
 #### Call Storm
-*7th Level*
+*7th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 20
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** lightning, Thunder
 
 You summon storm clouds covering a 40x40 tile area centered on a point in range. For the duration the area is covered in light rainfall and strong winds. On casting this spell, and by spending 3 AP once per turn on following turns, you may activate one of the following effects:
+
 
 - **Gale winds:** The winds blow in a direction of your choosing, covering the area of the storm. All creatures in the storm make a Strength save against your spellcasting roll. On failure they are pushed back 2 tiles, being knocked prone on a critical. Until the start of your next turn moving into the wind takes 3 tiles of movement for every tile moved and ranged attacks made into the wind add 2 terrible dice to the roll.
 
@@ -759,21 +776,21 @@ You summon storm clouds covering a 40x40 tile area centered on a point in range.
 Add an enhanced die for every level cast above 7th.
 
 
-___
 #### Mass Fireball
-*7th Level*
+*7th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 20
 - **Duration:** instant
 - **Damage Type:** fire
 
-You conjure 3 fireballs which explode in a 5x5 tile area centered on points in range you can see. All creatures hit by the fireballs make a Dexterity save against your spellcasting roll. On failure they take 2 wounds and 3 wound dice in fire damage damage, adding 2 wound dice on a critical. On success they take half damage, rounded down. The fireballs can overlap, a creature hit by 2 or more fireballs adds an extra wound to the damage for each fireball if they fail their save.
+You conjure 3 fireballs which explode in a 5x5 tile area centered on points in range you can see. All creatures hit by the fireballs make a Dexterity save against your spellcasting roll. On failure they take 2 wounds and 3 wound dice in fire damage, adding 2 wound dice on a critical. On success they take half damage, rounded down. The fireballs can overlap, a creature hit by 2 or more fireballs adds an extra wound to the damage for each fireball if they fail their save.
 
 Add an extra fireball for every level cast above 7th.
 
-___
 #### Power Word: Fire
-*7th Level*
+*7th level*
+
 - **Casting Time:** 9 AP
 - **Range:** self
 - **Duration:** concentration, 5 minutes
@@ -792,11 +809,9 @@ The damage from both sources increases by 1 wound die for every level cast above
 
 
 
-
-
-___
 #### Power Word: Ice
-*7th Level*
+*7th level*
+
 - **Casting Time:** 9 AP
 - **Range:** self
 - **Duration:** concentration, 5 minutes
@@ -813,9 +828,9 @@ Only a single Power Word can be active at once, casting another Power Word spell
 
 The range of both effects increase by 1 and you add an enhanced die to your spellcasting rolls for every level cast above 7th.
 
-___
 #### Power Word: Lightning
-*7th Level*
+*7th level*
+
 - **Casting Time:** 9 AP
 - **Range:** self
 - **Duration:** concentration, 5 minutes
@@ -833,9 +848,9 @@ Only a single Power Word can be active at once, casting another Power Word spell
 Add a superior die for every level cast above 7th.
 
 
-___
 #### Project Image
-*7th Level*
+*7th level*
+
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -848,10 +863,11 @@ For the duration of the spell you may choose to perceive through your senses or 
 
 The duration increases to 8 hours at 8th level, 1 day at 9th level, and 7 days at 10th level.
 
+### Eighth Level
 
-___
 #### Fiendfire
-*8th Level*
+*8th level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** instant
@@ -864,9 +880,9 @@ The fire burns through trees, bushes, or other plant matter leaving only ash. On
 Add 2 wounds for each level cast above 8th.
 
 
-___
 #### Invulnerability
-*8th Level*
+*8th level*
+
 - **Casting Time:** 9 AP
 - **Range:** self
 - **Duration:** concentration, 1 minute
@@ -875,9 +891,9 @@ You cover yourself in a layer of force, warding yourself from harm. Make a spell
 
 The duration increases by 1 minute for each level cast above 8th.
 
-___
 #### Slow Time
-*8th Level*
+*8th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** concentration, 1 minute
@@ -891,9 +907,9 @@ At the start each of the casters turn they must make an exhaustion check against
 Add 2 superior dice to the spellcasting roll for each level cast above 8th.
 
 
-___
 #### Stabilize Warren
-*8th Level*
+*8th level*
+
 - **Casting Time:** 10 minutes
 - **Range:** self
 - **Duration:** 24 hours
@@ -906,9 +922,13 @@ Repeating this spell every day for a week will stabilize the Warren for 1 year.
 
 When cast at 9th level the duration increases to 1 year, or 77 years after casting for a week. At 10th level the duration increases to 10 years, or 300 years after casting for a week.
 
-___
+
+
+### Ninth Level
+
 #### Armageddon
-*9th Level*
+*9th level*
+
 - **Casting Time:** 1 turn
 - **Range:** 90 tiles
 - **Duration:** 1 turn

@@ -2294,6 +2294,7 @@ Add 3 superior dice when cast at 10th level.
 
 ##### Third
 - [Apathy](#Apathy)
+- [Blindness](#Blindness)
 - [Curse of Weakness](#Curse-of-Weakness)
 - [Enlarge/Reduce](#Enlarge/Reduce)
 - [False Aura](#False-Aura)
@@ -2306,6 +2307,7 @@ Add 3 superior dice when cast at 10th level.
 
 ##### Fourth
 - [Curse of Slowness](#Curse-of-Slowness)
+- [Disease](#Disease)
 - [Gloom](#Gloom)
 - [Haste](#Haste)
 - [Instigate](#Instigate)
@@ -2338,6 +2340,7 @@ Add 3 superior dice when cast at 10th level.
 - [Gravity Well](#Gravity-Well)
 
 ##### Eighth
+- [Black Lightning](#Black-Lightning)
 - [Control](#Control)
 - [Curse of Death](#Curse-of-Death)
 
@@ -2768,7 +2771,6 @@ Add an enhanced die to the summoning roll for each level cast above 2nd.
 
 ### Third Level
 
-
 #### Apathy
 *3rd level*
 
@@ -2779,6 +2781,17 @@ Add an enhanced die to the summoning roll for each level cast above 2nd.
 Suppress a creatures natural abilities. Make a spellcasting roll against the creatures Willpower save. On success you choose either Strength or Dexterity. The creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute, decreasing by 1 for every critical.
 
 You may target an additional creature for each level above 3rd.
+
+#### Blindness
+*3rd level*
+
+- **Casting Time:** 6 AP
+- **Range:** 5
+- **Duration:** concentration, 10 minutes
+
+Blind up to 5 creatures in range you can see. Creatures that see through alternative means, such as through _Tremor Sense_, have those senses blinded by this spell. Make a spellcasting roll against the creatures Stamina save, adding a bad die for every creature targeted past the first. On success the creature is blinded for 10 minutes.
+
+Add an enhanced die for each level above 3rd.
 
 #### Curse of Weakness
 *3rd level*
@@ -2911,6 +2924,26 @@ Curse a creature you can see with an unnatural slowness. Make a spellcasting rol
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Misfortune_, ends this curses effects.
 
 You may target an additional creature for every level cast above 4th.
+
+#### Disease
+*4th level*
+
+- **Casting Time:** 5 AP
+- **Range:** touch
+- **Duration:** instant
+
+Infects all creatures in your zone of control with a magical disease. Creatures make a Stamina save against your spellcasting roll, adding a Terrible die to your roll when targeting more than one creature. On success the creature gains a disease based on their highest attribute score:
+
+- **Fatigue (Strength):** You add 2 terrible dice when making Athletics checks. You may only use a maneuver every other turn.
+- **Numbness (Dexterity):** Your do not gain proficiency for Dexterity saves and attacks using Dexterity.
+- **Stamina:** You add 2 terrible dice when making Exhaustion checks. When taking 3 or more wounds from one source your AP is cut in half, rounded up, for your next turn.
+- **Befuddled (Intelligence):** Your do not gain proficiency with Intelligence skills. When casting a spell at a level higher than your attribute score roll a wound die. On a wound the spell has no effect.
+- **Blindness (Willpower):** You cannot see further than 7 tiles. When you are Dazed, Stunned, or Poisoned you are also Blind.
+- **Charisma:** You have difficulty speaking. You do not gain proficiency with Charisma skills. Casting spells and actions that require speech have their AP cost increased by 2.
+
+The disease lasts until cured. Every week the diseased creature makes a Stamina save against 3 terrible dice, removing the disease on a success.
+
+You add an enhanced die for every level cast above 4th.
 
 
 #### Gloom
@@ -3152,7 +3185,7 @@ Add an enhanced die for every level cast above 6th.
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** 10 minutes
-- **Damage Type:** poison/Death
+- **Damage Type:** poison/death
 
 A thick miasma flows from your body, covering a 7x7 tile area centered on a point in range. The miasma flows around walls and down hills, but cannot climb more than 2 tiles. Any creature, except the caster, that enters the miasma for the first time this round or starts their turn there makes a Stamina save against your spellcasting roll. On failure they take a wound and 1 wound die in both poison and death damage, or half damage rounding down on success. A creature that fails its save gains poison 1 and hex 1 regardless of immunities or other effects until the start of their next turn.
 
@@ -3234,7 +3267,7 @@ You add a superior die to your roll for every level cast above 7th. At 9th level
 - **Casting Time:** 9 AP
 - **Range:** 15
 - **Duration:** concentration, 1 minute
-- **Damage Type:** Bludgeoning
+- **Damage Type:** bludgeoning
 
 You create a crushing gravity well covering a 7x7 tile area centered on a point in range you can see. All loose objects are pulled towards the center, destroying mundane items. Any creature that enters the gravity well for the first time this round or starts their turn there make a Strength save against your spellcasting roll. On failure they are pulled into the center of the gravity well taking 2 wounds and 2 wound die in bludgeoning damage. On success they take no damage and their move and sprint speeds are reduced to 1 and cannot be improved. Creatures in the center take an additional wound and wound die in bludgeoning damage at the start of their turn.. Any mundane ranged attacks made over the gravity well automatically fail, being destroyed.
 
@@ -3243,6 +3276,17 @@ The radius of the gravity well increases by 1 and you add 1 wound die to each so
 
 ### Eighth Level
 
+#### Black Lightning
+*8th level*
+
+- **Casting Time:** 10 AP
+- **Range:** touch
+- **Duration:** instant
+- **Damage Type:** lightning
+
+A burst of black lightning fires from your hands in an arc 7 tiles long and 7 tiles wide. All creatures in the arc make a Dexterity save against your spellcasting roll. On fail they take 1 wound and 6 wound dice in lightning damage, adding a wound for every critical rolled. If this kills a creature they will rise as an undead under your control at the start of their turn. Medium creatures rise as a zombie or skeleton, Large or Huge creatures as a zombie ogre, and Guargantuan creatures as two zombie ogres. The undead are under your control for the next hour, after which they become mindless undead.
+
+Add 3 wound dice to the damage and increase the range of the arc by 2 tiles for every level cast above 8th.
 
 #### Control
 *8th level*
@@ -3386,6 +3430,7 @@ When cast at 10th level the duration increases to 100 years and you add 2 superi
 - [Avatar](#Avatar)
 
 ### Cantrips
+
 #### Guidance
 *Cantrip*
 

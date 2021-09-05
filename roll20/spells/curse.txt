@@ -1,6 +1,7 @@
-___
+
 #### Bleed
 *Cantrip*
+
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
@@ -10,9 +11,9 @@ Force open the wounds of a creature in range you can see. Make a spellcasting ro
 
 You may target an extra creature for every level cast above cantrip.
 
-___
 #### Eldritch Blast
 *Cantrip*
+
 - **Casting Time:** 5 AP
 - **Range:** 7
 - **Duration:** instant
@@ -22,9 +23,9 @@ Fire a burst of force at a creature in range you can see. Make a spellcasting ro
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Levitate
 *Cantrip*
+
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** concentration, 5 minutes
@@ -36,9 +37,10 @@ The creature can attempt to move while levitated, moving a single tile horizonta
 The maximum weight doubles for every level cast above cantrip.
 
 
-___
+
 #### Life Sense
 *Cantrip*
+
 - **Casting Time:** 5 AP
 - **Range:** 10
 - **Duration:** 1 minute
@@ -47,9 +49,9 @@ You sense the presence of living creatures in a 3x3 tile area centered on a poin
 
 Add an enhanced die for every level cast above cantrip.
 
-___
 #### Trickery
 *Cantrip*
+
 - **Casting Time:** 4 (2) AP
 - **Range:** 3
 - **Duration:** 1 turn
@@ -58,9 +60,9 @@ You conjure up a display of illusory light to distract up to 5 creatures. Make a
 
 Add an enhanced die for every level cast above cast cantrip.
 
-___
 #### Witchcraft
 *Cantrip*
+
 - **Casting Time:** 3 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -79,12 +81,11 @@ A creature trying to see through these illusions must succeed on a perception ch
 Add an enhanced die for every level cast above cantrip.
 
 
+### First Level
 
-
-
-___
 #### Black Tendrils
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 10 minutes, requires a free hand
@@ -93,9 +94,9 @@ Black tendrils erupt from your hand to bind a creature in range you can see. Mak
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Charming Guise
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 hour
@@ -104,9 +105,9 @@ You take on a charming persona, attempting to charm up to 5 creatures in range y
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Concealment
-*1st Level*
+*1st level*
+
 - **Casting Time:** 10 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -116,9 +117,10 @@ A dull sheen covers your body, hiding your presence. Targeting up to 5 creatures
 Add an enhanced die for every level cast above 1st.
 
 
-___
+
 #### Crow of Magthera
-*1st Level*
+*1st level*
+
 - **Casting Time:** 6 AP
 - **Range:** 10
 - **Duration:** instant
@@ -128,9 +130,9 @@ You summon a crow with obsidian feathers capable of cutting through flesh and me
 
 Add a wound die for every level cast above 1st.
 
-___
 #### Curse of Misfortune
-*1st Level*
+*1st level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -140,9 +142,10 @@ Curse a creature you can see with misfortune. Make a spellcasting roll against t
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Fragility_, ends this curses effects.
 
 You may target an additional creature for every level cast above 1st.
-___
+
 #### Firefly Swarm
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** 7
 - **Duration:** 1 minute
@@ -150,13 +153,12 @@ ___
 
 You summon a swarm of burning fireflies on a tile in range. The flies attach themselves to nearby creatures, igniting them. When a creature enters the swarm for the first time this round or begins their turn there they make a Stamina save against your spellcasting roll. On failure they take 1 wound of fire damage. Any invisible creatures hit by the fireflies lose their invisibility if it came from a spell, otherwise becoming visible for 1 minute. There are enough fireflies to burn 3 times, after which the swarm disappears.
 
-The the fireflies cover 1 additional adjacent tile and the number of burns increase by 1 for every level cast above 1st.
+The fireflies cover 1 additional adjacent tile and the number of burns increase by 1 for every level cast above 1st.
 
 
-
-___
 #### Ghoulish Claws
-*1st Level*
+*1st level*
+
 - **Casting Time:** 6 AP
 - **Range:** Self
 - **Duration:** 1 minute
@@ -166,9 +168,9 @@ Your hands elongate, becoming deadly poisonous claws. While under the effects of
 
 The duration increases by 1 minute for every level cast above 1st.
 
-___
 #### Hex
-*1st Level*
+*1st level*
+
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** 10 minutes
@@ -177,10 +179,9 @@ inflict a creature you can see with a hex. Make a spellcasting roll against the 
 
 Add an enhanced die for every level cast above 1st.
 
-
-___
 #### Hex Bolt
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -191,9 +192,9 @@ Fire a bolt of psychic force, sticking to a creature in range you can see. Make 
 Add an enhanced die for every level cast above 1st.
 
 
-___
 #### Occult Whispers
-*1st Level*
+*1st level*
+
 - **Casting Time:** 5 AP
 - **Range:** 5
 - **Duration:** instant
@@ -205,9 +206,11 @@ Regardless of success the creature is distracted by the whispers and cannot make
 
 Add an enhanced die for every level cast above 1st.
 
-___
+
+
 #### Quicken
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -216,9 +219,9 @@ Enchant up to 5 creatures you can see, imbuing them with unnatural speed. Make a
 
 Add an enhanced die for every level cast above 1st.
 
-___
 #### Sleep
-*1st Level*
+*1st level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 hour
@@ -227,25 +230,25 @@ You attempt to put a group of living creatures to sleep. Targeting a 6x6 tile ar
 
 Add 2 superior dice for each level above 1st.
 
-___
 #### Weal
-*1st Level*
+*1st level*
+
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 4 hours
 
 Take a moment to study your surroundings, watching for signs of the near future for up to 5 creatures. This can come in many forms: the smell of the forest, the pattern of dust, the movement of clouds in the sky. Make a spellcasting roll adding a terrible die for each creature targeted. On success each creature adds a superior die to the next action of their choosing. 
 
-They can describe a condition to fufill or trigger before they take the action or simply choose the next time they take that action. Regardless they must add the superior die to the first action that meets the requirements. For example, if they choose "when I make a stealth check once I'm inside the dungeon" any stealth checks rolled outside the dungeon do not add dice while the first check inside the dungeon will.
+They can describe a condition to fulfill or trigger before they take the action or simply choose the next time they take that action. Regardless they must add the superior die to the first action that meets the requirements. For example, if they choose "when I make a stealth check once I'm inside the dungeon" any stealth checks rolled outside the dungeon do not add dice while the first check inside the dungeon will.
 
 Add an enhanced die to the spellcasting roll for every level cast above 1st.
 
 
+### Second Level
 
-
-___
 #### Betrayal
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 8 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -254,9 +257,9 @@ Attempt to fill a creatures mind with rage, preventing it from seeing friend or 
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Bewitched Arrow
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 1 day
@@ -266,9 +269,9 @@ You conjure up to 5 deadly, blackthorn arrows. Make a spellcasting roll adding a
 
 You conjure an additional arrow for every level cast above 2nd.
 
-___
 #### Binding
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -277,9 +280,10 @@ Attempt to bind a creature you can see in shimmering chains. Make a spellcasting
 
 You can target an additional creature for every level cast above 2nd.
 
-___
+
 #### Cloud of Teeth
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 6 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
@@ -289,22 +293,22 @@ You create a swirling cloud of teeth around yourself. If you roll 4 or less defe
 
 The cloud's area increases by 1 and you add or improve a defense die for each level cast above 2nd.
 
-___
 #### Command
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 8 hours
 
-You attempt to force a creature in range to obey a given command or simple task. This spell automatically fails if the creature cannot be charmed, does not speak your language, or would harm the creature. The command can be no more than one sentence and must be someting they can reasonably complete. For example, commanding a commoner to kill a dragon or hurt their friends will fail, but asking a peasant to buy you a drink wont.
+You attempt to force a creature in range to obey a given command or simple task. This spell automatically fails if the creature cannot be charmed, does not speak your language, or would harm the creature. The command can be no more than one sentence and must be something they can reasonably complete. For example, commanding a commoner to kill a dragon or hurt their friends will fail, but asking a peasant to buy you a drink wont.
 
 Make a spellcasting roll against the creatures Willpower save. On success they must complete the command to the best of their abilities. The spell ends when they have completed their task or they take damage. Creatures don't immediately know they were under the spells effects, but do remember their actions.
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Corpse Explosion
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** instant
@@ -314,9 +318,10 @@ You cause a large or smaller corpse to explode, launching sharp bone shards at n
 
 You may target an additional corpse for each level cast above 2nd.
 
-___
+
 #### Curse of Fragility
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -327,9 +332,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 2nd.
 
-___
 #### Curse of Suffering
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -340,9 +345,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 2nd.
 
-___
 #### Dark Sight
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 1 hour
@@ -351,9 +356,9 @@ Magically enhance the sight of up to 5 creatures, giving them the ability to see
 
 Add an enhanced die for every level cast above 2nd.
 
-___
 #### Dull Intellect
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -362,9 +367,10 @@ Attempt to cloud the mind of a creature in range you can see. Make a spellcastin
 
 You may target an additional creature for each level above 2nd.
 
-___
+
 #### Howling Whirlwind
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 minute
@@ -376,9 +382,9 @@ For the duration, starting on your next turn you may move the whirlwind up to 3 
 
 The area of the whirlwind increases by 2 for every level cast above 2nd. When cast at 5th level and above the whirlwind can damage buildings and can push large, heavy objects, such as barrels or carts.
 
-___
 #### Mass Web
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 6 AP
 - **Range:** 10
 - **Duration:** 1 minute
@@ -389,9 +395,9 @@ The webs are extremely flammable and ignite after taking 1 wound of fire damage.
 
 Add an enhanced die and increase the area by 1 for every level cast above 2nd.
 
-___
 #### Silent Passage
-*2nd Level*
+*2nd level*
+
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** concentration, 1 hour
@@ -400,13 +406,23 @@ You emanate an aura of silence around yourself, extending out to a 5 tile radius
 
 Add an enhanced die for every level cast above 2nd.
 
+#### Snake Totem
+*2nd level*
 
+- **Casting Time:** 9 AP
+- **Range:** 5
+- **Duration:** concentration, 10 minutes
+- **Damage Type:** poison
 
+You summon up to 3 ethereal totems on points in range you can see. Make a spellcasting roll against 2 bad dice for every totem summoned. On success you summon the totems. When casting this spell, and once per turn by spending 4 AP, you may command your totems to attack. The totems have a range of 5 and use your spellcasting roll for the attack. Creatures make a Stamina save against the attack, taking a wound of poison damage on a failure and gaining Poison 1 for 1 minute on a critical. The totems have 2 wounds and use 3 defense dice with their defense roll.
 
+Add an enhanced die to the summoning roll for each level cast above 2nd.
 
-___
+### Third Level
+
 #### Apathy
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -415,9 +431,20 @@ Suppress a creatures natural abilities. Make a spellcasting roll against the cre
 
 You may target an additional creature for each level above 3rd.
 
-___
+#### Blindness
+*3rd level*
+
+- **Casting Time:** 6 AP
+- **Range:** 5
+- **Duration:** concentration, 10 minutes
+
+Blind up to 5 creatures in range you can see. Creatures that see through alternative means, such as through _Tremor Sense_, have those senses blinded by this spell. Make a spellcasting roll against the creatures Stamina save, adding a bad die for every creature targeted past the first. On success the creature is blinded for 10 minutes.
+
+Add an enhanced die for each level above 3rd.
+
 #### Curse of Weakness
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -428,9 +455,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 3rd.
 
-___
 #### Enlarge/Reduce
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -442,9 +469,10 @@ Change a creatures size, either doubling or reducing it by half. When targeting 
 
 You may target an additional creature for every level cast above 3rd. All targets must either be enlarged or reduced.
 
-___
+
 #### False Aura
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 10 AP
 - **Range:** touch
 - **Duration:** 24 hours
@@ -459,9 +487,9 @@ If you cast this spell on a creature or object with the same effect every day fo
 
 The spell lasts an additional 24 hours for every level cast above 3rd.
 
-___
 #### Fearful Presence
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 15
 - **Duration:** 1 minute
@@ -470,9 +498,10 @@ You assume a horrifying visage, fearing up to 5 creatures in range that can see 
 
 Add an enhanced die for every level cast above 3rd.
 
-___
+
 #### Frog Morph
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 1 minute
@@ -483,9 +512,9 @@ The creature spends its turns hopping around, moving a single tile in a random d
 
 You may target an additional creature for every level cast above 3rd. If you try to cast this on multiple creatures larger than medium you add the terrible dice based on size across all creatures.
 
-___
 #### Inflict Wound
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 6 AP
 - **Range:** touch
 - **Duration:** instant
@@ -495,9 +524,9 @@ touch a creature, inflicting mortal wounds. Make a spellcasting roll against the
 
 Add a wound die for every level cast above 3rd.
 
-___
 #### Shapechange
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** 1 hour
@@ -508,20 +537,20 @@ Make a spellcasting roll, your max wounds are increased by 1 for every critical 
 
 Add an enhanced die and increase the CR by 3 for every level cast above 3rd.
 
-___
 #### Shifting Image
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 7 AP
 - **Range:** self
 - **Duration:** concentration, 10 minutes
 
-Your form blurs as 3 illusory projections of yourself hide your true position. Any time you would be attacked by a single target attack, spell, or maneuver, the attacker must roll a perception check against your roll. On failure the attack misses destroying one of the illusions. The spell ends once all illusions have been destroyed. A creature that can see through ilusions is unaffected by this spell.
+Your form blurs as 3 illusory projections of yourself hide your true position. Any time you would be attacked by a single target attack, spell, or maneuver, the attacker must roll a perception check against your roll. On failure the attack misses destroying one of the illusions. The spell ends once all illusions have been destroyed. A creature that can see through illusions is unaffected by this spell.
 
 Add an enhanced die for every level cast above 3rd.
 
-___
 #### Shroud of Darkness
-*3rd Level*
+*3rd level*
+
 - **Casting Time:** 5 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -530,10 +559,11 @@ You shroud a 5x5 area centered on a point in range in a consuming darkness that 
 
 The area of the darkness increases by 2 for every level cast above 3rd.
 
+### Fourth Level
 
-___
 #### Curse of Slowness
-*4th Level*
+*4th level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -544,11 +574,30 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 4th.
 
+#### Disease
+*4th level*
+
+- **Casting Time:** 5 AP
+- **Range:** touch
+- **Duration:** instant
+
+Infects all creatures in your zone of control with a magical disease. Creatures make a Stamina save against your spellcasting roll, adding a Terrible die to your roll when targeting more than one creature. On success the creature gains a disease based on their highest attribute score:
+
+- **Fatigue (Strength):** You add 2 terrible dice when making Athletics checks. You may only use a maneuver every other turn.
+- **Numbness (Dexterity):** Your do not gain proficiency for Dexterity saves and attacks using Dexterity.
+- **Stamina:** You add 2 terrible dice when making Exhaustion checks. When taking 3 or more wounds from one source your AP is cut in half, rounded up, for your next turn.
+- **Befuddled (Intelligence):** Your do not gain proficiency with Intelligence skills. When casting a spell at a level higher than your attribute score roll a wound die. On a wound the spell has no effect.
+- **Blindness (Willpower):** You cannot see further than 7 tiles. When you are Dazed, Stunned, or Poisoned you are also Blind.
+- **Charisma:** You have difficulty speaking. You do not gain proficiency with Charisma skills. Casting spells and actions that require speech have their AP cost increased by 2.
+
+The disease lasts until cured. Every week the diseased creature makes a Stamina save against 3 terrible dice, removing the disease on a success.
+
+You add an enhanced die for every level cast above 4th.
 
 
-___
 #### Gloom
-*4th Level*
+*4th level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** 1 hour
@@ -557,9 +606,9 @@ Inflict an area with a supernatural gloom centered on a point you can see within
 
 Add an enhanced die for every level cast above 4th.
 
-___
 #### Haste
-*4th Level*
+*4th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
@@ -568,9 +617,9 @@ Enhance the speed of up to 5 willing creatures you can see. Make a spellcasting 
 
 Add an enhanced die for every level cast above 4th.
 
-___
 #### Instigate
-*4th Level*
+*4th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** 10 minutes
@@ -580,9 +629,10 @@ You incite a crowd or group of creatures to violence. All creatures in a 7x7 til
 Add an enhanced die for every level cast above 4th.
 
 
-___
+
 #### Laughing Skull
-*4th Level*
+*4th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -592,9 +642,9 @@ You summon a flaming skull that screeches a hideous laughter. The skull appears 
 
 The distance the skull travels increases by 2 for every level cast above 4th.
 
-___
 #### Mass Hex
-*4th Level*
+*4th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** instant
@@ -603,9 +653,9 @@ You target a 4x4 tile area centered on a point in range, bestowing a potent hex 
 
 Increase the area by 1 for every level cast above 4th.
 
-___
 #### Paralytic Cloud
-*4th Level*
+*4th level*
+
 - **Casting Time:** 7 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -615,10 +665,9 @@ Summon a cloud of toxic spores in a 5x5 tile area centered on a point in range. 
 Add an enhanced die for every level cast above 4th.
 
 
-
-___
 #### Raise Dead
-*4th Level*
+*4th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 2
 - **Duration:** 1 day
@@ -627,9 +676,9 @@ Attempt to raise a dead creature as a zombie, or take control of a zombie withou
 
 You may target an extra medium or large corpse and add a superior die to your roll for every level cast above 4th.
 
-___
 #### Void Lure
-*4th Level*
+*4th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** instant
@@ -640,9 +689,9 @@ For every successful casting of _Void Lure_ in this location in the past day, ad
 
 The CR of the summoned creature increases by 2 for every level cast above 4th.
 
-___
 #### Invisibility
-*4th Level*
+*4th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 2
 - **Duration:** concentration, 1 hour
@@ -653,10 +702,11 @@ Add an enhanced die to your spellcasting roll, and you may target an additional 
 
 
 
+### Fifth Level
 
-___
 #### Curse of Pain
-*5th Level*
+*5th level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -667,9 +717,29 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 5th.
 
-___
+#### Enchantment
+*5th level*
+
+- **Casting Time:** 10 minutes
+- **Range:** 2
+- **Duration:** 7 days
+
+Enchant up to 5 creatures or objects, changing their behavior and perception. You may change a creatures perception or an aspect of their behaviour as long as it is does not harm the creature. For example, you may enchant a creature with one of the following effects:
+
+- Prevent them from entering a building, such as a church or castle, or a location, such as the nearby forest.
+- Perceive a creature as someone else, changing their race, size, or gender.
+- Ignore the actions of a creature or group, perceiving them as normal.
+- Redirect their affection or opinion of a person, group, or organization to another creature or entity. Enchantment cannot create new emotions, but can redirect them.
+- Prevent them from speaking or sharing specific information. For example the details and location of a magic item, the whereabouts of a person or group, or the week a noble passed through town.
+- Force them to communicate in a specific language. The language must be known to either the creature or the caster, having no effect otherwise.
+
+When casting the enchantment make a spellcasting roll against the creatures Willpower save, adding a Terrible die for every creature or object targeted. On a success the creature is enchanted. When enchanting objects the enchantment lasts for 1 year, saving the result of your spellcasting roll. When a creature holds or wears the object they make a Willpower save against that roll, becoming enchanted on fail. Successfully casting this on the same object each day for 7 days makes the enchantment permanent.
+
+Add an enhanced die and double the duration for every level cast above 5th.
+
 #### Heart Grip
-*5th Level*
+*5th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 7
 - **Duration:** instant
@@ -679,9 +749,9 @@ Reach out to a creature you can see and stop their heart. Make a spellcasting ro
 
 Add a wound to the damage for every level cast above 5th.
 
-___
 #### Impale
-*5th Level*
+*5th level*
+
 - **Casting Time:** 8 AP
 - **Range:** touch
 - **Duration:** instant
@@ -695,9 +765,9 @@ Add a wound to the damage and increase the length of the line by 1 tile for ever
 
 
 
-___
 #### Mind Break
-*5th Level*
+*5th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** instant
@@ -707,9 +777,9 @@ Attempt to overpower the mind of a creature in range that can see you. You make 
 
 Add a normal die to the spellcasting roll for every level cast above 5th.
 
-___
 #### Suggestion
-*5th Level*
+*5th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 15
 - **Duration:** 24 hours
@@ -722,9 +792,9 @@ Creatures that are immune to charm are immune to this spell. The command must be
 
 Add an enhanced die for every level cast above 5th.
 
-___
 #### True Sight
-*5th Level*
+*5th level*
+
 - **Casting Time:** 5 AP
 - **Range:** self
 - **Duration:** 1 hour
@@ -733,13 +803,11 @@ Enhance your vision, seeing through illusions, invisibility and the true forms o
 
 The duration increases by 1 hour for every level cast above 5th.
 
+### Sixth Level
 
-
-
-
-___
 #### Curse of Fear
-*6th Level*
+*6th level*
+
 - **Casting Time:** 6 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -750,10 +818,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 6th.
 
-
-___
 #### Isolation
-*6th Level*
+*6th level*
+
 - **Casting Time:** 8 AP
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
@@ -762,15 +829,12 @@ You sever the connections surrounding a creature you can see, leaving them utter
 
 Add an enhanced die for every level cast above 6th.
 
-
-
-___
 #### Miasma
-*6th Level*
+*6th level*
 - **Casting Time:** 9 AP
 - **Range:** 5
 - **Duration:** 10 minutes
-- **Damage Type:** poison/Death
+- **Damage Type:** poison/death
 
 A thick miasma flows from your body, covering a 7x7 tile area centered on a point in range. The miasma flows around walls and down hills, but cannot climb more than 2 tiles. Any creature, except the caster, that enters the miasma for the first time this round or starts their turn there makes a Stamina save against your spellcasting roll. On failure they take a wound and 1 wound die in both poison and death damage, or half damage rounding down on success. A creature that fails its save gains poison 1 and hex 1 regardless of immunities or other effects until the start of their next turn.
 
@@ -778,14 +842,9 @@ The miasma is a thick, viscous cloud. Creatures inside the miasma can only see a
 
 The size of the miasma increases by 1 and you add an enhanced die to the spellcasting roll for every level cast above 6th.
 
-
-
-
-
-
-___
 #### Psychic Scream
-*6th Level*
+*6th level*
+
 - **Casting Time:** 8 AP
 - **Range:** self
 - **Duration:** instant
@@ -795,9 +854,9 @@ You send out a wave of mental force to all creatures within 5 tiles of you. Make
 
 Add a wound die for every level cast above 6th.
 
-___
 #### Ritual of Mordiggian
-*6th Level*
+*6th level*
+
 - **Casting Time:** 10 minutes
 - **Range:** 5
 - **Duration:** instant
@@ -807,9 +866,11 @@ Targeting a beast with an Intelligence of -1 or less or a willing creature you p
 Their max wounds increase by 1 for every level cast above 6th.
 
 
-___
+### Seventh Level
+
 #### Curse of Obedience
-*7th Level*
+*7th level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -820,9 +881,9 @@ You can only inflict a single curse on a creature at a time. Casting another cur
 
 You may target an additional creature for every level cast above 7th.
 
-___
 #### Gateway
-*7th Level*
+*7th level*
+
 - **Casting Time:** 1 minute
 - **Range:** 5
 - **Duration:** 10 minutes
@@ -834,24 +895,36 @@ Opening a gateway in the same area multiple times can cause rifts creating a per
 You add a superior die to your roll for every level cast above 7th. At 9th level the casting time becomes 1 turn instead of 1 minute.
 
 
-
-___
 #### Gravity Well
-*7th Level*
+*7th level*
+
 - **Casting Time:** 9 AP
 - **Range:** 15
 - **Duration:** concentration, 1 minute
-- **Damage Type:** Bludgeoning
+- **Damage Type:** bludgeoning
 
 You create a crushing gravity well covering a 7x7 tile area centered on a point in range you can see. All loose objects are pulled towards the center, destroying mundane items. Any creature that enters the gravity well for the first time this round or starts their turn there make a Strength save against your spellcasting roll. On failure they are pulled into the center of the gravity well taking 2 wounds and 2 wound die in bludgeoning damage. On success they take no damage and their move and sprint speeds are reduced to 1 and cannot be improved. Creatures in the center take an additional wound and wound die in bludgeoning damage at the start of their turn.. Any mundane ranged attacks made over the gravity well automatically fail, being destroyed.
 
 The radius of the gravity well increases by 1 and you add 1 wound die to each source of damage for every level cast above 7th.
 
 
+### Eighth Level
 
-___
+#### Black Lightning
+*8th level*
+
+- **Casting Time:** 10 AP
+- **Range:** touch
+- **Duration:** instant
+- **Damage Type:** lightning
+
+A burst of black lightning fires from your hands in an arc 7 tiles long and 7 tiles wide. All creatures in the arc make a Dexterity save against your spellcasting roll. On fail they take 1 wound and 6 wound dice in lightning damage, adding a wound for every critical rolled. If this kills a creature they will rise as an undead under your control at the start of their turn. Medium creatures rise as a zombie or skeleton, Large or Huge creatures as a zombie ogre, and Guargantuan creatures as two zombie ogres. The undead are under your control for the next hour, after which they become mindless undead.
+
+Add 3 wound dice to the damage and increase the range of the arc by 2 tiles for every level cast above 8th.
+
 #### Control
-*8th Level*
+*8th level*
+
 - **Casting Time:** 10 AP
 - **Range:** 10
 - **Duration:** concentration, 1 hour
@@ -860,9 +933,9 @@ Overpower the mind of a creature you can see, taking control of the creature. Ma
 
 Add a superior die for every level cast above 8th.
 
-___
 #### Curse of Death
-*8th Level*
+*8th level*
+
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 7 days
@@ -875,9 +948,11 @@ You may target an additional creature for every level cast above 8th.
 
 
 
-___
+### Ninth Level
+
 #### Power Word: Kill
-*9th Level*
+*9th level*
+
 - **Casting Time:** 11 AP
 - **Range:** 10
 - **Duration:** instant
@@ -886,9 +961,9 @@ Speak a word and command a creature to die. Make a spellcasting roll, if the tar
 
 Add 3 superior dice when cast at 10th level.
 
-___
 #### Seal
-*9th Level*
+*9th level*
+
 - **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** 10 years

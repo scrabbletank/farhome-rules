@@ -3455,6 +3455,24 @@ This weapon has no blade, ending at the hilt. When attuned to this item you may 
 | Opal | Force |
 
 
+#### Celembor's Manual of Pyromancy
+*Magical Spellbook*
+
+This spellbook has been enchanted and is immutable, spells cannot be added to it. When used as your primary spellbook fire spells you cast deal an extra wound die on a critical. This spellbook has the following spells: _Firebolt, Beam of Fire, Detect Magic, Barrier, Combust, Elemental Shell, Fireball, Major Image, Fire Shell, Wall of Fire, Conjuration, Mass Fireball, Power Word: Fire_.
+
+#### Crestor's Codex of Trickery
+*Magical Spellbook*
+
+This spellbook has been enchanted and is immutable, spells cannot be added to it. When used as your primary spellbook non-damaging spells that target mutliple creatures can target one extra creature without adding dice to the spellcasting roll. This spellbook has the following spells: _Life Sense, Message, Minor Image, Trickery, Concealment, Ray of Sickness, Hex, Dark Sight, Apathy, Blindness, Counter Spell, Enlarge/Reduce, Fearful Presence, Major Image, Mass Hex_.
+
+#### Staff of Elemental Control
+*Magical Staff +1*
+
+This staff has 6 charges. When casting a spell that deals elemental damage you may spend a charge to add a wound die to the damage matching its element. On your turn you may spend 5 AP and mana to recharge the staff, restoring 1 charge for each mana spent. While attuned to this item you gain the _Control Elemental_ action.
+
+##### Control Elemental
+When adjacent to an elemental creature you may attempt to take control of it. Spending 10 AP, roll 4 Superior dice. If you have successes greater than or equal to half of the creatures challenge level you take control of the creature. While holding the staff the creature obeys every command to the best of its ability.
+
 ## Swords of Tyr
 The 8 Swords of Tyr are split across the various alignments:
 
