@@ -420,11 +420,14 @@ Casting spells of 1st level and above takes a toll on the caster. A character ca
 
 
 ### Spell Power
+
 Spell power determines how attuned your body is to spellcasting and how easy it is to increase your mana, or magical energy. When your character levels up you may choose to increase your mana based on your spell power. By default your spell power is equal to your characters level, and can be increased through leveling up or through feats.
 
 ### Preparing Spells
 
 Before you can cast a spell from your codex you must prepare it. Each long rest you may prepare 5 spells, adding 3 for every point of Intelligence you have. Having negative Intelligence does not reduce the number of spells you can prepare. Once prepared, spells are castable until the next day even without your codex. The spells fade from your memory over the next long rest unless you prepare them again.
+
+Spells are complex, with each spellcaster having their own methods of writing and remembering spells. Spells prepared from one codex requires a different frame of mind than spells prepared from another. Attempting to unravel spells from multiple codices always ends with failure, thus you may only prepare spells from a single codex each long rest. You can prepare from any codex, however preparing from a codex you have not written must be deciphered first. Deciphering takes 8 hours of work, after which you may prepare from it normally.
 
 ### Casting Spells
 
@@ -833,7 +836,10 @@ All creatures move and sprint speeds are listed in tiles. Any time a creature ta
 
 
 #### Flying
-Creatures that are able to fly can use their movement to move vertically, following the same rules as normal movement. Unless the creature is able to hover, any effect that reduces their movement speed to 0, grapples, restrains, or knocks them prone causes them to fall from the air. Falling creatures fall 10 tiles per round, increasing the amount by 10 for each round they spend falling. On hitting the ground or a solid object after falling 5 or more tiles they take a wound and a wound die in bludgeoning damage for every 5 tiles they fell.
+Creatures that are able to fly can use their movement to move vertically, following the same rules as normal movement. Unless the creature is able to hover, any effect that reduces their movement speed to 0, grapples, restrains, or knocks them prone causes them to fall from the air. 
+
+#### Falling
+Falling creatures fall 10 tiles per round, increasing the amount by 10 for each round they spend falling. On hitting the ground or a solid object after falling 5 or more tiles they take a wound and a wound die in bludgeoning damage for every 5 tiles they fell.
 
 #### Prone and Crawling
 A prone creature grants combat advantage to all melee attackers, with ranged attacks adding 2 bad dice to their roll instead. A creature that is prone can crawl, spending an extra tile of movement for every tile travelled. Unless the creature has a move speed of 0 they can stand up by spending half of their move speed, rounded down.
@@ -958,12 +964,17 @@ Magic items can be identified by a successful lore challenge. Each character can
 
 You can still use magic items without identifying them, but its bonuses will be unknown to you. If the item requires attunement you only benefit from its bonus modifiers unless stated otherwise.
 
+### Cursed Items
+
+Some magic items may be cursed, giving its holder a permanent, detrimental effect. There are many ways a cursed item can inflict its curse. Some may happen immediately after attuning to the item, some after a specific trigger, and some can curse just by touching the item. The effects of a curse are unique to the magic item and unless otherwise stated last even if you're no longer attuned to the item.
+
+Curses can be removed by successfully casting _Break Curse_ against a level given in the curses description. The spell automatically fails if you still meet the requirements for gaining the curse. For example, a curse that is granted by attuning to the item cannot be removed while you are still attuned to the item.
+
 ### Gaining Attributes through Items
 
 Some magic items grant bonuses to your attributes. While there is no limit on how much this can increase an attribute, you cannot benefit from two items that give bonuses to the same attribute, instead taking only the larger one.
 
 For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 Dexterity. You still benefit from the remaining bonuses on those items.
-
 
 ### Elves
 
@@ -4683,7 +4694,7 @@ Make a weapon attack against a creature adding a normal die to the attack roll. 
 
 ***Enhanced:*** Add an enhanced die instead of a normal die to the attack.
 
-#### Supplex
+#### Suplex
 
 - **AP Cost:** 5/4
 - **Weapon:** unarmed
