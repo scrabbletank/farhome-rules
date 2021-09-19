@@ -2929,6 +2929,11 @@ ___
 
 You spin your dagger tipped cloak, slashing all adjacent creatures. Make a Dexterity save against the targets defense. If this is during or before the first round of combat, add 1 superior die to your roll. On hit they take 1 wound in piercing damage.
 
+#### Cloak of the Stalker
+*Wondrous Item*
+
+A cloak made from the skin of an Astral Stalker. When standing still in dim light or darkness you become invisible. Only a creature with True Sight or making a perception check against 5 Terrible dice can spot you. While attuned to the cloak you can spend 1 mana to create an aura of darkness around you for one minute, giving the effects of being in dim light or darkness regardless of light level.
+
 #### Cloth of Dampening
 *Magical Padded Armor +1*
 
@@ -3077,14 +3082,18 @@ A pristine red gemstone that fits in the palm of your hand. You may cast a spell
 
 Armor infused with the essence of a greater demon. The armor is heavy, requiring 4 Strength to wear. Wearing the armor reduces your movement speed by 1.
 
-While attuned to the armor you add 2 superior dice against non magical spells. You have _Resistance_ 1 against fire, cold, and lightning damage. Once per day you may cast the spell _Mass Fireball_ at 7th level, using 5 superior dice for the roll. When a creature lands a critical attack against you you enter a rage until the end of your next turn. While enraged you cannot flee and must target the creature with an attack or spell on your turn.
+While attuned you gain the _Greater Demon Resistance_ feat. Once per day you may cast the spell _Mass Fireball_ at 7th level, using 5 superior dice for the roll. When a creature lands a critical attack against you you enter a rage until the end of your next turn. While enraged you cannot flee and must target the creature with an attack or spell on your turn. You have _Vulnerability 1_ to Holy damage.
+
+**Greater Demon Resistance** You add 2 superior dice with saving throws against non-damaging spells and have _Resistance_ 1 against fire, cold, and lightning damage.
 
 #### Greater Demon Cloak
 *Wondrous Item*
 
-A cloak infused with the scales of a Greater Demon. While attuned you add 2 superior dice against non-magical spells and have _Resistance_ 1 against fire, cold, and lightning dmage. Once per day you can use the *Portal of Flames* maneuver.
+A cloak infused with the scales of a Greater Demon. While attuned you gain the _Greater Demon Resistance_ feat. Once per day you can use the *Portal of Flames* maneuver.
 
-***Portal of Flames.*** *Special Action:* 7 AP, Range 10, 3 Superior Dice</br>You are engulfed in flames, teleporting to an unoccupied location in range. All adjacent creatures make a Dexterity save against this roll, taking 0/3 in fire damage on fail. Adjacent creatures that are grappling you automatically fail this roll.
+**Greater Demon Resistance** You add 2 superior dice with saving throws against non-damaging spells and have _Resistance_ 1 against fire, cold, and lightning damage.
+
+***Portal of Flames.*** *Special Action:* 4 AP, Range 10, 3 Superior Dice</br>You are engulfed in flames, teleporting to an unoccupied location in range. All adjacent creatures make a Dexterity save against this roll, taking 0/3 in fire damage on fail. Adjacent creatures that are grappling you automatically fail this roll.
 
 #### Heart of Madness
 *Wondrous Item, Requires Attunement*
