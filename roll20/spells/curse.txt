@@ -559,6 +559,17 @@ You shroud a 5x5 area centered on a point in range in a consuming darkness that 
 
 The area of the darkness increases by 2 for every level cast above 3rd.
 
+#### Zone of Silence
+*3rd level*
+
+- **Casting Time:** 7 AP
+- **Range:** 10
+- **Duration:** 10 minutes
+
+Silence a 4x4 tile area centered on a point in range you can see. Make a spellcasting roll against 2 bad dice. On success the area is silenced. Creatures inside the area cannot speak, make sounds, or hear anything. Spells cast inside the zone add 2 terrible dice to their spellcasting rolls.
+
+The area of the darkness increases by 1 for every level cast above 3rd.
+
 ### Fourth Level
 
 #### Curse of Slowness
@@ -875,7 +886,7 @@ Their max wounds increase by 1 for every level cast above 6th.
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see to obey your every command. Make a spellcasting roll against the targets Willpower save. On success the creature must follow your commands to the best of their ability. You cannot command the target to hurt itself or take an action that would obviously bring harm to the target, such as jumping off a cliff. However you may still command the creature to take dangerous actions, such as defending you from attackers.
+Curse a creature you can see to obey your every command. Make a spellcasting roll against the targets Willpower save. On success the creature must follow your commands to the best of their ability. You cannot command the target to hurt itself or take an action that would obviously bring harm to the target, such as jumping off a cliff. However you may still command the creature to take dangerous actions, such as defending you from attackers. A creature will only obey the last command, giving a new command replaces the previous command.
 
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Misfortune_, ends this curses effects.
 
@@ -945,6 +956,19 @@ Curse a creature you can see with sudden mortality. Make a spellcasting roll aga
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Misfortune_, ends this curses effects.
 
 You may target an additional creature for every level cast above 8th.
+
+#### Soul Vessel
+*8th level*
+
+- **Casting Time:** 1 day
+- **Range:** touch
+- **Duration:** 10 years
+
+Create a perfect simulacrum of a creature. As a requirement to cast this spell you need a skeleton or corpse matching the race of the target creature. Make a spellcasting roll against 4 terrible dice. On success you create a perfect copy of the creatures body. The body is warded, preventing it from decomposing over the duration. If the creature is killed this body can be targeted by spells like _Revive_ and _Resurrect_ to return them to life, their soul inhabiting the simulacrum. Creatures can be revived using the simulacrum even if they have died beyond the timeframe the spell is normally capable of, instead adding 2 terrible dice to the spellcasting roll.
+
+The process is incredibly taxing on the targeted creature. Regardless of success the creatures max wounds are cut in half, regaining one wound every day. This effect cannot be removed by any means.
+
+Add a superior die for every level cast above 8th. When cast at 9th level the duration is increased to 70 years, or 333 years at 10th level.
 
 
 

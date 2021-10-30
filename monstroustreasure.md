@@ -479,7 +479,7 @@ ___
 
 **Actions**
 
-***Scythe.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>Deals 1 wound. Attacking a Feared target inflicts the effects of _Curse of Misfortune_.
+***Sickle.*** *Melee Attack:* 4 AP, 1/1/3/0/0</br>Deals 1 wound. Attacking a Feared target inflicts the effects of _Curse of Misfortune_.
 
 ***Terror*** *Maneuver, Range 3, Special:* 7 AP, 0/1/4/0/0</br>Targeting a creature that can see the Scarecrow, they make a Willpower save. On fail they are afraid of the scarecrow for 1 minute.
 
@@ -3503,14 +3503,19 @@ A magic stone from the Astral Void. While holding the stone you can spend 3 AP a
 #### Wand of Cinders
 *Wondrous Item*
 
-A wand with a tip that looks like the embers from a campfire. Roll 5 superior die, this wand has charges equal to the total success. Spending 1 charge you can cast Firebolt at 1st level. Spending 2 charges you may cast Beam of Fire at 1st level.
+A wand with a tip that looks like the embers from a campfire. Roll 5 Superior dice, this wand has charges equal to the total successes. Spending 1 charge you can cast Firebolt at 1st level. Spending 2 charges you may cast Beam of Fire at 1st level.
 
-Spells cast with this wand do not benefit from any spellcasting feats, and use 3 superior dice for the spellcasting roll.
+Spells cast with this wand do not benefit from any spellcasting feats, and use 3 Superior dice for the spellcasting roll.
+
+#### Wand of Growth
+*Wondrous Item*
+
+A wand wrapped in vines with a blooming flower at its tip. Roll 5 Superior dice, this wand has charges equal to the total successes. Spending 1 charge you may cast Vine Whip at 1st level, or spending 2 charges you may cast Bramble at 1st level. For either spell, use 3 Superior dice for the spellcasting roll.
 
 #### Wand of Secrecy
 *Wondrous Item*
 
-A wand that emits black wisps of smoke. Roll 5 Superior dice, this wand has charges equal to the total success. You can spend a charge to turn all mundane lights in a 6x6 tile area to dim light for 10 minutes, covering half as much area as bright light. Spending 2 charges gives you the effects of _Concealment_ for 10 minutes.
+A wand that emits black wisps of smoke. Roll 5 Superior dice, this wand has charges equal to the total successes. You can spend a charge to turn all mundane lights in a 6x6 tile area to dim light for 10 minutes, covering half as much area as bright light. Spending 2 charges gives you the effects of _Concealment_ for 10 minutes.
 
 #### Wand of Shock
 *Wondrous Item*
@@ -3816,7 +3821,7 @@ Creating magic items takes time and a dedicated space to craft in. They require 
 | Critical Fail | You failed a critical moment, having unknown effects on the item. Roll on the Critical Failure table. |
 
 ##### Major Success Table
-Items can only have a single major success. If a second major success is to be rolled you may roll from the table again, taking the new value, or roll on the minor Success table.
+Items can only have a single major success. If a second major success is to be rolled you may roll from the table again taking the new value, or roll on the minor Success table.
 
 | Roll Successes | Effect |
 |:----:|:-------------|
@@ -3828,6 +3833,7 @@ Items can only have a single major success. If a second major success is to be r
 | | Gain a feature or maneuver from the creature used in this items creation. |
 | | If this item has charges, double the max charges and charges regained. |
 | | If this is a weapon it deals an extra wound against a monster type |
+| | Gain 1 superior die with a spellcasting skill |
 | | Gain 1 superior die against damaging spells |
 | | Gain 1 superior die against non-damaging spells |
 | | Gain 1 superior defense die with armor rolls |
@@ -3842,7 +3848,7 @@ Items can have two minor successes. If a third minor success is to be rolled you
 
 | Roll Successes | Effect |
 |:----:|:-------------|
-| | Gain +1 successes to a skill |
+| | Gain 1 success with a skill |
 | | Gain 1 reroll with attack rolls |
 | | Gain 1 reroll with spellcasting rolls |
 | | Gain 1 success with rolls against charm, sleep, fear, and possession effects |
@@ -3850,11 +3856,12 @@ Items can have two minor successes. If a third minor success is to be rolled you
 | | Gain 1 reroll against attacks from a monster type |
 | | Gain 1 reroll with an attribute save |
 | | The item glows when invisible creatures are within 10 tiles |
-| | Permanently reduce the enchanting supply cost by half. |
+| | Permanently reduce the enchanting supply cost for this item by half. |
 | | The next crafting roll on this item has +3 successes. |
 | | Your max wounds increases by 1 |
-| | |
-| | |
+| | Ranged attacks targeting you add a critical failure to their attack rolls |
+| | Your first attack, maneuver, or spell each turn costs 1 AP less, to a minimum of 2 |
+| | You add 1 success to initiative rolls |
 
 ##### Critical Failure Table
 Items can have a single critical failure. Rolling a second critical failure destroys the item.
@@ -3862,11 +3869,109 @@ Items can have a single critical failure. Rolling a second critical failure dest
 | Roll Successes | Effect |
 |:----:|:-------------|
 | | Gain Vulnerability to a damage type |
+| | Reduces an attribute score by 1 |
 | | You do not use proficiency with saving throws |
-| | You add 3 failures against charm, possession, and fear effects |
+| | You add 3 failures to saving throws against against fear, charm, or possession |
 | | The bonus modifier is reduced by 1 |
 | | When hit by a critical attack you gain Weakened for 1 minute |
+| | When a creature hits you with critical attack you add a Terrible die to any action not targeting that creature until the end of your next turn. |
 | | Spells you cast cost 1 additional mana |
 | | Your max wounds are reduced by 2 |
 | | When dropping to 0 wounds you die instead of gaining temporary wounds |
 | | attacks, maneuvers, and spell attacks add one critical against you |
+| | If this is armor your move speeds are reduced by 1 to a minimum of 1 |
+| | If this is a weapon your attacks and maneuvers cannot critically hit |
+
+##### Minor Failure Table
+Items can have two minor failures. Each minor failure after this counts as a Critical Failure and uses the Critical Failure Table.
+
+| Roll Successes | Effect |
+|:----:|:-------------|
+| | Add a critical failure to attacks |
+| | Add a critical failure to defense rolls |
+| | Add a critical failure to a saving throw |
+| | Add a Bad die when making Concentration checks |
+| | Add a failure to saving throws against a monster type |
+| | Add a failure to saving throws against fear, charm, or possession |
+| | Ranged attacks targeting you add a critical success to their attack rolls |
+| | A spellcasting proficiency is reduced by 1 |
+| | Permanently add a Bad die to the crafting challenge |
+| | This item costs 2 additional enchanting supplies per day for the remaining crafting tiem |
+| | Your max wounds are reduced by 1 |
+| | If this item has charges the max charges are reduced by 1 |
+
+
+### Dungeons and Encounters
+
+Now that we have a bunch of monsters and items we need to use them. The following are quick dungeons and encounters you can use in your games, or as inspiration.
+
+### Forest Temple
+
+Deep in the forest is a ruined temple, once dedicated to a god of the forest. Now the temple is being used as a home for monsters. This dungeon gives examples for using goblins, kobolds, or undead, but this can be adapted to almost any monster. The monsters in this temple are organized by a cunning leader, which means they will be on the lookout for any adventurers that may come to clear them out.
+
+### Hooks
+
+There's plenty of ways to integrate this into your game. The monsters could be harassing a small town or village the players travel through. A Church dedicated to the god may hire the players to retrieve a long lost item from the temple. Or the players could just stumble upon one of the monsters patrols while travelling through the forest.
+
+### Difficulty
+
+This dungeon is designed for a party of 4 between levels 1-4.
+
+#### Temple Exterior
+
+A small clearing around a stairway built into the side of a hill. The monsters have cleared some of the undergrowth around the entrance where a handful of guards stand watch.
+
+##### Monsters
+| Type | Monsters |
+|:---:|:------|
+| Goblins | 1-2 Goblins, 1 Goblin Fighter |
+| Kobolds | 2 Kobolds |
+| Undead | 1 Ghost |
+
+A handful of monsters stand guard outside the temple. These guards have been tasked with watching for any threats and alerting the temple if any are spotted. However the remoteness of the temple has left them complacent and easily bored. Careful players will spot the guards before being spotted themselves.
+
+The forest surrounding the temple is dense, providing ample cover. A player can sneak up on the guards with a successful Stealth check against an easy challenge. If the players are spotted, or if the guards are attacked they will try to alert the temple by sending one of the guards, or themselves, inside to warn the others.
+
+After defeating or otherwise bypassing the guards the players will be able to descend the stairs into the underground temple.
+
+#### Temple Entrance
+
+The stairs descend into a dimly lit room. On one wall is a partially destroyed mural of the god of the forest. The doorway across the room has collapsed with age, leaving only one way forward through the temple.
+
+There are no monsters in this room, however a perceptive player may hear the sounds of monsters deeper in the temple. The mural depicts an elven druid using a wand to tend to the forest before heading back to an altar. A player can make a Religion check against an average challenge. On success they decipher the mural and learn of a secret cache hidden behind an altar deeper in the temple.
+
+There is a single doorway leading deeper into the temple, protected by a snare trap. A player can spot the trap by making a successful Perception check against an easy challenge. Once spotted the trap can be easily disarmed or avoided. If a player steps on the tile infront of the door the trap is triggered. The player makes a Dexterity save against a hard challenge, taking 1 wound in piercing damage and gaining Slow 1 for 1 minute on fail. Once triggered the trap cannot be triggered again.
+
+#### Temple Hall
+
+A large room with a water fountain against the left wall. The fountain has long since gone dry, with moss and vines growing from it instead. The room is being used as a nest for the monsters. The only exit is a door leading to a hallway on the far wall.
+
+##### Monsters
+| Type | Monsters |
+|:---:|:------|
+| Goblins | 3-6 Goblins, 1-4 Goblin Fighters |
+| Kobolds | 2-4 Kobolds, 1-2 Kobold Alchemist |
+| Undead | 1-4 Zombies, 1-2 Skeletons |
+
+The monsters in this room will act differently if they have been alerted by the guards. If alerted they will form a semicircle around the door waiting for the players to enter or trigger the snare trap. On hearing the trap trigger the monsters will open the door and ambush the players, giving the monsters a surprise round for initiative. Otherwise they will attack once the door is opened. The guard or guards that alerted the temple will take part in the fight as well, adding to this rooms monsters.
+
+Should the players successfully sneak their way inside the monsters in this room will be disorganized, giving the players a surprise round for initiative. After this fight the temple will be alerted to the players presence, regardless of whether they sneaked past the guards.
+
+#### Hallway
+
+A small, narrow hallway with two doorways. The door on the right leads to the storeroom, while the far door leads to the altar room. The hallway has no light, and has a tripwire between the storeroom and altar doors. A successful Perception check against an average challenge will reveal the trap. Triggering the trap causes rocks to fall from the ceiling. Players make a Dexterity save against a hard challenge, taking 3 wound dice in bludgeoning damage on fail.
+
+#### Storeroom
+
+A small storeroom filled with stolen goods the monsters have collected. The goods may belong to a nearby town, giving the players a reward for returning it, or it could just be items the monsters collected. The players can make an Investigation check against an easy challenge. On success they find ~40sc worth of enchanting supplies, gemstones, or other valuables, finding a basic healing potion on a critical.
+
+#### Altar Room
+
+A room with an altar to the forest god. On the far wall is a continuation of the mural from the entrance room, depicting a sprawling tree surrounded by elven druids.
+
+##### Monsters
+| Type | Monsters |
+|:---:|:------|
+| Goblins | 2-6 Goblins, 1 Goblin Shaman, 1 Goblin Leader |
+| Kobolds | 2-4 Kobolds, 1 Kobold Sorcerer |
+| Undead | 1-3 Skeletons, 1-3 Zombies, 1 Necromancer |

@@ -891,6 +891,24 @@ You cover yourself in a layer of force, warding yourself from harm. Make a spell
 
 The duration increases by 1 minute for each level cast above 8th.
 
+#### Prismatic Star
+*8th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** fire, cold, lightning, poison, thunder
+
+Conjure a star shining prismatic light, impacting a point in range you can see. On impact the star implodes, releasing waves of elemental energy at all creatures in a 7 tile diamond. Each creature makes either a Strength, Dexterity or Stamina save against your spellcasting roll. On fail they take a wound and a wound die in fire, cold, lightning, poison, and thunder damage, or 2 wounds in a listed damage type of your choice on success. Choose an effect for each critical rolled. Each effect can only be chosen once:
+
+- Deal an extra wound in fire damage.
+- Creatures gain Slow 3 for 1 minute.
+- Creatures are paralyzed until the end of their next turn.
+- Creatures gain Poison 2 for 10 minutes.
+- Creatures are staggered and knocked prone.
+
+Add a superior die to the spellcasting roll for each level cast above 8th.
+
 #### Slow Time
 *8th level*
 

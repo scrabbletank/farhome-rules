@@ -782,6 +782,17 @@ Regardless of the outcome, any undead, demon, or celestial targeted by this spel
 
 Add a superior die to your roll for every level cast above 7th.
 
+#### Intervention
+*7th level*
+
+- **Casting Time:** 3 AP
+- **Range:** 5
+- **Duration:** instant
+
+On your turn or as a reaction you change the fate of up to 5 creatures in range you can see. Make a spellcasting roll against 2 terrible dice for each creature targeted. On success, until the end of the creatures next turn they ignore any dice that roll a failure or critical failure and are unaffected by Hex.
+
+Add a superior die to your roll for every level cast above 7th.
+
 ### Eighth Level
 
 #### Light of Divinity

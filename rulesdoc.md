@@ -431,7 +431,7 @@ Spells are complex, with each spellcaster having their own methods of writing an
 
 ### Casting Spells
 
-Each spell has either an AP cost or a time given as its casting time. There is no limit to the number of spells you can cast a turn as long as you have the AP to do so. Casting a spell that lists a time instead of AP can still be used in combat, but requires the casting time worth of full turns. For example casting a spell with a cast time of 1 minute requires 3 full turns to cast.
+Each spell has either an AP cost or a time given as its casting time. There is no limit to the number of spells you can cast a turn as long as you have the AP to do so. Casting a spell that lists a time instead of AP can still be used in combat, but requires the casting time worth of full turns. For example casting a spell with a cast time of 1 minute requires 3 full turns to cast. Spells require a spoken incantation to be properly cast. Casting a spell while gagged or otherwise silenced is incredibily difficult, adding 2 terrible dice to the spellcasting rolls.
 
 All spells, including cantrips, can be cast at a higher level to increase its potency. When casting at a higher level you spend mana equal to the level your casting at, not the spells base level. Casting spells this way gives additional effects listed in the spell.
 
@@ -1286,6 +1286,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 ##### Eighth
 - [Fiendfire](#Fiendfire)
 - [Invulnerability](#Invulnerability)
+- [Prismatic Star](#Prismatic-Star)
 - [Slow Time](#Slow-Time)
 - [Stabilize Warren](#Stabilize-Warren)
 
@@ -2207,9 +2208,28 @@ Add 2 wounds for each level cast above 8th.
 - **Range:** self
 - **Duration:** concentration, 1 minute
 
-You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining poison, slow, and are uneffected by hazardous terrain.
+You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining Poison, Slow, and are uneffected by hazardous terrain.
 
 The duration increases by 1 minute for each level cast above 8th.
+
+
+#### Prismatic Star
+*8th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** fire, cold, lightning, poison, thunder
+
+Conjure a star shining prismatic light, impacting a point in range you can see. On impact the star implodes, releasing waves of elemental energy at all creatures in a 7 tile diamond. Each creature makes either a Strength, Dexterity or Stamina save against your spellcasting roll. On fail they take a wound and a wound die in fire, cold, lightning, poison, and thunder damage, or 2 wounds in a listed damage type of your choice on success. Choose an effect for each critical rolled. Each effect can only be chosen once:
+
+- Deal an extra wound in fire damage.
+- Creatures gain Slow 3 for 1 minute.
+- Creatures are paralyzed until the end of their next turn.
+- Creatures gain Poison 2 for 10 minutes.
+- Creatures are staggered and knocked prone.
+
+Add a superior die to the spellcasting roll for each level cast above 8th.
 
 #### Slow Time
 *8th level*
@@ -2315,6 +2335,7 @@ Add 3 superior dice when cast at 10th level.
 - [Shapechange](#Shapechange)
 - [Shifting Image](#Shifting-Image)
 - [Shroud of Darkness](#Shroud-of-Darkness)
+- [Zone of Silence](#Zone-of-Silence)
 
 ##### Fourth
 - [Curse of Slowness](#Curse-of-Slowness)
@@ -2354,6 +2375,7 @@ Add 3 superior dice when cast at 10th level.
 - [Black Lightning](#Black-Lightning)
 - [Control](#Control)
 - [Curse of Death](#Curse-of-Death)
+- [Soul Vessel](#Soul-Vessel)
 
 ##### Ninth
 - [Power Word: Kill](#Power-Word-Kill)
@@ -2921,6 +2943,17 @@ You shroud a 5x5 area centered on a point in range in a consuming darkness that 
 
 The area of the darkness increases by 2 for every level cast above 3rd.
 
+#### Zone of Silence
+*3rd level*
+
+- **Casting Time:** 7 AP
+- **Range:** 10
+- **Duration:** 10 minutes
+
+Silence a 4x4 tile area centered on a point in range you can see. Make a spellcasting roll against 2 bad dice. On success the area is silenced. Creatures inside the area cannot speak, make sounds, or hear anything. Spells cast inside the zone add 2 terrible dice to their spellcasting rolls.
+
+The area of the darkness increases by 1 for every level cast above 3rd.
+
 ### Fourth Level
 
 #### Curse of Slowness
@@ -2943,7 +2976,7 @@ You may target an additional creature for every level cast above 4th.
 - **Range:** touch
 - **Duration:** instant
 
-Infects all creatures in your zone of control with a magical disease. Creatures make a Stamina save against your spellcasting roll, adding a Terrible die to your roll when targeting more than one creature. On success the creature gains a disease based on their highest attribute score:
+Infects all creatures in your zone of control with a magical disease. Creatures make a Stamina save against your spellcasting roll, adding a terrible die to your roll when targeting more than one creature. On success the creature gains a disease based on their highest attribute score:
 
 - **Fatigue (Strength):** You add 2 terrible dice when making Athletics checks. You may only use a maneuver every other turn.
 - **Numbness (Dexterity):** Your do not gain proficiency for Dexterity saves and attacks using Dexterity.
@@ -3095,7 +3128,7 @@ Enchant up to 5 creatures or objects, changing their behavior and perception. Yo
 - Prevent them from speaking or sharing specific information. For example the details and location of a magic item, the whereabouts of a person or group, or the week a noble passed through town.
 - Force them to communicate in a specific language. The language must be known to either the creature or the caster, having no effect otherwise.
 
-When casting the enchantment make a spellcasting roll against the creatures Willpower save, adding a Terrible die for every creature or object targeted. On a success the creature is enchanted. When enchanting objects the enchantment lasts for 1 year, saving the result of your spellcasting roll. When a creature holds or wears the object they make a Willpower save against that roll, becoming enchanted on fail. Successfully casting this on the same object each day for 7 days makes the enchantment permanent.
+When casting the enchantment make a spellcasting roll against the creatures Willpower save, adding a terrible die for every creature or object targeted. On a success the creature is enchanted. When enchanting objects the enchantment lasts for 1 year, saving the result of your spellcasting roll. When a creature holds or wears the object they make a Willpower save against that roll, becoming enchanted on fail. Successfully casting this on the same object each day for 7 days makes the enchantment permanent.
 
 Add an enhanced die and double the duration for every level cast above 5th.
 
@@ -3252,7 +3285,7 @@ Their max wounds increase by 1 for every level cast above 6th.
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see to obey your every command. Make a spellcasting roll against the targets Willpower save. On success the creature must follow your commands to the best of their ability. You cannot command the target to hurt itself or take an action that would obviously bring harm to the target, such as jumping off a cliff. However you may still command the creature to take dangerous actions, such as defending you from attackers.
+Curse a creature you can see to obey your every command. Make a spellcasting roll against the targets Willpower save. On success the creature must follow your commands to the best of their ability. You cannot command the target to hurt itself or take an action that would obviously bring harm to the target, such as jumping off a cliff. However you may still command the creature to take dangerous actions, such as defending you from attackers. A creature will only obey the last command, giving a new command replaces the previous command.
 
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Misfortune_, ends this curses effects.
 
@@ -3322,6 +3355,19 @@ Curse a creature you can see with sudden mortality. Make a spellcasting roll aga
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Misfortune_, ends this curses effects.
 
 You may target an additional creature for every level cast above 8th.
+
+#### Soul Vessel
+*8th level*
+
+- **Casting Time:** 1 day
+- **Range:** touch
+- **Duration:** 10 years
+
+Create a perfect simulacrum of a creature. As a requirement to cast this spell you need a skeleton or corpse matching the race of the target creature. Make a spellcasting roll against 4 terrible dice. On success you create a perfect copy of the creatures body. The body is warded, preventing it from decomposing over the duration. If the creature is killed this body can be targeted by spells like _Revive_ and _Resurrect_ to return them to life, their soul inhabiting the simulacrum. Creatures can be revived using the simulacrum even if they have died beyond the timeframe the spell is normally capable of, instead adding 2 terrible dice to the spellcasting roll.
+
+The process is incredibly taxing on the targeted creature. Regardless of success the creatures max wounds are cut in half, regaining one wound every day. This effect cannot be removed by any means.
+
+Add a superior die for every level cast above 8th. When cast at 9th level the duration is increased to 70 years, or 333 years at 10th level.
 
 
 
@@ -3432,6 +3478,7 @@ When cast at 10th level the duration increases to 100 years and you add 2 superi
 
 ##### Seventh
 - [Divine Word](#Divine-Word)
+- [Intervention](#Intervention)
 
 ##### Eighth
 - [Light of Divinity](#Light-of-Divinity)
@@ -4234,6 +4281,17 @@ Regardless of the outcome, any undead, demon, or celestial targeted by this spel
 
 Add a superior die to your roll for every level cast above 7th.
 
+#### Intervention
+*7th level*
+
+- **Casting Time:** 3 AP
+- **Range:** 5
+- **Duration:** instant
+
+On your turn or as a reaction you change the fate of up to 5 creatures in range you can see. Make a spellcasting roll against 2 terrible dice for each creature targeted. On success, until the end of the creatures next turn they ignore any dice that roll a failure or critical failure and are unaffected by Hex.
+
+Add a superior die to your roll for every level cast above 7th.
+
 ### Eighth Level
 
 #### Light of Divinity
@@ -4548,7 +4606,7 @@ Make a wild melee attack against a creature, adding a normal die to your attack 
 
 You bring the full weight of your weapon down on a creature. Make a melee attack against a creature, adding an enhanced die to the roll. On hit they take an extra wound in damage, and you may reroll all wound dice on a critical.
 
-***Enhanced:*** Add a Superior die instead of an enhanced die to the attack roll and an extra wound die to the damage.
+***Enhanced:*** Add a superior die instead of an enhanced die to the attack roll and an extra wound die to the damage.
 
 #### Pinning Shot
 
@@ -5321,6 +5379,13 @@ You may prepare 3 additional curses, such as _Curse of Misfortune_ or _Curse of 
 ### Legendary
 You may only take 1 legendary feat, regardless of requirements.
 
+#### Craftsman
+*Requires 5 in a tool proficiency, 20th Level*
+
+You add 2 superior dice to any tool skill you have proficiency for. You may choose one of the following specializations:
+
+**Reliable.** When making a skill roll with a tool you have proficiency with you may choose to take a passing roll if the challenge is 4 dice or less.
+**Battlefield Enchanter.** You can cast temporary enchantments in the middle of battle, spending a turn to cast an enchantment on an item you can touch. The enchantment costs a single enchanting supply, lasts one hour, and all Bad dice in the enchanting roll are replaced with terrible dice.
 
 #### Juggernaut
 *Requires 5 Stamina, 20th level*
@@ -5702,7 +5767,7 @@ For the next 10 minutes, as a maneuver you may spend 7 AP to breath fire, hittin
 ##### Hero's Luck
 
 - **Ingredients:** 1 Lucky Leaf, 2 Skillwheat
-- **Roll:** 3 Terrible dice
+- **Roll:** 3 terrible dice
 
 You gain 2 Hero dice for the next hour. Any unspent dice are lost after the potion fades.
 
@@ -5806,7 +5871,7 @@ You can inscribe a rune during a long rest or with 2 hours of downtime. To inscr
 |:-----|:-----:|:-----:|:-----:|:-----:|-------------:|
 | Longcaster | 1 | 10sc gemstone | 0 | 1B | Doubles the range of a spell that does not have a range of self or touch. |
 | Potency | 1 | - | 1 | 2B | Add a critical to your spellcasting roll. |
-| Fire Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Dexterity save against 3 Superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
-| Arc Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save against 3 Superior dice, becoming Paralyzed for 1 minute on fail. |
+| Fire Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Dexterity save against 3 superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
+| Arc Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save against 3 superior dice, becoming Paralyzed for 1 minute on fail. |
 | Expanding | 3 | 1 25sc gemstone | 1 | 2T | Increases the area of effect of a spell by 1. |
 | Sleeping | 4 | - | 2 | 1B/2T | Once placed, the next time a creature enters its tile roll 5 superior dice. The creature falls asleep if the total successes is greater or equal to their current wounds. The creature wakes up after taking damage or another creature spends 5 AP to wake them. |
