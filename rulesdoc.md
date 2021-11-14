@@ -1234,7 +1234,9 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Hailstorm](#Hailstorm)
 - [Imprint](#Imprint)
 - [Magic Weapon](#Magic-Weapon)
+- [Mental Ward](#Mental-Ward)
 - [Resilient Shield](#Resilient-Shield)
+- [Slowfield](#Slowfield)
 
 ##### Third
 - [Animate Guardian](#Animate-Guardian)
@@ -1267,6 +1269,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Poison Cloud](#Poison-Cloud)
 - [Wall of Fire](#Wall-of-Fire)
 - [Ward Area](#Ward-Area)
+- [Zone of Potency](#Zone-of-Potency)
 
 ##### Sixth
 - [Anti-Magic Field](#Anti-Magic-Field)
@@ -1552,7 +1555,6 @@ Add an enhanced die for every level cast above 2nd.
 
 Cause 2 creatures you can see in range to burst into flames. Make a spellcasting roll against the creatures Dexterity save. On success they ignite in flames taking 1 wound in fire damage at the start of their turn. On their turn they may spend 5 AP rolling on the ground to extinguish the fire, leaving them prone. Taking cold damage or being doused in water extinguishes the fire.
 
-
 You may target an additional creature for every level cast above 2nd.
 
 #### Dispel Magic
@@ -1613,9 +1615,20 @@ Add an enhanced die for every level cast above 2nd.
 
 - **Casting Time:** 10 AP
 - **Range:** 5
-- **Duration:** concentration, 1 hour.
+- **Duration:** concentration, 1 hour
 
 Temporarily enchant a weapon with magic. You may target up to 5 weapons, adding a terrible die to your spellcasting roll for each weapon. On success the weapons are considered +1 magic weapons. If you lose concentration before the hour is finished the weapons retain the magic for 1 minute before fading completely.
+
+Add an enhanced die for every level cast above 2nd.
+
+#### Mental Ward
+*2nd level*
+
+- **Casting Time:** 5 minutes
+- **Range:** 5
+- **Duration:** concentration, 1 hour
+
+Targeting up to 5 creatures in range create a protective ward around their minds. Make a spellcasting roll against 2 bad dice for each creature targeted. On success the creatures gain _Resistance_ 1 to pyschic damage. For the duration, unless this creature is already dazed any effect that would stun this creature dazes it intsead, and any effect that dazes it staggers instead.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -1627,6 +1640,19 @@ Add an enhanced die for every level cast above 2nd.
 - **Duration:** concentration, 10 minutes
 
 On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against 1 bad die, or 2 if cast as a reaction. On success you create a shield of force around yourself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions.
+
+Add an enhanced die for every level cast above 2nd.
+
+#### Slowfield
+*2nd level*
+
+- **Casting Time:** 6 AP
+- **Range:** self
+- **Duration:** 10 minutes
+
+Create a 6x6 tile field centered on a point in range within range that you can see. All movement inside the slowfield is sluggish, as if it was moving through water. When a creature attempts to move or sprint inside the slowfield they make a Strength save against your spellcasting roll. On failure they gain Slow 2 until the end of their turn, adding a level of Slow for each critical rolled. This slow cannot be removed while inside the slowfield.
+
+When a creature makes an attack with a projectile at a creature inside the field the attack roll is first contested by your spellcasting roll. On failure the projectile falls harmlessly to the ground.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -2007,6 +2033,17 @@ Make a spellcasting roll adding a bad die for every effect chosen. On success th
 
 The number of tiles effected increases by 100 for every level cast above 5th.
 
+#### Zone of Potency
+*5th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 10
+- **Duration:** 10 minutes
+
+Prime an area for elemental destruction. Targeting a 10x10 tile area centered on a point in range you can see, make a spellcasting roll against 3 Terrible dice. On success, choose an elemental damage type; all creatures in the zone gain _Vulnerability_ 1 to that element. Any spells dealing the chosen damage cast while inside the zone add a critical success to their spellcasting roll.
+
+The size of the zone increases by 2 for every level cast above 5th.
+
 ### Sixth Level
 
 
@@ -2338,8 +2375,10 @@ Add 3 superior dice when cast at 10th level.
 - [Zone of Silence](#Zone-of-Silence)
 
 ##### Fourth
+- [Counter Hex](#Counter-Hex)
 - [Curse of Slowness](#Curse-of-Slowness)
 - [Disease](#Disease)
+- [Essence Drain](#Essence-Drain)
 - [Gloom](#Gloom)
 - [Haste](#Haste)
 - [Instigate](#Instigate)
@@ -2904,7 +2943,7 @@ You may target an additional creature for every level cast above 3rd. If you try
 - **Duration:** instant
 - **Damage Type:** death
 
-touch a creature, inflicting mortal wounds. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wounds and a wound die in death damage, adding a wound die for every critical rolled. On failure they take half damage, rounding down. If this deals at least 3 wounds the target gains a random lesser wound, or a random greater wound if it deals 5 wounds or more.
+Touch a creature, inflicting mortal wounds. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wounds and a wound die in death damage, adding a wound die for every critical rolled. On failure they take half damage, rounding down. If this deals at least 3 wounds the target gains a random lesser wound, or a random greater wound if it deals 5 wounds or more.
 
 Add a wound die for every level cast above 3rd.
 
@@ -2952,9 +2991,20 @@ The area of the darkness increases by 2 for every level cast above 3rd.
 
 Silence a 4x4 tile area centered on a point in range you can see. Make a spellcasting roll against 2 bad dice. On success the area is silenced. Creatures inside the area cannot speak, make sounds, or hear anything. Spells cast inside the zone add 2 terrible dice to their spellcasting rolls.
 
-The area of the darkness increases by 1 for every level cast above 3rd.
+The area increases by 1 for every level cast above 3rd.
 
 ### Fourth Level
+
+#### Counter Hex
+*4th level*
+
+- **Casting Time:** 1 minute
+- **Range:** 5
+- **Duration:** concentration, 1 hour
+
+Targeting up to 5 creatures in range, enchant them with a protective charm. Make a spellcasting roll adding a terrible die for each creature targeted. On success the creatures are warded against curses. While warded creatures have _Resistance_ 1 against death damage. At the start of the creatures turn any Hex effecting them is reduced by 1 level and they add a success and critical success to saving throws against curses.
+
+Add an enhanced die to your roll for every level cast above 4th.
 
 #### Curse of Slowness
 *4th level*
@@ -2998,6 +3048,20 @@ You add an enhanced die for every level cast above 4th.
 - **Duration:** 1 hour
 
 Inflict an area with a supernatural gloom centered on a point you can see within range. Make a spellcasting roll, with the total area of the gloom increasing by 2 for every success. Every undead creature inside the gloom adds 1 superior die to all rolls. Mundane lights only provides light to adjacent tiles and magical light spreads half as far. All undead inside the gloom regain 1 wound at the start of their turns while all healing effects on living creatures heal for half of their value, rounding up.
+
+Add an enhanced die for every level cast above 4th.
+
+#### Essence Drain
+*4th level*
+
+- **Casting Time:** 6+ AP
+- **Range:** 3
+- **Duration:** instant
+- **Damage Type:** death
+
+Drain the essence out of a creature in range that you can see, siphoning their health and mana. Make a spellcasting roll against the creatures Stamina. On success they take 3 wound dice in damage, restoring health for half the damage dealt, rounding up, and siphoning an equal amount of mana to the health restored. You may spend more AP than the base cost of this spell, dealing an extra wound for every 2 AP spent over the minimum.
+
+When cast against an undead creature all wound dice are replaced with wounds and it ignores any resistance to death damage. You do not restore health against undead targets, instead restoring mana equal to half the damage dealt, rounded up.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -3436,6 +3500,7 @@ When cast at 10th level the duration increases to 100 years and you add 2 superi
 
 ##### Third
 - [Beacon](#Beacon)
+- [Blessing of Movement](#Blessing-of-Movement)
 - [Break Curse](#Break-Curse)
 - [Cure](#Cure)
 - [Demonic Skull](#Demonic-Skull)
@@ -3470,6 +3535,7 @@ When cast at 10th level the duration increases to 100 years and you add 2 superi
 - [Spirit Warriors](#Spirit-Warriors)
 
 ##### Sixth
+- [Blessing of Strength](#Blessing-of-Strength)
 - [Exorcism](#Exorcism)
 - [Power Word: Harm](#Power-Word-Harm)
 - [Power Word: Heal](#Power-Word-Heal)
@@ -3803,6 +3869,17 @@ You project an aura around up to 5 creatures protecting them from harm. Make a s
 
 Add an enhanced die for every level cast above 3rd.
 
+
+#### Blessing of Movement
+*3rd level*
+
+- **Casting Time:** 1 minute
+- **Range:** 5
+- **Duration:** concentration, 1 hour
+
+Targeting up to 5 creatures in range, bless them with free movement. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to saving throws against effects that inflict Slow, Grapple, or Restrained. For the duration, at the start of the creatures turn they may remove one of the following conditions: Paralyze, Slow, Weaken.
+
+Add an enhanced die for every level cast above 3rd.
 
 
 #### Break Curse
@@ -4199,6 +4276,17 @@ Add an enhanced die for every level cast above 5th.
 
 ### Sixth Level
 
+#### Blessing of Strength
+*6th level*
+
+- **Casting Time:** 1 minute
+- **Range:** 5
+- **Duration:** concentration, 1 hour
+
+Targeting up to 5 creatures in range, bless them with divine strength. Make a spellcasting roll, adding 2 terrible dice for each creature targeted. On success the creatures are strengthened. For the duration, creatures may reroll up to 3 wound dice with any attack or maneuver they make. When making an attack or maneuver they may spend 1 extra AP to add a wound in physical damage to the attack.
+
+Add an enhanced die for every level cast above 6th.
+
 #### Exorcism
 *6th level*
 
@@ -4288,7 +4376,7 @@ Add a superior die to your roll for every level cast above 7th.
 - **Range:** 5
 - **Duration:** instant
 
-On your turn or as a reaction you change the fate of up to 5 creatures in range you can see. Make a spellcasting roll against 2 terrible dice for each creature targeted. On success, until the end of the creatures next turn they ignore any dice that roll a failure or critical failure and are unaffected by Hex.
+On your turn or as a reaction you change the fate of up to 5 creatures in range you can see. Make a spellcasting roll against 2 terrible dice for each creature targeted. On success, until the end of the creatures next turn they ignore any dice that roll a failure or critical failure and are unaffected by Hex, Paralyze, and Stun.
 
 Add a superior die to your roll for every level cast above 7th.
 
@@ -4361,6 +4449,7 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 - [Careful Advance](#Careful-Advance)
 - [Daze](#Daze)
 - [Guided Strike](#Guided-Strike)
+- [Hindering Strike](#Hindering-Strike)
 - [Raise Shield](#Raise-Shield)
 - [Wild Attack](#Wild-Attack)
 
@@ -4379,7 +4468,7 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 
 ##### Level 5
 - [Armor Break](#Armor-Break)
-- [Roundhouse Kick](#Roundhouse=Kick)
+- [Roundhouse Kick](#Roundhouse-Kick)
 - [Target Weakness](#Target-Weakness)
 
 ##### Level 6
@@ -4393,6 +4482,7 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 
 ##### Level 8
 - [Hail of Arrows](#Hail-of-Arrows)
+- [Blade Dance](#Blade-Dance)
 
 ##### Level 9
 - [7 Hand Strike](#7-Hand-Strike)
@@ -4571,6 +4661,17 @@ Make a melee attack against a large or smaller creature adding an enhanced die t
 Make a melee attack against a creature using any spellcasting roll instead of your attack roll. On hit the creature takes normal damage, ignoring 1 level of resistance.
 
 ***Enhanced:*** You may spend 1 mana to add a wound of fire, cold, lightning, or poison damage to the attack.
+
+#### Hindering Strike
+
+- **AP Cost:** 2/2
+- **Weapon:** any melee weapon
+- **Range:** melee
+- **Level Required:** 2/12
+
+Once per turn, when a Huge or smaller creature adjacent to you moves with a Move or Sprint action you may make an opportunity attack against the creature. On hit you deal normal weapon damage and the creature loses 2 tiles of movement, or 3 on a critical.
+
+***Enhanced:*** You add a critical success to your attack roll. Regardless of the result the target creature treats tiles adjacent to you as difficult terrain until the end of their turn.
 
 #### Raise Shield
 
@@ -4813,6 +4914,18 @@ This cannot be used in constrained areas. Launch a volley of arrows hitting all 
 
 ***Enhanced:*** You no longer add a bad die to your roll and you deal normal weapon damage.
 
+#### Blade Dance
+
+- **AP Cost:** 4/3
+- **Weapon:** any one handed melee weapon
+- **Range:** melee
+- **Level Required:** 8/18
+
+You move your weapon in an elegant dance, quickly striking an enemy and leaving them open to further attacks. Make an attack against a creature adding an enhanced die to your roll. On hit you deal normal damage, with the next attack against this creature this turn costing 1 less AP and adding a critical success. Regardless of the outcome of the attack you may shift one tile, ignoring opportunity attacks.
+
+
+***Enhanced:*** On hit you add a critical success to all attacks against that creature until the end of your turn.
+
 ### Level 9
 
 #### 7 Hand Strike
@@ -4991,7 +5104,10 @@ You have training in curse spells.
 You have training in arcane spells.
 
 #### Wrestler
-You add 2 superior dice when making Strength rolls to grapple, move or shove a creature.
+You add 2 superior dice when making Strength rolls to grapple, move or shove a creature. When making an opportunity attack you can grapple instead.
+
+#### Overswing
+Once per turn, when making an attack or maneuver you may add 1 failure and 1 critical success to your attack roll.
 
 ### Journeyman
 
@@ -5443,6 +5559,11 @@ When the target of an attack, if the attack misses you may make a free opportuni
 *Requires 20th level*
 
 Your max attribute score is 6 instead of 5. You gain 1 attribute when taking this feat.
+
+#### Unstoppable
+*Requires 7 combined saving throw proficiencies, 20th level*
+
+When you are inflicted with a condition from an attack, maneuver, or spell, you may choose to ignore it regardless of the outcome of the roll. Any other effects from the attack or spell, such as damage, still apply. You may do this up to 3 times after which you must long rest before using again.
 
 #### Warrior
 *Requires 7 combined weapon proficiencies, 20th level*

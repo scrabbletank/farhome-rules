@@ -1337,7 +1337,7 @@ ___
  
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|3/0|1/1|1/0|0/0|0/0|3/0|
+|3/0|2/2|1/0|0/0|0/0|3/0|
 
 ___
 ***Enchanting Presence.*** Any attack, maneuver or spell attack against this target adds 2 Terrible dice to their rolls.
@@ -1346,9 +1346,9 @@ ___
 
 **Actions**
 
-***Claymore.*** *Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound die and 1 wound die.
+***Claymore.*** *Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1/1 in slashing damage.
 
-***Cleave.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0</br>Attacks all creatures inside its zone of control, dealing 1 wound to all targets on hit.
+***Cleave.*** *Maneuver*, *Melee Attack:* 6 AP, 2/1/3/0/0</br>Attacks all creatures inside its zone of control, dealing 1/1 in slashing damage to all targets on hit.
 ___
 
 #### Faerie Dragon

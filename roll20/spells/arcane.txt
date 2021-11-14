@@ -1,4 +1,3 @@
-
 #### Cold Snap
 *Cantrip*
 
@@ -256,7 +255,6 @@ Add an enhanced die for every level cast above 2nd.
 
 Cause 2 creatures you can see in range to burst into flames. Make a spellcasting roll against the creatures Dexterity save. On success they ignite in flames taking 1 wound in fire damage at the start of their turn. On their turn they may spend 5 AP rolling on the ground to extinguish the fire, leaving them prone. Taking cold damage or being doused in water extinguishes the fire.
 
-
 You may target an additional creature for every level cast above 2nd.
 
 #### Dispel Magic
@@ -317,9 +315,20 @@ Add an enhanced die for every level cast above 2nd.
 
 - **Casting Time:** 10 AP
 - **Range:** 5
-- **Duration:** concentration, 1 hour.
+- **Duration:** concentration, 1 hour
 
 Temporarily enchant a weapon with magic. You may target up to 5 weapons, adding a terrible die to your spellcasting roll for each weapon. On success the weapons are considered +1 magic weapons. If you lose concentration before the hour is finished the weapons retain the magic for 1 minute before fading completely.
+
+Add an enhanced die for every level cast above 2nd.
+
+#### Mental Ward
+*2nd level*
+
+- **Casting Time:** 5 minutes
+- **Range:** 5
+- **Duration:** concentration, 1 hour
+
+Targeting up to 5 creatures in range create a protective ward around their minds. Make a spellcasting roll against 2 bad dice for each creature targeted. On success the creatures gain _Resistance_ 1 to pyschic damage. For the duration, unless this creature is already dazed any effect that would stun this creature dazes it intsead, and any effect that dazes it staggers instead.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -331,6 +340,19 @@ Add an enhanced die for every level cast above 2nd.
 - **Duration:** concentration, 10 minutes
 
 On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against 1 bad die, or 2 if cast as a reaction. On success you create a shield of force around yourself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions.
+
+Add an enhanced die for every level cast above 2nd.
+
+#### Slowfield
+*2nd level*
+
+- **Casting Time:** 6 AP
+- **Range:** self
+- **Duration:** 10 minutes
+
+Create a 6x6 tile field centered on a point in range within range that you can see. All movement inside the slowfield is sluggish, as if it was moving through water. When a creature attempts to move or sprint inside the slowfield they make a Strength save against your spellcasting roll. On failure they gain Slow 2 until the end of their turn, adding a level of Slow for each critical rolled. This slow cannot be removed while inside the slowfield.
+
+When a creature makes an attack with a projectile at a creature inside the field the attack roll is first contested by your spellcasting roll. On failure the projectile falls harmlessly to the ground.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -486,6 +508,31 @@ Add an enhanced die for each level above 3rd.
 You conjure an elemental construct at a target location. You create an air, water, earth, or fire elemental, making a spellcasting roll against 2 terrible dice. On success you conjure an elemental with wounds equal to your spellcasting roll. The elemental is a medium creature, becoming a large creature if it has 5 wounds or more. The elemental uses your spellcasting roll for attacks and has _Resistance 3_ against its own element. The elemental takes its turn along side yours.
 
 The elemental gains 1 max AP and you add a superior dice to your spellcasting roll for every level cast above 4th.
+
+
+
+> ## Elemental
+> 
+>| | |
+>|:---:|:---:|
+>| **Armor** 0/3 | **Speed** 3/3 |
+>| **Wounds** \*/* | **AP** 10 |
+>
+>|STR|DEX|STA|INT|WIL|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|3/1|2/1|3/0|-2/0|1/0|0/0|
+>
+> - **Elemental Affinity:** Each elemental gains a bonus based on their element. 
+> - ***Fire:*** melee attacks deal an extra wound die on a critical. 
+> - ***Earth:*** gain 1 defense die. 
+> - ***Air:*** gain a flying speed equal to their movement speed. 
+> - ***Water:*** gains 1 to their move and sprint speeds.
+> ### Elemental Actions
+> - ***Attack.*** *All* 5 AP, melee, Make a spellcasting roll against the creatures defense, dealing 1 wound + 1 wound die in damage based on it's element.
+> - ***Firebolt.*** *Fire Only* 5 AP, range 10, Make a spellcasting roll against a creatures defense, dealing 1 wound in fire damage, adding 1 wound die on a critical.
+> - ***Harden.*** *Earth Only* 3 AP, reaction, Replace all defense dice to superior defense dice.
+> - ***Gust.*** *Air Only* 7 AP, Creates a torrent of wind in a direction away from the elemental. The gust is 3 tiles wide and 7 tiles long and lasts until the start of the elementals next turn. All creatures moving into the wind use an extra tile of movement for each tile moved. All ranged attacks against the wind add 1 terrible die to their attack roll.
+> - ***Freeze*** *Water Only* 5 AP, melee, Attempt to freeze a creature in place, make a spellcasting roll against the creatures Dexterity save. On success you dealing 1 wound in cold damage, restraining them until the start of your next turn on a critical.
 
 
 
@@ -685,6 +732,17 @@ You crystalize the weave of magic around an area no larger than 100 tiles, secur
 Make a spellcasting roll adding a bad die for every effect chosen. On success the barrier is created over the target area. Casting this every day for 30 days in the same location makes it permanent, only ending if dispelled.
 
 The number of tiles effected increases by 100 for every level cast above 5th.
+
+#### Zone of Potency
+*5th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 10
+- **Duration:** 10 minutes
+
+Prime an area for elemental destruction. Targeting a 10x10 tile area centered on a point in range you can see, make a spellcasting roll against 3 Terrible dice. On success, choose an elemental damage type; all creatures in the zone gain _Vulnerability_ 1 to that element. Any spells dealing the chosen damage cast while inside the zone add a critical success to their spellcasting roll.
+
+The size of the zone increases by 2 for every level cast above 5th.
 
 ### Sixth Level
 
@@ -887,9 +945,10 @@ Add 2 wounds for each level cast above 8th.
 - **Range:** self
 - **Duration:** concentration, 1 minute
 
-You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining poison, slow, and are uneffected by hazardous terrain.
+You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining Poison, Slow, and are uneffected by hazardous terrain.
 
 The duration increases by 1 minute for each level cast above 8th.
+
 
 #### Prismatic Star
 *8th level*
