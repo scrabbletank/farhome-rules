@@ -2406,7 +2406,7 @@ Add 3 superior dice when cast at 10th level.
 - [Ritual of Mordiggian](#Ritual-of-Mordiggian)
 
 ##### Seventh
-- [Curse of Obedience](#Curse-of-Obedience)
+- [Curse of Dominance](#Curse-of-Dominance)
 - [Gateway](#Gateway)
 - [Gravity Well](#Gravity-Well)
 
@@ -3342,18 +3342,31 @@ Their max wounds increase by 1 for every level cast above 6th.
 
 ### Seventh Level
 
-#### Curse of Obedience
+#### Curse of Haunting
 *7th level*
 
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 7 days
 
-Curse a creature you can see to obey your every command. Make a spellcasting roll against the targets Willpower save. On success the creature must follow your commands to the best of their ability. You cannot command the target to hurt itself or take an action that would obviously bring harm to the target, such as jumping off a cliff. However you may still command the creature to take dangerous actions, such as defending you from attackers. A creature will only obey the last command, giving a new command replaces the previous command.
+Curse a creature you can see with illusory terrors. Make a spellcasting roll against the creatures Willpower save. On success the creature suffers from haunting illusions. Once per day as long as you are within 100 miles of the cursed creature you may spend 5 AP to summon a phantasmal horror. The horror is an illusion and only visible to the cursed creature.
+
+The illusion has 5 wounds and uses your spellcasting roll for all of its rolls. The illusion lasts for 10 minutes or until it inflicts 4 wounds of damage. Every turn it moves next to the cursed creature and makes an attack dealing 3 wound dice in psychic damage on hit and inflicts Hex 3 until the end of the creatures next turn.
 
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Misfortune_, ends this curses effects.
 
 You may target an additional creature for every level cast above 7th.
+
+#### Dominate Creature
+*7th level*
+
+- **Casting Time:** 7 AP
+- **Range:** 5
+- **Duration:** 8 hours
+
+Exert your will on a living, non-humanoid creature you can see, forcing them to obey your commands. The creature must have an Intelligence of -1 or lower and a CR of 15 or lower or else this spell has no effect. Make a spellcasting roll against the creatures Willpower save, adding a terrible die to your roll unless you are touching the creature. On success the creature is obedient to you, obeying any command unless that command would bring harm to it, such as ordering it to hurt itself or jump off a cliff. While under your control the creature may use your spellcasting roll when making Willpower saves. The creature understands every language you know and can communicate verbally with you, speaking in a way only you can understand.
+
+The CR limit increases by 4 for every level cast above 7th.
 
 #### Gateway
 *7th level*
@@ -4497,134 +4510,155 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 
 #### Aimed Shot
 
-- **AP Cost:** 5-8/4-8
+- **AP Cost:** 5-8/4-8/4-8
 - **Weapon:** any ranged weapon
 - **Range:** min 3 tiles, weapon range
-- **Level Required:** 1/7
+- **Level Required:** 1/7/16
 
 Make a ranged attack against a creature, adding an enhanced die for each AP spent above the minimum.
 
 
 ***Enhanced:*** Add a wound die to the damage for each critical, up to a max of 3.
 
+***Superior:*** You may reroll blank wound dice.
+
 #### Hamstring
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/4
 - **Weapon:** any melee weapon
 - **Range:** melee
-- **Level Required:** 1/9
+- **Level Required:** 1/9/14
 
 Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, inflicting the lesser wound, hamstring, on a critical.
 
-- **Hamstring:** The creature has slow 1.
+- **Hamstring:** The creature has Slow 1.
 
-***Enhanced:*** Add a wound die to the damage, and the lesser wound inflicts slow 2.
+***Enhanced:*** Add a wound die to the damage, and the lesser wound inflicts Slow 2.
+
+***Superior:*** The lesser wound inflicts Slow 3.
 
 
 
 #### Headbutt
 
-- **AP Cost:** 2/1
+- **AP Cost:** 2/1/1
 - **Weapon:** N/A
 - **Range:** melee
-- **Level Required:** 1/7
+- **Level Required:** 1/7/12
 
-After making a successful melee attack against a creature you may attempt to headbutt them. Make a raw Stamina roll against their Stamina save, the loser is staggered and takes a wound die in damage.
+After making a successful melee attack against a humanoid creature you may attempt to headbutt them. Make a raw Stamina roll against their Stamina save, the loser is staggered and takes a wound die in damage.
 
 ***Enhanced:*** Add an enhanced die to your Stamina roll. The loser is dazed until the end of their next turn.
 
+***Superior:*** You may choose to take a wound die in damage. If you do you add 2 wound dice to the damage roll.
+
 #### Inspiring Words
 
-- **AP Cost:** 3/3
+- **AP Cost:** 3/3/3
 - **Weapon:** N/A
 - **Range:** 6
-- **Level Required:** 1/9
+- **Level Required:** 1/9/15
 
 You give words of encouragement to up to 3 creatures. Make a performance check adding a bad die for each creature. On success the creatures may add an enhanced die to one roll they make in the next 10 minutes.
 
 ***Enhanced:*** Creatures add a superior die instead.
 
+***Superior:*** You may target up to 5 creatures.
+
 #### Protector
 
-- **AP Cost:** 1
+- **AP Cost:** 1/1/1
 - **Weapon:** any shield
 - **Range:** melee
-- **Level Required:** 1/7
+- **Level Required:** 1/7/16
 
 When a creature adjacent to you is targeted by an attack you add your shields defense dice to their defense roll.
 
 ***Enhanced:*** If the attack misses you may make an opportunity attack against the attacker if you are in range and have AP for the attack.
 
+***Superior:*** The first opportunity attack against a creature costs no AP.
+
 
 #### Savage Leap
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/4
 - **Weapon:** any melee weapon
 - **Range:** 2
-- **Level Required:** 1/9
+- **Level Required:** 1/9/16
 
 This cannot be used if you are adjacent to your target. You make a running leap at a creature, jumping 2 tiles towards them and make a melee attack. This leap passes over difficult or hazardous terrain and half cover. On hit you deal an extra wound die in damage, staggering them on a critical.
 
 ***Enhanced:*** Add an enhanced die to the attack roll.
 
+***Superior:*** If you are dual wielding you may immediately Savage Leap to another creature using your offhand weapon for 2 AP.
+
 #### Shield Slam
 
-- **AP Cost:** 3/2
+- **AP Cost:** 3/2/2
 - **Weapon:** any shield
 - **Range:** melee
-- **Level Required:** 1/12
+- **Level Required:** 1/12/17
 
 Make an attack with your shield, knocking the target off balance. Make a melee attack against a creature. On hit the creature is staggered and takes 1 wound if you used a shield, or 1 wound die if you used a buckler.
 
 ***Enhanced:*** Add an enhanced die to the attack roll and the creature is knocked prone on a critical.
 
+***Superior:*** Add a superior die instead of an enhanced die. Regardless of the outcome the target creature cannot make opportunity attacks against you this turn.
+
 
 #### Shove
 
-- **AP Cost:** 2
+- **AP Cost:** 2/2/2
 - **Weapon:** N/A
 - **Range:** melee
-- **Level Required:** 1/5
+- **Level Required:** 1/5/12
 
 Attempt to knock a Large or smaller creature off balance with a strong push or kick. Make an athletics check against the creatures Strength save. On failure they are staggered and you may push them back 1 tile. While staggered the creature loses the benefits of any shield they are holding.
 
 ***Enhanced:*** On a critical you have combat advantage against the creature while they are staggered.
 
+***Superior:*** You add a superior die to your Athletics roll and you may target all creatures adjacent to you.
+
 #### Sneak Attack
 
-- **AP Cost:** 6/5
+- **AP Cost:** 6/5/4
 - **Weapon:** any one-handed weapon
 - **Range:** melee
-- **Level Required:** 1/10
+- **Level Required:** 1/10/20
 
 Can only be used when flanking a creature or if you have combat advantage. Make a melee attack against the creature, rerolling up to 3 dice. On hit you deal normal damage, adding a wound die for every critical.
 
 ***Enhanced:*** Sneak Attack can be used every turn and you may reroll all wound dice in your damage roll.
 
+***Superior:*** You do not need to be flanking or have combat advantage to use Sneak Attack. You add a critical success to your attack roll if you are flanking or have combat advantage.
+
 
 #### Spear Wall
 
-- **AP Cost:** 2
+- **AP Cost:** 2/2/2
 - **Weapon:** any spear or polearm
 - **Range:** 2
-- **Level Required:** 1/7
+- **Level Required:** 1/7/17
 
 As a reaction you make an opportunity attack against any creature moving into your zone of control. On hit you deal normal damage and the creatures move action ends. On a critical the target is pushed back 1 tile.
 
 ***Enhanced:*** Add an enhanced die to the attack roll.
 
+***Superior:*** Add a wound die to the damage roll. Enemy creatures treat your zone of control as difficult terrain.
 
 
 #### Sweeping Strike
 
-- **AP Cost:** 5/5
+- **AP Cost:** 5/5/4
 - **Weapon:** any spear or polearm
 - **Range:** 2
-- **Level Required:** 1/9
+- **Level Required:** 1/9/15
 
-Make a melee attack against a creature, adding an enhanced die. On hit you deal a wound die in damage, knocking the creature prone on a critical.
+Make a melee attack against a medium creature, adding an enhanced die. On hit you deal a wound die in damage, knocking the creature prone on a critical.
 
 ***Enhanced:*** You deal normal damage instead.
+
+***Superior:*** You may use this against Large or smaller creatures. While the creature is prone all melee attacks against this creature add a critical success.
 
 ### Level 2
 
@@ -5137,7 +5171,7 @@ Once per turn, when making a one-handed weapon attack against a creature, on a c
 The spells _Turn Undead_ and _Destroy Monstrosity_ can target Undead, Monstrosities, Demons, and Outsiders. When casting _Bind Creature_, if the creature is not native to this plane they add 1 terrible die to all attacks, maneuvers, and spells made while bound.
 
 #### Battering Ram
-*Requires 3 Stamina, 3rd Level*
+*Requires 2 Stamina, 3rd Level*
 
 If you move at least 2 tiles before making an attack or maneuver you deal an extra wound die in damage.
 
@@ -5161,7 +5195,7 @@ A creature healed by you adds a superior die on their next attack or saving thro
 In addition to the spells you normally prepare, you may prepare divine spells equal to your Charisma score.
 
 #### Brutal Strikes
-*Requires 3 Strength, 3rd level*
+*Requires 2 Strength, 3rd level*
 
 When making an attack or maneuver against a creature you add a wound die to the damage on a critical.
 
@@ -5370,7 +5404,7 @@ When inscribing a rune you may add 1 bad die to the scribing roll. On success yo
 #### Second Wind
 *Requires 1 Stamina*
 
-While in combat you may spend 3 AP on your turn to use a free healing surge. This can be used once per long rest.
+While in combat you may spend 3 AP on your turn to use a free healing surge. This can be used once per rest.
 
 
 
@@ -5472,6 +5506,11 @@ You may enchant magic items. When enchanting a magic item you add terrible dice 
 | +2 or Rare | +2 terrible dice |
 | +3 or Legendary | +3 terrible dice |
 
+#### Overwhelming Force
+*Requires Brutal Strikes, 12th level*
+
+When making a single target attack or maneuver you may spend a healing surge to add 3 wound dice to the damage roll. This feature costs an additional healing surge each time it's used between long rests.
+
 #### Quick Attacks
 *Requires Fast Attacks, 3 Dexterity, 15th level*
 
@@ -5502,6 +5541,7 @@ You add 2 superior dice to any tool skill you have proficiency for. You may choo
 
 **Reliable.** When making a skill roll with a tool you have proficiency with you may choose to take a passing roll if the challenge is 4 dice or less.
 **Battlefield Enchanter.** You can cast temporary enchantments in the middle of battle, spending a turn to cast an enchantment on an item you can touch. The enchantment costs a single enchanting supply, lasts one hour, and all Bad dice in the enchanting roll are replaced with terrible dice.
+**Potent Potions.** Healing potions and poisons you make are more potent. You may reroll wound dice when drinking any healing potion you have made while poisons add a critical success to attack rolls using your poisons.
 
 #### Juggernaut
 *Requires 5 Stamina, 20th level*
@@ -5548,7 +5588,7 @@ Once per long rest, when rolling initiative as long as you are not surprised you
 #### Titanic Blow
 *Requires 5 Strength, 20th level*
 
-When rolling wounds from an attack or maneuver that uses your Strength score you may instead all wound dice as wounds. You can do this up to your Strength score, after which you must long rest before using again.
+When rolling wounds from an attack or maneuver that uses your Strength score you reroll any blank wound dice. You can do this up to your Strength score after which you must long rest before using again.
 
 #### Turnabout
 *Requires 5 Dexterity, 20th level*
