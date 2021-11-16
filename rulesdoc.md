@@ -4664,71 +4664,87 @@ Make a melee attack against a medium creature, adding an enhanced die. On hit yo
 
 #### Careful Advance
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/4
 - **Weapon:** any melee weapon
 - **Range:** weapon range
-- **Level Required:** 2/8
+- **Level Required:** 2/8/13
 
 You carefully study your opponents movements, making a calculated attack. Make a melee attack against a creature adding a normal die and rerolling up 3 dice in the attack roll. You ignore any criticals in your roll, counting only the successes. If the attack hits you may move 1 tile in any direction, ignoring opportunity attacks.
 
 ***Enhanced:*** Add an enhanced die instead of a normal die and you may reroll 5 dice in your attack roll.
 
+***Superior:*** You may reroll all blank wound dice.
+
 #### Daze
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/4
 - **Weapon:** any bludgeoning weapon
 - **Range:** melee
-- **Level Required:** 2/12
+- **Level Required:** 2/12/20
 
 Make a melee attack against a large or smaller creature adding an enhanced die to the attack roll. On hit you deal normal damage, dazing the creature until the end of their next turn on a critical.
 
 ***Enhanced:*** Add a superior die instead of an enhanced die and the creature is dazed for 1 minute on a critical.
 
+***Superior:*** While dazed, any ranged attacks against the creature add a critical success to their attack rolls.
+
 
 #### Guided Strike
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/4
 - **Weapon:** any weapon
 - **Range:** weapon range
-- **Level Required:** 2/10
+- **Level Required:** 2/10/16
 
 Make a melee attack against a creature using any spellcasting roll instead of your attack roll. On hit the creature takes normal damage, ignoring 1 level of resistance.
 
 ***Enhanced:*** You may spend 1 mana to add a wound of fire, cold, lightning, or poison damage to the attack.
 
+***Superior:*** On a critical you add the following effect depending on your damage type:
+- **Fire:** Add a wound die in fire damage.
+- **Cold:** They gains Slow 2 for 1 minute.
+- **Lightning:** They are Paralyzed until the start of their next turn.
+- **Poison:** They gain Poison 1 for 10 minutes.
+
 #### Hindering Strike
 
-- **AP Cost:** 2/2
+- **AP Cost:** 2/2/1
 - **Weapon:** any melee weapon
 - **Range:** melee
-- **Level Required:** 2/12
+- **Level Required:** 2/12/22
 
 Once per turn, when a Huge or smaller creature adjacent to you moves with a Move or Sprint action you may make an opportunity attack against the creature. On hit you deal normal weapon damage and the creature loses 2 tiles of movement, or 3 on a critical.
 
 ***Enhanced:*** You add a critical success to your attack roll. Regardless of the result the target creature treats tiles adjacent to you as difficult terrain until the end of their turn.
 
+***Superior:*** On hit the creature adds a terrible die to all attacks, maneuvers, or spellcasting rolls made while in your zone of control.
+
 #### Raise Shield
 
-- **AP Cost:** 3/3
+- **AP Cost:** 3/3/3
 - **Weapon:** any shield
 - **Range:** N/A
-- **Level Required:** 2/12
+- **Level Required:** 2/12/18
 
 Used in place of your defend action. You raise your shield to defend against arrows. You gain _Resistance 1_ to physical damage dealt by ranged attacks until the start of your next turn.
 
 ***Enhanced:*** While your shield is raised you can reroll 1 die when making a defense roll against ranged attacks.
 
+***Superior:*** You may intercept any ranged attack passing through your tile, replacing the existing target with yourself.
+
 
 #### Wild Attack
 
-- **AP Cost:** 5/5
+- **AP Cost:** 5/5/5
 - **Weapon:** any slashing weapon
 - **Range:** melee
-- **Level Required:** 2/12
+- **Level Required:** 2/12/21
 
 Make a wild melee attack against a creature, adding a normal die to your attack roll. On hit you deal an extra wound in damage. After making the attack you grant combat advantage to attackers until the start of your next turn.
 
 ***Enhanced:*** Add an enhanced die instead of a normal die. If you deal 3 or more wounds with this attack the target gains a random lesser wound.
+
+***Superior:*** On a critical you add 2 wound dice to the damage.
 
 ### Level 3
 
@@ -4737,105 +4753,123 @@ Make a wild melee attack against a creature, adding a normal die to your attack 
 - **AP Cost:** 7/7
 - **Weapon:** any two-handed weapon
 - **Range:** melee
-- **Level Required:** 3/12
+- **Level Required:** 3/12/22
 
 You bring the full weight of your weapon down on a creature. Make a melee attack against a creature, adding an enhanced die to the roll. On hit they take an extra wound in damage, and you may reroll all wound dice on a critical.
 
 ***Enhanced:*** Add a superior die instead of an enhanced die to the attack roll and an extra wound die to the damage.
 
+***Superior:*** On hit you stagger the creature and temporarily sunder their armor. While staggered any critical succeses they roll with defense rolls give only 2 success and no critical successes.
+
 #### Pinning Shot
 
-- **AP Cost:** 6/5
+- **AP Cost:** 6/5/5
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
-- **Level Required:** 3/10
+- **Level Required:** 3/10/17
 
 Make a ranged attack against a medium or smaller creature, adding an enhanced die to the roll. On hit they take 1 wound in piercing damage, pinning them to the wall or ground on a critical. A pinned creature grants combat advantage and cannot take the move or sprint actions until they spend 5 AP unpinning themselves.
 
 
 ***Enhanced:*** Add a superior die instead of an enhanced die.
 
+***Superior:*** The attack deals normal damage. To remove the pin they must instead make a Strength save against 3 enhanced dice, adding a superior die for each bonus modifier on the arrow.
+
 #### Press the Attack
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/3
 - **Weapon:** any melee weapon
 - **Range:** melee
-- **Level Required:** 3/12
+- **Level Required:** 3/12/20
 
 Strike into a creature, pushing them back. Make a melee attack against a creature, adding a normal die to the roll. On hit they take normal damage, are pushed back 1 tile, and you move to occupy their space ignoring opportunity attacks, staggering them on a critical.
 
-***Enhanced:*** Add a wound die to the damage. If you have higher strength than the creature they are knocked prone instead.
+***Enhanced:*** Add a wound die to the damage and replace the normal die with an enhanced die.
+
+***Superior:*** On hit, you may immediately follow up with another Press the Attack against the same creature using an offhand weapon or shield by spending 2 AP. When using the a shield you use your normal attack roll, dealing only 1 wound in damage but knock them prone on a critical.
 
 
 #### Smite
 
-- **AP Cost:** 6/5
+- **AP Cost:** 6/5/5
 - **Weapon:** any melee weapon
 - **Range:** melee
-- **Level Required:** 3/12
+- **Level Required:** 3/12/21
 
 Empower your weapon with holy might, consuming up to 2 mana. Make a melee attack against a creature using your divine spellcasting roll for the attack and adding an enhanced die to the roll. On hit the creature takes an extra wound die, adding a wound die for every mana spent, in holy damage. If the target is undead they take wounds instead, and are turned for 1 minute on a critical.
 
 ***Enhanced:*** Add a superior die instead of an enhanced die to your attack roll and you may use up to 4 mana.
 
+***Superior:*** Demons and Monstrosities are treated as Undead but cannot be turned. You may spend 2 additional mana to give you 3 rerolls which can be used on either the attack or damage roll.
+
 #### Sucker Punch
 
-- **AP Cost:** 2/2
+- **AP Cost:** 2/2/2
 - **Weapon:** any
 - **Range:** melee
-- **Level Required:** 3/13
+- **Level Required:** 3/13/18
 
 Take advantage of an opponents spellcasting to quickly attack. As a reaction, when a hostile creature adjacent to you begins casting a spell you may make a melee attack against them. On hit you deal a wound die in bludgeoning damage and you add a bad die to their spellcasting roll, adding an extra bad die for every critical.
 
 ***Enhanced:*** The first die added to their spellcasting roll is a terrible die instead of a bad die.
 
+***Superior:*** They take a wound instead of a wound die. On hit their next spell costs an additional 2 AP to cast.
+
 ### Level 4
 
 #### Cleave
 
-- **AP Cost:** 7/6
+- **AP Cost:** 7/6/6
 - **Weapon:** any two-handed weapon
 - **Range:** melee
-- **Level Required:** 4/13
+- **Level Required:** 4/13/23
 
 With a wide swing you cleave all creatures in your zone of control. Make a melee weapon attack adding a bad die to the roll. On hit the creatures take 1 wound in damage.
 
 ***Enhanced:*** You deal normal damage to all creatures.
 
+***Superior:*** You may add a terrible die instead of a bad die, giving your weapon Reach 1 for the attack.
+
 #### Deflect
 
-- **AP Cost:** 2/1
+- **AP Cost:** 2/1/1
 - **Weapon:** N/A
 - **Range:** melee
-- **Level Required:** 4/12
+- **Level Required:** 4/12/24
 
-This can only be used when the targeted by a ranged weapon. Instead of making a defense roll against the attack, make a sleight of hand roll. On success you catch the projectile taking no damage.
+This can only be used when targeted by a ranged weapon. Instead of making a defense roll against the attack, make a sleight of hand roll. On success you catch the projectile taking no damage.
 
 ***Enhanced:*** After catching the projectile you may spend 2 AP to fire the projectile back. Make a ranged attack against a target within 5 tiles adding an enhanced die to your roll. On hit you deal normal damage with that ammunition.
+
+***Superior:*** You may use this against ranged, single target spell attacks. Spell attacks deflected this way cannot be fired back.
 
 
 
 #### Flurry
 
-- **AP Cost:** 7/6
+- **AP Cost:** 7/6/6
 - **Weapon:** any melee weapon
 - **Range:** melee
-- **Level Required:** 4/13
+- **Level Required:** 4/13/25
 
 You make two quick attacks against a creature. Make two weapon attacks, adding a terrible die to each attack. On hit the creature takes normal damage.
 
 ***Enhanced:*** You add a bad die instead of a terrible die to your attack roll.
 
+***Superior:*** You make 3 attacks instead. The 3rd attack deals weapon damage and cannot be increased by feats or abilities.
+
 #### Magic Arrow
 
-- **AP Cost:** 7/6
+- **AP Cost:** 7/6/6
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
-- **Level Required:** 4/16
+- **Level Required:** 4/16/24
 
 You channel magic into your weapon, empowering the next attack and consuming up to 3 mana. The arrow pierces its target hitting all creatures in a 2 tile line, increasing the tiles by 1 for each mana spent. All creatures in the line make a defense roll against your attack, adding an enhanced die to the attack roll. On hit the creatures take a wound in damage.
 
 ***Enhanced:*** The attack deals normal damage.
+
+***Superior:*** You may spend up to 5 mana and the damage type changes to Force damage. If you use 5 mana this attack ignores 1 level of resistance.
 
 ### Level 5
 
@@ -4844,33 +4878,39 @@ You channel magic into your weapon, empowering the next attack and consuming up 
 - **AP Cost:** 5/4
 - **Weapon:** any bludgeoning weapon
 - **Range:** melee
-- **Level Required:** 5/14
+- **Level Required:** 5/12/17
 
 Make a melee attack against a creature, adding a normal die. On hit you deal normal damage, breaking their armor on a critical. Armor broken this way provides 1 less defense die until repaired.
 
 ***Enhanced:*** Add an enhanced die instead of a normal die.
 
+***Superior:*** The creature is staggered on hit and you may target their shield instead. A mundane shield is destroyed on a critical.
+
 #### Roundhouse Kick
 
-- **AP Cost:** 5/5
+- **AP Cost:** 5/5/5
 - **Weapon:** unarmed
 - **Range:** melee
-- **Level Required:** 5/15
+- **Level Required:** 5/15/26
 
 Perform a spinning kick. Make an unarmed attack against a creature adding an enhanced die to the roll. On hit the creature takes normal damage, is pushed back 1 tile, and staggered.
 
 ***Enhanced:*** You may target 3 creatures with the attack.
 
+***Superior:*** You target all adjacent creatures. Before performing the attack you may move 1 tile into an unoccupied space, preventing opportunity attacks.
+
 #### Target Weakness
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/4
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
-- **Level Required:** 5/14
+- **Level Required:** 5/14/23
 
 Make a ranged attack against a creature, adding up to 5 wound dice to the damage. For each wound die add a terrible die to your attack roll.
 
 ***Enhanced:*** The creature gains a random lesser wound on a critical.
+
+***Superior:*** Damage from this attack also reduces the creatures max wounds by the same amount. Their max wounds returns to normal after a long rest.
 
 
 
@@ -4878,139 +4918,161 @@ Make a ranged attack against a creature, adding up to 5 wound dice to the damage
 
 #### Pommel Strike
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/3
 - **Weapon:** any two-handed weapon
 - **Range:** melee
-- **Level Required:** 6/15
+- **Level Required:** 6/14/20
 
-Make a weapon attack against a creature adding a normal die to the attack roll. On hit they take 2 wound dice in bludgeoning damage, being weakened until the end of their next turn on a critical.
+Make a weapon attack against a creature adding a normal die to the attack roll. On hit they take 2 wound dice in bludgeoning damage, being Weakened until the end of their next turn on a critical.
 
 ***Enhanced:*** Add an enhanced die instead of a normal die to the attack.
 
+***Superior:*** The creature is Silenced and Weakened until the end of their turn on a critical.
+
 #### Suplex
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/4
 - **Weapon:** unarmed
 - **Range:** melee
-- **Level Required:** 6/15
+- **Level Required:** 6/14/22
 
-Can only be used against a grappled creature. Make an unarmed attack against the creatures Strength save. On hit you slam the grappled creature into the tile behind you ending the grapple, knocking the creature prone and dealing normal damage.
+Can only be used against a grappled creature. Make an unarmed attack against the creatures Strength save. On hit you slam the grappled creature into the tile behind you ending the grapple, dealing normal damage and knocking the creature prone.
 
 ***Enhanced:*** All wound dice in your damage roll are replaced with wounds.
 
+***Superior:*** You may instead throw the grappled creature at another creature within 5 tiles. Both creatures make a Strength save against your unarmed attack, taking normal damage and being knocked prone on hit.
+
 #### Tumble
 
-- **AP Cost:** 3/2
+- **AP Cost:** 3/2/1
 - **Weapon:** N/A
 - **Range:** 2
-- **Level Required:** 6/13
+- **Level Required:** 6/14/25
 
 Only usable when targeted by an attack, maneuver, spell attack, or when travelling over hazardous terrain. You dive to avoid the attack, making a dexterity save instead of the normal save for the attack. On success you avoid the attack and may move up to 2 tiles in any direction. This maneuver may only be used once per round.
 
 ***Enhanced:*** You have expertise on the dexterity save.
 
+***Superior:*** You may move up to 3 tiles instead of 2. After you move you take up a defensive position, allowing you to reroll 2 defense dice against ranged attacks and spell attacks.
+
 ### Level 7
 
 #### Disarm
 
-- **AP Cost:** 6/5
+- **AP Cost:** 6/5/5
 - **Weapon:** unarmed
 - **Range:** melee
-- **Level Required:** 7/15
+- **Level Required:** 7/15/26
 
 You attempt to disarm a creature, forcing them to drop their weapon. The creature makes a defense or Dexterity save against your unarmed attack. On success they drop their weapon, landing on a tile of your choosing within 2 tiles of the creature. A creature standing on that tile can spend 2 AP to retrieve the weapon.
 
 ***Enhanced:*** The creature is also staggered.
 
+***Superior:*** You may choose to take the weapon instead of dropping it if you have hands free to hold it.
+
 
 #### Leaping Slam
 
-- **AP Cost:** 7/7
+- **AP Cost:** 7/7/7
 - **Weapon:** any two-handed weapon
 - **Range:** melee
-- **Level Required:** 7/18
+- **Level Required:** 7/18/25
 
 You jump up to 2 tiles making a weapon attack against a creature adding a bad die to the attack roll. On hit they take normal damage and are knocked back 2 tiles if they are large or smaller. On a critical the target is knocked prone.
 
 ***Enhanced:*** The attack hits 2 creatures adjacent to the main creature.
 
+***Superior:*** You deal an extra wound in damage. The force of the attack turns the ground in your zone of control into difficult terrain.
+
 ### Level 8
 
 #### Hail of Arrows
 
-- **AP Cost:** 8/7
+- **AP Cost:** 8/7/6
 - **Weapon:** any ranged weapon without _Loading_
 - **Range:** weapon range
-- **Level Required:** 8/18
+- **Level Required:** 8/16/24
 
 This cannot be used in constrained areas. Launch a volley of arrows hitting all creatures in a 3x3 tile area centered on a point in range. Make a ranged attack against the creatures adding a bad die to your roll. On hit they take 2 wound dice in damage.
 
 
 ***Enhanced:*** You no longer add a bad die to your roll and you deal normal weapon damage.
 
+***Superior:*** The area increases to 5x5 tiles and creatures are staggered on a critical.
+
 #### Blade Dance
 
-- **AP Cost:** 4/3
+- **AP Cost:** 4/3/3
 - **Weapon:** any one handed melee weapon
 - **Range:** melee
-- **Level Required:** 8/18
+- **Level Required:** 8/15/25
 
 You move your weapon in an elegant dance, quickly striking an enemy and leaving them open to further attacks. Make an attack against a creature adding an enhanced die to your roll. On hit you deal normal damage, with the next attack against this creature this turn costing 1 less AP and adding a critical success. Regardless of the outcome of the attack you may shift one tile, ignoring opportunity attacks.
 
 
 ***Enhanced:*** On hit you add a critical success to all attacks against that creature until the end of your turn.
 
+***Superior:*** You may immediately make an offhand Blade Dance attack targeting a different creature in range. This attack costs 1 AP.
+
 ### Level 9
 
 #### 7 Hand Strike
 
-- **AP Cost:** 8/7
+- **AP Cost:** 8/7/7
 - **Weapon:** unarmed
 - **Range:** melee
-- **Level Required:** 9/15
+- **Level Required:** 9/15/25
 
 Hit a creature with a series of quick strikes. Make an unarmed attack against a creature adding an enhanced die. On hit the creature takes 5 wound dice in damage. If the target is humanoid and the total wounds and critical successes in your roll adds to 5 or more the creature is stunned until the end of their next turn.
 
 ***Enhanced:*** You can target a creature up to 2 tiles away, moving yourself to an unoccupied tile adjacent to the creature for the attack. You add a superior die instead of an enhanced die to your attack roll.
 
+***Superior:*** You may reroll all blank wound dice on a critical hit.
+
 
 #### Volley
 
 
-- **AP Cost:** 9/7
+- **AP Cost:** 9/7/7
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
-- **Level Required:** 9/17
+- **Level Required:** 9/17/26
 
 Shoot a volley of arrows at 3 adjacent creatures. Make a ranged weapon attack adding a terrible die to the attack roll. On hit you deal normal damage.
 
 ***Enhanced:*** Add a bad die instead of a terrible die to your attack roll and the creatures are staggered on hit.
 
+***Superior:*** You may target up to 5 adjacent creatures. You can target the same creature with multiple attacks, instead making a single attack roll and adding a wound die and critical success for each additional attack targeting that creature.
+
 
 #### Wounding Strike
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/4
 - **Weapon:** any one-handed weapon
 - **Range:** melee
-- **Level Required:** 9/16
+- **Level Required:** 9/16/27
 
 Attempt to mortally wound a creature. Make a weapon attack adding a superior die if you are flanking the creature. On hit they take 1 wound die in damage, gaining a random lesser wound on a critical.
 
 ***Enhanced:*** The attack deals normal damage and you have expertise for the attack if you are flanking the creature.
+
+***Superior:*** They take 3 wound dice on a critical.
 
 
 ### Level 11
 
 #### Steel Tempest
 
-- **AP Cost:** 10/8
+- **AP Cost:** 10/8/7
 - **Weapon:** any sword
 - **Range:** 2
-- **Level Required:** 11/22
+- **Level Required:** 11/22/29
 
 Swiftly strike up to 5 creatures in range. Make a weapon attack against the creatures adding 2 terrible dice to the attack roll. On hit you deal normal damage, moving to the nearest empty tile beside a targeted creature.
 
-***Enhanced:*** If you hit every target they grant combat advantage until the start of your next turn.
+***Enhanced:*** You add a single terrible dice instead of 2. If you hit every target they grant combat advantage until the start of your next turn.
+
+***Superior:*** The range increases to 3 and you may target up to 7 creatures.
 
 ## Appendix - Feats
 
