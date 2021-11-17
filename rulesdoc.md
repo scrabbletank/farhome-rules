@@ -705,11 +705,13 @@ When dual wielding, as long as you have taken the Attack action you may make an 
 ##### Use (2 AP)
 This covers a wide range of actions, from using an item, drinking a potion, activating a magic item, or interacting with an object (e.g. pulling a switch). Some magic items will give their own AP costs, using those instead. While there is no limit in how many times a turn you can take the Use action, some items may have restrictions. A creature can only benefit from a single potion each round.
 
-
-
-
 >**Variant Rule: Using Potions on Others**
 >You can use potions on downed creatures by spending 5 AP instead of 2. Normal potion rules still apply.
+
+#### Switch Weapon (2 AP)
+When carrying weapons, tomes, or shields, unless you are storing them in your pack it is assumed they are visible on your character, ready to use at a moments notice. At the start of your turn you may swap one of the items you are holding with another one of your visible items. For example, putting away your shield and unsheathing a dagger. When done as the first thing on your turn this action is free and does not cost AP.
+
+You may switch a weapon or shield for another visible weapon or shield during your turn by spending 2 AP. For example, switching to a sword after taking a shot with a bow costs 2 AP while switching to a sword immediately at the start of your turn is free.
 
 ##### Spell (Varying AP)
 There is no limit to the number of spells you can cast each turn, as long as you have enough AP to cast them. Spells will require you to make a Spellcasting roll against the creatures defense or saving throw, with ties going in favor of the defender.
@@ -741,13 +743,13 @@ a feared creature cannot willingly move closer to the source of the fear. While 
 A grappled creature cannot move or sprint, adds 2 bad dice to Dexterity saving throws, and grants combat advantage to all creatures except the grappler.
 
 ##### Hex
-When making any roll, a hexed creature replaces a critical with a single success for every level of hex on the creature. For example, a creature with hex 2 will replace the first 2 crits they roll with a single success each.
+When making any roll, a hexed creature replaces a critical with a single success for every level of hex on the creature. For example, a creature with hex 2 will replace the first 2 critical successes they roll with a single success each.
 
 ##### Incapacitated
-An incapacitated creature takes no actions and automatically fails Strength and Dexterity saving throws.
+An incapacitated creature takes no actions and automatically fails Strength and Dexterity saving throws. While incapacitated they grant combat advantage to adjacent attackers, and attacks and maneuvers that deal physical damage deal an extra wound die per critical success against them.
 
 ##### Paralyzed
-A paralyzed creature automatically fails Dexterity saving throws. When taking an action they first roll a wound die. If the result is a wound they do not take the action and lose the AP spent.
+A paralyzed creature gains no benefit from their Dexterity saving throw proficiency. When taking an action they first roll a wound die. If the result is a wound they do not take the action and lose the AP spent.
 
 ##### Poison
 A poisoned creature adds a bad die to all attacks, saving throws, and ability checks, adding an additional bad die for every level of poison. Only the highest level poison takes effect. For example someone who has poison and poison 2 only adds 2 bad dice instead of 3.
@@ -758,13 +760,17 @@ a prone creature grants combat advantage to any melee attacker. Ranged attacks a
 ##### Restrained
 A restrained creature cannot move or sprint and adds 2 terrible dice to Dexterity saving throws and attack rolls. They lose the effects of a shield if wearing one and grant combat advantage to attackers.
 
+##### Silenced
+A silenced creature cannot speak and adds 2 terrible dice to spellcasting rolls.
+
+##### Sleep
+A sleeping creature is incapacitated for as long as they are sleeping. A sleeping creature wakes up after being hit by an attack, maneuver, or spell, another creature spends 5 AP waking them, or they hear a loud noise.
+
 ##### Slowed
 A slowed creature's move and sprint speeds are reduced by 1. Each level of slow reduces the value by 1, to a minimum of 1.
 
 ##### Stagger
 A staggered creature is unable to take reactions until the start of their next turn.
-
-
 
 ##### Stunned
 A stunned creature cannot move or take actions, and automatically failure Strength and Dexterity saving throws. Attackers gain combat advantage against this target.
@@ -774,6 +780,9 @@ A stunned creature cannot move or take actions, and automatically failure Streng
 When a weakened creature hits with any attack or maneuver, all wounds are replaced with wound dice.
 
 ## Terms
+
+##### Heavy
+This weapon is extremely heavy and can only be used in an attack or maneuver once per turn.
 
 ##### Finesse
 This weapon can use either Strength or Dexterity for attack rolls.
@@ -801,6 +810,9 @@ This weapon can be used with two hands, using your two-handed proficiency. When 
 
 ##### Vulnerable
 You increase the number of wounds dealt by the level of vulnerability. For example, _Bludgeoning Vulnerability 1_ increases the wounds taken by bludgeoning attacks by 1. If the attack can do damage, but didn't (due to rolling wound dice) a Vulnerable creature still takes the extra damage.
+
+##### Unarmed
+This weapon is used with unarmed attacks. Unarmed weapons require both hands and cannot be used with a shield. Unarmed weapons count as dual wielding for offhand attacks.
 
 # The Gameboard
 
@@ -834,6 +846,8 @@ Each creature is represented by a miniature or token on the gameboard. Creatures
 #### Movement
 All creatures move and sprint speeds are listed in tiles. Any time a creature takes the move or sprint actions they can move up to that many tiles. When moving you may move through allies, but not through hostile creatures. If your movement takes you out of a hostile creatures zone of control they may make an opportunity attack against you.
 
+#### Mounts
+You may ride a willing creature as a mount as long as they are capable of carrying you. When mounted both creatures spend AP to take the move and sprint actions, and you may use these actions on either of the creatures turns. While mounted, moving through allied units counts as difficult terrain and while sprinting you cannot move through allies at all.
 
 #### Flying
 Creatures that are able to fly can use their movement to move vertically, following the same rules as normal movement. Unless the creature is able to hover, any effect that reduces their movement speed to 0, grapples, restrains, or knocks them prone causes them to fall from the air. 
@@ -1327,12 +1341,25 @@ Add a wound die for every level cast above cantrip.
 *Cantrip*
 
 - **Casting Time:** 2 AP
-- **Range:** 10+
+- **Range:** varies
 - **Duration:** instant
 
-You attempt to send a telepathic message to a creature you're familiar with or that you can see. Make a spellcasting roll, adding a bad die for every 10 tiles of distance between you and the recipient. On success the recipient receives the message. You know whether the spell is successful or not.
+You attempt to send a telepathic message to a creature you're familiar with or that you can see. Make a spellcasting roll, adding a bad die for each segment of distance in the table below between you and your recipient. You may attempt to cast up to 5 times the listed distance, adding a maximum of 5 bad dice, before the spell automatically fails. The message can be no more than 25 words long.
 
-Add an enhanced die for every level cast above cantrip.
+##### Distance per Spell Level
+| Spell Level | Segment Distance |
+|:----|-------------:|
+| Cantrip  | 10 tiles |
+| 1st | 15 tiles |
+| 2nd | 20 tiles |
+| 3rd | 1 mile |
+| 4th | 2 miles |
+| 5th | 5 miles |
+| 6th | 10 miles |
+| 7th | 50 miles |
+| 8th | 100 miles |
+| 9th | 500 miles |
+| 10th | 1 bad die if in the same realm, 3 terrible dice if recipient is in another realm or warren |
 
 #### Minor Image
 *Cantrip*
@@ -3762,7 +3789,7 @@ The affected tiles extends by 1 and damage is increased by 1 wound die for every
 - **Range:** 3
 - **Duration:** instant
 
-Attempt to remove negative conditions afflicting a creature in range that you can see. Make a spellcasting roll against a bad die for each condition you want to cleanse. For conditions with levels, such as poison, add 1 bad die for each level of that condition. On success you end the chosen conditions on the creature. This spell can remove slow, poison, hex, daze, stun, blind, weakened, and fear.
+Attempt to remove negative conditions afflicting a creature in range that you can see. Make a spellcasting roll against a bad die for each condition you want to cleanse. For conditions with levels, such as poison, add 1 bad die for each level of that condition. On success you end the chosen conditions on the creature. This spell can remove Slow, Poison, Hex, Daze, Stun, Blind, Weakened, Paralyzed, Silenced, Fear, and Sleep if it was caused by a magical effect.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -4229,7 +4256,7 @@ Add a normal die for every level cast above 5th.
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll adding a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove slow, poison, hex, daze, stun, blind, weaken, fear, petrification, or a condition inflicted by a spell of 4th level or lower.
+Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll adding a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, Weakened, Paralyzed, Silenced, Fear, Sleep if it was caused by a magical effect, Petrification, or a condition inflicted by a spell of 4th level or lower.
 
 Add a normal die for every level cast above 5th.
 
@@ -4241,7 +4268,7 @@ Add a normal die for every level cast above 5th.
 - **Range:** 5
 - **Duration:** concentration, 1 minute
 
-Petrify a creature in range you that can see you, turning them to stone. Make a spellcasting roll against the creatures Stamina save. On success they are paralyzed for the next minute. You must maintain line of sight with the creature or the spell ends. After 1 minute you make another spellcasting roll against the creatures Stamina save. On success the creature is turned to stone.
+Petrify a creature in range you that can see you, turning them to stone. Make a spellcasting roll against the creatures Stamina save. On success they are Paralyzed for the next minute. You must maintain line of sight with the creature or the spell ends. After 1 minute you make another spellcasting roll against the creatures Stamina save. On success the creature is turned to stone.
 
 You add a terrible die to your roll when cast on a large creature, or 3 terrible dice when cast on a huge or larger creature.
 
@@ -4372,7 +4399,7 @@ Your voice carries an extra 5 tiles for every level cast above 6th.
 - **Duration:** instant
 - **Damage Type:** holy
 
-You speak a divine word to smite any creatures in range that can hear you. Make a spellcasting roll against the creatures Charisma save. On success the following effects occur depending on the creatures remaining wounds, increasing the threshold by 1 for every critical rolled:
+You speak a divine word to smite any creatures in range that can hear you. Make a spellcasting roll against the creatures Charisma save. On success the creature is dazed until the end of their next turn and the following effects occur depending on the creatures remaining wounds, increasing the threshold by 1 for every critical rolled:
 
 - 8 wounds or fewer: blinded for 1 minute
 - 5 wounds or fewer: blinded and feared for 10 minutes
@@ -4464,6 +4491,7 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 - [Guided Strike](#Guided-Strike)
 - [Hindering Strike](#Hindering-Strike)
 - [Raise Shield](#Raise-Shield)
+- [Run Down](#Run-Down)
 - [Wild Attack](#Wild-Attack)
 
 ##### Level 3
@@ -4481,6 +4509,7 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 
 ##### Level 5
 - [Armor Break](#Armor-Break)
+- [Rallying Strike](#Rallying-Strike)
 - [Roundhouse Kick](#Roundhouse-Kick)
 - [Target Weakness](#Target-Weakness)
 
@@ -4527,7 +4556,7 @@ Make a ranged attack against a creature, adding an enhanced die for each AP spen
 - **AP Cost:** 5/4/4
 - **Weapon:** any melee weapon
 - **Range:** melee
-- **Level Required:** 1/9/14
+- **Level Required:** 1/8/13
 
 Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, inflicting the lesser wound, hamstring, on a critical.
 
@@ -4544,7 +4573,7 @@ Make a melee attack against a creature, adding an enhanced die. On hit you deal 
 - **AP Cost:** 2/1/1
 - **Weapon:** N/A
 - **Range:** melee
-- **Level Required:** 1/7/12
+- **Level Required:** 1/5/11
 
 After making a successful melee attack against a humanoid creature you may attempt to headbutt them. Make a raw Stamina roll against their Stamina save, the loser is staggered and takes a wound die in damage.
 
@@ -4557,20 +4586,20 @@ After making a successful melee attack against a humanoid creature you may attem
 - **AP Cost:** 3/3/3
 - **Weapon:** N/A
 - **Range:** 6
-- **Level Required:** 1/9/15
+- **Level Required:** 1/8/16
 
 You give words of encouragement to up to 3 creatures. Make a performance check adding a bad die for each creature. On success the creatures may add an enhanced die to one roll they make in the next 10 minutes.
 
 ***Enhanced:*** Creatures add a superior die instead.
 
-***Superior:*** You may target up to 5 creatures.
+***Superior:*** You may target up to 5 creatures. Creatures may instead choose to reduce the level of a Slow, Poison, or Hex effecting them by 1.
 
 #### Protector
 
 - **AP Cost:** 1/1/1
 - **Weapon:** any shield
 - **Range:** melee
-- **Level Required:** 1/7/16
+- **Level Required:** 1/7/14
 
 When a creature adjacent to you is targeted by an attack you add your shields defense dice to their defense roll.
 
@@ -4584,7 +4613,7 @@ When a creature adjacent to you is targeted by an attack you add your shields de
 - **AP Cost:** 5/4/4
 - **Weapon:** any melee weapon
 - **Range:** 2
-- **Level Required:** 1/9/16
+- **Level Required:** 1/9/17
 
 This cannot be used if you are adjacent to your target. You make a running leap at a creature, jumping 2 tiles towards them and make a melee attack. This leap passes over difficult or hazardous terrain and half cover. On hit you deal an extra wound die in damage, staggering them on a critical.
 
@@ -4597,7 +4626,7 @@ This cannot be used if you are adjacent to your target. You make a running leap 
 - **AP Cost:** 3/2/2
 - **Weapon:** any shield
 - **Range:** melee
-- **Level Required:** 1/12/17
+- **Level Required:** 1/10/15
 
 Make an attack with your shield, knocking the target off balance. Make a melee attack against a creature. On hit the creature is staggered and takes 1 wound if you used a shield, or 1 wound die if you used a buckler.
 
@@ -4611,7 +4640,7 @@ Make an attack with your shield, knocking the target off balance. Make a melee a
 - **AP Cost:** 2/2/2
 - **Weapon:** N/A
 - **Range:** melee
-- **Level Required:** 1/5/12
+- **Level Required:** 1/5/15
 
 Attempt to knock a Large or smaller creature off balance with a strong push or kick. Make an athletics check against the creatures Strength save. On failure they are staggered and you may push them back 1 tile. While staggered the creature loses the benefits of any shield they are holding.
 
@@ -4624,7 +4653,7 @@ Attempt to knock a Large or smaller creature off balance with a strong push or k
 - **AP Cost:** 6/5/4
 - **Weapon:** any one-handed weapon
 - **Range:** melee
-- **Level Required:** 1/10/20
+- **Level Required:** 1/11/21
 
 Can only be used when flanking a creature or if you have combat advantage. Make a melee attack against the creature, rerolling up to 3 dice. On hit you deal normal damage, adding a wound die for every critical.
 
@@ -4637,8 +4666,8 @@ Can only be used when flanking a creature or if you have combat advantage. Make 
 
 - **AP Cost:** 2/2/2
 - **Weapon:** any spear or polearm
-- **Range:** 2
-- **Level Required:** 1/7/17
+- **Range:** weapon range
+- **Level Required:** 1/5/13
 
 As a reaction you make an opportunity attack against any creature moving into your zone of control. On hit you deal normal damage and the creatures move action ends. On a critical the target is pushed back 1 tile.
 
@@ -4651,8 +4680,8 @@ As a reaction you make an opportunity attack against any creature moving into yo
 
 - **AP Cost:** 5/5/4
 - **Weapon:** any spear or polearm
-- **Range:** 2
-- **Level Required:** 1/9/15
+- **Range:** weapon range
+- **Level Required:** 1/7/17
 
 Make a melee attack against a medium creature, adding an enhanced die. On hit you deal a wound die in damage, knocking the creature prone on a critical.
 
@@ -4680,11 +4709,11 @@ You carefully study your opponents movements, making a calculated attack. Make a
 - **AP Cost:** 5/4/4
 - **Weapon:** any bludgeoning weapon
 - **Range:** melee
-- **Level Required:** 2/12/20
+- **Level Required:** 2/10/19
 
 Make a melee attack against a large or smaller creature adding an enhanced die to the attack roll. On hit you deal normal damage, dazing the creature until the end of their next turn on a critical.
 
-***Enhanced:*** Add a superior die instead of an enhanced die and the creature is dazed for 1 minute on a critical.
+***Enhanced:*** The creature is dazed for 1 minute on a critical.
 
 ***Superior:*** While dazed, any ranged attacks against the creature add a critical success to their attack rolls.
 
@@ -4724,13 +4753,26 @@ Once per turn, when a Huge or smaller creature adjacent to you moves with a Move
 - **AP Cost:** 3/3/3
 - **Weapon:** any shield
 - **Range:** N/A
-- **Level Required:** 2/12/18
+- **Level Required:** 2/9/13
 
 Used in place of your defend action. You raise your shield to defend against arrows. You gain _Resistance 1_ to physical damage dealt by ranged attacks until the start of your next turn.
 
 ***Enhanced:*** While your shield is raised you can reroll 1 die when making a defense roll against ranged attacks.
 
 ***Superior:*** You may intercept any ranged attack passing through your tile, replacing the existing target with yourself.
+
+#### Run Down
+
+- **AP Cost:** 6/5/5
+- **Weapon:** any weapon with Reach
+- **Range:** melee
+- **Level Required:** 2/8/15
+
+Can only be used while on a mount. Make a melee attack against a standing creature, adding a normal die to the attack roll. If you moved at least 2 tiles before making this attack you add 2 wound dice to the damage.
+
+***Enhanced:*** Add an enhanced die instead of a normal die and the creature is knocked prone on a critical.
+
+***Superior:*** Any move action taken before making this attack can pass through medium or smaller creatures. Creatures you pass through make a Strength or Dexterity save against your attack roll, taking 2 wound dice in bludgeoning damage and are staggered on hit.
 
 
 #### Wild Attack
@@ -4766,7 +4808,7 @@ You bring the full weight of your weapon down on a creature. Make a melee attack
 - **AP Cost:** 6/5/5
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
-- **Level Required:** 3/10/17
+- **Level Required:** 3/11/19
 
 Make a ranged attack against a medium or smaller creature, adding an enhanced die to the roll. On hit they take 1 wound in piercing damage, pinning them to the wall or ground on a critical. A pinned creature grants combat advantage and cannot take the move or sprint actions until they spend 5 AP unpinning themselves.
 
@@ -4780,7 +4822,7 @@ Make a ranged attack against a medium or smaller creature, adding an enhanced di
 - **AP Cost:** 5/4/3
 - **Weapon:** any melee weapon
 - **Range:** melee
-- **Level Required:** 3/12/20
+- **Level Required:** 3/9/14
 
 Strike into a creature, pushing them back. Make a melee attack against a creature, adding a normal die to the roll. On hit they take normal damage, are pushed back 1 tile, and you move to occupy their space ignoring opportunity attacks, staggering them on a critical.
 
@@ -4794,7 +4836,7 @@ Strike into a creature, pushing them back. Make a melee attack against a creatur
 - **AP Cost:** 6/5/5
 - **Weapon:** any melee weapon
 - **Range:** melee
-- **Level Required:** 3/12/21
+- **Level Required:** 3/12/19
 
 Empower your weapon with holy might, consuming up to 2 mana. Make a melee attack against a creature using your divine spellcasting roll for the attack and adding an enhanced die to the roll. On hit the creature takes an extra wound die, adding a wound die for every mana spent, in holy damage. If the target is undead they take wounds instead, and are turned for 1 minute on a critical.
 
@@ -4850,7 +4892,7 @@ This can only be used when targeted by a ranged weapon. Instead of making a defe
 - **AP Cost:** 7/6/6
 - **Weapon:** any melee weapon
 - **Range:** melee
-- **Level Required:** 4/13/25
+- **Level Required:** 4/11/19
 
 You make two quick attacks against a creature. Make two weapon attacks, adding a terrible die to each attack. On hit the creature takes normal damage.
 
@@ -4863,7 +4905,7 @@ You make two quick attacks against a creature. Make two weapon attacks, adding a
 - **AP Cost:** 7/6/6
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
-- **Level Required:** 4/16/24
+- **Level Required:** 4/14/23
 
 You channel magic into your weapon, empowering the next attack and consuming up to 3 mana. The arrow pierces its target hitting all creatures in a 2 tile line, increasing the tiles by 1 for each mana spent. All creatures in the line make a defense roll against your attack, adding an enhanced die to the attack roll. On hit the creatures take a wound in damage.
 
@@ -4878,7 +4920,7 @@ You channel magic into your weapon, empowering the next attack and consuming up 
 - **AP Cost:** 5/4
 - **Weapon:** any bludgeoning weapon
 - **Range:** melee
-- **Level Required:** 5/12/17
+- **Level Required:** 5/11/18
 
 Make a melee attack against a creature, adding a normal die. On hit you deal normal damage, breaking their armor on a critical. Armor broken this way provides 1 less defense die until repaired.
 
@@ -4886,12 +4928,25 @@ Make a melee attack against a creature, adding a normal die. On hit you deal nor
 
 ***Superior:*** The creature is staggered on hit and you may target their shield instead. A mundane shield is destroyed on a critical.
 
+#### Rallying Strike
+
+- **AP Cost:** 7/6/5
+- **Weapon:** any melee weapon
+- **Range:** melee
+- **Level Required:** 5/12/22
+
+As an additional cost this maneuver consumes a healing surge. You make a rallying cry before striking a creature, embolding your allies. Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, and you and up to 2 other creatures within 5 tiles gains a temporary wound for 1 hour if they have none.
+
+***Enhanced:*** Before making the attack roll you reduce the level of a Hex or Poison affecting you by 1. You may give up to 4 other creatures temporary wounds.
+
+***Superior:*** You may target creatures up to 7 tiles away. While creatures have temporary wounds from this maneuver they add 1 success to saving throws against fear, charms, and non-damaging spells.
+
 #### Roundhouse Kick
 
 - **AP Cost:** 5/5/5
 - **Weapon:** unarmed
 - **Range:** melee
-- **Level Required:** 5/15/26
+- **Level Required:** 5/15/24
 
 Perform a spinning kick. Make an unarmed attack against a creature adding an enhanced die to the roll. On hit the creature takes normal damage, is pushed back 1 tile, and staggered.
 
@@ -4904,7 +4959,7 @@ Perform a spinning kick. Make an unarmed attack against a creature adding an enh
 - **AP Cost:** 5/4/4
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
-- **Level Required:** 5/14/23
+- **Level Required:** 5/14/22
 
 Make a ranged attack against a creature, adding up to 5 wound dice to the damage. For each wound die add a terrible die to your attack roll.
 
@@ -4934,7 +4989,7 @@ Make a weapon attack against a creature adding a normal die to the attack roll. 
 - **AP Cost:** 5/4/4
 - **Weapon:** unarmed
 - **Range:** melee
-- **Level Required:** 6/14/22
+- **Level Required:** 6/14/20
 
 Can only be used against a grappled creature. Make an unarmed attack against the creatures Strength save. On hit you slam the grappled creature into the tile behind you ending the grapple, dealing normal damage and knocking the creature prone.
 
@@ -4947,7 +5002,7 @@ Can only be used against a grappled creature. Make an unarmed attack against the
 - **AP Cost:** 3/2/1
 - **Weapon:** N/A
 - **Range:** 2
-- **Level Required:** 6/14/25
+- **Level Required:** 6/14/23
 
 Only usable when targeted by an attack, maneuver, spell attack, or when travelling over hazardous terrain. You dive to avoid the attack, making a dexterity save instead of the normal save for the attack. On success you avoid the attack and may move up to 2 tiles in any direction. This maneuver may only be used once per round.
 
@@ -4976,7 +5031,7 @@ You attempt to disarm a creature, forcing them to drop their weapon. The creatur
 - **AP Cost:** 7/7/7
 - **Weapon:** any two-handed weapon
 - **Range:** melee
-- **Level Required:** 7/18/25
+- **Level Required:** 7/18/24
 
 You jump up to 2 tiles making a weapon attack against a creature adding a bad die to the attack roll. On hit they take normal damage and are knocked back 2 tiles if they are large or smaller. On a critical the target is knocked prone.
 
@@ -4991,7 +5046,7 @@ You jump up to 2 tiles making a weapon attack against a creature adding a bad di
 - **AP Cost:** 8/7/6
 - **Weapon:** any ranged weapon without _Loading_
 - **Range:** weapon range
-- **Level Required:** 8/16/24
+- **Level Required:** 8/16/25
 
 This cannot be used in constrained areas. Launch a volley of arrows hitting all creatures in a 3x3 tile area centered on a point in range. Make a ranged attack against the creatures adding a bad die to your roll. On hit they take 2 wound dice in damage.
 
@@ -5021,7 +5076,7 @@ You move your weapon in an elegant dance, quickly striking an enemy and leaving 
 - **AP Cost:** 8/7/7
 - **Weapon:** unarmed
 - **Range:** melee
-- **Level Required:** 9/15/25
+- **Level Required:** 9/15/27
 
 Hit a creature with a series of quick strikes. Make an unarmed attack against a creature adding an enhanced die. On hit the creature takes 5 wound dice in damage. If the target is humanoid and the total wounds and critical successes in your roll adds to 5 or more the creature is stunned until the end of their next turn.
 
@@ -5050,7 +5105,7 @@ Shoot a volley of arrows at 3 adjacent creatures. Make a ranged weapon attack ad
 - **AP Cost:** 5/4/4
 - **Weapon:** any one-handed weapon
 - **Range:** melee
-- **Level Required:** 9/16/27
+- **Level Required:** 9/16/28
 
 Attempt to mortally wound a creature. Make a weapon attack adding a superior die if you are flanking the creature. On hit they take 1 wound die in damage, gaining a random lesser wound on a critical.
 
@@ -5169,6 +5224,9 @@ You are an expert with one-handed weapons. When attacking with a one-handed weap
 
 #### Durable
 When taking damage from any source you may reroll 1 wound die.
+
+#### Expert Rider
+While mounted you have expertise on initiative rolls. If you are attacked with a melee weapon while on your mount you replace a defense die with a superior defense die if the weapon does not have Reach.
 
 #### Expertise
 Choose 2 skill or tool proficiencies. You have expertise in these skills.
@@ -5821,19 +5879,22 @@ A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the att
 | *Simple* |  |  | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Dagger  | Finesse | 1 | 5sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Club  | - | 1 wound die | 4sc | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Spear | Reach | 1 | 8sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Barbed Gauntlets  | Unarmed | 2 wound dice | 10sc | Bludgeoning |
+| &nbsp;&nbsp;&nbsp;&nbsp;Spear | Reach 1 | 1 | 8sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Crossbow | Loading | 1 | 35sc | Piercing |
 | *Martial* |  |  | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Javelin | Thrown 5/10, Finesse | 1 | 4sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Hatchet | Thrown 5/10 | 1 | 8sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Axe | - | 1 | 15sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Halberd | Versatile 1, Reach | 1 | 25sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Halberd | Versatile 1, Reach 1 | 1 | 25sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Katar | Unarmed | 1 | 20sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Flail | Versatile 1 | 1 | 55sc | Bludgeoning |
 | &nbsp;&nbsp;&nbsp;&nbsp;Mace | - | 1 | 30sc | Bludgeoning |
 | &nbsp;&nbsp;&nbsp;&nbsp;Warhammer | Two-Handed | 1 + 1 wound die | 80sc | Bludgeoning |
 | &nbsp;&nbsp;&nbsp;&nbsp;Sword | Finesse | 1 | 35sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Sword | Two-Handed | 1 + 1 wound die | 70sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Battle Axe | Two-Handed | 3 wound dice | 70sc | Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Lance | Two-Handed, Heavy, Reach 2 | 2 | 85sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Bow | Range 15/25 | 1 + arrow damage | 30sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Arrow | - | 1 wound die | 5ct | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Bolt | - | - | 5ct | Piercing |

@@ -2867,6 +2867,11 @@ While wearing this belt your gain +2 proficiency to your Stamina save. If you do
 
 While wearing this belt your gain +2 proficiency to your Dexterity save. If you do not know Elvish, you are able to read and speak it, and add 1 superior die to Charisma skills with elves.
 
+#### Bewitched Blackcone
+*Wondrous Item*
+
+These small black pinecones are extremely volitile, exploding into a black miasma when thrown. On your turn you may spend 5 AP to throw a blackcone at a point you can see within 10 tiles. The blackcone explodes on impact, hitting all creatures in a 3x3 tile area. Creatures make a Stamina save against 3 superior dice, taking a wound and a wound die in death damage on hit and being blinded until the end of their next turn on a critical. Once used the blackcone is destroyed.
+
 #### Blueflame Lantern
 *Wondrous Item*
 
@@ -2911,6 +2916,22 @@ Touching the broken chain link to the chain unlocks the bindings and ends the ef
 
 While wearing the circlet your spells are empowered. When making a spellcasting roll you may reroll dice equal to the circlets modifier.
 
+#### Cirilla's Counter Charms
+*Wondrous Item*
+
+An enchanting book of charms, counter hexes, and other baubles written by the witch Cirilla Wormwood.
+
+| | Name | Mana | Supplies | Roll | Effect |
+|:----:|:-----:|:-----:|:-----:|:-----:|:-------------|
+| _Trinket_ | | | | | | 
+| | Minor Mindful Magic | 1 | 1 | 2B | You add 1 success to saving throws against fear and charm effects. |
+| | Hexproof Charm | 3 | 3 | 3B | You ignore level 1 Hex's. Higher level Hex's still apply. |
+| | Lesser Counter Curse | 4 | 3 | 2B/1T | You add 1 superior die to saving throws against curses. This enchantment is immediately dispelled once you are cursed. |
+| | Greater Counter Curse | 7 | 5 | 2B/2T | You add 2 superior dice to saving throws against curses. This enchantment is immediately dispelled once you are cursed. |
+| _Consumable_ | | | | | | 
+| | Stamp of Beast Steed | 4 | 2 | 1B/1T | Creates a _Stamp of Beast Steed_. |
+| | Bewitched Blackcone | 6 | 4 | 1B/2T | Creates 3 Bewitched Blackcones. |
+
 #### Cloak of Agility
 *Wondrous Item, Requires Attunement*
 
@@ -2924,7 +2945,6 @@ While wearing this cloak with the hood up it obscures your face from light, prev
 ##### Fan of Blades
 ___
 - **AP Cost:** 8
-- **Weapon:** Piercing
 - **Range:** Melee
 
 You spin your dagger tipped cloak, slashing all adjacent creatures. Make a Dexterity save against the targets defense. If this is during or before the first round of combat, add 1 superior die to your roll. On hit they take 1 wound in piercing damage.
@@ -2938,6 +2958,27 @@ A cloak made from the skin of an Astral Stalker. When standing still in dim ligh
 *Magical Padded Armor +1*
 
 Robes enchanted to protect the wearer against harm. While attuned to this item you have _Resistance_ 1 against bludgeoning and force damage, and take half as much damage from falling.
+
+#### Compunction
+*Magical Flail +2*
+
+Twin flails, glowing red hot, only function when used together. The burning iron heads are etched with a holy symbol branding those struck. Attacks with these weapons do not deal physical damage, instead dealing a wound of fire and a wound die of holy damage with each attack. Any damage added by attacks or abilities are converted to fire damage when made with this weapon. This weapon has 5 charges, restoring 3 after each long rest. While attuned to this weapon you gain the following maneuvers:
+
+##### Healing Fire
+___
+- **AP Cost:** 7
+- **Charge Cost:** 1
+- **Range:** Melee
+
+Strike a creature with the flail, closing their wounds. The creature restores 1 wound and 3 wound dice in health, reducing the healing by 1 for each level of _Fire Resistance_ they have. The creatures max wounds are reduced by half the amount healed, rounding up, regaining them after their next long rest.
+
+##### Branding Bolt
+___
+- **AP Cost:** 5
+- **Charge Cost:** 1
+- **Range:** 7
+
+Blast a flaming holy symbol at a creature in range. Make a melee attack against the creatures defense. On hit they take 1 wound and 4 wound dice in fire damage and are branded for 1 day on a critical. Brands emit a dim light and cannot be hidden. Branded creatures cannot hide their presence and gain no benefits from being invisible.
 
 #### Crestor's Codex of Trickery
 *Magical Spellbook*
@@ -3461,7 +3502,7 @@ Once per day you may spend 8 AP to summon an undead legion. Roll 8 Superior dice
 #### Stamp of Beast Steed
 *Wondrous Item*
 
-Transform a beast into a loyal steed. Can only be used on a non-intelligent, medium or smaller beast you can touch. A hostile creature makes a willpower save vs 2 superior die, taking no effect on success. Once used the token bursts into a handful of dry leaves.
+Transform a beast into a loyal steed. Can only be used on a non-intelligent, small or smaller beast you can touch. A hostile creature makes a willpower save vs 2 superior die, taking no effect on success. Once used the token bursts into a handful of dry leaves.
 
 The target beast transforms into a giant version of the animal, growing to the size of an average horse. The creature is charmed by you for the next 24 hours and can be used as a mount. They have 3 wounds and a move/sprint speed of 5/5. The gain +1 Strength, but their other stats are identical to their normal forms.
 
