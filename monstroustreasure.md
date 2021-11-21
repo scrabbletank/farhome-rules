@@ -2514,9 +2514,9 @@ ___
 
 ***Spear.*** *Reach 1*, *Melee Attack:* 5 AP, 2/1/2/0/0</br>Deals 1 wound.
 
-***Press the Attack.*** *Maneuver*, *Melee Attack:* 4 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
+***Enhanced Press the Attack.*** *Maneuver*, *Melee Attack:* 4 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
 
-***Shield Slam.*** *Maneuver*, *Melee Attack:* 3 AP, 2/1/2/0/0</br>Deals 1 wound. Hit a target with your shield, on crit the target is staggered until the start of their next turn.
+***Enhanced Shield Slam.*** *Maneuver*, *Melee Attack:* 3 AP, 2/2/2/0/0</br>Deals 1 wound. Hit a target with your shield staggering them on hit and knocking them prone on a critical.
 ___
 
 #### Ghost
@@ -2566,7 +2566,7 @@ ___
 
 ***Grasp.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>Deals 2 wound dice in death damage.
 
-***Strength Drain.*** *Maneuver*, *Melee Attack:* 7 AP, 1/0/4/0/0</br>The target makes a Stamina save, taking 1 wound in death damage, healing the Shadow for 1 wound. The target loses 1 Strength for every crit rolled, up to 2. Creatures regain their Strength after a long rest or after _Cleanse_ has been cast. A creature with a Strength of -4 or less dies, becoming a Shadow in 1 hour.
+***Strength Drain.*** *Maneuver*, *Melee Attack:* 7 AP, 1/0/4/0/0</br>The target makes a Stamina save, taking 1 wound in death damage, healing the Shadow for 1 wound. The target loses 1 Strength for every crit rolled, up to 2. Creatures regain their Strength after a long rest or after _Cleanse_ has been cast. A creature with a Strength of -3 or less dies, becoming a Shadow in 1 hour.
 ___
 
 #### Corpse Beast
@@ -2612,7 +2612,7 @@ ___
 
 ***Unholy Smite.*** *Maneuver, Melee Attack:* 4 AP, 3/2/1/0/0</br>Deals 1 wound and 3 wound dice in death damage. Can only be used 3 times per day.
 
-***Shield Bash.*** *Maneuver*, *Melee Attack:* 2 AP, 1/4/1/0/0</br>Deals 1 wound in damage and the target is staggered until the start of their next turn.
+***Enhanced Shield Slam.*** *Maneuver*, *Melee Attack:* 2 AP, 2/3/1/0/0</br>Deals 1 wound in damage and the target is staggered, being knocked prone on a critical.
 ___
 
 #### Boneclaw

@@ -243,7 +243,7 @@ In some cases you may want to help someone with an action, such as trying to pus
 | Impossible | B | B | T | T | T | T | T |
 
 #### Rerolls
-Either through expertise, feats, or other abilities you may reroll a number of dice when making a roll. When rerolling you may choose any dice, except wound dice, to reroll, taking the new value instead. Once rerolled you may not reroll the same die again. You may reroll any dice that are considered part of your roll, such as bonus dice from upcasting a spell, dice added from abilities or spells such as _Guidance_, and dice given by negative effects, such as poison. When making a skill challenge, all challenge dice are considered part of your roll and may be rerolled. 
+Either through expertise, feats, or other abilities you may reroll a number of dice when making a roll. When rerolling you may choose any dice, except wound dice, to reroll taking the new value instead. Once rerolled you may not reroll the same die again. You may reroll any dice that are considered part of your roll, such as bonus dice from upcasting a spell, dice added from abilities or spells such as _Guidance_, and dice given by negative effects, such as poison. When making a skill challenge, all challenge dice are considered part of your roll and may be rerolled. 
 
 Dice rolled in contest of your own roll, such as another creatures defend or saving throw, cannot be rerolled by you. Additionally, dice that have been replaced, such as dice that have been hexed, cannot be rerolled.
 
@@ -283,7 +283,7 @@ Maneuvers are special abilities that can be learned by your character. They can 
 - You may only use one maneuver per turn, reaction maneuvers excluded.
 - You cannot use the same maneuver two consecutive rounds in a row.
 
-Most maneuvers have weapon requirements, or can only be used in specific situations, such as when an ally is attacked. Each maneuver has a level requirement which is shown as two levels, the first being the level at which you learn the maneuver and the second being the level it becomes **enhanced**. When your character reaches the maneuver's enhanced level it gains the effects described in its **enhanced** textblock.
+Most maneuvers have weapon requirements, or can only be used in specific situations, such as when an ally is attacked. Each maneuver has a level requirement which is shown as 3 levels, the first being the level requirement to learn the maneuver, the second when it becomes **enhanced**, and the third when it becomes **superior**. When your character reaches the maneuver's enhanced or superior levels it gains the effects described in its **enhanced** and **superior** textblocks.
 
 
 ### Healing Surge
@@ -1193,7 +1193,7 @@ Lizardfolk tower over others, with some standing 7 and a half feet tall. With th
 
 ##### Claw and Fang
 
-You have 1 proficiency with unarmed weapons and deal 2 wound dice in damage when making unarmed attacks.
+You have 1 proficiency with unarmed weapons and deal an extra wound die when making unarmed attacks.
 
 #### Drake
 
@@ -1218,6 +1218,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 #### Spells By Level
 
 ##### Cantrip
+- [Barrage](#Barrage)
 - [Cold Snap](#Cold-Snap)
 - [Firebolt](#Firebolt)
 - [Message](#Message)
@@ -1311,6 +1312,18 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Armageddon](#Armageddon)
 
 ### Cantrips
+
+#### Barrage
+*Cantrip*
+
+- **Casting Time:** 7 AP
+- **Range:** touch
+- **Duration:** instant
+- **Damage Type:** bludgeoning
+
+Conjure a barrage of stones in an arc 3 tiles wide and 3 tiles long. Each creature makes a defense roll against your spellcasting roll. Roll 3 wound dice, starting from the closest hit creature split the damage evenly across all hit creatures, up to a max of 3. Creatures are staggered on a critical.
+
+Add a wound die and increase the length of the arc by 1 for every level cast above cantrip.
 
 #### Cold Snap
 *Cantrip*
@@ -2433,7 +2446,8 @@ Add 3 superior dice when cast at 10th level.
 - [Ritual of Mordiggian](#Ritual-of-Mordiggian)
 
 ##### Seventh
-- [Curse of Dominance](#Curse-of-Dominance)
+- [Curse of Haunting](#Curse-of-Haunting)
+- [Dominate Creature](#Dominate-Creature)
 - [Gateway](#Gateway)
 - [Gravity Well](#Gravity-Well)
 
@@ -3387,9 +3401,9 @@ You may target an additional creature for every level cast above 7th.
 #### Dominate Creature
 *7th level*
 
-- **Casting Time:** 7 AP
+- **Casting Time:** 9 AP
 - **Range:** 5
-- **Duration:** 8 hours
+- **Duration:** 24 hours
 
 Exert your will on a living, non-humanoid creature you can see, forcing them to obey your commands. The creature must have an Intelligence of -1 or lower and a CR of 15 or lower or else this spell has no effect. Make a spellcasting roll against the creatures Willpower save, adding a terrible die to your roll unless you are touching the creature. On success the creature is obedient to you, obeying any command unless that command would bring harm to it, such as ordering it to hurt itself or jump off a cliff. While under your control the creature may use your spellcasting roll when making Willpower saves. The creature understands every language you know and can communicate verbally with you, speaking in a way only you can understand.
 
@@ -4819,7 +4833,7 @@ Make a ranged attack against a medium or smaller creature, adding an enhanced di
 
 #### Press the Attack
 
-- **AP Cost:** 5/4/3
+- **AP Cost:** 5/4/4
 - **Weapon:** any melee weapon
 - **Range:** melee
 - **Level Required:** 3/9/14
@@ -4898,7 +4912,7 @@ You make two quick attacks against a creature. Make two weapon attacks, adding a
 
 ***Enhanced:*** You add a bad die instead of a terrible die to your attack roll.
 
-***Superior:*** You make 3 attacks instead. The 3rd attack deals weapon damage and cannot be increased by feats or abilities.
+***Superior:*** You make 3 attacks instead and do not add a bad die to your attack roll. The 3rd attack deals weapon damage and cannot be increased by feats or abilities.
 
 #### Magic Arrow
 
@@ -4917,7 +4931,7 @@ You channel magic into your weapon, empowering the next attack and consuming up 
 
 #### Armor Break
 
-- **AP Cost:** 5/4
+- **AP Cost:** 5/4/4
 - **Weapon:** any bludgeoning weapon
 - **Range:** melee
 - **Level Required:** 5/11/18
