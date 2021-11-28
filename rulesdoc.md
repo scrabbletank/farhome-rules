@@ -2117,12 +2117,12 @@ The amount you can conjure doubles with each level above 6th; up to 8 tiles at 7
 #### Earthquake
 *6th level*
 
-- **Casting Time:** 10 AP
+- **Casting Time:** 10 minutes
 - **Range:** 200
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Bludgeoning
 
-You cause the ground to quake and tremble, collapsing buildings and toppling trees in a 60x60 tile area centered on a point in range. Now and at the start of each of your turns make a spellcasting roll with each creature in the earthquake making a Strength save. On success they take 1 wound die in bludgeoning damage and are knocked prone. The earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, leather, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage, with cracks or holes opening in its walls.
+You cause the ground to quake and tremble, collapsing buildings and toppling trees in a 60x60 tile area centered on a point in range. Now and after every minute each creature in the earthquake makes a Strength save against your spellcasting roll. On fail they are knocked prone, taking a wound die in damage on a critical. The earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, leather, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage, with cracks or holes opening in its walls.
 
 The range and area of the spell increases by 10 for each level above 6th.
 

@@ -499,7 +499,7 @@ ___
 
 ***Brittle.*** This creature loses 1 defense die for every wound it has taken, removing Defense dice before Superior Defense.
 
-***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. When the target of _Dispel Magic_ add 2 failures to the spellcasting roll.
+***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. The Enchanted Armor can be targeted by _Dispel Magic_ as if it was a 3rd level spell, incapacitating it for 10 minutes on success.
 
 **Actions**
 
@@ -523,7 +523,9 @@ ___
 
 ***Life Sense.*** This creature can sense living creatures up to 7 tiles away. This has no effect if a creature cannot be divined, such as when under the effects of _Nondetection_.
 
-***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. When the target of _Dispel Magic_ add 3 failures to the spellcasting roll.
+***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. The Sentry can be targeted by _Dispel Magic_ as if it was a 5th level spell, incapacitating it for 10 minutes on success.
+
+***Overwatch.*** Once per round this creature can use _Sorching Beam_ as a reaction (2AP) to a creature moving towards it.
 
 **Actions**
 The Sentry can only perform a single action each turn.
@@ -568,7 +570,7 @@ ___
 ___
 ***Construct.*** This creature has no living parts and is immune to Stun, Daze, Poison, and cannot get Lesser or Greater Wounds. This construct has no Intelligence and passes Intelligence saving throws.
 
-***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. When the target of _Dispel Magic_ add 5 failures to the spellcasting roll.
+***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. The Bronze Colossus can be targeted by _Dispel Magic_ as if it was a 8th level spell, incapacitating it for 10 minutes on success.
 
 ***Metallic.*** This creature has _Resistance_ 1 to elemental and physical damage.
 
@@ -2842,7 +2844,7 @@ This black metal band resizes itself to fit around the wearers forearm. Once per
 #### Barrier Cloak
 *Wondrous Item, Requires Attunement*
 
-You gain Force Resistance 1 while wearing this cloak. Once per long rest you can spend 2 AP to cast _Barrier_ at 2nd level.
+You gain Force Resistance 1 while wearing this cloak. Once per long rest you can spend 2 AP to cast _Barrier_ at 2nd level using 3 Superior dice for the spellcasting roll.
 
 #### Barrier Shield
 A hexigonal shield lined with gold. Once per day you may cast _Barrier_ at 2nd level using 3 Superior dice for the spellcasting roll.
@@ -2989,13 +2991,6 @@ This spellbook has been enchanted and is immutable, spells cannot be added to it
 *Wondrous Item*
 
 A pendant with a rest mist swirling in it's gemstone. Once per day you may use this to touch a creature, attempting to break a curse of 4th level or below. The target makes a Willpower save against 1 terrible die. On success they end a single curse afflicting the target.
-
-#### Darkmantle Cloak
-*Wondrous Item*
-
-A cloak made from the skin of a Darkmantle, imbued with magic. While in dim light or darkness you may wrap yourself in the cloak. While wrapped in the cloak, as long as you do not move you appear as a stalagmite and add 3 superior dice to any stealth checks made.
-
-Once per day you can use the cloak to conjure an aura of darkness radiating 3 tiles out in all directions. Mundane light cannot penetrate the darkness, and any light spell of 2nd level or lower inside the darkness is dispelled.
 
 #### Defender Plate
 *Magical Heavy Armor*
@@ -3469,7 +3464,7 @@ A tunic woven from the hair of a spriggan. While outside you have expertise in s
 
 ##### Treewalk
 - **AP Cost:** 5
-- **Range:** 7
+- **Range:** 12
 
 When standing next to a tree you may magically enter the tree. While inside the tree you are untargetable by effects that do not target the ethereal plane. At the start of your next turn you appear beside a tree within range.
 
