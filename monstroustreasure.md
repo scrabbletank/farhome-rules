@@ -540,7 +540,7 @@ The Sentry can only perform a single action each turn.
  | | | | |
  |:---|---:|:---|---:|
  | **Defense:** | 1/4 | **AP:** | 15 |
- | **Wounds:** | 14 | **Challenge:** | 14 |
+ | **Wounds:** | 11 | **Challenge:** | 14 |
  | **Move/Sprint:** | 3/2 | **Size:** | Large |
  
 |STR|DEX|STA|INT|WIL|CHA|
@@ -559,26 +559,26 @@ ___
 #### Bronze Colossus
  | | | | |
  |:---|---:|:---|---:|
- | **Defense:** | 3/3 | **AP:** | 14 |
+ | **Defense:** | 3/3 | **AP:** | 15 |
  | **Wounds:** | 16 | **Challenge:** | 25 |
- | **Move/Sprint:** | 5/2 | **Size:** | Large |
+ | **Move/Sprint:** | 4/2 | **Size:** | Large |
  
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |6/4|-2/0|3/2|-/-|2/1|0/0|
 
 ___
-***Construct.*** This creature has no living parts and is immune to Stun, Daze, Poison, and cannot get Lesser or Greater Wounds. This construct has no Intelligence and passes Intelligence saving throws.
+***Construct.*** This creature has no living parts and is immune to Stun, Daze, Paralyze, Poison, and cannot get Lesser or Greater Wounds. This construct has no Intelligence and passes Intelligence saving throws.
 
 ***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. The Bronze Colossus can be targeted by _Dispel Magic_ as if it was a 8th level spell, incapacitating it for 10 minutes on success.
 
-***Metallic.*** This creature has _Resistance_ 1 to elemental and physical damage.
+***Metallic.*** This creature has _Resistance_ 1 to elemental and physical damage. If this creature takes at least 1 wound in fire or lightning damage they deal an extra wound of that damage with all _Punch_ attacks until the end of their next turn.
 
 **Actions**
 
-***Punch.*** *Melee Attack:* 6 AP, 5/0/1/0/0</br>Deals 2/2 in bludgeoning damage.
+***Punch.*** *Melee Attack:* 5 AP, 5/0/1/0/0</br>Deals 2/2 in bludgeoning damage.
 
-***Tremor.*** *Melee Attack, Maneuver:* 7 AP, 4/1/1/0/0</br>Hits all creatures within 2 tiles of the Depth Titan that are touching the ground. Creatures make a Stamina save against this attack. On fail they take 0/3 in bludgeoning damage, being knocked prone on a critical.
+***Tremor.*** *Melee Attack, Maneuver:* 7 AP, 4/1/1/0/0</br>Hits all creatures within 2 tiles of the Bronze Coloussus that are touching the ground. Creatures make a Stamina save against this attack. On fail they take 0/3 in bludgeoning damage, being knocked prone on a critical.
 
 ### Dragons
 
@@ -714,7 +714,7 @@ ___
 ___
 ***Dragonfear.*** Any hostile creature within 20 tiles that can see the Dragon makes a Willpower save at the start of their turn against 2 Superior dice. On fail they are feared for 1 minute with the Dragon as the source. A creature that succeeds against this is immune to it for 24 hours.
 
-***Magic Resistance.*** This creature adds 1 Superior die to saving throws against magic.
+***Magic Resistance.*** This creature adds 1 Superior die to saving throws against non-damaging magic.
 
 ***Chromatic Scales.*** This dragon has _Resistance_ 1 to fire damage in addition to resistances based on its color:
 
@@ -734,7 +734,7 @@ ___
 
 ***Firebreath.*** *Special Attack:* 10 AP, 3/1/2/0/0</br>Breathes fire in a 6x6 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/5 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
 
-***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 2, 3/1/1/0/0</br>Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 2 tiles, being knocked prone on a critical.
+***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 2, 3/1/1/0/0</br>Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 2 tiles and take 0/1 in thunder damage, being knocked prone on a critical.
 ___
 
 #### Adult Chromatic Dragon
@@ -751,7 +751,7 @@ ___
 ___
 ***Dragonfear.*** Any hostile creature within 20 tiles that can see the Dragon makes a Willpower save at the start of their turn against 3 Superior dice. On fail they are feared for 1 minute with the Dragon as the source. A creature that succeeds against this is immune to it for 24 hours.
 
-***Magic Resistance.*** This creature adds 2 Superior dice to saving throws against magic.
+***Magic Resistance.*** This creature adds 2 Superior dice to saving throws against non-damaging magic.
 
 ***Chromatic Scales.*** This dragon has _Resistance_ 2 to fire damage in addition to resistances based on its color:
 
@@ -771,7 +771,7 @@ ___
 
 ***Firebreath.*** *Special Attack:* 10 AP, 4/1/2/0/0</br>Breathes fire in a 9x9 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/8 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 3 Superior dice, recharging this attack on a critical.
 
-***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 3, 4/1/0/0/0</br>Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 2 tiles, being knocked prone on a critical.
+***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 3, 4/1/0/0/0</br>Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 3 tiles and take 0/2 in thunder damage, being knocked prone on a critical.
 ___
 
 #### Ancient Chromatic Dragon
@@ -788,7 +788,7 @@ ___
 ___
 ***Dragonfear.*** Any hostile creature within 20 tiles that can see the Dragon makes a Willpower save at the start of their turn against 4 Superior dice. On fail they are feared for 1 minute with the Dragon as the source. A creature that succeeds against this is immune to it for 24 hours.
 
-***Magic Resistance.*** This creature adds 3 Superior dice to saving throws against magic.
+***Magic Resistance.*** This creature adds 3 Superior dice to saving throws against non-damaging magic.
 
 ***Chromatic Scales.*** This dragon has _Resistance_ 3 to fire damage in addition to resistances based on its color:
 
@@ -808,7 +808,7 @@ ___
 
 ***Firebreath.*** *Special Attack:* 10 AP, 5/1/2/0/0</br>Breathes fire in a 12x12 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 3/11 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 3 Superior dice, recharging this attack on a critical.
 
-***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 5, 5/0/1/0/0</br>Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 2 tiles, being knocked prone on a critical.
+***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 4, 5/1/0/0/0</br>Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 3 tiles and take 0/3 in thunder damage, being knocked prone on a critical.
 ___
 
 ### Demons
@@ -2839,7 +2839,7 @@ A book of instructions for enchanting items, made by the battle mage Aventus.
 #### Band of Silence
 *Wondrous Item*
 
-This black metal band resizes itself to fit around the wearers forearm. Once per day you can command the band to emit a field of absolute silence for 10 minutes. Once activated the field stays until dispelled or the duration ends. The field extends to all adjacent tiles around the wearer and moves with them. A creature in the field is unable to make or hear a sound, and gains resistance 3 to thunder damage.
+This black metal band resizes itself to fit around the wearers forearm. Once per day you can command the band to emit a field of absolute silence for 10 minutes. Once activated the field stays until dispelled or the duration ends. The field extends to all adjacent tiles around the wearer and moves with them. A creature in the field is unable to make or hear a sound, is Silenced, and gains resistance 3 to thunder damage.
 
 #### Barrier Cloak
 *Wondrous Item, Requires Attunement*
@@ -2850,9 +2850,14 @@ You gain Force Resistance 1 while wearing this cloak. Once per long rest you can
 A hexigonal shield lined with gold. Once per day you may cast _Barrier_ at 2nd level using 3 Superior dice for the spellcasting roll.
 
 #### Battle Fury
-*Magical Battleaxe +2*
+*Magical Battleaxe +2, Reach*
 
 This massive battle axe requires 4 Strength to wield. Attacks with this weapon cost 2 more AP but deal an additional wound of damage. Basic attacks always cleave hitting a creature adjacent to your target if they are in your zone of control. While attuned to this weapon, after landing the killing blow on a creature using this weapon you may spend a healing surge, healing for the wounds rolled.
+
+#### Battlemaster's Prize
+*Magical Weapon +1, Requires Attunement*
+
+Battlemaster's prize can appear as any weapon, but does not change form after being found. While attuned to this weapon any maneuver you make that uses this weapon has its level increased; Basic maneuvers become enhanced and enhanced maneuvers become superior.
 
 #### Beast Tamer Gloves
 While wearing these gloves you have expertise in Animal Handling checks and gain the _Horde Fighter_ feat. When touching a beast with these gloves you are able to communicate emotions, warnings, and needs. For example, you know if the beast is aggressive, defending their territory, or friendly. You know if the beast is asking for help or food, or if the beast is warning you of any dangers, such as nearby predators, traps, or hazards.
@@ -2862,12 +2867,12 @@ While wearing these gloves you have expertise in Animal Handling checks and gain
 #### Belt of Dwarvenkind
 *Wondrous Item, Requires Attunement*
 
-While wearing this belt your gain +2 proficiency to your Stamina save. If you do not know Dwarvish, you are able to read and speak it, and add 1 superior die to Charisma skills with dwarves.
+While wearing this belt your gain expertise with your Stamina save. If you do not know Dwarvish, you are able to read and speak it, and add 1 superior die to Charisma skills with dwarves.
 
 #### Belt of Elvenkind
 *Wondrous Item, Requires Attunement*
 
-While wearing this belt your gain +2 proficiency to your Dexterity save. If you do not know Elvish, you are able to read and speak it, and add 1 superior die to Charisma skills with elves.
+While wearing this belt your gain expertise with your Dexterity save. If you do not know Elvish, you are able to read and speak it, and add 1 superior die to Charisma skills with elves.
 
 #### Bewitched Blackcone
 *Wondrous Item*
@@ -2895,6 +2900,16 @@ The Chimes can be used to ask the spirits for guidance. Spending a charge and me
 *Magic Leather Armor +1, Requires Attunement*
 
 Leather armor with bones woven to reinforce it. Once per day you may cast _Cloud of Teeth_ at 3rd level.
+
+#### Boots of Leaping
+*Wondrous Item, Requires Attunement*
+
+light leather boots with feathers sewn up the sides. When wearing these boots you can jump 3 times further. While attuned to the boots you know the superior version of the _Savage Leap_ maneuver and it has a range of 4 tiles instead of 2.
+
+#### Boots of Momentum
+*Wondrous Item*
+
+Heavy boots that are slow to move and hard to stop. While wearing your sprint speed is reduced by 1. When you move at least 2 tiles and land an attack you may reroll all wound dice in the attack and push the creature back 1 tile if they are Large or smaller, moving to their tile.
 
 #### Carrion Feather Armor
 *Scalemail Armor, Requires Attunement*
@@ -3046,6 +3061,11 @@ This ring imbues an extreme vitality to the user. Once per day the wearer can ac
 
 If this brings the wearer to 0 wounds or below they are consumed by the ring, leaving no body.
 
+#### Faith
+*Magical Shield, Requires Attunement*
+
+While attuned to the shield you may use your Religion roll inplace of Willpower saves. Once per day, when you are reduced to 0 health from an attack or spell that doesn't outright kill you, make a Religion check against 3 terrible dice. On success you survive with 1 wound.
+
 #### Falnalnen's Tome of Wands
 *Wondrous Item*
 
@@ -3130,6 +3150,21 @@ A cloak infused with the scales of a Greater Demon. While attuned you gain the _
 **Greater Demon Resistance** You add 2 superior dice with saving throws against non-damaging spells and have _Resistance_ 1 against fire, cold, and lightning damage.
 
 ***Portal of Flames.*** *Special Action:* 4 AP, Range 10, 3 Superior Dice</br>You are engulfed in flames, teleporting to an unoccupied location in range. All adjacent creatures make a Dexterity save against this roll, taking 0/3 in fire damage on fail. Adjacent creatures that are grappling you automatically fail this roll.
+
+#### Hammer of Justice
+*Magical Mace +2, Requires Attunement*
+
+A heavy hammer inscribed with the holy symbol of justice. Once per turn you may spend 5 AP to mark a creature as an Agent of Chaos for the next 24 hours. While marked they have _Vulnerability_ 1 to holy damage from your attacks and spells. You add 2 superior dice to saving throws against non-damging effects coming from an Agent of Chaos and you are immune to Sleep. While an Agent of Chaos is within sight you are incapable of fleeing.
+
+You gain the _Hammer Toss_ maneuver .
+
+##### Hammer Toss
+- **AP Cost:** 5
+- **Weapon:** Bludgeoning
+- **Range:** 7
+
+Throw your hammer at a creature in range. Make a ranged weapon attack against the creature, dealing an extra wound in damage on hit and they are Dazed until the end of their next turn on a critical. If the creature is an Agent of Chaos they are also Weakened and Silenced until the end of their next turn on a critical. The hammer returns to your hand after the attack.
+
 
 #### Heart of Madness
 *Wondrous Item, Requires Attunement*
@@ -3325,6 +3360,11 @@ This heavy crossbow has a second chamber that will occasionally cause it to fire
 
 Your max AP increases by 1 and any slow effect against you is reduced by 1.
 
+#### Ring of Haste
+*Wondrous Item, Requires Attunement*
+
+This item has 5 charges, regaining all charges at dawn. On your turn you may spend a charge and 2 AP to gain the effects of the spell _Quicken_ for 10 minutes. You may spend additional charges to add a critical to the effect. You may spend 5 charges and 2 AP to give yourself the effects of the spell _Haste_ for 10 minutes.
+
 #### Ring of Protection +1, +2, +3
 *Wondrous Item, Requires Attunement*
 
@@ -3334,6 +3374,11 @@ A strange ring that wards the wearer from danger. When making a defense roll you
 *Wondrous Item*
 
 A ring adorned with silver ram's head. You may cast _Thundering Blow_ as a cantrip, using your unarmed attack roll instead of spellcasting. This can be used 3 times, at which point the ram tarnishes. This ring can be used again after a successful repair roll.
+
+#### Ring of the Archmage
+*Wondrous Item, Requires Attunement*
+
+While wearing this ring arcane spells you cast are cast 1 level higher.
 
 #### Ritual Flask
 *Wondrous Item*
@@ -3382,6 +3427,11 @@ Make an attack roll against a target, turning you and the dagger into shadow. On
 
 A translucent white crystal. You may spend 5 AP to cause it to emit bright light out 3 tiles and dim light a further 3. Creatures in the bright light add a crit to saving throws against undead and demons.
 
+#### Shield of the Defender
+*Magical Shield Requires Attunement*
+
+While attuned to the shield you know the superior version of the _Protector_ maneuver. _Protector_ can be used when a creature is targeted by an attack or spell, adding the shields defense die to the creatures saving throw.
+
 #### Shield of Eyes
 *Magic Shield*
 
@@ -3414,6 +3464,13 @@ When taking the defend action you are immune to opportunity attacks until the st
 *Wondrous Item, Requires Attunement*
 
 A large blue orb with storm clouds swirling inside. While attuned to this item all Lightning spells you cast start with 1 crit (but no successes) and you may reroll 1 die for those rolls. Regardless of the weather, while you hold the orb it is always considered stormy weather for the purposes of spellcasting.
+
+#### Snakecrest Stilleto
+*Magic Dagger +1*
+
+A stilleto with a snake-like handle, the snakes fangs keep the blade slick with a deadly poison. Once per turn, when you land a critical hit on a creature with the stilleto you add 3 wound dice in poison damage to the attack, giving the creature Poison 1 for 1 hour.
+
+during a short or long rest you may extract a vial of poison from the stilleto. The poison can used to coat a blade 4 times, giving this weapons effect. The poison lasts for 1 day before becoming inert.
 
 #### Spear of Decay
 *Magic Spear +1*
@@ -3765,17 +3822,17 @@ Whoever wields War seeks to rise in power, using that power to rule over others 
 #### War +1
 *Magic Weapon +1*
 
-While attuned to War you gain an aura of battle. You and all creatures of your choosing within 2 tiles are immune to fear and charm effects from mundane sources or spells of 3rd level and below.
+While attuned to War you gain an aura of battle. You and all creatures of your choosing within 2 tiles are immune to fear, charm, and sleep effects from mundane sources or spells of 3rd level and below.
 
 #### War +2
 *Magic Weapon +2*
 
-While attuned to War you gain an aura of battle. You and all creatures of your choosing within 5 tiles are immune to fear and charm effects from mundane sources or spells of 6th level and below. Once per day you may cast _Spirit Warriors_ at 5th level. You may target up to 5 corpses with the spell automatically succeeding.
+While attuned to War you gain an aura of battle. You and all creatures of your choosing within 5 tiles are immune to fear, charm, and sleep effects from mundane sources or spells of 6th level and below. Once per day you may cast _Spirit Warriors_ at 5th level. You may target up to 5 corpses with the spell automatically succeeding.
 
 #### War +3
 *Magic Weapon +3*
 
-While attuned to War you gain an aura of battle. You and all creatures of your choosing within 10 tiles are immune to fear and charm effects from mundane sources or spells of 9th level and below. You may spend a healing surge to empower the sword and your allies until the start of your next turn. While empowered you have Combat Advantage and deal an extra wound die in death damage with your attacks.
+While attuned to War you gain an aura of battle. You and all creatures of your choosing within 10 tiles are immune to fear, charm, and sleep effects from mundane sources or spells of 9th level and below. You may spend a healing surge to empower the sword and your allies until the start of your next turn. While empowered you have Combat Advantage and deal an extra wound die in death damage with your attacks.
 
 Once per day you may cast _Spirit Warriors_ at 5th level. You may target up to 10 corpses with the spell automatically succeeding.
 

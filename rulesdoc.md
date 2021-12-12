@@ -749,7 +749,7 @@ When making any roll, a hexed creature replaces a critical with a single success
 An incapacitated creature takes no actions and automatically fails Strength and Dexterity saving throws. While incapacitated they grant combat advantage to adjacent attackers, and attacks and maneuvers that deal physical damage deal an extra wound die per critical success against them.
 
 ##### Paralyzed
-A paralyzed creature gains no benefit from their Dexterity saving throw proficiency. When taking an action they first roll a wound die. If the result is a wound they do not take the action and lose the AP spent.
+A paralyzed creature gains no benefit from their Dexterity saving throw proficiency. When taking an action they first roll a wound die. If the result is a wound they may choose to not take the action and spend the AP for it or spend the remainder of their AP to take the action.
 
 ##### Poison
 A poisoned creature adds a bad die to all attacks, saving throws, and ability checks, adding an additional bad die for every level of poison. Only the highest level poison takes effect. For example someone who has poison and poison 2 only adds 2 bad dice instead of 3.
@@ -1747,7 +1747,7 @@ Multiple casters can attempt to counter the same spell, using the highest spellc
 
 See far into the distance, bending your sight around obstacles. Choose a location in range and make a spellcasting roll against 2 terrible die, or 3 if the location is unfamiliar to you. On success you can see the target location as long as it is not complete incased. For example you would be able to see the happenings in a town, but not inside buildings. You can see the location as if you were present there but cannot make out sounds. At any time you may change the target of your sight requiring a turn to reorient yourself.
 
-Add an enhanced die for every level cast above 3rd.
+Increase the range by 1 mile and add an enhanced die for every level cast above 3rd.
 
 
 #### Fireball
@@ -4509,6 +4509,7 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 - [Wild Attack](#Wild-Attack)
 
 ##### Level 3
+- [Charge!](#Charge!)
 - [Heavy Swing](#Heavy-Swing)
 - [Pinning Shot](#Pinning-Shot)
 - [Press the Attack](#Press-the-Attack)
@@ -4633,7 +4634,7 @@ This cannot be used if you are adjacent to your target. You make a running leap 
 
 ***Enhanced:*** Add an enhanced die to the attack roll.
 
-***Superior:*** If you are dual wielding you may immediately Savage Leap to another creature using your offhand weapon for 2 AP.
+***Superior:*** If you are dual wielding you may immediately Savage Leap to another creature using your offhand weapon for 3 AP.
 
 #### Shield Slam
 
@@ -4803,6 +4804,19 @@ Make a wild melee attack against a creature, adding a normal die to your attack 
 ***Superior:*** On a critical you add 2 wound dice to the damage.
 
 ### Level 3
+
+#### Charge!
+
+- **AP Cost:** 7/6/6
+- **Weapon:** any weapon
+- **Range:** melee
+- **Level Required:** 3/11/21
+
+Used in place of a move action, you must target a creature you are not adjacent to. Charge forwards, striking at a creature within your move speed and moving yourself adjacent to them. Make a normal weapon attack adding a critical success to the attack roll. On hit you deal normal damage and stagger them.
+
+***Enhanced:*** Add 2 critical successes to your roll and your move speed is increased by 2 for the attack.
+
+***Superior:*** You add a wound die to the damage. Once per round, as a reaction to an ally being knocked unconscious you can spent 2 AP to Charge! at an enemy adjacent to your unconscious ally.
 
 #### Heavy Swing
 
@@ -5349,7 +5363,7 @@ When making a conversation challenge against a non-hostile creature you add a su
 You are used to pushing your body to its limits. When traveling or staying awake you automatically pass your first exhaustion roll, allowing you to travel further and stay up longer without negative effects. As long as you have no levels of exhaustion your first healing surge used during a rest heals for its maximum value.
 
 #### Danger Sense
-*Requires proficiency in perception, 10th level*
+*Requires proficiency in perception, 8th level*
 
 When making a saving throw against an attack, damaging spell, or damaging effect you can see you add 1 superior die to the roll.
 
@@ -5607,6 +5621,11 @@ You may afflict a creature with two different curses instead of one. You gain a 
 
 You take no penalties from wearing armor. When making a defense roll you may reroll 1 defense die.
 
+#### Attuned Senses
+*Requires Danger Sense, 12th level*
+
+You cannot be flanked. You have blindsight over adjacent tiles, allowing you to through darkness and invisible creatures on those tiles.
+
 #### Durable Runes
 *Requires Runesmith, 10th level*
 
@@ -5722,7 +5741,7 @@ Once per long rest, when rolling initiative as long as you are not surprised you
 #### Titanic Blow
 *Requires 5 Strength, 20th level*
 
-When rolling wounds from an attack or maneuver that uses your Strength score you reroll any blank wound dice. You can do this up to your Strength score after which you must long rest before using again.
+You deal an extra wound die with Strength based weapons. On hitting a creature you may reroll any wound dice and take the new values. You can do this 3 times per long rest.
 
 #### Turnabout
 *Requires 5 Dexterity, 20th level*
