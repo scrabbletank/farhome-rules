@@ -1668,7 +1668,7 @@ Add an enhanced die for every level cast above 2nd.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Targeting up to 5 creatures in range create a protective ward around their minds. Make a spellcasting roll against 2 bad dice for each creature targeted. On success the creatures gain _Resistance_ 1 to pyschic damage. For the duration, unless this creature is already dazed any effect that would stun this creature dazes it intsead, and any effect that dazes it staggers instead.
+Targeting up to 5 creatures in range create a protective ward around their minds. Make a spellcasting roll against 2 bad dice for each creature targeted. On success the creatures gain _Resistance_ 1 to pyschic damage and has twice as many wounds when calculating sleep effects. For the duration, unless this creature is already dazed any effect that would stun this creature dazes it intsead, and any effect that dazes it staggers instead.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -2104,7 +2104,7 @@ The area increases by 2 and you add a superior die to your spellcasting rolls fo
 #### Conjuration
 *6th level*
 
-- **Casting Time:** 10 minutes
+- **Casting Time:** 9 AP
 - **Range:** touch
 - **Duration:** 1 day
 
@@ -2112,7 +2112,7 @@ You conjure or reshape material into a form of your choosing. The material can b
 
 On casting the spell make a spellcasting roll against 3 bad dice, on success you conjure an object or objects up to 4 tiles in size, or 1/4th that size when conjuring items made of stone or metal.
 
-The amount you can conjure doubles with each level above 6th; up to 8 tiles at 7th level, 16 tiles at 8th level, and 32 tiles at 9th level.
+The amount you can conjure doubles with each level above 6th; up to 8 tiles at 7th level, 16 tiles at 8th level, 32 tiles at 9th level, and 64 tiles at 10th level.
 
 #### Earthquake
 *6th level*
@@ -2285,7 +2285,7 @@ Add 2 wounds for each level cast above 8th.
 - **Range:** self
 - **Duration:** concentration, 1 minute
 
-You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining Poison, Slow, and are uneffected by hazardous terrain.
+You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining Poison, Slow, Sleep, Paralyze, and are uneffected by hazardous terrain.
 
 The duration increases by 1 minute for each level cast above 8th.
 
@@ -2511,7 +2511,7 @@ The maximum weight doubles for every level cast above cantrip.
 
 You sense the presence of living creatures in a 3x3 tile area centered on a point in range you can see. Make a spellcasting roll against the creatures Willpower save. On success a dim light surrounds the creatures bodies. For the duration the effected creatures gain no benefits from invisibility, stealth, hiding, or anything that would obscure them from view such as fog or foliage. The light can be seen through walls as long as you are within 5 tiles of the creature.
 
-Add an enhanced die for every level cast above cantrip.
+Add an enhanced die and increase the area by 1 for every level cast above cantrip.
 
 #### Trickery
 *Cantrip*
@@ -2520,7 +2520,7 @@ Add an enhanced die for every level cast above cantrip.
 - **Range:** 3
 - **Duration:** 1 turn
 
-You conjure up a display of illusory light to distract up to 5 creatures. Make a spellcasting roll, adding a terrible die for every creature you target. On success, the creatures add 1 bad die to their next attack or spell attack roll on their next turn.  You may cast this as a reaction for 2 AP, targeting a single creature and making a spellcasting roll against 2 terrible dice instead.
+You conjure up a display of illusory light to distract up to 5 creatures. Creatures make a Willpower save against your spellcasting roll, adding a bad die for every creature you target past the first. On success, the creatures add 1 bad die to their next attack or spell attack roll on their next turn, or a terrible die on a critical.  You may cast this as a reaction for 2 AP, targeting a single creature and making a spellcasting roll against 2 terrible dice instead.
 
 Add an enhanced die for every level cast above cast cantrip.
 
@@ -3113,7 +3113,7 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Enhance the speed of up to 5 willing creatures you can see. Make a spellcasting roll adding 2 terrible dice for each creature targeted. On success, all creatures have their move and sprint speeds increased by 3, have their max AP increased by 4, and gain 2 superior dice to their Dexterity saves. When the spell ends all creatures make an exhaustion roll against 2 bad and 1 terrible dice, gaining a level of exhaustion on fail.
+Enhance the speed of up to 5 willing creatures you can see. Make a spellcasting roll adding 2 terrible dice for each creature targeted. On success, all creatures have their move and sprint speeds increased by 3, have their max AP increased by 5, and gain 2 superior dice to their Dexterity saves. When the spell ends all creatures make an exhaustion roll against 2 bad and 2 terrible dice, gaining a level of exhaustion on fail.
 
 Add an enhanced die for every level cast above 4th.
 

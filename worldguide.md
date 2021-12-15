@@ -162,3 +162,63 @@ A building for taking care of and trading horses. A town with a large trade pres
 - lieutenants have a number of roles which give different stats
 
 - spymaster: provides either half its stealth or investigation to Intrigue rolls
+
+
+### Animal Companions
+Beasts and creatures with -1 or less Intelligence can become animal companions. Finding an animal companion can be challenging, often becoming an adventure on its own. Under normal circumstances a beast is only eligable to become a companion if it meets these conditions:
+
+- They are young or a newborn.
+- They are not hostile.
+- They have an Intelligence score of -1 or less
+
+A character can attempt to befriend the animal by making an Animal Handling check against a challenge determined by the GM. On success you befriend the animal and they become your companion. New animal companions are untrained. They will follow you, but will not obey any commands or participate in combat. By default a character can only have a single animal companion, however this can be changed with feats.
+
+#### Intelligent Companions
+In some circumstances your GM may allow you to befriend creatures that do not meet the conditions above. In these circumstances you make either an Animal Handling or Conversation check, GM's choice, with the GM determining the challenge. On success they become your companion as normal, however intelligent creatures may obey your commands without training. These companions still require training to effectively fight along side you. Any untrained companion that enters combat is controlled by your GM and acts independently.
+
+#### Training
+Companions can be trained to fight and obey your commands. You may train your companion as a downtime action or during a long rest as long as you take no other actions. For every 7 days spent training you make an animal handling roll against a terrible die, adding a bad die for every 5 CR the creature has. After 3 successes you bond with your companion, allowing them to fight and be given commands.
+
+Trained creatures gain 1 proficiency to attacks and 2 proficiency to saving throws. Their max wounds increases based on your level, gaining an extra wound at levels 7, 14, 21, and 28.
+
+#### Fighting Companions
+Animal companions take their actions during your turn. Each turn they may move, sprint, and make a single basic attack with you controlling their actions.
+
+While fighting companions have been trained for combat, they are still animals. While your companion is not at full health you make an Animal Handling check at the start of each of your turns. The challenge for this roll is a terrible die, adding a bad die for each adjacent enemy. If the companion is below half health, rounded down, add terrible dice instead. On fail the companion turns feral, spending its turn attacking a random creature in range. If there is no creature in range it moves towards the closest creature and attacks.
+
+#### Advanced Training
+Completing an adventure or gaining a level with a companion increases your bond with them, making them more effective in combat. For each adventure completed or level gained you may choose one of the following benefits:
+
+- They make two basic attacks each turn instead of one.
+- They learn an attack or maneuver shown on the creatures stat block. You may use this attack or maneuver in place of basic attacks.
+- They gain 2 proficiency points.
+
+#### Companion Equipment
+Trained companions can be given specially made armor and weapons to aid them in combat. Animal equipment can be enchanted, following the same rules as enchanting character equipment. Animal armor replaces one of their normal defense dice with a superior defense die and animal weapons replace a wound die with a wound for all of their attacks and maneuvers. Animal equipment is expensive, usually requiring a blacksmith to custom fit them to your companion.
+
+| Equipment | Cost (Medium) | Cost (Large) |
+|:----:|:----:|
+| Armor | 2pt | 5pt |
+| Weapons | 1pt | 2pt, 50sc |
+
+### Feats
+
+#### Beastmaster
+*Requires proficiency in Animal Handling, 5th level*
+
+You may have any number of animal companions. For each additional companion in combat you add a bad die to Animal Handling checks.
+
+#### Ferocity
+*Requires proficiency in Animal Handling, 3 Strength, 8th level*
+
+Your companion shares your _Brutal Strikes_, _Battering Ram_, _Overswing_, and _Overwhelming Force_ feats.
+
+#### Strengthened Bond
+*Requires proficiency in Animal Handling, 2 Willpower*
+
+While adjacent to your companion you have expertise in Intimidation, Survival, and Perception checks. Your companion may use your Willpower save instead of theirs.
+
+#### Tag Team
+*Requires proficiency in Animal Handling, 3rd level*
+
+You have Combat Advantage against creatures that your companion has attacked this turn. While your companion is adjacent to you they cannot go feral.
