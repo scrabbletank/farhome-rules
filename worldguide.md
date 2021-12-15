@@ -197,7 +197,7 @@ Completing an adventure or gaining a level with a companion increases your bond 
 Trained companions can be given specially made armor and weapons to aid them in combat. Animal equipment can be enchanted, following the same rules as enchanting character equipment. Animal armor replaces one of their normal defense dice with a superior defense die and animal weapons replace a wound die with a wound for all of their attacks and maneuvers. Animal equipment is expensive, usually requiring a blacksmith to custom fit them to your companion.
 
 | Equipment | Cost (Medium) | Cost (Large) |
-|:----:|:----:|
+|:----:|:----:|:----:|
 | Armor | 2pt | 5pt |
 | Weapons | 1pt | 2pt, 50sc |
 
