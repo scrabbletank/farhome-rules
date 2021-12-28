@@ -45,7 +45,7 @@ ___
 
 ***Bite.*** *Melee Attack:* 5 AP, 2/0/3/0/0</br>On hit deals 1/1 in piercing damage.
 
-***Leap.*** *Maneuver*, *Melee Attack:* 7 AP, Range 2, 2/0/4/0/0</br>The wolf leaps up to 2 tiles, ending in a tile adjacent to the target creature. The creature makes a Defense or Dexterity save, taking 1/1 in piercing damage on fail, being knocked prone on a critical.
+***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 2/0/4/0/0</br>The wolf leaps up to 2 tiles, ending in a tile adjacent to the target creature. The creature makes a Defense or Dexterity save, taking 1/1 in piercing damage on fail, being knocked prone on a critical.
 ___
 
 As you can see there is quite a bit going on here. The statblock is broken down into 4 parts. The first are the monsters general stats. Here you will find:
@@ -66,17 +66,23 @@ The final section contains all the actions a monster can take. Each action follo
 - [Wolf - C1](#Wolf)
 - [Bear - C2](#Bear)
 - [Boar - C2](#Boar)
-- [Screeching Bear - C7](#Screeching-Bear)
+- [Vargr - C6](#Vargr)
+- [Cinderbug Swarm - C7](#Cinderbug-Swarm)
+- [Screeching Bear - C8](#Screeching-Bear)
 - [Burrowbeast - C8](#Burrowbeast)
+- [Griffin - C13](#Griffin)
 - [Dire Bear - C15](#Dire-Bear)
 - [Mirelurk Stalker - C14](#Mirelurk-Stalker)
-- [Cinderbug Swarm - C7](#Cinderbug-Swarm)
 - [Giant Eagle - C17](#Giant-Eagle)
+- [Basilisk - C25](#Basilisk)
 
 [Celestials](#Celestials)
 - [Lesser Spirit - C4](#Lesser-Spirit)
 - [Will-o-Wisp - C6](#Will-o-Wisp)
-- [Sanctus Owl - C24](#Sanctus-Owl)
+- [Pegasus - C12](#Pegasus)
+- [Sanctus Owl - C25](#Sanctus-Owl)
+- [Greater Spirit - C30](#Greater-Spirit)
+- [Archangel - C40](#Archangel)
 
 [Constructs](#Constructs)
 - [Scarecrow - C2](#Scarecrow)
@@ -92,7 +98,7 @@ The final section contains all the actions a monster can take. Each action follo
 - [Quill Demon - C12](#Quill-Demon)
 - [Seraptis Demon - C18](#Seraptis-Demon)
 - [Ephial - C20](#Ephial)
-- [Iber Demon - C24](#Iber-Demon)
+- [Iber Demon - C20](#Iber-Demon)
 - [Naga - C25](#Naga)
 - [Scaled Demon - C30](#Scaled-Demon)
 - [Taurus Demon - C40](#Taurus-Demon)
@@ -123,15 +129,16 @@ The final section contains all the actions a monster can take. Each action follo
 - [Faerie Dragon - C16](#Faerie-Dragon)
 - [Night Hag - C14](#Night-Hag)
 - [Death Hag - C18](#Death-Hag)
-- [Archfey - C40](#Archfey)
+- [Archfey - C45](#Archfey)
 
 [Giants](#Giants)
 - [Troll - C8](#Troll)
 - [Ogre - C11](#Ogre)
 - [Ogre Warrior - C13](#Ogre-Warrior)
 - [Ogre Shaman - C14](#Ogre-Shaman)
-- [Ettin - C15](#Ettin)
-- [Depth Titan - C25](#Depth-Titan)
+- [Ettin - C20](#Ettin)
+- [Ice Giant - C30](#Ice-Giant)
+- [Depth Titan - C35](#Depth-Titan)
 
 [Goblinoids](#Goblinoids)
 - [Goblin - C1/2](#Goblin)
@@ -140,8 +147,9 @@ The final section contains all the actions a monster can take. Each action follo
 - [Twili Assassin - C7](#Twili-Assassin)
 - [Twili Witch - C9](#Twili-Witch)
 - [Orc - C10](#Orc)
-- [Orc Wargrider - C12](#Orc-Wargrider)
+- [Orc Vargrider - C12](#Orc-Vargrider)
 - [Orc Shaman - C14](#Orc-Shaman)
+- [Orc Warlord - C20](#Orc-Warlord)
 
 [Humanoids](#Humanoids)
 - [Peasant - C1/4](#Peasant)
@@ -163,6 +171,8 @@ The final section contains all the actions a monster can take. Each action follo
 - [Harpy - C4](#Harpy)
 - [Owlfeather Harpy - C7](#Owlfeather-Harpy)
 - [Harpy Sorcerer - C9](#Harpy-Sorcerer)
+- [Sentient Slime - C8](#Sentient-Slime)
+- [Black Tar - C15](#Black-Tar)
 - [Wendigo - C8](#Wendigo)
 - [Serpent Warrior - C13](#Serpent-Warrior)
 - [Serpent Curseblood - C17](#Serpent-Curseblood)
@@ -172,11 +182,11 @@ The final section contains all the actions a monster can take. Each action follo
 [Outsiders](#Outsiders)
 - [Eye of Morgan - C4](#Eye-of-Morgan)
 - [Void Spawn - C4](#Void-Spawn)
-- [Chasme - C6](#Chasme)
 - [Merculent - C7](#Merculent)
-- [Mind Whisperer - C12](#Mind-Whisperer)
-- [Mindful One - C12](#Mindful-One)
-- [Void Speaker - C20](#Void-Speaker)
+- [Mind Whisperer - C10](#Mind-Whisperer)
+- [Mindful One - C15](#Mindful-One)
+- [Void Speaker - C30](#Void-Speaker)
+- [Abyssal Hunter - C30](#Abyssal-Hunter)
 
 [Undead](#Undead)
 - [Zombie - C2](#Zombie)
@@ -210,7 +220,7 @@ ___
 
 ***Bite.*** *Melee Attack:* 5 AP, 2/0/3/0/0</br>On hit deals 1/1 in piercing damage.
 
-***Leap.*** *Maneuver*, *Melee Attack:* 7 AP, Range 2, 2/0/4/0/0</br>The wolf leaps up to 2 tiles, ending in a tile adjacent to a creature and attacks them. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
+***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 2/0/4/0/0</br>The wolf leaps up to 2 tiles, ending in a tile adjacent to a creature and attacks them. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
 ___
 
 #### Bear
@@ -251,14 +261,58 @@ ___
 
 ***Tusks.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>On hit deals 1/0 in piercing damage.
 
-***Gore.*** *Maneuver, Melee Attack:* 5 AP, Range 2, 1/1/4/0/0</br>The boar charges towards a creature, ending in a tile within range adjacent to the target creature. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
+***Gore.*** *Melee Attack, Maneuver:* 5 AP, Range 2, 1/1/4/0/0</br>The boar charges towards a creature, ending in a tile within range adjacent to the target creature. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
+___
+
+#### Vargr
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/3 | **AP:** | 11 |
+ | **Wounds:** | 4 | **Challenge:** | 6 |
+ | **Move/Sprint:** | 4/6 | **Size:** | Medium |
+ 
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|2/2|4/2|1/0|-2/0|2/1|-2/0|
+
+___
+***Pack-Tactics.*** This creature has Combat Advantage when attacking a creature that is adjacent to an ally.
+
+***Blood Hunter.*** This creature has a keen sense of smell, being able to track injured creatures up to 1 mile away.
+
+**Actions**
+
+***Bite.*** *Melee Attack:* 4 AP, 3/1/1/0/0</br>On hit deals 1/2 in piercing damage.
+
+***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 3/1/2/0/0</br>The wolf leaps up to 2 tiles, ending in a tile adjacent to a creature and attacks them. The creature makes a Defense or Dexterity save. On hit they take 2/1 in piercing damage, being knocked prone on a critical.
+
+***Howl.*** *Special, Maneuver:* 4 AP, Range 3, 2/0/3/0/0</br>Lets out a bone chilling howl targeting all enemy creatures in range. Creatures make a Willpower save against this roll. On fail they gain Fear until the end of their next turn with the Vargr as the source. A creature that succeeds against this is immune to _Howl_ for the next 24 hours.
+___
+
+#### Cinderbug Swarm
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/4 | **AP:** | 10 |
+ | **Wounds:** | 8 | **Challenge:** | 7 |
+ | **Move/Sprint:** | 4/6 | **Size:** | Large |
+ 
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1/0|4/4|1/0|-2/0|-1/0|0/0|
+
+___
+***Swarm*** This creature takes at most 1 wound from single target attacks and spells and is immune to conditions from those attacks. This creature can occupy the same tiles as other creatures, treating those tiles as difficult terrain.
+
+**Actions**
+
+***Engulf.*** *Melee Attack, Once per turn:* 5 AP, 1/3/1/0/0</br>All creatures occupying the same tiles as the Cinderbug Swarm make a Stamina save against this attack. On hit the creatures take 1/0 in fire damage. This creature adds 1 success to the attack roll and deals an extra 0/1 for every 2 wounds of health remaining.
 ___
 
 #### Screeching Bear
  | | | | |
  |:---|---:|:---|---:|
  | **Defense:** | 0/3 | **AP:** | 12 |
- | **Wounds:** | 9 | **Challenge:** | 7 |
+ | **Wounds:** | 10 | **Challenge:** | 8 |
  | **Move/Sprint:** | 5/3 | **Size:** | Huge |
  
 |STR|DEX|STA|INT|WIL|CHA|
@@ -274,7 +328,7 @@ ___
 
 ***Beak.*** *Melee Attack, Once per turn:* 7 AP, 2/3/1/0/0</br>On hit deals 1/3 in piercing damage.
 
-***Arcane Screech.*** *Maneuver*, *Special:* 7 AP, Range 3, 1/1/3/0/0</br>This creatures screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 2nd level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Screeching Bear gains Combat Advantage with all attacks for the next minute.
+***Arcane Screech.*** *Special, Maneuver:* 7 AP, Range 3, 1/1/3/0/0</br>This creatures screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 2nd level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Screeching Bear gains Combat Advantage with all attacks for the next minute.
 ___
 
 #### Burrowbeast
@@ -297,7 +351,34 @@ ___
 
 ***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0</br>On hit deals 1/3 in piercing damage.
 
-***Dive.*** *Maneuver*, *Melee Attack:* 7 AP, Range 3, 2/2/1/0/0</br>Can only be used while the Burrowbeast is above ground. The Burrowbeast jumps up to 3 tiles, landing on one or more creatures. All creatures the Burrowbeast land on make a Strength or Dexterity save. On hit they take 0/3 in bludgeoning damage, being knocked prone on a critical.
+***Dive.*** *Melee Attack, Maneuver:* 7 AP, Range 3, 2/2/1/0/0</br>Can only be used while the Burrowbeast is above ground. The Burrowbeast jumps up to 3 tiles, landing on one or more creatures. All creatures the Burrowbeast land on make a Strength or Dexterity save. On hit they take 0/3 in bludgeoning damage, being knocked prone on a critical.
+___
+
+#### Griffin
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/4 | **AP:** | 12 |
+ | **Wounds:** | 10 | **Challenge:** | 13 |
+ | **Move/Sprint:** | 5/7 | **Size:** | Large |
+ 
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/1|5/5|1/0|-1/0|2/1|1/0|
+
+___
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+***Flyby.*** While in the air, sprinting does not provoke opportunity attacks.
+
+***Talon Grip.*** The Griffin adds 1 superior die to grapple rolls against medium or smaller creatures.
+
+**Actions**
+
+***Talons.*** *Melee Attack:* 4 AP, 3/2/0/0/0</br>On hit deals 1/2 in piercing damage.
+
+***Bite.*** *Melee Attack:* 7 AP, 4/2/0/0/0</br>On hit deals 2/2 in piercing damage.
+
+***Plummet.*** *Melee Attack, Maneuver:* 4 AP, Range 3, 3/3/0/0/0</br>Can only be used while above the target creature. The Griffin dives down, attempting to pin the creature. The creature makes a Strength or Dexterity save. On fail they take 0/3 in bludgeoning damage, knocked prone, and are grappled by the Griffin.
 ___
 
 #### Dire Bear
@@ -344,26 +425,6 @@ ___
 ***Chomp.*** *Melee Attack, Once per turn:* 5 AP, 4/2/1/0/0</br>On hit deals 2/1 in piercing damage. If the creature is medium or smaller it is also grappled by the Stalker.
 ___
 
-#### Cinderbug Swarm
- | | | | |
- |:---|---:|:---|---:|
- | **Defense:** | 0/4 | **AP:** | 10 |
- | **Wounds:** | 8 | **Challenge:** | 7 |
- | **Move/Sprint:** | 4/6 | **Size:** | Large |
- 
-|STR|DEX|STA|INT|WIL|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|1/0|4/4|1/0|-2/0|-1/0|0/0|
-
-___
-***Swarm*** This creature takes at most 1 wound from single target attacks and spells and is immune to conditions from those attacks. This creature can occupy the same tiles as other creatures, treating those tiles as difficult terrain.
-
-**Actions**
-
-***Engulf.*** *Melee Attack, Once per turn:* 5 AP, 1/3/1/0/0</br>All creatures occupying the same tiles as the Cinderbug Swarm make a Stamina save against this attack. The swarm adds 1 success for every 2 wounds of health it has remaining. On hit the creatures take 1/0 in fire damage, dealing an extra 0/1 for every 2 wounds of health remaining.
-___
-
-
 #### Giant Eagle
  | | | | |
  |:---|---:|:---|---:|
@@ -388,7 +449,7 @@ ___
 
 ***Beak.*** *Melee Attack, Once per turn:* 5 AP, 3/3/0/0/0</br>On hit deals 1/2 in piercing damage. If the creature is concentrating on a spell they add 2 bad dice to the concnetration check from this attack.
 
-***Arcane Screech.*** *Maneuver*, *Special:* 7 AP, Range 5, 1/2/2/0/0</br>The Giant Eagle's screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 4th level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Giant Eagle gains Combat Advantage with all attacks and spells for the next minute.
+***Arcane Screech.*** *Special, Maneuver:* 7 AP, Range 5, 1/2/2/0/0</br>The Giant Eagle's screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 4th level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Giant Eagle gains Combat Advantage with all attacks and spells for the next minute.
 
 
 ### Celestials
@@ -405,7 +466,9 @@ ___
 |-1/0|3/1|1/0|0/0|1/0|2/2|
 
 ___
-***Spirit.*** This creature has _Resistance_ 1 to physical and holy damage.
+***Spirit.*** This creature has _Resistance_ 1 to physical, poison, and holy damage.
+
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
 
 ***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 2nd level using 2/1/3 for their spellcasting rolls, and cannot cast more than 5 times per day.  They know the spells _Radiant Light_, _Holy Protection_, _Guidance_, _Solar Flair_, and _Cleanse_.
 
@@ -428,6 +491,8 @@ ___
 ___
 ***Spirit.*** This creature has _Resistance_ 1 to physical damage and _Resistance_ 3 to lightning damage.
 
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
+
 ***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 2nd level using 2/2/2 for their spellcasting rolls, and cannot cast more than 7 times per day. They know the spells _Static Shock_ and _Call Lightning_.
 
 **Actions**
@@ -437,11 +502,34 @@ ___
 ***Spasm.*** *Reaction:* 2 AP</br>When an adjacent creature fails to take an action due to effects of Paralyze this creature may instead cause that action to succeed, chosing a new target for the action.
 ___
 
+#### Pegasus
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 0/4 | **AP:** | 12 |
+ | **Wounds:** | 10 | **Challenge:** | 12 |
+ | **Move/Sprint:** | 4/8 | **Size:** | Small |
+ 
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/2|5/2|1/0|-1/0|2/2|3/1|
+
+___
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+***Slowfall.*** This creature is immune to falling damage.
+
+**Actions**
+
+***Hooves.*** *Melee Attack:* 4 AP, 2/3/0/0/0</br>On hit deals 0/3 in bludgeoning damage.
+
+***Shockwave.*** *Melee Attack, Maneuver:* 7 AP, Reach, 3/1/2</br>When an adjacent creature fails to take an action due to effects of Paralyze this creature may instead cause that action to succeed, chosing a new target for the action.
+___
+
 #### Sanctus Owl
  | | | | |
  |:---|---:|:---|---:|
  | **Defense:** | 2/2 | **AP:** | 12 |
- | **Wounds:** | 17 | **Challenge:** | 24 |
+ | **Wounds:** | 15 | **Challenge:** | 25 |
  | **Move/Sprint:** | 5/6 | **Size:** | Large |
  
 |STR|DEX|STA|INT|WIL|CHA|
@@ -458,6 +546,62 @@ ___
 **Actions**
 
 ***Bite.*** *Melee Attack:* 5 AP, 3/0/2/0/0</br>On hit deals 1/2 in piercing damage.
+___
+
+#### Greater Spirit
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 2/2 | **AP:** | 14 |
+ | **Wounds:** | 17 | **Challenge:** | 30 |
+ | **Move/Sprint:** | 5/5 | **Size:** | Medium |
+ 
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1/1|3/2|2/0|0/0|4/3|5/5|
+
+___
+***Spirit.*** This creature has _Resistance_ 1 to physical, poison, and holy damage.
+
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 7th level using 5/1/0 for their spellcasting rolls, and cannot cast more than 12 times per day.  They know the spells _Radiant Light_, _Holy Protection_, _Guidance_, _Solar Flair_, _Cleanse_, _Bind Creature_, _Radiance_, _Resurrect_, _Power word: Harm_, _Power word: Heal_, _Divine Word_.
+
+**Actions**
+
+***Smite.*** *Ranged Attack:* 5 AP, Range 5, 4/1/0/0/0</br>Target creature makes a Stamina save. On hit they take 1/3 in holy damage.
+
+***Ray of Purification.*** *Ranged Attack, Maneuver:* 8 AP, Range 10, 5/1/0/0/0</br>Fires a ray of purifying light at a creature. The creature makes a Stamina save. On hit they take 1/6 in holy damage and are Weakened for one minute. On a critical the creature loses the will to fight, being unable to take actions against the Greater Spirit until the end of their next turn.
+___
+
+#### Archangel
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 2/3 | **AP:** | 13 |
+ | **Wounds:** | 25 | **Challenge:** | 40 |
+ | **Move/Sprint:** | 5/5 | **Size:** | Medium |
+ 
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|4/1|3/2|2/0|1/0|4/3|6/5|
+
+___
+***Poison Resistance.*** The Archangel has _Resistance_ 2 to poison damage and is immune to Poisons at level 2 or below.
+
+***Hexproof.*** This creature is immune to Hex 2 and below.
+
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 6/1/0 for their spellcasting rolls, and cannot cast more than 8 times per day.  They know the spells _Destroy Monstrosity, Regeneration, Inner Fire, Judgement, Radiance, Excorism, Word of Command_.
+
+***Detect Evil.*** This creature can detect the presence of Undead or Monstrosities within one mile, knowing their general location.
+
+**Actions**
+
+***Flaming Sword.*** *Melee Attack:* 3 AP, 5/1/1/0/0</br>On hit deals 1/1 in slashing damage, adding 0/3 in fire damage on a critical.
+
+***Judgment Bow.*** *Ranged Attack:* 4 AP, 4/2/1/0/0</br>On hit deals 1/3 in holy damage.
+
+***Arrow of Slaying.*** *Ranged Attack, Maneuver:* 6 AP, 5/2/1/0/0</br>On hit deals 1/1 in holy damage. If the creature has 7 or less wounds they are reduced to 0 instead.
 ___
 
 ### Constructs
@@ -482,7 +626,7 @@ ___
 
 ***Sickle.*** *Melee Attack:* 4 AP, 1/1/3/0/0</br>On hit deals 1/0 in slashing damage. If the creature is Feared they gain the effects of _Curse of Misfortune_ for 1 day.
 
-***Terror*** *Maneuver, Range 3, Special:* 7 AP, 0/1/4/0/0</br>Targeting a creature that can see the Scarecrow, they make a Willpower save. On fail they gain Fear for 1 minute with the scarecrow as the source.
+***Terror*** *Special, Maneuver:* 7 AP, Range 3, 0/1/4/0/0</br>Targeting a creature that can see the Scarecrow, they make a Willpower save. On fail they gain Fear for 1 minute with the scarecrow as the source.
 
 #### Enchanted Armor
  | | | | |
@@ -506,7 +650,7 @@ ___
 
 ***Punch.*** *Melee Attack:* 4 AP, 1/2/2/0/0</br>On hit deals 0/2 in bludgeoning damage.
 
-***Crushing Blow.*** *Maneuver, Melee Attack:* 7 AP, 0/3/3/0/0</br>On hit deals 0/4 in bludgeoning damage, being staggered on a critical.
+***Crushing Blow.*** *Melee Attack, Maneuver:* 7 AP, 0/3/3/0/0</br>On hit deals 0/4 in bludgeoning damage, being staggered on a critical.
 
 #### Sentry
  | | | | |
@@ -554,7 +698,7 @@ ___
 
 ***Slam.*** *Melee Attack:* 6 AP, Reach 2, 4/1/1/0/0</br>Deals 2/2 in bludgeoning damage.
 
-***Sap Life.*** *Maneuver, Melee Attack:* 6 AP, 3/2/1/0/0</br>Only usable against a grappled creature. Pierces a creature with vines, draining the life out of the creature. The grappled creature makes a Stamina save against this attack, taking 0/4 in piercing damage with the Living Tree healing for the damage dealt.
+***Sap Life.*** *Melee Attack, Maneuver:* 6 AP, 3/2/1/0/0</br>Only usable against a grappled creature. Pierces a creature with vines, draining the life out of the creature. The grappled creature makes a Stamina save against this attack, taking 0/4 in piercing damage with the Living Tree healing for the damage dealt.
 
 #### Bronze Colossus
  | | | | |
@@ -965,7 +1109,7 @@ ___
  | | | | |
  |:---|---:|:---|---:|
  | **Defense:** | 2/4 | **AP:** | 14 |
- | **Wounds:** | 16 | **Challenge:** | 24 |
+ | **Wounds:** | 16 | **Challenge:** | 20 |
  | **Move/Sprint:** | 4/6 | **Size:** | Large |
  
 |STR|DEX|STA|INT|WIL|CHA|
@@ -1092,7 +1236,7 @@ ___
 
 **Actions**
 
-***Fists.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>Deals a wound die each of Fire and Bludgeoning damage.
+***Fists.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>Deals a wound die each of Fire and bludgeoning damage.
 ___
 
 #### Mud Sprite
@@ -1367,7 +1511,7 @@ ___
 ___
 ***Enchanting Presence.*** This creature cannot wear armor, instead any attack, maneuver or spell attack against this target adds 1 Terrible die to their rolls.
 
-***Flying.*** This creature can fly using its move or sprint.
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
 
 ***Magic Resistance.*** This creature adds 2 critical successes to defense and saving throws against magic.
 
@@ -1538,7 +1682,7 @@ ___
  |:---|---:|:---|---:|
  | **Defense:** | 0/4 | **AP:** | 12 |
  | **Wounds:** | 13 | **Challenge:** | 14 |
- | **Move/Sprint:** | 4/1 | **Size:** | Large |
+ | **Move/Sprint:** | 4/2 | **Size:** | Large |
  
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1555,23 +1699,25 @@ ___
 #### Ettin
  | | | | |
  |:---|---:|:---|---:|
- | **Defense:** | 0/4 | **AP:** | 14 |
- | **Wounds:** | 16 | **Challenge:** | 15 |
- | **Move/Sprint:** | 4/1 | **Size:** | Large |
+ | **Defense:** | 0/4 | **AP:** | 15 |
+ | **Wounds:** | 20 | **Challenge:** | 20 |
+ | **Move/Sprint:** | 5/2 | **Size:** | Large |
  
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|6/4|-1/0|5/2|-1/0|1/0|-2/0|
+|6/4|-1/0|5/3|-1/0|1/0|-2/0|
 
 ___
-***Twin-Heads.*** The Ettin rolls initiative twice, taking two turns but only can only move once. Effects that Blind, Charm, Stun, or Daze have no effect unless they effect both heads.
+***Twin-Heads.*** The Ettin rolls initiative twice, taking two turns but only can only move once. Effects that Blind, Sleep, Stun, Fear, or Daze have no effect unless they effect both heads.
+
+***Poison Resistance.*** The Ettin has _Resistance_ 1 to poison damage and is immune to Poisons at level 1 or below.
 
 **Actions**
 This creature can only make 1 attack with the Great Club and Bone Axe each turn.
 
-***Great Club.*** *Melee Attack:* 7 AP, 3/2/1/0/0</br>deals 4 wound dice.
+***Great Club.*** *Melee Attack:* 6 AP, Reach, 3/2/1/0/0</br>On hit deals 0/4 in bludgeoning damage.
 
-***Bone Axe.*** *Melee Attack:* 7 AP, 3/2/1/0/0</br>deals 1 wound and 3 wound dice.
+***Cleaving Axe.*** *Melee Attack:* 8 AP, Reach, 3/2/1/0/0</br>Swings its felling axe, targeting 3 adjacent creatures in range. On hit deals 1/3 in slashing damage.
 ___
 
 #### Depth Titan
@@ -1738,7 +1884,7 @@ ___
 ***Wild Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/3/1/0/0</br>Deals 1 wound and 2 wound dice. If the attack deals 3 or more wounds the target gains a random Lesser Wound. After attacking, the Orc grants combat advantage to all attackers until the start of their next turn.
 ___
 
-#### Orc Wargrider
+#### Orc Vargrider
  | | | | |
  |:---|---:|:---|---:|
  | **Defense:** | 1/3 | **AP:** | 11 |
@@ -2087,7 +2233,7 @@ ___
 ___
 ***Sunlight Sensitivity.*** This creature grants Combat Advantage while in direct sunlight.
 
-***Flying.*** This creature can use it's movement to fly, Hovering in place if ending their turn in the air.
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
 
 **Actions**
 
@@ -2110,7 +2256,7 @@ ___
 ___
 ***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
 
-***Flying.*** This creature can use it's movement to fly, Hovering in place if ending their turn in the air.
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
 
 **Actions**
 
@@ -2135,7 +2281,7 @@ ___
 ___
 ***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
 
-***Flying.*** This creature can use it's movement to fly, Hovering in place if ending their turn in the air.
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
 
 **Actions**
 
@@ -2162,7 +2308,7 @@ ___
 ___
 ***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
 
-***Flying.*** This creature can use its movement to fly, Hovering in place if ending their turn in the air.
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
 
 ***Spellcaster.*** The Harpy Sorcerer has 2 proficiency with Arcane spells. They are a 4th level spellcaster with 14 mana and can cast the following spells: _Static Shock_, _Call Lightning_, _Slowfield_, _Lightning Bolt_.
 
@@ -2173,6 +2319,58 @@ ___
 ***Song of Storms.*** *Special:* 2 AP, 2/0/4/0/0</br>The harpy sings a magical melody, creating strong winds and stormy weather. While singing, any ranged attacks or spells targeting a creature inside the winds can use this roll instead of their defense or saving roll. If the song continues for at least 1 minute storm clouds form and change the weather, lasting for 10 minutes after the song stops.
 
 The Harpy cannot attack while singing and must sing every turn or the Charm ends.
+___
+
+#### Sentient Slime
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 3/0 | **AP:** | 11 |
+ | **Wounds:** | 7 | **Challenge:** | 8 |
+ | **Move/Sprint:** | 3/2 | **Size:** | Medium |
+ 
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/1|0/0|4/4|-2/0|2/0|-2/0|
+
+___
+***Poison Resistance.*** The Sentient Slime has _Resistance_ 2 to poison damage and is immune to Poisons at level 2 or below.
+
+***Amorphous.*** This creature has no defined shape. It can spread itself across a 3x3 tile area or squeeze itself through a 1 inch gap. Any movement while not maintaining its 1x1 form treats all tiles as difficult terrain.
+
+***Acidic.*** Any creature that touches or critically fails a melee attack against the Sentient slime takes 0/2 in poison damage.
+
+**Actions**
+
+***Bash.*** *Melee Attack:* 4 AP, 1/2/2/0/0</br>Deals 1/2 in poison damage.
+
+***Consume.*** *Melee Attack:* 6 AP, 2/2/1/0/0</br>Attempt to surround a medium or smaller creature with its body. The creature makes a Dexterity save, on fail they are restrained by the Sentient Slime and move with it. While restrained they are Silenced and cannot breathe. At the start of the creatures turns they take 1/2 in poison damage. Only one creature can be consumed at a time.
+___
+
+#### Black Tar
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 3/0 | **AP:** | 11 |
+ | **Wounds:** | 16 | **Challenge:** | 8 |
+ | **Move/Sprint:** | 3/2 | **Size:** | Large |
+ 
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|3/1|0/0|4/4|-2/0|2/0|-2/0|
+
+___
+***Poison Resistance.*** The Black Tar has _Resistance_ 2 to poison damage and is immune to Poisons at level 2 or below.
+
+***Unstable.*** When hit with a weapon dealing slashing or bludgeoning damage
+
+***Amorphous.*** This creature has no defined shape. It can spread itself across a 3x3 tile area or squeeze itself through a 1 inch gap. Any movement while not maintaining its 1x1 form treats all tiles as difficult terrain.
+
+***Acidic.*** Any creature that touches or critically fails a melee attack against the Sentient slime takes 0/2 in poison damage.
+
+**Actions**
+
+***Bash.*** *Melee Attack:* 4 AP, 1/2/2/0/0</br>Deals 1/2 in poison damage.
+
+***Consume.*** *Melee Attack:* 6 AP, 2/2/1/0/0</br>Attempt to surround a medium or smaller creature with its body. The creature makes a Dexterity save, on fail they are restrained by the Sentient Slime and move with it. While restrained they are Silenced and cannot breathe. At the start of the creatures turns they take 1/2 in poison damage. Only one creature can be consumed at a time.
 ___
 
 #### Wendigo
@@ -2187,7 +2385,7 @@ ___
 |4/2|3/2|2/0|-2/0|0/0|1/0|
 
 ___
-***Poison Resistance.*** At the end of this creatures turn it reduces the effects of Poison by 1 level.
+***Poison Resistance.*** The Wendigo has _Resistance_ 1 to poison damage and is immune to Poisons at level 1 or below.
 
 ***Voice Mimicry.*** This creature can emulate the voice of the creatures its killed or heard in the past 24 hours. A successful Insight check against this creatures Conversation (1 proficiency) will determine the voice is fake.
 
@@ -2341,26 +2539,6 @@ ___
 ***Bite.*** *Melee Attack, Once per turn:* 3 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die in damage.
 ___
 
-#### Chasme
- | | | | |
- |:---|---:|:---|---:|
- | **Defense:** | 1/3 | **AP:** | 10 |
- | **Wounds:** | 6 | **Challenge:** | 6 |
- | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
-|STR|DEX|STA|INT|WIL|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|4/0|1/0|1/0|-1/0|-1/0|1/0|
-
-___
-
-**Actions**
-
-***Claws.*** *Melee Attack:* 4 AP, 1/3/1/0/0</br>Deals 3 wound dice in damage.
-
-***Savage Leap.*** *Maneuver, Melee Attack:* 5 AP, 1/3/1/0/0</br>Leap 2 tiles towards a target, avoiding opportunity attacks. On hit the target takes 1 wound and 2 wound dice in damage.
-___
-
 #### Merculent
  | | | | |
  |:---|---:|:---|---:|
@@ -2493,7 +2671,7 @@ ___
 ___
 ***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
 
-***Skeletal Form.*** This creature has _Resistance 1_ to Piercing damage and _Vulnerability 1_ to Bludgeoning damage.
+***Skeletal Form.*** This creature has _Resistance 1_ to piercing damage and _Vulnerability 1_ to bludgeoning damage.
 
 **Actions**
 
@@ -2516,7 +2694,7 @@ ___
 ___
 ***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
 
-***Skeletal Form.*** This creature has _Resistance 1_ to Piercing damage and _Vulnerability 1_ to Bludgeoning damage.
+***Skeletal Form.*** This creature has _Resistance 1_ to piercing damage and _Vulnerability 1_ to bludgeoning damage.
 
 **Actions**
 
@@ -2545,7 +2723,7 @@ ___
 
 ***Ghostly Form.*** This creature has no physical body and is immune to the Charm, Possession, and Poison conditions.
 
-***Flying.*** This creature can fly with its movement.
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
 
 **Actions**
 
@@ -2572,13 +2750,13 @@ ___
 
 ***Ghostly Form.*** This creature has no physical body and is immune to the Charm, Possession, and Poison conditions.
 
-***Flying.*** This creature can fly with its movement.
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
 
 **Actions**
 
-***Grasp.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>Deals 2 wound dice in death damage.
+***Grasp.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>On hit deals 0/2 in death damage.
 
-***Strength Drain.*** *Maneuver*, *Melee Attack:* 7 AP, 1/0/4/0/0</br>The target makes a Stamina save, taking 1 wound in death damage, healing the Shadow for 1 wound. The target loses 1 Strength for every crit rolled, up to 2. Creatures regain their Strength after a long rest or after _Cleanse_ has been cast. A creature with a Strength of -3 or less dies, becoming a Shadow in 1 hour.
+***Strength Drain.*** *Maneuver*, *Melee Attack:* 7 AP, 1/0/4/0/0</br>The target makes a Stamina save, taking 1 wound in death damage, healing the Shadow for 1 wound. The target loses 1 Strength for every crit rolled, up to 2. Creatures regain their Strength after a long rest or after _Cleanse_ has been cast on them. A creature with a Strength of -3 or less dies, becoming a Shadow in 1 hour.
 ___
 
 #### Corpse Beast
@@ -2672,13 +2850,13 @@ ___
 
 ***Fortitude.*** When taking lethal damage as long as the attack was not a critical, roll a wound die. On blank the Death Knight survives with 1 health.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 3/2/1 as their spellcasting roll, and cannot cast more than 4 times per long rest. They know the spells _Essence Drain_, _Gloom_,  _Fearful Presence_
-
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 3/2/1 as their spellcasting roll, and cannot cast more than 4 times per long rest. They know the spells _Essence Drain_, _Gloom_,  _Fearful Presence_.
+ 
 **Actions**
 
-***Spiked Mace.*** *Melee Attack:* 4 AP, 4/0/1/0/0</br>Deals 1/2 in physical damage.
+***Spiked Mace.*** *Melee Attack:* 4 AP, 4/0/1/0/0</br>On hit deals 1/2 in physical damage.
 
-***Unholy Smite.*** *Maneuver, Melee Attack:* 4 AP, 4/1/1/0/0</br>Deals 1 wound and 4 wound dice in death damage. Can only be used 3 times per day.
+***Unholy Smite.*** *Maneuver, Melee Attack:* 4 AP, 4/1/1/0/0</br>On hit deals 1/4 in death damage. Can only be used 3 times per day.
 
 ***Superior Shield Slam.*** *Maneuver*, *Melee Attack:* 2 AP, 4/1/1/0/0</br>Knock back all adjacent creatures with your shield. Creatures make a Strength save against this roll. On hit they are staggered, lose any benefit from their shield until the stagger ends, and may be pushed away 1 tile.
 ___
@@ -3180,7 +3358,7 @@ You gain the _Hammer Toss_ maneuver .
 
 ##### Hammer Toss
 - **AP Cost:** 5
-- **Weapon:** Bludgeoning
+- **Weapon:** bludgeoning
 - **Range:** 7
 
 Throw your hammer at a creature in range. Make a ranged weapon attack against the creature, dealing an extra wound in damage on hit and they are Dazed until the end of their next turn on a critical. If the creature is an Agent of Chaos they are also Weakened and Silenced until the end of their next turn on a critical. The hammer returns to your hand after the attack.
@@ -3360,10 +3538,10 @@ A hammer infused with the power of earth. When attacking Elementals you deal an 
 
 ##### Quake
 - **AP Cost:** 7
-- **Weapon:** Bludgeoning
+- **Weapon:** bludgeoning
 - **Range:** Melee
 
-Smash your hammer into the ground, causing the earth in your zone of control to break. Make a weapon attack roll, adding 1 proficient die to the roll. On hit each target takes 1 wound in Bludgeoning damage, and on crit are staggered until the start of your next turn.
+Smash your hammer into the ground, causing the earth in your zone of control to break. Make a weapon attack roll, adding 1 proficient die to the roll. On hit each target takes 1 wound in bludgeoning damage, and on crit are staggered until the start of your next turn.
 
 #### Reflex Harness +1/+2/+3
 *Wondrous Item*
