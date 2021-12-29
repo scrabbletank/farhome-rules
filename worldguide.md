@@ -53,9 +53,15 @@
     - [Haunted Atoll](#haunted-atoll)
   - [Cities](#cities)
     - [Shadowfen Keep](#shadowfen-keep)
+      - [The Labyrinth](#the-labyrinth)
     - [Myrefall](#myrefall)
+      - [The Broker](#the-broker)
     - [Wanderer's Rest](#wanderers-rest)
     - [Hogsfeet](#hogsfeet)
+      - [Mud Docks](#mud-docks)
+      - [Trade Quarter](#trade-quarter)
+      - [Thornbrook Keep](#thornbrook-keep)
+      - [The Sprawl](#the-sprawl)
     - [Wintergate](#wintergate)
     - [Rogueport](#rogueport)
     - [Shimmer Ridge](#shimmer-ridge)
@@ -419,6 +425,14 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - Furthest depths lead to the burial chambers, long forgotten tombs, undead filled crypts.
 - Talk of riches in the crypts below draw adventurers or others looking to earn fame and fortune.
 - Unnatural fogs and cloudy skies make sunlight rare, even on the surface. Some force keeps the more dangerous beasts away.
+- Ruled by a Baron living in the keep above ground.
+
+#### The Labyrinth
+- A huge network of passages, rooms, burial chambers, etc built under shadowfen keep.
+- The closest portions are used by the city to house people, are used for industry, etc. With the less explored and more dangerous areas closed off or baricaded.
+- An elevator linked to a chain pulley is used to decend deeper into the labyrinth, seperating the explored from the unexplored areas.
+- The unexplored areas are filled with undead, rats, ratlings, or other beasts. Some of the passages lead into open cave networks.
+- a thief/cult group has mapped out certain areas of the labyrinth, allowing them to move undetected and undermine the baron.
 
 ### Myrefall
 - Population: ~8000
@@ -426,6 +440,12 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - Bridges connect the islands and shores, with a wall built along the swamp edge of the city.
 - City is big on bartering and deals with money only when they have to, or for drinks. They make a variety of hard liquors and the town is often awake into the late night.
 - Deals/agreements are ingrained into the culture of the town, to the point they'd have a special wood for dealbreakers. While deals are to be kept at all costs if possible, they are negoiable, and can be superceded by another deal. For example, making a deal to backstab someone while already in a deal with them is seen as more moral than just not following through with the original deal.
+
+#### The Broker
+- a very influential merchant living in the heart of Myrefall.
+- Is often used as a record keeper for various deals between parties, stores collateral/payments for the parties.
+- No one in town goes against the Brokers wishes, with those that wrong the Broker quickly finding themselves food for the Myrelurk stalkers.
+- has a pet stalker it keeps in a penned in swamp in the city.
 
 ### Wanderer's Rest
 - Population: ~15,000
@@ -441,6 +461,26 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - Hogsfeet is constantly muddy with it raining for the majority of the year. The deity of the lake northwest of Hogsfeet often creates rainstorms to water the crops and strengthen the rivers.
 - Of the main cities is probably the most distrustful of magic. There are few actual wizards, with the exception of the court seer, and so the town sees most magic as courting disaster. Divine magic being the exception, as the temple dedicated to the deity of the lake is very popular in Hogsfeet, with the majority of the town travelling to it for healing and aid.
 - City is built on labor and trade of raw resources. The Faewyn to the north and mountains to the west, and bountiful fields allows hogsfeet to produce a good chunk of the raw resources used by other cities. This leads to the population being on the poorer side, including the nobles, while the guilds/companies/merchants gain power and wealth.
+
+#### Mud Docks
+- a large piece of the city borders the thornbrook river, leading directly to farhome. The rain and general wetness causes this area to be especially muddy, almost constantly covered in a thick layer of mud.
+- The many docks service all kinds of ships and rafts, the safest and quickest route to farhome.
+- The docks have many warehouses on the outer edges where the ground is more stable, filled with raw goods waiting to be shipped.
+
+#### Trade Quarter
+- surrounding the hill of Thornbrook Keep is the trade quarter, larger houses and mansions where the rich merchants and nobles live.
+- Is the cleanest portion of the city and is surrounded by pallisade walls, separating the inner city from the sprawling outer city.
+
+#### Thornbrook Keep
+- Keep of Lord Thornbrook, ruler of Hogsfeet.
+- Made mainly of wood, is more of a barracks/great hall than a proper keep. Built on top of the rocky hill on the edge of hogsfeet.
+- Pallisade walls surround the keep and the Trade Quarter.
+
+#### The Sprawl
+- A large area filled with houses, inns, and taverns on the other side of the wall.
+- Due to the muddy, unstable ground buildings aren't larger than 1-2 stories. Many buildings have sunken into the ground over the years, causing them to lean slightly. The buildings inthe sprawl are packed near the walls, creating winding, tight alleys and roads.
+- The parts furthest from the river are turned into farmland, being extremely fertile ground and growing a huge amount of surplus food.
+- Sprawl is filled with various breweries, with nearly every tavern having their own meads and ales.
 
 ### Wintergate
 - Population: ~10000 exiles, ~7000 barbarians
@@ -486,8 +526,14 @@ You have Combat Advantage against creatures that your companion has attacked thi
 
 #### The Underways
 - a series of sewers, roads, cellars, and basements linking various areas of the lower and upper city below Farhome. Here you can find the undermarket, an open market without the restrictions of the city above, as well as the wet works, a group of lower city assassins.
+- No one knows just how far the underways reach, and which parts of the city are connected.
+- Beasts lurk in the less explored areas, preying on people that come to close to their dens.
 
 #### Order of the Flame
+- a strange cleric order who listen to an ever burning flame.
+- The flame is said to be a gift from Kella, giving light and heat to mortals and allowing them to build cities and protect themselves.
+- Only the most senior clerics can decifer the will of the flame, seeing meaning in its chaotic movements and flickering.
+- Is a widely respected order in Farhome, having a large sway over the peastants of the slums, making it a good target for bribes, allowing certain parties to instruct the clerics to say what they want.
 
 #### Red Lions
 
