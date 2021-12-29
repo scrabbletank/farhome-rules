@@ -89,11 +89,14 @@
       - [Heartwood](#heartwood)
       - [The Eternal Twilight](#the-eternal-twilight)
     - [Underworld](#underworld)
+      - [Black Citadel](#black-citadel)
+      - [River Styx](#river-styx)
+      - [Caladan's Keep](#caladans-keep)
     - [Hell](#hell)
       - [Infernal Wastelands](#infernal-wastelands)
-    - [Pandemonium](#pandemonium)
-    - [The Fields of Slaughter](#the-fields-of-slaughter)
-    - [The Eternal Desert](#the-eternal-desert)
+      - [Pandemonium](#pandemonium)
+      - [The Fields of Slaughter](#the-fields-of-slaughter)
+      - [The Eternal Desert](#the-eternal-desert)
     - [The Abyss](#the-abyss)
     - [Igni (primal plane of fire)](#igni-primal-plane-of-fire)
     - [Ventus (primal plane of air)](#ventus-primal-plane-of-air)
@@ -607,9 +610,30 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - The forests are filled with red elks, foxes, and small critters that live in the wetlands.
 
 ### Underworld
-
 - land of the dead, permanent gloom covering the land.
 - Destroy monstrosity and radiant light deal half damage in this realm.
+- Underworld is mainly desert, rolling sand hills but no wind, bones littering the sand.
+- Powerful undead create their own domains linked to the underworld through specific points.
+- Large bone wurms dig through the sand devouring souls.
+- Sky is permanently covered in thick grey clouds
+
+#### Black Citadel
+- Domain of the Raven Queen
+- Only accessible through a small valley between large cliffs. Guarded by the Skeletal Giant Durnir.
+- domain is cloudless, no stars, but with a large, bright moon.
+- The citadel is surrounded by a forest full of dead trees, only animals are ravens.
+- The citadel gives a view into the rest of the underworld, allowing the Raven Queen to see creatures enter or exit through the various domains.
+
+#### River Styx
+- A vast river of souls separates the underworld from Caladan's domain
+- Any living creature that enters the river is grabbed by the souls, being dragged under.
+
+#### Caladan's Keep
+- On the other side of the river styx is a thick fog, the barrier of Caladan's domain.
+- Passing through the fog leads to a thick forest full of sickly looking trees. Zombie hounds hunt in the forest.
+- In the center of the forest is a large clearing with a hill. The top of the hill is Caladan's keep, while the surrounding area is filled with graveyards.
+- Intelligent undead work the graveyard and stables, servants of Caladan. The stables have Caladan's skeleton horses capable of flying.
+- In the far side of the forest is a small, still pool leading into a cave mouth on its shore. The cave connects to a cave in the mortal plane.
 
 ### Hell
 
@@ -621,19 +645,19 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - Roving bands of demons live in the wastes, fighting amongst themselves. Balegor will create Hordling warbands, vying for power. The occasional greater demon may reside there, either outcast by a demon lord or in an attempt to gain power.
 - In the center is the Temple of Ruin, a massive destroyed temple. The temple's catacombs are a maze filled with horrible traps and treasures, and spans miles of hallways. In temples courtyard is a massive stone mural/map of Hell.
 
-### Pandemonium
+#### Pandemonium
 - Exists in the massive caverns below the Infernal Wastes, the main entrance is through the Temple of Ruin, although there are paths through other cave networks across the Infernal Wastes.
 - Home of the Pale Lady, a neutral ground for demons. Pandemonium is a huge city in the largest cavern. In the center of the city is a tower that nearly reaches the caverns ceiling, the Golden Palace, home of the Pale Lady.
 - The city is ruled by the Pale Lady and it exists for her pleasure. No demon dares oppose her. She allows all to visit, but those who break her rules are killed almost as quickly as those she takes an interest in.
 - The city hosts a Bazaar filled with mysterious treasures from across Hell and the Mortal Plane.
 
-### The Fields of Slaughter
+#### The Fields of Slaughter
 - Home of Omen, the Lord of Destruction. His fortress, Castle Rend, is surrounded by a moat of blood. The fields around the castle are desolate, the site of hundreds of battles.
 - The fields are littered with smaller keeps and forts, commanded by Omen's champions.
 - The fields may have been green at one point, but the constant fighting has destroyed much of the landscape, with blood moss growing where demon blood is spilled. There are few forested areas, although much of it has been harvested in creating siege engines.
 - Omen's champions proove themselves by defeating other champions in war. They also try to reach out to the mortal plane, hoping for new lands to conquer.
 
-### The Eternal Desert
+#### The Eternal Desert
 - A sunless desert, filled with stone spires, plateaus, and winding valleys.
 - Home to eyeless Spine Devils, they hunt beasts and demons that stray into their lands, hunting by smell and sound.
 - Kerokas lives in a stone pyramid, surrounded with stone huts and ruined walls where his followers live.
@@ -744,14 +768,14 @@ Failures:
 T1 is a Charisma save against 2T/1B, T2 is 2T/2B and T3 is 3T/2B. You always gain the effects of the blessing regardless of successes. You gain failures based on the results of your roll.
 
 Success:
-- T1: 
-- T2: 
-- T3: 
+- T1: You may cast the spell _Hailstorm_ once per day at 3rd level for free without needing to prepare it. You are immune to mundane cold, being unhindered when travelling in even the coldest temperatures. You add 3 critical successes to saving throws against cold spells.
+- T2: After casting or being targeted by a cold spell your attacks are empowered for the next minute, adding a wound die of cold damage on hit and giving them Slow 1 for 1 minute on a critical.
+- T3: You have _Resistance_ 1 to fire damage and have expertise with defense rolls when wearing hide armor or below. While empowered by the cold you add 3 critical successes to Willpower and Charisma saves.
 
 Failures:
-- 1-2: 
-- 3-4: 
-- 5+: 
+- 1-2: After taking fire damage you are Weakened for 1 minute.
+- 3-4: Beasts can detect your presence up to a mile away and hunt you if possible; you are likely to be attacked by beasts when resting outside an urban environment. You only regain 1 healing surge when resting near a fire.
+- 5+: Fire spells add 3 critical successes against you.
 
 ## Demon Lords
 
