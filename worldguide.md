@@ -1,4 +1,10 @@
 - [World Guide](#world-guide)
+  - [History of the World](#history-of-the-world)
+    - [Creation Myth](#creation-myth)
+    - [The Divine Empire](#the-divine-empire)
+    - [The Zoranthian Empire](#the-zoranthian-empire)
+    - [The Age of Saints](#the-age-of-saints)
+    - [The Golden Empire](#the-golden-empire)
   - [Saints and the Divines](#saints-and-the-divines)
     - [Saints](#saints)
     - [The 5 Pillars](#the-5-pillars)
@@ -134,12 +140,13 @@
     - [Shaper](#shaper)
     - [All Mother](#all-mother)
     - [Mordiggian](#mordiggian)
+    - [Hydra](#hydra)
     - [Selephra](#selephra)
     - [Star Pheonix](#star-pheonix)
     - [Mountain Boar](#mountain-boar)
     - [Elf Lady](#elf-lady)
     - [Dragon](#dragon)
-    - [Tomen](#tomen)
+    - [Tomen, the Fallen Warrior](#tomen-the-fallen-warrior)
     - [Zander](#zander)
   - [Undead](#undead)
     - [Polash (Vampire Tree)](#polash-vampire-tree)
@@ -152,6 +159,56 @@
     - [Quelsh](#quelsh)
 
 # World Guide
+
+## History of the World
+- continent has had 3 empires, at least that can be found in any surviving ruins or books.
+
+### Creation Myth
+- Originally there were the 6 gods, created the mortal plane out of the chaos of the warrens.
+- Created the mortal races, the angels, and the beast/demon? men.
+- Ghast tried to enslave all of creation. To fight this the other 5 gods used their powers to create the divine weave, after which the gods ceased to exist. Using the divine weave the angels and beast/demon? men were able to kill Ghast.
+
+### The Divine Empire
+- empire begins after the death of Ghast, god of ruin at the hands of the beast/demon? men.
+- a smaller empire, only covering ~1/4th of the continent.
+- Empire of beast/demon? men, precursor race to the Fallen.
+- Groups of angels created by the divine weave to assist the mortal races, some groups guiding the empire and some guiding other nations or protecting early settlements of humans/elves/dwarves.
+- Tlani ruled by the Elder Gods, actively seeking to destroy the mortal races.
+- Tlani overthrow the Elder Gods with the help of angels and a group of elves. Before elder gods are completely defeated, curse that line of elves with bloodlust, creating the first Orcs.
+- Remnants of the followers of Ghast, bring ruin to the capitol city, the cultist Mordiggian learns forbidden knowledge from an angel, accidently curses the beast/demon blood line, creating the fallen.
+- the Fallen are scattered across the nation, with the few remaining angels guiding the growing powers of the human/elven/dwarf races
+
+### The Zoranthian Empire
+- a few hundred years after the Divine Empire, the human nation of Zoranth conquers the other human nations.
+- Zoranth allies with the dwarves, coveting their craftsmanship and resources, instead trying to conquer the elves.
+- Zoranth is too weak to defeat the elves, but does manage to destroy one of the 4 elven forest homes, chasing them north.
+- Some of those elves hide in the ancient forests, becoming the wood elves. The other elves are chased to the Northern Wilds where they encounter the star pheonix and are taken to the Isle of Mists, becoming the Star Elves.
+- Minor wars happen for nearly 300 years along with expanding across the continent. The fighting gives rise to the Ascended.
+- Ascended begin getting involved in the empire and its fights as more rise to power.
+- The archangel, Shaper, watches this rise in power and worries the mortal races are becoming too strong, taking the place of gods.
+- Shaper spends a century carefully influencing nations, orchistrating the deaths of other ascended and creating conflict across the empire.
+- Realizes the mortal races gain their power from their ascended heroes, and devises a way to seal away the ability for mortals to gain that power, distancing the divine weaves influence over mortals.
+- Shaper instigates a rebellion while feeding information to the Zoranthian empire. All the while targeting and destroying the history of the ascended.
+- Shapers rebellion meets a bloody end, using the mass death to fuel a ritual to seal the power of the ascended.
+- During the ritual he is forced to retreat to his demiplane by Tomen and other ascended. The ritual completes and the ascended lose much of their power, with shaper unable to leave his demiplane.
+- The massive losses in the rebellion cripple the Zoranthian's armies and the empire slowly collapses over the next few decades.
+
+### The Age of Saints
+- Although the divine weave is sealed away, occasionally a mortal is born that can access the weave better than others. They are said to be chosen by the gods, able to interpret their will and are declared living saints.
+- The saints, while mortal, gain their powers directly from the weave, allowing them to protect the now separated mortal settlements.
+- Although the saints are strong, they can't compare to the ascended or angels that came before them, and monsters, demons, and beasts proliferate.
+
+### The Golden Empire
+- A human wielding the sword War conquers the separated and weakened human settlements, creating the Golden Empire, also known as the Empire.
+- Brings whichever churches will accept the empire under its power, destroying the others and declaring their saints false.
+- With the mortal races still separated, the Empire is able to spread quickly, conquering various dwarven and human settlements and bringing them under empire rule.
+- After 500 years the empire has conquered 2/3rds of the continent, with a handful of high elf cities and human nations remaining, along with a handful of lizardfolk and tlani homes the empire sees as savages.
+- The Northern Wilds, which used to be part of the Zoranthian empire, is too wild to reliably conquer and so the Empire begins sending exiles to the small port city of Wintergate.
+- Settlements begin popping up ~250 years before present, although most are destroyed and reclaimed by the wilds. A handful of cities are able to defend themselves and eventually create small city states after ~100 years of the empire exiling.
+- The last high elf city is conquered ~150 years before present, with the empire installing a puppet government made from high elf nobles under their control, exiling all other nobles to the Northern Wilds
+- The current Emperor made his start raiding the few remaining tlani homes, finding the sword Chaos.
+- Using both War and Chaos the emperor conquers the last dwarven mountain, and ~50 years before present conquered the savage lizardfolk in the western swamps.
+- Present day few places on the continent are outside of empire control, with the Northern Wilds being one of the last.
 
 ## Saints and the Divines
 Few gods as most know them. The majority are a divine presence given a name. Saints are those so attuned to that divine essence that they can interpret its will. Sometimes a region, a people, or nature itself will coalesce these presence into a divine form. These form greater spirits or lesser gods that watch over an area. For example, a tribe of humans living next to a lake may pray to the lake for a bountiful catch, calm waters, or even healing. This prayer can lead to a greater spirit being born that embodies the ideals and wishes of that tribe. The power of one of these greater spirits is tied to the land over which the spirit watches, and the people that worship it. Spirits worshiped by a many tribes, cities, or entire races have a much greater power than spirits worshiped by one tribe. Damage done to the land the spirit watches is felt by the spirit itself, and can weaken it.
@@ -842,14 +899,32 @@ Failures:
 ### Thorgrim Flametongue
 
 ### Shaper
+- Is one of the Archangels created by the gods.
+- was a servant of Ghast, but was unable to stop his death
+- carefully watched the mortal races, only stepping in when they became too powerful
+- killed off other ascended, doesn't believe mortals are worthy of that power.
+- Tricks the zoranthian empire into sealing away the ascended, but ends up trapped in his demi plane
 
 ### All Mother
+- A huge slime living deep underground in the caves connecting the mortal plane.
+- Creates servant children from its body. The servants resemble goblins, only reverting to slime after being killed.
+- Worshipped by goblins, with goblins believing it to be their creator.
 
 ### Mordiggian
+- Originally one of the beast/demon men from the divine empire.
+- Was part of the cult of Ghast following his death.
+- During the cults actions in the capitol city he uncovered forbidden knowledge from an archangel.
+- Experimenting with this knoweldge he accidentally cursed the beast/demon men bloodline, creating the Fallen, and destroying the capitol.
+
+### Hydra
 
 ### Selephra
 
 ### Star Pheonix
+- Rescued high elves being chased by the Zoranthian Empire
+- transforms those elves into the star elves.
+- Teaches the star elves of the past, knoweledge of the other realms through the changes to the night skies.
+- Sends out star elves to the continent to learn and gather stories of their own.
 
 ### Mountain Boar
 
@@ -857,9 +932,18 @@ Failures:
 
 ### Dragon
 
-### Tomen
+### Tomen, the Fallen Warrior
+- Originally a warrior in the Zoranthian Empire towards the end of the war.
+- Already considered one of the strongest warriors in the empire.
+- Killed by rebels, but miraculously revives, defeating the rebels single handedly.
+- Learns of Shapers involvement with the Rebels, leaves the Zoranthian Empire in search of Shaper.
+- Finds Shapers goal, but too late to stop it. Instead forces Shaper to his demi plane.
 
 ### Zander
+- A human mage from the early days of the Zoranthian Empire
+- was obsessed with history, seeking out and learning as much as he could of the divine empire.
+- eventually decided to travel the lands, learning its history and recording it in his magic book.
+- is unconcerned with the happenings of other ascended and the empires, merely wishes to travel the continent.
 
 ## Undead
 

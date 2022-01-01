@@ -2366,6 +2366,7 @@ Add 3 superior dice when cast at 10th level.
 - [Eldritch Blast](#Eldritch-Blast)
 - [Levitate](#Levitate)
 - [Life Sense](#Life-Sense)
+- [Snake Bite](#Snake-Bite)
 - [Trickery](#Trickery)
 - [Witchcraft](#Witchcraft)
 
@@ -2500,8 +2501,6 @@ The creature can attempt to move while levitated, moving a single tile horizonta
 
 The maximum weight doubles for every level cast above cantrip.
 
-
-
 #### Life Sense
 *Cantrip*
 
@@ -2512,6 +2511,19 @@ The maximum weight doubles for every level cast above cantrip.
 You sense the presence of living creatures in a 3x3 tile area centered on a point in range you can see. Make a spellcasting roll against the creatures Willpower save. On success a dim light surrounds the creatures bodies. For the duration the effected creatures gain no benefits from invisibility, stealth, hiding, or anything that would obscure them from view such as fog or foliage. The light can be seen through walls as long as you are within 5 tiles of the creature.
 
 Add an enhanced die and increase the area by 1 for every level cast above cantrip.
+
+#### Snake Bite
+*Cantrip*
+
+- **Casting Time:** 6 AP
+- **Range:** touch
+- **Duration:** 1 turn
+- **Damage Type:** poison
+
+You conjure a spectral snake to bite an adjacent creature. Make a spellcasting roll against the creatures Stamina save. On success they take a wound die in poison damage and gain Poison 1 for the duration, increasing the level of Poison for every critical rolled.
+
+Add a wound die and increase the Poison's duration by 1 turn for every level cast above cantrip.
+
 
 #### Trickery
 *Cantrip*
@@ -2543,7 +2555,6 @@ You conjure up a display of witchcraft, displaying one of the following or simil
 A creature trying to see through these illusions must succeed on a perception check against your spellcasting roll.
 
 Add an enhanced die for every level cast above cantrip.
-
 
 ### First Level
 
@@ -3526,6 +3537,7 @@ When cast at 10th level the duration increases to 100 years and you add 2 superi
 - [Holy Protection](#Holy-Protection)
 - [Light](#Light)
 - [Radiant Light](#Radiant-Light)
+- [Remedy](#Remedy)
 - [Spare From Death](#Spare-From-Death)
 - [Vine Whip](#Vine-Whip)
 
@@ -3654,7 +3666,16 @@ A beam of radiant light envelops a creature in range. Make a spellcasting roll a
 
 You may target an additional creature for every level cast above cantrip.
 
+#### Remedy
+*Cantrip*
 
+- **Casting Time:** 6 AP
+- **Range:** touch
+- **Duration:** 1 minute
+
+You enhance a creatures natural healing abilities, warding off pain momentarily. Make a spellcasting roll against 2 terrible dice. On success the creature may spend a healing surge and ignores the effects of a single lesser wound for the duration, ignoring additional lesser wounds for every critical rolled.
+
+Add an enhanced die for every level cast above cantrip.
 
 #### Spare From Death
 *Cantrip*
