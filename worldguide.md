@@ -157,6 +157,9 @@
     - [Mind flayer](#mind-flayer)
     - [Magthera](#magthera)
     - [Quelsh](#quelsh)
+  - [Golden Empire](#golden-empire)
+    - [The Golden Champions](#the-golden-champions)
+    - [1000 Eyes of Zymesh](#1000-eyes-of-zymesh)
 
 # World Guide
 
@@ -919,6 +922,11 @@ Failures:
 ### Hydra
 
 ### Selephra
+- A creature from the Faelands who wandered from the Heartwood and got lost in the mortal planes after the end of the Divine Empire.
+- was drawn to early human settlements and was fascinated with civilization. Could not get too close without humans thinking her an evil beast.
+- Eventually she was hunted by humans, having to defend herself she killed them all, gaining the power to shapeshift into a human form.
+- With her human form she played tricks on humans, scaring them with her fox form, luring them into forests with her dancing lights to leave them naked, and taking the occasional livestock.
+- When the ascended lost powers she was trapped in her beast form, unable to shapeshift.
 
 ### Star Pheonix
 - Rescued high elves being chased by the Zoranthian Empire
@@ -929,6 +937,11 @@ Failures:
 ### Mountain Boar
 
 ### Elf Lady
+- Defender of the High elf cities during the Zoranthian Empire.
+- abhored humans desire for conquest, prevented humans from settling elven lands.
+- Due to her powers the Zoranthian Empire couldn't fully conquer elven lands.
+- After losing much of her power, she was wounded during an attack by the Golden Empire, having to flee.
+- She survived but lost much of her ability to fight, leaving her oathbow with an elven priestess and fleeing to the northern wilds to recover.
 
 ### Dragon
 
@@ -984,3 +997,17 @@ Blessing:
 ### Magthera
 
 ### Quelsh
+
+## Golden Empire
+
+### The Golden Champions
+- A unit of veteran soldiers comprised of the strongest warriors in the empire, used to fight the most deadly and difficult foes of the empire.
+- Champions are trained in magic to be able to fight against any threat, with their captains being accomplished mages on top of veteran fighters.
+
+### 1000 Eyes of Zymesh
+- an order of divine assassins in service of the empire.
+- Are sent to enemy nations, in this case the Northern Wilds, to spy, gather intelligence, and remove threats
+- Are organized into a hierarchy: Hand -> Eye -> Mouth
+  - Hands are the lowest rank, doing much of the manual labour and field work that keeps the Eyes of Zymesh working
+  - Eyes watch and coordinate a group of hands, taking on particular missions that go beyond the skills of a hand or even group of hands.
+  - Mouth, the highest ranking members, hold the secrets found by the Eyes and Hands under them. No written copies are made, with their secrets dying with them.
