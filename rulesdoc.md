@@ -451,22 +451,6 @@ Depending on your character's level you will only be able to cast spells up to a
 | 27th | 10th |
 
 
->#### Variant Rule - Attribute Based Spell Levels
->
->With this rule, instead of your spell level being determined by your level it is determined by your attribute for a given spell school. Your max spell level for arcane spells is based on your Intelligence, curse spells based on your Willpower, and divine spells based on your Charisma. This means an exceptionally intelligent caster could cast high level spells at an early level- if they have the mana and spell prepared.
->
->Your max spell level is determined on the chart below:
->
->| Attribute Score | Spell Level |
->|:----:|:----:|
->| 0 or Less  | Cantrip |
->| 1  | 1st |
->| 2  | 2nd |
->| 3  | 3rd-4th |
->| 4  | 5th-6th |
->| 5  | 7th-8th |
->| 6+  | 9th-10th |
-
 ### Concentration
 
 Some spells require concentration to maintain its effects. You may only concentrate on a single spell at a time and casting a new spell with concentration will end the effects of the previous spell. When you take damage while concentrating on a spell you make a Stamina save against a bad die and adding a bad die for every wound taken from the attack. On failure you lose concentration and the spell ends.
@@ -475,34 +459,6 @@ Some spells require concentration to maintain its effects. You may only concentr
 
 Cantrips are spells that do not require mana to cast, but must still be prepared like the rest of your spells. For casting at a higher level, cantrips are considered level 0 spells and gain benefits when cast at 1st level or above.
 
-
-
->#### Variant Rule - Misfires
->
->While anyone can cast any spell, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a spell, you add 1 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
->
->##### Ability Ranks
->| Attribute Score | Spell Levels |
->|:----:|:-------------|
->| 1  | 1st |
->| 2  | 2nd |
->| 3  | 3rd-4th |
->| 4  | 5th-6th |
->| 5  | 7th-8th |
->| 6+  | 9th-10th |
->
->
->##### Misfire Chart
->
->Roll 2 bad dice, counting the successes.
->
->| Roll | Misfire |
->|:----:|:-------------|
->| -4  | Lesser wound: Mana leak. Every time you take at least 1 wound you lose 2 mana. Lasts until cured with _Treat Injury_ or you take a Long Rest. |
->| -3 | Your spell backfires, roll a wound die for every remaining failure from your spellcasting roll, taking a wound for every wound rolled. |
->| -2 | Wild magic fills the area around you, you and all creatures within 3 tiles add 1 terrible die to their next roll. |
->| -1 | Your flow of magic is interrupted. You add 1 terrible die to all spellcasting rolls for the next minute |
->| 0 | Minor backlash. You take 1 wound die of Force damage |
 
 # Creating a Character
 
@@ -1211,6 +1167,137 @@ Drakes are smaller than lizardfolk, standing 5 and a half feet at most. Their bo
 
 You can maintain flight for a limited time. On your turn, you may take flight using your movement. If you fly this way you must touch the ground by the end of your next turn or plummet from the sky. You cannot fly again until the start of your next turn.
 
+# Optional Rules
+
+## Variant Spellcasting and Misfires
+These rules can create powerful spellcasters and exciting scenarios, but as a GM can be difficult to balance.
+
+### Attribute Based Spell Levels
+
+With this rule, instead of your spell level being determined by your level it is determined by your attribute for a given spell school. Your max spell level for arcane spells is based on your Intelligence, curse spells based on your Willpower, and divine spells based on your Charisma. This means an exceptionally intelligent caster could cast high level spells at an early level- if they have the mana and spell prepared.
+
+Your max spell level is determined on the chart below:
+
+| Attribute Score | Spell Level |
+|:----:|:----:|
+| 0 or Less  | Cantrip |
+| 1  | 1st |
+| 2  | 2nd |
+| 3  | 3rd-4th |
+| 4  | 5th-6th |
+| 5  | 7th-8th |
+| 6+  | 9th-10th |
+
+### Misfires
+
+While anyone can cast any spell, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a spell, you add 1 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
+
+##### Ability Ranks
+| Attribute Score | Spell Levels |
+|:----:|:-------------|
+| 1  | 1st |
+| 2  | 2nd |
+| 3  | 3rd-4th |
+| 4  | 5th-6th |
+| 5  | 7th-8th |
+| 6+  | 9th-10th |
+
+
+##### Misfire Chart
+
+Roll 2 bad dice, counting the successes.
+
+| Roll | Misfire |
+|:----:|:-------------|
+| -4  | Lesser Wound: Mana leak. Every time you take at least 1 wound you lose 2 mana. Lasts until cured with _Treat Injury_ or you take a Long Rest. |
+| -3 | Your spell backfires, roll a wound die for every remaining failure from your spellcasting roll, taking damage for every wound rolled. |
+| -2 | Wild magic fills the area around you, you and all creatures within 3 tiles add 1 terrible die to their next roll. |
+| -1 | Your flow of magic is interrupted. You add 1 terrible die to all spellcasting rolls for the next minute |
+| 0 | Minor backlash. You take 1 wound die of Force damage |
+
+## Large Battles and Minions
+Fighting hordes of monsters can make for a thrilling and challenging battle. For example, the players may be exploring a cave network deep underground when they hear the skittering sound of ratlings in the dark. Suddenly, hordes of ratlings burst out of the shadows, crude weapons drawn, descending on the party from all sides. The ratlings are weak, but make up for it with overwhelming numbers, backing the players into a corner.
+
+An exciting encounter... or would be. While the rules make for great combat, it begins to slow down when there are 3-4 monsters for every player. Rolling multiple attacks against a player, especially from weaker but numerous monsters where only a handful of attacks will hit, can grind the action down to a slog. To prevent the slog we've included these optional rules for large packs of monsters: the Swarm Template and Minions.
+
+### Swarm Template
+This template is best used when you want to throw a horde of weaker, less complicated monsters at a party. For example, a horde of Zombies, Goblins, or Bandits. Swarms combine 4-8 identical monsters into a single unit that becomes weaker the more damage it takes. To create a swarm, take any monster stat block and add the following features.
+
+##### Swarm Tactics
+This creature has twice as many wounds. This creature can occupy enemy tiles with enemy creatures, but cannot move through them. This creature is immune to conditions that come from single target attacks or spells.
+
+##### Swarm Fighting
+This creature adds a success to all attack and maneuver rolls for every quarter of health remaining, rounding up. When making single target attacks or spells, the attack targets an additional creature in range.
+
+##### Swarm Resistance
+Damage from single target attacks, maneuvers, or spells deal half damage, rounded down, with a minimum of 1. While above half health they have expertise in saving throws.
+
+### Minions
+Minions are weaker, streamlined variants of a monster. Minion stat blocks are identical to the base creature, giving them 1-3 max wounds instead of their normal health. Minions of the same type are grouped together, rolling a single initiative and acting at the same time. Minions only take 2 actions during their turn regardless of AP, and may only take a single reaction. When a minion makes an attack you add 1 success for every other minion of the same type capable of making that attack against the target creature, spending 1 action for all participating minions.
+
+For example, lets say a party is fighting a group of 6 Skeleton minions. On the skeletons turn they all act together. 3 Skeletons surround one party member and attack that character. You make a single skeleton attack, adding 2 successes to the roll. This spends an action on all 3 skeletons, leaving them with 1 action remaining. They attack again, making the same roll and adding 2 successes.
+
+The remaining 3 skeletons are further away and spend 1 action moving into range of another player, using their last action to attack. On the players turn they attempt to flee from the skeletons, provoking an opportunity attack. The 3 skeletons all spend their reaction making an opportunity attack, rolling a single attack roll and adding 2 succeses.
+
+## Animal Companions
+Beasts and creatures with -1 or less Intelligence can become animal companions. Finding an animal companion can be challenging, often becoming an adventure on its own. Under normal circumstances a beast is only eligable to become a companion if it meets these conditions:
+
+- They are young or a newborn.
+- They are not hostile.
+- They have an Intelligence score of -1 or less
+
+A character can attempt to befriend the animal by making an Animal Handling check against a challenge determined by the GM. On success you befriend the animal and they become your companion. New animal companions are untrained. They will follow you, but will not obey any commands or participate in combat. By default a character can only have a single animal companion, however this can be changed with feats.
+
+### Intelligent Companions
+In some circumstances your GM may allow you to befriend creatures that do not meet the conditions above. In these circumstances you make either an Animal Handling or Conversation check, GM's choice, with the GM determining the challenge. On success they become your companion as normal, however intelligent creatures may obey your commands without training. These companions still require training to effectively fight along side you. Any untrained companion that enters combat is controlled by your GM and acts independently.
+
+### Training
+Companions can be trained to fight and obey your commands. You may train your companion as a downtime action or during a long rest as long as you take no other actions. For every 7 days spent training you make an animal handling roll against a terrible die, adding a bad die for every 5 CR the creature has. After 3 successes you bond with your companion, allowing them to fight and be given commands.
+
+Trained creatures gain 1 proficiency to attacks and 2 proficiency to saving throws. Their max wounds increases based on your level, gaining an extra wound at levels 7, 14, 21, and 28.
+
+### Fighting Companions
+Animal companions take their actions during your turn. Each turn they may move, sprint, and make a single basic attack with you controlling their actions.
+
+While fighting companions have been trained for combat, they are still animals. While your companion is not at full health you make an Animal Handling check at the start of each of your turns. The challenge for this roll is a terrible die, adding a bad die for each adjacent enemy. If the companion is below half health, rounded down, add terrible dice instead. On fail the companion turns feral, spending its turn attacking a random creature in range. If there is no creature in range it moves towards the closest creature and attacks.
+
+### Advanced Training
+Completing an adventure or gaining a level with a companion increases your bond with them, making them more effective in combat. For each adventure completed or level gained you may choose one of the following benefits:
+
+- They make two basic attacks each turn instead of one.
+- They learn an attack or maneuver shown on the creatures stat block. You may use this attack or maneuver in place of basic attacks.
+- They gain 2 proficiency points.
+
+### Companion Equipment
+Trained companions can be given specially made armor and weapons to aid them in combat. Animal equipment can be enchanted, following the same rules as enchanting character equipment. Animal armor replaces one of their normal defense dice with a superior defense die and animal weapons replace a wound die with a wound for all of their attacks and maneuvers. Animal equipment is expensive, usually requiring a blacksmith to custom fit them to your companion.
+
+| Equipment | Cost (Medium) | Cost (Large) |
+|:----:|:----:|:----:|
+| Armor | 2pt | 5pt |
+| Weapons | 1pt | 2pt, 50sc |
+
+### Feats
+
+#### Beastmaster
+*Requires proficiency in Animal Handling, 5th level*
+
+You may have any number of animal companions. For each additional companion in combat you add a bad die to Animal Handling checks.
+
+#### Ferocity
+*Requires proficiency in Animal Handling, 3 Strength, 8th level*
+
+Your companion shares your _Brutal Strikes_, _Battering Ram_, _Overswing_, and _Overwhelming Force_ feats.
+
+#### Strengthened Bond
+*Requires proficiency in Animal Handling, 2 Willpower*
+
+While adjacent to your companion you have expertise in Intimidation, Survival, and Perception checks. Your companion may use your Willpower save instead of theirs.
+
+#### Tag Team
+*Requires proficiency in Animal Handling, 3rd level*
+
+You have Combat Advantage against creatures that your companion has attacked this turn. While your companion is adjacent to you they cannot go feral.
+
 # Appendix - Spells
 ## Spells
 ### Arcane
@@ -1282,6 +1369,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 - [Instant Fortification](#Instant-Fortification)
 - [Open Warren](#Open-Warren)
 - [Poison Cloud](#Poison-Cloud)
+- [Shockwave](#Shockwave)
 - [Wall of Fire](#Wall-of-Fire)
 - [Ward Area](#Ward-Area)
 - [Zone of Potency](#Zone-of-Potency)
@@ -1357,22 +1445,21 @@ Add a wound die for every level cast above cantrip.
 - **Range:** varies
 - **Duration:** instant
 
-You attempt to send a telepathic message to a creature you're familiar with or that you can see. Make a spellcasting roll, adding a bad die for each segment of distance in the table below between you and your recipient. You may attempt to cast up to 5 times the listed distance, adding a maximum of 5 bad dice, before the spell automatically fails. The message can be no more than 25 words long.
+You attempt to send a telepathic message to a creature you're familiar with or that you can see. Make a spellcasting roll agaisnt 3 bad dice. On success you send a message up to a maximum disance based on the table below. The message can be no more than 25 words long. Attempting to message a creature that is behind 1 ft of stone, 6 in of metal, or 1 in of lead requires twice the number of successes.
 
 ##### Distance per Spell Level
-| Spell Level | Segment Distance |
+| Successes | Distance |
 |:----|-------------:|
-| Cantrip  | 10 tiles |
-| 1st | 15 tiles |
-| 2nd | 20 tiles |
-| 3rd | 1 mile |
-| 4th | 2 miles |
-| 5th | 5 miles |
-| 6th | 10 miles |
-| 7th | 50 miles |
-| 8th | 100 miles |
-| 9th | 500 miles |
-| 10th | 1 bad die if in the same realm, 3 terrible dice if recipient is in another realm or warren |
+| 0  | 10 tiles |
+| 1 | 60 tiles |
+| 2 | 1 mile |
+| 3 | 10 miles |
+| 4-5 | 100 miles |
+| 6-7 | 1000 miles |
+| 8-9 | anywhere in the same realm |
+| 10+ | any realm or warren |
+
+Add a success for every level cast above cantrip.
 
 #### Minor Image
 *Cantrip*
@@ -2037,6 +2124,19 @@ You create a 7x7 tile cloud of poison centered on a point in range you can see. 
 Strong winds can move or reduce the size of the poison cloud, with spells like _Gust_ reducing the size of the cloud by 1 every round.
 
 The size of the cloud increases by 2 and you add an enhanced die for every level cast above 5th.
+
+
+#### Shockwave
+*5th level*
+
+- **Casting Time:** 8 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** thunder
+
+You create a ball of air that explodes in a wave of pressure, hitting all creatures in a 5x5 tile area centered on a point in range. Make a spellcasting roll against the creatures Stamina save. On success they take 1 wound and 3 wound dice in thunder damage, are pushed out of the spells area, and are dazed until the end of their next turn. On a critical they are knocked prone. The shockwave is audable up to a mile away.
+
+The area increases by 1 and you add a wound die to the damage for every level cast aboth 5th.
 
 #### Wall of Fire
 *5th level*
@@ -3381,7 +3481,7 @@ Their max wounds increase by 1 for every level cast above 6th.
 > - **Bonus Action Points:** 4
 > - **Bonus Stats:** +1 Strength, +1 Stamina
 > - **Bonus Proficiencies:** +2 proficiency with Strength/Stamina saves, +3 proficiency with unarmed attacks
-> - **Bonus Wounds:** -
+> - **Bonus Wounds:** \*/\*
 > 
 > ##### Additional Effects
 > At night this creature turns feral, actively hunting and attacking nearby creatures. After killing a creature they will drink their blood for the remainder of the night.
@@ -6211,5 +6311,7 @@ You can inscribe a rune during a long rest or with 2 hours of downtime. To inscr
 | Potency | 1 | - | 1 | 2B | Add a critical to your spellcasting roll. |
 | Fire Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Dexterity save against 3 superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
 | Arc Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save against 3 superior dice, becoming Paralyzed for 1 minute on fail. |
-| Expanding | 3 | 1 25sc gemstone | 1 | 2T | Increases the area of effect of a spell by 1. |
+| Hardened | 3 | 10sc gemstone | 2 | 2T | Your spell is considered to be 2 levels higher when saving against _Dispel Magic_, _Purge_, and _Counter Spell_. |
+| Expanding | 3 | 25sc gemstone | 1 | 2T | Increases the area of effect of a spell by 1. |
+| Anti Magic Ward | 4 | 25sc gemstone | 1 | 2B/1T | Once placed, the next spell to target a creature or point within 2 tiles of this ward adds a critical failure to the spellcasting roll. |
 | Sleeping | 4 | - | 2 | 1B/2T | Once placed, the next time a creature enters its tile roll 5 superior dice. The creature falls asleep if the total successes is greater or equal to their current wounds. The creature wakes up after taking damage or another creature spends 5 AP to wake them. |

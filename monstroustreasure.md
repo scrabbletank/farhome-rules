@@ -3749,6 +3749,15 @@ While attuned to the staff you may reroll 3 dice when making spellcasting rolls.
 
 Once per day you may spend 8 AP to summon an undead legion. Roll 8 Superior dice, conjuring a Skeleton within 10 tiles of yourself for each success rolled. The skeletons obey your commands and last for 1 hour after which they turn to dust.
 
+#### Staff of Songs
+*Magical Staff +2*
+
+While attuned to this weapon you gain the superior inspiring words maneuver and you may reroll all blank wound dice dealt by thunder damage. While holding this staff you may spend 5 AP to begin a chant, spending an additional 5 AP at the start of every turn to keep the chant active. Chanting requires concentration and uses the same rules for concentrating on a spell. You gain the following chants:
+
+- **Song of Blades:** All allied creatures within 3 tiles of you gains expertise on one attack or maneuver this round.
+- **Defender's Ballad:** All allied creatures within 3 tiles of you gains expertise on one saving throw or defense roll this round.
+- **Song of Sorcery:** All allied creatures within 3 tiles of you may reroll 3 wound dice on one spell this round.
+
 #### Stamp of Beast Steed
 *Wondrous Item*
 
@@ -3785,6 +3794,13 @@ If this would reduce a creature to 0 wounds their body is consumed by the Orb, v
 *Magical Shield*
 
 This massive shield requires 4 Strength to wield. When taking a defend action you choose a direction, gaining half cover against ranged attacks from that direction until the start of your next turn.
+
+#### Tuning Sword
+*Magical Sword +1*
+
+A two pronged sword in the shape of a tuning fork. After striking an enemy the sword rings, becoming attuned to that enemy. While attuned to a target you have expertise in attacks and maneuvers using this weapon against that target. The attunement lasts for 1 minute.
+
+While the sword is attuned you may cast _Thunderclap_ at 1st level using 3 superior dice, ending the attunement.
 
 #### Void Stone
 *Wondrous Item*
