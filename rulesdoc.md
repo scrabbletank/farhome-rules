@@ -1365,6 +1365,7 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - [Starfall](#Starfall)
 
 ##### Fifth
+- [Crown of Meteors](#Crown-of-Meteors)
 - [Illusory Space](#Illusory-Space)
 - [Instant Fortification](#Instant-Fortification)
 - [Open Warren](#Open-Warren)
@@ -2067,6 +2068,20 @@ Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 
 ### Fifth Level
 
+#### Crown of Meteors
+*5th level*
+
+- **Casting Time:** 10 AP
+- **Range:** 20
+- **Duration:** concentration, 10 minutes
+- **Damage Type:** fire/bludgeoning
+
+Conjure up to 7 orbs of fire that hover over your head in the shape of a crown. Make a spellcasting roll against a terrible die, adding a bad die for each orb. On success you create the orbs.
+
+During your turn you may spend 3 AP to hurl an orb at a creature in range you can see, transforming into a meteor and striking the creature. Make a spellcasting roll against the creatures defense roll. On hit they take a wound in bludgeoning damage and 3 wound dice in fire damage, or a wound dice in fire damage on a miss.
+
+Add a wound die to the fire damage for every level cast above 5th.
+
 #### Illusory Space
 *5th level*
 
@@ -2143,7 +2158,7 @@ The area increases by 1 and you add a wound die to the damage for every level ca
 
 - **Casting Time:** 8 AP
 - **Range:** 15
-- **Duration:** instant
+- **Duration:** 10 minutes
 - **Damage Type:** fire
 
 A great wall of fire, 10 tiles wide and 3 tiles high, erupts from the ground. Any creature that starts their turn in or adjacent to the wall or enters that area for the first time this round makes a defense roll against your spellcasting roll. On hit they take 1 wound and 3 wound dice in fire damage, igniting for 1 minute on a critical. On success they take half damage, rounded down. Any ranged weapon or spell attack made through the wall adds 2 bad dice to the attack, being incinerated by the wall if the attack misses.
@@ -2510,6 +2525,7 @@ Add 3 superior dice when cast at 10th level.
 - [Fearful Presence](#Fearful-Presence)
 - [Frog Morph](#Frog-Morph)
 - [Inflict Wound](#Inflict-Wound)
+- [Malefic Visions](#Malefic-Visions)
 - [Shapechange](#Shapechange)
 - [Shifting Image](#Shifting-Image)
 - [Shroud of Darkness](#Shroud-of-Darkness)
@@ -2989,7 +3005,7 @@ Add an enhanced die for every level cast above 2nd.
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** poison
 
-You summon up to 3 ethereal totems on points in range you can see. Make a spellcasting roll against 2 bad dice for every totem summoned. On success you summon the totems. When casting this spell, and once per turn by spending 4 AP, you may command your totems to attack. The totems have a range of 5 and use your spellcasting roll for the attack. Creatures make a Stamina save against the attack, taking a wound of poison damage on a failure and gaining Poison 1 for 1 minute on a critical. The totems have 2 wounds and use 3 defense dice with their defense roll.
+You summon up to 3 ethereal totems on points in range you can see. Make a spellcasting roll against 2 bad dice for every totem summoned. On success you summon the totems. When casting this spell, and once per turn by spending 4 AP, you may command your totems to attack. The totems have a range of 5 and use your spellcasting roll for the attack. Creatures make a Stamina save against the attack, taking a wound of poison damage on fail and gaining Poison 1 for 1 minute on a critical. The totems have 2 wounds and use 3 defense dice with their defense roll.
 
 Add an enhanced die to the summoning roll for each level cast above 2nd.
 
@@ -3099,6 +3115,20 @@ Touch a creature, inflicting mortal wounds. Make a spellcasting roll against the
 
 Add a wound die for every level cast above 3rd.
 
+#### Malefic Visions
+*3rd level*
+
+- **Casting Time:** 8 AP
+- **Range:** 10
+- **Duration:** 10 minutes
+- **Damage Type:** psychic
+
+Looking at a creature in range you can see, you fill their minds with dread visions. Make a spellcasting roll against the creatures Willpower save. On success the creature takes 1 wound and 2 wound dice in psychic damage, increasing the level of any Hex affecting the creature by 1 on a critical.
+
+For the duration the creature sees visions of dread; dark omens in the clouds and sky, nearby allies appear under duress or dying, attacked by unseen foes. While the Malefic visions hold the creature adds 1 terrible die to all rolls and has _Vulnerability_ 1 to ethereal damage. The spell ends after the creature takes damage.
+
+You may target an additional creature for every level cast above 3rd.
+
 #### Shapechange
 *3rd level*
 
@@ -3121,7 +3151,7 @@ Add an enhanced die and increase the CR by 3 for every level cast above 3rd.
 
 Your form blurs as 3 illusory projections of yourself hide your true position. Any time you would be attacked by a single target attack, spell, or maneuver, the attacker must roll a perception check against your roll. On failure the attack misses destroying one of the illusions. The spell ends once all illusions have been destroyed. A creature that can see through illusions is unaffected by this spell.
 
-Add an enhanced die for every level cast above 3rd.
+Increase the number of illusions by 1 for every level cast above 3rd.
 
 #### Shroud of Darkness
 *3rd level*
@@ -3436,7 +3466,7 @@ You may target an additional creature for every level cast above 6th.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures Charisma save. On success the creature loses any spells, abilities, or magical effects that did not come from their own magic. While isolated, magic that is not their own cannot reach them, they cannot be detected by magical means and they cannot be contacted through telepathy. Any powers given from a deity or other being cannot be used and they do not benefit from magic items while isolated.
+You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures Charisma save. On success the creature is severed from the divine weave. Any non-damaging spells targeting this creature first contest against your spellcasting roll, having no effect on fail. Any powers given from a deity or other being cannot be used and they do not benefit from magic items while isolated.
 
 Add an enhanced die for every level cast above 6th.
 
@@ -3500,6 +3530,7 @@ Their max wounds increase by 1 for every level cast above 6th.
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 7 days
+- **Damage Type:** psychic
 
 Curse a creature you can see with illusory terrors. Make a spellcasting roll against the creatures Willpower save. On success the creature suffers from haunting illusions. Once per day as long as you are within 100 miles of the cursed creature you may spend 5 AP to summon a phantasmal horror. The horror is an illusion and only visible to the cursed creature.
 
@@ -3706,6 +3737,7 @@ When cast at 10th level the duration increases to 100 years and you add 2 superi
 - [Power Word: Harm](#Power-Word-Harm)
 - [Power Word: Heal](#Power-Word-Heal)
 - [Sanctuary](#Sanctuary)
+- [Subjugation](#Subjugation)
 - [Word of Command](#Word-of-Command)
 
 ##### Seventh
@@ -4512,6 +4544,19 @@ When opening a portal it remains open until the end of your next turn and any cr
 Add an enhanced die to the roll for every level cast above 6th.
 
 
+#### Subjugation
+*6th level*
+
+- **Casting Time:** 10 AP
+- **Range:** 10
+- **Duration:** concentration, 1 hour
+
+Bonds of light subjugate a creature in range you can see. Make a spellcasting roll against the creatures Strength save. On success the creature is Restrained, Blinded, Silenced, and Weakened, bypassing any resistances and cannot teleport by any means. If the creature is a Demon or Undead they gain _Vulnerability_ 1 to holy damage.
+
+You must maintain eye contact for the duration of the spell, otherwise the spell ends. While the spell is maintained you are considered to be Blinded to all other creatures. Should something block your line of sight, such as the spell _Shroud of Darkness_, the spell ends.
+
+Add an enhanced die to the roll for every level cast above 6th.
+
 #### Word of Command
 *6th level*
 
@@ -5148,7 +5193,7 @@ Can only be used against a grappled creature. Make an unarmed attack against the
 
 #### Tumble
 
-- **AP Cost:** 3/2/1
+- **AP Cost:** 3/2/2
 - **Weapon:** N/A
 - **Range:** 2
 - **Level Required:** 6/14/23
@@ -5534,7 +5579,10 @@ Basic attacks cost 4 AP instead of 5.
 
 The spells _Guidance_, _Holy Protection_, _Enhance Ability_, _Shield of Faith_, and _Winds of Battle_ have 3 extra range. When cast at 1st level and above the effects of _Guidance_ and _Holy Protection_ last for a full turn instead of a single attack.
 
+#### Flexible Mind
+*Requires 1 Willpower*
 
+You may prepare an additional spell. During a short rest you may study your spellbook, changing a number of prepared spells equal to your Willpower score.
 
 #### Forager
 *Requires proficiency in survival*

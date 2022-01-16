@@ -1,3 +1,16 @@
+
+#### Barrage
+*Cantrip*
+
+- **Casting Time:** 7 AP
+- **Range:** touch
+- **Duration:** instant
+- **Damage Type:** bludgeoning
+
+Conjure a barrage of stones in an arc 3 tiles wide and 3 tiles long. Each creature makes a defense roll against your spellcasting roll. Roll 3 wound dice, starting from the closest hit creature split the damage evenly across all hit creatures, up to a max of 3. Creatures are staggered on a critical.
+
+Add a wound die and increase the length of the arc by 1 for every level cast above cantrip.
+
 #### Cold Snap
 *Cantrip*
 
@@ -27,12 +40,24 @@ Add a wound die for every level cast above cantrip.
 *Cantrip*
 
 - **Casting Time:** 2 AP
-- **Range:** 10+
+- **Range:** varies
 - **Duration:** instant
 
-You attempt to send a telepathic message to a creature you're familiar with or that you can see. Make a spellcasting roll, adding a bad die for every 10 tiles of distance between you and the recipient. On success the recipient receives the message. You know whether the spell is successful or not.
+You attempt to send a telepathic message to a creature you're familiar with or that you can see. Make a spellcasting roll agaisnt 3 bad dice. On success you send a message up to a maximum disance based on the table below. The message can be no more than 25 words long. Attempting to message a creature that is behind 1 ft of stone, 6 in of metal, or 1 in of lead requires twice the number of successes.
 
-Add an enhanced die for every level cast above cantrip.
+##### Distance per Spell Level
+| Successes | Distance |
+|:----|-------------:|
+| 0  | 10 tiles |
+| 1 | 60 tiles |
+| 2 | 1 mile |
+| 3 | 10 miles |
+| 4-5 | 100 miles |
+| 6-7 | 1000 miles |
+| 8-9 | anywhere in the same realm |
+| 10+ | any realm or warren |
+
+Add a success for every level cast above cantrip.
 
 #### Minor Image
 *Cantrip*
@@ -328,7 +353,7 @@ Add an enhanced die for every level cast above 2nd.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Targeting up to 5 creatures in range create a protective ward around their minds. Make a spellcasting roll against 2 bad dice for each creature targeted. On success the creatures gain _Resistance_ 1 to pyschic damage. For the duration, unless this creature is already dazed any effect that would stun this creature dazes it intsead, and any effect that dazes it staggers instead.
+Targeting up to 5 creatures in range create a protective ward around their minds. Make a spellcasting roll against 2 bad dice for each creature targeted. On success the creatures gain _Resistance_ 1 to pyschic damage and has twice as many wounds when calculating sleep effects. For the duration, unless this creature is already dazed any effect that would stun this creature dazes it intsead, and any effect that dazes it staggers instead.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -407,7 +432,7 @@ Multiple casters can attempt to counter the same spell, using the highest spellc
 
 See far into the distance, bending your sight around obstacles. Choose a location in range and make a spellcasting roll against 2 terrible die, or 3 if the location is unfamiliar to you. On success you can see the target location as long as it is not complete incased. For example you would be able to see the happenings in a town, but not inside buildings. You can see the location as if you were present there but cannot make out sounds. At any time you may change the target of your sight requiring a turn to reorient yourself.
 
-Add an enhanced die for every level cast above 3rd.
+Increase the range by 1 mile and add an enhanced die for every level cast above 3rd.
 
 
 #### Fireball
@@ -508,32 +533,6 @@ Add an enhanced die for each level above 3rd.
 You conjure an elemental construct at a target location. You create an air, water, earth, or fire elemental, making a spellcasting roll against 2 terrible dice. On success you conjure an elemental with wounds equal to your spellcasting roll. The elemental is a medium creature, becoming a large creature if it has 5 wounds or more. The elemental uses your spellcasting roll for attacks and has _Resistance 3_ against its own element. The elemental takes its turn along side yours.
 
 The elemental gains 1 max AP and you add a superior dice to your spellcasting roll for every level cast above 4th.
-
-
-
-> ## Elemental
-> 
->| | |
->|:---:|:---:|
->| **Armor** 0/3 | **Speed** 3/3 |
->| **Wounds** \*/* | **AP** 10 |
->
->|STR|DEX|STA|INT|WIL|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|3/1|2/1|3/0|-2/0|1/0|0/0|
->
-> - **Elemental Affinity:** Each elemental gains a bonus based on their element. 
-> - ***Fire:*** melee attacks deal an extra wound die on a critical. 
-> - ***Earth:*** gain 1 defense die. 
-> - ***Air:*** gain a flying speed equal to their movement speed. 
-> - ***Water:*** gains 1 to their move and sprint speeds.
-> ### Elemental Actions
-> - ***Attack.*** *All* 5 AP, melee, Make a spellcasting roll against the creatures defense, dealing 1 wound + 1 wound die in damage based on it's element.
-> - ***Firebolt.*** *Fire Only* 5 AP, range 10, Make a spellcasting roll against a creatures defense, dealing 1 wound in fire damage, adding 1 wound die on a critical.
-> - ***Harden.*** *Earth Only* 3 AP, reaction, Replace all defense dice to superior defense dice.
-> - ***Gust.*** *Air Only* 7 AP, Creates a torrent of wind in a direction away from the elemental. The gust is 3 tiles wide and 7 tiles long and lasts until the start of the elementals next turn. All creatures moving into the wind use an extra tile of movement for each tile moved. All ranged attacks against the wind add 1 terrible die to their attack roll.
-> - ***Freeze*** *Water Only* 5 AP, melee, Attempt to freeze a creature in place, make a spellcasting roll against the creatures Dexterity save. On success you dealing 1 wound in cold damage, restraining them until the start of your next turn on a critical.
-
 
 
 #### Fire Shell
@@ -640,6 +639,20 @@ Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 
 ### Fifth Level
 
+#### Crown of Meteors
+*5th level*
+
+- **Casting Time:** 10 AP
+- **Range:** 20
+- **Duration:** concentration, 10 minutes
+- **Damage Type:** fire/bludgeoning
+
+Conjure up to 7 orbs of fire that hover over your head in the shape of a crown. Make a spellcasting roll against a terrible die, adding a bad die for each orb. On success you create the orbs.
+
+During your turn you may spend 3 AP to hurl an orb at a creature in range you can see, transforming into a meteor and striking the creature. Make a spellcasting roll against the creatures defense roll. On hit they take a wound in bludgeoning damage and 3 wound dice in fire damage, or a wound die in fire damage on a miss.
+
+Add a wound die to the fire damage for every level cast above 5th.
+
 #### Illusory Space
 *5th level*
 
@@ -698,12 +711,25 @@ Strong winds can move or reduce the size of the poison cloud, with spells like _
 
 The size of the cloud increases by 2 and you add an enhanced die for every level cast above 5th.
 
+
+#### Shockwave
+*5th level*
+
+- **Casting Time:** 8 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** thunder
+
+You create a ball of air that explodes in a wave of pressure, hitting all creatures in a 5x5 tile area centered on a point in range. Make a spellcasting roll against the creatures Stamina save. On success they take 1 wound and 3 wound dice in thunder damage, are pushed out of the spells area, and are dazed until the end of their next turn. On a critical they are knocked prone. The shockwave is audable up to a mile away.
+
+The area increases by 1 and you add a wound die to the damage for every level cast aboth 5th.
+
 #### Wall of Fire
 *5th level*
 
 - **Casting Time:** 8 AP
 - **Range:** 15
-- **Duration:** instant
+- **Duration:** 10 minutes
 - **Damage Type:** fire
 
 A great wall of fire, 10 tiles wide and 3 tiles high, erupts from the ground. Any creature that starts their turn in or adjacent to the wall or enters that area for the first time this round makes a defense roll against your spellcasting roll. On hit they take 1 wound and 3 wound dice in fire damage, igniting for 1 minute on a critical. On success they take half damage, rounded down. Any ranged weapon or spell attack made through the wall adds 2 bad dice to the attack, being incinerated by the wall if the attack misses.
@@ -764,7 +790,7 @@ The area increases by 2 and you add a superior die to your spellcasting rolls fo
 #### Conjuration
 *6th level*
 
-- **Casting Time:** 10 minutes
+- **Casting Time:** 9 AP
 - **Range:** touch
 - **Duration:** 1 day
 
@@ -772,17 +798,17 @@ You conjure or reshape material into a form of your choosing. The material can b
 
 On casting the spell make a spellcasting roll against 3 bad dice, on success you conjure an object or objects up to 4 tiles in size, or 1/4th that size when conjuring items made of stone or metal.
 
-The amount you can conjure doubles with each level above 6th; up to 8 tiles at 7th level, 16 tiles at 8th level, and 32 tiles at 9th level.
+The amount you can conjure doubles with each level above 6th; up to 8 tiles at 7th level, 16 tiles at 8th level, 32 tiles at 9th level, and 64 tiles at 10th level.
 
 #### Earthquake
 *6th level*
 
-- **Casting Time:** 10 AP
+- **Casting Time:** 10 minutes
 - **Range:** 200
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** Bludgeoning
 
-You cause the ground to quake and tremble, collapsing buildings and toppling trees in a 60x60 tile area centered on a point in range. Now and at the start of each of your turns make a spellcasting roll with each creature in the earthquake making a Strength save. On success they take 1 wound die in bludgeoning damage and are knocked prone. The earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, leather, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage, with cracks or holes opening in its walls.
+You cause the ground to quake and tremble, collapsing buildings and toppling trees in a 60x60 tile area centered on a point in range. Now and after every minute each creature in the earthquake makes a Strength save against your spellcasting roll. On fail they are knocked prone, taking a wound die in damage on a critical. The earthquake causes all tiles in the area to become difficult terrain. Structures made of wood, leather, or similar material fall apart over the duration. Structures made of stone partially collapse after the full 10 minutes. Reinforced buildings such as keeps and castles may take superficial damage, with cracks or holes opening in its walls.
 
 The range and area of the spell increases by 10 for each level above 6th.
 
@@ -945,7 +971,7 @@ Add 2 wounds for each level cast above 8th.
 - **Range:** self
 - **Duration:** concentration, 1 minute
 
-You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining Poison, Slow, and are uneffected by hazardous terrain.
+You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining Poison, Slow, Sleep, Paralyze, and are uneffected by hazardous terrain.
 
 The duration increases by 1 minute for each level cast above 8th.
 

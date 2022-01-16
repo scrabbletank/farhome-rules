@@ -36,8 +36,6 @@ The creature can attempt to move while levitated, moving a single tile horizonta
 
 The maximum weight doubles for every level cast above cantrip.
 
-
-
 #### Life Sense
 *Cantrip*
 
@@ -47,7 +45,20 @@ The maximum weight doubles for every level cast above cantrip.
 
 You sense the presence of living creatures in a 3x3 tile area centered on a point in range you can see. Make a spellcasting roll against the creatures Willpower save. On success a dim light surrounds the creatures bodies. For the duration the effected creatures gain no benefits from invisibility, stealth, hiding, or anything that would obscure them from view such as fog or foliage. The light can be seen through walls as long as you are within 5 tiles of the creature.
 
-Add an enhanced die for every level cast above cantrip.
+Add an enhanced die and increase the area by 1 for every level cast above cantrip.
+
+#### Snake Bite
+*Cantrip*
+
+- **Casting Time:** 6 AP
+- **Range:** touch
+- **Duration:** 1 turn
+- **Damage Type:** poison
+
+You conjure a spectral snake to bite an adjacent creature. Make a spellcasting roll against the creatures Stamina save. On success they take a wound die in poison damage and gain Poison 1 for the duration, increasing the level of Poison for every critical rolled.
+
+Add a wound die and increase the Poison's duration by 1 turn for every level cast above cantrip.
+
 
 #### Trickery
 *Cantrip*
@@ -56,7 +67,7 @@ Add an enhanced die for every level cast above cantrip.
 - **Range:** 3
 - **Duration:** 1 turn
 
-You conjure up a display of illusory light to distract up to 5 creatures. Make a spellcasting roll, adding a terrible die for every creature you target. On success, the creatures add 1 bad die to their next attack or spell attack roll on their next turn.  You may cast this as a reaction for 2 AP, targeting a single creature and making a spellcasting roll against 2 terrible dice instead.
+You conjure up a display of illusory light to distract up to 5 creatures. Creatures make a Willpower save against your spellcasting roll, adding a bad die for every creature you target past the first. On success, the creatures add 1 bad die to their next attack or spell attack roll on their next turn, or a terrible die on a critical.  You may cast this as a reaction for 2 AP, targeting a single creature and making a spellcasting roll against 2 terrible dice instead.
 
 Add an enhanced die for every level cast above cast cantrip.
 
@@ -79,7 +90,6 @@ You conjure up a display of witchcraft, displaying one of the following or simil
 A creature trying to see through these illusions must succeed on a perception check against your spellcasting roll.
 
 Add an enhanced die for every level cast above cantrip.
-
 
 ### First Level
 
@@ -524,6 +534,20 @@ Touch a creature, inflicting mortal wounds. Make a spellcasting roll against the
 
 Add a wound die for every level cast above 3rd.
 
+#### Malefic Visions
+*3rd level*
+
+- **Casting Time:** 8 AP
+- **Range:** 10
+- **Duration:** 10 minutes
+- **Damage Type:** psychic
+
+Looking at a creature in range you can see, you fill their minds with dread visions. Make a spellcasting roll against the creatures Willpower save. On success the creature takes 1 wound and 2 wound dice in psychic damage, increasing the level of any Hex affecting the creature by 1 on a critical.
+
+For the duration the creature sees visions of dread; dark omens in the clouds and sky, nearby allies appear under duress or dying, attacked by unseen foes. While the Malefic visions hold the creature adds 1 terrible die to all rolls and has _Vulnerability_ 1 to ethereal damage. The spell ends after the creature takes damage.
+
+You may target an additional creature for every level cast above 3rd.
+
 #### Shapechange
 *3rd level*
 
@@ -546,7 +570,7 @@ Add an enhanced die and increase the CR by 3 for every level cast above 3rd.
 
 Your form blurs as 3 illusory projections of yourself hide your true position. Any time you would be attacked by a single target attack, spell, or maneuver, the attacker must roll a perception check against your roll. On failure the attack misses destroying one of the illusions. The spell ends once all illusions have been destroyed. A creature that can see through illusions is unaffected by this spell.
 
-Add an enhanced die for every level cast above 3rd.
+Increase the number of illusions by 1 for every level cast above 3rd.
 
 #### Shroud of Darkness
 *3rd level*
@@ -649,7 +673,7 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Enhance the speed of up to 5 willing creatures you can see. Make a spellcasting roll adding 2 terrible dice for each creature targeted. On success, all creatures have their move and sprint speeds increased by 3, have their max AP increased by 4, and gain 2 superior dice to their Dexterity saves. When the spell ends all creatures make an exhaustion roll against 2 bad and 1 terrible dice, gaining a level of exhaustion on fail.
+Enhance the speed of up to 5 willing creatures you can see. Make a spellcasting roll adding 2 terrible dice for each creature targeted. On success, all creatures have their move and sprint speeds increased by 3, have their max AP increased by 5, and gain 2 superior dice to their Dexterity saves. When the spell ends all creatures make an exhaustion roll against 2 bad and 2 terrible dice, gaining a level of exhaustion on fail.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -861,7 +885,7 @@ You may target an additional creature for every level cast above 6th.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures Charisma save. On success the creature loses any spells, abilities, or magical effects that did not come from their own magic. While isolated, magic that is not their own cannot reach them, they cannot be detected by magical means and they cannot be contacted through telepathy. Any powers given from a deity or other being cannot be used and they do not benefit from magic items while isolated.
+You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures Charisma save. On success the creature is severed from the divine weave. Any non-damaging spells targeting this creature first contest against your spellcasting roll, having no effect on fail. Any powers given from a deity or other being cannot be used and they do not benefit from magic items while isolated.
 
 Add an enhanced die for every level cast above 6th.
 
@@ -902,21 +926,6 @@ Targeting a beast with an Intelligence of -1 or less or a willing creature you p
 Their max wounds increase by 1 for every level cast above 6th.
 
 
-> #### Nightmare Template
-> - **Bonus Action Points:** 4
-> - **Bonus Stats:** +1 Strength, +1 Stamina
-> - **Bonus Proficiencies:** +2 proficiency with Strength/Stamina saves, +3 proficiency with unarmed attacks
-> - **Bonus Wounds:** -
-> 
-> ##### Additional Effects
-> At night this creature turns feral, actively hunting and attacking nearby creatures. After killing a creature they will drink their blood for the remainder of the night.
->
-> **Feral Form.** Their normal unarmed attacks are replaced with deadly claws and fangs. Attacking with their claws takes 5 AP and deals 1 wound in slashing damage and 2 wound dice in death damage. Attacking with their fangs takes 7 AP and deals 1 wound in piercing damage and 3 wound dice in death damage. All attacks are Strength based.
->
-> **Mordiggian's Hunger.** Dealing death damage with their claws or fangs causes this creature to heal 1 wound. Not being able to feed at night reduces this creatures max wounds by 1, regaining all wounds lost this way on their next feeding.
-
-
-
 ### Seventh Level
 
 #### Curse of Haunting
@@ -925,6 +934,7 @@ Their max wounds increase by 1 for every level cast above 6th.
 - **Casting Time:** 7 AP
 - **Range:** 5
 - **Duration:** 7 days
+- **Damage Type:** psychic
 
 Curse a creature you can see with illusory terrors. Make a spellcasting roll against the creatures Willpower save. On success the creature suffers from haunting illusions. Once per day as long as you are within 100 miles of the cursed creature you may spend 5 AP to summon a phantasmal horror. The horror is an illusion and only visible to the cursed creature.
 

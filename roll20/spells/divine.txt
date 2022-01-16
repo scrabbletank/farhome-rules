@@ -1,3 +1,4 @@
+
 #### Guidance
 *Cantrip*
 
@@ -43,7 +44,16 @@ A beam of radiant light envelops a creature in range. Make a spellcasting roll a
 
 You may target an additional creature for every level cast above cantrip.
 
+#### Remedy
+*Cantrip*
 
+- **Casting Time:** 6 AP
+- **Range:** touch
+- **Duration:** 1 minute
+
+You enhance a creatures natural healing abilities, warding off pain momentarily. Make a spellcasting roll against 2 terrible dice. On success the creature may spend a healing surge and ignores the effects of a single lesser wound for the duration, ignoring additional lesser wounds for every critical rolled.
+
+Add an enhanced die for every level cast above cantrip.
 
 #### Spare From Death
 *Cantrip*
@@ -192,7 +202,7 @@ The affected tiles extends by 1 and damage is increased by 1 wound die for every
 - **Range:** 3
 - **Duration:** instant
 
-Attempt to remove negative conditions afflicting a creature in range that you can see. Make a spellcasting roll against a bad die for each condition you want to cleanse. For conditions with levels, such as poison, add 1 bad die for each level of that condition. On success you end the chosen conditions on the creature. This spell can remove slow, poison, hex, daze, stun, blind, weakened, and fear.
+Attempt to remove negative conditions afflicting a creature in range that you can see. Make a spellcasting roll against a bad die for each condition you want to cleanse. For conditions with levels, such as poison, add 1 bad die for each level of that condition. On success you end the chosen conditions on the creature. This spell can remove Slow, Poison, Hex, Daze, Stun, Blind, Weakened, Paralyzed, Silenced, Fear, and Sleep if it was caused by a magical effect.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -659,7 +669,7 @@ Add a normal die for every level cast above 5th.
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll adding a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove slow, poison, hex, daze, stun, blind, weaken, fear, petrification, or a condition inflicted by a spell of 4th level or lower.
+Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll adding a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, Weakened, Paralyzed, Silenced, Fear, Sleep if it was caused by a magical effect, Petrification, or a condition inflicted by a spell of 4th level or lower.
 
 Add a normal die for every level cast above 5th.
 
@@ -671,7 +681,7 @@ Add a normal die for every level cast above 5th.
 - **Range:** 5
 - **Duration:** concentration, 1 minute
 
-Petrify a creature in range you that can see you, turning them to stone. Make a spellcasting roll against the creatures Stamina save. On success they are paralyzed for the next minute. You must maintain line of sight with the creature or the spell ends. After 1 minute you make another spellcasting roll against the creatures Stamina save. On success the creature is turned to stone.
+Petrify a creature in range you that can see you, turning them to stone. Make a spellcasting roll against the creatures Stamina save. On success they are Paralyzed for the next minute. You must maintain line of sight with the creature or the spell ends. After 1 minute you make another spellcasting roll against the creatures Stamina save. On success the creature is turned to stone.
 
 You add a terrible die to your roll when cast on a large creature, or 3 terrible dice when cast on a huge or larger creature.
 
@@ -780,6 +790,19 @@ When opening a portal it remains open until the end of your next turn and any cr
 Add an enhanced die to the roll for every level cast above 6th.
 
 
+#### Subjugation
+*6th level*
+
+- **Casting Time:** 10 AP
+- **Range:** 10
+- **Duration:** concentration, 1 hour
+
+Bonds of light subjugate a creature in range you can see. Make a spellcasting roll against the creatures Strength save. On success the creature is Restrained, Blinded, Silenced, and Weakened, bypassing any resistances and cannot teleport by any means. If the creature is a Demon or Undead they gain _Vulnerability_ 1 to holy damage.
+
+You must maintain eye contact for the duration of the spell, otherwise the spell ends. While the spell is maintained you are considered to be Blinded to all other creatures. Should something block your line of sight, such as the spell _Shroud of Darkness_, the spell ends.
+
+Add an enhanced die to the roll for every level cast above 6th.
+
 #### Word of Command
 *6th level*
 
@@ -802,7 +825,7 @@ Your voice carries an extra 5 tiles for every level cast above 6th.
 - **Duration:** instant
 - **Damage Type:** holy
 
-You speak a divine word to smite any creatures in range that can hear you. Make a spellcasting roll against the creatures Charisma save. On success the following effects occur depending on the creatures remaining wounds, increasing the threshold by 1 for every critical rolled:
+You speak a divine word to smite any creatures in range that can hear you. Make a spellcasting roll against the creatures Charisma save. On success the creature is dazed until the end of their next turn and the following effects occur depending on the creatures remaining wounds, increasing the threshold by 1 for every critical rolled:
 
 - 8 wounds or fewer: blinded for 1 minute
 - 5 wounds or fewer: blinded and feared for 10 minutes

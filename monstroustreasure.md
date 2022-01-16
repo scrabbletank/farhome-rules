@@ -144,8 +144,10 @@ The final section contains all the actions a monster can take. Each action follo
 - [Goblin - C1/2](#Goblin)
 - [Goblin Fighter - C1](#Goblin-Fighter)
 - [Goblin Shaman - C3](#Goblin-Shaman)
-- [Twili Assassin - C7](#Twili-Assassin)
-- [Twili Witch - C9](#Twili-Witch)
+- [Ratling - C1](#Ratling)
+- [Ratling Chaos Speaker - C8](#Ratling-Chaos-Speaker)
+- [Vargund - C1](#Vargund)
+- [Vargund Bonelord - C1](#Vargund-Bonelord)
 - [Orc - C10](#Orc)
 - [Orc Vargrider - C12](#Orc-Vargrider)
 - [Orc Shaman - C14](#Orc-Shaman)
@@ -157,6 +159,8 @@ The final section contains all the actions a monster can take. Each action follo
 - [Bandit Leader - C5](#Bandit-Leader)
 - [Apprentice - C4](#Apprentice)
 - [Wizard - C11](#Wizard)
+- [Tlani Assassin - C7](#Twili-Assassin)
+- [Tlani Witch - C9](#Twili-Witch)
 - [Assassin - C12](#Assassin)
 - [Shaman - C11](#Shaman)
 - [Soldier - C6](#Soldier)
@@ -164,7 +168,7 @@ The final section contains all the actions a monster can take. Each action follo
 - [Knight - C15](#Knight)
 
 [Monstrosities](#Monstrosities)
-- [Frogbeast - C2](#Peryton)
+- [Frogbeast - C2](#Frogbeast)
 - [Frogbeast Mutant - C4](#Frogbeast-Mutant)
 - [Frogbeast Witch - C4](#Frogbeast-Witch)
 - [Gloom Stalker - C3](#Gloom-Stalker)
@@ -182,7 +186,7 @@ The final section contains all the actions a monster can take. Each action follo
 [Outsiders](#Outsiders)
 - [Eye of Morgan - C4](#Eye-of-Morgan)
 - [Void Spawn - C4](#Void-Spawn)
-- [Merculent - C7](#Merculent)
+- [Watcher - C7](#Watcher)
 - [Mind Whisperer - C10](#Mind-Whisperer)
 - [Mindful One - C15](#Mindful-One)
 - [Void Speaker - C30](#Void-Speaker)
@@ -2539,7 +2543,7 @@ ___
 ***Bite.*** *Melee Attack, Once per turn:* 3 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die in damage.
 ___
 
-#### Merculent
+#### Watcher
  | | | | |
  |:---|---:|:---|---:|
  | **Defense:** | 0/3 | **AP:** | 11 |
@@ -3193,7 +3197,7 @@ ___
 - **Charge Cost:** 1
 - **Range:** 7
 
-Blast a flaming holy symbol at a creature in range. Make a melee attack against the creatures defense. On hit they take 1 wound and 4 wound dice in fire damage and are branded for 1 day on a critical. Brands emit a dim light and cannot be hidden. Branded creatures cannot hide their presence and gain no benefits from being invisible.
+Blast a flaming holy symbol at a creature in range. Make an attack against the creatures defense. On hit they take 1 wound and 4 wound dice in fire damage and are branded for 1 day on a critical. Brands emit a dim light and cannot be hidden. Branded creatures cannot hide their presence and gain no benefits from being invisible.
 
 #### Crestor's Codex of Trickery
 *Magical Spellbook*
