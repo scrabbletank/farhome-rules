@@ -33,7 +33,7 @@ The monsters in this book are arranged into condensed stat sheets. These stat sh
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 2 | **Challenge:** | 1 |
  | **Move/Sprint:** | 5/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/1|2/2|1/1|-2/0|0/0|0/0|
@@ -43,9 +43,9 @@ ___
 
 **Actions**
 
-***Bite.*** *Melee Attack:* 5 AP, 2/0/3/0/0</br>On hit deals 1/1 in piercing damage.
+***Bite.*** *Melee Attack:* 5 AP, 2/0/3/0/0 - On hit deals 1/1 in piercing damage.
 
-***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 2/0/4/0/0</br>The wolf leaps up to 2 tiles, ending in a tile adjacent to the target creature. The creature makes a Defense or Dexterity save, taking 1/1 in piercing damage on fail, being knocked prone on a critical.
+***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 2/0/4/0/0 - The wolf leaps up to 2 tiles, ending in a tile adjacent to the target creature. The creature makes a Defense or Dexterity save, taking 1/1 in piercing damage on fail, being knocked prone on a critical.
 ___
 
 As you can see there is quite a bit going on here. The statblock is broken down into 4 parts. The first are the monsters general stats. Here you will find:
@@ -159,8 +159,8 @@ The final section contains all the actions a monster can take. Each action follo
 - [Bandit Leader - C5](#Bandit-Leader)
 - [Apprentice - C4](#Apprentice)
 - [Wizard - C11](#Wizard)
-- [Tlani Assassin - C7](#Twili-Assassin)
-- [Tlani Witch - C9](#Twili-Witch)
+- [Tlani Assassin - C7](#Tlani-Assassin)
+- [Tlani Witch - C9](#Tlani-Witch)
 - [Assassin - C12](#Assassin)
 - [Shaman - C11](#Shaman)
 - [Soldier - C6](#Soldier)
@@ -212,7 +212,7 @@ The final section contains all the actions a monster can take. Each action follo
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 2 | **Challenge:** | 1 |
  | **Move/Sprint:** | 5/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/1|2/2|1/1|-2/0|0/0|0/0|
@@ -222,9 +222,9 @@ ___
 
 **Actions**
 
-***Bite.*** *Melee Attack:* 5 AP, 2/0/3/0/0</br>On hit deals 1/1 in piercing damage.
+***Bite.*** *Melee Attack:* 5 AP, 2/0/3/0/0 - On hit deals 1/1 in piercing damage.
 
-***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 2/0/4/0/0</br>The wolf leaps up to 2 tiles, ending in a tile adjacent to a creature and attacks them. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
+***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 2/0/4/0/0 - The wolf leaps up to 2 tiles, ending in a tile adjacent to a creature and attacks them. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
 ___
 
 #### Bear
@@ -233,7 +233,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 10 |
  | **Wounds:** | 5 | **Challenge:** | 2 |
  | **Move/Sprint:** | 3/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/2|-1/0|3/2|-2/0|1/0|0/0|
@@ -242,9 +242,9 @@ ___
 
 **Actions**
 
-***Claw.*** *Melee Attack:* 5 AP, 2/1/2/0/0</br>On hit deals 1/2 in slashing damage.
+***Claw.*** *Melee Attack:* 5 AP, 2/1/2/0/0 - On hit deals 1/2 in slashing damage.
 
-***Bite.*** *Melee Attack, Once per turn:* 5 AP, 2/1/3/0/0</br>On hit deals 1/1 in piercing damage, adding 0/2 on a critical.
+***Bite.*** *Melee Attack, Once per turn:* 5 AP, 2/1/3/0/0 - On hit deals 1/1 in piercing damage, adding 0/2 on a critical.
 ___
 
 #### Boar
@@ -253,7 +253,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 2 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/2|1/0|2/1|-2/0|1/0|0/0|
@@ -263,9 +263,9 @@ ___
 
 **Actions**
 
-***Tusks.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>On hit deals 1/0 in piercing damage.
+***Tusks.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - On hit deals 1/0 in piercing damage.
 
-***Gore.*** *Melee Attack, Maneuver:* 5 AP, Range 2, 1/1/4/0/0</br>The boar charges towards a creature, ending in a tile within range adjacent to the target creature. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
+***Gore.*** *Melee Attack, Maneuver:* 5 AP, Range 2, 1/1/4/0/0 - The boar charges towards a creature, ending in a tile within range adjacent to the target creature. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
 ___
 
 #### Vargr
@@ -274,7 +274,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 11 |
  | **Wounds:** | 4 | **Challenge:** | 6 |
  | **Move/Sprint:** | 4/6 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/2|4/2|1/0|-2/0|2/1|-2/0|
@@ -286,11 +286,11 @@ ___
 
 **Actions**
 
-***Bite.*** *Melee Attack:* 4 AP, 3/1/1/0/0</br>On hit deals 1/2 in piercing damage.
+***Bite.*** *Melee Attack:* 4 AP, 3/1/1/0/0 - On hit deals 1/2 in piercing damage.
 
-***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 3/1/2/0/0</br>The wolf leaps up to 2 tiles, ending in a tile adjacent to a creature and attacks them. The creature makes a Defense or Dexterity save. On hit they take 2/1 in piercing damage, being knocked prone on a critical.
+***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 3/1/2/0/0 - The wolf leaps up to 2 tiles, ending in a tile adjacent to a creature and attacks them. The creature makes a Defense or Dexterity save. On hit they take 2/1 in piercing damage, being knocked prone on a critical.
 
-***Howl.*** *Special, Maneuver:* 4 AP, Range 3, 2/0/3/0/0</br>Lets out a bone chilling howl targeting all enemy creatures in range. Creatures make a Willpower save against this roll. On fail they gain Fear until the end of their next turn with the Vargr as the source. A creature that succeeds against this is immune to _Howl_ for the next 24 hours.
+***Howl.*** *Special, Maneuver:* 4 AP, Range 3, 2/0/3/0/0 - Lets out a bone chilling howl targeting all enemy creatures in range. Creatures make a Willpower save against this roll. On fail they gain Fear until the end of their next turn with the Vargr as the source. A creature that succeeds against this is immune to _Howl_ for the next 24 hours.
 ___
 
 #### Cinderbug Swarm
@@ -299,17 +299,19 @@ ___
  | **Defense:** | 0/4 | **AP:** | 10 |
  | **Wounds:** | 8 | **Challenge:** | 7 |
  | **Move/Sprint:** | 4/6 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|4/4|1/0|-2/0|-1/0|0/0|
 
 ___
-***Swarm*** This creature takes at most 1 wound from single target attacks and spells and is immune to conditions from those attacks. This creature can occupy the same tiles as other creatures, treating those tiles as difficult terrain.
+***Swarm.*** This creature takes at most 1 wound from single target attacks and spells and is immune to conditions from those attacks. This creature can occupy the same tiles as other creatures, treating those tiles as difficult terrain.
+
+***Fire Resistance.*** This creature has _Resistance_ 1 to fire damage.
 
 **Actions**
 
-***Engulf.*** *Melee Attack, Once per turn:* 5 AP, 1/3/1/0/0</br>All creatures occupying the same tiles as the Cinderbug Swarm make a Stamina save against this attack. On hit the creatures take 1/0 in fire damage. This creature adds 1 success to the attack roll and deals an extra 0/1 for every 2 wounds of health remaining.
+***Engulf.*** *Melee Attack, Once per turn:* 5 AP, 1/3/1/0/0 - All creatures occupying the same tiles as the Cinderbug Swarm make a Stamina save against this attack. On hit the creatures take 1/0 in fire damage. This creature adds 1 success to the attack roll and deals an extra 0/1 for every 2 wounds of health remaining.
 ___
 
 #### Screeching Bear
@@ -318,7 +320,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 12 |
  | **Wounds:** | 10 | **Challenge:** | 8 |
  | **Move/Sprint:** | 5/3 | **Size:** | Huge |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/2|1/1|3/2|-1/0|1/0|2/0|
@@ -328,11 +330,11 @@ ___
 
 **Actions**
 
-***Claw.*** *Melee Attack:* 5 AP, 3/1/1/0/0</br>On hit deals 1/1 in slashing damage, adding 0/1 on a critical.
+***Claw.*** *Melee Attack:* 5 AP, 3/1/1/0/0 - On hit deals 1/1 in slashing damage, adding 0/1 on a critical.
 
-***Beak.*** *Melee Attack, Once per turn:* 7 AP, 2/3/1/0/0</br>On hit deals 1/3 in piercing damage.
+***Beak.*** *Melee Attack, Once per turn:* 7 AP, 2/3/1/0/0 - On hit deals 1/3 in piercing damage.
 
-***Arcane Screech.*** *Special, Maneuver:* 7 AP, Range 3, 1/1/3/0/0</br>This creatures screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 2nd level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Screeching Bear gains Combat Advantage with all attacks for the next minute.
+***Arcane Screech.*** *Special, Maneuver:* 7 AP, Range 3, 1/1/3/0/0 - This creatures screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 2nd level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Screeching Bear gains Combat Advantage with all attacks for the next minute.
 ___
 
 #### Burrowbeast
@@ -341,21 +343,23 @@ ___
  | **Defense:** | 2/2 | **AP:** | 11 |
  | **Wounds:** | 9 | **Challenge:** | 8 |
  | **Move/Sprint:** | 5/3 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/2|0/0|4/2|-2/0|1/0|-2/0|
 
 ___
+***Tremorsense.*** This creature can see through vibrations in the ground, sensing creatures within 7 tiles of it. This has no effect on flying creatures.
+
 ***Burrow.*** As part of it's movement the Burrowbeast may burrow or unburrow as long as it is on earth or sand. After burrowing or unburrowing it cannot do this again until its next turn.
 
 **Actions**
 
-***Claw.*** *Melee Attack:* 4 AP, 2/2/1/0/0</br>On hit deals 1/1 in slashing damage.
+***Claw.*** *Melee Attack:* 4 AP, 2/2/1/0/0 - On hit deals 1/1 in slashing damage.
 
-***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0</br>On hit deals 1/3 in piercing damage.
+***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0 - On hit deals 1/3 in piercing damage.
 
-***Dive.*** *Melee Attack, Maneuver:* 7 AP, Range 3, 2/2/1/0/0</br>Can only be used while the Burrowbeast is above ground. The Burrowbeast jumps up to 3 tiles, landing on one or more creatures. All creatures the Burrowbeast land on make a Strength or Dexterity save. On hit they take 0/3 in bludgeoning damage, being knocked prone on a critical.
+***Dive.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 2/2/1/0/0 - Can only be used while the Burrowbeast is burrowed. The burrowbeast unburrows, leaping up to 2 tiles and landing on one or more creature. All creatures make a Strength or Dexterity save against this roll. On fail they take 0/3 in bludgeoning damage and are knocked prone, being grappled by the burrowbeast on a critical.
 ___
 
 #### Griffin
@@ -364,7 +368,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 12 |
  | **Wounds:** | 10 | **Challenge:** | 13 |
  | **Move/Sprint:** | 5/7 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/1|5/5|1/0|-1/0|2/1|1/0|
@@ -378,11 +382,11 @@ ___
 
 **Actions**
 
-***Talons.*** *Melee Attack:* 4 AP, 3/2/0/0/0</br>On hit deals 1/2 in piercing damage.
+***Talons.*** *Melee Attack:* 4 AP, 3/2/0/0/0 - On hit deals 1/2 in piercing damage.
 
-***Bite.*** *Melee Attack:* 7 AP, 4/2/0/0/0</br>On hit deals 2/2 in piercing damage.
+***Bite.*** *Melee Attack:* 7 AP, 4/2/0/0/0 - On hit deals 2/2 in piercing damage.
 
-***Plummet.*** *Melee Attack, Maneuver:* 4 AP, Range 3, 3/3/0/0/0</br>Can only be used while above the target creature. The Griffin dives down, attempting to pin the creature. The creature makes a Strength or Dexterity save. On fail they take 0/3 in bludgeoning damage, knocked prone, and are grappled by the Griffin.
+***Plummet.*** *Melee Attack, Maneuver:* 4 AP, Range 3, 3/3/0/0/0 - Can only be used while above the target creature. The Griffin dives down, attempting to pin the creature. The creature makes a Strength or Dexterity save. On fail they take 0/3 in bludgeoning damage, knocked prone, and are grappled by the Griffin.
 ___
 
 #### Dire Bear
@@ -391,7 +395,7 @@ ___
  | **Defense:** | 1/4 | **AP:** | 15 |
  | **Wounds:** | 17 | **Challenge:** | 15 |
  | **Move/Sprint:** | 5/3 | **Size:** | Huge |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |7/4|-2/0|5/3|-1/0|1/0|0/0|
@@ -401,9 +405,9 @@ ___
 
 **Actions**
 
-***Claws.*** *Melee Attack:* 5 AP, 4/1/2/0/0</br>On hit deals 1/2 in slashing damage, adding 0/2 on a critical.
+***Claws.*** *Melee Attack:* 5 AP, 4/1/2/0/0 - On hit deals 1/2 in slashing damage, adding 0/2 on a critical.
 
-***Bite.*** *Melee Attack, Once per turn:* 7 AP, 4/2/2/0/0</br>On hit deals 2/3 in piercing damage.
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 4/2/2/0/0 - On hit deals 2/3 in piercing damage.
 ___
 
 #### Mirelurk Stalker
@@ -412,7 +416,7 @@ ___
  | **Defense:** | 1/4 | **AP:** | 13 |
  | **Wounds:** | 13 | **Challenge:** | 14 |
  | **Move/Sprint:** | 4/5 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |6/4|3/1|2/2|-2/0|-1/0|0/0|
@@ -424,9 +428,9 @@ ___
 
 **Actions**
 
-***Poisoned Claws.*** *Melee Attack:* 5 AP, 4/1/1/0/0</br>On hit deals 1/0 in slashing damage. On a critical the creature takes 0/3 in poison damage and gains Poison 2.
+***Poisoned Claws.*** *Melee Attack:* 5 AP, 4/1/1/0/0 - On hit deals 1/0 in slashing damage. On a critical the creature takes 0/3 in poison damage and gains Poison 2.
 
-***Chomp.*** *Melee Attack, Once per turn:* 5 AP, 4/2/1/0/0</br>On hit deals 2/1 in piercing damage. If the creature is medium or smaller it is also grappled by the Stalker.
+***Chomp.*** *Melee Attack, Once per turn:* 5 AP, 4/2/1/0/0 - On hit deals 2/1 in piercing damage. If the creature is medium or smaller it is also grappled by the Stalker.
 ___
 
 #### Giant Eagle
@@ -435,7 +439,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 12 |
  | **Wounds:** | 12 | **Challenge:** | 17 |
  | **Move/Sprint:** | 5/7 | **Size:** | Huge |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|5/3|1/0|4/2|1/0|0/0|
@@ -449,12 +453,36 @@ ___
 
 **Actions**
 
-***Claw.*** *Melee Attack:* 5 AP, 3/2/0/0/0</br>On hit deals 1/1 in slashing damage.
+***Claw.*** *Melee Attack:* 5 AP, 3/2/0/0/0 - On hit deals 1/1 in slashing damage.
 
-***Beak.*** *Melee Attack, Once per turn:* 5 AP, 3/3/0/0/0</br>On hit deals 1/2 in piercing damage. If the creature is concentrating on a spell they add 2 bad dice to the concnetration check from this attack.
+***Beak.*** *Melee Attack, Once per turn:* 5 AP, 3/3/0/0/0 - On hit deals 1/2 in piercing damage. If the creature is concentrating on a spell they add 2 bad dice to the concnetration check from this attack.
 
-***Arcane Screech.*** *Special, Maneuver:* 7 AP, Range 5, 1/2/2/0/0</br>The Giant Eagle's screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 4th level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Giant Eagle gains Combat Advantage with all attacks and spells for the next minute.
+***Arcane Screech.*** *Special, Maneuver:* 7 AP, Range 5, 1/2/2/0/0 - The Giant Eagle's screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 4th level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Giant Eagle gains Combat Advantage with all attacks and spells for the next minute.
 
+#### Basilisk
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 2/3 | **AP:** | 13 |
+ | **Wounds:** | 18 | **Challenge:** | 25 |
+ | **Move/Sprint:** | 4/5 | **Size:** | Large |
+___
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|4/2|3/3|5/3|-2/0|2/2|-1/0|
+
+___
+***Poison Resistance*** The Basilisk has _Resistance_ 2 to poison damage and is immune to Poisons at level 2 or below.
+
+***Hardened Scales.*** Effects that Daze, Stun, or Paralyze require 2 criticals in their roll to affect this creature.
+
+**Actions**
+
+***Venomous Bite.*** *Melee Attack:* 4 AP, 3/2/1/0/0 - On hit deals 1/2 in piercing damage, adding 0/3 in poison damage on a critical. The target gains Poison 1 for 1 minute, being Paralzyed while they are Poisoned.
+
+***Putrid Cloud.*** *Special Attack, Maneuver:* 7 AP, 2/3/0/0/0 - The basilisk breathes a cloud of toxic fumes, covering the basilisk and all adjacent tiles. All creatures except the basilisk inside the cloud or that enter it for the first time this round make a Stamina save against this attack. On fail they take 0/2 in poison damage, being paralyzed until the end of their turn on a critical. The toxic cloud lasts for 1 minute.
+
+***Death Stare.*** *Special Attack, Maneuver:* 8 AP, 3/2/0/0/0 - Cannot be used while blinded. The basilisk focuses his gaze in an arc 5 tiles long and 3 tiles wide. All creatures that can see the Basilisk make a Stamina save against this attack. On fail they are incapacitated for 1 hour. A creature Incapacitated this way can be revived similar to a downed creature.
+___
 
 ### Celestials
 
@@ -464,7 +492,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 4 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-1/0|3/1|1/0|0/0|1/0|2/2|
@@ -478,7 +506,7 @@ ___
 
 **Actions**
 
-***Smite.*** *Ranged Attack:* 5 AP, Range 5, 2/1/2/0/0</br>Target creature makes a Stamina save. On hit they take 0/2 in holy damage.
+***Smite.*** *Ranged Attack:* 5 AP, Range 5, 2/1/2/0/0 - Target creature makes a Stamina save. On hit they take 0/2 in holy damage.
 ___
 
 #### Will-o-Wisp
@@ -487,7 +515,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 11 |
  | **Wounds:** | 5 | **Challenge:** | 6 |
  | **Move/Sprint:** | 4/6 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-2/0|4/2|0/0|-1/0|2/1|2/1|
@@ -501,7 +529,7 @@ ___
 
 **Actions**
 
-***Zap.*** *Melee Attack:* 5 AP, 3/1/1/0/0</br>Target creature makes a Dexterity save. On hit they take 0/3 in lightning damage, being Paralyzed until the end of their next turn on a critical.
+***Zap.*** *Melee Attack:* 5 AP, 3/1/1/0/0 - Target creature makes a Dexterity save. On hit they take 0/3 in lightning damage, being Paralyzed until the end of their next turn on a critical.
 
 ***Spasm.*** *Reaction:* 2 AP</br>When an adjacent creature fails to take an action due to effects of Paralyze this creature may instead cause that action to succeed, chosing a new target for the action.
 ___
@@ -512,7 +540,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 12 |
  | **Wounds:** | 10 | **Challenge:** | 12 |
  | **Move/Sprint:** | 4/8 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/2|5/2|1/0|-1/0|2/2|3/1|
@@ -524,32 +552,34 @@ ___
 
 **Actions**
 
-***Hooves.*** *Melee Attack:* 4 AP, 2/3/0/0/0</br>On hit deals 0/3 in bludgeoning damage.
+***Hooves.*** *Melee Attack:* 4 AP, 2/3/0/0/0 - On hit deals 0/3 in bludgeoning damage.
 
-***Shockwave.*** *Melee Attack, Maneuver:* 7 AP, Reach, 3/1/2</br>When an adjacent creature fails to take an action due to effects of Paralyze this creature may instead cause that action to succeed, chosing a new target for the action.
+***Shockwave.*** *Melee Attack, Maneuver:* 7 AP, Reach, 2/2/2/0/0 - The pegasus flaps its wings sending out a shockwave of force to all creatures in its zone of control. Creatures make a Stamina save against this roll. On fail they take 1/2 in thunder damage and pushed back 1 tile, being knocked prone on a critical.
 ___
 
-#### Sanctus Owl
- | | | | |
- |:---|---:|:---|---:|
- | **Defense:** | 2/2 | **AP:** | 12 |
- | **Wounds:** | 15 | **Challenge:** | 25 |
- | **Move/Sprint:** | 5/6 | **Size:** | Large |
- 
-|STR|DEX|STA|INT|WIL|CHA|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|2/0|3/3|1/0|6/3|2/2|4/3|
-
 ___
-***Hexproof.*** This creature is immune to Hex 2 and below.
+>#### Sanctus Owl
+> | | | | |
+> |:---|---:|:---|---:|
+> | **Defense:** | 2/2 | **AP:** | 12 |
+> | **Wounds:** | 15 | **Challenge:** | 25 |
+> | **Move/Sprint:** | 5/6 | **Size:** | Large |
+>___
+>|STR|DEX|STA|INT|WIL|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|2/0|3/3|1/0|6/3|2/2|4/3|
+>
+>___
+>***Hexproof.*** This creature is immune to Hex 2 and below.
+>
+>***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 5/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. They know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
+>
+>***Spell-Eater.*** The owl devours a spell targeting it or a creature or point within 2 tiles. Roll 3 superior dice, if this roll is higher than the casters spellcasting roll the spell is countered and the owl gains 1 temporary wound.
+>
+>**Actions**
+>
+>***Bite.*** *Melee Attack:* 5 AP, 3/0/2/0/0 - On hit deals 1/2 in piercing damage.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 5/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. They know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
-
-***Spell-Eater.*** The owl devours a spell targeting it or a creature or point within 2 tiles. Roll 3 superior dice, if this roll is higher than the casters spellcasting roll the spell is countered and the owl gains 1 temporary wound.
-
-**Actions**
-
-***Bite.*** *Melee Attack:* 5 AP, 3/0/2/0/0</br>On hit deals 1/2 in piercing damage.
 ___
 
 #### Greater Spirit
@@ -558,7 +588,7 @@ ___
  | **Defense:** | 2/2 | **AP:** | 14 |
  | **Wounds:** | 17 | **Challenge:** | 30 |
  | **Move/Sprint:** | 5/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/1|3/2|2/0|0/0|4/3|5/5|
@@ -572,9 +602,9 @@ ___
 
 **Actions**
 
-***Smite.*** *Ranged Attack:* 5 AP, Range 5, 4/1/0/0/0</br>Target creature makes a Stamina save. On hit they take 1/3 in holy damage.
+***Smite.*** *Ranged Attack:* 5 AP, Range 5, 4/1/0/0/0 - Target creature makes a Stamina save. On hit they take 1/3 in holy damage.
 
-***Ray of Purification.*** *Ranged Attack, Maneuver:* 8 AP, Range 10, 5/1/0/0/0</br>Fires a ray of purifying light at a creature. The creature makes a Stamina save. On hit they take 1/6 in holy damage and are Weakened for one minute. On a critical the creature loses the will to fight, being unable to take actions against the Greater Spirit until the end of their next turn.
+***Ray of Purification.*** *Ranged Attack, Maneuver:* 8 AP, Range 10, 5/1/0/0/0 - Fires a ray of purifying light at a creature. The creature makes a Stamina save. On hit they take 1/6 in holy damage and are Weakened for one minute. On a critical the creature loses the will to fight, being unable to take actions against the Greater Spirit until the end of their next turn.
 ___
 
 #### Archangel
@@ -583,7 +613,7 @@ ___
  | **Defense:** | 2/3 | **AP:** | 13 |
  | **Wounds:** | 25 | **Challenge:** | 40 |
  | **Move/Sprint:** | 5/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/1|3/2|2/0|1/0|4/3|6/5|
@@ -601,11 +631,11 @@ ___
 
 **Actions**
 
-***Flaming Sword.*** *Melee Attack:* 3 AP, 5/1/1/0/0</br>On hit deals 1/1 in slashing damage, adding 0/3 in fire damage on a critical.
+***Flaming Sword.*** *Melee Attack:* 3 AP, 5/1/1/0/0 - On hit deals 1/1 in slashing damage, adding 0/3 in fire damage on a critical.
 
-***Judgment Bow.*** *Ranged Attack:* 4 AP, 4/2/1/0/0</br>On hit deals 1/3 in holy damage.
+***Judgment Bow.*** *Ranged Attack:* 4 AP, Range 30/60, 4/2/1/0/0 - On hit deals 1/3 in holy damage.
 
-***Arrow of Slaying.*** *Ranged Attack, Maneuver:* 6 AP, 5/2/1/0/0</br>On hit deals 1/1 in holy damage. If the creature has 7 or less wounds they are reduced to 0 instead.
+***Arrow of Slaying.*** *Ranged Attack, Maneuver:* 6 AP, Range 30/60, 5/2/1/0/0 - On hit deals 1/1 in holy damage. If the creature has 7 or less wounds they are reduced to 0 instead.
 ___
 
 ### Constructs
@@ -616,7 +646,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 2 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/0|2/0|0/0|-/-|1/0|-1/0|
@@ -628,9 +658,9 @@ ___
 
 **Actions**
 
-***Sickle.*** *Melee Attack:* 4 AP, 1/1/3/0/0</br>On hit deals 1/0 in slashing damage. If the creature is Feared they gain the effects of _Curse of Misfortune_ for 1 day.
+***Sickle.*** *Melee Attack:* 4 AP, 1/1/3/0/0 - On hit deals 1/0 in slashing damage. If the creature is Feared they gain the effects of _Curse of Misfortune_ for 1 day.
 
-***Terror*** *Special, Maneuver:* 7 AP, Range 3, 0/1/4/0/0</br>Targeting a creature that can see the Scarecrow, they make a Willpower save. On fail they gain Fear for 1 minute with the scarecrow as the source.
+***Terror*** *Special, Maneuver:* 7 AP, Range 3, 0/1/4/0/0 - Targeting a creature that can see the Scarecrow, they make a Willpower save. On fail they gain Fear for 1 minute with the scarecrow as the source.
 
 #### Enchanted Armor
  | | | | |
@@ -638,7 +668,7 @@ ___
  | **Defense:** | 3/2* | **AP:** | 10 |
  | **Wounds:** | 5 | **Challenge:** | 5 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/0|-1/0|2/2|-/-|0/0|0/0|
@@ -652,9 +682,9 @@ ___
 
 **Actions**
 
-***Punch.*** *Melee Attack:* 4 AP, 1/2/2/0/0</br>On hit deals 0/2 in bludgeoning damage.
+***Punch.*** *Melee Attack:* 4 AP, 1/2/2/0/0 - On hit deals 0/2 in bludgeoning damage.
 
-***Crushing Blow.*** *Melee Attack, Maneuver:* 7 AP, 0/3/3/0/0</br>On hit deals 0/4 in bludgeoning damage, being staggered on a critical.
+***Crushing Blow.*** *Melee Attack, Maneuver:* 7 AP, 0/3/3/0/0 - On hit deals 0/4 in bludgeoning damage, being staggered on a critical.
 
 #### Sentry
  | | | | |
@@ -662,7 +692,7 @@ ___
  | **Defense:** | 3/0 | **AP:** | 10 |
  | **Wounds:** | 6 | **Challenge:** | 8 |
  | **Move/Sprint:** | -/- | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/0|-2/0|3/0|-/-|2/0|0/0|
@@ -678,11 +708,11 @@ ___
 
 **Actions**
 
-***Sorching Beam.*** *Ranged Spell Attack:* 7 AP, Range 10, 3/1/1/0/0</br> On hit they take 1/2 in fire damage, adding 0/1 on a critical.
+***Sorching Beam.*** *Ranged Spell Attack:* 7 AP, Range 10, 3/1/1/0/0 -  On hit they take 1/2 in fire damage, adding 0/1 on a critical.
 
-***Chain Lightning.*** *Ranged Spell Attack:* 8 AP, Range 5, 3/1/1/0/0</br>Targeting a creature in range the lightning bounces to 2 other creatures within 3 tiles of the original target and must bounce if able. Creatures make a Dexterity save against this attack. On hit they take 1/0 in lightning damage, adding 0/1 for each critical rolled.
+***Chain Lightning.*** *Ranged Spell Attack:* 8 AP, Range 5, 3/1/1/0/0 - Targeting a creature in range the lightning bounces to 2 other creatures within 3 tiles of the original target and must bounce if able. Creatures make a Dexterity save against this attack. On hit they take 1/0 in lightning damage, adding 0/1 for each critical rolled.
 
-***Barrier.*** *Ranged Spell:* 7 AP, Range 10</br>Gives a creature in range _Resistance 1_ to elemental damage until the start of the Sentry's next turn.
+***Barrier.*** *Ranged Spell:* 7 AP, Range 10 - Gives a creature in range _Resistance 1_ to elemental damage until the start of the Sentry's next turn.
 
 #### Living Tree
  | | | | |
@@ -690,7 +720,7 @@ ___
  | **Defense:** | 1/4 | **AP:** | 15 |
  | **Wounds:** | 15 | **Challenge:** | 14 |
  | **Move/Sprint:** | 3/2 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |6/5|-2/0|5/3|-2/0|0/0|-1/0|
@@ -700,9 +730,9 @@ ___
 
 **Actions**
 
-***Slam.*** *Melee Attack:* 6 AP, Reach 2, 4/1/1/0/0</br>Deals 2/2 in bludgeoning damage.
+***Slam.*** *Melee Attack:* 6 AP, Reach 2, 4/1/1/0/0 - Deals 2/2 in bludgeoning damage.
 
-***Sap Life.*** *Melee Attack, Maneuver:* 6 AP, 3/2/1/0/0</br>Only usable against a grappled creature. Pierces a creature with vines, draining the life out of the creature. The grappled creature makes a Stamina save against this attack, taking 0/4 in piercing damage with the Living Tree healing for the damage dealt.
+***Sap Life.*** *Melee Attack, Maneuver:* 6 AP, 3/2/1/0/0 - Only usable against a grappled creature. Pierces a creature with vines, draining the life out of the creature. The grappled creature makes a Stamina save against this attack, taking 0/4 in piercing damage with the Living Tree healing for the damage dealt.
 
 #### Bronze Colossus
  | | | | |
@@ -710,7 +740,7 @@ ___
  | **Defense:** | 3/3 | **AP:** | 15 |
  | **Wounds:** | 16 | **Challenge:** | 25 |
  | **Move/Sprint:** | 4/2 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |6/4|-2/0|3/2|-/-|2/1|0/0|
@@ -724,9 +754,9 @@ ___
 
 **Actions**
 
-***Punch.*** *Melee Attack:* 5 AP, 5/0/1/0/0</br>Deals 2/2 in bludgeoning damage.
+***Punch.*** *Melee Attack:* 5 AP, 5/0/1/0/0 - Deals 2/2 in bludgeoning damage.
 
-***Tremor.*** *Melee Attack, Maneuver:* 7 AP, 4/1/1/0/0</br>Hits all creatures within 2 tiles of the Bronze Coloussus that are touching the ground. Creatures make a Stamina save against this attack. On fail they take 0/3 in bludgeoning damage, being knocked prone on a critical.
+***Tremor.*** *Melee Attack, Maneuver:* 7 AP, 4/1/1/0/0 - Slams the ground, hitting all creatures within 2 tiles of the Bronze Coloussus that are touching the ground. Creatures make a Stamina save against this attack. On fail they take 0/3 in bludgeoning damage, being knocked prone on a critical.
 
 ### Dragons
 
@@ -736,7 +766,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 10 |
  | **Wounds:** | 2 | **Challenge:** | 1 |
  | **Move/Sprint:** | 5/4 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0/0|2/0|1/0|-2/0|1/0|0/0|
@@ -748,9 +778,9 @@ ___
 
 **Actions**
 
-***Bone Spear.*** *Melee Attack:* 5 AP, 0/2/3/0/0</br>On hit deals 1/0 in piercing damage.
+***Bone Spear.*** *Melee Attack:* 5 AP, 0/2/3/0/0 - On hit deals 1/0 in piercing damage.
 
-***Sling.*** *Ranged Attack:* 5 AP, Range 5/10, 1/1/3/0/0</br>On hit deals 1/0 in bludgeoning damage.
+***Sling.*** *Ranged Attack:* 5 AP, Range 5/10, 1/1/3/0/0 - On hit deals 1/0 in bludgeoning damage.
 
 ___
 
@@ -760,7 +790,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 3 |
  | **Move/Sprint:** | 5/5 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|3/2|1/0|-1/0|1/0|0/0|
@@ -772,9 +802,9 @@ ___
 
 **Actions**
 
-***Sword.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>On hit deals 1/0 in slashing damage.
+***Sword.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - On hit deals 1/0 in slashing damage.
 
-***Firebreath*** *Special, Maneuver:* 7 AP, 2/1/2/0/0</br>Breathes fire at all creatures in its zone of control. Creatures make a defense roll, taking 0/3 in fire damage on hit.
+***Firebreath*** *Special, Maneuver:* 7 AP, 2/1/2/0/0 - Breathes fire at all creatures in its zone of control. Creatures make a defense roll, taking 0/3 in fire damage on hit.
 
 ___
 
@@ -784,7 +814,7 @@ ___
  | **Defense:** | 2/2 | **AP:** | 12 |
  | **Wounds:** | 10 | **Challenge:** | 15 |
  | **Move/Sprint:** | 4/6 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/2|2/2|1/0|0/0|2/2|1/0|
@@ -805,11 +835,11 @@ ___
 
 **Actions**
 
-***Claws.*** *Melee Attack:* 4 AP, 2/2/1/0/0</br>On hit deals 1/1 in slashing damage.
+***Claws.*** *Melee Attack:* 4 AP, 2/2/1/0/0 - On hit deals 1/1 in slashing damage.
 
-***Bite.*** *Melee Attack, Once per turn:* 7 AP, 2/3/1/0/0</br>On hit deals 1/3 in piercing damage.
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 2/3/1/0/0 - On hit deals 1/3 in piercing damage.
 
-***Fireball.*** *Ranged Attack:* 7 AP, Range 7, 2/0/3/0/0</br>Spits a fireball at a creature in range. The creature makes a Defense roll against this attack. On hit they take 2/2 in fire damage, adding 0/2 on a critical. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
+***Fireball.*** *Ranged Attack:* 7 AP, Range 7, 2/0/3/0/0 - Spits a fireball at a creature in range. The creature makes a Defense roll against this attack. On hit they take 2/2 in fire damage, adding 0/2 on a critical. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
 ___
 
 #### Half Dragon
@@ -818,7 +848,7 @@ ___
  | **Defense:** | 2/3 | **AP:** | 12 |
  | **Wounds:** | 16 | **Challenge:** | 17 |
  | **Move/Sprint:** | 4/4 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |5/4|1/1|2/1|0/0|2/2|0/0|
@@ -837,13 +867,13 @@ ___
 
 **Actions**
 
-***Great Spear.*** *Melee Attack:* 4 AP, Reach 2, 4/1/0/0/0</br>On hit deals 1/2 in piercing damage.
+***Great Spear.*** *Melee Attack:* 4 AP, Reach 2, 4/1/0/0/0 - On hit deals 1/2 in piercing damage.
 
-***Savage Leap.*** *Melee Attack, Maneuver:* 4 AP, Reach 2, 4/2/0/0/0</br>This creature jumps 2 tiles ending adjacent to the target creature. On hit deals 2/2 in piercing damage and staggers.
+***Savage Leap.*** *Melee Attack, Maneuver:* 4 AP, Reach 2, 4/2/0/0/0 - This creature jumps 2 tiles ending adjacent to the target creature. On hit deals 2/2 in piercing damage and staggers.
 
-***Sweeping Strike.*** *Melee Attack, Maneuver:* 4 AP, Reach 2, 4/2/0/0/0</br>Attempts to knock a creature prone. The creature makes a Strength save against this attack. On hit they take 1/2 in bludgeoning damage, being knocked prone on a critical.
+***Sweeping Strike.*** *Melee Attack, Maneuver:* 4 AP, Reach 2, 4/2/0/0/0 - Attempts to knock a creature prone. The creature makes a Strength save against this attack. On hit they take 1/2 in bludgeoning damage, being knocked prone on a critical.
 
-***Firebreath.*** *Special Attack:* 7 AP, 3/0/2/0/0</br>Breathes fire in a 5x5 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/3 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
+***Firebreath.*** *Special Attack:* 7 AP, 3/0/2/0/0 - Breathes fire in a 5x5 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/3 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
 ___
 
 #### Young Chromatic Dragon
@@ -852,7 +882,7 @@ ___
  | **Defense:** | 3/2 | **AP:** | 15 |
  | **Wounds:** | 26 | **Challenge:** | 35 |
  | **Move/Sprint:** | 5/8 | **Size:** | Huge |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |6/4|1/1|4/3|2/0|3/1|1/0|
@@ -874,13 +904,13 @@ ___
 
 **Actions**
 
-***Claws.*** *Melee Attack:* 4 AP, 4/1/1/0/0</br>On hit deals 1/2 in slashing damage.
+***Claws.*** *Melee Attack:* 4 AP, 4/1/1/0/0 - On hit deals 1/2 in slashing damage.
 
-***Bite.*** *Melee Attack, Once per turn:* 7 AP, 4/2/1/0/0</br>On hit deals 2/3 in piercing damage.
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 4/2/1/0/0 - On hit deals 2/3 in piercing damage.
 
-***Firebreath.*** *Special Attack:* 10 AP, 3/1/2/0/0</br>Breathes fire in a 6x6 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/5 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
+***Firebreath.*** *Special Attack:* 10 AP, 3/1/2/0/0 - Breathes fire in a 6x6 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/5 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
 
-***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 2, 3/1/1/0/0</br>Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 2 tiles and take 0/1 in thunder damage, being knocked prone on a critical.
+***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 2, 3/1/1/0/0 - Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 2 tiles and take 0/1 in thunder damage, being knocked prone on a critical.
 ___
 
 #### Adult Chromatic Dragon
@@ -889,7 +919,7 @@ ___
  | **Defense:** | 3/3 | **AP:** | 17 |
  | **Wounds:** | 42 | **Challenge:** | 55 |
  | **Move/Sprint:** | 5/10 | **Size:** | Huge |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |7/6|0/0|5/4|2/0|3/2|1/0|
@@ -911,13 +941,13 @@ ___
 
 **Actions**
 
-***Claws.*** *Melee Attack:* 4 AP, 5/1/1/0/0</br>On hit deals 1/3 in slashing damage.
+***Claws.*** *Melee Attack:* 4 AP, 5/1/1/0/0 - On hit deals 1/3 in slashing damage.
 
-***Bite.*** *Melee Attack, Once per turn:* 7 AP, 5/2/1/0/0</br>On hit deals 2/4 in piercing damage.
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 5/2/1/0/0 - On hit deals 2/4 in piercing damage.
 
-***Firebreath.*** *Special Attack:* 10 AP, 4/1/2/0/0</br>Breathes fire in a 9x9 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/8 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 3 Superior dice, recharging this attack on a critical.
+***Firebreath.*** *Special Attack:* 10 AP, 4/1/2/0/0 - Breathes fire in a 9x9 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/8 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 3 Superior dice, recharging this attack on a critical.
 
-***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 3, 4/1/0/0/0</br>Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 3 tiles and take 0/2 in thunder damage, being knocked prone on a critical.
+***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 3, 4/1/0/0/0 - Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 3 tiles and take 0/2 in thunder damage, being knocked prone on a critical.
 ___
 
 #### Ancient Chromatic Dragon
@@ -926,7 +956,7 @@ ___
  | **Defense:** | 4/3 | **AP:** | 19 |
  | **Wounds:** | 58 | **Challenge:** | 70 |
  | **Move/Sprint:** | 5/12 | **Size:** | Gargantuan |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |9/7|-1/0|6/5|2/0|4/3|1/0|
@@ -948,13 +978,13 @@ ___
 
 **Actions**
 
-***Claws.*** *Melee Attack:* 4 AP, 6/1/2/0/0</br>On hit deals 2/3 in slashing damage.
+***Claws.*** *Melee Attack:* 4 AP, 6/1/2/0/0 - On hit deals 2/3 in slashing damage.
 
-***Bite.*** *Melee Attack, Once per turn:* 7 AP, 6/2/2/0/0</br>On hit deals 3/5 in piercing damage.
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 6/2/2/0/0 - On hit deals 3/5 in piercing damage.
 
-***Firebreath.*** *Special Attack:* 10 AP, 5/1/2/0/0</br>Breathes fire in a 12x12 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 3/11 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 3 Superior dice, recharging this attack on a critical.
+***Firebreath.*** *Special Attack:* 10 AP, 5/1/2/0/0 - Breathes fire in a 12x12 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 3/11 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 3 Superior dice, recharging this attack on a critical.
 
-***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 4, 5/1/0/0/0</br>Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 3 tiles and take 0/3 in thunder damage, being knocked prone on a critical.
+***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 4, 5/1/0/0/0 - Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 3 tiles and take 0/3 in thunder damage, being knocked prone on a critical.
 ___
 
 ### Demons
@@ -965,7 +995,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 2 | **Challenge:** | 1 |
  | **Move/Sprint:** | 4/5 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0/0|3/0|0/0|0/0|1/0|-1/0|
@@ -977,9 +1007,9 @@ ___
 
 **Actions**
 
-***Claws.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>Deals 2 wound dice in damage.
+***Claws.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - Deals 2 wound dice in damage.
 
-***Barbed Tail.*** *Maneuver, Melee Attack:* 7 AP, 2/1/2/0/0</br>Deals 1 wound die in damage. On crit the target gains Poison 1 and takes an extra wound die in Poison damage for every crit rolled.
+***Barbed Tail.*** *Maneuver, Melee Attack:* 7 AP, 2/1/2/0/0 - Deals 1 wound die in damage. On crit the target gains Poison 1 and takes an extra wound die in Poison damage for every crit rolled.
 ___
 
 #### Hordling
@@ -988,7 +1018,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 10 |
  | **Wounds:** | 5 | **Challenge:** | 3 |
  | **Move/Sprint:** | 3/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/3|2/0|2/0|-1/0|0/0|-2/0|
@@ -1002,7 +1032,7 @@ ___
 
 **Actions**
 
-***Blade.*** *Melee Attack:* 5 AP, 2/1/2/0/0</br>Deals 1/0 in slashing, adding 0/1 on a critical.
+***Blade.*** *Melee Attack:* 5 AP, 2/1/2/0/0 - Deals 1/0 in slashing, adding 0/1 on a critical.
 ___
 
 #### Balegor
@@ -1011,7 +1041,7 @@ ___
  | **Defense:** | 1/3 | **AP:** | 11 |
  | **Wounds:** | 9 | **Challenge:** | 10 |
  | **Move/Sprint:** | 3/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/3|2/0|2/0|-1/0|1/0|1/0|
@@ -1025,7 +1055,7 @@ ___
 
 **Actions**
 
-***Great Blade.*** *Melee Attack:* 5 AP, 3/1/2/0/0</br>Deals 1/1 in slashing, adding 0/1 on a critical.
+***Great Blade.*** *Melee Attack:* 5 AP, 3/1/2/0/0 - Deals 1/1 in slashing, adding 0/1 on a critical.
 
 ***Call for Blood.*** *Special, Maneuver:* 5 AP</br>Commands up to 3 Hordlings to make an opportunity attack against an adjacent creature.
 ___
@@ -1036,7 +1066,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 11 |
  | **Wounds:** | 11 | **Challenge:** | 12 |
  | **Move/Sprint:** | 3/6 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|3/3|2/0|1/0|3/0|0/0|
@@ -1048,11 +1078,11 @@ ___
 
 **Actions**
 
-***Trident Spear.*** *Reach 1, Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound and 1 wound die in damage.
+***Trident Spear.*** *Reach 1, Melee Attack:* 4 AP, 2/1/2/0/0 - Deals 1 wound and 1 wound die in damage.
 
-***Dive Bomb.*** *Maneuver, Melee Attack:* 5 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die in damage. The Spine devil must be flying before attacking. If the Spine devil drops 2 or more tiles before making the attack add a wound die to the damage.
+***Dive Bomb.*** *Maneuver, Melee Attack:* 5 AP, 2/2/2/0/0 - Deals 1 wound and 1 wound die in damage. The Spine devil must be flying before attacking. If the Spine devil drops 2 or more tiles before making the attack add a wound die to the damage.
 
-***Rain of Spines.*** *Maneuver, Special Attack:* 5 AP, 1/2/3/0/0</br>Fires razor sharp quills in a 90 degree arc 3 tiles long in front of it. All creatures in range make a Defense roll, taking 3 wound die on fail.
+***Rain of Spines.*** *Maneuver, Special Attack:* 5 AP, 1/2/3/0/0 - Fires razor sharp quills in a 90 degree arc 3 tiles long in front of it. All creatures in range make a Defense roll, taking 3 wound die on fail.
 ___
 
 #### Seraptis Demon
@@ -1061,7 +1091,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 12 |
  | **Wounds:** | 12 | **Challenge:** | 18 |
  | **Move/Sprint:** | 4/7 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/0|4/0|3/0|1/0|4/0|1/0|
@@ -1075,13 +1105,13 @@ ___
 
 **Actions**
 
-***Sacrificial Dagger.*** *Melee Attack:* 4 AP, 3/1/1/0/0</br>Deals 1 wound and 1 wound die in damage.
+***Sacrificial Dagger.*** *Melee Attack:* 4 AP, 3/1/1/0/0 - Deals 1 wound and 1 wound die in damage.
 
-***Summoning.*** *Maneuver, Special:* 7 AP, 3/0/0/0/0</br>Summon an Imp for each success. Can only be used once per day, the Imps return to the abyss after 10 minutes.
+***Summoning.*** *Maneuver, Special:* 7 AP, 3/0/0/0/0 - Summon an Imp for each success. Can only be used once per day, the Imps return to the abyss after 10 minutes.
 
-***Insane Whispers.*** *Maneuver, Range 10:* 6 AP, 0/4/1/0/0</br>Whisper insanities into a target creatures mind. The target makes an Intelligence save, on fail becoming insane for 10 minutes. While insane at the start of your round roll a normal die: Success you act normally, Blank you move randomly muttering gibberish, and fail you make a single weapon attack against a random creature in range. Every time you take damage or a creature spends 5 AP to break your insanity you may make the save again.
+***Insane Whispers.*** *Maneuver, Range 10:* 6 AP, 0/4/1/0/0 - Whisper insanities into a target creatures mind. The target makes an Intelligence save, on fail becoming insane for 10 minutes. While insane at the start of your round roll a normal die: Success you act normally, Blank you move randomly muttering gibberish, and fail you make a single weapon attack against a random creature in range. Every time you take damage or a creature spends 5 AP to break your insanity you may make the save again.
 
-***Shadow Bolt.*** *Maneuver, Ranged Attack:* 9 AP, 2/2/1/0/0</br>Fire a barrage of 3 shadow bolts at up up to 3 targets in range. The target makes a Defense roll, taking 2 wound die per shadow bolt in death damage on hit and gaining Hex 1 on crit.
+***Shadow Bolt.*** *Maneuver, Ranged Attack:* 9 AP, 2/2/1/0/0 - Fire a barrage of 3 shadow bolts at up up to 3 targets in range. The target makes a Defense roll, taking 2 wound die per shadow bolt in death damage on hit and gaining Hex 1 on crit.
 ___
 
 #### Ephial
@@ -1090,7 +1120,7 @@ ___
  | **Defense:** | 2/2 | **AP:** | 12 |
  | **Wounds:** | 12 | **Challenge:** | 20 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|3/2|1/1|0/0|4/4|2/0|
@@ -1103,11 +1133,11 @@ ___
 
 **Actions**
 
-***Bite.*** *Melee Attack:* 6 AP, 4/1/1/0/0</br>On hit deals 2/2 in piercing damage.
+***Bite.*** *Melee Attack:* 6 AP, 4/1/1/0/0 - On hit deals 2/2 in piercing damage.
 
-***Impale.*** *Maneuver, Melee Attack:* 7 AP, 4/2/1/0/0</br>On hit deals 3/0 in piercing damage, restraining the creature on a critical. The restrained creature can spend 5 AP on their turn to attempt to free themselves, making a Strength save against this creatures raw Strength. On success they are no longer restrained.
+***Impale.*** *Maneuver, Melee Attack:* 7 AP, 4/2/1/0/0 - On hit deals 3/0 in piercing damage, restraining the creature on a critical. The restrained creature can spend 5 AP on their turn to attempt to free themselves, making a Strength save against this creatures raw Strength. On success they are no longer restrained.
 
-***Charge.*** *Maneuver, Special Attack:* 8 AP, Range 5, 3/2/1/0/0</br>The Iber demon charges in a line, trampling all creatures it passes through. Creatures hit make a Dexterity or Strength save against this roll, taking 1/2 in bludgeoning damage on a fail.
+***Charge.*** *Maneuver, Special Attack:* 8 AP, Range 5, 3/2/1/0/0 - The Iber demon charges in a line, trampling all creatures it passes through. Creatures hit make a Dexterity or Strength save against this roll, taking 1/2 in bludgeoning damage on a fail.
 
 #### Iber Demon
  | | | | |
@@ -1115,22 +1145,22 @@ ___
  | **Defense:** | 2/4 | **AP:** | 14 |
  | **Wounds:** | 16 | **Challenge:** | 20 |
  | **Move/Sprint:** | 4/6 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |6/4|4/4|3/1|-2/0|0/0|-1/0|
 
 ___
 
-***Demonic Resistance.*** This creature has _Resistance 1_ against lightning, fire, and cold damage. Effects that Daze, Stun, and Slow end at the end of its turn.
+***Demonic Resistance.*** This creature has _Resistance 1_ against lightning, fire, and cold damage. Effects that Daze, Stun, or Paralyze require 2 criticals in their roll to affect this creature.
 
 **Actions**
 
-***Bite.*** *Melee Attack:* 6 AP, 4/1/1/0/0</br>On hit deals 2/2 in piercing damage.
+***Bite.*** *Melee Attack:* 6 AP, 4/1/1/0/0 - On hit deals 2/2 in piercing damage.
 
-***Impale.*** *Maneuver, Melee Attack:* 7 AP, 4/2/1/0/0</br>On hit deals 3/0 in piercing damage, restraining the creature on a critical. The restrained creature can spend 5 AP on their turn to attempt to free themselves, making a Strength save against this creatures raw Strength. On success they are no longer restrained.
+***Impale.*** *Maneuver, Melee Attack:* 7 AP, 4/2/1/0/0 - On hit deals 3/0 in piercing damage, restraining the creature on a critical. The restrained creature can spend 5 AP on their turn to attempt to free themselves, making a Strength save against this creatures raw Strength. On success they are no longer restrained.
 
-***Charge.*** *Maneuver, Special Attack:* 8 AP, Range 5, 3/2/1/0/0</br>The Iber demon charges in a line, trampling all creatures it passes through. Creatures hit make a Dexterity or Strength save against this roll, taking 1/2 in bludgeoning damage on a fail.
+***Charge.*** *Maneuver, Special Attack:* 8 AP, Range 5, 3/2/1/0/0 - The Iber demon charges in a line, trampling all creatures it passes through. Creatures hit make a Dexterity or Strength save against this roll, taking 1/2 in bludgeoning damage on a fail.
 
 #### Naga
  | | | | |
@@ -1138,14 +1168,14 @@ ___
  | **Defense:** | 2/3 | **AP:** | 12 |
  | **Wounds:** | 20 | **Challenge:** | 25 |
  | **Move/Sprint:** | 4/8 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |5/3|5/4|3/1|0/0|3/3|2/0|
 
 ___
 
-***Demonic Resistance.*** This creature has _Resistance 1_ against lightning, fire, and cold damage. Effects that Daze, Stun, and Slow end at the end of its turn.
+***Demonic Resistance.*** This creature has _Resistance 1_ against lightning, fire, and cold damage. Effects that Daze, Stun, or Paralyze require 2 criticals in their roll to affect this creature.
 
 ***Magic Resistance.*** This creature adds 2 critical successes to defense and saving throws against magic.
 
@@ -1153,11 +1183,11 @@ ___
 
 **Actions**
 
-***Sword.*** *Melee Attack:* 3 AP, 5/1/0/0/0</br>Attacks twice. On hit deals 1/1 in slashing damage.
+***Sword.*** *Melee Attack:* 3 AP, 5/1/0/0/0 - Attacks twice. On hit deals 1/1 in slashing damage.
 
 ***Parry.*** *Maneuver, Reaction:* 1 AP</br>As a reaction, this creature may reroll 3 dice in their defense roll.
 
-***Portal of Flames.*** *Special Action:* 7 AP, Range 10, 3/0/2/0/0</br>The Naga is engulfed in flames, teleporting to an unoccupied location in range. All adjacent creatures make a Dexterity save against this roll, taking 0/3 in fire damage on fail. Adjacent creatures that are grappling the Naga automatically fail this roll.
+***Portal of Flames.*** *Special Action:* 7 AP, Range 10, 3/0/2/0/0 - The Naga is engulfed in flames, teleporting to an unoccupied location in range. All adjacent creatures make a Dexterity save against this roll, taking 0/3 in fire damage on fail. Adjacent creatures that are grappling the Naga automatically fail this roll.
 
 #### Scaled Demon
  | | | | |
@@ -1165,14 +1195,14 @@ ___
  | **Defense:** | 3/3 | **AP:** | 15 |
  | **Wounds:** | 24 | **Challenge:** | 30 |
  | **Move/Sprint:** | 4/5 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |6/6|3/2|4/1|-1/0|3/1|1/0|
 
 ___
 
-***Demonic Resistance.*** This creature has _Resistance 1_ against lightning, fire, and cold damage. Effects that Daze, Stun, and Slow end at the end of its turn.
+***Demonic Resistance.*** This creature has _Resistance 1_ against lightning, fire, and cold damage. Effects that Daze, Stun, or Paralyze require 2 criticals in their roll to affect this creature.
 
 ***Fearless.*** This creature is immune to Sleep and adds 5 successes against effects that Fear or charm.
 
@@ -1180,13 +1210,13 @@ ___
 
 **Actions**
 
-***Serrated Blade.*** *Melee Attack:* 3 AP, 5/1/1/0/0</br>Deals 1/1 in slashing damage, adding 0/2 on a critical.
+***Serrated Blade.*** *Melee Attack:* 3 AP, 5/1/1/0/0 - Deals 1/1 in slashing damage, adding 0/2 on a critical.
 
-***Flurry.*** *Maneuver, Melee Attack:* 7 AP, 5/1/1/1/0</br>Makes up to 3 attacks at adjacent creatures. On hit deals 1/1 in slashing damage, adding 0/2 on a critical.
+***Flurry.*** *Maneuver, Melee Attack:* 7 AP, 5/1/1/1/0 - Makes up to 3 attacks at adjacent creatures. On hit deals 1/1 in slashing damage, adding 0/2 on a critical.
 
-***Blade Fury.*** *Maneuver, Special Attack:* 7 AP, Range 3, 3/3/1/0/0</br>The Scaled Demon launches forward, jumping up to 3 tiles and slicing all creatures the demon passes through or are adjacent to it. Creatures make a Defense or Dexterity save, taking 1/2 in slashing damage on hit.
+***Blade Fury.*** *Maneuver, Special Attack:* 7 AP, Range 3, 3/3/1/0/0 - The Scaled Demon launches forward, jumping up to 3 tiles and slicing all creatures the demon passes through or are adjacent to it. Creatures make a Defense or Dexterity save, taking 1/2 in slashing damage on hit.
 
-***Battle Cry.*** *Maneuver, Special:* 5 AP, Range 5, 3/0/0/0/0</br>Lets loose a furious roar, enchanting itself and an ally in range for each success rolled. Each creature has expertise in attacks until the end of their next turn.
+***Battle Cry.*** *Maneuver, Special:* 5 AP, Range 5, 3/0/0/0/0 - Lets loose a furious roar, enchanting itself and an ally in range for each success rolled. Each creature has expertise in attacks until the end of their next turn.
 ___
 
 #### Taurus Demon
@@ -1195,7 +1225,7 @@ ___
  | **Defense:** | 3/2 | **AP:** | 15 |
  | **Wounds:** | 35 | **Challenge:** | 40 |
  | **Move/Sprint:** | 4/4 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |7/6|1/0|4/2|0/0|3/3|3/2|
@@ -1209,15 +1239,15 @@ ___
 
 **Actions**
 
-***Great Spear.*** *Reach 1, Melee Attack:* 5 AP, Reach 1, 6/1/1/0/0</br>Deals 2/1 in piercing damage, adding 0/2 on a critical.
+***Great Spear.*** *Reach 1, Melee Attack:* 5 AP, Reach 1, 6/1/1/0/0 - Deals 2/1 in piercing damage, adding 0/2 on a critical.
 
-***Cleave.*** *Reach 1, Melee Attack:* 7 AP, Reach 1, 6/1/1/1/0</br>Hits all creatures in its zone of control, dealing 2/1 in piercing damage, adding 0/2 on a critical.
+***Cleave.*** *Reach 1, Melee Attack:* 7 AP, Reach 1, 6/1/1/1/0 - Hits all creatures in its zone of control, dealing 2/1 in piercing damage, adding 0/2 on a critical.
 
-***Summoning.*** *Maneuver, Special:* 7 AP, 3/0/0/0/0</br>Summon a Hordling or lesser demon (CR 7 and below) for each success. Can only be used once per day, the Demons return to the abyss after 1 hour.
+***Summoning.*** *Maneuver, Special:* 7 AP, 3/0/0/0/0 - Summon a Hordling or lesser demon (CR 7 and below) for each success. Can only be used once per day, the Demons return to the abyss after 1 hour.
 
-***Gore.*** *Maneuver, Melee Attack:* 6 AP, Range 3, 6/1/1/0/0</br>Can only target a creature that is not adjacent to the Taurus Demon. This creature charges at its target, moving up to 3 tiles and ending adjacent to them. The creature makes a Strength or Dexterity save against the attack, taking 2/4 in piercing damage.
+***Gore.*** *Maneuver, Melee Attack:* 6 AP, Range 3, 6/1/1/0/0 - Can only target a creature that is not adjacent to the Taurus Demon. This creature charges at its target, moving up to 3 tiles and ending adjacent to them. The creature makes a Strength or Dexterity save against the attack, taking 2/4 in piercing damage.
 
-***Mass Fireball.*** *Special, Once per day:* 10 AP, 4/1/1/0/0</br>This creature can cast the spell _Mass Fireball_ at 7th level, using this roll for the spellcasting roll.
+***Mass Fireball.*** *Special, Once per day:* 10 AP, 4/1/1/0/0 - This creature can cast the spell _Mass Fireball_ at 7th level, using this roll for the spellcasting roll.
 ___
 
 ### Elementals
@@ -1228,7 +1258,7 @@ ___
  | **Defense:** | 2/0 | **AP:** | 10 |
  | **Wounds:** | 2 | **Challenge:** | 1 |
  | **Move/Sprint:** | 4/4 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/0|2/2|0/0|-1/0|0/0|0/0|
@@ -1240,7 +1270,7 @@ ___
 
 **Actions**
 
-***Fists.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>Deals a wound die each of Fire and bludgeoning damage.
+***Fists.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - Deals a wound die each of Fire and bludgeoning damage.
 ___
 
 #### Mud Sprite
@@ -1249,7 +1279,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 10 |
  | **Wounds:** | 3 | **Challenge:** | 1 |
  | **Move/Sprint:** | 4/2 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/0|0/0|2/0|0/0|-1/0|0/0|
@@ -1259,9 +1289,9 @@ ___
 
 **Actions**
 
-***Fists.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>Deals a wound.
+***Fists.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - Deals a wound.
 
-***Restrain.*** *Maneuver*, *Melee Attack:* 5 AP, 0/2/3/0/0</br>Attempt to bind a creature in mud. The target creature makes a Strength or Dexterity save, on fail they are restrained and the Mud Sprite occupies the same tile as the creature. Any attack that targets the Mud Sprite also targets the restrained creature with both creatures rolling saves and taking damage.
+***Restrain.*** *Maneuver*, *Melee Attack:* 5 AP, 0/2/3/0/0 - Attempt to bind a creature in mud. The target creature makes a Strength or Dexterity save, on fail they are restrained and the Mud Sprite occupies the same tile as the creature. Any attack that targets the Mud Sprite also targets the restrained creature with both creatures rolling saves and taking damage.
 ___
 
 #### Fire Elemental
@@ -1270,7 +1300,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | - | **Challenge:** | 5 |
  | **Move/Sprint:** | 3/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/0|2/1|2/0|-1/0|1/0|0/0|
@@ -1282,9 +1312,9 @@ ___
 
 **Actions**
 
-***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound and 1 wound die in fire damage.
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 1 wound and 1 wound die in fire damage.
 
-***Firebolt.*** *Ranged 10 Attack:* 5 AP, 0/2/3/0/0</br>Deals 1 wound in fire damage on hit, adding a wound die on crit.
+***Firebolt.*** *Ranged 10 Attack:* 5 AP, 0/2/3/0/0 - Deals 1 wound in fire damage on hit, adding a wound die on crit.
 ___
 
 #### Water Elemental
@@ -1293,7 +1323,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | - | **Challenge:** | 6 |
  | **Move/Sprint:** | 3/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/0|2/1|2/0|-1/0|1/0|0/0|
@@ -1305,9 +1335,9 @@ ___
 
 **Actions**
 
-***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound and 1 wound die in cold damage.
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 1 wound and 1 wound die in cold damage.
 
-***Freeze.*** *Maneuver, Melee Attack:* 5 AP, 0/3/2/0/0</br>Target makes a Stamina save. On fail they take 1 wound in Cold damage and gain Slow 1 for 1 minute, and are restraining until the end of their next turn on crit.
+***Freeze.*** *Maneuver, Melee Attack:* 5 AP, 0/3/2/0/0 - Target makes a Stamina save. On fail they take 1 wound in Cold damage and gain Slow 1 for 1 minute, and are restraining until the end of their next turn on crit.
 ___
 
 #### Air Elemental
@@ -1316,7 +1346,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | - | **Challenge:** | 6 |
  | **Move/Sprint:** | 3/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/0|2/1|2/0|-1/0|1/0|0/0|
@@ -1328,7 +1358,7 @@ ___
 
 **Actions**
 
-***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound and 1 wound die in thunder damage.
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 1 wound and 1 wound die in thunder damage.
 
 ***Gust.*** *Maneuver, Special:* 7 AP</br>Creates a torrent of wind in a direction away from the elemental. The gust is 3 tiles wide and 7 tiles long and lasts until the start of the elementals next turn. All creatures moving into the wind use an extra tile of movement for each tile moved. All ranged attacks moving into the wind add 1 Terrible dice to their attack.
 ___
@@ -1339,7 +1369,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | - | **Challenge:** | 6 |
  | **Move/Sprint:** | 3/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/0|2/1|2/0|-1/0|1/0|0/0|
@@ -1351,7 +1381,7 @@ ___
 
 **Actions**
 
-***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound and 1 wound die in bludgeoning damage.
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 1 wound and 1 wound die in bludgeoning damage.
 
 ***Harden.*** *Maneuver, Special:* 2 AP</br>Improve all defense dice to superior defense dice.
 ___
@@ -1362,7 +1392,7 @@ ___
  | **Defense:** | 3/3 | **AP:** | 15 |
  | **Wounds:** | 16 | **Challenge:** | 24 |
  | **Move/Sprint:** | 3/3 | **Size:** | Huge |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |7/5|-2/0|4/2|-2/0|0/0|0/0|
@@ -1373,9 +1403,9 @@ ___
 
 **Actions**
 
-***Slam.*** *Melee Attack:* 5 AP, 4/1/2/0/0</br>Deals 2 wounds and 1 wound die in thunder damage.
+***Slam.*** *Melee Attack:* 5 AP, 4/1/2/0/0 - Deals 2 wounds and 1 wound die in thunder damage.
 
-***Thunderwave.*** *Melee Attack:* 7 AP, 3/2/2/0/0</br>Stomps the ground, sending a wave of thunderous force hitting all creatures within 2 tiles of the Golem. Creatures make a Stamina save, taking 0/2 in thunder damage on fail, and being knocked prone on a critial.
+***Thunderwave.*** *Melee Attack:* 7 AP, 3/2/2/0/0 - Stomps the ground, sending a wave of thunderous force hitting all creatures within 2 tiles of the Golem. Creatures make a Stamina save, taking 0/2 in thunder damage on fail, and being knocked prone on a critial.
 
 ***Rock Throw.*** *Maneuver, Ranged Attack:* 7 AP, Range 7, 3/2/2</br>Throws a large boulder at a creature in range it can see. The creature makes a Dexterity or Defense save against the attack, taking 2/3 in bludgeoning damage.
 ___
@@ -1386,7 +1416,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | - | **Challenge:** | 6 |
  | **Move/Sprint:** | 3/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/0|2/1|2/0|-1/0|1/0|0/0|
@@ -1398,7 +1428,7 @@ ___
 
 **Actions**
 
-***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 1 wound and 1 wound die in bludgeoning damage.
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 1 wound and 1 wound die in bludgeoning damage.
 
 ***Harden.*** *Maneuver, Special:* 2 AP</br>Improve all defense dice to superior defense dice.
 ___
@@ -1411,7 +1441,7 @@ ___
  | **Defense:** | 0/1 | **AP:** | 10 |
  | **Wounds:** | 1 | **Challenge:** | 1/2 |
  | **Move/Sprint:** | 4/3 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0/0|3/1|-1/0|0/0|1/0|2/0|
@@ -1421,7 +1451,7 @@ ___
 
 **Actions**
 
-***Razor Dust.*** *Ranged Attack:* 5 AP, Range 2, 0/3/2/0/0</br>Deals 1 wound die. On crit the target gains Hex 1 for 1 minute.
+***Razor Dust.*** *Ranged Attack:* 5 AP, Range 2, 0/3/2/0/0 - Deals 1 wound die. On crit the target gains Hex 1 for 1 minute.
 
 ***Trickery.*** *Maneuver*, *Reaction:* 2 AP</br>If this creature or an adjacent ally is targeted by a melee attack you add 1 bad die to their attack roll. If they critically fail the attack they gain Hex 1 for 1 minute.
 ___
@@ -1432,7 +1462,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 9 | **Challenge:** | 8 |
  | **Move/Sprint:** | 4/3 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/1|3/1|2/0|0/0|1/0|2/0|
@@ -1444,9 +1474,9 @@ ___
 
 **Actions**
 
-***Gore.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>Deals 3 wound dice. If the attack does 3 or more damage the target gets the Lesser Wound: Bleeding. Attacks against a bleeding creature reroll all blank wound dice.
+***Gore.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - Deals 3 wound dice. If the attack does 3 or more damage the target gets the Lesser Wound: Bleeding. Attacks against a bleeding creature reroll all blank wound dice.
 
-***Tail Wind.*** *Maneuver*, *Special:* 5 AP, 0/3/2/0/0</br>Blasts wind at all creatures in its zone of control. Creatures make a Strength save against the attack. On fail they take 1 wound die in damage and are pushed back 1 tile, being knocked prone on crit.
+***Tail Wind.*** *Maneuver*, *Special:* 5 AP, 0/3/2/0/0 - Blasts wind at all creatures in its zone of control. Creatures make a Strength save against the attack. On fail they take 1 wound die in damage and are pushed back 1 tile, being knocked prone on crit.
 ___
 
 #### Dryad
@@ -1455,7 +1485,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 11 |
  | **Wounds:** | 9 | **Challenge:** | 8 |
  | **Move/Sprint:** | 4/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|3/1|2/2|0/0|1/1|4/2|
@@ -1469,13 +1499,13 @@ ___
 
 **Actions**
 
-***Vine Club.*** *Melee Attack:* 5 AP, 0/1/5/0/0</br>Deals 2 wound dice.
+***Vine Club.*** *Melee Attack:* 5 AP, 0/1/5/0/0 - Deals 2 wound dice.
 
 _Barkskin_ and _Summon Creature_ can be used once per day.
 
 ***Barkskin.*** *Concentration, Special:* 5 AP</br>The dryad grows a thick layer of bark, improving all defense dice to superior defense dice. This effect lasts for 10 minutes and must be concentrated on like a spell.
 
-***Summon Creatures.*** *Special:* 10 AP, 2/0/0/0/0</br>Summon a woodland beast of Challenge 3 or less for each success rolled.
+***Summon Creatures.*** *Special:* 10 AP, 2/0/0/0/0 - Summon a woodland beast of Challenge 3 or less for each success rolled.
 ___
 
 #### Knight of the Moon Court
@@ -1484,7 +1514,7 @@ ___
  | **Defense:** | 2/0 | **AP:** | 11 |
  | **Wounds:** | 10 | **Challenge:** | 13 |
  | **Move/Sprint:** | 5/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/0|2/2|1/0|0/0|0/0|3/0|
@@ -1496,9 +1526,9 @@ ___
 
 **Actions**
 
-***Claymore.*** *Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1/1 in slashing damage.
+***Claymore.*** *Melee Attack:* 4 AP, 2/1/2/0/0 - Deals 1/1 in slashing damage.
 
-***Cleave.*** *Maneuver*, *Melee Attack:* 6 AP, 2/1/3/0/0</br>Attacks all creatures inside its zone of control, dealing 1/1 in slashing damage to all targets on hit.
+***Cleave.*** *Maneuver*, *Melee Attack:* 6 AP, 2/1/3/0/0 - Attacks all creatures inside its zone of control, dealing 1/1 in slashing damage to all targets on hit.
 ___
 
 #### Faerie Dragon
@@ -1507,7 +1537,7 @@ ___
  | **Defense:** | 2/2 | **AP:** | 13 |
  | **Wounds:** | 17 | **Challenge:** | 16 |
  | **Move/Sprint:** | 5/5 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/0|4/4|2/2|-2/0|-1/0|5/3|
@@ -1521,9 +1551,9 @@ ___
 
 **Actions**
 
-***Claw.*** *Melee Attack:* 5 AP, 2/0/3/0/0</br>Deals 1 wound and 2 wound dice in damage.
+***Claw.*** *Melee Attack:* 5 AP, 2/0/3/0/0 - Deals 1 wound and 2 wound dice in damage.
 
-***Faerie Orb.*** *Maneuver*, *Special:* 7 AP, Range 5, 2/3/0/0/0</br>The faerie dragon turns into an orb of blue fire and dashes 5 tiles in a straight line, hitting all creatures in its path. All creatures targeted make a Dexterity save taking 2 wounds and 2 wound dice in fire damage. The Dragon appears next to the creature and avoids opportunity attacks or damaging effects while travelling.
+***Faerie Orb.*** *Maneuver*, *Special:* 7 AP, Range 5, 2/3/0/0/0 - The faerie dragon turns into an orb of blue fire and dashes 5 tiles in a straight line, hitting all creatures in its path. All creatures targeted make a Dexterity save taking 2 wounds and 2 wound dice in fire damage. The Dragon appears next to the creature and avoids opportunity attacks or damaging effects while travelling.
 
 ***Blink.*** *Maneuver, Reaction:* 3 AP</br>On being hit by an attack, maneuver, or spell the faerie dragon can momentarily blink out of existence. The dragon takes no effects from the attack and appears in their position at the start of their next turn.
 
@@ -1536,7 +1566,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 11 |
  | **Wounds:** | 11 | **Challenge:** | 14 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-1/0|-1/0|2/1|1/0|3/1|2/2|
@@ -1550,9 +1580,9 @@ ___
 
 **Actions**
 
-***Ghoulish Claws.*** *Melee Attack:* 5 AP, 3/0/2/0/0</br>Deals 0/3 in poison damage. The creature is paralyzed until the end of its next turn on a critical.
+***Ghoulish Claws.*** *Melee Attack:* 5 AP, 3/0/2/0/0 - Deals 0/3 in poison damage. The creature is paralyzed until the end of its next turn on a critical.
 
-***Voodoo Doll.*** *Special:* 6 AP, Range 3, 3/1/2/0/0</br>While holding a Voodoo Doll the Night Hag can attempt to bind it to a creature. The creature makes a Willpower save against this attack. On fail they are dominated by the Night Hag. They must obey any command given by the Night Hag as long as it does not harm them. For example, they cannot be commanded to jump off a cliff. The creature can choose to disobey the command, taking 2/2 in psychic damage instead.
+***Voodoo Doll.*** *Special:* 6 AP, Range 3, 3/1/2/0/0 - While holding a Voodoo Doll the Night Hag can attempt to bind it to a creature. The creature makes a Willpower save against this attack. On fail they are dominated by the Night Hag. They must obey any command given by the Night Hag as long as it does not harm them. For example, they cannot be commanded to jump off a cliff. The creature can choose to disobey the command, taking 2/2 in psychic damage instead.
 
 Only one creature can be bound to a Voodoo Doll. The link is broken when the Voodoo Doll is destroyed and the Night Hag must spend 7 days crafting a new one before it can use this ability again.
 ___
@@ -1563,7 +1593,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 12 |
  | **Wounds:** | 13 | **Challenge:** | 18 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-2/0|-1/0|3/2|1/0|4/2|2/2|
@@ -1577,9 +1607,9 @@ ___
 
 **Actions**
 
-***Ghoulish Claws.*** *Melee Attack:* 5 AP, 3/1/2/0/0</br>Deals 0/3 in poison damage. The creature is paralyzed until the end of its next turn on a critical.
+***Ghoulish Claws.*** *Melee Attack:* 5 AP, 3/1/2/0/0 - Deals 0/3 in poison damage. The creature is paralyzed until the end of its next turn on a critical.
 
-***Death Stare.*** *Special, Maneuver:* 8 AP, Range 8, 3/2/2/0/0</br>Targeting a creature the Death Hag can see they make a Willpower save against this roll. On fail they become incapacitated and begin making death saving throws. They do not gain temporary wounds, instead removing their current wounds when failing a death save. If the creature drops to 0 health they die. If they are stabilized, either through healing or by a medicine check, they awake immediately with their remaining health.
+***Death Stare.*** *Special, Maneuver:* 8 AP, Range 8, 3/2/2/0/0 - Targeting a creature the Death Hag can see they make a Willpower save against this roll. On fail they become incapacitated and begin making death saving throws. They do not gain temporary wounds, instead removing their current wounds when failing a death save. If the creature drops to 0 health they die. If they are stabilized, either through healing or by a medicine check, they awake immediately with their remaining health.
 ___
 
 #### Archfey
@@ -1588,7 +1618,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 13 |
  | **Wounds:** | 27 | **Challenge:** | 45 |
  | **Move/Sprint:** | 5/9 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/1|7/6|2/1|2/0|5/4|7/5|
@@ -1604,9 +1634,9 @@ ___
 
 **Actions**
 
-***Infallible Beauty.*** *Special, Reaction, Once per turn:* 2 AP, Range 5, 5/0/2/0/0</br>Can be used when a creature in range attempts to make an attack against the Archfey. The creature makes a Charisma save against this attack. On fail they are overcome by the Archfey's beauty and the attack fails. Until the end of their next turn they are unable to take a hostile action against the Archfey. Succeeding against this attack makes you immune to it for 24 hours.
+***Infallible Beauty.*** *Special, Reaction, Once per turn:* 2 AP, Range 5, 5/0/2/0/0 - Can be used when a creature in range attempts to make an attack against the Archfey. The creature makes a Charisma save against this attack. On fail they are overcome by the Archfey's beauty and the attack fails. Until the end of their next turn they are unable to take a hostile action against the Archfey. Succeeding against this attack makes you immune to it for 24 hours.
 
-***Feyblade.*** *Melee Attack:* 3 AP, 7/1/1/0/0</br>Deals 1/1 in slashing damage, adding 0/2 in force damage on a critical.
+***Feyblade.*** *Melee Attack:* 3 AP, 7/1/1/0/0 - Deals 1/1 in slashing damage, adding 0/2 in force damage on a critical.
 ___
 
 ### Giants
@@ -1617,7 +1647,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 13 |
  | **Wounds:** | 10 | **Challenge:** | 8 |
  | **Move/Sprint:** | 4/2 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/2|1/0|4/3|-2/0|-1/0|-2/0|
@@ -1630,9 +1660,9 @@ ___
 **Actions**
 This creature can only take 1 Bite action per turn.
 
-***Claws.*** *Melee Attack:* 6 AP, 3/1/1/0/0</br>deals 3 wound dice.
+***Claws.*** *Melee Attack:* 6 AP, 3/1/1/0/0 - deals 3 wound dice.
 
-***Bite.*** *Melee Attack:* 6 AP, 3/1/2/0/0</br>deals 1 wound and 3 wound dice.
+***Bite.*** *Melee Attack:* 6 AP, 3/1/2/0/0 - deals 1 wound and 3 wound dice.
 ___
 
 #### Ogre
@@ -1641,7 +1671,7 @@ ___
  | **Defense:** | 1/3 | **AP:** | 11 |
  | **Wounds:** | 14 | **Challenge:** | 9 |
  | **Move/Sprint:** | 4/1 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |5/3|-2/0|5/5|-1/0|1/0|-1/0|
@@ -1650,20 +1680,20 @@ ___
 
 **Actions**
 
-***Great Club.*** *Melee Attack:* 6 AP, 2/3/0/0/0</br>deals 4 wound dice.
+***Great Club.*** *Melee Attack:* 6 AP, 2/3/0/0/0 - deals 4 wound dice.
 
-***Grab.*** *Melee Attack:* 7 AP, 2/3/0/0/0</br>Target makes a Strength or Dexterity save against the ogre. On fail the target is grappled, and the ogre can throw the creature without spending AP.
+***Grab.*** *Melee Attack:* 7 AP, 2/3/0/0/0 - Target makes a Strength or Dexterity save against the ogre. On fail the target is grappled, and the ogre can throw the creature without spending AP.
 
-***Throw.*** *Ranged Attack:* 6 AP, Range 7, 1/4/0/0/0</br>Throws a nearby boulder, or whatever is in their hand at the time dealing 1 wound and 2 wound dice on hit. If the ogre is holding a creature it also takes damage from this attack without making a roll and they are no longer grappled.
+***Throw.*** *Ranged Attack:* 6 AP, Range 7, 1/4/0/0/0 - Throws a nearby boulder, or whatever is in their hand at the time dealing 1 wound and 2 wound dice on hit. If the ogre is holding a creature it also takes damage from this attack without making a roll and they are no longer grappled.
 ___
 
 #### Ogre Warrior
  | | | | |
  |:---|---:|:---|---:|
- | **Defense:** | 4/1 | **AP:** | 11 |
+ | **Defense:** | 3/2 | **AP:** | 11 |
  | **Wounds:** | 15 | **Challenge:** | 13 |
  | **Move/Sprint:** | 4/1 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |6/3|-2/0|5/5|-1/0|1/0|-1/0|
@@ -1672,13 +1702,13 @@ ___
 
 **Actions**
 
-***Great Axe.*** *Melee Attack:* 6 AP, 3/2/1/0/0</br>deals 1 wound and 3 wound dice.
+***Great Axe.*** *Melee Attack:* 6 AP, 3/2/1/0/0 - deals 1 wound and 3 wound dice.
 
-***Grab.*** *Melee Attack:* 7 AP, 3/2/1/0/0</br>Target makes a Strength or Dexterity save against the ogre. On fail the target is grappled, and the ogre can throw the creature without spending AP.
+***Grab.*** *Melee Attack:* 7 AP, 3/2/1/0/0 - Target makes a Strength or Dexterity save against the ogre. On fail the target is grappled, and the ogre can throw the creature without spending AP.
 
-***Throw.*** *Ranged Attack:* 6 AP, Range 7, 2/3/1/0/0</br>Throws a nearby boulder, or whatever is in their hand at the time dealing 1 wound and 2 wound dice on hit. If the ogre is holding a creature it also takes damage from this attack without making a roll and they are no longer grappled.
+***Throw.*** *Ranged Attack:* 6 AP, Range 7, 2/3/1/0/0 - Throws a nearby boulder, or whatever is in their hand at the time dealing 1 wound and 2 wound dice on hit. If the ogre is holding a creature it also takes damage from this attack without making a roll and they are no longer grappled.
 
-***Shield-Bash.*** *Maneuver, Reaction:* 2 AP, 1/2/4/0/0</br>After blocking a melee attack, the ogre can retaliate with its shield dealing 2 wound dice on hit. On crit the target is staggered until the start of its next turn.
+***Shield-Bash.*** *Maneuver, Reaction:* 2 AP, 1/2/4/0/0 - After blocking a melee attack, the ogre can retaliate with its shield dealing 2 wound dice on hit. On crit the target is staggered until the start of its next turn.
 ___
 
 #### Ogre Shaman
@@ -1687,7 +1717,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 12 |
  | **Wounds:** | 13 | **Challenge:** | 14 |
  | **Move/Sprint:** | 4/2 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/3|-2/0|4/2|2/2|3/2|-1/0|
@@ -1697,7 +1727,7 @@ ___
 
 **Actions**
 
-***Staff.*** *Melee Attack:* 6 AP, 2/2/1/0/0</br>deals 3 wound dice.
+***Staff.*** *Melee Attack:* 6 AP, 2/2/1/0/0 - deals 3 wound dice.
 ___
 
 #### Ettin
@@ -1706,7 +1736,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 15 |
  | **Wounds:** | 20 | **Challenge:** | 20 |
  | **Move/Sprint:** | 5/2 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |6/4|-1/0|5/3|-1/0|1/0|-2/0|
@@ -1719,9 +1749,9 @@ ___
 **Actions**
 This creature can only make 1 attack with the Great Club and Bone Axe each turn.
 
-***Great Club.*** *Melee Attack:* 6 AP, Reach, 3/2/1/0/0</br>On hit deals 0/4 in bludgeoning damage.
+***Great Club.*** *Melee Attack:* 6 AP, Reach, 3/2/1/0/0 - On hit deals 0/4 in bludgeoning damage.
 
-***Cleaving Axe.*** *Melee Attack:* 8 AP, Reach, 3/2/1/0/0</br>Swings its felling axe, targeting 3 adjacent creatures in range. On hit deals 1/3 in slashing damage.
+***Cleaving Axe.*** *Melee Attack:* 8 AP, Reach, 3/2/1/0/0 - Swings its felling axe, targeting 3 adjacent creatures in range. On hit deals 1/3 in slashing damage.
 ___
 
 #### Depth Titan
@@ -1730,7 +1760,7 @@ ___
  | **Defense:** | 4/2 | **AP:** | 15 |
  | **Wounds:** | 30 | **Challenge:** | 35 |
  | **Move/Sprint:** | 5/3 | **Size:** | Huge |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |7/5|-1/0|6/3|-1/0|3/1|-1/0|
@@ -1744,11 +1774,11 @@ ___
 
 **Actions**
 
-***Anchor.*** *Melee Attack:* 5 AP, 5/1/2/0/0</br>deals 2/1 in bludgeoning damage, adding 0/3 on a critical.
+***Anchor.*** *Melee Attack:* 5 AP, 5/1/2/0/0 - deals 2/1 in bludgeoning damage, adding 0/3 on a critical.
 
-***Tremor Slam.*** *Melee Attack, Maneuver:* 7 AP, 5/1/2/0/0</br>Hits all creatures within 2 tiles of the Depth Titan that are touching the ground. Creatures make a Stamina save against this attack. On fail they take 0/3 in bludgeoning damage, being knocked prone on a critical.
+***Tremor Slam.*** *Melee Attack, Maneuver:* 7 AP, 5/1/2/0/0 - Hits all creatures within 2 tiles of the Depth Titan that are touching the ground. Creatures make a Stamina save against this attack. On fail they take 0/3 in bludgeoning damage, being knocked prone on a critical.
 
-***Anchor Toss.*** *Ranged Attack, Maneuver:* 5 AP, Range 5, 3/3/2/0/0</br>Throws the anchor at a creature in range. The creature makes a Dexterity save, being pulled 3 tiles closer to the Depth Titan and taking 3/2 in bludgeoning damage.
+***Anchor Toss.*** *Ranged Attack, Maneuver:* 5 AP, Range 5, 3/3/2/0/0 - Throws the anchor at a creature in range. The creature makes a Dexterity save, being pulled 3 tiles closer to the Depth Titan and taking 3/2 in bludgeoning damage.
 ___
 
 ### Goblinoids
@@ -1759,7 +1789,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 1 | **Challenge:** | 1/2 |
  | **Move/Sprint:** | 4/3 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/1|2/1|0/0|-1/0|1/0|0/0|
@@ -1769,9 +1799,9 @@ ___
 
 **Actions**
 
-***Dagger.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>deals 1 wound.
+***Dagger.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - deals 1 wound.
 
-***Sneak Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0</br>Must be flanking the target. Deals 1 wound, and rolls an additional wound die for every crit rolled.
+***Sneak Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0 - Must be flanking the target. Deals 1 wound, and rolls an additional wound die for every crit rolled.
 ___
 
 #### Goblin Fighter
@@ -1780,7 +1810,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | 2 | **Challenge:** | 1 |
  | **Move/Sprint:** | 4/3 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/1|3/1|0/0|-1/0|1/0|0/0|
@@ -1790,9 +1820,9 @@ ___
 
 **Actions**
 
-***Dagger.*** *Melee Attack:* 5 AP, 2/1/2/0/0</br>deals 1 wound.
+***Dagger.*** *Melee Attack:* 5 AP, 2/1/2/0/0 - deals 1 wound.
 
-***Sneak Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 3/1/2/0/0</br>Must be flanking the target. Deals 1 wound, and rolls an additional wound die for every crit rolled.
+***Sneak Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 3/1/2/0/0 - Must be flanking the target. Deals 1 wound, and rolls an additional wound die for every crit rolled.
 ___
 
 #### Goblin Shaman
@@ -1801,7 +1831,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 2 | **Challenge:** | 3 |
  | **Move/Sprint:** | 4/3 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|1/0|0/0|2/0|1/1|0/0|
@@ -1813,16 +1843,16 @@ ___
 
 **Actions**
 
-***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0</br>deals 1 wound.
+***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - deals 1 wound.
 ___
 
-#### Twili Assassin
+#### Tlani Assassin
  | | | | |
  |:---|---:|:---|---:|
  | **Defense:** | 1/3 | **AP:** | 11 |
  | **Wounds:** | 7 | **Challenge:** | 7 |
  | **Move/Sprint:** | 4/6 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|4/3|1/1|1/0|1/0|-1/0|
@@ -1832,22 +1862,22 @@ ___
 
 **Actions**
 
-***Poison Dagger.*** *Melee Attack:* 3 AP, 3/1/1/0/0</br>You may reroll 1 die in the attack roll and this deals 1 wound on hit.
+***Poison Dagger.*** *Melee Attack:* 3 AP, 3/1/1/0/0 - You may reroll 1 die in the attack roll and this deals 1 wound on hit.
 
-***Poison Dagger (off-hand).*** *Melee Attack:* 2 AP, 0/4/1/0/0</br>You may reroll 1 die in the attack roll and this deals 1 wound on hit.
+***Poison Dagger (off-hand).*** *Melee Attack:* 2 AP, 0/4/1/0/0 - You may reroll 1 die in the attack roll and this deals 1 wound on hit.
 
-***Sneak Attack.*** *Maneuver, Melee Attack:* 3 AP, 3/1/1/0/0</br>Only usable if you are flanking or have Combat Advantage. You may reroll 4 dice in the attack roll and this deals 1 wound on hit. For every crit in your attack roll add an extra wound die to the damage.
+***Sneak Attack.*** *Maneuver, Melee Attack:* 3 AP, 3/1/1/0/0 - Only usable if you are flanking or have Combat Advantage. You may reroll 4 dice in the attack roll and this deals 1 wound on hit. For every crit in your attack roll add an extra wound die to the damage.
 
-***Sucker Punch.*** *Maneuver, Reaction:* 2 AP, 3/1/1/0/0</br>When an adjacent creature is casting a spell you may attack them before their spell completes, dealing 1 wound die on hit. If the attack lands the creature adds 1 bad die, plus a bad die for every crit in your attack roll to their spellcasting roll.
+***Sucker Punch.*** *Maneuver, Reaction:* 2 AP, 3/1/1/0/0 - When an adjacent creature is casting a spell you may attack them before their spell completes, dealing 1 wound die on hit. If the attack lands the creature adds 1 bad die, plus a bad die for every crit in your attack roll to their spellcasting roll.
 ___
 
-#### Twili Witch
+#### Tlani Witch
  | | | | |
  |:---|---:|:---|---:|
  | **Defense:** | 0/3 | **AP:** | 11 |
  | **Wounds:** | 6 | **Challenge:** | 12 |
  | **Move/Sprint:** | 4/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-1/0|3/2|1/1|0/0|4/3|1/0|
@@ -1858,7 +1888,7 @@ ___
 
 **Actions**
 
-***Dagger.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>deals 1/0 in piercing damage.
+***Dagger.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - deals 1/0 in piercing damage.
 ___
 
 #### Orc
@@ -1867,7 +1897,7 @@ ___
  | **Defense:** | 1/3 | **AP:** | 10 |
  | **Wounds:** | 9 | **Challenge:** | 10 |
  | **Move/Sprint:** | 4/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/3|1/1|3/1|-1/0|1/0|-1/0|
@@ -1881,11 +1911,11 @@ ___
 
 **Actions**
 
-***Great Sword.*** *Melee Attack:* 4 AP, 2/2/1/0/0</br>Deals 1 wound and 1 wound die.
+***Great Sword.*** *Melee Attack:* 4 AP, 2/2/1/0/0 - Deals 1 wound and 1 wound die.
 
-***Javelin.*** *Ranged 5/10 Attack:* 4 AP, 1/0/4/0/0</br>Deals 1 wound.
+***Javelin.*** *Ranged 5/10 Attack:* 4 AP, 1/0/4/0/0 - Deals 1 wound.
 
-***Wild Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/3/1/0/0</br>Deals 1 wound and 2 wound dice. If the attack deals 3 or more wounds the target gains a random Lesser Wound. After attacking, the Orc grants combat advantage to all attackers until the start of their next turn.
+***Wild Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/3/1/0/0 - Deals 1 wound and 2 wound dice. If the attack deals 3 or more wounds the target gains a random Lesser Wound. After attacking, the Orc grants combat advantage to all attackers until the start of their next turn.
 ___
 
 #### Orc Vargrider
@@ -1894,7 +1924,7 @@ ___
  | **Defense:** | 1/3 | **AP:** | 11 |
  | **Wounds:** | 12 | **Challenge:** | 12 |
  | **Move/Sprint:** | 6/6 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/3|3/3|3/0|-1/0|1/0|-1/0|
@@ -1908,13 +1938,13 @@ ___
 
 **Actions**
 
-***Bone Spear.*** *Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 1 wound.
+***Bone Spear.*** *Melee Attack:* 4 AP, 2/1/2/0/0 - Deals 1 wound.
 
-***Javelin.*** *Ranged 5/10 Attack:* 4 AP, 3/0/2/0/0</br>Deals 1 wound.
+***Javelin.*** *Ranged 5/10 Attack:* 4 AP, 3/0/2/0/0 - Deals 1 wound.
 
-***Aimed Shot.*** *Maneuver*, *Ranged 5/10 Attack:* 5-8 AP, 3/0+/2/0/0</br>Deals 1 wound. For every AP above 5 spent on this attack add a proficiency die to the attack roll. Add a wound die to the damage for each crit, up to a max of 3.
+***Aimed Shot.*** *Maneuver*, *Ranged 5/10 Attack:* 5-8 AP, 3/0+/2/0/0 - Deals 1 wound. For every AP above 5 spent on this attack add a proficiency die to the attack roll. Add a wound die to the damage for each crit, up to a max of 3.
 
-***Pinning Jump.*** *Maneuver*, *Melee Attack:* 7 AP, 2/2/2/0/0</br>Deals 3 wound dice. Only usable after moving at least 3 tiles. The Warg jumps at a target. On hit the target is knocked prone and grappled by the Warg on crit. If the attack misses the target is pushed aside 1 tile and the Wargrider moves to their space if possible.
+***Pinning Jump.*** *Maneuver*, *Melee Attack:* 7 AP, 2/2/2/0/0 - Deals 3 wound dice. Only usable after moving at least 3 tiles. The Warg jumps at a target. On hit the target is knocked prone and grappled by the Warg on crit. If the attack misses the target is pushed aside 1 tile and the Wargrider moves to their space if possible.
 ___
 
 #### Orc Shaman
@@ -1923,7 +1953,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 11 |
  | **Wounds:** | 8 | **Challenge:** | 14 |
  | **Move/Sprint:** | 4/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/0|-1/0|2/0|-1/0|3/0|3/1|
@@ -1935,7 +1965,7 @@ ___
 
 **Actions**
 
-***Staff.*** *Melee Attack:* 5 AP, 0/2/3/0/0</br>Deals 1 wound.
+***Staff.*** *Melee Attack:* 5 AP, 0/2/3/0/0 - Deals 1 wound.
 ___
 
 ### Humanoids
@@ -1946,7 +1976,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 2 | **Challenge:** | 1/4 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|0/0|0/0|0/0|1/0|0/0|
@@ -1955,7 +1985,7 @@ ___
 
 **Actions**
 
-***Improvised Weapon.*** *Melee Attack:* 5 AP, 0/1/4/0/0</br>Deals 1 wound.
+***Improvised Weapon.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - Deals 1 wound.
 ___
 
 #### Bandit
@@ -1964,7 +1994,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | 3 | **Challenge:** | 1 |
  | **Move/Sprint:** | 4/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/1|1/1|1/0|0/0|-1/0|1/0|
@@ -1973,7 +2003,7 @@ ___
 
 **Actions**
 
-***Short Sword.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>Deals 1 wound.
+***Short Sword.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - Deals 1 wound.
 ___
 
 #### Bandit Leader
@@ -1982,7 +2012,7 @@ ___
  | **Defense:** | 1/3 | **AP:** | 11 |
  | **Wounds:** | 5 | **Challenge:** | 5 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/1|1/1|1/0|0/0|0/0|1/0|
@@ -1992,7 +2022,7 @@ ___
 
 **Actions**
 
-***Short Sword.*** *Melee Attack:* 4 AP, 1/1/3/0/0</br>Deals 1 wound.
+***Short Sword.*** *Melee Attack:* 4 AP, 1/1/3/0/0 - Deals 1 wound.
 
 ***Healing Surge.*** *Special:* 3 AP</br>Usable once per day. Roll 3 wound dice, healing for the wounds rolled.
 ___
@@ -2003,7 +2033,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 3 | **Challenge:** | 4 |
  | **Move/Sprint:** | 4/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-1/0|1/0|0/0|2/1|1/1|1/0|
@@ -2013,7 +2043,7 @@ ___
 
 **Actions**
 
-***Dagger.*** *Melee Attack:* 5 AP, 0/1/4/0/0</br>Deals 1/0 in piercing damage.
+***Dagger.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - Deals 1/0 in piercing damage.
 ___
 
 #### Wizard
@@ -2022,7 +2052,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 11 |
  | **Wounds:** | 7 | **Challenge:** | 11 |
  | **Move/Sprint:** | 4/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-1/0|1/0|1/1|3/2|2/1|1/0|
@@ -2032,9 +2062,9 @@ ___
 
 **Actions**
 
-***Staff.*** *Melee Attack:* 5 AP, 0/0/5/0/0</br>Deals 0/2 in bludgeoning damage.
+***Staff.*** *Melee Attack:* 5 AP, 0/0/5/0/0 - Deals 0/2 in bludgeoning damage.
 
-***Guided Strike.*** *Melee Attack, Maneuver:* 4 AP, 3/0/2/0/0</br>This creature can spend 1 mana to add 1/0 of any elemental damage to the attack. The attack ignores 1 level of resistance. On hit deals 0/2 in bludgeoning damage.
+***Guided Strike.*** *Melee Attack, Maneuver:* 4 AP, 3/0/2/0/0 - This creature can spend 1 mana to add 1/0 of any elemental damage to the attack. The attack ignores 1 level of resistance. On hit deals 0/2 in bludgeoning damage.
 ___
 
 #### Assassin
@@ -2043,7 +2073,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 11 |
  | **Wounds:** | 7 | **Challenge:** | 12 |
  | **Move/Sprint:** | 4/6 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0/0|4/3|1/1|-1/0|2/1|1/0|
@@ -2058,9 +2088,9 @@ ___
 **Actions**
 This creature dual wields daggers and may make an Offhand attack (2 AP) with its Poisoned Dagger attack.
 
-***Poisoned Dagger.*** *Melee Attack:* 4 AP, 1rr, 3/1/1/0/0</br>Deals 1/0 in piercing damage, inflicting Poison 1 on a critical.
+***Poisoned Dagger.*** *Melee Attack:* 4 AP, 1rr, 3/1/1/0/0 - Deals 1/0 in piercing damage, inflicting Poison 1 on a critical.
 
-***Sneak Attack.*** *Melee Attack:* 4 AP, 4rr, 2/1/2/0/0</br>This can only be used when flanking a creature or when they have Combat Advantage. Deals 1/0 in piercing damage, adding 0/1 for each critical rolled. Any blank wounds rolled are rerolled.
+***Sneak Attack.*** *Melee Attack:* 4 AP, 4rr, 2/1/2/0/0 - This can only be used when flanking a creature or when they have Combat Advantage. Deals 1/0 in piercing damage, adding 0/1 for each critical rolled. Any blank wounds rolled are rerolled.
 ___
 
 #### Shaman
@@ -2069,7 +2099,7 @@ ___
  | **Defense:** | 1/3 | **AP:** | 11 |
  | **Wounds:** | 8 | **Challenge:** | 11 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/1|-2/0|1/1|1/0|3/2|2/0|
@@ -2079,9 +2109,9 @@ ___
 
 **Actions**
 
-***Staff.*** *Melee Attack:* 5 AP, 1/0/4/0/0</br>Deals 0/2 in bludgeoning damage.
+***Staff.*** *Melee Attack:* 5 AP, 1/0/4/0/0 - Deals 0/2 in bludgeoning damage.
 
-***Guided Strike.*** *Melee Attack, Maneuver:* 4 AP, 2/1/2/0/0</br>This creature can spend 1 mana to add 1/0 of any elemental damage to the attack. The attack ignores 1 level of resistance. On hit deals 0/2 in bludgeoning damage.
+***Guided Strike.*** *Melee Attack, Maneuver:* 4 AP, 2/1/2/0/0 - This creature can spend 1 mana to add 1/0 of any elemental damage to the attack. The attack ignores 1 level of resistance. On hit deals 0/2 in bludgeoning damage.
 ___
 
 #### Soldier
@@ -2090,7 +2120,7 @@ ___
  | **Defense:** | 1/4 | **AP:** | 10 |
  | **Wounds:** | 5 | **Challenge:** | 6 |
  | **Move/Sprint:** | 4/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/1|1/0|1/1|0/0|1/0|1/0|
@@ -2103,7 +2133,7 @@ ___
 
 **Actions**
 
-***Spear.*** *Melee Attack:* 5 AP, Reach 1, 2/1/2/0/0</br>Deals 1/0 in piercing damage.
+***Spear.*** *Melee Attack:* 5 AP, Reach 1, 2/1/2/0/0 - Deals 1/0 in piercing damage.
 ___
 
 #### Archer
@@ -2112,7 +2142,7 @@ ___
  | **Defense:** | 1/3 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 7 |
  | **Move/Sprint:** | 4/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/1|3/2|0/0|0/0|2/1|1/0|
@@ -2123,9 +2153,9 @@ ___
 
 **Actions**
 
-***Bow.*** *Ranged Attack:* 4 AP, Range 15/25, 3/0/2/0/0</br>Deals 1/1 in piercing damage.
+***Bow.*** *Ranged Attack:* 4 AP, Range 15/25, 3/0/2/0/0 - Deals 1/1 in piercing damage.
 
-***Aimed Shot.*** *Ranged Attack, Maneuver:* 4-8 AP, Range 15/25, 3/0/2/0/0</br>Can only be used against a creature 3 or more tiles away. Add an Enhanced die to the attack roll for every AP spent above the minimum. On hit deals 1/1 in piercing damage, adding a wound die for each critical up to a max of 3.
+***Aimed Shot.*** *Ranged Attack, Maneuver:* 4-8 AP, Range 15/25, 3/0/2/0/0 - Can only be used against a creature 3 or more tiles away. Add an Enhanced die to the attack roll for every AP spent above the minimum. On hit deals 1/1 in piercing damage, adding a wound die for each critical up to a max of 3.
 ___
 
 #### Knight
@@ -2134,7 +2164,7 @@ ___
  | **Defense:** | 3/2 | **AP:** | 11 |
  | **Wounds:** | 10 | **Challenge:** | 15 |
  | **Move/Sprint:** | 4/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/3|1/0|2/1|0/0|1/1|1/0|
@@ -2145,11 +2175,11 @@ ___
 
 **Actions**
 
-***Sword.*** *Melee Attack:* 5 AP, Reach 1, 4/0/1/0/0</br>Deals 1/0 in slashing damage, adding 0/1 on a critical.
+***Sword.*** *Melee Attack:* 5 AP, Reach 1, 4/0/1/0/0 - Deals 1/0 in slashing damage, adding 0/1 on a critical.
 
-***Flurry.*** *Melee Attack, Maneuver:* 6 AP, Reach 1, 4/0/1/1/0</br>Makes two attacks against a creature, dealing 1/0 in slashing damage and adding 0/1 on a critical.
+***Flurry.*** *Melee Attack, Maneuver:* 6 AP, Reach 1, 4/0/1/1/0 - Makes two attacks against a creature, dealing 1/0 in slashing damage and adding 0/1 on a critical.
 
-***Shield Slam.*** *Melee Attack:* 2 AP, Reach 1, 4/1/1/0/0</br>Deals 1/0 in bludgeoning damage and staggers the creature. On a critical the creature is knocked prone instead of staggered.
+***Shield Slam.*** *Melee Attack:* 2 AP, Reach 1, 4/1/1/0/0 - Deals 1/0 in bludgeoning damage and staggers the creature. On a critical the creature is knocked prone instead of staggered.
 ___
 
 ### Monstrosities
@@ -2160,7 +2190,7 @@ ___
  | **Defense:** | 2/1 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 2 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/1|2/1|1/0|-1/0|1/0|-1/0|
@@ -2172,9 +2202,9 @@ ___
 
 **Actions**
 
-***Spear.*** *Melee Attack:* 5 AP, 1/1/3/0/0</br>Deals 1 wound.
+***Spear.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - Deals 1 wound.
 
-***Poison Claws.*** *Maneuver, Melee Attack:* 4 AP, 1/1/3/0/0</br>Deals 2 wound dice. On crit the target creature gains Poison 1 for 10 minutes. Until the creature cures this poison they go into a frenzy, attacking the closest target to them each round.
+***Poison Claws.*** *Maneuver, Melee Attack:* 4 AP, 1/1/3/0/0 - Deals 2 wound dice. On crit the target creature gains Poison 1 for 10 minutes. Until the creature cures this poison they go into a frenzy, attacking the closest target to them each round.
 ___
 
 #### Frogbeast Mutant
@@ -2183,7 +2213,7 @@ ___
  | **Defense:** | 2/2 | **AP:** | 11 |
  | **Wounds:** | 5 | **Challenge:** | 4 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/2|2/1|2/1|-1/0|1/0|-1/0|
@@ -2195,9 +2225,9 @@ ___
 
 **Actions**
 
-***Spear.*** *Melee Attack:* 3 AP, 2/1/2/0/0</br>Deals 1 wound.
+***Spear.*** *Melee Attack:* 3 AP, 2/1/2/0/0 - Deals 1 wound.
 
-***Poison Claws.*** *Maneuver, Melee Attack:* 4 AP, 2/1/2/0/0</br>Deals 2 wound dice. On crit the target creature gains Poison 1 for 10 minutes. Until the creature cures this poison they go into a frenzy, attacking the closest target to them each round.
+***Poison Claws.*** *Maneuver, Melee Attack:* 4 AP, 2/1/2/0/0 - Deals 2 wound dice. On crit the target creature gains Poison 1 for 10 minutes. Until the creature cures this poison they go into a frenzy, attacking the closest target to them each round.
 ___
 
 #### Frogbeast Witch
@@ -2206,7 +2236,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 11 |
  | **Wounds:** | 3 | **Challenge:** | 4 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|1/0|1/0|-1/0|3/0|0/0|
@@ -2220,7 +2250,7 @@ ___
 
 **Actions**
 
-***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0</br>Deals 1 wound die.
+***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - Deals 1 wound die.
 ___
 
 #### Gloom Stalker
@@ -2229,7 +2259,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 3 |
  | **Move/Sprint:** | 5/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/0|3/2|0/0|-1/0|0/0|2/1|
@@ -2241,9 +2271,9 @@ ___
 
 **Actions**
 
-***Talons.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>Deals 2 wound dice.
+***Talons.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - Deals 2 wound dice.
 
-***Terrifying Gaze.*** *Special:* 5 AP, Range 5, 0/2/3/0/0</br>Targetting a creature in range that can see the gloom stalker, the creature makes a Willpower save becoming afraid of the gloom stalker for 1 minute on fail. While in line of sight of the gloom stalker the creature cannot willingly move closer.
+***Terrifying Gaze.*** *Special:* 5 AP, Range 5, 0/2/3/0/0 - Targetting a creature in range that can see the gloom stalker, the creature makes a Willpower save becoming afraid of the gloom stalker for 1 minute on fail. While in line of sight of the gloom stalker the creature cannot willingly move closer.
 ___
 
 #### Harpy
@@ -2252,7 +2282,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 4 |
  | **Move/Sprint:** | 5/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0/0|3/1|0/0|0/0|2/1|-1/0|
@@ -2264,9 +2294,9 @@ ___
 
 **Actions**
 
-***Talons.*** *Melee Attack:* 3 AP, 1/2/2/0/0</br>Deals 2 wound dice.
+***Talons.*** *Melee Attack:* 3 AP, 1/2/2/0/0 - Deals 2 wound dice.
 
-***Song of Allure.*** *Special:* 5 AP, 0/1/5/0/0</br>The harpy sings a magical melody, effecting all Humanoids within 30 tiles. A creature in range that can hear the melody makes a Charisma save, becoming Charmed by the Harpy on fail. While Charmed the creature takes no action other than moving closer to the harpy. The creature will not avoid hazards, taking the most direct route. If the movement will cause harm to the creature, they take damage, or another creature spends 5 AP trying to wake them they may make another Charisma save, ending the effects on success. Once a creature has saved against the song they are immune to it for 24 hours. The creature has no memory of the time they were charmed.
+***Song of Allure.*** *Special:* 5 AP, 0/1/5/0/0 - The harpy sings a magical melody, effecting all Humanoids within 30 tiles. A creature in range that can hear the melody makes a Charisma save, becoming Charmed by the Harpy on fail. While Charmed the creature takes no action other than moving closer to the harpy. The creature will not avoid hazards, taking the most direct route. If the movement will cause harm to the creature, they take damage, or another creature spends 5 AP trying to wake them they may make another Charisma save, ending the effects on success. Once a creature has saved against the song they are immune to it for 24 hours. The creature has no memory of the time they were charmed.
 
 The Harpy cannot attack while singing and must sing every turn or the Charm ends.
 ___
@@ -2277,7 +2307,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 10 |
  | **Wounds:** | 5 | **Challenge:** | 7 |
  | **Move/Sprint:** | 5/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0/0|3/1|0/0|0/0|3/2|-1/0|
@@ -2289,11 +2319,11 @@ ___
 
 **Actions**
 
-***Talons.*** *Melee Attack:* 3 AP, 0/3/2/0/0</br>Deals 2 wound dice.
+***Talons.*** *Melee Attack:* 3 AP, 0/3/2/0/0 - Deals 2 wound dice.
 
-***Dream eater.*** *Maneuver, Special Attack:* 5 AP, 0/3/2/0/0</br>Works only on sleeping targets. Deals 3 wound dice in Death damage, healing the Harpy for the damage dealt. If this would kill the creature, they are incapacitated instead, taking 2 levels of exhaustion and waking with 1 health after a long rest.
+***Dream eater.*** *Maneuver, Special Attack:* 5 AP, 0/3/2/0/0 - Works only on sleeping targets. Deals 3 wound dice in Death damage, healing the Harpy for the damage dealt. If this would kill the creature, they are incapacitated instead, taking 2 levels of exhaustion and waking with 1 health after a long rest.
 
-***Song of Sleep.*** *Special:* 5 AP, 0/1/5/0/0</br>The harpy sings a magical melody, effecting all Humanoids within 30 tiles. A creature in range that can hear the melody makes a Charisma save, becoming Dazed until the end of their next turn. A dazed creature that fails their save falls asleep instead. The sleep is restless, giving no benefit from a long or short rest while asleep. After taking damage or another creature spends 5 AP to wake them they may make a Charisma save, automatically succeeding if the harpy is no longer singing.
+***Song of Sleep.*** *Special:* 5 AP, 0/1/5/0/0 - The harpy sings a magical melody, effecting all Humanoids within 30 tiles. A creature in range that can hear the melody makes a Charisma save, becoming Dazed until the end of their next turn. A dazed creature that fails their save falls asleep instead. The sleep is restless, giving no benefit from a long or short rest while asleep. After taking damage or another creature spends 5 AP to wake them they may make a Charisma save, automatically succeeding if the harpy is no longer singing.
 
 The Harpy cannot attack while singing and must sing every turn or the effects end.
 ___
@@ -2304,7 +2334,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 11 |
  | **Wounds:** | 9 | **Challenge:** | 9 |
  | **Move/Sprint:** | 5/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-1/0|3/1|0/0|3/1|-1/0|2/1|
@@ -2318,9 +2348,9 @@ ___
 
 **Actions**
 
-***Talons.*** *Melee Attack:* 3 AP, 1/2/2/0/0</br>Deals 2 wound dice.
+***Talons.*** *Melee Attack:* 3 AP, 1/2/2/0/0 - Deals 2 wound dice.
 
-***Song of Storms.*** *Special:* 2 AP, 2/0/4/0/0</br>The harpy sings a magical melody, creating strong winds and stormy weather. While singing, any ranged attacks or spells targeting a creature inside the winds can use this roll instead of their defense or saving roll. If the song continues for at least 1 minute storm clouds form and change the weather, lasting for 10 minutes after the song stops.
+***Song of Storms.*** *Special:* 2 AP, 2/0/4/0/0 - The harpy sings a magical melody, creating strong winds and stormy weather. While singing, any ranged attacks or spells targeting a creature inside the winds can use this roll instead of their defense or saving roll. If the song continues for at least 1 minute storm clouds form and change the weather, lasting for 10 minutes after the song stops.
 
 The Harpy cannot attack while singing and must sing every turn or the Charm ends.
 ___
@@ -2331,7 +2361,7 @@ ___
  | **Defense:** | 3/0 | **AP:** | 11 |
  | **Wounds:** | 7 | **Challenge:** | 8 |
  | **Move/Sprint:** | 3/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/1|0/0|4/4|-2/0|2/0|-2/0|
@@ -2345,9 +2375,9 @@ ___
 
 **Actions**
 
-***Bash.*** *Melee Attack:* 4 AP, 1/2/2/0/0</br>Deals 1/2 in poison damage.
+***Bash.*** *Melee Attack:* 4 AP, 1/2/2/0/0 - Deals 1/2 in poison damage.
 
-***Consume.*** *Melee Attack:* 6 AP, 2/2/1/0/0</br>Attempt to surround a medium or smaller creature with its body. The creature makes a Dexterity save, on fail they are restrained by the Sentient Slime and move with it. While restrained they are Silenced and cannot breathe. At the start of the creatures turns they take 1/2 in poison damage. Only one creature can be consumed at a time.
+***Consume.*** *Melee Attack:* 6 AP, 2/2/1/0/0 - Attempt to surround a medium or smaller creature with its body. The creature makes a Dexterity save, on fail they are restrained by the Sentient Slime and move with it. While restrained they are Silenced and cannot breathe. At the start of the creatures turns they take 1/2 in poison damage. Only one creature can be consumed at a time.
 ___
 
 #### Black Tar
@@ -2356,7 +2386,7 @@ ___
  | **Defense:** | 3/0 | **AP:** | 11 |
  | **Wounds:** | 16 | **Challenge:** | 8 |
  | **Move/Sprint:** | 3/2 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/1|0/0|4/4|-2/0|2/0|-2/0|
@@ -2372,9 +2402,9 @@ ___
 
 **Actions**
 
-***Bash.*** *Melee Attack:* 4 AP, 1/2/2/0/0</br>Deals 1/2 in poison damage.
+***Bash.*** *Melee Attack:* 4 AP, 1/2/2/0/0 - Deals 1/2 in poison damage.
 
-***Consume.*** *Melee Attack:* 6 AP, 2/2/1/0/0</br>Attempt to surround a medium or smaller creature with its body. The creature makes a Dexterity save, on fail they are restrained by the Sentient Slime and move with it. While restrained they are Silenced and cannot breathe. At the start of the creatures turns they take 1/2 in poison damage. Only one creature can be consumed at a time.
+***Consume.*** *Melee Attack:* 6 AP, 2/2/1/0/0 - Attempt to surround a medium or smaller creature with its body. The creature makes a Dexterity save, on fail they are restrained by the Sentient Slime and move with it. While restrained they are Silenced and cannot breathe. At the start of the creatures turns they take 1/2 in poison damage. Only one creature can be consumed at a time.
 ___
 
 #### Wendigo
@@ -2383,7 +2413,7 @@ ___
  | **Defense:** | 2/1 | **AP:** | 11 |
  | **Wounds:** | 7 | **Challenge:** | 8 |
  | **Move/Sprint:** | 4/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/2|3/2|2/0|-2/0|0/0|1/0|
@@ -2395,9 +2425,9 @@ ___
 
 **Actions**
 
-***Claw.*** *Melee Attack:* 4 AP, 1/3/1/0/0</br>Deals 2 wound dice.
+***Claw.*** *Melee Attack:* 4 AP, 1/3/1/0/0 - Deals 2 wound dice.
 
-***Bite.*** *Melee Attack:* 6 AP, 2/3/1/0/0</br>Deals 1 wound and 2 wound dice. On crit the target creature gains Poison 1. While poisoned any damage taken reduces your max wounds as well, recovering after a long rest. If the Wendigo is cursed, the target creature is also cursed with the same curse.
+***Bite.*** *Melee Attack:* 6 AP, 2/3/1/0/0 - Deals 1 wound and 2 wound dice. On crit the target creature gains Poison 1. While poisoned any damage taken reduces your max wounds as well, recovering after a long rest. If the Wendigo is cursed, the target creature is also cursed with the same curse.
 ___
 
 #### Serpent Warrior
@@ -2406,7 +2436,7 @@ ___
  | **Defense:** | 2/2 | **AP:** | 11 |
  | **Wounds:** | 9 | **Challenge:** | 13 |
  | **Move/Sprint:** | 5/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/2|3/2|3/3|0/0|1/0|-2/0|
@@ -2418,9 +2448,9 @@ ___
 
 **Actions**
 
-***Flaming Scimitar.*** *Melee Attack:* 3 AP, 3/1/1/0/0</br>Deals 1/0 in slashing damage and 0/2 in fire damage.
+***Flaming Scimitar.*** *Melee Attack:* 3 AP, 3/1/1/0/0 - Deals 1/0 in slashing damage and 0/2 in fire damage.
 
-***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0</br>Grapples and bites a creature. The creature makes a Strength or Dexterity save against this roll. On fail they take 0/3 in poison damage, gaining Poison 2 for 10 minutes on a critical.
+***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0 - Grapples and bites a creature. The creature makes a Strength or Dexterity save against this roll. On fail they take 0/3 in poison damage, gaining Poison 2 for 10 minutes on a critical.
 ___
 
 #### Serpent Curseblood
@@ -2429,7 +2459,7 @@ ___
  | **Defense:** | 2/1 | **AP:** | 11 |
  | **Wounds:** | 11 | **Challenge:** | 17 |
  | **Move/Sprint:** | 5/5 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/0|4/2|1/1|1/0|4/3|-2/0|
@@ -2443,9 +2473,9 @@ ___
 
 **Actions**
 
-***Poisoned Claws.*** *Melee Attack:* 5 AP, 2/2/1/0/0</br>Deals 0/3 in Poison damage, inflicting Poison 2 for 10 minutes on a critical.
+***Poisoned Claws.*** *Melee Attack:* 5 AP, 2/2/1/0/0 - Deals 0/3 in Poison damage, inflicting Poison 2 for 10 minutes on a critical.
 
-***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0</br>Grapples and bites a creature. The creature makes a Strength or Dexterity save against this roll. On fail they take 0/3 in poison damage, gaining Poison 2 for 10 minutes on a critical.
+***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0 - Grapples and bites a creature. The creature makes a Strength or Dexterity save against this roll. On fail they take 0/3 in poison damage, gaining Poison 2 for 10 minutes on a critical.
 ___
 
 #### Snowstalker
@@ -2454,7 +2484,7 @@ ___
  | **Defense:** | 2/3 | **AP:** | 14 |
  | **Wounds:** | 23 | **Challenge:** | 30 |
  | **Move/Sprint:** | 5/5 | **Size:** | Huge |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |7/6|2/0|5/5|-2/0|0/0|-1/0|
@@ -2466,9 +2496,9 @@ ___
 
 **Actions**
 
-***Bite.*** *Melee Attack:* 7 AP, Reach 1, 5/1/1/0/0</br>Deals 3 wounds of piercing damage, adding 4 wound dice in fire damage on crit. If this attack hits the creature is grappled in the Snowstalker's mouth as long as it is medium or smaller.
+***Bite.*** *Melee Attack:* 7 AP, Reach 1, 5/1/1/0/0 - Deals 3 wounds of piercing damage, adding 4 wound dice in fire damage on crit. If this attack hits the creature is grappled in the Snowstalker's mouth as long as it is medium or smaller.
 
-***Swallow.*** *Melee Attack:* 7 AP, Reach 1, 5/1/1/0/0</br>Only usable against a creature grappled by the Snowstalker. The grappled creature makes a Strength save, taking 4 wound dice in fire damage and is swallowed on fail. While swallowed they take 4 wound dice in poison damage at the start of their turn and are Blind, Restrained, and gain Poison 1. Each time the Snowstalker takes damage it must make a concentration check as if it is concentrating on a spell, spitting out the creature on fail.
+***Swallow.*** *Melee Attack:* 7 AP, Reach 1, 5/1/1/0/0 - Only usable against a creature grappled by the Snowstalker. The grappled creature makes a Strength save, taking 4 wound dice in fire damage and is swallowed on fail. While swallowed they take 4 wound dice in poison damage at the start of their turn and are Blind, Restrained, and gain Poison 1. Each time the Snowstalker takes damage it must make a concentration check as if it is concentrating on a spell, spitting out the creature on fail.
 ___
 
 #### Lamia
@@ -2477,7 +2507,7 @@ ___
  | **Defense:** | 0/5 | **AP:** | 13 |
  | **Wounds:** | 14 | **Challenge:** | 17 |
  | **Move/Sprint:** | 4/8 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/1|5/4|-1/0|0/0|2/1|4/3|
@@ -2492,11 +2522,11 @@ ___
 
 **Actions**
 
-***Poison Claws.*** *Melee Attack:* 5 AP, 4/1/0/0/0</br>Deals 1/2 in slashing damage. The creature gains Poison 1 for 1 hour, or Poison 2 on a critical.
+***Poison Claws.*** *Melee Attack:* 5 AP, 4/1/0/0/0 - Deals 1/2 in slashing damage. The creature gains Poison 1 for 1 hour, or Poison 2 on a critical.
 
-***Paralysis Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0</br>Grapples and bites a creature. The creature makes a Strength or Dexterity save against this roll. On fail they take 0/3 in poison damage and gain Poison 1 for 10 minutes. They are Paralysed for the duration of the poison.
+***Paralysis Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0 - Grapples and bites a creature. The creature makes a Strength or Dexterity save against this roll. On fail they take 0/3 in poison damage and gain Poison 1 for 10 minutes. They are Paralysed for the duration of the poison.
 
-***Hypnotic Gaze.*** *Special, Maneuver:* 8 AP, Range 10, 3/1/1/0/0</br>Puts a creature under a hypnotic trance. The creature makes a Willpower save against this attack. On fail they are put in a trance for 10 minutes. While in a trance they take no action during their turn and automatically fail Strength, Dexterity, and Defense rolls. The effect ends after they are attacked or take damage. A creature that succeeds their save is immune to this attack for 24 hours.
+***Hypnotic Gaze.*** *Special, Maneuver:* 8 AP, Range 10, 3/1/1/0/0 - Puts a creature under a hypnotic trance. The creature makes a Willpower save against this attack. On fail they are put in a trance for 10 minutes. While in a trance they take no action during their turn and automatically fail Strength, Dexterity, and Defense rolls. The effect ends after they are attacked or take damage. A creature that succeeds their save is immune to this attack for 24 hours.
 
 ___
 
@@ -2508,7 +2538,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 4 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |0/0|2/2|1/0|3/2|-1/0|1/0|
@@ -2518,9 +2548,9 @@ ___
 
 **Actions**
 
-***Claws.*** *Melee Attack:* 4 AP, 1/1/3/0/0</br>Deals 2 wound dice in damage.
+***Claws.*** *Melee Attack:* 4 AP, 1/1/3/0/0 - Deals 2 wound dice in damage.
 
-***Tearing Gaze.*** *Maneuver, Ranged 3 Special:* 6 AP, 1/2/2/0/0</br>The target creature makes an Intelligence save. On fail they take 1 wound and 1 wound die in Psychic damage and it learns a secret or piece of information from the targets mind. On crit the target is stunned until the end of their next turn.
+***Tearing Gaze.*** *Maneuver, Ranged 3 Special:* 6 AP, 1/2/2/0/0 - The target creature makes an Intelligence save. On fail they take 1 wound and 1 wound die in Psychic damage and it learns a secret or piece of information from the targets mind. On crit the target is stunned until the end of their next turn.
 ___
 
 #### Void Spawn
@@ -2529,7 +2559,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 10 |
  | **Wounds:** | 3 | **Challenge:** | 4 |
  | **Move/Sprint:** | 4/5 | **Size:** | Small |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/1|2/2|1/1|-1/0|0/0|-1/0|
@@ -2538,9 +2568,9 @@ ___
 
 **Actions**
 
-***Claws.*** *Melee Attack:* 3 AP, 2/1/2/0/0</br>Deals 2 wound dice in damage.
+***Claws.*** *Melee Attack:* 3 AP, 2/1/2/0/0 - Deals 2 wound dice in damage.
 
-***Bite.*** *Melee Attack, Once per turn:* 3 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die in damage.
+***Bite.*** *Melee Attack, Once per turn:* 3 AP, 2/2/2/0/0 - Deals 1 wound and 1 wound die in damage.
 ___
 
 #### Watcher
@@ -2549,7 +2579,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 11 |
  | **Wounds:** | 8 | **Challenge:** | 7 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-1/0|2/0|0/0|3/0|2/0|0/0|
@@ -2561,7 +2591,7 @@ ___
 
 **Actions**
 
-***Tentacle.*** *Reach 1, Melee Attack:* 3 AP, 0/2/3/0/0</br>Deals 1 wound. Target gains Poison 1 for 10 minutes.
+***Tentacle.*** *Reach 1, Melee Attack:* 3 AP, 0/2/3/0/0 - Deals 1 wound. Target gains Poison 1 for 10 minutes.
 ___
 
 #### Mind Whisperer
@@ -2570,7 +2600,7 @@ ___
  | **Defense:** | 1/2 | **AP:** | 11 |
  | **Wounds:** | 8 | **Challenge:** | 10 |
  | **Move/Sprint:** | 4/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1/1|1/0|2/1|1/0|4/3|-1/0|
@@ -2581,7 +2611,7 @@ ___
 
 **Actions**
 
-***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0</br>Deals 2 wound dice in damage.
+***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - Deals 2 wound dice in damage.
 
 ***Summon Void Spawn.*** *Special:* 8 AP</br>Roll 2 superior dice, summoning a Void Spawn for each success. Reduce the successes by 1 for each time this was used in the last 24 hours. The Void Spawn act immediately.
 
@@ -2594,7 +2624,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 11 |
  | **Wounds:** | 10 | **Challenge:** | 15 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/3|1/0|1/0|3/3|2/2|-1/0|
@@ -2604,11 +2634,11 @@ ___
 
 **Actions**
 
-***Grappling Attack.*** *Melee Attack:* 4 AP, 3/0/2/0/0</br>Target creature makes a Strength or Dexterity save, taking 1 wound in piercing damage and is grappled on fail. While grappled they cannot make reactions. At the start of the creatures turn it makes an Intelligence save against this creatures Intelligence save, being incapacitated until the start of its next turn on fail.
+***Grappling Attack.*** *Melee Attack:* 4 AP, 3/0/2/0/0 - Target creature makes a Strength or Dexterity save, taking 1 wound in piercing damage and is grappled on fail. While grappled they cannot make reactions. At the start of the creatures turn it makes an Intelligence save against this creatures Intelligence save, being incapacitated until the start of its next turn on fail.
 
-***Psychic Stare.*** *Maneuver, Special:* 5 AP, Range 5, 3/0/2/0/0</br>Can only target a creature it can see with its Telepathic Sight. Target creature makes an Intelligence save, being dazed on fail or incapacitated on crit until the end of their next turn.
+***Psychic Stare.*** *Maneuver, Special:* 5 AP, Range 5, 3/0/2/0/0 - Can only target a creature it can see with its Telepathic Sight. Target creature makes an Intelligence save, being dazed on fail or incapacitated on crit until the end of their next turn.
 
-***Devour Mind.*** *Melee Attack:* 10 AP, 3/0/2/0/0</br>Only usable against a creature grappled by the mind flayer and automatically critically succeeds if they are incapacitated. Target makes a Strength save, taking 3 wounds in piercing damage, adding 4 wound dice on crit. If this drops a creature to 0 health they immediately die.
+***Devour Mind.*** *Melee Attack:* 10 AP, 3/0/2/0/0 - Only usable against a creature grappled by the mind flayer and automatically critically succeeds if they are incapacitated. Target makes a Strength save, taking 3 wounds in piercing damage, adding 4 wound dice on crit. If this drops a creature to 0 health they immediately die.
 ___
 
 #### Void Speaker
@@ -2617,7 +2647,7 @@ ___
  | **Defense:** | 1/3 | **AP:** | 12 |
  | **Wounds:** | 16 | **Challenge:** | 30 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/2|1/0|1/0|6/4|3/2|-1/0|
@@ -2629,11 +2659,11 @@ ___
 
 **Actions**
 
-***Grappling Attack.*** *Melee Attack:* 4 AP, 3/0/2/0/0</br>Target makes a Strength or Dexterity save. On fail they take 1/0 in piercing damage and are grappled. While grappled they cannot make reactions. At the start of the creatures turn it makes an Intelligence save against this creatures Intelligence save, being incapacitated until the start of its next turn on fail.
+***Grappling Attack.*** *Melee Attack:* 4 AP, 3/0/2/0/0 - Target makes a Strength or Dexterity save. On fail they take 1/0 in piercing damage and are grappled. While grappled they cannot make reactions. At the start of the creatures turn it makes an Intelligence save against this creatures Intelligence save, being incapacitated until the start of its next turn on fail.
 
-***Psychic Scream.*** *Maneuver, Special:* 5 AP, Range 5, 3/3/0/0/0</br>All hostile creatures in range make an Intelligence save. On fail taking 2/2 in psychic damage and are stunned for 2 turns. At the end of their next turn they may make the save again, ending the effects on success.
+***Psychic Scream.*** *Maneuver, Special:* 5 AP, Range 5, 3/3/0/0/0 - All hostile creatures in range make an Intelligence save. On fail taking 2/2 in psychic damage and are stunned for 2 turns. At the end of their next turn they may make the save again, ending the effects on success.
 
-***Devour Mind.*** *Melee Attack:* 10 AP, 4/0/2/0/0</br>Only usable against a creature grappled by the mind flayer and automatically succeeds if they are incapacitated. The creature makes a Strength save. On fail they take 3/0 in piercing damage, adding 0/4 on a critical. If this drops a creature to 0 health they immediately die.
+***Devour Mind.*** *Melee Attack:* 10 AP, 4/0/2/0/0 - Only usable against a creature grappled by the mind flayer and automatically succeeds if they are incapacitated. The creature makes a Strength save. On fail they take 3/0 in piercing damage, adding 0/4 on a critical. If this drops a creature to 0 health they immediately die.
 ___
 
 ### Undead
@@ -2644,7 +2674,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 6 | **Challenge:** | 2 |
  | **Move/Sprint:** | 3/1 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/2|0/0|2/2|-2/0|0/0|0/0|
@@ -2656,9 +2686,9 @@ ___
 
 **Actions**
 
-***Slam.*** *Melee Attack:* 5 AP, 0/3/2/0/0</br>Deals 3 wound dice.
+***Slam.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 3 wound dice.
 
-***Bite.*** *Melee Attack, Once per turn:* 7 AP, 1/2/2/0/0</br>Creature makes a Strength or Dexterity save against the attack. On hit they take 1/1 in piercing damage, are grappled and gain Poison 1.
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 1/2/2/0/0 - Creature makes a Strength or Dexterity save against the attack. On hit they take 1/1 in piercing damage, are grappled and gain Poison 1.
 ___
 
 #### Skeleton
@@ -2667,7 +2697,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 10 |
  | **Wounds:** | 3 | **Challenge:** | 2 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |2/0|1/0|2/0|-1/0|0/0|-1/0|
@@ -2679,9 +2709,9 @@ ___
 
 **Actions**
 
-***Rusty Sword.*** *Melee Attack:* 5 AP, 2/0/3/0/0</br>Deals 1 wound.
+***Rusty Sword.*** *Melee Attack:* 5 AP, 2/0/3/0/0 - Deals 1 wound.
 
-***Press the Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0</br>Deals 1 wound. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
+***Press the Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0 - Deals 1 wound. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
 ___
 
 #### Skeleton Knight
@@ -2690,7 +2720,7 @@ ___
  | **Defense:** | 1/4 | **AP:** | 11 |
  | **Wounds:** | 5 | **Challenge:** | 6 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |3/1|1/1|3/1|-1/0|0/0|-1/0|
@@ -2702,11 +2732,11 @@ ___
 
 **Actions**
 
-***Spear.*** *Reach 1*, *Melee Attack:* 5 AP, 2/1/2/0/0</br>Deals 1 wound.
+***Spear.*** *Reach 1*, *Melee Attack:* 5 AP, 2/1/2/0/0 - Deals 1 wound.
 
-***Enhanced Press the Attack.*** *Maneuver*, *Melee Attack:* 4 AP, 2/2/2/0/0</br>Deals 1 wound and 1 wound die. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
+***Enhanced Press the Attack.*** *Maneuver*, *Melee Attack:* 4 AP, 2/2/2/0/0 - Deals 1 wound and 1 wound die. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
 
-***Enhanced Shield Slam.*** *Maneuver*, *Melee Attack:* 3 AP, 2/2/2/0/0</br>Deals 1 wound. Hit a target with your shield staggering them on hit and knocking them prone on a critical.
+***Enhanced Shield Slam.*** *Maneuver*, *Melee Attack:* 3 AP, 2/2/2/0/0 - Deals 1 wound. Hit a target with your shield staggering them on hit and knocking them prone on a critical.
 ___
 
 #### Ghost
@@ -2715,7 +2745,7 @@ ___
  | **Defense:** | 0/2 | **AP:** | 10 |
  | **Wounds:** | 4 | **Challenge:** | 4 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-1/0|2/0|0/0|0/0|2/0|1/0|
@@ -2731,9 +2761,9 @@ ___
 
 **Actions**
 
-***Grasp.*** *Melee Attack:* 5 AP, 0/2/3/0/0</br>Deals 2 wound dice in cold damage.
+***Grasp.*** *Melee Attack:* 5 AP, 0/2/3/0/0 - Deals 2 wound dice in cold damage.
 
-***Possess.*** *Maneuver*, *Melee Special:* 10 AP, 0/1/4/0/0</br>The target makes a Charisma save, becoming Possessed by the Ghost on fail. While possessed the Ghost controls all actions the creature takes and is untargetable. Every time the creature takes 1 wound in damage they may make the Charisma save again, ending the possession on success. If the creature becomes incapacitated the possession ends with the Ghost appearing in an adjacent tile.
+***Possess.*** *Maneuver*, *Melee Special:* 10 AP, 0/1/4/0/0 - The target makes a Charisma save, becoming Possessed by the Ghost on fail. While possessed the Ghost controls all actions the creature takes and is untargetable. Every time the creature takes 1 wound in damage they may make the Charisma save again, ending the possession on success. If the creature becomes incapacitated the possession ends with the Ghost appearing in an adjacent tile.
 ___
 
 #### Shadow
@@ -2742,7 +2772,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 10 |
  | **Wounds:** | 5 | **Challenge:** | 6 |
  | **Move/Sprint:** | 4/4 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |-1/0|3/0|1/0|0/0|1/0|1/0|
@@ -2758,9 +2788,9 @@ ___
 
 **Actions**
 
-***Grasp.*** *Melee Attack:* 5 AP, 1/2/2/0/0</br>On hit deals 0/2 in death damage.
+***Grasp.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - On hit deals 0/2 in death damage.
 
-***Strength Drain.*** *Maneuver*, *Melee Attack:* 7 AP, 1/0/4/0/0</br>The target makes a Stamina save, taking 1 wound in death damage, healing the Shadow for 1 wound. The target loses 1 Strength for every crit rolled, up to 2. Creatures regain their Strength after a long rest or after _Cleanse_ has been cast on them. A creature with a Strength of -3 or less dies, becoming a Shadow in 1 hour.
+***Strength Drain.*** *Maneuver*, *Melee Attack:* 7 AP, 1/0/4/0/0 - The target makes a Stamina save, taking 1 wound in death damage, healing the Shadow for 1 wound. The target loses 1 Strength for every crit rolled, up to 2. Creatures regain their Strength after a long rest or after _Cleanse_ has been cast on them. A creature with a Strength of -3 or less dies, becoming a Shadow in 1 hour.
 ___
 
 #### Corpse Beast
@@ -2769,7 +2799,7 @@ ___
  | **Defense:** | 0/4 | **AP:** | 13 |
  | **Wounds:** | 13 | **Challenge:** | 9 |
  | **Move/Sprint:** | 4/2 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/2|-2/0|4/1|0/0|1/0|1/1|
@@ -2783,9 +2813,9 @@ ___
 
 **Actions**
 
-***Claw.*** *Melee Attack:* 5 AP, 1/3/1/0/0</br>Deals 3 wound dice. On crit the target is paralyzed for 1 minute.
+***Claw.*** *Melee Attack:* 5 AP, 1/3/1/0/0 - Deals 3 wound dice. On crit the target is paralyzed for 1 minute.
 
-***Devour.*** *Maneuver*, *Melee Attack:* 7 AP, 0/4/1/0/0</br>Only usable against paralyzed living creatures with a size of Medium or smaller. Target takes 2 wound dice in damage and are swallowed by the Corpse Beast. While they are devoured the Corpse Beasts movement is reduced to 1. The creature is incapacitated and at the start of their turn takes a wound in damage and gains a random Lesser Wound. After taking 5 or more damage in a single round the Corpse Beast regurgitates the creature leaving them prone in an adjacent tile. Only one creature may be Devoured at a time. A creature that dies inside a Corpse Beast is regurgitated as a Zombie.
+***Devour.*** *Maneuver*, *Melee Attack:* 7 AP, 0/4/1/0/0 - Only usable against paralyzed living creatures with a size of Medium or smaller. Target takes 2 wound dice in damage and are swallowed by the Corpse Beast. While they are devoured the Corpse Beasts movement is reduced to 1. The creature is incapacitated and at the start of their turn takes a wound in damage and gains a random Lesser Wound. After taking 5 or more damage in a single round the Corpse Beast regurgitates the creature leaving them prone in an adjacent tile. Only one creature may be Devoured at a time. A creature that dies inside a Corpse Beast is regurgitated as a Zombie.
 ___
 
 #### Zombie Ogre
@@ -2794,7 +2824,7 @@ ___
  | **Defense:** | 0/3 | **AP:** | 12 |
  | **Wounds:** | 14 | **Challenge:** | 10 |
  | **Move/Sprint:** | 4/1 | **Size:** | Large |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |5/4|-2/0|4/3|-2/0|0/0|0/0|
@@ -2806,9 +2836,9 @@ ___
 
 **Actions**
 
-***Slam.*** *Melee Attack:* 5 AP, 1/4/0/0/0</br>Deals 1/3 in bludgeoning damage.
+***Slam.*** *Melee Attack:* 5 AP, 1/4/0/0/0 - Deals 1/3 in bludgeoning damage.
 
-***Bite.*** *Melee Attack, Once per turn:* 7 AP, 1/4/0/0/0</br>Creature makes a Strength or Dexterity save against the attack. On hit they take 2/1 in piercing damage, are grappled and gain Poison 1.
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 1/4/0/0/0 - Creature makes a Strength or Dexterity save against the attack. On hit they take 2/1 in piercing damage, are grappled and gain Poison 1.
 ___
 
 #### Boneclaw
@@ -2817,7 +2847,7 @@ ___
  | **Defense:** | 1/3 | **AP:** | 12 |
  | **Wounds:** | 14 | **Challenge:** | 13 |
  | **Move/Sprint:** | 4/3 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/3|2/2|2/0|-1/0|1/1|-1/0|
@@ -2831,11 +2861,11 @@ ___
 
 **Actions**
 
-***Rake.*** *Melee Attack:* 4 AP, Reach 2, 2/2/1/0/0</br>Deals 3 wound dice in damage. On crit the target creature gains a Lesser Wound: Bleeding. Attacks against a bleeding creature reroll all blank wound dice.
+***Rake.*** *Melee Attack:* 4 AP, Reach 2, 2/2/1/0/0 - Deals 3 wound dice in damage. On crit the target creature gains a Lesser Wound: Bleeding. Attacks against a bleeding creature reroll all blank wound dice.
 
-***Impaling Claw.*** *Maneuver, Melee Attack:* 5 AP, Reach 2, 3/1/1/0/0</br>Deals 1 wound and 1 wound die. On crit the target is pulled 2 tiles towards the boneclaw.
+***Impaling Claw.*** *Maneuver, Melee Attack:* 5 AP, Reach 2, 3/1/1/0/0 - Deals 1 wound and 1 wound die. On crit the target is pulled 2 tiles towards the boneclaw.
 
-***Blinding Shadows.*** *Maneuver*, *Melee Attack:* 6 AP, 2/0/3/0/0</br>All adjacent creatures are bathed in shadows. Creatures make a Stamina save, taking 2 wound dice on fail. On crit the target is blind for one minute.
+***Blinding Shadows.*** *Maneuver*, *Melee Attack:* 6 AP, 2/0/3/0/0 - All adjacent creatures are bathed in shadows. Creatures make a Stamina save, taking 2 wound dice on fail. On crit the target is blind for one minute.
 ___
 
 #### Death Knight
@@ -2844,7 +2874,7 @@ ___
  | **Defense:** | 4/2 | **AP:** | 14 |
  | **Wounds:** | 25 | **Challenge:** | 20 |
  | **Move/Sprint:** | 4/2 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/4|-2/0|6/4|0/0|2/1|4/1|
@@ -2858,11 +2888,11 @@ ___
  
 **Actions**
 
-***Spiked Mace.*** *Melee Attack:* 4 AP, 4/0/1/0/0</br>On hit deals 1/2 in physical damage.
+***Spiked Mace.*** *Melee Attack:* 4 AP, 4/0/1/0/0 - On hit deals 1/2 in physical damage.
 
-***Unholy Smite.*** *Maneuver, Melee Attack:* 4 AP, 4/1/1/0/0</br>On hit deals 1/4 in death damage. Can only be used 3 times per day.
+***Unholy Smite.*** *Maneuver, Melee Attack:* 4 AP, 4/1/1/0/0 - On hit deals 1/4 in death damage. Can only be used 3 times per day.
 
-***Superior Shield Slam.*** *Maneuver*, *Melee Attack:* 2 AP, 4/1/1/0/0</br>Knock back all adjacent creatures with your shield. Creatures make a Strength save against this roll. On hit they are staggered, lose any benefit from their shield until the stagger ends, and may be pushed away 1 tile.
+***Superior Shield Slam.*** *Maneuver*, *Melee Attack:* 2 AP, 4/1/1/0/0 - Knock back all adjacent creatures with your shield. Creatures make a Strength save against this roll. On hit they are staggered, lose any benefit from their shield until the stagger ends, and may be pushed away 1 tile.
 ___
 
 #### Lich
@@ -2871,7 +2901,7 @@ ___
  | **Defense:** | 2/3 | **AP:** | 14 |
  | **Wounds:** | 65 | **Challenge:** | 60 |
  | **Move/Sprint:** | 4/1 | **Size:** | Medium |
- 
+___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |4/3|-2/0|5/3|4/0|7/7|3/1|
@@ -2889,9 +2919,9 @@ ___
 
 **Actions**
 
-***Touch of Death.*** *Melee Attack:* 5 AP, 5/2/1/0/0</br>On hit deals 2/4 in death damage.
+***Touch of Death.*** *Melee Attack:* 5 AP, 5/2/1/0/0 - On hit deals 2/4 in death damage.
 
-***Raise Undead.*** *Special, Once per day:* 7 AP, Range 10, 6/0/0/0/0</br>Raises undead from corpses in range to fight for the Lich. The Lich may spend 1 success to raise a Skeleton or Zombie, or 2 successes to raise a Skeleton Knight or Zombie Ogre.
+***Raise Undead.*** *Special, Once per day:* 7 AP, Range 10, 6/0/0/0/0 - Raises undead from corpses in range to fight for the Lich. The Lich may spend 1 success to raise a Skeleton or Zombie, or 2 successes to raise a Skeleton Knight or Zombie Ogre.
 ___
 
 ### Mundane Items
@@ -3870,6 +3900,13 @@ A huge book that looks like its been patched together from several works of diff
 
 You may spend a week studying a portion of the "Manuals of Talent" section. After completing your study you gain a feat of your choosing with the book disappearing the following morning. The book reappears in a random place in the same realm after 66 years.
 
+#### Sword of Tartarus
+*Legendary Sword +3, Requires Attunement*
+
+Can only be attuned by the true ruler of Tartarus. Maneuvers using this weapon add a wound die in death damage to the attack. On hitting a creature with this weapon they gain Hex 1 for 1 minute.
+
+While attuned to the sword you gain the _Souls of the Damned_ maneuver.
+
 ## Swords of Tyr
 The 8 Swords of Tyr are split across the various alignments:
 
@@ -3893,8 +3930,8 @@ Nomos and War were given to the Dwarves, the most dutiful and lawful of the race
 ### Human Swords
 Oros and Death were given to the Humans who showed the greatest capacity to adapt. Tyr believed the balance of good and evil would keep humans grounded. Oros and Death are thought to be lost, having been hidden away.
 
-### Twili Swords
-Faust and Chaos were given to the twili, seen as the wisest of the races. Tyr left it to them to find suitable races to wield these weapons. Faust was given to the Lizardfolk, both to prevent it from falling into the hands of other races and to protect the lizardfolk. Chaos was hidden away in a twili temple as its power was too dangerous for any one person to wield. Chaos was taken by the human emperor after destroying the temple.
+### Tlani Swords
+Faust and Chaos were given to the tlani, seen as the wisest of the races. Tyr left it to them to find suitable races to wield these weapons. Faust was given to the Lizardfolk, both to prevent it from falling into the hands of other races and to protect the lizardfolk. Chaos was hidden away in a tlani temple as its power was too dangerous for any one person to wield. Chaos was taken by the human emperor after destroying the temple.
 
 ### Dormant States
 All the swords have a dormant state where they are +0 or +1 weapons and happens after a period of not being used. They can be awakened through various rituals to become +1 or +2 weapons, and can be activated to become +3 for a short time.

@@ -453,7 +453,7 @@ Depending on your character's level you will only be able to cast spells up to a
 
 ### Concentration
 
-Some spells require concentration to maintain its effects. You may only concentrate on a single spell at a time and casting a new spell with concentration will end the effects of the previous spell. When you take damage while concentrating on a spell you make a Stamina save against a bad die and adding a bad die for every wound taken from the attack. On failure you lose concentration and the spell ends.
+Some spells require concentration to maintain its effects. You may only concentrate on a single spell at a time and casting a new spell with concentration will end the effects of the previous spell. When you take damage while concentrating on a spell you make a Stamina save against a bad die and adding a terrible die for every wound taken from the attack. On failure you lose concentration and the spell ends.
 
 ### Cantrips
 
@@ -549,12 +549,13 @@ Your max action points increases by 1 at levels 10, 20 and 30.
 
 Your max wounds increases by 1 at levels 7, 14, 21, and 28.
 
-#### Earning Experience
-Players earn experience after every encounter based on the difficulty of the encounter. Experience is earned based on how difficult it is for the players to overcome the encounter, not by how much experience an individual monster gives.
-
 ##### Healing Surges
 
 Your max healing surges increases by 1 at levels 10, 20, and 30.
+
+#### Earning Experience
+Players earn experience after every encounter based on the difficulty of the encounter. Experience is earned based on how difficult it is for the players to overcome the encounter, not by how much experience an individual monster gives.
+
 
 
 ##### Encounters
@@ -705,7 +706,7 @@ When making any roll, a hexed creature replaces a critical with a single success
 An incapacitated creature takes no actions and automatically fails Strength and Dexterity saving throws. While incapacitated they grant combat advantage to adjacent attackers, and attacks and maneuvers that deal physical damage deal an extra wound die per critical success against them.
 
 ##### Paralyzed
-A paralyzed creature gains no benefit from their Dexterity saving throw proficiency. When taking an action they first roll a wound die. If the result is a wound they may choose to not take the action and spend the AP for it or spend the remainder of their AP to take the action.
+A paralyzed creature cannot take the sprint action, adds a terrible die to all reactions, and has their maximum AP reduced by 3 for each level of Paralyze. They may still take an action that costs more than their maximum AP as long as it is the only action they take during their turn.
 
 ##### Poison
 A poisoned creature adds a bad die to all attacks, saving throws, and ability checks, adding an additional bad die for every level of poison. Only the highest level poison takes effect. For example someone who has poison and poison 2 only adds 2 bad dice instead of 3.
@@ -1369,6 +1370,7 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - [Illusory Space](#Illusory-Space)
 - [Instant Fortification](#Instant-Fortification)
 - [Open Warren](#Open-Warren)
+- [Permanence](#Permanence)
 - [Poison Cloud](#Poison-Cloud)
 - [Shockwave](#Shockwave)
 - [Wall of Fire](#Wall-of-Fire)
@@ -1546,7 +1548,7 @@ The beam reaches 2 tiles further and deals an extra wound die for every level ca
 - **Duration:** instant
 - **Damage Type:** lightning
 
-Call a bolt of lightning to strike a nearby creature you can see. Make a spellcasting roll against the creatures Dexterity save. On success they take 1 wound and 2 wound dice in lightning damage, becoming paralyzed until the end of their next turn on a critical. If cast in rainy conditions this spell only costs 5 AP.
+Call a bolt of lightning to strike a nearby creature you can see. Make a spellcasting roll against the creatures Dexterity save. On success they take 1 wound and 2 wound dice in lightning damage, gaining a level of Paralyze for each critical until the end of their next turn. If cast in rainy conditions this spell only costs 5 AP.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -1694,6 +1696,8 @@ You may target an additional creature for every level cast above 2nd.
 
 You attempt to dispel a single magical effect targeting a creature or area. Make a spellcasting roll against 2 terrible dice, adding successes or failures based on the difference between this spell level and the target effect's spell level. For example, you add 2 successes when casting _Dispel Magic_ at 4th level against an effect from a 2nd level spell, or 3 failures when casting at 2nd level against a 5th level effect. On success the effect immediately ends.
 
+Multiple casters can attempt to dispel the same spell, using the highest spellcasting roll and adding successes equal to the total spell level of all _Dispel Magic_'s cast.
+
 Some magical effects may not come from a spell. In these cases the GM determines how many successes and failures to add or if the spell fails.
 
 #### Elemental Shell
@@ -1747,7 +1751,7 @@ Add an enhanced die for every level cast above 2nd.
 
 Temporarily enchant a weapon with magic. You may target up to 5 weapons, adding a terrible die to your spellcasting roll for each weapon. On success the weapons are considered +1 magic weapons. If you lose concentration before the hour is finished the weapons retain the magic for 1 minute before fading completely.
 
-Add an enhanced die for every level cast above 2nd.
+Add an enhanced die for every level cast above 2nd. The weapons are considered +2 at 6th level, and +3 at 10th.
 
 #### Mental Ward
 *2nd level*
@@ -1775,7 +1779,7 @@ Add an enhanced die for every level cast above 2nd.
 *2nd level*
 
 - **Casting Time:** 6 AP
-- **Range:** self
+- **Range:** 15
 - **Duration:** 10 minutes
 
 Create a 6x6 tile field centered on a point in range within range that you can see. All movement inside the slowfield is sluggish, as if it was moving through water. When a creature attempts to move or sprint inside the slowfield they make a Strength save against your spellcasting roll. On failure they gain Slow 2 until the end of their turn, adding a level of Slow for each critical rolled. This slow cannot be removed while inside the slowfield.
@@ -2124,7 +2128,22 @@ Force open a rift leading to a warren, a space between realms. You can hold the 
 
 You do not start making spellcasting rolls to stay inside the warren for an hour for every level cast above 5th.
 
+#### Permanence
+*5th level*
 
+- **Casting Time:** 3+ AP
+- **Range:** -
+- **Duration:** until dispelled
+
+You bind the divine weave, making a spell permanent. As part of casting this spell you must also cast the spell to be made permanent, adding its AP and mana cost to this spell. The spell to be made permanent must meet the following requirements:
+
+- The spell is 5th level or lower
+- Has a duration
+- Targets an object or area
+
+Make a spellcasting roll against 4 terrible dice. On success the spell is permanent, lasting until dispelled. Permanent spells are considered to be 5 levels higher when targeted by dispelling effects, such as _Dispel Magic_.
+
+Add an enhanced die to the spellcasting roll and you may target a spell 1 level higher for every level cast above 5th.
 
 #### Poison Cloud
 *5th level*
@@ -2306,7 +2325,7 @@ Add an extra fireball for every level cast above 7th.
 
 - **Casting Time:** 9 AP
 - **Range:** self
-- **Duration:** concentration, 5 minutes
+- **Duration:** 5 minutes
 - **Damage Type:** fire
 
 You speak a word of power as fire crawls across your body. Until the spell ends, you gain the following benefits:
@@ -2327,7 +2346,7 @@ The damage from both sources increases by 1 wound die for every level cast above
 
 - **Casting Time:** 9 AP
 - **Range:** self
-- **Duration:** concentration, 5 minutes
+- **Duration:** 5 minutes
 - **Damage Type:** cold
 
 You speak a word of power as ice rimes across your body. Until the spell ends, you gain the following benefits:
@@ -2346,14 +2365,14 @@ The range of both effects increase by 1 and you add an enhanced die to your spel
 
 - **Casting Time:** 9 AP
 - **Range:** self
-- **Duration:** concentration, 5 minutes
+- **Duration:** 5 minutes
 - **Damage Type:** lightning
 
 You speak a word of power as lightning surges through your body. Until the spell ends, you gain the following benefits:
 
 - You gain _Resistance 3_ to lightning damage.
 - As a reaction or on your turn you may spend 2 AP to teleport to an unoccupied tile within 3 tiles of your position.
-- You may spend 5 AP to fire a lightning bolt against 3 creatures within 10 tiles of you. Make a spellcasting roll against the creatures Dexterity save. On success they take 1 wound and 2 wound dice in lightning damage, being paralyzed on a critical.
+- You may spend 5 AP to fire a lightning bolt against 3 creatures within 10 tiles of you. Make a spellcasting roll against the creatures Dexterity save. On success they take 1 wound and 2 wound dice in lightning damage, gaining Paralyze 1 until the end of their next turn on a critical.
 - You have expertise with spells that deal lightning damage.
 
 Only a single Power Word can be active at once, casting another Power Word spell ends any other Power Word spells you've cast.
@@ -2417,7 +2436,7 @@ Conjure a star shining prismatic light, impacting a point in range you can see. 
 
 - Deal an extra wound in fire damage.
 - Creatures gain Slow 3 for 1 minute.
-- Creatures are paralyzed until the end of their next turn.
+- Creatures gain Paralyze 2 until the end of their next turn.
 - Creatures gain Poison 2 for 10 minutes.
 - Creatures are staggered and knocked prone.
 
@@ -2466,7 +2485,7 @@ When cast at 9th level the duration increases to 1 year, or 77 years after casti
 - **Duration:** 1 turn
 - **Damage Type:** bludgeoning/fire
 
-You attempt to bring forth the ruinous powers of Armageddon. Make a spellcasting roll, conjuring up to 3 meteors and adding 2 terrible dice to your roll for each meteor conjured. On success, choose a point in range for each meteor. At the start of your next turn the meteors impact the ground dealing 8 wounds in bludgeoning damage and 8 wound dice in fire damage to all creatures within 7 tiles of the impact. A creature in range of multiple meteors instead adds 2 wound dice to both damage types for each additional meteor. Buildings take full damage regardless of roll.
+You attempt to bring forth the ruinous powers of armageddon. Make a spellcasting roll, conjuring up to 3 meteors and adding 2 terrible dice to your roll for each meteor conjured. On success, choose a point in range for each meteor. At the start of your next turn the meteors impact the ground dealing 8 wounds in bludgeoning damage and 8 wound dice in fire damage to all creatures within 7 tiles of the impact. A creature in range of multiple meteors instead adds 2 wound dice to both damage types for each additional meteor. Buildings take full damage regardless of roll.
 
 On failure the magic grounds itself through you, dealing 1 wound die in force damage for every failure in your spellcasting roll to you and every adjacent creature.
 
@@ -2552,6 +2571,7 @@ Add 3 superior dice when cast at 10th level.
 - [Heart Grip](#Heart-Grip)
 - [Impale](#Impale)
 - [Mind Break](#Mind-Break)
+- [Scrying](#Scrying)
 - [Suggestion](#Suggestion)
 - [True Sight](#True-Sight)
 
@@ -3301,7 +3321,7 @@ Increase the area by 1 for every level cast above 4th.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Summon a cloud of toxic spores in a 5x5 tile area centered on a point in range. Any creature that enters the cloud for the first time this round or starts their turn there makes a Stamina save against your spellcasting. On failure they are paralyzed until the end of their next turn.
+Summon a cloud of toxic spores in a 5x5 tile area centered on a point in range. Any creature that enters the cloud for the first time this round or starts their turn there makes a Stamina save against your spellcasting. On failure gain Paralyze 1 until the end of their next turn or increase the level of an existing Paralyze.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -3324,7 +3344,7 @@ You may target an extra medium or large corpse and add a superior die to your ro
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to break the barrier between this realm and the void. Make a spellcasting roll adding up to 3 terrible dice. On success a random outsider with a CR of 6 plus 2 per terrible die added heeds your call and is summoned to a point in range of your choosing. The exact creature summoned is determined by the GM, and multiple creatures may be summoned if their combined CR is less than the spells maximum. After summoning roll a wound die. On success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims. 
+Attempt to break the barrier between this realm and the void. Make a spellcasting roll adding up to 3 terrible dice. On success a random outsider with a CR of 6 plus 2 per terrible die added heeds your call and is summoned to a point in range of your choosing. The exact creature summoned is determined by the GM, and multiple creatures may be summoned if their combined CR is less than the spells maximum. After summoning roll a wound die. On success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims.
 
 For every successful casting of _Void Lure_ in this location in the past day, add a terrible die to the spellcasting roll. This die does not effect the CR of the summoned creature.
 
@@ -3416,7 +3436,29 @@ Add a wound to the damage and increase the length of the line by 1 tile for ever
 
 Attempt to overpower the mind of a creature in range that can see you. You make a telepathic link to the creature, using your will to shatter their mind. Make a spellcasting roll against the creatures Intelligence save. On success they take a wound die in psychic damage for every success remaining in your roll. If you deal at least 1 damage the target is dazed for the next minute.
 
-Add a normal die to the spellcasting roll for every level cast above 5th.
+Add an enhanced die to the spellcasting roll for every level cast above 5th.
+
+#### Scrying
+*5th level*
+
+- **Casting Time:** 10 minutes
+- **Range:** -
+- **Duration:** concentration, 1 hour
+
+Attempt to divine the location of a creature or object in the same realm as you. To scry on a creature you must have an object they held for at least a month over the past year or a magic item they have created. To scry on an object you must have held it for a month over the past year, or in the case of a magic item attuned to it in the past year or created it.
+
+Depending on the circumstance, make a spellcasting roll against challenge dice listed in the table below. On success you have a vision of the object or creature. The vision shows the target and everything in a 6 tile radius surrounding it as well as any audible noise in the area. This spell can be cast on a mirror or glass surface, projecting the vision onto the surface for others to see.
+
+Add an enhanced die to the spellcasting roll for every level cast above 5th.
+
+##### Scrying Difficulty
+| Target | Difficulty Dice |
+|:----|-------------:|
+| A creature using an item they held for at least a month over the past year | 3T/2B |
+| A creature using a magic item they created | 2T/2B |
+| An object you have held for at least a month over the past year | 3T/2B |
+| A magic item you have created | 2T/1B |
+| A magic item you have attuned to in the past year | 2T |
 
 #### Suggestion
 *5th level*
@@ -3466,7 +3508,7 @@ You may target an additional creature for every level cast above 6th.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures Charisma save. On success the creature is severed from the divine weave. Any non-damaging spells targeting this creature first contest against your spellcasting roll, having no effect on fail. Any powers given from a deity or other being cannot be used and they do not benefit from magic items while isolated.
+You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures Charisma save. On success the creature loses any powers gained from a deity or pact and loses the attunement benefits from magic items. Isolated creatures are shrouded from the divine weave, any spell cast against an isolated creature adds 1 terrible die to its roll.
 
 Add an enhanced die for every level cast above 6th.
 
@@ -4084,7 +4126,7 @@ Add an enhanced die for every level cast above 3rd.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Targeting up to 5 creatures in range, bless them with free movement. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to saving throws against effects that inflict Slow, Grapple, or Restrained. For the duration, at the start of the creatures turn they may remove one of the following conditions: Paralyze, Slow, Weaken.
+Targeting up to 5 creatures in range, bless them with free movement. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to saving throws against effects that inflict Slow, Grapple, or Restrained. For the duration, at the start of the creatures turn they may remove one level of the following conditions: Paralyze, Slow, Weaken.
 
 Add an enhanced die for every level cast above 3rd.
 
@@ -4299,7 +4341,7 @@ The number of pillars increases by 2 for every level cast above 4th.
 - **Duration:** instant
 - **Damage Type:** lightning
 
-Attempt to break the flow of magic around a creature or object, dispelling all magical effects targeting them. Make a spellcasting roll against 2 bad dice. Starting with the lowest level effect, subtract its spell level from your reminaing successes, if you have 0 or more the effect ends. Repeat this until every effect is dispelled or you have no remaining successes. The torn magic grounds itself through the creature, taking a wound die in damage for each effect purged. If the creature takes at least 1 wound they gain Slow 3 and are Paralyzed until the end of their next turn.
+Attempt to break the flow of magic around a creature or object, dispelling all magical effects targeting them. Make a spellcasting roll against 2 bad dice. Starting with the lowest level effect, subtract its spell level from your reminaing successes, if you have 0 or more the effect ends. Repeat this until every effect is dispelled or you have no remaining successes. The torn magic grounds itself through the creature, taking a wound die in damage for each effect purged. If the creature takes at least 1 wound they gain Slow 3 and Paralyze 1 until the end of their next turn.
 
 Add a normal die for every level cast above 4th.
 
@@ -4435,7 +4477,7 @@ Add a normal die for every level cast above 5th.
 - **Range:** 5
 - **Duration:** concentration, 1 minute
 
-Petrify a creature in range you that can see you, turning them to stone. Make a spellcasting roll against the creatures Stamina save. On success they are Paralyzed for the next minute. You must maintain line of sight with the creature or the spell ends. After 1 minute you make another spellcasting roll against the creatures Stamina save. On success the creature is turned to stone.
+Petrify a creature in range you that can see you, turning them to stone. Make a spellcasting roll against the creatures Stamina save. On success they gain Paralyze 2 for the next minute. You must maintain line of sight with the creature or the spell ends. After 1 minute you make another spellcasting roll against the creatures Stamina save. On success the creature is turned to stone.
 
 You add a terrible die to your roll when cast on a large creature, or 3 terrible dice when cast on a huge or larger creature.
 
@@ -4636,7 +4678,7 @@ Add 2 superior dice to your roll for every level cast above 8th.
 
 - **Casting Time:** 1 turn
 - **Range:** self
-- **Duration:** concentration, 10 minutes.
+- **Duration:** concentration, 10 minutes
 
 You channel your magic to become a divine avatar. Make a spellcasting roll adding 3 terrible dice. On success you heal a wound die for each success in your roll. Starting on your next turn you become an embodiment of divine wrath, gaining the following effects:
 
@@ -4913,7 +4955,7 @@ Make a melee attack against a creature using any spellcasting roll instead of yo
 ***Superior:*** On a critical you add the following effect depending on your damage type:
 - **Fire:** Add a wound die in fire damage.
 - **Cold:** They gains Slow 2 for 1 minute.
-- **Lightning:** They are Paralyzed until the start of their next turn.
+- **Lightning:** They gain Paralyze 1 until the start of their next turn.
 - **Poison:** They gain Poison 1 for 10 minutes.
 
 #### Hindering Strike
@@ -5562,7 +5604,7 @@ When targeted by a area of effect attack, maneuver, or damaging spell you may sp
 #### Enduring Concentration
 *Requires 2 Stamina*
 
-You add 1 superior die to your concentration checks and saving throws that would stun or leave you incapacitated..
+When making concentration checks you add bad dice for every wound taken instead of terrible dice. You add 1 critical success when saving against effects that stun or incapacitate you.
 
 #### Exertion
 *Requires 10th level*
@@ -5847,6 +5889,11 @@ You can concentrate on 2 spells at once as long as these spells have different t
 *Requires Agile, 10th level*
 
 Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from the single target attack, maneuver, or spell attack.
+
+#### Warded Spells
+*Requires Quickened Spellcasting, 7 combined spellcasting proficiency, 12th Level*
+
+Spells you cast are considered 2 levels higher when targeted by _Counter Spell_ or _Dispel Magic_.
 
 #### Warlock
 *Requires Potent Curses, 14th level*
@@ -6213,7 +6260,7 @@ Increases your maximum wounds by 1 for 24 hours.
 - **Ingredients:** 2 Cleansebloom, 1 Healroot
 - **Roll:** 2 bad dice
 
-Ends up to 2 of the following conditions: daze, hex, paralyze, poison, slow, stun, and weaken. If the condition is level 3 or more, remove 2 levels instead. Conditions inflicted by wounds, curses, or persistent effects return at the start of your next turn.
+Ends up to 2 of the following conditions: Daze, Hex, Paralyze, Poison, Slow, Stun, and weaken. If the condition is level 3 or more, remove 2 levels instead. Conditions inflicted by wounds, curses, or persistent effects return at the start of your next turn.
 
 ##### Potion of Strength
 
@@ -6292,7 +6339,7 @@ On hit deals 1 wound in poison damage, adding a wound die on a critical.
 - **Ingredients:** 2 Nightshade, 1 Scorpion Venom
 - **Roll:** 2 bad dice, 2 terrible dice
 
-On hit inflicts poison 1, or poison 2 on a critical. The creature is paralyzed as long as they are poisoned. Lasts for 10 minutes.
+On hit inflicts poison 1, or poison 2 on a critical. The creature gains Paralyze equal to the level of poison as long as they are poisoned. Lasts for 10 minutes.
 
 
 ##### Deadly Toxins
@@ -6358,7 +6405,7 @@ You can inscribe a rune during a long rest or with 2 hours of downtime. To inscr
 | Longcaster | 1 | 10sc gemstone | 0 | 1B | Doubles the range of a spell that does not have a range of self or touch. |
 | Potency | 1 | - | 1 | 2B | Add a critical to your spellcasting roll. |
 | Fire Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Dexterity save against 3 superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
-| Arc Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save against 3 superior dice, becoming Paralyzed for 1 minute on fail. |
+| Arc Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save against 3 superior dice, gaining Paralyze 1 for 1 minute on fail. |
 | Hardened | 3 | 10sc gemstone | 2 | 2T | Your spell is considered to be 2 levels higher when saving against _Dispel Magic_, _Purge_, and _Counter Spell_. |
 | Expanding | 3 | 25sc gemstone | 1 | 2T | Increases the area of effect of a spell by 1. |
 | Anti Magic Ward | 4 | 25sc gemstone | 1 | 2B/1T | Once placed, the next spell to target a creature or point within 2 tiles of this ward adds a critical failure to the spellcasting roll. |
