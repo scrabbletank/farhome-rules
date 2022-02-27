@@ -1506,7 +1506,7 @@ Add an enhanced die for every level cast above cantrip.
 *1st level*
 
 - **Casting Time:** 8 AP
-- **Range:** 7
+- **Range:** 15
 - **Duration:** instant
 - **Damage Type:** force
 
