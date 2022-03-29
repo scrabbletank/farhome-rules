@@ -5550,8 +5550,6 @@ The spells _Turn Undead_ and _Destroy Monstrosity_ can target Undead, Monstrosit
 
 If you move at least 2 tiles before making an attack or maneuver you deal an extra wound die in damage.
 
-
-
 #### Beast Whisperer
 *Requires proficiency in animal handling*
 
