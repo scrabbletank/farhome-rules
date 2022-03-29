@@ -947,9 +947,11 @@ Some magic items grant bonuses to your attributes. While there is no limit on ho
 
 For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 Dexterity. You still benefit from the remaining bonuses on those items.
 
-### Elves
+# Races
 
-#### High Elf
+## Elves
+
+### High Elf
 
 Like most elves, high elves display an otherworldly grace in all that they do. Often living in ancient, timeless forests, humans see high elves as beautiful and elegant, if not slightly arrogant. High elves stand slightly taller than the average human, ranging from 5 and a half feet to nearly 7 feet. However they are more slender, weighing between 100 to 150 pounds. While their complexion matches humans, their hair encompasses a larger range, from silver-white to deep black. Like all elves they have long, pointed ears.
 
@@ -961,11 +963,11 @@ It is rumored that high elves are descended from the fae, a group of magical and
 - **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Strength
 - **Lifespan:** 350 years
 
-##### Innate Magic
+#### Innate Magic
 
 You learn a single cantrip. This cantrip does not need to be prepared or in your codex to cast. You start with 1 extra mana and recover 1 extra mana each short and long rest.
 
-#### Wood Elf
+### Wood Elf
 
 Unlike the timeless, magical forests of the high elves, the wood elves call the savage forests as their home. Wood elves display grace and strength in equal measure, being capable hunters and defenders of their forests. Their complexion tends to take on darker tones compared to their high elf cousins, often taking on a copper hue. Their hair ranges from deep reds to brown and black, but is occasionally blond or silver. They are slightly smaller than high elves, ranging from 5 to 6 feet. While they are still slender compared to humans their life in the forest has hardened their bodies, weighing between 120 to 160 pounds.
 
@@ -977,11 +979,11 @@ Due to their fierce dedication to their homeland, wood elves tend to be mistrust
 - **Attribute Bonuses:** +1 Dexterity, +1 Willpower, -1 Intelligence
 - **Lifespan:** 250 years
 
-##### Forest Warrior
+#### Forest Warrior
 
 You gain 1 proficiency with either a bow or a spear, and gain a maneuver that uses that weapon.
-  
-#### Star Elf
+
+### Star Elf
 
 Seekers of knowledge, the star elves are nomads by nature. Their long lives allow them to see the world from a different perspective compared to the short lived races who see the star elves as aloof and unempathetic. Star elves are naturally curious, and because of this are gifted conversationalists. They love telling tales just as much as they do hearing them.
 
@@ -993,14 +995,14 @@ They are among the tallest races, averaging 7 feet tall, and also the rarest. Th
 - **Attribute Bonuses:** +1 Dexterity, +1 Charisma, -1 Stamina
 - **Lifespan:** 700 years
 
-##### Focused Resolve
+#### Focused Resolve
 
 You gain 2 superior dice when making a save against a charm, possession, or fear effect.
 
 
-### Goblinoid
+## Goblinoid
 
-#### Half-Orc
+### Half-Orc
 
 While most orcs are filled with an all-consuming lust for battle, there are some born free from their curse. Those that are often seek out neighboring human or elven settlements, resulting in half-orcs. Half-orcs retain much of their parents strength and ferocity, free from bloodlust and tempered by their other half. Because of this half-orcs are widely loved among the fringe villages and settlements of the world.
 
@@ -1013,11 +1015,11 @@ Half orcs stand between 6 and 7 feet. They tend to have strong, wide jaws with s
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Charisma
 - **Lifespan:** 100 years
 
-##### Resilience
+#### Resilience
 
 When making death saving throws you may reroll the die, taking the new result. If you pass 3 rounds in a row without failing a death save you become stabilized.
 
-#### Tlani
+### Tlani
 
 Often confused for goblins or imps, tlani live far from  the rest of the civilized world, preferring to make their homes high in the mountains or deep under the ground. They are short in stature, rarely standing taller than 4 feet. Like elves they have a strange, unnatural beauty tothem that contrasts with their more bestial features, having long pointed ears, cat-like eyes and pointed teeth. Their complexion ranges from dark greys and blues to black with a white or silver underbelly. Their hair tends to match the color of their skin, but rarely it can be blue, green, or purple. Tlani are light, weighing between 40 and 60 pounds, and maintain a youthful appearance well into their 150s.
 
@@ -1029,15 +1031,15 @@ Due to their small stature, beast-like appearance and affinity for darkness they
 - **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Strength
 - **Lifespan:** 180 years
 
-##### Occult
+#### Occult
 
 You are always under the effects of the spell _Dark Sight_ and you add a superior die when making stealth rolls in dim light or darkness.
 
 
 
-### Humanoid
+## Humanoid
 
-#### Fallen
+### Fallen
 
 Despite their resemblance, fallen are not demons as some humans claim. They are one of the oldest races to emerge, along with the tlani, but their kind has dwindled, now living among the other races with no home of their own. Often seen as outsiders, fallen have relied on their wit and cunning to persevere, relying on their charm to get out of difficult situations.
 
@@ -1049,11 +1051,11 @@ While at times they can be mistaken for humans, all fallen are born with horns. 
 - **Attribute Bonuses:** +1 Charisma, +1 Strength, -1 Willpower
 - **Lifespan:** 150 years
 
-##### Beast Sight
+#### Beast Sight
 
 You take no penalties when in dim light, and only add 1 bad die in total darkness. You may reroll 1 die when rolling Charisma skills and saves.
 
-#### Human
+### Human
 
 Out of all the common races, humans are by far the most numerous. While humans are short lived compared to most, they are tenacious and adaptable, which has allowed them to spread to all corners of the world. Due to this, humans span a variety of cultures and morals, taking in customs and traditions from their neighbors and adapting them to human life.
 
@@ -1063,11 +1065,11 @@ Out of all the common races, humans are by far the most numerous. While humans a
 - **Attribute Bonuses:** +1 to Any
 - **Lifespan:** 70 years
 
-##### Adaptable
+#### Adaptable
 
 You choose 3 bonuses when creating your character instead of 2.
 
-#### Sylvan
+### Sylvan
 
 Also known as forestfolk, sylvan make their homes in the gentle forests, meadows, and hills of the world. Like the elves, Sylvan have an affinity with nature, preferring to live in small, rural villages instead of big cities. Naturally cheerful, sylvan recover quickly, be it from a night of boisterous reveling or from the dangers of the forest.
 
@@ -1079,11 +1081,11 @@ Sylvan are short compared to most, standing 3 and a half to 4 feet tall. Sylvan 
 - **Attribute Bonuses:** +1 Intelligence, +1 Charisma, -1 Strength
 - **Lifespan:** 120 years
 
-##### Forestfolk
+#### Forestfolk
 
 During a short or long rest you restore 1 extra wound and mana. This feature has no effect if you've taken fire damage since your last rest.
 
-#### Half-Elf
+### Half-Elf
 
 Mistaken for an elf among humans, and a human among elves. Half elves often live in human settlements as many elves do not accept half elves as true elves. Their long lives make it difficult to bond with other humans who see half elves as nonchalant and distant. Regardless their elven grace and human tenacity make them excellent hunters, a welcome trait in many of the human settlements of the world.
 
@@ -1095,14 +1097,14 @@ Half elves are similar in height to humans, averaging between 5 and 6 feet. Like
 - **Attribute Bonuses:** +1 to Dexterity
 - **Lifespan:** 200 years
 
-##### Innate Reflexes
+#### Innate Reflexes
 
 You have expertise in an attribute save.
 
 
-### Dwarf
+## Dwarf
 
-#### Hill Dwarf
+### Hill Dwarf
 
 Making their homes above ground in the hills around mountains, hill dwarves are experts at harnessing the power of nature. Building complex contraptions, hill dwarves construct water and wind mills to power their forges. They are meticulous crafters and skilled tradesdwarves. It is not unheard of for hill dwarves to travel far from their homes to study the craftsmanship of other races. Because of this hill dwarves are welcoming of most races, only shunning those they believe lack artistic talent, such as goblins or orcs.
 
@@ -1114,11 +1116,11 @@ Hill dwarves are the shortest of the dwarves, being a few inches shorter than mo
 - **Attribute Bonuses:** +1 Willpower, +1 Stamina, -1 Dexterity
 - **Lifespan:** 250 years
 
-##### Craftsdwarf
+#### Craftsdwarf
 
 During a long rest you may enhance a piece of mundane gear, giving it +1 until the next day. At level 10 you can enhance two pieces of gear.
 
-#### Mountain Dwarf
+### Mountain Dwarf
 
 Among all the dwarves, none are as stout or hearty as mountain dwarves. Carving grand kingdoms under the mountains, they spend most of their lives below ground. Mountain dwarves uphold their traditions with an almost zealous fervor, believing that their traditions are what make them dwarves rather than their birth. Because of this dwarves are often staunch followers of the law, putting their clan above themselves.
 
@@ -1130,13 +1132,13 @@ While dwarves are shorter than humans, standing 4 to 5 feet tall, they are just 
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Dexterity
 - **Lifespan:** 250 years
 
-##### Hardy
+#### Hardy
 
 Your max wounds is increased by 1 and you recover 1 extra wound during a long rest.
 
-### Lizardmen
+## Lizardmen
 
-#### Lizardfolk
+### Lizardfolk
 
 Lizardfolk live in the deadlier swamps and jungles of the world, forming small clans and tribes for survival. Most lizardfolk are unable to grasp the morals and customs of traditional civilization, their harsh environment giving them a singular focus: to survive. Lizardfolk are well suited to this life as they make deadly warriors, just as dangerous unarmed as they are with a spear or axe. While lizardfolk aren't skilled artisans, they are resourceful, using the bones and hides of their prey to fashion weapons and armor.
 
@@ -1148,11 +1150,11 @@ Lizardfolk tower over others, with some standing 7 and a half feet tall. With th
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Intelligence
 - **Lifespan:** 60 years
 
-##### Claw and Fang
+#### Claw and Fang
 
 You have 1 proficiency with unarmed weapons and deal an extra wound die when making unarmed attacks.
 
-#### Drake
+### Drake
 
 While lacking the strength of their lizardfolk cousins, drakes use their cunning to survive the deadly environments they call home. Drakes are canny crafters, creating simple yet ingenious creations to aid in their survival. Drakes are almost singularly focused on survival, because of this they rarely experience fear or courage. Drakes rarely leave their lands, but can occasionally seek out allies from other races. When they do they are often confused by their companions actions, seemingly unable to understand the morals and behavior of civilized races.
 
@@ -1164,7 +1166,7 @@ Drakes are smaller than lizardfolk, standing 5 and a half feet at most. Their bo
 - **Attribute Bonus:** +1 Dexterity, +1 Willpower, -1 Charisma
 - **Lifespan:** 70 years
 
-##### Limited Flight
+#### Limited Flight
 
 You can maintain flight for a limited time. On your turn, you may take flight using your movement. If you fly this way you must touch the ground by the end of your next turn or plummet from the sky. You cannot fly again until the start of your next turn.
 
@@ -6174,7 +6176,7 @@ Some abilities leave lasting wounds. If an ability inflicts a random lesser or g
 
 #### Lesser Wounds
 Roll 4 bad dice, adding the successes.
-  
+
 | Roll | Wound | Effect |
 |:----|:----:|----:|
 | -8 | Bleeding | All blank wound die rolled against you are rerolled. |
@@ -6189,7 +6191,7 @@ Roll 4 bad dice, adding the successes.
 
 #### Greater Wounds
 Roll 4 bad dice, adding the successes.
-  
+
 | Roll | Wound | Effect |
 |:----|:----:|----:|
 | -8 | Deadly Infection | Your max wounds are reduced by 1. At the end of each long rest its are reduced by 1 again. |
@@ -6237,7 +6239,7 @@ To search for ingredients make an average difficulty survival check, increasing 
 | Desert | Scorpion Venom | Scorchroot | Scorchroot | Dragonflower | Dragonflower | Healroot | Healroot |
 | Swamp | Toxic Frog | Nightshade | Poison Nettle | Poison Nettle | Cleansebloom | Cleansebloom | Healroot |
 | Lake | Brainfish | Cleansebloom | Skillwheat | Skillwheat | Healroot | Healroot | Healroot |
-  
+
 #### Potions
 Each potion requires a number of ingredients and has their own difficulty dice. When brewing a potion make an apothecary roll against the potions difficulty dice. On success you brew the chosen potion, losing the ingredients on failure.
 
@@ -6351,24 +6353,24 @@ On hit inflicts poison 3 for 10 minutes.
 
 ### Enchanters Tools
 During a long rest you may attempt to enchant a piece of mundane gear. Enchantments lasts for 3 days and counts as magical equipment for the duration. After the enchantment ends the gear returns to normal. To enchant a piece of gear you must have mana and enchanting supplies available. Make an enchanting roll, adding the difficulty dice for the enchantment. On success you make the enchantment, otherwise losing the supplies on failure. Most cities and towns will sell enchanting supplies.
-  
+
 You may spend additional mana to improve your roll, adding an enhanced die for every 2 mana spent. Ammunition enchantments are permanent, lasting until the ammunition is used.
-  
+
   ##### Enchantments
 |Name | &nbsp;&nbsp;Mana&nbsp;&nbsp; | &nbsp;&nbsp;Supplies&nbsp;&nbsp; | Dice | Effect |
 |:-----|:-----:|:-----:|:-----:|-------------:|
-| _Weapon_ | | | | | 
+| _Weapon_ | | | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Skillful | 1 | 1 |2B | You gain 1 proficiency with this weapon type. |
 | &nbsp;&nbsp;&nbsp;&nbsp;Brutality | 2 | 3 |2B/1T | When you land a critical with this weapon, add an extra wound die to the damage. |
 | &nbsp;&nbsp;&nbsp;&nbsp;Hexblade | 2 | 3 |2B/1T | When you land a critical with this weapon the target gains hex 1 for 1 minute. |
 | &nbsp;&nbsp;&nbsp;&nbsp;Quickened | 4 | 3 |1B/2T | The first attack or maneuver made with this weapon each turn costs 1 less AP. |
-| _Armor_ | | | | | 
+| _Armor_ | | | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Durable | 2 | 2 |2B/1T | If a spell or effect would damage this armor, roll a wound die. On a blank the armor takes no damage instead. |
 | &nbsp;&nbsp;&nbsp;&nbsp;Lightened | 3 | 3 |2B/1T | Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalties. |
-| _Shield_ | | | | | 
+| _Shield_ | | | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Lesser Block | 3 | 3 |2B/1T | You may reroll 1 defense die when making defense rolls. |
 | &nbsp;&nbsp;&nbsp;&nbsp;Greater Block | 6 | 5 |1B/3T | You may reroll 2 defense dice when making defense rolls. |
-| _Ammunition_ | | | | | 
+| _Ammunition_ | | | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Staggering | 1 | 1 |2B | On a critical the creature is staggered until the start of your next turn. Makes 3 ammunition |
 | &nbsp;&nbsp;&nbsp;&nbsp;Slowing | 1 | 1 |2B | On a critical the creature gains slow 1 until the start of your next turn. Makes 3 ammunition |
 | &nbsp;&nbsp;&nbsp;&nbsp;Homing | 2 | 2 |1B/1T | Creates 3 +1 magical ammunition. |
