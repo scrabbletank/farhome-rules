@@ -86,6 +86,7 @@
 - [Arcane](#Arcane)
 - [Curse](#Curse)
 - [Divine](#Divine)
+- [Druidic](#Druidic)
 
 [Maneuvers](#Maneuvers-1)
 
@@ -310,7 +311,7 @@ Each point of Stamina increases your max wounds by 1.
 Each point of Intelligence improves your arcane spellcasting ability.
 
 #### Willpower
-Each point of Willpower improves your curse spellcasting ability.
+Each point of Willpower improves your curse and druidic spellcasting ability.
 
 #### Charisma
 Each point of Charisma improves your divine spellcasting ability.
@@ -379,7 +380,7 @@ Every attribute has an associated attribute save. Attribute saves are a measure 
 
 ### Spell Schools
 
-There are 3 schools of magic: arcane, curse, and divine. Each school uses its own proficiency score and you must be trained in the spell school before you can add to them. Training can come from background feats, basic feats, or during character creation.
+There are 4 schools of magic: arcane, curse, divine, and druidic. Each school uses its own proficiency score and you must be trained in the spell school before you can add to them. Training can come from background feats, basic feats, or during character creation.
 
 ### Weapons
 
@@ -5470,6 +5471,10 @@ You resonate particularly well with magic items. You may attune to 4 items at on
 
 #### Battle Mage
 Once per turn, when you cast a cantrip or 1st level spell your next basic attack costs 2 less AP. Alternatively if you make a basic attack your next cantrip or 1st level spell costs 2 less AP, with a minimum of 1. The spell level increases to 2nd at 7th level, and 3rd at 14th level, and 4th at 21th level.
+
+#### Druid Magic
+
+You have training in druid spells.
 
 #### Dual-Wield Expert
 You have no penalties from dual wielding. While dual wielding you count as holding a shield when taking the Defend action.
