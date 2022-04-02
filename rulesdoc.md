@@ -4709,6 +4709,42 @@ You channel your magic to become a divine avatar. Make a spellcasting roll addin
 
 Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast at 10th level.
 
+### Druidic
+
+### Cantrips
+
+#### Moon Ray
+
+### First Level
+
+#### Summon Steed
+
+#### Forbid Metal
+
+### Second Level
+
+### Third Level
+
+### Fourth Level
+
+### Fifth Level
+
+#### Alter Memory
+
+### Sixth Level
+
+### Seventh Level
+
+### Eighth Level
+
+#### Forbiddance
+
+### Ninth Level
+
+#### Full Transformation
+
+
+
 ## Maneuvers
 
 
