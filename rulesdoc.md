@@ -1173,11 +1173,26 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 
 ## Automaton
 
+### Ancient Automaton
+
+Created in ages long past by ancient civilizations that have become lost history, the ancient automatons were a pinnacle of magical technology that have yet to be rivaled. Such creations are sought after with greedy eyes for research and to unlock the mysteries of the ancient past. Many ancient automatons have withstood the test of time and maintained memories of their time before going dormant, entering a preservation state in order to slow the degradation of time. Ancient automatons are typically unique in their creation, formed with a multitude of interesting earth metals and alloys.
+
+Ancient automatons were typically built with a spring loaded omni-directional rolling ball for mobility and the ability to morph their limbs into various shapes.  Due to this ability to morph and their magical adaptability, ancient automatons can naturally attune to a piece of magical gear that they are holding.
+
+- **Starting Wounds:** 3
+- **Move/Sprint:** 4/4
+- **Attribute Bonuses:** +1 Strength, +1 Dexterity, -1 Willpower
+- **Lifespan:** Unknown
+
+#### Magical Resonance
+
+A single magical weapon that you attune to does not count as occupying an attunement slot.  Magical wands and staffs count as magical weapons.
+
 ### Modern Automaton
 
-Automatons are both a great mystery and tightly kept secret. There have been rumors and findings of ancient civilizations creating sentient machines that can move and interact with the world as well as other creatures of the realm. Very few have survived the test of time but modern artificers have taken to re-creating these ancient marvels. While some see the automatons as little more than a very advanced magic item, recent times have shown that they have growth potential on par with any other sentient creature.  Some accept this revelation but it is also met with an equal amount of fear.  The key to how they attained sentience is generally unknown.
+Automatons are both a great mystery and tightly kept secret. There have been rumors and findings of ancient civilizations creating sentient machines that can move and interact with the world as well as other creatures of the realm. Very few have survived the test of time but modern artificers have taken to re-creating these ancient marvels. While some see the automatons as little more than a very advanced magic item, recent times have shown that they have growth potential on par with any other sentient creature. Some accept this revelation but it is also met with an equal amount of fear. The key to how they attained sentience is generally unknown.
 
-Automatons are built in a wide array of configurations.  Some are large bi-pedal entities that resemble humanoid creatures.  Others have been seen to use rotating balls instead of legs and weapons instead of arms.
+Modern automatons are built in a wide array of configurations but they are typically large bi-pedal entities that resemble humanoid creatures.
 
 - **Starting Wounds:** 3
 - **Move/Sprint:** 3/4
@@ -1186,7 +1201,7 @@ Automatons are built in a wide array of configurations.  Some are large bi-pedal
 
 #### Integrated Armor
 
-You gain a 1 superior defense die to all defense rolls.
+You gain 1 defense die to all defense rolls.
 
 # Optional Rules
 
