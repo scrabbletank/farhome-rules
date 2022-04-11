@@ -46,6 +46,27 @@ You gain 1 defense die to all defense rolls.
 
 # Spells
 
+## Curse
+
+#### 5th Level
+
+#### Alter Memories
+*5th level*
+
+- **Casting Time:** 9 AP
+- **Range:** touch
+- **Duration:** permanent
+
+Alter the memories of a creature that you touch. Make a spellcasting roll against the targets willpower save. On success, you can speak and manipulate 1 minute of memories that occurred within the last hour.
+
+When cast above 5th level, the duration of the memory and age of the memory is increase according the following list.
+
+- **6th level:** 5 minute duration, 4 hours old.
+- **7th level:** 10 minute duration, 24 hours old.
+- **8th level:** 1 hour duration, 1 week old.
+- **9th level:** 1 day duration, 1 year old.
+- **10th level:** 1 week duration, 25 years old.
+
 ## Druidic
 
 ### Cantrips
@@ -76,14 +97,88 @@ The plant lasts for 1 minute after which it withers or returns to its original s
 
 Add a wound die for every level cast above cantrip.
 
+#### Shape Wood
+*Cantrip*
+
+- **Casting Time:** 6 AP
+- **Range:** touch
+- **Duration:** permanent
+
+Causes a piece of wood no heavier than 5 pounds to be shaped according to your thoughts.
+
+The restriction on the wood's weight is increased by 5 pounds for every level cast above cantrip.
+
 ### First Level
 
 #### Summon Steed
 *1st level*
 
-Causes a natural spectral steed to form in an area that you can see.
+- **Casting Time:** 1 minute
+- **Range:** 10
+- **Duration:** 10 hours
+
+Causes a spectral steed to form in an area that you can see. The steed may be a horse or other non-violent creature of large size or smaller.
+
+Add another steed summoned for every level cast above 1st.
+
+#### Javelin
+*1st level*
+
+- **Casting Time:** 4 AP
+- **Range:** 6
+- **Duration:** instant
+- **Damage Type:** Piercing
+
+Magically shape a small piece of wood into a javelin. The javelin will then be thrown with wind magic at the chosen target. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound die in piercing damage.
+
+Add 6 tiles of range and another wound die for every level cast above 1st.
+
+#### Tremor Sense
+*1st level*
+
+- **Casting Time:** 1 minute
+- **Range:** 10
+- **Duration:** 10 minutes, concentration
+
+Attune to your surroundings and magically sense small reverberations in the ground. You can sense any creatures moving on the ground within 10 tiles. You know their approximate distance and direction. If a creature is employing stealth, then they must make a stealth check against your spellcasting roll.
+
+Increase the range by 10 tiles for every level cast above 1st.
+
+#### Bark Armor
+*1st level*
+
+- **Casting Time:** 8 AP
+- **Range:** self
+- **Duration:** 10 minutes, concentration
+
+Form a light layer of bark around your body, creating an extra layer of protection. Make a spellcasting roll against. You gain an extra defense die for every crit.
+
+Add an additional creature for every level above 1st.
 
 ### Second Level
+
+#### Stone Spear
+*2nd level*
+
+- **Casting Time:** 6 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** Piercing
+
+Cause a spear of stone to emerge from a nearby stone surface within range that targets a single creature within 10ft of the emergence point. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound and 1 wound die in piercing damage.
+
+Add an extra wound and wound die for every level cast above 2nd.
+
+### Animal Communication
+*2nd level*
+
+- **Casting Time:** 1 minute
+- **Range:** self
+- **Duration:** 10 minutes, concentration
+
+Speak with the creatures of the world. Make a spellcasting roll against a creatures intelligence save. On a success, you can speak with that creature and ask it questions or to take action. The creature is not compelled to answer or act.
+
+For every level above 2nd, it adds 10 minutes to the duration.
 
 ### Third Level
 
@@ -94,9 +189,34 @@ Causes a natural spectral steed to form in an area that you can see.
 - **Range:** 6
 - **Duration:** 5 minutes, concentration
 
-Causes bright pale moonlight to emanate from the caster.  All creatures within range must make a dexterity saving throw to avoid the light.  On failure, they cast a spectral shadow emitting from their body while within the light.  Any attack roll against an affected creature or object has advantage if the attacker can see the spectral light emitted from a creature.
+Causes bright pale moonlight to emanate from the caster. All creatures within range must make a dexterity saving throw to avoid the light  On failure, those creatures cast a spectral shadow emitting from their body while within the light.  Any attack roll against an affected creature or object has advantage if the attacker can see the spectral light emitted from a creature.
+
+Increases the range by 2 tiles for every level cast above 3rd.
+
+#### Control Water
+*3rd level*
+
+- **Casting Time:** 9 AP
+- **Range:** 10
+- **Duration:** 2 minutes, concentration
+
+Control water and move it to your will. Make a spellcasting roll, adding a terrible die for every 10 cubic feet of water that you wish to move. On success, you can will that amount of water to move.  The water cannot defy gravity, but it can prevent the movement of water that is not being controlled.
+
+Increase the amount of water controlled by 10 cubic feet of water per terrible die for every level above 3rd.
 
 ### Fourth Level
+
+#### Stone Pillar
+*4th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 4
+- **Duration:** permanent
+- **Damage Type:** Bludgeoning
+
+Causes a pillar that's 5ft in diameter to emerge from a chosen stone surface. The pillar moves outward from the surface 30ft over the course of 20 seconds. Any creature that is on the pillar when it starts to rise can make a dexterity save against your spellcasting roll to get off of the pillar. If the pillar pushes into another surface, any create that is crushed takes 2 wounds and 2 wound dice in damage. The creature is then restrained and must succeed on an athletics check contested with your spellcasting roll.
+
+The pillar can move another 30ft for every level cast above 4th.  The pillar still moves at the same speed, however.
 
 #### Corrosive Spray
 *4th level*
@@ -105,21 +225,11 @@ Causes bright pale moonlight to emanate from the caster.  All creatures within r
 - **Range:** 3
 - **Duration:** instant
 
-You form and spray a highly acidic substance in a cone.  The acid is a mild irritant to organic matter but is highly corrosive to metals.  All creatures within the cone must make a dexterity saving throw or have their armor and weapons damaged on crit.  Weapons broken this way provide 1 less attack die until repaired, starting with the strongest die.  Armor broken this way provides 1 less defense die until repaired, starting with the strongest die.  This effect can be repeated.
+You form and spray a highly acidic substance in a cone. The acid is a mild irritant to organic matter but is highly corrosive to metals. All creatures within the cone must make a dexterity saving throw or have their armor and weapons damaged on crit. Weapons broken this way provide 1 less attack die until repaired, starting with the strongest die. Armor broken this way provides 1 less defense die until repaired, starting with the strongest die. This effect can be repeated.
 
 Add an enhanced die to the roll for every level cast about 2nd.
 
 ### Fifth Level
-
-#### Alter Memory
-*5th level*
-
-Manipulate the memories of a creature that you can touch.
-
-#### Lore Whispers
-*5th level*
-
-Understand the nature of an object and divine some it's embedded lore.
 
 #### Nature's Warren
 *5th level*
@@ -138,6 +248,17 @@ For every level above 5th, the travel in the warren is equivalent to an extra ho
 
 ### Eighth Level
 
+#### Summon Storm
+*8th level*
+
+- **Casting Time:** 1 minute
+- **Range:** 1
+- **Duration:** 1 hour
+
+Summons a powerful storm with rain and powerful winds in an outdoor 200 by 200 tile area. Several tornados are formed in this area and move in random directions at a speed of 5ft/sec. Creatures caught in a tornado must make a strength save against the casters spellcasting roll or be caught in the tornado. When a creature is caught in the tornado, they move with it and take 2 wounds in bludgeoning damage at the end of every turn.
+
+For every level above 8th, the tornados gain another 5ft/sec of movement and an extra 2 wounds in damage.
+
 #### Forbiddance
 *8th level*
 
@@ -145,7 +266,7 @@ For every level above 5th, the travel in the warren is equivalent to an extra ho
 - **Range:** touch
 - **Duration:** permanent until dispelled
 
-Force a creature to be unable to speak or otherwise describe a place, object, or group of people.  The creature affected by the spell must be willing or make a willpower saving throw to resist the spell.  The caster will know if the spell was resisted.
+Force a creature to be unable to speak or otherwise describe a place, object, or group of people. The creature affected by the spell must be willing or make a willpower saving throw to resist the spell. The caster will know if the spell was resisted.
 
 For every level above 8th, you make it harder to break the spell with a dispel magic.
 
@@ -154,12 +275,24 @@ For every level above 8th, you make it harder to break the spell with a dispel m
 #### Full Transformation
 *9th level*
 
-You transform into some really awesome creature.
+- **Casting Time:** 11 AP
+- **Range:** self
+- **Duration:** 10 minutes, concentration
+
+You transform into a creature of size huge or smaller. You take on the physical characteristics of the creature as well as any inherent abilities. Make a spellcasting roll, adding 1 terrible die for every 8 wounds that the creature has. On success, you transform into that creature.
+
+When cast above 9th level, you add 1 terrible die for every 12 wounds that the creature has.
 
 #### Seal
 *9th level*
 
-You seal something away for a very long period of time.
+- **Casting Time:** 11 AP
+- **Range:** self
+- **Duration:** 1 hour, concentration
+
+You create a powerful temporary seal around a 25ft cube. Make a spellcasting roll, add a terrible die for every 50 wounds of the seal. On success, the strength of the seal barrier is equal to that number of wounds.
+
+When ritual cast for 1 hour at 10th level, the barrier can encompass an entire area encompassed by specially placed seal stones. The barrier strength is also increased to 500 wounds per terrible die and lasts until dispelled. Objects or creatures within may be suspended in time depending on the stone arrangement.
 
 # Feats
 
