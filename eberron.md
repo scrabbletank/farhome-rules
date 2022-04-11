@@ -236,13 +236,35 @@ Add an enhanced die to the roll for every level cast about 2nd.
 
 - **Casting Time:** 10 AP
 - **Range:** 5
-- **Duration:** 1 minutes, concentration
+- **Duration:** 1 minute, concentration
 
 Force open a rift leading to a natural warren, a space between realms. You can hold the warren open for one minute, after which the gate closes. While inside the warren, every hour of travel is equivalent to 4 hours of travel in a realm. You may end the spell at any time, opening a gate back to the realm this spell was cast in.
 
 For every level above 5th, the travel in the warren is equivalent to an extra hour of travel in a realm.
 
 ### Sixth Level
+
+#### Lunar Eclipse
+*6th level*
+
+- **Casting Time:** 10 AP
+- **Range:** 10
+- **Duration:** 5 minutes, concentration
+
+Channel the power of concentrated moonlight to bridge the gap to the ethereal plane. Target a 4x4 tile circle. All creatures caught within must make a stamina save against the casters spellcasting roll. Creatures may choose to fail. On failure, those creature enter the ethereal plane. While ethereal, that creature gains resistance 3 to physical and vulnerable 1 to elemental damage. You can move through creatures, objects, and 1 tile thick walls. While ethereal, you cannot attack but can cast spells.
+
+The duration increases by 1 minutes for every level cast above 6th.
+
+#### Solar Eclipse
+*6th level*
+
+- **Casting Time:** 10 AP
+- **Range:** 10
+- **Duration:** 5 minutes, concentration
+
+Channel the power of concentrated sunlight to create a burning ring of protection. Target a 7x7 tile circle. All creatures that enter the ring for the first time suffer must make a stamina save against the casters spellcasting roll. On failure, they take 3 wounds in fire damage. Additionally, any creature within the ring adds 1 crit to all rolls.
+
+Add an extra wound in fire damage when cast above 6th level. If this spell is cast, at 9th level or higher, then creatures within the ring add 2 crits to all rolls.
 
 ### Seventh Level
 
