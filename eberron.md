@@ -23,7 +23,7 @@ Created in ages long past by ancient civilizations that have become lost history
 Ancient automatons were typically built with a spring loaded omni-directional rolling ball for mobility and the ability to morph their limbs into various shapes.  Due to this ability to morph and their magical adaptability, ancient automatons can naturally attune to a piece of magical gear that they are holding.
 
 - **Starting Wounds:** 3
-- **Move/Sprint:** 2/4
+- **Move/Sprint:** 2/3
 - **Attribute Bonuses:** +1 Strength, +1 Dexterity, -1 Willpower
 - **Lifespan:** Unknown
 
@@ -38,7 +38,7 @@ Automatons are both a great mystery and tightly kept secret. There have been rum
 Modern automatons are built in a wide array of configurations but they are typically large bi-pedal entities that resemble humanoid creatures.
 
 - **Starting Wounds:** 3
-- **Move/Sprint:** 3/4
+- **Move/Sprint:** 3/2
 - **Attribute Bonuses:** +2 Stamina, -1 Charisma
 - **Lifespan:** 150 years
 
@@ -98,10 +98,11 @@ When cast at 9th level or above, your range spans the entire plane.
 - **Casting Time:** 5 AP, bladed weapon
 - **Range:** self
 - **Duration:** instant
+- **Damage Type:** physical
 
 On casting you take a wound in unblockable damage. Your weapon becomes empowered, allowing you to use your spellcasting roll in place of your attack roll and giving it Reach 1. Your next attack hits every creature in your zone of control, dealing 1 wound and 2 wound dice in slashing damage.
 
-For each level cast above 2nd, add a wound and a wound die in slashing damage.
+For each level cast above 2nd, add a wound die in slashing damage.
 When cast at 6th level or above, the weapon gains Reach 2.
 
 ### Third Level
@@ -117,18 +118,17 @@ Cast against 2 terrible dice, targeting an unconscious creature. The creature ri
 
 For each level cast above 3rd, add an enhanced die.
 
-Reach increases by 1 and you add a white die every level.
-
 #### Ritual of Healing Blood
 *3rd Level*
 
 - **Casting Time:** 9 AP
 - **Range:** 3
 - **Duration:** instant.
+- **Damage Type:** death
 
-Pull the life force from a creature to heal another. Target up to 3 injured and living creatures. Make a spellcasting roll adding a bad die for each creature targeted past the first. Creatures make a stamina save against this attack, taking 2 wound dice in death damage on fail. A target creature in range heals for 1 + half the damage dealt.
+Pull the life force from a creature to heal another. Target up to 5 injured and living creatures. Make a spellcasting roll adding a bad die for each creature targeted past the first. Creatures make a stamina save against this attack, taking 2 wound dice in death damage on fail. A target creature in range heals for 1 + half the damage dealt.
 
-For each level cast above 3rd, add another 2 wound die in damage.
+For each level cast above 3rd, add an enhanced die
 
 ## Curse
 
@@ -137,7 +137,7 @@ For each level cast above 3rd, add another 2 wound die in damage.
 #### Alter Memories
 *5th level*
 
-- **Casting Time:** 9 AP
+- **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** permanent
 
@@ -188,9 +188,9 @@ Add a wound die for every level cast above cantrip.
 - **Range:** touch
 - **Duration:** permanent
 
-Causes a piece of wood no heavier than 5 pounds to be shaped according to your thoughts.
+Causes a piece of wood no heavier than 40 pounds to be shaped according to your thoughts.
 
-The restriction on the wood's weight is increased by 5 pounds for every level cast above cantrip.
+The restriction on the wood's weight is doubled for every level cast above cantrip.
 
 ### First Level
 
@@ -201,7 +201,7 @@ The restriction on the wood's weight is increased by 5 pounds for every level ca
 - **Range:** 10
 - **Duration:** 10 hours
 
-Causes a spectral steed to form in an area that you can see. The steed may be a horse or other non-violent creature of large size or smaller.
+Causes a spectral steed to form in an area that you can see. The steed may be a horse or other non-violent creature of large size or smaller. Make a spellcasting roll against 2 bad dice. On success the steed is summoned.
 
 Add another steed summoned for every level cast above 1st.
 
@@ -213,7 +213,7 @@ Add another steed summoned for every level cast above 1st.
 - **Duration:** instant
 - **Damage Type:** Piercing
 
-Magically shape a small piece of wood into a javelin. The javelin will then be thrown with wind magic at the chosen target. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound and 1 wound die in piercing damage.
+Magically shape a small piece of wood into a javelin. The javelin will then be thrown with wind magic at the chosen target. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound, adding a wound die on a critical.
 
 Add 6 tiles of range and another wound die for every level cast above 1st.
 
@@ -235,7 +235,7 @@ Increase the range by 10 tiles for every level cast above 1st.
 - **Range:** self
 - **Duration:** 10 minutes, concentration
 
-Form a light layer of bark around your body, creating an extra layer of protection. Make a spellcasting roll against. You gain an extra defense die for every crit.
+Form a light layer of bark around your body, creating an extra layer of protection. Make a spellcasting roll against 2 bad dice. On success you gain 1 defense die, improving a defense to a superior defense for every critical rolled.
 
 Add an additional creature for every level above 1st.
 
@@ -248,7 +248,7 @@ Add an additional creature for every level above 1st.
 - **Range:** self
 - **Duration:** 10 minutes, concentration
 
-Speak with the creatures of the world. Make a spellcasting roll against a creatures intelligence save. On a success, you can speak with that creature and ask it questions or to take action. The creature is not compelled to answer or act.
+Speak with the creatures of the world. Make a spellcasting roll against a creatures intelligence save. On success, you can speak with that creature and ask it questions or to take action. The creature is not compelled to answer or act.
 
 For every level above 2nd, it adds 10 minutes to the duration.
 
@@ -399,6 +399,8 @@ You have trained your body and mind for battle, learning to ignore the pain and 
 While in the berserker form:
 - You cannot cast spells
 - Re-roll 1 wound die for each of your attacks
+
+You start with 1 proficiency in Athletics and Intimidation, and 2 proficiency in a weapon type of your choice. You have a weapon matching your chosen proficiency.
 
 ### Journeyman
 
