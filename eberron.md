@@ -23,7 +23,7 @@ Created in ages long past by ancient civilizations that have become lost history
 Ancient automatons were typically built with a spring loaded omni-directional rolling ball for mobility and the ability to morph their limbs into various shapes.  Due to this ability to morph and their magical adaptability, ancient automatons can naturally attune to a piece of magical gear that they are holding.
 
 - **Starting Wounds:** 3
-- **Move/Sprint:** 2/3
+- **Move/Sprint:** 3/2
 - **Attribute Bonuses:** +1 Strength, +1 Dexterity, -1 Willpower
 - **Lifespan:** Unknown
 
@@ -84,7 +84,16 @@ For each level cast above cantrip, the range increases by 2 tiles.
 - **Range:** 10 miles
 - **Duration:** 1 hour
 
-You can feel the life force of a creature with whom you have acquired their blood. Target a creature with whom you have their blood. This spell automatically succeeds. You know the general direction of the creature within the range of the spell. You will feel nothing if the creature is dead or outside the range of the spell.
+You can feel the life force of a creature with whom you have acquired their blood. Target a creature with whom you have their blood. Make a spellcasting roll against a bad die. You gain an idea of their location based on the number of successes. You will feel nothing if the creature is dead or outside the range of the spell.
+
+##### Accuracy
+| Successes | Result |
+|:----|-------------:|
+| 0  | You know that the creature is within the range of the spell |
+| 1-2 | You know the general direction to the creature within 30 degrees, and their distance to within half the range of the spell. |
+| 3-4 | You know the general direction to the creature within 15 degrees, and their distance to within a quarter the range of the spell. |
+| 5-6 | You know the direction to the creature within 5 degrees, and their distance to within 2 miles. |
+| 7+ | You know the exact direction to the creature, and their distance to within 500 ft. |
 
 When cast between 2nd and 4th level, add 10 miles to the range.
 When cast between 5th and 8th level, add 100 miles to the range.
@@ -95,10 +104,10 @@ When cast at 9th level or above, your range spans the entire plane.
 #### Bloodied Blade
 *2nd level*
 
-- **Casting Time:** 5 AP, bladed weapon
+- **Casting Time:** 3 AP, bladed weapon
 - **Range:** self
-- **Duration:** instant
-- **Damage Type:** physical
+- **Duration:** 1 minute
+- **Damage Type:** slashing
 
 On casting you take a wound in unblockable damage. Your weapon becomes empowered, allowing you to use your spellcasting roll in place of your attack roll and giving it Reach 1. Your next attack hits every creature in your zone of control, dealing 1 wound and 2 wound dice in slashing damage.
 
@@ -114,7 +123,7 @@ When cast at 6th level or above, the weapon gains Reach 2.
 - **Range:** self
 - **Duration:** 10 minutes.
 
-Cast against 2 terrible dice, targeting an unconscious creature. The creature rises in a stupor and are no longer incapacitated. While in this state they keep their temporary wounds and continue to roll death saving throws. They cannot take any action except movement and attacks, and any turn they do not take damage, are attacked, or attack another creature they automatically fail their death saving throw. The spell ends if they regain enough wounds to regain consciousness.
+Cast against 2 terrible dice, targeting an unconscious creature. The creature rises in a stupor and are no longer incapacitated. While in this state they keep their temporary wounds and continue to roll death saving throws. They cannot take any action except movement and attacks, and any turn they do not take damage, are attacked, or attack another creature they automatically fail their death saving throw. While under this effect they ignore the first wound of damage they take from attacks each round. The spell ends if they regain enough wounds to regain consciousness.
 
 For each level cast above 3rd, add an enhanced die.
 
@@ -126,7 +135,7 @@ For each level cast above 3rd, add an enhanced die.
 - **Duration:** instant.
 - **Damage Type:** death
 
-Pull the life force from a creature to heal another. Target up to 5 injured and living creatures. Make a spellcasting roll adding a bad die for each creature targeted past the first. Creatures make a stamina save against this attack, taking 2 wound dice in death damage on fail. A target creature in range heals for 1 + half the damage dealt.
+Pull the life force from a creature to heal another. Target up to 5 injured and living creatures. Make a spellcasting roll adding a terrible die for each creature targeted past the first. Creatures make a stamina save against this attack, taking 2 wound dice in death damage on fail. A target creature in range heals for 1 + half the damage dealt.
 
 For each level cast above 3rd, add an enhanced die
 
