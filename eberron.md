@@ -404,7 +404,19 @@ When ritual cast for 1 hour at 10th level, the barrier can encompass an entire a
 
 #### Berserker
 
-You have trained your body and mind for battle, learning to ignore the pain and push through your enemies.  Twice per day you can push past your limits and go berserk.  While in the berserker form, you can re-roll 1 wound die from every attack roll.
+You have trained your body and mind for battle, learning to ignore the pain and push through your enemies. Twice per day you can push past your limits and go berserk.
+
+While in the berserker form:
+- You cannot cast spells
+- Re-roll 1 wound die for each of your attacks
+
+### Journeyman
+
+#### Berserker Resilience
+
+*Requires Berserker background, 6th level*
+
+While in the berserker form, you can re-roll 1 wound die from every attack roll against you
 
 ### Basic
 
