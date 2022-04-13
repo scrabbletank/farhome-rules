@@ -2,13 +2,15 @@
 
 ## Table of Contents
 
-[Races](#Races)
+[Races](#races)
 
-[Spells](#Spells)
-- [Druidic](#Druidic)
+[Spells](#spells)
+- [Blood](#blood)
+- [Druidic](#druidic)
 
-[Feats](#Feats)
-- [Backgrounds](#Backgrounds)
+[Feats](#feats)
+- [Backgrounds](#backgrounds)
+- [Journeyman](#journeyman)
 
 # Races
 
@@ -21,7 +23,7 @@ Created in ages long past by ancient civilizations that have become lost history
 Ancient automatons were typically built with a spring loaded omni-directional rolling ball for mobility and the ability to morph their limbs into various shapes.  Due to this ability to morph and their magical adaptability, ancient automatons can naturally attune to a piece of magical gear that they are holding.
 
 - **Starting Wounds:** 3
-- **Move/Sprint:** 4/4
+- **Move/Sprint:** 3/2
 - **Attribute Bonuses:** +1 Strength, +1 Dexterity, -1 Willpower
 - **Lifespan:** Unknown
 
@@ -36,7 +38,7 @@ Automatons are both a great mystery and tightly kept secret. There have been rum
 Modern automatons are built in a wide array of configurations but they are typically large bi-pedal entities that resemble humanoid creatures.
 
 - **Starting Wounds:** 3
-- **Move/Sprint:** 3/4
+- **Move/Sprint:** 3/2
 - **Attribute Bonuses:** +2 Stamina, -1 Charisma
 - **Lifespan:** 150 years
 
@@ -46,14 +48,105 @@ You gain 1 defense die to all defense rolls.
 
 # Spells
 
+Spells are split into 5 schools of magic: arcane, blood, curse, divine, and druidic. Each school handles a different type of magic and uses a different attribute for its spellcasting. Arcane spells use the elements and raw power to defeat their foes, using Intelligence for its attribute. Blood spells manipulate the essential living essence of creatures and uses Stamina. Curse spells inflict curses and maladies to their targets and uses Willpower. Divine spells center around healing and empowering targets and uses Charisma. Druidic spells utilize and control the essence of nature and uses Willpower.
+
+## Blood
+
+### Cantrip
+
+#### Rend
+*Cantrip*
+
+- **Casting Time:** 2 AP, reaction
+- **Range:** 3
+- **Duration:** instant
+
+As a reaction, when a creature takes physical damage in range you make a spellcasting roll against 2 bad dice. On success you may reroll all wound dice in the damage.
+
+For each level cast above cantrip, you may convert a wound to a wound die or a wound die to a wound.
+
+#### Siphon
+*Cantrip*
+
+- **Casting Time:** 2 AP, reaction
+- **Range:** 2
+- **Duration:** instant
+
+Target a wounded creature. That creature must make a stamina saving throw against your spellcasting modifier. On failure, you acquire the creatures blood.
+
+For each level cast above cantrip, the range increases by 2 tiles.
+
+### First Level
+
+#### Blood Tracking
+
+- **Casting Time:** 1 minute
+- **Range:** 10 miles
+- **Duration:** 1 hour
+
+You can feel the life force of a creature with whom you have acquired their blood. Target a creature with whom you have their blood. Make a spellcasting roll against a bad die. You gain an idea of their location based on the number of successes. You will feel nothing if the creature is dead or outside the range of the spell.
+
+##### Accuracy
+| Successes | Result |
+|:----|-------------:|
+| 0  | You know that the creature is within the range of the spell |
+| 1-2 | You know the general direction to the creature within 30 degrees, and their distance to within half the range of the spell. |
+| 3-4 | You know the general direction to the creature within 15 degrees, and their distance to within a quarter the range of the spell. |
+| 5-6 | You know the direction to the creature within 5 degrees, and their distance to within 2 miles. |
+| 7+ | You know the exact direction to the creature, and their distance to within 500 ft. |
+
+When cast between 2nd and 4th level, add 10 miles to the range.
+When cast between 5th and 8th level, add 100 miles to the range.
+When cast at 9th level or above, your range spans the entire plane.
+
+### Second Level
+
+#### Bloodied Blade
+*2nd level*
+
+- **Casting Time:** 3 AP, bladed weapon
+- **Range:** self
+- **Duration:** 1 minute
+- **Damage Type:** slashing
+
+On casting you take a wound in unblockable damage. Your weapon becomes empowered, allowing you to use your spellcasting roll in place of your attack roll and giving it Reach 1. Your next attack hits every creature in your zone of control, dealing 1 wound and 2 wound dice in slashing damage.
+
+For each level cast above 2nd, add a wound die in slashing damage.
+When cast at 6th level or above, the weapon gains Reach 2.
+
+### Third Level
+
+#### Shallow Grave
+*3rd level*
+
+- **Casting Time:** 6 AP
+- **Range:** self
+- **Duration:** 10 minutes.
+
+Cast against 2 terrible dice, targeting an unconscious creature. The creature rises in a stupor and are no longer incapacitated. While in this state they keep their temporary wounds and continue to roll death saving throws. They cannot take any action except movement and attacks, and any turn they do not take damage, are attacked, or attack another creature they automatically fail their death saving throw. While under this effect they ignore the first wound of damage they take from attacks each round. The spell ends if they regain enough wounds to regain consciousness.
+
+For each level cast above 3rd, add an enhanced die.
+
+#### Ritual of Healing Blood
+*3rd Level*
+
+- **Casting Time:** 9 AP
+- **Range:** 3
+- **Duration:** instant.
+- **Damage Type:** death
+
+Pull the life force from a creature to heal another. Target up to 5 injured and living creatures. Make a spellcasting roll adding a terrible die for each creature targeted past the first. Creatures make a stamina save against this attack, taking 2 wound dice in death damage on fail. A target creature in range heals for 1 + half the damage dealt.
+
+For each level cast above 3rd, add an enhanced die
+
 ## Curse
 
-#### 5th Level
+### 5th Level
 
 #### Alter Memories
 *5th level*
 
-- **Casting Time:** 9 AP
+- **Casting Time:** 1 minute
 - **Range:** touch
 - **Duration:** permanent
 
@@ -74,7 +167,7 @@ When cast above 5th level, the duration of the memory and age of the memory is i
 #### Moon Ray
 *Cantrip*
 
-- **Casting Time:** 4 AP
+- **Casting Time:** 5 AP
 - **Range:** 6
 - **Duration:** instant
 - **Damage Type:** holy
@@ -104,9 +197,9 @@ Add a wound die for every level cast above cantrip.
 - **Range:** touch
 - **Duration:** permanent
 
-Causes a piece of wood no heavier than 5 pounds to be shaped according to your thoughts.
+Causes a piece of wood no heavier than 40 pounds to be shaped according to your thoughts.
 
-The restriction on the wood's weight is increased by 5 pounds for every level cast above cantrip.
+The restriction on the wood's weight is doubled for every level cast above cantrip.
 
 ### First Level
 
@@ -117,7 +210,7 @@ The restriction on the wood's weight is increased by 5 pounds for every level ca
 - **Range:** 10
 - **Duration:** 10 hours
 
-Causes a spectral steed to form in an area that you can see. The steed may be a horse or other non-violent creature of large size or smaller.
+Causes a spectral steed to form in an area that you can see. The steed may be a horse or other non-violent creature of large size or smaller. Make a spellcasting roll against 2 bad dice. On success the steed is summoned.
 
 Add another steed summoned for every level cast above 1st.
 
@@ -129,7 +222,7 @@ Add another steed summoned for every level cast above 1st.
 - **Duration:** instant
 - **Damage Type:** Piercing
 
-Magically shape a small piece of wood into a javelin. The javelin will then be thrown with wind magic at the chosen target. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound die in piercing damage.
+Magically shape a small piece of wood into a javelin. The javelin will then be thrown with wind magic at the chosen target. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound, adding a wound die on a critical.
 
 Add 6 tiles of range and another wound die for every level cast above 1st.
 
@@ -151,23 +244,11 @@ Increase the range by 10 tiles for every level cast above 1st.
 - **Range:** self
 - **Duration:** 10 minutes, concentration
 
-Form a light layer of bark around your body, creating an extra layer of protection. Make a spellcasting roll against. You gain an extra defense die for every crit.
+Form a light layer of bark around your body, creating an extra layer of protection. Make a spellcasting roll against 2 bad dice. On success you gain 1 defense die, improving a defense to a superior defense for every critical rolled.
 
 Add an additional creature for every level above 1st.
 
 ### Second Level
-
-#### Stone Spear
-*2nd level*
-
-- **Casting Time:** 6 AP
-- **Range:** 10
-- **Duration:** instant
-- **Damage Type:** Piercing
-
-Cause a spear of stone to emerge from a nearby stone surface within range that targets a single creature within 10ft of the emergence point. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound and 1 wound die in piercing damage.
-
-Add an extra wound and wound die for every level cast above 2nd.
 
 #### Animal Communication
 *2nd level*
@@ -176,7 +257,7 @@ Add an extra wound and wound die for every level cast above 2nd.
 - **Range:** self
 - **Duration:** 10 minutes, concentration
 
-Speak with the creatures of the world. Make a spellcasting roll against a creatures intelligence save. On a success, you can speak with that creature and ask it questions or to take action. The creature is not compelled to answer or act.
+Speak with the creatures of the world. Make a spellcasting roll against a creatures intelligence save. On success, you can speak with that creature and ask it questions or to take action. The creature is not compelled to answer or act.
 
 For every level above 2nd, it adds 10 minutes to the duration.
 
@@ -322,10 +403,28 @@ When ritual cast for 1 hour at 10th level, the barrier can encompass an entire a
 
 #### Berserker
 
-You have trained your body and mind for battle, learning to ignore the pain and push through your enemies.  Twice per day you can push past your limits and go berserk.  While in the berserker form, you can re-roll 1 wound die from every attack roll.
+You have trained your body and mind for battle, learning to ignore the pain and push through your enemies. Twice per day you can push past your limits and go berserk.
+
+While in the berserker form:
+- You cannot cast spells
+- Re-roll 1 wound die for each of your attacks
+
+You start with 1 proficiency in Athletics and Intimidation, and 2 proficiency in a weapon type of your choice. You have a weapon matching your chosen proficiency.
+
+### Journeyman
+
+#### Berserker Resilience
+
+*Requires Berserker background, 6th level*
+
+While in the berserker form, you can re-roll 1 wound die from every attack roll against you
 
 ### Basic
 
 #### Druid Magic
 
 You have training in druid spells.
+
+#### Blood Magic
+
+You have training in blood spells.
