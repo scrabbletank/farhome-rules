@@ -2,13 +2,15 @@
 
 ## Table of Contents
 
-[Races](#Races)
+[Races](#races)
 
-[Spells](#Spells)
-- [Druidic](#Druidic)
+[Spells](#spells)
+- [Blood](#blood)
+- [Druidic](#druidic)
 
-[Feats](#Feats)
-- [Backgrounds](#Backgrounds)
+[Feats](#feats)
+- [Backgrounds](#backgrounds)
+- [Journeyman](#journeyman)
 
 # Races
 
@@ -82,11 +84,11 @@ For each level cast above cantrip, the range increases by 2 tiles.
 - **Range:** 10 miles
 - **Duration:** 1 hour
 
-Target a creature with whom you have their blood. This spell automatically succeeds. You know the general direction of the creature within the range of the spell. You will feel nothing if the creature is dead or outside the range of the spell.
+You can feel the life force of a creature with whom you have acquired their blood. Target a creature with whom you have their blood. This spell automatically succeeds. You know the general direction of the creature within the range of the spell. You will feel nothing if the creature is dead or outside the range of the spell.
 
 When cast between 2nd and 4th level, add 10 miles to the range.
 When cast between 5th and 8th level, add 100 miles to the range.
-When cast at 9th level or above, your range spans the entire plane.z
+When cast at 9th level or above, your range spans the entire plane.
 
 ### Second Level
 
