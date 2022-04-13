@@ -156,7 +156,7 @@ When cast above 5th level, the duration of the memory and age of the memory is i
 #### Moon Ray
 *Cantrip*
 
-- **Casting Time:** 4 AP
+- **Casting Time:** 5 AP
 - **Range:** 6
 - **Duration:** instant
 - **Damage Type:** holy
@@ -211,7 +211,7 @@ Add another steed summoned for every level cast above 1st.
 - **Duration:** instant
 - **Damage Type:** Piercing
 
-Magically shape a small piece of wood into a javelin. The javelin will then be thrown with wind magic at the chosen target. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound die in piercing damage.
+Magically shape a small piece of wood into a javelin. The javelin will then be thrown with wind magic at the chosen target. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound and 1 wound die in piercing damage.
 
 Add 6 tiles of range and another wound die for every level cast above 1st.
 
@@ -238,18 +238,6 @@ Form a light layer of bark around your body, creating an extra layer of protecti
 Add an additional creature for every level above 1st.
 
 ### Second Level
-
-#### Stone Spear
-*2nd level*
-
-- **Casting Time:** 6 AP
-- **Range:** 10
-- **Duration:** instant
-- **Damage Type:** Piercing
-
-Cause a spear of stone to emerge from a nearby stone surface within range that targets a single creature within 10ft of the emergence point. Make a spellcasting roll against the target's armor. If the attack succeeds, the opponent takes 1 wound and 1 wound die in piercing damage.
-
-Add an extra wound and wound die for every level cast above 2nd.
 
 ### Animal Communication
 *2nd level*
