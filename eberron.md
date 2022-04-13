@@ -169,7 +169,7 @@ Cause a spear of stone to emerge from a nearby stone surface within range that t
 
 Add an extra wound and wound die for every level cast above 2nd.
 
-### Animal Communication
+#### Animal Communication
 *2nd level*
 
 - **Casting Time:** 1 minute
@@ -182,14 +182,14 @@ For every level above 2nd, it adds 10 minutes to the duration.
 
 ### Third Level
 
-#### Moon Light
+#### Moonlight
 *3rd level*
 
 - **Casting Time:** 7 AP
 - **Range:** 6
 - **Duration:** 5 minutes, concentration
 
-Causes bright pale moonlight to emanate from the caster. All creatures within range must make a dexterity saving throw to avoid the light  On failure, those creatures cast a spectral shadow emitting from their body while within the light.  Any attack roll against an affected creature or object has advantage if the attacker can see the spectral light emitted from a creature.
+Causes bright pale moonlight to emanate from the caster. All creatures within range must make a dexterity saving throw to avoid the light. On failure, those creatures cast a spectral shadow emitting from their body while within the light.  Any attack roll against an affected creature or object has advantage if the attacker can see the spectral light emitted from a creature.
 
 Increases the range by 2 tiles for every level cast above 3rd.
 
@@ -200,7 +200,7 @@ Increases the range by 2 tiles for every level cast above 3rd.
 - **Range:** 10
 - **Duration:** 2 minutes, concentration
 
-Control water and move it to your will. Make a spellcasting roll, adding a terrible die for every 10 cubic feet of water that you wish to move. On success, you can will that amount of water to move.  The water cannot defy gravity, but it can prevent the movement of water that is not being controlled.
+Control water and move it to your will. Make a spellcasting roll, adding a terrible die for every 10 cubic feet of water that you wish to move. On success, you can will that amount of water to move. The water cannot defy gravity, but it can prevent the movement of water that is not being controlled.
 
 Increase the amount of water controlled by 10 cubic feet of water per terrible die for every level above 3rd.
 
