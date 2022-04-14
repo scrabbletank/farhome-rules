@@ -105,7 +105,7 @@ When cast at 9th level or above, your range spans the entire plane.
 *2nd level*
 
 - **Casting Time:** 3 AP, bladed weapon
-- **Range:** self
+- **Range:** touch
 - **Duration:** 1 minute
 - **Damage Type:** slashing
 
@@ -120,7 +120,7 @@ When cast at 6th level or above, the weapon gains Reach 2.
 *3rd level*
 
 - **Casting Time:** 6 AP
-- **Range:** self
+- **Range:** touch
 - **Duration:** 10 minutes.
 
 Cast against 2 terrible dice, targeting an unconscious creature. The creature rises in a stupor and are no longer incapacitated. While in this state they keep their temporary wounds and continue to roll death saving throws. They cannot take any action except movement and attacks, and any turn they do not take damage, are attacked, or attack another creature they automatically fail their death saving throw. While under this effect they ignore the first wound of damage they take from attacks each round. The spell ends if they regain enough wounds to regain consciousness.
@@ -241,7 +241,7 @@ Increase the range by 10 tiles for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 8 AP
-- **Range:** self
+- **Range:** touch
 - **Duration:** 10 minutes, concentration
 
 Form a light layer of bark around your body, creating an extra layer of protection. Make a spellcasting roll against 2 bad dice. On success you gain 1 defense die, improving a defense to a superior defense for every critical rolled.
@@ -254,7 +254,7 @@ Add an additional creature for every level above 1st.
 *2nd level*
 
 - **Casting Time:** 1 minute
-- **Range:** self
+- **Range:** touch
 - **Duration:** 10 minutes, concentration
 
 Speak with the creatures of the world. Make a spellcasting roll against a creatures intelligence save. On success, you can speak with that creature and ask it questions or to take action. The creature is not compelled to answer or act.
@@ -379,7 +379,7 @@ For every level above 8th, you make it harder to break the spell with a dispel m
 *9th level*
 
 - **Casting Time:** 11 AP
-- **Range:** self
+- **Range:** touch
 - **Duration:** 10 minutes, concentration
 
 You transform into a creature of size huge or smaller. You take on the physical characteristics of the creature as well as any inherent abilities. Make a spellcasting roll, adding 1 terrible die for every 8 wounds that the creature has. On success, you transform into that creature.
@@ -390,7 +390,7 @@ When cast above 9th level, you add 1 terrible die for every 12 wounds that the c
 *9th level*
 
 - **Casting Time:** 11 AP
-- **Range:** self
+- **Range:** touch
 - **Duration:** 1 hour, concentration
 
 You create a powerful temporary seal around a 25ft cube. Make a spellcasting roll, add a terrible die for every 50 wounds of the seal. On success, the strength of the seal barrier is equal to that number of wounds.
