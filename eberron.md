@@ -5,7 +5,7 @@
 [Races](#races)
 
 [Spells](#spells)
-- [Blood](#blood)
+- [Elder](#elder)
 - [Druidic](#druidic)
 
 [Feats](#feats)
@@ -48,9 +48,9 @@ You gain 1 defense die to all defense rolls.
 
 # Spells
 
-Spells are split into 5 schools of magic: arcane, blood, curse, divine, and druidic. Each school handles a different type of magic and uses a different attribute for its spellcasting. Arcane spells use the elements and raw power to defeat their foes, using Intelligence for its attribute. Blood spells manipulate the essential living essence of creatures and uses Stamina. Curse spells inflict curses and maladies to their targets and uses Willpower. Divine spells center around healing and empowering targets and uses Charisma. Druidic spells utilize and control the essence of nature and uses Willpower.
+Spells are split into 5 schools of magic: arcane, divine, druidic, elder, and occult. Each school handles a different type of magic and uses a different attribute for its spellcasting. Arcane spells use the elements and raw power to defeat their foes, using Intelligence for its attribute. Divine spells center around healing and empowering targets and uses Charisma. Druidic spells utilize and control the essence of nature and uses Willpower. Elder spells manipulate the essential living essence of creatures and uses Stamina. Occult spells inflict curses and maladies to their targets and uses Willpower.
 
-## Blood
+## Elder
 
 ### Cantrip
 
@@ -425,6 +425,6 @@ While in the berserker form, you can re-roll 1 wound die from every attack roll 
 
 You have training in druid spells.
 
-#### Blood Magic
+#### Elder Magic
 
-You have training in blood spells.
+You have training in elder spells.
