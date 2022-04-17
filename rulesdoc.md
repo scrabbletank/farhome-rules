@@ -5053,16 +5053,16 @@ Used in place of a move action, you must target a creature you are not adjacent 
 
 #### Heavy Swing
 
-- **AP Cost:** 7/7
+- **AP Cost:** 7/7/6
 - **Weapon:** any two-handed weapon
 - **Range:** melee
 - **Level Required:** 3/12/22
 
-You bring the full weight of your weapon down on a creature. Make a melee attack against a creature, adding an enhanced die to the roll. On hit they take an extra wound in damage, and you may reroll all wound dice on a critical.
+You bring the full weight of your weapon down on a creature. Make a melee attack against a creature, adding an enhanced die to the roll. On hit they take an extra wound in damage and you may reroll all wound dice on a critical.
 
 ***Enhanced:*** Add a superior die instead of an enhanced die to the attack roll and an extra wound die to the damage.
 
-***Superior:*** On hit you stagger the creature and temporarily sunder their armor. While staggered any critical succeses they roll with defense rolls give only 2 success and no critical successes.
+***Superior:*** On hit you stagger the creature and temporarily sunder their armor. While staggered any critical succeses they roll with defense rolls give 2 successes and no critical successes.
 
 #### Pinning Shot
 
@@ -5265,11 +5265,11 @@ Can only be used against a grappled creature. Make an unarmed attack against the
 - **Range:** 2
 - **Level Required:** 6/14/23
 
-Only usable when targeted by an attack, maneuver, spell attack, or when travelling over hazardous terrain. You dive to avoid the attack, making a dexterity save instead of the normal save for the attack. On success you avoid the attack and may move up to 2 tiles in any direction. This maneuver may only be used once per round.
+Only usable when targeted by an attack, maneuver, spell attack, or when travelling over hazardous terrain. You dive to avoid the attack, making a dexterity save instead of the normal save for the attack. On success you avoid the attack and may move a tile in any direction. This maneuver may only be used once per round.
 
 ***Enhanced:*** You have expertise on the dexterity save.
 
-***Superior:*** You may move up to 3 tiles instead of 2. After you move you take up a defensive position, allowing you to reroll 2 defense dice against ranged attacks and spell attacks.
+***Superior:*** You may move up to 2 tiles instead of 1. After you move you take up a defensive position, allowing you to reroll 2 defense dice against ranged attacks and spell attacks.
 
 ### Level 7
 
@@ -5323,7 +5323,7 @@ This cannot be used in constrained areas. Launch a volley of arrows hitting all 
 - **Range:** melee
 - **Level Required:** 8/15/25
 
-You move your weapon in an elegant dance, quickly striking an enemy and leaving them open to further attacks. Make an attack against a creature adding an enhanced die to your roll. On hit you deal normal damage, with the next attack against this creature this turn costing 1 less AP and adding a critical success. Regardless of the outcome of the attack you may shift one tile, ignoring opportunity attacks.
+You move your weapon in an elegant dance, quickly striking an enemy and leaving them open to further attacks. Make an attack against a creature adding an enhanced die to your roll. On hit you deal normal damage, with the next attack against this creature this turn costing 1 less AP and adding a critical success. Regardless of the outcome of the attack you may move one tile, staying within the creatures zone of control and ignoring opportunity attacks.
 
 
 ***Enhanced:*** On hit you add a critical success to all attacks against that creature until the end of your turn.
@@ -5384,7 +5384,7 @@ Attempt to mortally wound a creature. Make a weapon attack adding a superior die
 - **Range:** 2
 - **Level Required:** 11/22/29
 
-Swiftly strike up to 5 creatures in range. Make a weapon attack against the creatures adding 2 terrible dice to the attack roll. On hit you deal normal damage, moving to the nearest empty tile beside a targeted creature.
+Swiftly strike up to 5 creatures in range. Make a weapon attack against the creatures adding 2 terrible dice to the attack roll. On hit you deal normal damage, moving to an empty tile beside a targeted creature.
 
 ***Enhanced:*** You add a single terrible dice instead of 2. If you hit every target they grant combat advantage until the start of your next turn.
 
