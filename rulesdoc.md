@@ -84,7 +84,7 @@
 
 [Spells](#Spells-1)
 - [Arcane](#Arcane)
-- [Curse](#Curse)
+- [Occult](#Occult)
 - [Divine](#Divine)
 
 [Maneuvers](#Maneuvers-1)
@@ -310,7 +310,7 @@ Each point of Stamina increases your max wounds by 1.
 Each point of Intelligence improves your arcane spellcasting ability.
 
 #### Willpower
-Each point of Willpower improves your curse spellcasting ability.
+Each point of Willpower improves your occult spellcasting ability.
 
 #### Charisma
 Each point of Charisma improves your divine spellcasting ability.
@@ -379,7 +379,7 @@ Every attribute has an associated attribute save. Attribute saves are a measure 
 
 ### Spell Schools
 
-There are 3 schools of magic: arcane, curse, and divine. Each school uses its own proficiency score and you must be trained in the spell school before you can add to them. Training can come from background feats, basic feats, or during character creation.
+There are 3 schools of magic: arcane, occult, and divine. Each school uses its own proficiency score and you must be trained in the spell school before you can add to them. Training can come from background feats, basic feats, or during character creation.
 
 ### Weapons
 
@@ -390,7 +390,7 @@ Weapon proficiencies are split between 4 categories: One Handed, Two Handed, Ran
 # Spells
 
 
-Spells are split into 3 schools of magic: arcane, curse, and divine. Each school handles a different type of magic and uses a different attribute for its spellcasting. Arcane spells use the elements and raw power to defeat their foes, using Intelligence for its attribute. Curse spells inflict curses and maladies to their targets and uses Willpower. Divine spells center around healing and empowering targets and uses Charisma.
+Spells are split into 3 schools of magic: arcane, occult, and divine. Each school handles a different type of magic and uses a different attribute for its spellcasting. Arcane spells use the elements and raw power to defeat their foes, using Intelligence for its attribute. Occult spells inflict curses and maladies to their targets and uses Willpower. Divine spells center around healing and empowering targets and uses Charisma.
 
 To cast a spell you must have a codex containing the spell you want to cast, have the spell prepared, and have enough mana to cast the spell.
 
@@ -421,7 +421,18 @@ Casting spells of 1st level and above takes a toll on the caster. A character ca
 
 ### Spell Power
 
-Spell power determines how attuned your body is to spellcasting and how easy it is to increase your mana, or magical energy. When your character levels up you may choose to increase your mana based on your spell power. By default your spell power is equal to your characters level, and can be increased through leveling up or through feats.
+Spell power determines how attuned your body is to spellcasting and how efficiently you can use mana, or magical energy. A characters maximum mana is based on their Spell Power according to the following table:
+
+| Spell Power | Maximum Mana |
+|:----:|:-------------:|
+| 1 | 3 |
+| 2  | 7 |
+| 3  | 12 |
+| 4  | 19 |
+| 5  | 27 |
+| 6  | 36 |
+| 7 | 48 |
+| 8 and Above | +12 |
 
 ### Preparing Spells
 
@@ -481,7 +492,7 @@ Finally, choose 2 starting bonuses.
 - Learn a feat
 - Learn a maneuver and gain 2 proficiency score with a weapon type
 - Increase your max wounds by 1
-- Increase your spell power by 5 and gain 3 mana
+- Increase your spell power by 1
 
 
 >**Variant Rule - Rolling for Attributes**
@@ -514,28 +525,11 @@ Currency in Farhome is divided into 3 types: the copper trite, silver cross, and
 
 When you earn 1000 experience your character levels up. Each level you gain 1 proficiency point and choose one of the following bonuses:
 
-- Gain 3 spell power, then gain mana based on your spell power
+- Gain 1 spell power
 - Gain 3 proficiency points
 - Gain a feat
 - Learn a maneuver
 - Increase your max wounds by 1
-
-
-
-##### Mana
-
-When gaining mana, you apply the spell power gained from leveling up before increasing your mana based on the table below.
-
-| Spell Power | Mana Gained |
-|:----:|:----:|
-| 1-8  | 3 |
-| 9-18  | 4 |
-| 19-28 | 5 |
-| 29-40 | 7 |
-| 41-55 | 9 |
-| 56-70 | 12 |
-| 70+ | 15 |
-
 
 ##### Attribute Score increase
 
@@ -947,6 +941,8 @@ Some magic items grant bonuses to your attributes. While there is no limit on ho
 
 For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 Dexterity. You still benefit from the remaining bonuses on those items.
 
+## Races
+
 ### Elves
 
 #### High Elf
@@ -1029,7 +1025,7 @@ Due to their small stature, beast-like appearance and affinity for darkness they
 - **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Strength
 - **Lifespan:** 180 years
 
-##### Occult
+##### Occult Blood
 
 You are always under the effects of the spell _Dark Sight_ and you add a superior die when making stealth rolls in dim light or darkness.
 
@@ -1175,7 +1171,7 @@ These rules can create powerful spellcasters and exciting scenarios, but as a GM
 
 ### Attribute Based Spell Levels
 
-With this rule, instead of your spell level being determined by your level it is determined by your attribute for a given spell school. Your max spell level for arcane spells is based on your Intelligence, curse spells based on your Willpower, and divine spells based on your Charisma. This means an exceptionally intelligent caster could cast high level spells at an early level- if they have the mana and spell prepared.
+With this rule, instead of your spell level being determined by your level it is determined by your attribute for a given spell school. Your max spell level for arcane spells is based on your Intelligence, occult spells based on your Willpower, and divine spells based on your Charisma. This means an exceptionally intelligent caster could cast high level spells at an early level- if they have the mana and spell prepared.
 
 Your max spell level is determined on the chart below:
 
@@ -2491,7 +2487,7 @@ On failure the magic grounds itself through you, dealing 1 wound die in force da
 
 Add 3 superior dice when cast at 10th level.
 
-### Curse
+### Occult
 
 #### Spells By Level
 
@@ -2597,6 +2593,7 @@ Add 3 superior dice when cast at 10th level.
 ##### Ninth
 - [Power Word: Kill](#Power-Word-Kill)
 - [Seal](#Seal)
+- [Shadowmancy](#Shadowmancy)
 
 ### Cantrip
 
@@ -3682,7 +3679,7 @@ Add a superior die for every level cast above 8th. When cast at 9th level the du
 - **Range:** 10
 - **Duration:** instant
 
-Speak a word and command a creature to die. Make a spellcasting roll, if the target creature has less wounds than you have successes the creature instantly dies.
+Speak a word and command a creature to die. Make a spellcasting roll, with criticals counting as 3 successes. If the target creature has less wounds than you have successes the creature instantly dies.
 
 Add 3 superior dice when cast at 10th level.
 
@@ -3700,6 +3697,22 @@ While sealed, the creature cannot take damage, does not need to eat or breathe, 
 The seal slowly degrades over the duration. Casting this spell on a sealed creature refreshes the seal, repairing any damage and extends the duration to 10 years.
 
 When cast at 10th level the duration increases to 100 years and you add 2 superior dice to your spellcasting roll.
+
+#### Shadowmancy
+*9th level*
+
+- **Casting Time:** 10 AP
+- **Range:** self
+- **Duration:** concentration, 10 minutes
+- **Damage Type:** death
+
+Conjure an orb of sickly light that emits bright light out 5 tiles and dim light a further 5 tiles. Shadows creep out from all creatures in the light. Creatures that are invisible, behind full cover, or otherwise do not leave a shadow are immune to this spell.
+
+The creatures shadows take form, becoming dark apparitions of their host creatures, following them as they move. On your turn you may spend 1 AP to command a shadow to attack, using your spellcasting roll for the attack. On hit they deal a wound and 2 wound dice in death damage. The shadows use copies of their host creatures weapons, but do not copy any magic, feats, or abilities from their host. A shadow can only make a single attack each round.
+
+If a creature should die inside the light their shadow takes form for the next 24 hours, becoming a shade under your control. The shade has the same attributes as its host creature, 3 max wounds, and uses your spellcasting roll for attack rolls.
+
+When cast at 10th level shadows have expertise when attacking their host creature and you add 1 superior die to the spellcasting roll.
 
 ### Divine
 
@@ -3791,6 +3804,7 @@ When cast at 10th level the duration increases to 100 years and you add 2 superi
 - [Restoration](#Restoration)
 
 ##### Ninth
+- [Aura](#Aura)
 - [Avatar](#Avatar)
 
 ### Cantrips
@@ -4673,6 +4687,17 @@ Add 2 superior dice to your roll for every level cast above 8th.
 
 ### Ninth Level
 
+#### Aura
+*9th level*
+
+- **Casting Time:** 6 AP
+- **Range:** self
+- **Duration:** concentration, 10 minutes
+
+You project an aura of your divine might effecting all creatures of your choosing within 5 tiles of yourself. When casting this spell you choose a Divine spell that targets creatures; for the duration creatures of your choosing that start their turn in or enter the aura for the first time this round have the spell cast on them. You may choose a spell of 2nd level or lower without negative effects, while spells of 3rd level or above add terrible dice to their spellcasting rolls.
+
+Add a superior die to your spellcasting roll and only add terrible dice to spells of 5th level or above when cast at 10th level.
+
 #### Avatar
 *9th level*
 
@@ -5373,25 +5398,25 @@ Swiftly strike up to 5 creatures in range. Make a weapon attack against the crea
 #### Blessed
 Known to you or not, you have been given a blessing by a powerful being. You gain access to additional feats based on the being that has given you their blessing. In addition, you gain starting benefits based on the blessing:
 
-- **Fae Court:** You are an innate spellcaster. You start with 2 mana and you add a superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
+- **Fae Court:** You are an innate spellcaster. You start with 1 spell power and you add a superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
 - **Earthen:** When unarmored you roll 3 defense dice instead of 2. Regardless of duration, when you gain poison 1 it disappears at the end of your next turn. This has no effect on effects inflicting poison 2 or higher.
 - **Blight:** You have a natural affinity with the Undead. You can sense the presence of Undead within 10 tiles of you. When dealing death damage you deal a minimum of 1 wound before resistances.
 - **Abyssal:** You have unnatural luck. Once per long rest you may redo a roll, rerolling all dice and taking the new roll. You know the spell _Eldritch Blast_ without needing to prepare it and can cast it without a codex. Casting _Eldritch Blast_ costs 1 less AP.
 
 #### Coven Witch
-You are trained in curse spells. You start with 4 mana and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency nature and insight.
+You are trained in occult spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency nature and insight.
 
 #### Disciple
 You have trained under masters, learning to perfect your mind and body. You have expertise in 2 saving throws of your choice, 2 proficiency in a weapon type, and 1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
 
 #### Druid
-You have studied the natural world and have gained an affinity with nature. You have 1 proficiency in nature and animal handling and have expertise in those skills. You start with 2 mana and have a codex with two cantrips of your choice.
+You have studied the natural world and have gained an affinity with nature. You have 1 proficiency in nature and animal handling and have expertise in those skills. You start with 1 spell power and have a codex with two cantrips of your choice.
 
 #### Enchanter
-You have learned the trade of an enchanter allowing you to empower mundane items. You have 1 proficiency in lore, arcana, diplomacy, and enchanting tools. Enchantments cost half as many enchanting supplies when done by yourself. You start with 2 mana, a codex with 2 cantrips, and enchanting tools.
+You have learned the trade of an enchanter allowing you to empower mundane items. You have 1 proficiency in lore, arcana, diplomacy, and enchanting tools. Enchantments cost half as many enchanting supplies when done by yourself. You start with 1 spell power, a codex with 2 cantrips, and enchanting tools.
 
 #### Magician's Apprentice
-You are trained proficiency in arcane spells. You start with 4 mana and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in arcana and lore.
+You are trained proficiency in arcane spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in arcana and lore.
 
 
 #### Noble
@@ -5406,7 +5431,7 @@ You start with scalemail armor, a martial weapon of your choice, and a codex wit
 Either by circumstance or choice, your time in the pits has honed your senses in battle. You gain 1 proficiency in unarmed weapons and 2 proficiency in any other weapon type. While wearing light or no armor your sprint speed is increased by 1. When attacked by a creature inside your zone of control you improve one defense die to a superior defense die.
 
 #### Priest
-You are trained in divine spells. You start with 4 mana and a codex containing 4 cantrips or level 1 spells of your choosing. You gain 1 proficiency in religion and medicine.
+You are trained in divine spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You gain 1 proficiency in religion and medicine.
 
 #### Ranger
 Your time hunting and wandering through the wilderness has honed your skills. You have 1 proficiency with ranged weapons, nature, survival and animal handling and your move speed is increased by 1. You reroll 1 die when making an initiative, nature, survival, or animal handling roll. You start with studded armor and a martial weapon of your choice.
@@ -5488,7 +5513,7 @@ You have training in divine spells.
 You gain 4 healing surges instead of 3 each long rest. You roll 4 wound dice instead of 3 when rolling healing surges.
 
 #### Witch
-You have training in curse spells.
+You have training in occult spells.
 
 #### Wizard
 You have training in arcane spells.
@@ -5673,14 +5698,14 @@ When casting a spell that deals lightning damage you may spend 1 mana to add a c
 You learn a new language of your choosing. You are able to translate writings written in any non-magical language to a language you know, taking 1 hour per page translated.
 
 #### Living Hex
-*Requires 3 proficiency in curse spells, 12th level*
+*Requires 3 proficiency in occult spells, 12th level*
 
 When a creature dies while inflicted by a of hex caused by your spells, you may move the hex to another creature within 2 tiles. Make a spellcasting roll against the creatures Willpower save. On success they gain hex at the same level as the dead creature.
 
 #### Malady
-*Requires 3 proficiency in curse spells, 9th level*
+*Requires 3 proficiency in occult spells, 9th level*
 
-For curse spells that target multiple creatures, such as _Trickery_, _Charming Guise_ or _Concealment_, you may target 1 extra creature. This creature does not add bad or terrible dice to the roll.
+For occult spells that target multiple creatures, such as _Trickery_, _Charming Guise_ or _Concealment_, you may target 1 extra creature. This creature does not add bad or terrible dice to the roll.
 
 #### Magic Sight
 *Requires proficiency in arcana*
@@ -5726,7 +5751,7 @@ You have perfected your defenses allowing you to withstand almost any attack. Wh
 You gain _Resistance 1_ against poison damage. At the end of each of your turns you reduce the level of a poison affecting you by 1.
 
 #### Potent Curses
-*Requires proficiency in curse spells, 3 Willpower, 8th level*
+*Requires proficiency in occult spells, 3 Willpower, 8th level*
 
 Curses you cast, such as _Curse of Misfortune_, last until dispelled. If you only target a single creature with a curse, add a superior die to the spellcasting roll.
 
@@ -5736,7 +5761,7 @@ Curses you cast, such as _Curse of Misfortune_, last until dispelled. If you onl
 You add 1 superior die to your enchanting rolls. Enchantments you make last 7 days instead of 3.
 
 #### Punishment
-*Requires proficiency in curse spells, 7th level*
+*Requires proficiency in occult spells, 7th level*
 
 Creatures under negative effects caused by your spells also grant combat advantage to your attacks against those creatures.
 
@@ -5778,7 +5803,7 @@ The first opportunity attack you make each turn costs 1 AP less. Hostile creatur
 Choose a maneuver you know with a level requirement of 7 or lower. This maneuver can be used every turn and you have expertise in rolls made with that maneuver.
 
 #### Siphon Energy
-*Requires proficiency in curse spells, 3 Willpower, 12th level*
+*Requires proficiency in occult spells, 3 Willpower, 12th level*
 
 You are able to siphon the fading life from creatures to create a temporary shield. When you kill a cursed enemy or kill an enemy using death damage you gain 1 temporary wound lasting 24 hours. You may gain up to half your max wounds in temporary wounds this way.
 
@@ -5925,7 +5950,7 @@ You do not add bad or terrible dice with ranged attacks when targeting a creatur
 
 
 #### Necromancer
-*Requires 5 proficiency in curse spells, 20th level*
+*Requires 5 proficiency in occult spells, 20th level*
 
 When gaining temporary wounds from any source, you may heal missing wounds instead. When casting _Raise Dead_ you may target 2 additional corpses without adding bad or terrible dice, and you add 3 successes to _Gloom_'s spellcasting roll.
 
@@ -5942,7 +5967,7 @@ You add 2 superior dice to Intelligence, Willpower, and Charisma saves against u
 #### Sorcerer
 *Requires 5 proficiency in arcane spells, 20th level*
 
-You gain 10 spell power and mana. Choose one spell you know, this spell is always prepared and does not count towards your prepared spell slots. When casting this spell you add a superior die to the spellcasting roll.
+You gain 1 spell power. Choose one spell you know, this spell is always prepared and does not count towards your prepared spell slots. When casting this spell you add a superior die to the spellcasting roll.
 
 #### Strength of Mind
 *Requires 5 Willpower, 20th level*
@@ -6061,7 +6086,7 @@ Only those blessed by a powerful demon can take these feats.
 You are permanently under the effects of the spell _Dark Sight_ and you gain 1 proficiency in perception.
 
 #### Eldritch Force
-*Requires proficiency in curse spells, 8th level*
+*Requires proficiency in occult spells, 8th level*
 
 When casting Eldritch blast at 1st level or above you add 1 wound to the damage.
 

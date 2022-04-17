@@ -3133,10 +3133,23 @@ The Chimes can be used to ask the spirits for guidance. Spending a charge and me
 
 Leather armor with bones woven to reinforce it. Once per day you may cast _Cloud of Teeth_ at 3rd level.
 
+#### Boots of Etherwalking
+*Wondrous Item, Requires Attunement*
+
+Old boots with frills made from an waving, ethereal cloth. When attuned to these boots you gain the _Etherwalk_ maneuver.
+
+##### Etherwalk
+___
+- **AP Cost:** 3
+
+As an action you enter the ethereal plane. While in the ethereal plane you have _Resistance_ 3 to physical damage, _Vulnerability_ 1 to elemental damage, and may move through creatures and 1 tile wide walls. While in the ethereal plane you cannot attack, however you may cast spells.
+
+You remain in the ethereal plane until the start of your next turn.
+
 #### Boots of Leaping
 *Wondrous Item, Requires Attunement*
 
-light leather boots with feathers sewn up the sides. When wearing these boots you can jump 3 times further. While attuned to the boots you know the superior version of the _Savage Leap_ maneuver and it has a range of 4 tiles instead of 2.
+Light leather boots with feathers sewn up the sides. When wearing these boots you can jump 3 times further. While attuned to the boots you know the superior version of the _Savage Leap_ maneuver and it has a range of 4 tiles instead of 2.
 
 #### Boots of Momentum
 *Wondrous Item*
