@@ -489,10 +489,10 @@ Finally, choose 2 starting bonuses.
 - Increase an attribute score by 1, up to a max of 3
 - Get training in a spell school and gain 1 proficiency score in that spell school
 - Gain 5 proficiency points
-- Learn a feat
+- Learn a feat and gain 1 proficiency score with a skill
 - Learn a maneuver and gain 2 proficiency score with a weapon type
-- Increase your max wounds by 1
-- Increase your spell power by 1
+- Increase your max wounds by 1 and gain 1 proficiency score with a save
+- Increase your spell power by 1 and gain 1 proficiency score with a spell school (if trained) or a skill
 
 
 >**Variant Rule - Rolling for Attributes**
