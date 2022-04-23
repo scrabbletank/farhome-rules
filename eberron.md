@@ -5,7 +5,7 @@
 [Races](#races)
 
 [Spells](#spells)
-- [Blood](#blood)
+- [Elder](#elder)
 - [Druidic](#druidic)
 
 [Feats](#feats)
@@ -48,9 +48,9 @@ You gain 1 defense die to all defense rolls.
 
 # Spells
 
-Spells are split into 5 schools of magic: arcane, blood, curse, divine, and druidic. Each school handles a different type of magic and uses a different attribute for its spellcasting. Arcane spells use the elements and raw power to defeat their foes, using Intelligence for its attribute. Blood spells manipulate the essential living essence of creatures and uses Stamina. Curse spells inflict curses and maladies to their targets and uses Willpower. Divine spells center around healing and empowering targets and uses Charisma. Druidic spells utilize and control the essence of nature and uses Willpower.
+Spells are split into 5 schools of magic: arcane, divine, druidic, elder, and occult. Each school handles a different type of magic and uses a different attribute for its spellcasting. Arcane spells use the elements and raw power to defeat their foes, using Intelligence for its attribute. Divine spells center around healing and empowering targets and uses Charisma. Druidic spells utilize and control the essence of nature and uses Willpower. Elder spells manipulate the essential living essence of creatures and uses Stamina. Occult spells inflict curses and maladies to their targets and uses Willpower.
 
-## Blood
+## Elder
 
 ### Cantrip
 
@@ -117,7 +117,7 @@ Add an enhanced die for every level cast above 1st.
 *2nd level*
 
 - **Casting Time:** 3 AP, bladed weapon
-- **Range:** self
+- **Range:** touch
 - **Duration:** 1 minute
 - **Damage Type:** slashing
 
@@ -144,7 +144,7 @@ Add an enhanced die for every level cast above 2nd.
 *3rd level*
 
 - **Casting Time:** 6 AP
-- **Range:** self
+- **Range:** touch
 - **Duration:** 10 minutes.
 
 Cast against 2 terrible dice, targeting an unconscious creature. The creature rises in a stupor and are no longer incapacitated. While in this state they keep their temporary wounds and continue to roll death saving throws. They cannot take any action except movement and attacks, and any turn they do not take damage, are attacked, or attack another creature they automatically fail their death saving throw. While under this effect they ignore the first wound of damage they take from attacks each round. The spell ends if they regain enough wounds to regain consciousness.
@@ -283,7 +283,7 @@ Increase the range by 10 tiles for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 8 AP
-- **Range:** self
+- **Range:** touch
 - **Duration:** 10 minutes, concentration
 
 Form a light layer of bark around your body, creating an extra layer of protection. Make a spellcasting roll against 2 bad dice. On success you gain 1 defense die, improving a defense to a superior defense for every critical rolled.
@@ -292,11 +292,11 @@ Add an additional creature for every level above 1st.
 
 ### Second Level
 
-### Animal Communication
+#### Animal Communication
 *2nd level*
 
 - **Casting Time:** 1 minute
-- **Range:** self
+- **Range:** touch
 - **Duration:** 10 minutes, concentration
 
 Speak with the creatures of the world. Make a spellcasting roll against a creatures intelligence save. On success, you can speak with that creature and ask it questions or to take action. The creature is not compelled to answer or act.
@@ -305,14 +305,14 @@ For every level above 2nd, it adds 10 minutes to the duration.
 
 ### Third Level
 
-#### Moon Light
+#### Moonlight
 *3rd level*
 
 - **Casting Time:** 7 AP
 - **Range:** 6
 - **Duration:** 5 minutes, concentration
 
-Causes bright pale moonlight to emanate from the caster. All creatures within range must make a dexterity saving throw to avoid the light  On failure, those creatures cast a spectral shadow emitting from their body while within the light.  Any attack roll against an affected creature or object has advantage if the attacker can see the spectral light emitted from a creature.
+Causes bright pale moonlight to emanate from the caster. All creatures within range must make a dexterity saving throw to avoid the light. On failure, those creatures cast a spectral shadow emitting from their body while within the light.  Any attack roll against an affected creature or object has advantage if the attacker can see the spectral light emitted from a creature.
 
 Increases the range by 2 tiles for every level cast above 3rd.
 
@@ -323,7 +323,7 @@ Increases the range by 2 tiles for every level cast above 3rd.
 - **Range:** 10
 - **Duration:** 2 minutes, concentration
 
-Control water and move it to your will. Make a spellcasting roll, adding a terrible die for every 10 cubic feet of water that you wish to move. On success, you can will that amount of water to move.  The water cannot defy gravity, but it can prevent the movement of water that is not being controlled.
+Control water and move it to your will. Make a spellcasting roll, adding a terrible die for every 10 cubic feet of water that you wish to move. On success, you can will that amount of water to move. The water cannot defy gravity, but it can prevent the movement of water that is not being controlled.
 
 Increase the amount of water controlled by 10 cubic feet of water per terrible die for every level above 3rd.
 
@@ -421,7 +421,7 @@ For every level above 8th, you make it harder to break the spell with a dispel m
 *9th level*
 
 - **Casting Time:** 11 AP
-- **Range:** self
+- **Range:** touch
 - **Duration:** 10 minutes, concentration
 
 You transform into a creature of size huge or smaller. You take on the physical characteristics of the creature as well as any inherent abilities. Make a spellcasting roll, adding 1 terrible die for every 8 wounds that the creature has. On success, you transform into that creature.
@@ -432,7 +432,7 @@ When cast above 9th level, you add 1 terrible die for every 12 wounds that the c
 *9th level*
 
 - **Casting Time:** 11 AP
-- **Range:** self
+- **Range:** touch
 - **Duration:** 1 hour, concentration
 
 You create a powerful temporary seal around a 25ft cube. Make a spellcasting roll, add a terrible die for every 50 wounds of the seal. On success, the strength of the seal barrier is equal to that number of wounds.
@@ -467,6 +467,6 @@ While in the berserker form, you can re-roll 1 wound die from every attack roll 
 
 You have training in druid spells.
 
-#### Blood Magic
+#### Elder Magic
 
-You have training in blood spells.
+You have training in elder spells.
