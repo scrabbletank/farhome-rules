@@ -3035,7 +3035,7 @@ Add an enhanced die to the summoning roll for each level cast above 2nd.
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-Suppress a creatures natural abilities. Make a spellcasting roll against the creatures Willpower save. On success you choose either Strength or Dexterity. The creature loses 2 to their proficiency modifier for all skills, saving throws, and weapon attacks using that attribute, decreasing by 1 for every critical.
+Suppress a creatures natural abilities. Make a spellcasting roll against the creatures Willpower save. On success you choose either Strength or Dexterity. The creature does not gain proficiency for any skills, saving throws, or weapon attacks using that attribute.
 
 You may target an additional creature for each level above 3rd.
 
@@ -5519,7 +5519,7 @@ You have training in occult spells.
 You have training in arcane spells.
 
 #### Wrestler
-You add 2 superior dice when making Strength rolls to grapple, move or shove a creature. When making an opportunity attack you can grapple instead.
+You add a superior die when making Strength rolls to grapple, move or shove a creature. When making an opportunity attack you can grapple instead.
 
 #### Overswing
 Once per turn, when making an attack or maneuver you may add 1 failure and 1 critical success to your attack roll.
@@ -5568,7 +5568,7 @@ You may make an animal handling roll against a beast that hasn't been hostile to
 #### Blessed Healing
 *Requires 2 Charisma, proficiency in divine spells*
 
-A creature healed by you adds a superior die on their next attack or saving throw within the next 10 minutes.
+A creature healed by you has expertise on their next attack or saving throw within the next 10 minutes.
 
 #### Book of Hymns
 *Requires 2 Charisma, proficiency in religion*
@@ -5598,13 +5598,13 @@ You are used to pushing your body to its limits. When traveling or staying awake
 #### Danger Sense
 *Requires proficiency in perception, 8th level*
 
-When making a saving throw against an attack, damaging spell, or damaging effect you can see you add 1 superior die to the roll.
+When making a saving throw against an attack, damaging spell, or damaging effect you can see you may reroll 2 dice and add 2 critical successes to your roll.
 
 
 #### Defensive Duelist
 *Requires proficiency with a weapon*
 
-When you make a melee attack against a creature with a weapon you are proficient in they cannot make opportunity attacks against you until the start of your next turn, regardless of the outcome of the attack. You add 1 superior defense die to your defense roll when targeted by opportunity attacks.
+When you make a melee attack against a creature with a weapon you are proficient in they cannot make opportunity attacks against you until the start of your next turn, regardless of the outcome of the attack. You improve a defense die to a superior defense die when targeted by opportunity attacks.
 
 #### Divine Healing
 *Requires proficiency in divine spells, 3 Charisma, 12th level*
@@ -5619,7 +5619,7 @@ When using your Apothecary set you can add an additional ingredient from any of 
 #### Elemental Affinity
 *Requires proficiency in arcane spells, 3 Intelligence*
 
-Your mastery of magic has enhanced your abilities with a chosen element. Choose fire, cold, lightning, thunder, force, or poison. Spells you cast of this element ignore 1 level of resistance and you add a superior die to those spells spellcasting rolls. You add a superior die when making saving throws against spells with that damage type.
+Your mastery of magic has enhanced your abilities with a chosen element. Choose fire, cold, lightning, thunder, force, or poison. Spells you cast of this element ignore 1 level of resistance and you may reroll a die in the spellcasting roll. You add a superior die when making saving throws against spells with that damage type.
 
 #### Evasion
 *Requires Agile, 3 Dexterity*
@@ -5664,7 +5664,7 @@ When attacked by a wild beast or plant creature they make a Willpower save again
 #### Helping Hand
 *Requires proficiency in divine spells, 6th level*
 
-When casting non-damaging spells on allies, add a superior die to the roll if you are not one of the targets.
+When casting non-damaging spells on allies you add a superior die to the spellcasting roll if you are not one of the targets.
 
 #### Hidden in Plain Sight
 *Requires proficiency in stealth*
@@ -5743,7 +5743,7 @@ Once per turn when a creature takes a movement action towards you, you may spend
 #### Perfect Defense
 *Requires 4 Strength, 12th level*
 
-You have perfected your defenses allowing you to withstand almost any attack. While holding a shield or wearing heavy armor you may spend 1 AP to gain _Resistance 1_ against physical damage for the attack.
+You have perfected your defenses allowing you to withstand almost any attack. While holding a shield or wearing heavy armor you gain _Resistance 1_ against physical damage while taking the defend action.
 
 #### Poison Resistance
 *Requires 3 Stamina, 10th level*
@@ -5753,12 +5753,12 @@ You gain _Resistance 1_ against poison damage. At the end of each of your turns 
 #### Potent Curses
 *Requires proficiency in occult spells, 3 Willpower, 8th level*
 
-Curses you cast, such as _Curse of Misfortune_, last until dispelled. If you only target a single creature with a curse, add a superior die to the spellcasting roll.
+Curses you cast, such as _Curse of Misfortune_, last until dispelled. If you only target a single creature with a curse you have expertise for the spellcasting roll.
 
 #### Powerful Enchantments
 *Requires proficiency in enchanters tools*
 
-You add 1 superior die to your enchanting rolls. Enchantments you make last 7 days instead of 3.
+You may reroll a die when making enchanting rolls. Enchantments you make last 7 days instead of 3.
 
 #### Punishment
 *Requires proficiency in occult spells, 7th level*
@@ -5913,7 +5913,7 @@ You can concentrate on 2 spells at once as long as these spells have different t
 #### Uncanny Dodge
 *Requires Agile, 10th level*
 
-Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from the single target attack, maneuver, or spell attack.
+Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic damage from a single target attack, maneuver, or spell attack.
 
 #### Warded Spells
 *Requires Quickened Spellcasting, 7 combined spellcasting proficiency, 12th Level*
@@ -6025,7 +6025,7 @@ When making an attack or maneuver you may spend 2 mana to enchant it with foxfir
 #### Jinx
 *Requires 2 Charisma*
 
-Before casting a non-damaging spell you may empower it with fae magic. In addition to the spells effects, an empowered spell causes the all creatures hit to gain hex 1 until the end of their next turn on a critical. You can do this up to your Charisma score, after which you must long rest to use this again.
+Before casting a non-damaging spell you may empower it with fae magic. In addition to the spells effects, an empowered spell causes the all creatures hit to gain hex 1 until the end of their next turn. You can do this up to your Charisma score, after which you must long rest to use this again.
 
 ### Earthen
 Only those blessed by nature or earth elementals can take these feats.
@@ -6057,7 +6057,7 @@ Only those blessed by a powerful undead can take these feats.
 
 #### Siphon Undead
 
-You can sense the life force keeping an undead creature alive. On your turn you may spend 5 AP to touch an undead creature, draining their life force to heal yourself. If you target an unwilling creature they make a Stamina save against your raw Willpower roll. On failure they take 2 wounds in damage and you heal for 1 wound.
+You can sense the life force keeping an undead creature alive. On your turn you may spend 5 AP to touch an undead creature, draining their life force to heal yourself. If you target an unwilling creature they make a Stamina save against your raw Willpower roll. On failure they take 3 wounds in damage and you heal for 1 wound.
 
 #### Sleepless
 *Requires proficiency in exhaustion*
