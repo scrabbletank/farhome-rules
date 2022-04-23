@@ -72,7 +72,7 @@ For each level cast above cantrip, you may convert a wound to a wound die or a w
 - **Range:** 2
 - **Duration:** instant
 
-Target a wounded creature. That creature must make a stamina saving throw against your spellcasting modifier. On failure, you acquire the creatures blood.
+Target a wounded creature. That creature must make a stamina saving throw against your spellcasting roll. On failure, you acquire the creatures blood.
 
 For each level cast above cantrip, the range increases by 2 tiles.
 
@@ -99,6 +99,18 @@ When cast between 2nd and 4th level, add 10 miles to the range.
 When cast between 5th and 8th level, add 100 miles to the range.
 When cast at 9th level or above, your range spans the entire plane.
 
+#### Ritual of Warding
+
+- **Casting Time:** 10 minutes
+- **Range:** self
+- **Duration:** 3 days
+
+You perform a ritual to ward against harmful creatures. In addition to its casting cost you must sacrifice a small or larger creature as part of the ritual. Make a spellcasting roll against 3 bad dice. On success you add a superior die to all saving throws against non-damaging abilities and features from hostile creatures.
+
+Your maximum wounds are reduced by 1 for the duration of the spell. You may cast this ritual on a willing creature whose blood you have siphoned with the creature paying the health cost.
+
+Add an enhanced die for every level cast above 1st.
+
 ### Second Level
 
 #### Bloodied Blade
@@ -113,6 +125,18 @@ On casting you take a wound in unblockable damage. Your weapon becomes empowered
 
 For each level cast above 2nd, add a wound die in slashing damage.
 When cast at 6th level or above, the weapon gains Reach 2.
+
+#### Ritual of Ethereal Protection
+
+- **Casting Time:** 10 minutes
+- **Range:** self
+- **Duration:** 3 days
+
+You perform a ritual to ward against ethereal damage. In addition to its casting cost you must sacrifice a small or larger creature as part of the ritual. Make a spellcasting roll against 3 bad and 1 terrible dice. On success you gain _Resistance_ 1 to ethereal damage.
+
+Your maximum wounds are reduced by 1 for the duration of the spell. You may cast this ritual on a willing creature whose blood you have siphoned with the creature paying the health cost.
+
+Add an enhanced die for every level cast above 2nd.
 
 ### Third Level
 
@@ -138,6 +162,24 @@ For each level cast above 3rd, add an enhanced die.
 Pull the life force from a creature to heal another. Target up to 5 injured and living creatures. Make a spellcasting roll adding a terrible die for each creature targeted past the first. Creatures make a stamina save against this attack, taking 2 wound dice in death damage on fail. A target creature in range heals for 1 + half the damage dealt.
 
 For each level cast above 3rd, add an enhanced die
+
+#### Ritual of Bloodied Combat
+
+- **Casting Time:** 10 minutes
+- **Range:** self
+- **Duration:** 3 days
+
+You perform a ritual to empower you against your foes. In addition to its casting cost you must sacrifice a small or larger creature as part of the ritual. Make a spellcasting roll against 2 bad and 2 terrible dice. On success you have Combat Advantage against creatures whose blood you have siphoned.
+
+Your maximum wounds are reduced by 2 for the duration of the spell. You may cast this ritual on a willing creature whose blood you have siphoned with the creature paying the health cost.
+
+Add an enhanced die for every level cast above 3rd.
+
+### Sites of Power
+The world is scattered with places where elder magic is at its strongest. These can be anywhere, from an ancient grove, an island in a lake, by an ancient standing stone, etc. These sites of power allow those with elder magic to easily perform rituals. When casting a ritual at a site of power you remove 2 challenge dice from the roll.
+
+#### Divining Rod
+Used to find sites of power. You may spend 1 minute divining their location. Make an arcana roll against 2 terrible dice. On success you know the direction to a site of power if one is within 10 miles of your location. On a critical fail the divining rod breaks, and must be repaired back in the grove.
 
 ## Curse
 
