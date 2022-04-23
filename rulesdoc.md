@@ -89,7 +89,7 @@
 
 [Maneuvers](#Maneuvers-1)
 
-[Feats](#Feats)
+[Feats](#Feats-1)
 - [Backgrounds](#Backgrounds)
 - [Basic](#Basic)
 - [Journeyman](#Journeyman)
@@ -5390,7 +5390,7 @@ Swiftly strike up to 5 creatures in range. Make a weapon attack against the crea
 
 ***Superior:*** The range increases to 3 and you may target up to 7 creatures.
 
-## Appendix - Feats
+## Feats
 
 ### Backgrounds
 
@@ -5871,6 +5871,11 @@ Runes you make are resistant to breaking. When a rune you crafted is activated, 
 *Requires Durable, 3 Stamina, 12th level*
 
 When taking lethal damage, as long as the total damage is less than or equal to your Stamina score you are reduced to 1 wound, with the excess damage reducing your Stamina directly. Stamina lost this way is regained after a long rest.
+
+#### Instinctive Reaction
+*Requires Alert, 8th Level*
+
+At the end of your turn, if you have less than 2 AP remaining it is increased to 2. This effect does not happen if you are Dazed or Paralyzed.
 
 #### Iron Grip
 *Requires Brutal Strikes, 4 Strength*
