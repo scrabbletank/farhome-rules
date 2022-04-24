@@ -452,7 +452,7 @@ While in the berserker form:
 - You add 1 wound die to attacks and maneuvers
 - You must attack each round if able, using your move and sprint actions if no creatures are nearby
 
-You may attempt to end your berserker rage once each turn, making a Willpower save against 2 terrible dice. On success the rage ends. You add a superior die for every turn you end without attacking.
+You may attempt to end your berserker rage once each turn, making a Willpower save against 4 bad dice. On success the rage ends. You add a superior die for every turn you end without attacking.
 
 You start with 1 proficiency in Athletics and Intimidation, and 2 proficiency in a weapon type of your choice. You have a weapon matching your chosen proficiency.
 
