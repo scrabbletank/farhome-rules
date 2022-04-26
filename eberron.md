@@ -283,12 +283,12 @@ Increase the range by 10 tiles for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 8 AP
-- **Range:** touch
-- **Duration:** 10 minutes, concentration
+- **Range:** self
+- **Duration:** 10 minutes
 
-Form a light layer of bark around your body, creating an extra layer of protection. Make a spellcasting roll against 2 bad dice. On success you gain 1 defense die, improving a defense to a superior defense for every critical rolled.
+Form a light layer of bark around your body, creating an extra layer of protection. Make a spellcasting roll against 3 bad dice. On success you improve a defense die to a superior defense, improving another die for every critical rolled.
 
-Add an additional creature for every level above 1st.
+Add an enhanced die for every level cast above 1st.
 
 ### Second Level
 
@@ -297,11 +297,11 @@ Add an additional creature for every level above 1st.
 
 - **Casting Time:** 1 minute
 - **Range:** touch
-- **Duration:** 10 minutes, concentration
+- **Duration:** 1 hour, concentration
 
-Speak with the creatures of the world. Make a spellcasting roll against a creatures intelligence save. On success, you can speak with that creature and ask it questions or to take action. The creature is not compelled to answer or act.
+Speak with the creatures of the world. Make a spellcasting roll against a terrible die. On success, you can speak with animals. For the duration you may ask the creature a question or to take an action, using this spellcasting roll for your conversation check. The creature is not compelled to answer or act.
 
-For every level above 2nd, it adds 10 minutes to the duration.
+Add an enhanced die for every level cast above 2nd.
 
 ### Third Level
 
