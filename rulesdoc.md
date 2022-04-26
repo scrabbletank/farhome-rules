@@ -266,7 +266,7 @@ Some abilities give temporary wounds instead of healing missing wounds. When tak
 
 ### Action Points
 
-Action points (AP) are used during combat to move, attack, or cast spells. Each turn you refill your pool of action points up to its max. Aside from a few actions (listed in the Combat section) there is no limit on which actions you can take on your turn. Any unspent action points can be spent on reactions when it's not your turn. Reactions are triggered by specific actions other creatures take. For example, opportunity attacks can only be made when a creature tries to leave your zone of control.
+Action points (AP) are used during combat to move, attack, or cast spells. Characters start with 10 action points and at the start of each of your characters turns your action points are refilled. Aside from a few actions (listed in the Combat section) there is no limit on which actions you can take on your turn. Any unspent action points can be spent on reactions when it's not your turn. Reactions are triggered by specific actions other creatures take. For example, opportunity attacks can only be made when a creature tries to leave your zone of control.
 
 ### Death Saves
 
@@ -537,7 +537,7 @@ Starting at level 3, every 3 levels you increase an attribute score by 1, up to 
 
 ##### Action Points
 
-Your max action points increases by 1 at levels 10, 20 and 30.
+You start with a max of 10 action points, increasing by 1 at levels 10, 20 and 30.
 
 ##### Max Wounds Increase
 
@@ -639,10 +639,10 @@ Instead of making an attack you can attempt to grapple a creature. Make an athle
 You may end a grapple at any time. A grappled creature can attempt to free themselves on their turn by spending 5 AP. They make a Strength save against your athletics check, freeing themselves on success.
 
 ##### Defend (5 AP)
-Until your next turn you reroll 2 dice when making a defense roll, or 3 if you're holding a shield.
+Until your next turn you reroll 2 dice when making a defense roll and shields give an additional die to defense rolls.
 
-##### Move (3 AP, once per turn)
-You may move up to your move speed in tiles. Some terrain, such as difficult terrain, requires 2 tiles of movement for every tile you traverse. Movement does not have be done all at once, you can split your movement as many times as you want. For example if you have a movement of 5 you may move 3 tiles, take another action, and then move the remaining 2 tiles.
+##### Move (3+ AP, once per turn)
+You may move up to your move speed in tiles. You may increase your movement speed by 1 for each additional AP spent. Some terrain, such as difficult terrain, requires 2 tiles of movement for every tile you traverse. Movement does not have be done all at once, you can split your movement as many times as you want. For example if you have a movement of 5 you may move 3 tiles, take another action, and then move the remaining 2 tiles.
 
 ##### Sprint (2 AP, can only be used after move, once per turn)
 You may move up to your sprint speed plus your Dexterity score in tiles. Negative Dexterity has no effect on your sprint speed. Moving while sprinting follows the same rules as the Move action.
@@ -650,7 +650,7 @@ You may move up to your sprint speed plus your Dexterity score in tiles. Negativ
 ##### Reaction Attack (2 AP)
 When a creature tries to leave your zone of control you may make a reaction attack against them. You cannot use maneuvers, unless the maneuver says it can be used as a reaction, and the attack uses the same rules as the Attack action.
 
-##### Off-hand Attack (2 AP, can only be used after attack, once per turn)
+##### Off-hand Attack (2 AP, can only be used after attack, once per attack)
 When dual wielding, as long as you have taken the Attack action you may make an attack with your offhand weapon. This attack is identical to the Attack action, except you do not get any bonus from proficiency.
 
 ##### Use (2 AP)
@@ -2665,7 +2665,7 @@ Add a wound die and increase the Poison's duration by 1 turn for every level cas
 - **Range:** 3
 - **Duration:** 1 turn
 
-You conjure up a display of illusory light to distract up to 5 creatures. Creatures make a Willpower save against your spellcasting roll, adding a bad die for every creature you target past the first. On success, the creatures add 1 bad die to their next attack or spell attack roll on their next turn, or a terrible die on a critical.  You may cast this as a reaction for 2 AP, targeting a single creature and making a spellcasting roll against 2 terrible dice instead.
+You conjure up a display of illusory light to distract up to 5 creatures. Creatures make a Willpower save against your spellcasting roll, adding a bad die for every creature you target past the first. On success, the creatures add 1 bad die to their next attack or spell attack roll, or a terrible die on a critical.  You may cast this as a reaction for 2 AP, targeting a single creature and making a spellcasting roll against 2 bad dice instead.
 
 Add an enhanced die for every level cast above cast cantrip.
 
@@ -4867,7 +4867,7 @@ This cannot be used if you are adjacent to your target. You make a running leap 
 
 ***Enhanced:*** Add an enhanced die to the attack roll.
 
-***Superior:*** If you are dual wielding you may immediately Savage Leap to another creature using your offhand weapon for 3 AP.
+***Superior:*** If you are dual wielding you may immediately Savage Leap to another creature using your offhand weapon for 2 AP.
 
 #### Shield Slam
 
@@ -5007,7 +5007,7 @@ Used in place of your defend action. You raise your shield to defend against arr
 
 ***Enhanced:*** While your shield is raised you can reroll 1 die when making a defense roll against ranged attacks.
 
-***Superior:*** You may intercept any ranged attack passing through your tile, replacing the existing target with yourself.
+***Superior:*** You may intercept any ranged attack passing through your tile, changing the target to yourself.
 
 #### Run Down
 
@@ -5328,7 +5328,7 @@ You move your weapon in an elegant dance, quickly striking an enemy and leaving 
 
 ***Enhanced:*** On hit you add a critical success to all attacks against that creature until the end of your turn.
 
-***Superior:*** You may immediately make an offhand Blade Dance attack targeting a different creature in range. This attack costs 1 AP.
+***Superior:*** For the remainder of your turn, when making an off-hand attack you may use _Blade Dance_ instead.
 
 ### Level 9
 
@@ -5450,7 +5450,7 @@ You learn 1 maneuver you meet the requirements for and have 1 proficiency in 3 w
 You begin with hide armor and 3 weapons you are proficient with.
 
 #### Street Urchin
-You gain 1 proficiency in sleight of hand, stealth and lockpicking and have expertise in those skills. Your naturally hard to pin down. When taking the move or sprint action you may spend an extra 2 AP to prevent opportunity attacks from the movement. You start with a simple weapon of your choice.
+You gain 1 proficiency in sleight of hand, stealth and lockpicking and have expertise in those skills. Your naturally hard to pin down. When taking the move or sprint action you may spend double its AP cost to prevent opportunity attacks from the movement. You start with a simple weapon of your choice.
 
 #### Village Healer
 You have studied the traditional methods of healing. You start with an apothecary set and any 3 plants from the apothecary set's _wilderness survival rewards_ table. You have 2 proficiency with the apothecary set and 1 proficiency with nature, medicine, and survival. When making an apothecary roll your experience lets you reroll 1 die in the roll. You have a codex with two cantrips.
@@ -5578,7 +5578,7 @@ In addition to the spells you normally prepare, you may prepare divine spells eq
 #### Brutal Strikes
 *Requires 2 Strength, 3rd level*
 
-When making an attack or maneuver against a creature you add a wound die to the damage on a critical.
+When making an attack or maneuver, but not an off-hand attack, against a creature you add a wound die to the damage on a critical.
 
 #### Burst of Speed
 *Requires proficiency in athletics*
@@ -5790,12 +5790,15 @@ When inscribing a rune you may add 1 bad die to the scribing roll. On success yo
 
 While in combat you may spend 3 AP on your turn to use a free healing surge. This can be used once per rest.
 
-
-
 #### Sentinel
 *Requires 2 proficiency in perception, 7th level*
 
 The first opportunity attack you make each turn costs 1 AP less. Hostile creatures treat your zone of control as difficult terrain.
+
+#### Shield Master
+*Requires 3 Strength, 8th level*
+
+While holding a shield the defend action costs 1 AP less. While defending you add your shield's defense bonus to Strength and Dexterity saves you make.
 
 #### Signature Move
 *Requires 10th level*
@@ -5861,6 +5864,11 @@ You take no penalties from wearing armor. When making a defense roll you may rer
 *Requires Danger Sense, 12th level*
 
 You cannot be flanked. You have blindsight over adjacent tiles, allowing you to through darkness and invisible creatures on those tiles.
+
+#### Dual-Wield Master
+*Requires Dual-Wield Expert, 3 Dexterity, 15th level*
+
+Off-hand attacks cost 1 AP.
 
 #### Durable Runes
 *Requires Runesmith, 10th level*
@@ -5987,7 +5995,7 @@ Once per long rest, when rolling initiative as long as you are not surprised you
 #### Titanic Blow
 *Requires 5 Strength, 20th level*
 
-You deal an extra wound die with Strength based weapons. On hitting a creature you may reroll any wound dice and take the new values. You can do this 3 times per long rest.
+You deal an extra wound die with Strength based weapon attacks. On hitting a creature you may reroll any wound dice and take the new values. You can do this 3 times per long rest.
 
 #### Turnabout
 *Requires 5 Dexterity, 20th level*
