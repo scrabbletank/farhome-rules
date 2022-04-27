@@ -2605,7 +2605,7 @@ Add 3 superior dice when cast at 10th level.
 - **Duration:** instant
 - **Damage Type:** death
 
-Force open the wounds of a creature in range you can see. Make a spellcasting roll against the creatures Stamina save. On success they take 1 wound die in death damage, or 3 wound dice if they have already taken damage.
+Force open the wounds of a creature in range you can see. Make a spellcasting roll against the creatures Stamina save. On success they take 1 wound in death damage, adding 2 wound dice if they have taken damage before casting.
 
 You may target an extra creature for every level cast above cantrip.
 
@@ -2643,7 +2643,7 @@ The maximum weight doubles for every level cast above cantrip.
 
 You sense the presence of living creatures in a 3x3 tile area centered on a point in range you can see. Make a spellcasting roll against the creatures Willpower save. On success a dim light surrounds the creatures bodies. For the duration the effected creatures gain no benefits from invisibility, stealth, hiding, or anything that would obscure them from view such as fog or foliage. The light can be seen through walls as long as you are within 5 tiles of the creature.
 
-Add an enhanced die and increase the area by 1 for every level cast above cantrip.
+Add an enhanced die and increase the area by 2 for every level cast above cantrip.
 
 #### Snake Bite
 *Cantrip*
@@ -2653,7 +2653,7 @@ Add an enhanced die and increase the area by 1 for every level cast above cantri
 - **Duration:** 1 turn
 - **Damage Type:** poison
 
-You conjure a spectral snake to bite an adjacent creature. Make a spellcasting roll against the creatures Stamina save. On success they take a wound die in poison damage and gain Poison 1 for the duration, increasing the level of Poison for every critical rolled.
+You conjure a spectral snake to bite an adjacent creature. Make a spellcasting roll against the creatures Stamina save. On success they take a wound in poison damage and gain Poison 1 for the duration, increasing the level of Poison for every critical rolled.
 
 Add a wound die and increase the Poison's duration by 1 turn for every level cast above cantrip.
 
@@ -2742,7 +2742,7 @@ Add a wound die for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 6 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 7 days
 
 Curse a creature you can see with misfortune. Make a spellcasting roll against the creatures Willpower save. On success the creature is cursed, adding a bad die to all saving throws, or a terrible die on a critical. This curse can be removed through _Cleanse_ as if it was a normal condition.
@@ -2755,26 +2755,26 @@ You may target an additional creature for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 7 AP
-- **Range:** 7
+- **Range:** 10
 - **Duration:** 1 minute
 - **Damage Type:** fire
 
-You summon a swarm of burning fireflies on a tile in range. The flies attach themselves to nearby creatures, igniting them. When a creature enters the swarm for the first time this round or begins their turn there they make a Stamina save against your spellcasting roll. On failure they take 1 wound of fire damage. Any invisible creatures hit by the fireflies lose their invisibility if it came from a spell, otherwise becoming visible for 1 minute. There are enough fireflies to burn 3 times, after which the swarm disappears.
+You summon a swarm of burning fireflies on a tile in range. The flies attach themselves to nearby creatures, igniting them. When a creature enters the swarm for the first time this round or begins their turn there they make a Stamina save against your spellcasting roll. On failure they take 1 wound of fire damage. Any invisible creatures hit by the fireflies lose their invisibility if it came from a spell, otherwise becoming visible for 1 minute.
 
-The fireflies cover 1 additional adjacent tile and the number of burns increase by 1 for every level cast above 1st.
+The fireflies cover 1 additional adjacent tile and you add a wound die for every level cast above 1st.
 
 
 #### Ghoulish Claws
 *1st level*
 
-- **Casting Time:** 6 AP
+- **Casting Time:** 4 AP
 - **Range:** Self
-- **Duration:** 1 minute
+- **Duration:** 10 minutes, concentration
 - **Damage Type:** poison
 
-Your hands elongate, becoming deadly poisonous claws. While under the effects of this spell you may make an attack against a creature, using your spellcasting roll instead of your attack roll. On hit they take 3 wound dice in poison damage, paralyzing the target on a critical until the end of their next turn. You may make an attack when casting this spell.
+Your hands elongate, becoming deadly poisonous claws. While under the effects of this spell you may make an attack against a creature, using your spellcasting roll instead of your attack roll. On hit they take 3 wound dice in poison damage, gaining Poison 1 and Paralyze 1 for 1 minute on a critical.
 
-The duration increases by 1 minute for every level cast above 1st.
+The duration increases by 10 minutes and you add a critical success to your roll for every level cast above 1st.
 
 #### Hex
 *1st level*
@@ -2795,7 +2795,7 @@ Add an enhanced die for every level cast above 1st.
 - **Duration:** 1 minute
 - **Damage Type:** psychic
 
-Fire a bolt of psychic force, sticking to a creature in range you can see. Make a spellcasting roll against the creatures Willpower save, adding a bad die to your roll if the creature is not hexed. On success you deal 1 wound in psychic damage, adding a wound die if the creature is hexed. On a critical, the creature gains hex for 1 minute, or increases their level of hex up to a max of 3. For the next minute, once per turn you may spend 4 AP to make the same attack against the same creature, or move the hex bolt and attack a different creature within 2 tiles.
+Fire a bolt of psychic force, sticking to a creature in range you can see. Make a spellcasting roll against the creatures Willpower save, adding a bad die to your roll if the creature is not hexed. On success you deal 1 wound in psychic damage, adding a wound die for each level of Hex on the creature. On a critical, the creature gains Hex for 1 minute, or increases their level of Hex up to a max of 3. For the next minute, once per turn you may spend 3 AP to make the same attack against the same creature, or move the hex bolt and attack a different creature within 2 tiles.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -2808,11 +2808,9 @@ Add an enhanced die for every level cast above 1st.
 - **Duration:** instant
 - **Damage Type:** psychic
 
-You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the creatures Intelligence save. On success the creature takes a wound and a wound die of psychic damage, immediately fleeing on a critical. While fleeing the creature, if able, moves 1 tile per remaining AP up to their move speed, avoiding dangerous terrain if possible.
+You whisper eldritch words into a creatures mind, causing it to panic. Make a spellcasting roll against the creatures Intelligence save. On success the creature takes a wound and a wound die of psychic damage, immediately fleeing on a critical. While fleeing the creature, if able, moves 1 tile per remaining AP avoiding dangerous terrain if possible.
 
-Regardless of success the creature is distracted by the whispers and cannot make opportunity attacks this turn.
-
-Add an enhanced die for every level cast above 1st.
+You may target an extra creature for every level cast above 1st.
 
 
 
@@ -2830,8 +2828,8 @@ Add an enhanced die for every level cast above 1st.
 #### Sleep
 *1st level*
 
-- **Casting Time:** 7 AP
-- **Range:** 10
+- **Casting Time:** 9 AP
+- **Range:** 15
 - **Duration:** 1 hour
 
 You attempt to put a group of living creatures to sleep. Targeting a 6x6 tile area centered on a point in range, and make a spellcasting roll adding 2 superior dice. Starting with the creature with the lowest current wounds, subtract their remaining wounds from your successes. If you have 0 or more successes remaining they fall asleep for the duration. Continue this until there are no more creatures or you have no more successes remaining. Creatures that are hostile towards you or have magic resistance require 2 additional successes to put to sleep. Creatures that do not sleep are unaffected by this spell. The creatures wake up after the duration, if they take damage, or if another creature uses 5 AP to wake them.
@@ -2858,7 +2856,7 @@ Add an enhanced die to the spellcasting roll for every level cast above 1st.
 *2nd level*
 
 - **Casting Time:** 8 AP
-- **Range:** 5
+- **Range:** 10
 - **Duration:** concentration, 10 minutes
 
 Attempt to fill a creatures mind with rage, preventing it from seeing friend or foe. Make a spellcasting roll against the creatures Willpower save. On success the creature loses all remaining AP and makes an attack against a random creature within its attack range. For every critical rolled the target adds a normal die for all attack rolls for the duration. On each of this creatures turns they must spend it either attacking a random creature in range or moving towards the closest creature. Each time this creature takes damage they make a Willpower save against 2 bad dice, ending this effect on success.
@@ -2873,7 +2871,9 @@ Add an enhanced die for every level cast above 2nd.
 - **Duration:** 1 day
 - **Damage Type:** death
 
-You conjure up to 5 deadly, blackthorn arrows. Make a spellcasting roll adding a bad die per arrow. The arrows count as magical ammunition and can be fired from a bow or thrown by hand. When thrown it has a range of 10 and uses your spellcasting roll for the attack. When used the arrows explode into a 3x3 tile cloud of black smoke. All creatures in the smoke make a Stamina save against your spellcasting roll. On failure they take a wound and a wound die in death damage, becoming blind until the end of their next turn on a critical.
+You conjure up to 5 deadly, blackthorn arrows. Make a spellcasting roll adding a bad die per arrow. The arrows count as magical ammunition and can be fired from a bow or thrown by hand. When thrown it has a range of 10 and uses your spellcasting roll for the attack.
+
+When used the arrows explode into a 3x3 tile cloud of black smoke. All creatures in the smoke make a Stamina save against your spellcasting roll. On failure they take a wound and a wound die in death damage, becoming blind until the end of their next turn on a critical.
 
 You conjure an additional arrow for every level cast above 2nd.
 
@@ -2884,7 +2884,7 @@ You conjure an additional arrow for every level cast above 2nd.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Attempt to bind a creature you can see in shimmering chains. Make a spellcasting roll against the creatures Dexterity save, adding 2 bad dice if the creature is large or bigger. On success the creature is restrained for the duration. A restrained creature can spend 5 AP to try and break the chains, making a Strength save against your spellcasting roll. On success they are no longer restrained.
+Attempt to bind a creature you can see in shimmering chains. Make a spellcasting roll against the creatures Strength or Dexterity save. On success the creature is restrained for the duration. Once per turn a restrained creature can spend 5 AP to try and break the chains, making a Strength save against your spellcasting roll. On success they are no longer restrained.
 
 You can target an additional creature for every level cast above 2nd.
 
@@ -2897,9 +2897,9 @@ You can target an additional creature for every level cast above 2nd.
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** piercing
 
-You create a swirling cloud of teeth around yourself. If you roll 4 or less defense dice you add a defense die, otherwise replace a defense die with a superior defense die. The cloud extends to all adjacent tiles. Any creature that enters the cloud for the first time this round or starts their turn there makes a defense roll against your spellcasting roll. On hit they take a wound in piercing damage and gain slow 1 until the end of their next turn.
+You create a swirling cloud of teeth around yourself. Make a spellcasting roll against 1 bad die. On success you improve a defense die to a superior defense die, improving another for each critical rolled. The cloud extends to all adjacent tiles. Any creature that enters the cloud for the first time this round or starts their turn there makes a defense roll against your spellcasting roll. On hit they take a wound in piercing damage and gain slow 1 until the end of their next turn.
 
-The cloud's area increases by 1 and you add or improve a defense die for each level cast above 2nd.
+The cloud's area increases by 1 and you add a wound die for each level cast above 2nd.
 
 #### Command
 *2nd level*
@@ -2917,12 +2917,12 @@ Add an enhanced die for every level cast above 2nd.
 #### Corpse Explosion
 *2nd level*
 
-- **Casting Time:** 7 AP
+- **Casting Time:** 9 AP
 - **Range:** 10
 - **Duration:** instant
 - **Damage Type:** death
 
-You cause a large or smaller corpse to explode, launching sharp bone shards at nearby creatures. Medium and smaller creatures explode hitting all adjacent creatures, while large creatures explode hitting all creature within 2 tiles. Make a spellcasting roll against the creatures Stamina save. On success they gain poison 1 for 1 minute and take a wound in death damage, adding an wound die on a critical. A creature caught in multiple blasts takes an extra wound die per blast.
+You cause a large or smaller corpse to explode, launching sharp bone shards at nearby creatures. Medium and smaller creatures explode hitting all adjacent creatures, while large creatures explode hitting all creature within 2 tiles. Make a spellcasting roll against the creatures Stamina save. On success they gain Poison 1 for 10 minutes and take a wound in death damage, adding an wound die on a critical. A creature caught in multiple blasts takes an extra wound per blast.
 
 You may target an additional corpse for each level cast above 2nd.
 
@@ -2931,7 +2931,7 @@ You may target an additional corpse for each level cast above 2nd.
 *2nd level*
 
 - **Casting Time:** 6 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 7 days
 
 Curse a creature you can see with fragility. Make a spellcasting roll against the creatures Willpower save. On success they add a bad die to their defense rolls, or a terrible die on a critical. This effect can only be removed by _Break Curse_ or similar spells.
@@ -2944,7 +2944,7 @@ You may target an additional creature for every level cast above 2nd.
 *2nd level*
 
 - **Casting Time:** 6 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 7 days
 
 Curse a creature you can see, extending their suffering. Make a spellcasting roll against their Willpower save. On success any negative condition affecting the creature lasts an additional turn after being removed. Negative conditions last an additional turn even if removed through magic, such as with _Cleanse_. On a critical any time they gain hex, slow, or poison they gain an additional level of that condition.
@@ -2968,7 +2968,7 @@ Add an enhanced die for every level cast above 2nd.
 *2nd level*
 
 - **Casting Time:** 6 AP
-- **Range:** 5
+- **Range:** 10
 - **Duration:** concentration, 10 minutes
 
 Attempt to cloud the mind of a creature in range you can see. Make a spellcasting roll against the creatures Intelligence save. On success the creature adds a bad die to all spellcasting rolls, or a terrible die on a critical.
@@ -2980,8 +2980,8 @@ You may target an additional creature for each level above 2nd.
 *2nd level*
 
 - **Casting Time:** 7 AP
-- **Range:** 10
-- **Duration:** 1 minute
+- **Range:** 20
+- **Duration:** 5 minutes
 - **Damage Type:** bludgeoning
 
 You create a spiraling mass of wind covering a 3x3 tile area centered on a point in range. Any creature that enters the wind for the first time this round or starts their turn there makes a Strength save against your spellcasting roll. On failure they are pushed 2 tiles away from the wind and take 1 wound in bludgeoning damage. Any mundane projectile firing through the whirlwind adds a terrible die to their attack roll.
@@ -2994,8 +2994,8 @@ The area of the whirlwind increases by 2 for every level cast above 2nd. When ca
 *2nd level*
 
 - **Casting Time:** 6 AP
-- **Range:** 10
-- **Duration:** 1 minute
+- **Range:** 15
+- **Duration:** 5 minutes
 
 You create a mass of webs in a 5x5 tile area centered on a point in range you can see. When a creature enters the web for the first time this round or starts their turn there they make a Dexterity save against your spellcasting. On failure they are grappled, or restrained on a critical. A creature effected by your webs can be freed by making a successful attack against 3 defense dice. Any creature in range is capable of making this attack.
 
@@ -3032,7 +3032,7 @@ Add an enhanced die to the summoning roll for each level cast above 2nd.
 *3rd level*
 
 - **Casting Time:** 7 AP
-- **Range:** 5
+- **Range:** 10
 - **Duration:** concentration, 10 minutes
 
 Suppress a creatures natural abilities. Make a spellcasting roll against the creatures Willpower save. On success you choose either Strength or Dexterity. The creature does not gain proficiency for any skills, saving throws, or weapon attacks using that attribute.
@@ -3042,8 +3042,8 @@ You may target an additional creature for each level above 3rd.
 #### Blindness
 *3rd level*
 
-- **Casting Time:** 6 AP
-- **Range:** 5
+- **Casting Time:** 7 AP
+- **Range:** 10
 - **Duration:** concentration, 10 minutes
 
 Blind up to 5 creatures in range you can see. Creatures that see through alternative means, such as through _Tremor Sense_, have those senses blinded by this spell. Make a spellcasting roll against the creatures Stamina save, adding a bad die for every creature targeted past the first. On success the creature is blinded for 10 minutes.
@@ -3054,7 +3054,7 @@ Add an enhanced die for each level above 3rd.
 *3rd level*
 
 - **Casting Time:** 6 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 7 days
 
 Curse a creature you can see with weakness. Make a spellcasting roll against the creatures Willpower save. On success, they are weakened, being unable to inflict lesser or greater wounds with attacks on a critical.
@@ -3099,7 +3099,7 @@ The spell lasts an additional 24 hours for every level cast above 3rd.
 *3rd level*
 
 - **Casting Time:** 7 AP
-- **Range:** 15
+- **Range:** 10
 - **Duration:** 1 minute
 
 You assume a horrifying visage, fearing up to 5 creatures in range that can see you. Make a spellcasting roll, adding 1 bad die for every creature targeted after the first, against the creatures Willpower save. On success the creatures are feared with you as the source. Each time they take damage they make a Willpower save against your spellcasting roll, ending the effect on success.
@@ -3111,7 +3111,7 @@ Add an enhanced die for every level cast above 3rd.
 *3rd level*
 
 - **Casting Time:** 7 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 1 minute
 
 Attempt to turn a creature you can see into a harmless frog. Make a spellcasting roll against the creatures Stamina save, adding 1 terrible die if the creature's size is large, or 2 terrible dice if they are huge or greater. On success the creature turns into a harmless frog. Items they are wearing are transformed with them, but anything they were holding drops to the ground.
@@ -3174,7 +3174,7 @@ Increase the number of illusions by 1 for every level cast above 3rd.
 *3rd level*
 
 - **Casting Time:** 5 AP
-- **Range:** 10
+- **Range:** 15
 - **Duration:** concentration, 10 minutes
 
 You shroud a 5x5 area centered on a point in range in a consuming darkness that extinguishes mundane light. All tiles in the area are treated as being in complete darkness. Any creatures that enter the darkness for the first time this round or start their turn there makes a Stamina save against your spellcasting roll. On fail they are blind until the end of their next turn. If a creature is maintaining a _Light_ spell inside the darkness they must make a spellcasting roll against your spellcasting roll, ending the spell on fail.
@@ -3209,7 +3209,7 @@ Add an enhanced die to your roll for every level cast above 4th.
 *4th level*
 
 - **Casting Time:** 6 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 7 days
 
 Curse a creature you can see with an unnatural slowness. Make a spellcasting roll against the creatures Willpower save. On success all actions they take costs 1 extra AP, or 2 extra AP on a critical.
@@ -3366,7 +3366,7 @@ Add an enhanced die to your spellcasting roll, and you may target an additional 
 *5th level*
 
 - **Casting Time:** 6 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 7 days
 
 Curse a creature you can see with pain. Make a spellcasting roll against the creatures Willpower save. On success the creature takes an extra wound die every time they take damage, or a full wound on a critical.
@@ -3489,7 +3489,7 @@ The duration increases by 1 hour for every level cast above 5th.
 *6th level*
 
 - **Casting Time:** 6 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 7 days
 
 Curse a creature you can see with an unnatural fear. Make a spellcasting roll against the creatures Willpower save. On success the creature is feared as long as there is a hostile creature within 10 tiles, or is afraid of all creatures on a critical. A creature gains no benefits from resting while under this curse.
@@ -3567,7 +3567,7 @@ Their max wounds increase by 1 for every level cast above 6th.
 *7th level*
 
 - **Casting Time:** 7 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 7 days
 - **Damage Type:** psychic
 
@@ -3646,7 +3646,7 @@ Add a superior die for every level cast above 8th.
 *8th level*
 
 - **Casting Time:** 7 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** 7 days
 
 Curse a creature you can see with sudden mortality. Make a spellcasting roll against the creatures Willpower save. On success, if their health drops to 7 wounds or below they instantly die, increasing the threshold by 1 for every critical.
@@ -5662,6 +5662,11 @@ When searching for food you find twice the amount with a successful survival rol
 *Requires proficiency in nature, 2 Strength*
 
 When attacked by a wild beast or plant creature they make a Willpower save against your raw Strength roll. On failure they must find a new target or the attack fails. Once a beast succeeds they are immune to this effect for 24 hours.
+
+#### Great Weapon Fighter
+*Requires 5 Strength, 10th level*
+
+Weapons you wield with both hands do not count as _Heavy_.
 
 #### Helping Hand
 *Requires proficiency in divine spells, 6th level*
