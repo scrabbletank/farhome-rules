@@ -650,7 +650,7 @@ You may move up to your sprint speed plus your Dexterity score in tiles. Negativ
 ##### Reaction Attack (2 AP)
 When a creature tries to leave your zone of control you may make a reaction attack against them. You cannot use maneuvers, unless the maneuver says it can be used as a reaction, and the attack uses the same rules as the Attack action.
 
-##### Off-hand Attack (2 AP, can only be used after attack, once per attack)
+##### Off-hand Attack (2 AP, can only be used after an attack, once per attack action)
 When dual wielding, as long as you have taken the Attack action you may make an attack with your offhand weapon. This attack is identical to the Attack action, except you do not get any bonus from proficiency.
 
 ##### Use (2 AP)
@@ -733,7 +733,7 @@ When a weakened creature hits with any attack or maneuver, all wounds are replac
 ## Terms
 
 ##### Heavy
-This weapon is extremely heavy and can only be used in an attack or maneuver once per turn.
+This weapon is extremely heavy. Attacks and maneuvers made with this weapon add 2 AP to their cost.
 
 ##### Finesse
 This weapon can use either Strength or Dexterity for attack rolls.
@@ -751,7 +751,7 @@ This weapon can attack creatures 1 tile further and their zone of control extend
 You reduce the number of wounds dealt by the level of resistance. For example, _Fire Resistance 1_ reduces all wounds taken from fire damage by 1.
 
 ##### Thrown
-This weapon can be thrown using the ranged weapon proficiency instead. You may use either Strength or Dexterity for the roll. Thorn is followed by two numbers, the near and far range. Attacks made inside the near range attack as normal while attacks made within the far range add 2 terrible dice to the attack roll.
+This weapon can be thrown using the ranged weapon proficiency instead. You may use either Strength or Dexterity for the roll. Thrown is followed by two numbers, the near and far range. Attacks made inside the near range attack as normal while attacks made within the far range add 2 terrible dice to the attack roll.
 
 ##### Two-Handed
 This weapon requires both hands to use.
@@ -5321,7 +5321,7 @@ This cannot be used in constrained areas. Launch a volley of arrows hitting all 
 #### Blade Dance
 
 - **AP Cost:** 4/3/3
-- **Weapon:** any one handed melee weapon
+- **Weapon:** any one handed finesse weapon
 - **Range:** melee
 - **Level Required:** 8/15/25
 
@@ -6166,13 +6166,13 @@ A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the att
 | Weapon | Modifiers | Damage | Cost | Type
 |:----|:----:|:----:|----:|----:|
 | *Simple* |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Dagger  | Finesse | 1 | 5sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Dagger  | Thrown 5/10, Finesse | 1 | 5sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Club  | - | 1 wound die | 4sc | Bludgeoning |
 | &nbsp;&nbsp;&nbsp;&nbsp;Barbed Gauntlets  | Unarmed | 2 wound dice | 10sc | Bludgeoning |
 | &nbsp;&nbsp;&nbsp;&nbsp;Spear | Reach 1 | 1 | 8sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Crossbow | Loading | 1 | 35sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Crossbow | Two-Handed, Loading, Range 25/-- | 1 | 35sc | Piercing |
 | *Martial* |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Javelin | Thrown 5/10, Finesse | 1 | 4sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Javelin | Thrown 10/15, Finesse | 1 | 4sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Hatchet | Thrown 5/10 | 1 | 8sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Axe | - | 1 | 15sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Halberd | Versatile 1, Reach 1 | 1 | 25sc | Piercing |
@@ -6181,10 +6181,14 @@ A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the att
 | &nbsp;&nbsp;&nbsp;&nbsp;Mace | - | 1 | 30sc | Bludgeoning |
 | &nbsp;&nbsp;&nbsp;&nbsp;Warhammer | Two-Handed | 1 + 1 wound die | 80sc | Bludgeoning |
 | &nbsp;&nbsp;&nbsp;&nbsp;Sword | Finesse | 1 | 35sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Great Sword | Two-Handed | 1 + 1 wound die | 70sc | Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Long Sword | Two-Handed | 1 + 1 wound die | 70sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Battle Axe | Two-Handed | 3 wound dice | 70sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Lance | Two-Handed, Heavy, Reach 2 | 2 | 85sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Bow | Range 15/25 | 1 + arrow damage | 30sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Great Sword | Two-Handed, Heavy | 1 + 2 wound dice | 1pt 50sc | Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Great Axe | Two-Handed, Heavy | 4 wound dice | 1pt 50sc | Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Great Maul | Two-Handed, Heavy | 2 | 2pt | Bludgeoning |
+| &nbsp;&nbsp;&nbsp;&nbsp;Bow | Two-Handed, Range 15/25 | 1 + arrow damage | 30sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Hand Crossbow | Loading, Range 25/-- | 1 | 35sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Arrow | - | 1 wound die | 5ct | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Bolt | - | - | 5ct | Piercing |
 
