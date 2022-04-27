@@ -5388,9 +5388,9 @@ Attempt to mortally wound a creature. Make a weapon attack adding a superior die
 
 Swiftly strike up to 5 creatures in range. Make a weapon attack against the creatures adding 2 terrible dice to the attack roll. On hit you deal normal damage, moving to an empty tile beside a targeted creature.
 
-***Enhanced:*** You add a single terrible dice instead of 2. If you hit every target they grant combat advantage until the start of your next turn.
+***Enhanced:*** You add a single terrible dice instead of 2 and may target up to 7 creatures.
 
-***Superior:*** The range increases to 3 and you may target up to 7 creatures.
+***Superior:*** The range increases to 3 and you may target any number of creatures.
 
 ## Feats
 
@@ -5480,7 +5480,7 @@ You resonate particularly well with magic items. You may attune to 4 items at on
 Once per turn, when you cast a cantrip or 1st level spell your next basic attack costs 2 less AP. Alternatively if you make a basic attack your next cantrip or 1st level spell costs 2 less AP, with a minimum of 1. The spell level increases to 2nd at 7th level, and 3rd at 14th level, and 4th at 21th level.
 
 #### Dual-Wield Expert
-You have no penalties from dual wielding. While dual wielding you count as holding a shield when taking the Defend action.
+You have no penalties from dual wielding. While dual wielding you add a defense die to your defense rolls when taking the defend action.
 
 #### Duelist
 You are an expert with one-handed weapons. When attacking with a one-handed weapon you reroll 1 die in your attack roll. If you're holding nothing in your off hand you have expertise with your attack roll instead.
@@ -5745,8 +5745,6 @@ When casting an arcane spell that deals at least 1 wound of damage you may overc
 
 Once per turn when a creature takes a movement action towards you, you may spend 2 AP to make a ranged weapon attack as a reaction as long as the creature is within your weapons near range.
 
-
-
 #### Perfect Defense
 *Requires 4 Strength, 12th level*
 
@@ -5771,6 +5769,11 @@ You may reroll a die when making enchanting rolls. Enchantments you make last 7 
 *Requires proficiency in occult spells, 7th level*
 
 Creatures under negative effects caused by your spells also grant combat advantage to your attacks against those creatures.
+
+#### Quickdraw
+*Requires 3 proficiency in ranged weapons*
+
+You ignore the _Loading_ property of crossbows. You add a critical success to crossbow attacks against creatures within 3 tiles of you.
 
 #### Quickened Spellcasting
 *Requires proficiency in a spell school*
@@ -5805,7 +5808,7 @@ The first opportunity attack you make each turn costs 1 AP less. Hostile creatur
 #### Shield Master
 *Requires 3 Strength, 8th level*
 
-While holding a shield the defend action costs 1 AP less. While defending you add your shield's defense bonus to Strength and Dexterity saves you make.
+While holding a shield the defend action costs 1 AP less. While defending you add your shield's defense dice to Strength and Dexterity saves you make.
 
 #### Signature Move
 *Requires 10th level*
