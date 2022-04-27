@@ -1408,7 +1408,7 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - **Duration:** instant
 - **Damage Type:** bludgeoning
 
-Conjure a barrage of stones in an arc 3 tiles wide and 3 tiles long. Each creature makes a defense roll against your spellcasting roll. Roll 3 wound dice, starting from the closest hit creature split the damage evenly across all hit creatures, up to a max of 3. Creatures are staggered on a critical.
+Conjure a barrage of stones in an arc 3 tiles wide and 3 tiles long. Each creature makes a defense roll against your spellcasting roll. Roll 3 wound dice, starting from the closest hit creature split the damage evenly across all hit creatures, up to a max of 3 wounds per creature. Creatures are staggered on a critical.
 
 Add a wound die and increase the length of the arc by 1 for every level cast above cantrip.
 
@@ -1494,7 +1494,7 @@ Add an enhanced die for every level cast above cantrip.
 
 Conjure a rolling thunder to blast a creature away. Make a spellcasting roll against the creatures Strength save. On success they take a wound die in thunder damage, are pushed back 1 tile, and staggered until the end of their next turn. For every critical rolled the creature is pushed an extra tile. If the creature is unable to move, either due to another creature or obstacle, add a wound die to the damage for every tile remaining.
 
-Add an enhanced die for every level cast above cantrip.
+Add an enhanced die and creatures are pushed back an additional tile for every level cast above cantrip.
 
 ### First Level
 
@@ -1534,13 +1534,13 @@ Add an enhanced die for every level cast above 1st.
 
 A blast of fire erupts from your hands hitting all creatures in a 4 tile line. Make a spellcasting roll against the creatures defense. On success the target takes a wound in fire damage, adding a wound on a critical.
 
-The beam reaches 2 tiles further and deals an extra wound die for every level cast above 1st.
+The beam reaches 3 tiles further and deals an extra wound die for every level cast above 1st.
 
 #### Call Lightning
 *1st level*
 
 - **Casting Time:** 7 (5) AP
-- **Range:** 10
+- **Range:** 15
 - **Duration:** instant
 - **Damage Type:** lightning
 
@@ -1553,13 +1553,13 @@ Add an enhanced die for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 6 AP
-- **Range:** 5
+- **Range:** 7
 - **Duration:** instant
 - **Damage Type:** cold
 
 Fire a frigid beam at 3 creatures in range you can see. Make a spellcasting roll against the creatures Stamina save. On success, the creature takes 1 wound die in cold damage and gains Slow 1, or Slow 2 on a critical.
 
-Add an enhanced die for every level cast above 1st.
+Add an enhanced die and you may target an additional creature for every level cast above 1st.
 
 
 #### Detect Magic
@@ -1591,7 +1591,7 @@ Add an enhanced die for every level cast above 1st
 - **Range:** self
 - **Duration:** concentration, 1 hour
 
-Create a floating eye, visible only to those who can see the ethereal plane or have cast the spell _Detect Magic_ on it. You can see, but not hear, everything the eye can see in addition to your normal senses. On your turn you can command the eye to move up to 5 tiles as a free action. If the eye moves more than 10 tiles away from you, you must make a spellcasting roll against 2 bad dice, repeating this roll every minute. On failure the spell ends. The eye cannot move through solid objects, but can fit through a 1 inch hole.
+Create a floating eye, visible only to those who can see the ethereal plane or have cast the spell _Detect Magic_ on it. You can see, but not hear, everything the eye can see in addition to your normal senses. On your turn you can command the eye to move up to 5 tiles as a free action. If the eye moves more than 20 tiles away from you, you must make a spellcasting roll against 2 bad dice, repeating this roll every minute. On failure the spell ends. The eye cannot move through solid objects, but can fit through a 1 inch hole.
 
 If the eye is able to fully spot a creature behind cover, they gain 1 less bonus die from cover against your attacks.
 
@@ -1601,13 +1601,13 @@ Add an enhanced die for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 7 AP
-- **Range:** 5
+- **Range:** 10
 - **Duration:** 1 minute
 - **Damage Type:** poison
 
 Summon bubbling acid on 3 tiles at points in range you can see. When a creature starts their turn or enters a tile for the first time on a round you make a spellcasting roll against their Stamina save. On success they take 1 wound in poison damage and on a critical gain poison 1 until the end of their next turn. These tiles count as difficult terrain, and last for 1 minute.
 
-Add a tile for every level cast above 1st.
+Add a tile and a wound die to the damage for every level cast above 1st.
 
 
 
@@ -3505,7 +3505,7 @@ You may target an additional creature for every level cast above 6th.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures Charisma save. On success the creature loses any powers gained from a deity or pact and loses the attunement benefits from magic items. Isolated creatures are shrouded from the divine weave, any spell cast against an isolated creature adds 1 terrible die to its roll.
+You sever the connections surrounding a creature you can see, leaving them utterly isolated. Make a spellcasting roll against the creatures Charisma save. On success the creature loses any powers gained from a deity or pact and loses the attunement benefits from magic items. Isolated creatures are shrouded from the divine weave, any spell cast against an isolated creature adds a terrible die to its roll.
 
 Add an enhanced die for every level cast above 6th.
 
@@ -3923,15 +3923,15 @@ Add an enhanced die for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 7 AP
-- **Range:** 7
+- **Range:** 15
 - **Duration:** 5 minutes
 - **Damage Type:** piercing
 
 A 3x3 tile growth of razor sharp bramble appears centered on a point in range you can see. The bramble counts as difficult terrain and is flammable, each tile burning away after taking 1 wound of fire damage.
 
-Any creature taking a move or sprint action through the bramble makes a Dexterity save against your spellcasting roll. On failure they take 1 wound die in piercing damage, being tangled in the bramble on a critical, ending their movement. A creature makes this save only once per move or sprint action.
+Any creature taking a move or sprint action through the bramble makes a Dexterity save against your spellcasting roll. On failure they take 1 wound in piercing damage, being tangled in the bramble on a critical and ending their movement. A creature makes this save only once per move or sprint action.
 
-The area increases by 1 for every level cast above 1st.
+The area increases by 2 for every level cast above 1st.
 
 #### Breath
 *1st level*
@@ -3949,12 +3949,12 @@ Add an enhanced die for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 6 AP
-- **Range:** 15
+- **Range:** 30
 - **Duration:** 10 minutes
 
-A chilling fog covers a 5x5 tile area centered on a point in range you can see. A creature that enters the fog for the first time this round or starts their turn there makes a Stamina save against your spellcasting roll. On failure they gain slow 1 for the next minute, increasing to slow 2 on a crit. All creatures inside the fog have _Resistance 1_ to fire damage. The fog heavily obscures the area counting as quarter cover.
+A chilling fog covers a 5x5 tile area centered on a point in range you can see. A creature that enters the fog for the first time this round or starts their turn there makes a Stamina save against your spellcasting roll. On failure they gain Slow 1 for the next minute, increasing to Slow 2 on a crit. All creatures inside the fog have _Resistance 1_ to fire damage. The fog heavily obscures the area counting as quarter cover.
 
-The size and range of the fog increases by 2 for every level cast above 1st.
+The size and range of the fog increases by 4 for every level cast above 1st.
 
 
 #### Close Wounds
@@ -3973,12 +3973,12 @@ Add a wound die for every level cast above 1st.
 
 - **Casting Time:** 4 AP
 - **Range:** self
-- **Duration:** concentration, 1 minute
+- **Duration:** concentration, 5 minutes
 - **Damage Type:** holy
 
 Enchant your weapon with holy power. For the next minute you may use your spellcasting roll in place of attack rolls you make. Your attacks add an additional wound die of holy damage, or 3 wound dice if the target is undead.
 
-Duration increases by 1 minute for every level cast above 1st.
+Duration increases by 5 minutes for every level cast above 1st.
 
 #### Solar Flash
 *1st level*
@@ -4024,7 +4024,7 @@ Add an enhanced die for every level cast above 1st.
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** holy
 
-Mark a 3x3 tile area centered on yourself. Any undead or monstrosity attempting to enter the consecrated ground makes a Charisma save against your spellcasting roll. On failure they cannot willingly enter. Any undead or monstrosity inside the consecrated ground takes 1 wound in holy damage at the start of their turn. Allies inside the zone gain 1 proficiency to all saving throws. Leaving the consecrated ground ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.
+Mark a 5x5 tile area centered on yourself. Any undead or monstrosity attempting to enter the consecrated ground makes a Charisma save against your spellcasting roll. On failure they cannot willingly enter. Any undead or monstrosity inside the consecrated ground takes 1 wound in holy damage at the start of their turn. Allies inside the zone gain 1 proficiency to all saving throws. Leaving the consecrated ground ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.
 
 The area increases by 2 for every level cast above 2nd.
 
@@ -4035,9 +4035,9 @@ The area increases by 2 for every level cast above 2nd.
 - **Range:** 3
 - **Duration:** concentration, 1 hour
 
-You bless up to 5 creatures in range that you can see. Make a spellcasting roll against a terrible die, adding a terrible die for each creature targeted. On success the creatures increase an attribute of their choosing by 1 for the duration of the spell, increasing the proficiency of that attributes saving throw for every critical.
+You bless up to 5 creatures in range that you can see. Make a spellcasting roll against a terrible die, adding a terrible die for each creature targeted. On success the creatures increase an attribute of their choosing by 1 for the duration of the spell. On a critical creatures may reroll a die in that attributes saving throw.
 
-Add an enhanced die for every level cast above 1st.
+Add an enhanced die for every level cast above 2nd.
 
 
 #### Gust
@@ -4050,7 +4050,7 @@ Add an enhanced die for every level cast above 1st.
 
 You cause strong winds to blow down the length of a 10x2 tile line. On casting and at the start of each of your turns all creatures in the wind make a Strength save against your spellcasting roll. On failure they are pushed back 1 tile, or 2 tiles on a critical. If a creature is pushed into an obstacle or a tile with another creature they take 1 wound in bludgeoning damage. Any creature trying to move against the wind counts as moving through difficult terrain. On your turn or as a reaction you may spend 2 AP to reverse the direction of the wind.
 
-Add an enhanced die for every level cast above 2nd.
+Add an enhanced die and increase the width by 1 for every level cast above 2nd.
 
 #### Healing Word
 *2nd level*
@@ -4070,7 +4070,7 @@ Add a normal die for every level cast above 2nd.
 - **Range:** touch
 - **Duration:** 10 minutes
 
-Conjure a rejuvenating, fruit bearing bush. The bush can have up to 5 fruit, making a spellcasting roll, adding a bad die per fruit. On success a creature may eat one of the fruit during a short or long rest to restore a healing surge. They may also remove a poison or disease affecting them, unless the effect comes from a spell cast at a higher level than _Seed of Renewal_.
+Conjure a rejuvenating, fruit bearing bush. The bush can have up to 5 fruit. Make a spellcasting roll against a bad die per fruit grown. On success a creature may eat one of the fruit during a short or long rest to gain a healing surge. They may also remove a poison or lesser wound affecting them, unless the effect comes from a spell cast at a higher level than _Seed of Renewal_.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -4089,7 +4089,7 @@ Add an enhanced die for every level cast above 2nd.
 #### Treat Injury
 *2nd level*
 
-- **Casting Time:** 1 minute
+- **Casting Time:** 10 minutes
 - **Range:** touch
 - **Duration:** instant
 
@@ -4102,11 +4102,13 @@ Add an enhanced die for every level cast above 2nd.
 
 - **Casting Time:** 5 AP
 - **Range:** 5
-- **Duration:** 1 turn
+- **Duration:** 1 minute
 
-Channel your faith to form a protective wall 4 tiles wide and 4 tiles tall centered on a point in range you can see. Make a spellcasting roll adding 2 bad dice. On success the wall is created. The wall is transparent, blocking creatures and projectiles from passing through it. This can be cast as a reaction using 2 terrible dice instead of 2 bad dice. The wall lasts until the start of your next turn.
+Channel your faith to form a protective wall 4 tiles wide and 4 tiles tall centered on a point in range you can see. Make a spellcasting roll adding a bad die. On success the wall is created. You may cast this as a reaction using 2 terrible dice instead of a bad die.
 
-Add an enhanced die for every level cast above 2nd.
+The wall is transparent, blocking creatures and projectiles from passing through it. The wall has 1 wound, adding a wound for every 2 successes in your roll.
+
+Add an enhanced die for every level cast above 2nd. When cast at 5th level and above the wall has _Resistance_ 1 to all damage.
 
 #### Winds of Battle
 *2nd level*
@@ -5578,7 +5580,7 @@ In addition to the spells you normally prepare, you may prepare divine spells eq
 #### Brutal Strikes
 *Requires 2 Strength, 3rd level*
 
-When making an attack or maneuver, but not an off-hand attack, against a creature you add a wound die to the damage on a critical.
+When making a Strength based attack or maneuver you add a wound die to the damage on a critical.
 
 #### Burst of Speed
 *Requires proficiency in athletics*
