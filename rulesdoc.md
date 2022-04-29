@@ -5830,6 +5830,11 @@ Your experience with scribing tools allows you to create spell scrolls for spell
 
 You may use spell scrolls to cast the spell written on them. When using a spell scroll you cast as normal, except it doesn't require mana and doesn't need to be prepared. After casting roll a bad die. On failure the spell scroll is destroyed.
 
+#### Steady Aim
+*Requires 2 proficiency in ranged weapons*
+
+When using a bow your near range is doubled. When making an attack or maneuver using a bow you may increase the action cost by 1 AP to convert a wound die to a wound.
+
 #### Sticky Hands
 *Requires proficiency in sleight of hands*
 
@@ -6192,10 +6197,11 @@ A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the att
 | &nbsp;&nbsp;&nbsp;&nbsp;Long Sword | Two-Handed | 1 + 1 wound die | 70sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Battle Axe | Two-Handed | 3 wound dice | 70sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Lance | Two-Handed, Heavy, Reach 2 | 2 | 85sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Glaive | Heavy, Versatile 1, Reach 1 | 1 + 1 wound dice | 1pt 30sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Sword | Two-Handed, Heavy | 1 + 2 wound dice | 1pt 50sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Axe | Two-Handed, Heavy | 4 wound dice | 1pt 50sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Maul | Two-Handed, Heavy | 2 | 2pt | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Bow | Two-Handed, Range 15/25 | 1 + arrow damage | 30sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Bow | Two-Handed, Range 7/30 | 1 + arrow damage | 30sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Hand Crossbow | Loading, Range 25/-- | 1 | 35sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Arrow | - | 1 wound die | 5ct | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Bolt | - | - | 5ct | Piercing |
@@ -6215,8 +6221,8 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 | &nbsp;&nbsp;&nbsp;&nbsp;Hide | 1/3 | 1 | 60sc | 2 bad dice |
 | &nbsp;&nbsp;&nbsp;&nbsp;Chain Shirt, Scalemail | 2/2 | 2 | 85sc | 2 bad dice |
 | *Heavy*  |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Half Plate, Splint | 2/3 | 3 | 155sc | 2 terrible dice |
-| &nbsp;&nbsp;&nbsp;&nbsp;Full Plate | 3/2 | 4 | 300sc | 2 terrible dice |
+| &nbsp;&nbsp;&nbsp;&nbsp;Half Plate, Splint | 2/3 | 3 | 1pt 55sc | 2 terrible dice |
+| &nbsp;&nbsp;&nbsp;&nbsp;Full Plate | 3/2 | 4 | 3pt | 2 terrible dice |
 | *Shield*  |  |  | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Buckler | +0/1 | 0 | 15sc | none |
 | &nbsp;&nbsp;&nbsp;&nbsp;Shield | +1/0 | 2 | 50sc | none |
