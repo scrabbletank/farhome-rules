@@ -6201,7 +6201,7 @@ A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the att
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Sword | Two-Handed, Heavy | 1 + 2 wound dice | 1pt 50sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Axe | Two-Handed, Heavy | 4 wound dice | 1pt 50sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Maul | Two-Handed, Heavy | 2 | 2pt | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Bow | Two-Handed, Range 7/30 | 1 + arrow damage | 30sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Bow | Two-Handed, Range 10/30 | 1 + arrow damage | 30sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Hand Crossbow | Loading, Range 25/-- | 1 | 35sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Arrow | - | 1 wound die | 5ct | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Bolt | - | - | 5ct | Piercing |
