@@ -837,7 +837,7 @@ Dungeons may be filled with traps or other hazards. Traps may be hidden, trigger
 Hazards, such as a pool of lava or acid, are more obvious. Creatures that enter those tiles take damage immediately, taking damage again at the start of their turn for as long as they are in the hazard. A creature doesn't need to willingly move into a hazard to be affected by it. Characters can shove or push other creatures, or cast spells that knock creatures back.
 
 #### Darkness
-Most creatures are unable to see in the dark and struggle to see creatures in dim light. When making an attack, maneuver, spell attack, or trying to detect a creature in darkness you add 2 terrible dice to your roll, or 1 bad die if they are in dim light. Most of the time if a creature has a free hand they can light a torch, covering a 3 tile area around the creature in bright light and a further 3 tiles in dim light.
+Most creatures are unable to see in the dark and struggle to see creatures in dim light. When making a single target attack, maneuver, spell attack, or when trying to detect a creature in darkness you add 2 terrible dice to your roll, or 1 terrible die if they are in dim light. If a creature has a free hand they can light a torch, covering a 3 tile area around the creature in bright light and a further 3 tiles in dim light.
 
 
 
@@ -959,7 +959,7 @@ It is rumored that high elves are descended from the fae, a group of magical and
 
 ##### Innate Magic
 
-You learn a single cantrip. This cantrip does not need to be prepared or in your codex to cast. You start with 1 extra mana and recover 1 extra mana each short and long rest.
+You gain 1 spell power.
 
 #### Wood Elf
 
@@ -1027,7 +1027,7 @@ Due to their small stature, beast-like appearance and affinity for darkness they
 
 ##### Occult Blood
 
-You are always under the effects of the spell _Dark Sight_ and you add a superior die when making stealth rolls in dim light or darkness.
+Your eyes are well adjusted to the dark. You treat dim light as bright light and darkness as dim light within 20 tiles. You add a superior die when making stealth rolls in dim light or darkness.
 
 
 
@@ -1075,9 +1075,9 @@ Sylvan are short compared to most, standing 3 and a half to 4 feet tall. Sylvan 
 - **Attribute Bonuses:** +1 Intelligence, +1 Charisma, -1 Strength
 - **Lifespan:** 120 years
 
-##### Forestfolk
+##### Innate Healing
 
-During a short or long rest you restore 1 extra wound and mana. This feature has no effect if you've taken fire damage since your last rest.
+During a short or long rest you restore 1 extra wound. When rolling your first healing surge of a rest you reroll all blank dice.
 
 #### Half-Elf
 
@@ -2960,7 +2960,7 @@ You may target an additional creature for every level cast above 2nd.
 - **Range:** 5
 - **Duration:** 1 hour
 
-Magically enhance the sight of up to 5 creatures, giving them the ability to see in the dark. Make a spellcasting roll against a bad die for each creature targeted. On success they are able to see through dim light and darkness within 30 tiles as if they were bright light.
+Magically enhance the sight of up to 5 creatures, giving them the ability to see in the dark. Make a spellcasting roll against a terrible die for each creature targeted. On success they are able to see through dim light and darkness within 20 tiles as if they were bright light.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -6138,11 +6138,13 @@ Most towns and some villages will have adventuring gear for sale. While the actu
 | Item | Cost |
 |:----|-------------:|
 | basic health potion | 10sc |
-| bandage | 10ct |
+| bandage | 40ct |
 | fire kit | 2sc |
+| torch | 50ct |
 | 50 ft. rope | 150ct |
 | grappling hook | 5sc |
 | climbing gear | 15sc |
+| quiver | 10sc |
 | +1 Ammunition | 25sc per 3 |
 | nettle fever poison | 15sc |
 | cantrip spell scroll | 15sc |
@@ -6164,10 +6166,13 @@ On use they heal 1 wound and 2 wound dice. Health Potions come in different pote
 
 
 #### Bandage
-During a short or long rest you may use a bandage, allowing you to reroll any healing surge used during the rest.
+During a short or long rest you may use a bandage, allowing you to reroll a healing surge used during the rest.
 
 #### Fire Kit
 Contains kindling and equipment to easily start a campfire. Can be used to pass a survival check when building a fire. Has 10 uses.
+
+#### Torch
+You can spend 5 AP to light the torch. Torches emit bright light out 3 tiles and dim light a further 3. Once lit a torch will last for 1 hour.
 
 #### Ammunition
 A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the attack, while bolts only deal the base crossbow damage.
@@ -6203,8 +6208,8 @@ A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the att
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Maul | Two-Handed, Heavy | 2 | 2pt | Bludgeoning |
 | &nbsp;&nbsp;&nbsp;&nbsp;Bow | Two-Handed, Range 10/30 | 1 + arrow damage | 30sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Hand Crossbow | Loading, Range 25/-- | 1 | 35sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Arrow | - | 1 wound die | 5ct | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Bolt | - | - | 5ct | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Arrow | - | 1 wound die | 10ct | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Bolt | - | - | 10ct | Piercing |
 
 #### Armor
 
