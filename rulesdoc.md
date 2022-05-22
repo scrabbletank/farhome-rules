@@ -837,7 +837,7 @@ Dungeons may be filled with traps or other hazards. Traps may be hidden, trigger
 Hazards, such as a pool of lava or acid, are more obvious. Creatures that enter those tiles take damage immediately, taking damage again at the start of their turn for as long as they are in the hazard. A creature doesn't need to willingly move into a hazard to be affected by it. Characters can shove or push other creatures, or cast spells that knock creatures back.
 
 #### Darkness
-Most creatures are unable to see in the dark and struggle to see creatures in dim light. When making an attack, maneuver, spell attack, or trying to detect a creature in darkness you add 2 terrible dice to your roll, or 1 bad die if they are in dim light. Most of the time if a creature has a free hand they can light a torch, covering a 3 tile area around the creature in bright light and a further 3 tiles in dim light.
+Most creatures are unable to see in the dark and struggle to see creatures in dim light. When making a single target attack, maneuver, spell attack, or when trying to detect a creature in darkness you add 2 terrible dice to your roll, or 1 terrible die if they are in dim light. If a creature has a free hand they can light a torch, covering a 3 tile area around the creature in bright light and a further 3 tiles in dim light.
 
 
 
@@ -959,7 +959,7 @@ It is rumored that high elves are descended from the fae, a group of magical and
 
 ##### Innate Magic
 
-You learn a single cantrip. This cantrip does not need to be prepared or in your codex to cast. You start with 1 extra mana and recover 1 extra mana each short and long rest.
+You gain 1 spell power.
 
 #### Wood Elf
 
@@ -1027,7 +1027,7 @@ Due to their small stature, beast-like appearance and affinity for darkness they
 
 ##### Occult Blood
 
-You are always under the effects of the spell _Dark Sight_ and you add a superior die when making stealth rolls in dim light or darkness.
+Your eyes are well adjusted to the dark. You treat dim light as bright light and darkness as dim light within 20 tiles. You add a superior die when making stealth rolls in dim light or darkness.
 
 
 
@@ -1075,9 +1075,9 @@ Sylvan are short compared to most, standing 3 and a half to 4 feet tall. Sylvan 
 - **Attribute Bonuses:** +1 Intelligence, +1 Charisma, -1 Strength
 - **Lifespan:** 120 years
 
-##### Forestfolk
+##### Innate Healing
 
-During a short or long rest you restore 1 extra wound and mana. This feature has no effect if you've taken fire damage since your last rest.
+During a short or long rest you restore 1 extra wound. When rolling your first healing surge of a rest you reroll all blank dice.
 
 #### Half-Elf
 
@@ -2960,7 +2960,7 @@ You may target an additional creature for every level cast above 2nd.
 - **Range:** 5
 - **Duration:** 1 hour
 
-Magically enhance the sight of up to 5 creatures, giving them the ability to see in the dark. Make a spellcasting roll against a bad die for each creature targeted. On success they are able to see through dim light and darkness within 30 tiles as if they were bright light.
+Magically enhance the sight of up to 5 creatures, giving them the ability to see in the dark. Make a spellcasting roll against a terrible die for each creature targeted. On success they are able to see through dim light and darkness within 20 tiles as if they were bright light.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -5388,9 +5388,9 @@ Attempt to mortally wound a creature. Make a weapon attack adding a superior die
 
 Swiftly strike up to 5 creatures in range. Make a weapon attack against the creatures adding 2 terrible dice to the attack roll. On hit you deal normal damage, moving to an empty tile beside a targeted creature.
 
-***Enhanced:*** You add a single terrible dice instead of 2. If you hit every target they grant combat advantage until the start of your next turn.
+***Enhanced:*** You add a single terrible dice instead of 2 and may target up to 7 creatures.
 
-***Superior:*** The range increases to 3 and you may target up to 7 creatures.
+***Superior:*** The range increases to 3 and you may target any number of creatures.
 
 ## Feats
 
@@ -5480,7 +5480,7 @@ You resonate particularly well with magic items. You may attune to 4 items at on
 Once per turn, when you cast a cantrip or 1st level spell your next basic attack costs 2 less AP. Alternatively if you make a basic attack your next cantrip or 1st level spell costs 2 less AP, with a minimum of 1. The spell level increases to 2nd at 7th level, and 3rd at 14th level, and 4th at 21th level.
 
 #### Dual-Wield Expert
-You have no penalties from dual wielding. While dual wielding you count as holding a shield when taking the Defend action.
+You have no penalties from dual wielding. While dual wielding you add a defense die to your defense rolls when taking the defend action.
 
 #### Duelist
 You are an expert with one-handed weapons. When attacking with a one-handed weapon you reroll 1 die in your attack roll. If you're holding nothing in your off hand you have expertise with your attack roll instead.
@@ -5745,8 +5745,6 @@ When casting an arcane spell that deals at least 1 wound of damage you may overc
 
 Once per turn when a creature takes a movement action towards you, you may spend 2 AP to make a ranged weapon attack as a reaction as long as the creature is within your weapons near range.
 
-
-
 #### Perfect Defense
 *Requires 4 Strength, 12th level*
 
@@ -5771,6 +5769,11 @@ You may reroll a die when making enchanting rolls. Enchantments you make last 7 
 *Requires proficiency in occult spells, 7th level*
 
 Creatures under negative effects caused by your spells also grant combat advantage to your attacks against those creatures.
+
+#### Quickdraw
+*Requires 3 proficiency in ranged weapons*
+
+You ignore the _Loading_ property of crossbows. You add a critical success to crossbow attacks against creatures within 3 tiles of you.
 
 #### Quickened Spellcasting
 *Requires proficiency in a spell school*
@@ -5805,7 +5808,7 @@ The first opportunity attack you make each turn costs 1 AP less. Hostile creatur
 #### Shield Master
 *Requires 3 Strength, 8th level*
 
-While holding a shield the defend action costs 1 AP less. While defending you add your shield's defense bonus to Strength and Dexterity saves you make.
+While holding a shield the defend action costs 1 AP less. While defending you add your shield's defense dice to Strength and Dexterity saves you make.
 
 #### Signature Move
 *Requires 10th level*
@@ -5826,6 +5829,11 @@ Your experience with scribing tools allows you to create spell scrolls for spell
 *Requires proficiency in scribing tools, arcana*
 
 You may use spell scrolls to cast the spell written on them. When using a spell scroll you cast as normal, except it doesn't require mana and doesn't need to be prepared. After casting roll a bad die. On failure the spell scroll is destroyed.
+
+#### Steady Aim
+*Requires 2 proficiency in ranged weapons*
+
+When using a bow your near range is doubled. When making an attack or maneuver using a bow you may increase the action cost by 1 AP to convert a wound die to a wound.
 
 #### Sticky Hands
 *Requires proficiency in sleight of hands*
@@ -6130,11 +6138,13 @@ Most towns and some villages will have adventuring gear for sale. While the actu
 | Item | Cost |
 |:----|-------------:|
 | basic health potion | 10sc |
-| bandage | 10ct |
+| bandage | 40ct |
 | fire kit | 2sc |
+| torch | 50ct |
 | 50 ft. rope | 150ct |
 | grappling hook | 5sc |
 | climbing gear | 15sc |
+| quiver | 10sc |
 | +1 Ammunition | 25sc per 3 |
 | nettle fever poison | 15sc |
 | cantrip spell scroll | 15sc |
@@ -6156,10 +6166,13 @@ On use they heal 1 wound and 2 wound dice. Health Potions come in different pote
 
 
 #### Bandage
-During a short or long rest you may use a bandage, allowing you to reroll any healing surge used during the rest.
+During a short or long rest you may use a bandage, allowing you to reroll a healing surge used during the rest.
 
 #### Fire Kit
 Contains kindling and equipment to easily start a campfire. Can be used to pass a survival check when building a fire. Has 10 uses.
+
+#### Torch
+You can spend 5 AP to light the torch. Torches emit bright light out 3 tiles and dim light a further 3. Once lit a torch will last for 1 hour.
 
 #### Ammunition
 A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the attack, while bolts only deal the base crossbow damage.
@@ -6189,13 +6202,14 @@ A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the att
 | &nbsp;&nbsp;&nbsp;&nbsp;Long Sword | Two-Handed | 1 + 1 wound die | 70sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Battle Axe | Two-Handed | 3 wound dice | 70sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Lance | Two-Handed, Heavy, Reach 2 | 2 | 85sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Glaive | Heavy, Versatile 1, Reach 1 | 1 + 1 wound dice | 1pt 30sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Sword | Two-Handed, Heavy | 1 + 2 wound dice | 1pt 50sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Axe | Two-Handed, Heavy | 4 wound dice | 1pt 50sc | Slashing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Great Maul | Two-Handed, Heavy | 2 | 2pt | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Bow | Two-Handed, Range 15/25 | 1 + arrow damage | 30sc | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Bow | Two-Handed, Range 10/30 | 1 + arrow damage | 30sc | Piercing |
 | &nbsp;&nbsp;&nbsp;&nbsp;Hand Crossbow | Loading, Range 25/-- | 1 | 35sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Arrow | - | 1 wound die | 5ct | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Bolt | - | - | 5ct | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Arrow | - | 1 wound die | 10ct | Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Bolt | - | - | 10ct | Piercing |
 
 #### Armor
 
@@ -6212,8 +6226,8 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 | &nbsp;&nbsp;&nbsp;&nbsp;Hide | 1/3 | 1 | 60sc | 2 bad dice |
 | &nbsp;&nbsp;&nbsp;&nbsp;Chain Shirt, Scalemail | 2/2 | 2 | 85sc | 2 bad dice |
 | *Heavy*  |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Half Plate, Splint | 2/3 | 3 | 155sc | 2 terrible dice |
-| &nbsp;&nbsp;&nbsp;&nbsp;Full Plate | 3/2 | 4 | 300sc | 2 terrible dice |
+| &nbsp;&nbsp;&nbsp;&nbsp;Half Plate, Splint | 2/3 | 3 | 1pt 55sc | 2 terrible dice |
+| &nbsp;&nbsp;&nbsp;&nbsp;Full Plate | 3/2 | 4 | 3pt | 2 terrible dice |
 | *Shield*  |  |  | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Buckler | +0/1 | 0 | 15sc | none |
 | &nbsp;&nbsp;&nbsp;&nbsp;Shield | +1/0 | 2 | 50sc | none |
