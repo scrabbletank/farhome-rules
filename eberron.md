@@ -144,19 +144,6 @@ Your maximum wounds are reduced by 1 for the duration of the spell. You may cast
 
 Add an enhanced die for every level cast above 2nd.
 
-#### Living Totem - Pain
-*3rd level*
-
-- **Casting Time:** 7 AP
-- **Range:** 6
-- **Duration:** concentration, 10 minutes
-
-You project an aura of pain around yourself, evoking pain in all hostile creatures that you can see. Make a spellcasting roll against 2 terrible dice. For the duration of the spell, all attacks against affected creatures may re-roll 1 wound die.
-
-The range of the spell is increased by 1 for every level cast above 3rd.
-
-When casted at level 7 or above, all attacks may re-roll 2 wound dice.
-
 ### Third Level
 
 #### Shallow Grave
@@ -194,9 +181,18 @@ Your maximum wounds are reduced by 2 for the duration of the spell. You may cast
 
 Add an enhanced die for every level cast above 3rd.
 
-#### Blood Malady
+#### Living Totem - Pain
+*3rd level*
 
-TODO: For an enemy that you hold their blood, you give them poison 2.
+- **Casting Time:** 7 AP
+- **Range:** 6
+- **Duration:** concentration, 10 minutes
+
+You project an aura of pain around yourself, evoking pain in all hostile creatures that you can see. Make a spellcasting roll against 2 terrible dice. For the duration of the spell, all attacks against affected creatures may re-roll 1 wound die.
+
+The range of the spell is increased by 1 for every level cast above 3rd.
+
+When casted at level 7 or above, all attacks may re-roll 2 wound dice.
 
 ### 4th Level
 
@@ -212,16 +208,6 @@ You project an aura of foresight around yourself, allowing all allies to see wit
 The range of the spell is increased by 1 for every level cast above 3rd.
 
 When casted at level 7 or above, all attacks may re-roll 2 defense dice.
-
-#### Bloody Explosion
-
-TODO: Explodes an enemy and spreads to other enemies (chain reaction?)
-
-### 5th Level
-
-#### Some Dream Spell
-
-TODO
 
 ### 8th Level
 
