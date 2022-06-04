@@ -225,11 +225,29 @@ TODO
 
 ### 8th Level
 
-TODO
+#### Regrowth
+*8th level*
+
+- **Casting Time:** 10 AP
+- **Range:** touch
+- **Duration:** instant
+
+You are able to regrow a complete medium sized creature from its genetic code. As long as you have at least a drop of the creatures blood, make a spellcasting roll against 2 terrible dice and a terrible die for the number of the times the creature has previously died. Whether the spell succeeds or fails, a body resembling the creature is fully formed. On success, the original soul returns to the body. On failure, the body will be lifeless or a wandering soul may claim the body.
+
+For every level cast above 8th, the body permanently gains an extra wound to their max health.
 
 ### 9th Level
 
-TODO
+#### Cellular Regeneration
+*9th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 12
+- **Duration:** instant
+
+Stimulates the natural healing abilities to cause rapid cell regeneration to all creatures that you can see. Make a spell casting roll adding 1 bad die for each creature being targeted. On success, you can heal 40 wounds of damage, divided among the targeted creatures.
+
+If cast at 10th level, you can heal an additional 20 wounds of damage.
 
 ## Curse
 
