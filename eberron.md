@@ -52,6 +52,12 @@ Spells are split into 5 schools of magic: arcane, divine, druidic, elder, and oc
 
 ## Elder
 
+### Sites of Power
+The world is scattered with places where elder magic is at its strongest. These can be anywhere, from an ancient grove, an island in a lake, by an ancient standing stone, etc. These sites of power allow those with elder magic to easily perform rituals. When casting a ritual at a site of power you remove 2 challenge dice from the roll.
+
+#### Divining Rod
+Used to find sites of power. You may spend 1 minute divining their location. Make an arcana roll against 2 terrible dice. On success you know the direction to a site of power if one is within 10 miles of your location. On a critical fail the divining rod breaks, and must be repaired back in the grove.
+
 ### Cantrip
 
 #### Rend
@@ -138,6 +144,19 @@ Your maximum wounds are reduced by 1 for the duration of the spell. You may cast
 
 Add an enhanced die for every level cast above 2nd.
 
+#### Living Totem - Pain
+*3rd level*
+
+- **Casting Time:** 7 AP
+- **Range:** 6
+- **Duration:** concentration, 10 minutes
+
+You project an aura of pain around yourself, evoking pain in all hostile creatures that you can see. Make a spellcasting roll against 2 terrible dice. For the duration of the spell, all attacks against affected creatures may re-roll 1 wound die.
+
+The range of the spell is increased by 1 for every level cast above 3rd.
+
+When casted at level 7 or above, all attacks may re-roll 2 wound dice.
+
 ### Third Level
 
 #### Shallow Grave
@@ -175,11 +194,42 @@ Your maximum wounds are reduced by 2 for the duration of the spell. You may cast
 
 Add an enhanced die for every level cast above 3rd.
 
-### Sites of Power
-The world is scattered with places where elder magic is at its strongest. These can be anywhere, from an ancient grove, an island in a lake, by an ancient standing stone, etc. These sites of power allow those with elder magic to easily perform rituals. When casting a ritual at a site of power you remove 2 challenge dice from the roll.
+#### Blood Malady
 
-#### Divining Rod
-Used to find sites of power. You may spend 1 minute divining their location. Make an arcana roll against 2 terrible dice. On success you know the direction to a site of power if one is within 10 miles of your location. On a critical fail the divining rod breaks, and must be repaired back in the grove.
+TODO: For an enemy that you hold their blood, you give them poison 2.
+
+### 4th Level
+
+#### Living Totem - Foresight
+*4th level*
+
+- **Casting Time:** 7 AP
+- **Range:** 6
+- **Duration:** concentration, 10 minutes
+
+You project an aura of foresight around yourself, allowing all allies to see with uncanny clarity, as if time was slowed a small fraction. Make a spellcasting roll against 2 terrible dice. For the duration of the spell, all allies within the radius may re-roll 1 defense die.
+
+The range of the spell is increased by 1 for every level cast above 3rd.
+
+When casted at level 7 or above, all attacks may re-roll 2 defense dice.
+
+#### Bloody Explosion
+
+TODO: Explodes an enemy and spreads to other enemies (chain reaction?)
+
+### 5th Level
+
+#### Some Dream Spell
+
+TODO
+
+### 8th Level
+
+TODO
+
+### 9th Level
+
+TODO
 
 ## Curse
 
