@@ -52,6 +52,12 @@ Spells are split into 5 schools of magic: arcane, divine, druidic, elder, and oc
 
 ## Elder
 
+### Sites of Power
+The world is scattered with places where elder magic is at its strongest. These can be anywhere, from an ancient grove, an island in a lake, by an ancient standing stone, etc. These sites of power allow those with elder magic to easily perform rituals. When casting a ritual at a site of power you remove 2 challenge dice from the roll.
+
+#### Divining Rod
+Used to find sites of power. You may spend 1 minute divining their location. Make an arcana roll against 2 terrible dice. On success you know the direction to a site of power if one is within 10 miles of your location. On a critical fail the divining rod breaks, and must be repaired back in the grove.
+
 ### Cantrip
 
 #### Rend
@@ -175,11 +181,59 @@ Your maximum wounds are reduced by 2 for the duration of the spell. You may cast
 
 Add an enhanced die for every level cast above 3rd.
 
-### Sites of Power
-The world is scattered with places where elder magic is at its strongest. These can be anywhere, from an ancient grove, an island in a lake, by an ancient standing stone, etc. These sites of power allow those with elder magic to easily perform rituals. When casting a ritual at a site of power you remove 2 challenge dice from the roll.
+#### Living Totem - Pain
+*3rd level*
 
-#### Divining Rod
-Used to find sites of power. You may spend 1 minute divining their location. Make an arcana roll against 2 terrible dice. On success you know the direction to a site of power if one is within 10 miles of your location. On a critical fail the divining rod breaks, and must be repaired back in the grove.
+- **Casting Time:** 7 AP
+- **Range:** 6
+- **Duration:** concentration, 10 minutes
+
+You project an aura of pain around yourself, evoking pain in all hostile creatures that you can see. Make a spellcasting roll against 2 terrible dice. For the duration of the spell, all attacks against affected creatures may re-roll 1 wound die.
+
+The range of the spell is increased by 1 for every level cast above 3rd.
+
+When casted at level 7 or above, all attacks may re-roll 2 wound dice.
+
+### 4th Level
+
+#### Living Totem - Foresight
+*4th level*
+
+- **Casting Time:** 7 AP
+- **Range:** 6
+- **Duration:** concentration, 10 minutes
+
+You project an aura of foresight around yourself, allowing all allies to see with uncanny clarity, as if time was slowed a small fraction. Make a spellcasting roll against 2 terrible dice. For the duration of the spell, all allies within the radius may re-roll 1 defense die.
+
+The range of the spell is increased by 1 for every level cast above 3rd.
+
+When casted at level 7 or above, all attacks may re-roll 2 defense dice.
+
+### 8th Level
+
+#### Regrowth
+*8th level*
+
+- **Casting Time:** 10 AP
+- **Range:** touch
+- **Duration:** instant
+
+You are able to regrow a complete medium sized creature from its genetic code. As long as you have at least a drop of the creatures blood, make a spellcasting roll against 2 terrible dice and a terrible die for the number of the times the creature has previously died. Whether the spell succeeds or fails, a body resembling the creature is fully formed. On success, the original soul returns to the body. On failure, the body will be lifeless or a wandering soul may claim the body.
+
+For every level cast above 8th, the body permanently gains an extra wound to their max health.
+
+### 9th Level
+
+#### Cellular Regeneration
+*9th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 12
+- **Duration:** instant
+
+Stimulates the natural healing abilities to cause rapid cell regeneration to all creatures that you can see. Make a spell casting roll adding 1 bad die for each creature being targeted. On success, you can heal 40 wounds of damage, divided among the targeted creatures.
+
+If cast at 10th level, you can heal an additional 20 wounds of damage.
 
 ## Curse
 
