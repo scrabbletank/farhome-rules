@@ -75,7 +75,7 @@ For each level cast above cantrip, you may convert a wound to a wound die or a w
 *Cantrip*
 
 - **Casting Time:** 2 AP, reaction
-- **Range:** 6
+- **Range:** 4
 - **Duration:** instant
 
 Target a wounded creature. That creature must make a stamina saving throw against your spellcasting roll. On failure, you acquire the creatures blood.
