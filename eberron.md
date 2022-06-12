@@ -75,7 +75,7 @@ For each level cast above cantrip, you may convert a wound to a wound die or a w
 *Cantrip*
 
 - **Casting Time:** 2 AP, reaction
-- **Range:** 2
+- **Range:** 6
 - **Duration:** instant
 
 Target a wounded creature. That creature must make a stamina saving throw against your spellcasting roll. On failure, you acquire the creatures blood.
@@ -85,6 +85,7 @@ For each level cast above cantrip, the range increases by 2 tiles.
 ### First Level
 
 #### Blood Tracking
+*1st level*
 
 - **Casting Time:** 1 minute
 - **Range:** 10 miles
@@ -106,6 +107,7 @@ When cast between 5th and 8th level, add 100 miles to the range.
 When cast at 9th level or above, your range spans the entire plane.
 
 #### Ritual of Warding
+*1st level*
 
 - **Casting Time:** 10 minutes
 - **Range:** self
@@ -116,6 +118,18 @@ You perform a ritual to ward against harmful creatures. In addition to its casti
 Your maximum wounds are reduced by 1 for the duration of the spell. You may cast this ritual on a willing creature whose blood you have siphoned with the creature paying the health cost.
 
 Add an enhanced die for every level cast above 1st.
+
+#### Mind Warp
+*1st level*
+
+- **Casting Time:** 5 AP
+- **Range:** 20
+- **Duration:** instant
+- **Damage Type:** psychic
+
+Manipulate the mind of a creature who's blood you hold within range, causing the target mental anguish. The targeted creature must make an intelligence save against your spellcasting roll. On failure, the creature takes 2 wound dice in psychic damage. On a critical, the target has disadvantage on their next attack.
+
+Add a wound die for every level cast above 1st.
 
 ### Second Level
 
@@ -133,6 +147,7 @@ For each level cast above 2nd, add a wound die in slashing damage.
 When cast at 6th level or above, the weapon gains Reach 2.
 
 #### Ritual of Ethereal Protection
+*2nd level*
 
 - **Casting Time:** 10 minutes
 - **Range:** self
@@ -143,6 +158,19 @@ You perform a ritual to ward against ethereal damage. In addition to its casting
 Your maximum wounds are reduced by 1 for the duration of the spell. You may cast this ritual on a willing creature whose blood you have siphoned with the creature paying the health cost.
 
 Add an enhanced die for every level cast above 2nd.
+
+#### Dream Field
+*2nd level*
+
+- **Casting Time:** 9 AP
+- **Range:** 10
+- **Duration:** 10 minutes
+
+You create a field a dreams around you, allowing you to create dream copies of creatures you can see. Make a spellcasting roll against a bad die for each creature targeted up to a maximum of 8. On success, illusory copies form in the dream field and mimic the targets actions. Creatures outside the field do not see the illusory copies. Any attack against the illusion reveals it to be an illusion.
+
+Hostile creatures trying to see through the illusion can make a perception check against your spellcasting roll.
+
+For each level cast above 2nd, the range increases by 2.
 
 ### Third Level
 
@@ -170,6 +198,7 @@ Pull the life force from a creature to heal another. Target up to 5 injured and 
 For each level cast above 3rd, add an enhanced die
 
 #### Ritual of Bloodied Combat
+*3rd level*
 
 - **Casting Time:** 10 minutes
 - **Range:** self
@@ -208,6 +237,32 @@ You project an aura of foresight around yourself, allowing all allies to see wit
 The range of the spell is increased by 1 for every level cast above 3rd.
 
 When casted at level 7 or above, all attacks may re-roll 2 defense dice.
+
+### 5th Level
+
+#### Gate of the Old Gods
+*5th level*
+
+- **Casting Time:** 10 minutes
+- **Range:** 2
+- **Duration:** 2 minutes
+
+You focus on an ancient ritual that summons the energies from a site of power to form a gate to another site of power that you have been to before. Make a spellcasting roll, adding a bad die for every 100 miles of travel. On success, a portal opens for the duration that instantly connects you to the other site of power.
+
+For each level cast above 5th, add a superior die to the spellcasting roll.
+
+#### Hemoplague
+*5th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 6
+- **Duration:** 1 minute, concentration
+
+You cause a targets blood to absorb a virulent plague through their open wounds. The target must make a stamina save against your spellcasting modifier. On failure, the target starts absorbing the virus. For every wound of damage done to the creature, the creature takes another wound of damage up to a maximum of 6 wounds caused by the plague.
+
+The caster must remain in range of the target and concentrating for the plague to accumulate.
+
+For each level cast above 5th, the maximum number of wounds increases by 2.
 
 ### 8th Level
 
