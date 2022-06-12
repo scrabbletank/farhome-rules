@@ -742,7 +742,7 @@ This weapon can use either Strength or Dexterity for attack rolls.
 This weapon can only be used to attack once per round.
 
 ##### Range
-This weapon can attack at range. Range is followed by two numbers, the near and far range. Attacks made inside the near range attack as normal while attacks within the far range add 2 terrible dice to the attack roll.
+This weapon can attack at range. Range is followed by two numbers, the near and far range. Attacks made inside the near range attack as normal while attacks within the far range add a terrible die to the attack roll.
 
 ##### Reach
 This weapon can attack creatures 1 tile further and their zone of control extends an additional tile.
