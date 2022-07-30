@@ -399,6 +399,17 @@ Form a light layer of bark around your body, creating an extra layer of protecti
 
 Add an enhanced die for every level cast above 1st.
 
+#### Life Fruit
+*1st level*
+
+- **Casting Time:** 7 AP
+- **Range:** self
+- **Duration:** 8 hours
+
+Conjure a vibrant orange plant from the ground that contains 3 life fruit. Make a spellcasting roll against 2 bad dice. On success, you have 3 life fruit that heal 2 wound dice of damage when consumed with a use action.
+
+Add a bad dice and conjure 3 additional fruit for every level cast above 1st.
+
 ### Second Level
 
 #### Animal Communication
@@ -411,6 +422,63 @@ Add an enhanced die for every level cast above 1st.
 Speak with the creatures of the world. Make a spellcasting roll against a terrible die. On success, you can speak with animals. For the duration you may ask the creature a question or to take an action, using this spellcasting roll for your conversation check. The creature is not compelled to answer or act.
 
 Add an enhanced die for every level cast above 2nd.
+
+#### Nature's Embrace
+*2nd level*
+
+- **Casting Time:** 6 AP
+- **Range:** 6
+- **Duration:** 2 minutes, concentration
+
+Bring forth the spirit of nature to embrace yourself and your allies. Make a spellcasting roll against 2 terrible dice. On success, an aura of nature's healing surrounds you. While the spell is in effect, any creature that ends their turn within range of your aura may heal 1 wound die of damage.
+
+Add a terrible die and an extra wound of healing for every level cast above 2nd.
+
+#### Empowerment
+*2nd level*
+
+- **Casting Time:** 8 AP
+- **Range:** touch
+- **Duration:** 1 hour, concentration
+
+Touch a creature and bolster their natural aptitudes. Make a spellcasting roll against 2 terrible dice. On success, choose one of the following effects.
+
+- **Bull’s Strength:** The target has advantage on Strength skill checks. It also gains an extra 2 tiles of sprint.
+- **Cat’s Grace:** The target has advantage on Dexterity skill checks. It also doesn’t take damage from falling 20 feet or less if it isn’t incapacitated.
+- **Bear’s Endurance:** The target has advantage on Stamina skill checks. It also gains 2 temporary wounds, which are lost when the spell ends.
+- **Fox’s Cunning:** The target has advantage on Intelligence skill checks.
+- **Owl’s Wisdom:** The target has advantage on Willpower skill checks.
+- **Eagle’s Splendor:** The target has advantage on Charisma skill checks.
+
+Add a terrible die and an additional target for every level cast above 2nd.
+
+#### Summon Wolf Spirit
+*2nd level*
+
+- **Casting Time:** 8 AP
+- **Range:** 12
+- **Duration:** 1 hour, concentration
+
+Summon the spirit of a wolf to come to your aid. Make a spellcasting roll against 2 terrible dice. On success, you summon a spirit wolf that you can command telepathically. The spirithas the following properties.
+
+*Wolf Spirit*
+- **Wounds:** 2 + *spell level*
+- **Movement:** 3 move, 3 sprint
+- **AP:** 9
+- **Stats:**
+  - *Strength:* 3
+  - *Dexterity:* 1
+  - *Constitution:* 1
+  - *Intellience:* -1
+  - *Willpower:* 0
+  - *Charisma:* -1
+- **Defense:**
+  - *Dice:* 1 superior defense, 2 defense
+  - *Add another superior defense die if cast at 5th level or higher*
+- **Bite Attack:**
+  - *Dice:* 2 superior, 1 enhance, 2 normal
+  - *Wounds:* 1 wound, 1 wound die
+  - *Add another wound die in damage if cast at 5th level or higher*
 
 ### Third Level
 
