@@ -20,6 +20,7 @@
   - [Skill Challenges](#Skill-Challenges)
   - [Rerolls](#Rerolls)
 - [Wounds](#Wounds)
+- [Injuries](#Injuries)
 - [Action Points](#Action-Points)
 - [Death Saves](#Death-Saves)
 - [Maneuvers](#Maneuvers)
@@ -205,7 +206,7 @@ Rolls that use your attributes roll dice depending on your attribute and profici
 
 In the case where you have a negative number for your attribute score, replace a normal die with a bad die. If your proficiency score is negative, replace an enhanced die with a normal die, or a bad die with a terrible die.
 
-Through feats, spells, or items you may have an attribute score greater than 5. In this case for every attribute score above 5 you have you add a normal die, replacing it with an enhanced die for every proficiency score above 5.
+Through feats, spells, or items you may have an attribute score greater than 5. In this case for every attribute score above 5 you have you add an enhanced die.
 
 #### Defense Rolls
 Defense rolls use defense and superior defense dice. The number and type of dice you roll is determined by what armor your wearing. You roll 2 defense dice while not wearing armor, instead rolling the armors dice value if you have armor equipped. Holding a shield adds either a defense or superior defense die, depending on the shield.
@@ -256,13 +257,15 @@ For example, dice added from the spells _Guidance_ or _Weal_ add dice to your ne
 
 Wounds are used to determine how hard a character is to kill, the more wounds you have the more durable your character. Wounds are lost when you are hit by attacks, spells, or traps and are restored by taking rests or through certain spells.
 
-#### Lesser and Greater Wounds
-
-Some abilities or spells inflict lesser or greater wounds. These do not deal damage but do leave lasting effects. Lesser wounds can be cured through magic and after each long rest you choose a single lesser wound to remove. Greater wounds can be difficult to cure by magic. Each week that you have a greater wound you make a Stamina save against 3 terrible dice, removing a single greater wound on success. Some greater wounds, such as losing an arm, cannot be healed naturally.
-
 #### Temporary Wounds
 
 Some abilities give temporary wounds instead of healing missing wounds. When taking damage you remove any temporary wounds first, dealing any remaining damage to your wounds. Once lost, temporary wounds do not come back and cannot be healed, however whenever you gain new temporary wounds you add them to your total. You may have a maximum of half your health, rounded up, in temporary wounds at any given time.
+
+#### Injuries
+
+Some abilities or spells inflict lasting injuries. Injuries come in two varieties: Minor and Major Injuries. Minor injuries are short lived, can be easily cured through rest or magic, and are often only a mild hinderance to your character. At the end of each successful long rest you recover from a minor injury. If you have multiple minor injuries you choose which injury to recover first.
+
+Major Injuries are long lasting, debilitating injuries that can have major effects on your character. While most major injuries can be healed over time some specific injuries can only be healed through magic. Every week that you have a major injury you make a Stamina save against 4 terrible dice, ending its effects on success.
 
 ### Action Points
 
@@ -318,7 +321,7 @@ Each point of Charisma improves your divine spellcasting ability.
 
 # Proficiency
 
-Proficiency is a measure of how capable your character is at a given skill or task. Every skill, weapon type, spell school, tool, and attribute save have their own proficiency score which can be increased as your character grows. With the exception of spell proficiencies, there is no limit on how many skills you can be proficient in. You may only increase spell proficiencies if you have the appropriate background or feat.
+Proficiency is a measure of how capable your character is at a given skill or task. Every skill, weapon type, spell school, tool, and attribute save have their own proficiency score which can be increased as your character grows. With the exception of spell proficiencies, there is no limit on how many skills you can be proficient in. You may only increase spell proficiencies if you have the appropriate background or feat. Proficiencies cannot go above 5.
 
 
 ### Skills
@@ -595,7 +598,7 @@ Short rests require an hour of uninterrupted rest to complete. During a short re
 
 ### Long Rests
 
-Long rests require 8 hours of rest with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, or brewing potions. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds. You regain mana equal to 3 + your character's level, recover 1 point of exhaustion, and end the effect of one lesser wound. If you go more than 24 hours without taking a long rest you must make an exhaustion roll against 2 bad dice and 1 terrible die. You make this check every 24 hours without a long rest.
+Long rests require 8 hours of rest with at most 2 hours of non-strenuous activity, such as keeping watch, preparing spells, or brewing potions. You automatically recover 1 wound and 3 healing surges over a long rest, and you may spend any number of healing surges to restore wounds. You regain mana equal to 3 + your character's level, recover 1 point of exhaustion, and end the effect of one minor injury. If you go more than 24 hours without taking a long rest you must make an exhaustion roll against 2 bad dice and 1 terrible die. You make this check every 24 hours without a long rest.
 
 When taking a long rest in the wilderness you must light a fire and make camp to gain the full benefits. To start a fire, make an average difficulty survival check. Depending on your location this roll may be easier or harder. On failure, instead of the normal benefits you regain 1 healing surge and restore mana equal to half your character's level. You may still spend any number of healing surges during this rest.
 
@@ -683,6 +686,9 @@ There are a number of conditions that can be inflicted on creatures, each with d
 
 ##### Blind
 A blinded creature loses the ability to see. While blind they add 2 terrible die to all attack, spellcasting, and Dexterity saving throws. They cannot make reactions.
+
+#### Burn
+A burning creature takes a wound die in fire damage at the end of their turn for every level of burn. On their turn a creature can spend 5 AP putting out the fire, leaving them prone. Burn ends after 1 minute or after the creature is doused in water.
 
 ##### Dazed
 A dazed creature cannot take the Sprint or Reaction actions and grant combat advantage to attackers.
@@ -834,7 +840,7 @@ Deep water, thick brush, or a rubble filled room could be considered difficult t
 #### Traps and Hazards
 Dungeons may be filled with traps or other hazards. Traps may be hidden, triggered only by a careless step or trip of a wire. Other hazards are blatantly obvious, like a pool of lava or ominous pit. While the exact mechanics of a trap or hazard is left up to the GM, characters can attempt to search or spot traps around them. Characters that succeed on a perception or investigation challenge may spot a trap or understand how it's triggered.
 
-Hazards, such as a pool of lava or acid, are more obvious. Creatures that enter those tiles take damage immediately, taking damage again at the start of their turn for as long as they are in the hazard. A creature doesn't need to willingly move into a hazard to be affected by it. Characters can shove or push other creatures, or cast spells that knock creatures back.
+Hazards, such as a pool of lava or acid, are more obvious. Creatures that enter those tiles take damage immediately, taking damage again at the end of their turn for as long as they are in the hazard. A creature doesn't need to willingly move into a hazard to be affected by it. Characters can shove or push other creatures, or cast spells that knock creatures back.
 
 #### Darkness
 Most creatures are unable to see in the dark and struggle to see creatures in dim light. When making a single target attack, maneuver, spell attack, or when trying to detect a creature in darkness you add 2 terrible dice to your roll, or 1 terrible die if they are in dim light. If a creature has a free hand they can light a torch, covering a 3 tile area around the creature in bright light and a further 3 tiles in dim light.
@@ -1206,7 +1212,7 @@ Roll 2 bad dice, counting the successes.
 
 | Roll | Misfire |
 |:----:|:-------------|
-| -4  | Lesser Wound: Mana leak. Every time you take at least 1 wound you lose 2 mana. Lasts until cured with _Treat Injury_ or you take a Long Rest. |
+| -4  | Minor injury: Mana leak. Every time you take at least 1 wound you lose 2 mana. |
 | -3 | Your spell backfires, roll a wound die for every remaining failure from your spellcasting roll, taking damage for every wound rolled. |
 | -2 | Wild magic fills the area around you, you and all creatures within 3 tiles add 1 terrible die to their next roll. |
 | -1 | Your flow of magic is interrupted. You add 1 terrible die to all spellcasting rolls for the next minute |
@@ -1679,7 +1685,7 @@ Add an enhanced die for every level cast above 2nd.
 - **Duration:** 1 minute
 - **Damage Type:** fire
 
-Cause 2 creatures you can see in range to burst into flames. Make a spellcasting roll against the creatures Dexterity save. On success they ignite in flames taking 1 wound in fire damage at the start of their turn. On their turn they may spend 5 AP rolling on the ground to extinguish the fire, leaving them prone. Taking cold damage or being doused in water extinguishes the fire.
+Cause 2 creatures you can see in range to burst into flames. Make a spellcasting roll against the creatures Dexterity save. On success they ignite in flames taking 1 wound in fire damage and gaining Burn 1, or Burn 2 on a critical.
 
 You may target an additional creature for every level cast above 2nd.
 
@@ -1972,7 +1978,7 @@ The elemental gains 1 max AP and you add a superior dice to your spellcasting ro
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** fire
 
-A shell of fire surrounds your body. For the duration you add 1 superior defense die to your defense rolls against ranged attacks, incinerating the projectile if the attack misses. When a creature adjacent to you makes a melee attack against you they make a Dexterity save against your spellcasting. On fail, they take 2 wound dice in fire damage, or 2 wounds on a critical. The damage from Fire Shell happens before the attack lands. If the creature is killed their attack has no effect.
+A shell of fire surrounds your body. For the duration you add 1 superior defense die to your defense rolls against ranged attacks, incinerating the projectile if the attack misses. When a creature moves to a tile adjacent to you or makes a melee attack against you they make a Dexterity save against your spellcasting. On fail, they gain Burn 2.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -2037,7 +2043,7 @@ You may target an additional creature for every level cast above 4th.
 
 You conjure an orb of vitriolic acid, launching it at a target point in range you can see. On impact the orb explodes in a splash of acid, hitting all creatures in a 5 tile diamond. Make a spellcasting roll against the creatures Dexterity save. On success they take 3 wound dice in poison damage, and on a critical the acid breaks the armor worn by the creatures causing it to give one less defense die. Armor that gives no bonus is destroyed.
 
-Regardless of the outcome acid covers the floor for the next minute. Any creature that starts their turn, or moves into it for the first time this round takes 1 wound in poison damage.
+Regardless of the outcome acid covers the floor for the next minute. Any creature that moves into the acid for the first time this round or ends their turn their takes 1 wound in poison damage.
 
 The area of the blast increases by 2 and the initial damage increases by 1 wound die for every level cast above 4th.
 
@@ -2062,7 +2068,7 @@ Add an enhanced die and increase the maximum depth by 2 tiles for every level ca
 - **Duration:** 1 minute
 - **Damage Type:** force
 
-Summon glowing star shards falling over a 9x9 tile area centered on a point in range. For the duration, any creature that starts their turn in the area makes a Strength save against your spellcasting roll. On failure they take 1 wound in force damage, adding a wound die on a critical.
+Summon glowing star shards falling over a 9x9 tile area centered on a point in range. Any creature that enters the area for the first time this round or ends their turn there makes a Strength save against your spellcasting roll. On failure they take 1 wound in force damage, adding a wound die on a critical.
 
 Increase the area by 2 and duration by 1 turn for every level cast above 4th.
 
@@ -2327,7 +2333,7 @@ Add an extra fireball for every level cast above 7th.
 You speak a word of power as fire crawls across your body. Until the spell ends, you gain the following benefits:
 
 - You gain _Resistance 3_ to fire damage.
-- Any creature that moves adjacent to you for the first time this round, begins their turn there or makes a melee attack against you are burned by the fire and take 1 wound in fire damage.
+- Any creature that moves adjacent to you for the first time this round, ends their turn there or makes a melee attack against you gain Burn 1.
 - You may spend 5 AP to unleash a cone of fire in front of you. The cone extends 5 tiles out and 3 tiles wide. Make a spellcasting roll against the creatures defense. On success they take 1 wound and 3 wound dice in fire damage.
 - You have expertise with spells that deal fire damage.
 
@@ -2430,7 +2436,7 @@ The duration increases by 1 minute for each level cast above 8th.
 
 Conjure a star shining prismatic light, impacting a point in range you can see. On impact the star implodes, releasing waves of elemental energy at all creatures in a 7 tile diamond. Each creature makes either a Strength, Dexterity or Stamina save against your spellcasting roll. On fail they take a wound and a wound die in fire, cold, lightning, poison, and thunder damage, or 2 wounds in a listed damage type of your choice on success. Choose an effect for each critical rolled. Each effect can only be chosen once:
 
-- Deal an extra wound in fire damage.
+- Creatures gain Burn 2.
 - Creatures gain Slow 3 for 1 minute.
 - Creatures gain Paralyze 2 until the end of their next turn.
 - Creatures gain Poison 2 for 10 minutes.
@@ -3057,7 +3063,7 @@ Add an enhanced die for each level above 3rd.
 - **Range:** 7
 - **Duration:** 7 days
 
-Curse a creature you can see with weakness. Make a spellcasting roll against the creatures Willpower save. On success, they are weakened, being unable to inflict lesser or greater wounds with attacks on a critical.
+Curse a creature you can see with weakness. Make a spellcasting roll against the creatures Willpower save. On success, they gain Weaken, being unable to inflict injuries with attacks on a critical.
 
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Misfortune_, ends this curses effects.
 
@@ -3128,9 +3134,12 @@ You may target an additional creature for every level cast above 3rd. If you try
 - **Duration:** instant
 - **Damage Type:** death
 
-Touch a creature, inflicting mortal wounds. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wounds and a wound die in death damage, adding a wound die for every critical rolled. On failure they take half damage, rounding down. If this deals at least 3 wounds the target gains a random lesser wound, or a random greater wound if it deals 5 wounds or more.
+Touch a creature, inflicting mortal wounds. Make a spellcasting roll against the creatures Stamina save. On success they take 2 wounds and a wound die in death damage, adding a wound die for every critical rolled. On failure they take half damage, rounding down. If this deals at least 3 wounds the target gains the minor injury _Scarred_, or major injury _Festering Wound_ if this deals 5 wounds or more.
 
 Add a wound die for every level cast above 3rd.
+
+- **Minor Injury: Scarred.** You add a bad die to all Strength and Dexterity saves and skills.
+- **Major Injury: Festering Wound.** You add a terrible die to all Strength and Dexterity based rolls. All healing effects on you restore 1 less wound, to a minimum of 1.
 
 #### Malefic Visions
 *3rd level*
@@ -3237,6 +3246,18 @@ Infects all creatures in your zone of control with a magical disease. Creatures 
 The disease lasts until cured. Every week the diseased creature makes a Stamina save against 3 terrible dice, removing the disease on a success.
 
 You add an enhanced die for every level cast above 4th.
+
+
+#### Dreamwalk
+*4th level*
+
+- **Casting Time:** 1 minute
+- **Range:** 120
+- **Duration:** concentration, 10 minutes
+
+Attempt to enter a sleeping creatures dreams. You must be able to see the creature or the spell fails. Make a spellcasting roll against 2 bad dice. On success you enter their dreams, taking a form of your choosing. While in their dreams you may talk to and understand the creature, regardless of the language spoken. Any skill contest the creature uses during the conversation, such as Insight or Perception, contests your spellcasting roll instead. On fail the creature awakens from their sleep.
+
+Add an enhanced die for every level cast above 4th.
 
 
 #### Gloom
@@ -3612,7 +3633,7 @@ You add a superior die to your roll for every level cast above 7th. At 9th level
 - **Duration:** concentration, 1 minute
 - **Damage Type:** bludgeoning
 
-You create a crushing gravity well covering a 7x7 tile area centered on a point in range you can see. All loose objects are pulled towards the center, destroying mundane items. Any creature that enters the gravity well for the first time this round or starts their turn there make a Strength save against your spellcasting roll. On failure they are pulled into the center of the gravity well taking 2 wounds and 2 wound die in bludgeoning damage. On success they take no damage and their move and sprint speeds are reduced to 1 and cannot be improved. Creatures in the center take an additional wound and wound die in bludgeoning damage at the start of their turn.. Any mundane ranged attacks made over the gravity well automatically fail, being destroyed.
+You create a crushing gravity well covering a 7x7 tile area centered on a point in range you can see. All loose objects are pulled towards the center, destroying mundane items. Any creature that enters the gravity well for the first time this round or starts their turn there make a Strength save against your spellcasting roll. On failure they are pulled into the center of the gravity well taking 2 wounds and 2 wound die in bludgeoning damage. On success they take no damage and their move and sprint speeds are reduced to 1 and cannot be improved. Creatures in the center take an additional wound and wound die in bludgeoning damage at the start of their turn. Any mundane ranged attacks made over the gravity well automatically fail, being destroyed.
 
 The radius of the gravity well increases by 1 and you add 1 wound die to each source of damage for every level cast above 7th.
 
@@ -3766,6 +3787,7 @@ When cast at 10th level shadows have expertise when attacking their host creatur
 ##### Fourth
 - [Awaken](#Awaken)
 - [Bind Creature](#Bind-Creature)
+- [Blessing of Resilience](#Blessing-of-Resilience)
 - [Commune With Nature](#Commune-With-Nature)
 - [Destroy Monstrosity](#Destroy-Monstrosity)
 - [Earthen Pillars](#Earthen-Pillars)
@@ -3861,7 +3883,7 @@ You may target an additional creature for every level cast above cantrip.
 - **Range:** touch
 - **Duration:** 1 minute
 
-You enhance a creatures natural healing abilities, warding off pain momentarily. Make a spellcasting roll against 2 terrible dice. On success the creature may spend a healing surge and ignores the effects of a single lesser wound for the duration, ignoring additional lesser wounds for every critical rolled.
+You enhance a creatures natural healing abilities, warding off pain momentarily. Make a spellcasting roll against 2 terrible dice. On success the creature may spend a healing surge and ignores the effects of a single minor injury for the duration, ignoring additional minor injuries for every critical rolled.
 
 Add an enhanced die for every level cast above cantrip.
 
@@ -4024,7 +4046,7 @@ Add an enhanced die for every level cast above 1st.
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** holy
 
-Mark a 5x5 tile area centered on yourself. Any undead or monstrosity attempting to enter the consecrated ground makes a Charisma save against your spellcasting roll. On failure they cannot willingly enter. Any undead or monstrosity inside the consecrated ground takes 1 wound in holy damage at the start of their turn. Allies inside the zone gain 1 proficiency to all saving throws. Leaving the consecrated ground ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.
+Mark a 5x5 tile area centered on yourself. Any undead or monstrosity attempting to enter the consecrated ground makes a Charisma save against your spellcasting roll. On failure they cannot willingly enter. Any undead or monstrosity that enters for the first time this round or ends their turn inside the consecrated ground gains Burn 2. Allies inside the zone gain 1 proficiency to all saving throws. Leaving the consecrated ground ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.
 
 The area increases by 2 for every level cast above 2nd.
 
@@ -4070,7 +4092,7 @@ Add a normal die for every level cast above 2nd.
 - **Range:** touch
 - **Duration:** 10 minutes
 
-Conjure a rejuvenating, fruit bearing bush. The bush can have up to 5 fruit. Make a spellcasting roll against a bad die per fruit grown. On success a creature may eat one of the fruit during a short or long rest to gain a healing surge. They may also remove a poison or lesser wound affecting them, unless the effect comes from a spell cast at a higher level than _Seed of Renewal_.
+Conjure a rejuvenating, fruit bearing bush. The bush can have up to 5 fruit. Make a spellcasting roll against a bad die per fruit grown. On success a creature may eat one of the fruit during a short or long rest to gain a healing surge. They may also remove a poison or minor injury affecting them, unless the effect comes from a spell cast at a higher level than _Seed of Renewal_.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -4093,7 +4115,7 @@ Add an enhanced die for every level cast above 2nd.
 - **Range:** touch
 - **Duration:** instant
 
-Restore a creatures body, healing injuries and mending bones. You may attempt to heal as many lesser and greater wounds as you wish. Make a spellcasting roll, adding 2 Bad dice for every lesser wound and 4 terrible dice for every greater wound. On success the effects of these wounds are removed.
+Restore a creatures body, healing injuries and mending bones. You may attempt to heal as many minor and major injuries as you wish. Make a spellcasting roll, adding 2 bad dice for every minor injury and 4 terrible dice for every major injury. On success the effects of these wounds are removed.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -4177,7 +4199,7 @@ Add an enhanced die for every level cast above 3rd.
 - **Duration:** 1 minute
 - **Damage Type:** fire
 
-You summon a flaming skull at position in range you can see. At the end of each of your turns the skull breathes fire at all creatures in its zone of control. Make a spellcasting roll against the creatures defense. On success they take 1 wound in fire damage, adding a wound die on a critical. On your turn you may spend 3 AP to move the skull up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
+You summon a flaming skull at position in range you can see. At the end of each of your turns the skull breathes fire at all creatures in its zone of control. Make a spellcasting roll against the creatures defense. On success they take 1 wound in fire damage and gain Burn 1, or Burn 2 on a critical. On your turn you may spend 3 AP to move the skull up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
 
 Add an enhanced die and increase the duration by 1 turn for every level cast above 3rd.
 
@@ -4304,6 +4326,18 @@ Bind a creature in range you can see to this realm. Make a spellcasting roll aga
 Add an enhanced die for every level cast above 4th.
 
 
+#### Blessing of Resilience
+*4th level*
+
+- **Casting Time:** 1 minute
+- **Range:** 5
+- **Duration:** concentration, 1 hour
+
+Target up to 5 creatures in range, bless them with holy resilience. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to saving throws against effects that inflict Poison, Burn, Disease, or minor and major injuries. For the duration, at the start of the creatures turn they may remove one level of Burn or Poison effecting them.
+
+Add an enhanced die for every level cast above 4th.
+
+
 #### Commune with Nature
 *4th level*
 
@@ -4381,7 +4415,7 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** 5
 - **Duration:** instant
 
-Fill a creature with healing energy, causing their wounds to close over time. Make a spellcasting roll adding 4 bad dice. On success the creature heals a wound, healing a wound at the start of each of their turns. This effect lasts a number of turns equal to your successes. Remove a lesser wound on the creature for every critical rolled.
+Fill a creature with healing energy, causing their wounds to close over time. Make a spellcasting roll adding 4 bad dice. On success the creature heals a wound, healing a wound at the start of each of their turns. This effect lasts a number of turns equal to your successes. Remove a minor injury on the creature for every critical rolled.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -4582,7 +4616,7 @@ Add a wound for every level cast above 6th.
 - **Range:** touch
 - **Duration:** instant
 
-Restore the body of a creature in range you can see. Make a spellcasting roll. The creature heals 6 wounds and removes all lesser and greater wounds, healing an extra wound for every critical rolled. A creature can only be healed by this spell once per long rest.
+Restore the body of a creature in range you can see. Make a spellcasting roll. The creature heals 6 wounds and removes all injuries, healing an extra wound for every critical rolled. A creature can only be healed by this spell once per long rest.
 
 Add a wound for every level cast above 6th.
 
@@ -4681,7 +4715,7 @@ Add a superior die and increase the area by 2 for every level cast above 8th.
 - **Range:** 5
 - **Duration:** instant
 
-You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the creature restores wounds equal to the rolls successes. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below. All lesser and greater wounds are removed.
+You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the creature restores wounds equal to the rolls successes. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below. All injuries are removed.
 
 Add 2 superior dice to your roll for every level cast above 8th.
 
@@ -4808,13 +4842,13 @@ Make a ranged attack against a creature, adding an enhanced die for each AP spen
 - **Range:** melee
 - **Level Required:** 1/8/13
 
-Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, inflicting the lesser wound, hamstring, on a critical.
+Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, inflicting the minor injury _Hamstring_ on a critical.
 
-- **Hamstring:** The creature has Slow 1.
+- **Minor Injury: Hamstring.** You have Slow 1.
 
-***Enhanced:*** Add a wound die to the damage, and the lesser wound inflicts Slow 2.
+***Enhanced:*** Add a wound die to the damage. _Hamstring_ gives Slow 2 instead of Slow 1.
 
-***Superior:*** The lesser wound inflicts Slow 3.
+***Superior:*** _Hamstring_ also adds a bad die to all Dexterity saves and skills.
 
 
 
@@ -4963,7 +4997,9 @@ You carefully study your opponents movements, making a calculated attack. Make a
 
 Make a melee attack against a large or smaller creature adding an enhanced die to the attack roll. On hit you deal normal damage, dazing the creature until the end of their next turn on a critical.
 
-***Enhanced:*** The creature is dazed for 1 minute on a critical.
+- **Minor Injury: Clouded Mind.** You add a bad die to Intelligence saves and skills.
+
+***Enhanced:*** The creature gains the minor injury _Clouded Mind_ on a critical.
 
 ***Superior:*** While dazed, any ranged attacks against the creature add a critical success to their attack rolls.
 
@@ -5034,9 +5070,12 @@ Can only be used while on a mount. Make a melee attack against a standing creatu
 
 Make a wild melee attack against a creature, adding a normal die to your attack roll. On hit you deal an extra wound in damage. After making the attack you grant combat advantage to attackers until the start of your next turn.
 
-***Enhanced:*** Add an enhanced die instead of a normal die. If you deal 3 or more wounds with this attack the target gains a random lesser wound.
+-**Minor Injury: Bleeding.** Physical attacks and maneuvers against you may reroll 1 wound die in the damage roll.
+
+***Enhanced:*** Add an enhanced die instead of a normal die. If you deal 3 or more wounds with this attack the target gains the minor injury _Bleeding_.
 
 ***Superior:*** On a critical you add 2 wound dice to the damage.
+
 
 ### Level 3
 
@@ -5226,7 +5265,9 @@ Perform a spinning kick. Make an unarmed attack against a creature adding an enh
 
 Make a ranged attack against a creature, adding up to 5 wound dice to the damage. For each wound die add a terrible die to your attack roll.
 
-***Enhanced:*** The creature gains a random lesser wound on a critical.
+- **Minor Injury: Puncture.** Attacks that deal piercing or slashing damage against you add a critical success to their attack roll.
+
+***Enhanced:*** The creature gains the minor injury _Puncture_.
 
 ***Superior:*** Damage from this attack also reduces the creatures max wounds by the same amount. Their max wounds returns to normal after a long rest.
 
@@ -5366,11 +5407,18 @@ Shoot a volley of arrows at 3 adjacent creatures. Make a ranged weapon attack ad
 #### Wounding Strike
 
 - **AP Cost:** 5/4/4
-- **Weapon:** any one-handed weapon
+- **Weapon:** any slashing or piercing one-handed weapon
 - **Range:** melee
 - **Level Required:** 9/16/28
 
-Attempt to mortally wound a creature. Make a weapon attack adding a superior die if you are flanking the creature. On hit they take 1 wound die in damage, gaining a random lesser wound on a critical.
+Attempt to mortally wound a creature. Make a weapon attack adding a superior die if you are flanking the creature. On hit they take 1 wound die in damage, gaining a minor injury from the table below on a critical. You may choose any wound you meet the requirement for.
+
+
+| Criticals | Minor Injury | Effect |
+|:----:|:----|:-------------:|
+| 1 | Bleeding | Physical attacks and maneuvers against you may reroll 1 wound die in the damage roll. |
+| 2 | Open Wound | You add a terrible die to Stamina and Willpower saves and skills.
+| 3 | Fatal Wound | All attacks and maneuvers deal an additional wound die against you. |
 
 ***Enhanced:*** The attack deals normal damage and you have expertise for the attack if you are flanking the creature.
 
@@ -5729,6 +5777,11 @@ You may spend 3 AP to restore mana equal to half your level, rounded up. This fe
 
 When casting _Barrier_, _Counter Spell_, or blocking spell damage with _Elemental Shell_ you regain 1 mana, or 2 mana if the spell is 6th level and above, regardless of the rolls outcome.
 
+#### Mobile
+*Requires 5th level*
+
+Your move speed increases by 1. You have expertise when making saving throws against hazardous terrain.
+
 #### Nimble
 *Requires proficiency in acrobatics*
 
@@ -6020,7 +6073,7 @@ When the target of an attack, if the attack misses you may make a free opportuni
 #### Unbridled Potential
 *Requires 20th level*
 
-Your max attribute score is 6 instead of 5. You gain 1 attribute when taking this feat.
+Your max attribute and proficiency scores are 6 instead of 5. You gain 1 attribute when taking this feat.
 
 #### Unstoppable
 *Requires 7 combined saving throw proficiencies, 20th level*
@@ -6232,37 +6285,38 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 | &nbsp;&nbsp;&nbsp;&nbsp;Buckler | +0/1 | 0 | 15sc | none |
 | &nbsp;&nbsp;&nbsp;&nbsp;Shield | +1/0 | 2 | 50sc | none |
 
-### Wounds
-Some abilities leave lasting wounds. If an ability inflicts a random lesser or greater wound, roll on the tables below to determine the effect.
+### Injuries
+The following are all the Major and Minor injuries you will find in this book.
 
-#### Lesser Wounds
-Roll 4 bad dice, adding the successes.
+#### Minor Injuries
   
-| Roll | Wound | Effect |
+| Name | Effect |
 |:----|:----:|----:|
-| -8 | Bleeding | All blank wound die rolled against you are rerolled. |
-| -7 | Winded | You have 1 less maximum AP. |
-| -6 | Festering Wound | Your max wounds are reduced by 1. |
-| -5 | Sprained Wrist | Add a bad die to attacks and maneuvers |
-| -4 | Minor Concussion | Add 1 bad die to spellcasting rolls, you must pass a concentration check every turn while concentrating. |
-| -3 | Bruised Leg | Your move and sprint speeds are reduced by 1 and you add a terrible die to Dexterity saves. |
-| -2 | Head Wound | Add 2 bad dice to all Willpower, Intelligence and Charisma saves and skills. |
-| -1/0 | Exhaustion | You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound. |
+| Bleeding | All blank wound die rolled against you are rerolled. |
+| Winded | You have 1 less maximum AP. |
+| Festering Wound | Your max wounds are reduced by 1. |
+| Sprained Wrist | Add a bad die to attacks and maneuvers |
+| Minor Concussion | Add 1 bad die to spellcasting rolls, you must pass a concentration check every turn while concentrating. |
+| Bruised Leg | Your move and sprint speeds are reduced by 1 and you add a terrible die to Dexterity saves. |
+| Head Wound | Add 2 bad dice to all Willpower, Intelligence and Charisma saves and skills. |
+| Exhaustion | You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound. |
 
 
-#### Greater Wounds
-Roll 4 bad dice, adding the successes.
+#### Major Injuries
   
-| Roll | Wound | Effect |
+| Name | Effect |
 |:----|:----:|----:|
-| -8 | Deadly Infection | Your max wounds are reduced by 1. At the end of each long rest its are reduced by 1 again. |
-| -7 | Broken Arm | You can only hold a one-handed weapon or shield, not both. |
-| -6 | Internal Bruising | Opponents add 1 critical to their rolls against you. |
-| -5 | Collapsed Lung | Your Stamina score is reduced by 1 and you automatically failure exhaustion rolls. |
-| -4 | Broken Leg | You cannot sprint, and your move speed is reduced by 1. |
-| -3 | Sliced Eye | You have -3 proficiency in perception. Ranged attacks and spells you make add 1 terrible die to the roll. |
-| -2 | Concussed | Your Intelligence score is reduced by 1 and you are unable to concentrate on spells. |
-| -1/0 | Torn Ligament | You add a terrible die to all Dexterity saves. |
+| Bleeding | All blank wound die rolled against you are rerolled. |
+| Winded | You have 1 less maximum AP. |
+| Festering Wound | Your max wounds are reduced by 1. |
+| Sprained Wrist | Add a bad die to attacks and maneuvers |
+| Minor Concussion | Add 1 bad die to spellcasting rolls, you must pass a concentration check every turn while concentrating. |
+| Bruised Leg | Your move and sprint speeds are reduced by 1 and you add a terrible die to Dexterity saves. |
+| Head Wound | Add 2 bad dice to all Willpower, Intelligence and Charisma saves and skills. |
+| Exhaustion | You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound. |
+
+
+### Diseases
 
 
 ## Tools
