@@ -404,11 +404,11 @@ Add an enhanced die for every level cast above 1st.
 
 - **Casting Time:** 7 AP
 - **Range:** self
-- **Duration:** 8 hours
+- **Duration:** 1 hour
 
 Conjure a vibrant orange plant from the ground that contains 3 life fruit. Make a spellcasting roll against 2 bad dice. On success, you have 3 life fruit that heal 2 wound dice of damage when consumed with a use action.
 
-Add a bad dice and conjure 3 additional fruit for every level cast above 1st.
+Add a bad dice and increases the duration by 1 hour.
 
 ### Second Level
 
