@@ -1801,10 +1801,9 @@ Add an enhanced die for every level cast above 2nd.
 - **Duration:** concentration, 1 hour
 - **Damage Type:** Bludgeoning
 
-You attempt to animate a simple object made of plant, wood, stone, or metal no more than 1 tile in size. If the object is part of a larger construction (a stone wall, a dirt mound, etc.) you add 1 terrible die to your roll as you try to force it free.
+You attempt to animate a golem made of plant, wood, stone, or metal no more than 1 tile in size. If the object is part of a larger construction (a stone wall, a wooden door, etc.) you add 1 terrible die to your roll as you try to force it free.
 
-
-Make a spellcasting roll adding 2 terrible dice, or 4 terrible dice if the material is made of metal. On success you create a golem out of the object. The golem has 3 wounds and gains Resistance 1 to a damage type of your choosing: physical, fire, cold, lightning, poison. On your turn it can take a move action to move 4 tiles and may make an attack as free actions. The golem's attack uses your spellcasting roll instead of a normal attack roll. The creature deals a wound and wound die of bludgeoning damage on hit, adding a wound die for every size increase. After the duration or if the caster is incapacitated the golem reverts to inanimate material. Golems made of metal have Resistance 1 to all damage types instead.
+Make a spellcasting roll adding 2 terrible dice, or 4 terrible dice if the material is made of metal. On success you create a golem out of the object. The golem has 3 wounds and gains Resistance 1 to a damage type of your choosing: physical, fire, cold, lightning, poison. On your turn it can take a move action to move 4 tiles and may make an attack as free actions. The golem's attack uses your spellcasting roll instead of a normal attack roll. The creature deals a wound and wound die of bludgeoning damage on hit, adding a wound die for every size increase. When the spell ends the golem reverts to inanimate material. Golems made of metal have Resistance 1 to all damage types instead.
 
 Add an enhanced die for every level cast above 3rd. At 5th level you may target a 2x2 area creating a golem with 5 wounds, and at 7th a 3x3 area creating a golem with 8 wounds and two attacks per turn.
 
@@ -1831,6 +1830,20 @@ The number of bounces increases by 1 and you add an enhanced die for every level
 Attempt to counter a creatures flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the caster's spellcasting roll. Each caster adds a success equal to the level of each spell cast. On success the target spell has no effect.
 
 Multiple casters can attempt to counter the same spell, using the highest spellcasting roll and adding successes equal to the total spell level of all _Counter Spell_'s cast.
+
+
+#### Etherwalk
+*3rd level*
+
+- **Casting Time:** 7 AP
+- **Range:** 5
+- **Duration:** concentration, 1 minute
+
+Enter the Ethereal plane, becoming transparent and allowing you to walk through walls. Make a spellcasting roll against 2 bad dice. On success you enter the ethereal plane, increasing the duration by 1 minute for each critical. On a critical fail you exit the Ethereal plane at the end of your next turn.
+
+While in the ethereal plane you gain _Resistance_ 3 to physical damage and have a flying speed equal to your move speed, but gain _Vulnerability_ 1 against spell attacks. You cannot make weapon attacks, but may cast spells. You move through other creatures and 1 tile thick walls as if they were open terrain, however you are Blind while inside an object. Should you remain inside another creature or object when the spell ends you take 3 wound dice in force damage as you are ejected from the plane, appearing in the closest unoccupied tile.
+
+Add an enhanced die for every level cast above 3rd.
 
 #### Far Sight
 *3rd level*
