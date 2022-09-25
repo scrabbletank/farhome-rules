@@ -422,15 +422,17 @@ ___
 |6/4|3/1|2/2|-2/0|-1/0|0/0|
 
 ___
-***Venomous Frenzy*** This creature has Combat Advantage when attacking poisoned creatures.
+***Venomous Frenzy*** This creature has Combat Advantage when attacking poisoned creatures. It can track a creature infected with its poison up to 1 mile away.
 
 ***Amphibious Stalker*** This creature is difficult to see when in the water. A creature can spot the Mirelurk Stalker by making a successful Perception check against a Difficult challenge. While on land this creature has Slow 2.
 
 **Actions**
 
-***Poisoned Claws.*** *Melee Attack:* 5 AP, 4/1/1/0/0 - On hit deals 1/0 in slashing damage. On a critical the creature takes 0/3 in poison damage and gains Poison 2.
+***Poisoned Claws.*** *Melee Attack:* 5 AP, 4/1/1/0/0 - On hit deals 1/0 in slashing damage. On a critical the creature takes 0/3 in poison damage and gains Poison 2 for 1 hour.
 
 ***Chomp.*** *Melee Attack, Once per turn:* 5 AP, 4/2/1/0/0 - On hit deals 2/1 in piercing damage. If the creature is medium or smaller it is also grappled by the Stalker.
+
+***Dive.*** *Special Reaction, Once per turn:* 3 AP, 3/1/2/0/0. Can only be used while the creature is in deep water. As a reaction to taking damage the Mirelurk can dive below the surface, moving up to 2 tiles and taking any grappled creatures with them. Creatures make a perception check against this roll, losing sight of the stalker on fail.
 ___
 
 #### Giant Eagle
@@ -1799,10 +1801,19 @@ ___
 
 **Actions**
 
-***Dagger.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - deals 1 wound.
+***Dagger.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - deals 1/0 piercing damage.
 
-***Sneak Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0 - Must be flanking the target. Deals 1 wound, and rolls an additional wound die for every crit rolled.
+***Sneak Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0 - Must be flanking the target. Deals 1/0 in piercing damage, adding 0/1 for every crit rolled.
 ___
+
+#### Mix In's
+
+**Shielded:** Challenge + 1/2. The Goblin gains a buckler, adding 0/1 to its defense roll.
+
+**Ranged:** Changes the Goblins _Dagger_ action to _Bow_: *Ranged Attack:* 5 AP, Ranged 10/30, 1/1/3/0/0 - deals 1/1 piercing damage.
+
+**Dual Wield:** The Goblin uses two daggers, gaining the _Off-Hand Dagger_ action: *Melee Attack:* 2 AP, 0/2/3/0/0 - deals 1/0 in piercing damage.
+
 
 #### Goblin Fighter
  | | | | |
@@ -1824,6 +1835,14 @@ ___
 
 ***Sneak Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 3/1/2/0/0 - Must be flanking the target. Deals 1 wound, and rolls an additional wound die for every crit rolled.
 ___
+
+#### Mix In's
+
+**Shielded:** Challenge +1/2. The Goblin Fighters gains a buckler, adding 0/1 to its defense roll.
+
+**Ranged:** Changes the Goblin Fighters _Dagger_ action to _Bow_: *Ranged Attack:* 5 AP, Ranged 10/30, 2/1/2/0/0 - deals 1/1 piercing damage.
+
+**Armored:** Challenge +1. Max Wounds +1. The Goblin fighter uses hide armor, changing its defense to 1/3.
 
 #### Goblin Shaman
  | | | | |

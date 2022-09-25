@@ -621,9 +621,11 @@ There will be times when combat is unavoidable. Your adventurer may encounter zo
 
 ### Initiative
 
-When combat starts every character and creature in combat rolls for initiative. By default you roll 5 normal dice, replacing 1 with an enhanced die for every point of Dexterity you have. Negative Dexterity converts normal dice to bad dice instead. You add a flat success/failure modifier depending on the circumstances. Surprised creatures start with 3 failures. These values can be changed by feats or skills, and other dice may be added.
+When combat starts every character and creature in combat rolls for initiative. By default you roll 5 normal dice, replacing 1 with an enhanced die for every point of Dexterity you have. Negative Dexterity converts normal dice to bad dice instead. You add a flat success/failure modifier depending on the circumstances. These values can be changed by feats or skills, and other dice may be added.
 
 Combatants take turns, starting with whoever rolled the highest initiative and ending with whoever rolled the lowest. After every combatant has had a turn the round ends and a new round begins. This repeats until combat is over or one side has defeated all other combatants.
+
+Sometimes the party or monsters may get the drop on the other. A group of monsters may be waiting for the party and ambush them in the next room, or the party may blink into a room of monsters, taking them by surprise. In these cases the first round of combat is a surprise round. Each surprised creature takes a -3 penalty to their initiative for the first round, using their normal initiative every round after. It's possible that not every character or monster is surprised, and in some cases creatures on both sides can be surprised.
 
 
 
@@ -5527,7 +5529,7 @@ You've never had a home, instead relying on your own skills to survive in the wi
 As long as you aren't wearing armor, when making a defense roll you roll defense dice equal to your Dexterity score.
 
 #### Alert
-You take no penalty from being surprised and you add 1 superior die to initiative rolls.
+You may use Willpower instead of Dexterity when rolling initiative. You cannot be surprised.
 
 #### Armor Expert
 You reduce the penalties of wearing armor to 1 bad die for medium armor and 1 terrible die for heavy armor. When making a defense roll you add 1 critical to your roll.
