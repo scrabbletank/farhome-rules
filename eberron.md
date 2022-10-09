@@ -66,6 +66,7 @@ Used to find sites of power. You may spend 1 minute divining their location. Mak
 - **Casting Time:** 2 AP, reaction
 - **Range:** 3
 - **Duration:** instant
+- **Damage Type:** necrotic
 
 As a reaction, when a creature takes physical damage in range you make a spellcasting roll against 2 bad dice. On success you may reroll all wound dice in the damage.
 
@@ -81,6 +82,18 @@ For each level cast above cantrip, you may convert a wound to a wound die or a w
 Target a wounded creature. That creature must make a stamina saving throw against your spellcasting roll. On failure, you acquire the creatures blood.
 
 For each level cast above cantrip, the range increases by 2 tiles.
+
+#### Blood Manipulation
+*Cantrip*
+
+- **Casting Time:** 4 AP
+- **Range:** 6
+- **Duration:** instant
+- **Damage Type:** necrotic
+
+Your power over blood allows for the manipulation of the blood within a creature. Target a create with whom you have their blood and choose one of the following effects. You direct all their blood to a single point in their body, the target makes a constitution saving throw. On a failed save they have disadvantage on their next attack, save, or ability check.
+
+Add an enhanced die for every level cast above cantrip.
 
 ### First Level
 
@@ -223,6 +236,17 @@ The range of the spell is increased by 1 for every level cast above 3rd.
 
 When casted at level 7 or above, all attacks may re-roll 2 wound dice.
 
+#### Puppet Master
+*3rd level*
+
+- **Casting Time:** 10 AP
+- **Range:** 10
+- **Duration:** concentration, 10 minutes
+
+Your control over blood gives you the ability to animate the bodies of the recently deceased. Target a creature with whom you have their blood that has died in the last 10 minutes. Make a spellcasting roll against two terrible dice. On success, that character is re-animated with 6 wound dice of health, which cannot exceed the targeted creatures maximum. While animated, the creature acts according to it's own will.
+
+Target another creature for every level cast above 3rd.
+
 ### 4th Level
 
 #### Living Totem - Foresight
@@ -237,6 +261,18 @@ You project an aura of foresight around yourself, allowing all allies to see wit
 The range of the spell is increased by 1 for every level cast above 3rd.
 
 When casted at level 7 or above, all attacks may re-roll 2 defense dice.
+
+#### Life Drain
+*4th level*
+
+- **Casting Time:** 8 AP
+- **Range:** 10
+- **Duration:** instant
+- **Damage Type:** necrotic
+
+Create an area to drain the life from your enemies. All enemies within a targeted 5x5 area must make a stamina save against your spellcasting roll or suffer 4 wound dice in damage.
+
+Increase the affected area by 1 in each direction for each level cast above 4th.
 
 ### 5th Level
 
