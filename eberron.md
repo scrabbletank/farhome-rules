@@ -91,7 +91,7 @@ For each level cast above cantrip, the range increases by 2 tiles.
 - **Duration:** instant
 - **Damage Type:** necrotic
 
-Your power over blood allows for the manipulation of the blood within a creature. Target a create with whom you have their blood and choose one of the following effects. You direct all their blood to a single point in their body, the target makes a constitution saving throw. On a failed save they have disadvantage on their next attack, save, or ability check.
+Your power over blood allows for the manipulation of the blood within a creature. Target a create with whom you have their blood and choose one of the following effects. You direct all their blood to a single point in their body, the target makes a constitution saving throw aganist your spellcasting roll. On a failed save they have disadvantage on their next attack, save, or ability check.
 
 Add an enhanced die for every level cast above cantrip.
 
@@ -516,6 +516,18 @@ Summon the spirit of a wolf to come to your aid. Make a spellcasting roll agains
   - *Wounds:* 1 wound, 1 wound die
   - *Add another wound die in damage if cast at 5th level or higher*
 
+#### Flame Blade
+*2nd level*
+
+- **Casting Time:** 7 AP
+- **Range:** self
+- **Duration:** 10 minutes, concentration
+- **Damage Type:** Fire
+
+Spectral flames erupt from your weapon flickering with menace. Make a spellcasting roll against 2 terrible dice. On success, your weapon erupts in a magical flame that adds 1 wound die in damage to all attacks.
+
+Add an extra wound die in damage for every level cast above 2nd. An extra bad die is added to the spellcasting roll when cast above 2nd level as well.
+
 ### Third Level
 
 #### Moonlight
@@ -539,6 +551,17 @@ Increases the range by 2 tiles for every level cast above 3rd.
 Control water and move it to your will. Make a spellcasting roll, adding a terrible die for every 10 cubic feet of water that you wish to move. On success, you can will that amount of water to move. The water cannot defy gravity, but it can prevent the movement of water that is not being controlled.
 
 Increase the amount of water controlled by 10 cubic feet of water per terrible die for every level above 3rd.
+
+#### Regatha's Wings
+*3rd level*
+
+- **Casting Time:** 7 AP
+- **Range:** self
+= **Duration:** 10 minutes
+
+Beautiful wings with the power of an eagle allow you to fly freely through the skies. Make a spellcasting roll against 2 terrible dice. On success, wings sprout from your back allowing a single creature to fly for the duration with their move and sprint speed.
+
+Add 2 extra tiles of movement for every level cast above 3rd.
 
 ### Fourth Level
 
