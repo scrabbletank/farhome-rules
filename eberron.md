@@ -236,17 +236,6 @@ The range of the spell is increased by 1 for every level cast above 3rd.
 
 When casted at level 7 or above, all attacks may re-roll 2 wound dice.
 
-#### Puppet Master
-*3rd level*
-
-- **Casting Time:** 10 AP
-- **Range:** 10
-- **Duration:** concentration, 10 minutes
-
-Your control over blood gives you the ability to animate the bodies of the recently deceased. Target a creature with whom you have their blood that has died in the last 10 minutes. Make a spellcasting roll against two terrible dice. On success, that character is re-animated with 6 wound dice of health, which cannot exceed the targeted creatures maximum. While animated, the creature acts according to it's own will.
-
-Target another creature for every level cast above 3rd.
-
 ### 4th Level
 
 #### Living Totem - Foresight
