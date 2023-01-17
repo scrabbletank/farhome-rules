@@ -5459,14 +5459,17 @@ Swiftly strike up to 5 creatures in range. Make a weapon attack against the crea
 
 ### Backgrounds
 
+#### Blessed: Fae Court
+You are blessed by the Fae Court with innate magical powers. You have 1 proficiency in sleight of hand and performance, and gain access to the Fae Court feats. You start with 1 spell power and you add a superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
 
-#### Blessed
-Known to you or not, you have been given a blessing by a powerful being. You gain access to additional feats based on the being that has given you their blessing. In addition, you gain starting benefits based on the blessing:
+#### Blessed: Earthen Spirits
+You are blessed by the Earthen Spirits with an affinity for nature. You have 1 proficiency with nature and a weapon type of your choice, and gain access to the Earthen Spirit feats. Your body is unnaturally sturdy, and when unarmored you roll 3 defense dice instead of 2. Regardless of duration, when you gain poison 1 it disappears at the end of your next turn. This has no effect on effects inflicting poison 2 or higher.
 
-- **Fae Court:** You are an innate spellcaster. You start with 1 spell power and you add a superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
-- **Earthen:** When unarmored you roll 3 defense dice instead of 2. Regardless of duration, when you gain poison 1 it disappears at the end of your next turn. This has no effect on effects inflicting poison 2 or higher.
-- **Blight:** You have a natural affinity with the Undead. You can sense the presence of Undead within 10 tiles of you. When dealing death damage you deal a minimum of 1 wound before resistances.
-- **Abyssal:** You have unnatural luck. Once per long rest you may redo a roll, rerolling all dice and taking the new roll. You know the spell _Eldritch Blast_ without needing to prepare it and can cast it without a codex. Casting _Eldritch Blast_ costs 1 less AP.
+#### Blessed: Blighted Ones
+You are blessed by the Blighted Ones with necromantic powers. You have 1 proficiency with intimidation and religion, and gain access to the Blighted Ones feats. Unless magically hidden, you can sense the presence of Undead within 10 tiles. Once per day you may cast _Ghoulish Claws_ at 1st level. This spell does not need to be prepared and does not cost mana. You have a codex with 2 cantrips.
+
+#### Blessed: Abyssal Host
+You are blessed by the Abyssal Host with fiendish luck. You have expertise in conversation and insight, and gain access to the Abyssal Host feats. Once per long rest you may redo a roll, rerolling all dice and taking the new values. You know the spell _Eldritch Blast_ without needing to prepare it and can cast it without a codex. Casting _Eldritch Blast_ costs 1 less AP.
 
 #### Coven Witch
 You are trained in occult spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency nature and insight.
@@ -5481,7 +5484,7 @@ You have studied the natural world and have gained an affinity with nature. You 
 You have learned the trade of an enchanter allowing you to empower mundane items. You have 1 proficiency in lore, arcana, diplomacy, and enchanting tools. Enchantments cost half as many enchanting supplies when done by yourself. You start with 1 spell power, a codex with 2 cantrips, and enchanting tools.
 
 #### Magician's Apprentice
-You are trained proficiency in arcane spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in arcana and lore.
+You are trained in arcane spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in arcana and lore.
 
 
 #### Noble
@@ -5561,9 +5564,7 @@ Choose 2 skill or tool proficiencies. You have expertise in these skills.
 After an unarmed attack, if you have nothing in your offhand you may take the off-hand attack action to make 2 attacks against a creature. The attacks add 1 bad die to the attack roll and do not use proficiency.
 
 #### Hunter
-Your skill in hunting creatures has given you a knack for identifying weaknesses. During a short or long rest you may study the body of a dead, non-humanoid creature to learn its weaknesses. After studying you learn 1 piece of information about the creature, such as its max wounds, its attributes, resistances or vulnerabilities, or one of its features.
-
-You keep a log of all creatures you've studied. During a long rest you can prepare a creature you've studied, taking up one of your prepared spell slots. For the next day you add 1 critical to all attacks, maneuvers, and spell attacks against a prepared creature.
+On your turn you may spend 5 AP to study a non-humanoid creature, gaining an insight into its strengths and weaknesses. Make a perception check against a difficulty based on the rarity of the creature. On success you learn a piece of information about the creature, such as its max wounds, its physical or mental attributes, resistances or vulnerabilities, or one of its features. On a critical you see through the creature's defenses, adding a critical success to all attacks, maneuvers, or spells against the creature for the next minute.
 
 #### Longcaster
 Spells you cast with a range of 5 tiles or more have 3 extra range. Spell attacks against creatures in cover grant them one less defense die.
@@ -5709,7 +5710,7 @@ Basic attacks cost 4 AP instead of 5.
 #### Far Blessings
 *Requires 3 proficiency in divine spells, 10th level*
 
-The spells _Guidance_, _Holy Protection_, _Enhance Ability_, _Shield of Faith_, and _Winds of Battle_ have 3 extra range. When cast at 1st level and above the effects of _Guidance_ and _Holy Protection_ last for a full turn instead of a single attack.
+The spells _Guidance_, _Holy Protection_, _Enhance Ability_, _Shield of Faith_, and _Winds of Battle_ have 3 extra range. When cast at 1st level and above the effects of _Guidance_ and _Holy Protection_ last for a full round instead of a single attack.
 
 #### Flexible Mind
 *Requires 1 Willpower*
@@ -5729,7 +5730,7 @@ When attacked by a wild beast or plant creature they make a Willpower save again
 #### Great Weapon Fighter
 *Requires 5 Strength, 10th level*
 
-Weapons you wield with both hands do not count as _Heavy_.
+Weapons you wield with both hands do not count as _Heavy_. Attacks with two handed weapons without _Heavy_ cost 4 AP instead of 5 when wielded with both hands.
 
 #### Helping Hand
 *Requires proficiency in divine spells, 6th level*
@@ -5816,7 +5817,7 @@ Once per turn when a creature takes a movement action towards you, you may spend
 #### Perfect Defense
 *Requires 4 Strength, 12th level*
 
-You have perfected your defenses allowing you to withstand almost any attack. While holding a shield or wearing heavy armor you gain _Resistance 1_ against physical damage while taking the defend action.
+You have perfected your defenses allowing you to withstand almost any attack. While holding a shield or wearing heavy armor you take 1 less wound die in damage from attacks and spell attacks if you have not moved this round.
 
 #### Poison Resistance
 *Requires 3 Stamina, 10th level*
@@ -6093,7 +6094,7 @@ Your max attribute and proficiency scores are 6 instead of 5. You gain 1 attribu
 #### Unstoppable
 *Requires 7 combined saving throw proficiencies, 20th level*
 
-When you are inflicted with a condition from an attack, maneuver, or spell, you may choose to ignore it regardless of the outcome of the roll. Any other effects from the attack or spell, such as damage, still apply. You may do this up to 3 times after which you must long rest before using again.
+When you are inflicted with a condition from an attack, maneuver, or spell, you may choose to ignore it regardless of the outcome of the roll. Any other effects from the attack or spell, such as damage, still apply. You may do this up to 3 times after which you must long rest before using the feat again.
 
 #### Warrior
 *Requires 7 combined weapon proficiencies, 20th level*
@@ -6184,7 +6185,7 @@ You are permanently under the effects of the spell _Dark Sight_ and you gain 1 p
 #### Eldritch Force
 *Requires proficiency in occult spells, 8th level*
 
-When casting Eldritch blast at 1st level or above you add 1 wound to the damage.
+When casting _Eldritch Blast_ at 1st level or above you add 1 wound to the damage.
 
 
 #### Fiendish Trickery
@@ -6492,8 +6493,9 @@ You may spend additional mana to improve your roll, adding an enhanced die for e
 | _Weapon_ | | | | | 
 | &nbsp;&nbsp;&nbsp;&nbsp;Skillful | 1 | 1 |2B | You gain 1 proficiency with this weapon type. |
 | &nbsp;&nbsp;&nbsp;&nbsp;Brutality | 2 | 3 |2B/1T | When you land a critical with this weapon, add an extra wound die to the damage. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Hexblade | 2 | 3 |2B/1T | When you land a critical with this weapon the target gains hex 1 for 1 minute. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Quickened | 4 | 3 |1B/2T | The first attack or maneuver made with this weapon each turn costs 1 less AP. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Hexblade | 4 | 3 |2B/1T | When you land a critical with this weapon the target gains hex 1 for 1 minute. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Quickened | 6 | 3 |1B/2T | The first attack or maneuver made with this weapon each turn costs 1 less AP. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Phantasmal | 8 | 5 | 3T | You may spend 2 AP to create a phantom of your weapon that follows its movements. While active, your first melee attack each turn also targets an adjacent creature. The phantom weapon deals weapon damage as force damage, and can't be improved by feats or abilities. |
 | _Armor_ | | | | | 
 | &nbsp;&nbsp;&nbsp;&nbsp;Durable | 2 | 2 |2B/1T | If a spell or effect would damage this armor, roll a wound die. On a blank the armor takes no damage instead. |
 | &nbsp;&nbsp;&nbsp;&nbsp;Lightened | 3 | 3 |2B/1T | Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalties. |

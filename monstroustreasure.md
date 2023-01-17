@@ -122,7 +122,7 @@ The final section contains all the actions a monster can take. Each action follo
 - [Golem - C24](#Golem)
 
 [Fey](#Fey)
-- [Sprite - C1/2](#Sprite)
+- [Pixie - C1/2](#Sprite)
 - [Peryton - C8](#Peryton)
 - [Dryad - C8](#Dryad)
 - [Knight of the Moon Court - C13](#Knight-of-the-Moon-Court)
@@ -573,6 +573,7 @@ ___
 >
 >___
 >***Hexproof.*** This creature is immune to Hex 2 and below.
+>***Magic Sense.*** This creature can sense the presence of undead or magic within 60 tiles. Some spells, such as _Nondetection_, are invisible to this sense.
 >
 >***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 5/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. They know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
 >
@@ -776,7 +777,7 @@ ___
 ___
 ***Pack-Tactics.*** This creature has Combat Advantage when attacking a creature that is adjacent to an ally.
 
-***Quick.*** This creature does not provoke opportunity attacks when taking the Move action.
+***Dark Sight.*** This creature treats dim light as bright light and darkness as dim light.
 
 **Actions**
 
@@ -1084,7 +1085,7 @@ ___
 
 ***Dive Bomb.*** *Maneuver, Melee Attack:* 5 AP, 2/2/2/0/0 - Deals 1 wound and 1 wound die in damage. The Spine devil must be flying before attacking. If the Spine devil drops 2 or more tiles before making the attack add a wound die to the damage.
 
-***Rain of Spines.*** *Maneuver, Special Attack:* 5 AP, 1/2/3/0/0 - Fires razor sharp quills in a 90 degree arc 3 tiles long in front of it. All creatures in range make a Defense roll, taking 3 wound die on fail.
+***Rain of Spines.*** *Maneuver, Special Attack:* 5 AP, 1/2/3/0/0 - Fires razor sharp quills in an arc 3 tiles long and 3 tiles wide. All creatures in range make a Defense roll, taking 3 wound die on fail.
 ___
 
 #### Seraptis Demon
@@ -1226,7 +1227,7 @@ ___
  |:---|---:|:---|---:|
  | **Defense:** | 3/2 | **AP:** | 15 |
  | **Wounds:** | 35 | **Challenge:** | 40 |
- | **Move/Sprint:** | 4/4 | **Size:** | Large |
+ | **Move/Sprint:** | 4/4 | **Size:** | Huge |
 ___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1241,11 +1242,11 @@ ___
 
 **Actions**
 
-***Great Spear.*** *Reach 1, Melee Attack:* 5 AP, Reach 1, 6/1/1/0/0 - Deals 2/1 in piercing damage, adding 0/2 on a critical.
+***Great Spear.*** *Melee Attack:* 5 AP, Reach 2, 6/1/1/0/0 - Deals 2/1 in piercing damage, adding 0/2 on a critical.
 
-***Cleave.*** *Reach 1, Melee Attack:* 7 AP, Reach 1, 6/1/1/1/0 - Hits all creatures in its zone of control, dealing 2/1 in piercing damage, adding 0/2 on a critical.
+***Cleave.*** *Melee Attack:* 7 AP, Reach 2, 6/1/1/1/0 - Hits all creatures in its zone of control, dealing 2/1 in piercing damage, adding 0/2 on a critical.
 
-***Summoning.*** *Maneuver, Special:* 7 AP, 3/0/0/0/0 - Summon a Hordling or lesser demon (CR 7 and below) for each success. Can only be used once per day, the Demons return to the abyss after 1 hour.
+***Summoning.*** *Maneuver, Special:* 7 AP, 5/0/0/0/0 - Summon a Hordling or lesser demon (CR 7 and below) for each success. Can only be used once per day, the Demons return to the abyss after 1 hour.
 
 ***Gore.*** *Maneuver, Melee Attack:* 6 AP, Range 3, 6/1/1/0/0 - Can only target a creature that is not adjacent to the Taurus Demon. This creature charges at its target, moving up to 3 tiles and ending adjacent to them. The creature makes a Strength or Dexterity save against the attack, taking 2/4 in piercing damage.
 
@@ -1437,7 +1438,7 @@ ___
 
 ### Fey
 
-#### Sprite
+#### Pixie
  | | | | |
  |:---|---:|:---|---:|
  | **Defense:** | 0/1 | **AP:** | 10 |
@@ -1528,9 +1529,9 @@ ___
 
 **Actions**
 
-***Claymore.*** *Melee Attack:* 4 AP, 2/1/2/0/0 - Deals 1/1 in slashing damage.
+***Claymore.*** *Melee Attack:* 4 AP, 3/1/2/0/0 - Deals 1/1 in slashing damage.
 
-***Cleave.*** *Maneuver*, *Melee Attack:* 6 AP, 2/1/3/0/0 - Attacks all creatures inside its zone of control, dealing 1/1 in slashing damage to all targets on hit.
+***Cleave.*** *Maneuver*, *Melee Attack:* 6 AP, 3/1/3/0/0 - Attacks all creatures inside its zone of control, dealing 1/1 in slashing damage to all targets on hit.
 ___
 
 #### Faerie Dragon
@@ -1555,11 +1556,11 @@ ___
 
 ***Claw.*** *Melee Attack:* 5 AP, 2/0/3/0/0 - Deals 1 wound and 2 wound dice in damage.
 
-***Faerie Orb.*** *Maneuver*, *Special:* 7 AP, Range 5, 2/3/0/0/0 - The faerie dragon turns into an orb of blue fire and dashes 5 tiles in a straight line, hitting all creatures in its path. All creatures targeted make a Dexterity save taking 2 wounds and 2 wound dice in fire damage. The Dragon appears next to the creature and avoids opportunity attacks or damaging effects while travelling.
+***Faerie Orb.*** *Maneuver*, *Special:* 7 AP, Range 5, 2/3/0/0/0 - The faerie dragon turns into an orb of blue fire and dashes 5 tiles in a straight line, hitting all creatures in its path. All creatures targeted make a Dexterity save taking 2 wounds and 2 wound dice in fire damage. The Dragon appears next to the creature, avoiding opportunity attacks or damaging effects while travelling.
 
 ***Blink.*** *Maneuver, Reaction:* 3 AP</br>On being hit by an attack, maneuver, or spell the faerie dragon can momentarily blink out of existence. The dragon takes no effects from the attack and appears in their position at the start of their next turn.
 
-***Confusion Breath.*** *Once Per Day, Special:* 8 AP</br>Breathes a euphoric fire that clouds creatures minds hitting all creatures in a 6 tile arc from the dragon. Creatures make a Willpower save, becoming confused for the next 10 minutes on fail. While confused, at the start of each turn they roll a wound die. On a wound they take no action, instead moving in a random direction. Each time they take damage they make a Willpower save against 2 superior dice, ending the effect on success. 
+***Confusion Breath.*** *Once Per Day, Special:* 8 AP, 1/4/0/0/0</br>Breathes a euphoric fire that clouds creatures minds hitting all creatures in a 6x6 tile arc from the dragon. Creatures make a Willpower save, becoming confused for the next 10 minutes on fail. While confused, at the start of each turn they roll a wound die. On a wound they take no action, instead moving in a random direction. Each time they take damage they make a Willpower save against 2 superior dice, ending the effect on success. 
 ___
 
 #### Night Hag
@@ -1586,7 +1587,7 @@ ___
 
 ***Voodoo Doll.*** *Special:* 6 AP, Range 3, 3/1/2/0/0 - While holding a Voodoo Doll the Night Hag can attempt to bind it to a creature. The creature makes a Willpower save against this attack. On fail they are dominated by the Night Hag. They must obey any command given by the Night Hag as long as it does not harm them. For example, they cannot be commanded to jump off a cliff. The creature can choose to disobey the command, taking 2/2 in psychic damage instead.
 
-Only one creature can be bound to a Voodoo Doll. The link is broken when the Voodoo Doll is destroyed and the Night Hag must spend 7 days crafting a new one before it can use this ability again.
+Only one creature can be bound to a Voodoo Doll. The link is broken when the Voodoo Doll is destroyed. The Night Hag must spend 7 days crafting a new one before it can use this ability again.
 ___
 
 #### Death Hag
@@ -2435,12 +2436,12 @@ ___
 ___
 |STR|DEX|STA|INT|WIL|CHA|
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|4/2|3/2|2/0|-2/0|0/0|1/0|
+|4/2|3/2|2/0|-2/0|0/0|2/1|
 
 ___
 ***Poison Resistance.*** The Wendigo has _Resistance_ 1 to poison damage and is immune to Poisons at level 1 or below.
 
-***Voice Mimicry.*** This creature can emulate the voice of the creatures its killed or heard in the past 24 hours. A successful Insight check against this creatures Conversation (1 proficiency) will determine the voice is fake.
+***Voice Mimicry.*** This creature can emulate the voice of the creatures its killed or heard in the past 24 hours. A successful Insight check against this creatures Charisma save will determine the voice is fake.
 
 **Actions**
 
@@ -2536,7 +2537,7 @@ ___
 
 ***Lingering Magic.*** The effects from the spells _Guidance_ and _Holy Protection_ this creature casts last for the full minute and their effects can be used once per turn.
 
-***Spellcaster.*** The Night Hag has 2 proficiency with Divine spells. They are a 2nd level spellcaster, have 7 mana, and a codex with the following spells: _Guidance, Holy Protection, Chilling Fog, Tremor_.
+***Spellcaster.*** The Lamia has 2 proficiency with Divine spells. They are a 2nd level spellcaster, have 7 mana, and a codex with the following spells: _Guidance, Holy Protection, Chilling Fog, Tremor_.
 
 
 **Actions**
@@ -3345,6 +3346,13 @@ This book gives instructions on how to craft the following wands:
 | Wand of Sight  | a gemstone worth at least 25gp, 4 enchanting supplies, Eye of a beast | 2B |
 | Wand of Cinders  | a gemstone worth at least 50gp, 4 enchanting supplies, 1lb of charcoal | 2B/1T |
 | Wand of Shock  | 2 gemstones worth at least 50gp each, 2 enchanting supplies, a metal rod | 2B/1T |
+
+#### Fates Eye
+*Woundrous Item*
+
+An eye made from gold and emerald, engraved with a diamond shaped pupil. To use this item, the wearer must remove one of their eyes and replace it with this eye. Once bound to a creature, it cannot be removed without killing them.
+
+The eye gives the wearer truesight out 30 tiles and expertise on saving throws against blinding effects. The eye can see the threads of fate. Once per day you may cast _Change Fate_ at 9th level. The spell automatically succeeds.
 
 #### Flametail
 *Magic Weapon +1*
