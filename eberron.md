@@ -2,6 +2,8 @@
 
 ## Table of Contents
 
+[Downtime](#downtime)
+
 [Races](#races)
 
 [Spells](#spells)
@@ -11,6 +13,56 @@
 [Feats](#feats)
 - [Backgrounds](#backgrounds)
 - [Journeyman](#journeyman)
+
+# Downtime
+
+Every adventurer needs time to rest and there are times when the call to adventure is quiet. Whether it is to maintain their equipment, rest their weary bodies, practice some new moves, or wait for the enemy to move there is something to be gained by taking a break.
+
+Downtime is an optional rule that can be adopted by GM's. The optional rule comes in two forms: required downtime and downtime activities.
+
+## Required Downtime
+
+It's not good to push your body to the point of exhaustion and constantly be embroiling yourself in combat. In addition, it doesn't make sense narratively to gain many levels and learn never before mentioned new abilities over the course of a week. *Required Downtime* gives the GM a tool to balance this by preventing further level gains until a certain amount of downtime is spent. The longer the downtime that is taken, the more successive level gains can be attained before the next *Required Downtime*.
+
+## Downtime Activities
+
+There are no end to the activities that can be taken when taking a break. One adventurer may decide to search for information on a rare relic found on a previous excursion whereas another will take the time to hone their skills. The list presented is meant to aid a GM and provide some mechanical benefit behind a narrative period of rest. The GM is encouraged to find new activities and benefits that suit the growth of the individuals playing at their table.
+
+### Acquire Ingredients
+
+Spend time in the wonderful biomes of the world searching out common and rare ingredients. A player may take their character to a region on the map using safe travel means and accounting for the travel time and spend their downtime searching for ingredients in one or several biomes. It is recommended to allow the player to role for coarse time changes. For instance, if the player is searching for 3 weeks, it is best to allow them to role once a week instead of every day. Depending on the success of the role, the player will receive a proportional number of resources for the time period as well as distribution of ingredients from that biome.
+
+### Recipe Discovery
+
+Spend time at a desk embroiled in alchemical or botanical madness. A player may take the ingredients they have and attempt to combine them in new and interesting ways. Perhaps they want to discover a new recipe through random chance or enhance an already existing recipe. Allow the player to describe what they are trying to create and potentially who they are experimenting on. Th GM will create a required amount of time and resources for them to attempt a skill challenge for that discovery. The player will then roll their tool proficiency against the difficulty of the challenge and either succeed or fail (potentially in spectacular fashion). If the player fails, they will learn something from the experience and gain an enhanced die the next time they attempt it.
+
+### Training
+
+Spend time in a magical tome, exercising in the forest, or paying for the services of an expert. A player may spend their time trying to enhance their lockpicking skills, their arcane knowledge, or learning to become a better alchemist. The player will describe what skill proficiencies they are trying to enhance and whether they are going to pay an expert to teach them. The GM will decide how long it will take to enhance that skill (1 month is a reasonable starting amount) and deduct time with the help of an expert. The GM should be upfront about the amount of time required to gain a proficiency point. After the required amount of time, the player can take a single proficiency point in that area.
+
+### Artificing Project
+
+Spend some time tinkering with an invention or improving an old one. A player may spend their time and resources building to create or enhance a magical contraption. The player will describe that they want to create. The GM will create a required amount of time and resources for them to attempt a skill challenge for that task. The player will then roll their tool proficiency against the difficulty of the challenge and either succeed or fail (potentially in spectacular fashion). If the player fails, they will learn something from the experience and gain an enhanced die the next time they attempt it.
+
+### Adventuring
+
+Spend time doing some low-key adventuring for some extra coin, without being daring enough to put your life on the line. A player may be a battle junky and want to keep up the good fight. However, they still need to let their body rest and hone their skills. The player is welcome to take some more restful adventuring jobs from a nearby guild or establishment. Perhaps they want to help the local farmers clear the farms of a rabbit that is eating their crops or they may join some caravans for basic guard duty. Whatever menial adventuring jobs they pick up, they earn some coin. Determine a reasonable rate for an average week as an adventurer, communicate it to the player, and multiply it by the time spent earning some coin. A recommended starting amount is 1 talent per week but may increase depending on the renown and level of the PC.
+
+### Travelling
+
+Spend some time seeing and learning about the world, visiting your family, or delivering a message. A player may head out into the expansive world for a time to accomplish a task that is meaningful to them. The player should describe where they are going, why they are going there, and what means of transportation they are using. The GM should then calculate a cost and travel time for their trip. If the player accepts the time and cost, they do it. The GM is encouraged to reward the player according to the request. Some examples include: providing a scene with the people they are visiting; meeting a strange person in their travels; or uncovering a plot or location of interest.
+
+### Research
+
+Spend some time in the books, making inquiries, or divining with magic. A player may seek out information about the world or something in the world. Perhaps it it is the location of a powerful weapon, the reason behind some recent rumors, or find out what their enemies are up to. The player describes what they are trying to learn and how they intend to learn it (which may alter what type of proficiency they will roll). The GM will then decide on a required amount of time and cost to attempt a skill challenge for that task. The GM should communicate the time, cost, and skill challenge for the attempt. The player will then spend the time and resources and roll the required proficiency against the difficulty of the challenge and either succeed or fail. If the player fails, they will learn something from the experience and gain an enhance die the next time they attempt it.
+
+### Gaining Renown
+
+Spend some time putting your name or the name of your advenuring group out into the world, perhaps opening doors in the process. A player indicates what they want to accomplish and how they plans to accomplish it. Perhaps they want to join a travelling performance troupe, battle in a combat arena, or whisper rumors in a drunken bar crawl. The GM will create a required amount of time and resources for them to attempt a skill challenge for that task. The player will then roll the required proficiency. The GM can decide to roll a challenge or scale the result of the roll to how much renown they spread and what the effects of that renown are.
+
+### Smithing or Enchanting Project
+
+Spend some time creating a weapon, piece of armor, or magical effect on an item. A player may spend their time and resources building to create something amazing. The player will describe that they want to create. The GM will create a required amount of time and resources for them to attempt a skill challenge for that task. The player will then roll their tool proficiency against the difficulty of the challenge and either succeed or fail (potentially in spectacular fashion). If the player fails, they will learn something from the experience and gain an enhanced die the next time they attempt it.
 
 # Races
 
