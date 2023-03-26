@@ -237,6 +237,17 @@ Hostile creatures trying to see through the illusion can make a perception check
 
 For each level cast above 2nd, the range increases by 2.
 
+#### Mass Siphon
+*2nd level*
+
+- **Casting Time:** 2 AP, reaction
+- **Range:** 8
+- **Duration:** instant
+
+Target multiple wounded creatures. Make a spellcasting roll, adding a bad die for each creature targeted. Each creature targeted must make a stamina saving throw against your spellcasting roll. On failure, you acquire the creatures blood.
+
+For each level cast above 2nd, add an enhanced die to the roll.
+
 ### Third Level
 
 #### Shallow Grave
@@ -288,6 +299,17 @@ The range of the spell is increased by 1 for every level cast above 3rd.
 
 When casted at level 7 or above, all attacks may re-roll 2 wound dice.
 
+#### Wonderful Delusions
+*3rd level*
+
+- **Casting Time:** 9 AP
+- **Range:** 12
+- **Duration:** concentration, 1 minute
+
+You project a 6x6 area of twisting illusions, mesmerizing to behold. All creatures within the spell must make a willpower saving throw against your spellcasting roll. On failure, the creature becomes incapacitated with a speed of 0.
+
+Increase the duration by 20 seconds for every level cast above 3rd.
+
 ### 4th Level
 
 #### Living Totem - Foresight
@@ -314,6 +336,22 @@ When casted at level 7 or above, all attacks may re-roll 2 defense dice.
 Create an area to drain the life from your enemies. All enemies within a targeted 5x5 area must make a stamina save against your spellcasting roll or suffer 4 wound dice in damage.
 
 Increase the affected area by 1 in each direction for each level cast above 4th.
+
+#### Ritual of Sacrifice
+*4th level*
+
+- **Casting Time:** 1 hour
+- **Range:** 6
+- **Duration:** 24 hours
+
+You spend an hour, creating an intricate pattern of 6x6 size using the blood of multiple creatures. Within the center of the pattern, place a gem encrusted goblet worth over 10 talents with the blood of those creatures. Make a spellcasting roll against 2 terrible dice and 1 bad die. Up to ten creatures can partake in the goblet which is consumed within 1 minute of the ritual completion.
+
+All creatures that partake gain the following benefits.
+- They are immune to poison and being frightened.
+- They make all willpower saving throws with advantage.
+- Their maximum wounds are increased by 2 for the duration.
+
+For every level cast above 4th, add a bad die and increase the maximum wounds by 1.
 
 ### 5th Level
 
