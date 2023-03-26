@@ -244,9 +244,9 @@ For each level cast above 2nd, the range increases by 2.
 - **Range:** 8
 - **Duration:** instant
 
-Target multiple wounded creatures. Make a spellcasting roll, adding a bad die for each creature targeted. Each creature targeted must make a stamina saving throw against your spellcasting roll. On failure, you acquire the creatures blood.
+Target 4 wounded creatures within range. Each creature targeted must make a stamina saving throw against your spellcasting roll. On failure, you acquire the creatures blood.
 
-For each level cast above 2nd, add an enhanced die to the roll.
+For each level cast above 2nd, you may target an additional 2 creatures and add an enhanced die to the roll.
 
 ### Third Level
 
