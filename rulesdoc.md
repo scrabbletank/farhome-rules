@@ -54,6 +54,7 @@
 - [Short Rests](#Short-Rests)
 - [Long Rests](#Long-Rests)
 - [Exhaustion](#Exhaustion)
+- [Downtime](#Downtime)
 
 [Combat](#Combat)
 - [Initiative](#Initiative)
@@ -81,7 +82,7 @@
 - [Magic Gear](#Magic-Gear)
 - [Identifying Magic Items](#Identifying-Magic-Items)
 
-[Races](#Races)
+[Species](#Species)
 
 [Spells](#Spells-1)
 - [Arcane](#Arcane)
@@ -97,9 +98,9 @@
 - [Advanced](#Advanced)
 - [Legendary](#Legendary)
 - [Fae Court](#Fae-Court)
-- [Earthen](#Earthen)
-- [Blight](#Blight)
-- [Abyssal](#Abyssal)
+- [Earthen Spirits](#Earthen-Spirits)
+- [Blighted Ones](#Blighted-Ones)
+- [Abyssal Host](#Abyssal-Host)
 
 [Items](#Items)
 - [Consumables](#Consumables)
@@ -246,7 +247,7 @@ In some cases you may want to help someone with an action, such as trying to pus
 #### Rerolls
 Either through expertise, feats, or other abilities you may reroll a number of dice when making a roll. When rerolling you may choose any dice, except wound dice, to reroll taking the new value instead. Once rerolled you may not reroll the same die again. You may reroll any dice that are considered part of your roll, such as bonus dice from upcasting a spell, dice added from abilities or spells such as _Guidance_, and dice given by negative effects, such as poison. When making a skill challenge, all challenge dice are considered part of your roll and may be rerolled. 
 
-Dice rolled in contest of your own roll, such as another creatures defend or saving throw, cannot be rerolled by you. Additionally, dice that have been replaced, such as dice that have been hexed, cannot be rerolled.
+Dice rolled in contest of your own roll, such as another creatures defense or attribute save rolls, cannot be rerolled by you. Additionally, dice that have been replaced, such as dice that have been hexed, cannot be rerolled.
 
 #### Adding Dice
 Some abilities allow you to add dice to certain rolls. Dice that are added as part of upcasting a spell or from abilities that apply to your next roll must be added and rolled together. Hero dice, or abilities that allow you to add dice to any roll within a timeframe can be added after your roll, but before the outcome is determined.
@@ -255,7 +256,7 @@ For example, dice added from the spells _Guidance_ or _Weal_ add dice to your ne
 
 ### Wounds
 
-Wounds are used to determine how hard a character is to kill, the more wounds you have the more durable your character. Wounds are lost when you are hit by attacks, spells, or traps and are restored by taking rests or through certain spells.
+Wounds are used to determine how hard a character is to kill, the more wounds you have the more durable your character. Wounds are lost when you are hit by attacks, spells, or traps and are restored by taking rests or through certain spells. If you are brought to 0 wounds or below you become incapacitated and start making death saves. Some attacks and spells can kill your character outright, bypassing death saves. Regardless of the source, taking damage equal to or exceeding your maximum wounds will kill you.
 
 #### Temporary Wounds
 
@@ -273,7 +274,7 @@ Action points (AP) are used during combat to move, attack, or cast spells. Chara
 
 ### Death Saves
 
-When a character takes enough damage to bring them to 0 wounds they fall unconscious and start making death saves. While unconscious you gain temporary wounds equal to half your total wounds rounded up. At the start of each turn you roll a wound die, losing 1 of your temporary wounds if the die rolls a wound. If you lose all of your temporary wounds your character dies.
+When a character takes enough damage to bring them to 0 wounds they are incapacitated and start making death saves. While incapacitated you gain temporary wounds equal to half your total wounds rounded up. At the start of each turn you roll a wound die, losing 1 of your temporary wounds if the die rolls a wound. If you lose all of your temporary wounds your character dies.
 
 Death saves aren't the only way you can lose temporary wounds. Creatures can still make attacks against you and any melee attacks that hit you deal full damage regardless of the wound dice rolled. Likewise, allies can attempt to bring you back with healing spells, potions, or by stabilizing you. While in this state healing effects restore any lost temporary wounds first. If this brings you 1 wound or above you regain consciousness and no longer make death saves.
 
@@ -326,7 +327,9 @@ Proficiency is a measure of how capable your character is at a given skill or ta
 
 ### Skills
 
-Skills represent how good your character is at completing different tasks and actions. Each skill has an associated attribute and its own proficiency modifier. There are no restrictions for which skills a player can add proficiency for, however you gain no benefit for proficiency scores above your attribute score.
+Skills represent your characters ability to apply themselves in a variety of situations. While your attributes determine your raw talent in a subject, your skills determine how well honed or practiced you are in applying those attributes. For example, a character with high Charisma and low conversation may speak eloquently, but may have trouble focusing those words in a way that gets their point across or convinces others. A dexterous character may be quick on their feet, but lack the experience or muscle memory to be able to swing from a chandelier or jump from table to table.
+
+Each skill has an associated attribute and its own proficiency modifier. There are no restrictions for which skills a player can add proficiency for, however you gain no benefit for proficiency scores above your attribute score.
 
 ##### Skill Table
 |  |  |
@@ -336,28 +339,40 @@ Skills represent how good your character is at completing different tasks and ac
 |  | Intimidation |
 | **Dexterity** |  |
 |  | Acrobatics |
-|  | Lockpicking |
 |  | Stealth |
-|  | Sleight of Hand |
+|  | Thievery |
 | **Stamina** |  |
 |  | Exhaustion |
 |  | Survival |
 | **Intelligence** |  |
 |  | Arcana |
-|  | Investigation |
-|  | Lore |
-|  | Medicine |
-| **Willpower** |  |
-|  | Animal Handling |
 |  | Insight |
+|  | Lore |
+| **Willpower** |  |
+|  | Medicine |
 |  | Nature |
 |  | Perception |
 | **Charisma** |  |
 |  | Conversation |
-|  | Diplomacy |
 |  | Performance |
 |  | Religion |
 
+ - **Athlethics** is your ability to focus or exert your strength in a controlled manner. For example bracing a door, hang or pull yourself up from a ledge, or leap a great height or distance.
+ - **Acrobatics** determines how controlled or accurate your body movements are. For example moving over ice without slipping, swinging from a rope and landing on your feet, or balancing on a moving cart without falling.
+ - **Arcana** is your understanding of magic and your ability to sense it. Someone skilled in arcana can sense the presence of magic or its source, determine its properties, or recall information about a particular spell.
+ - **Conversation** determines your ability to easily convey information and sway others with your words. Conversation covers a wide variety of social aspects, from bargaining with a shopkeeper for a better deal, picking up on the undertones and hidden meaning of anothers words, to proper etiquitte when dealing with nobles and lords.
+ - **Exhaustion** is your talent to resist fatigue and push your bodies limits. For example, staying awake through the night, travelling a great distance without rest, or holding your breath.
+ - **Insight** is your ability to gain intuitions about a person or object. A character with high insight can read the body language of another person, seeing the smallest cracks in their demeanor that betrays their true intentions. Insight is also your ability to understand an objects purpose and how easily you can draw connections between pieces of information. For example, a character exmaining a murder scene may deduce the dagger found at the scene of the crime belonged to the victim instead of the killer.
+ - **Intimidation** determines your ability to present yourself in a threatening manor and coerce others. An intimidating character knows the best way to loom over others, instill fear with just a stare, or how to apply just the right amount of force to get what they want.
+ - **Lore** is your ability to recall history, folklore, and your ability to decipher ancient runes or text. Characters skilled in lore have great attention to detail and use this knowledge when identifying the properties of magic items. Lore may be used when attempting to determine the age of a structure or the culture that built it, gleaning information from an asortment of texts, or translating and communicating with a creature that speaks a language you don't know.
+ - **Medicine** determines both your abiltiy to apply medicine and your knowledge of poisons, illnesses, and anatomy. For example, a character proficient in medicine can carefully stitch wounds to avoid infection, diagnose a variety of diseases and their cures, or can recall the specific anatomy of a multitude of creatures.
+ - **Nature** is your compentency with the natural world, both your understanding of it and your ability to control and manipulate it. For example, being able to calm or befriend wild animals, ride all manor of beast, or identify and recall information about plants, trees, or environments.
+ - **Perception** is how well your character can sense their surroundings. Perception is not limited to sight, with perceptive characters able to hear a pin drop on a noisy street or feel the faint vibrations of someone sneaking up behind them. A character may use perception to search a room for clues, traps, or hidden doors, spot a hidden or invisible creature, or listen in on a conversation through a wall.
+ - **Performance** is your characters ability to act, sing, dance, or play an instrument. A character might use performance to mimic another persons voice and mannerisms, play an instrument to charm local tavern-goers, or disguise themselves to look like someone or something else.
+ - **Religion** is your characters attunement to the divine weave. Characters skilled in religion are able to remember and recite religious texts, perform ceremonies, or commune with celestial spirits or deities.
+ - **Stealth** determines your ability to move undetected and hide your presence. Characters may use stealth to avoid being detected by the town guard, blend in with their surroundings, or disappear into a crowd.
+ - **Survival** is your ability to persist in a harsh environment and orient yourself to prevent getting lost. Characters use survival to patiently lay in wait to hunt animals, find and follow a particular creatures tracks, or find herbs, food, or other ingredients in the wild.
+ - **Thievery** is your ability to break into things or use sleight of hand. Characters may use thievery to perform a card trick, disarm a trap, pick a locked door, or take something from a person without them knowing.
 
 
 ### Tools
@@ -379,6 +394,8 @@ Some feats or abilities grant you expertise in a specific skill or action. When 
 ### Attribute Saves
 
 Every attribute has an associated attribute save. Attribute saves are a measure of how resistant your character is to various effects. Attribute saves are almost always _reactionary_, with your character making the save in response to an action something else takes. For example, someone trying to shove you would make a roll against your Strength save, or dodging a trap would roll against your Dexterity save.
+
+You cannot increase your attribute save's proficiency directly, instead it is based on the total proficiency score of all skills under that attribute. Your attribute save proficiency is equal to the sum of all skill profficiencies for that attribute divided by 2, rounded down. For example, a character with 2 acrobatics and 1 stealth proficiency would have a dexterity save proficiency of 1.
 
 ### Spell Schools
 
@@ -476,13 +493,13 @@ Cantrips are spells that do not require mana to cast, but must still be prepared
 
 # Creating a Character
 
-Creating a character is simple. To start, choose a race for your character. The race determines your starting wounds, how far you can move or sprint, and your starting attribute bonuses. Each race has a unique feat that all people of that race share. 
+Creating a character is simple. To start, choose a species for your character. The species determines your starting wounds, how far you can move or sprint, and your starting attribute bonuses. Each species has a unique feat that all people of that species share. 
 
-After picking a race, choose a background feat for your character. These are unique feats that can only be chosen during character creation and determine what kind of skills or abilities your character had before becoming an adventurer.
+After picking a species, choose a background feat for your character. These are unique feats that can only be chosen during character creation and determine what kind of skills or abilities your character had before becoming an adventurer.
 
-Next, assign your attribute scores. You start with a -1 to all attribute scores, adding any bonuses from your race. You get 9 points you can arrange across your attributes. At this stage characters can have a max attribute score of 3, with 5 being the maximum you can increase an attribute from leveling up.
+Next, assign your attribute scores. You start with a -1 to all attribute scores, adding any bonuses from your species. You get 9 points you can arrange across your attributes. At this stage characters can have a max attribute score of 3, with 5 being the maximum you can increase an attribute from leveling up.
 
-You have 4 proficiency points to spend on your skills and saving throws. If you have a background or feat that gives you proficiency in a spell school you may increase your spellcasting proficiency.
+You have 4 proficiency points to spend on your skills. If you have a background or feat that gives you proficiency in a spell school you may increase your spellcasting proficiency.
 
 Finally, choose 2 starting bonuses.
 
@@ -603,10 +620,12 @@ Long rests require 8 hours of rest with at most 2 hours of non-strenuous activit
 When taking a long rest in the wilderness you must light a fire and make camp to gain the full benefits. To start a fire, make an average difficulty survival check. Depending on your location this roll may be easier or harder. On failure, instead of the normal benefits you regain 1 healing surge and restore mana equal to half your character's level. You may still spend any number of healing surges during this rest.
 
 ### Exhaustion
-All adventurers need to rest from time to time, trying to do too much in a day can leave you exhausted. You can gain exhaustion from many situations, from travelling too long, not taking rests, spells, or abilities. You lose a level of exhaustion after every long rest. At 6 levels of exhaustion your character drops dead.
+All adventurers need to rest from time to time, trying to do too much in a day can leave you exhausted. You can gain exhaustion from many situations, from travelling too long, not taking rests, spells, or abilities. You lose a level of exhaustion after every long rest.
+
+Exhaustion causes incredible strain on a creature, going beyond simply being tired. Exhausted creatures are incapable of reaching their full potential, and are much more likely to succumb to their injuries. Each level of Exhaustion decreases your max wounds and reduces the successes in every roll you make, except with defense rolls. Creatures that have their max wounds reduced to 0 from exhaustion die outright, their bodies pushed beyond the limit they can take. Similarly, any creature that reaches 6 levels of exhaustion dies regardless of remaining wounds.
 
 ##### Exhaustion Levels
-| Level | All Proficiencies | Max Wounds | Sprint
+| Level | Roll Penalty | Max Wounds | Sprint
 |:----:|:----:|:----:|:-------------|
 | 1  | -1 | -1 | Yes |
 | 2  | -1 | -2 | Yes |
@@ -614,6 +633,8 @@ All adventurers need to rest from time to time, trying to do too much in a day c
 | 4 | -2 | -4 | No |
 | 5 | -3 | -5 | No |
 
+### Downtime
+Sometimes
 
 # Combat
 
@@ -646,11 +667,17 @@ You may end a grapple at any time. A grappled creature can attempt to free thems
 ##### Defend (5 AP)
 Until your next turn you reroll 2 dice when making a defense roll and shields give an additional die to defense rolls.
 
-##### Move (3+ AP, once per turn)
-You may move up to your move speed in tiles. You may increase your movement speed by 1 for each additional AP spent. Some terrain, such as difficult terrain, requires 2 tiles of movement for every tile you traverse. Movement does not have be done all at once, you can split your movement as many times as you want. For example if you have a movement of 5 you may move 3 tiles, take another action, and then move the remaining 2 tiles.
+##### Move (3 AP, once per turn)
+You may move up to your move speed in tiles. Some terrain, such as difficult terrain, requires 2 tiles of movement for every tile you traverse. Movement does not have be done all at once, you can split your movement as many times as you want. For example if you have a movement of 5 you may move 3 tiles, take another action, and then move the remaining 2 tiles.
 
 ##### Sprint (2 AP, can only be used after move, once per turn)
 You may move up to your sprint speed plus your Dexterity score in tiles. Negative Dexterity has no effect on your sprint speed. Moving while sprinting follows the same rules as the Move action.
+
+##### Shift (1 AP)
+You move a single tile. This movement follows the same rules as the move and sprint actions, and effectively gives 1 additional tile of movement for each shift used during your turn. This movement is effected by difficult terrain, and you may need multiple shifts to move through a tile.
+
+#### Jumping
+You may jump as part of any movement action. Characters can easily clear a single tile with their jump, but longer jumps will require an Athletics challenge to successfully land. You do not need to complete your jump on your turn and may end your turn in midair, however your first action on your next turn must be a movement action to complete the jump.
 
 ##### Reaction Attack (2 AP)
 When a creature tries to leave your zone of control you may make a reaction attack against them. You cannot use maneuvers, unless the maneuver says it can be used as a reaction, and the attack uses the same rules as the Attack action.
@@ -670,7 +697,7 @@ When carrying weapons, tomes, or shields, unless you are storing them in your pa
 You may switch a weapon or shield for another visible weapon or shield during your turn by spending 2 AP. For example, switching to a sword after taking a shot with a bow costs 2 AP while switching to a sword immediately at the start of your turn is free.
 
 ##### Spell (Varying AP)
-There is no limit to the number of spells you can cast each turn, as long as you have enough AP to cast them. Spells will require you to make a Spellcasting roll against the creatures defense or saving throw, with ties going in favor of the defender.
+There is no limit to the number of spells you can cast each turn, as long as you have enough AP to cast them. Spells will require you to make a Spellcasting roll against the creatures defense or attribute save, with ties going in favor of the defender.
 
 
 ##### Maneuver (Varying AP)
@@ -684,10 +711,10 @@ To ready an action you must first describe the circumstance that will trigger th
 Sometimes more than one readied action could be triggered by the same circumstance. In this case the actions occur in initiative order.
 
 ## Conditions
-There are a number of conditions that can be inflicted on creatures, each with different effects. Some conditions have a level to determine their potency. For example, the poison condition normally adds a bad die to your attack rolls and saving throws, where poison 2 and poison 3 adds 2 and 3 bad dice respectively.
+There are a number of conditions that can be inflicted on creatures, each with different effects. Some conditions have a level to determine their potency. For example, the poison condition normally adds a bad die to your attack rolls and attribute saves, where poison 2 and poison 3 adds 2 and 3 bad dice respectively.
 
 ##### Blind
-A blinded creature loses the ability to see. While blind they add 2 terrible die to all attack, spellcasting, and Dexterity saving throws. They cannot make reactions.
+A blinded creature loses the ability to see. While blind they add 2 terrible die to all attack, spellcasting, and Dexterity saves. They cannot make reactions.
 
 #### Burn
 A burning creature takes a wound die in fire damage at the end of their turn for every level of burn. On their turn a creature can spend 5 AP putting out the fire, leaving them prone. Burn ends after 1 minute or after the creature is doused in water.
@@ -699,25 +726,25 @@ A dazed creature cannot take the Sprint or Reaction actions and grant combat adv
 a feared creature cannot willingly move closer to the source of the fear. While the source is within line of sight, they add 1 bad die to any rolls made.
 
 ##### Grapple
-A grappled creature cannot move or sprint, adds 2 bad dice to Dexterity saving throws, and grants combat advantage to all creatures except the grappler.
+A grappled creature cannot move or sprint, adds 2 bad dice to Dexterity saves, and grants combat advantage to all creatures except the grappler.
 
 ##### Hex
 When making any roll, a hexed creature replaces a critical with a single success for every level of hex on the creature. For example, a creature with hex 2 will replace the first 2 critical successes they roll with a single success each.
 
 ##### Incapacitated
-An incapacitated creature takes no actions and automatically fails Strength and Dexterity saving throws. While incapacitated they grant combat advantage to adjacent attackers, and attacks and maneuvers that deal physical damage deal an extra wound die per critical success against them.
+An incapacitated creature takes no actions and automatically fails Strength and Dexterity saves. While incapacitated they grant combat advantage to adjacent attackers, and attacks and maneuvers that deal physical damage deal an extra wound die per critical success against them.
 
 ##### Paralyzed
 A paralyzed creature cannot take the sprint action, adds a terrible die to all reactions, and has their maximum AP reduced by 3 for each level of Paralyze. They may still take an action that costs more than their maximum AP as long as it is the only action they take during their turn.
 
 ##### Poison
-A poisoned creature adds a bad die to all attacks, saving throws, and ability checks, adding an additional bad die for every level of poison. Only the highest level poison takes effect. For example someone who has poison and poison 2 only adds 2 bad dice instead of 3.
+A poisoned creature adds a bad die to all attacks, attribute saves, and ability checks, adding an additional bad die for every level of poison. Only the highest level poison takes effect. For example someone who has poison and poison 2 only adds 2 bad dice instead of 3.
 
 ##### Prone
 a prone creature grants combat advantage to any melee attacker. Ranged attacks against this creature add 2 bad dice to their roll.
 
 ##### Restrained
-A restrained creature cannot move or sprint and adds 2 terrible dice to Dexterity saving throws and attack rolls. They lose the effects of a shield if wearing one and grant combat advantage to attackers.
+A restrained creature cannot move or sprint and adds 2 terrible dice to Dexterity saves and attack rolls. They lose the effects of a shield if wearing one and grant combat advantage to attackers.
 
 ##### Silenced
 A silenced creature cannot speak and adds 2 terrible dice to spellcasting rolls.
@@ -732,7 +759,7 @@ A slowed creature's move and sprint speeds are reduced by 1. Each level of slow 
 A staggered creature is unable to take reactions until the start of their next turn.
 
 ##### Stunned
-A stunned creature cannot move or take actions, and automatically failure Strength and Dexterity saving throws. Attackers gain combat advantage against this target.
+A stunned creature cannot take reactions and may only take a single move or basic attack action on their turn. They automatically fail Strength and Dexterity saves and attackers gain combat advantage against them.
 
 
 ##### Weaken
@@ -840,7 +867,7 @@ Creatures are not the only thing on the battle field. Depending on the location 
 Deep water, thick brush, or a rubble filled room could be considered difficult terrain. When moving over difficult terrain every tile of movement costs an extra tile. For example, to move through a deep river 2 tiles wide you need to spend 4 tiles of movement. Climbing a wall or rock face also takes an extra tile of movement, with a difficult to climb wall taking 3 tiles of movement for every 1 tile climbed.
 
 #### Traps and Hazards
-Dungeons may be filled with traps or other hazards. Traps may be hidden, triggered only by a careless step or trip of a wire. Other hazards are blatantly obvious, like a pool of lava or ominous pit. While the exact mechanics of a trap or hazard is left up to the GM, characters can attempt to search or spot traps around them. Characters that succeed on a perception or investigation challenge may spot a trap or understand how it's triggered.
+Dungeons may be filled with traps or other hazards. Traps may be hidden, triggered only by a careless step or trip of a wire. Other hazards are blatantly obvious, like a pool of lava or ominous pit. While the exact mechanics of a trap or hazard is left up to the GM, characters can attempt to search or spot traps around them. Characters that succeed on a perception challenge may spot a trap or understand how it's triggered.
 
 Hazards, such as a pool of lava or acid, are more obvious. Creatures that enter those tiles take damage immediately, taking damage again at the end of their turn for as long as they are in the hazard. A creature doesn't need to willingly move into a hazard to be affected by it. Characters can shove or push other creatures, or cast spells that knock creatures back.
 
@@ -949,7 +976,7 @@ Some magic items grant bonuses to your attributes. While there is no limit on ho
 
 For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 Dexterity. You still benefit from the remaining bonuses on those items.
 
-## Races
+## Species
 
 ### Elves
 
@@ -957,7 +984,7 @@ For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elv
 
 Like most elves, high elves display an otherworldly grace in all that they do. Often living in ancient, timeless forests, humans see high elves as beautiful and elegant, if not slightly arrogant. High elves stand slightly taller than the average human, ranging from 5 and a half feet to nearly 7 feet. However they are more slender, weighing between 100 to 150 pounds. While their complexion matches humans, their hair encompasses a larger range, from silver-white to deep black. Like all elves they have long, pointed ears.
 
-It is rumored that high elves are descended from the fae, a group of magical and supernatural beings of another realm, seeming to explain their natural affinity with magic. Because of this many of the more mundane or superstitious races are wary of high elves, believing them to be responsible for any malady affecting their small villages.
+It is rumored that high elves are descended from the fae, a group of magical and supernatural beings of another realm, seeming to explain their natural affinity with magic. Because of this many of the more mundane or superstitious peoples are wary of high elves, believing them to be responsible for any malady affecting their small villages.
 
 
 - **Starting Wounds:** 3
@@ -987,9 +1014,9 @@ You gain 1 proficiency with either a bow or a spear, and gain a maneuver that us
   
 #### Star Elf
 
-Seekers of knowledge, the star elves are nomads by nature. Their long lives allow them to see the world from a different perspective compared to the short lived races who see the star elves as aloof and unempathetic. Star elves are naturally curious, and because of this are gifted conversationalists. They love telling tales just as much as they do hearing them.
+Seekers of knowledge, the star elves are nomads by nature. Their long lives allow them to see the world from a different perspective compared to the short lived species who see the star elves as aloof and unempathetic. Star elves are naturally curious, and because of this are gifted conversationalists. They love telling tales just as much as they do hearing them.
 
-They are among the tallest races, averaging 7 feet tall, and also the rarest. They have a blue complexion that tends to fade to a pale white, with purple colorations being rare. Their hair is almost always a silvery blue, with eyes a dark blue or purple. Like other elves they have a slender appearance, weighing between 120 to 180 pounds.
+They are among the tallest species, averaging 7 feet tall, and also the rarest. They have a blue complexion that tends to fade to a pale white, with purple colorations being rare. Their hair is almost always a silvery blue, with eyes a dark blue or purple. Like other elves they have a slender appearance, weighing between 120 to 180 pounds.
 
 
 - **Starting Wounds:** 3
@@ -1043,7 +1070,7 @@ Your eyes are well adjusted to the dark. You treat dim light as bright light and
 
 #### Fallen
 
-Despite their resemblance, fallen are not demons as some humans claim. They are one of the oldest races to emerge, along with the tlani, but their kind has dwindled, now living among the other races with no home of their own. Often seen as outsiders, fallen have relied on their wit and cunning to persevere, relying on their charm to get out of difficult situations.
+Despite their resemblance, fallen are not demons as some humans claim. They are one of the oldest species to emerge, along with the tlani, but their kind has dwindled, now living among the other peoples with no home of their own. Often seen as outsiders, fallen have relied on their wit and cunning to persevere, relying on their charm to get out of difficult situations.
 
 While at times they can be mistaken for humans, all fallen are born with horns. They are taller on average, standing between 6 to 7 feet tall for males, with females being slightly smaller. Fallen are deceptively strong, and make adept warriors with their keen eyesight and bestial claws. Despite their slim stature, they weigh between 180-250 pounds.
 
@@ -1059,7 +1086,7 @@ You take no penalties when in dim light, and only add 1 bad die in total darknes
 
 #### Human
 
-Out of all the common races, humans are by far the most numerous. While humans are short lived compared to most, they are tenacious and adaptable, which has allowed them to spread to all corners of the world. Due to this, humans span a variety of cultures and morals, taking in customs and traditions from their neighbors and adapting them to human life.
+Out of all the common species, humans are by far the most numerous. While humans are short lived compared to most, they are tenacious and adaptable, which has allowed them to spread to all corners of the world. Due to this, humans span a variety of cultures and morals, taking in customs and traditions from their neighbors and adapting them to human life.
 
 
 - **Starting Wounds:** 3
@@ -1108,7 +1135,7 @@ You have expertise in an attribute save.
 
 #### Hill Dwarf
 
-Making their homes above ground in the hills around mountains, hill dwarves are experts at harnessing the power of nature. Building complex contraptions, hill dwarves construct water and wind mills to power their forges. They are meticulous crafters and skilled tradesdwarves. It is not unheard of for hill dwarves to travel far from their homes to study the craftsmanship of other races. Because of this hill dwarves are welcoming of most races, only shunning those they believe lack artistic talent, such as goblins or orcs.
+Making their homes above ground in the hills around mountains, hill dwarves are experts at harnessing the power of nature. Building complex contraptions, hill dwarves construct water and wind mills to power their forges. They are meticulous crafters and skilled tradesdwarves. It is not unheard of for hill dwarves to travel far from their homes to study the craftsmanship of other peoples. Because of this hill dwarves are welcoming of others, only shunning those they believe lack artistic talent, such as goblins or orcs.
 
 Hill dwarves are the shortest of the dwarves, being a few inches shorter than mountain dwarves. They make up for their height by being the heaviest, weighing between 200 and 300 pounds. While most hill dwarves have beards, many trim or even shave them completely if they become an impedance to their craft. They are usually fair skinned with hair to match, with blond, brown and red being most common.
 
@@ -1158,7 +1185,7 @@ You have 1 proficiency with unarmed weapons and deal an extra wound die when mak
 
 #### Drake
 
-While lacking the strength of their lizardfolk cousins, drakes use their cunning to survive the deadly environments they call home. Drakes are canny crafters, creating simple yet ingenious creations to aid in their survival. Drakes are almost singularly focused on survival, because of this they rarely experience fear or courage. Drakes rarely leave their lands, but can occasionally seek out allies from other races. When they do they are often confused by their companions actions, seemingly unable to understand the morals and behavior of civilized races.
+While lacking the strength of their lizardfolk cousins, drakes use their cunning to survive the deadly environments they call home. Drakes are canny crafters, creating simple yet ingenious creations to aid in their survival. Drakes are almost singularly focused on survival, because of this they rarely experience fear or courage. Drakes rarely leave their lands, but can occasionally seek out allies from others. When they do they are often confused by their companions actions, seemingly unable to understand the morals and behavior of other civilized species.
 
 Drakes are smaller than lizardfolk, standing 5 and a half feet at most. Their bodies are lean, weighing between 150 and 200 pounds. Their large, dragon-like wings allow them to easily glide through the air. Drake scales share the green, blue and red coloring of their cousins, but rarely some drakes are born a metallic bronze color.
 
@@ -1235,7 +1262,7 @@ This creature has twice as many wounds. This creature can occupy enemy tiles wit
 This creature adds a success to all attack and maneuver rolls for every quarter of health remaining, rounding up. When making single target attacks or spells, the attack targets an additional creature in range.
 
 ##### Swarm Resistance
-Damage from single target attacks, maneuvers, or spells deal half damage, rounded down, with a minimum of 1. While above half health they have expertise in saving throws.
+Damage from single target attacks, maneuvers, or spells deal half damage, rounded down, with a minimum of 1. While above half health they have expertise in attribute saves.
 
 ### Minions
 Minions are weaker, streamlined variants of a monster. Minion stat blocks are identical to the base creature, giving them 1-3 max wounds instead of their normal health. Minions of the same type are grouped together, rolling a single initiative and acting at the same time. Minions only take 2 actions during their turn regardless of AP, and may only take a single reaction. When a minion makes an attack you add 1 success for every other minion of the same type capable of making that attack against the target creature, spending 1 action for all participating minions.
@@ -1251,20 +1278,20 @@ Beasts and creatures with -1 or less Intelligence can become animal companions. 
 - They are not hostile.
 - They have an Intelligence score of -1 or less
 
-A character can attempt to befriend the animal by making an Animal Handling check against a challenge determined by the GM. On success you befriend the animal and they become your companion. New animal companions are untrained. They will follow you, but will not obey any commands or participate in combat. By default a character can only have a single animal companion, however this can be changed with feats.
+A character can attempt to befriend the animal by making a nature check against a challenge determined by the GM. On success you befriend the animal and they become your companion. New animal companions are untrained. They will follow you, but will not obey any commands or participate in combat. By default a character can only have a single animal companion, however this can be changed with feats.
 
 ### Intelligent Companions
-In some circumstances your GM may allow you to befriend creatures that do not meet the conditions above. In these circumstances you make either an Animal Handling or Conversation check, GM's choice, with the GM determining the challenge. On success they become your companion as normal, however intelligent creatures may obey your commands without training. These companions still require training to effectively fight along side you. Any untrained companion that enters combat is controlled by your GM and acts independently.
+In some circumstances your GM may allow you to befriend creatures that do not meet the conditions above. In these circumstances you make either a Nature or Conversation check, GM's choice, with the GM determining the challenge. On success they become your companion as normal, however intelligent creatures may obey your commands without training. These companions still require training to effectively fight along side you. Any untrained companion that enters combat is controlled by your GM and acts independently.
 
 ### Training
-Companions can be trained to fight and obey your commands. You may train your companion as a downtime action or during a long rest as long as you take no other actions. For every 7 days spent training you make an animal handling roll against a terrible die, adding a bad die for every 5 CR the creature has. After 3 successes you bond with your companion, allowing them to fight and be given commands.
+Companions can be trained to fight and obey your commands. You may train your companion as a downtime action or during a long rest as long as you take no other actions. For every 7 days spent training you make a nature roll against a terrible die, adding a bad die for every 5 CR the creature has. After 3 successes you bond with your companion, allowing them to fight and be given commands.
 
-Trained creatures gain 1 proficiency to attacks and 2 proficiency to saving throws. Their max wounds increases based on your level, gaining an extra wound at levels 7, 14, 21, and 28.
+Trained creatures gain 1 proficiency to attacks and 2 proficiency to attribute saves. Their max wounds increases based on your level, gaining an extra wound at levels 7, 14, 21, and 28.
 
 ### Fighting Companions
 Animal companions take their actions during your turn. Each turn they may move, sprint, and make a single basic attack with you controlling their actions.
 
-While fighting companions have been trained for combat, they are still animals. While your companion is not at full health you make an Animal Handling check at the start of each of your turns. The challenge for this roll is a terrible die, adding a bad die for each adjacent enemy. If the companion is below half health, rounded down, add terrible dice instead. On fail the companion turns feral, spending its turn attacking a random creature in range. If there is no creature in range it moves towards the closest creature and attacks.
+While fighting companions have been trained for combat, they are still animals. While your companion is not at full health you make a nature check at the start of each of your turns. The challenge for this roll is a terrible die, adding a bad die for each adjacent enemy. If the companion is below half health, rounded down, add terrible dice instead. On fail the companion turns feral, spending its turn attacking a random creature in range. If there is no creature in range it moves towards the closest creature and attacks.
 
 ### Advanced Training
 Completing an adventure or gaining a level with a companion increases your bond with them, making them more effective in combat. For each adventure completed or level gained you may choose one of the following benefits:
@@ -1284,22 +1311,22 @@ Trained companions can be given specially made armor and weapons to aid them in 
 ### Feats
 
 #### Beastmaster
-*Requires proficiency in Animal Handling, 5th level*
+*Requires proficiency in nature, 5th level*
 
-You may have any number of animal companions. For each additional companion in combat you add a bad die to Animal Handling checks.
+You may have any number of animal companions. For each additional companion in combat you add a bad die to nature checks.
 
 #### Ferocity
-*Requires proficiency in Animal Handling, 3 Strength, 8th level*
+*Requires proficiency in nature, 3 Strength, 8th level*
 
 Your companion shares your _Brutal Strikes_, _Battering Ram_, _Overswing_, and _Overwhelming Force_ feats.
 
 #### Strengthened Bond
-*Requires proficiency in Animal Handling, 2 Willpower*
+*Requires proficiency in nature, 2 Willpower*
 
 While adjacent to your companion you have expertise in Intimidation, Survival, and Perception checks. Your companion may use your Willpower save instead of theirs.
 
 #### Tag Team
-*Requires proficiency in Animal Handling, 3rd level*
+*Requires proficiency in nature, 3rd level*
 
 You have Combat Advantage against creatures that your companion has attacked this turn. While your companion is adjacent to you they cannot go feral.
 
@@ -1527,7 +1554,7 @@ Fire another blast for every level cast above 1st.
 - **Range:** touch
 - **Duration:** instant
 
-Force a lock to open. Touching a lock you may make a lockpicking check using your spellcasting roll instead of your lockpicking skill. On success the lock is opened. This spell can open magical locks.
+Force a lock to open. Touching a lock you may make a thievery check using your spellcasting roll instead of your skill. On success the lock is opened. This spell can open magical locks.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -1663,7 +1690,7 @@ Add an enhanced die for every level cast above 1st.
 - **Range:** self
 - **Duration:** instant
 
-As a reaction you quickly summon magical defenses, protecting you and all adjacent creatures from an incoming spell. Making a spellcasting roll, you and all adjacent creatures add 1 superior die to their saving throw, adding an extra superior die for every critical. Creatures in the barrier gain _Resistance 2_ to Force damage.
+As a reaction you quickly summon magical defenses, protecting you and all adjacent creatures from an incoming spell. Making a spellcasting roll, you and all adjacent creatures add 1 superior die to their attribute save, adding an extra superior die for every critical. Creatures in the barrier gain _Resistance 2_ to Force damage.
 
 Increase the range of protection by 1 and add an enhanced die for every level cast above 2nd.
 
@@ -1737,8 +1764,8 @@ add a wound die and increase the area by 1 for every level cast above 2nd.
 Attempt to record your senses into an object, allowing a creature to replay your recording by holding the object and speaking a command word. Make a spellcasting roll, adding a superior die if a gemstone worth at least 50sc is used to store the recording. You can record a memory from the past 24 hours or record what you are currently experiencing. Depending on your successes the quality of the recording will change:
 
 - **0-1**: There is no sound, and the visuals are too blurry to make out faces, but you can make out the environment you are in.
-- **2-3**: You can determine each creatures race, but not face. You get a good idea of the area (in a cellar/building, number of trees, important landmarks such as a rock or pillar). You can hear if people are talking, but cannot make out words.
-- **3-5**: You can make out a creatures race and identify them if you have seen them before. You can hear enough to make out individual words when spoken, although there are occasional gaps.
+- **2-3**: You can determine each creatures species, but not face. You get a good idea of the area (in a cellar/building, number of trees, important landmarks such as a rock or pillar). You can hear if people are talking, but cannot make out words.
+- **3-5**: You can make out a creatures species and identify them if you have seen them before. You can hear enough to make out individual words when spoken, although there are occasional gaps.
 - **6+**: The recording is exact, with the user seeing and hearing exactly as the caster saw.
 
 The recording is permanent, unless a command word is spoken to end the spell or _Dispel Magic_ is cast on it. A creature under _Nondetection_ appears as a blurry patch and their voice is unrecognizable regardless of the quality of recording.
@@ -2741,7 +2768,7 @@ Add an enhanced die for every level cast above 1st.
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-A dull sheen covers your body, hiding your presence. Targeting up to 5 creatures, make a spellcasting roll, adding 1 terrible die for every creature. On success they are concealed for the duration. Creatures that don't know you have trouble remembering you after you pass, not being able to recall details such as race, gender, or appearance. As long as you are undetected by a creature you gain 1 superior die for all stealth checks, adding a superior die for every critical rolled. Concealment ends after taking a hostile action against another creature.
+A dull sheen covers your body, hiding your presence. Targeting up to 5 creatures, make a spellcasting roll, adding 1 terrible die for every creature. On success they are concealed for the duration. Creatures that don't know you have trouble remembering you after you pass, not being able to recall details such as species, gender, or appearance. As long as you are undetected by a creature you gain 1 superior die for all stealth checks, adding a superior die for every critical rolled. Concealment ends after taking a hostile action against another creature.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -2766,7 +2793,7 @@ Add a wound die for every level cast above 1st.
 - **Range:** 7
 - **Duration:** 7 days
 
-Curse a creature you can see with misfortune. Make a spellcasting roll against the creatures Willpower save. On success the creature is cursed, adding a bad die to all saving throws, or a terrible die on a critical. This curse can be removed through _Cleanse_ as if it was a normal condition.
+Curse a creature you can see with misfortune. Make a spellcasting roll against the creatures Willpower save. On success the creature is cursed, adding a bad die to all attribute saves, or a terrible die on a critical. This curse can be removed through _Cleanse_ as if it was a normal condition.
 
 You can only inflict a single curse on a creature at a time. Casting another curse, such as _Curse of Fragility_, ends this curses effects.
 
@@ -3056,7 +3083,7 @@ Add an enhanced die to the summoning roll for each level cast above 2nd.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Suppress a creatures natural abilities. Make a spellcasting roll against the creatures Willpower save. On success you choose either Strength or Dexterity. The creature does not gain proficiency for any skills, saving throws, or weapon attacks using that attribute.
+Suppress a creatures natural abilities. Make a spellcasting roll against the creatures Willpower save. On success you choose either Strength or Dexterity. The creature does not gain proficiency for any skills, attribute saves, or weapon attacks using that attribute.
 
 You may target an additional creature for each level above 3rd.
 
@@ -3110,7 +3137,7 @@ You cover up to 5 creatures or objects in a false aura, changing how they appear
 
 - You can cause a mundane object to appear magical, a magical object appear mundane, or change it's magical aura to belong to a different school. For example, you could cause an arcane effect to appear as divine when seen by _Detect Magic_. 
 - You can change how a creature appears to spells, such as disguising an undead creature as a human for the effects of _Consecrate Ground_. 
-- You may change how their race, type, or size appears to spells. Spells restricted to a type or size of creature use their original type and size. For example _Bind Creature_ still adds bad dice against large creatures even if they are under the effects of this spell to appear as a medium creature.
+- You may change how their species, type, or size appears to spells. Spells restricted to a type or size of creature use their original type and size. For example _Bind Creature_ still adds bad dice against large creatures even if they are under the effects of this spell to appear as a medium creature.
 
 If you cast this spell on a creature or object with the same effect every day for 30 days the aura becomes permanent, lasting until dispelled.
 
@@ -3225,7 +3252,7 @@ The area increases by 1 for every level cast above 3rd.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Targeting up to 5 creatures in range, enchant them with a protective charm. Make a spellcasting roll adding a terrible die for each creature targeted. On success the creatures are warded against curses. While warded creatures have _Resistance_ 1 against death damage. At the start of the creatures turn any Hex effecting them is reduced by 1 level and they add a success and critical success to saving throws against curses.
+Targeting up to 5 creatures in range, enchant them with a protective charm. Make a spellcasting roll adding a terrible die for each creature targeted. On success the creatures are warded against curses. While warded creatures have _Resistance_ 1 against death damage. At the start of the creatures turn any Hex effecting them is reduced by 1 level and they add a success and critical success to attribute saves against curses.
 
 Add an enhanced die to your roll for every level cast above 4th.
 
@@ -3421,7 +3448,7 @@ You may target an additional creature for every level cast above 5th.
 Enchant up to 5 creatures or objects, changing their behavior and perception. You may change a creatures perception or an aspect of their behaviour as long as it is does not harm the creature. For example, you may enchant a creature with one of the following effects:
 
 - Prevent them from entering a building, such as a church or castle, or a location, such as the nearby forest.
-- Perceive a creature as someone else, changing their race, size, or gender.
+- Perceive a creature as someone else, changing their species, size, or gender.
 - Ignore the actions of a creature or group, perceiving them as normal.
 - Redirect their affection or opinion of a person, group, or organization to another creature or entity. Enchantment cannot create new emotions, but can redirect them.
 - Prevent them from speaking or sharing specific information. For example the details and location of a magic item, the whereabouts of a person or group, or the week a noble passed through town.
@@ -3698,7 +3725,7 @@ You may target an additional creature for every level cast above 8th.
 - **Range:** touch
 - **Duration:** 10 years
 
-Create a perfect simulacrum of a creature. As a requirement to cast this spell you need a skeleton or corpse matching the race of the target creature. Make a spellcasting roll against 4 terrible dice. On success you create a perfect copy of the creatures body. The body is warded, preventing it from decomposing over the duration. If the creature is killed this body can be targeted by spells like _Revive_ and _Resurrect_ to return them to life, their soul inhabiting the simulacrum. Creatures can be revived using the simulacrum even if they have died beyond the timeframe the spell is normally capable of, instead adding 2 terrible dice to the spellcasting roll.
+Create a perfect simulacrum of a creature. As a requirement to cast this spell you need a skeleton or corpse matching the species of the target creature. Make a spellcasting roll against 4 terrible dice. On success you create a perfect copy of the creatures body. The body is warded, preventing it from decomposing over the duration. If the creature is killed this body can be targeted by spells like _Revive_ and _Resurrect_ to return them to life, their soul returning to inhabit the simulacrum. Creatures can be revived using the simulacrum even if they have died beyond the timeframe the spell is normally capable of, instead adding 2 terrible dice to the spellcasting roll.
 
 The process is incredibly taxing on the targeted creature. Regardless of success the creatures max wounds are cut in half, regaining one wound every day. This effect cannot be removed by any means.
 
@@ -4061,7 +4088,7 @@ Add an enhanced die for every level cast above 1st.
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** holy
 
-Mark a 5x5 tile area centered on yourself. Any undead or monstrosity attempting to enter the consecrated ground makes a Charisma save against your spellcasting roll. On failure they cannot willingly enter. Any undead or monstrosity that enters for the first time this round or ends their turn inside the consecrated ground gains Burn 2. Allies inside the zone gain 1 proficiency to all saving throws. Leaving the consecrated ground ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.
+Mark a 5x5 tile area centered on yourself. Any undead or monstrosity attempting to enter the consecrated ground makes a Charisma save against your spellcasting roll. On failure they cannot willingly enter. Any undead or monstrosity that enters for the first time this round or ends their turn inside the consecrated ground gains Burn 2. Allies inside the zone gain 1 success to all attribute savess. Leaving the consecrated ground ends the spell. If the spell lasts for the full 10 minutes the area remains consecrated for 1 day.
 
 The area increases by 2 for every level cast above 2nd.
 
@@ -4072,7 +4099,7 @@ The area increases by 2 for every level cast above 2nd.
 - **Range:** 3
 - **Duration:** concentration, 1 hour
 
-You bless up to 5 creatures in range that you can see. Make a spellcasting roll against a terrible die, adding a terrible die for each creature targeted. On success the creatures increase an attribute of their choosing by 1 for the duration of the spell. On a critical creatures may reroll a die in that attributes saving throw.
+You bless up to 5 creatures in range that you can see. Make a spellcasting roll against a terrible die, adding a terrible die for each creature targeted. On success the creatures increase an attribute of their choosing by 1 for the duration of the spell. On a critical creatures may reroll a die in that attributes save.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -4179,7 +4206,7 @@ Add an enhanced die for every level cast above 3rd.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Targeting up to 5 creatures in range, bless them with free movement. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to saving throws against effects that inflict Slow, Grapple, or Restrained. For the duration, at the start of the creatures turn they may remove one level of the following conditions: Paralyze, Slow, Weaken.
+Targeting up to 5 creatures in range, bless them with free movement. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to attribute savess against effects that inflict Slow, Grapple, or Restrained. For the duration, at the start of the creatures turn they may remove one level of the following conditions: Paralyze, Slow, Weaken.
 
 Add an enhanced die for every level cast above 3rd.
 
@@ -4263,7 +4290,7 @@ Attempt to commune with local nature spirits, gaining one as your guide. Make a 
 - **Bear:** Your max wounds increase by 1.
 - **Snake:** You add 1 superior die to Intelligence saves and you cannot be charmed. The snake has 1 wound and cannot be hurt while on your person.
 - **Eagle:** You add 2 superior dice to perception checks. The eagle has a flying speed of 5/5.
-- **Wolf:** You add 1 superior die to conversation and diplomacy checks. When helping or being helped by an ally you may reroll 3 dice.
+- **Wolf:** You add 1 superior die to conversation and insight checks. When helping or being helped by an ally you may reroll 3 dice.
 
 Add an enhanced die for every level cast above 3rd.
 
@@ -4348,7 +4375,7 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Target up to 5 creatures in range, bless them with holy resilience. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to saving throws against effects that inflict Poison, Burn, Disease, or minor and major injuries. For the duration, at the start of the creatures turn they may remove one level of Burn or Poison effecting them.
+Target up to 5 creatures in range, bless them with holy resilience. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to attribute saves against effects that inflict Poison, Burn, Disease, or minor and major injuries. For the duration, at the start of the creatures turn they may remove one level of Burn or Poison effecting them.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -4482,7 +4509,7 @@ You bind a spirit to a beast to serve as your familiar. The creature must have a
 
 Once bound, the familiar offers a contract to the caster in exchange for one year of service. The offer can include anything, such as a large sum of money, an attribute point for the duration of the contract, needing to feed on human flesh every 7 days, or tracking down and punishing a wicked creature. The offer will be determined by the GM, but regardless of the cost accepting the contract reduces your maximum wounds by 2 for the duration.
 
-You gain part of the familiar's powers while it is within 10 tiles of you. The powers granted are included in the contract and can be anything, such as giving you expertise in a spell school or saving throw, allowing you to turn invisible, read the minds of nearby creatures, or giving you a powerful maneuver.
+You gain part of the familiar's powers while it is within 10 tiles of you. The powers granted are included in the contract and can be anything, such as giving you expertise in a spell school or attribute save, allowing you to turn invisible, read the minds of nearby creatures, or giving you a powerful maneuver.
 
 Once successfully cast, regardless of whether a contract was formed this spell cannot be cast again for 7 days. You may only have a single familiar bound to you at once. The contract ends after the familiar dies or a year passes.
 
@@ -4558,7 +4585,7 @@ You may target an additional creature for every level cast above 5th.
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** holy
 
-A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity entering the bright light for the first time this round or starting their turn there makes a Stamina save against your spellcasting roll. On failure they take 1 wound in holy damage and are blind until the end of their next turn. Any creature making an attack roll against you adds a terrible die to their roll. You and any creatures you choose inside the light adds a superior die to all saving throws.
+A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity entering the bright light for the first time this round or starting their turn there makes a Stamina save against your spellcasting roll. On failure they take 1 wound in holy damage and are blind until the end of their next turn. Any creature making an attack roll against you adds a terrible die to their roll. You and any creatures you choose inside the light adds a superior die to all attribute saves.
 
 The radius of the bright light increases by 1 for every level cast above 5th.
 
@@ -4761,7 +4788,7 @@ You channel your magic to become a divine avatar. Make a spellcasting roll addin
 - You gain a flying speed equal to your move speed.
 - You gain Resistance 1 to all damage.
 - You have expertise in everything.
-- You add 2 superior dice to all saving throws.
+- You add 2 superior dice to all attribute saves.
 
 Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast at 10th level.
 
@@ -5196,7 +5223,7 @@ With a wide swing you cleave all creatures in your zone of control. Make a melee
 - **Range:** melee
 - **Level Required:** 4/12/24
 
-This can only be used when targeted by a ranged weapon. Instead of making a defense roll against the attack, make a sleight of hand roll. On success you catch the projectile taking no damage.
+This can only be used when targeted by a ranged weapon. Instead of making a defense roll against the attack, make an acrobatics roll. On success you catch the projectile taking no damage.
 
 ***Enhanced:*** After catching the projectile you may spend 2 AP to fire the projectile back. Make a ranged attack against a target within 5 tiles adding an enhanced die to your roll. On hit you deal normal damage with that ammunition.
 
@@ -5256,7 +5283,7 @@ As an additional cost this maneuver consumes a healing surge. You make a rallyin
 
 ***Enhanced:*** Before making the attack roll you reduce the level of a Hex or Poison affecting you by 1. You may give up to 4 other creatures temporary wounds.
 
-***Superior:*** You may target creatures up to 7 tiles away. While creatures have temporary wounds from this maneuver they add 1 success to saving throws against fear, charms, and non-damaging spells.
+***Superior:*** You may target creatures up to 7 tiles away. While creatures have temporary wounds from this maneuver they add 1 success to attribute saves against fear, charms, and non-damaging spells.
 
 #### Roundhouse Kick
 
@@ -5352,9 +5379,9 @@ You attempt to disarm a creature, forcing them to drop their weapon. The creatur
 - **Range:** melee
 - **Level Required:** 7/18/24
 
-You jump up to 2 tiles making a weapon attack against a creature adding a bad die to the attack roll. On hit they take normal damage and are knocked back 2 tiles if they are large or smaller. On a critical the target is knocked prone.
+You jump up to 2 tiles making a weapon attack against a creature. On hit they take normal damage and are knocked back 2 tiles if they are large or smaller. On a critical the target is knocked prone.
 
-***Enhanced:*** The attack hits 2 creatures adjacent to the main creature.
+***Enhanced:*** The attack hits 2 creatures adjacent to the target creature.
 
 ***Superior:*** You deal an extra wound in damage. The force of the attack turns the ground in your zone of control into difficult terrain.
 
@@ -5460,7 +5487,7 @@ Swiftly strike up to 5 creatures in range. Make a weapon attack against the crea
 ### Backgrounds
 
 #### Blessed: Fae Court
-You are blessed by the Fae Court with innate magical powers. You have 1 proficiency in sleight of hand and performance, and gain access to the Fae Court feats. You start with 1 spell power and you add a superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
+You are blessed by the Fae Court with innate magical powers. You have 1 proficiency in thievery and performance, and gain access to the Fae Court feats. You start with 1 spell power and you add a superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
 
 #### Blessed: Earthen Spirits
 You are blessed by the Earthen Spirits with an affinity for nature. You have 1 proficiency with nature and a weapon type of your choice, and gain access to the Earthen Spirit feats. Your body is unnaturally sturdy, and when unarmored you roll 3 defense dice instead of 2. Regardless of duration, when you gain poison 1 it disappears at the end of your next turn. This has no effect on effects inflicting poison 2 or higher.
@@ -5472,16 +5499,16 @@ You are blessed by the Blighted Ones with necromantic powers. You have 1 profici
 You are blessed by the Abyssal Host with fiendish luck. You have expertise in conversation and insight, and gain access to the Abyssal Host feats. Once per long rest you may redo a roll, rerolling all dice and taking the new values. You know the spell _Eldritch Blast_ without needing to prepare it and can cast it without a codex. Casting _Eldritch Blast_ costs 1 less AP.
 
 #### Coven Witch
-You are trained in occult spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency nature and insight.
+You are trained in occult spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in nature and insight.
 
 #### Disciple
-You have trained under masters, learning to perfect your mind and body. You have expertise in 2 saving throws of your choice, 2 proficiency in a weapon type, and 1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
+You have trained under masters, learning to perfect your mind and body. You have expertise in 2 attribute saves of your choice, 2 proficiency in a weapon type, and 1 proficiency in 2 skills of your choosing based on Strength, Dexterity, or Stamina.
 
 #### Druid
-You have studied the natural world and have gained an affinity with nature. You have 1 proficiency in nature and animal handling and have expertise in those skills. You start with 1 spell power and have a codex with two cantrips of your choice.
+You have studied the natural world and have gained an affinity with nature. You have 1 proficiency in nature and perception and have expertise in those skills. You start with 1 spell power and have a codex with two cantrips of your choice.
 
 #### Enchanter
-You have learned the trade of an enchanter allowing you to empower mundane items. You have 1 proficiency in lore, arcana, diplomacy, and enchanting tools. Enchantments cost half as many enchanting supplies when done by yourself. You start with 1 spell power, a codex with 2 cantrips, and enchanting tools.
+You have learned the trade of an enchanter allowing you to empower mundane items. You have 1 proficiency in lore, arcana, conversation, and enchanting tools. Enchantments use one less enchanting supplies when done by yourself. You start with 1 spell power, a codex with 2 cantrips, and enchanting tools.
 
 #### Magician's Apprentice
 You are trained in arcane spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in arcana and lore.
@@ -5491,7 +5518,7 @@ You are trained in arcane spells. You start with 1 spell power and a codex conta
 You start with double the starting silver and have 1 proficiency in a weapon type. Your skill in trade and court proceedings allows you to reroll 1 die for all Charisma skill checks. You have 5 proficiency points to spend among skills. You start with padded armor and 1 martial weapon of your choice.
 
 #### Order Initiate
-You are trained in divine spells. Your devotion to your order gives you an unnatural ability to seek out evil. You have expertise in insight and have 1 proficiency in diplomacy, religion, and a weapon type of your choice. In addition, you add a superiority die for Willpower and Charisma saves and skill challenges against demons and undead.
+You are trained in divine spells. Your devotion to your order gives you an unnatural ability to seek out evil. You have expertise in insight and have 1 proficiency in conversation, religion, and a weapon type of your choice. In addition, you add a superiority die for Willpower and Charisma saves and skill challenges against demons and undead.
 
 You start with scalemail armor, a martial weapon of your choice, and a codex with 2 cantrips.
 
@@ -5502,10 +5529,10 @@ Either by circumstance or choice, your time in the pits has honed your senses in
 You are trained in divine spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You gain 1 proficiency in religion and medicine.
 
 #### Ranger
-Your time hunting and wandering through the wilderness has honed your skills. You have 1 proficiency with ranged weapons, nature, survival and animal handling and your move speed is increased by 1. You reroll 1 die when making an initiative, nature, survival, or animal handling roll. You start with studded armor and a martial weapon of your choice.
+Your time hunting and wandering through the wilderness has honed your skills. You have 1 proficiency with ranged weapons, nature, survival and athletics and your move speed is increased by 1. You reroll 1 die when making an initiative, nature, survival, or athletics roll. You start with studded armor and a martial weapon of your choice.
 
 #### Scribe
-You have spent years learning the history of your tribe, village, or city, and with your steady hands have commit it to writing. You have 2 proficiency in lore and have expertise in it. You have 1 proficiency in sleight of hand and scribing tools and know 2 additional languages. You start with scribing tools and a spell scroll containing a 1st or 2nd level spell.
+You have spent years learning the history of your tribe, village, or city, and with your steady hands have commit it to writing. You have 2 proficiency in lore and have expertise in it. You have 1 proficiency in insight and scribing tools and know 2 additional languages. You start with scribing tools and a spell scroll containing a 1st or 2nd level spell.
 
 #### Soldier
 You learn 1 maneuver you meet the requirements for and have 1 proficiency in 3 weapon types. You also gain one of the following trainings:
@@ -5518,7 +5545,7 @@ You learn 1 maneuver you meet the requirements for and have 1 proficiency in 3 w
 You begin with hide armor and 3 weapons you are proficient with.
 
 #### Street Urchin
-You gain 1 proficiency in sleight of hand, stealth and lockpicking and have expertise in those skills. Your naturally hard to pin down. When taking the move or sprint action you may spend double its AP cost to prevent opportunity attacks from the movement. You start with a simple weapon of your choice.
+You gain 1 proficiency in stealth and thievery and have expertise in those skills. Your time on the streets have given you a wide range of skills. Gain 1 proficiency in 3 skills of your choosing. Your naturally hard to pin down. When taking the move or sprint action you may spend double its AP cost to prevent opportunity attacks from the movement. You start with a simple weapon of your choice.
 
 #### Village Healer
 You have studied the traditional methods of healing. You start with an apothecary set and any 3 plants from the apothecary set's _wilderness survival rewards_ table. You have 2 proficiency with the apothecary set and 1 proficiency with nature, medicine, and survival. When making an apothecary roll your experience lets you reroll 1 die in the roll. You have a codex with two cantrips.
@@ -5540,7 +5567,7 @@ You reduce the penalties of wearing armor to 1 bad die for medium armor and 1 te
 
 
 #### Attuned Spirit
-You resonate particularly well with magic items. You may attune to 4 items at one time instead of 3. If an item you are attuned to grants you a bonus to your attributes you gain an equal bonus to that attributes saving throw.
+You resonate particularly well with magic items. You may attune to 4 items at one time instead of 3. If an item you are attuned to grants you a bonus to your attributes you gain an equal bonus to that attributes save.
 
 #### Battle Mage
 Once per turn, when you cast a cantrip or 1st level spell your next basic attack costs 2 less AP. Alternatively if you make a basic attack your next cantrip or 1st level spell costs 2 less AP, with a minimum of 1. The spell level increases to 2nd at 7th level, and 3rd at 14th level, and 4th at 21th level.
@@ -5600,7 +5627,7 @@ At any time you may use _Action Surge_ to regain 7 AP and use a second maneuver 
 #### Actor
 *Requires proficiency in performance*
 
-You are able to impersonate voices you have heard before, reducing the skill challenge for these rolls. When making conversation or diplomacy checks you can use your performance instead.
+You are able to impersonate voices you have heard before, reducing the skill challenge for these rolls. When making conversation or religion checks you can use your performance instead.
 
 #### Arcane Forge
 *Requires proficiency with enchanters tools*
@@ -5625,16 +5652,16 @@ If you move at least 2 tiles before making an attack or maneuver you deal an ext
 
 
 #### Beast Whisperer
-*Requires proficiency in animal handling*
+*Requires proficiency in nature*
 
-You gain expertise in animal handling. Your skill with animals allows you to pacify even hostile beasts. You can spend your turn attempting to calm the beast, making an animal handling roll. On success the creature is no longer hostile.
+You gain expertise in nature. Your skill with animals allows you to pacify even hostile beasts. You can spend your turn attempting to calm the beast, making an nature roll. On success the creature is no longer hostile.
 
-You may make an animal handling roll against a beast that hasn't been hostile towards you in the past day in an attempt to befriend it. On success the beast sees you as an ally and on a critical the beast will defend you while in its habitat.
+You may make an nature roll against a beast that hasn't been hostile towards you in the past day in an attempt to befriend it. On success the beast sees you as an ally and on a critical the beast will defend you while in its habitat.
 
 #### Blessed Healing
 *Requires 2 Charisma, proficiency in divine spells*
 
-A creature healed by you has expertise on their next attack or saving throw within the next 10 minutes.
+A creature healed by you has expertise on their next attack or attribute save within the next 10 minutes.
 
 #### Book of Hymns
 *Requires 2 Charisma, proficiency in religion*
@@ -5664,7 +5691,7 @@ You are used to pushing your body to its limits. When traveling or staying awake
 #### Danger Sense
 *Requires proficiency in perception, 8th level*
 
-When making a saving throw against an attack, damaging spell, or damaging effect you can see you may reroll 2 dice and add 2 critical successes to your roll.
+When making a attribute save against an attack, damaging spell, or damaging effect you can see you may reroll 2 dice and add 2 critical successes to your roll.
 
 
 #### Defensive Duelist
@@ -5685,7 +5712,7 @@ When using your Apothecary set you can add an additional ingredient from any of 
 #### Elemental Affinity
 *Requires proficiency in arcane spells, 3 Intelligence*
 
-Your mastery of magic has enhanced your abilities with a chosen element. Choose fire, cold, lightning, thunder, force, or poison. Spells you cast of this element ignore 1 level of resistance and you may reroll a die in the spellcasting roll. You add a superior die when making saving throws against spells with that damage type.
+Your mastery of magic has enhanced your abilities with a chosen element. Choose fire, cold, lightning, thunder, force, or poison. Spells you cast of this element ignore 1 level of resistance and you may reroll a die in the spellcasting roll. You add a superior die when making attribute saves against spells with that damage type.
 
 #### Evasion
 *Requires Agile, 3 Dexterity*
@@ -5750,12 +5777,12 @@ You may use your intimidation roll instead of your conversation roll in conversa
 #### Keeper of Lore
 *Requires proficiency in lore*
 
-You add 2 superior dice when rolling a lore challenge to identify a magic item and on a critical you know if the item is cursed, but do not learn what the curse does. When taking this feat you may choose a race, nation, or area of the world to gain an expert understanding of that lands culture and history, greatly reducing the difficulty of lore challenges relating to your choice.
+You add 2 superior dice when rolling a lore challenge to identify a magic item and on a critical you know if the item is cursed, but do not learn what the curse does. When taking this feat you may choose a species, nation, or area of the world to gain an expert understanding of that lands culture and history, greatly reducing the difficulty of lore challenges relating to your choice.
 
 #### Keen Reflexes
 *Requires 12th level*
 
-You gain expertise in 2 saving throws.
+You gain expertise in 2 attribute saves.
 
 #### Lightning Rod
 *Requires 3 proficiency in arcane spells, 9th level*
@@ -5796,7 +5823,7 @@ When casting _Barrier_, _Counter Spell_, or blocking spell damage with _Elementa
 #### Mobile
 *Requires 5th level*
 
-Your move speed increases by 1. You have expertise when making saving throws against hazardous terrain.
+Your move speed increases by 1. You have expertise when making attribute saves against hazardous terrain.
 
 #### Nimble
 *Requires proficiency in acrobatics*
@@ -5905,9 +5932,9 @@ You may use spell scrolls to cast the spell written on them. When using a spell 
 When using a bow your near range is doubled. When making an attack or maneuver using a bow you may increase the action cost by 1 AP to convert a wound die to a wound.
 
 #### Sticky Hands
-*Requires proficiency in sleight of hands*
+*Requires proficiency in thievery*
 
-When in combat you may attempt to steal an item from a creature. The item has to be visible and is not being held by the creature. Using 5 AP you make a sleight of hand roll against the creatures Dexterity save or defense roll. On success you take the item.
+When in combat you may attempt to steal an item from a creature. The item has to be visible and is not being held by the creature. Using 5 AP you make a thievery roll against the creatures Dexterity save or defense roll. On success you take the item.
 
 #### Twinned Spell
 *Requires 4 proficiency in arcane spells, 15th level*
@@ -5937,7 +5964,7 @@ Area of effect fire spells you cast, such as _Beam of Fire_ and _Fireball_, have
 #### Affliction
 *Requires Potent Curses, 4 Willpower, 12th level*
 
-You may afflict a creature with two different curses instead of one. You gain a superior die to your saving throw when you are the target of a curse.
+You may afflict a creature with two different curses instead of one. You gain a superior die to your attribute save when you are the target of a curse.
 
 #### Armor Mastery
 *Requires Armor Expert, 3 Strength, 8th level*
@@ -6074,7 +6101,7 @@ Once per short or long rest you may pass an Intelligence, Willpower, or Charisma
 #### Tactician
 *Requires 5 Intelligence, 20th level*
 
-Once per long rest, when rolling initiative as long as you are not surprised you may move a creature you are aware of to any position in the initiative. You have expertise in insight and diplomacy, with those skills use Intelligence instead of their normal attribute.
+Once per long rest, when rolling initiative as long as you are not surprised you may move a creature you are aware of to any position in the initiative. You have expertise in insight and conversation, with those skills use Intelligence instead of their normal attribute.
 
 #### Titanic Blow
 *Requires 5 Strength, 20th level*
@@ -6092,7 +6119,7 @@ When the target of an attack, if the attack misses you may make a free opportuni
 Your max attribute and proficiency scores are 6 instead of 5. You gain 1 attribute when taking this feat.
 
 #### Unstoppable
-*Requires 7 combined saving throw proficiencies, 20th level*
+*Requires 20th level*
 
 When you are inflicted with a condition from an attack, maneuver, or spell, you may choose to ignore it regardless of the outcome of the roll. Any other effects from the attack or spell, such as damage, still apply. You may do this up to 3 times after which you must long rest before using the feat again.
 
@@ -6124,7 +6151,7 @@ When making an attack or maneuver you may spend 2 mana to enchant it with foxfir
 
 Before casting a non-damaging spell you may empower it with fae magic. In addition to the spells effects, an empowered spell causes the all creatures hit to gain hex 1 until the end of their next turn. You can do this up to your Charisma score, after which you must long rest to use this again.
 
-### Earthen
+### Earthen Spirits
 Only those blessed by nature or earth elementals can take these feats.
 
 #### Beast Speech
@@ -6149,7 +6176,7 @@ Your skin is supernaturally tough, able to deflect blows with ease. While not we
 
 You can feel the presence of nearby creatures by their movement. When a creature touching the ground within 10 tiles of you moves you know their location unless they are magically silenced, such as from the spell _Silent Passage_.
 
-### Blight
+### Blighted Ones
 Only those blessed by a powerful undead can take these feats.
 
 #### Siphon Undead
@@ -6159,7 +6186,7 @@ You can sense the life force keeping an undead creature alive. On your turn you 
 #### Sleepless
 *Requires proficiency in exhaustion*
 
-When targeted by the _Sleep_ spell you count as having twice as many wounds. For any other effects that cause you to fall asleep you add 3 superior dice to the saving throw. You only need 4 hours to gain the full benefits from a long rest instead of 8.
+When targeted by the _Sleep_ spell you count as having twice as many wounds. For any other effects that cause you to fall asleep you add 3 superior dice to the attribute save. You only need 4 hours to gain the full benefits from a long rest instead of 8.
 
 #### Tame Undead
 *Requires proficiency in Willpower saves, 5th level*
@@ -6174,7 +6201,7 @@ You may have up to your Willpower score in undead creatures under your control. 
 When you long rest, for every healing surge you regain that exceeds your maximum you instead gain temporary wounds equal to the excess healing surges.
 
 
-### Abyssal
+### Abyssal Host
 Only those blessed by a powerful demon can take these feats.
 
 #### Elder Sight
@@ -6189,9 +6216,9 @@ When casting _Eldritch Blast_ at 1st level or above you add 1 wound to the damag
 
 
 #### Fiendish Trickery
-*Requires proficiency in sleight of hand*
+*Requires proficiency in thievery*
 
-When targeted by a damaging attack, maneuver or spell you may add a terrible die to their attack or spellcasting roll. You may do this a number of times equal to your sleight of hand proficiency, after which you must long rest before using this feat again.
+When targeted by a damaging attack, maneuver or spell you may add a terrible die to their attack or spellcasting roll. You may do this a number of times equal to your thievery proficiency, after which you must long rest before using this feat again.
 
 #### One with Shadows
 *Requires proficiency in stealth*
@@ -6339,14 +6366,14 @@ The following are all the Major and Minor injuries you will find in this book.
 
 ### Lockpicks
 
-A set of tools for picking a variety of locks. Anyone can use a lockpicking set, but only people with at least 1 proficiency in lockpicking get the bonuses. Lockpicks come in several rarities.
+A set of tools for picking a variety of locks. Anyone can use a lockpicking set, but only people with at least 1 proficiency in thievery get the bonuses. Lockpicks come in several rarities.
 
 | Type | Bonus |
 |:----:|:-------------|
 | Basic  | None |
 | Expert  | Adds an enhanced die |
 | Masterwork | Adds 2 enhanced dice |
-| Skeleton Key | Adds 4 superior dice. After the lockpicking roll, roll a terrible die. The skeleton key breaks on failure. |
+| Skeleton Key | Adds 4 superior dice. After the thievery roll, roll a terrible die. The skeleton key breaks on failure. |
 
 ### Repair Kit
 Any damage taken by your armor or weapons are permanent until repaired. An item that takes enough damage, whether it's magical or not, is destroyed. A weapon that goes below a -2 modifier or armor that is reduced to a single defense die is destroyed and can no longer be repaired or used.
@@ -6407,7 +6434,7 @@ For the next hour, when making an attack or maneuver you may reroll 3 wound dice
 - **Ingredients:** 2 Skillwheat, 1 Healroot
 - **Roll:** 2 bad dice, 1 terrible die
 
-When brewing this potion choose an attribute. On use increases that attribute score and saving throw proficiency by 1 for 4 hours.
+When brewing this potion choose an attribute. On use increases that attribute score and attribute save proficiency by 1 for 4 hours.
 
 ##### Fortify Mind Potion
 
