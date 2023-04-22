@@ -17,7 +17,7 @@
   - [Attribute Saves](#Attribute-Saves)
   - [Wound Dice](#Wound-Dice)
   - [Hero Dice](#Hero-Dice)
-  - [Skill Challenges](#Skill-Challenges)
+  - [Skill Challenge](#Skill-Challenge)
   - [Rerolls](#Rerolls)
 - [Wounds](#Wounds)
 - [Injuries](#Injuries)
@@ -55,6 +55,8 @@
 - [Long Rests](#Long-Rests)
 - [Exhaustion](#Exhaustion)
 - [Downtime](#Downtime)
+
+[Skill Challenges](#Skill-Challenges)
 
 [Combat](#Combat)
 - [Initiative](#Initiative)
@@ -634,7 +636,21 @@ Exhaustion causes incredible strain on a creature, going beyond simply being tir
 | 5 | -3 | -5 | No |
 
 ### Downtime
-Sometimes
+- optional downtime rules
+- Players can only level up 3 times between downtimes
+- Players can take a handful of downtime actions:
+  - Retraining: move proficiency points between skills/abilities
+  - Earn Money: gain money based on their level
+  - Find Contacts: learn and meet notable people, get access to an organization or group, learn information
+  - Aquire Resources: scout out specific resources, scrolls, or magic items
+
+# Skill Challenges
+
+- 1/3/5 point challenges
+- investigative skill challenges
+- dangerous skill challenges (eg: deactivating traps, escaping collasping buildings, etc)
+- chase skill challenges
+- stealth challenges
 
 # Combat
 
@@ -4658,7 +4674,7 @@ Add a wound for every level cast above 6th.
 - **Range:** touch
 - **Duration:** instant
 
-Restore the body of a creature in range you can see. Make a spellcasting roll. The creature heals 6 wounds and removes all injuries, healing an extra wound for every critical rolled. A creature can only be healed by this spell once per long rest.
+Restore the body of a creature in range you can see. Make a spellcasting roll. The creature heals 6 wounds adding a wound for every critical rolled, removes all minor injuries, and removes one major injury. A creature can only be healed by this spell once per long rest.
 
 Add a wound for every level cast above 6th.
 
@@ -4757,7 +4773,7 @@ Add a superior die and increase the area by 2 for every level cast above 8th.
 - **Range:** 5
 - **Duration:** instant
 
-You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the creature restores wounds equal to the rolls successes. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below. All injuries are removed.
+You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the creature restores wounds equal to the rolls successes and removes all minor and major injuries. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below. All injuries are removed.
 
 Add 2 superior dice to your roll for every level cast above 8th.
 
@@ -6349,17 +6365,19 @@ The following are all the Major and Minor injuries you will find in this book.
   
 | Name | Effect |
 |:----|:----:|----:|
-| Bleeding | All blank wound die rolled against you are rerolled. |
-| Winded | You have 1 less maximum AP. |
-| Festering Wound | Your max wounds are reduced by 1. |
-| Sprained Wrist | Add a bad die to attacks and maneuvers |
-| Minor Concussion | Add 1 bad die to spellcasting rolls, you must pass a concentration check every turn while concentrating. |
-| Bruised Leg | Your move and sprint speeds are reduced by 1 and you add a terrible die to Dexterity saves. |
-| Head Wound | Add 2 bad dice to all Willpower, Intelligence and Charisma saves and skills. |
-| Exhaustion | You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound. |
+| Festering Wound | You add a terrible die to all Strength and Dexterity based rolls. All healing effects on you restore 1 less wound, to a minimum of 1. |
+| Crushed Body | You always have at least 1 level of exhaustion. |
+| Missing Eye | Can only be healed by _Power word: Heal_, _Restoration_, or similar magic. You add a bad die to all sight based attaks and skills. |
 
 
 ### Diseases
+Diseases can be removed in the same way as major injuries: each week that you have a disease you make a Stamina save against 4 terrible dice, ending its effects on success.
+
+| Name | Effect |
+|:----|:----:|----:|
+| Stonepox | You add a failure to all Dexterity and Charisma saves. Dexterity and Charisma challenges are one level higher for you. |
+| Wasting Sickness | You do not heal naturally during a long rest and healing surges have no effect when used to heal. |
+| Glimmereye disease | Creatures carrying this disease have a distinct, golden glimmer to their eyes. You add a bad die to all attack, skill and save rolls while maintaining concentration. Any time you would be dazed you are stunned instead. |
 
 
 ## Tools
