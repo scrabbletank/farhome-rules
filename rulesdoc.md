@@ -6350,7 +6350,7 @@ The following are all the Major and Minor injuries you will find in this book.
 #### Minor Injuries
   
 | Name | Effect |
-|:----|:----:|----:|
+|:----|:----:|
 | Bleeding | All blank wound die rolled against you are rerolled. |
 | Winded | You have 1 less maximum AP. |
 | Festering Wound | Your max wounds are reduced by 1. |
@@ -6364,7 +6364,7 @@ The following are all the Major and Minor injuries you will find in this book.
 #### Major Injuries
   
 | Name | Effect |
-|:----|:----:|----:|
+|:----|:----:|
 | Festering Wound | You add a terrible die to all Strength and Dexterity based rolls. All healing effects on you restore 1 less wound, to a minimum of 1. |
 | Crushed Body | You always have at least 1 level of exhaustion. |
 | Missing Eye | Can only be healed by _Power word: Heal_, _Restoration_, or similar magic. You add a bad die to all sight based attaks and skills. |
@@ -6374,7 +6374,7 @@ The following are all the Major and Minor injuries you will find in this book.
 Diseases can be removed in the same way as major injuries: each week that you have a disease you make a Stamina save against 4 terrible dice, ending its effects on success.
 
 | Name | Effect |
-|:----|:----:|----:|
+|:----|:----:|
 | Stonepox | You add a failure to all Dexterity and Charisma saves. Dexterity and Charisma challenges are one level higher for you. |
 | Wasting Sickness | You do not heal naturally during a long rest and healing surges have no effect when used to heal. |
 | Glimmereye disease | Creatures carrying this disease have a distinct, golden glimmer to their eyes. You add a bad die to all attack, skill and save rolls while maintaining concentration. Any time you would be dazed you are stunned instead. |
