@@ -4828,6 +4828,7 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 
 ##### Level 2
 - [Careful Advance](#Careful-Advance)
+- [Dagger Throw](#Dagger-Throw)
 - [Daze](#Daze)
 - [Guided Strike](#Guided-Strike)
 - [Hindering Strike](#Hindering-Strike)
@@ -5046,12 +5047,25 @@ You carefully study your opponents movements, making a calculated attack. Make a
 
 ***Superior:*** You may reroll all blank wound dice.
 
+#### Dagger Throw
+
+- **AP Cost:** 2/2/2
+- **Weapon:** any dagger
+- **Range:** Range 3
+- **Level Required:** 2/7/14
+
+Throw a dagger at a nearby creature, creating an opening. Make a thrown weapon attack against a non-adjacent creature in range. On hit you deal normal damage and the creature grants combat advantage until the start of your next turn.
+
+***Enhanced:*** Add a wound die to the damage on a critical.
+
+***Superior:*** The range increases to 5 tiles and you may target 2 creatures.
+
 #### Daze
 
 - **AP Cost:** 5/4/4
 - **Weapon:** any bludgeoning weapon
 - **Range:** melee
-- **Level Required:** 2/10/19
+- **Level Required:** 2/9/17
 
 Make a melee attack against a large or smaller creature adding an enhanced die to the attack roll. On hit you deal normal damage, dazing the creature until the end of their next turn on a critical.
 
@@ -5059,7 +5073,7 @@ Make a melee attack against a large or smaller creature adding an enhanced die t
 
 ***Enhanced:*** The creature gains the minor injury _Clouded Mind_ on a critical.
 
-***Superior:*** While dazed, any ranged attacks against the creature add a critical success to their attack rolls.
+***Superior:*** While dazed, any attacks against the creature add a critical success to their attack rolls.
 
 
 #### Guided Strike
