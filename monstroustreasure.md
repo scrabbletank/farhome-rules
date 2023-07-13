@@ -3058,11 +3058,10 @@ The item lasts for 1 hour, after which it turns to dust.
 A hatchet inscribed with runes, cold to the touch. When thrown the Hatchet appears back in your hand at the end of your turn. You gain the _Icy Impact_ maneuver.
 
 ##### Icy Impact
-- **AP Cost:** 6
-- **Weapon:** Slashing
-- **Range:** Thrown
+- **AP Cost:** 5
+- **Range:** Thrown 5/10
 
-Empower your Axe with chilling cold. Throw the axe at a target position in range. On hit a 3x3 area of ice appears centered on the hatchet. All creatures inside the ice gain Slow 1 and add 1 Terrible die to all dexterity based saves, attacks, or skills. This effect ends once the creature leaves the area, and the area lasts until the start of your next turn.
+Empower your Axe with chilling cold. Throw the axe at a target position in range. On hit a 3x3 area of ice appears centered on the hatchet. All creatures inside the area make a stamina save, taking 1 wound in cold damage. The ice counts as difficult terrain and lasts for 1 minute.
 
 #### Armor of Impending Doom
 *Magical Medium Armor*

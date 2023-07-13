@@ -1426,6 +1426,7 @@ You have Combat Advantage against creatures that your companion has attacked thi
 
 ##### Sixth
 - [Anti-Magic Field](#Anti-Magic-Field)
+- [Arms of Aventus](#Arms-of-Aventus)
 - [Conjuration](#Conjuration)
 - [Earthquake](#Earthquake)
 - [Evocation](#Evocation)
@@ -1629,11 +1630,11 @@ Add an enhanced die for every level cast above 1st.
 
 - **Casting Time:** 1 minute
 - **Range:** touch
-- **Duration:** instant
+- **Duration:** 10 minutes
 
-Attempt to learn the secrets of a magical item or trinket. Make a lore check using your spellcasting roll for the check. On success you learn the properties of the item.
+Draw out the secrets of magical items or objects you touch. Make a spellcasting roll against 2 bad dice. For the duration you add the successes from your roll to any Lore check you make to identify or understand an object or magical item you touch. You learn the properties of any magic item when you succeed on a Lore challenge.
 
-Add an enhanced die for every level cast above 1st
+Add an enhanced die for every level cast above 1st.
 
 #### Magic Sight
 *1st level*
@@ -2281,6 +2282,19 @@ The size of the zone increases by 2 for every level cast above 5th.
 ### Sixth Level
 
 
+#### Arms of Aventus
+*6th level*
+
+- **Casting Time:** 7 AP
+- **Range:** self
+- **Duration:** 1 hour
+
+Conjure 2 phantasmal arms that mimic your movements. Make a spellcasting roll against 2 terrible dice, conjuring the arms on success. For the duration your unarmed attacks use your arcane spellcasting roll and deal 3 wound dice in force damage. After casting a spell you may make an offhand attack with these arms as if you made a basic attack.
+
+The arms can carry up to 1000 lbs. When making athletics checks and strength saves you may use your spellcasting roll instead.
+
+Increase the carry weight by 1000 lbs and add an enhanced die to all spellcasting rolls for each level above 6th.
+
 
 #### Anti-Magic Field
 *6th level*
@@ -2583,6 +2597,7 @@ Add 3 superior dice when cast at 10th level.
 - [Betrayal](#Betrayal)
 - [Bewitched Arrow](#Bewitched-Arrow)
 - [Binding](#Binding)
+- [Cats Grace](#Cats-Grace)
 - [Cloud of Teeth](#Cloud-of-Teeth)
 - [Command](#Command)
 - [Corpse Explosion](#Corpse-Explosion)
@@ -2611,6 +2626,7 @@ Add 3 superior dice when cast at 10th level.
 - [Zone of Silence](#Zone-of-Silence)
 
 ##### Fourth
+- [Call of the Grave](#Call-of-the-Grave)
 - [Counter Hex](#Counter-Hex)
 - [Curse of Slowness](#Curse-of-Slowness)
 - [Disease](#Disease)
@@ -2639,6 +2655,7 @@ Add 3 superior dice when cast at 10th level.
 - [Curse of Fear](#Curse-of-Fear)
 - [Isolation](#Isolation)
 - [Miasma](#Miasma)
+- [Pact](#Pact)
 - [Psychic Scream](#Psychic-Scream)
 - [Ritual of Mordiggian](#Ritual-of-Mordiggian)
 
@@ -2952,6 +2969,17 @@ Attempt to bind a creature you can see in shimmering chains. Make a spellcasting
 
 You can target an additional creature for every level cast above 2nd.
 
+#### Cats Grace
+*2nd level*
+
+- **Casting Time:** 1 minute
+- **Range:** 5
+- **Duration:** 1 hour
+
+Enchant up to 5 creatures with cat-like grace. Make a spellcasting roll against a terrible die for each creature targeted. On success creatures have expertise in dexterity saves and may use your spellcasting roll for acrobatics checks.
+
+Add an enhanced die for every level cast above 2nd.
+
 
 #### Cloud of Teeth
 *2nd level*
@@ -3260,6 +3288,20 @@ Silence a 4x4 tile area centered on a point in range you can see. Make a spellca
 The area increases by 1 for every level cast above 3rd.
 
 ### Fourth Level
+
+#### Call of the Grave
+*4th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 10
+- **Duration:** 5 minutes
+- **Damage Type:** bludgeoning
+
+targeting a 3x3 tile area centered on a point in range you can see, fill the area with a forboding thick fog. Any living creature that enters the fog for the first time or ends their turn there is grasped by arms of the undead. Make a spellcasting roll against the creatures Strength save. On success they are grappled and take a wound of bludgeoning damage every turn they remain grappled. If a Large or smaller creature remains grappled for a full round they are knocked prone. Prone creatures take 2 wounds in bludgeoning damage instead.
+
+A grappled creature may make an attack against 4 defense dice, freeing themselves from the arms on hit.
+
+The area increases by 1 for every level cast above 4th.
 
 #### Counter Hex
 *4th level*
@@ -3601,6 +3643,21 @@ The miasma is a thick, viscous cloud. Creatures inside the miasma can only see a
 
 The size of the miasma increases by 1 and you add an enhanced die to the spellcasting roll for every level cast above 6th.
 
+#### Pact
+*6th level*
+
+- **Casting Time:** 5 minutes
+- **Range:** touch
+- **Duration:** 100 years
+
+Make a pact with a willing creature, etching this agreement into your souls. As part of casting the spell, both creatures speak their demands, with the spell ending with each creature confirming the pact. A creature can make any demand they wish, or make no demands at all. Demands must be something the other creature is capable of fufilling. For example, demanding the other creature take no hostile actions against you or your allies or to speak the truth are valid demands, while demanding to be given the power of flight from an animal is not. Even unreasonable demands may be valid if the other creature truly believes it is within their ability to grant. For example, you could demand a peasant make you king if the peasant believes he can achieve it.
+
+Unless specificed in the demand, there is no set timeframe the demand must be completed. However, creatures are compelled to take actions that do not hinder their ability to complete their demands. For example, delaying to warn of incoming danger to someone you made a pact to protect would violate the pact. A creature that violates the pact, in part or in whole, immediately dies and cannot be revived for 10 years.
+
+Finally, once both creatures have accepted the demands make a spellcasting roll against 3 terrible dice. On success the pact is forged.
+
+Add an enhanced die and increase the duration a creature cannot be revived by 10 years for every level cast above 6th.
+
 #### Psychic Scream
 *6th level*
 
@@ -3823,6 +3880,7 @@ When cast at 10th level shadows have expertise when attacking their host creatur
 - [Enhance Ability](#Enhance-Ability)
 - [Gust](#Gust)
 - [Healing Word](#Healing-Word)
+- [Intuition](#Intuition)
 - [Seed of Renewal](#Seed-of-Renewal)
 - [Shield of Faith](#Shield-of-Faith)
 - [Treat Injury](#Treat-Injury)
@@ -3836,6 +3894,7 @@ When cast at 10th level shadows have expertise when attacking their host creatur
 - [Cure](#Cure)
 - [Demonic Skull](#Demonic-Skull)
 - [Detect Creatures](#Detect-Creatures)
+- [Grand Entrance](#Grand-Entrance)
 - [Revive](#Revive)
 - [Spirit Animal](#Spirit-Animal)
 - [Summoning](#Summoning)
@@ -4143,6 +4202,17 @@ Send healing energy to a creature in range you can see. Make a spellcasting roll
 
 Add a normal die for every level cast above 2nd.
 
+#### Intuition
+*2nd level*
+
+- **Casting Time:** 1 minute
+- **Range:** self
+- **Duration:** 1 hour
+
+Gain a magical insight into your surroundings, drawing conclusions and perceiving what you would otherwise miss. Make a spellcasting roll against 3 bad dice. On success you gain expertise in insight and may use your spellcasting roll when attempting to perceive traps, secret doors, or other hidden objects.
+
+Add an enhanced die for every level cast above 2nd.
+
 #### Seed of Renewal
 *2nd level*
 
@@ -4279,6 +4349,17 @@ You attempt to detect the location of a type of creature in range. Choose one of
 - **8+**: You know exactly how many creatures are in range and their direction is accurate to within 10 ft.
 
 The range increases by 1 mile for every level cast above 3rd.
+
+#### Grand Entrance
+*3rd level*
+
+- **Casting Time:** 1 turn
+- **Range:** 30
+- **Duration:** 10 minutes
+
+Enchant yourself to seem larger than life, drawing the eye of everyone in the room. You must enter or appear in a room as part of casting this spell. Targeting all creatures in range who were unaware of your presence, make a spellcasting roll against their Charisma save. On success, you have expertise in all skills and actions against these creatures until a hostile action is taken by you or an ally. If combat begins within the duration of this spell all effected creatures are surprised, granting combat advantage until the start of their first turn.
+
+Add an enhanced die for every level cast above 3rd.
 
 #### Revive
 *3rd level*
