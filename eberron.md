@@ -128,12 +128,12 @@ For each level cast above cantrip, you may convert a wound to a wound die or a w
 *Cantrip*
 
 - **Casting Time:** 2 AP, reaction
-- **Range:** 4
+- **Range:** 5
 - **Duration:** instant
 
 Target a wounded creature. That creature must make a stamina saving throw against your spellcasting roll. On failure, you acquire the creatures blood.
 
-For each level cast above cantrip, the range increases by 2 tiles.
+For each level cast above cantrip, the range increases by 5 tiles.
 
 #### Blood Manipulation
 *Cantrip*
@@ -196,6 +196,18 @@ Manipulate the mind of a creature who's blood you hold within range, causing the
 
 Add a wound die for every level cast above 1st.
 
+#### Armor of Bone
+*1st level*
+
+- **Casting Time:** 8 AP
+- **Range:** self
+- **Duration:** instant
+- **Damage Type:** piercing
+
+You create a suit of armor from the bones of a nearby creature. Make a spellcasting roll against 2 bad dice. On success, you gain 1 temporary wound. While you have these temporary wounds, melee attackers that do damage against you must make a dexterity save against your spellcasting roll or take the number of temporary wounds lost in piercing damage. While you have temporary wounds, you add 1 superior defense die to all defense rolls.
+
+Add a temporary wound and a bad die for every level cast above 1st as the armor becomes deadlier and more formidable.
+
 ### Second Level
 
 #### Bloodied Blade
@@ -247,6 +259,18 @@ For each level cast above 2nd, the range increases by 2.
 Target 4 wounded creatures within range. Each creature targeted must make a stamina saving throw against your spellcasting roll. On failure, you acquire the creatures blood.
 
 For each level cast above 2nd, you may target an additional 2 creatures and add an enhanced die to the roll.
+
+#### Astral Lash
+*2nd level*
+
+- **Casting Time:** 7 AP
+- **Range:** self (3 tile radius)
+- **Duration:** instant
+- **Damage Type:** necrotic
+
+You draw the power of the ancient being from the astral plane into you. Dark astral tendrils erupt from your body and lash out at nearby creatures. Each creature within 3 tiles of you must make a strength saving throw against your spellcasting roll. On failure, the creature is knocked back 1 tile and takes 2 wound dice in necrotic damage.
+
+For each level cast above 2nd, the radius is increased by 1 tile.
 
 ### Third Level
 
@@ -309,6 +333,17 @@ When casted at level 7 or above, all attacks may re-roll 2 wound dice.
 You project a 6x6 area of twisting illusions, mesmerizing to behold. All creatures within the spell must make a willpower saving throw against your spellcasting roll. On failure, the creature becomes incapacitated with a speed of 0.
 
 Increase the duration by 20 seconds for every level cast above 3rd.
+
+#### Astral Void
+*3rd level*
+
+- **Casting Time:** 7 AP
+- **Range:** 8
+- **Duration:** Concentration, up to 1 minute
+
+You open a rift to the astral plane in a 4 tile radius. All creatures trapped within must make a stength save against your spellcasting roll. On failure, the creature cannot physically move in any way while in the space. A creature can make the save again on subsequent turns. Any creature that ends their turn in this space take 3 wound dice in cold damage as otherworldly tendrils brush up against them. The spell ends if you lose concentration or move more than 8 tiles away from the rift.
+
+Increase the radius by 1 tile for every level cast above 3rd.
 
 ### 4th Level
 
