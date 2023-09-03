@@ -5777,7 +5777,7 @@ A creature healed by you has expertise on their next attack or attribute save wi
 #### Book of Hymns
 *Requires 2 Charisma, proficiency in religion*
 
-In addition to the spells you normally prepare, you may prepare divine spells equal to your Charisma score.
+In addition to the spells you normally prepare, you may prepare 6 additional divine spells.
 
 #### Brutal Strikes
 *Requires 2 Strength, 3rd level*
@@ -5789,6 +5789,11 @@ When making a Strength based attack or maneuver you add a wound die to the damag
 
 With a running start you can easily jump up to your Strength score in tiles, or half that from a standstill. When taking the sprint action you can spend 1 more AP to add your athletics proficiency to your sprint speed instead of your Dexterity score.
 
+#### Cantrip Expert
+*Requires proficiency in a spell school, 7th level*
+
+You may prepare any number of cantrips and they do not count towards your prepared spell limit. You may cast cantrips at 1st level without paying its mana cost.
+
 #### Charmer
 *Requires proficiency in conversation*
 
@@ -5797,7 +5802,7 @@ When making a conversation challenge against a non-hostile creature you add a su
 #### Constitution
 *Requires proficiency in exhaustion*
 
-You are used to pushing your body to its limits. When traveling or staying awake you automatically pass your first exhaustion roll, allowing you to travel further and stay up longer without negative effects. As long as you have no levels of exhaustion your first healing surge used during a rest heals for its maximum value.
+You are used to pushing your body to its limits. When traveling or staying awake you automatically pass your first exhaustion roll, allowing you to travel further and stay up longer without negative effects. As long as you have no levels of exhaustion your healing surges heal for their maximum value.
 
 #### Danger Sense
 *Requires proficiency in perception, 8th level*
@@ -5813,7 +5818,7 @@ When you make a melee attack against a creature with a weapon you are proficient
 #### Divine Healing
 *Requires proficiency in divine spells, 3 Charisma, 12th level*
 
-Your are able to mend even the most fatal of wounds. When casting a healing spell you add 1 wound die to the heal. Casting a healing spell on an unconscious creature always restores the maximum value.
+Your are able to mend even the most fatal of wounds. When casting a healing spell you may reroll all wound dice in the roll. Casting a healing spell on an unconscious creature always restores the maximum value.
 
 #### Efficient Brewing
 *Requires proficiency in apothecary set*
@@ -5823,7 +5828,7 @@ When using your Apothecary set you can add an additional ingredient from any of 
 #### Elemental Affinity
 *Requires proficiency in arcane spells, 3 Intelligence*
 
-Your mastery of magic has enhanced your abilities with a chosen element. Choose fire, cold, lightning, thunder, force, or poison. Spells you cast of this element ignore 1 level of resistance and you may reroll a die in the spellcasting roll. You add a superior die when making attribute saves against spells with that damage type.
+Your mastery of magic has enhanced your abilities with a chosen element. Choose fire, cold, lightning, thunder, force, or poison. You may prepare 3 additional spells with a damage type matching the element. Spells you cast of this element ignore 1 level of resistance and you may reroll a die in the spellcasting roll. You add a superior die when making attribute saves against spells with that damage type.
 
 #### Evasion
 *Requires Agile, 3 Dexterity*
@@ -5853,7 +5858,7 @@ The spells _Guidance_, _Holy Protection_, _Enhance Ability_, _Shield of Faith_, 
 #### Flexible Mind
 *Requires 1 Willpower*
 
-You may prepare an additional spell. During a short rest you may study your spellbook, changing a number of prepared spells equal to your Willpower score.
+You may prepare 3 additional spells. During a short rest you may study your spellbook, changing a number of prepared spells equal to your Willpower score.
 
 #### Forager
 *Requires proficiency in survival*
@@ -6158,7 +6163,7 @@ Spells you cast are considered 2 levels higher when targeted by _Counter Spell_ 
 #### Warlock
 *Requires Potent Curses, 14th level*
 
-You may prepare 3 additional curses, such as _Curse of Misfortune_ or _Curse of Fragility_. These spells do not count towards your spell limit and they cost 1 less mana to cast.
+Curses, such as _Curse of Misfortune_ or _Curse of Fragility_, do not count towards your prepared spell limit. You may reroll 1 die when casting curse spells.
 
 ### Legendary
 You may only take 1 legendary feat, regardless of requirements.
