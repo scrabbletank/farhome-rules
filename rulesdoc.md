@@ -6023,7 +6023,7 @@ While holding a shield the defend action costs 2 AP less. While defending you ad
 #### Signature Move
 *Requires 10th level*
 
-Choose a maneuver you have learned. This maneuver can be used every turn and you may use the next level of the maneuver. For example, if you meet the requirements for the normal version you use the enhanced version, or the superior version if you meet the requirements for the enhanced version.
+Choose a maneuver you have learned. This maneuver can be used every turn and you use the enhanced version if you meet the requirements for the normal version, or the superior version if you meet the requirements for the enhanced verison. If you meet the requirements for the superior version you have expertise with the maneuver.
 
 #### Siphon Energy
 *Requires proficiency in occult spells, 3 Willpower, 12th level*
