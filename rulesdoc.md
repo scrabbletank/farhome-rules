@@ -5001,7 +5001,7 @@ Make a melee attack against a creature, adding an enhanced die. On hit you deal 
 
 After making a successful melee attack against a humanoid creature you may attempt to headbutt them. Make a raw Stamina roll against their Stamina save, the loser is staggered and takes a wound die in damage.
 
-***Enhanced:*** Add an enhanced die to your Stamina roll. The loser is dazed until the end of their next turn.
+***Enhanced:*** Add a superior die to your Stamina roll. The loser is dazed until the end of their next turn.
 
 ***Superior:*** You may choose to take a wound die in damage. If you do you add 2 wound dice to the damage roll.
 
@@ -5079,11 +5079,11 @@ Attempt to knock a Large or smaller creature off balance with a strong push or k
 - **Range:** melee
 - **Level Required:** 1/11/21
 
-Can only be used when flanking a creature or if you have combat advantage. Make a melee attack against the creature, rerolling up to 3 dice. On hit you deal normal damage, adding a wound die for every critical.
+Can only be used when flanking a creature or if you have combat advantage. Make a melee attack against the creature, rerolling up to 3 dice. On hit you add a wound to your damage, adding an additional wound die for every critical.
 
 ***Enhanced:*** Sneak Attack can be used every turn and you may reroll all wound dice in your damage roll.
 
-***Superior:*** You do not need to be flanking or have combat advantage to use Sneak Attack. You add a critical success to your attack roll if you are flanking or have combat advantage.
+***Superior:*** You do not need to be flanking or have combat advantage to use Sneak Attack. When flanking or attacking with combat advantage the target does not benefit from critical successes.
 
 
 #### Spear Wall
@@ -5102,16 +5102,16 @@ As a reaction you make an opportunity attack against any creature moving into yo
 
 #### Sweeping Strike
 
-- **AP Cost:** 5/5/4
+- **AP Cost:** 5/5/5
 - **Weapon:** any spear or polearm
 - **Range:** weapon range
 - **Level Required:** 1/7/17
 
-Make a melee attack against a medium creature, adding an enhanced die. On hit you deal a wound die in damage, knocking the creature prone on a critical.
+Make a melee attack against creature, adding an enhanced die. The target makes a Dexterity or Strength save, taking a wound die in damage on hit. If the creature is your size or smaller they are knocked prone on a critical.
 
 ***Enhanced:*** You deal normal damage instead.
 
-***Superior:*** You may use this against Large or smaller creatures. While the creature is prone all melee attacks against this creature add a critical success.
+***Superior:*** You may target up to 3 creatures in your zone of control.
 
 ### Level 2
 
@@ -5122,11 +5122,11 @@ Make a melee attack against a medium creature, adding an enhanced die. On hit yo
 - **Range:** weapon range
 - **Level Required:** 2/8/13
 
-You carefully study your opponents movements, making a calculated attack. Make a melee attack against a creature adding a normal die and rerolling up 3 dice in the attack roll. You ignore any criticals in your roll, counting only the successes. If the attack hits you may move 1 tile in any direction, ignoring opportunity attacks.
+You carefully study your opponents movements, making a calculated attack. Make a melee attack against a creature adding a normal die to the attack roll. Each critical you roll counts as a success instead. If the attack hits you may move 1 tile in any direction, ignoring opportunity attacks.
 
-***Enhanced:*** Add an enhanced die instead of a normal die and you may reroll 5 dice in your attack roll.
+***Enhanced:*** Add an enhanced die instead of a normal die and you may move up to 2 tiles.
 
-***Superior:*** You may reroll all blank wound dice.
+***Superior:*** You may move up to 3 tiles and may pass through hazardous effects without triggering them as long as you do not end your movement inside their area.
 
 #### Dagger Throw
 
@@ -5360,13 +5360,13 @@ You make two quick attacks against a creature. Make two weapon attacks, adding a
 - **AP Cost:** 7/6/6
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
-- **Level Required:** 4/14/23
+- **Level Required:** 4/10/15
 
-You channel magic into your weapon, empowering the next attack and consuming up to 3 mana. The arrow pierces its target hitting all creatures in a 2 tile line, increasing the tiles by 1 for each mana spent. All creatures in the line make a defense roll against your attack, adding an enhanced die to the attack roll. On hit the creatures take a wound in damage.
+You channel magic into your weapon, empowering the next attack and consuming up to 3 mana. The arrow pierces its target hitting all creatures in a 2 tile line, increasing the tiles by 1 for each mana spent. All creatures in the line make a defense roll against your attack, adding an enhanced die to the attack roll. On hit the creatures take a wound in Force damage.
 
-***Enhanced:*** The attack deals normal damage.
+***Enhanced:*** The attack deals normal weapon damage.
 
-***Superior:*** You may spend up to 5 mana and the damage type changes to Force damage. If you use 5 mana this attack ignores 1 level of resistance.
+***Superior:*** You may spend up to 5 mana. If you use 5 mana this attack ignores 1 level of resistance and deals an extra wound die in damage.
 
 ### Level 5
 
@@ -5379,9 +5379,9 @@ You channel magic into your weapon, empowering the next attack and consuming up 
 
 Make a melee attack against a creature, adding a normal die. On hit you deal normal damage, breaking their armor on a critical. Armor broken this way provides 1 less defense die until repaired.
 
-***Enhanced:*** Add an enhanced die instead of a normal die.
+***Enhanced:*** On hit the creature doesn't benefit from critical successes in their defense roll until the end of your next turn.
 
-***Superior:*** The creature is staggered on hit and you may target their shield instead. A mundane shield is destroyed on a critical.
+***Superior:*** You may target their shield instead, destroying a mundane shield on a critical.
 
 #### Rallying Strike
 
@@ -5582,14 +5582,14 @@ Attempt to mortally wound a creature. Make a weapon attack adding a superior die
 
 #### Steel Tempest
 
-- **AP Cost:** 10/8/7
+- **AP Cost:** 9/8/7
 - **Weapon:** any sword
 - **Range:** 2
 - **Level Required:** 11/22/29
 
-Swiftly strike up to 5 creatures in range. Make a weapon attack against the creatures adding 2 terrible dice to the attack roll. On hit you deal normal damage, moving to an empty tile beside a targeted creature.
+Swiftly strike up to 5 creatures in range. Make a weapon attack against the creatures adding a terrible die to the attack roll. On hit you deal normal damage, moving to an empty tile beside a targeted creature.
 
-***Enhanced:*** You add a single terrible dice instead of 2 and may target up to 7 creatures.
+***Enhanced:*** You may target up to 7 creatures.
 
 ***Superior:*** The range increases to 3 and you may target any number of creatures.
 
@@ -5667,7 +5667,7 @@ You've never had a home, instead relying on your own skills to survive in the wi
 ### Basic
 
 #### Agile
-As long as you aren't wearing armor, when making a defense roll you roll defense dice equal to your Dexterity score.
+When wearing light or no armor you roll defense dice equal to your Dexterity score when making defense rolls. You gain the benefits from magical armor, but ignore the base defense given by light armors.
 
 #### Alert
 You may use Willpower instead of Dexterity when rolling initiative. You cannot be surprised.
@@ -5678,10 +5678,13 @@ You reduce the penalties of wearing armor to 1 bad die for medium armor and 1 te
 
 
 #### Attuned Spirit
-You resonate particularly well with magic items. You may attune to 4 items at one time instead of 3. If an item you are attuned to grants you a bonus to your attributes you gain an equal bonus to that attributes save.
+You resonate particularly well with magic items. You may attune to 4 items at one time instead of 3.
 
 #### Battle Mage
 Once per turn, when you cast a cantrip or 1st level spell your next basic attack costs 2 less AP. Alternatively if you make a basic attack your next cantrip or 1st level spell costs 2 less AP, with a minimum of 1. The spell level increases to 2nd at 7th level, and 3rd at 14th level, and 4th at 21th level.
+
+#### Cunning Combatant
+Staggered creatures do not benefit from critical successes in their rolls against you.
 
 #### Dual-Wield Expert
 You have no penalties from dual wielding. While dual wielding you add a defense die to your defense rolls when taking the defend action.
@@ -5693,40 +5696,40 @@ You are an expert with one-handed weapons. When attacking with a one-handed weap
 When taking damage from any source you may reroll 1 wound die.
 
 #### Expert Rider
-While mounted you have expertise on initiative rolls. If you are attacked with a melee weapon while on your mount you replace a defense die with a superior defense die if the weapon does not have Reach.
+While mounted you have expertise on initiative rolls. If you are attacked with a melee weapon while on your mount you replace a defense die with a superior defense die.
 
 #### Expertise
 Choose 2 skill or tool proficiencies. You have expertise in these skills.
 
 #### Flurry of Blows
-After an unarmed attack, if you have nothing in your offhand you may take the off-hand attack action to make 2 attacks against a creature. The attacks add 1 bad die to the attack roll and do not use proficiency.
+After an unarmed attack you may make an unarmed off-hand attack as a free action. The attack does not benefit from your unarmed proficiency.
 
 #### Hunter
 On your turn you may spend 5 AP to study a non-humanoid creature, gaining an insight into its strengths and weaknesses. Make a perception check against a difficulty based on the rarity of the creature. On success you learn a piece of information about the creature, such as its max wounds, its physical or mental attributes, resistances or vulnerabilities, or one of its features. On a critical you see through the creature's defenses, adding a critical success to all attacks, maneuvers, or spells against the creature for the next minute.
 
 #### Longcaster
-Spells you cast with a range of 5 tiles or more have 3 extra range. Spell attacks against creatures in cover grant them one less defense die.
+Spells you cast with a range greater than touch have twice the range.
 
 #### Lucky
-When you make a roll you may reroll dice equal to your Charisma score. This can be used twice, after which you must take a long rest to regain this feat.
+When you make a roll you may reroll dice equal to your Charisma score. This can be used 3 times, after which you must take a long rest to regain this feat.
 
 #### Priest
-You have training in divine spells.
+You have training in divine spells and increase your divine spellcasting proficiency by 1.
 
 #### Quick Healing
-You gain 4 healing surges instead of 3 each long rest. You roll 4 wound dice instead of 3 when rolling healing surges.
+You gain 4 healing surges instead of 3 each long rest. Your healing surges heal an additional wound.
 
 #### Witch
-You have training in occult spells.
+You have training in occult spells and increase your occult spellcasting proficiency by 1.
 
 #### Wizard
-You have training in arcane spells.
+You have training in arcane spells and increase your arcane spellcasting proficiency by 1.
 
 #### Wrestler
 You add a superior die when making Strength rolls to grapple, move or shove a creature. When making an opportunity attack you can grapple instead.
 
 #### Overswing
-Once per turn, when making an attack or maneuver you may add 1 failure and 1 critical success to your attack roll.
+Once per turn, when making an attack or maneuver you may add 1 failure and 1 critical success to your attack roll. On hit you may reroll wound dice equal to your critical successes.
 
 ### Journeyman
 
@@ -5748,7 +5751,7 @@ If you enchant an item with the same property every day for 7 days the effect be
 #### Assassinate
 *Requires 3 proficiency in one-handed weapons, 3 Dexterity, 8th level*
 
-Once per turn, when making a one-handed weapon attack against a creature, on a critical you add 2 wound dice to the damage.
+Once per turn, when making a single target attack against creature that is flanked or granting combat advantage you add 2 wound dice to your damage roll. If the creature is surprised, unaware of you, or cannot see you add 2 wounds to your damage roll instead.
 
 #### Banishment
 *Requires 3 proficiency in divine spells, 12th level*
@@ -5772,7 +5775,7 @@ You may make an nature roll against a beast that hasn't been hostile towards you
 #### Blessed Healing
 *Requires 2 Charisma, proficiency in divine spells*
 
-A creature healed by you has expertise on their next attack or attribute save within the next 10 minutes.
+A creature healed by you is inspired, gaining a superior die they may add to a roll. Inspiration lasts for 10 minutes.
 
 #### Book of Hymns
 *Requires 2 Charisma, proficiency in religion*
@@ -5787,7 +5790,7 @@ When making a Strength based attack or maneuver you add a wound die to the damag
 #### Burst of Speed
 *Requires proficiency in athletics*
 
-With a running start you can easily jump up to your Strength score in tiles, or half that from a standstill. When taking the sprint action you can spend 1 more AP to add your athletics proficiency to your sprint speed instead of your Dexterity score.
+With a running start you can easily jump up to your Strength score in tiles, or half that from a standstill. When taking the sprint action you add your athletics proficiency to your sprint speed instead of your Dexterity score.
 
 #### Cantrip Expert
 *Requires proficiency in a spell school, 7th level*
@@ -5829,11 +5832,6 @@ When using your Apothecary set you can add an additional ingredient from any of 
 *Requires proficiency in arcane spells, 3 Intelligence*
 
 Your mastery of magic has enhanced your abilities with a chosen element. Choose fire, cold, lightning, thunder, force, or poison. You may prepare 3 additional spells with a damage type matching the element. Spells you cast of this element ignore 1 level of resistance and you may reroll a die in the spellcasting roll. You add a superior die when making attribute saves against spells with that damage type.
-
-#### Evasion
-*Requires Agile, 3 Dexterity*
-
-When targeted by a area of effect attack, maneuver, or damaging spell you may spend up to 3 AP, moving 1 tile per AP spent. This movement does not trigger opportunity attacks and you take no effect from the spell if you are able to leave its area of effect.
 
 #### Enduring Concentration
 *Requires 2 Stamina*
@@ -5880,6 +5878,11 @@ Weapons you wield with both hands do not count as _Heavy_. Attacks with two hand
 
 When casting non-damaging spells on allies you add a superior die to the spellcasting roll if you are not one of the targets.
 
+#### Hexcraft
+*Requires 3 proficiency in occult spells, 12th level*
+
+You have an innate affinity for the occult. You treat the spells _Charming Guise_, _Concealment_, and _Hex_ as cantrips. You may cast these spells secretly, giving no visual or audible cue to your spellcasting.
+
 #### Hidden in Plain Sight
 *Requires proficiency in stealth*
 
@@ -5903,7 +5906,7 @@ You gain expertise in 2 attribute saves.
 #### Lightning Rod
 *Requires 3 proficiency in arcane spells, 9th level*
 
-When casting a spell that deals lightning damage you may spend 1 mana to add a critical to your spellcasting roll.
+When casting a spell that deals lightning damage you may add a critical to your spellcasting roll.
 
 
 #### Linguist
@@ -5911,28 +5914,23 @@ When casting a spell that deals lightning damage you may spend 1 mana to add a c
 
 You learn a new language of your choosing. You are able to translate writings written in any non-magical language to a language you know, taking 1 hour per page translated.
 
-#### Living Hex
-*Requires 3 proficiency in occult spells, 12th level*
-
-When a creature dies while inflicted by a of hex caused by your spells, you may move the hex to another creature within 2 tiles. Make a spellcasting roll against the creatures Willpower save. On success they gain hex at the same level as the dead creature.
-
 #### Malady
-*Requires 3 proficiency in occult spells, 9th level*
+*Requires 2 proficiency in occult spells, 9th level*
 
 For occult spells that target multiple creatures, such as _Trickery_, _Charming Guise_ or _Concealment_, you may target 1 extra creature. This creature does not add bad or terrible dice to the roll.
 
 #### Magic Sight
 *Requires proficiency in arcana*
 
-You can see the faint traces of magic around you. When making a perception check you may use your arcana roll, detecting a faint outline of any magical trap or effect within 6 tiles.
+You can see the faint traces of magic around you. You may use your arcana roll when making perception checks. When you do you detect a faint outline of any magical trap or effect within 6 tiles.
 
 #### Mana Font
 *Requires 2 Intelligence, 5th Level*
 
-You may spend 3 AP to restore mana equal to half your level, rounded up. This feat can only be used once every long rest.
+Once per rest, when casting a spell you may ignore the mana cost.
 
 #### Mana Recovery
-*Requires 3 proficiency in arcane spells, 9th level*
+*Requires 2 proficiency in arcane spells, 9th level*
 
 When casting _Barrier_, _Counter Spell_, or blocking spell damage with _Elemental Shell_ you regain 1 mana, or 2 mana if the spell is 6th level and above, regardless of the rolls outcome.
 
@@ -5947,9 +5945,9 @@ Your move speed increases by 1. You have expertise when making attribute saves a
 You may use your acrobatics roll in place of athletics checks, and standing up takes 1 tile of movement instead of half your movement. You can climb near vertical walls and cliffs with ease, even without climbing gear.
 
 #### Overcharge
-*Requires proficiency in arcane spells, 6th level*
+*Requires proficiency in a spell school, 6th level*
 
-When casting an arcane spell that deals at least 1 wound of damage you may overcharge it by spending 1 extra mana and adding a terrible die to your spellcasting roll. Overcharged spells deal an extra wound with single target spells or a wound die with area of effect spells.
+When casting a damaging spell you may spend 1 mana to overcharge it, adding a critical failure to your spellcasting roll. Overcharged spells deal an extra wound with single target spells or a wound die with area of effect spells.
 
 
 #### Overwatch
@@ -5980,7 +5978,7 @@ You may reroll a die when making enchanting rolls. Enchantments you make last 7 
 #### Punishment
 *Requires proficiency in occult spells, 7th level*
 
-Creatures under negative effects caused by your spells also grant combat advantage to your attacks against those creatures.
+Creatures under negative effects caused by your spells grant combat advantage to you.
 
 #### Quickdraw
 *Requires 3 proficiency in ranged weapons*
@@ -5993,7 +5991,7 @@ You ignore the _Loading_ property of crossbows. You add a critical success to cr
 Spells you cast cost 1 less AP.
 
 #### Reliable
-*Requires proficiency, 12th level*
+*Requires 12th level*
 
 Choose an attribute, your natural talent has made you reliable in all skill challenges related to that attribute. When rolling a skill challenge using that attribute you may choose to take your proficiency score in successes instead of the roll. This only takes into account positive dice. Challenge dice and negative dice added by effects, such as poison, still reduce that number as normal.
 
@@ -6010,22 +6008,22 @@ When inscribing a rune you may add 1 bad die to the scribing roll. On success yo
 #### Second Wind
 *Requires 1 Stamina*
 
-While in combat you may spend 3 AP on your turn to use a free healing surge. This can be used once per rest.
+Once per long rest, you may roll a healing surge as a free action.
 
 #### Sentinel
 *Requires 2 proficiency in perception, 7th level*
 
-The first opportunity attack you make each turn costs 1 AP less. Hostile creatures treat your zone of control as difficult terrain.
+The first opportunity attack you make each turn is a free action. Hostile creatures treat your zone of control as difficult terrain.
 
 #### Shield Master
 *Requires 3 Strength, 8th level*
 
-While holding a shield the defend action costs 1 AP less. While defending you add your shield's defense dice to Strength and Dexterity saves you make.
+While holding a shield the defend action costs 2 AP less. While defending you add your shield's defense dice to Dexterity saves you make.
 
 #### Signature Move
 *Requires 10th level*
 
-Choose a maneuver you know with a level requirement of 7 or lower. This maneuver can be used every turn and you have expertise in rolls made with that maneuver.
+Choose a maneuver you have learned. This maneuver can be used every turn and you may use the next level of the maneuver. For example, if you meet the requirements for the normal version you use the enhanced version, or the superior version if you meet the requirements for the enhanced version.
 
 #### Siphon Energy
 *Requires proficiency in occult spells, 3 Willpower, 12th level*
@@ -6090,7 +6088,7 @@ You take no penalties from wearing armor. When making a defense roll you may rer
 #### Attuned Senses
 *Requires Danger Sense, 12th level*
 
-You cannot be flanked. You have blindsight over adjacent tiles, allowing you to through darkness and invisible creatures on those tiles.
+You cannot be flanked. You have blindsight over adjacent tiles, allowing you to see through darkness or see invisible creatures on those tiles.
 
 #### Dual-Wield Master
 *Requires Dual-Wield Expert, 3 Dexterity, 15th level*
@@ -6101,6 +6099,11 @@ Off-hand attacks cost 1 AP.
 *Requires Runesmith, 10th level*
 
 Runes you make are resistant to breaking. When a rune you crafted is activated, roll a wound die. On a blank the rune does not break.
+
+#### Evasion
+*Requires Agile, 3 Dexterity*
+
+When targeted by a area of effect attack, maneuver, or damaging spell you may use your Dexterity save in place of another attribute save.
 
 #### Indomitable
 *Requires Durable, 3 Stamina, 12th level*
@@ -6136,9 +6139,9 @@ You may enchant magic items. When enchanting a magic item you add terrible dice 
 | +3 or Legendary | +3 terrible dice |
 
 #### Overwhelming Force
-*Requires Brutal Strikes, 12th level*
+*Requires Battering Ram, 12th level*
 
-When making a single target attack or maneuver you may spend a healing surge to add 3 wound dice to the damage roll. This feature costs an additional healing surge each time it's used between long rests.
+When making a single target attack or maneuver you may spend a healing surge to add 3 wound dice to the damage roll.
 
 #### Quick Attacks
 *Requires Fast Attacks, 3 Dexterity, 15th level*
@@ -6158,7 +6161,7 @@ Once per round you may spend 2 AP to gain _Resistance 2_ to all but psychic dama
 #### Warded Spells
 *Requires Quickened Spellcasting, 7 combined spellcasting proficiency, 12th Level*
 
-Spells you cast are considered 2 levels higher when targeted by _Counter Spell_ or _Dispel Magic_.
+Spells you cast are considered 2 levels higher when targeted by _Counter Spell_, _Dispel Magic_, or other anti-magic effects.
 
 #### Warlock
 *Requires Potent Curses, 14th level*
