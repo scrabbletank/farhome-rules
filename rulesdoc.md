@@ -512,8 +512,8 @@ Finally, choose 2 starting bonuses.
 - Get training in a spell school and gain 1 proficiency score in that spell school
 - Gain 5 proficiency points
 - Learn a feat and gain 1 proficiency score with a skill
-- Learn a maneuver and gain 2 proficiency score with a weapon type
-- Increase your max wounds by 1 and gain 1 proficiency score with a save
+- Learn 2 maneuvers and gain 1 proficiency score with a weapon type
+- Increase your max wounds by 2
 - Increase your spell power by 1 and gain 1 proficiency score with a spell school (if trained) or a skill
 
 
@@ -550,7 +550,7 @@ When you earn 1000 experience your character levels up. Each level you gain 1 pr
 - Gain 1 spell power
 - Gain 3 proficiency points
 - Gain a feat
-- Learn a maneuver
+- Learn 2 maneuvers
 - Increase your max wounds by 1
 
 ##### Attribute Score increase
@@ -5297,7 +5297,7 @@ Empower your weapon with holy might, consuming up to 2 mana. Make a melee attack
 
 ***Enhanced:*** Add a superior die instead of an enhanced die to your attack roll and you may use up to 4 mana.
 
-***Superior:*** Demons and Monstrosities are treated as Undead but cannot be turned. You may spend 2 additional mana to give you 3 rerolls which can be used on either the attack or damage roll.
+***Superior:*** Demons and Monstrosities are treated as Undead but cannot be turned. You have expertise with the attack when targeting Demons, Monstrosities, and Undead.
 
 #### Sucker Punch
 
@@ -5364,7 +5364,7 @@ You make two quick attacks against a creature. Make two weapon attacks, adding a
 
 You channel magic into your weapon, empowering the next attack and consuming up to 3 mana. The arrow pierces its target hitting all creatures in a 2 tile line, increasing the tiles by 1 for each mana spent. All creatures in the line make a defense roll against your attack, adding an enhanced die to the attack roll. On hit the creatures take a wound in Force damage.
 
-***Enhanced:*** The attack deals normal weapon damage.
+***Enhanced:*** The attack deals normal weapon damage as force damage.
 
 ***Superior:*** You may spend up to 5 mana. If you use 5 mana this attack ignores 1 level of resistance and deals an extra wound die in damage.
 
@@ -5719,6 +5719,10 @@ You have training in divine spells and increase your divine spellcasting profici
 #### Quick Healing
 You gain 4 healing surges instead of 3 each long rest. Your healing surges heal an additional wound.
 
+#### Signature Move
+
+Choose a maneuver you have learned, you use the enhanced version if you meet the requirements for the normal version, or the superior version if you meet the requirements for the enhanced verison. If you meet the requirements for the superior version you have expertise with the maneuver.
+
 #### Witch
 You have training in occult spells and increase your occult spellcasting proficiency by 1.
 
@@ -5763,7 +5767,10 @@ The spells _Turn Undead_ and _Destroy Monstrosity_ can target Undead, Monstrosit
 
 If you move at least 2 tiles before making an attack or maneuver you deal an extra wound die in damage.
 
+#### Battlemaster
+*Requires Signature Move, 7th Level*
 
+You may use two maneuvers each turn.
 
 #### Beast Whisperer
 *Requires proficiency in nature*
@@ -6019,11 +6026,6 @@ The first opportunity attack you make each turn is a free action. Hostile creatu
 *Requires 3 Strength, 8th level*
 
 While holding a shield the defend action costs 2 AP less. While defending you add your shield's defense dice to Dexterity saves you make.
-
-#### Signature Move
-*Requires 10th level*
-
-Choose a maneuver you have learned. This maneuver can be used every turn and you use the enhanced version if you meet the requirements for the normal version, or the superior version if you meet the requirements for the enhanced verison. If you meet the requirements for the superior version you have expertise with the maneuver.
 
 #### Siphon Energy
 *Requires proficiency in occult spells, 3 Willpower, 12th level*
