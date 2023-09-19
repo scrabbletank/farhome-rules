@@ -62,7 +62,6 @@
 - [Initiative](#Initiative)
 - [On your Turn](#On-your-Turn)
 - [Conditions](#Conditions)
-- [Terms](#Terms)
 
 [The Gameboard](#The-Gameboard)
 - [The Tile Grid](#The-Tile-Grid)
@@ -79,12 +78,68 @@
   - [Underwater Hazards](#Underwater-Hazards)
 - [Attack Types](#Attack-Types)
 
-[Magic Items](#Magic-Items)
-- [Attunement](#Attunement)
-- [Magic Gear](#Magic-Gear)
-- [Identifying Magic Items](#Identifying-Magic-Items)
+[Items and Equipment](#Items-and-Equipment)
+- [Currency](#Currency)
+- [Adventuring Gear](#Adventuring-Gear)
+- [Potions and Poisons](#Potions-and-Poisons)
+- [Spell Scrolls](#Spell-Scrolls)
+- [Weapons](#Weapons-1)
+- [Armor](#Armor)
+- [Ammunition](#Ammunition-1)
+- [Tools](#Tools-1)
+  - [Lockpicks](#Lockpicks)
+  - [Repair Kit](#Repair-Kit)
+  - [Apothecary Set](#Apothecary-Set)
+  - [Enchanters Tools](#Enchanters-Tools)
+  - [Scribing Tools](#Scribing-Tools)
+- [Magic Items](#Magic-Items)
+  - [Attunement](#Attunement)
+  - [Magic Gear](#Magic-Gear)
+  - [Identifying Magic Items](#Identifying-Magic-Items)
 
-[Species](#Species)
+[Optional Rules](#Optional-Rules)
+- [Variant Spellcasting and Misfires](#Variant-Spellcasting-and-Misfires)
+- [Large Battles and Minions](#Large-Battles-and-Minions)
+- [Animal Companions](#Animal-Companions)
+
+[Running The Game](#Running-The-Game)
+- [Playing The Game: Part II](#Playing-The-Game:-Part-II)
+- [The Adventuring Party](#The-Adventuring-Party)
+- [Anatomy of an Adventure](#Anatomy-of-an-Adventure)
+- [Building Encounters](#Building-Encounters)
+- [Running Combat](#Running-Combat)
+- [Non-combat Encounters](#Non-combat-Encounters)
+
+[World of Farhome](#World-of-Farhome)
+- [History](#History)
+- [Languages](#Languages)
+- [Species](#Species)
+- [The Empire](#The-Empire)
+- [Far Wilds](#Far-Wilds)
+- [The Realms of Creation](#the-realms-of-creation)
+- [Saints and the Divines](#Saints-and-the-Divines)
+- [Powerful Beings](#powerful-beings)
+
+[Bestiary of Monsters](#Bestiary-of-Monsters)
+- [Monster Level](#Monster-Level)
+- [Reading a Monster's Stat Block](#Reading-a-Monster's-Stat-Block)
+- [Types of Monsters](#Types-of-Monsters)
+- [Creating Your Own Monsters](#Creating-Your-Own-Monsters)
+- [Monsters By Type](#Monsters-By-Type)
+  - [Beasts](#Beasts-1)
+  - [Celestials](#Celestials-1)
+  - [Constructs](#Constructs-1)
+  - [Demons](#Demons-1)
+  - [Dragons](#Dragons-1)
+  - [Elementals](#Elementals-1)
+  - [Fey](#Fey-1)
+  - [Giants](#Giants-1)
+  - [Monstrosities](#Monstrosities-1)
+  - [Mortals](#Mortals-1)
+  - [Outsiders](#Outsiders-1)
+  - [Undead](#Undead)
+
+[Items and Treasure](#Items-and-Treasure)
 
 [Spells](#Spells-1)
 - [Arcane](#Arcane)
@@ -104,16 +159,10 @@
 - [Blighted Ones](#Blighted-Ones)
 - [Abyssal Host](#Abyssal-Host)
 
-[Items](#Items)
-- [Consumables](#Consumables)
-- [Mundane Gear](#Mundane-Gear)
-- [Wounds](#Wounds-1)
-- [Tools](#Tools)
-  - [Lockpicks](#Lockpicks)
-  - [Repair Kit](#Repair-Kit)
-  - [Apothecary Set](#Apothecary-Set)
-  - [Enchanters Tools](#Enchanters-Tools)
-  - [Scribing Tools](#Scribing-Tools)
+[Injuries](#Injuries-1)
+- [Minor Injuries](#Minor-Injuries)
+- [Major Injuries](#Major-Injuries)
+- [Diseases](#Diseases)
 
 
 # Preface
@@ -175,30 +224,30 @@ As your players experience your world they will eventually want to branch out. T
 
 Farhome uses a set of 6-sided dice to determine outcomes. There are 9 types of 6-sided dice, each with their own layout of successes or failures. With most dice rolls you roll a set of dice determined by your characters skills or abilities, adding challenge dice depending on the difficulty of the task. Rolling more successes than failures means your action succeeded. Sometimes your roll is contested by another character's roll. In these cases ties always go to the defender.
 
-Some dice have special symbols on them for Critical Successes and Critical Failures. These count as 2 successes and 2 failures respectively as well as adding or removing a critical. Defense dice work similarly to the other dice, having defense symbols instead of successes. Finally wound dice are used to determine damage, healing, or in some cases chance.
+Some dice have special symbols on them for Triumphs and Disasters. A Triumph adds 2 success and a critical, while a Disaster adds 2 failures and removes a critical. When rolling a Disaster, if you have no criticals to remove you instead add a critical to the opposing roll. Defense dice work similarly to the other dice, having defense symbols instead of successes. Finally wound dice are used to determine damage, healing, or in some cases chance.
 
 ##### Legend
-|  |  |
-|:--:|:--:|
-| ![](https://i.imgur.com/tOlBtko.png) - Success | ![](https://i.imgur.com/qOnblaK.png) - Defend |
-| ![](https://i.imgur.com/tjkXQRp.png) - Critical Success |  ![](https://i.imgur.com/13TOHYx.png) - Critical Defend |
-| ![](https://i.imgur.com/QBMFnbG.png) - Failure |  ![](https://i.imgur.com/BEExXAk.png) - Wound |
-| ![](https://i.imgur.com/Iu0kVaQ.png) - Critical Failure | ![](https://i.imgur.com/t97ry57.png) - Blank |
+|                                                 |                                                          |
+| :---------------------------------------------: | :------------------------------------------------------: |
+| ![](https://i.imgur.com/tOlBtko.png) - Success  |      ![](https://i.imgur.com/qOnblaK.png) - Defend       |
+| ![](https://i.imgur.com/tjkXQRp.png) - Triumph  | ![](https://i.imgur.com/13TOHYx.png) - Triumph (Defense) |
+| ![](https://i.imgur.com/QBMFnbG.png) - Failure  |       ![](https://i.imgur.com/BEExXAk.png) - Wound       |
+| ![](https://i.imgur.com/Iu0kVaQ.png) - Disaster |       ![](https://i.imgur.com/t97ry57.png) - Blank       |
 
-| Dice | 1 | 2 | 3 | 4 | 5 | 6 |
-|:----:|:--:|:--:|:--:|:--:|:--:|:--:|
-| Superior | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/3QNjHck.png) | ![](https://i.imgur.com/tjkXQRp.png) |
-| Enhanced | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tjkXQRp.png) |
-| Normal | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) |
-| Bad | ![](https://i.imgur.com/Iu0kVaQ.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) |
-| Terrible | ![](https://i.imgur.com/Iu0kVaQ.png) | ![](https://i.imgur.com/qNxzZ8H.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/t97ry57.png) |
-| Defense | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/qOnblaK.png) | ![](https://i.imgur.com/qOnblaK.png) | ![](https://i.imgur.com/qOnblaK.png) | ![](https://i.imgur.com/13TOHYx.png) |
+|       Dice       |                  1                   |                  2                   |                  3                   |                  4                   |                  5                   |                  6                   |
+| :--------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: |
+|     Superior     | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/3QNjHck.png) | ![](https://i.imgur.com/tjkXQRp.png) |
+|     Enhanced     | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tjkXQRp.png) |
+|      Normal      | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) |
+|       Bad        | ![](https://i.imgur.com/Iu0kVaQ.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) |
+|     Terrible     | ![](https://i.imgur.com/Iu0kVaQ.png) | ![](https://i.imgur.com/qNxzZ8H.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/QBMFnbG.png) | ![](https://i.imgur.com/t97ry57.png) |
+|     Defense      | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/qOnblaK.png) | ![](https://i.imgur.com/qOnblaK.png) | ![](https://i.imgur.com/qOnblaK.png) | ![](https://i.imgur.com/13TOHYx.png) |
 | Superior Defense | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/qOnblaK.png) | ![](https://i.imgur.com/Tc2uZcT.png) | ![](https://i.imgur.com/13TOHYx.png) | ![](https://i.imgur.com/13TOHYx.png) |
-| Wound | ![](https://i.imgur.com/BEExXAk.png) | ![](https://i.imgur.com/BEExXAk.png) | ![](https://i.imgur.com/BEExXAk.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) |
-| Hero | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/3QNjHck.png) | ![](https://i.imgur.com/3QNjHck.png) | ![](https://i.imgur.com/tjkXQRp.png) | ![](https://i.imgur.com/tjkXQRp.png) |
+|      Wound       | ![](https://i.imgur.com/BEExXAk.png) | ![](https://i.imgur.com/BEExXAk.png) | ![](https://i.imgur.com/BEExXAk.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) | ![](https://i.imgur.com/t97ry57.png) |
+|       Hero       | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/tOlBtko.png) | ![](https://i.imgur.com/3QNjHck.png) | ![](https://i.imgur.com/3QNjHck.png) | ![](https://i.imgur.com/tjkXQRp.png) | ![](https://i.imgur.com/tjkXQRp.png) |
 
 ### Calculating a Roll
-After making a roll add up all your successes and critical successes, negating any failures and critical failures. Keep in mind that critical rolls count as both 2 successes and a critical. For example, 2 failures can negate the successes from a critical success, but it doesn't remove the critical part of that roll. Some abilities allow you to reroll dice or change the result of a die which can change the outcome of your roll. Almost every roll is contested by either the GM adding challenge dice to your roll or by another creature's roll. The roll is a success if you have more successes than your opponent, with ties favoring the defender if there is one, or the most neutral action
+After making a roll add up all your successes and criticals, negating your successes by the number of failures rolled. Keep in mind that triumphs count as both 2 successes and a critical. For example, 2 failures can negate the successes from a triumph, but it doesn't negate the critical from that roll. Some abilities allow you to reroll dice or change the result of a die which can change the outcome of your roll. Almost every roll is contested by either the GM adding challenge dice to your roll or by another creature's roll. The roll is a success if you have more successes than your opponent, with ties favoring the defender if there is one, or the most neutral action.
 
 Remember that rolls contested by a creature can change the outcome of your roll. The defenders criticals negate any criticals you have in your roll. For example, if you have more total successes than the opponents roll, but they rolled more criticals than you, the action succeeds but does not trigger any critical effects.
 
@@ -230,21 +279,21 @@ Your GM may reward you with extra hero dice during your adventure, but hero dice
 #### Skill Challenge
 Skill challenges are rarely made in contest, instead the GM will ask you to add dice depending on the challenge of the task you are trying to accomplish. Each skill has its own proficiency score and uses one of your attributes to determine dice. For example, an athletics check will use your Strength score while an acrobatics check will use your Dexterity score.
 
-The outcome in these rolls isn't always a strict pass or fail. Depending on the GM they may give a bonus if you roll a critical success or something bad may happen if you roll a critical failure. For skill challenges the character is always considered the _attacker_, with a tie or a final result of 0 counting as a failure.
+The outcome in these rolls isn't always a strict pass or fail. Depending on the GM they may give a bonus if you roll a critical or something bad may happen if you roll a disaster without a triumph. For skill challenges the character is always considered the _attacker_, with a tie or a final result of 0 counting as a failure.
 
 #### Helping in Skill Challenges
 In some cases you may want to help someone with an action, such as trying to push a boulder or search a room. When helping every participant rolls the same skill check and is contested by a single challenge roll. The highest roll among the participants is used, adding a success for every critical rolled by others.
 
 ##### Skill Challenge Difficulty
 
-|  |  |  |  |  |  |  |  |
-|:----:|:--|:--|:--|:--|:--|:--|:--|
-| Simple  | B | _ | _ | _ | _ | _ | _ |
-| Easy  | B | B | _ | _ | _ | _ | _ |
-| Average | B | B | T | _ | _ | _ | _ |
-| Hard | B | B | T | T | _ | _ | _ |
-| Difficult | B | B | B | T | T | T | _ |
-| Impossible | B | B | T | T | T | T | T |
+|            |      |      |      |      |      |      |      |
+| :--------: | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+|   Simple   | B    | _    | _    | _    | _    | _    | _    |
+|    Easy    | B    | B    | _    | _    | _    | _    | _    |
+|  Average   | B    | B    | T    | _    | _    | _    | _    |
+|    Hard    | B    | B    | T    | T    | _    | _    | _    |
+| Difficult  | B    | B    | B    | T    | T    | T    | _    |
+| Impossible | B    | B    | T    | T    | T    | T    | T    |
 
 #### Rerolls
 Either through expertise, feats, or other abilities you may reroll a number of dice when making a roll. When rerolling you may choose any dice, except wound dice, to reroll taking the new value instead. Once rerolled you may not reroll the same die again. You may reroll any dice that are considered part of your roll, such as bonus dice from upcasting a spell, dice added from abilities or spells such as _Guidance_, and dice given by negative effects, such as poison. When making a skill challenge, all challenge dice are considered part of your roll and may be rerolled. 
@@ -280,7 +329,7 @@ When a character takes enough damage to bring them to 0 wounds they are incapaci
 
 Death saves aren't the only way you can lose temporary wounds. Creatures can still make attacks against you and any melee attacks that hit you deal full damage regardless of the wound dice rolled. Likewise, allies can attempt to bring you back with healing spells, potions, or by stabilizing you. While in this state healing effects restore any lost temporary wounds first. If this brings you 1 wound or above you regain consciousness and no longer make death saves.
 
-You can attempt to stabilize a character by making a medicine check. The check takes 10 AP and you must be beside the downed character to make it. Roll a medicine check, adding a terrible die for every temporary wound the character is missing. On success the character is stabilized, with failure restoring a temporary wound for every critical success in your medicine check. A stabilized player's wounds are set to 1 and they no longer make death saving throws, gaining consciousness after 10 minutes.
+You can attempt to stabilize a character by making a medicine check. The check takes 10 AP and you must be beside the downed character to make it. Roll a medicine check, adding a terrible die for every temporary wound the character is missing. On success the character is stabilized, with failure restoring a temporary wound for every critical in your medicine check. A stabilized player's wounds are set to 1 and they no longer make death saving throws, gaining consciousness after 10 minutes.
 
 ### Maneuvers
 
@@ -334,30 +383,30 @@ Skills represent your characters ability to apply themselves in a variety of sit
 Each skill has an associated attribute and its own proficiency modifier. There are no restrictions for which skills a player can add proficiency for, however you gain no benefit for proficiency scores above your attribute score.
 
 ##### Skill Table
-|  |  |
-|:----:|:----:|
-| **Strength** |  |
-|  | Athletics |
-|  | Intimidation |
-| **Dexterity** |  |
-|  | Acrobatics |
-|  | Stealth |
-|  | Thievery |
-| **Stamina** |  |
-|  | Exhaustion |
-|  | Survival |
-| **Intelligence** |  |
-|  | Arcana |
-|  | Insight |
-|  | Lore |
-| **Willpower** |  |
-|  | Medicine |
-|  | Nature |
-|  | Perception |
-| **Charisma** |  |
-|  | Conversation |
-|  | Performance |
-|  | Religion |
+|                  |              |
+| :--------------: | :----------: |
+|   **Strength**   |              |
+|                  |  Athletics   |
+|                  | Intimidation |
+|  **Dexterity**   |              |
+|                  |  Acrobatics  |
+|                  |   Stealth    |
+|                  |   Thievery   |
+|   **Stamina**    |              |
+|                  |  Exhaustion  |
+|                  |   Survival   |
+| **Intelligence** |              |
+|                  |    Arcana    |
+|                  |   Insight    |
+|                  |     Lore     |
+|  **Willpower**   |              |
+|                  |   Medicine   |
+|                  |    Nature    |
+|                  |  Perception  |
+|   **Charisma**   |              |
+|                  | Conversation |
+|                  | Performance  |
+|                  |   Religion   |
 
  - **Athlethics** is your ability to focus or exert your strength in a controlled manner. For example bracing a door, hang or pull yourself up from a ledge, or leap a great height or distance.
  - **Acrobatics** determines how controlled or accurate your body movements are. For example moving over ice without slipping, swinging from a rope and landing on your feet, or balancing on a moving cart without falling.
@@ -379,14 +428,14 @@ Each skill has an associated attribute and its own proficiency modifier. There a
 
 ### Tools
 
-To use tools you must have at least 1 proficiency score with the tool. Their use is shown in the Appendix.
+To use tools you must have at least 1 proficiency score with the tool. Their use is shown in the Items and Equipment chapter.
 
-| Tool | Attribute |
-|:----|:-------------|
-| Repair Kit | Strength |
-| Apothecary Set  | Willpower |
+| Tool             | Attribute    |
+| :--------------- | :----------- |
+| Repair Kit       | Strength     |
+| Apothecary Set   | Willpower    |
 | Enchanters Tools | Intelligence |
-| Scribing Tools | Intelligence |
+| Scribing Tools   | Intelligence |
 
 ### Expertise
 
@@ -405,9 +454,9 @@ There are 3 schools of magic: arcane, occult, and divine. Each school uses its o
 
 ### Weapons
 
-Weapons are split between simple and martial weapons. Simple weapons can be used by anyone and don't use their own proficiency modifier. Instead you use the relevant martial proficiency. When using a martial weapon that you don't have proficiency with you add 1 terrible die to the attack roll.
+Weapons are split between simple and proficient weapons. Simple weapons can be used by anyone and don't use their own proficiency modifier. Instead you use the relevant weapon proficiency. When using a proficient weapon that you don't have a related weapon proficiency with you add 1 terrible die to the attack roll.
 
-Weapon proficiencies are split between 4 categories: One Handed, Two Handed, Ranged, and Unarmed. By default melee weapons and unarmed use Strength while ranged weapons use Dexterity, but this can changed based on the weapon. For example a weapon with the _finesse_ property can use Dexterity for its attribute, while weapons with _Thrown_ can use Strength when used as a ranged weapon.
+Weapon proficiencies are split between 4 categories: One Handed, Two Handed, Ranged, and Unarmed. By default melee weapons and unarmed use Strength while ranged weapons use Dexterity, but this can changed based on the weapon. For example a weapon with the _finesse_ modifier can use Dexterity for its attribute, while weapons with _Thrown_ can use Strength when used as a ranged weapon.
 
 # Spells
 
@@ -429,15 +478,15 @@ Very few creatures are able to innately cast magic. Almost everyone must prepare
 
 Casting spells of 1st level and above takes a toll on the caster. A character can only cast so many of these spells before needing to rest. Mana is a representation of your characters magical energy and how efficiently they are able to channel that energy. When casting a spell at 1st level or above you expend a number of mana according to the following table:
 
-| Spell Level | Mana |
-|:----:|:-------------:|
-| 1st-4th | Spell level |
-| 5th  | 6 |
-| 6th  | 8 |
-| 7th  | 10 |
-| 8th  | 13 |
-| 9th  | 16 |
-| 10th | 20 |
+| Spell Level |    Mana     |
+| :---------: | :---------: |
+|   1st-4th   | Spell level |
+|     5th     |      6      |
+|     6th     |      8      |
+|     7th     |     10      |
+|     8th     |     13      |
+|     9th     |     16      |
+|    10th     |     20      |
 
 
 
@@ -446,15 +495,15 @@ Casting spells of 1st level and above takes a toll on the caster. A character ca
 Spell power determines how attuned your body is to spellcasting and how efficiently you can use mana, or magical energy. A characters maximum mana is based on their Spell Power according to the following table:
 
 | Spell Power | Maximum Mana |
-|:----:|:-------------:|
-| 1 | 3 |
-| 2  | 7 |
-| 3  | 12 |
-| 4  | 19 |
-| 5  | 27 |
-| 6  | 36 |
-| 7 | 48 |
-| 8 and Above | +12 |
+| :---------: | :----------: |
+|      1      |      3       |
+|      2      |      7       |
+|      3      |      12      |
+|      4      |      19      |
+|      5      |      27      |
+|      6      |      36      |
+|      7      |      48      |
+| 8 and Above |     +12      |
 
 ### Preparing Spells
 
@@ -471,17 +520,17 @@ All spells, including cantrips, can be cast at a higher level to increase its po
 Depending on your character's level you will only be able to cast spells up to a certain level. The table blow shows the maximum level your character can cast based on their level.
 
 | Player Level | Spell Level |
-|:----:|:----:|
-| 1st  | 1st |
-| 3rd  | 2nd |
-| 6th | 3rd |
-| 9th | 4th |
-| 12th | 5th |
-| 15th | 6th |
-| 18th | 7th |
-| 21st | 8th |
-| 24th | 9th |
-| 27th | 10th |
+| :----------: | :---------: |
+|     1st      |     1st     |
+|     3rd      |     2nd     |
+|     6th      |     3rd     |
+|     9th      |     4th     |
+|     12th     |     5th     |
+|     15th     |     6th     |
+|     18th     |     7th     |
+|     21st     |     8th     |
+|     24th     |     9th     |
+|     27th     |    10th     |
 
 
 ### Concentration
@@ -527,21 +576,7 @@ Finally, choose 2 starting bonuses.
 >Many people prefer the randomness given by rolling for attributes, but this can often lead to very powerful or weak characters across a group. As a way to ensure every player is on the same level, each player takes turns rolling an attribute score. Once 6 scores have been rolled the players use those scores to create their characters. The players can place the scores in any attribute they want, but they must use the same 6 scores as every other player.
 
 ### Starting Equipment
-Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire kit and 50ft of rope. In addition you start with 50 silver crosses which you can spend on gear or upgrades. Any unspent silver becomes your characters starting money.
-
-#### Currency
-Currency in Farhome is divided into 3 types: the copper trite, silver cross, and platinum talent. A silver cross is worth 100 copper trites, and a platinum talent is worth 100 silver crosses.
-
-|&nbsp;&nbsp;&nbsp;&nbsp;Cost&nbsp;&nbsp;&nbsp;&nbsp;| Upgrade |
-|:----:|:-------------|
-| 5sc  | Any simple weapon |
-| 10sc | Cantrip or Level 1 Spell |
-| 10sc | Basic Healing Potion |
-| 10sc | Buckler |
-| 15sc | Padded or studded armor |
-| 15sc | Any martial weapon |
-| 20sc | Upgrading armor to the next type |
-| 30sc | A repair kit, apothecary set, enchanters tools, or scribing tools |
+Depending on your background you may start with additional gear. All players start with an adventuring kit containing a bedroll, 10 days of rations, a fire kit and 50ft of rope. In addition you start with 50 silver crosses which you can spend on adventuring gear. Any unspent silver becomes your characters starting money.
 
 ### Leveling Up
 
@@ -575,12 +610,12 @@ Players earn experience after every encounter based on the difficulty of the enc
 
 
 ##### Encounters
-| Difficulty | Experience | CR level |
-|:----:|:-------------:|:-------------:|
-| Easy  | 50-100 | 75% Party Level |
-| Average  | 100-150 | Party Level |
-| Hard | 150-250 | 125% Party Level |
-| Deadly | 250-500 | 150% Party Level |
+| Difficulty | Experience |     CR level     |
+| :--------: | :--------: | :--------------: |
+|    Easy    |   50-100   | 75% Party Level  |
+|  Average   |  100-150   |   Party Level    |
+|    Hard    |  150-250   | 125% Party Level |
+|   Deadly   |  250-500   | 150% Party Level |
 
 
 >**Variant - Milestones**
@@ -598,16 +633,16 @@ A normal travelling day is 8 hours, with travel speed varying greatly based on t
 Travelling with a mount makes travel easier, removing most of the strain of travel. However, while travelling is easier for you, most mounts won't spend more than 8 hours a day in travel. If your mount has the ability to fly you do not take any penalties to travel based on the terrain.
 
 ##### Travel Speed
-|  | Type | Miles per Day |
-|:----:|:-------------:|:-------------:|
-| _Terrain_  |  |  |
-|  | Road | 16 |
-|  | Plains, Forest | 12 |
-|  | Mountain, Swamp | 8 |
-| _Mounts_ | | |
-|  | Horse, Mule | +2 |
-|  | War Horse | +4 |
-|  | Exotic | +2-8 |
+|           |      Type       | Miles per Day |
+| :-------: | :-------------: | :-----------: |
+| _Terrain_ |                 |               |
+|           |      Road       |      16       |
+|           | Plains, Forest  |      12       |
+|           | Mountain, Swamp |       8       |
+| _Mounts_  |                 |               |
+|           |   Horse, Mule   |      +2       |
+|           |    War Horse    |      +4       |
+|           |     Exotic      |     +2-8      |
 
 ### Short Rests
 
@@ -627,13 +662,13 @@ All adventurers need to rest from time to time, trying to do too much in a day c
 Exhaustion causes incredible strain on a creature, going beyond simply being tired. Exhausted creatures are incapable of reaching their full potential, and are much more likely to succumb to their injuries. Each level of Exhaustion decreases your max wounds and reduces the successes in every roll you make, except with defense rolls. Creatures that have their max wounds reduced to 0 from exhaustion die outright, their bodies pushed beyond the limit they can take. Similarly, any creature that reaches 6 levels of exhaustion dies regardless of remaining wounds.
 
 ##### Exhaustion Levels
-| Level | Roll Penalty | Max Wounds | Sprint
-|:----:|:----:|:----:|:-------------|
-| 1  | -1 | -1 | Yes |
-| 2  | -1 | -2 | Yes |
-| 3 | -2 | -3 | No |
-| 4 | -2 | -4 | No |
-| 5 | -3 | -5 | No |
+| Level | Roll Penalty | Max Wounds | Sprint |
+| :---: | :----------: | :--------: | :----- |
+|   1   |      -1      |     -1     | Yes    |
+|   2   |      -1      |     -2     | Yes    |
+|   3   |      -2      |     -3     | No     |
+|   4   |      -2      |     -4     | No     |
+|   5   |      -3      |     -5     | No     |
 
 ### Downtime
 - optional downtime rules
@@ -745,10 +780,10 @@ a feared creature cannot willingly move closer to the source of the fear. While 
 A grappled creature cannot move or sprint, adds 2 bad dice to Dexterity saves, and grants combat advantage to all creatures except the grappler.
 
 ##### Hex
-When making any roll, a hexed creature replaces a critical with a single success for every level of hex on the creature. For example, a creature with hex 2 will replace the first 2 critical successes they roll with a single success each.
+When making a roll, a hexed creature removes a critical for every level of hex affecting them. If there are no criticals to remove in their roll, criticals are added to the opponents roll instead.
 
 ##### Incapacitated
-An incapacitated creature takes no actions and automatically fails Strength and Dexterity saves. While incapacitated they grant combat advantage to adjacent attackers, and attacks and maneuvers that deal physical damage deal an extra wound die per critical success against them.
+An incapacitated creature takes no actions and automatically fails Strength and Dexterity saves. While incapacitated they grant combat advantage to adjacent attackers, and attacks and maneuvers that deal physical damage deal an extra wound die per critical against them.
 
 ##### Paralyzed
 A paralyzed creature cannot take the sprint action, adds a terrible die to all reactions, and has their maximum AP reduced by 3 for each level of Paralyze. They may still take an action that costs more than their maximum AP as long as it is the only action they take during their turn.
@@ -777,44 +812,8 @@ A staggered creature is unable to take reactions until the start of their next t
 ##### Stunned
 A stunned creature cannot take reactions and may only take a single move or basic attack action on their turn. They automatically fail Strength and Dexterity saves and attackers gain combat advantage against them.
 
-
 ##### Weaken
 When a weakened creature hits with any attack or maneuver, all wounds are replaced with wound dice.
-
-## Terms
-
-##### Heavy
-This weapon is extremely heavy. Attacks and maneuvers made with this weapon add 2 AP to their cost.
-
-##### Finesse
-This weapon can use either Strength or Dexterity for attack rolls.
-
-##### Loading
-This weapon can only be used to attack once per round.
-
-##### Range
-This weapon can attack at range. Range is followed by two numbers, the near and far range. Attacks made inside the near range attack as normal while attacks within the far range add a terrible die to the attack roll.
-
-##### Reach
-This weapon can attack creatures 1 tile further and their zone of control extends an additional tile.
-
-##### Resistance
-You reduce the number of wounds dealt by the level of resistance. For example, _Fire Resistance 1_ reduces all wounds taken from fire damage by 1.
-
-##### Thrown
-This weapon can be thrown using the ranged weapon proficiency instead. You may use either Strength or Dexterity for the roll. Thrown is followed by two numbers, the near and far range. Attacks made inside the near range attack as normal while attacks made within the far range add 2 terrible dice to the attack roll.
-
-##### Two-Handed
-This weapon requires both hands to use.
-
-##### Versatile
-This weapon can be used with two hands, using your two-handed proficiency. When used this way roll additional wound dice equal to the Versatile level.
-
-##### Vulnerable
-You increase the number of wounds dealt by the level of vulnerability. For example, _Bludgeoning Vulnerability 1_ increases the wounds taken by bludgeoning attacks by 1. If the attack can do damage, but didn't (due to rolling wound dice) a Vulnerable creature still takes the extra damage.
-
-##### Unarmed
-This weapon is used with unarmed attacks. Unarmed weapons require both hands and cannot be used with a shield. Unarmed weapons count as dual wielding for offhand attacks.
 
 # The Gameboard
 
@@ -834,14 +833,14 @@ The game world uses a square or hex tile grid with each tile representing a 5x5 
 
 Each creature is represented by a miniature or token on the gameboard. Creatures come in all different shapes and sizes, with each size taking up more or less of the board.
 
-| Size | Tile's Occupied |
-|:----:|:-------------|
-| Tiny  | 1/4th |
-| Small  | 1 |
-| Medium | 1 |
-| Large | 2x2 |
-| Huge | 3x3 |
-| Gargantuan | 4x4+ |
+|    Size    | Tile's Occupied |
+| :--------: | :-------------- |
+|    Tiny    | 1/4th           |
+|   Small    | 1               |
+|   Medium   | 1               |
+|   Large    | 2x2             |
+|    Huge    | 3x3             |
+| Gargantuan | 4x4+            |
 
 
 
@@ -895,12 +894,12 @@ Most creatures are unable to see in the dark and struggle to see creatures in di
 #### Cover
 Some terrain can be used as cover, protecting creatures from attacks. Anything that obscures the creature or is large enough to hide behind can be used as cover, such as a stone fence, pillar, tree, or overturned table. The benefit you gain depends on the size of the cover and how well it could reasonably defend you against attacks. A creature that is fully behind cover, for example being behind a wall, are untargetable by most attacks. When the target of an attack, maneuver, or spell attack that targets your defense you add dice based on the table below:
 
-| Cover | Bonus |
-|:----:|:-------------|
-| Quarter  | +1 superior defense die |
-| Half  | +2 superior defense dice |
+|   Cover    | Bonus                    |
+| :--------: | :----------------------- |
+|  Quarter   | +1 superior defense die  |
+|    Half    | +2 superior defense dice |
 | 3 Quarters | +3 superior defense dice |
-| Full | untargetable |
+|    Full    | untargetable             |
 
 #### Underwater Hazards
 Some dungeons may be submerged, or your adventures may take you to the depths of the sea. Creatures that do not have a swim speed or some method of moving underwater treat all underwater tiles as difficult terrain. Similarly, creatures that cannot breath underwater can only hold their breath for a limited time. A creature can hold their breath for 1 minute, adding a minute for each point of Stamina while not in combat. The exertion of combat greatly limits the time you can hold your breath, with creatures able to hold it for 1 turn, adding a turn for each point of Stamina.
@@ -961,38 +960,687 @@ Ethereal damage directly effects a creatures body and soul. Draining life, causi
 - **Holy:** smiting a creature or attacking their spirit.
 - **Psychic:** causing madness or deteriorating the mind.
 
-## Magic Items
 
+## Items and Equipment
+
+### Currency
+Currency in Farhome is divided into 3 types: the copper trite, silver cross, and platinum talent. A silver cross is worth 100 copper trites, and a platinum talent is worth 100 silver crosses.
+
+### Adventuring Gear
+Most towns and some villages will have adventuring gear for sale. While the actual costs are determined by the GM, this list can be used to give guidelines for the costs of typical gear adventurers will need.
+
+|         Item         | Cost       |
+| :------------------: | :--------- |
+|       Alembic        | 1pt 50sc   |
+|      Ammunition      | 1sc per 25 |
+|       Antidote       | 4sc        |
+|       Bandage        | 20ct       |
+|      Bear Trap       | 25sc       |
+|     Black Resin      | 40sc       |
+|       Caltrops       | 2sc 50ct   |
+|       Fire Kit       | 1sc 50ct   |
+|     Etching Acid     | 10sc       |
+|     Grapple Hook     | 15sc       |
+|     Healers Kit      | 35sc       |
+|     Linseed Oil      | 15sc       |
+|      Net, Rope       | 3sc        |
+|     Net, Banded      | 25sc       |
+|     Net, Barbed      | 8sc        |
+|    Net, Enchanted    | 1pt        |
+|    Pellet, Smoke     | 4sc        |
+| Pellet, Black Powder | 20sc       |
+|     Prayer Chalk     | 15sc       |
+|      Rope, 50ft      | 1sc 50ct   |
+|  Rope, Banded, 50ft  | 7sc        |
+|  Rope, Chain, 10ft   | 5sc        |
+|        Snare         | 5sc        |
+|   Tool, Apothecary   | 1pt        |
+|   Tool, Enchanters   | 1pt 50sc   |
+|   Tool, Repair Kit   | 40sc       |
+|    Tool, Scribing    | 65sc       |
+|        Torch         | 50ct       |
+|       Whistle        | 2sc 50ct   |
+
+#### Alembic
+A small, portable Alembic for potion making. When making an Apothecary roll you may reroll 1 die.
+
+#### Ammunition
+A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the attack, while bolts only deal the base crossbow damage.
+
+#### Antidote
+A vial of antidote used to treat common poisons. You may spend 2 AP to drink the antidote, curing Poison. This does not work against Poisons of level 2 or higher.
+
+#### Bandage
+Simple cloth bandages used to cover wounds. During a long or short rest you may use a bandage to reroll a healing surge.
+
+#### Bear Trap
+A metal floor trap used to immoblize large creatures. The trap takes 5 minutes to set up and covers a single tile, making a raw Dexterity or Intelligence roll to determine how well it's hidden. A creature attempting to see the trap makes a Survival or Perception check against your roll, seeing the trap on success.
+
+When a large or medium creature steps on the trap they make a Defense roll against 4 Enhanced dice. On hit they are grappled and take a wound and a wound die in piercing damage. They or another creature can spend 5 AP to make a Strength save against 4 Enhanced dice, freeing themselves on success.
+
+#### Black Resin
+A long burning resin made from tar. When ignited, the resin burns for 1 hour, slowly filling a 10x10 tile area (or nearest 100 tiles) with a thick, black smoke. A creature that enters or starts their turn in the smoke this round makes a Stamina save against 3 Enhanced dice. A creature that fails this save 3 times over a 5 minute period becomes incapacitated, waking within an hour after the smoke clears.
+
+#### Caltrops
+A sack of caltrops, enough to cover 2 tiles. By spending 5 AP you spread caltrops in 2 adjacent tiles. The Caltrops count as difficult terrain and any creature that falls into the caltrops, either by falling or being knocked prone, takes 1 wound in piercing damage.
+
+#### Etching Acid
+A small vial of acid used to engrave metal. When making an Enchanting or Inscription roll you may reroll 1 die, consuming the acid. You may also use the acid to melt a small amount of metal. For example, it can be used on the hinges of a door to fuse them together, barring the door.
+
+#### Fire Kit
+Contains kindling and equipment to easily start a campfire. Can be used to pass a survival check when building a fire. Has 10 uses.
+
+#### Grapple Hook
+A metal hook attached to 50 ft of rope. Used in place of an attack action, make a ranged attack using Strength or Dexterity targeting a point within 10 tiles. The GM adds challenge dice depending on the distance and the surface hooked. On success the hook lodges firmly, able to hold 1000 lbs of weight before breaking.
+
+#### Healers Kit
+A small pack containing banadages, ointments, and other materials used to patch up small injuries. You may spend 1 minute tending to yours or another creatures wounds. The creature may spend a healing surge, healing for the amount rolled. Each kit has 5 uses.
+
+#### Linseed Oil
+A small jar of linseed oil, used to maintain weapons and armor. When making a Repair roll you may reroll 1 die. 5 uses.
+
+#### Net
+A net made of rope, leather, or twined fibers used to catch a medium or smaller creature. Used in place of the attack action, make a ranged attack using Strength or Dexterity against a creature within 2 tiles. The creature makes a Dexterity save against the attack, being grappled on hit.
+
+Once grappled, the creature can spend 5 AP on their turn making a Strength save against 5 Enhanced dice, freeing themselves and destroying the net on success. Another creature can free the grappled creature by spending 1 turn cutting through the net with an edged weapon, or 1 minute untangling the net.
+
+The net must be properly bundled before being thrown again, reqeuiring 5 minutes of work.
+
+**Banded Net:** A net reinforced with metal. Adds 1 Bad die to your attack rolls with the net. The grappled creature makes a Strength save against 5 Superior dice instead of Enhanced, and attempting to cut the net requires a successful attack roll against 3 Superior Defense dice.
+
+**Barbed Net:** Adding barbs to the next causes it to deal 1 wound die in piercing damage on hit and every time the grappled creature attempts a Strength save to free themselves from the net.
+
+
+**Enchanted Net:** A net made with enchanted rope that seeks out its target. You may target creatures up to 5 tiles away and add 1 Superior die to your attack roll.
+
+#### Smoke Pellet
+Small beads that when thrown create an area of obscuring smoke. You may spend 2 AP to throw the pellet up to 5 tiles, exploding in a cloud of smoke covering a 3x3 tile area centered on the impact.
+
+**Black Powder Pellet:** Creates a cloud of flammable black powder when thrown. Any fire in the 3x3 tile area, such as a torch or the flaming projectile of a spell like _Firebolt_ causes it to ignite. All creatures make a Dexterity save against 4 Enhanced dice, taking a wound and wound die in fire damage on fail.
+
+#### Prayer Chalk
+Chalk made from bones purified by a priest. You may spend 1 minute per tile etching holy wards and inscriptions. For the next day undead treat the inscriptions as difficult terrain and any undead that pass over the inscriptions add 1 bad die to all attacks and saving throws until the end of their next turn.
+
+Each piece of chalk can cover 10 tiles.
+
+#### Rope
+A bundle of rope 50 ft long. A creature bound by the rope can attempt to break free once every hour by making a Strength save against 5 Enhanced dice. On success the rope breaks.
+
+**Banded Rope:** Rope reinforced with metal. Attempting to break the rope uses 5 Superior dice instead of Enhanced dice.
+
+**Chain:** A metal chain 10 ft long. Attempting to break the chain uses 7 Superior dice for the Strength save.
+
+#### Snare
+Contains everything needed to make a simple snare trap. The snare takes 5 minutes to set up and covers a single tile, making a raw Dexterity or Intelligence roll to determine how well it's hidden. A creature attempting to see the trap makes a Survival or Perception check against your roll, seeing the trap on success.
+
+When triggered by a large or smaller creature they are grappled and knocked prone. The creature or an ally can spend 5 AP to cut the snare, freeing them and destroying the trap.
+
+#### Torch
+You can spend 5 AP to light the torch. Torches emit bright light out 3 tiles and dim light a further 3. Once lit a torch will last for 1 hour.
+
+#### Whistle
+A simple whistle made out of wood. You may spend 2 AP to blow the whistle which is audible up to 60 tiles away.
+
+### Potions and Poisons
+Potions and poisons are valuable tools for any adventurer. It's common for an adventurer to carry a few healing potions for difficult situations or to revive an unconscious party member. While basic healing potions are common enough that you can find them in most towns, adventurers have to make due with whatever potions they find or brew themselves. Due to the magical nature of ingredients used in brwing potions an unopened potion can last hundreds of years without spoiling.
+
+With the ever-present danger of living in Farhome even the smallest villages keep a healing potion on hand, although adventurers may find it difficult to get them to part with it. Towns large enough for a herbalist will have a few for sale in their stores, while the large cities carry a wide range of potions. Poisons, being less useful to the common villager, are much harder to find for sale.
+
+Using a potion or poison requires a Use action (2 AP) and consumes the item when used. The magical potentency of potions make it impossible to metabolize more than one each round. Potions can be used on onconscious creatures, costing 5 AP instead of 2. Poisons can be used to coat an edged weapon or applied to ammunition. A poison vial contains enough poison to coat a single weapon or 4 pieces of ammunition. Poisons lose their potency after 2 attacks with a weapon or after the ammunition has been fired.
+
+|           Item            | Cost     |
+| :-----------------------: | :------- |
+|      Bracing Potion       | 2pt      |
+|     Cleansing Potion      | 20sc     |
+|       Deadly Toxins       | 5pt      |
+|      Fogging Poison       | 1pt 50sc |
+|    Fortify Mind Potion    | 75sc     |
+|      Healing Potion       | 12sc     |
+|     Healing Potion +1     | 25sc     |
+|     Healing Potion +2     | 2pt      |
+|     Healing Potion +3     | 10pt     |
+|     Healing Potion +4     | 25pt     |
+|        Hero's Luck        | 4pt      |
+|       Nettle Fever        | 15sc     |
+|     Nightbleed Poison     | 50sc     |
+|     Paralyzing Poison     | 2pt      |
+|     Potion of Ability     | 2pt 50sc |
+| Potion of Fire Breathing  | 40sc     |
+|    Potion of Strength     | 1pt 50sc |
+|    Potion of Vitality     | 20sc     |
+| Potion of Water Breathing | 25sc     |
+|      Sapping Poison       | 40sc     |
+|      Stamina Potion       | 2pt 50sc |
+
+
+##### Bracing Potion
+For the next hour, any time you gain a condition roll a wound die instead. On a blank you don't gain the condition.
+
+##### Cleansing Potion
+Ends up to 2 of the following conditions: Daze, Hex, Paralyze, Poison, Slow, Stun, and weaken. If the condition is level 3 or more, remove 2 levels instead. Conditions inflicted by wounds, curses, or persistent effects return at the start of your next turn.
+
+##### Deadly Toxins
+On hit inflicts poison 3 for 10 minutes.
+
+##### Fogging Poison
+On hit inflicts poison 1, or poison 2 on a critical. The creature is dazed and their sight is reduced to 5 tiles while poisoned. Lasts for 10 minutes.
+
+##### Fortify Mind Potion
+For the next 4 hours you add 1 superior die when rolling Intelligence, Willpower, Charisma saves and concentration checks.
+
+#### Healing Potions
+On use they heal 1 wound and 2 wound dice. Healing Potions come in different potencies, adding a wound and wound die for each bonus modifier.
+
+| Modifier | Total Wound Dice  |
+| :------: | :---------------: |
+|    0     | 1w + 2 wound dice |
+|    +1    | 2w + 3 wound dice |
+|    +2    | 3w + 4 wound dice |
+|    +3    | 4w + 5 wound dice |
+|    +4    | 5w + 6 wound dice |
+
+##### Hero's Luck
+You gain 2 Hero dice for the next hour. Any unspent dice are lost after the potion fades.
+
+##### Nettle Fever
+On hit inflicts poison 1, or poison 2 on a critical. Lasts for 10 minutes.
+
+##### Nightbleed Poison
+On hit deals 1 wound in poison damage, adding a wound die on a critical.
+
+##### Paralyzing Poison
+On hit inflicts poison 1, or poison 2 on a critical. The creature gains Paralyze equal to the level of poison as long as they are poisoned. Lasts for 10 minutes.
+
+##### Potion of Ability
+When brewing this potion choose an attribute. On use increases that attribute score and attribute save proficiency by 1 for 4 hours.
+
+##### Potion of Fire Breathing
+For the next 10 minutes, as a maneuver you may spend 7 AP to breath fire, hitting all creatures in your zone of control. Creatures make a Dexterity save against 3 superior dice. On hit they take 1 wound of fire damage.
+
+##### Potion of Strength
+For the next hour, when making an attack or maneuver you may reroll 3 wound dice in the damage roll.
+
+##### Potion of Vitality
+Increases your maximum wounds by 1 for 24 hours.
+
+##### Potion of Water Breathing
+For the next 4 hours you can breathe in water.
+
+##### Sapping Poison
+On hit inflicts poison 1, or poison 2 on a critical. The creature does not benefit from expertise while poisoned. Lasts for 10 minutes.
+
+##### Stamina Potion
+Removes a level of exhaustion and refreshes a feat that requires a rest before it can be used again.
+
+### Spell Scrolls
+Attempting to transfer a spell from one codex to another is a difficult process, and can often destroy the codex in the process. Instead, spells are written from memory onto scrolls. Writing scrolls requires a variety of rare and magical components and the act of copying a scroll into a codex destroys the scroll. Still, it is by far the easiest way wizards teach others spells. Spell scrolls are written in a magical language, allowing them to be understood by anyone regardless of the language of the writer.
+
+Spell scrolls can be found for sale all over Farhome, with most towns and cities having wizards practicing their craft. While lower level spells are plentiful, finding higher level spell scrolls for sale may be difficult or downright impossible.
+
+| Spell Level | Cost     |
+| :---------: | :------- |
+|   Cantrip   | 8sc      |
+|     1st     | 15sc     |
+|     2nd     | 25sc     |
+|     3rd     | 50sc     |
+|     4th     | 1pt      |
+|     5th     | 1pt 50sc |
+|     6th     | 2pt 50sc |
+|     7th     | 5pt      |
+|     8th     | 10pt     |
+|     9th     | 20pt     |
+
+### Weapons
+There are 2 types of weapons: simple, and proficient. Simple weapons are usable by anyone, even those without training. Proficient weapons require at least one point of proficiency into a related weapon proficiency to wield properly. Someone who uses a proficient weapon without having the proficiency for it adds a terrible die to all rolls made with that weapon. For example, to use a sword effectively you need at least 1 proficiency with one handed weapons, or to use a bow you need at least 1 proficiency in ranged weapons.
+
+
+| Weapon                                   |            Modifiers             |  Damage on Hit   |       Cost | Damage Type |
+| :--------------------------------------- | :------------------------------: | :--------------: | ---------: | ----------: |
+| *Simple*                                 |                                  |                  |            |             |
+| &nbsp;&nbsp;&nbsp;&nbsp;Dagger           |       Thrown 5/10, Finesse       |        1         |        5sc |    Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Club             |                -                 |   1 wound die    |        4sc | Bludgeoning |
+| &nbsp;&nbsp;&nbsp;&nbsp;Barbed Gauntlets |             Unarmed              |   2 wound dice   |       10sc | Bludgeoning |
+| &nbsp;&nbsp;&nbsp;&nbsp;Spear            |             Reach 1              |        1         |        8sc |    Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Crossbow         | Two-Handed, Loading, Range 15/-- |        1         |       35sc |    Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Hand Crossbow    |       Loading, Range 15/--       |        1         |       50sc |    Piercing |
+| *Proficient*                             |                                  |                  |            |             |
+| &nbsp;&nbsp;&nbsp;&nbsp;Javelin          |      Thrown 10/15, Finesse       |        1         |        4sc |    Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Hatchet          |           Thrown 5/10            |        1         |        8sc |    Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Axe              |                -                 |        1         |       15sc |    Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Halberd          |       Versatile 1, Reach 1       |        1         |       40sc |    Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Katar            |         Unarmed, Finesse         |        1         |       20sc |    Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Flail            |           Versatile 1            |        1         |       55sc | Bludgeoning |
+| &nbsp;&nbsp;&nbsp;&nbsp;Mace             |                -                 |        1         |       30sc | Bludgeoning |
+| &nbsp;&nbsp;&nbsp;&nbsp;Warhammer        |            Two-Handed            | 1 + 1 wound die  |       90sc | Bludgeoning |
+| &nbsp;&nbsp;&nbsp;&nbsp;Sword            |             Finesse              |        1         |       35sc |    Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Long Sword       |            Two-Handed            | 1 + 1 wound die  |       75sc |    Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Battle Axe       |            Two-Handed            |   3 wound dice   |       85sc |    Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Lance            |    Two-Handed, Heavy, Reach 2    |        2         |   1pt 20sc |    Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Glaive           |   Heavy, Versatile 1, Reach 1    | 1 + 1 wound dice |   1pt 50sc |    Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Great Sword      |        Two-Handed, Heavy         | 1 + 2 wound dice |   1pt 80sc |    Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Great Axe        |        Two-Handed, Heavy         |   4 wound dice   |   1pt 80sc |    Slashing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Great Maul       |        Two-Handed, Heavy         |        2         |   2pt 50sc | Bludgeoning |
+| &nbsp;&nbsp;&nbsp;&nbsp;Bow              |     Two-Handed, Range 10/30      | 1 + arrow damage |       30sc |    Piercing |
+| *Ammunition*                             |                                  |                  |            |             |
+| &nbsp;&nbsp;&nbsp;&nbsp;Arrow            |                -                 |   1 wound die    | 1sc per 25 |    Piercing |
+| &nbsp;&nbsp;&nbsp;&nbsp;Bolt             |                -                 |        -         | 1sc per 25 |    Piercing |
+
+#### Weapon Modifiers
+Aside from the damage they deal, each weapon has modifiers that change how that weapon can be used. Without modifiers, weapons are considered one handed melee weapons that use Strength for their attack rolls. 
+
+##### Heavy
+This weapon is extremely heavy. Attacks and maneuvers made with this weapon add 2 AP to their cost.
+
+##### Finesse
+This weapon can use either Strength or Dexterity for attack rolls.
+
+##### Loading
+This weapon can only be used to attack once per round.
+
+##### Range
+This weapon can attack at range using your Dexterity score for the attack roll. Range is followed by two numbers, the near and far range. Attacks made inside the near range attack as normal while attacks within the far range add a terrible die to the attack roll.
+
+##### Reach
+This weapon can attack creatures 1 tile further and their zone of control extends an additional tile.
+
+##### Resistance
+You reduce the number of wounds dealt by the level of resistance. For example, _Fire Resistance 1_ reduces all wounds taken from fire damage by 1.
+
+##### Thrown
+This weapon can be thrown using the ranged weapon proficiency instead. You may use either Strength or Dexterity for the roll. Thrown is followed by two numbers, the near and far range. Attacks made inside the near range attack as normal while attacks made within the far range add a terrible die to the attack roll.
+
+##### Two-Handed
+This weapon requires both hands to use.
+
+##### Versatile
+This weapon can be used with two hands, using your two-handed proficiency. When used this way roll additional wound dice equal to the Versatile level.
+
+##### Vulnerable
+You increase the number of wounds dealt by the level of vulnerability. For example, _Bludgeoning Vulnerability 1_ increases the wounds taken by bludgeoning attacks by 1. If the attack can do damage, but didn't (due to rolling wound dice) a Vulnerable creature still takes the extra damage.
+
+##### Unarmed
+This weapon is used with unarmed attacks. Unarmed weapons require both hands and cannot be used with a shield. Unarmed weapons count as dual wielding for offhand attacks.
+
+### Armor
+There are 3 types of armor: light, medium, and heavy. There is no proficiency required to wear armor, but different armors give different penalties. Medium armor adds a bad die to all Dexterity saves, stealth checks, and spellcasting rolls. Heavy armor adds a terrible die to all Dexterity saves, stealth checks, and spellcasting rolls.
+
+If you do not meet the Strength requirement for wearing your armor you add 1 terrible die to all attacks, maneuvers, attribute saves and spellcasting rolls.
+
+| Armor                                          | Defense | Strength |     Cost | Dex/Spell Penalty |
+| :--------------------------------------------- | :-----: | :------: | -------: | :---------------: |
+| *Light*                                        |         |          |          |                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Padded                 |   0/3   |    -     |     20sc |       none        |
+| &nbsp;&nbsp;&nbsp;&nbsp;Leather, Studded       |   1/2   |    0     |     35sc |       none        |
+| *Medium*                                       |         |          |          |                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Hide                   |   1/3   |    1     |     60sc |     1 bad die     |
+| &nbsp;&nbsp;&nbsp;&nbsp;Chain Shirt, Scalemail |   2/2   |    2     |      1pt |     1 bad die     |
+| *Heavy*                                        |         |          |          |                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Half Plate, Splint     |   2/3   |    3     | 1pt 80sc |  1 terrible die   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Full Plate             |   3/2   |    4     | 3pt 25sc |  1 terrible die   |
+| *Shield*                                       |         |          |          |                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Buckler                |  +0/1   |    0     |     20sc |       none        |
+| &nbsp;&nbsp;&nbsp;&nbsp;Shield                 |  +1/0   |    2     |     60sc |     1 bad die     |
+
+### Ammunition
+To use a ranged weapon you need to carry ammunition usable by that weapon. Bows require arrows to fire while crossbows use bolts. Like weapons, ammunition can be enchanted with magic. When using magic ammunition you deal an additional wound die for each bonus modifier on the ammunition. For example, a magic arrow with a +1 modifier deals a wound and 2 wound dice on hit. Magic ammunition is spent when the attack is made, becoming mundane after the attack.
+
+Towns and cities are often large enough to house an enchanter selling magic ammunition. While +1 varieties are common, it is exceedingly rare to find stronger ammunition for sale.
+
+|    Spell Level     | Cost       | Bonus Damage |
+| :----------------: | :--------- | :----------: |
+| Mundane Ammunition | 1sc per 25 |      -       |
+|   Ammunition +1    | 25sc per 3 | 1 wound die  |
+|   Ammunition +2    | 25sc       | 2 wound dice |
+|   Ammunition +3    | 1pt        | 3 wound dice |
+
+### Tools
+
+#### Lockpicks
+
+A set of tools for picking a variety of locks. Anyone can use a lockpicking set, but only people with at least 1 proficiency in thievery get the bonuses. Lockpicks come in several rarities.
+
+|     Type     | Bonus                                                                                                   |
+| :----------: | :------------------------------------------------------------------------------------------------------ |
+|    Basic     | None                                                                                                    |
+|    Expert    | Adds an enhanced die                                                                                    |
+|  Masterwork  | Adds 2 enhanced dice                                                                                    |
+| Skeleton Key | Adds 4 superior dice. After the thievery roll, roll a terrible die. The skeleton key breaks on failure. |
+
+#### Repair Kit
+Any damage taken by your armor or weapons are permanent until repaired. An item that takes enough damage, whether it's magical or not, is destroyed. A weapon that goes below a -2 modifier or armor that is reduced to a single defense die is destroyed and can no longer be repaired or used.
+
+A damaged weapon adds 1 bad die for every negative modifier, or reduces the superior dice given from a magic weapon. Damaged armor reduces the number of defense dice given by 1, or reduces the superior defense dice given from magic armor.
+
+You may attempt to repair a piece of equipment over a long rest. Make a repair roll against 2 bad dice. On success the gear is repaired by 1 level, or 2 on a critical. You may attempt to repair magical gear, adding a terrible die for each modifier.
+
+#### Apothecary Set
+
+A portable set of tools required to brew potions over a campfire. During a long rest you may attempt to brew a potion or poison if you have the right ingredients, or you may search your surroundings for ingredients.
+
+To search for ingredients make an average difficulty survival check, increasing or decreasing the difficulty based the abundance of the wilderness. Searching for ingredients takes 1 hour. On success you roll 3 superior dice to determine the ingredient found on the table below. You gain a number of ingredients equal to the successes in your survival check.
+
+##### Wilderness Survival Rewards
+|   Area    |       6        |      5       |       4       |       3       |       2       |      1       |    0     |
+| :-------: | :------------: | :----------: | :-----------: | :-----------: | :-----------: | :----------: | :------: |
+|  Plains   |  Vitalflower   |  Skillwheat  | Poison Nettle | Poison Nettle |   Healroot    |   Healroot   | Healroot |
+|  Forest   |   Lucky Leaf   |  Nightshade  | Cleansebloom  | Cleansebloom  | Poison Nettle |   Healroot   | Healroot |
+| Mountains |  Buff Beetle   | Dragonflower | Cleansebloom  |  Skillwheat   |  Skillwheat   |   Healroot   | Healroot |
+|  Desert   | Scorpion Venom |  Scorchroot  |  Scorchroot   | Dragonflower  | Dragonflower  |   Healroot   | Healroot |
+|   Swamp   |   Toxic Frog   |  Nightshade  | Poison Nettle | Poison Nettle | Cleansebloom  | Cleansebloom | Healroot |
+|   Lake    |   Brainfish    | Cleansebloom |  Skillwheat   |  Skillwheat   |   Healroot    |   Healroot   | Healroot |
+  
+#### Potions
+Each potion requires a number of ingredients and has their own difficulty dice. When brewing a potion make an apothecary roll against the potions difficulty dice. On success you brew the chosen potion, losing the ingredients on failure.
+
+
+|          Potion           |                  Ingredients                  | Difficulty |
+| :-----------------------: | :-------------------------------------------: | :--------: |
+|      Healing Potion       |                  2 Healroot                   |     2B     |
+|    Potion of Vitality     |           2 Healroot, 1 Vitalflower           |     2B     |
+|     Cleansing Potion      |          2 Cleansebloom, 1 Healroot           |     2B     |
+|    Potion of Strength     |  1 Buff Beetle, 1 Skillwheat, 1 Dragonflower  |   2B/1T    |
+|    Fortify Mind Potion    |    1 Brainfish, 1 Cleansebloom, 1 Healroot    |   2B/1T    |
+| Potion of Water Breathing |    1 Lucky Leaf, 1 Scorchroot, 1 Healroot     |   2B/1T    |
+|     Potion of Ability     |           2 Skillwheat, 2 Healroot            |   3B/1T    |
+|      Stamina Potion       | 1 Dragonflower, 1 Buff Beetle, 1 Vitalflower  |   3B/1T    |
+|      Bracing Potion       | 1 Vitalflower, 1 Buff Beetle, 2 Cleansebloom  |   2B/2T    |
+| Potion of Fire Breathing  |         2 Dragonflower, 1 Scorchroot          |   2B/2T    |
+|        Hero's Luck        | 1 Lucky Leaf, 1 Cleansebloom, 1 Poison Nettle |   1B/3T    |
+
+
+
+#### Poisons
+Poisons are applied to weapons and inflict their effects after landing an attack with that weapon. Each poison vial has enough to coat a weapon for 2 attacks, or coat 5 arrowheads. Weapons that deal bludgeoning damage cannot be coated.
+
+
+|      Poison       |                 Ingredients                 | Difficulty |
+| :---------------: | :-----------------------------------------: | :--------: |
+|   Nettle Fever    |               2 Poison Nettle               |     2B     |
+|  Sapping Poison   |        2 Poison Nettle, 2 Skillwheat        |   2B/1T    |
+| Nightbleed Poison |        2 Nightshade, 1 Poison Nettle        |   2B/1T    |
+|  Fogging Poison   | 1 Dragonflower, 1 Poison Nettle, 1 Healroot |   3B/1T    |
+| Paralyzing Poison |       2 Nightshade, 1 Scorpion Venom        |   2B/2T    |
+|   Deadly Toxins   | 1 Toxic Frog, 1 Nightshade, 1 Poison Nettle |   2B/2T    |
+
+
+#### Enchanters Tools
+During a long rest you may attempt to enchant a piece of mundane gear. Enchantments lasts for 3 days and counts as magical equipment for the duration. After the enchantment ends the gear returns to normal. To enchant a piece of gear you must have mana and enchanting supplies available. Make an enchanting roll, adding the difficulty dice for the enchantment. On success you make the enchantment, otherwise losing the supplies on failure. Most cities and towns will sell enchanting supplies.
+  
+You may spend additional mana to improve your roll, adding an enhanced die for every 2 mana spent. Ammunition enchantments are permanent, lasting until the ammunition is used.
+  
+  ##### Enchantments
+| Name                                  | &nbsp;&nbsp;Mana&nbsp;&nbsp; | &nbsp;&nbsp;Supplies&nbsp;&nbsp; | Dice  |                                                                                                                                                                                                                                                                    Effect |
+| :------------------------------------ | :--------------------------: | :------------------------------: | :---: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| _Weapon_                              |                              |                                  |       |                                                                                                                                                                                                                                                                           |
+| &nbsp;&nbsp;&nbsp;&nbsp;Skillful      |              1               |                1                 |  2B   |                                                                                                                                                                                                                             You gain 1 proficiency with this weapon type. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Brutality     |              2               |                3                 | 2B/1T |                                                                                                                                                                                          When you land a critical with this weapon, add an extra wound die to the damage. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Hexblade      |              4               |                3                 | 2B/1T |                                                                                                                                                                                            When you land a critical with this weapon the target gains hex 1 for 1 minute. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Quickened     |              6               |                3                 | 1B/2T |                                                                                                                                                                                             The first attack or maneuver made with this weapon each turn costs 1 less AP. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Phantasmal    |              8               |                5                 |  3T   | You may spend 2 AP to create a phantom of your weapon that follows its movements. While active, your first melee attack each turn also targets an adjacent creature. The phantom weapon deals weapon damage as force damage, and can't be improved by feats or abilities. |
+| _Armor_                               |                              |                                  |       |                                                                                                                                                                                                                                                                           |
+| &nbsp;&nbsp;&nbsp;&nbsp;Durable       |              2               |                2                 | 2B/1T |                                                                                                                                                             If a spell or effect would damage this armor, roll a wound die. On a blank the armor takes no damage instead. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Lightened     |              3               |                3                 | 2B/1T |                                                                                                                                                       Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalties. |
+| _Shield_                              |                              |                                  |       |                                                                                                                                                                                                                                                                           |
+| &nbsp;&nbsp;&nbsp;&nbsp;Lesser Block  |              3               |                3                 | 2B/1T |                                                                                                                                                                                                                   You may reroll 1 defense die when making defense rolls. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Greater Block |              6               |                5                 | 1B/3T |                                                                                                                                                                                                                  You may reroll 2 defense dice when making defense rolls. |
+| _Ammunition_                          |                              |                                  |       |                                                                                                                                                                                                                                                                           |
+| &nbsp;&nbsp;&nbsp;&nbsp;Staggering    |              1               |                1                 |  2B   |                                                                                                                                                                             On a critical the creature is staggered until the start of your next turn. Makes 3 ammunition |
+| &nbsp;&nbsp;&nbsp;&nbsp;Slowing       |              1               |                1                 |  2B   |                                                                                                                                                                             On a critical the creature gains slow 1 until the start of your next turn. Makes 3 ammunition |
+| &nbsp;&nbsp;&nbsp;&nbsp;Homing        |              2               |                2                 | 1B/1T |                                                                                                                                                                                                                                          Creates 3 +1 magical ammunition. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Slaying       |              5               |                2                 | 1B/3T |                                                                                                                                                                            Choose a creature type. This arrow deals an extra 3 wound dice against creatures of this type. |
+
+#### Scribing Tools
+A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one-time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and runes requires mana and uses a mix of gemstones and enchanting supplies which can be found in most cities and towns.
+
+#### Inscribing Spell Scrolls
+You can create a spell scroll for any spell in your codex that you are able to cast. Creating a spell scroll of 3rd level or lower can be done during a long rest, with spells of 4th level and higher taking 1 day of work for each level above 3rd. You must have mana available which is consumed in creating the scroll.
+
+When copying spells from a codex you can instead use your scribing tools to create a spell scroll. Doing so costs a single enchanting supply regardless of spell level, ignoring all other costs for creating spell scrolls. For each spell you want to remove from the codex and turn into a scroll you make a scribing roll against that spell levels difficulty. On success you create a spell scroll for that spell, destroying the codex on failure.
+
+##### Spell Scrolls
+|  Level  | Mana  |     Gemstones     | Supplies | Challenge Dice |
+| :-----: | :---: | :---------------: | :------: | :------------- |
+| Cantrip |   1   |   10sc gemstone   |    0     | 1B             |
+|   1st   |   1   |   10sc gemstone   |    1     | 1T             |
+|   2nd   |   2   |   25sc gemstone   |    1     | 1B/1T          |
+|   3rd   |   3   |   25sc gemstone   |    2     | 2B/1T          |
+|   4th   |   4   |   50sc gemstone   |    2     | 1B/2T          |
+|   5th   |   6   |   50sc gemstone   |    3     | 2B/2T          |
+|   6th   |   7   |   1pt gemstone    |    4     | 2B/3T          |
+|   7th   |   8   | 2pt 50sc gemstone |    5     | 1B/4T          |
+|   8th   |   9   |   5pt gemstone    |    7     | 2B/4T          |
+|   9th   |  12   |   10pt gemstone   |    10    | 2B/5T          |
+
+#### Inscribing Runes
+You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe a rune you need to have the required supplies and mana which are consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Unless otherwise stated, runes that augment spells require no AP to use while placing a rune takes 2 AP.
+
+##### Runes
+| Rune            | &nbsp;Mana&nbsp; | &nbsp;Gemstones&nbsp; | &nbsp;Supplies&nbsp; | &nbsp;Challenge&nbsp; |                                                                                                                                                                                                                                                            Effect |
+| :-------------- | :--------------: | :-------------------: | :------------------: | :-------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Longcaster      |        1         |     10sc gemstone     |          0           |          1B           |                                                                                                                                                                                         Doubles the range of a spell that does not have a range of self or touch. |
+| Potency         |        1         |           -           |          1           |          2B           |                                                                                                                                                                                                                         Add a critical to your spellcasting roll. |
+| Fire Ward       |        2         |     10sc gemstone     |          1           |         1B/1T         |                                                                                                           Once placed, the next creature to enter its tile makes a Dexterity save against 3 superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
+| Arc Ward        |        2         |     10sc gemstone     |          1           |         1B/1T         |                                                                                                                           Once placed, the next creature to enter its tile makes a Stamina save against 3 superior dice, gaining Paralyze 1 for 1 minute on fail. |
+| Hardened        |        3         |     10sc gemstone     |          2           |          2T           |                                                                                                                                                  Your spell is considered to be 2 levels higher when saving against _Dispel Magic_, _Purge_, and _Counter Spell_. |
+| Expanding       |        3         |     25sc gemstone     |          1           |          2T           |                                                                                                                                                                                                                     Increases the area of effect of a spell by 1. |
+| Anti Magic Ward |        4         |     25sc gemstone     |          1           |         2B/1T         |                                                                                                                           Once placed, the next spell to target a creature or point within 2 tiles of this ward removes 3 criticals from their spellcasting roll. |
+| Sleeping        |        4         |           -           |          2           |         1B/2T         | Once placed, the next time a creature enters its tile roll 5 superior dice. The creature falls asleep if the total successes is greater or equal to their current wounds. The creature wakes up after taking damage or another creature spends 5 AP to wake them. |
+
+### Magic Items
 
 Magic items give a variety of effects and bonuses. Only some magic items require attunement, and each character can only attune with 3 magic items at a time. While you can carry multiple magic items of the same type, you can only get the benefit of one of them. For example, you cannot get the benefit of a _Cloak of Shadows_ as well as a _Cloak of Water breathing_.
 
-### Attunement
+#### Attunement
 
 Some powerful magic items require attunement to use. To attune to a magic item you must spend 10 minutes focusing on it, and can be done during a short or long rest without interrupting the rest. If you are already attuned to 3 magic items you must choose which item to lose attunement to when attuning to a new item.
 
-### Magic Gear
+#### Magic Gear
 
 Magic weapons and armor can come with bonus modifiers from +1 to +3. When making an attack roll with a magic weapon you add superior dice to the roll equal to its bonus modifier. For magic armor you add superior dice to your defense roll equal to its bonus modifer instead. Shields do not have bonus modifiers, but can have additional effects.
 
-### Identifying Magic Items
+#### Identifying Magic Items
 
 Magic items can be identified by a successful lore challenge. Each character can only attempt a lore roll once, if you fail then you must either cast _Identify_ on the item or take it to someone who can appraise it.
 
 You can still use magic items without identifying them, but its bonuses will be unknown to you. If the item requires attunement you only benefit from its bonus modifiers unless stated otherwise.
 
-### Cursed Items
+#### Cursed Items
 
 Some magic items may be cursed, giving its holder a permanent, detrimental effect. There are many ways a cursed item can inflict its curse. Some may happen immediately after attuning to the item, some after a specific trigger, and some can curse just by touching the item. The effects of a curse are unique to the magic item and unless otherwise stated last even if you're no longer attuned to the item.
 
 Curses can be removed by successfully casting _Break Curse_ against a level given in the curses description. The spell automatically fails if you still meet the requirements for gaining the curse. For example, a curse that is granted by attuning to the item cannot be removed while you are still attuned to the item.
 
-### Gaining Attributes through Items
+#### Gaining Attributes through Items
 
 Some magic items grant bonuses to your attributes. While there is no limit on how much this can increase an attribute, you cannot benefit from two items that give bonuses to the same attribute, instead taking only the larger one.
 
 For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 Dexterity. You still benefit from the remaining bonuses on those items.
 
-## Species
+## Optional Rules
+
+### Variant Spellcasting and Misfires
+These rules can create powerful spellcasters and exciting scenarios, but as a GM can be difficult to balance.
+
+#### Attribute Based Spell Levels
+
+With this rule, instead of your spell level being determined by your level it is determined by your attribute for a given spell school. Your max spell level for arcane spells is based on your Intelligence, occult spells based on your Willpower, and divine spells based on your Charisma. This means an exceptionally intelligent caster could cast high level spells at an early level- if they have the mana and spell prepared.
+
+Your max spell level is determined on the chart below:
+
+| Attribute Score | Spell Level |
+| :-------------: | :---------: |
+|    0 or Less    |   Cantrip   |
+|        1        |     1st     |
+|        2        |     2nd     |
+|        3        |   3rd-4th   |
+|        4        |   5th-6th   |
+|        5        |   7th-8th   |
+|       6+        |  9th-10th   |
+
+#### Misfires
+
+While anyone can cast any spell, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a spell, you add 1 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
+
+##### Ability Ranks
+| Attribute Score | Spell Levels |
+| :-------------: | :----------- |
+|        1        | 1st          |
+|        2        | 2nd          |
+|        3        | 3rd-4th      |
+|        4        | 5th-6th      |
+|        5        | 7th-8th      |
+|       6+        | 9th-10th     |
+
+
+##### Misfire Chart
+
+Roll 2 bad dice, counting the successes.
+
+| Roll  | Misfire                                                                                                                               |
+| :---: | :------------------------------------------------------------------------------------------------------------------------------------ |
+|  -4   | Minor injury: Mana leak. Every time you take at least 1 wound you lose 2 mana.                                                        |
+|  -3   | Your spell backfires, roll a wound die for every remaining failure from your spellcasting roll, taking damage for every wound rolled. |
+|  -2   | Wild magic fills the area around you, you and all creatures within 3 tiles add 1 terrible die to their next roll.                     |
+|  -1   | Your flow of magic is interrupted. You add 1 terrible die to all spellcasting rolls for the next minute                               |
+|   0   | Minor backlash. You take 1 wound die of Force damage                                                                                  |
+
+### Large Battles and Minions
+Fighting hordes of monsters can make for a thrilling and challenging battle. For example, the players may be exploring a cave network deep underground when they hear the skittering sound of ratlings in the dark. Suddenly, hordes of ratlings burst out of the shadows, crude weapons drawn, descending on the party from all sides. The ratlings are weak, but make up for it with overwhelming numbers, backing the players into a corner.
+
+An exciting encounter... or would be. While the rules make for great combat, it begins to slow down when there are 3-4 monsters for every player. Rolling multiple attacks against a player, especially from weaker but numerous monsters where only a handful of attacks will hit, can grind the action down to a slog. To prevent the slog we've included these optional rules for large packs of monsters: the Swarm Template and Minions.
+
+#### Swarm Template
+This template is best used when you want to throw a horde of weaker, less complicated monsters at a party. For example, a horde of Zombies, Goblins, or Bandits. Swarms combine 4-8 identical monsters into a single unit that becomes weaker the more damage it takes. To create a swarm, take any monster stat block and add the following features.
+
+##### Swarm Tactics
+This creature has twice as many wounds. This creature can occupy enemy tiles with enemy creatures, but cannot move through them. This creature is immune to conditions that come from single target attacks or spells.
+
+##### Swarm Fighting
+This creature adds a success to all attack and maneuver rolls for every quarter of health remaining, rounding up. When making single target attacks or spells, the attack targets an additional creature in range.
+
+##### Swarm Resistance
+Damage from single target attacks, maneuvers, or spells deal half damage, rounded down, with a minimum of 1. While above half health they have expertise in attribute saves.
+
+#### Minions
+Minions are weaker, streamlined variants of a monster. Minion stat blocks are identical to the base creature, giving them 1-3 max wounds instead of their normal health. Minions of the same type are grouped together, rolling a single initiative and acting at the same time. Minions only take 2 actions during their turn regardless of AP, and may only take a single reaction. When a minion makes an attack you add 1 success for every other minion of the same type capable of making that attack against the target creature, spending 1 action for all participating minions.
+
+For example, lets say a party is fighting a group of 6 Skeleton minions. On the skeletons turn they all act together. 3 Skeletons surround one party member and attack that character. You make a single skeleton attack, adding 2 successes to the roll. This spends an action on all 3 skeletons, leaving them with 1 action remaining. They attack again, making the same roll and adding 2 successes.
+
+The remaining 3 skeletons are further away and spend 1 action moving into range of another player, using their last action to attack. On the players turn they attempt to flee from the skeletons, provoking an opportunity attack. The 3 skeletons all spend their reaction making an opportunity attack, rolling a single attack roll and adding 2 succeses.
+
+### Animal Companions
+Beasts and creatures with -1 or less Intelligence can become animal companions. Finding an animal companion can be challenging, often becoming an adventure on its own. Under normal circumstances a beast is only eligable to become a companion if it meets these conditions:
+
+- They are young or a newborn.
+- They are not hostile.
+- They have an Intelligence score of -1 or less
+
+A character can attempt to befriend the animal by making a nature check against a challenge determined by the GM. On success you befriend the animal and they become your companion. New animal companions are untrained. They will follow you, but will not obey any commands or participate in combat. By default a character can only have a single animal companion, however this can be changed with feats.
+
+#### Intelligent Companions
+In some circumstances your GM may allow you to befriend creatures that do not meet the conditions above. In these circumstances you make either a Nature or Conversation check, GM's choice, with the GM determining the challenge. On success they become your companion as normal, however intelligent creatures may obey your commands without training. These companions still require training to effectively fight along side you. Any untrained companion that enters combat is controlled by your GM and acts independently.
+
+#### Training
+Companions can be trained to fight and obey your commands. You may train your companion as a downtime action or during a long rest as long as you take no other actions. For every 7 days spent training you make a nature roll against a terrible die, adding a bad die for every 5 CR the creature has. After 3 successes you bond with your companion, allowing them to fight and be given commands.
+
+Trained creatures gain 1 proficiency to attacks and 2 proficiency to attribute saves. Their max wounds increases based on your level, gaining an extra wound at levels 7, 14, 21, and 28.
+
+#### Fighting Companions
+Animal companions take their actions during your turn. Each turn they may move, sprint, and make a single basic attack with you controlling their actions.
+
+While fighting companions have been trained for combat, they are still animals. While your companion is not at full health you make a nature check at the start of each of your turns. The challenge for this roll is a terrible die, adding a bad die for each adjacent enemy. If the companion is below half health, rounded down, add terrible dice instead. On fail the companion turns feral, spending its turn attacking a random creature in range. If there is no creature in range it moves towards the closest creature and attacks.
+
+#### Advanced Training
+Completing an adventure or gaining a level with a companion increases your bond with them, making them more effective in combat. For each adventure completed or level gained you may choose one of the following benefits:
+
+- They make two basic attacks each turn instead of one.
+- They learn an attack or maneuver shown on the creatures stat block. You may use this attack or maneuver in place of basic attacks.
+- They gain 2 proficiency points.
+
+#### Companion Equipment
+Trained companions can be given specially made armor and weapons to aid them in combat. Animal equipment can be enchanted, following the same rules as enchanting character equipment. Animal armor replaces one of their normal defense dice with a superior defense die and animal weapons replace a wound die with a wound for all of their attacks and maneuvers. Animal equipment is expensive, usually requiring a blacksmith to custom fit them to your companion.
+
+| Equipment | Cost (Medium) | Cost (Large) |
+| :-------: | :-----------: | :----------: |
+|   Armor   |      2pt      |     5pt      |
+|  Weapons  |      1pt      |  2pt, 50sc   |
+
+## Running the Game
+
+So far the past 40 pages have been about rules, covering everything from creating characters, their abilities, engaging in combat, and everything inbetween. Normally, this would be the point you can stop reading the rules and jump into your first game, and if you are seasoned table top player this is probably true. However, while you've read plenty of rules there isn't much here on actually running a game. 
+
+If you read the section _What is Farhome?_ it talks about exploring dungeons, encountering dangerous and strange monsters, and thwarting evil villains. While all of this is possible, nothing you've read so far tells you exactly _how_ to do that. You have rules on how to interact with a fantasy world, but before you do that you need a fantasy world to interact with. This is where the Game Master, or GM, comes in. The GM is a player that, instead of playing a character, plays everything that is _not_ a character. They create a world for the players to explore, and then they act as the medium the players use to interact with that world.
+
+This section covers running the game from the Game Master's point of view, and isn't very applicable to players. That being said, there aren't many hard and fast rules ahead. There are many different ways to run a game, or be a Game Master, and you won't find a particular style or method of playing in this chapter. Instead, it will cover the more practical aspects you'll need to be able to start a game: A world to play in, an adventure to venture through, and a baseline for creating encounters in Farhome.
+
+### Playing the Game: Part II
+
+It may sound daunting to be a Game Master, after all a world is a big thing to build before you can even play the game. Thankfully we can use some movie magic to simplify things and focus on the details that matter. A movie set in space won't build and launch a space shuttle to film in space, instead they'll build a handful of sets to film on. Likewise, you don't have to build an entire world to run a game. All you need are the pieces the players will interact with, the handful of sets that encapsulate the adventure.
+
+This can be, and often is, as simple as a village and a dungeon to explore. Sure the village may belong to a nation, and that nation belongs to a world, but those don't need to be anything more than names at this point. The players are focused on this village, and subsequently the nearby dungeon. You might not even need a whole town, merely the places the players are likely to visit: a shop, a tavern, the mayors house, or a blacksmith. What exactly you need to prepare, or what details are relevant depends on two things: the adventure you are guiding the players through, which we will go into later, and the particular group of aventurers in your group.
+
+### The Adventuring Party
+
+### Anatomy of an Adventure
+
+### Building Encounters
+
+### Running Combat
+
+### Non-combat Encounters
+
+## World of Farhome
+
+### History
+- Time of angels: gods live alongside mortals, the Fallen empire, tlani serve the betrayer gods. Ends with war between gods, the god hunters
+- Cataclysm: A great cataclysm befalls the Fallen empire, the gods are killed or sealed away, the rise of the elves.
+- The Forest of Time: a long period where elves spread and were the dominant species. Great works of magic, ivory spires, vibrant forests, and minor calamities. Eventually the magic of the elves begins to fade, leading to the Zoranth Empire
+- The Zoranth Empire: A collection of human settlements and kingdoms, united under one rule. Expanding across world, first mentions of ascended. Ends with a battle between ascended, the noble class is torn apart and the rulers die. Zoranth empire splits into minor nations.
+- The Golden Empire: A few hundred years after the Zoranth Empire, a human nation begins to expand, starting the Golden Empire. The Golden Empire succeeds in taking over the majority of the continent, leaving the Far Wilds.
+
+### Languages
+
+#### Spoken Languages
+
+##### Common
+- Common language understood by most speicies in Farhome. Its use is so ubiquitous across human nations that the original human language is no longer spoken.
+
+##### Elvish
+- split into 3 categories, High Elf, Wood Elf, Star Elf. High elven and star elven are nearly identical, closer to accents. Wood elven is almost its own language (Valanth).
+
+##### Dwarven
+- two variants, high and low dwarvish. Languages are similar, difference in regalness. Low dwarvish is the language of nobility, high dwarvish is more common.
+
+##### Green Tongue
+- otherwise known as orcish, or Kol'Dak in native tongue, used by most goblins, orcs, and creatures they commonly interact with. Tlani speak an old variant of green tongue (Quel'ilan) with very little overlap with modern orcish.
+
+##### Lizan
+- langauge shared by lizardfolk, drakes, kobolds, and a handful of swamp living creatures. While the core language is similar across all species, each race has their own words and phrases that differ.
+
+##### Sylvani
+- Used by fey creatures, has an enchanting flow that is easy to get lost in, especially when singing. You have expertise with performance checks when singing Sylvani, and humanoid species that listen are much less likely to pay attention to anyone but you.
+
+##### Druidic
+- language of the druids. Druidic can be understood to an extent by animals. While animals cannot speak it themselves, conversation or nature checks with animals when speaking druidic have expertise.
+
+##### Draconic
+- language of dragons, it's nearly impossible for non-dragon species to speak, at least fluently. Draconic words reverberate across the divine weave, making it particularly dangerous for those not fluent in it to speak. Draconic has been known to start small fires, freeze water, and dispell enchantments. Wizards fluent in draconic can use it to channel the elements when casting spells. Spells that deal elemental damage can be prepared and cast in draconic, allowing you to reroll a die in the spellcasting roll. Draconic spells are even more difficult to prepare than normal spells, taking 2 spell slots for every Draconic spell prepared.
+
+##### Celestial
+- language of spirits, angels, and divine beings
+
+##### Hadal
+- language of demons
+
+#### Written Languages
+
+##### Runic
+- all spells are written in runic. Runic is a magically charged writing and can be understood by those with a good sense for magic. Reading runic requires a successful arcana check. The difficulty varies wildly based on the writer, some people's runic is universal, easily understood by anyone. Others are so cryptic that only very talented wizards can decypher them. A person can always read their own runic.
+
+##### Signoric
+- A shorthand developed by thieves, spies, and scribes to quickly write down a conversation in the shortest time. Signoric is written with sounds rather than words, meaning it can be used to write any spoken language. The difficulty comes with decoding Signoric as it lacks proper punctuation.
+
+### Species
 
 ### Elves
 
@@ -1006,6 +1654,7 @@ It is rumored that high elves are descended from the fae, a group of magical and
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Strength
+- **Languages:** Common, Elvish
 - **Lifespan:** 350 years
 
 ##### Innate Magic
@@ -1022,11 +1671,12 @@ Due to their fierce dedication to their homeland, wood elves tend to be mistrust
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Willpower, -1 Intelligence
+- **Languages:** Common, Elvish (Valanth)
 - **Lifespan:** 250 years
 
-##### Forest Warrior
+##### Martial Culture
 
-You gain 1 proficiency with either a bow or a spear, and gain a maneuver that uses that weapon.
+You gain 1 proficiency in a skill of your choice when learning a maneuver. You start with a level 1 maneuver of your choice.
   
 #### Star Elf
 
@@ -1038,6 +1688,7 @@ They are among the tallest species, averaging 7 feet tall, and also the rarest. 
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 Dexterity, +1 Charisma, -1 Stamina
+- **Languages:** Common, Elvish
 - **Lifespan:** 700 years
 
 ##### Focused Resolve
@@ -1058,11 +1709,12 @@ Half orcs stand between 6 and 7 feet. They tend to have strong, wide jaws with s
 - **Starting Wounds:** 4
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Charisma
+- **Languages:** Common, Green Tongue
 - **Lifespan:** 100 years
 
 ##### Resilience
 
-When making death saving throws you may reroll the die, taking the new result. If you pass 3 rounds in a row without failing a death save you become stabilized.
+Once per rest, you may add 3 successes to a Strength, Dexterity, or Stamina save.
 
 #### Tlani
 
@@ -1074,9 +1726,10 @@ Due to their small stature, beast-like appearance and affinity for darkness they
 - **Starting Wounds:** 2
 - **Move/Sprint:** 4/3
 - **Attribute Bonuses:** +1 Dexterity, +1 Intelligence, -1 Strength
+- **Languages:** Common, Green Tongue (Quel'ilan)
 - **Lifespan:** 180 years
 
-##### Occult Blood
+##### Night Dwellers
 
 Your eyes are well adjusted to the dark. You treat dim light as bright light and darkness as dim light within 20 tiles. You add a superior die when making stealth rolls in dim light or darkness.
 
@@ -1094,11 +1747,12 @@ While at times they can be mistaken for humans, all fallen are born with horns. 
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 Charisma, +1 Strength, -1 Willpower
+- **Languages:** Common, Green Tongue (Quel'ilan)
 - **Lifespan:** 150 years
 
 ##### Beast Sight
 
-You take no penalties when in dim light, and only add 1 bad die in total darkness. You may reroll 1 die when rolling Charisma skills and saves.
+ You treat dim light as bright light and darkness as dim light within 20 tiles. You may reroll 1 die when rolling Charisma skills and saves.
 
 #### Human
 
@@ -1108,6 +1762,7 @@ Out of all the common species, humans are by far the most numerous. While humans
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/2
 - **Attribute Bonuses:** +1 to Any
+- **Languages:** Common
 - **Lifespan:** 70 years
 
 ##### Adaptable
@@ -1124,11 +1779,12 @@ Sylvan are short compared to most, standing 3 and a half to 4 feet tall. Sylvan 
 - **Starting Wounds:** 3
 - **Move/Sprint:** 4/3
 - **Attribute Bonuses:** +1 Intelligence, +1 Charisma, -1 Strength
+- **Languages:** Common, Sylvani
 - **Lifespan:** 120 years
 
-##### Innate Healing
+##### Fey Blood
 
-During a short or long rest you restore 1 extra wound. When rolling your first healing surge of a rest you reroll all blank dice.
+During a short or long rest you restore 1 extra wound. You have expertise in conversation or nature checks when talking to Beasts, Fey, or Celestials.
 
 #### Half-Elf
 
@@ -1140,11 +1796,12 @@ Half elves are similar in height to humans, averaging between 5 and 6 feet. Like
 - **Starting Wounds:** 3
 - **Move/Sprint:** 5/2
 - **Attribute Bonuses:** +1 to Dexterity
+- **Languages:** Common, Elvish
 - **Lifespan:** 200 years
 
-##### Innate Reflexes
+##### Elven Heritage
 
-You have expertise in an attribute save.
+You gain the species feat from one of the Elven species.
 
 
 ### Dwarf
@@ -1195,9 +1852,9 @@ Lizardfolk tower over others, with some standing 7 and a half feet tall. With th
 - **Attribute Bonuses:** +1 Strength, +1 Stamina, -1 Intelligence
 - **Lifespan:** 60 years
 
-##### Claw and Fang
+##### Regeneration
 
-You have 1 proficiency with unarmed weapons and deal an extra wound die when making unarmed attacks.
+You recover from a mundane minor injury after a short rest. Major injuries that aren't caused by magic or disease are cured after a week.
 
 #### Drake
 
@@ -1215,114 +1872,3791 @@ Drakes are smaller than lizardfolk, standing 5 and a half feet at most. Their bo
 
 You can maintain flight for a limited time. On your turn, you may take flight using your movement. If you fly this way you must touch the ground by the end of your next turn or plummet from the sky. You cannot fly again until the start of your next turn.
 
-# Optional Rules
+### The Empire
 
-## Variant Spellcasting and Misfires
-These rules can create powerful spellcasters and exciting scenarios, but as a GM can be difficult to balance.
+### Far Wilds
 
-### Attribute Based Spell Levels
+### The Realms of Creation
 
-With this rule, instead of your spell level being determined by your level it is determined by your attribute for a given spell school. Your max spell level for arcane spells is based on your Intelligence, occult spells based on your Willpower, and divine spells based on your Charisma. This means an exceptionally intelligent caster could cast high level spells at an early level- if they have the mana and spell prepared.
+### Saints and the Divines
 
-Your max spell level is determined on the chart below:
+- The world is filled with the divine weave, a force that gives magic/soul to all things.
+- Gods are born from the divine weave, are physical manifestations of different parts of the weave
+- Gods cannot die, when their physical body is destroyed their essence returns to the weave. Difference between living and dead gods is similar to consciousness and unconsciousness, dead gods power can still be used, felt, but is indirect or without intent.
 
-| Attribute Score | Spell Level |
-|:----:|:----:|
-| 0 or Less  | Cantrip |
-| 1  | 1st |
-| 2  | 2nd |
-| 3  | 3rd-4th |
-| 4  | 5th-6th |
-| 5  | 7th-8th |
-| 6+  | 9th-10th |
+#### The 8 Pillars of Creation
+- the main gods, also called the pillars of creation, are said to have created the world when they coalesced from the divine weave for the first time.
+- larger than the regional deities, the pillars of creation cover entire concepts.
+- Even though these gods are dead, they're so influential and powerful that their will is still felt through the weave.
 
-### Misfires
+##### Astra, God of Magic and Mysteries
 
-While anyone can cast any spell, trying to cast a spell beyond your abilities can lead to a misfire. When casting a spell beyond your ability, either normally or through upcasting a spell, you add 1 terrible die to the spellcasting roll for every rank beyond your ability. If you do not have any remaining successes before contesting with another roll the spell misfires. Roll on the misfire chart to determine the effect.
+##### Cham, God of Death
 
-##### Ability Ranks
-| Attribute Score | Spell Levels |
-|:----:|:-------------|
-| 1  | 1st |
-| 2  | 2nd |
-| 3  | 3rd-4th |
-| 4  | 5th-6th |
-| 5  | 7th-8th |
-| 6+  | 9th-10th |
+##### Ghast, God of Chaos and Ruin
+
+##### Ingram, God of Life and Growth
+
+##### Kella, God of Civilization and Knowledge
+
+##### Myrah, God of Battle and Conquest
+
+##### Thalia, God of Nature
+
+##### Zymesh, God of Lies
+
+#### Elder Gods
+- Gods that were seen as too dangerous. The Elder gods were sealed away in realms outside of the mortal plane.
+- Killing them would return them to the divine weave, potentially letting them corrupt creation even while dead.
+
+##### Ord, God of Thoughts and Insanity
+
+##### Ix Chel, God of Truth and Dispair
+
+##### Umbra, God of Shadows and Silence
+
+##### Molak, God of the Unknown and Sacrifice
+
+#### Lesser Gods
+- With the absence of the prime gods, minor gods spring up covering local areas or subsets of the prime gods power. For example a god of the forest, lake or cave, a god of disease or decay instead of death, etc. the more powerful the god the larger area/influence it has.
+
+#### Saints
+- Saints are humans imbued with a divine soul, a piece of one of the gods lives in their souls. Saints gain powers from the god their borne from, and may not always have their own will. As saints contain a piece of the divine, they could be used to revive a dead god, sometimes against their will.
+- When a saint dies, their soul returns to the divine weave and is absorbed by the gods. In most cases saints cannot be revived, and if someone does manage this difficult feat the saint loses their divine power.
+
+### Powerful Beings
+
+## Bestiary of Monsters
+
+### Monster Level
+Each monster is given a Monster Level or Challenge, denoted with a C, that gives a rough estimate of the danger a monster poses to the party. Monster level is comparable to a characters level. For example, a monster with a monster level of 5 should be an average challenge to a 5th level character. When building encounters a good estimate of difficulty is comparing the sum level of all monsters and the sum level of the party.
+
+### Reading a Monster's Stat Block
+The monsters in this book are arranged into condensed stat sheets. These stat sheets, or statblocks, have all the information you need to run the monster in combat. Lets take a look at the first monster in this book: the wolf.
+
+#### Wolf
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    2 | **Challenge:** |      1 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/1  |  2/2  |  1/1  | -2/0  |  0/0  |  0/0  |
+
+___
+***Pack-Tactics.*** This creature has Combat Advantage when attacking a creature that is adjacent to an ally.
+
+**Actions**
+
+***Bite.*** *Melee Attack:* 5 AP,  **2/0/3/0/0** _(Dex)_ - On hit deals 1/1 in piercing damage.
+
+***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, **2/0/4/0/0** _(Dex)_ - The wolf leaps up to 2 tiles, ending in a tile adjacent to the target creature. The creature makes a Defense or Dexterity save, taking 1/1 in piercing damage on fail, being knocked prone on a critical.
+___
+
+As you can see there is quite a bit going on here. The statblock is broken down into 4 parts: general stats, attribute scores, feats and abilities, and actions and maneuvers.
+
+#### General Stats
+This section goes over all the miscellaneous statistics that don't fit into another category, such as how hard the monster is to hit, how many wounds it has, and how challenging the monster is to the party. The 6 statistics listed here are:
+
+- **Defense:** The dice to roll when making a defense save, the first number being Superior Defense and the second being Defense dice.
+- **Wounds:** The max wounds of the monster.
+- **Move/Sprint:** The monster's move and sprint speed, in tiles.
+- **AP:** How many action points this monster has per turn.
+- **Challenge:** A rough estimate of this monster's challenge.
+- **Size:** How large the monster is, determining how many tiles this monster occupies.
+
+#### Attribute Scores
+Next is the monster's attribute scores. The scores are arranged into an array with each attribute having two numbers: the first being the attribute score, with the second being the proficiency score for that attributes saving throw and skills. For similicities sake, monsters do not use the same method for determining their saving throw proficiency. Instead they use the proficiency score for that particular attribute. The proficiency score also determines their proficiency with skills related to that attribute. For example, the Wolf has a Dexterity score of 2 with a proficiency score of 2. They have 2 proficiency when making Dexterity saves, and 2 proficiency with their acrobatics and stealth skills.
+
+#### Feats and Abilities
+The next section contains the monsters feats and abilities. The Wolf in our example has _Pact Tactics_ which gives them combat advantage when their target is adjacent to an ally. These effects are almost always passive, describing some permanent effect or skill the monster possesses.
+
+#### Actions and Maneuvers
+The final section describes any special actions or maneuvers a monster can make. Like players, monsters can take all the default actions laid out in the Combat section, such as Move, Sprint, and Use actions. This section will always contain at least one action that replaces the monster's default attack.
+
+Actions in this section follow a standard structure containing everything you need to use the attack. Lets break down the Wolf's _Leap_ action in the example above:
+
+- "***Bite.***" - The name of the action.
+- "*Melee Attack, Maneuver:*" - This describes the type of action. In this case it is a melee attack and a maneuver which means it follows the normal rules for maneuvers. This will usually say melee or ranged attack, but im some cases monsters may have special attacks. Special attacks are unique actions that are neither melee or ranged and disregard any rules that would normally govern those attacks.
+- "7 AP" - This is the AP cost of the action, but does not take into account effects from the Feats and Abilities section.
+- "Range 2" - This section lists all terms that are applicable to the attack, if any. In this case the maneuver has a Range of 2, meaning the wolf can take this action from 2 tiles away. Range does not always mean the attack is ranged, as is the case with the wolf. This can include any term usually listed on a weapon, such as Reach, Loading, or Versatile.
+- "**2/0/4/0/0** _(Dex)_" - The dice array used in the attack or ability roll for the action. Dice rolls for monsters are precomputed, meaning you don't need to worry about their attribute or proficiency scores, or any dice added from maneuvers, as is the case in this example. The attribute this roll is based on is listed after the dice array. The dice here are listed from strongest to weakest dice: Superior, Enhanced, Normal, Bad, Terrible. In our example the wolf rolls 2 Superior and 4 Normal dice with this action.
+- The remainder of the action explains the effects of the action itself, such as the type and amount of damage dealt on hit, or what roll the target needs to make. If no roll is shown it is assumed the target makes a defense roll. In this example the wolf may move up to 2 tiles attacking a creature, the creature makes a Dexterity save or Defense roll against the attack, the attack deals 1 wound and 1 wound die (shown as 1/1) in piercing damage, and knocks the target prone on a critical. 
+
+### Types of Monsters
+
+##### Beasts
+- beasts cover all manner of natural animal
+- some beasts are highly intelligent
+- all animals found in the natural world fall under this category, even if they are incredibly strange or odd.
+
+##### Celestials
+- Celestials are spirits and divine beings, such as angels and gods
+- often confused with ghosts, spirits are born from the lands around them or form from the divine weave
+
+##### Constructs
+- Constructs contain all creatures devoid of life, such as automatons or golems.
+- Constructs are almost always powered through some kind of magic.
+- Their lack of a mind or soul makes them immune to most charms or physchic effects
+
+##### Demons
+- Demons are all creatures from the realms of hell
+- Unlike most creatures, there is no separation between their body and soul
+- When a demon dies, their essence is returned to the realms of hell where it eventually reforms into a new demon
+
+##### Dragons
+
+##### Elementals
+
+##### Fey
+
+##### Giants
+
+##### Monstrosities
+
+##### Mortals
+
+##### Outsiders
+
+##### Undead
+
+### Creating Your Own Monsters
+
+### Monsters By Type
+
+#### Beasts
+
+#### Wolf
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    2 | **Challenge:** |      1 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/1  |  2/2  |  1/1  | -2/0  |  0/0  |  0/0  |
+
+___
+***Pack-Tactics.*** This creature has Combat Advantage when attacking a creature that is adjacent to an ally.
+
+**Actions**
+
+***Bite.*** *Melee Attack:* 5 AP, 2/0/3/0/0 - On hit deals 1/1 in piercing damage.
+
+***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 2/0/4/0/0 - The wolf leaps up to 2 tiles, ending in a tile adjacent to a creature and attacks them. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
+___
+
+#### Bear
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/2 | **AP:**        |     10 |
+ | **Wounds:**      |    5 | **Challenge:** |      2 |
+ | **Move/Sprint:** |  3/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/2  | -1/0  |  3/2  | -2/0  |  1/0  |  0/0  |
+
+___
+
+**Actions**
+
+***Claw.*** *Melee Attack:* 5 AP, 2/1/2/0/0 - On hit deals 1/2 in slashing damage.
+
+***Bite.*** *Melee Attack, Once per turn:* 5 AP, 2/1/3/0/0 - On hit deals 1/1 in piercing damage, adding 0/2 on a critical.
+___
+
+#### Boar
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    4 | **Challenge:** |      2 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/2  |  1/0  |  2/1  | -2/0  |  1/0  |  0/0  |
+
+___
+***Charge.*** This creature deals an extra wound die in damage if they move at least 2 tiles before attacking.
+
+**Actions**
+
+***Tusks.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - On hit deals 1/0 in piercing damage.
+
+***Gore.*** *Melee Attack, Maneuver:* 5 AP, Range 2, 1/1/4/0/0 - The boar charges towards a creature, ending in a tile within range adjacent to the target creature. The creature makes a Defense or Dexterity save. On hit they take 1/1 in piercing damage, being knocked prone on a critical.
+___
 
 
-##### Misfire Chart
+#### Vargr
+Living in the ancient forests and snow covered plains of the north, vargr are huge wolves, standing nearly as tall as a horse. Vargr behave like their smaller cousins, being territorial beasts that hunt in packs.
 
-Roll 2 bad dice, counting the successes.
+A vargr's sense of smell, especially the smell of blood, is extremely sensitive. Few creatures can escape a pack of Vargrs that catch their scent. A clever creature may appeal to the vargr's appetite. Vargrs will cease the hunt if there is easier food to catch, only continuing once there is no more food to eat.
 
-| Roll | Misfire |
-|:----:|:-------------|
-| -4  | Minor injury: Mana leak. Every time you take at least 1 wound you lose 2 mana. |
-| -3 | Your spell backfires, roll a wound die for every remaining failure from your spellcasting roll, taking damage for every wound rolled. |
-| -2 | Wild magic fills the area around you, you and all creatures within 3 tiles add 1 terrible die to their next roll. |
-| -1 | Your flow of magic is interrupted. You add 1 terrible die to all spellcasting rolls for the next minute |
-| 0 | Minor backlash. You take 1 wound die of Force damage |
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     11 |
+ | **Wounds:**      |    4 | **Challenge:** |      6 |
+ | **Move/Sprint:** |  4/6 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/2  |  4/2  |  1/0  | -2/0  |  2/1  | -2/0  |
 
-## Large Battles and Minions
-Fighting hordes of monsters can make for a thrilling and challenging battle. For example, the players may be exploring a cave network deep underground when they hear the skittering sound of ratlings in the dark. Suddenly, hordes of ratlings burst out of the shadows, crude weapons drawn, descending on the party from all sides. The ratlings are weak, but make up for it with overwhelming numbers, backing the players into a corner.
+___
+***Pack-Tactics.*** This creature has Combat Advantage when attacking a creature that is adjacent to an ally.
 
-An exciting encounter... or would be. While the rules make for great combat, it begins to slow down when there are 3-4 monsters for every player. Rolling multiple attacks against a player, especially from weaker but numerous monsters where only a handful of attacks will hit, can grind the action down to a slog. To prevent the slog we've included these optional rules for large packs of monsters: the Swarm Template and Minions.
+***Blood Hunter.*** This creature has a keen sense of smell, being able to track injured creatures up to 1 mile away.
 
-### Swarm Template
-This template is best used when you want to throw a horde of weaker, less complicated monsters at a party. For example, a horde of Zombies, Goblins, or Bandits. Swarms combine 4-8 identical monsters into a single unit that becomes weaker the more damage it takes. To create a swarm, take any monster stat block and add the following features.
+**Actions**
 
-##### Swarm Tactics
-This creature has twice as many wounds. This creature can occupy enemy tiles with enemy creatures, but cannot move through them. This creature is immune to conditions that come from single target attacks or spells.
+***Bite.*** *Melee Attack:* 4 AP, 3/1/1/0/0 - On hit deals 1/2 in piercing damage.
 
-##### Swarm Fighting
-This creature adds a success to all attack and maneuver rolls for every quarter of health remaining, rounding up. When making single target attacks or spells, the attack targets an additional creature in range.
+***Leap.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 3/1/2/0/0 - The wolf leaps up to 2 tiles, ending in a tile adjacent to a creature and attacks them. The creature makes a Defense or Dexterity save. On hit they take 2/1 in piercing damage, being knocked prone on a critical.
 
-##### Swarm Resistance
-Damage from single target attacks, maneuvers, or spells deal half damage, rounded down, with a minimum of 1. While above half health they have expertise in attribute saves.
+***Howl.*** *Special, Maneuver:* 4 AP, Range 3, 2/0/3/0/0 - Lets out a bone chilling howl targeting all enemy creatures in range. Creatures make a Willpower save against this roll. On fail they gain Fear until the end of their next turn with the Vargr as the source. A creature that succeeds against this is immune to _Howl_ for the next 24 hours.
+___
 
-### Minions
-Minions are weaker, streamlined variants of a monster. Minion stat blocks are identical to the base creature, giving them 1-3 max wounds instead of their normal health. Minions of the same type are grouped together, rolling a single initiative and acting at the same time. Minions only take 2 actions during their turn regardless of AP, and may only take a single reaction. When a minion makes an attack you add 1 success for every other minion of the same type capable of making that attack against the target creature, spending 1 action for all participating minions.
+#### Cinderbug Swarm
+A seemingly benign beetle, cinderbugs burrow into dried out or dead trees to make their nests. A single tree can hold hundreds of hibernating cinderbugs, waiting for the right conditions. Should the tree catch fire the cinderbugs awaken, igniting themselves in the fire, taking flight as a burning swarm.
 
-For example, lets say a party is fighting a group of 6 Skeleton minions. On the skeletons turn they all act together. 3 Skeletons surround one party member and attack that character. You make a single skeleton attack, adding 2 successes to the roll. This spends an action on all 3 skeletons, leaving them with 1 action remaining. They attack again, making the same roll and adding 2 successes.
+While the cinderbugs will eventually burn themselves out, cinderbug swarms can last for hours, spreading fire from tree to tree and burning any creatures that happen to be in their way. Cinderbugs lay their eggs in the hot ash left behind in their wake.
 
-The remaining 3 skeletons are further away and spend 1 action moving into range of another player, using their last action to attack. On the players turn they attempt to flee from the skeletons, provoking an opportunity attack. The 3 skeletons all spend their reaction making an opportunity attack, rolling a single attack roll and adding 2 succeses.
+Adventurers that don't carefully examine the wood they use for their fires may inadvertently set off a swarm in the middle of their campsite. While the swarm doesn't actively seek out creatures to ignite, they will swarm around creatures that attempt to harm or otherwise put out their fires.
 
-## Animal Companions
-Beasts and creatures with -1 or less Intelligence can become animal companions. Finding an animal companion can be challenging, often becoming an adventure on its own. Under normal circumstances a beast is only eligable to become a companion if it meets these conditions:
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/4 | **AP:**        |    10 |
+ | **Wounds:**      |    8 | **Challenge:** |     7 |
+ | **Move/Sprint:** |  4/6 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  4/4  |  1/0  | -2/0  | -1/0  |  0/0  |
 
-- They are young or a newborn.
-- They are not hostile.
-- They have an Intelligence score of -1 or less
+___
+***Swarm.*** This creature takes at most 1 wound from single target attacks and spells and is immune to conditions from those attacks. This creature can occupy the same tiles as other creatures, treating those tiles as difficult terrain.
 
-A character can attempt to befriend the animal by making a nature check against a challenge determined by the GM. On success you befriend the animal and they become your companion. New animal companions are untrained. They will follow you, but will not obey any commands or participate in combat. By default a character can only have a single animal companion, however this can be changed with feats.
+***Fire Resistance.*** This creature has _Resistance_ 1 to fire damage.
 
-### Intelligent Companions
-In some circumstances your GM may allow you to befriend creatures that do not meet the conditions above. In these circumstances you make either a Nature or Conversation check, GM's choice, with the GM determining the challenge. On success they become your companion as normal, however intelligent creatures may obey your commands without training. These companions still require training to effectively fight along side you. Any untrained companion that enters combat is controlled by your GM and acts independently.
+**Actions**
 
-### Training
-Companions can be trained to fight and obey your commands. You may train your companion as a downtime action or during a long rest as long as you take no other actions. For every 7 days spent training you make a nature roll against a terrible die, adding a bad die for every 5 CR the creature has. After 3 successes you bond with your companion, allowing them to fight and be given commands.
+***Engulf.*** *Melee Attack, Once per turn:* 5 AP, 1/3/1/0/0 - All creatures occupying the same tiles as the Cinderbug Swarm make a Stamina save against this attack. On hit the creatures take 1/0 in fire damage. This creature adds 1 success to the attack roll and deals an extra 0/1 for every 2 wounds of health remaining.
+___
 
-Trained creatures gain 1 proficiency to attacks and 2 proficiency to attribute saves. Their max wounds increases based on your level, gaining an extra wound at levels 7, 14, 21, and 28.
+#### Screeching Bear
+Screeching bears are large, feathered bears with a razor sharp beak. Living in forests, they mark their territory by scratching off feathers on trees around its border. Perceptive adventurers may spot these feathers, deciding on a new route less they anger the screeching bear.
 
-### Fighting Companions
-Animal companions take their actions during your turn. Each turn they may move, sprint, and make a single basic attack with you controlling their actions.
+Quick to anger, screeching bears obsessively patrol their large territories. Should they find another screeching bear, large beast, or party of adventurers they will first try to intimidate them with its ear piercing screech. Should that fail they won't hesitate to attack, regardless of the intruder. The only exception to this behavior is when protecting their young. In this case the screeching bear will intimidate those that draw near its nest, but will only attack out of necessity.
 
-While fighting companions have been trained for combat, they are still animals. While your companion is not at full health you make a nature check at the start of each of your turns. The challenge for this roll is a terrible die, adding a bad die for each adjacent enemy. If the companion is below half health, rounded down, add terrible dice instead. On fail the companion turns feral, spending its turn attacking a random creature in range. If there is no creature in range it moves towards the closest creature and attacks.
+Screeching bears are sensitive to magic, and may track adventurers that otherwise would have passed unharmed though the spells cast while in their territory. They hunt magical creatures above others as their piercing screech can leave them incapacitated.
 
-### Advanced Training
-Completing an adventure or gaining a level with a companion increases your bond with them, making them more effective in combat. For each adventure completed or level gained you may choose one of the following benefits:
+ |                  |      |                |      |
+ | :--------------- | ---: | :------------- | ---: |
+ | **Defense:**     |  0/3 | **AP:**        |   12 |
+ | **Wounds:**      |   10 | **Challenge:** |    8 |
+ | **Move/Sprint:** |  5/3 | **Size:**      | Huge |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/2  |  1/1  |  3/2  | -1/0  |  1/0  |  2/0  |
 
-- They make two basic attacks each turn instead of one.
-- They learn an attack or maneuver shown on the creatures stat block. You may use this attack or maneuver in place of basic attacks.
-- They gain 2 proficiency points.
+___
+***Magic Eater.*** This creature adds 1 Superior die when making defense or saving throws against magic.
 
-### Companion Equipment
-Trained companions can be given specially made armor and weapons to aid them in combat. Animal equipment can be enchanted, following the same rules as enchanting character equipment. Animal armor replaces one of their normal defense dice with a superior defense die and animal weapons replace a wound die with a wound for all of their attacks and maneuvers. Animal equipment is expensive, usually requiring a blacksmith to custom fit them to your companion.
+**Actions**
 
-| Equipment | Cost (Medium) | Cost (Large) |
-|:----:|:----:|:----:|
-| Armor | 2pt | 5pt |
-| Weapons | 1pt | 2pt, 50sc |
+***Claw.*** *Melee Attack:* 5 AP, 3/1/1/0/0 - On hit deals 1/1 in slashing damage, adding 0/1 on a critical.
+
+***Beak.*** *Melee Attack, Once per turn:* 7 AP, 2/3/1/0/0 - On hit deals 1/3 in piercing damage.
+
+***Arcane Screech.*** *Special, Maneuver:* 7 AP, Range 3, 1/1/3/0/0 - This creatures screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 2nd level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Screeching Bear gains Combat Advantage with all attacks for the next minute.
+___
+
+#### Burrowbeast
+Giant mole-like creatures, burrowbeasts are ambush hunters. Digging through the soft dirt and sands, they lie in wait, sensing the vibrations of animals and striking at those that venture too close with their long, hardened teeth. While they are not pack hunters, burrowbeasts will hunt with their mate. While one hides, burrowed, the other will chase unsuspecting animals over their trap.
+
+While burrowbeasts will ignore most large animals, they will gladly hunt a human-sized creature. Attracted to the sound of metal, burrowbeasts will follow adventurers, sometimes for miles, waiting for a chance to ambush them.
+
+Burrowbeasts are nearly blind above ground, mostly relying on their keen sense of smell and touch. Loud noises, especially the clanging of metal, can confuse the burrowbeast, forcing it to burrow back underground to regain its bearings.
+
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  2/2 | **AP:**        |    11 |
+ | **Wounds:**      |    9 | **Challenge:** |     8 |
+ | **Move/Sprint:** |  5/3 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/2  |  0/0  |  4/2  | -2/0  |  1/0  | -2/0  |
+
+___
+***Tremorsense.*** This creature can see through vibrations in the ground, sensing creatures within 7 tiles of it. This has no effect on flying creatures.
+
+***Burrow.*** As part of it's movement the Burrowbeast may burrow or unburrow as long as it is on earth or sand. After burrowing or unburrowing it cannot do this again until its next turn.
+
+**Actions**
+
+***Claw.*** *Melee Attack:* 4 AP, 2/2/1/0/0 - On hit deals 1/1 in slashing damage.
+
+***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0 - On hit deals 1/3 in piercing damage.
+
+***Dive.*** *Melee Attack, Maneuver:* 7 AP, Range 2, 2/2/1/0/0 - Can only be used while the Burrowbeast is burrowed. The burrowbeast unburrows, leaping up to 2 tiles and landing on one or more creature. All creatures make a Strength or Dexterity save against this roll. On fail they take 0/3 in bludgeoning damage and are knocked prone, being grappled by the burrowbeast on a critical.
+___
+
+#### Griffin
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/4 | **AP:**        |    12 |
+ | **Wounds:**      |   10 | **Challenge:** |    13 |
+ | **Move/Sprint:** |  5/7 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/1  |  5/5  |  1/0  | -1/0  |  2/1  |  1/0  |
+
+___
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+***Flyby.*** While in the air, sprinting does not provoke opportunity attacks.
+
+***Talon Grip.*** The Griffin adds 1 superior die to grapple rolls against medium or smaller creatures.
+
+**Actions**
+
+***Talons.*** *Melee Attack:* 4 AP, 3/2/0/0/0 - On hit deals 1/2 in piercing damage.
+
+***Bite.*** *Melee Attack:* 7 AP, 4/2/0/0/0 - On hit deals 2/2 in piercing damage.
+
+***Plummet.*** *Melee Attack, Maneuver:* 4 AP, Range 3, 3/3/0/0/0 - Can only be used while above the target creature. The Griffin dives down, attempting to pin the creature. The creature makes a Strength or Dexterity save. On fail they take 0/3 in bludgeoning damage, knocked prone, and are grappled by the Griffin.
+___
+
+#### Dire Bear
+ |                  |      |                |      |
+ | :--------------- | ---: | :------------- | ---: |
+ | **Defense:**     |  1/4 | **AP:**        |   15 |
+ | **Wounds:**      |   17 | **Challenge:** |   15 |
+ | **Move/Sprint:** |  5/3 | **Size:**      | Huge |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  7/4  | -2/0  |  5/3  | -1/0  |  1/0  |  0/0  |
+
+___
+***Thick Hide.*** This creature has _Resistance_ 1 to cold damage. Unless this creature is already dazed, any effect that would stun this creature dazes it instead.
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 5 AP, 4/1/2/0/0 - On hit deals 1/2 in slashing damage, adding 0/2 on a critical.
+
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 4/2/2/0/0 - On hit deals 2/3 in piercing damage.
+___
+
+#### Mirelurk Stalker
+Found in the swamps and marshes of Farhome, Mirelurk stalkers silently prowl the waters. Nearly invisible while submerged, they glide through the swamps until something disturbs the water. If the disturbance comes from a creature the stalker will follow its prey for miles, waiting for an opportune time to strike. Their chitinous plating and venomous claws allow them to hunt nearly any creature that calls the swamp home, and has no issue hunting unsuspecting adventurers. 
+
+However, Mirelurk Stalkers rarely hunt to the death, instead perferring to wound and poison their prey. They use their posion to track their prey across the swamp, ambushing and retreating as many times as it takes to kill their prey. Once killed, Stalkers may leave their meal for days, letting the poison spoil the meat into something they can more easily digest.
+
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  1/4 | **AP:**        |    13 |
+ | **Wounds:**      |   13 | **Challenge:** |    14 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  6/4  |  3/1  |  2/2  | -2/0  | -1/0  |  0/0  |
+
+___
+***Venomous Frenzy*** This creature has Combat Advantage when attacking poisoned creatures. It can track a creature infected with its poison up to 1 mile away.
+
+***Amphibious Stalker*** This creature is difficult to see when in the water. A creature can spot the Mirelurk Stalker by making a successful Perception check against a Difficult challenge. While on land this creature has Slow 2.
+
+**Actions**
+
+***Poisoned Claws.*** *Melee Attack:* 5 AP, 4/1/1/0/0 - On hit deals 1/0 in slashing damage. On a critical the creature takes 0/3 in poison damage and gains Poison 2 for 1 hour.
+
+***Chomp.*** *Melee Attack, Once per turn:* 5 AP, 4/2/1/0/0 - On hit deals 2/1 in piercing damage. If the creature is medium or smaller it is also grappled by the Stalker.
+
+***Dive.*** *Special Reaction, Once per turn:* 3 AP, 3/1/2/0/0. Can only be used while the creature is in deep water. As a reaction to taking damage the Mirelurk can dive below the surface, moving up to 2 tiles and taking any grappled creatures with them. Creatures make a perception check against this roll, losing sight of the stalker on fail.
+___
+
+#### Giant Eagle
+ |                  |      |                |      |
+ | :--------------- | ---: | :------------- | ---: |
+ | **Defense:**     |  0/4 | **AP:**        |   12 |
+ | **Wounds:**      |   12 | **Challenge:** |   17 |
+ | **Move/Sprint:** |  5/7 | **Size:**      | Huge |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  5/3  |  1/0  |  4/2  |  1/0  |  0/0  |
+
+___
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+***Magic Eater.*** This creature adds 2 Superior dice when making defense or saving throws against magic.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 4/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. They know the spells _Barrier_, _Counter Spell_, _Dispel Magic_, _Blink_, _Elemental Shell_, and _Lightning Bolt_.
+
+**Actions**
+
+***Claw.*** *Melee Attack:* 5 AP, 3/2/0/0/0 - On hit deals 1/1 in slashing damage.
+
+***Beak.*** *Melee Attack, Once per turn:* 5 AP, 3/3/0/0/0 - On hit deals 1/2 in piercing damage. If the creature is concentrating on a spell they add 2 bad dice to the concnetration check from this attack.
+
+***Arcane Screech.*** *Special, Maneuver:* 7 AP, Range 5, 1/2/2/0/0 - The Giant Eagle's screech dispels magical effects for all creatures within range. The lowest level spell affecting a creature is dispelled if it came from a 4th level spell or lower. If a creature is concentrating on a spell they must make a concentration check against this roll, ending thier concentration on fail. If this action causes a spell to be dispellled the Giant Eagle gains Combat Advantage with all attacks and spells for the next minute.
+
+#### Basilisk
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  2/3 | **AP:**        |    13 |
+ | **Wounds:**      |   18 | **Challenge:** |    25 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/2  |  3/3  |  5/3  | -2/0  |  2/2  | -1/0  |
+
+___
+***Poison Resistance*** The Basilisk has _Resistance_ 2 to poison damage and is immune to Poisons at level 2 or below.
+
+***Hardened Scales.*** Effects that Daze, Stun, or Paralyze require 2 criticals in their roll to affect this creature.
+
+**Actions**
+
+***Venomous Bite.*** *Melee Attack:* 4 AP, 3/2/1/0/0 - On hit deals 1/2 in piercing damage, adding 0/3 in poison damage on a critical. The target gains Poison 1 for 1 minute, being Paralzyed while they are Poisoned.
+
+***Putrid Cloud.*** *Special Attack, Maneuver:* 7 AP, 2/3/0/0/0 - The basilisk breathes a cloud of toxic fumes, covering the basilisk and all adjacent tiles. All creatures except the basilisk inside the cloud or that enter it for the first time this round make a Stamina save against this attack. On fail they take 0/2 in poison damage, being paralyzed until the end of their turn on a critical. The toxic cloud lasts for 1 minute.
+
+***Death Stare.*** *Special Attack, Maneuver:* 8 AP, 3/2/0/0/0 - Cannot be used while blinded. The basilisk focuses his gaze in an arc 5 tiles long and 3 tiles wide. All creatures that can see the Basilisk make a Stamina save against this attack. On fail they are incapacitated for 1 hour. A creature Incapacitated this way can be revived similar to a downed creature.
+
+#### Celestials
+#### Lesser Spirit
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    4 | **Challenge:** |      4 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -1/0  |  3/1  |  1/0  |  0/0  |  1/0  |  2/2  |
+
+___
+***Spirit.*** This creature has _Resistance_ 1 to physical, poison, and holy damage.
+
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 2nd level using 2/1/3 for their spellcasting rolls, and cannot cast more than 5 times per day.  They know the spells _Radiant Light_, _Holy Protection_, _Guidance_, _Solar Flair_, and _Cleanse_.
+
+**Actions**
+
+***Smite.*** *Ranged Attack:* 5 AP, Range 5, 2/1/2/0/0 - Target creature makes a Stamina save. On hit they take 0/2 in holy damage.
+___
+
+#### Will-o-Wisp
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/4 | **AP:**        |    11 |
+ | **Wounds:**      |    5 | **Challenge:** |     6 |
+ | **Move/Sprint:** |  4/6 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -2/0  |  4/2  |  0/0  | -1/0  |  2/1  |  2/1  |
+
+___
+***Spirit.*** This creature has _Resistance_ 1 to physical damage and _Resistance_ 3 to lightning damage.
+
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 2nd level using 2/2/2 for their spellcasting rolls, and cannot cast more than 7 times per day. They know the spells _Static Shock_ and _Call Lightning_.
+
+**Actions**
+
+***Zap.*** *Melee Attack:* 5 AP, 3/1/1/0/0 - Target creature makes a Dexterity save. On hit they take 0/3 in lightning damage, being Paralyzed until the end of their next turn on a critical.
+
+***Spasm.*** *Reaction:* 2 AP</br>When an adjacent creature fails to take an action due to effects of Paralyze this creature may instead cause that action to succeed, chosing a new target for the action.
+___
+
+#### Pegasus
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/4 | **AP:**        |    12 |
+ | **Wounds:**      |   10 | **Challenge:** |    12 |
+ | **Move/Sprint:** |  4/8 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/2  |  5/2  |  1/0  | -1/0  |  2/2  |  3/1  |
+
+___
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+***Slowfall.*** This creature is immune to falling damage.
+
+**Actions**
+
+***Hooves.*** *Melee Attack:* 4 AP, 2/3/0/0/0 - On hit deals 0/3 in bludgeoning damage.
+
+***Shockwave.*** *Melee Attack, Maneuver:* 7 AP, Reach, 2/2/2/0/0 - The pegasus flaps its wings sending out a shockwave of force to all creatures in its zone of control. Creatures make a Stamina save against this roll. On fail they take 1/2 in thunder damage and pushed back 1 tile, being knocked prone on a critical.
+___
+
+___
+#### Sanctus Owl
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  2/2 | **AP:**        |    12 |
+ | **Wounds:**      |   15 | **Challenge:** |    25 |
+ | **Move/Sprint:** |  5/6 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/0  |  3/3  |  1/0  |  6/3  |  2/2  |  4/3  |
+
+___
+***Hexproof.*** This creature is immune to Hex 2 and below.
+***Magic Sense.*** This creature can sense the presence of undead or magic within 60 tiles. Some spells, such as _Nondetection_, are invisible to this sense.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 5/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. They know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
+
+***Spell-Eater.*** The owl devours a spell targeting it or a creature or point within 2 tiles. Roll 3 superior dice, if this roll is higher than the casters spellcasting roll the spell is countered and the owl gains 1 temporary wound.
+
+**Actions**
+
+***Bite.*** *Melee Attack:* 5 AP, 3/0/2/0/0 - On hit deals 1/2 in piercing damage.
+
+___
+
+#### Greater Spirit
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/2 | **AP:**        |     14 |
+ | **Wounds:**      |   17 | **Challenge:** |     30 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/1  |  3/2  |  2/0  |  0/0  |  4/3  |  5/5  |
+
+___
+***Spirit.*** This creature has _Resistance_ 1 to physical, poison, and holy damage.
+
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 7th level using 5/1/0 for their spellcasting rolls, and cannot cast more than 12 times per day.  They know the spells _Radiant Light_, _Holy Protection_, _Guidance_, _Solar Flair_, _Cleanse_, _Bind Creature_, _Radiance_, _Resurrect_, _Power word: Harm_, _Power word: Heal_, _Divine Word_.
+
+**Actions**
+
+***Smite.*** *Ranged Attack:* 5 AP, Range 5, 4/1/0/0/0 - Target creature makes a Stamina save. On hit they take 1/3 in holy damage.
+
+***Ray of Purification.*** *Ranged Attack, Maneuver:* 8 AP, Range 10, 5/1/0/0/0 - Fires a ray of purifying light at a creature. The creature makes a Stamina save. On hit they take 1/6 in holy damage and are Weakened for one minute. On a critical the creature loses the will to fight, being unable to take actions against the Greater Spirit until the end of their next turn.
+___
+
+#### Archangel
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/3 | **AP:**        |     13 |
+ | **Wounds:**      |   25 | **Challenge:** |     40 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/1  |  3/2  |  2/0  |  1/0  |  4/3  |  6/5  |
+
+___
+***Poison Resistance.*** The Archangel has _Resistance_ 2 to poison damage and is immune to Poisons at level 2 or below.
+
+***Hexproof.*** This creature is immune to Hex 2 and below.
+
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 6/1/0 for their spellcasting rolls, and cannot cast more than 8 times per day.  They know the spells _Destroy Monstrosity, Regeneration, Inner Fire, Judgement, Radiance, Excorism, Word of Command_.
+
+***Detect Evil.*** This creature can detect the presence of Undead or Monstrosities within one mile, knowing their general location.
+
+**Actions**
+
+***Flaming Sword.*** *Melee Attack:* 3 AP, 5/1/1/0/0 - On hit deals 1/1 in slashing damage, adding 0/3 in fire damage on a critical.
+
+***Judgment Bow.*** *Ranged Attack:* 4 AP, Range 30/60, 4/2/1/0/0 - On hit deals 1/3 in holy damage.
+
+***Arrow of Slaying.*** *Ranged Attack, Maneuver:* 6 AP, Range 30/60, 5/2/1/0/0 - On hit deals 1/1 in holy damage. If the creature has 7 or less wounds they are reduced to 0 instead.
+
+#### Constructs
+#### Scarecrow
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    4 | **Challenge:** |      2 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/0  |  2/0  |  0/0  |  -/-  |  1/0  | -1/0  |
+
+___
+***Construct.*** This creature has no living parts and is immune to Stun, Daze, Poison, and cannot get Lesser or Greater Wounds. This construct has no Intelligence and passes Intelligence saving throws.
+
+***Facsimile.*** This creature hides in plain sight, looking like a normal scarecrow. A successful impossible Perception check will spot this creature for what it is.
+
+**Actions**
+
+***Sickle.*** *Melee Attack:* 4 AP, 1/1/3/0/0 - On hit deals 1/0 in slashing damage. If the creature is Feared they gain the effects of _Curse of Misfortune_ for 1 day.
+
+***Terror*** *Special, Maneuver:* 7 AP, Range 3, 0/1/4/0/0 - Targeting a creature that can see the Scarecrow, they make a Willpower save. On fail they gain Fear for 1 minute with the scarecrow as the source.
+
+#### Enchanted Armor
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     | 3/2* | **AP:**        |     10 |
+ | **Wounds:**      |    5 | **Challenge:** |      5 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/0  | -1/0  |  2/2  |  -/-  |  0/0  |  0/0  |
+
+___
+***Construct.*** This creature has no living parts and is immune to Stun, Daze, Poison, and cannot get Lesser or Greater Wounds. This construct has no Intelligence and passes Intelligence saving throws.
+
+***Brittle.*** This creature loses 1 defense die for every wound it has taken, removing Defense dice before Superior Defense.
+
+***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. The Enchanted Armor can be targeted by _Dispel Magic_ as if it was a 3rd level spell, incapacitating it for 10 minutes on success.
+
+**Actions**
+
+***Punch.*** *Melee Attack:* 4 AP, 1/2/2/0/0 - On hit deals 0/2 in bludgeoning damage.
+
+***Crushing Blow.*** *Melee Attack, Maneuver:* 7 AP, 0/3/3/0/0 - On hit deals 0/4 in bludgeoning damage, being staggered on a critical.
+
+#### Sentry
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  3/0 | **AP:**        |     10 |
+ | **Wounds:**      |    6 | **Challenge:** |      8 |
+ | **Move/Sprint:** |  -/- | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/0  | -2/0  |  3/0  |  -/-  |  2/0  |  0/0  |
+
+___
+***Construct.*** This creature has no living parts and is immune to Stun, Daze, Poison, and cannot get Lesser or Greater Wounds. This construct has no Intelligence and passes Intelligence saving throws. It cannot move and fails all Dexterity saves.
+
+***Life Sense.*** This creature can sense living creatures up to 7 tiles away. This has no effect if a creature cannot be divined, such as when under the effects of _Nondetection_.
+
+***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. The Sentry can be targeted by _Dispel Magic_ as if it was a 5th level spell, incapacitating it for 10 minutes on success.
+
+***Overwatch.*** Once per round this creature can use _Sorching Beam_ as a reaction (2AP) against a creature moving towards it.
+
+**Actions**
+
+***Sorching Beam.*** *Ranged Spell Attack:* 7 AP, Range 10, 3/1/1/0/0 -  On hit they take 1/2 in fire damage, adding 0/1 on a critical.
+
+***Chain Lightning.*** *Ranged Spell Attack:* 8 AP, Range 5, 3/1/1/0/0 - Targeting a creature in range the lightning bounces to 2 other creatures within 3 tiles of the original target and must bounce if able. Creatures make a Dexterity save against this attack. On hit they take 1/0 in lightning damage, adding 0/1 for each critical rolled.
+
+***Barrier.*** *Ranged Spell:* 7 AP, Range 10 - Gives a creature in range _Resistance 1_ to elemental damage until the start of the Sentry's next turn.
+
+#### Living Tree
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  1/4 | **AP:**        |    15 |
+ | **Wounds:**      |   15 | **Challenge:** |    14 |
+ | **Move/Sprint:** |  3/2 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  6/5  | -2/0  |  5/3  | -2/0  |  0/0  | -1/0  |
+
+___
+***Living Construct.*** This creature has _Resistance_ 1 to physical damage and _Vulnerability_ 1 to fire damage.
+
+**Actions**
+
+***Slam.*** *Melee Attack:* 6 AP, Reach 2, 4/1/1/0/0 - Deals 2/2 in bludgeoning damage.
+
+***Sap Life.*** *Melee Attack, Maneuver:* 6 AP, 3/2/1/0/0 - Only usable against a grappled creature. Pierces a creature with vines, draining the life out of the creature. The grappled creature makes a Stamina save against this attack, taking 0/4 in piercing damage with the Living Tree healing for the damage dealt.
+
+#### Bronze Colossus
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  3/3 | **AP:**        |    15 |
+ | **Wounds:**      |   16 | **Challenge:** |    25 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  6/4  | -2/0  |  3/2  |  -/-  |  2/1  |  0/0  |
+
+___
+***Construct.*** This creature has no living parts and is immune to Stun, Daze, Paralyze, Poison, and cannot get Lesser or Greater Wounds. This construct has no Intelligence and passes Intelligence saving throws.
+
+***Magical Creation.*** This creature is incapacitated while inside an anti-magic field. The Bronze Colossus can be targeted by _Dispel Magic_ as if it was a 8th level spell, incapacitating it for 10 minutes on success.
+
+***Metallic.*** This creature has _Resistance_ 1 to elemental and physical damage. If this creature takes at least 1 wound in fire or lightning damage they deal an extra wound of that damage with all _Punch_ attacks until the end of their next turn.
+
+**Actions**
+
+***Punch.*** *Melee Attack:* 5 AP, 5/0/1/0/0 - Deals 2/2 in bludgeoning damage.
+
+***Tremor.*** *Melee Attack, Maneuver:* 7 AP, 4/1/1/0/0 - Slams the ground, hitting all creatures within 2 tiles of the Bronze Coloussus that are touching the ground. Creatures make a Stamina save against this attack. On fail they take 0/3 in bludgeoning damage, being knocked prone on a critical.
+
+#### Demons
+
+#### Imp
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/2 | **AP:**        |    10 |
+ | **Wounds:**      |    2 | **Challenge:** |     1 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  0/0  |  3/0  |  0/0  |  0/0  |  1/0  | -1/0  |
+
+___
+***Lesser Demon.*** This creature counts as Undead for the purposes of the _Holy Weapon_, _Turn Undead_, and _Consecrate Ground_ spells.
+
+***Limited Flight.*** This creature has limited flight. They may fly using their movement but must land the next turn or fall from the sky. Once landed they cannot fly until their next turn.
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - Deals 2 wound dice in damage.
+
+***Barbed Tail.*** *Maneuver, Melee Attack:* 7 AP, 2/1/2/0/0 - Deals 1 wound die in damage. On crit the target gains Poison 1 and takes an extra wound die in Poison damage for every crit rolled.
+___
+
+#### Hordling
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/2 | **AP:**        |     10 |
+ | **Wounds:**      |    5 | **Challenge:** |      3 |
+ | **Move/Sprint:** |  3/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/3  |  2/0  |  2/0  | -1/0  |  0/0  | -2/0  |
+
+___
+***Lesser Demon.*** This creature counts as Undead for the purposes of the _Holy Weapon_, _Turn Undead_, and _Consecrate Ground_ spells.
+
+***Reckless Attack.*** When this creature makes an attack they may gain Combat Advantage for the attack. After the attack they grant Combat Advantage to attackers until the start of their next turn.
+
+***Horde Fighter.*** This creature adds 1 success to their attacks for each allied creature with _Horde Fighter_ adjacent to their target.
+
+**Actions**
+
+***Blade.*** *Melee Attack:* 5 AP, 2/1/2/0/0 - Deals 1/0 in slashing, adding 0/1 on a critical.
+___
+
+#### Balegor
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/3 | **AP:**        |     11 |
+ | **Wounds:**      |    9 | **Challenge:** |     10 |
+ | **Move/Sprint:** |  3/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/3  |  2/0  |  2/0  | -1/0  |  1/0  |  1/0  |
+
+___
+***Demonic.*** This creature has _Resistance 1_ against lightning, fire, and cold damage.
+
+***Hordling Commander.*** All Hordlings within 5 tiles of this creature add a Superior die to Intelligence, Willpower, and Charisma saves they make.
+
+***Horde Fighter.*** This creature adds 1 success to their attacks for each allied creature with _Horde Fighter_ adjacent to their target.
+
+**Actions**
+
+***Great Blade.*** *Melee Attack:* 5 AP, 3/1/2/0/0 - Deals 1/1 in slashing, adding 0/1 on a critical.
+
+***Call for Blood.*** *Special, Maneuver:* 5 AP</br>Commands up to 3 Hordlings to make an opportunity attack against an adjacent creature.
+___
+
+#### Quill Demon
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/4 | **AP:**        |    11 |
+ | **Wounds:**      |   11 | **Challenge:** |    12 |
+ | **Move/Sprint:** |  3/6 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  3/3  |  2/0  |  1/0  |  3/0  |  0/0  |
+
+___
+***Demonic.*** This creature has _Resistance 1_ against lightning, fire, and cold damage.
+
+***Flight.*** This creature can fly when using it's movement, hovering in place at the end of its movement.
+
+**Actions**
+
+***Trident Spear.*** *Reach 1, Melee Attack:* 4 AP, 2/1/2/0/0 - Deals 1 wound and 1 wound die in damage.
+
+***Dive Bomb.*** *Maneuver, Melee Attack:* 5 AP, 2/2/2/0/0 - Deals 1 wound and 1 wound die in damage. The Spine devil must be flying before attacking. If the Spine devil drops 2 or more tiles before making the attack add a wound die to the damage.
+
+***Rain of Spines.*** *Maneuver, Special Attack:* 5 AP, 1/2/3/0/0 - Fires razor sharp quills in an arc 3 tiles long and 3 tiles wide. All creatures in range make a Defense roll, taking 3 wound die on fail.
+___
+
+#### Seraptis Demon
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/2 | **AP:**        |     12 |
+ | **Wounds:**      |   12 | **Challenge:** |     18 |
+ | **Move/Sprint:** |  4/7 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/0  |  4/0  |  3/0  |  1/0  |  4/0  |  1/0  |
+
+___
+***Demonic.*** This creature has _Resistance 1_ against lightning, fire, and cold damage.
+
+***Magic Resistance.*** This creature adds 1 critical success to defense and saving throws against magic.
+
+***Shadow Healing.*** Regain 1 wound when dealing death damage to a creature.
+
+**Actions**
+
+***Sacrificial Dagger.*** *Melee Attack:* 4 AP, 3/1/1/0/0 - Deals 1 wound and 1 wound die in damage.
+
+***Summoning.*** *Maneuver, Special:* 7 AP, 3/0/0/0/0 - Summon an Imp for each success. Can only be used once per day, the Imps return to the abyss after 10 minutes.
+
+***Insane Whispers.*** *Maneuver, Range 10:* 6 AP, 0/4/1/0/0 - Whisper insanities into a target creatures mind. The target makes an Intelligence save, on fail becoming insane for 10 minutes. While insane at the start of your round roll a normal die: Success you act normally, Blank you move randomly muttering gibberish, and fail you make a single weapon attack against a random creature in range. Every time you take damage or a creature spends 5 AP to break your insanity you may make the save again.
+
+***Shadow Bolt.*** *Maneuver, Ranged Attack:* 9 AP, 2/2/1/0/0 - Fire a barrage of 3 shadow bolts at up up to 3 targets in range. The target makes a Defense roll, taking 2 wound die per shadow bolt in death damage on hit and gaining Hex 1 on crit.
+___
+
+#### Ephial
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/2 | **AP:**        |     12 |
+ | **Wounds:**      |   12 | **Challenge:** |     20 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  3/2  |  1/1  |  0/0  |  4/4  |  2/0  |
+
+___
+
+***Demonic.*** This creature has _Resistance 1_ against lightning, fire, and cold damage.
+
+***Dreamwalker.*** This creature can travel into a creatures dreams by touching them, using their movement action to enter the dream. If the sleeping creature wakes before the Ephial can exit the dream the Ephial takes 0/2 in psychic damage, appearing in a tile adjacent to the sleeping creature.
+
+**Actions**
+
+***Bite.*** *Melee Attack:* 6 AP, 4/1/1/0/0 - On hit deals 2/2 in piercing damage.
+
+***Impale.*** *Maneuver, Melee Attack:* 7 AP, 4/2/1/0/0 - On hit deals 3/0 in piercing damage, restraining the creature on a critical. The restrained creature can spend 5 AP on their turn to attempt to free themselves, making a Strength save against this creatures raw Strength. On success they are no longer restrained.
+
+***Charge.*** *Maneuver, Special Attack:* 8 AP, Range 5, 3/2/1/0/0 - The Iber demon charges in a line, trampling all creatures it passes through. Creatures hit make a Dexterity or Strength save against this roll, taking 1/2 in bludgeoning damage on a fail.
+
+#### Iber Demon
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  2/4 | **AP:**        |    14 |
+ | **Wounds:**      |   16 | **Challenge:** |    20 |
+ | **Move/Sprint:** |  4/6 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  6/4  |  4/4  |  3/1  | -2/0  |  0/0  | -1/0  |
+
+___
+
+***Demonic Resistance.*** This creature has _Resistance 1_ against lightning, fire, and cold damage. Effects that Daze, Stun, or Paralyze require 2 criticals in their roll to affect this creature.
+
+**Actions**
+
+***Bite.*** *Melee Attack:* 6 AP, 4/1/1/0/0 - On hit deals 2/2 in piercing damage.
+
+***Impale.*** *Maneuver, Melee Attack:* 7 AP, 4/2/1/0/0 - On hit deals 3/0 in piercing damage, restraining the creature on a critical. The restrained creature can spend 5 AP on their turn to attempt to free themselves, making a Strength save against this creatures raw Strength. On success they are no longer restrained.
+
+***Charge.*** *Maneuver, Special Attack:* 8 AP, Range 5, 3/2/1/0/0 - The Iber demon charges in a line, trampling all creatures it passes through. Creatures hit make a Dexterity or Strength save against this roll, taking 1/2 in bludgeoning damage on a fail.
+
+#### Naga
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  2/3 | **AP:**        |    12 |
+ | **Wounds:**      |   20 | **Challenge:** |    25 |
+ | **Move/Sprint:** |  4/8 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  5/3  |  5/4  |  3/1  |  0/0  |  3/3  |  2/0  |
+
+___
+
+***Demonic Resistance.*** This creature has _Resistance 1_ against lightning, fire, and cold damage. Effects that Daze, Stun, or Paralyze require 2 criticals in their roll to affect this creature.
+
+***Magic Resistance.*** This creature adds 2 critical successes to defense and saving throws against magic.
+
+***Magic Weapons.*** This creature's weapons are considered +1 magic weapons.
+
+**Actions**
+
+***Sword.*** *Melee Attack:* 3 AP, 5/1/0/0/0 - Attacks twice. On hit deals 1/1 in slashing damage.
+
+***Parry.*** *Maneuver, Reaction:* 1 AP</br>As a reaction, this creature may reroll 3 dice in their defense roll.
+
+***Portal of Flames.*** *Special Action:* 7 AP, Range 10, 3/0/2/0/0 - The Naga is engulfed in flames, teleporting to an unoccupied location in range. All adjacent creatures make a Dexterity save against this roll, taking 0/3 in fire damage on fail. Adjacent creatures that are grappling the Naga automatically fail this roll.
+
+#### Scaled Demon
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  3/3 | **AP:**        |    15 |
+ | **Wounds:**      |   24 | **Challenge:** |    30 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  6/6  |  3/2  |  4/1  | -1/0  |  3/1  |  1/0  |
+
+___
+
+***Demonic Resistance.*** This creature has _Resistance 1_ against lightning, fire, and cold damage. Effects that Daze, Stun, or Paralyze require 2 criticals in their roll to affect this creature.
+
+***Fearless.*** This creature is immune to Sleep and adds 5 successes against effects that Fear or charm.
+
+***Bloodletter.*** If a creature takes 3 or more physical damage from this creatures attacks they gain the Lesser Wound: Bleeding. Attacks against a bleeding creature reroll all blank wound dice.
+
+**Actions**
+
+***Serrated Blade.*** *Melee Attack:* 3 AP, 5/1/1/0/0 - Deals 1/1 in slashing damage, adding 0/2 on a critical.
+
+***Flurry.*** *Maneuver, Melee Attack:* 7 AP, 5/1/1/1/0 - Makes up to 3 attacks at adjacent creatures. On hit deals 1/1 in slashing damage, adding 0/2 on a critical.
+
+***Blade Fury.*** *Maneuver, Special Attack:* 7 AP, Range 3, 3/3/1/0/0 - The Scaled Demon launches forward, jumping up to 3 tiles and slicing all creatures the demon passes through or are adjacent to it. Creatures make a Defense or Dexterity save, taking 1/2 in slashing damage on hit.
+
+***Battle Cry.*** *Maneuver, Special:* 5 AP, Range 5, 3/0/0/0/0 - Lets loose a furious roar, enchanting itself and an ally in range for each success rolled. Each creature has expertise in attacks until the end of their next turn.
+___
+
+#### Taurus Demon
+ |                  |      |                |      |
+ | :--------------- | ---: | :------------- | ---: |
+ | **Defense:**     |  3/2 | **AP:**        |   15 |
+ | **Wounds:**      |   35 | **Challenge:** |   40 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Huge |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  7/6  |  1/0  |  4/2  |  0/0  |  3/3  |  3/2  |
+
+___
+***Greater Demon.*** This creature has _Resistance_ 1 against all elemental damage, and _Resistance_ 1 against non-magical weapons.
+
+***Magic Resistance.*** This creature adds 2 critical successes to defense and saving throws against magic.
+
+***Demonic Strength.*** This creature has expertise with attack rolls and may use expertise to reroll wound dice.
+
+**Actions**
+
+***Great Spear.*** *Melee Attack:* 5 AP, Reach 2, 6/1/1/0/0 - Deals 2/1 in piercing damage, adding 0/2 on a critical.
+
+***Cleave.*** *Melee Attack:* 7 AP, Reach 2, 6/1/1/1/0 - Hits all creatures in its zone of control, dealing 2/1 in piercing damage, adding 0/2 on a critical.
+
+***Summoning.*** *Maneuver, Special:* 7 AP, 5/0/0/0/0 - Summon a Hordling or lesser demon (CR 7 and below) for each success. Can only be used once per day, the Demons return to the abyss after 1 hour.
+
+***Gore.*** *Maneuver, Melee Attack:* 6 AP, Range 3, 6/1/1/0/0 - Can only target a creature that is not adjacent to the Taurus Demon. This creature charges at its target, moving up to 3 tiles and ending adjacent to them. The creature makes a Strength or Dexterity save against the attack, taking 2/4 in piercing damage.
+
+***Mass Fireball.*** *Special, Once per day:* 10 AP, 4/1/1/0/0 - This creature can cast the spell _Mass Fireball_ at 7th level, using this roll for the spellcasting roll.
+
+#### Dragons
+
+#### Kobold
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  1/2 | **AP:**        |    10 |
+ | **Wounds:**      |    2 | **Challenge:** |     1 |
+ | **Move/Sprint:** |  5/4 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  0/0  |  2/0  |  1/0  | -2/0  |  1/0  |  0/0  |
+
+___
+***Pack-Tactics.*** This creature has Combat Advantage when attacking a creature that is adjacent to an ally.
+
+***Dark Sight.*** This creature treats dim light as bright light and darkness as dim light.
+
+**Actions**
+
+***Bone Spear.*** *Melee Attack:* 5 AP, 0/2/3/0/0 - On hit deals 1/0 in piercing damage.
+
+***Sling.*** *Ranged Attack:* 5 AP, Range 5/10, 1/1/3/0/0 - On hit deals 1/0 in bludgeoning damage.
+
+___
+
+#### Kobold Flametongue
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  1/2 | **AP:**        |    10 |
+ | **Wounds:**      |    4 | **Challenge:** |     3 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  3/2  |  1/0  | -1/0  |  1/0  |  0/0  |
+
+___
+***Pack-Tactics.*** This creature has Combat Advantage when attacking a creature that is adjacent to an ally.
+
+***Quick.*** This creature does not provoke opportunity attacks when taking the Move action.
+
+**Actions**
+
+***Sword.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - On hit deals 1/0 in slashing damage.
+
+***Firebreath*** *Special, Maneuver:* 7 AP, 2/1/2/0/0 - Breathes fire at all creatures in its zone of control. Creatures make a defense roll, taking 0/3 in fire damage on hit.
+
+___
+
+#### Chromatic Wyrmling
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/2 | **AP:**        |     12 |
+ | **Wounds:**      |   10 | **Challenge:** |     15 |
+ | **Move/Sprint:** |  4/6 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/2  |  2/2  |  1/0  |  0/0  |  2/2  |  1/0  |
+
+___
+
+***Magic Resistance.*** This creature adds 1 critical success to defense and saving throws against magic.
+
+***Chromatic Scales.*** This dragon gains resistances based on its color:
+
+- Green: _Resistance_ 1 to poison damage.
+- Red: _Resistance_ 1 to fire damage.
+- Blue: _Resistance_ 1 to cold damage.
+- White: _Resistance_ 1 to thunder and lightning damage.
+- Bronze: _Resistance_ 1 to physical damage.
+
+***Flight.*** This creature can fly using its movement. It can only take the Sprint action while flying.
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 4 AP, 2/2/1/0/0 - On hit deals 1/1 in slashing damage.
+
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 2/3/1/0/0 - On hit deals 1/3 in piercing damage.
+
+***Fireball.*** *Ranged Attack:* 7 AP, Range 7, 2/0/3/0/0 - Spits a fireball at a creature in range. The creature makes a Defense roll against this attack. On hit they take 2/2 in fire damage, adding 0/2 on a critical. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
+___
+
+#### Half Dragon
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  2/3 | **AP:**        |    12 |
+ | **Wounds:**      |   16 | **Challenge:** |    17 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  5/4  |  1/1  |  2/1  |  0/0  |  2/2  |  0/0  |
+
+___
+
+***Magic Resistance.*** This creature adds 1 critical success to defense and saving throws against magic.
+
+***Chromatic Scales.*** This creature gains resistances based on its color:
+
+- Green: _Resistance_ 1 to poison damage.
+- Red: _Resistance_ 1 to fire damage.
+- Blue: _Resistance_ 1 to cold damage.
+- White: _Resistance_ 1 to thunder and lightning damage.
+- Bronze: _Resistance_ 1 to physical damage.
+
+**Actions**
+
+***Great Spear.*** *Melee Attack:* 4 AP, Reach 2, 4/1/0/0/0 - On hit deals 1/2 in piercing damage.
+
+***Savage Leap.*** *Melee Attack, Maneuver:* 4 AP, Reach 2, 4/2/0/0/0 - This creature jumps 2 tiles ending adjacent to the target creature. On hit deals 2/2 in piercing damage and staggers.
+
+***Sweeping Strike.*** *Melee Attack, Maneuver:* 4 AP, Reach 2, 4/2/0/0/0 - Attempts to knock a creature prone. The creature makes a Strength save against this attack. On hit they take 1/2 in bludgeoning damage, being knocked prone on a critical.
+
+***Firebreath.*** *Special Attack:* 7 AP, 3/0/2/0/0 - Breathes fire in a 5x5 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/3 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
+___
+
+#### Young Chromatic Dragon
+ |                  |      |                |      |
+ | :--------------- | ---: | :------------- | ---: |
+ | **Defense:**     |  3/2 | **AP:**        |   15 |
+ | **Wounds:**      |   26 | **Challenge:** |   35 |
+ | **Move/Sprint:** |  5/8 | **Size:**      | Huge |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  6/4  |  1/1  |  4/3  |  2/0  |  3/1  |  1/0  |
+
+___
+***Dragonfear.*** Any hostile creature within 20 tiles that can see the Dragon makes a Willpower save at the start of their turn against 2 Superior dice. On fail they are feared for 1 minute with the Dragon as the source. A creature that succeeds against this is immune to it for 24 hours.
+
+***Magic Resistance.*** This creature adds 1 critical success to defense and saving throws against magic.
+
+***Chromatic Scales.*** This dragon has _Resistance_ 1 to fire damage in addition to resistances based on its color:
+
+- Green: _Resistance_ 1 to poison damage.
+- Red: _Resistance_ 1 to fire damage.
+- Blue: _Resistance_ 1 to cold damage.
+- White: _Resistance_ 1 to thunder and lightning damage.
+- Bronze: _Resistance_ 1 to physical damage.
+
+***Flight.*** This creature can fly using its movement. It can only take the Sprint action while flying.
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 4 AP, 4/1/1/0/0 - On hit deals 1/2 in slashing damage.
+
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 4/2/1/0/0 - On hit deals 2/3 in piercing damage.
+
+***Firebreath.*** *Special Attack:* 10 AP, 3/1/2/0/0 - Breathes fire in a 6x6 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/5 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 2 Superior dice, recharging this attack on a critical.
+
+***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 2, 3/1/1/0/0 - Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 2 tiles and take 0/1 in thunder damage, being knocked prone on a critical.
+___
+
+#### Adult Chromatic Dragon
+ |                  |      |                |      |
+ | :--------------- | ---: | :------------- | ---: |
+ | **Defense:**     |  3/3 | **AP:**        |   17 |
+ | **Wounds:**      |   42 | **Challenge:** |   55 |
+ | **Move/Sprint:** | 5/10 | **Size:**      | Huge |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  7/6  |  0/0  |  5/4  |  2/0  |  3/2  |  1/0  |
+
+___
+***Dragonfear.*** Any hostile creature within 20 tiles that can see the Dragon makes a Willpower save at the start of their turn against 3 Superior dice. On fail they are feared for 1 minute with the Dragon as the source. A creature that succeeds against this is immune to it for 24 hours.
+
+***Magic Resistance.*** This creature adds 2 critical successes to defense and saving throws against magic.
+
+***Chromatic Scales.*** This dragon has _Resistance_ 2 to fire damage in addition to resistances based on its color:
+
+- Green: _Resistance_ 2 to poison damage.
+- Red: _Resistance_ 2 to fire damage.
+- Blue: _Resistance_ 2 to cold damage.
+- White: _Resistance_ 2 to thunder and lightning damage.
+- Bronze: _Resistance_ 1 to physical damage.
+
+***Flight.*** This creature can fly using its movement. It can only take the Sprint action while flying.
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 4 AP, 5/1/1/0/0 - On hit deals 1/3 in slashing damage.
+
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 5/2/1/0/0 - On hit deals 2/4 in piercing damage.
+
+***Firebreath.*** *Special Attack:* 10 AP, 4/1/2/0/0 - Breathes fire in a 9x9 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 2/8 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 3 Superior dice, recharging this attack on a critical.
+
+***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 3, 4/1/0/0/0 - Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 3 tiles and take 0/2 in thunder damage, being knocked prone on a critical.
+___
+
+#### Ancient Chromatic Dragon
+ |                  |      |                |            |
+ | :--------------- | ---: | :------------- | ---------: |
+ | **Defense:**     |  4/3 | **AP:**        |         19 |
+ | **Wounds:**      |   58 | **Challenge:** |         70 |
+ | **Move/Sprint:** | 5/12 | **Size:**      | Gargantuan |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  9/7  | -1/0  |  6/5  |  2/0  |  4/3  |  1/0  |
+
+___
+***Dragonfear.*** Any hostile creature within 20 tiles that can see the Dragon makes a Willpower save at the start of their turn against 4 Superior dice. On fail they are feared for 1 minute with the Dragon as the source. A creature that succeeds against this is immune to it for 24 hours.
+
+***Magic Resistance.*** This creature adds 3 critical successes to defense and saving throws against magic.
+
+***Chromatic Scales.*** This dragon has _Resistance_ 3 to fire damage in addition to resistances based on its color:
+
+- Green: _Resistance_ 3 to poison damage.
+- Red: _Resistance_ 3 to fire damage.
+- Blue: _Resistance_ 3 to cold damage.
+- White: _Resistance_ 3 to thunder and lightning damage.
+- Bronze: _Resistance_ 2 to physical damage.
+
+***Flight.*** This creature can fly using its movement. It can only take the Sprint action while flying.
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 4 AP, 6/1/2/0/0 - On hit deals 2/3 in slashing damage.
+
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 6/2/2/0/0 - On hit deals 3/5 in piercing damage.
+
+***Firebreath.*** *Special Attack:* 10 AP, 5/1/2/0/0 - Breathes fire in a 12x12 tile cone. All creatures inside the cone makes a Dexterity save against this attack. On fail they take 3/11 in fire damage, or half as much on success. After using this attack it must be recharged. At the start of each turn this creature rolls 3 Superior dice, recharging this attack on a critical.
+
+***Wing Burst.*** *Special Attack, Maneuver:* 5 AP, Reach 4, 5/1/0/0/0 - Blasts air from the Dragon's wings to all creatures in its zone of control. Every creature hit makes a Strength save against this attack. On fail they are pushed back 3 tiles and take 0/3 in thunder damage, being knocked prone on a critical.
+
+#### Elementals
+
+#### Magma Sprite
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  2/0 | **AP:**        |    10 |
+ | **Wounds:**      |    2 | **Challenge:** |     1 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/0  |  2/2  |  0/0  | -1/0  |  0/0  |  0/0  |
+
+___
+***Fire Resistance.*** This creature has Resistance 2 against fire damage and takes 1 wound when exposed to water.
+
+***Volatile.*** If this creature is reduced to 0 health from a source other than water it violently explodes. All adjacent creatures make a Dexterity save, taking 2 wound dice in Fire damage on fail.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - Deals a wound die each of Fire and bludgeoning damage.
+___
+
+#### Mud Sprite
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  1/2 | **AP:**        |    10 |
+ | **Wounds:**      |    3 | **Challenge:** |     1 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/0  |  0/0  |  2/0  |  0/0  | -1/0  |  0/0  |
+
+___
+***Physical Resistance.*** This creature has Resistance 1 against physical damage and Vulnerability 1 against fire damage.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - Deals a wound.
+
+***Restrain.*** *Maneuver*, *Melee Attack:* 5 AP, 0/2/3/0/0 - Attempt to bind a creature in mud. The target creature makes a Strength or Dexterity save, on fail they are restrained and the Mud Sprite occupies the same tile as the creature. Any attack that targets the Mud Sprite also targets the restrained creature with both creatures rolling saves and taking damage.
+___
+
+#### Fire Elemental
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    - | **Challenge:** |      5 |
+ | **Move/Sprint:** |  3/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/0  |  2/1  |  2/0  | -1/0  |  1/0  |  0/0  |
+
+___
+***Conjured.*** This Elemental is conjured, it's max wounds is determined by the spell that conjured it.
+
+***Elemental.*** This creature has _Resistance_ 2 to Fire damage.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 1 wound and 1 wound die in fire damage.
+
+***Firebolt.*** *Ranged 10 Attack:* 5 AP, 0/2/3/0/0 - Deals 1 wound in fire damage on hit, adding a wound die on crit.
+___
+
+#### Water Elemental
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    - | **Challenge:** |      6 |
+ | **Move/Sprint:** |  3/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/0  |  2/1  |  2/0  | -1/0  |  1/0  |  0/0  |
+
+___
+***Conjured.*** This Elemental is conjured, it's max wounds is determined by the spell that conjured it.
+
+***Elemental.*** This creature has _Resistance_ 2 to Cold damage.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 1 wound and 1 wound die in cold damage.
+
+***Freeze.*** *Maneuver, Melee Attack:* 5 AP, 0/3/2/0/0 - Target makes a Stamina save. On fail they take 1 wound in Cold damage and gain Slow 1 for 1 minute, and are restraining until the end of their next turn on crit.
+___
+
+#### Air Elemental
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    - | **Challenge:** |      6 |
+ | **Move/Sprint:** |  3/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/0  |  2/1  |  2/0  | -1/0  |  1/0  |  0/0  |
+
+___
+***Conjured.*** This Elemental is conjured, it's max wounds is determined by the spell that conjured it.
+
+***Elemental.*** This creature has _Resistance_ 2 to Thunder and Lightning damage.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 1 wound and 1 wound die in thunder damage.
+
+***Gust.*** *Maneuver, Special:* 7 AP</br>Creates a torrent of wind in a direction away from the elemental. The gust is 3 tiles wide and 7 tiles long and lasts until the start of the elementals next turn. All creatures moving into the wind use an extra tile of movement for each tile moved. All ranged attacks moving into the wind add 1 Terrible dice to their attack.
+___
+
+#### Earth Elemental
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    - | **Challenge:** |      6 |
+ | **Move/Sprint:** |  3/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/0  |  2/1  |  2/0  | -1/0  |  1/0  |  0/0  |
+
+___
+***Conjured.*** This Elemental is conjured, it's max wounds is determined by the spell that conjured it.
+
+***Elemental.*** This creature has _Resistance_ 1 to Physical and Poison damage.
+
+**Actions**
+
+***Fists.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 1 wound and 1 wound die in bludgeoning damage.
+
+***Harden.*** *Maneuver, Special:* 2 AP</br>Improve all defense dice to superior defense dice.
+___
+
+#### Golem
+ |                  |      |                |      |
+ | :--------------- | ---: | :------------- | ---: |
+ | **Defense:**     |  3/3 | **AP:**        |   15 |
+ | **Wounds:**      |   16 | **Challenge:** |   24 |
+ | **Move/Sprint:** |  3/3 | **Size:**      | Huge |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  7/5  | -2/0  |  4/2  | -2/0  |  0/0  |  0/0  |
+
+___
+
+***Elemental.*** This creature has _Resistance_ 1 to Physical, Lightning, Thunder, and Poison damage.
+
+**Actions**
+
+***Slam.*** *Melee Attack:* 5 AP, 4/1/2/0/0 - Deals 2 wounds and 1 wound die in thunder damage.
+
+***Thunderwave.*** *Melee Attack:* 7 AP, 3/2/2/0/0 - Stomps the ground, sending a wave of thunderous force hitting all creatures within 2 tiles of the Golem. Creatures make a Stamina save, taking 0/2 in thunder damage on fail, and being knocked prone on a critial.
+
+***Rock Throw.*** *Maneuver, Ranged Attack:* 7 AP, Range 7, 3/2/2</br>Throws a large boulder at a creature in range it can see. The creature makes a Dexterity or Defense save against the attack, taking 2/3 in bludgeoning damage.
+
+#### Fey
+
+#### Pixie
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/1 | **AP:**        |    10 |
+ | **Wounds:**      |    1 | **Challenge:** |   1/2 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  0/0  |  3/1  | -1/0  |  0/0  |  1/0  |  2/0  |
+
+___
+***Enchanting Presence.*** This creature cannot wear armor, instead any attack, maneuver or spell attack against this target adds 2 Bad dice to their rolls.
+
+**Actions**
+
+***Razor Dust.*** *Ranged Attack:* 5 AP, Range 2, 0/3/2/0/0 - Deals 1 wound die. On crit the target gains Hex 1 for 1 minute.
+
+***Trickery.*** *Maneuver*, *Reaction:* 2 AP</br>If this creature or an adjacent ally is targeted by a melee attack you add 1 bad die to their attack roll. If they critically fail the attack they gain Hex 1 for 1 minute.
+___
+
+#### Peryton
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/2 | **AP:**        |    10 |
+ | **Wounds:**      |    9 | **Challenge:** |     8 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/1  |  3/1  |  2/0  |  0/0  |  1/0  |  2/0  |
+
+___
+***Enchanting Presence.*** This creature cannot wear armor, instead any attack, maneuver or spell attack against this target adds 2 Bad dice to their rolls.
+
+***Charge.*** If this creature move at least 2 tiles before making an attack it adds 1 wound die to the damage and knocks the target prone on crit.
+
+**Actions**
+
+***Gore.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - Deals 3 wound dice. If the attack does 3 or more damage the target gets the Lesser Wound: Bleeding. Attacks against a bleeding creature reroll all blank wound dice.
+
+***Tail Wind.*** *Maneuver*, *Special:* 5 AP, 0/3/2/0/0 - Blasts wind at all creatures in its zone of control. Creatures make a Strength save against the attack. On fail they take 1 wound die in damage and are pushed back 1 tile, being knocked prone on crit.
+___
+
+#### Dryad
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     11 |
+ | **Wounds:**      |    9 | **Challenge:** |      8 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  3/1  |  2/2  |  0/0  |  1/1  |  4/2  |
+
+___
+***Enchanting Presence.*** Any attack, maneuver or spell attack against this target adds 2 bad dice to their rolls.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 3rd level using 3/2/1 as their spellcasting roll, and cannot cast more than 7 times per long rest. They know the following spells: _Vine Whip_, _Animal Messenger_, _Bramble_, _Tremor_, _Healing Word_.
+
+***Tree Stride.*** As part of its movement, the dryad can enter a tree and exit out of another tree within 10 tiles.
+
+**Actions**
+
+***Vine Club.*** *Melee Attack:* 5 AP, 0/1/5/0/0 - Deals 2 wound dice.
+
+_Barkskin_ and _Summon Creature_ can be used once per day.
+
+***Barkskin.*** *Concentration, Special:* 5 AP</br>The dryad grows a thick layer of bark, improving all defense dice to superior defense dice. This effect lasts for 10 minutes and must be concentrated on like a spell.
+
+***Summon Creatures.*** *Special:* 10 AP, 2/0/0/0/0 - Summon a woodland beast of Challenge 3 or less for each success rolled.
+___
+
+#### Knight of the Moon Court
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/0 | **AP:**        |     11 |
+ | **Wounds:**      |   10 | **Challenge:** |     13 |
+ | **Move/Sprint:** |  5/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/0  |  2/2  |  1/0  |  0/0  |  0/0  |  3/0  |
+
+___
+***Enchanting Presence.*** Any attack, maneuver or spell attack against this target adds 2 Terrible dice to their rolls.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 3rd level using 3/3/1 as their spellcasting roll, and cannot cast more than 5 times per long rest. know the following spells: _Phantasmal Blades_, _Fireball_, _Beacon_, _Sword Burst_, _Healing Word_.
+
+**Actions**
+
+***Claymore.*** *Melee Attack:* 4 AP, 3/1/2/0/0 - Deals 1/1 in slashing damage.
+
+***Cleave.*** *Maneuver*, *Melee Attack:* 6 AP, 3/1/3/0/0 - Attacks all creatures inside its zone of control, dealing 1/1 in slashing damage to all targets on hit.
+___
+
+#### Faerie Dragon
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  2/2 | **AP:**        |    13 |
+ | **Wounds:**      |   17 | **Challenge:** |    16 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/0  |  4/4  |  2/2  | -2/0  | -1/0  |  5/3  |
+
+___
+***Enchanting Presence.*** This creature cannot wear armor, instead any attack, maneuver or spell attack against this target adds 1 Terrible die to their rolls.
+
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+***Magic Resistance.*** This creature adds 2 critical successes to defense and saving throws against magic.
+
+**Actions**
+
+***Claw.*** *Melee Attack:* 5 AP, 2/0/3/0/0 - Deals 1 wound and 2 wound dice in damage.
+
+***Faerie Orb.*** *Maneuver*, *Special:* 7 AP, Range 5, 2/3/0/0/0 - The faerie dragon turns into an orb of blue fire and dashes 5 tiles in a straight line, hitting all creatures in its path. All creatures targeted make a Dexterity save taking 2 wounds and 2 wound dice in fire damage. The Dragon appears next to the creature, avoiding opportunity attacks or damaging effects while travelling.
+
+***Blink.*** *Maneuver, Reaction:* 3 AP</br>On being hit by an attack, maneuver, or spell the faerie dragon can momentarily blink out of existence. The dragon takes no effects from the attack and appears in their position at the start of their next turn.
+
+***Confusion Breath.*** *Once Per Day, Special:* 8 AP, 1/4/0/0/0</br>Breathes a euphoric fire that clouds creatures minds hitting all creatures in a 6x6 tile arc from the dragon. Creatures make a Willpower save, becoming confused for the next 10 minutes on fail. While confused, at the start of each turn they roll a wound die. On a wound they take no action, instead moving in a random direction. Each time they take damage they make a Willpower save against 2 superior dice, ending the effect on success. 
+___
+
+#### Night Hag
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     11 |
+ | **Wounds:**      |   11 | **Challenge:** |     14 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -1/0  | -1/0  |  2/1  |  1/0  |  3/1  |  2/2  |
+
+___
+***Resistance.*** This creature has _Resistance_ 1 against fire, cold, force, and death damage.
+
+***Hexproof.*** This creature is immune to Hex 1 and below.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 4/1/1 as their spellcasting roll, and cannot cast more than 12 times per long rest. They know the following spells: _Crow of Magthera, Sleep, Cloud of Teeth, Fear, Curse of Misfortune, Curse of Weakness_.
+
+**Actions**
+
+***Ghoulish Claws.*** *Melee Attack:* 5 AP, 3/0/2/0/0 - Deals 0/3 in poison damage. The creature is paralyzed until the end of its next turn on a critical.
+
+***Voodoo Doll.*** *Special:* 6 AP, Range 3, 3/1/2/0/0 - While holding a Voodoo Doll the Night Hag can attempt to bind it to a creature. The creature makes a Willpower save against this attack. On fail they are dominated by the Night Hag. They must obey any command given by the Night Hag as long as it does not harm them. For example, they cannot be commanded to jump off a cliff. The creature can choose to disobey the command, taking 2/2 in psychic damage instead.
+
+Only one creature can be bound to a Voodoo Doll. The link is broken when the Voodoo Doll is destroyed. The Night Hag must spend 7 days crafting a new one before it can use this ability again.
+___
+
+#### Death Hag
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     12 |
+ | **Wounds:**      |   13 | **Challenge:** |     18 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -2/0  | -1/0  |  3/2  |  1/0  |  4/2  |  2/2  |
+
+___
+***Resistance.*** This creature has _Resistance_ 1 against fire, cold, force, and death damage.
+
+***Hexproof.*** This creature is immune to Hex 1 and below.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 5/1/1 as their spellcasting roll, and cannot cast more than 12 times per long rest. They know the spells _Bleed, Sleep, Cloud of Teeth, Fear, Curse of Misfortune, Curse of Weakness, Inflict Wound, Laughing Skull_.
+
+**Actions**
+
+***Ghoulish Claws.*** *Melee Attack:* 5 AP, 3/1/2/0/0 - Deals 0/3 in poison damage. The creature is paralyzed until the end of its next turn on a critical.
+
+***Death Stare.*** *Special, Maneuver:* 8 AP, Range 8, 3/2/2/0/0 - Targeting a creature the Death Hag can see they make a Willpower save against this roll. On fail they become incapacitated and begin making death saving throws. They do not gain temporary wounds, instead removing their current wounds when failing a death save. If the creature drops to 0 health they die. If they are stabilized, either through healing or by a medicine check, they awake immediately with their remaining health.
+___
+
+#### Archfey
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     13 |
+ | **Wounds:**      |   27 | **Challenge:** |     45 |
+ | **Move/Sprint:** |  5/9 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/1  |  7/6  |  2/1  |  2/0  |  5/4  |  7/5  |
+
+___
+***Enchanting Presence.*** Any attack, maneuver, or spell attack against this target adds 4 Terrible dice to their rolls.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 7th level using 7/1/1 as their spellcasting roll, and cannot cast more than 7 times per long rest. They know the spells _Barrier, Counter Spell, Fire Shell, Haste, Starfall, Enchantment, Suggestion, True Sight, Forcewave, Power Word: Harm, Mass Fireball_.
+
+***Iron Sensitivity.*** This creature has _Vulnerability_ 1 to physical damage dealt by iron weapons.
+
+***Magic Resistance.*** This creature adds 2 critical successes to defense and saving throws against magic.
+
+**Actions**
+
+***Infallible Beauty.*** *Special, Reaction, Once per turn:* 2 AP, Range 5, 5/0/2/0/0 - Can be used when a creature in range attempts to make an attack against the Archfey. The creature makes a Charisma save against this attack. On fail they are overcome by the Archfey's beauty and the attack fails. Until the end of their next turn they are unable to take a hostile action against the Archfey. Succeeding against this attack makes you immune to it for 24 hours.
+
+***Feyblade.*** *Melee Attack:* 3 AP, 7/1/1/0/0 - Deals 1/1 in slashing damage, adding 0/2 in force damage on a critical.
+
+#### Giants
+
+#### Troll
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/4 | **AP:**        |    13 |
+ | **Wounds:**      |   10 | **Challenge:** |     8 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/2  |  1/0  |  4/3  | -2/0  | -1/0  | -2/0  |
+
+___
+***Regeneration.*** As long as this creature hasn't taken Holy or Fire damage they regenerate 2 wound dice of damage every round.
+
+***Troll Resistance.*** This creature has Resistance 2 to Poison damage and Vulnerability 1 to Fire and Holy damage.
+
+**Actions**
+This creature can only take 1 Bite action per turn.
+
+***Claws.*** *Melee Attack:* 6 AP, 3/1/1/0/0 - deals 3 wound dice.
+
+***Bite.*** *Melee Attack:* 6 AP, 3/1/2/0/0 - deals 1 wound and 3 wound dice.
+___
+
+#### Ogre
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  1/3 | **AP:**        |    11 |
+ | **Wounds:**      |   14 | **Challenge:** |     9 |
+ | **Move/Sprint:** |  4/1 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  5/3  | -2/0  |  5/5  | -1/0  |  1/0  | -1/0  |
+
+___
+
+**Actions**
+
+***Great Club.*** *Melee Attack:* 6 AP, 2/3/0/0/0 - deals 4 wound dice.
+
+***Grab.*** *Melee Attack:* 7 AP, 2/3/0/0/0 - Target makes a Strength or Dexterity save against the ogre. On fail the target is grappled, and the ogre can throw the creature without spending AP.
+
+***Throw.*** *Ranged Attack:* 6 AP, Range 7, 1/4/0/0/0 - Throws a nearby boulder, or whatever is in their hand at the time dealing 1 wound and 2 wound dice on hit. If the ogre is holding a creature it also takes damage from this attack without making a roll and they are no longer grappled.
+___
+
+#### Ogre Warrior
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  3/2 | **AP:**        |    11 |
+ | **Wounds:**      |   15 | **Challenge:** |    13 |
+ | **Move/Sprint:** |  4/1 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  6/3  | -2/0  |  5/5  | -1/0  |  1/0  | -1/0  |
+
+___
+
+**Actions**
+
+***Great Axe.*** *Melee Attack:* 6 AP, 3/2/1/0/0 - deals 1 wound and 3 wound dice.
+
+***Grab.*** *Melee Attack:* 7 AP, 3/2/1/0/0 - Target makes a Strength or Dexterity save against the ogre. On fail the target is grappled, and the ogre can throw the creature without spending AP.
+
+***Throw.*** *Ranged Attack:* 6 AP, Range 7, 2/3/1/0/0 - Throws a nearby boulder, or whatever is in their hand at the time dealing 1 wound and 2 wound dice on hit. If the ogre is holding a creature it also takes damage from this attack without making a roll and they are no longer grappled.
+
+***Shield-Bash.*** *Maneuver, Reaction:* 2 AP, 1/2/4/0/0 - After blocking a melee attack, the ogre can retaliate with its shield dealing 2 wound dice on hit. On crit the target is staggered until the start of its next turn.
+___
+
+#### Ogre Shaman
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/4 | **AP:**        |    12 |
+ | **Wounds:**      |   13 | **Challenge:** |    14 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/3  | -2/0  |  4/2  |  2/2  |  3/2  | -1/0  |
+
+___
+***Spellcaster.*** This creature has 3 proficiency with Curse spells and 1 proficiency with Arcane spells. They are a 3rd level spellcaster, have 15 mana and have a codex with the following spells: _Bleed_, _Firefly Swarm_, _Hexbolt_, _Command_, _Call Lightning_, _Fireball_.
+
+**Actions**
+
+***Staff.*** *Melee Attack:* 6 AP, 2/2/1/0/0 - deals 3 wound dice.
+___
+
+#### Ettin
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/4 | **AP:**        |    15 |
+ | **Wounds:**      |   20 | **Challenge:** |    20 |
+ | **Move/Sprint:** |  5/2 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  6/4  | -1/0  |  5/3  | -1/0  |  1/0  | -2/0  |
+
+___
+***Twin-Heads.*** The Ettin rolls initiative twice, taking two turns but only can only move once. Effects that Blind, Sleep, Stun, Fear, or Daze have no effect unless they effect both heads.
+
+***Poison Resistance.*** The Ettin has _Resistance_ 1 to poison damage and is immune to Poisons at level 1 or below.
+
+**Actions**
+This creature can only make 1 attack with the Great Club and Bone Axe each turn.
+
+***Great Club.*** *Melee Attack:* 6 AP, Reach, 3/2/1/0/0 - On hit deals 0/4 in bludgeoning damage.
+
+***Cleaving Axe.*** *Melee Attack:* 8 AP, Reach, 3/2/1/0/0 - Swings its felling axe, targeting 3 adjacent creatures in range. On hit deals 1/3 in slashing damage.
+___
+
+#### Depth Titan
+ |                  |      |                |      |
+ | :--------------- | ---: | :------------- | ---: |
+ | **Defense:**     |  4/2 | **AP:**        |   15 |
+ | **Wounds:**      |   30 | **Challenge:** |   35 |
+ | **Move/Sprint:** |  5/3 | **Size:**      | Huge |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  7/5  | -1/0  |  6/3  | -1/0  |  3/1  | -1/0  |
+
+___
+***Razor Carapace.*** While taking the Defend action adjacent creatures that make a melee attack against this creature take 0/2 in piercing damage.
+
+***Unstoppable.*** Any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Amphibious.*** This creature can breathe underwater and does not treat water as difficult terrain.
+
+**Actions**
+
+***Anchor.*** *Melee Attack:* 5 AP, 5/1/2/0/0 - deals 2/1 in bludgeoning damage, adding 0/3 on a critical.
+
+***Tremor Slam.*** *Melee Attack, Maneuver:* 7 AP, 5/1/2/0/0 - Hits all creatures within 2 tiles of the Depth Titan that are touching the ground. Creatures make a Stamina save against this attack. On fail they take 0/3 in bludgeoning damage, being knocked prone on a critical.
+
+***Anchor Toss.*** *Ranged Attack, Maneuver:* 5 AP, Range 5, 3/3/2/0/0 - Throws the anchor at a creature in range. The creature makes a Dexterity save, being pulled 3 tiles closer to the Depth Titan and taking 3/2 in bludgeoning damage.
+
+#### Monstrosities
+
+#### Frogbeast
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/1 | **AP:**        |     10 |
+ | **Wounds:**      |    4 | **Challenge:** |      2 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/1  |  2/1  |  1/0  | -1/0  |  1/0  | -1/0  |
+
+___
+***Deep strider.*** This creature has Slow 1 as long as it not in water.
+
+***Monstrous Resistance.*** This creature adds 1 crit success against attacks and 1 crit failure against spells.
+
+**Actions**
+
+***Spear.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - Deals 1 wound.
+
+***Poison Claws.*** *Maneuver, Melee Attack:* 4 AP, 1/1/3/0/0 - Deals 2 wound dice. On crit the target creature gains Poison 1 for 10 minutes. Until the creature cures this poison they go into a frenzy, attacking the closest target to them each round.
+___
+
+#### Frogbeast Mutant
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/2 | **AP:**        |     11 |
+ | **Wounds:**      |    5 | **Challenge:** |      4 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/2  |  2/1  |  2/1  | -1/0  |  1/0  | -1/0  |
+
+___
+***Deep strider.*** This creature has Slow 1 as long as it not in water.
+
+***Monstrous Resistance.*** This creature adds 1 crit success against attacks and 1 crit failure against spells.
+
+**Actions**
+
+***Spear.*** *Melee Attack:* 3 AP, 2/1/2/0/0 - Deals 1 wound.
+
+***Poison Claws.*** *Maneuver, Melee Attack:* 4 AP, 2/1/2/0/0 - Deals 2 wound dice. On crit the target creature gains Poison 1 for 10 minutes. Until the creature cures this poison they go into a frenzy, attacking the closest target to them each round.
+___
+
+#### Frogbeast Witch
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     11 |
+ | **Wounds:**      |    3 | **Challenge:** |      4 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  1/0  |  1/0  | -1/0  |  3/0  |  0/0  |
+
+___
+***Deep strider.*** This creature has Slow 1 as long as it not in water.
+
+***Monstrous Resistance.*** This creature adds 1 crit success against spells and 1 crit failure against attacks.
+
+***Spellcaster.*** This creature has 1 proficiency with Curse spells. They are a 2nd level spellcaster with 8 mana and can cast the following spells without a codex: _Black Tendrils_, _Hex_, _Hex Bolt_, _Curse of Fragility_, _Curse of Suffering_.
+
+**Actions**
+
+***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - Deals 1 wound die.
+___
+
+#### Gloom Stalker
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    4 | **Challenge:** |      3 |
+ | **Move/Sprint:** |  5/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  3/2  |  0/0  | -1/0  |  0/0  |  2/1  |
+
+___
+***Sunlight Sensitivity.*** This creature grants Combat Advantage while in direct sunlight.
+
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+**Actions**
+
+***Talons.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - Deals 2 wound dice.
+
+***Terrifying Gaze.*** *Special:* 5 AP, Range 5, 0/2/3/0/0 - Targetting a creature in range that can see the gloom stalker, the creature makes a Willpower save becoming afraid of the gloom stalker for 1 minute on fail. While in line of sight of the gloom stalker the creature cannot willingly move closer.
+___
+
+#### Harpy
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/2 | **AP:**        |     10 |
+ | **Wounds:**      |    4 | **Challenge:** |      4 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  0/0  |  3/1  |  0/0  |  0/0  |  2/1  | -1/0  |
+
+___
+***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
+
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+**Actions**
+
+***Talons.*** *Melee Attack:* 3 AP, 1/2/2/0/0 - Deals 2 wound dice.
+
+***Song of Allure.*** *Special:* 5 AP, 0/1/5/0/0 - The harpy sings a magical melody, effecting all Humanoids within 30 tiles. A creature in range that can hear the melody makes a Charisma save, becoming Charmed by the Harpy on fail. While Charmed the creature takes no action other than moving closer to the harpy. The creature will not avoid hazards, taking the most direct route. If the movement will cause harm to the creature, they take damage, or another creature spends 5 AP trying to wake them they may make another Charisma save, ending the effects on success. Once a creature has saved against the song they are immune to it for 24 hours. The creature has no memory of the time they were charmed.
+
+The Harpy cannot attack while singing and must sing every turn or the Charm ends.
+___
+
+#### Owlfeather Harpy
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/2 | **AP:**        |     10 |
+ | **Wounds:**      |    5 | **Challenge:** |      7 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  0/0  |  3/1  |  0/0  |  0/0  |  3/2  | -1/0  |
+
+___
+***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
+
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+**Actions**
+
+***Talons.*** *Melee Attack:* 3 AP, 0/3/2/0/0 - Deals 2 wound dice.
+
+***Dream eater.*** *Maneuver, Special Attack:* 5 AP, 0/3/2/0/0 - Works only on sleeping targets. Deals 3 wound dice in Death damage, healing the Harpy for the damage dealt. If this would kill the creature, they are incapacitated instead, taking 2 levels of exhaustion and waking with 1 health after a long rest.
+
+***Song of Sleep.*** *Special:* 5 AP, 0/1/5/0/0 - The harpy sings a magical melody, effecting all Humanoids within 30 tiles. A creature in range that can hear the melody makes a Charisma save, becoming Dazed until the end of their next turn. A dazed creature that fails their save falls asleep instead. The sleep is restless, giving no benefit from a long or short rest while asleep. After taking damage or another creature spends 5 AP to wake them they may make a Charisma save, automatically succeeding if the harpy is no longer singing.
+
+The Harpy cannot attack while singing and must sing every turn or the effects end.
+___
+
+#### Harpy Sorcerer
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/2 | **AP:**        |     11 |
+ | **Wounds:**      |    9 | **Challenge:** |      9 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -1/0  |  3/1  |  0/0  |  3/1  | -1/0  |  2/1  |
+
+___
+***Monstrous Resistance.*** This creature gains 2 Superior dice when saving against effects that cause Charm, Fear, or Sleep.
+
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+***Spellcaster.*** The Harpy Sorcerer has 2 proficiency with Arcane spells. They are a 4th level spellcaster with 14 mana and can cast the following spells: _Static Shock_, _Call Lightning_, _Slowfield_, _Lightning Bolt_.
+
+**Actions**
+
+***Talons.*** *Melee Attack:* 3 AP, 1/2/2/0/0 - Deals 2 wound dice.
+
+***Song of Storms.*** *Special:* 2 AP, 2/0/4/0/0 - The harpy sings a magical melody, creating strong winds and stormy weather. While singing, any ranged attacks or spells targeting a creature inside the winds can use this roll instead of their defense or saving roll. If the song continues for at least 1 minute storm clouds form and change the weather, lasting for 10 minutes after the song stops.
+
+The Harpy cannot attack while singing and must sing every turn or the Charm ends.
+___
+
+#### Sentient Slime
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  3/0 | **AP:**        |     11 |
+ | **Wounds:**      |    7 | **Challenge:** |      8 |
+ | **Move/Sprint:** |  3/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/1  |  0/0  |  4/4  | -2/0  |  2/0  | -2/0  |
+
+___
+***Poison Resistance.*** The Sentient Slime has _Resistance_ 2 to poison damage and is immune to Poisons at level 2 or below.
+
+***Amorphous.*** This creature has no defined shape. It can spread itself across a 3x3 tile area or squeeze itself through a 1 inch gap. Any movement while not maintaining its 1x1 form treats all tiles as difficult terrain.
+
+***Acidic.*** Any creature that touches or critically fails a melee attack against the Sentient slime takes 0/2 in poison damage.
+
+**Actions**
+
+***Bash.*** *Melee Attack:* 4 AP, 1/2/2/0/0 - Deals 1/2 in poison damage.
+
+***Consume.*** *Melee Attack:* 6 AP, 2/2/1/0/0 - Attempt to surround a medium or smaller creature with its body. The creature makes a Dexterity save, on fail they are restrained by the Sentient Slime and move with it. While restrained they are Silenced and cannot breathe. At the start of the creatures turns they take 1/2 in poison damage. Only one creature can be consumed at a time.
+___
+
+#### Black Tar
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  3/0 | **AP:**        |    11 |
+ | **Wounds:**      |   16 | **Challenge:** |     8 |
+ | **Move/Sprint:** |  3/2 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/1  |  0/0  |  4/4  | -2/0  |  2/0  | -2/0  |
+
+___
+***Poison Resistance.*** The Black Tar has _Resistance_ 2 to poison damage and is immune to Poisons at level 2 or below.
+
+***Unstable.*** When hit with a weapon dealing slashing or bludgeoning damage
+
+***Amorphous.*** This creature has no defined shape. It can spread itself across a 3x3 tile area or squeeze itself through a 1 inch gap. Any movement while not maintaining its 1x1 form treats all tiles as difficult terrain.
+
+***Acidic.*** Any creature that touches or critically fails a melee attack against the Sentient slime takes 0/2 in poison damage.
+
+**Actions**
+
+***Bash.*** *Melee Attack:* 4 AP, 1/2/2/0/0 - Deals 1/2 in poison damage.
+
+***Consume.*** *Melee Attack:* 6 AP, 2/2/1/0/0 - Attempt to surround a medium or smaller creature with its body. The creature makes a Dexterity save, on fail they are restrained by the Sentient Slime and move with it. While restrained they are Silenced and cannot breathe. At the start of the creatures turns they take 1/2 in poison damage. Only one creature can be consumed at a time.
+___
+
+#### Wendigo
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/1 | **AP:**        |     11 |
+ | **Wounds:**      |    7 | **Challenge:** |      8 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/2  |  3/2  |  2/0  | -2/0  |  0/0  |  2/1  |
+
+___
+***Poison Resistance.*** The Wendigo has _Resistance_ 1 to poison damage and is immune to Poisons at level 1 or below.
+
+***Voice Mimicry.*** This creature can emulate the voice of the creatures its killed or heard in the past 24 hours. A successful Insight check against this creatures Charisma save will determine the voice is fake.
+
+**Actions**
+
+***Claw.*** *Melee Attack:* 4 AP, 1/3/1/0/0 - Deals 2 wound dice.
+
+***Bite.*** *Melee Attack:* 6 AP, 2/3/1/0/0 - Deals 1 wound and 2 wound dice. On crit the target creature gains Poison 1. While poisoned any damage taken reduces your max wounds as well, recovering after a long rest. If the Wendigo is cursed, the target creature is also cursed with the same curse.
+___
+
+#### Serpent Warrior
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/2 | **AP:**        |     11 |
+ | **Wounds:**      |    9 | **Challenge:** |     13 |
+ | **Move/Sprint:** |  5/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/2  |  3/2  |  3/3  |  0/0  |  1/0  | -2/0  |
+
+___
+***Cursed Form.*** This creature adds a success to attack rolls for each curse and level of Hex they have.
+
+***Poisonous.*** This creature has _Resistance_ 1 to poison damage and is immune to level 1 Poisons.
+
+**Actions**
+
+***Flaming Scimitar.*** *Melee Attack:* 3 AP, 3/1/1/0/0 - Deals 1/0 in slashing damage and 0/2 in fire damage.
+
+***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0 - Grapples and bites a creature. The creature makes a Strength or Dexterity save against this roll. On fail they take 0/3 in poison damage, gaining Poison 2 for 10 minutes on a critical.
+___
+
+#### Serpent Curseblood
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/1 | **AP:**        |     11 |
+ | **Wounds:**      |   11 | **Challenge:** |     17 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/0  |  4/2  |  1/1  |  1/0  |  4/3  | -2/0  |
+
+___
+***Cursed Form.*** This creature adds a success to attack rolls for each curse and level of Hex they have.
+
+***Poisonous.*** This creature has _Resistance_ 1 to poison damage and is immune to level 1 Poisons.
+
+***Spellcaster.*** The Serpent Curseblood has 3 proficiency with Curse spells. They are a 5th level spellcaster, have 20 mana, and a codex with the following spells: _Bleed_, _Life Sense_, _Hex_, _Snake Totem_, _Curse of Misfortune_, _Inflict Wounds_, _Curse of Weakness_, _Mass Hex_, _Curse of Pain_.
+
+**Actions**
+
+***Poisoned Claws.*** *Melee Attack:* 5 AP, 2/2/1/0/0 - Deals 0/3 in Poison damage, inflicting Poison 2 for 10 minutes on a critical.
+
+***Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0 - Grapples and bites a creature. The creature makes a Strength or Dexterity save against this roll. On fail they take 0/3 in poison damage, gaining Poison 2 for 10 minutes on a critical.
+___
+
+#### Snowstalker
+ |                  |      |                |      |
+ | :--------------- | ---: | :------------- | ---: |
+ | **Defense:**     |  2/3 | **AP:**        |   14 |
+ | **Wounds:**      |   23 | **Challenge:** |   30 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Huge |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  7/6  |  2/0  |  5/5  | -2/0  |  0/0  | -1/0  |
+
+___
+***Monstrous Resistance.*** This creature has Resistance 1 to Fire and Cold damage.
+
+***Burrow.*** This creature can burrow through the snow as part of its movement, becoming untargetable. It cannot burrow or unburrow during the same turn.
+
+**Actions**
+
+***Bite.*** *Melee Attack:* 7 AP, Reach 1, 5/1/1/0/0 - Deals 3 wounds of piercing damage, adding 4 wound dice in fire damage on crit. If this attack hits the creature is grappled in the Snowstalker's mouth as long as it is medium or smaller.
+
+***Swallow.*** *Melee Attack:* 7 AP, Reach 1, 5/1/1/0/0 - Only usable against a creature grappled by the Snowstalker. The grappled creature makes a Strength save, taking 4 wound dice in fire damage and is swallowed on fail. While swallowed they take 4 wound dice in poison damage at the start of their turn and are Blind, Restrained, and gain Poison 1. Each time the Snowstalker takes damage it must make a concentration check as if it is concentrating on a spell, spitting out the creature on fail.
+___
+
+#### Lamia
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/5 | **AP:**        |    13 |
+ | **Wounds:**      |   14 | **Challenge:** |    17 |
+ | **Move/Sprint:** |  4/8 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/1  |  5/4  | -1/0  |  0/0  |  2/1  |  4/3  |
+
+___
+***Scorned.*** This creature adds 2 superior dice against charming effects.
+
+***Lingering Magic.*** The effects from the spells _Guidance_ and _Holy Protection_ this creature casts last for the full minute and their effects can be used once per turn.
+
+***Spellcaster.*** The Lamia has 2 proficiency with Divine spells. They are a 2nd level spellcaster, have 7 mana, and a codex with the following spells: _Guidance, Holy Protection, Chilling Fog, Tremor_.
+
+
+**Actions**
+
+***Poison Claws.*** *Melee Attack:* 5 AP, 4/1/0/0/0 - Deals 1/2 in slashing damage. The creature gains Poison 1 for 1 hour, or Poison 2 on a critical.
+
+***Paralysis Bite.*** *Melee Attack:* 7 AP, 2/3/1/0/0 - Grapples and bites a creature. The creature makes a Strength or Dexterity save against this roll. On fail they take 0/3 in poison damage and gain Poison 1 for 10 minutes. They are Paralysed for the duration of the poison.
+
+***Hypnotic Gaze.*** *Special, Maneuver:* 8 AP, Range 10, 3/1/1/0/0 - Puts a creature under a hypnotic trance. The creature makes a Willpower save against this attack. On fail they are put in a trance for 10 minutes. While in a trance they take no action during their turn and automatically fail Strength, Dexterity, and Defense rolls. The effect ends after they are attacked or take damage. A creature that succeeds their save is immune to this attack for 24 hours.
+
+#### Mortals
+
+#### Goblin
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/2 | **AP:**        |    10 |
+ | **Wounds:**      |    1 | **Challenge:** |   1/2 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/1  |  2/1  |  0/0  | -1/0  |  1/0  |  0/0  |
+
+___
+***Quick.*** This creature is immune to opportunity attacks when using the Move action (but not sprint).
+
+**Actions**
+
+***Dagger.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - deals 1/0 piercing damage.
+
+***Sneak Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0 - Must be flanking the target. Deals 1/0 in piercing damage, adding 0/1 for every crit rolled.
+___
+
+#### Mix In's
+
+**Shielded:** Challenge + 1/2. The Goblin gains a buckler, adding 0/1 to its defense roll.
+
+**Ranged:** Changes the Goblins _Dagger_ action to _Bow_: *Ranged Attack:* 5 AP, Ranged 10/30, 1/1/3/0/0 - deals 1/1 piercing damage.
+
+**Dual Wield:** The Goblin uses two daggers, gaining the _Off-Hand Dagger_ action: *Melee Attack:* 2 AP, 0/2/3/0/0 - deals 1/0 in piercing damage.
+
+
+#### Goblin Fighter
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/3 | **AP:**        |    10 |
+ | **Wounds:**      |    2 | **Challenge:** |     1 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/1  |  3/1  |  0/0  | -1/0  |  1/0  |  0/0  |
+
+___
+***Quick.*** This creature is immune to opportunity attacks when using the Move action (but not sprint).
+
+**Actions**
+
+***Dagger.*** *Melee Attack:* 5 AP, 2/1/2/0/0 - deals 1 wound.
+
+***Sneak Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 3/1/2/0/0 - Must be flanking the target. Deals 1 wound, and rolls an additional wound die for every crit rolled.
+___
+
+#### Mix In's
+
+**Shielded:** Challenge +1/2. The Goblin Fighters gains a buckler, adding 0/1 to its defense roll.
+
+**Ranged:** Changes the Goblin Fighters _Dagger_ action to _Bow_: *Ranged Attack:* 5 AP, Ranged 10/30, 2/1/2/0/0 - deals 1/1 piercing damage.
+
+**Armored:** Challenge +1. Max Wounds +1. The Goblin fighter uses hide armor, changing its defense to 1/3.
+
+#### Goblin Shaman
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/2 | **AP:**        |    10 |
+ | **Wounds:**      |    2 | **Challenge:** |     3 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  1/0  |  0/0  |  2/0  |  1/1  |  0/0  |
+
+___
+***Quick.*** This creature is immune to opportunity attacks when using the Move action (but not sprint).
+
+***Spellcaster.*** This creature has 2 proficiency with Arcane spells. They are a 2nd level spellcaster with 5 mana and have a codex with the following spells: _Firebolt, Cold Snap, Static Shock, Poison Trap_.
+
+**Actions**
+
+***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - deals 1 wound.
+___
+
+#### Tlani Assassin
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/3 | **AP:**        |     11 |
+ | **Wounds:**      |    7 | **Challenge:** |      7 |
+ | **Move/Sprint:** |  4/6 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  4/3  |  1/1  |  1/0  |  1/0  | -1/0  |
+
+___
+***Poison Dagger.*** When making attacks with their daggers they give the target Poison 1 for 1 minute on crit.
+
+**Actions**
+
+***Poison Dagger.*** *Melee Attack:* 3 AP, 3/1/1/0/0 - You may reroll 1 die in the attack roll and this deals 1 wound on hit.
+
+***Poison Dagger (off-hand).*** *Melee Attack:* 2 AP, 0/4/1/0/0 - You may reroll 1 die in the attack roll and this deals 1 wound on hit.
+
+***Sneak Attack.*** *Maneuver, Melee Attack:* 3 AP, 3/1/1/0/0 - Only usable if you are flanking or have Combat Advantage. You may reroll 4 dice in the attack roll and this deals 1 wound on hit. For every crit in your attack roll add an extra wound die to the damage.
+
+***Sucker Punch.*** *Maneuver, Reaction:* 2 AP, 3/1/1/0/0 - When an adjacent creature is casting a spell you may attack them before their spell completes, dealing 1 wound die on hit. If the attack lands the creature adds 1 bad die, plus a bad die for every crit in your attack roll to their spellcasting roll.
+___
+
+#### Tlani Witch
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     11 |
+ | **Wounds:**      |    6 | **Challenge:** |     12 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -1/0  |  3/2  |  1/1  |  0/0  |  4/3  |  1/0  |
+
+___
+
+***Spellcaster.*** This creature has 3 proficiency in Curse spells. They are a 4th level spellcaster with 18 mana and have a codex with the following spells: _Eldritch Blast, Hex, Quicken, Apathy, Shifting-Image, Invisibility_.
+
+**Actions**
+
+***Dagger.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - deals 1/0 in piercing damage.
+___
+
+#### Orc
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/3 | **AP:**        |     10 |
+ | **Wounds:**      |    9 | **Challenge:** |     10 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/3  |  1/1  |  3/1  | -1/0  |  1/0  | -1/0  |
+
+___
+***Enduring.*** When taking lethal damage, as long as the attack dealt 3 or fewer wounds the Orc survives with 1 wound. Can only be used once per day.
+
+***Brutal Strikes.*** When the Orc crits with an attack, add a wound die to the damage.
+
+***Deadly Warrior.*** The Orc has expertise with attacks.
+
+**Actions**
+
+***Great Sword.*** *Melee Attack:* 4 AP, 2/2/1/0/0 - Deals 1 wound and 1 wound die.
+
+***Javelin.*** *Ranged 5/10 Attack:* 4 AP, 1/0/4/0/0 - Deals 1 wound.
+
+***Wild Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/3/1/0/0 - Deals 1 wound and 2 wound dice. If the attack deals 3 or more wounds the target gains a random Lesser Wound. After attacking, the Orc grants combat advantage to all attackers until the start of their next turn.
+___
+
+#### Orc Vargrider
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  1/3 | **AP:**        |    11 |
+ | **Wounds:**      |   12 | **Challenge:** |    12 |
+ | **Move/Sprint:** |  6/6 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/3  |  3/3  |  3/0  | -1/0  |  1/0  | -1/0  |
+
+___
+***Enduring.*** When taking lethal damage, as long as the attack dealt 3 or fewer wounds the Orc survives with 1 wound. Can only be used once per day.
+
+***Brutal Strikes.*** When the Orc crits with an attack, add a wound die to the damage.
+
+***Deadly Warrior.*** The Orc has expertise with attacks.
+
+**Actions**
+
+***Bone Spear.*** *Melee Attack:* 4 AP, 2/1/2/0/0 - Deals 1 wound.
+
+***Javelin.*** *Ranged 5/10 Attack:* 4 AP, 3/0/2/0/0 - Deals 1 wound.
+
+***Aimed Shot.*** *Maneuver*, *Ranged 5/10 Attack:* 5-8 AP, 3/0+/2/0/0 - Deals 1 wound. For every AP above 5 spent on this attack add a proficiency die to the attack roll. Add a wound die to the damage for each crit, up to a max of 3.
+
+***Pinning Jump.*** *Maneuver*, *Melee Attack:* 7 AP, 2/2/2/0/0 - Deals 3 wound dice. Only usable after moving at least 3 tiles. The Warg jumps at a target. On hit the target is knocked prone and grappled by the Warg on crit. If the attack misses the target is pushed aside 1 tile and the Wargrider moves to their space if possible.
+___
+
+#### Orc Shaman
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     11 |
+ | **Wounds:**      |    8 | **Challenge:** |     14 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/0  | -1/0  |  2/0  | -1/0  |  3/0  |  3/1  |
+
+___
+***Enduring.*** When taking lethal damage, as long as the attack dealt 3 or fewer wounds the Orc survives with 1 wound. Can only be used once per day.
+
+***Spellcaster.*** The Orc Shaman has 3 proficiency with Curse spells and 1 proficiency with Divine spells. They are a 4th level spellcaster with 12 mana and a codex with the following spells: _Hex, Quicken, Web, Frog Morph, Healing Word, Regeneration_.
+
+**Actions**
+
+***Staff.*** *Melee Attack:* 5 AP, 0/2/3/0/0 - Deals 1 wound.
+
+#### Peasant
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    2 | **Challenge:** |    1/4 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/0  |  0/0  |  0/0  |  0/0  |  1/0  |  0/0  |
+
+___
+
+**Actions**
+
+***Improvised Weapon.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - Deals 1 wound.
+___
+
+#### Bandit
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    3 | **Challenge:** |      1 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/1  |  1/1  |  1/0  |  0/0  | -1/0  |  1/0  |
+
+___
+
+**Actions**
+
+***Short Sword.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - Deals 1 wound.
+___
+
+#### Bandit Leader
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/3 | **AP:**        |     11 |
+ | **Wounds:**      |    5 | **Challenge:** |      5 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/1  |  1/1  |  1/0  |  0/0  |  0/0  |  1/0  |
+
+___
+***Leadership.*** All allied bandits add 1 proficiency die to their saving throws while within 5 tiles of the Bandit Leader.
+
+**Actions**
+
+***Short Sword.*** *Melee Attack:* 4 AP, 1/1/3/0/0 - Deals 1 wound.
+
+***Healing Surge.*** *Special:* 3 AP</br>Usable once per day. Roll 3 wound dice, healing for the wounds rolled.
+___
+
+#### Apprentice
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    3 | **Challenge:** |      4 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -1/0  |  1/0  |  0/0  |  2/1  |  1/1  |  1/0  |
+
+___
+***Spellcaster.*** This creature has 1 proficiency with Arcane spells. They are a 2nd level caster with 6 mana and a codex with the following spells: _Firebolt, Static Shock, Arcane Blasts, Call Lightning, Combust_.
+
+**Actions**
+
+***Dagger.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - Deals 1/0 in piercing damage.
+___
+
+#### Wizard
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     11 |
+ | **Wounds:**      |    7 | **Challenge:** |     11 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -1/0  |  1/0  |  1/1  |  3/2  |  2/1  |  1/0  |
+
+___
+***Spellcaster.*** The Wizard has 3 proficiency with Arcane spells. They are a 4th level spellcaster, have 15 mana, and a codex with the following spells: _Firebolt, Detect Magic, Blink, Elemental Shell, Counter Spell, Fireball, Flight, Major Image, Lightning Bolt_. 
+
+**Actions**
+
+***Staff.*** *Melee Attack:* 5 AP, 0/0/5/0/0 - Deals 0/2 in bludgeoning damage.
+
+***Guided Strike.*** *Melee Attack, Maneuver:* 4 AP, 3/0/2/0/0 - This creature can spend 1 mana to add 1/0 of any elemental damage to the attack. The attack ignores 1 level of resistance. On hit deals 0/2 in bludgeoning damage.
+___
+
+#### Assassin
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/4 | **AP:**        |     11 |
+ | **Wounds:**      |    7 | **Challenge:** |     12 |
+ | **Move/Sprint:** |  4/6 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  0/0  |  4/3  |  1/1  | -1/0  |  2/1  |  1/0  |
+
+___
+***Uncanny Dodge.*** Once per turn this creature can spend 2 AP to gain _Resistance_ 2 to all damage except psychic damage.
+
+***Infiltrator.*** This creature has expertise in Stealth and Perception.
+
+***Assassinate.*** Once per round when this creature lands a critical hit it adds 2 wound dice to the damage.
+
+**Actions**
+This creature dual wields daggers and may make an Offhand attack (2 AP) with its Poisoned Dagger attack.
+
+***Poisoned Dagger.*** *Melee Attack:* 4 AP, 1rr, 3/1/1/0/0 - Deals 1/0 in piercing damage, inflicting Poison 1 on a critical.
+
+***Sneak Attack.*** *Melee Attack:* 4 AP, 4rr, 2/1/2/0/0 - This can only be used when flanking a creature or when they have Combat Advantage. Deals 1/0 in piercing damage, adding 0/1 for each critical rolled. Any blank wounds rolled are rerolled.
+___
+
+#### Shaman
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/3 | **AP:**        |     11 |
+ | **Wounds:**      |    8 | **Challenge:** |     11 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/1  | -2/0  |  1/1  |  1/0  |  3/2  |  2/0  |
+
+___
+***Spellcaster.*** The Shaman has 2 proficiency with Curse and Divine spells. They are a 4th level spellcaster, have 14 mana, and a codex with the following spells: _Guidance, Firefly Swarm, Hex, Tremor, Enhance Ability, Gust, Snake Totem, Frog Morph, Regeneration_.
+
+**Actions**
+
+***Staff.*** *Melee Attack:* 5 AP, 1/0/4/0/0 - Deals 0/2 in bludgeoning damage.
+
+***Guided Strike.*** *Melee Attack, Maneuver:* 4 AP, 2/1/2/0/0 - This creature can spend 1 mana to add 1/0 of any elemental damage to the attack. The attack ignores 1 level of resistance. On hit deals 0/2 in bludgeoning damage.
+___
+
+#### Soldier
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/4 | **AP:**        |     10 |
+ | **Wounds:**      |    5 | **Challenge:** |      6 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/1  |  1/0  |  1/1  |  0/0  |  1/0  |  1/0  |
+
+___
+
+***Battle Formation.*** This creature adds 1 superior die to their Strength and Dexterity saving throws if they are adjacent to an ally with _Battle Formation_.
+
+***Spear Wall.*** Once per turn when a creature enters the Soldiers zone of control they may make an opportunity attack against them, stopping their move action on a critical.
+
+**Actions**
+
+***Spear.*** *Melee Attack:* 5 AP, Reach 1, 2/1/2/0/0 - Deals 1/0 in piercing damage.
+___
+
+#### Archer
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/3 | **AP:**        |     10 |
+ | **Wounds:**      |    4 | **Challenge:** |      7 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/1  |  3/2  |  0/0  |  0/0  |  2/1  |  1/0  |
+
+___
+
+***Keen Eyes.*** This creature adds 1 superior die to perception checks.
+
+**Actions**
+
+***Bow.*** *Ranged Attack:* 4 AP, Range 15/25, 3/0/2/0/0 - Deals 1/1 in piercing damage.
+
+***Aimed Shot.*** *Ranged Attack, Maneuver:* 4-8 AP, Range 15/25, 3/0/2/0/0 - Can only be used against a creature 3 or more tiles away. Add an Enhanced die to the attack roll for every AP spent above the minimum. On hit deals 1/1 in piercing damage, adding a wound die for each critical up to a max of 3.
+___
+
+#### Knight
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  3/2 | **AP:**        |     11 |
+ | **Wounds:**      |   10 | **Challenge:** |     15 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/3  |  1/0  |  2/1  |  0/0  |  1/1  |  1/0  |
+
+___
+
+***Battle Formation.*** This creature adds 1 superior die to their Strength and Dexterity saving throws if they are adjacent to an ally with _Battle Formation_.
+
+**Actions**
+
+***Sword.*** *Melee Attack:* 5 AP, Reach 1, 4/0/1/0/0 - Deals 1/0 in slashing damage, adding 0/1 on a critical.
+
+***Flurry.*** *Melee Attack, Maneuver:* 6 AP, Reach 1, 4/0/1/1/0 - Makes two attacks against a creature, dealing 1/0 in slashing damage and adding 0/1 on a critical.
+
+***Shield Slam.*** *Melee Attack:* 2 AP, Reach 1, 4/1/1/0/0 - Deals 1/0 in bludgeoning damage and staggers the creature. On a critical the creature is knocked prone instead of staggered.
+
+#### Outsiders
+
+#### Eye of Morgan
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    4 | **Challenge:** |      4 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  0/0  |  2/2  |  1/0  |  3/2  | -1/0  |  1/0  |
+
+___
+***Magic Sight.*** This creature's large eye can see the lingering effects of magic. It can see creatures under magical effects, see creatures hidden through magic, and can see disguised creatures as their true form. This feat has no effect if this creature is blinded.
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 4 AP, 1/1/3/0/0 - Deals 2 wound dice in damage.
+
+***Tearing Gaze.*** *Maneuver, Ranged 3 Special:* 6 AP, 1/2/2/0/0 - The target creature makes an Intelligence save. On fail they take 1 wound and 1 wound die in Psychic damage and it learns a secret or piece of information from the targets mind. On crit the target is stunned until the end of their next turn.
+___
+
+#### Void Spawn
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  1/2 | **AP:**        |    10 |
+ | **Wounds:**      |    3 | **Challenge:** |     4 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/1  |  2/2  |  1/1  | -1/0  |  0/0  | -1/0  |
+
+___
+
+**Actions**
+
+***Claws.*** *Melee Attack:* 3 AP, 2/1/2/0/0 - Deals 2 wound dice in damage.
+
+***Bite.*** *Melee Attack, Once per turn:* 3 AP, 2/2/2/0/0 - Deals 1 wound and 1 wound die in damage.
+___
+
+#### Watcher
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     11 |
+ | **Wounds:**      |    8 | **Challenge:** |      7 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -1/0  |  2/0  |  0/0  |  3/0  |  2/0  |  0/0  |
+
+___
+***Mimicry Casting.*** This creature does not require a codex to cast spells. Regardless of spell type they roll 0/3/2/0/0 for all spells, and add 2 Superior dice when the target of _Counter Spell_. They have 5 2nd level spell slots, but do not know any spells naturally. Instead the Merculent copies spells cast around them of 2nd level and below. The Merculent can cast the spell for the next 24 hours, after which the spell is forgotten.
+
+***Hover.*** This creature has flying and hovers over the ground.
+
+**Actions**
+
+***Tentacle.*** *Reach 1, Melee Attack:* 3 AP, 0/2/3/0/0 - Deals 1 wound. Target gains Poison 1 for 10 minutes.
+___
+
+#### Mind Whisperer
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/2 | **AP:**        |     11 |
+ | **Wounds:**      |    8 | **Challenge:** |     10 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  1/1  |  1/0  |  2/1  |  1/0  |  4/3  | -1/0  |
+
+___
+
+***Spellcasting.*** This creature is a 4th level spellcaster. It has 3 proficiency in curse spells, 14 mana, and can cast the following spells: _Occult Whispers_, _Dull Intellect_, _Shroud of Darkness_, _Paralytic Cloud_.
+
+**Actions**
+
+***Staff.*** *Melee Attack:* 5 AP, 0/1/4/0/0 - Deals 2 wound dice in damage.
+
+***Summon Void Spawn.*** *Special:* 8 AP</br>Roll 2 superior dice, summoning a Void Spawn for each success. Reduce the successes by 1 for each time this was used in the last 24 hours. The Void Spawn act immediately.
+
+***Command.*** *Special:* 3 AP, Range 5</br>Telepathically command 3 Void Spawn in range to move up to their movement speed. This movement provokes opportunity attacks.
+___
+
+#### Mindful One
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     11 |
+ | **Wounds:**      |   10 | **Challenge:** |     15 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/3  |  1/0  |  1/0  |  3/3  |  2/2  | -1/0  |
+
+___
+***Telepathic Sight.*** In addition to normal sight this creature can sense any creature with an Intelligence of -1 or more within 30 tiles of it. When this creature is Dazed or Stunned it is also Blind.
+
+**Actions**
+
+***Grappling Attack.*** *Melee Attack:* 4 AP, 3/0/2/0/0 - Target creature makes a Strength or Dexterity save, taking 1 wound in piercing damage and is grappled on fail. While grappled they cannot make reactions. At the start of the creatures turn it makes an Intelligence save against this creatures Intelligence save, being incapacitated until the start of its next turn on fail.
+
+***Psychic Stare.*** *Maneuver, Special:* 5 AP, Range 5, 3/0/2/0/0 - Can only target a creature it can see with its Telepathic Sight. Target creature makes an Intelligence save, being dazed on fail or incapacitated on crit until the end of their next turn.
+
+***Devour Mind.*** *Melee Attack:* 10 AP, 3/0/2/0/0 - Only usable against a creature grappled by the mind flayer and automatically critically succeeds if they are incapacitated. Target makes a Strength save, taking 3 wounds in piercing damage, adding 4 wound dice on crit. If this drops a creature to 0 health they immediately die.
+___
+
+#### Void Speaker
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/3 | **AP:**        |     12 |
+ | **Wounds:**      |   16 | **Challenge:** |     30 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/2  |  1/0  |  1/0  |  6/4  |  3/2  | -1/0  |
+
+___
+***Telepathic Sight.*** In addition to normal sight this creature can sense any creature with an Intelligence of -1 or more within 100 tiles of it. When this creature is Dazed or Stunned it is also Blind.
+
+***Spellcaster.*** This creature has 4 proficiency with Arcane spells. They are a 6th level spellcaster with 40 mana and have a codex with the following spells: _Dispel Magic_, _Misty Step_, _Counter Spell_, _Phantasmal Blades_, _Fireball_, _Lightning Bolt_, _Wall of Fire_, _Forcewave_, _Anti-Magic Field_.
+
+**Actions**
+
+***Grappling Attack.*** *Melee Attack:* 4 AP, 3/0/2/0/0 - Target makes a Strength or Dexterity save. On fail they take 1/0 in piercing damage and are grappled. While grappled they cannot make reactions. At the start of the creatures turn it makes an Intelligence save against this creatures Intelligence save, being incapacitated until the start of its next turn on fail.
+
+***Psychic Scream.*** *Maneuver, Special:* 5 AP, Range 5, 3/3/0/0/0 - All hostile creatures in range make an Intelligence save. On fail taking 2/2 in psychic damage and are stunned for 2 turns. At the end of their next turn they may make the save again, ending the effects on success.
+
+***Devour Mind.*** *Melee Attack:* 10 AP, 4/0/2/0/0 - Only usable against a creature grappled by the mind flayer and automatically succeeds if they are incapacitated. The creature makes a Strength save. On fail they take 3/0 in piercing damage, adding 0/4 on a critical. If this drops a creature to 0 health they immediately die.
+
+#### Undead
+
+#### Zombie
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    6 | **Challenge:** |      2 |
+ | **Move/Sprint:** |  3/1 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/2  |  0/0  |  2/2  | -2/0  |  0/0  |  0/0  |
+
+___
+***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Fortitude.*** When taking lethal damage as long as the attack was not a critical, roll a wound die. On blank the Zombie survives with 1 health.
+
+**Actions**
+
+***Slam.*** *Melee Attack:* 5 AP, 0/3/2/0/0 - Deals 3 wound dice.
+
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 1/2/2/0/0 - Creature makes a Strength or Dexterity save against the attack. On hit they take 1/1 in piercing damage, are grappled and gain Poison 1.
+___
+
+#### Skeleton
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/4 | **AP:**        |     10 |
+ | **Wounds:**      |    3 | **Challenge:** |      2 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/0  |  1/0  |  2/0  | -1/0  |  0/0  | -1/0  |
+
+___
+***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Skeletal Form.*** This creature has _Resistance 1_ to piercing damage and _Vulnerability 1_ to bludgeoning damage.
+
+**Actions**
+
+***Rusty Sword.*** *Melee Attack:* 5 AP, 2/0/3/0/0 - Deals 1 wound.
+
+***Press the Attack.*** *Maneuver*, *Melee Attack:* 5 AP, 2/1/3/0/0 - Deals 1 wound. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
+___
+
+#### Skeleton Knight
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/4 | **AP:**        |     11 |
+ | **Wounds:**      |    5 | **Challenge:** |      6 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  3/1  |  1/1  |  3/1  | -1/0  |  0/0  | -1/0  |
+
+___
+***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Skeletal Form.*** This creature has _Resistance 1_ to piercing damage and _Vulnerability 1_ to bludgeoning damage.
+
+**Actions**
+
+***Spear.*** *Reach 1*, *Melee Attack:* 5 AP, 2/1/2/0/0 - Deals 1 wound.
+
+***Enhanced Press the Attack.*** *Maneuver*, *Melee Attack:* 4 AP, 2/2/2/0/0 - Deals 1 wound and 1 wound die. On hit the target is pushed back 1 tile and the skeleton moves to occupy the space, avoiding opportunity attacks. On crit the target is staggered until the start of their next turn.
+
+***Enhanced Shield Slam.*** *Maneuver*, *Melee Attack:* 3 AP, 2/2/2/0/0 - Deals 1 wound. Hit a target with your shield staggering them on hit and knocking them prone on a critical.
+___
+
+#### Ghost
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    4 | **Challenge:** |      4 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -1/0  |  2/0  |  0/0  |  0/0  |  2/0  |  1/0  |
+
+___
+***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Ethereal.*** This creature has _Resistance_ 2 to all physical damage from non-silvered weapons and _Vulnerability_ 1 to Force damage and attacks from magical weapons. This creature may move through walls and solid objects at will, but cannot enter a wall if they would end their turn there.
+
+***Ghostly Form.*** This creature has no physical body and is immune to the Charm, Possession, and Poison conditions.
+
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
+
+**Actions**
+
+***Grasp.*** *Melee Attack:* 5 AP, 0/2/3/0/0 - Deals 2 wound dice in cold damage.
+
+***Possess.*** *Maneuver*, *Melee Special:* 10 AP, 0/1/4/0/0 - The target makes a Charisma save, becoming Possessed by the Ghost on fail. While possessed the Ghost controls all actions the creature takes and is untargetable. Every time the creature takes 1 wound in damage they may make the Charisma save again, ending the possession on success. If the creature becomes incapacitated the possession ends with the Ghost appearing in an adjacent tile.
+___
+
+#### Shadow
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    5 | **Challenge:** |      6 |
+ | **Move/Sprint:** |  4/4 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| -1/0  |  3/0  |  1/0  |  0/0  |  1/0  |  1/0  |
+
+___
+***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Ethereal.*** This creature has _Resistance_ 2 to all physical damage from non-silvered weapons and _Vulnerability_ 1 to Force damage and attacks from magical weapons. This creature may move through walls and solid objects at will, but cannot enter a wall if they would end their turn there.
+
+***Ghostly Form.*** This creature has no physical body and is immune to the Charm, Possession, and Poison conditions.
+
+***Flying.*** This creature can fly with its movement and is immune to ground based effects.
+
+**Actions**
+
+***Grasp.*** *Melee Attack:* 5 AP, 1/2/2/0/0 - On hit deals 0/2 in death damage.
+
+***Strength Drain.*** *Maneuver*, *Melee Attack:* 7 AP, 1/0/4/0/0 - The target makes a Stamina save, taking 1 wound in death damage, healing the Shadow for 1 wound. The target loses 1 Strength for every crit rolled, up to 2. Creatures regain their Strength after a long rest or after _Cleanse_ has been cast on them. A creature with a Strength of -3 or less dies, becoming a Shadow in 1 hour.
+___
+
+#### Corpse Beast
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/4 | **AP:**        |    13 |
+ | **Wounds:**      |   13 | **Challenge:** |     9 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/2  | -2/0  |  4/1  |  0/0  |  1/0  |  1/1  |
+
+___
+***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Aura of Gloom.*** All undead within 5 tiles of this creature gain an extra proficiency die on all attacks and saving throws.
+
+***Ghoul Form.*** This creature is highly resistant to poison and paralysis. Paralysis is removed at the end of its turn and it reduces the level of Poison each turn without making a Stamina save.
+
+**Actions**
+
+***Claw.*** *Melee Attack:* 5 AP, 1/3/1/0/0 - Deals 3 wound dice. On crit the target is paralyzed for 1 minute.
+
+***Devour.*** *Maneuver*, *Melee Attack:* 7 AP, 0/4/1/0/0 - Only usable against paralyzed living creatures with a size of Medium or smaller. Target takes 2 wound dice in damage and are swallowed by the Corpse Beast. While they are devoured the Corpse Beasts movement is reduced to 1. The creature is incapacitated and at the start of their turn takes a wound in damage and gains a random Lesser Wound. After taking 5 or more damage in a single round the Corpse Beast regurgitates the creature leaving them prone in an adjacent tile. Only one creature may be Devoured at a time. A creature that dies inside a Corpse Beast is regurgitated as a Zombie.
+___
+
+#### Zombie Ogre
+ |                  |      |                |       |
+ | :--------------- | ---: | :------------- | ----: |
+ | **Defense:**     |  0/3 | **AP:**        |    12 |
+ | **Wounds:**      |   14 | **Challenge:** |    10 |
+ | **Move/Sprint:** |  4/1 | **Size:**      | Large |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  5/4  | -2/0  |  4/3  | -2/0  |  0/0  |  0/0  |
+
+___
+***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Fortitude.*** When taking lethal damage as long as the attack was not a critical, roll a wound die. On a blank the Zombie Ogre survives with 1 health.
+
+**Actions**
+
+***Slam.*** *Melee Attack:* 5 AP, 1/4/0/0/0 - Deals 1/3 in bludgeoning damage.
+
+***Bite.*** *Melee Attack, Once per turn:* 7 AP, 1/4/0/0/0 - Creature makes a Strength or Dexterity save against the attack. On hit they take 2/1 in piercing damage, are grappled and gain Poison 1.
+___
+
+#### Boneclaw
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  1/3 | **AP:**        |     12 |
+ | **Wounds:**      |   14 | **Challenge:** |     13 |
+ | **Move/Sprint:** |  4/3 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/3  |  2/2  |  2/0  | -1/0  |  1/1  | -1/0  |
+
+___
+***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Turn Resistance.*** This creature adds 2 superior dice to effects that turn undead.
+
+***Undying.*** If this creature dies without having taken Holy damage in the past hour it will resurrect after 24 hours.
+
+**Actions**
+
+***Rake.*** *Melee Attack:* 4 AP, Reach 2, 2/2/1/0/0 - Deals 3 wound dice in damage. On crit the target creature gains a Lesser Wound: Bleeding. Attacks against a bleeding creature reroll all blank wound dice.
+
+***Impaling Claw.*** *Maneuver, Melee Attack:* 5 AP, Reach 2, 3/1/1/0/0 - Deals 1 wound and 1 wound die. On crit the target is pulled 2 tiles towards the boneclaw.
+
+***Blinding Shadows.*** *Maneuver*, *Melee Attack:* 6 AP, 2/0/3/0/0 - All adjacent creatures are bathed in shadows. Creatures make a Stamina save, taking 2 wound dice on fail. On crit the target is blind for one minute.
+___
+
+#### Death Knight
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  4/2 | **AP:**        |     14 |
+ | **Wounds:**      |   25 | **Challenge:** |     20 |
+ | **Move/Sprint:** |  4/2 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/4  | -2/0  |  6/4  |  0/0  |  2/1  |  4/1  |
+
+___
+***Undead.*** This creature is immune to Sleep and any attack, maneuver, or spell that Dazes or Stuns only inflicts those conditions if they rolled 2 or more criticals.
+
+***Fortitude.*** When taking lethal damage as long as the attack was not a critical, roll a wound die. On blank the Death Knight survives with 1 health.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 3/2/1 as their spellcasting roll, and cannot cast more than 4 times per long rest. They know the spells _Essence Drain_, _Gloom_,  _Fearful Presence_.
+ 
+**Actions**
+
+***Spiked Mace.*** *Melee Attack:* 4 AP, 4/0/1/0/0 - On hit deals 1/2 in physical damage.
+
+***Unholy Smite.*** *Maneuver, Melee Attack:* 4 AP, 4/1/1/0/0 - On hit deals 1/4 in death damage. Can only be used 3 times per day.
+
+***Superior Shield Slam.*** *Maneuver*, *Melee Attack:* 2 AP, 4/1/1/0/0 - Knock back all adjacent creatures with your shield. Creatures make a Strength save against this roll. On hit they are staggered, lose any benefit from their shield until the stagger ends, and may be pushed away 1 tile.
+___
+
+#### Lich
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  2/3 | **AP:**        |     14 |
+ | **Wounds:**      |   65 | **Challenge:** |     60 |
+ | **Move/Sprint:** |  4/1 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  4/3  | -2/0  |  5/3  |  4/0  |  7/7  |  3/1  |
+
+___
+***Aura of Gloom.*** This creature empowers nearby undead. All undead creatures within 10 tiles have Combat Advantage with their attacks and restore 1 health at the start of their turn.
+
+***Invincibility.*** This creature has _Resistance_ 3 to damage from mundane weapons, and _Resistance_ 1 to all other weapons. The Lich stores its soul in a phylactery. While the Phylactery is within 10 tiles of this creature its wounds cannot go below 1.
+
+***Curse Mastery.*** This creature has expertise with Curse spells. They are a 9th level caster, having 7 Curse proficiency and 100 mana.
+
+***Anti-life Shell.*** The Lich radiates necrotic energies, destroying living flesh within 3 tiles. Any creature that enters this area or starts their turn there makes a Stamina save against 5 Superior dice, taking 0/5 in death damage on fail.
+
+***Spellcaster.*** This creature knows the following spells: _Bleed, Life Sense, Curse of Misfortune, Sleep, Corpse Explosion, Dull Intellect, Fearful Presence, Laughing Skull, Mass Hex, Paralytic Cloud, Raise Dead, Heart Grip, Impale, Curse of Fear, Curse of Pain, Miasma, Gravity Well, Curse of Death, Power Word: Kill_
+
+**Actions**
+
+***Touch of Death.*** *Melee Attack:* 5 AP, 5/2/1/0/0 - On hit deals 2/4 in death damage.
+
+***Raise Undead.*** *Special, Once per day:* 7 AP, Range 10, 6/0/0/0/0 - Raises undead from corpses in range to fight for the Lich. The Lich may spend 1 success to raise a Skeleton or Zombie, or 2 successes to raise a Skeleton Knight or Zombie Ogre.
+
+## Items and Treasure
+
+### Magic Items
+
+#### Adventurer's Cloak
+*Wondrous Item*
+
+A rugged cloak lined with pockets, it billows heroically even when there is no wind. It starts with charges equal to the successes from 3 superior die. Once per hour you may expend a charge to grab something from the cloaks pocket. You may find one of the following : 50 ft. of rope, 10 ft. of fine iron chain, a bandage, a torch, a fire kit, a gallon of water, a grappling hook.
+
+The item lasts for 1 hour, after which it turns to dust.
+
+#### Arctic Hatchet
+*Magic Weapon +1*
+
+A hatchet inscribed with runes, cold to the touch. When thrown the Hatchet appears back in your hand at the end of your turn. You gain the _Icy Impact_ maneuver.
+
+##### Icy Impact
+- **AP Cost:** 5
+- **Range:** Thrown 5/10
+
+Empower your Axe with chilling cold. Throw the axe at a target position in range. On hit a 3x3 area of ice appears centered on the hatchet. All creatures inside the area make a stamina save, taking 1 wound in cold damage. The ice counts as difficult terrain and lasts for 1 minute.
+
+#### Armor of Impending Doom
+*Magical Medium Armor*
+
+When attuned to this armor you have _Resistance_ 1 to physical damage. Attuning to this armor curses the wearer. While cursed they are unable to remove the armor and any physical damage they take reduces their maximum health an equal amount. The curse can be broken by casting _Break Curse_ against a 4th level curse, restoring their max wounds to normal.
+
+#### Armor of the Chromatic Dragon
+*Magical Medium Armor +1*
+
+This armor is made from the scales of each chromatic dragon. You have _Resistance_ 1 against elemental damage and _Resistance 3_ against dragon breath attacks.
+
+#### Aventus's Arcane Armaments
+*Wondrous Item*
+
+A book of instructions for enchanting items, made by the battle mage Aventus.
+
+|          |    Name    | Spell Slot | Supplies | Roll  | Effect                                                                                                                                                                                                                                                                                                                                                    |
+| :------: | :--------: | :--------: | :------: | :---: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Weapon_ |            |            |          |       |                                                                                                                                                                                                                                                                                                                                                           |
+|          |  Firebolt  |    2nd     |    2     |  2B   | Enchant a weapon with the _Firebolt_ spell. This weapon gains the _Firebolt_ spell as a maneuver.                                                                                                                                                                                                                                                         |
+|          | Returning  |    3rd     |    2     | 2B/1T | After throwing this weapon you may call it, instantly returning it to your hand.                                                                                                                                                                                                                                                                          |
+| _Armor_  |            |            |          |       |                                                                                                                                                                                                                                                                                                                                                           |
+|          | Shielding  |    3rd     |    4     | 3B/1T | Enchant armor with a defensive spell. The spell must be one you can cast, or have cast on the armor during enchanting of 3rd level or lower. The stored spell can only be used once, and must target the wearer. The spellcasting roll for the spell uses 1 superior die, plus an additional superior die for every crit rolled in the enchantment check. |
+|          | Resistance |    3rd     |    4     | 2B/2T | Enchant this armor to give you Resistance 1 against one of the following damage types: fire, cold, lightning, thunder, arcane                                                                                                                                                                                                                             |
+
+#### Band of Silence
+*Wondrous Item*
+
+This black metal band resizes itself to fit around the wearers forearm. Once per day you can command the band to emit a field of absolute silence for 10 minutes. Once activated the field stays until dispelled or the duration ends. The field extends to all adjacent tiles around the wearer and moves with them. A creature in the field is unable to make or hear a sound, is Silenced, and gains resistance 3 to thunder damage.
+
+#### Barrier Cloak
+*Wondrous Item, Requires Attunement*
+
+You gain Force Resistance 1 while wearing this cloak. Once per long rest you can spend 2 AP to cast _Barrier_ at 2nd level using 3 Superior dice for the spellcasting roll.
+
+#### Barrier Shield
+A hexigonal shield lined with gold. Once per day you may cast _Barrier_ at 2nd level using 3 Superior dice for the spellcasting roll.
+
+#### Battle Fury
+*Magical Battleaxe +2, Reach*
+
+This massive battle axe requires 4 Strength to wield. Attacks with this weapon cost 2 more AP but deal an additional wound of damage. Basic attacks always cleave hitting a creature adjacent to your target if they are in your zone of control. While attuned to this weapon, after landing the killing blow on a creature using this weapon you may spend a healing surge, healing for the wounds rolled.
+
+#### Battlemaster's Prize
+*Magical Weapon +1, Requires Attunement*
+
+Battlemaster's prize can appear as any weapon, but does not change form after being found. While attuned to this weapon any maneuver you make that uses this weapon has its level increased; Basic maneuvers become enhanced and enhanced maneuvers become superior.
+
+#### Beast Tamer Gloves
+While wearing these gloves you have expertise in Animal Handling checks and gain the _Horde Fighter_ feat. When touching a beast with these gloves you are able to communicate emotions, warnings, and needs. For example, you know if the beast is aggressive, defending their territory, or friendly. You know if the beast is asking for help or food, or if the beast is warning you of any dangers, such as nearby predators, traps, or hazards.
+
+**Horde Fighter:** When attacking a creature you add 1 success for every allied beast adjacent to the creature.
+
+#### Belt of Dwarvenkind
+*Wondrous Item, Requires Attunement*
+
+While wearing this belt your gain expertise with your Stamina save. If you do not know Dwarvish, you are able to read and speak it, and add 1 superior die to Charisma skills with dwarves.
+
+#### Belt of Elvenkind
+*Wondrous Item, Requires Attunement*
+
+While wearing this belt your gain expertise with your Dexterity save. If you do not know Elvish, you are able to read and speak it, and add 1 superior die to Charisma skills with elves.
+
+#### Bewitched Blackcone
+*Wondrous Item*
+
+These small black pinecones are extremely volitile, exploding into a black miasma when thrown. On your turn you may spend 5 AP to throw a blackcone at a point you can see within 10 tiles. The blackcone explodes on impact, hitting all creatures in a 3x3 tile area. Creatures make a Stamina save against 3 superior dice, taking a wound and a wound die in death damage on hit and being blinded until the end of their next turn on a critical. Once used the blackcone is destroyed.
+
+#### Blueflame Lantern
+*Wondrous Item*
+
+This lantern has enough oil to light for 8 hours. When lit it acts as a normal lantern, shedding bright light 5 tiles out, and dim light a further 5. When invisible creatures or objects are within 10 tiles of the lantern the flame turns blue, and are visible while in the lanterns bright light.
+
+#### Bolt of Purification
+*Magical Ammunition*
+
+These crossbow bolts contain a small vial of holy water. On hit these bolts do normal damage, adding 2 wounds of holy damage against Demons, Monstrosities, and Undead.
+
+#### Bone Chimes of Prophecy
+*Wondrous Item, Requires Attunement*
+
+Chimes made from the bones of Lizardfolk elders. When worn increases your Willpower by 1. The Chimes hold a max of 6 charges. Each morning roll a superior dice, regaining charges based on how many successes were rolled. You may spend a charge to cast Weal on up to 5 creatures, automatically succeeding on the spellcasting roll.
+
+The Chimes can be used to ask the spirits for guidance. Spending a charge and meditating for 1 minute you may ask the spirits a single yes or no question, or a question that results in a direction. For example, asking "which path leads to the tomb we seek?" is valid, but "which tomb do we seek?" is not. The spirits will give you a feeling of determination, apprehension, or a sense of direction as their answer. The spirits do not like to be disturbed, with each question asked within the last few days giving an increasing chance of the spirits answering incorrectly.
+
+#### Boneplate Armor
+*Magic Leather Armor +1, Requires Attunement*
+
+Leather armor with bones woven to reinforce it. Once per day you may cast _Cloud of Teeth_ at 3rd level.
+
+#### Boots of Etherwalking
+*Wondrous Item, Requires Attunement*
+
+Old boots with frills made from an waving, ethereal cloth. When attuned to these boots you gain the _Etherwalk_ maneuver.
+
+##### Etherwalk
+___
+- **AP Cost:** 3
+
+As an action you enter the ethereal plane. While in the ethereal plane you have _Resistance_ 3 to physical damage, _Vulnerability_ 1 to elemental damage, and may move through creatures and 1 tile wide walls. While in the ethereal plane you cannot attack, however you may cast spells.
+
+You remain in the ethereal plane until the start of your next turn.
+
+#### Boots of Leaping
+*Wondrous Item, Requires Attunement*
+
+Light leather boots with feathers sewn up the sides. When wearing these boots you can jump 3 times further. While attuned to the boots you know the superior version of the _Savage Leap_ maneuver and it has a range of 4 tiles instead of 2.
+
+#### Boots of Momentum
+*Wondrous Item*
+
+Heavy boots that are slow to move and hard to stop. While wearing your sprint speed is reduced by 1. When you move at least 2 tiles and land an attack you may reroll all wound dice in the attack and push the creature back 1 tile if they are Large or smaller, moving to their tile.
+
+#### Carrion Feather Armor
+*Scalemail Armor, Requires Attunement*
+
+Scale armor adorned with feathers from a Carrion bird. When worn gives _Resistance 1_ to Death damage.
+
+#### Celembor's Manual of Pyromancy
+*Magical Spellbook*
+
+This spellbook has been enchanted and is immutable, spells cannot be added to it. When used as your primary spellbook fire spells you cast deal an extra wound die on a critical. This spellbook has the following spells: _Firebolt, Beam of Fire, Detect Magic, Barrier, Combust, Elemental Shell, Fireball, Major Image, Fire Shell, Wall of Fire, Conjuration, Mass Fireball, Power Word: Fire_.
+
+#### Chains of Binding
+*Wondrous Item*
+
+Magical chains made out of a mysterious golden metal, with a single broken chain link separated from the rest. When used on a Celestial, Fey, Undead, Elemental, Fiend or Outsider the creature must make a Willpower save against 5 superior dice. On success the creature is under the effects of the _Bind Creature_ spell until the chain is removed. While bound the creature is unable to use magic. Once per day the creature can attempt to break the chains making a Strength save against 8 superior dice, destroying the chains on success.
+
+Touching the broken chain link to the chain unlocks the bindings and ends the effects.
+
+#### Circlet of Power +1, +2, +3
+*Wondrous Item, Requires Attunement*
+
+While wearing the circlet your spells are empowered. When making a spellcasting roll you may reroll dice equal to the circlets modifier.
+
+#### Cirilla's Counter Charms
+*Wondrous Item*
+
+An enchanting book of charms, counter hexes, and other baubles written by the witch Cirilla Wormwood.
+
+|              |         Name          | Mana  | Supplies | Roll  | Effect                                                                                                                  |
+| :----------: | :-------------------: | :---: | :------: | :---: | :---------------------------------------------------------------------------------------------------------------------- |
+|  _Trinket_   |                       |       |          |       |                                                                                                                         |
+|              |  Minor Mindful Magic  |   1   |    1     |  2B   | You add 1 success to saving throws against fear and charm effects.                                                      |
+|              |    Hexproof Charm     |   3   |    3     |  3B   | You ignore level 1 Hex's. Higher level Hex's still apply.                                                               |
+|              | Lesser Counter Curse  |   4   |    3     | 2B/1T | You add 1 superior die to saving throws against curses. This enchantment is immediately dispelled once you are cursed.  |
+|              | Greater Counter Curse |   7   |    5     | 2B/2T | You add 2 superior dice to saving throws against curses. This enchantment is immediately dispelled once you are cursed. |
+| _Consumable_ |                       |       |          |       |                                                                                                                         |
+|              | Stamp of Beast Steed  |   4   |    2     | 1B/1T | Creates a _Stamp of Beast Steed_.                                                                                       |
+|              |  Bewitched Blackcone  |   6   |    4     | 1B/2T | Creates 3 Bewitched Blackcones.                                                                                         |
+
+#### Cloak of Agility
+*Wondrous Item, Requires Attunement*
+
+This cloak grants you +1 to your Dexterity. If your move speed is lower than your sprint speed, it is increased to your sprint speed.
+
+#### Cloak of Daggers
+*Wondrous Item*
+
+While wearing this cloak with the hood up it obscures your face from light, preventing penalties from being in bright light or sunlight. Bright light is reduced to dim light, and dim light is reduced to darkness in this way. In addition, you gain the following maneuver.
+
+##### Fan of Blades
+___
+- **AP Cost:** 8
+- **Range:** Melee
+
+You spin your dagger tipped cloak, slashing all adjacent creatures. Make a Dexterity save against the targets defense. If this is during or before the first round of combat, add 1 superior die to your roll. On hit they take 1 wound in piercing damage.
+
+#### Cloak of the Stalker
+*Wondrous Item*
+
+A cloak made from the skin of an Astral Stalker. When standing still in dim light or darkness you become invisible. Only a creature with True Sight or making a perception check against 5 Terrible dice can spot you. While attuned to the cloak you can spend 1 mana to create an aura of darkness around you for one minute, giving the effects of being in dim light or darkness regardless of light level.
+
+#### Cloth of Dampening
+*Magical Padded Armor +1*
+
+Robes enchanted to protect the wearer against harm. While attuned to this item you have _Resistance_ 1 against bludgeoning and force damage, and take half as much damage from falling.
+
+#### Compunction
+*Magical Flail +2*
+
+Twin flails, glowing red hot, only function when used together. The burning iron heads are etched with a holy symbol branding those struck. Attacks with these weapons do not deal physical damage, instead dealing a wound of fire and a wound die of holy damage with each attack. Any damage added by attacks or abilities are converted to fire damage when made with this weapon. This weapon has 5 charges, restoring 3 after each long rest. While attuned to this weapon you gain the following maneuvers:
+
+##### Healing Fire
+___
+- **AP Cost:** 7
+- **Charge Cost:** 1
+- **Range:** Melee
+
+Strike a creature with the flail, closing their wounds. The creature restores 1 wound and 3 wound dice in health, reducing the healing by 1 for each level of _Fire Resistance_ they have. The creatures max wounds are reduced by half the amount healed, rounding up, regaining them after their next long rest.
+
+##### Branding Bolt
+___
+- **AP Cost:** 5
+- **Charge Cost:** 1
+- **Range:** 7
+
+Blast a flaming holy symbol at a creature in range. Make an attack against the creatures defense. On hit they take 1 wound and 4 wound dice in fire damage and are branded for 1 day on a critical. Brands emit a dim light and cannot be hidden. Branded creatures cannot hide their presence and gain no benefits from being invisible.
+
+#### Crestor's Codex of Trickery
+*Magical Spellbook*
+
+This spellbook has been enchanted and is immutable, spells cannot be added to it. When used as your primary spellbook non-damaging spells that target mutliple creatures can target one extra creature without adding dice to the spellcasting roll. This spellbook has the following spells: _Life Sense, Message, Minor Image, Trickery, Concealment, Ray of Sickness, Hex, Dark Sight, Apathy, Blindness, Counter Spell, Enlarge/Reduce, Fearful Presence, Major Image, Mass Hex_.
+
+#### Cursebreaker
+*Wondrous Item*
+
+A pendant with a rest mist swirling in it's gemstone. Once per day you may use this to touch a creature, attempting to break a curse of 4th level or below. The target makes a Willpower save against 1 terrible die. On success they end a single curse afflicting the target.
+
+#### Defender Plate
+*Magical Heavy Armor*
+
+A heavy armor enchanted to ward off an assassins dagger or arrow. While wearing this armor you have _Resistance_ 1 to piercing damage.
+
+#### Dragonbone Charm
+*Wondrous Item*
+
+A dragon skull has been carved from the bones of a dragon, fashioned into a small charm. Wearing this charm on your person protects you from fire and death. The charm absorbs 4 wounds worth of fire or death damage, after which it crumbles to dust.
+
+#### Driderweave Garments
+*Wonderous Item, Requires Attunement*
+
+Garments made from dridersilk and dyed with their blood, these clothes shrink and expand to fit their wearer. While wearing this you gain the following:
+
+- When poisoned the level is reduced by 1, being removed at level 0 or less.
+- You may walk along vertical surfaces and ceilings, keeping your hands free.
+- You automatically succeed on saving throws against being caught in spider webs, such as from the _Mass Web_ spell.
+- When taking the defend action, any melee attackers must make a Dexterity save against 3 Superior dice. On fail they are wrapped in webbing from the garments and are grappled. While grappled they may spend 5 AP to free themselves from the webbing.
+
+#### Earings of Fortitude +1/+2/+3
+*Wondrous Item*
+
+When making an Intelligence or Stamina save you may reroll dice equal to its modifier.
+
+#### Elfsong Armor
+*Legendary Padded Armor +3*
+
+Woven from thin strands of songsteel, this armor is incredibly durable, able to block even the most deadly attacks. While wearing this armor you are immune to gaining Lesser Wounds from attacks.
+
+#### Emblem of Leona
+*Wondrous Item*
+
+Once per day you may cast Wall of Faith, automatically succeeding the roll. When holding this emblem you may reroll 1 die when making Religion checks.
+
+#### Emillion's Everyday Enchantments
+*Wondrous Item*
+
+A book of common enchantments, used by Emillion to train beginners in the craft.
+
+|     Name      | Mana  | Supplies | Roll  | Effect                                                                                                                                                            |
+| :-----------: | :---: | :------: | :---: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fire Starting |   1   |    1     |  1B   | Enchant a ring. Concentrating for a round allows you to light something on fire, such as a torch or camp fire.                                                    |
+|   Balancing   |   2   |    2     |  2B   | When making an Acrobatics or Athletics check you cannot roll below a normal die.                                                                                  |
+|  Rope Trick   |   3   |    2     | 2B/1T | Enchant a rope to automatically tie itself to an object, such as a branch, or rock. The rope moves across surfaces, up walls, and can reach 2 tiles into the air. |
+|   Swiftness   |   3   |    3     | 2B/1T | Increase your move and sprint speed by 1.                                                                                                                         |
+
+#### Essence Ring
+*Wondrous Item, Requires Attunement*
+
+This ring imbues an extreme vitality to the user. Once per day the wearer can activate the ring by spending 2 AP, gaining 3 wounds and increasing their max wounds by the same amount. The wounds last for 10 minutes, after which the wearer loses 3 wounds and their max wounds returns to normal.
+
+If this brings the wearer to 0 wounds or below they are consumed by the ring, leaving no body.
+
+#### Faith
+*Magical Shield, Requires Attunement*
+
+While attuned to the shield you may use your Religion roll inplace of Willpower saves. Once per day, when you are reduced to 0 health from an attack or spell that doesn't outright kill you, make a Religion check against 3 terrible dice. On success you survive with 1 wound.
+
+#### Falnalnen's Tome of Wands
+*Wondrous Item*
+
+This Tome, written in Elvish, contains instructions on how to construct a variety of wands. Someone proficient in enchanter's tools can spend 8 hours crafting a wand, given they have the materials. 
+
+Translating this book is difficult, and takes 8 days of successful translating to read the instructions for a single wand. To translate, you must successfully make an Intelligence save vs 2 bad dice each day, or else the day is wasted.
+
+This book gives instructions on how to craft the following wands:
+
+|      Wand       |                                Materials                                 | Roll  |
+| :-------------: | :----------------------------------------------------------------------: | :---- |
+| Wand of Secrecy | a gemstone worth at least 10gp, 3 enchanting supplies, vial of black ink | 2B    |
+|  Wand of Sight  |  a gemstone worth at least 25gp, 4 enchanting supplies, Eye of a beast   | 2B    |
+| Wand of Cinders |  a gemstone worth at least 50gp, 4 enchanting supplies, 1lb of charcoal  | 2B/1T |
+|  Wand of Shock  | 2 gemstones worth at least 50gp each, 2 enchanting supplies, a metal rod | 2B/1T |
+
+#### Fates Eye
+*Woundrous Item*
+
+An eye made from gold and emerald, engraved with a diamond shaped pupil. To use this item, the wearer must remove one of their eyes and replace it with this eye. Once bound to a creature, it cannot be removed without killing them.
+
+The eye gives the wearer truesight out 30 tiles and expertise on saving throws against blinding effects. The eye can see the threads of fate. Once per day you may cast _Change Fate_ at 9th level. The spell automatically succeeds.
+
+#### Flametail
+*Magic Weapon +1*
+
+A weapon whose blade can ignite in flames. Can be used as a torch. Grants the _Flame Slash_ maneuver.
+
+##### Flame Slash
+- **AP Cost:** 5
+- **Weapon:** Slashing
+- **Range:** Melee
+
+Make a normal weapon attack against a creature, adding a enhanced die to the attack. The attack deals normal weapon damage, plus 2 wound dice in fire damage.
+
+#### Force Shield
+*Magical Shield*
+
+This magical shield looks like an ordinary brass ball. When attuned to the shield you may command it to activate, projecting a magical shield that wards attacks. While holding the activated shield you add 1 Defense die to defense rolls and have _Resistance_ 3 against force damage.
+
+#### Forceblade
+*Magic Weapon +1*
+
+A blade that emits a cutting force beyond the edge of its sword. Damage dealt with this weapon is considered Force damage. You gain the _Cutting Force_ maneuver.
+
+##### Cutting Force
+- **AP Cost:** 6
+- **Weapon:** Slashing
+- **Range:** 7
+
+Send a blast of force at a target within range. Make a normal weapon attack against the target, on hit the target takes 2 wound die in force damage.
+
+#### Foxfire Arrows
+*Magic Ammunition +1*
+
+Magical arrows enchanted by mischievous fey. When fired the arrow transforms into foxfire, chasing down its target. The target makes a dexterity save vs your attack instead of a defense roll, dealing fire damage on hit. Targets gain no benefit from cover from these arrows.
+
+#### Ghostly Shackles
+*Wondrous Item*
+
+This weapon empowers your unarmed attacks, allowing you your attacks to strike those in the ethereal plane. You bypass the physical resistances of ghosts, and can hit creatures phasing to the ethereal plane.
+
+When attempting a grapple you may target creatures 1 tile away as the chains from your shackle bind the creature. If you crit your grapple roll the target is restrained instead.
+
+#### Gloves of Ogre Strength
+*Wondrous Item, Requires Attunement*
+
+While wearing these gloves your Strength is increased by 1. Your carry weight is tripled, lifting heavy objects, such as a boulder, with ease.
+
+#### Greater Spell Gem
+*Wondrous Item*
+
+A pristine red gemstone that fits in the palm of your hand. You may cast a spell of 7th level or lower into the gem, doing so increases the spells cast time by 10 minutes. Once a spell is stored you may spend 5 AP to cast the spell, ignoring the spells casting time. The spell uses 5 superior dice for its spellcasting roll regardless of the casting ability of the original caster. Only one spell can be stored at a time, casting a new spell into the gem replaces any spell stored.
+
+#### Greater Demon Armor
+*Magical Plate Armor +2*
+
+Armor infused with the essence of a greater demon. The armor is heavy, requiring 4 Strength to wear. Wearing the armor reduces your movement speed by 1.
+
+While attuned you gain the _Greater Demon Resistance_ feat. Once per day you may cast the spell _Mass Fireball_ at 7th level, using 5 superior dice for the roll. When a creature lands a critical attack against you you enter a rage until the end of your next turn. While enraged you cannot flee and must target the creature with an attack or spell on your turn. You have _Vulnerability 1_ to Holy damage.
+
+**Greater Demon Resistance** You add 2 superior dice with saving throws against non-damaging spells and have _Resistance_ 1 against fire, cold, and lightning damage.
+
+#### Greater Demon Cloak
+*Wondrous Item*
+
+A cloak infused with the scales of a Greater Demon. While attuned you gain the _Greater Demon Resistance_ feat. Once per day you can use the *Portal of Flames* maneuver.
+
+**Greater Demon Resistance** You add 2 superior dice with saving throws against non-damaging spells and have _Resistance_ 1 against fire, cold, and lightning damage.
+
+***Portal of Flames.*** *Special Action:* 4 AP, Range 10, 3 Superior Dice</br>You are engulfed in flames, teleporting to an unoccupied location in range. All adjacent creatures make a Dexterity save against this roll, taking 0/3 in fire damage on fail. Adjacent creatures that are grappling you automatically fail this roll.
+
+#### Hammer of Justice
+*Magical Mace +2, Requires Attunement*
+
+A heavy hammer inscribed with the holy symbol of justice. Once per turn you may spend 5 AP to mark a creature as an Agent of Chaos for the next 24 hours. While marked they have _Vulnerability_ 1 to holy damage from your attacks and spells. You add 2 superior dice to saving throws against non-damging effects coming from an Agent of Chaos and you are immune to Sleep. While an Agent of Chaos is within sight you are incapable of fleeing.
+
+You gain the _Hammer Toss_ maneuver .
+
+##### Hammer Toss
+- **AP Cost:** 5
+- **Weapon:** bludgeoning
+- **Range:** 7
+
+Throw your hammer at a creature in range. Make a ranged weapon attack against the creature, dealing an extra wound in damage on hit and they are Dazed until the end of their next turn on a critical. If the creature is an Agent of Chaos they are also Weakened and Silenced until the end of their next turn on a critical. The hammer returns to your hand after the attack.
+
+
+#### Heart of Madness
+*Wondrous Item, Requires Attunement*
+
+A pitch black cube, untarnished through age where not even dust settles on it. Each edge is exactly the same length, and the edges seems to bend light causing it to glitter.
+
+While attuned to the Heart of Madness you may use it to cast any damaging spell you have prepared, reducing its mana cost by 3. When cast this way the spells damage type changes to Death damage and it no longer inflicts any conditions or effects other than damage and it ignores critical effects. Instead, on crit target creatures gains Hex 1 for 1 minute.
+
+#### Heart of the Forest
+*Wondrous Item, Requires Attunement*
+
+While wearing this pendant you gain 1 Stamina and have expertise when making saving throws against effects that deal poison damage or inflict Poison.
+
+#### Hero's Medallion
+*Wondrous Item*
+
+You are immune to fear. Anytime you make an Intelligence, Willpower, or Charisma save you may reroll 1 die, keeping the new value.
+
+#### Hydrascale Armor
+*Magical Medium Armor +1*
+
+Armor made from the hide of a Hydra and imbued with its essence. While attuned your max healing surges inceases by 1. At the start of your turn if have less than half your max wounds remaining you spend a healing surge, healing for the value rolled.
+
+#### Indomitable Armor
+*Magical Heavy Armor +2*
+
+This armor is made of an extremely dense metal able to resist even the strongest of blows. This armor requires 5 Strength to wear, reducing your move and sprint speeds to 0 if worn with less. While worn your sprint speed is reduced by 1 and any knockback effects push you 2 tiles less.
+
+#### Mage Slayer
+*Wondrous Greatsword +1*
+
+A sword used to execute rogue mages, this 6ft claymore is inscribed with protective runes. When taking the defend action you add this weapons bonus to all saving throws and defense rolls against magic. Once per day you may cast _Dispel Magic_ using 4 superior dice for the spellcasting roll.
+
+#### Magic Ammunition +1/+2/+3
+*Magic Ammunition*
+
+Both arrows and bolts can be enchanted. When using magic ammunition add a wound die for each modifier on the ammunition. Once a hit has landed the ammunition becomes mundane.
+
+#### Magic Armor +1/+2/+3
+*Magical Armor*
+
+You add Superior Defense dice equal to its bonus modifier when making Defense rolls.
+
+#### Magic Weapon +1/+2/+3
+*Magical Weapon*
+
+Attacks made with this weapon add Superior dice equal to its bonus modifier to attack rolls.
+
+#### Magthera's Bone Charm
+*Wondrous Item, Requires Attunement*
+
+While attuned to the Bone Charm you may reroll 1 wound dice when dealing Death damage from spells. You gain the _Raise Skeleton_ spell.
+
+##### Raise Skeleton
+- **AP Cost:** 8
+- **Mana Cost:** 4
+- **Range:** 5
+
+You may target up to 3 corpses, making a spellcasting roll and adding a bad die for every corpse. On success a Skeleton raises from the corpse under your command for 24 hours. Alternatively you may cast this on up to 3 Skeleton creatures. If you do the Skeletons make a charisma save against your spellcasting, falling under your command for 24 hours on fail.
+
+After 24 hours you lose command over the skeletons and they behave like normal undead. You may only control up to 3 skeletons this way, attempting to control more will remove your command over your previous skeletons.
+
+#### Magthera's Staff
+*Magic Weapon +2, Requires Attunement*
+
+The staff of the great necromancer Magthera. When casting a spell you may reroll 2 dice in your spellcasting roll, taking the new values. Melee attacks with this staff add wound dice to the attack instead of superior dice based on it's modifier, dealing Death damage. The staff can be empowered with the wielders mana, giving the _Obliterate_ spell attack.
+
+##### Obliterate
+- **AP Cost:** 8
+- **Mana Cost:** 7
+- **Range:** Touch
+
+Necrotic energy pulses from the staff. All creatures in a 3x3 area in front of the caster makes a Stamina save against 5 superior dice, taking half damage on success. This attack deals full damage to plants. Wood in the area splinters and shatters, while stone cracks and crumbles, losing any ability to support a structure.
+
+#### Medallion of Health
+*Wondrous Item, Requires Attunement*
+
+While wearing this medallion your max wounds increases by 1.
+
+#### Mother Yama's Practical Potions
+*Wondrous Item*
+
+This leather-bound book is filled with mismatched pages describing a variety of plants and potions.
+
+You may search for these plants the same way you would search for apothecary ingredients, increasing the challenge by 1 tier.
+
+|  Area  |     6      |     5      |      4      |      3      |     2      |     1      |     0      |
+| :----: | :--------: | :--------: | :---------: | :---------: | :--------: | :--------: | :--------: |
+| Plains | Gracebloom | Gracebloom | Vitalflower | Vitalflower | Silverleaf | Silverleaf | Silverleaf |
+| Forest | Lucky Leaf | Lucky Leaf | Hearty Root | Hearty Root | Silverleaf | Silverleaf | Silverleaf |
+
+You learn how to make the following potions.
+
+___
+  ##### Healing Potion +1
+- **Ingredients:** 2 Healroot/Basic Healing Potion, 1 Silverleaf
+- **Roll:** 2 Bad dice, 1 Terrible die
+
+A greater healing potion. On use, heals 2w + 3 wound dice in health.
+
+___
+  ##### Healing Potion +2
+- **Ingredients:** Healing Potion +1, 1 Gracebloom
+- **Roll:** 2 Bad dice, 2 Terrible dice
+
+An advanced healing potion. On use, heals 3w + 4 wound dice in health.
+
+___
+  ##### Nettle Fever +1
+- **Ingredients:** 2 Poison Nettle/Nettle Fever, 1 Nightshade
+- **Roll:** 2 Bad dice, 1 Terrible die
+
+A concentrated poison. On hit inflicts Poison 2, or Poison 3 on crit.
+
+___
+  ##### Potion of Grace
+- **Ingredients:** 1 Gracebloom, 2 Silverleaf
+- **Roll:** 2 Bad dice, 1 Terrible die
+
+For the next hour you add an enhanced die to all saving throws.
+
+___
+  ##### Potion of Greater Vitality
+- **Ingredients:** 2 Healroot, 1 Vitalflower, 1 Hearty root
+- **Roll:** 2 Bad dice, 1 Terrible die
+
+Your max wounds increases by 1 for the next 24 hours. Every time you roll a healing surge you heal an extra wound.
+
+#### Myriam's Modern Magics
+*Wondrous Item*
+
+A book containing a number of enchantments created by the Arcanist Mryiam.
+
+|          Name           | Mana  | Supplies | Roll  | Effect                                                                                                                                                              |
+| :---------------------: | :---: | :------: | :---: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|    Elemental Weapon     |   6   |    5     | 1B/2T | Enchanting a weapon, choose between: fire, cold, lightning, thunder, poison, and force. Attacks with this weapon deal an extra wound die of the chosen damage type. |
+|     Elemental Armor     |   6   |    5     |  3T   | Enchanting armor, choose between: fire, cold, lightning, thunder, poison, and force. The armor gives _Resistance_ 1 to the chosen damage.                           |
+| Lesser Physical Resist  |   5   |    3     | 3B/1T | Enchants armor. When taking 3 or more physical damage from an attack or spell you gain _Resistance 1_ against that damage.                                          |
+| Greater Physical Resist |  10   |    8     | 4B/2T | Enchants armor. When taking 2 or more physical damage from an attack or spell you gain _Resistance 1_ against that damage.                                          |
+
+#### Myrmidon Bow
+*Magic Bow +1*
+
+A bow blessed by a water spirit and empowered by one of its scales. The bow is a +1 Magic weapon that gives the _Lightning Arrow_ and _Water Arrow_ maneuvers.
+
+##### Lightning Arrow
+- **AP Cost:** 6
+- **Damage:** Lightning
+- **Range:** 10
+
+Fires a bolt of lightning in the target direction. All creatures in a 10 tile line must make a dexterity save against 3 superior dice, taking 1 wound on fail plus 1 wound die on crit.
+
+##### Water Arrow
+- **AP Cost:** 6
+- **Range:** Bow Range
+
+Fires a bolt of compressed water that explodes on impact. All creatures adjacent to the tile of impact must make a strength save against 3 superior dice. being pushed away 1 tile, and being knocked prone on crit. The blast of water extinguishes magical and non-magical fires on all tiles hit.
+
+#### Orichalcum Armor +1/+2
+*Magical Armor*
+
+Armor that is made from or been reinforced with Orichalcum. When making a Defense roll you replace a number of Defense dice with Superior Defense dice equal to its modifier.
+
+#### Pendant of Wisdom +1/+2/+3
+*Wondrous Item*
+
+When making a Willpower or Charisma save you may reroll dice equal to its modifier.
+
+#### Quake Hammer
+*Magic Weapon +1*
+
+A hammer infused with the power of earth. When attacking Elementals you deal an additional wound die in damage. You also gain the _Quake_ maneuver.
+
+##### Quake
+- **AP Cost:** 7
+- **Weapon:** bludgeoning
+- **Range:** Melee
+
+Smash your hammer into the ground, causing the earth in your zone of control to break. Make a weapon attack roll, adding 1 proficient die to the roll. On hit each target takes 1 wound in bludgeoning damage, and on crit are staggered until the start of your next turn.
+
+#### Reflex Harness +1/+2/+3
+*Wondrous Item*
+
+When making a Strength or Dexterity save you may reroll dice equal to its modifier.
+
+#### Repeater
+*Magical Crossbow +1*
+
+This heavy crossbow has a second chamber that will occasionally cause it to fire twice. Once per turn, when you land a critical hit with this weapon you make a second basic attack against the target as a free action. The second attack consumes ammunition as normal.
+
+#### Ring of Free Action
+*Wondrous Item, Requires Attunement*
+
+Your max AP increases by 1 and any slow effect against you is reduced by 1.
+
+#### Ring of Haste
+*Wondrous Item, Requires Attunement*
+
+This item has 5 charges, regaining all charges at dawn. On your turn you may spend a charge and 2 AP to gain the effects of the spell _Quicken_ for 10 minutes. You may spend additional charges to add a critical to the effect. You may spend 5 charges and 2 AP to give yourself the effects of the spell _Haste_ for 10 minutes.
+
+#### Ring of Protection +1, +2, +3
+*Wondrous Item, Requires Attunement*
+
+A strange ring that wards the wearer from danger. When making a defense roll you can reroll a number of defense die equal to the rings modifier.
+
+#### Ring of the Ram
+*Wondrous Item*
+
+A ring adorned with silver ram's head. You may cast _Thundering Blow_ as a cantrip, using your unarmed attack roll instead of spellcasting. This can be used 3 times, at which point the ram tarnishes. This ring can be used again after a successful repair roll.
+
+#### Ring of the Archmage
+*Wondrous Item, Requires Attunement*
+
+While wearing this ring arcane spells you cast are cast 1 level higher.
+
+#### Ritual Flask
+*Wondrous Item*
+
+This flask is made of iron with a band of runes engraved around it. Studying the runes teaches you a ritual for the flask. Using chalk to draw out a rune covering a 2x2 tile area, you can attempt to trap a Demon, Elemental, Outsider, or Celestial inside the flask. The creature must remain inside the rune for 1 minute, after which they make a Charisma save against 4 superior dice. On fail they are trapped inside the flask.
+
+A creature trapped inside the flask does not require food, air or water, and does not age. They cannot be communicated with, and a spell that locates a creature will instead locate the flask. 
+
+You may spend 5 AP to open the flask, releasing the trapped creature. A creature released must pass a Willpower save against 4 superior dice or be charmed by you for 1 hour. You may give commands to the creature, but cannot command it to hurt itself or take a course of action that will obviously cause itself harm.
+
+When finding a flask it may already contain a creature, and a successful Lore check will tell you if a creature is inside, but not which type.
+
+#### Rod of Animation
+*Wondrous Item*
+
+This rod has 3 charges, gaining a charge at the start of each day. As an action you may spend a charge and 7 AP to blast a creature with necrotic lightning. Choosing a creature within 5 tiles that you can see roll 4 Superior dice against their Dexterity save. On success they take 1/5 in lightning damage. If this kills a living creature they will rise as a zombie for medium creatures or a zombie ogre for large creatures. 
+
+Targeting an undead creature does no damage, instead giving them temporary wounds equal to half the damage rolled, rounded up. The temporary wounds last for 1 hour and while the wounds remain the creature adds a Superior die to all of their rolls.
+
+#### Scarf of Leadership
+*Wondrous Item, Requires Attunement*
+
+An otherwise unassuming red scarf. When worn it gives the wearer +1 to their Charisma score and Diplomacy proficiencies. When making a saving throw against an effect that causes fear you may use your Charisma save instead.
+
+#### Shadow Pendant
+*Wondrous Item, Requires Attunement*
+
+An opal pendant, a thick black mist swirls across the opals surface. Once per day you may make a shadow clone of yourself. Spending 5 AP, The shadowy mist on your pendant takes form, creating a mirror image of you in a place within 5 tiles. The illusion can move, sharing your movement stats. It does not make noise and you cannot see or sense through the illusion. When casting a spell you may choose the illusion to be the casting point instead of yourself.
+
+The illusion is purely visual, lasts for 10 minutes, and is destroyed if it takes 1 wound in force damage.
+
+#### Shadowwalk Dagger
+*Wondrous Dagger +1*
+
+This dull blue dagger emits faint wisps of smoke visible even when sheathed. You gain the Shadowwalk maneuver while holding this dagger.
+
+##### Shadowwalk
+- **AP Cost:** 5
+- **Damage:** Death
+- **Range:** 5/10
+
+Make an attack roll against a target, turning you and the dagger into shadow. On hit you deal Death damage instead of piercing and you reform out of the shadows in a tile adjacent to the target. If the attack misses the GM determines where the dagger lands, with the wielder appearing in the closest unoccupied tile.
+
+#### Shardlight
+*Wondrous Item*
+
+A translucent white crystal. You may spend 5 AP to cause it to emit bright light out 3 tiles and dim light a further 3. Creatures in the bright light add a crit to saving throws against undead and demons.
+
+#### Shield of the Defender
+*Magical Shield Requires Attunement*
+
+While attuned to the shield you know the superior version of the _Protector_ maneuver. _Protector_ can be used when a creature is targeted by an attack or spell, adding the shields defense die to the creatures saving throw.
+
+#### Shield of Eyes
+*Magic Shield*
+
+A shield covered in eyes that dart around, looking for any threats. Gives 1 superior die for perception checks and the _Terrifying Gaze_ maneuver.
+
+
+##### Terrifying Gaze
+- **AP Cost:** 6
+- **Weapon:** Shield
+- **Range:** Area of Control
+
+All creatures in your zone of control must make a Willpower save vs 3 superior dice. On fail they become terrified for the next minute. They cannot move closer to you and they add a terrible die to all attack rolls.
+
+#### Shield of Thorns
+*Magical Shield*
+
+A shield adorned in a wreath of thorns. When taking the defend action with this shield, any adjacent creature that makes a melee attack against you takes a wound die in piercing damage.
+
+#### Shield of Unity +1/+2/+3
+*Magical Shield*
+
+While attuned you add successes equal to its bonus modifier to attacks against a creature as long as you are adjacent to an ally inside the creatures zone of control. Adjacent allies add successes equal to its bonus modifier to Strength, Dexterity, and Stamina saving throws.
+
+#### Skirmishers Buckler
+*Magical Buckler*
+
+When taking the defend action you are immune to opportunity attacks until the start of your next turn.
+
+#### Sky Stone
+*Wondrous Item, Requires Attunement*
+
+A large blue orb with storm clouds swirling inside. While attuned to this item all Lightning spells you cast start with 1 crit (but no successes) and you may reroll 1 die for those rolls. Regardless of the weather, while you hold the orb it is always considered stormy weather for the purposes of spellcasting.
+
+#### Snakecrest Stilleto
+*Magic Dagger +1*
+
+A stilleto with a snake-like handle, the snakes fangs keep the blade slick with a deadly poison. Once per turn, when you land a critical hit on a creature with the stilleto you add 3 wound dice in poison damage to the attack, giving the creature Poison 1 for 1 hour.
+
+during a short or long rest you may extract a vial of poison from the stilleto. The poison can used to coat a blade 4 times, giving this weapons effect. The poison lasts for 1 day before becoming inert.
+
+#### Spear of Decay
+*Magic Spear +1*
+
+An otherwise ordinary spear, it's metal tip is covered in a black tarnish. When attacking, the target creature gains _Vulnerability_ 1 to Death damage on crit for the next minute.
+
+#### Spear of Subjugation
+*Legendary Spear +3*
+
+A silver and gold spear imbued with scales from the Pale Lady. The spear was created by the Pale Lady, a Demon Lord residing over Pandemonium, and carries her hedonistic desires. The staff abhors being controlled and actively seeks to rule over others, taking over cities and usurping kingdoms.
+
+When a creature attempts to attune to this weapon they must make a Willpower save against 5 Superior dice. On fail they are possessed by the spear. The possession lasts forever, even when they are not holding the spear. Successfully casting _Break Curse_ against an 8th level curse ends the possession.
+
+While attuned, attacks with the spear enchant your enemies. A creature hit by the spear adds a failure to all rolls against the spear's wielder for every crit rolled in the attack, lasting until the end of their next turn. You may cast the spell _Command_ at will, using 5 Superior dice for the roll. 
+
+Once per day you may spend 8 AP to dominate a creature you can see within 5 tiles. The creature makes a Willpower save against 5 Superior dice, becoming dominated on fail. While dominated you control all of the creatures actions. This effect lasts until you are incapacitated or you let go of the spear. You may only have a single creature dominated at any time.
+
+#### Spear of the East
+*Magic Weapon +1*
+
+An incredibly light spear able to cut through armor. When making a basic attack you may reduce the AP cost by 1, to a minimum of 3. If you do, add 1 bad die to your roll.
+
+If you land 3 hits against the same target during your turn, the target is dazed until the end of their turn.
+
+#### Spell Gem
+*Wondrous Item*
+
+A pristine red gemstone that fits in the palm of your hand. You may cast a spell of 4th level or lower into the gem, doing so increases the spells cast time by 10 minutes. Once a spell is stored you may spend 5 AP to cast the spell, ignoring the spells casting time. The spell uses 3 superior dice for its spellcasting roll regardless of the casting ability of the original caster. Only one spell can be stored at a time, casting a new spell into the gem replaces any spell stored.
+
+#### Spellblade
+*Magical Weapon +1*
+
+This weapon has no blade, ending at the hilt. When attuned to this item you may command it to activate, summoning a sword made out of an element matching the gemstone in its hilt. When making attacks with this weapon you may use your weapon roll or a spellcasting roll for the attack. The attack does 1 wound in damage depending on its element, converting any added damage to that element.
+
+| Gemstone | Damage Type |
+| :------: | :---------- |
+|   Ruby   | Fire        |
+| Saphire  | Cold        |
+| Diamond  | Lightning   |
+|  Topaz   | Thunder     |
+| Emerald  | Poison      |
+|   Opal   | Force       |
+
+#### Spriggan Tunic
+*Magic Padded Armor*
+
+A tunic woven from the hair of a spriggan. While outside you have expertise in stealth as long as you aren't moving. While in a forest you gain the _Treewalk_ Maneuver.
+
+##### Treewalk
+- **AP Cost:** 5
+- **Range:** 12
+
+When standing next to a tree you may magically enter the tree. While inside the tree you are untargetable by effects that do not target the ethereal plane. At the start of your next turn you appear beside a tree within range.
+
+#### Staff of Bascilius
+*Magic Staff, Requires Attunement*
+
+A staff made of blackened oak. While attuned to this staff the wielder gains +1 Intelligence. When preparing spells for the day you may choose two spells to be enhanced by the staff. For the rest of the day you have expertise when casting these spells.
+
+#### Staff of Elemental Control
+*Magical Staff +1*
+
+This staff has 6 charges. When casting a spell that deals elemental damage you may spend a charge to add a wound die to the damage matching its element. On your turn you may spend 5 AP and mana to recharge the staff, restoring 1 charge for each mana spent. While attuned to this item you gain the _Control Elemental_ action.
+
+##### Control Elemental
+When adjacent to an elemental creature you may attempt to take control of it. Spending 10 AP, roll 4 Superior dice. If you have successes greater than or equal to half of the creatures challenge level you take control of the creature. While holding the staff the creature obeys every command to the best of its ability.
+
+#### Staff of Mantus
+*Legendary Staff +3*
+
+A staff made from black onyx capped with a human skull. The staff was created by the Demon Lord Mantus using one of his onyx claws and carries his personality. The staff dispises mortals and refuses to use its full power when wielded by one. While held by a mortal the staff feigns obedience while whispering promises of power to its holder, while its true intention is to cause as much destruction in mortal realms as possible.
+
+The staff seeks an immortal master to serve. If the staff is particularly desparate for a master it will tell its wielder about a tablet containing the secrets of life and death. The tablet was hidden away by Mantus himself in his fortress in Hell. After studying the tablet a creature learns how to create a Lich's phylactery and become immortal.
+
+When a mortal attempts to attune to the staff they take 5/5 in death damage. This effect happens the first time a creature attunes to this item, having no effect if the creature reattunes to it again. The staff curses mortals with _Vulnerability_ 1 to all damage, lasting until the creature dies. This curse is not removed when breaking attunement with the staff. The curse can be broken by successfully casting _Break Curse_ against an 8th level curse.
+
+While attuned to the staff you may reroll 3 dice when making spellcasting rolls. Attacks with this weapon deal 1 wound and 1 wound die in death damage, ignoring a level of resistance. Once per day you may cast _Fiendfire_ using 6 Superior dice for the roll.
+
+Once per day you may spend 8 AP to summon an undead legion. Roll 8 Superior dice, conjuring a Skeleton within 10 tiles of yourself for each success rolled. The skeletons obey your commands and last for 1 hour after which they turn to dust.
+
+#### Staff of Songs
+*Magical Staff +2*
+
+While attuned to this weapon you gain the superior inspiring words maneuver and you may reroll all blank wound dice dealt by thunder damage. While holding this staff you may spend 5 AP to begin a chant, spending an additional 5 AP at the start of every turn to keep the chant active. Chanting requires concentration and uses the same rules for concentrating on a spell. You gain the following chants:
+
+- **Song of Blades:** All allied creatures within 3 tiles of you gains expertise on one attack or maneuver this round.
+- **Defender's Ballad:** All allied creatures within 3 tiles of you gains expertise on one saving throw or defense roll this round.
+- **Song of Sorcery:** All allied creatures within 3 tiles of you may reroll 3 wound dice on one spell this round.
+
+#### Stamp of Beast Steed
+*Wondrous Item*
+
+Transform a beast into a loyal steed. Can only be used on a non-intelligent, small or smaller beast you can touch. A hostile creature makes a willpower save vs 2 superior die, taking no effect on success. Once used the token bursts into a handful of dry leaves.
+
+The target beast transforms into a giant version of the animal, growing to the size of an average horse. The creature is charmed by you for the next 24 hours and can be used as a mount. They have 3 wounds and a move/sprint speed of 5/5. The gain +1 Strength, but their other stats are identical to their normal forms.
+
+After 24 hours the creature returns to normal, becoming hostile if it was hostile before.
+
+#### Tlani Mask of Power
+*Wondrous Item, Requires Attunement*
+
+While wearing this mask you add 1 enhanced die to all spellcasting rolls. When taking a move action you can choose to hover. While hovering you ignore ground based effects and difficult terrain and can pass over creatures, returning to the ground at the end of your turn. You also learn two maneuvers, _Shadow Magic_ and _Orb of Destruction_.
+
+***Curse.*** This item is cursed. After attuning to the mask you are unable to part with it, wearing it covering your face or off to one side. If you reach 0 wounds or suffer an effect that would kill you outright, the Mask consumes you and you return as a Shadowbeast. You are stalked by a powerful entity of shadow that wants the mask. This entity knows your general location and you cannot hide from it through magic.
+
+##### Shadow Magic
+- **AP Cost:** 7
+- **Damage:** Death
+- **Range:** 7
+
+You summon 3 shadowbolts and launch them at targets in range. You may choose different targets, or have all bolts hit the same target. Make a curse spellcasting roll against the targets defense for each bolt, dealing 2 wound die on hit, and giving Hex 1 on crit. You gain 1 temporary wound for every 3 wounds dealt by this attack.
+
+##### Orb of Destruction
+- **AP Cost:** 9
+- **Damage:** Death
+- **Range:** 10
+
+You channel the masks power to create a large orb of negative energy. You send the orb crashing into the earth, hitting all creatures in a 3x3 area centered on a position in range. All creatures hit make a Dexterity save vs your curse spellcasting. On hit they take 3 wounds in damage, plus an additional wound die for each crit.
+
+If this would reduce a creature to 0 wounds their body is consumed by the Orb, vaporizing and leaving no body behind. This maneuver can be used once, after which you must long rest before using again.
+
+#### Tower Shield
+*Magical Shield*
+
+This massive shield requires 4 Strength to wield. When taking a defend action you choose a direction, gaining half cover against ranged attacks from that direction until the start of your next turn.
+
+#### Tuning Sword
+*Magical Sword +1*
+
+A two pronged sword in the shape of a tuning fork. After striking an enemy the sword rings, becoming attuned to that enemy. While attuned to a target you have expertise in attacks and maneuvers using this weapon against that target. The attunement lasts for 1 minute.
+
+While the sword is attuned you may cast _Thunderclap_ at 1st level using 3 superior dice, ending the attunement.
+
+#### Void Stone
+*Wondrous Item*
+
+A magic stone from the Astral Void. While holding the stone you can spend 3 AP and 2 mana to open up a rift in space that pulls in the user. At the start of your next turn you attempt to exit the rift in an open space within 1000 ft. (200 tiles). Make a hard Arcana check, on success you appear within a few tiles, with each failure placing you progressively farther away.
+
+#### Wand of Cinders
+*Wondrous Item*
+
+A wand with a tip that looks like the embers from a campfire. Roll 5 Superior dice, this wand has charges equal to the total successes. Spending 1 charge you can cast Firebolt at 1st level. Spending 2 charges you may cast Beam of Fire at 1st level.
+
+Spells cast with this wand do not benefit from any spellcasting feats, and use 3 Superior dice for the spellcasting roll.
+
+#### Wand of Growth
+*Wondrous Item*
+
+A wand wrapped in vines with a blooming flower at its tip. Roll 5 Superior dice, this wand has charges equal to the total successes. Spending 1 charge you may cast Vine Whip at 1st level, or spending 2 charges you may cast Bramble at 1st level. For either spell, use 3 Superior dice for the spellcasting roll.
+
+#### Wand of Secrecy
+*Wondrous Item*
+
+A wand that emits black wisps of smoke. Roll 5 Superior dice, this wand has charges equal to the total successes. You can spend a charge to turn all mundane lights in a 6x6 tile area to dim light for 10 minutes, covering half as much area as bright light. Spending 2 charges gives you the effects of _Concealment_ for 10 minutes.
+
+#### Wand of Shock
+*Wondrous Item*
+
+A wand in the shape of a lightning bolt. Roll 5 superior die, this wand has charges equal to the total success. Spending 1 charge you may cast the _Static Shock_ cantrip. If you do, you may spend up to 2 additional charges to add a superior die for each charge to the spellcasting roll.
+
+Spells cast with this wand do not benefit from any spellcasting feats, and use 2 superior dice for the spellcasting roll.
+
+#### Wand of Shooting Stars
+*Wondrous Item*
+
+A wand with a brass star on its tip. This wand is a simple weapon, using your Arcane spellcasting for the attack. It has a range of 5/10 and deals 1 wound die in force damage on hit. The star arcs over cover, ignoring all but total cover.
+
+If your attack roll has no successes and a critical fail the wand breaks, losing its magic.
+
+#### Wand of Sight
+*Wondrous Item*
+
+A wand with a crystal eye attached to the tip. Roll 5 superior die, this wand has charges equal to the total success. Spending 1 charge you gain the effects of _Dark Sight_ for 1 hour. Spending 3 charges you may cast _Magic Sight_ without concentrating on the spell.
+
+Spells cast with this wand do not benefit from any spellcasting feats, and use 3 superior dice for the spellcasting roll.
+
+#### Wand of Sorcerous Power
+*Wondrous Item*
+
+A wand made from gnarled wood, clasping a shining jewel in its pommel. Roll 2 Superior dice, this wand has charges equal to the total successes. On your turn you may spend 5 AP and a charge to give yourself the effects of the spell _Evocation_ for 1 minute.
+
+#### Warp Band
+*Wondrous Item*
+
+This smooth crystal band is slick and cold to the touch. While worn, _Misty Step_ costs 1 less mana and travels double the distance, but you add 2 terrible dice to the spellcasting roll. While travelling through a warren with the _Open Warren_ spell the spellcaster maintaining the warren adds 1 failure to their roll.
+
+#### Waterskin of Control
+*Wondrous Item*
+Allows the holder to control fluids contained in the waterskin. The waterskin can hold up to 1L of fluid. attempting to hold extremely hot or corrosive materials, such as lava, will destroy the waterskin. By spending 5 AP you may open the waterskin and control the contained fluid, moving it up to 5 tiles away in any direction. This can be used to extinguish fires, such as a torch or campfire, but does not move quickly enough to cause harm to a creature.
+
+#### Zander's Book of Everything
+*Wondrous Item*
+
+A huge book that looks like its been patched together from several works of different sizes, with papers glued or stapled as needed. During a long rest you may study this book. For the next day you have expertise in all Intelligence skills.
+
+You may spend a week studying a portion of the "Manuals of Talent" section. After completing your study you gain a feat of your choosing with the book disappearing the following morning. The book reappears in a random place in the same realm after 66 years.
+
+#### Sword of Tartarus
+*Legendary Sword +3, Requires Attunement*
+
+Can only be attuned by the true ruler of Tartarus. Maneuvers using this weapon add a wound die in death damage to the attack. On hitting a creature with this weapon they gain Hex 1 for 1 minute.
+
+While attuned to the sword you gain the _Souls of the Damned_ maneuver.
 
 ### Feats
 
@@ -1499,16 +5833,16 @@ Add a wound die for every level cast above cantrip.
 You attempt to send a telepathic message to a creature you're familiar with or that you can see. Make a spellcasting roll agaisnt 3 bad dice. On success you send a message up to a maximum disance based on the table below. The message can be no more than 25 words long. Attempting to message a creature that is behind 1 ft of stone, 6 in of metal, or 1 in of lead requires twice the number of successes.
 
 ##### Distance per Spell Level
-| Successes | Distance |
-|:----|-------------:|
-| 0  | 10 tiles |
-| 1 | 60 tiles |
-| 2 | 1 mile |
-| 3 | 10 miles |
-| 4-5 | 100 miles |
-| 6-7 | 1000 miles |
-| 8-9 | anywhere in the same realm |
-| 10+ | any realm or warren |
+| Successes |                   Distance |
+| :-------- | -------------------------: |
+| 0         |                   10 tiles |
+| 1         |                   60 tiles |
+| 2         |                     1 mile |
+| 3         |                   10 miles |
+| 4-5       |                  100 miles |
+| 6-7       |                 1000 miles |
+| 8-9       | anywhere in the same realm |
+| 10+       |        any realm or warren |
 
 Add a success for every level cast above cantrip.
 
@@ -2275,7 +6609,7 @@ The number of tiles effected increases by 100 for every level cast above 5th.
 - **Range:** 10
 - **Duration:** 10 minutes
 
-Prime an area for elemental destruction. Targeting a 10x10 tile area centered on a point in range you can see, make a spellcasting roll against 3 Terrible dice. On success, choose an elemental damage type; all creatures in the zone gain _Vulnerability_ 1 to that element. Any spells dealing the chosen damage cast while inside the zone add a critical success to their spellcasting roll.
+Prime an area for elemental destruction. Targeting a 10x10 tile area centered on a point in range you can see, make a spellcasting roll against 3 Terrible dice. On success, choose an elemental damage type; all creatures in the zone gain _Vulnerability_ 1 to that element. Any spells dealing the chosen damage cast while inside the zone add a critical to their spellcasting roll.
 
 The size of the zone increases by 2 for every level cast above 5th.
 
@@ -2676,7 +7010,7 @@ Add 3 superior dice when cast at 10th level.
 - [Seal](#Seal)
 - [Shadowmancy](#Shadowmancy)
 
-### Cantrip
+### Cantrips
 
 #### Bleed
 *Cantrip*
@@ -2855,7 +7189,7 @@ The fireflies cover 1 additional adjacent tile and you add a wound die for every
 
 Your hands elongate, becoming deadly poisonous claws. While under the effects of this spell you may make an attack against a creature, using your spellcasting roll instead of your attack roll. On hit they take 3 wound dice in poison damage, gaining Poison 1 and Paralyze 1 for 1 minute on a critical.
 
-The duration increases by 10 minutes and you add a critical success to your roll for every level cast above 1st.
+The duration increases by 10 minutes and you add a critical to your roll for every level cast above 1st.
 
 #### Hex
 *1st level*
@@ -3310,7 +7644,7 @@ The area increases by 1 for every level cast above 4th.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Targeting up to 5 creatures in range, enchant them with a protective charm. Make a spellcasting roll adding a terrible die for each creature targeted. On success the creatures are warded against curses. While warded creatures have _Resistance_ 1 against death damage. At the start of the creatures turn any Hex effecting them is reduced by 1 level and they add a success and critical success to attribute saves against curses.
+Targeting up to 5 creatures in range, enchant them with a protective charm. Make a spellcasting roll adding a terrible die for each creature targeted. On success the creatures are warded against curses. While warded creatures have _Resistance_ 1 against death damage. At the start of the creatures turn any Hex effecting them is reduced by 1 level and they add a success and critical to attribute saves against curses.
 
 Add an enhanced die to your roll for every level cast above 4th.
 
@@ -3570,13 +7904,13 @@ Depending on the circumstance, make a spellcasting roll against challenge dice l
 Add an enhanced die to the spellcasting roll for every level cast above 5th.
 
 ##### Scrying Difficulty
-| Target | Difficulty Dice |
-|:----|-------------:|
-| A creature using an item they held for at least a month over the past year | 3T/2B |
-| A creature using a magic item they created | 2T/2B |
-| An object you have held for at least a month over the past year | 3T/2B |
-| A magic item you have created | 2T/1B |
-| A magic item you have attuned to in the past year | 2T |
+| Target                                                                     | Difficulty Dice |
+| :------------------------------------------------------------------------- | --------------: |
+| A creature using an item they held for at least a month over the past year |           3T/2B |
+| A creature using a magic item they created                                 |           2T/2B |
+| An object you have held for at least a month over the past year            |           3T/2B |
+| A magic item you have created                                              |           2T/1B |
+| A magic item you have attuned to in the past year                          |              2T |
 
 #### Suggestion
 *5th level*
@@ -4292,7 +8626,7 @@ Add an enhanced die for every level cast above 3rd.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Targeting up to 5 creatures in range, bless them with free movement. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to attribute savess against effects that inflict Slow, Grapple, or Restrained. For the duration, at the start of the creatures turn they may remove one level of the following conditions: Paralyze, Slow, Weaken.
+Targeting up to 5 creatures in range, bless them with free movement. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical to attribute savess against effects that inflict Slow, Grapple, or Restrained. For the duration, at the start of the creatures turn they may remove one level of the following conditions: Paralyze, Slow, Weaken.
 
 Add an enhanced die for every level cast above 3rd.
 
@@ -4406,13 +8740,13 @@ You may instead cast this into a small object or trinket using the 'Passing Acqu
 Add an enhanced die for every level cast above 3rd.
 
 ##### Summoning Difficulty
-| Familiarity | Difficulty Dice |
-|:----|-------------:|
-| Second hand description or unknown name  | 4T |
-| Passing acquaintance | 2T/2B |
-| Casual friendship | 1T/2B |
-| Intimate knowledge | 2B |
-| More than 200 miles away | +1T |
+| Familiarity                             | Difficulty Dice |
+| :-------------------------------------- | --------------: |
+| Second hand description or unknown name |              4T |
+| Passing acquaintance                    |           2T/2B |
+| Casual friendship                       |           1T/2B |
+| Intimate knowledge                      |              2B |
+| More than 200 miles away                |             +1T |
 
 #### Traveler's Protection
 *3rd level*
@@ -4472,7 +8806,7 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Target up to 5 creatures in range, bless them with holy resilience. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical success to attribute saves against effects that inflict Poison, Burn, Disease, or minor and major injuries. For the duration, at the start of the creatures turn they may remove one level of Burn or Poison effecting them.
+Target up to 5 creatures in range, bless them with holy resilience. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical to attribute saves against effects that inflict Poison, Burn, Disease, or minor and major injuries. For the duration, at the start of the creatures turn they may remove one level of Burn or Poison effecting them.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -4827,7 +9161,7 @@ Add a superior die to your roll for every level cast above 7th.
 - **Range:** 5
 - **Duration:** instant
 
-On your turn or as a reaction you change the fate of up to 5 creatures in range you can see. Make a spellcasting roll against 2 terrible dice for each creature targeted. On success, until the end of the creatures next turn they ignore any dice that roll a failure or critical failure and are unaffected by Hex, Paralyze, and Stun.
+On your turn or as a reaction you change the fate of up to 5 creatures in range you can see. Make a spellcasting roll against 2 terrible dice for each creature targeted. On success, until the end of the creatures next turn they ignore any dice that roll failures and are unaffected by Hex, Paralyze, and Stun.
 
 Add a superior die to your roll for every level cast above 7th.
 
@@ -4970,10 +9304,9 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 
 Make a ranged attack against a creature, adding an enhanced die for each AP spent above the minimum.
 
-
 ***Enhanced:*** Add a wound die to the damage for each critical, up to a max of 3.
 
-***Superior:*** You may reroll blank wound dice.
+***Superior:*** You ignore all criticals in the creatures defense roll when using the maximum AP for this manuever.
 
 #### Hamstring
 
@@ -4999,9 +9332,9 @@ Make a melee attack against a creature, adding an enhanced die. On hit you deal 
 - **Range:** melee
 - **Level Required:** 1/5/11
 
-After making a successful melee attack against a humanoid creature you may attempt to headbutt them. Make a raw Stamina roll against their Stamina save, the loser is staggered and takes a wound die in damage.
+After making a successful melee attack against a humanoid creature you may attempt to headbutt them. Make a Stamina save against the creatures Stamina save, the loser is staggered and takes a wound die in damage.
 
-***Enhanced:*** Add a superior die to your Stamina roll. The loser is dazed until the end of their next turn.
+***Enhanced:*** You take no damage on a miss and creatures take a wound instead of a wound die on hit. The loser is dazed until the end of their next turn.
 
 ***Superior:*** You may choose to take a wound die in damage. If you do you add 2 wound dice to the damage roll.
 
@@ -5047,16 +9380,16 @@ This cannot be used if you are adjacent to your target. You make a running leap 
 
 #### Shield Slam
 
-- **AP Cost:** 3/2/2
+- **AP Cost:** 2/2/2
 - **Weapon:** any shield
 - **Range:** melee
 - **Level Required:** 1/10/15
 
-Make an attack with your shield, knocking the target off balance. Make a melee attack against a creature. On hit the creature is staggered and takes 1 wound if you used a shield, or 1 wound die if you used a buckler.
+Make an attack with your shield, knocking the target off balance. Make a melee attack against a creature. On hit the creature is staggered and takes 1 wound in bludgeoning damage.
 
 ***Enhanced:*** Add an enhanced die to the attack roll and the creature is knocked prone on a critical.
 
-***Superior:*** Add a superior die instead of an enhanced die. Regardless of the outcome the target creature cannot make opportunity attacks against you this turn.
+***Superior:*** You deal an extra wound die when attacking with a shield. Regardless of the outcome the target creature cannot make opportunity attacks against you this turn.
 
 
 #### Shove
@@ -5068,7 +9401,7 @@ Make an attack with your shield, knocking the target off balance. Make a melee a
 
 Attempt to knock a Large or smaller creature off balance with a strong push or kick. Make an athletics check against the creatures Strength save. On failure they are staggered and you may push them back 1 tile. While staggered the creature loses the benefits of any shield they are holding.
 
-***Enhanced:*** On a critical you have combat advantage against the creature while they are staggered.
+***Enhanced:*** On a critical the creature grants combat advantage while they are staggered.
 
 ***Superior:*** You add a superior die to your Athletics roll and you may target all creatures adjacent to you.
 
@@ -5083,7 +9416,7 @@ Can only be used when flanking a creature or if you have combat advantage. Make 
 
 ***Enhanced:*** Sneak Attack can be used every turn and you may reroll all wound dice in your damage roll.
 
-***Superior:*** You do not need to be flanking or have combat advantage to use Sneak Attack. When flanking or attacking with combat advantage the target does not benefit from critical successes.
+***Superior:*** You do not need to be flanking or have combat advantage to use Sneak Attack. When flanking or attacking with combat advantage the target does not benefit from criticals.
 
 
 #### Spear Wall
@@ -5093,11 +9426,11 @@ Can only be used when flanking a creature or if you have combat advantage. Make 
 - **Range:** weapon range
 - **Level Required:** 1/5/13
 
-As a reaction you make an opportunity attack against any creature moving into your zone of control. On hit you deal normal damage and the creatures move action ends. On a critical the target is pushed back 1 tile.
+As a reaction you make an opportunity attack against any creature moving into your zone of control. On hit you deal normal damage and the creature treats your zone of control as difficult terrain.
 
-***Enhanced:*** Add an enhanced die to the attack roll.
+***Enhanced:*** Add an enhanced die to the attack roll. On a critical the target is pushed back 1 tile.
 
-***Superior:*** Add a wound die to the damage roll. Enemy creatures treat your zone of control as difficult terrain.
+***Superior:*** Add a wound die to the damage roll. Enemy creatures spend 3 tiles of movement for every tile moved in your zone of control.
 
 
 #### Sweeping Strike
@@ -5122,20 +9455,20 @@ Make a melee attack against creature, adding an enhanced die. The target makes a
 - **Range:** weapon range
 - **Level Required:** 2/8/13
 
-You carefully study your opponents movements, making a calculated attack. Make a melee attack against a creature adding a normal die to the attack roll. Each critical you roll counts as a success instead. If the attack hits you may move 1 tile in any direction, ignoring opportunity attacks.
+You carefully study your opponents movements, making a calculated attack. Make a melee attack against a creature adding a normal die to the attack roll. Each critical you roll counts as a success instead. If the attack hits you may move 2 tile in any direction, ignoring opportunity attacks.
 
-***Enhanced:*** Add an enhanced die instead of a normal die and you may move up to 2 tiles.
+***Enhanced:*** Add an enhanced die instead of a normal die and you may move up to 3 tiles.
 
-***Superior:*** You may move up to 3 tiles and may pass through hazardous effects without triggering them as long as you do not end your movement inside their area.
+***Superior:*** You may move up to 4 tiles and may pass through hazardous effects without triggering them as long as you do not end your movement inside their area.
 
 #### Dagger Throw
 
 - **AP Cost:** 2/2/2
 - **Weapon:** any dagger
 - **Range:** Range 3
-- **Level Required:** 2/7/14
+- **Level Required:** 2/9/19
 
-Throw a dagger at a nearby creature, creating an opening. Make a thrown weapon attack against a non-adjacent creature in range. On hit you deal normal damage and the creature grants combat advantage until the start of your next turn.
+Throw a dagger at a nearby creature, creating an opening. Make a thrown weapon attack against a non-adjacent creature in range. On hit you deal normal damage and the next attack against the creature has Combat Advantage.
 
 ***Enhanced:*** Add a wound die to the damage on a critical.
 
@@ -5148,13 +9481,13 @@ Throw a dagger at a nearby creature, creating an opening. Make a thrown weapon a
 - **Range:** melee
 - **Level Required:** 2/9/17
 
-Make a melee attack against a large or smaller creature adding an enhanced die to the attack roll. On hit you deal normal damage, dazing the creature until the end of their next turn on a critical.
+Targeting a large or smaller creature, make a melee attack adding an enhanced die to the attack roll. On hit you deal normal damage, dazing the creature until the end of their next turn on a critical.
 
 - **Minor Injury: Clouded Mind.** You add a bad die to Intelligence saves and skills.
 
 ***Enhanced:*** The creature gains the minor injury _Clouded Mind_ on a critical.
 
-***Superior:*** While dazed, any attacks against the creature add a critical success to their attack rolls.
+***Superior:*** While dazed, any attacks against the creature add a critical to their attack rolls.
 
 
 #### Guided Strike
@@ -5166,26 +9499,22 @@ Make a melee attack against a large or smaller creature adding an enhanced die t
 
 Make a melee attack against a creature using any spellcasting roll instead of your attack roll. On hit the creature takes normal damage, ignoring 1 level of resistance.
 
-***Enhanced:*** You may spend 1 mana to add a wound of fire, cold, lightning, or poison damage to the attack.
+***Enhanced:*** The attack is always a critical, regardless of roll. Effects that occur based on the number of criticals are unaffected.
 
-***Superior:*** On a critical you add the following effect depending on your damage type:
-- **Fire:** Add a wound die in fire damage.
-- **Cold:** They gains Slow 2 for 1 minute.
-- **Lightning:** They gain Paralyze 1 until the start of their next turn.
-- **Poison:** They gain Poison 1 for 10 minutes.
+***Superior:*** You may spend 1 mana to convert all wound dice in the damage roll to wounds.
 
-#### Hindering Strike
+#### Evasive Defense
 
-- **AP Cost:** 2/2/1
+- **AP Cost:** 3/3/3
 - **Weapon:** any melee weapon
 - **Range:** melee
 - **Level Required:** 2/12/22
 
-Once per turn, when a Huge or smaller creature adjacent to you moves with a Move or Sprint action you may make an opportunity attack against the creature. On hit you deal normal weapon damage and the creature loses 2 tiles of movement, or 3 on a critical.
+Used in place of the Defend action. You add 1 enhanced die to attribute saves against attacks, maneuvers, or damaging spells. Once per turn, when targeted by an area of effect attack, maneuver, or spell, you may move 1 tile in any direction.
 
-***Enhanced:*** You add a critical success to your attack roll. Regardless of the result the target creature treats tiles adjacent to you as difficult terrain until the end of their turn.
+***Enhanced:*** You may move up to 2 tiles instead of 1. Shifting does not provoke opportunity attacks and you may shift 1 tile when taking this action.
 
-***Superior:*** On hit the creature adds a terrible die to all attacks, maneuvers, or spellcasting rolls made while in your zone of control.
+***Superior:*** You may move up to 3 tiles instead of 2. You add 1 reroll to defense rolls and attribute saves against attacks, maneuvers, and spell you can see.
 
 #### Raise Shield
 
@@ -5194,7 +9523,7 @@ Once per turn, when a Huge or smaller creature adjacent to you moves with a Move
 - **Range:** N/A
 - **Level Required:** 2/9/13
 
-Used in place of your defend action. You raise your shield to defend against arrows. You gain _Resistance 1_ to physical damage dealt by ranged attacks until the start of your next turn.
+Used in place of the Defend action. You raise your shield to defend against arrows. You gain _Resistance 1_ to physical damage dealt by ranged attacks until the start of your next turn.
 
 ***Enhanced:*** While your shield is raised you can reroll 1 die when making a defense roll against ranged attacks.
 
@@ -5202,16 +9531,16 @@ Used in place of your defend action. You raise your shield to defend against arr
 
 #### Run Down
 
-- **AP Cost:** 6/5/5
+- **AP Cost:** 8/7/6
 - **Weapon:** any weapon with Reach
 - **Range:** melee
 - **Level Required:** 2/8/15
 
-Can only be used while on a mount. Make a melee attack against a standing creature, adding a normal die to the attack roll. If you moved at least 2 tiles before making this attack you add 2 wound dice to the damage.
+Can only be used while on a mount. Move up to your sprint speed and make a melee attack against a creature adding a normal die to the attack roll. If you moved at least 2 tiles before making this attack you add 2 wound dice to the damage.
 
 ***Enhanced:*** Add an enhanced die instead of a normal die and the creature is knocked prone on a critical.
 
-***Superior:*** Any move action taken before making this attack can pass through medium or smaller creatures. Creatures you pass through make a Strength or Dexterity save against your attack roll, taking 2 wound dice in bludgeoning damage and are staggered on hit.
+***Superior:*** Your movement may pass through medium or smaller creatures. Creatures you pass through make a Strength or Dexterity save against your attack roll. On fail creatures take 1 wound and 1 wound die in bludgeoning damage and are staggered.
 
 
 #### Wild Attack
@@ -5239,15 +9568,15 @@ Make a wild melee attack against a creature, adding a normal die to your attack 
 - **Range:** melee
 - **Level Required:** 3/11/21
 
-Used in place of a move action, you must target a creature you are not adjacent to. Charge forwards, striking at a creature within your move speed and moving yourself adjacent to them. Make a normal weapon attack adding a critical success to the attack roll. On hit you deal normal damage and stagger them.
+Used in place of a move action, you must target a creature you are not adjacent to. Charge forwards, striking at a creature within your move speed and moving yourself adjacent to them. Make a normal weapon attack adding a critical to the attack roll. On hit you deal normal damage and stagger them.
 
-***Enhanced:*** Add 2 critical successes to your roll and your move speed is increased by 2 for the attack.
+***Enhanced:*** Add a wound die to your damage roll and your move speed is increased by 2 for the attack.
 
-***Superior:*** You add a wound die to the damage. Once per round, as a reaction to an ally being knocked unconscious you can spent 2 AP to Charge! at an enemy adjacent to your unconscious ally.
+***Superior:*** Add a wound instead of a wound die. Once per round, as a reaction to an ally being knocked unconscious you can spent 2 AP to _Charge!_ at an enemy adjacent to your unconscious ally.
 
 #### Heavy Swing
 
-- **AP Cost:** 7/7/6
+- **AP Cost:** 7/6/5
 - **Weapon:** any two-handed weapon
 - **Range:** melee
 - **Level Required:** 3/12/22
@@ -5256,7 +9585,7 @@ You bring the full weight of your weapon down on a creature. Make a melee attack
 
 ***Enhanced:*** Add a superior die instead of an enhanced die to the attack roll and an extra wound die to the damage.
 
-***Superior:*** On hit you stagger the creature and temporarily sunder their armor. While staggered any critical succeses they roll with defense rolls give 2 successes and no critical successes.
+***Superior:*** On hit the creature is staggered. They do not benefit from criticals with defense rolls until the start of their next turn.
 
 #### Pinning Shot
 
@@ -5268,9 +9597,9 @@ You bring the full weight of your weapon down on a creature. Make a melee attack
 Make a ranged attack against a medium or smaller creature, adding an enhanced die to the roll. On hit they take 1 wound in piercing damage, pinning them to the wall or ground on a critical. A pinned creature grants combat advantage and cannot take the move or sprint actions until they spend 5 AP unpinning themselves.
 
 
-***Enhanced:*** Add a superior die instead of an enhanced die.
+***Enhanced:*** Add a superior die instead of an enhanced die. You may target large or smaller creatures.
 
-***Superior:*** The attack deals normal damage. To remove the pin they must instead make a Strength save against 3 enhanced dice, adding a superior die for each bonus modifier on the arrow.
+***Superior:*** The attack deals normal damage. To remove the pin they must make a Strength save against 3 enhanced dice, adding a superior die for each bonus modifier on the arrow.
 
 #### Press the Attack
 
@@ -5279,9 +9608,9 @@ Make a ranged attack against a medium or smaller creature, adding an enhanced di
 - **Range:** melee
 - **Level Required:** 3/9/14
 
-Strike into a creature, pushing them back. Make a melee attack against a creature, adding a normal die to the roll. On hit they take normal damage, are pushed back 1 tile, and you move to occupy their space ignoring opportunity attacks, staggering them on a critical.
+Strike into a creature, pushing them back. Make a melee attack against a creature, adding a normal die to the roll. On hit they take normal damage, are pushed back 1 tile, and you move to occupy their space ignoring opportunity attacks.
 
-***Enhanced:*** Add a wound die to the damage and replace the normal die with an enhanced die.
+***Enhanced:*** Add a wound die to the damage and replace the normal die with an enhanced die. Creatures are staggered on hit.
 
 ***Superior:*** On hit, you may immediately follow up with another Press the Attack against the same creature using an offhand weapon or shield by spending 2 AP. When using the a shield you use your normal attack roll, dealing only 1 wound in damage but knock them prone on a critical.
 
@@ -5306,7 +9635,7 @@ Empower your weapon with holy might, consuming up to 2 mana. Make a melee attack
 - **Range:** melee
 - **Level Required:** 3/13/18
 
-Take advantage of an opponents spellcasting to quickly attack. As a reaction, when a hostile creature adjacent to you begins casting a spell you may make a melee attack against them. On hit you deal a wound die in bludgeoning damage and you add a bad die to their spellcasting roll, adding an extra bad die for every critical.
+Take advantage of an opponents spellcasting to quickly attack. As a reaction, when a creature adjacent to you begins casting a spell you may make a melee attack against them. On hit you deal a wound die in bludgeoning damage and you add a bad die to their spellcasting roll, adding an extra bad die for every critical.
 
 ***Enhanced:*** The first die added to their spellcasting roll is a terrible die instead of a bad die.
 
@@ -5366,7 +9695,7 @@ You channel magic into your weapon, empowering the next attack and consuming up 
 
 ***Enhanced:*** The attack deals normal weapon damage as force damage.
 
-***Superior:*** You may spend up to 5 mana. If you use 5 mana this attack ignores 1 level of resistance and deals an extra wound die in damage.
+***Superior:*** You may spend up to 5 mana. If you use 5 mana this attack ignores 1 level of resistance and deals an extra wound in damage.
 
 ### Level 5
 
@@ -5379,7 +9708,7 @@ You channel magic into your weapon, empowering the next attack and consuming up 
 
 Make a melee attack against a creature, adding a normal die. On hit you deal normal damage, breaking their armor on a critical. Armor broken this way provides 1 less defense die until repaired.
 
-***Enhanced:*** On hit the creature doesn't benefit from critical successes in their defense roll until the end of your next turn.
+***Enhanced:*** On hit the creature does not benefit from criticals with defense rolls until the start of their next turn.
 
 ***Superior:*** You may target their shield instead, destroying a mundane shield on a critical.
 
@@ -5390,11 +9719,11 @@ Make a melee attack against a creature, adding a normal die. On hit you deal nor
 - **Range:** melee
 - **Level Required:** 5/12/22
 
-As an additional cost this maneuver consumes a healing surge. You make a rallying cry before striking a creature, embolding your allies. Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, and you and up to 2 other creatures within 5 tiles gains a temporary wound for 1 hour if they have none.
+As an additional cost this maneuver consumes a healing surge. You make a rallying cry before striking a creature, embolding your allies. Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, and you and up to 2 other creatures within 5 tiles gains a temporary wound for 1 hour.
 
-***Enhanced:*** Before making the attack roll you reduce the level of a Hex or Poison affecting you by 1. You may give up to 4 other creatures temporary wounds.
+***Enhanced:*** You ignore the effects of Hex and Poison for the attack. You may give up to 4 other creatures temporary wounds.
 
-***Superior:*** You may target creatures up to 7 tiles away. While creatures have temporary wounds from this maneuver they add 1 success to attribute saves against fear, charms, and non-damaging spells.
+***Superior:*** Add a superior die instead of an enhanced die. While creatures have temporary wounds from this maneuver they add 1 success to attribute saves against fear, charms, and non-damaging spells.
 
 #### Roundhouse Kick
 
@@ -5403,9 +9732,9 @@ As an additional cost this maneuver consumes a healing surge. You make a rallyin
 - **Range:** melee
 - **Level Required:** 5/15/24
 
-Perform a spinning kick. Make an unarmed attack against a creature adding an enhanced die to the roll. On hit the creature takes normal damage, is pushed back 1 tile, and staggered.
+Perform a spinning kick. Make an unarmed attack against a creature adding an enhanced die to the roll. On hit the creature takes normal damage, is staggered, and you may push them back 1 tile.
 
-***Enhanced:*** You may target 3 creatures with the attack.
+***Enhanced:*** Add a wound die to the damage. On a critical the creature grants combat advantage until the start of their next turn.
 
 ***Superior:*** You target all adjacent creatures. Before performing the attack you may move 1 tile into an unoccupied space, preventing opportunity attacks.
 
@@ -5416,11 +9745,11 @@ Perform a spinning kick. Make an unarmed attack against a creature adding an enh
 - **Range:** weapon range
 - **Level Required:** 5/14/22
 
-Make a ranged attack against a creature, adding up to 5 wound dice to the damage. For each wound die add a terrible die to your attack roll.
+Make a ranged attack against a creature, adding up to 3 wound dice to the damage. For each wound die add a terrible die to your attack roll.
 
-- **Minor Injury: Puncture.** Attacks that deal piercing or slashing damage against you add a critical success to their attack roll.
+- **Minor Injury: Puncture.** Attacks that deal piercing or slashing damage against you add a critical to their attack roll.
 
-***Enhanced:*** The creature gains the minor injury _Puncture_.
+***Enhanced:*** You may add up to 5 wound dice. The creature gains the minor injury _Puncture_.
 
 ***Superior:*** Damage from this attack also reduces the creatures max wounds by the same amount. Their max wounds returns to normal after a long rest.
 
@@ -5446,26 +9775,26 @@ Make a weapon attack against a creature adding a normal die to the attack roll. 
 - **AP Cost:** 5/4/4
 - **Weapon:** unarmed
 - **Range:** melee
-- **Level Required:** 6/14/20
+- **Level Required:** 6/13/20
 
-Can only be used against a grappled creature. Make an unarmed attack against the creatures Strength save. On hit you slam the grappled creature into the tile behind you ending the grapple, dealing normal damage and knocking the creature prone.
+Can only be used against a grappled creature. Make an unarmed attack against the creatures Strength save. On hit you slam the grappled creature into the tile behind you ending the grapple, dealing 3 wound dice in bludgeoning damage and knocking the creature prone.
 
-***Enhanced:*** All wound dice in your damage roll are replaced with wounds.
+***Enhanced:*** You may reroll any number of wound dice in your damage roll.
 
-***Superior:*** You may instead throw the grappled creature at another creature within 5 tiles. Both creatures make a Strength save against your unarmed attack, taking normal damage and being knocked prone on hit.
+***Superior:*** You may instead throw the grappled creature at another creature within 5 tiles. Both creatures make a Strength save against your unarmed attack, taking 3 wound dice in bludgeoning damage and being knocked prone on hit.
 
 #### Tumble
 
-- **AP Cost:** 3/2/2
+- **AP Cost:** 2/2/2
 - **Weapon:** N/A
-- **Range:** 2
+- **Range:** N/A
 - **Level Required:** 6/14/23
 
-Only usable when targeted by an attack, maneuver, spell attack, or when travelling over hazardous terrain. You dive to avoid the attack, making a dexterity save instead of the normal save for the attack. On success you avoid the attack and may move a tile in any direction. This maneuver may only be used once per round.
+Only usable when targeted by an attack, maneuver, damaging spell, or when travelling over hazardous terrain. You dive to avoid the attack, making a dexterity save instead of the normal roll for the attack. On success you avoid the attack and may move a tile in any direction. This maneuver may only be used once per round.
 
 ***Enhanced:*** You have expertise on the dexterity save.
 
-***Superior:*** You may move up to 2 tiles instead of 1. After you move you take up a defensive position, allowing you to reroll 2 defense dice against ranged attacks and spell attacks.
+***Superior:*** You may move up to 2 tiles instead of 1. After you move you take up a defensive position, allowing you to reroll 2 defense dice against ranged attacks and spells.
 
 ### Level 7
 
@@ -5485,12 +9814,12 @@ You attempt to disarm a creature, forcing them to drop their weapon. The creatur
 
 #### Leaping Slam
 
-- **AP Cost:** 7/7/7
+- **AP Cost:** 7/6/6
 - **Weapon:** any two-handed weapon
 - **Range:** melee
 - **Level Required:** 7/18/24
 
-You jump up to 2 tiles making a weapon attack against a creature. On hit they take normal damage and are knocked back 2 tiles if they are large or smaller. On a critical the target is knocked prone.
+You jump up to 2 tiles making a weapon attack against a creature. On hit they take normal damage and are knocked back 2 tiles if they are large or smaller. On a critical the creature is knocked prone.
 
 ***Enhanced:*** The attack hits 2 creatures adjacent to the target creature.
 
@@ -5505,10 +9834,10 @@ You jump up to 2 tiles making a weapon attack against a creature. On hit they ta
 - **Range:** weapon range
 - **Level Required:** 8/16/25
 
-This cannot be used in constrained areas. Launch a volley of arrows hitting all creatures in a 3x3 tile area centered on a point in range. Make a ranged attack against the creatures adding a bad die to your roll. On hit they take 2 wound dice in damage.
+This cannot be used in constrained areas. Launch a volley of arrows hitting all creatures in a 3x3 tile area centered on a point in range. Make a ranged attack against the creatures adding a bad die to your roll. On hit they take normal weapon damage.
 
 
-***Enhanced:*** You no longer add a bad die to your roll and you deal normal weapon damage.
+***Enhanced:*** The area increases to 4x4 tiles.
 
 ***Superior:*** The area increases to 5x5 tiles and creatures are staggered on a critical.
 
@@ -5519,10 +9848,10 @@ This cannot be used in constrained areas. Launch a volley of arrows hitting all 
 - **Range:** melee
 - **Level Required:** 8/15/25
 
-You move your weapon in an elegant dance, quickly striking an enemy and leaving them open to further attacks. Make an attack against a creature adding an enhanced die to your roll. On hit you deal normal damage, with the next attack against this creature this turn costing 1 less AP and adding a critical success. Regardless of the outcome of the attack you may move one tile, staying within the creatures zone of control and ignoring opportunity attacks.
+You move your weapon in an elegant dance, quickly striking an enemy and leaving them open to further attacks. Make an attack against a creature adding an enhanced die to your roll. On hit you deal normal damage, with the next attack against this creature this turn costing 1 less AP and adding a critical. Regardless of the outcome of the attack you may move one tile, staying within the creatures zone of control and ignoring opportunity attacks.
 
 
-***Enhanced:*** On hit you add a critical success to all attacks against that creature until the end of your turn.
+***Enhanced:*** On hit you add a critical to all attacks against that creature until the end of your turn.
 
 ***Superior:*** For the remainder of your turn, when making an off-hand attack you may use _Blade Dance_ instead.
 
@@ -5535,7 +9864,7 @@ You move your weapon in an elegant dance, quickly striking an enemy and leaving 
 - **Range:** melee
 - **Level Required:** 9/15/27
 
-Hit a creature with a series of quick strikes. Make an unarmed attack against a creature adding an enhanced die. On hit the creature takes 5 wound dice in damage. If the target is humanoid and the total wounds and critical successes in your roll adds to 5 or more the creature is stunned until the end of their next turn.
+Hit a creature with a series of quick strikes. Make an unarmed attack against a creature adding an enhanced die. On hit the creature takes 5 wound dice in damage. If the target is humanoid and the total wounds and criticals in your roll adds to 5 or more the creature is stunned until the end of their next turn.
 
 ***Enhanced:*** You can target a creature up to 2 tiles away, moving yourself to an unoccupied tile adjacent to the creature for the attack. You add a superior die instead of an enhanced die to your attack roll.
 
@@ -5545,16 +9874,16 @@ Hit a creature with a series of quick strikes. Make an unarmed attack against a 
 #### Volley
 
 
-- **AP Cost:** 9/7/7
+- **AP Cost:** 9/8/7
 - **Weapon:** any ranged weapon
 - **Range:** weapon range
 - **Level Required:** 9/17/26
 
-Shoot a volley of arrows at 3 adjacent creatures. Make a ranged weapon attack adding a terrible die to the attack roll. On hit you deal normal damage.
+Shoot a volley of arrows at 3 adjacent creatures. Make a ranged weapon attack adding a bad die to the attack roll. On hit you deal normal damage.
 
-***Enhanced:*** Add a bad die instead of a terrible die to your attack roll and the creatures are staggered on hit.
+***Enhanced:*** You no longer add a bad die to your roll and the creatures are staggered on hit.
 
-***Superior:*** You may target up to 5 adjacent creatures. You can target the same creature with multiple attacks, instead making a single attack roll and adding a wound die and critical success for each additional attack targeting that creature.
+***Superior:*** You may target up to 5 adjacent creatures. You can target the same creature with multiple attacks, making a single attack roll and adding a wound die for each additional attack targeting that creature.
 
 
 #### Wounding Strike
@@ -5567,11 +9896,11 @@ Shoot a volley of arrows at 3 adjacent creatures. Make a ranged weapon attack ad
 Attempt to mortally wound a creature. Make a weapon attack adding a superior die if you are flanking the creature. On hit they take 1 wound die in damage, gaining a minor injury from the table below on a critical. You may choose any wound you meet the requirement for.
 
 
-| Criticals | Minor Injury | Effect |
-|:----:|:----|:-------------:|
-| 1 | Bleeding | Physical attacks and maneuvers against you may reroll 1 wound die in the damage roll. |
-| 2 | Open Wound | You add a terrible die to Stamina and Willpower saves and skills.
-| 3 | Fatal Wound | All attacks and maneuvers deal an additional wound die against you. |
+| Criticals | Minor Injury |                                        Effect                                         |
+| :-------: | :----------- | :-----------------------------------------------------------------------------------: |
+|     1     | Bleeding     | Physical attacks and maneuvers against you may reroll 1 wound die in the damage roll. |
+|     2     | Open Wound   |           You add a terrible die to Stamina and Willpower saves and skills.           |
+|     3     | Fatal Wound  |          All attacks and maneuvers deal an additional wound die against you.          |
 
 ***Enhanced:*** The attack deals normal damage and you have expertise for the attack if you are flanking the creature.
 
@@ -5598,7 +9927,7 @@ Swiftly strike up to 5 creatures in range. Make a weapon attack against the crea
 ### Backgrounds
 
 #### Blessed: Fae Court
-You are blessed by the Fae Court with innate magical powers. You have 1 proficiency in thievery and performance, and gain access to the Fae Court feats. You start with 1 spell power and you add a superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
+You are blessed by the Fae Court with innate magical powers. You have 1 proficiency in thievery and performance, and gain access to the Fae Court feats. You start with 1 spell power, are fluent in Sylvani, and you add a superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
 
 #### Blessed: Earthen Spirits
 You are blessed by the Earthen Spirits with an affinity for nature. You have 1 proficiency with nature and a weapon type of your choice, and gain access to the Earthen Spirit feats. Your body is unnaturally sturdy, and when unarmored you roll 3 defense dice instead of 2. Regardless of duration, when you gain poison 1 it disappears at the end of your next turn. This has no effect on effects inflicting poison 2 or higher.
@@ -5607,7 +9936,7 @@ You are blessed by the Earthen Spirits with an affinity for nature. You have 1 p
 You are blessed by the Blighted Ones with necromantic powers. You have 1 proficiency with intimidation and religion, and gain access to the Blighted Ones feats. Unless magically hidden, you can sense the presence of Undead within 10 tiles. Once per day you may cast _Ghoulish Claws_ at 1st level. This spell does not need to be prepared and does not cost mana. You have a codex with 2 cantrips.
 
 #### Blessed: Abyssal Host
-You are blessed by the Abyssal Host with fiendish luck. You have expertise in conversation and insight, and gain access to the Abyssal Host feats. Once per long rest you may redo a roll, rerolling all dice and taking the new values. You know the spell _Eldritch Blast_ without needing to prepare it and can cast it without a codex. Casting _Eldritch Blast_ costs 1 less AP.
+You are blessed by the Abyssal Host with fiendish luck. You have expertise in conversation and insight, and gain access to the Abyssal Host feats. You are fluent in Hadal. Once per long rest you may redo a roll, rerolling all dice and taking the new values. You know the spell _Eldritch Blast_ without needing to prepare it and can cast it without a codex. Casting _Eldritch Blast_ costs 1 less AP.
 
 #### Coven Witch
 You are trained in occult spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in nature and insight.
@@ -5656,7 +9985,7 @@ You learn 1 maneuver you meet the requirements for and have 1 proficiency in 3 w
 You begin with hide armor and 3 weapons you are proficient with.
 
 #### Street Urchin
-You gain 1 proficiency in stealth and thievery and have expertise in those skills. Your time on the streets have given you a wide range of skills. Gain 1 proficiency in 3 skills of your choosing. Your naturally hard to pin down. When taking the move or sprint action you may spend double its AP cost to prevent opportunity attacks from the movement. You start with a simple weapon of your choice.
+You gain 1 proficiency in stealth and thievery and have expertise in those skills. Your time on the streets have given you a wide range of skills. You can read and write Signoric and gain 1 proficiency in 3 skills of your choosing. Your naturally hard to pin down. When taking the move or sprint action you may spend double its AP cost to prevent opportunity attacks from the movement. You start with a simple weapon of your choice.
 
 #### Village Healer
 You have studied the traditional methods of healing. You start with an apothecary set and any 3 plants from the apothecary set's _wilderness survival rewards_ table. You have 2 proficiency with the apothecary set and 1 proficiency with nature, medicine, and survival. When making an apothecary roll your experience lets you reroll 1 die in the roll. You have a codex with two cantrips.
@@ -5673,7 +10002,7 @@ When wearing light or no armor you roll defense dice equal to your Dexterity sco
 You may use Willpower instead of Dexterity when rolling initiative. You cannot be surprised.
 
 #### Armor Expert
-You reduce the penalties of wearing armor to 1 bad die for medium armor and 1 terrible die for heavy armor. When making a defense roll you add 1 critical to your roll.
+You take no penalty to dexterity saves when wearing medium or heavy armor. When making a defense roll you add 1 critical to your roll.
 
 
 
@@ -5684,7 +10013,7 @@ You resonate particularly well with magic items. You may attune to 4 items at on
 Once per turn, when you cast a cantrip or 1st level spell your next basic attack costs 2 less AP. Alternatively if you make a basic attack your next cantrip or 1st level spell costs 2 less AP, with a minimum of 1. The spell level increases to 2nd at 7th level, and 3rd at 14th level, and 4th at 21th level.
 
 #### Cunning Combatant
-Staggered creatures do not benefit from critical successes in their rolls against you.
+Staggered creatures do not benefit from criticals in their rolls against you.
 
 #### Dual-Wield Expert
 You have no penalties from dual wielding. While dual wielding you add a defense die to your defense rolls when taking the defend action.
@@ -5705,7 +10034,7 @@ Choose 2 skill or tool proficiencies. You have expertise in these skills.
 After an unarmed attack you may make an unarmed off-hand attack as a free action. The attack does not benefit from your unarmed proficiency.
 
 #### Hunter
-On your turn you may spend 5 AP to study a non-humanoid creature, gaining an insight into its strengths and weaknesses. Make a perception check against a difficulty based on the rarity of the creature. On success you learn a piece of information about the creature, such as its max wounds, its physical or mental attributes, resistances or vulnerabilities, or one of its features. On a critical you see through the creature's defenses, adding a critical success to all attacks, maneuvers, or spells against the creature for the next minute.
+On your turn you may spend 5 AP to study a non-humanoid creature, gaining an insight into its strengths and weaknesses. Make a perception check against a difficulty based on the rarity of the creature. On success you learn a piece of information about the creature, such as its max wounds, its physical or mental attributes, resistances or vulnerabilities, or one of its features. On a critical you see through the creature's defenses, adding a critical to all attacks, maneuvers, or spells against the creature for the next minute.
 
 #### Longcaster
 Spells you cast with a range greater than touch have twice the range.
@@ -5729,11 +10058,18 @@ You have training in occult spells and increase your occult spellcasting profici
 #### Wizard
 You have training in arcane spells and increase your arcane spellcasting proficiency by 1.
 
+#### Weapon Expert
+You have honed your skills with weapons that deal a particular damage type. Choose one of the following bonuses:
+
+- **Mace Expert:** Critical hits with attacks and maneuvers using weapons that deal bludgeoning damage stagger their target.
+- **Halberd Expert:** When landing a critical hit with attacks and maneuvers using weapons that deal piercing damage you may reroll a wound die in your damage roll.
+- **Sword Expert:** When using weapons that deal slashing damage your first Triumph rolled counts for 3 successes instead of 2.
+
 #### Wrestler
 You add a superior die when making Strength rolls to grapple, move or shove a creature. When making an opportunity attack you can grapple instead.
 
 #### Overswing
-Once per turn, when making an attack or maneuver you may add 1 failure and 1 critical success to your attack roll. On hit you may reroll wound dice equal to your critical successes.
+Once per turn, when making an attack or maneuver you may add a failure and a critical to your attack roll. On hit you may reroll wound dice equal to your criticals.
 
 ### Journeyman
 
@@ -5817,7 +10153,7 @@ You are used to pushing your body to its limits. When traveling or staying awake
 #### Danger Sense
 *Requires proficiency in perception, 8th level*
 
-When making a attribute save against an attack, damaging spell, or damaging effect you can see you may reroll 2 dice and add 2 critical successes to your roll.
+When making a attribute save against an attack, damaging spell, or damaging effect you can see you may reroll 2 dice and add 2 criticals to your roll.
 
 
 #### Defensive Duelist
@@ -5843,7 +10179,7 @@ Your mastery of magic has enhanced your abilities with a chosen element. Choose 
 #### Enduring Concentration
 *Requires 2 Stamina*
 
-When making concentration checks you add bad dice for every wound taken instead of terrible dice. You add 1 critical success when saving against effects that stun or incapacitate you.
+When making concentration checks you add bad dice for every wound taken instead of terrible dice. You add a critical when saving against effects that stun or incapacitate you.
 
 #### Exertion
 *Requires 10th level*
@@ -5919,7 +10255,7 @@ When casting a spell that deals lightning damage you may add a critical to your 
 #### Linguist
 *Requires 2 Intelligence*
 
-You learn a new language of your choosing. You are able to translate writings written in any non-magical language to a language you know, taking 1 hour per page translated.
+You learn a new language of your choosing. You are able to translate mundane writings written in any language to a language you know, taking 1 hour per page translated.
 
 #### Malady
 *Requires 2 proficiency in occult spells, 9th level*
@@ -5954,7 +10290,7 @@ You may use your acrobatics roll in place of athletics checks, and standing up t
 #### Overcharge
 *Requires proficiency in a spell school, 6th level*
 
-When casting a damaging spell you may spend 1 mana to overcharge it, adding a critical failure to your spellcasting roll. Overcharged spells deal an extra wound with single target spells or a wound die with area of effect spells.
+When casting a damaging spell you may spend 1 mana to overcharge it, removing a critical from your spellcasting roll. Overcharged spells deal an extra wound with single target spells or a wound die with area of effect spells.
 
 
 #### Overwatch
@@ -5990,7 +10326,7 @@ Creatures under negative effects caused by your spells grant combat advantage to
 #### Quickdraw
 *Requires 3 proficiency in ranged weapons*
 
-You ignore the _Loading_ property of crossbows. You add a critical success to crossbow attacks against creatures within 3 tiles of you.
+You ignore the _Loading_ property of crossbows. You add a critical to crossbow attacks against creatures within 3 tiles of you.
 
 #### Quickened Spellcasting
 *Requires proficiency in a spell school*
@@ -6085,7 +10421,7 @@ You may afflict a creature with two different curses instead of one. You gain a 
 #### Armor Mastery
 *Requires Armor Expert, 3 Strength, 8th level*
 
-You take no penalties from wearing armor. When making a defense roll you may reroll 1 defense die.
+You take no penalties from wearing armor or holding a shield. When making a defense roll you may reroll 1 defense die.
 
 #### Attuned Senses
 *Requires Danger Sense, 12th level*
@@ -6134,10 +10470,10 @@ You have a natural gift for healing, being able to channel healing without the u
 You may enchant magic items. When enchanting a magic item you add terrible dice based on it's modifier or rarity according to the table below. Enchantments on magic items can't be made permanent with arcane forge, and you cannot enchant magic ammunition.
 
 ##### Enchantment Difficulty
-| Modifier/Rarity | Difficulty
-|:----:|:-------------|
-| +1 or Uncommon | +1 terrible die |
-| +2 or Rare | +2 terrible dice |
+| Modifier/Rarity | Difficulty       |
+| :-------------: | :--------------- |
+| +1 or Uncommon  | +1 terrible die  |
+|   +2 or Rare    | +2 terrible dice |
 | +3 or Legendary | +3 terrible dice |
 
 #### Overwhelming Force
@@ -6180,7 +10516,7 @@ You add 2 superior dice to any tool skill you have proficiency for. You may choo
 
 **Reliable.** When making a skill roll with a tool you have proficiency with you may choose to take a passing roll if the challenge is 4 dice or less.
 **Battlefield Enchanter.** You can cast temporary enchantments in the middle of battle, spending a turn to cast an enchantment on an item you can touch. The enchantment costs a single enchanting supply, lasts one hour, and all Bad dice in the enchanting roll are replaced with terrible dice.
-**Potent Potions.** Healing potions and poisons you make are more potent. You may reroll wound dice when drinking any healing potion you have made while poisons add a critical success to attack rolls using your poisons.
+**Potent Potions.** Healing potions and poisons you make are more potent. You may reroll wound dice when drinking any healing potion you have made while poisons add a critical to attack rolls using your poisons.
 
 #### Juggernaut
 *Requires 5 Stamina, 20th level*
@@ -6347,350 +10683,39 @@ When targeted by a damaging attack, maneuver or spell you may add a terrible die
 While not in direct sunlight you have expertise in stealth. While in dim light or darkness you can spend 5 AP to become invisible. The invisibility ends when you move or take an action.
 
 
-# Items
-
-### Adventuring Gear
-Most towns and some villages will have adventuring gear for sale. While the actual costs are determined by the GM, this list can be used to give guidelines for the costs of typical gear adventurers will need.
-
-| Item | Cost |
-|:----|-------------:|
-| basic health potion | 10sc |
-| bandage | 40ct |
-| fire kit | 2sc |
-| torch | 50ct |
-| 50 ft. rope | 150ct |
-| grappling hook | 5sc |
-| climbing gear | 15sc |
-| quiver | 10sc |
-| +1 Ammunition | 25sc per 3 |
-| nettle fever poison | 15sc |
-| cantrip spell scroll | 15sc |
-| 1st level spell scroll | 25sc |
-| 2nd level spell scroll | 50sc |
-| 3rd level spell scroll | 1pt |
-| enchanting supplies | 12sc |
-
-#### Health Potion
-On use they heal 1 wound and 2 wound dice. Health Potions come in different potencies, adding a wound and wound die for each modifier
-
-| Modifier | Total Wound Dice |
-|:----:|:-------------:|
-| 0 | 1w + 2 wound dice |
-| +1 | 2w + 3 wound dice |
-| +2 | 3w + 4 wound dice |
-| +3 | 4w + 5 wound dice |
-| +4 | 5w + 6 wound dice |
-
-
-#### Bandage
-During a short or long rest you may use a bandage, allowing you to reroll a healing surge used during the rest.
-
-#### Fire Kit
-Contains kindling and equipment to easily start a campfire. Can be used to pass a survival check when building a fire. Has 10 uses.
-
-#### Torch
-You can spend 5 AP to light the torch. Torches emit bright light out 3 tiles and dim light a further 3. Once lit a torch will last for 1 hour.
-
-#### Ammunition
-A standard quiver can hold 25 arrows or bolts. Arrows add 1 wound die to the attack, while bolts only deal the base crossbow damage.
-
-### Mundane Gear
-
-#### Weapons
-
-| Weapon | Modifiers | Damage | Cost | Type
-|:----|:----:|:----:|----:|----:|
-| *Simple* |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Dagger  | Thrown 5/10, Finesse | 1 | 5sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Club  | - | 1 wound die | 4sc | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Barbed Gauntlets  | Unarmed | 2 wound dice | 10sc | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Spear | Reach 1 | 1 | 8sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Crossbow | Two-Handed, Loading, Range 25/-- | 1 | 35sc | Piercing |
-| *Martial* |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Javelin | Thrown 10/15, Finesse | 1 | 4sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Hatchet | Thrown 5/10 | 1 | 8sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Axe | - | 1 | 15sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Halberd | Versatile 1, Reach 1 | 1 | 25sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Katar | Unarmed | 1 | 20sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Flail | Versatile 1 | 1 | 55sc | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Mace | - | 1 | 30sc | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Warhammer | Two-Handed | 1 + 1 wound die | 80sc | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Sword | Finesse | 1 | 35sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Long Sword | Two-Handed | 1 + 1 wound die | 70sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Battle Axe | Two-Handed | 3 wound dice | 70sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Lance | Two-Handed, Heavy, Reach 2 | 2 | 85sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Glaive | Heavy, Versatile 1, Reach 1 | 1 + 1 wound dice | 1pt 30sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Great Sword | Two-Handed, Heavy | 1 + 2 wound dice | 1pt 50sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Great Axe | Two-Handed, Heavy | 4 wound dice | 1pt 50sc | Slashing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Great Maul | Two-Handed, Heavy | 2 | 2pt | Bludgeoning |
-| &nbsp;&nbsp;&nbsp;&nbsp;Bow | Two-Handed, Range 10/30 | 1 + arrow damage | 30sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Hand Crossbow | Loading, Range 25/-- | 1 | 35sc | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Arrow | - | 1 wound die | 10ct | Piercing |
-| &nbsp;&nbsp;&nbsp;&nbsp;Bolt | - | - | 10ct | Piercing |
-
-#### Armor
-
-There are 3 different types of armor: light, medium, and heavy. There is no proficiency required to wear armor, but different armors give different penalties. Medium armor adds 2 bad dice to all Dexterity saves, stealth checks, and spellcasting rolls. Heavy armor adds 2 terrible dice to all Dexterity saves, stealth checks, and spellcasting rolls.
-
-If you do not meet the Strength requirement for wearing your armor you add 1 terrible die to all attacks, maneuvers, attribute saves and spellcasting rolls.
-
-| Armor | Defense | Strength | Cost | Dex/Spell Penalty
-|:----|:----:|:----:|----:|:----:|
-| *Light*  |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Padded | 0/3 | - | 20sc | none |
-| &nbsp;&nbsp;&nbsp;&nbsp;Leather, Studded | 1/2 | 0 | 30sc | none |
-| *Medium*  |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Hide | 1/3 | 1 | 60sc | 2 bad dice |
-| &nbsp;&nbsp;&nbsp;&nbsp;Chain Shirt, Scalemail | 2/2 | 2 | 85sc | 2 bad dice |
-| *Heavy*  |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Half Plate, Splint | 2/3 | 3 | 1pt 55sc | 2 terrible dice |
-| &nbsp;&nbsp;&nbsp;&nbsp;Full Plate | 3/2 | 4 | 3pt | 2 terrible dice |
-| *Shield*  |  |  | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Buckler | +0/1 | 0 | 15sc | none |
-| &nbsp;&nbsp;&nbsp;&nbsp;Shield | +1/0 | 2 | 50sc | none |
-
 ### Injuries
 The following are all the Major and Minor injuries you will find in this book.
 
 #### Minor Injuries
   
-| Name | Effect |
-|:----|:----:|
-| Bleeding | All blank wound die rolled against you are rerolled. |
-| Winded | You have 1 less maximum AP. |
-| Festering Wound | Your max wounds are reduced by 1. |
-| Sprained Wrist | Add a bad die to attacks and maneuvers |
+| Name             |                                                  Effect                                                  |
+| :--------------- | :------------------------------------------------------------------------------------------------------: |
+| Bleeding         |                           All blank wound die rolled against you are rerolled.                           |
+| Winded           |                                       You have 1 less maximum AP.                                        |
+| Festering Wound  |                                    Your max wounds are reduced by 1.                                     |
+| Sprained Wrist   |                                  Add a bad die to attacks and maneuvers                                  |
 | Minor Concussion | Add 1 bad die to spellcasting rolls, you must pass a concentration check every turn while concentrating. |
-| Bruised Leg | Your move and sprint speeds are reduced by 1 and you add a terrible die to Dexterity saves. |
-| Head Wound | Add 2 bad dice to all Willpower, Intelligence and Charisma saves and skills. |
-| Exhaustion | You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound. |
+| Bruised Leg      |       Your move and sprint speeds are reduced by 1 and you add a terrible die to Dexterity saves.        |
+| Head Wound       |               Add 2 bad dice to all Willpower, Intelligence and Charisma saves and skills.               |
+| Exhaustion       |       You have 1 level of exhaustion. This exhaustion cannot be healed until you cure this wound.        |
 
 
 #### Major Injuries
   
-| Name | Effect |
-|:----|:----:|
+| Name            |                                                                Effect                                                                 |
+| :-------------- | :-----------------------------------------------------------------------------------------------------------------------------------: |
 | Festering Wound | You add a terrible die to all Strength and Dexterity based rolls. All healing effects on you restore 1 less wound, to a minimum of 1. |
-| Crushed Body | You always have at least 1 level of exhaustion. |
-| Missing Eye | Can only be healed by _Power word: Heal_, _Restoration_, or similar magic. You add a bad die to all sight based attaks and skills. |
+| Crushed Body    |                                            You always have at least 1 level of exhaustion.                                            |
+| Missing Eye     |  Can only be healed by _Power word: Heal_, _Restoration_, or similar magic. You add a bad die to all sight based attaks and skills.   |
 
 
 ### Diseases
 Diseases can be removed in the same way as major injuries: each week that you have a disease you make a Stamina save against 4 terrible dice, ending its effects on success.
 
-| Name | Effect |
-|:----|:----:|
-| Stonepox | You add a failure to all Dexterity and Charisma saves. Dexterity and Charisma challenges are one level higher for you. |
-| Wasting Sickness | You do not heal naturally during a long rest and healing surges have no effect when used to heal. |
+| Name               |                                                                                                           Effect                                                                                                           |
+| :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Stonepox           |                                                   You add a failure to all Dexterity and Charisma saves. Dexterity and Charisma challenges are one level higher for you.                                                   |
+| Wasting Sickness   |                                                             You do not heal naturally during a long rest and healing surges have no effect when used to heal.                                                              |
 | Glimmereye disease | Creatures carrying this disease have a distinct, golden glimmer to their eyes. You add a bad die to all attack, skill and save rolls while maintaining concentration. Any time you would be dazed you are stunned instead. |
 
 
-## Tools
-
-### Lockpicks
-
-A set of tools for picking a variety of locks. Anyone can use a lockpicking set, but only people with at least 1 proficiency in thievery get the bonuses. Lockpicks come in several rarities.
-
-| Type | Bonus |
-|:----:|:-------------|
-| Basic  | None |
-| Expert  | Adds an enhanced die |
-| Masterwork | Adds 2 enhanced dice |
-| Skeleton Key | Adds 4 superior dice. After the thievery roll, roll a terrible die. The skeleton key breaks on failure. |
-
-### Repair Kit
-Any damage taken by your armor or weapons are permanent until repaired. An item that takes enough damage, whether it's magical or not, is destroyed. A weapon that goes below a -2 modifier or armor that is reduced to a single defense die is destroyed and can no longer be repaired or used.
-
-A damaged weapon adds 1 bad die for every negative modifier, or reduces the superior dice given from a magic weapon. Damaged armor reduces the number of defense dice given by 1, or reduces the superior defense dice given from magic armor.
-
-You may attempt to repair a piece of equipment over a long rest. Make a repair roll against 2 bad dice. On success the gear is repaired by 1 level, or 2 on a critical. You may attempt to repair magical gear, adding a terrible die for each modifier.
-
-### Apothecary Set
-
-A portable set of tools required to brew potions over a campfire. During a long rest you may attempt to brew a potion or poison if you have the right ingredients, or you may search your surroundings for ingredients.
-
-To search for ingredients make an average difficulty survival check, increasing or decreasing the difficulty based the abundance of the wilderness. Searching for ingredients takes 1 hour. On success you roll 3 superior dice to determine the ingredient found on the table below. You gain a number of ingredients equal to the successes in your survival check.
-
-##### Wilderness Survival Rewards
-| Area | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| Plains | Vitalflower | Skillwheat | Poison Nettle | Poison Nettle | Healroot | Healroot | Healroot |
-| Forest  | Lucky Leaf | Nightshade | Cleansebloom | Cleansebloom | Poison Nettle | Healroot | Healroot |
-| Mountains | Buff Beetle | Dragonflower | Cleansebloom | Skillwheat | Skillwheat | Healroot | Healroot |
-| Desert | Scorpion Venom | Scorchroot | Scorchroot | Dragonflower | Dragonflower | Healroot | Healroot |
-| Swamp | Toxic Frog | Nightshade | Poison Nettle | Poison Nettle | Cleansebloom | Cleansebloom | Healroot |
-| Lake | Brainfish | Cleansebloom | Skillwheat | Skillwheat | Healroot | Healroot | Healroot |
-  
-#### Potions
-Each potion requires a number of ingredients and has their own difficulty dice. When brewing a potion make an apothecary roll against the potions difficulty dice. On success you brew the chosen potion, losing the ingredients on failure.
-
-##### Healing Potion
-
-- **Ingredients:** 2 Healroot
-- **Roll:** 2 bad dice
-
-A basic healing potion. On use heals for a wound and 2 wound dice.
-
-##### Potion of Vitality
-
-- **Ingredients:** 2 Healroot, 1 Vitalflower
-- **Roll:** 2 bad dice
-
-Increases your maximum wounds by 1 for 24 hours.
-
-##### Cleansing Potion
-
-- **Ingredients:** 2 Cleansebloom, 1 Healroot
-- **Roll:** 2 bad dice
-
-Ends up to 2 of the following conditions: Daze, Hex, Paralyze, Poison, Slow, Stun, and weaken. If the condition is level 3 or more, remove 2 levels instead. Conditions inflicted by wounds, curses, or persistent effects return at the start of your next turn.
-
-##### Potion of Strength
-
-- **Ingredients:** 2 Buff Beetle, 1 Skillwheat
-- **Roll:** 2 bad dice, 1 terrible die
-
-For the next hour, when making an attack or maneuver you may reroll 3 wound dice in the damage roll.
-
-##### Potion of Ability
-
-- **Ingredients:** 2 Skillwheat, 1 Healroot
-- **Roll:** 2 bad dice, 1 terrible die
-
-When brewing this potion choose an attribute. On use increases that attribute score and attribute save proficiency by 1 for 4 hours.
-
-##### Fortify Mind Potion
-
-- **Ingredients:** 2 Brainfish, 1 Cleansebloom
-- **Roll:** 2 bad dice, 1 terrible die
-
-For the next 4 hours you add 1 superior die when rolling Intelligence, Willpower, Charisma saves and concentration checks.
-
-##### Bracing Potion
-
-- **Ingredients:** 1 Vitalflower, 1 Buff Beetle, 2 Cleansebloom
-- **Roll:** 2 bad dice, 2 terrible die
-
-For the next hour, any time you gain a condition roll a wound die instead. On a blank you don't gain the condition.
-
-##### Potion of Fire Breathing
-
-- **Ingredients:** 2 Dragonflower, 1 Scorchroot
-- **Roll:** 2 bad dice, 2 terrible die
-
-For the next 10 minutes, as a maneuver you may spend 7 AP to breath fire, hitting all creatures in your zone of control. Creatures make a Dexterity save against 3 superior dice. On hit they take 1 wound of fire damage.
-
-##### Hero's Luck
-
-- **Ingredients:** 1 Lucky Leaf, 2 Skillwheat
-- **Roll:** 3 terrible dice
-
-You gain 2 Hero dice for the next hour. Any unspent dice are lost after the potion fades.
-
-
-#### Poisons
-Poisons are applied to weapons and inflict their effects after landing an attack with that weapon. Each poison vial has enough to coat a weapon for 2 attacks, or coat 5 arrowheads. Weapons that deal bludgeoning damage cannot be coated.
-
-
-
-
-##### Nettle Fever
-
-- **Ingredients:** 2 Poison Nettle
-- **Roll:** 2 bad dice
-
-On hit inflicts poison 1, or poison 2 on a critical. Lasts for 10 minutes.
-
-##### Sapping Poison
-
-- **Ingredients:** 2 Poison Nettle, 2 Skillwheat
-- **Roll:** 2 bad dice, 1 terrible die
-
-On hit inflicts poison 1, or poison 2 on a critical. Reduces the creature's proficiencies by 1 as long as they are poisoned. Lasts for 10 minutes.
-
-
-
-##### Nightbleed Poison
-
-- **Ingredients:** 2 Nightshade, 1 Poison Nettle
-- **Roll:** 2 bad dice, 1 terrible die
-
-On hit deals 1 wound in poison damage, adding a wound die on a critical.
-
-##### Paralyzing Poison
-
-- **Ingredients:** 2 Nightshade, 1 Scorpion Venom
-- **Roll:** 2 bad dice, 2 terrible dice
-
-On hit inflicts poison 1, or poison 2 on a critical. The creature gains Paralyze equal to the level of poison as long as they are poisoned. Lasts for 10 minutes.
-
-
-##### Deadly Toxins
-
-- **Ingredients:** 1 Toxic Frog, 1 Nightshade, 1 Poison Nettle
-- **Roll:** 2 bad dice, 2 terrible dice
-
-On hit inflicts poison 3 for 10 minutes.
-
-### Enchanters Tools
-During a long rest you may attempt to enchant a piece of mundane gear. Enchantments lasts for 3 days and counts as magical equipment for the duration. After the enchantment ends the gear returns to normal. To enchant a piece of gear you must have mana and enchanting supplies available. Make an enchanting roll, adding the difficulty dice for the enchantment. On success you make the enchantment, otherwise losing the supplies on failure. Most cities and towns will sell enchanting supplies.
-  
-You may spend additional mana to improve your roll, adding an enhanced die for every 2 mana spent. Ammunition enchantments are permanent, lasting until the ammunition is used.
-  
-  ##### Enchantments
-|Name | &nbsp;&nbsp;Mana&nbsp;&nbsp; | &nbsp;&nbsp;Supplies&nbsp;&nbsp; | Dice | Effect |
-|:-----|:-----:|:-----:|:-----:|-------------:|
-| _Weapon_ | | | | | 
-| &nbsp;&nbsp;&nbsp;&nbsp;Skillful | 1 | 1 |2B | You gain 1 proficiency with this weapon type. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Brutality | 2 | 3 |2B/1T | When you land a critical with this weapon, add an extra wound die to the damage. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Hexblade | 4 | 3 |2B/1T | When you land a critical with this weapon the target gains hex 1 for 1 minute. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Quickened | 6 | 3 |1B/2T | The first attack or maneuver made with this weapon each turn costs 1 less AP. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Phantasmal | 8 | 5 | 3T | You may spend 2 AP to create a phantom of your weapon that follows its movements. While active, your first melee attack each turn also targets an adjacent creature. The phantom weapon deals weapon damage as force damage, and can't be improved by feats or abilities. |
-| _Armor_ | | | | | 
-| &nbsp;&nbsp;&nbsp;&nbsp;Durable | 2 | 2 |2B/1T | If a spell or effect would damage this armor, roll a wound die. On a blank the armor takes no damage instead. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Lightened | 3 | 3 |2B/1T | Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalties. |
-| _Shield_ | | | | | 
-| &nbsp;&nbsp;&nbsp;&nbsp;Lesser Block | 3 | 3 |2B/1T | You may reroll 1 defense die when making defense rolls. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Greater Block | 6 | 5 |1B/3T | You may reroll 2 defense dice when making defense rolls. |
-| _Ammunition_ | | | | | 
-| &nbsp;&nbsp;&nbsp;&nbsp;Staggering | 1 | 1 |2B | On a critical the creature is staggered until the start of your next turn. Makes 3 ammunition |
-| &nbsp;&nbsp;&nbsp;&nbsp;Slowing | 1 | 1 |2B | On a critical the creature gains slow 1 until the start of your next turn. Makes 3 ammunition |
-| &nbsp;&nbsp;&nbsp;&nbsp;Homing | 2 | 2 |1B/1T | Creates 3 +1 magical ammunition. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Slaying | 5 | 2 |1B/3T | Choose a creature type. This arrow deals an extra 3 wounds against creatures of this type. |
-
-### Scribing Tools
-A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one-time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and runes requires mana and uses a mix of gemstones and enchanting supplies which can be found in most cities and towns.
-
-#### Inscribing Spell Scrolls
-You can create a spell scroll for any spell in your codex that you are able to cast. Creating a spell scroll of 3rd level or lower can be done during a long rest, with spells of 4th level and higher taking 1 day of work for each level above 3rd. You must have mana available which is consumed in creating the scroll.
-
-When copying spells from a codex you can instead use your scribing tools to create a spell scroll. Doing so costs a single enchanting supply regardless of spell level, ignoring all other costs for creating spell scrolls. For each spell you want to remove from the codex and turn into a scroll you make a scribing roll against that spell levels difficulty. On success you create a spell scroll for that spell, destroying the codex on failure.
-
-##### Spell Scrolls
-| Level | Mana | Gemstones | Supplies | Challenge Dice |
-|:-----:|:-----:|:-----:|:-----:|:-------------|
-| Cantrip | 1 | 10sc gemstone | 0 | 1B |
-| 1st | 1 | 10sc gemstone | 1 | 1T |
-| 2nd | 2 | 25sc gemstone | 1 | 1B/1T |
-| 3rd | 3 | 25sc gemstone | 2 | 2B/1T |
-| 4th | 4 | 50sc gemstone | 2 | 1B/2T |
-| 5th | 6 | 50sc gemstone | 3 | 2B/2T |
-| 6th | 7 | 100sc gemstone | 4 | 2B/3T |
-| 7th | 8 | 250sc gemstone | 5 | 1B/4T |
-| 8th | 9 | 500sc gemstone | 7 | 2B/4T |
-| 9th | 12 | 10pt gemstone | 10 | 2B/5T |
-
-#### Inscribing Runes
-You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe a rune you need to have the required supplies and mana which are consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Unless otherwise stated, runes that augment spells require no AP to use while placing a rune takes 2 AP.
-
-##### Runes
-| Rune | &nbsp;Mana&nbsp; | &nbsp;Gemstones&nbsp; | &nbsp;Supplies&nbsp; | &nbsp;Challenge&nbsp; | Effect |
-|:-----|:-----:|:-----:|:-----:|:-----:|-------------:|
-| Longcaster | 1 | 10sc gemstone | 0 | 1B | Doubles the range of a spell that does not have a range of self or touch. |
-| Potency | 1 | - | 1 | 2B | Add a critical to your spellcasting roll. |
-| Fire Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Dexterity save against 3 superior dice, taking 1 wound and 1 wound die in fire damage on fail. |
-| Arc Ward | 2 | 10sc gemstone | 1 | 1B/1T | Once placed, the next creature to enter its tile makes a Stamina save against 3 superior dice, gaining Paralyze 1 for 1 minute on fail. |
-| Hardened | 3 | 10sc gemstone | 2 | 2T | Your spell is considered to be 2 levels higher when saving against _Dispel Magic_, _Purge_, and _Counter Spell_. |
-| Expanding | 3 | 25sc gemstone | 1 | 2T | Increases the area of effect of a spell by 1. |
-| Anti Magic Ward | 4 | 25sc gemstone | 1 | 2B/1T | Once placed, the next spell to target a creature or point within 2 tiles of this ward adds a critical failure to the spellcasting roll. |
-| Sleeping | 4 | - | 2 | 1B/2T | Once placed, the next time a creature enters its tile roll 5 superior dice. The creature falls asleep if the total successes is greater or equal to their current wounds. The creature wakes up after taking damage or another creature spends 5 AP to wake them. |

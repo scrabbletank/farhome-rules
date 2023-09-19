@@ -1,6 +1,5 @@
 - [World Guide](#world-guide)
   - [History of the World](#history-of-the-world)
-    - [Creation Myth](#creation-myth)
     - [The Divine Empire](#the-divine-empire)
     - [The Zoranthian Empire](#the-zoranthian-empire)
     - [The Age of Saints](#the-age-of-saints)
@@ -166,10 +165,6 @@
 ## History of the World
 - continent has had 3 empires, at least that can be found in any surviving ruins or books.
 
-### Creation Myth
-- Originally there were the 6 gods, created the mortal plane out of the chaos of the warrens.
-- Created the mortal races, the angels, and the beast/demon? men.
-- Ghast tried to enslave all of creation. To fight this the other 5 gods used their powers to create the divine weave, after which the gods ceased to exist. Using the divine weave the angels and beast/demon? men were able to kill Ghast.
 
 ### The Divine Empire
 - empire begins after the death of Ghast, god of ruin at the hands of the beast/demon? men.
@@ -817,7 +812,7 @@ Success:
 - T3: You may take the sprint action twice each turn as long as you remain in darkness for the entire movement. You do not provoke opportunity attacks while in darkness.
 
 Failures:
-- 1-2: You take an extra wound in damage from light based spells, such as _Radiant Light, Solar Flaire,_ or _Radiance_.
+- 1-2: You take an extra wound in damage from light based spells, such as _Radiant Light, Solar Flair,_ or _Radiance_.
 - 3-4: To gain the benefits of a short or long rest you must remain in dim light or darkness.
 - 5+: You have Hex 1 while in bright light.
 

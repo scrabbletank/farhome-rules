@@ -1,5 +1,5 @@
 
-## Bestary of Monsters
+## Bestiary of Monsters
 
 Contains a bunch of ready to use monsters, etc.
 
@@ -560,28 +560,28 @@ ___
 ___
 
 ___
->#### Sanctus Owl
-> | | | | |
-> |:---|---:|:---|---:|
-> | **Defense:** | 2/2 | **AP:** | 12 |
-> | **Wounds:** | 15 | **Challenge:** | 25 |
-> | **Move/Sprint:** | 5/6 | **Size:** | Large |
->___
->|STR|DEX|STA|INT|WIL|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|2/0|3/3|1/0|6/3|2/2|4/3|
->
->___
->***Hexproof.*** This creature is immune to Hex 2 and below.
->***Magic Sense.*** This creature can sense the presence of undead or magic within 60 tiles. Some spells, such as _Nondetection_, are invisible to this sense.
->
->***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 5/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. They know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
->
->***Spell-Eater.*** The owl devours a spell targeting it or a creature or point within 2 tiles. Roll 3 superior dice, if this roll is higher than the casters spellcasting roll the spell is countered and the owl gains 1 temporary wound.
->
->**Actions**
->
->***Bite.*** *Melee Attack:* 5 AP, 3/0/2/0/0 - On hit deals 1/2 in piercing damage.
+#### Sanctus Owl
+ | | | | |
+ |:---|---:|:---|---:|
+ | **Defense:** | 2/2 | **AP:** | 12 |
+ | **Wounds:** | 15 | **Challenge:** | 25 |
+ | **Move/Sprint:** | 5/6 | **Size:** | Large |
+___
+|STR|DEX|STA|INT|WIL|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|2/0|3/3|1/0|6/3|2/2|4/3|
+
+___
+***Hexproof.*** This creature is immune to Hex 2 and below.
+***Magic Sense.*** This creature can sense the presence of undead or magic within 60 tiles. Some spells, such as _Nondetection_, are invisible to this sense.
+
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 5/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. They know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
+
+***Spell-Eater.*** The owl devours a spell targeting it or a creature or point within 2 tiles. Roll 3 superior dice, if this roll is higher than the casters spellcasting roll the spell is countered and the owl gains 1 temporary wound.
+
+**Actions**
+
+***Bite.*** *Melee Attack:* 5 AP, 3/0/2/0/0 - On hit deals 1/2 in piercing damage.
 
 ___
 
