@@ -341,9 +341,9 @@ Increase the duration by 20 seconds for every level cast above 3rd.
 - **Range:** 8
 - **Duration:** Concentration, up to 1 minute
 
-You open a rift to the astral plane in a 4 tile radius. All creatures trapped within must make a stength save against your spellcasting roll. On failure, the creature cannot physically move in any way while in the space. A creature can make the save again on subsequent turns. Any creature that ends their turn in this space take 3 wound dice in cold damage as otherworldly tendrils brush up against them. The spell ends if you lose concentration or move more than 8 tiles away from the rift.
+You open a rift to the astral plane in a 2x2 tile area. All creatures trapped within must make a stength save against your spellcasting roll. On failure, the creature cannot physically move in any way while in the space. A creature can make the save again on subsequent turns. Any creature that ends their turn in this space take 3 wound dice in cold damage as otherworldly tendrils brush up against them. The spell ends if you lose concentration or move more than 8 tiles away from the rift.
 
-Increase the radius by 1 tile for every level cast above 3rd.
+Increase the size by 1 tile in each direction for every level cast above 3rd.
 
 ### 4th Level
 
@@ -423,7 +423,7 @@ For each level cast above 5th, the maximum number of wounds increases by 2.
 - **Range:** touch
 - **Duration:** instant
 
-You are able to regrow a complete medium sized creature from its genetic code. As long as you have at least a drop of the creatures blood, make a spellcasting roll against 2 terrible dice and a terrible die for the number of the times the creature has previously died. Whether the spell succeeds or fails, a body resembling the creature is fully formed. On success, the original soul returns to the body. On failure, the body will be lifeless or a wandering soul may claim the body.
+You are able to regrow a complete medium sized creature from a drop of blood. As long as you have at least a drop of the creatures blood, make a spellcasting roll against 2 terrible dice and a terrible die for the number of the times the creature has previously died. Whether the spell succeeds or fails, a body resembling the creature is fully formed. On success, the original soul returns to the body. On failure, the body will be lifeless or a wandering soul may claim the body.
 
 For every level cast above 8th, the body permanently gains an extra wound to their max health.
 
