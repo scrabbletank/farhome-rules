@@ -5710,6 +5710,7 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - [Thunderclap](#Thunderclap)
 
 ##### Second
+- [Alter Weight](#Alter-Weight)
 - [Barrier](#Barrier)
 - [Blink](#Blink)
 - [Combust](#Combust)
@@ -5736,6 +5737,7 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - [Telepathic Bond](#Telepathic-Bond)
 
 ##### Fourth
+- [Attract/Repel](#Attract/Repel)
 - [Conjure Elemental](#Conjure-Elemental)
 - [Fire Shell](#Fire-Shell)
 - [Fissure](#Fissure)
@@ -6034,6 +6036,19 @@ Add an enhanced die for every level cast above 1st.
 
 ### Second Level
 
+#### Alter Weight
+*2nd level*
+
+- **Casting Time:** 6 AP
+- **Range:** touch
+- **Duration:** 10 minutes
+
+Alter the weight of a creature or object you touch. Make a spellcasting roll against 2 terrible dice, or if targeting an unwilling creature against their Stamina save. On success you may increase or decrease the weight of the target by up to 40 lbs per success in the final roll.
+
+The effects of this spell are determined by the object or creature targeted, and the amout of weight added or removed. For example, casting this on armor to make it weightless would remove its Strength requirements and penalties, or increasing the weight on a door to make it impossible to open. A weightless sword may be easier to use and give a bonus to attack rolls, while a weightless hammer may not inflict wounds. Adding weight to a creature may give them Slow, or prevent them from moving entirely. The GM has the final say on the effects of this spell.
+
+Increase the weight change by 40 lbs per success for every level cast above 2nd.
+
 #### Barrier
 *2nd level*
 
@@ -6324,6 +6339,17 @@ Add an enhanced die for each level above 3rd.
 
 
 ### Fourth Level
+
+#### Attract/Repel
+*4th level*
+
+- **Casting Time:** 9 AP
+- **Range:** 20
+- **Duration:** 1 hour
+
+Cover a 5x5 tile surface with a gravitational force, either attracting or repelling creatures or objects in its field. The field may be any size and may wrap around curves or edges of a surface as long as the field is no larger than a 5x5 tile area. When casting the spell, choose whether the field attracts or repels objects. Make a spellcasting roll against 2 terrible dice. On success, all creatures and objects in the field are affected by the new force. The strength of the gravitational force is the same as gravity and extends 1 tile out from the field.
+
+Increase the area of the field by 1 for every level cast above 4th.
 
 #### Conjure Elemental
 *4th level*
@@ -8212,6 +8238,7 @@ When cast at 10th level shadows have expertise when attacking their host creatur
 - [Cleanse](#Cleanse)
 - [Consecrate Ground](#Consecrate-Ground)
 - [Enhance Ability](#Enhance-Ability)
+- [Eyes of Truth](#Eyes-of-Truth)
 - [Gust](#Gust)
 - [Healing Word](#Healing-Word)
 - [Intuition](#Intuition)
@@ -8228,6 +8255,7 @@ When cast at 10th level shadows have expertise when attacking their host creatur
 - [Cure](#Cure)
 - [Demonic Skull](#Demonic-Skull)
 - [Detect Creatures](#Detect-Creatures)
+- [Fall](#Fall)
 - [Grand Entrance](#Grand-Entrance)
 - [Revive](#Revive)
 - [Spirit Animal](#Spirit-Animal)
@@ -8512,6 +8540,17 @@ You bless up to 5 creatures in range that you can see. Make a spellcasting roll 
 
 Add an enhanced die for every level cast above 2nd.
 
+#### Eyes of Truth
+*2nd level*
+
+- **Casting Time:** 1 minute
+- **Range:** self
+- **Duration:** 1 hour
+
+Your eyes glow with a golden light. Make a spellcasting roll against 2 bad dice. For the duration you add the successes from your spellcasting roll to any Insight checks or Perception checks against illusions. You know if a creature is telling the truth on a successful Insight roll.
+
+Add an enhanced die for every level cast above 2nd.
+
 
 #### Gust
 *2nd level*
@@ -8683,6 +8722,18 @@ You attempt to detect the location of a type of creature in range. Choose one of
 - **8+**: You know exactly how many creatures are in range and their direction is accurate to within 10 ft.
 
 The range increases by 1 mile for every level cast above 3rd.
+
+#### Fall
+*3rd level*
+
+- **Casting Time:** 8 AP
+- **Range:** 15
+- **Duration:** 1 minute
+- **Damage Type:** bludgeoning
+
+Force all creatures in a 5x5 tile area you can see to plummet to the ground. Make a spellcasting roll against their Strength save. On success the creature is knocked prone. A creature not touching the ground falls up to 5 tiles, taking 1 wound and 2 wound dice in bludgeoning damage on hitting the ground. A creature that fails their roll cannot fly for the next minute.
+
+Add an enhanced die for every level cast above 3rd.
 
 #### Grand Entrance
 *3rd level*
@@ -9245,8 +9296,8 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 - [Careful Advance](#Careful-Advance)
 - [Dagger Throw](#Dagger-Throw)
 - [Daze](#Daze)
+- [Evasive Defense](#Evasive-Defense)
 - [Guided Strike](#Guided-Strike)
-- [Hindering Strike](#Hindering-Strike)
 - [Raise Shield](#Raise-Shield)
 - [Run Down](#Run-Down)
 - [Wild Attack](#Wild-Attack)
@@ -9489,6 +9540,19 @@ Targeting a large or smaller creature, make a melee attack adding an enhanced di
 
 ***Superior:*** While dazed, any attacks against the creature add a critical to their attack rolls.
 
+#### Evasive Defense
+
+- **AP Cost:** 3/3/3
+- **Weapon:** N/A
+- **Range:** N/A
+- **Level Required:** 2/12/22
+
+Used in place of the Defend action. You add 1 enhanced die to attribute saves against attacks, maneuvers, or damaging spells. Once per turn, when targeted by an area of effect attack, maneuver, or spell, you may move 1 tile in any direction.
+
+***Enhanced:*** You may move up to 2 tiles instead of 1. Shifting does not provoke opportunity attacks and you may shift 1 tile when taking this action.
+
+***Superior:*** You may move up to 3 tiles instead of 2. You add 1 reroll to defense rolls and attribute saves against attacks, maneuvers, and spell you can see.
+
 
 #### Guided Strike
 
@@ -9502,19 +9566,6 @@ Make a melee attack against a creature using any spellcasting roll instead of yo
 ***Enhanced:*** The attack is always a critical, regardless of roll. Effects that occur based on the number of criticals are unaffected.
 
 ***Superior:*** You may spend 1 mana to convert all wound dice in the damage roll to wounds.
-
-#### Evasive Defense
-
-- **AP Cost:** 3/3/3
-- **Weapon:** any melee weapon
-- **Range:** melee
-- **Level Required:** 2/12/22
-
-Used in place of the Defend action. You add 1 enhanced die to attribute saves against attacks, maneuvers, or damaging spells. Once per turn, when targeted by an area of effect attack, maneuver, or spell, you may move 1 tile in any direction.
-
-***Enhanced:*** You may move up to 2 tiles instead of 1. Shifting does not provoke opportunity attacks and you may shift 1 tile when taking this action.
-
-***Superior:*** You may move up to 3 tiles instead of 2. You add 1 reroll to defense rolls and attribute saves against attacks, maneuvers, and spell you can see.
 
 #### Raise Shield
 
