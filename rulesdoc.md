@@ -6043,11 +6043,11 @@ Add an enhanced die for every level cast above 1st.
 - **Range:** touch
 - **Duration:** 10 minutes
 
-Alter the weight of a creature or object you touch. Make a spellcasting roll against 2 terrible dice, or if targeting an unwilling creature against their Stamina save. On success you may increase or decrease the weight of the target by up to 40 lbs per success in the final roll.
+Alter the weight of a creature or object you touch. Make a spellcasting roll against 2 terrible dice, or if targeting an unwilling creature against their Stamina save. On success you may increase or decrease the weight of the target by up to 20 lbs per success in the final roll.
 
 The effects of this spell are determined by the object or creature targeted, and the amout of weight added or removed. For example, casting this on armor to make it weightless would remove its Strength requirements and penalties, or increasing the weight on a door to make it impossible to open. A weightless sword may be easier to use and give a bonus to attack rolls, while a weightless hammer may not inflict wounds. Adding weight to a creature may give them Slow, or prevent them from moving entirely. The GM has the final say on the effects of this spell.
 
-Increase the weight change by 40 lbs per success for every level cast above 2nd.
+Increase the weight change by 20 lbs per success for every level cast above 2nd.
 
 #### Barrier
 *2nd level*
