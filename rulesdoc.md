@@ -8731,7 +8731,7 @@ The range increases by 1 mile for every level cast above 3rd.
 - **Duration:** 1 minute
 - **Damage Type:** bludgeoning
 
-Force all creatures in a 5x5 tile area you can see to plummet to the ground. Make a spellcasting roll against their Strength save. On success the creature is knocked prone. A creature not touching the ground falls up to 5 tiles, taking 1 wound and 2 wound dice in bludgeoning damage on hitting the ground. A creature that fails their roll cannot fly for the next minute.
+Force all creatures in a 5x5 tile area centered on a point you can see to plummet to the ground. Make a spellcasting roll against their Strength save. On success the creature is knocked prone. A creature not touching the ground falls up to 5 tiles, taking 1 wound and 2 wound dice in bludgeoning damage on hitting the ground. A creature that fails their roll cannot fly for the next minute.
 
 Add an enhanced die for every level cast above 3rd.
 
