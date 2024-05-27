@@ -765,7 +765,7 @@ Sometimes more than one readied action could be triggered by the same circumstan
 There are a number of conditions that can be inflicted on creatures, each with different effects. Some conditions have a level to determine their potency. For example, the poison condition normally adds a bad die to your attack rolls and attribute saves, where poison 2 and poison 3 adds 2 and 3 bad dice respectively.
 
 ##### Blind
-A blinded creature loses the ability to see. While blind they add 2 terrible die to all attack, spellcasting, and Dexterity saves. They cannot make reactions.
+A blinded creature loses the ability to see. While blind they add 2 terrible die to all single target attacks, maneuvers and spells, and Dexterity saves. They cannot make reactions.
 
 #### Burn
 A burning creature takes a wound die in fire damage at the end of their turn for every level of burn. On their turn a creature can spend 5 AP putting out the fire, leaving them prone. Burn ends after 1 minute or after the creature is doused in water.
@@ -795,7 +795,7 @@ A poisoned creature adds a bad die to all attacks, attribute saves, and ability 
 a prone creature grants combat advantage to any melee attacker. Ranged attacks against this creature add 2 bad dice to their roll.
 
 ##### Restrained
-A restrained creature cannot move or sprint and adds 2 terrible dice to Dexterity saves and attack rolls. They lose the effects of a shield if wearing one and grant combat advantage to attackers.
+A restrained creature cannot move or sprint and adds 2 terrible dice to Dexterity saves, attacks, and spells. They lose the effects of a shield if wearing one and grant combat advantage to attackers.
 
 ##### Silenced
 A silenced creature cannot speak and adds 2 terrible dice to spellcasting rolls.
@@ -9357,7 +9357,7 @@ Make a ranged attack against a creature, adding an enhanced die for each AP spen
 
 ***Enhanced:*** Add a wound die to the damage for each critical, up to a max of 3.
 
-***Superior:*** You ignore all criticals in the creatures defense roll when using the maximum AP for this manuever.
+***Superior:*** You ignore all criticals in the creatures defense roll when using the maximum AP for this maneuver.
 
 #### Hamstring
 
