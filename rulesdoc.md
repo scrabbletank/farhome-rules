@@ -476,7 +476,7 @@ Very few creatures are able to innately cast magic. Almost everyone must prepare
 
 ### Mana
 
-Casting spells of 1st level and above takes a toll on the caster. A character can only cast so many of these spells before needing to rest. Mana is a representation of your characters magical energy and how efficiently they are able to channel that energy. When casting a spell at 1st level or above you expend a number of mana according to the following table:
+Casting spells of 1st level and above takes a toll on the caster. A character can only cast so many of these spells before needing to rest. Mana is a representation of your characters magical energy and how efficiently they are able to channel that energy. When casting a spell at 1st level or above you expend an amount of mana according to the following table:
 
 | Spell Level |    Mana     |
 | :---------: | :---------: |
@@ -507,7 +507,7 @@ Spell power determines how attuned your body is to spellcasting and how efficien
 
 ### Preparing Spells
 
-Before you can cast a spell from your codex you must prepare it. Each long rest you may prepare 5 spells, adding 3 for every point of Intelligence you have. Having negative Intelligence does not reduce the number of spells you can prepare. Once prepared, spells are castable until the next day even without your codex. The spells fade from your memory over the next long rest unless you prepare them again.
+Before you can cast a spell from your codex you must prepare it. Each long rest you may prepare 3 cantrips, and 2 spells of your choosing for every point of Intelligence and spell power. Having negative Intelligence does not reduce the number of spells you can prepare. Once prepared, spells are castable until the next day even without your codex. The spells fade from your memory over the next long rest unless you prepare them again.
 
 Spells are complex, with each spellcaster having their own methods of writing and remembering spells. Spells prepared from one codex requires a different frame of mind than spells prepared from another. Attempting to unravel spells from multiple codices always ends with failure, thus you may only prepare spells from a single codex each long rest. You can prepare from any codex, however preparing from a codex you have not written must be deciphered first. Deciphering takes 8 hours of work, after which you may prepare from it normally.
 
@@ -816,7 +816,6 @@ A stunned creature cannot take reactions and may only take a single move or basi
 When a weakened creature hits with any attack or maneuver, all wounds are replaced with wound dice.
 
 # The Gameboard
-
 
 Most GM's use a gameboard when your adventurers are exploring a dungeon or fighting monsters. It can be difficult for players to visualize combat and see what choices they have without one. This rule book assumes you play with a square or hex grid along with miniatures or tokens. If you don't use a grid or use _theatre of the mind_ for your combat your GM may need to adjust or homebrew some of the rules in this section.
 
@@ -1369,25 +1368,28 @@ During a long rest you may attempt to enchant a piece of mundane gear. Enchantme
 You may spend additional mana to improve your roll, adding an enhanced die for every 2 mana spent. Ammunition enchantments are permanent, lasting until the ammunition is used.
   
   ##### Enchantments
-| Name                                  | &nbsp;&nbsp;Mana&nbsp;&nbsp; | &nbsp;&nbsp;Supplies&nbsp;&nbsp; | Dice  |                                                                                                                                                                                                                                                                    Effect |
-| :------------------------------------ | :--------------------------: | :------------------------------: | :---: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| _Weapon_                              |                              |                                  |       |                                                                                                                                                                                                                                                                           |
-| &nbsp;&nbsp;&nbsp;&nbsp;Skillful      |              1               |                1                 |  2B   |                                                                                                                                                                                                                             You gain 1 proficiency with this weapon type. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Brutality     |              2               |                3                 | 2B/1T |                                                                                                                                                                                          When you land a critical with this weapon, add an extra wound die to the damage. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Hexblade      |              4               |                3                 | 2B/1T |                                                                                                                                                                                            When you land a critical with this weapon the target gains hex 1 for 1 minute. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Quickened     |              6               |                3                 | 1B/2T |                                                                                                                                                                                             The first attack or maneuver made with this weapon each turn costs 1 less AP. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Phantasmal    |              8               |                5                 |  3T   | You may spend 2 AP to create a phantom of your weapon that follows its movements. While active, your first melee attack each turn also targets an adjacent creature. The phantom weapon deals weapon damage as force damage, and can't be improved by feats or abilities. |
-| _Armor_                               |                              |                                  |       |                                                                                                                                                                                                                                                                           |
-| &nbsp;&nbsp;&nbsp;&nbsp;Durable       |              2               |                2                 | 2B/1T |                                                                                                                                                             If a spell or effect would damage this armor, roll a wound die. On a blank the armor takes no damage instead. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Lightened     |              3               |                3                 | 2B/1T |                                                                                                                                                       Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalties. |
-| _Shield_                              |                              |                                  |       |                                                                                                                                                                                                                                                                           |
-| &nbsp;&nbsp;&nbsp;&nbsp;Lesser Block  |              3               |                3                 | 2B/1T |                                                                                                                                                                                                                   You may reroll 1 defense die when making defense rolls. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Greater Block |              6               |                5                 | 1B/3T |                                                                                                                                                                                                                  You may reroll 2 defense dice when making defense rolls. |
-| _Ammunition_                          |                              |                                  |       |                                                                                                                                                                                                                                                                           |
-| &nbsp;&nbsp;&nbsp;&nbsp;Staggering    |              1               |                1                 |  2B   |                                                                                                                                                                             On a critical the creature is staggered until the start of your next turn. Makes 3 ammunition |
-| &nbsp;&nbsp;&nbsp;&nbsp;Slowing       |              1               |                1                 |  2B   |                                                                                                                                                                             On a critical the creature gains slow 1 until the start of your next turn. Makes 3 ammunition |
-| &nbsp;&nbsp;&nbsp;&nbsp;Homing        |              2               |                2                 | 1B/1T |                                                                                                                                                                                                                                          Creates 3 +1 magical ammunition. |
-| &nbsp;&nbsp;&nbsp;&nbsp;Slaying       |              5               |                2                 | 1B/3T |                                                                                                                                                                            Choose a creature type. This arrow deals an extra 3 wound dice against creatures of this type. |
+| Name      | &nbsp;&nbsp;Mana&nbsp;&nbsp; | &nbsp;&nbsp;Supplies&nbsp;&nbsp; | Dice  |        Effect |
+| :---- | :-----: | :----: | :---: | --: |
+| _Weapon_  |  |      |       |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;Skillful      | 1  |   1    |  2B   |            You gain 1 proficiency with this weapon type. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Brutality     | 2  |   3    | 2B/1T |     When you land a critical hit with this weapon add an extra wound die to the damage. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Hexblade      | 4  |   3    | 2B/1T |       When you land a critical hit with this weapon the target gains hex 1 for 1 minute. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Quickened     | 6  |   3    | 1B/2T |        The first attack or maneuver made with this weapon each turn costs 1 less AP. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Phantasmal    | 8  |   5    |  3T   | You may spend 2 AP to create a phantom of your weapon that follows its movements. While active, your first melee attack each turn also targets an adjacent creature. The phantom weapon deals weapon damage as force damage, and can't be improved by feats or abilities. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Elemental     | 4  |   4    | 3B/1T |  Choose an elemental damage type. When you land a critical hit with this weapon add an extra wound die of the chosen damage type. |
+| _Armor_   |  |      |       |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;Durable       | 2  |   2    | 2B/1T |    If a spell or effect would damage this armor, roll a wound die. On a blank the armor takes no damage instead. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Protective       | 2  |   3    | 2T |    Replace a Defense die with a Superior Defense die in your defense rolls. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Lightened     | 3  |   3    | 2B/1T |           Heavy armor is treated as medium armor and medium armor is treated as light armor when calculating armor penalties. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Warding       | 4  |   3    | 1B/2T |    You may reroll 1 die in your saving throws against magical spells and effects. |
+| _Shield_  |  |      |       |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;Lesser Block  | 3  |   3    | 2B/1T |  You may reroll 1 defense die when making defense rolls. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Greater Block | 6  |   5    | 1B/3T | You may reroll 2 defense dice when making defense rolls. |
+| _Ammunition_|  |      |       |  |
+| &nbsp;&nbsp;&nbsp;&nbsp;Staggering    | 1  |   1    |  2B   |     On a critical the creature is Staggered until the start of your next turn. Makes 3 ammunition |
+| &nbsp;&nbsp;&nbsp;&nbsp;Slowing       | 1  |   1    |  2B   |     On a critical the creature gains Slow 2 until the start of your next turn. Makes 3 ammunition |
+| &nbsp;&nbsp;&nbsp;&nbsp;Homing        | 2  |   2    | 1B/1T |          Creates 3 +1 magical ammunition. |
+| &nbsp;&nbsp;&nbsp;&nbsp;Slaying       | 5  |   3    | 2B/3T |    Choose a creature type. This arrow deals an extra 3 wound dice against creatures of this type. |
 
 #### Scribing Tools
 A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one-time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and runes requires mana and uses a mix of gemstones and enchanting supplies which can be found in most cities and towns.
@@ -1624,7 +1626,7 @@ This can be, and often is, as simple as a village and a dungeon to explore. Sure
 - language of the druids. Druidic can be understood to an extent by animals. While animals cannot speak it themselves, conversation or nature checks with animals when speaking druidic have expertise.
 
 ##### Draconic
-- language of dragons, it's nearly impossible for non-dragon species to speak, at least fluently. Draconic words reverberate across the divine weave, making it particularly dangerous for those not fluent in it to speak. Draconic has been known to start small fires, freeze water, and dispell enchantments. Wizards fluent in draconic can use it to channel the elements when casting spells. Spells that deal elemental damage can be prepared and cast in draconic, allowing you to reroll a die in the spellcasting roll. Draconic spells are even more difficult to prepare than normal spells, taking 2 spell slots for every Draconic spell prepared.
+- language of dragons, it's nearly impossible for non-dragon species to speak, at least fluently. Draconic words reverberate across the divine weave, making it particularly dangerous for those not fluent in it to speak. Draconic has been known to start small fires, freeze water, and dispell enchantments. Wizards fluent in draconic can use it to channel the elements when casting spells. Spells that deal elemental damage can be prepared and cast in draconic, allowing you to reroll a die in the spellcasting roll. Draconic spells are even more difficult to prepare than normal spells, counting as 2 spells for your prepared spell limit.
 
 ##### Celestial
 - language of spirits, angels, and divine beings
@@ -2300,7 +2302,7 @@ ___
 
 ***Magic Eater.*** This creature adds 2 Superior dice when making defense or saving throws against magic.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 4/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. They know the spells _Barrier_, _Counter Spell_, _Dispel Magic_, _Blink_, _Elemental Shell_, and _Lightning Bolt_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 4/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. They know the spells _Barrier_, _Counter Spell_, _Dispel Magic_, _Blink_, _Elemental Shell_, and _Lightning Bolt_.
 
 **Actions**
 
@@ -2351,7 +2353,7 @@ ___
 
 ***Flying.*** This creature can fly with its movement and is immune to ground based effects.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 2nd level using 2/1/3 for their spellcasting rolls, and cannot cast more than 5 times per day.  They know the spells _Radiant Light_, _Holy Protection_, _Guidance_, _Solar Flair_, and _Cleanse_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 2nd level using 2/1/3 for their spellcasting rolls, and cannot cast more than 5 times per day. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_.  They know the spells _Radiant Light_, _Holy Protection_, _Guidance_, _Solar Flair_, and _Cleanse_.
 
 **Actions**
 
@@ -2374,7 +2376,7 @@ ___
 
 ***Flying.*** This creature can fly with its movement and is immune to ground based effects.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 2nd level using 2/2/2 for their spellcasting rolls, and cannot cast more than 7 times per day. They know the spells _Static Shock_ and _Call Lightning_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 2nd level using 2/2/2 for their spellcasting rolls, and cannot cast more than 7 times per day. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. They know the spells _Static Shock_ and _Call Lightning_.
 
 **Actions**
 
@@ -2422,7 +2424,7 @@ ___
 ***Hexproof.*** This creature is immune to Hex 2 and below.
 ***Magic Sense.*** This creature can sense the presence of undead or magic within 60 tiles. Some spells, such as _Nondetection_, are invisible to this sense.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 5/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. They know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 5/1/1 as their spellcasting roll, and cannot cast more than 10 times per long rest. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. They know the following spells: _Phantasmal Blades_, _Counter Spell_, _Fire Shell_, _Judgement_, _Spirit Warriors_, _Power word: Harm_, _Power word: Heal_.
 
 ***Spell-Eater.*** The owl devours a spell targeting it or a creature or point within 2 tiles. Roll 3 superior dice, if this roll is higher than the casters spellcasting roll the spell is countered and the owl gains 1 temporary wound.
 
@@ -2448,7 +2450,7 @@ ___
 
 ***Flying.*** This creature can fly with its movement and is immune to ground based effects.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 7th level using 5/1/0 for their spellcasting rolls, and cannot cast more than 12 times per day.  They know the spells _Radiant Light_, _Holy Protection_, _Guidance_, _Solar Flair_, _Cleanse_, _Bind Creature_, _Radiance_, _Resurrect_, _Power word: Harm_, _Power word: Heal_, _Divine Word_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 7th level using 5/1/0 for their spellcasting rolls, and cannot cast more than 12 times per day. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. They know the spells _Radiant Light_, _Holy Protection_, _Guidance_, _Solar Flair_, _Cleanse_, _Bind Creature_, _Radiance_, _Resurrect_, _Power word: Harm_, _Power word: Heal_, _Divine Word_.
 
 **Actions**
 
@@ -2475,7 +2477,7 @@ ___
 
 ***Flying.*** This creature can fly with its movement and is immune to ground based effects.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 6/1/0 for their spellcasting rolls, and cannot cast more than 8 times per day.  They know the spells _Destroy Monstrosity, Regeneration, Inner Fire, Judgement, Radiance, Excorism, Word of Command_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 6th level using 6/1/0 for their spellcasting rolls, and cannot cast more than 8 times per day. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_.  They know the spells _Destroy Monstrosity, Regeneration, Inner Fire, Judgement, Radiance, Excorism, Word of Command_.
 
 ***Detect Evil.*** This creature can detect the presence of Undead or Monstrosities within one mile, knowing their general location.
 
@@ -3315,7 +3317,7 @@ ___
 ___
 ***Enchanting Presence.*** Any attack, maneuver or spell attack against this target adds 2 bad dice to their rolls.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 3rd level using 3/2/1 as their spellcasting roll, and cannot cast more than 7 times per long rest. They know the following spells: _Vine Whip_, _Animal Messenger_, _Bramble_, _Tremor_, _Healing Word_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 3rd level using 3/2/1 as their spellcasting roll, and cannot cast more than 7 times per long rest. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. They know the following spells: _Vine Whip_, _Animal Messenger_, _Bramble_, _Tremor_, _Healing Word_.
 
 ***Tree Stride.*** As part of its movement, the dryad can enter a tree and exit out of another tree within 10 tiles.
 
@@ -3344,7 +3346,7 @@ ___
 ___
 ***Enchanting Presence.*** Any attack, maneuver or spell attack against this target adds 2 Terrible dice to their rolls.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 3rd level using 3/3/1 as their spellcasting roll, and cannot cast more than 5 times per long rest. know the following spells: _Phantasmal Blades_, _Fireball_, _Beacon_, _Sword Burst_, _Healing Word_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 3rd level using 3/3/1 as their spellcasting roll, and cannot cast more than 5 times per long rest. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. know the following spells: _Phantasmal Blades_, _Fireball_, _Beacon_, _Sword Burst_, _Healing Word_.
 
 **Actions**
 
@@ -3398,7 +3400,7 @@ ___
 
 ***Hexproof.*** This creature is immune to Hex 1 and below.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 4/1/1 as their spellcasting roll, and cannot cast more than 12 times per long rest. They know the following spells: _Crow of Magthera, Sleep, Cloud of Teeth, Fear, Curse of Misfortune, Curse of Weakness_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 4/1/1 as their spellcasting roll, and cannot cast more than 12 times per long rest. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. They know the following spells: _Crow of Magthera, Sleep, Cloud of Teeth, Fear, Curse of Misfortune, Curse of Weakness_.
 
 **Actions**
 
@@ -3425,7 +3427,7 @@ ___
 
 ***Hexproof.*** This creature is immune to Hex 1 and below.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 5/1/1 as their spellcasting roll, and cannot cast more than 12 times per long rest. They know the spells _Bleed, Sleep, Cloud of Teeth, Fear, Curse of Misfortune, Curse of Weakness, Inflict Wound, Laughing Skull_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 5/1/1 as their spellcasting roll, and cannot cast more than 12 times per long rest. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. They know the spells _Bleed, Sleep, Cloud of Teeth, Fear, Curse of Misfortune, Curse of Weakness, Inflict Wound, Laughing Skull_.
 
 **Actions**
 
@@ -3448,7 +3450,7 @@ ___
 ___
 ***Enchanting Presence.*** Any attack, maneuver, or spell attack against this target adds 4 Terrible dice to their rolls.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 7th level using 7/1/1 as their spellcasting roll, and cannot cast more than 7 times per long rest. They know the spells _Barrier, Counter Spell, Fire Shell, Haste, Starfall, Enchantment, Suggestion, True Sight, Forcewave, Power Word: Harm, Mass Fireball_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 7th level using 7/1/1 as their spellcasting roll, and cannot cast more than 9 times per long rest. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. They know the spells _Barrier, Counter Spell, Fire Shell, Haste, Starfall, Enchantment, Suggestion, True Sight, Forcewave, Power Word: Harm, Mass Fireball_.
 
 ***Iron Sensitivity.*** This creature has _Vulnerability_ 1 to physical damage dealt by iron weapons.
 
@@ -4416,7 +4418,7 @@ ___
 | -1/0  |  2/0  |  0/0  |  3/0  |  2/0  |  0/0  |
 
 ___
-***Mimicry Casting.*** This creature does not require a codex to cast spells. Regardless of spell type they roll 0/3/2/0/0 for all spells, and add 2 Superior dice when the target of _Counter Spell_. They have 5 2nd level spell slots, but do not know any spells naturally. Instead the Merculent copies spells cast around them of 2nd level and below. The Merculent can cast the spell for the next 24 hours, after which the spell is forgotten.
+***Mimicry Casting.*** This creature does not require a codex to cast spells. Regardless of spell type they roll 0/3/2/0/0 for all spells, and add 2 Superior dice when the target of _Counter Spell_. They may cast up to 5 spells a day at 3rd level, but do not know any spells naturally. Instead the Watcher copies spells cast around them of 2nd level and below. The Watcher can cast the spell for the next 24 hours, after which the spell is forgotten.
 
 ***Hover.*** This creature has flying and hovers over the ground.
 
@@ -4714,7 +4716,7 @@ ___
 
 ***Fortitude.*** When taking lethal damage as long as the attack was not a critical, roll a wound die. On blank the Death Knight survives with 1 health.
 
-***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 3/2/1 as their spellcasting roll, and cannot cast more than 4 times per long rest. They know the spells _Essence Drain_, _Gloom_,  _Fearful Presence_.
+***Innate Magic.*** This creature does not require a codex to cast spells. They cast all spells at 4th level using 3/2/1 as their spellcasting roll, and cannot cast more than 5 times per long rest. Spells cast are considered one level higher when targeted by _Counter Spell_ or _Dispel Magic_. They know the spells _Essence Drain_, _Gloom_,  _Fearful Presence_.
  
 **Actions**
 
@@ -4790,14 +4792,14 @@ This armor is made from the scales of each chromatic dragon. You have _Resistanc
 
 A book of instructions for enchanting items, made by the battle mage Aventus.
 
-|          |    Name    | Spell Slot | Supplies | Roll  | Effect                                                                                                                                                                                                                                                                                                                                                    |
+|          |    Name    | Mana | Supplies | Roll  | Effect                                                                                                                                                                                                                                                                                                                                                    |
 | :------: | :--------: | :--------: | :------: | :---: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | _Weapon_ |            |            |          |       |                                                                                                                                                                                                                                                                                                                                                           |
-|          |  Firebolt  |    2nd     |    2     |  2B   | Enchant a weapon with the _Firebolt_ spell. This weapon gains the _Firebolt_ spell as a maneuver.                                                                                                                                                                                                                                                         |
-|          | Returning  |    3rd     |    2     | 2B/1T | After throwing this weapon you may call it, instantly returning it to your hand.                                                                                                                                                                                                                                                                          |
+|          |  Firebolt  |    2     |    2     |  2B   | Enchant a weapon with the _Firebolt_ spell. This weapon gains the _Firebolt_ spell as a maneuver.                                                                                                                                                                                                                                                         |
+|          | Returning  |    3     |    2     | 2B/1T | After throwing this weapon you may call it, instantly returning it to your hand.                                                                                                                                                                                                                                                                          |
 | _Armor_  |            |            |          |       |                                                                                                                                                                                                                                                                                                                                                           |
-|          | Shielding  |    3rd     |    4     | 3B/1T | Enchant armor with a defensive spell. The spell must be one you can cast, or have cast on the armor during enchanting of 3rd level or lower. The stored spell can only be used once, and must target the wearer. The spellcasting roll for the spell uses 1 superior die, plus an additional superior die for every crit rolled in the enchantment check. |
-|          | Resistance |    3rd     |    4     | 2B/2T | Enchant this armor to give you Resistance 1 against one of the following damage types: fire, cold, lightning, thunder, arcane                                                                                                                                                                                                                             |
+|          | Shielding  |    3     |    4     | 3B/1T | Enchant armor with a defensive spell. The spell must be one you can cast, or have cast on the armor during enchanting of 3rd level or lower. The stored spell can only be used once, and must target the wearer. The spellcasting roll for the spell uses 1 superior die, plus an additional superior die for every crit rolled in the enchantment check. |
+|          | Resistance |    4     |    4     | 2B/2T | Enchant this armor to give you Resistance 1 against one of the following damage types: fire, cold, lightning, thunder, arcane                                                                                                                                                                                                                             |
 
 #### Band of Silence
 *Wondrous Item*
@@ -5718,10 +5720,10 @@ You have Combat Advantage against creatures that your companion has attacked thi
 - [Elemental Shell](#Elemental-Shell)
 - [Hailstorm](#Hailstorm)
 - [Imprint](#Imprint)
-- [Magic Weapon](#Magic-Weapon)
 - [Mental Ward](#Mental-Ward)
 - [Resilient Shield](#Resilient-Shield)
 - [Slowfield](#Slowfield)
+- [Spectral Hands](#Spectral-Hands)
 
 ##### Third
 - [Animate Guardian](#Animate-Guardian)
@@ -6138,18 +6140,6 @@ The recording is permanent, unless a command word is spoken to end the spell or 
 
 Add an enhanced die for every level cast above 2nd.
 
-
-#### Magic Weapon
-*2nd level*
-
-- **Casting Time:** 10 AP
-- **Range:** 5
-- **Duration:** concentration, 1 hour
-
-Temporarily enchant a weapon with magic. You may target up to 5 weapons, adding a terrible die to your spellcasting roll for each weapon. On success the weapons are considered +1 magic weapons. If you lose concentration before the hour is finished the weapons retain the magic for 1 minute before fading completely.
-
-Add an enhanced die for every level cast above 2nd. The weapons are considered +2 at 6th level, and +3 at 10th.
-
 #### Mental Ward
 *2nd level*
 
@@ -6168,9 +6158,9 @@ Add an enhanced die for every level cast above 2nd.
 - **Range:** self
 - **Duration:** concentration, 10 minutes
 
-On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against 1 bad die, or 2 if cast as a reaction. On success you create a shield of force around yourself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions.
+On your turn or as a reaction, you create a dampening shield around yourself. Make a spellcasting roll against a terrible die, or 2 if cast as a reaction. On success you create a shield of force around yourself. While the shield holds you gain Resistance 2 to all physical damage. The shield can take 3 hits before shattering, adding a hit for each critical rolled. While the spell is active you cannot take the move or sprint actions.
 
-Add an enhanced die for every level cast above 2nd.
+The shield can take an additional hit for every level cast above 2nd.
 
 #### Slowfield
 *2nd level*
@@ -6184,6 +6174,21 @@ Create a 6x6 tile field centered on a point in range within range that you can s
 When a creature makes an attack with a projectile at a creature inside the field the attack roll is first contested by your spellcasting roll. On failure the projectile falls harmlessly to the ground.
 
 Add an enhanced die for every level cast above 2nd.
+
+#### Spectral Hands
+*2nd level*
+
+- **Casting Time:** 10 AP
+- **Range:** 5
+- **Duration:** 10 minutes
+
+Conjure spectral hands to take up arms and defend you. You may conjure up to 5 spectral hands and each hand can hold a melee weapon. Make a spellcasting roll adding a terrible die for each hand conjured. On success the hands grab any weapons of your choosing not held by another creature within 3 tiles of you, returning to float beside you. Each time you use your spectral hands it consumes one of the hands and drops whatever it was holding.
+
+For the duration of this spell when you take the attack action you may choose to attack with your spectral hands. The attack uses your spellcasting roll and deals 1 wound in damage for each weapon matching the type of the held weapon. You have combat advantage with the attack if you're holding two or more weapons.
+
+When attacked you may make a reaction attack against the attacker using a single spectral hand. The attack uses your spellcasting roll and deals 1 wound in damage matching the type of the held weapon.
+
+You conjure an additional hand for every level cast above 2nd.
 
 ### Third Level
 
@@ -6222,9 +6227,9 @@ The number of bounces increases by 1 and you add an enhanced die for every level
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to counter a creatures flow of magic, stopping a spell before it can be cast. As a reaction, make a spellcasting roll against the caster's spellcasting roll. Each caster adds a success equal to the level of each spell cast. On success the target spell has no effect.
+Attempt to counter a creatures flow of magic, stopping a spell or spell-like effect before it can be cast. As a reaction make a spellcasting roll against 2 bad dice, adding dice depending on the difference in spell level between the target effect and _Counter Spell_. For every level you cast above the target effect add a superior die, for every level below the target effect add a terrible die. The total successes from your spellcasting roll are subtracted from the target effects roll, completely stopping the effect if this brings the total successes to 0 or below.
 
-Multiple casters can attempt to counter the same spell, using the highest spellcasting roll and adding successes equal to the total spell level of all _Counter Spell_'s cast.
+Multiple creatures can attempt to counter the same spell, with both spells successes subtracting from the targeted spell. A creature may cast _Counter Spell_ in reaction to another creatures _Counter Spell_, subtracting successes from the target _Counter Spell_ first before resolving its effects.
 
 
 #### Etherwalk
@@ -6271,9 +6276,9 @@ Add a wound die for every level cast above 3rd.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Gain magical flight, allowing you to float through the air. Choosing up to 5 willing creatures, make a spellcasting roll adding a terrible die for each creature chosen. On success all creatures gain a flying speed equal to their movement speeds.
+Gain magical flight, allowing you to float through the air. Choosing up to 5 willing creatures, make a spellcasting roll adding a terrible die for each creature chosen. On success all creatures gain a flying move and sprint speed of 5.
 
-Add an enhanced die for every level cast above 3rd.
+Add an enhanced die and increase the flying speeds by 1 for every level cast above 3rd.
 
 #### Ice Knives
 *3rd level*
@@ -8175,9 +8180,9 @@ Add a superior die for every level cast above 8th. When cast at 9th level the du
 - **Range:** 10
 - **Duration:** instant
 
-Speak a word and command a creature to die. Make a spellcasting roll, with criticals counting as 3 successes. If the target creature has less wounds than you have successes the creature instantly dies.
+Speak a word and command a creature to die. Make a spellcasting roll against the creatures Stamina save, adding 3 successes if the creature is hurt. On success the creature takes a wound in damage for each success in your roll. This damage does not have a type and is unblockable.
 
-Add 3 superior dice when cast at 10th level.
+Add 7 successes instead of 3 if the creature is hurt when cast at 10th level.
 
 #### Seal
 *9th level*
@@ -8536,7 +8541,7 @@ The area increases by 2 for every level cast above 2nd.
 - **Range:** 3
 - **Duration:** concentration, 1 hour
 
-You bless up to 5 creatures in range that you can see. Make a spellcasting roll against a terrible die, adding a terrible die for each creature targeted. On success the creatures increase an attribute of their choosing by 1 for the duration of the spell. On a critical creatures may reroll a die in that attributes save.
+You bless up to 5 creatures in range that you can see. Make a spellcasting roll against a terrible die, adding a terrible die for each creature targeted. On success choose an attribute. For the duration all creatures may reroll one die in all rolls that use the chosen attribute, or may reroll 2 dice on a critical.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -9067,7 +9072,7 @@ You may target an additional creature for every level cast above 5th.
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** holy
 
-A holy light emanates bright light in 3 tiles and dim light a further 3. Any undead, demon, or monstrosity entering the bright light for the first time this round or starting their turn there makes a Stamina save against your spellcasting roll. On failure they take 1 wound in holy damage and are blind until the end of their next turn. Any creature making an attack roll against you adds a terrible die to their roll. You and any creatures you choose inside the light adds a superior die to all attribute saves.
+A holy light emanates from your body, shining bright light 3 tiles out and dim light a further 3. Any undead, demon, or monstrosity entering the bright light for the first time this round or starting their turn there makes a Stamina save against your spellcasting roll. On failure they take 1 wound in holy damage and are blind until the end of their next turn. Any creature making an attack roll against you adds a terrible die to their roll. You and any creatures you choose inside the light adds a superior die to all attribute saves.
 
 The radius of the bright light increases by 1 for every level cast above 5th.
 
@@ -9978,7 +9983,7 @@ Swiftly strike up to 5 creatures in range. Make a weapon attack against the crea
 ### Backgrounds
 
 #### Blessed: Fae Court
-You are blessed by the Fae Court with innate magical powers. You have 1 proficiency in thievery and performance, and gain access to the Fae Court feats. You start with 1 spell power, are fluent in Sylvani, and you add a superior die to your spellcasting rolls against effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
+You are blessed by the Fae Court with innate magical powers. You have 1 proficiency in thievery and performance, and gain access to the Fae Court feats. You start with 1 spell power, are fluent in Sylvani, and your spells are considered one level higher when targeted by effects that would stop your magic, such as being targeted by _Counter Spell_, _Dispel Magic_, or _Anti-Magic Field_. You have a codex with 2 cantrips.
 
 #### Blessed: Earthen Spirits
 You are blessed by the Earthen Spirits with an affinity for nature. You have 1 proficiency with nature and a weapon type of your choice, and gain access to the Earthen Spirit feats. Your body is unnaturally sturdy, and when unarmored you roll 3 defense dice instead of 2. Regardless of duration, when you gain poison 1 it disappears at the end of your next turn. This has no effect on effects inflicting poison 2 or higher.
@@ -9987,7 +9992,7 @@ You are blessed by the Earthen Spirits with an affinity for nature. You have 1 p
 You are blessed by the Blighted Ones with necromantic powers. You have 1 proficiency with intimidation and religion, and gain access to the Blighted Ones feats. Unless magically hidden, you can sense the presence of Undead within 10 tiles. Once per day you may cast _Ghoulish Claws_ at 1st level. This spell does not need to be prepared and does not cost mana. You have a codex with 2 cantrips.
 
 #### Blessed: Abyssal Host
-You are blessed by the Abyssal Host with fiendish luck. You have expertise in conversation and insight, and gain access to the Abyssal Host feats. You are fluent in Hadal. Once per long rest you may redo a roll, rerolling all dice and taking the new values. You know the spell _Eldritch Blast_ without needing to prepare it and can cast it without a codex. Casting _Eldritch Blast_ costs 1 less AP.
+You are blessed by the Abyssal Host with fiendish luck. You have expertise in conversation and insight, and gain access to the Abyssal Host feats. You are fluent in Hadal. Once per long rest you may redo a roll, rerolling all dice and taking the new values. You know the spell _Eldritch Blast_ without needing to prepare it. Casting _Eldritch Blast_ costs 1 less AP.
 
 #### Coven Witch
 You are trained in occult spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in nature and insight.
@@ -10594,12 +10599,12 @@ You cannot be charmed, possessed, or feared and have _Resistance 1_ against deat
 #### Saint
 *Requires 5 proficiency in divine spells, 20th level*
 
-You add 2 superior dice to Intelligence, Willpower, and Charisma saves against undead, demons, outsiders, celestials and fey creatures. You can prepare any number of divine spells, and once prepared are not forgotten during the next long rest.
+You add 2 superior dice to Intelligence, Willpower, and Charisma saves against undead, demons, outsiders, celestials and fey creatures. You can prepare any number of divine spells, and once prepared are never forgotten.
 
 #### Sorcerer
 *Requires 5 proficiency in arcane spells, 20th level*
 
-You gain 1 spell power. Choose one spell you know, this spell is always prepared and does not count towards your prepared spell slots. When casting this spell you add a superior die to the spellcasting roll.
+You gain 1 spell power. Choose one spell you know, this spell is always prepared and does not count towards your prepared spell limit. When casting this spell you add a superior die to the spellcasting roll.
 
 #### Strength of Mind
 *Requires 5 Willpower, 20th level*
