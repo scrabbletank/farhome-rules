@@ -6341,7 +6341,7 @@ Add 0/1 in fire damage for every level cast above 3rd.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Gain magical flight, allowing you to float through the air. Choosing up to 5 willing creatures, make a spellcasting roll adding a terrible die for each creature chosen. On success all creatures gain a flying move and sprint speed of 5.
+Gain magical flight, allowing you to float through the air. Choosing up to 5 willing creatures, make a spellcasting roll adding a terrible die for each creature chosen. On success all creatures gain a flying move and sprint speed of 5. Creatures under the effects of this spell do not need to move to maintain their flight. A Grappled or Restrained creature cannot move but does not fall.
 
 Add an enhanced die and increase the flying speeds by 1 for every level cast above 3rd.
 
@@ -8492,8 +8492,6 @@ On delivering the message the recipient is able to give a 1 minute message in re
 
 The duration increases by 1 day for each level cast above 1st.
 
-
-
 #### Bonfire
 *1st level*
 
@@ -8524,7 +8522,7 @@ The area increases by 2 for every level cast above 1st.
 
 - **Casting Time:** 10 AP
 - **Range:** 5
-- **Duration:** concentration, 1 hour
+- **Duration:** 1 hour
 
 You summon a swirling vortex of breathable air around up to 5 creatures in range you can see. Make a spellcasting roll, adding a bad die for every creature targeted. On success, each creature is able to breathe normally when they otherwise couldn't, such as when underwater, in a smoke filled room, or in a vacuum. Creatures also get expertise when saving against poisonous or harmful gasses, such as from the spells _Poison Cloud_ or _Miasma_.
 
@@ -8554,6 +8552,20 @@ Mend a creature's wounds. Make a spellcasting roll, healing a wound and adding a
 
 Creatures heal an additional wound die for every level cast above 1st.
 
+#### Feather Stride
+*1st level*
+
+- **Casting Time:** 10 AP
+- **Range:** 5
+- **Duration:** 10 minutes
+
+Targeting up to 5 creatures in range, bless them to surpass their physical limitations. Make a spellcasting roll adding a bad die for each creature targeted. On success the creatures gain the following benefits:
+
+- Once per turn, by spending 2 AP they may effortlessly jump up to 3 tiles. The distance jumped may be vertical or horizontal. When jumping horizontally, if they have moved at least 1 tile they may double the tiles jumped.
+- They do not take fall damage until they have fallen at least 10 tiles. When calculating fall damage they count as having fallen 10 fewer tiles.
+
+Increase the jump distance by 1 and double the distances for fall damage for every level cast above 1st.
+
 #### Holy Weapon
 *1st level*
 
@@ -8569,19 +8581,19 @@ Duration increases by 5 minutes for every level cast above 1st.
 #### Rite of Conquest
 *1st level*
 
-- **Casting Time:** 1 minute
+- **Casting Time:** 5 minutes
 - **Range:** self
-- **Duration:** 10 minutes
+- **Duration:** 1 hour
 - **Damage Type:** holy
 
-Perform a sacred rite to bless your armor for combat. Targeting armor you are wearing, choose any number of the following effects:
+Perform a sacred rite to bless your armor for combat. You must be wearing armor for this to take effect. Choose any number of the following effects:
 
 - Add a critical to your defense and attribute saves
 - Deal 0/1 in holy damage to melee attackers when critically defending
 - Remove any penalties for wearing armor when casting divine spells
 - Add a superior die to attribute saves against effects that cause Charm, Possession, or Fear
 
-Make a spellcasting roll against a terrible die, adding a bad die for every effect chosen. On success you gain the effects while wearing the target armor. For the duration your armor emits bright light to adjacent tiles and dim light 1 tile further.
+Make a spellcasting roll against a terrible die, adding a bad die for each effect chosen. On success you gain the effects while wearing the armor. For the duration your armor emits bright light to adjacent tiles and dim light 1 tile further.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -8759,7 +8771,7 @@ Add an enhanced die for every level cast above 2nd.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Targeting up to 5 creatures in range, bless them with free movement. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical to attribute savess against effects that inflict Slow, Grapple, or Restrained. For the duration, at the start of the creatures turn they may remove one level of the following conditions: Paralyze, Slow, Weaken.
+Targeting up to 5 creatures in range, bless them with free movement. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical to attribute saves against effects that inflict Slow, Grapple, or Restrained and are unaffected by difficult terrain. For the duration, at the start of the creatures turn they may remove one level of the following conditions: Paralyze, Slow, Weaken.
 
 Add an enhanced die for every level cast above 3rd.
 
@@ -9175,7 +9187,7 @@ You may target an additional creature for every level cast above 5th.
 
 A holy light emanates from your body, shining bright light 3 tiles out and dim light a further 3. Any undead, demon, or monstrosity entering the bright light for the first time this round or starting their turn there makes a Stamina save against your spellcasting roll. On fail they take 1/0 in holy damage and are blind until the end of their next turn.
 
-Any creature making an attack roll against you adds a terrible die to their roll. You and any creatures you choose inside the light adds a superior die to all attribute saves.
+Any creature making a single target attack, maneuver, or spell against you adds a terrible die to their roll. You and any creatures you choose inside the light adds a superior die to all attribute saves.
 
 The radius of the bright light increases by 1 for every level cast above 5th.
 
@@ -9350,7 +9362,6 @@ Add a superior die and increase the area by 2 for every level cast above 8th.
 You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the creature restores wounds equal to the rolls successes and removes all minor and major injuries. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below.
 
 Add 2 superior dice to your roll for every level cast above 8th.
-
 
 
 ### Ninth Level
