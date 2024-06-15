@@ -791,6 +791,9 @@ An incapacitated creature takes no actions and automatically fails Strength and 
 ##### Paralyzed
 A paralyzed creature cannot take the sprint action, adds a terrible die to all reactions, and has their maximum AP reduced by 3 for each level of Paralyze. They may still take an action that costs more than their maximum AP as long as it is the only action they take during their turn.
 
+##### Petrification
+A petrified creature is turned to stone and is considered incapacitated for the duration. While Petrified they do not age and have _Resistance_ 2 to physical damage. Creatures are returned to their normal form once the Petrification ends.
+
 ##### Poison
 A poisoned creature adds a bad die to all attacks, attribute saves, and ability checks, adding an additional bad die for every level of poison. Only the highest level poison takes effect. For example someone who has poison and poison 2 only adds 2 bad dice instead of 3.
 
@@ -2094,6 +2097,76 @@ Actions in this section follow a standard structure containing everything you ne
 ### Monsters By Type
 
 #### Beasts
+
+- **Elk:** You add 2 superior dice with athletics checks and your move speed increases by 1.
+- **Rabbit:** You add a superior die to Dexterity saves and acrobatics checks. The rabbit has 1 wound and cannot be hurt while on your person.
+- **Bear:** Your max wounds increase by 1.
+- **Snake:** You add 1 superior die to Intelligence saves and attribute saves against the Charm effect. The snake has 1 wound and cannot be hurt while on your person.
+- **Eagle:** You add 2 superior dice to perception checks. The eagle has a flying speed of 5/5.
+- **Wolf:** You add 1 superior die to conversation and insight checks. When helping or being helped by an ally you may reroll 3 dice.
+
+
+#### Eagle
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    1 | **Challenge:** |      1/2 |
+ | **Move/Sprint:** |  5/5 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  -1/0  |  2/1  |  0/0  | -2/0  |  2/1  |  0/0  |
+
+___
+***Flying.*** This creature can fly and hover in place. If this creature is grappled or restrained it plummets from the air.
+
+***Keen Eyes.*** This creature adds a superior die to all perception checks.
+
+**Actions**
+
+***Claw.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - On hit deals 0/1 in piercing damage.
+___
+
+
+#### Snake
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/2 | **AP:**        |     10 |
+ | **Wounds:**      |    1 | **Challenge:** |      1/2 |
+ | **Move/Sprint:** |  3/4 | **Size:**      | Small |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  -1/0  |  2/2  |  0/0  | -1/0  |  0/0  |  0/0  |
+
+___
+***Tremorsense.*** This creature can see through vibrations in the ground, sensing creatures within 7 tiles of it. This has no effect on flying creatures.
+
+**Actions**
+
+***Bite.*** *Melee Attack:* 5 AP, 2/0/3/0/0 - On hit deals 0/1 in piercing damage. On a critical the target gains Poison 1 for 1 hour.
+___
+
+#### Elk
+ |                  |      |                |        |
+ | :--------------- | ---: | :------------- | -----: |
+ | **Defense:**     |  0/3 | **AP:**        |     10 |
+ | **Wounds:**      |    3 | **Challenge:** |      1 |
+ | **Move/Sprint:** |  4/5 | **Size:**      | Medium |
+___
+|  STR  |  DEX  |  STA  |  INT  |  WIL  |  CHA  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  2/1  |  2/1  |  0/0  | -2/0  |  0/0  |  0/0  |
+
+___
+***Quick Footed.*** This creature adds a superior die to all athletic checks. Once per rest the Elk can double it's move and sprint speeds.
+
+**Actions**
+
+***Stomp.*** *Melee Attack:* 5 AP, 1/1/3/0/0 - On hit deals 1/0 in bludgeoning damage. Deals an additional 0/1 in bludgeoning damage against prone creatures.
+
+***Charge.*** *Melee Attack, Maneuver:* 7 AP, 1/2/3/0/0 - The Elk charges moving up to 5 tiles. The Elk may move through medium or smaller creatures and this movement does not provoke opportunity attacks. Creatures the Elk moves through make a Strength save against this attack, taking 0/1 in bludgeoning damage and staggering them on fail.
+___
 
 #### Wolf
  |                  |      |                |        |
@@ -3732,7 +3805,7 @@ ___
 
 ***Monstrous Resistance.*** This creature adds 1 crit success against spells and 1 crit failure against attacks.
 
-***Spellcaster.*** This creature has 1 proficiency with Curse spells. They are a 2nd level spellcaster with 8 mana and can cast the following spells without a codex: _Black Tendrils_, _Hex_, _Hex Bolt_, _Curse of Fragility_, _Curse of Suffering_.
+***Spellcaster.*** This creature has 1 proficiency with Curse spells. They are a 2nd level spellcaster with 8 mana and can cast the following spells without a codex: _Black Tendrils_, _Hex_, _Eldritch Presence_, _Curse of Fragility_, _Curse of Suffering_.
 
 **Actions**
 
@@ -4134,7 +4207,7 @@ ___
 
 ___
 
-***Spellcaster.*** This creature has 3 proficiency in Curse spells. They are a 4th level spellcaster with 18 mana and have a codex with the following spells: _Eldritch Blast, Hex, Quicken, Apathy, Shifting-Image, Invisibility_.
+***Spellcaster.*** This creature has 3 proficiency in Curse spells. They are a 4th level spellcaster with 18 mana and have a codex with the following spells: _Void Burst, Hex, Quicken, Apathy, Shifting-Image, Invisibility_.
 
 **Actions**
 
@@ -6518,7 +6591,7 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** touch
 - **Duration:** concentration, 24 hours
 
-For the duration of the spell a creature is undetectable by most forms of magic. Any spell of 4th level or below that grants magical sight does not see this creature, and locating spells of a similar level fail to find them. When spells of 5th level or higher, such as _Scrying_, attempt to detect the creature make a spellcasting roll against the spell's spellcasting roll. On success the creature remains undetected by that spell.
+Make a creature you touch undetectable by most forms of magic. Make a spellcasting roll. On success any magical effect trying to perceive this creature adds a terrible die to their roll, adding a terrible die for every critical rolled in your spellcasting roll. If this creature is not the main target of the effect, such as being seen through the spell _Far Sight_ or adjacent to a creature under the effects of _Scrying_ they instead show up as a blur that masks their voice, size, and appearance. They are completely invisible to the _Magic Sight_ spell.
 
 You may target an additional creature for every level cast above 4th.
 
@@ -6999,11 +7072,11 @@ Add 3 superior dice when cast at 10th level.
 
 ##### Cantrip
 - [Bleed](#Bleed)
-- [Eldritch Blast](#Eldritch-Blast)
 - [Levitate](#Levitate)
 - [Life Sense](#Life-Sense)
 - [Snake Bite](#Snake-Bite)
 - [Trickery](#Trickery)
+- [Void Burst](#Void-Burst)
 - [Witchcraft](#Witchcraft)
 
 ##### First
@@ -7015,7 +7088,7 @@ Add 3 superior dice when cast at 10th level.
 - [Firefly Swarm](#Firefly-Swarm)
 - [Ghoulish Claws](#Ghoulish-Claws)
 - [Hex](#Hex)
-- [Hex Bolt](#Hex-Bolt)
+- [Eldritch Presence](#Eldritch-Presence)
 - [Occult Whispers](#Occult-Whispers)
 - [Quicken](#Quicken)
 - [Sleep](#Sleep)
@@ -7119,18 +7192,6 @@ Force open the wounds of a creature in range you can see. Make a spellcasting ro
 
 You may target an extra creature for every level cast above cantrip.
 
-#### Eldritch Blast
-*Cantrip*
-
-- **Casting Time:** 5 AP
-- **Range:** 7
-- **Duration:** instant
-- **Damage Type:** force
-
-Fire a burst of force at a creature in range you can see. Make a spellcasting roll against the creatures Strength save. On success they take 1/0 in force damage, adding 0/1 on a critical.
-
-Add an enhanced die for every level cast above cantrip.
-
 #### Levitate
 *Cantrip*
 
@@ -7179,6 +7240,18 @@ You conjure up a display of illusory light to distract up to 5 creatures. Creatu
 
 Add an enhanced die for every level cast above cast cantrip.
 
+#### Void Burst
+*Cantrip*
+
+- **Casting Time:** 5 AP
+- **Range:** 7
+- **Duration:** instant
+- **Damage Type:** force
+
+Fire a burst of force at a creature in range you can see. Make a spellcasting roll against the creatures Strength save. On success they take 1/0 in force damage, adding 0/1 on a critical.
+
+Add an enhanced die for every level cast above cantrip.
+
 #### Witchcraft
 *Cantrip*
 
@@ -7219,7 +7292,9 @@ Add an enhanced die for every level cast above 1st.
 - **Range:** 10
 - **Duration:** 1 hour
 
-You take on a charming persona, attempting to charm up to 5 creatures in range you can see. Make a spellcasting roll against the creatures Willpower save, adding 1 bad die for every creature past the first. If the creature is hostile to you it adds 1 superior die to their save. On success, the creatures are charmed by you for the duration. Charmed creatures treat you as a friendly acquaintance. The charm ends if they take any damage, or if you act in a harmful way towards them. After the spell ends the target knows it was charmed.
+You take on a charming persona, attempting to charm up to 5 creatures in range you can see. Make a spellcasting roll against the creatures Willpower save, adding 1 bad die for every creature past the first. If the creature is hostile to you it adds 1 superior die to their save. On success, the creatures are Charmed by you and treat you as a friendly acquaintance. The charm ends if they take any damage, or if you act in a harmful way towards them. 
+
+The creature remembers everything while charmed. If the creature took an action they would not normally take, roll a normal die. On a success the creature rationalizes their actions as normal.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -7299,15 +7374,15 @@ inflict a creature you can see with a hex. Make a spellcasting roll against the 
 
 Add an enhanced die for every level cast above 1st.
 
-#### Hex Bolt
+#### Eldritch Presence
 *1st level*
 
 - **Casting Time:** 7 AP
-- **Range:** 5
-- **Duration:** 1 minute
+- **Range:** 10
+- **Duration:** 10 minutes
 - **Damage Type:** psychic
 
-Fire a bolt of psychic force, sticking to a creature in range you can see. Make a spellcasting roll against the creatures Willpower save, adding a bad die to your roll if the creature is not hexed. On success you deal 1/0 in psychic damage, adding 0/1 for each level of Hex on the creature. On a critical, the creature gains Hex for 1 minute, or increases their level of Hex up to a max of 3. For the next minute, once per turn you may spend 3 AP to make the same attack against the same creature, or move the hex bolt and attack a different creature within 2 tiles.
+A foreboding presence surrounds up to 5 creatures in range you can see. Make a spellcasting roll against the creatures Charisma save, adding a bad die for each creature targeted past the first. On success the creatures and their surrounding tiles are covered in dim light. Mundane lights have no effect on these tiles. While in dim light this creatures add a terrible die to all Willpower saves and takes 1/0 in psychic damage whenever they gain Hex.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -7371,7 +7446,7 @@ Add an enhanced die to the spellcasting roll for every level cast above 1st.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Attempt to fill a creatures mind with rage, preventing it from seeing friend or foe. Make a spellcasting roll against the creatures Willpower save. On success the creature loses all remaining AP and makes an attack against a random creature within its attack range. For every critical rolled the target adds a normal die for all attack rolls for the duration. On each of this creatures turns they must spend it either attacking a random creature in range or moving towards the closest creature. Each time this creature takes damage they make a Willpower save against 2 bad dice, ending this effect on success.
+Attempt to fill a creatures mind with rage, preventing it from seeing friend or foe. Make a spellcasting roll against the creatures Willpower save. On success the creature is Charmed, loses all remaining AP, and makes an attack against a random creature within its attack range. For every critical rolled the target adds a normal die for all attack rolls for the duration. On each of this creatures turns they must spend it either attacking a random creature in range or moving towards the closest creature. Each time this creature takes damage they make a Willpower save against 2 bad dice, ending this effect on success.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -7431,9 +7506,9 @@ The cloud's area increases by 1 and you add 0/1 in piercing damage for each leve
 - **Range:** 10
 - **Duration:** 8 hours
 
-You attempt to force a creature in range to obey a given command or simple task. This spell automatically fails if the creature cannot be charmed, does not speak your language, or would harm the creature. The command can be no more than one sentence and must be something they can reasonably complete. For example, commanding a commoner to kill a dragon or hurt their friends will fail, but asking a peasant to buy you a drink wont.
+You attempt to force a creature in range to obey a given command or simple task. This spell automatically fails if the creature cannot be charmed, does not speak your language, or would bring harm the creature. The command can be no more than one sentence and must be something they can reasonably complete. For example, commanding a commoner to kill a dragon or hurt their friends will fail, but asking a peasant to buy you a drink wont.
 
-Make a spellcasting roll against the creatures Willpower save. On success they must complete the command to the best of their abilities. The spell ends when they have completed their task or they take damage. Creatures don't immediately know they were under the spells effects, but do remember their actions.
+Make a spellcasting roll against the creatures Willpower save. On success the creature is Charmed and must complete the command to the best of their abilities. The spell ends when they have completed their task or they take damage. Creatures don't immediately know they were under the spells effects, but do remember their actions.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -7846,7 +7921,7 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** 10
 - **Duration:** 10 minutes
 
-You incite a crowd or group of creatures to violence. All creatures in a 7x7 tile area centered on a point in range must make a Willpower save against your spellcasting roll. On fail, non-hostile creatures begin to act violently, turning into an angry mob. The mob will provoke others, destroy or vandalize nearby buildings, carts, or other objects, and may attack other creatures. Hostile creatures effected by this spell lose any organization they have and recklessly attack their enemies. Each time a creature takes damage they make a Willpower save against 1 bad die, ending the effects of this spell on success.
+You incite a crowd or group of creatures to violence. All creatures in a 7x7 tile area centered on a point in range must make a Willpower save against your spellcasting roll. On fail they are Charmed for the duration. Non-hostile creatures begin to act violently, turning into an angry mob. The mob will provoke others, destroy or vandalize nearby buildings, carts, or other objects, and may attack other creatures. Hostile creatures effected by this spell lose any organization they have and recklessly attack their enemies, granting Combat Advantage to attackers. Each time a creature takes damage they make a Willpower save against 1 bad die, ending the effects of this spell on success.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -7856,11 +7931,11 @@ Add an enhanced die for every level cast above 4th.
 *4th level*
 
 - **Casting Time:** 8 AP
-- **Range:** 10
+- **Range:** touch
 - **Duration:** instant
 - **Damage Type:** fire/death
 
-You summon a flaming skull that screeches a hideous laughter. The skull appears in an adjacent tile and moves up to 5 tiles with the caster controlling its movement. Each creature the skull passed through makes a Willpower save against your spellcasting roll. On failure they take 0/2 in both fire and death damage, being feared until the end of their next turn on a critical. While feared they must use their move and sprint actions to move as far away from you as they can.
+You summon a flaming skull that screeches a hideous laughter. The skull appears in an adjacent tile and moves up to 7 tiles with the caster controlling its movement. Each creature the skull passed through makes a Willpower save against your spellcasting roll. On failure they take 0/2 in both fire and death damage, being feared until the end of their next turn on a critical. While feared they must use their move and sprint actions to move as far away from you as they can.
 
 The distance the skull travels increases by 2 for every level cast above 4th.
 
@@ -7882,7 +7957,7 @@ Increase the area by 1 for every level cast above 4th.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Summon a cloud of toxic spores in a 5x5 tile area centered on a point in range. Any creature that enters the cloud for the first time this round or starts their turn there makes a Stamina save against your spellcasting. On failure gain Paralyze 1 until the end of their next turn or increase the level of an existing Paralyze.
+Summon a cloud of toxic spores in a 6x6 tile area centered on a point in range. Any creature that enters the cloud for the first time this round or starts their turn there makes a Stamina save against your spellcasting. On fail the creature gains Paralyze 1 until the end of their next turn or increases the level of Paralyze affecting them. Increase the level of Paralyze for every critical rolled.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -7905,7 +7980,7 @@ You may target an extra medium or large corpse and add a superior die to your ro
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to break the barrier between this realm and the void. Make a spellcasting roll adding up to 3 terrible dice. On success a random outsider with a CR of 6 plus 2 per terrible die added heeds your call and is summoned to a point in range of your choosing. The exact creature summoned is determined by the GM, and multiple creatures may be summoned if their combined CR is less than the spells maximum. After summoning roll a wound die. On success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims.
+Attempt to break the barrier between this realm and the void. Make a spellcasting roll adding up to 3 terrible dice. On success a random outsider with a CR of 6 plus 2 per terrible die added heeds your call and is summoned to a point in range of your choosing. The exact creature summoned is determined by the GM, and multiple creatures may be summoned if their combined CR is less than the spells maximum. After summoning roll a normal die. On success the creature is friendly towards you for the next minute, otherwise the creature follows it's own whims.
 
 For every successful casting of _Void Lure_ in this location in the past day, add a terrible die to the spellcasting roll. This die does not effect the CR of the summoned creature.
 
@@ -7918,9 +7993,9 @@ The CR of the summoned creature increases by 2 for every level cast above 4th.
 - **Range:** 2
 - **Duration:** concentration, 1 hour
 
-Turn yourself or another creature or an object invisible. Make a spellcasting roll against 2 terrible dice. On success the target becomes completely invisible while standing still. Moving causes a barely noticeable shimmer on the creature. Creatures may make a perception check against your spellcasting roll to see a moving creature, spotting them on success. Single target attacks, spells, and maneuvers against an invisible creature add 2 terrible dice to their rolls.
+Turn yourself, another creature, or an object that would fit in a 2x2 area invisible. You may choose up to 5 targets when casting this spell. Make a spellcasting roll against 2 terrible dice, adding an additional terrible die for every target past the first. On success the target becomes completely invisible while standing still. Moving causes a barely noticeable shimmer on the creature. Creatures may make a perception check against your spellcasting roll to see a moving creature, spotting them on success. Single target attacks, spells, and maneuvers against an invisible creature add 2 terrible dice to their rolls.
 
-Add an enhanced die to your spellcasting roll, and you may target an additional creature or object for every level cast above 4th. When targeting multiple creatures add a terrible die for each creature targeted past the 1st.
+Add an enhanced die to your spellcasting roll for every level cast above 4th.
 
 
 
@@ -7955,7 +8030,7 @@ Enchant up to 5 creatures or objects, changing their behavior and perception. Yo
 - Prevent them from speaking or sharing specific information. For example the details and location of a magic item, the whereabouts of a person or group, or the week a noble passed through town.
 - Force them to communicate in a specific language. The language must be known to either the creature or the caster, having no effect otherwise.
 
-When casting the enchantment make a spellcasting roll against the creatures Willpower save, adding a terrible die for every creature or object targeted. On a success the creature is enchanted. When enchanting objects the enchantment lasts for 1 year, saving the result of your spellcasting roll. When a creature holds or wears the object they make a Willpower save against that roll, becoming enchanted on fail. Successfully casting this on the same object each day for 7 days makes the enchantment permanent.
+When casting the enchantment make a spellcasting roll against the creatures Willpower save, adding a terrible die for every creature or object targeted. On a success the creature Charmed, following the rules of the enchantment. When enchanting objects the enchantment lasts for 1 year, saving the result of your spellcasting roll. When a creature holds or wears the object they make a Willpower save against that roll, becoming charmed and following the rules of the enchantment on fail. Successfully casting this on the same object each day for 7 days makes the enchantment permanent.
 
 Add an enhanced die and double the duration for every level cast above 5th.
 
@@ -7967,7 +8042,9 @@ Add an enhanced die and double the duration for every level cast above 5th.
 - **Duration:** instant
 - **Damage Type:** death
 
-Reach out to a creature you can see and stop their heart. Make a spellcasting roll against the creatures Stamina save. On failure they take 0/5 in death damage and all healing they receive is half as effective until they take a long rest, being stunned until the end of their next turn on a critical. On success they take half damage, rounded down, and have no additional effects. A creature already under the effects of _Heart Grip_ automatically saves.
+Reach out to a creature you can see and stop their heart. Make a spellcasting roll against the creatures Stamina save. On failure they take 0/5 in death damage and gain the _Grip of Death_ minor injury, being stunned until the end of their next turn on a critical. On success they take half damage, rounded down, and have no additional effects. A creature that already has the _Grip of Death_ minor injury adds a superior die to their Stamina save.
+
+- **Minor Injury: Grip of Death.** All healing you recieve is half as effective, rounding down.
 
 Add 1/0 in death damage for every level cast above 5th.
 
@@ -7979,9 +8056,9 @@ Add 1/0 in death damage for every level cast above 5th.
 - **Duration:** instant
 - **Damage Type:** piercing
 
-A line of bones sprout from the ground, impaling all creatures in a 5 tile line. Make a spellcasting roll against the creatures defense. On success they take 1/3 in piercing damage and are impaled by the bones, restraining them in place. On failure the creatures take no damage and are grappled instead.
+A line of bones sprout from the ground, impaling all creatures in a 6 tile line. Make a spellcasting roll against the creatures defense. On success they take 1/3 in piercing damage and are impaled by the bones, restraining them in place. On fail if the creature is large or smaller they are grappled instead.
 
-The bones extend 8 feet high and are permanent, blocking movement through those tiles. The bones have 1 wound and roll 3 superior defense dice when attacked. To free a grappled or restrained creature the bones holding that creature must be destroyed.
+The bones extend 8 feet high and are permanent, blocking movement through those tiles. The bones have 1 wound, _Resistance 1_ to all damage, and roll 3 superior defense dice when attacked. To free a grappled or restrained creature the bones holding that creature must be destroyed.
 
 Add 1/0 in piercing damage and increase the length of the line by 1 tile for every level cast above 5th.
 
@@ -7995,7 +8072,7 @@ Add 1/0 in piercing damage and increase the length of the line by 1 tile for eve
 - **Duration:** instant
 - **Damage Type:** psychic
 
-Attempt to overpower the mind of a creature in range that can see you. You make a telepathic link to the creature, using your will to shatter their mind. Make a spellcasting roll against the creatures Intelligence save. On success they take 0/1 in psychic damage for every success remaining in your roll. If you deal at least 1 damage the target is dazed for the next minute.
+Attempt to overpower the mind of a creature in range that can see you. You make a telepathic link to the creature, using your will to shatter their mind. Make a spellcasting roll against the creatures Intelligence save. On success they take 0/1 in psychic damage for every success remaining in your roll. If you deal at least 1 damage the target is dazed for the next minute. Damage from this spell adds double the dice it would normally incur for any concentration checks it causes.
 
 Add an enhanced die to the spellcasting roll for every level cast above 5th.
 
@@ -8006,7 +8083,9 @@ Add an enhanced die to the spellcasting roll for every level cast above 5th.
 - **Range:** -
 - **Duration:** concentration, 1 hour
 
-Attempt to divine the location of a creature or object in the same realm as you. To scry on a creature you must have an object they held for at least a month over the past year or a magic item they have created. To scry on an object you must have held it for a month over the past year, or in the case of a magic item attuned to it in the past year or created it.
+Attempt to divine the location of a creature or object in the same realm as you. To scry on a creature you must have an object connected to them listed in the table below. If an object has multiple valid creatures that could be the target of scrying, a random creature is chosen unless you know the name or appearance of the creature you wish to scry on. For example, a coin may be a valid object for many creatures but if you know the name of a specific creature that held this coin you may scry on that creature.
+
+To scry on an object it must be one you have created or have a connection to listed in the table below. When scrying on an object the vision is centered on the object itself and not of the creature that possess the object, if any.
 
 Depending on the circumstance, make a spellcasting roll against challenge dice listed in the table below. On success you have a vision of the object or creature. The vision shows the target and everything in a 6 tile radius surrounding it as well as any audible noise in the area. This spell can be cast on a mirror or glass surface, projecting the vision onto the surface for others to see.
 
@@ -8015,9 +8094,9 @@ Add an enhanced die to the spellcasting roll for every level cast above 5th.
 ##### Scrying Difficulty
 | Target                                                                     | Difficulty Dice |
 | :------------------------------------------------------------------------- | --------------: |
-| A creature using an item they held for at least a month over the past year |           3T/2B |
+| A creature using an object they held for at least a day over the past year |           3T/2B |
 | A creature using a magic item they created                                 |           2T/2B |
-| An object you have held for at least a month over the past year            |           3T/2B |
+| An object you have held for at least a day over the past year            |           3T/2B |
 | A magic item you have created                                              |           2T/1B |
 | A magic item you have attuned to in the past year                          |              2T |
 
@@ -8165,7 +8244,7 @@ You may target an additional creature for every level cast above 7th.
 - **Range:** 5
 - **Duration:** 24 hours
 
-Exert your will on a living, non-humanoid creature you can see, forcing them to obey your commands. The creature must have an Intelligence of -1 or lower and a CR of 15 or lower or else this spell has no effect. Make a spellcasting roll against the creatures Willpower save, adding a terrible die to your roll unless you are touching the creature. On success the creature is obedient to you, obeying any command unless that command would bring harm to it, such as ordering it to hurt itself or jump off a cliff. While under your control the creature may use your spellcasting roll when making Willpower saves. The creature understands every language you know and can communicate verbally with you, speaking in a way only you can understand.
+Exert your will on a living creature you can see, forcing them to obey your commands. The creature must have an Intelligence of -1 or lower and a CR of 18 or lower or else this spell has no effect. Make a spellcasting roll against the creatures Willpower save, adding a terrible die to your roll unless you are touching the creature. On success the creature is Charmed, obeying any command unless that command would bring harm to it, such as ordering it to hurt itself or jump off a cliff. While under your control the creature may use your spellcasting roll when making Willpower saves. The creature understands every language you know and can communicate verbally with you, speaking in a way only you can understand.
 
 The CR limit increases by 4 for every level cast above 7th.
 
@@ -8219,7 +8298,7 @@ Add 0/3 in lightning damage and increase the range of the arc by 2 tiles for eve
 - **Range:** 10
 - **Duration:** concentration, 1 hour
 
-Overpower the mind of a creature you can see, taking control of the creature. Make a spellcasting roll against the creatures Willpower save. On success you possess the creature, sensing through the creatures senses. For the duration you are incapacitated, instead taking actions for the creature during the creatures turn. Taking damage as the controlled creature causes you to make concentration checks as if you took the damage yourself. If the controlled creature dies while you are still in control of it you take 3/0 in psychic damage and are stunned until the end of your next turn from the strain of dying.
+Overpower the mind of a creature you can see, taking control of the creature. Make a spellcasting roll against the creatures Willpower save. On success the creature is Possessed by you, with you sensing through the creatures senses. For the duration you are incapacitated, instead taking actions for the creature. Taking damage as the controlled creature causes you to make concentration checks as if you took the damage yourself. If the controlled creature dies while you are still in control of it you take 2/2 in psychic damage from the strain of dying and are stunned until the end of your next turn.
 
 Add a superior die for every level cast above 8th.
 
@@ -8239,7 +8318,7 @@ You may target an additional creature for every level cast above 8th.
 #### Soul Vessel
 *8th level*
 
-- **Casting Time:** 1 day
+- **Casting Time:** 8 hours
 - **Range:** touch
 - **Duration:** 10 years
 
@@ -8367,8 +8446,8 @@ When cast at 10th level your shades have expertise in all rolls and you add 1 su
 - [Bind Familiar](#Bind-Familiar)
 - [Inner Fire](#Inner-Fire)
 - [Judgement](#Judgement)
-- [Mass Healing Word](#Mass-Healing-Word)
 - [Mass Cleanse](#Mass-Cleanse)
+- [Mass Healing Word](#Mass-Healing-Word)
 - [Petrify](#Petrify)
 - [Radiance](#Radiance)
 - [Resurrect](#Resurrect)
@@ -8665,7 +8744,7 @@ Add an enhanced die for every level cast above 2nd.
 - **Range:** self
 - **Duration:** 1 hour
 
-Your eyes glow with a golden light. Make a spellcasting roll against 2 bad dice. For the duration you add the successes from your spellcasting roll to any Insight checks or Perception checks against illusions. You know if a creature is telling the truth on a successful Insight roll.
+Your eyes glow with a golden light. Make a spellcasting roll against 2 bad dice. For the duration you add the successes from your spellcasting roll to Insight checks against creatures or Perception checks against illusions. You know if a creature is telling the truth on a successful Insight roll.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -8689,9 +8768,9 @@ Add an enhanced die and increase the width by 1 for every level cast above 2nd.
 - **Range:** 5
 - **Duration:** instant
 
-Send healing energy to a creature in range you can see. Make a spellcasting roll against 3 bad dice. On success, the target heals a wound die for every success in your roll.
+Send healing energy to a creature in range you can see. Make a spellcasting roll against 3 bad dice. On success, the target heals a wound die for every success in your roll, up to a max of 3 wounds.
 
-Add a normal die for every level cast above 2nd.
+Add an enhanced die and increase the max wounds healed by 1 for every level cast above 2nd.
 
 #### Intuition
 *2nd level*
@@ -8747,11 +8826,11 @@ Add an enhanced die for every level cast above 2nd.
 - **Range:** 5
 - **Duration:** 1 minute
 
-Channel your faith to form a protective wall 4 tiles wide and 4 tiles tall centered on a point in range you can see. Make a spellcasting roll against a bad die. You may cast this as a reaction using 2 terrible dice instead of a bad die. On success the wall is created. 
+Channel your faith to form a protective 3x3 tile wall centered on a point in range you can see. Make a spellcasting roll against a bad die. You may cast this as a reaction using 2 terrible dice instead of a bad die. On success the wall is created. 
 
 The wall is transparent, blocking creatures and projectiles from passing through it. Any attack targeting a creature through the wall automatically hits the wall instead, dealing damage to the wall. Any attack that breaks the wall carries through to its intended target, dealing the remaining damage on hit. The wall has 2 wounds, adding a wound for every 2 successes in your roll.
 
-Add an enhanced die for every level cast above 2nd. When cast at 5th level and above the wall has _Resistance_ 1 to all damage.
+The wall gains an additional wound and the area of the wall increases by 1 for every level cast above 2nd.
 
 #### Winds of Battle
 *2nd level*
@@ -8760,7 +8839,7 @@ Add an enhanced die for every level cast above 2nd. When cast at 5th level and a
 - **Range:** 5
 - **Duration:** 1 minute
 
-A flurry of wind surrounds up to 5 willing creatures in range you can see. Make a spellcasting roll adding a terrible die for each creature targeted. On success the creatures do not provoke opportunity attacks when moving. For each critical rolled they can reroll a die in their attack, maneuver, or spell attack rolls. The effect ends on a creature if it takes damage.
+A flurry of wind surrounds up to 5 willing creatures in range you can see. Make a spellcasting roll adding a terrible die for each creature targeted. On success the creatures do not provoke opportunity attacks when moving. FOn a critical creatures can reroll a die in their attack, maneuver, or spell rolls. The effect ends on a creature if it takes damage.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -8805,12 +8884,12 @@ Add an enhanced die for every level cast above 3rd.
 
 - **Casting Time:** 8 AP
 - **Range:** 5
-- **Duration:** 1 minute
+- **Duration:** 5 minutes
 - **Damage Type:** fire
 
-You summon a flaming skull at position in range you can see. At the end of each of your turns the skull breathes fire at all creatures in its zone of control. Make a spellcasting roll against the creatures defense. On success they take 1/0 in fire damage and gain Burn 1, or Burn 2 on a critical. On your turn you may spend 3 AP to move the skull up to 5 tiles and change its facing. If the skull moves more than 10 tiles from you the spell ends.
+You summon a flaming skull with _Reach 1_ at position in range you can see. At the end of each of your turns the skull breathes fire at all creatures in its zone of control. Make a spellcasting roll against the creatures defense. On success they take 1/0 in fire damage and gain Burn 1, or Burn 2 on a critical. Once per round, as a free action you may move the skull up to 4 tiles and change its facing.
 
-Add an enhanced die and increase the duration by 1 turn for every level cast above 3rd.
+Add an enhanced die and increase the skulls Reach by 1 for every level cast above 3rd.
 
 
 
@@ -8821,15 +8900,15 @@ Add an enhanced die and increase the duration by 1 turn for every level cast abo
 - **Range:** 1 mile
 - **Duration:** instant
 
-You attempt to detect the location of a type of creature in range. Choose one of the following: _beast, celestial, construct, demon, draconic, elemental, giant, goblinoid, fey, humanoid, monstrosity, undead_, or _outsider_. Make a spellcasting roll adding 2 bad dice. On success you know the rough direction and Strength of creatures matching that type in the spells range. The spells accuracy is determined by how many success are in your roll:
+You attempt to detect the location of a type of creature in range. Choose one of the following: _beasts, celestials, constructs, demons, dragons, elementals, fey, giants, monstrosities, mortals, outsiders,_ or _undead_. Make a spellcasting roll adding 2 bad dice. On success you know the rough direction and Strength of creatures matching that type in the spells range. The spells accuracy is determined by how many success are in your roll:
 
 
-- **0-2**: You cannot sense how many creatures have been detected and their direction is accurate to within 2000 ft.
-- **3-4**: You have a vague count of the number of creatures in range, within 10, and their direction is accurate to within 500 ft.
-- **5-7**: You have a moderate idea of the number of creatures in range, within 5, and their direction is accurate to within 100 ft.
-- **8+**: You know exactly how many creatures are in range and their direction is accurate to within 10 ft.
+- **0-1**: You cannot sense how many creatures have been detected and their direction is accurate to within 2000 ft.
+- **2-3**: You have a vague count of the number of creatures in range, within 10, and their direction is accurate to within 500 ft.
+- **4-5**: You have a moderate idea of the number of creatures in range, within 5, and their direction is accurate to within 100 ft.
+- **6+**: You know exactly how many creatures are in range and their direction is accurate to within 10 ft.
 
-The range increases by 1 mile for every level cast above 3rd.
+The range doubles for every level cast above 3rd.
 
 #### Fall
 *3rd level*
@@ -8839,7 +8918,7 @@ The range increases by 1 mile for every level cast above 3rd.
 - **Duration:** instant
 - **Damage Type:** bludgeoning
 
-Force all creatures in a 5x5 tile area centered on a point you can see to plummet to the ground. Make a spellcasting roll against their Strength save. On success the creature is knocked prone. A creature not touching the ground falls up to 5 tiles, taking 1/2 in bludgeoning damage on hitting the ground. A creature that fails their roll cannot fly for the next minute.
+Force all creatures in a 5x5 tile area centered on a point you can see to plummet to the ground. Make a spellcasting roll against their Strength save. On success the creature is knocked prone. A creature not touching the ground falls up to 5 tiles, taking 1/2 in bludgeoning damage if they hit the ground. A creature that fails their roll cannot fly for the next minute.
 
 Add an enhanced die for every level cast above 3rd.
 
@@ -8872,7 +8951,7 @@ Add a normal die for every level cast above 3rd.
 - **Range:** self
 - **Duration:** 3 days
 
-Attempt to commune with local nature spirits, gaining one as your guide. Make a spellcasting roll adding 2 terrible dice, or 3 if you are not in a forest, swamp, or plains. On success you gain an spirit companion of your choosing. You may summon or dismiss the spirit for 5 AP, appearing in a tile adjacent to you. Each spirit has 3 wounds with the spell ending if they are killed. Spending a minute in concentration you may look through your spirit animal's eyes. While doing so you gain the senses of the animal and lose your own. Besides their max wounds the spirit animal has the same attributes, abilities, and attacks as the animal they're based on. You gain the following bonuses if the spirit animal is within 10 tiles of you.
+Attempt to commune with local nature spirits, gaining one as your guide. Make a spellcasting roll adding 2 terrible dice, or 3 if you are not in a forest, swamp, or plains. On success you gain an spirit companion of your choosing. You may summon or dismiss the spirit by spending 5 AP. The spirit appears on your person or in an adjacent tile. Each spirit has 3 wounds and _Resistance 1_ to physical damage. If the spirit drops to 0 wounds the spell ends. Spending a turn in concentration you may look through your spirit animal's eyes. While doing so you gain the senses of the animal and lose your own. Besides their max wounds the spirit animal has the same attributes, abilities, and attacks as the animal they're based on. You gain the following bonuses if the spirit animal is within 5 tiles of you.
 
 
 - **Elk:** You add 2 superior dice with athletics checks and your move speed increases by 1.
@@ -8963,7 +9042,7 @@ Add a superior die for every level cast above 4th.
 - **Range:** 5
 - **Duration:** concentration, 1 hour.
 
-Bind a creature in range you can see to this realm. Make a spellcasting roll against the creatures Charisma save. On success the creature is bound for the duration. While bound they are unable to leave this realm through any means, nor can they magically teleport, enter the ethereal plane, or possess a creature. Ethereal creatures are forced to the material plane, losing any resistances and cannot move through solid objects. The creature gains slow 1 for the duration on a critical.
+Bind a creature in range you can see to this realm. Make a spellcasting roll against the creatures Charisma save. On success the creature is bound for the duration. While bound they are unable to leave this realm through any means, nor can they magically teleport, enter the ethereal plane, or possess a creature. Ethereal creatures are forced to the material plane, losing any benefits gained from their Ethereal nature, such as resistance to damage or the ability to move through solid objects. The creature gains slow 1 for the duration on a critical.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -8975,7 +9054,7 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Target up to 5 creatures in range, bless them with holy resilience. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical to attribute saves against effects that inflict Poison, Burn, Disease, or minor and major injuries. For the duration, at the start of the creatures turn they may remove one level of Burn or Poison effecting them.
+Target up to 5 creatures in range, bless them with holy resilience. Make a spellcasting roll adding a terrible die for each creature targeted. On success the blessed creatures add a critical to defense rolls and attribute saves against effects that inflict Poison, Burn, Disease, or minor and major injuries. For the duration, at the start of the creatures turn they may remove one level of Burn or Poison effecting them.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -8987,12 +9066,12 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** 3 miles
 - **Duration:** instant
 
-You spend time in meditation, listening to the land itself covering an area 3 miles out in all directions. Make a spellcasting roll adding a bad die for each piece of information. On success you learn any of the following you've chosen:
+You spend time in meditation, listening to the land itself, covering a 5 mile radius centered on you. Make a spellcasting roll adding a bad die for each piece of information you wish to learn. On success you learn any of the following you've chosen:
 
-- General lay of the land and bodies of water.
-- Prevalent plants, creatures, or minerals.
+- General lay of the land, any rivers or bodies of water, or natural landmarks.
+- Prevalent plants, creatures, or minerals present, as well as any natural danagers.
 - Presence of fey, elemental, celestial, undead, or demonic entities, and an estimate of their strength.
-- General location and understanding of influence from other realms or warrens.
+- General location and understanding of, location of, or influence from other realms or warrens.
 - General location of any structures, cave systems, or traces of people (such as a campsite).
 
 Add a superior die for every level cast above 4th.
@@ -9019,9 +9098,9 @@ Add 2/0 in holy damage for every level cast above 4th.
 - **Duration:** instant
 - **Damage Type:** bludgeoning
 
-Choosing 4 tiles within range, raise the earth creating a 6 tile high stone pillar. Pillars can be raised from any earth or stone surface, extending sideways if targeting a wall or down if targeting a ceiling. A creature crushed by the pillars makes a Strength save against your spellcasting. On failure they take 0/3 in bludgeoning damage, are knocked prone, and grappled. A creature pinned by your pillar can spend 5 AP on their turn to attempt to break free, making the save again.
+Choosing 4 tiles within range, raise the earth creating a 6 tile high stone pillar. Pillars can be raised from any earth or stone surface, extending sideways if targeting a wall or down if targeting a ceiling. A creature crushed by the pillars makes a Strength save against your spellcasting. On fail they take 0/3 in bludgeoning damage, knocked prone, and grappled as they are pinned by the pillar. A creature pinned by your pillar can spend 5 AP on their turn to attempt to break free, making the save again.
 
-You may combine 4 pillars into a larger 2x2 pillar, dealing 2/3 in bludgeoning damage instead. Each pillar has _Resistance_ 2 to all damage except force damage and takes 3 wounds to destroy.
+You may combine 4 pillars into a larger 2x2 pillar, dealing 2/3 in bludgeoning damage instead. Each pillar has _Resistance_ 2 to all damage except force damage and takes 2 wounds to destroy.
 
 The number of pillars increases by 2 for every level cast above 4th.
 
@@ -9059,7 +9138,7 @@ Add an enhanced die for every level cast above 4th.
 - **Range:** 5
 - **Duration:** instant
 
-Fill a creature with healing energy, causing their wounds to close over time. Make a spellcasting roll against 4 bad dice. On success the creature heals a wound, healing a wound at the start of each of their turns. This effect lasts a number of turns equal to your successes. Remove a minor injury on the creature for every critical rolled.
+Fill a creature with healing energy, causing their wounds to close over time. Make a spellcasting roll against 4 bad dice. On success the creature heals 2 wounds, healing a wound at the start of each of their turns. This effect lasts a number of turns equal to your successes. Remove a minor injury on the creature for every critical rolled.
 
 Add an enhanced die for every level cast above 4th.
 
@@ -9081,7 +9160,7 @@ You number of tiles shaped doubles for each level cast above 4th. The tiles must
 - **Range:** 5
 - **Duration:** instant
 
-You attempt to call forth a demon from the abyss at a point in range you can see. Make a spellcasting roll against 2 terrible dice. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear at the target location. When they appear the demons make a Willpower save against your Religion check. On fail the demons obey you for the next hour after which they revert to their default behavior. Each successful casting of _Summon Demon_ in this location over the past day adds 1 terrible die to your spellcasting roll.
+You attempt to call forth a demon from the abyss at a point in range you can see. Make a spellcasting roll against 2 terrible dice. On success a group of demons (determined by the GM) whose combined CR is 8 or lower appear at the target location. When they appear the demons make a Willpower save against your Religion check. On fail the demons obey you for the next day after which they revert to their default behavior. While in this realm demons summoned from this spell do not gain benefits from resting. Each successful casting of _Summon Demon_ in this location over the past day adds 1 terrible die to your spellcasting roll.
 
 The maximum CR increases by 3 for every level cast above 4th.
 
@@ -9137,20 +9216,9 @@ Add an enhanced die for every level cast above 5th.
 - **Duration:** instant
 - **Damage Type:** holy
 
-You call down a holy judgement over a 5x5 tile area centered on a point in range you can see. All creatures of your choosing in the area makes a Charisma save against your spellcasting roll. On fail they take 0/5 in holy damage, or half damage rounded up on success. An Undead or Demonic creature takes 5/0 in holy damage instead. On a critical the creature is stunned until the end of their next turn. If the damage would kill a living creature they are brought to 1 wound instead and stunned for 1 minute. Undead killed this way cannot be raised again.
+You call down a holy judgement over a 6x6 tile area centered on a point in range you can see. All creatures of your choosing in the area makes a Charisma save against your spellcasting roll. On fail they take 0/5 in holy damage, or half damage rounded up on success. An Undead or Demonic creature takes 5/0 in holy damage instead. On a critical the creature is stunned until the end of their next turn. If the damage would kill a living creature they are brought to 1 wound instead and stunned for 1 minute. Undead killed this way cannot be raised again.
 
 Add 1/0 in holy damage for every level cast above 5th.
-
-#### Mass Healing Word
-*5th level*
-
-- **Casting Time:** 6 AP
-- **Range:** 5
-- **Duration:** instant
-
-Mend the wounds of up to 5 creatures in range you can see. Make a spellcasting roll adding 3 terrible dice. On success you heal each creature for 1 wound, adding a wound die for every success in your roll.
-
-Add a normal die for every level cast above 5th.
 
 #### Mass Cleanse
 *5th level*
@@ -9159,10 +9227,21 @@ Add a normal die for every level cast above 5th.
 - **Range:** 5
 - **Duration:** instant
 
-Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll adding a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, Weakened, Paralyzed, Silenced, Fear, Sleep if it was caused by a magical effect, Petrification, or a condition inflicted by a spell of 4th level or lower.
+Attempt to remove afflictions from up to 5 creatures. Make a spellcasting roll adding a terrible die for each creature targeted. On success you remove two negative conditions affecting each creature. Mass Cleanse can remove Slow, Poison, Hex, Daze, Stun, Blind, Weakened, Paralyzed, Silenced, Fear, Sleep if it was caused by a magical effect, Petrification, or any condition inflicted by a spell of 4th level or lower.
 
 Add a normal die for every level cast above 5th.
 
+
+#### Mass Healing Word
+*5th level*
+
+- **Casting Time:** 6 AP
+- **Range:** 5
+- **Duration:** instant
+
+Mend the wounds of up to 5 creatures in range you can see. Make a spellcasting roll adding 3 terrible dice. On success you heal each creature for 1 wound, adding a wound die for every success in your roll, up to a max of 4 wounds.
+
+Add an enhanced die and increase the max wounds healed by 1 for every level cast above 5th.
 
 #### Petrify
 *5th level*
@@ -9212,9 +9291,9 @@ Add an enhanced die to the roll for every level cast above 5th.
 - **Range:** 3
 - **Duration:** 10 minutes
 
-You call upon the fighting spirit of nearby dead creatures. You may choose any number of corpses within range, except the corpses of undead, monstrosities, or constructs. Make a spellcasting roll adding a terrible die for each corpse. On success spirits of the creature rise from their bodies to defend you.
+You call upon the fighting spirit of nearby dead creatures. You may choose any number of dead creatures with a size of Large or smaller within range, except the corpses of undead, monstrosities, or constructs. Make a spellcasting roll adding a terrible die for each Large corpse and a bad die for a medium or smaller corpse. On success spirits of the creature rise from their bodies to defend you.
 
-The spirits have the same attributes and proficiencies they had in life, but lose any maneuvers, abilities, or spells. Each spirit has 2 wounds in health and _Resistance 2_ for all physical damage from non-silvered weapons. The warriors act immediately and obey simple commands. The spirits vanish after the duration or when exposed to direct sunlight. Corpses that have been targeted by this spell cannot be used again.
+The spirits have the same attributes and proficiencies they had in life, but lose any maneuvers, abilities, or spells. Each spirit has 3 wounds and _Resistance 2_ for all physical damage from non-silvered weapons. The warriors act immediately and obey simple commands. The spirits vanish after the duration or when exposed to direct sunlight. Corpses that have been targeted by this spell cannot be targeted again.
 
 Add an enhanced die for every level cast above 5th.
 
@@ -9228,7 +9307,7 @@ Add an enhanced die for every level cast above 5th.
 - **Range:** 5
 - **Duration:** concentration, 1 hour
 
-Targeting up to 5 creatures in range, bless them with divine strength. Make a spellcasting roll, adding 2 terrible dice for each creature targeted. On success the creatures are strengthened. For the duration, creatures may reroll up to 3 wound dice with any attack or maneuver they make. When making an attack or maneuver they may spend 1 extra AP to add 1/0 in physical damage to the attack.
+Targeting up to 5 creatures in range, bless them with divine strength. Make a spellcasting roll, adding 2 bad dice for each creature targeted. On success the creatures are strengthened. For the duration, creatures have expertise in Athletics checks and Strength saves. When strengthened creatures make strength based attacks they may reroll 3 wound dice in their damage roll and add 1/0 in physical damage on critical hits.
 
 Add an enhanced die for every level cast above 6th.
 
@@ -9239,7 +9318,7 @@ Add an enhanced die for every level cast above 6th.
 - **Range:** touch
 - **Duration:** instant
 
-You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home realm. If the creature is in it's home realm it is instead banished to a warren, appearing within 40 miles of your location within the next hour. Make a spellcasting roll against the creatures Charisma save, adding a bad die if the creature has no negative conditions. On success the creature is banished to their home realm or warren, ending any possession or effects this creature was maintaining.
+You attempt to exorcise an undead, demon, fey, outsider, or celestial creature, returning them to their home realm. If the creature is in it's home realm it is instead banished to a warren, appearing within 40 miles of your location within the next hour. Make a spellcasting roll against the creatures Charisma save, adding a terrible die if the creature has no negative conditions. On success the creature is banished to their home realm or warren, ending any possession or effects this creature was maintaining.
 
 Add an enhanced die to the roll for every level cast above 6th.
 
@@ -9277,7 +9356,7 @@ Add a wound for every level cast above 6th.
 
 When casting this spell you may choose to either mark a location as your sanctuary or open a portal to your sanctuary. When marking a location as your sanctuary the spell takes 1 hour to cast and does not require a roll.
 
-When opening a portal it remains open until the end of your next turn and any creature you allow can enter it before it closes. Once the portal closes make a spellcasting roll adding 3 terrible dice. On success you appear at the location, otherwise you appear in a random location within 20 miles of your sanctuary. Regardless of the result it takes 1 minute to travel through the portal.
+When opening a portal it remains open until the end of your next turn and any creature you allow can enter it before it closes. Once the portal closes make a spellcasting roll adding 3 terrible dice. On success you appear at the location, otherwise you and all creatures in the portal scatter to random locations within 20 miles of your sanctuary. Regardless of the result it takes 1 minute to travel through the portal.
 
 Add an enhanced die to the roll for every level cast above 6th.
 
@@ -9302,7 +9381,9 @@ Add an enhanced die to the roll for every level cast above 6th.
 - **Range:** 10
 - **Duration:** instant
 
-Your voice bellows a single command heard by all creatures within 10 tiles of you. Any creatures you choose makes a Charisma save against your spellcasting roll, with hostile creatures adding a superior die to their save. On failure they obey your command. You may command the creatures to not take an action, such as preventing them from taking the move, attack, or defend actions. Alternatively you may command them to immediately take an action, such as clearing a path or dropping their weapons. Creatures commanded this way will only take the action if they have AP remaining and are capable of doing so. The command is either resolved immediately or lasts until the end of the creatures next turn if the command prevents them from taking an action.
+Your voice bellows a single word or short phrase heard by all creatures within 10 tiles of you. Any creatures you choose makes a Charisma save against your spellcasting roll, with hostile creatures adding a superior die to their save. On fail they are Charmed by you and obey your command. The command must be something the creatures can do immediately or on their next turn. Creatures that are incapable of obeying this command instead are Stunned until the end of their next turn.
+
+For example, you may command the creatures to not take an action, such as preventing them from taking the move, attack, or defend actions. Alternatively you may command them to immediately take an action, such as clearing a path or dropping their weapons. If a creature has AP remaining to complete the command they will take action immediately, otherwise taking the action on their next turn.
 
 Your voice carries an extra 5 tiles for every level cast above 6th.
 
@@ -9317,7 +9398,7 @@ Your voice carries an extra 5 tiles for every level cast above 6th.
 - **Duration:** instant
 - **Damage Type:** holy
 
-You speak a divine word to smite any creatures in range that can hear you. Make a spellcasting roll against the creatures Charisma save. On success the creature is dazed until the end of their next turn and the following effects occur depending on the creatures remaining wounds, increasing the threshold of each effect by 1 for every critical rolled:
+You speak a divine word to smite all creatures of your choosing in range that can hear you. Make a spellcasting roll against the creatures Charisma save. On success the creature is dazed until the end of their next turn and the following effects occur depending on the creatures remaining wounds, increasing the threshold of each effect by 1 for every critical rolled:
 
 - 8 wounds or fewer: blinded for 1 minute
 - 5 wounds or fewer: blinded and feared for 10 minutes
@@ -9348,9 +9429,9 @@ Add a superior die to your roll for every level cast above 7th.
 - **Duration:** concentration, 5 minutes
 - **Damage Type:** holy
 
-A blinding light shines down covering a 5x5 tile area in sunlight centered on a point in range. You may choose any number of creatures inside the light to be unaffected. All other creatures make a Charisma save against your spellcasting roll. On fail the creatures are pushed to the closest empty tile outside of the light and take 1/1 in holy damage.
+A blinding light shines down covering a 5x5 tile area in sunlight centered on a point in range. You may choose any number of creatures inside the light to be unaffected. All other creatures make a Charisma save against your spellcasting roll. On fail the creatures are pushed to the closest empty tile outside of the light and take 1/2 in holy damage.
 
-Creatures inside the light are considered to be in a different realm and any attack or spell made through the light fails. A creature can attempt to force their way into the light, making a Charisma save against your spellcasting roll. On success they enter the light as normal, otherwise they are burned by the light, taking 1/1 in holy damage and cannot enter.
+Creatures inside the light are considered to be in a different realm and any attack or spell made through the light fails. A creature can attempt to force their way into the light, making a Charisma save against your spellcasting roll. On success they enter the light as normal, otherwise they are burned by the light taking 1/2 in holy damage and cannot enter.
 
 Add a superior die and increase the area by 2 for every level cast above 8th.
 
@@ -9361,7 +9442,7 @@ Add a superior die and increase the area by 2 for every level cast above 8th.
 - **Range:** 5
 - **Duration:** instant
 
-You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the creature restores wounds equal to the rolls successes and removes all minor and major injuries. Any conditions afflicting the creature are removed if they came from a spell of 5th level or below.
+You restore a creature's body, ending negative effects on them and healing mortal wounds. Make a spellcasting roll, the creature restores wounds equal to the rolls successes and removes all minor and major injuries. For each condition effecting the creature you may choose to remove a success from your roll and end that condition.
 
 Add 2 superior dice to your roll for every level cast above 8th.
 
@@ -10110,7 +10191,7 @@ You are blessed by the Earthen Spirits with an affinity for nature. You have 1 p
 You are blessed by the Blighted Ones with necromantic powers. You have 1 proficiency with intimidation and religion, and gain access to the Blighted Ones feats. Unless magically hidden, you can sense the presence of Undead within 10 tiles. Once per day you may cast _Ghoulish Claws_ at 1st level. This spell does not need to be prepared and does not cost mana. You have a codex with 2 cantrips.
 
 #### Blessed: Abyssal Host
-You are blessed by the Abyssal Host with fiendish luck. You have expertise in conversation and insight, and gain access to the Abyssal Host feats. You are fluent in Hadal. Once per long rest you may redo a roll, rerolling all dice and taking the new values. You know the spell _Eldritch Blast_ without needing to prepare it. Casting _Eldritch Blast_ costs 1 less AP.
+You are blessed by the Abyssal Host with fiendish luck. You have expertise in conversation and insight, and gain access to the Abyssal Host feats. You are fluent in Hadal. Once per long rest you may redo a roll, rerolling all dice and taking the new values. You know the spell _Void Burst_ without needing to prepare it. Casting _Void Burst_ costs 1 less AP.
 
 #### Coven Witch
 You are trained in occult spells. You start with 1 spell power and a codex containing 4 cantrips or level 1 spells of your choosing. You have 1 proficiency in nature and insight.
@@ -10184,13 +10265,13 @@ You take no penalty to dexterity saves when wearing medium or heavy armor. When 
 You resonate particularly well with magic items. You may attune to 4 items at one time instead of 3.
 
 #### Battle Mage
-Once per turn, when you cast a cantrip or 1st level spell your next basic attack costs 2 less AP. Alternatively if you make a basic attack your next cantrip or 1st level spell costs 2 less AP, with a minimum of 1. The spell level increases to 2nd at 7th level, and 3rd at 14th level, and 4th at 21th level.
+Once per turn, when you cast a spell your next single target attack or maneuver costs 2 AP less. Alternatively when you make a single target attack or maneuver your next spell costs 2 AP less. You may make offhand attacks after casting a spell as if it were a basic attack.
 
 #### Cunning Combatant
 Staggered creatures do not benefit from criticals in their rolls against you.
 
 #### Dual-Wield Expert
-You have no penalties from dual wielding. While dual wielding you add a defense die to your defense rolls when taking the defend action.
+You have no penalties from dual wielding. While dual wielding you add a defense die to your defense rolls when taking the defend action. You may make offhand attacks after attacking with a maneuver as if it were a basic attack.
 
 #### Duelist
 You are an expert with one-handed weapons. When attacking with a one-handed weapon you reroll 1 die in your attack roll. If you're holding nothing in your off hand you have expertise with your attack roll instead.
@@ -10841,7 +10922,7 @@ You are permanently under the effects of the spell _Dark Sight_ and you gain 1 p
 #### Eldritch Force
 *Requires proficiency in occult spells, 8th level*
 
-When casting _Eldritch Blast_ at 1st level or above you add 1 wound to the damage.
+When casting _Void Burst_ at 1st level or above you add 1 wound to the damage.
 
 
 #### Fiendish Trickery
