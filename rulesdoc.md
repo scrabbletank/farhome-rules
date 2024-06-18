@@ -730,6 +730,8 @@ You move a single tile. This movement follows the same rules as the move and spr
 #### Jumping
 You may jump as part of any movement action. Characters can easily clear a single tile with their jump, but longer jumps will require an Athletics challenge to successfully land. You do not need to complete your jump on your turn and may end your turn in midair, however your first action on your next turn must be a movement action to complete the jump.
 
+In most casts, jumping or vaulting over objects does not require any skill challenge, but may be treated as difficult terrain depending on the object traversed. Jumping vertically is significantly harder than jumping horizontally. Jumping up a single tile requires an Athletics challenge, while only an exceptionally strong character could jump 2 tiles.
+
 ##### Reaction Attack (2 AP)
 When a creature tries to leave your zone of control you may make a reaction attack against them. You cannot use maneuvers, unless the maneuver says it can be used as a reaction, and the attack uses the same rules as the Attack action.
 
@@ -787,6 +789,9 @@ When making a roll, a hexed creature removes a critical for every level of hex a
 
 ##### Incapacitated
 An incapacitated creature takes no actions and automatically fails Strength and Dexterity saves. While incapacitated they grant combat advantage to adjacent attackers, and attacks and maneuvers that deal physical damage deal an extra wound die per critical against them.
+
+##### Invisible
+Invisible creatures cannot be perceived with normal sight, but still make noise. Single target attacks, spells, and maneuvers against an invisible creature add 2 terrible dice to their rolls.
 
 ##### Paralyzed
 A paralyzed creature cannot take the sprint action, adds a terrible die to all reactions, and has their maximum AP reduced by 3 for each level of Paralyze. They may still take an action that costs more than their maximum AP as long as it is the only action they take during their turn.
@@ -855,6 +860,26 @@ Each creature is represented by a miniature or token on the gameboard. Creatures
 #### Movement
 All creatures move and sprint speeds are listed in tiles. Any time a creature takes the move or sprint actions they can move up to that many tiles. When moving you may move through allies, but not through hostile creatures. If your movement takes you out of a hostile creatures zone of control they may make an opportunity attack against you.
 
+#### Sight
+All creatures possess some method of sight. A creature is considered visible to another creature if there is a direct line of sight between them and the creature is not hiding. A creature can attempt to hide by making a Stealth check against another creatures perception. If no creature is actively looking for the creature attempting to hide they make a Stealth check against challenge dice determined by the GM.
+
+Unless otherwise stated all creatures possess light-based vision, being able to perceive as long as there is light. Creatures may also have one or more of the senses listed below. Creatures with these senses list an effective range, measured in tiles, that this sense can perceive.
+
+##### Darkvision
+A creature with darkvision can see in dim light and darkness as if it were bright light.
+
+##### Truesight
+A creature with truesight can see into the ethereal plane, see through illusions, invisibility, and sees the true forms of all creatures.
+
+##### Blind Sense
+Creatures with _Blind Sense_ have an unnatural ability to sense nearby creatures and add 2 superior dice to perception checks when attempting to spot hiding creatures. Creatures that have been spotted with _Blind Sense_ do not get any benefits from Invisibility, stealth, or hiding, and cannot be flanked by creatures inside the range of this sense. _Blind Sense_ is not effected by line of sight, perceiving creatures through cover or terrain.
+
+##### Tremor Sense
+Creatures with _Tremor Sense_ see the world around them through vibrations. Creatures that have been spotted with _Tremor Sense_ do not get any benefits from Invisibility, stealth, or hiding. _Tremor Sense_ is not effected by line of sight, perceiving creatures through cover or terrain, however it has no effect on flying creatures.
+
+##### Life Sense
+Creatures with _Life Sense_ can sense living creatures up to its range and add 2 superior dice to perception checks when attempting to perceive a living creature. Creatures that have been spotted with _Life Sense_ do not get any benefits from Invisibility, stealth, or hiding. _Life Sense_ is not effected by line of sight, perceiving creatures through cover or terrain.
+
 #### Mounts
 You may ride a willing creature as a mount as long as they are capable of carrying you. When mounted both creatures spend AP to take the move and sprint actions, and you may use these actions on either of the creatures turns. While mounted, moving through allied units counts as difficult terrain and while sprinting you cannot move through allies at all.
 
@@ -862,7 +887,7 @@ You may ride a willing creature as a mount as long as they are capable of carryi
 Creatures that are able to fly can use their movement to move vertically, following the same rules as normal movement. Unless the creature is able to hover, any effect that reduces their movement speed to 0, grapples, restrains, or knocks them prone causes them to fall from the air. 
 
 #### Falling
-Falling creatures fall 10 tiles per round, increasing the amount by 10 for each round they spend falling. On hitting the ground or a solid object after falling 5 or more tiles they take 1/1 in bludgeoning damage for every 5 tiles they fell.
+If a creature is airborne at the start of their turn without a way of keeping themselves airborne, such as having flight, they fall to the ground. Falling happens immediately at the start of a creatures turn. Creatures fall 10 tiles per round, increasing the amount by 10 for each round they've spend falling. On hitting the ground or a solid object after falling 5 or more tiles they take 1/1 in bludgeoning damage for every 5 tiles they fell. A GM may require a creature falling less than 5 tiles to make a skill check, such as acrobatics, to see if they can land gracefully.
 
 #### Prone and Crawling
 A prone creature grants combat advantage to all melee attackers, with ranged attacks adding 2 bad dice to their roll instead. A creature that is prone can crawl, spending an extra tile of movement for every tile travelled. Unless the creature has a move speed of 0 they can stand up by spending half of their move speed, rounded down.
@@ -5203,7 +5228,7 @@ This book gives instructions on how to craft the following wands:
 
 An eye made from gold and emerald, engraved with a diamond shaped pupil. To use this item, the wearer must remove one of their eyes and replace it with this eye. Once bound to a creature, it cannot be removed without killing them.
 
-The eye gives the wearer truesight out 30 tiles and expertise on attribute saves against blinding effects. The eye can see the threads of fate. Once per day you may cast _Intervention_ at 9th level using 5 superior dice for the roll.
+The eye gives the wearer _Truesight_ out 30 tiles and expertise on attribute saves against blinding effects. The eye can see the threads of fate. Once per day you may cast _Intervention_ at 9th level using 5 superior dice for the roll.
 
 #### Flametail
 *Magic Weapon +1*
@@ -6867,18 +6892,17 @@ The length of the wave increases by 3 and add 0/2 in force damage for each level
 *7th level*
 
 - **Casting Time:** 10 AP
-- **Range:** 20
+- **Range:** 40
 - **Duration:** concentration, 10 minutes
-- **Damage Type:** lightning, Thunder
+- **Damage Type:** lightning, thunder
 
-You summon storm clouds covering a 40x40 tile area centered on a point in range. For the duration the area is covered in light rainfall and strong winds. On casting this spell, and by spending 3 AP once per turn on following turns, you may activate one of the following effects:
+You summon storm clouds covering a 40x40 tile area centered on a point in range. For the duration the area is covered in light rainfall and strong winds. On casting this spell and once per turn on following turns, you may activate one of the following effects:
 
-
-- **Gale winds:** The winds blow in a direction of your choosing, covering the area of the storm. All creatures in the storm make a Strength save against your spellcasting roll. On failure they are pushed back 2 tiles, being knocked prone on a critical. Until the start of your next turn moving into the wind takes 3 tiles of movement for every tile moved and ranged attacks made into the wind add 2 terrible dice to the roll.
+- **Gale winds:** The winds blow in a direction of your choosing, covering the area of the storm. All creatures in the storm except the caster make a Strength save against your spellcasting roll. On failure they are pushed back 2 tiles, being knocked prone on a critical. Until the start of your next turn moving into the wind takes 3 tiles of movement for every tile moved and ranged attacks made into the wind add 2 terrible dice to the roll.
 
 - **Downpour:** Torrential rainfall covers the area, extinguishing fires and greatly reducing visibility. A creature attempting to see through the rain and mists make a perception check against your spellcasting roll. On failure they cannot see further than 3 tiles.
 
-- **Thunderstrike:** Call town a thundering bolt at a creature inside the storm. Make a spellcasting roll against the creatures Dexterity save. On success they take 1/4 in lightning damage. All creatures within 2 tiles of the lightning blast make a Stamina save against your spellcasting roll instead. On failure they take 0/3 in thunder damage and are staggered.
+- **Thunderstrike:** Call down a thundering bolt at a creature inside the storm. Make a spellcasting roll against the creatures Dexterity save. On success they take 1/4 in lightning damage. All creatures within 2 tiles of the lightning blast make a Stamina save against your spellcasting roll instead. On failure they take 0/3 in thunder damage and are staggered.
 
 Add an enhanced die for every level cast above 7th.
 
@@ -6900,14 +6924,14 @@ Add an extra fireball for every level cast above 7th.
 
 - **Casting Time:** 9 AP
 - **Range:** self
-- **Duration:** 5 minutes
+- **Duration:** 10 minutes
 - **Damage Type:** fire
 
 You speak a word of power as fire crawls across your body. Until the spell ends, you gain the following benefits:
 
 - You gain _Resistance 3_ to fire damage.
 - Any creature that moves adjacent to you for the first time this round, ends their turn there or makes a melee attack against you gain Burn 1.
-- You may spend 5 AP to unleash a cone of fire in front of you. The cone extends 5 tiles out and 3 tiles wide. Make a spellcasting roll against the creatures defense. On success they take 1/3 in fire damage.
+- You may spend 5 AP to unleash a 5x3 tile cone of fire in front of you. Make a spellcasting roll against the creatures defense. On success they take 1/3 in fire damage.
 - You have expertise with spells that deal fire damage.
 
 Only a single Power Word can be active at once, casting another Power Word spell ends any other Power Word spells you've cast.
@@ -6921,14 +6945,14 @@ The damage from both sources increases by 0/1 for every level cast above 7th.
 
 - **Casting Time:** 9 AP
 - **Range:** self
-- **Duration:** 5 minutes
+- **Duration:** 10 minutes
 - **Damage Type:** cold
 
 You speak a word of power as ice rimes across your body. Until the spell ends, you gain the following benefits:
 
 - You gain _Resistance 3_ to cold damage.
 - Any creature that moves within 3 tiles of you for the first time this round or starts their turn there makes a Stamina save against your spellcasting. On failure they gain Slow 3 until the end of their turn.
-- You may spend 5 AP to freeze a creature within 5 tiles. Make a spellcasting roll against the creatures Stamina save. On success they take 0/3 in cold damage, being frozen in ice until the end of their next turn on a critical. While frozen they gain Resistance 2 to all but psychic damage and are stunned.
+- You may spend 5 AP to freeze a creature within 5 tiles. Make a spellcasting roll against the creatures Stamina save. On success they take 0/3 in cold damage, being frozen in ice until the end of their next turn on a critical. While frozen they gain Resistance 2 to all but psychic damage and are incapacitated.
 - You have expertise with spells that deal cold damage.
 
 Only a single Power Word can be active at once, casting another Power Word spell ends any other Power Word spells you've cast.
@@ -6940,13 +6964,13 @@ The range of both effects increase by 1 and you add an enhanced die to your spel
 
 - **Casting Time:** 9 AP
 - **Range:** self
-- **Duration:** 5 minutes
+- **Duration:** 10 minutes
 - **Damage Type:** lightning
 
 You speak a word of power as lightning surges through your body. Until the spell ends, you gain the following benefits:
 
 - You gain _Resistance 3_ to lightning damage.
-- As a reaction or on your turn you may spend 2 AP to teleport to an unoccupied tile within 3 tiles of your position.
+- As a reaction to being attacked or as an action you may spend 2 AP to teleport to an unoccupied tile within 3 tiles of your position.
 - You may spend 5 AP to fire a lightning bolt against 3 creatures within 10 tiles of you. Make a spellcasting roll against the creatures Dexterity save. On success they take 1/2 in lightning damage, gaining Paralyze 1 until the end of their next turn on a critical.
 - You have expertise with spells that deal lightning damage.
 
@@ -6980,11 +7004,11 @@ The duration increases to 8 hours at 8th level, 1 day at 9th level, and 7 days a
 - **Duration:** instant
 - **Damage Type:** fire
 
-Summon the fires of hell, vaporizing everything in a narrow arc extending 9 tiles long and 3 tiles wide. Make a spellcasting roll against the creatures Dexterity save. On success they take 4/4 in fire damage, adding 0/1 for every critical. Any armor or weapon a creature is holding is destroyed if it is mundane, otherwise taking 1 level of damage. On success they take half damage, rounded down. A creature reduced to 0 wounds from this spell is immediately killed, turning to ash.
+Summon the fires of hell, vaporizing everything in a narrow 9x3 tile cone. Make a spellcasting roll against the creatures Dexterity save. On success they take 4/4 in fire damage, adding 0/1 for every critical. Any armor or weapon a creature is holding is destroyed if it is mundane, otherwise taking 1 level of damage. On success they take half damage, rounded down. A creature reduced to 0 wounds from this spell is immediately killed, turning to ash.
 
-The fire burns through trees, bushes, or other plant matter leaving only ash. On impacting stone or earth the fire burns through it, leaving a hole a size of half the remaining distance. Metal and other similar materials melt, leaving a hole only a quarter of the remaining distance. 
+The fire burns through trees, bushes, or other plant matter leaving only ash. On impacting stone or earth the fire burns through it, leaving a glass lined hole of half the remaining distance in depth. Metal and other similar materials turn molten, leaving a hole only a quarter of the remaining distance. 
 
-Add 2/0 in fire damage for each level cast above 8th.
+Add 2/0 in fire damage and increase the length of the cone by 3 tiles for each level cast above 8th.
 
 
 #### Invulnerability
@@ -6992,9 +7016,9 @@ Add 2/0 in fire damage for each level cast above 8th.
 
 - **Casting Time:** 9 AP
 - **Range:** self
-- **Duration:** concentration, 1 minute
+- **Duration:** concentration, 5 minutes
 
-You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining Poison, Slow, Sleep, Paralyze, and are uneffected by hazardous terrain.
+You cover yourself in a layer of force, warding yourself from harm. Make a spellcasting roll against 2 terrible dice. On success you gain _Resistance 1_ to all damage, increasing by 1 for each critical. While the ward holds you are immune to gaining the Poison, Slow, Sleep, Paralyze, Weaken, and Staggered conditions and are immune to damaging effects from hazardous terrain.
 
 The duration increases by 1 minute for each level cast above 8th.
 
@@ -7007,7 +7031,7 @@ The duration increases by 1 minute for each level cast above 8th.
 - **Duration:** instant
 - **Damage Type:** fire, cold, lightning, poison, thunder
 
-Conjure a star shining prismatic light, impacting a point in range you can see. On impact the star implodes, releasing waves of elemental energy at all creatures in a 7 tile diamond. Each creature makes either a Strength, Dexterity or Stamina save against your spellcasting roll. On fail they take 1/1 in fire, cold, lightning, poison, and thunder damage, or 2/0 in a listed damage type of your choice on success. Choose an effect for each critical rolled. Each effect can only be chosen once:
+Conjure a star shining prismatic light, impacting a point in range you can see. On impact the star implodes, releasing waves of elemental energy at all creatures in a 9 tile diamond. Each creature makes either a Strength, Dexterity or Stamina save against your spellcasting roll. On fail they take 1/1 in fire, cold, lightning, poison, and thunder damage, or 0/1 of each damage type on success. Choose an effect for each critical rolled. Each effect can only be chosen once:
 
 - Creatures gain Burn 2.
 - Creatures gain Slow 3 for 1 minute.
@@ -7026,7 +7050,7 @@ Add a superior die to the spellcasting roll for each level cast above 8th.
 
 Slow time, causing other creatures to freeze in place. You may choose up to 5 creatures, yourself included, to be excluded from this spell. Make a spellcasting roll against 2 terrible dice for every creature chosen. On success these creatures are able to freely move, while all other creatures experience time at a rate 100 times slower.
 
-While time is slowed, all objects and terrain not held are frozen, unable to move. Interacting with another creature, such as attacking or casting a spell on them ends the effects of _Slow Time_ for the attacker, resolving the action once the spell ends.
+While time is slowed, all terrain and objects not held are frozen, unable to move. Interacting with another creature, such as attacking or casting a spell on them ends the effects of _Slow Time_ for the attacker, resolving the action once the spell ends.
 
 At the start each of the casters turn they must make an exhaustion check against 2 terrible dice, gaining 1 level of exhaustion and ending the spell on failure.
 
@@ -7201,7 +7225,7 @@ You may target an extra creature for every level cast above cantrip.
 
 You magically levitate an object or creature weighing less than 40 lbs. If the creature is unwilling you make a spellcasting roll against their Strength save. On success you levitate the creature. Each turn you may move the creature 3 tiles up or down as a free action. This movement does not provoke opportunity attacks, and does not move them with enough force to damage them, but can force them prone (against the ceiling or floor).
 
-The creature can attempt to move while levitated, moving a single tile horizontally when taking the move or sprint actions. On their turn a creature can attempt to free themselves by spending 5 AP to remake the save. If the creature moves more than 10 tiles away from you or their weight exceeds the spells limit the spell ends.
+Levitated creatures cannot shift, but may move 1 tile horizontally when taking the move or sprint actions. On their turn a creature can attempt to free themselves by spending 5 AP attempt the save again. If the creature moves more than 10 tiles away from you or their weight exceeds the spells limit the spell ends.
 
 The maximum weight doubles for every level cast above cantrip.
 
@@ -7261,12 +7285,13 @@ Add an enhanced die for every level cast above cantrip.
 
 You conjure up a display of witchcraft, displaying one of the following or similar effects:
 
-- give yourself a minor alteration to your look, for example changing your eye color, causing harmless steam or smoke to rise off your body, creating a dim halo around your head, etc.
+- give yourself a minor alteration to your look, for example changing your eye or hair color, causing harmless steam or smoke to rise off your body, creating a dim halo around your head, etc.
 - Enhance your voice to reach 3 times as far
 - Cause harmless tremors and vibrations in the earth around you
 - Cause objects to harmlessly move
 - Change the brightness or color of fire, cause it to flicker, etc.
-- Create an instantaneous sound at a location.
+- Create an instantaneous sound at a location
+- Cause a chilling breeze over a 5x5 tile area
 
 A creature trying to see through these illusions must succeed on a perception check against your spellcasting roll.
 
@@ -7279,9 +7304,11 @@ Add an enhanced die for every level cast above cantrip.
 
 - **Casting Time:** 7 AP
 - **Range:** 5
-- **Duration:** 10 minutes, requires a free hand
+- **Duration:** 10 minutes
 
-Black tendrils erupt from your hand to bind a creature in range you can see. Make a spellcasting roll against the creatures Strength or Dexterity save. On success the creature is grappled, or restrained on a critical. The Tendrils require a free hand to grasp or else the spell ends. On each of your move and sprint actions you may move the grappled target 1 tile. On their turn the creature can spend 5 AP to make a Strength save against your spellcasting roll, freeing themselves on success. If the creature moves more than 5 tiles away from you the tendrils break and the spell ends.
+Black tendrils erupt from a point in range you can see. The tendrils reach out to attempt to grapple up to 5 creatures of your choosing within 5 tiles of the tendrils. Make a spellcasting roll adding a bad die for every creature targeted past the first. Creatures make a Strength or Dexterity save against your roll, with Large or bigger creatures adding 2 superior dice to the roll. On fail the creatures are grappled by the tendrils.
+
+Once per round, as a free action on your turn you can command the tendrils to retract, pulling all grappled creatures 1 tile towards the center point of the tendrils. Grappled creatures or adjacent creatures can spend 5 AP to make a Strength save against your spellcasting roll, freeing themselves on success.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -7292,7 +7319,7 @@ Add an enhanced die for every level cast above 1st.
 - **Range:** 10
 - **Duration:** 1 hour
 
-You take on a charming persona, attempting to charm up to 5 creatures in range you can see. Make a spellcasting roll against the creatures Willpower save, adding 1 bad die for every creature past the first. If the creature is hostile to you it adds 1 superior die to their save. On success, the creatures are Charmed by you and treat you as a friendly acquaintance. The charm ends if they take any damage, or if you act in a harmful way towards them. 
+You take on a charming persona, attempting to befriend up to 5 living creatures in range you can see. Make a spellcasting roll against the creatures Willpower save, adding a bad die for every creature targeted past the first. If the creature is hostile to you or cannot speak your language it adds 1 superior die to their save. On success, the creatures are Charmed by you and treat you as a friendly acquaintance. The charm ends if they take any damage, or if you act in a harmful way towards them. 
 
 The creature remembers everything while charmed. If the creature took an action they would not normally take, roll a normal die. On a success the creature rationalizes their actions as normal.
 
@@ -7305,7 +7332,7 @@ Add an enhanced die for every level cast above 1st.
 - **Range:** 5
 - **Duration:** concentration, 10 minutes
 
-A dull sheen covers your body, hiding your presence. Targeting up to 5 creatures, make a spellcasting roll, adding 1 terrible die for every creature. On success they are concealed for the duration. Creatures that don't know you have trouble remembering you after you pass, not being able to recall details such as species, gender, or appearance. As long as you are undetected by a creature you gain 1 superior die for all stealth checks, adding a superior die for every critical rolled. Concealment ends after taking a hostile action against another creature.
+A dull sheen covers your body, hiding your presence. Targeting up to 5 creatures, make a spellcasting roll, adding 1 terrible die for every creature. On success they are concealed for the duration. Creatures that don't know you have trouble remembering you after you pass, not being able to recall details such as species, gender, or appearance. As long as you are undetected by a creature you gain 1 superior die when making stealth checks, adding a superior die for every critical rolled. _Concealment_ ends after taking a hostile action against another creature.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -7356,7 +7383,7 @@ The fireflies cover 1 additional adjacent tile and you add 0/1 in fire damage fo
 
 - **Casting Time:** 4 AP
 - **Range:** Self
-- **Duration:** 10 minutes, concentration
+- **Duration:** concentration, 10 minutes
 - **Damage Type:** poison
 
 Your hands elongate, becoming deadly poisonous claws. While under the effects of this spell you may make an attack against a creature, using your spellcasting roll instead of your attack roll. On hit they take 0/3 in poison damage, gaining Poison 1 and Paralyze 1 for 1 minute on a critical.
@@ -7471,9 +7498,9 @@ You conjure an additional arrow for every level cast above 2nd.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Attempt to bind a creature you can see in shimmering chains. Make a spellcasting roll against the creatures Strength or Dexterity save. On success the creature is restrained for the duration. Once per turn a restrained creature can spend 5 AP to try and break the chains, making a Strength save against your spellcasting roll. On success they are no longer restrained.
+Attempt to bind a creature you can see in shimmering chains. Make a spellcasting roll against the creatures Strength or Dexterity save. On success the creature is Restrained and cannot teleport through any means. Once per turn a restrained creature can spend 5 AP to try and break the chains, making a Strength save against your spellcasting roll. On success they are no longer restrained.
 
-You can target an additional creature for every level cast above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 #### Cats Grace
 *2nd level*
@@ -7482,7 +7509,7 @@ You can target an additional creature for every level cast above 2nd.
 - **Range:** 5
 - **Duration:** 1 hour
 
-Enchant up to 5 creatures with cat-like grace. Make a spellcasting roll against a terrible die for each creature targeted. On success creatures have expertise in dexterity saves and may use your spellcasting roll for acrobatics checks.
+Enchant up to 5 creatures with cat-like grace. Make a spellcasting roll against a terrible die for each creature targeted. On success creatures have expertise in Dexterity saves and may use your spellcasting roll for acrobatics checks.
 
 Add an enhanced die for every level cast above 2nd.
 
@@ -7567,11 +7594,11 @@ Add an enhanced die for every level cast above 2nd.
 
 - **Casting Time:** 6 AP
 - **Range:** 10
-- **Duration:** concentration, 10 minutes
+- **Duration:** 10 minutes
 
-Attempt to cloud the mind of a creature in range you can see. Make a spellcasting roll against the creatures Intelligence save. On success the creature adds a bad die to all spellcasting rolls, or a terrible die on a critical.
+Attempt to cloud the mind of a creature in range you can see. Make a spellcasting roll against the creatures Intelligence save. On success you choose one of the following attributes: Intelligence, Willpower, or Charisma. The creature adds a bad die to every roll using that attribute, adding a terrible die instead on a critical.
 
-You may target an additional creature for each level above 2nd.
+Add an enhanced die for every level cast above 2nd.
 
 
 #### Howling Whirlwind
@@ -7620,7 +7647,7 @@ Add an enhanced die for every level cast above 2nd.
 - **Duration:** concentration, 10 minutes
 - **Damage Type:** poison
 
-You summon up to 3 ethereal totems on points in range you can see. Make a spellcasting roll against 2 bad dice for every totem summoned. On success you summon the totems. When casting this spell, and once per turn by spending 4 AP, you may command your totems to attack. The totems have a range of 5 and use your spellcasting roll for the attack. Creatures make a Stamina save against the attack, taking 1/0 of poison damage on fail and gaining Poison 1 for 1 minute on a critical. The totems have 2 wounds and use 3 defense dice with their defense roll.
+You summon up to 3 ethereal totems on points in range you can see. Make a spellcasting roll against 2 bad dice for every totem summoned. On success you summon the totems. When casting this spell, and once per turn by spending 4 AP, you may command your totems to attack. The totems have a range of 7 and use your spellcasting roll for the attack. Creatures make a Stamina save against the attack, taking 1/0 of poison damage on fail and gaining Poison 1 for 1 minute on a critical. The totems have 2 wounds and use 3 defense dice with their defense roll.
 
 Add an enhanced die to the summoning roll for each level cast above 2nd.
 
@@ -7633,7 +7660,7 @@ Add an enhanced die to the summoning roll for each level cast above 2nd.
 - **Range:** 10
 - **Duration:** concentration, 10 minutes
 
-Suppress a creatures natural abilities. Make a spellcasting roll against the creatures Willpower save. On success you choose either Strength or Dexterity. The creature does not gain proficiency for any skills, attribute saves, or weapon attacks using that attribute.
+Suppress a creatures natural abilities. Make a spellcasting roll against the creatures Willpower save. On success you choose either Strength or Dexterity. The creature does not gain proficiency for any roll using that attribute.
 
 You may target an additional creature for each level above 3rd.
 
@@ -8122,7 +8149,7 @@ Add an enhanced die for every level cast above 5th.
 - **Range:** self
 - **Duration:** 1 hour
 
-Enhance your vision, seeing through illusions, invisibility and the true forms of creatures. Make a spellcasting roll against 2 bad dice. On success you gain true sight out to 30 tiles.
+Enhance your vision, granting you the ability to see the ethereal plane, see through illusions, invisibility, and see the true forms of creatures. Make a spellcasting roll against 2 bad dice. On success you gain _Truesight_ out to 30 tiles.
 
 The duration increases by 1 hour for every level cast above 5th.
 
@@ -9509,6 +9536,7 @@ Add a hero die to your spellcasting roll and you have _Resistance 2_ when cast a
 ##### Level 3
 - [Charge!](#Charge!)
 - [Heavy Swing](#Heavy-Swing)
+- [Leap](#Leap)
 - [Pinning Shot](#Pinning-Shot)
 - [Press the Attack](#Press-the-Attack)
 - [Smite](#Smite)
@@ -9570,7 +9598,7 @@ Make a ranged attack against a creature, adding an enhanced die for each AP spen
 - **Range:** melee
 - **Level Required:** 1/8/13
 
-Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, inflicting the minor injury _Hamstring_ on a critical.
+Make a weapon attack against a creature, adding an enhanced die. On hit you deal normal damage, inflicting the minor injury _Hamstring_ on a critical.
 
 - **Minor Injury: Hamstring.** You have Slow 1.
 
@@ -9591,7 +9619,7 @@ After making a successful melee attack against a humanoid creature you may attem
 
 ***Enhanced:*** You take no damage on a miss and creatures take a wound instead of a wound die on hit. The loser is dazed until the end of their next turn.
 
-***Superior:*** You may choose to take a wound die in damage. If you do you add 2 wound dice to the damage roll.
+***Superior:*** You may choose to take a wound die in damage. If you do you add 2 wound dice to the damage roll. On a critical the target is stunned until the end of their next turn.
 
 #### Inspiring Words
 
@@ -9627,7 +9655,7 @@ When a creature adjacent to you is targeted by an attack you add your shields de
 - **Range:** 2
 - **Level Required:** 1/9/17
 
-This cannot be used if you are adjacent to your target. You make a running leap at a creature, jumping 2 tiles towards them and make a melee attack. This leap passes over difficult or hazardous terrain and half cover. On hit you deal an extra wound die in damage, staggering them on a critical.
+This cannot be used if you are adjacent to your target. You make a running leap at a creature, jumping 2 tiles towards them and make a weapon attack. This leap passes over difficult or hazardous terrain and half cover. On hit you deal an extra wound die in damage, staggering them on a critical.
 
 ***Enhanced:*** Add an enhanced die to the attack roll.
 
@@ -9667,7 +9695,7 @@ Attempt to knock a Large or smaller creature off balance with a strong push or k
 - **Range:** melee
 - **Level Required:** 1/11/21
 
-Can only be used when flanking a creature or if you have combat advantage. Make a melee attack against the creature, rerolling up to 3 dice. On hit you add a wound to your damage, adding an additional wound die for every critical.
+Can only be used when flanking a creature or if you have combat advantage. Make a weapon attack against the creature, rerolling up to 3 dice. On hit you add a wound to your damage, adding an additional wound die for every critical.
 
 ***Enhanced:*** Sneak Attack can be used every turn and you may reroll all wound dice in your damage roll.
 
@@ -9695,7 +9723,7 @@ As a reaction you make an opportunity attack against any creature moving into yo
 - **Range:** weapon range
 - **Level Required:** 1/7/17
 
-Make a melee attack against creature, adding an enhanced die. The target makes a Dexterity or Strength save, taking a wound die in damage on hit. If the creature is your size or smaller they are knocked prone on a critical.
+Make a weapon attack against creature, adding an enhanced die. The target makes a Dexterity or Strength save, taking a wound die in damage on hit. If the creature is your size or smaller they are knocked prone on a critical.
 
 ***Enhanced:*** You deal normal damage instead.
 
@@ -9710,7 +9738,7 @@ Make a melee attack against creature, adding an enhanced die. The target makes a
 - **Range:** weapon range
 - **Level Required:** 2/8/13
 
-You carefully study your opponents movements, making a calculated attack. Make a melee attack against a creature adding a normal die to the attack roll. Each critical you roll counts as a success instead. If the attack hits you may move 2 tile in any direction, ignoring opportunity attacks.
+You carefully study your opponents movements, making a calculated attack. Make a weapon attack against a creature adding a normal die to the attack roll. Each critical you roll counts as a success instead. If the attack hits you may move 2 tile in any direction, ignoring opportunity attacks.
 
 ***Enhanced:*** Add an enhanced die instead of a normal die and you may move up to 3 tiles.
 
@@ -9736,7 +9764,7 @@ Throw a dagger at a nearby creature, creating an opening. Make a thrown weapon a
 - **Range:** melee
 - **Level Required:** 2/9/17
 
-Targeting a large or smaller creature, make a melee attack adding an enhanced die to the attack roll. On hit you deal normal damage, dazing the creature until the end of their next turn on a critical.
+Targeting a large or smaller creature, make a weapon attack adding an enhanced die to the attack roll. On hit you deal normal damage, dazing the creature until the end of their next turn on a critical.
 
 - **Minor Injury: Clouded Mind.** You add a bad die to Intelligence saves and skills.
 
@@ -9765,7 +9793,7 @@ Used in place of the Defend action. You add 1 enhanced die to attribute saves ag
 - **Range:** weapon range
 - **Level Required:** 2/10/16
 
-Make a melee attack against a creature using any spellcasting roll instead of your attack roll. On hit the creature takes normal damage, ignoring 1 level of resistance.
+Make a weapon attack against a creature using any spellcasting roll instead of your attack roll. On hit the creature takes normal damage, ignoring 1 level of resistance.
 
 ***Enhanced:*** The attack is always a critical, regardless of roll. Effects that occur based on the number of criticals are unaffected.
 
@@ -9791,11 +9819,11 @@ Used in place of the Defend action. You raise your shield to defend against arro
 - **Range:** melee
 - **Level Required:** 2/8/15
 
-Can only be used while on a mount. Move up to your sprint speed and make a melee attack against a creature adding a normal die to the attack roll. If you moved at least 2 tiles before making this attack you add 2 wound dice to the damage.
+Can only be used while on a mount. Move up to your sprint speed and make a weapon attack against a creature adding a normal die to the attack roll. If you moved at least 2 tiles before making this attack you add 2 wound dice to the damage.
 
 ***Enhanced:*** Add an enhanced die instead of a normal die and the creature is knocked prone on a critical.
 
-***Superior:*** Your movement may pass through medium or smaller creatures. Creatures you pass through make a Strength or Dexterity save against your attack roll. On fail creatures take 1 wound and 1 wound die in bludgeoning damage and are staggered.
+***Superior:*** Your movement may pass through medium or smaller creatures. Creatures you pass through make a Strength or Dexterity save against your attack roll. On fail creatures take 1/1 in bludgeoning damage and are staggered.
 
 
 #### Wild Attack
@@ -9805,7 +9833,7 @@ Can only be used while on a mount. Move up to your sprint speed and make a melee
 - **Range:** melee
 - **Level Required:** 2/12/21
 
-Make a wild melee attack against a creature, adding a normal die to your attack roll. On hit you deal an extra wound in damage. After making the attack you grant combat advantage to attackers until the start of your next turn.
+Make a wild weapon attack against a creature, adding a normal die to your attack roll. On hit you deal an extra wound in damage. After making the attack you grant combat advantage to attackers until the start of your next turn.
 
 -**Minor Injury: Bleeding.** Physical attacks and maneuvers against you may reroll 1 wound die in the damage roll.
 
@@ -9836,11 +9864,24 @@ Used in place of a move action, you must target a creature you are not adjacent 
 - **Range:** melee
 - **Level Required:** 3/12/22
 
-You bring the full weight of your weapon down on a creature. Make a melee attack against a creature, adding an enhanced die to the roll. On hit they take an extra wound in damage and you may reroll all wound dice on a critical.
+You bring the full weight of your weapon down on a creature. Make a weapon attack against a creature, adding an enhanced die to the roll. On hit they take an extra wound in damage and you may reroll all wound dice on a critical.
 
 ***Enhanced:*** Add a superior die instead of an enhanced die to the attack roll and an extra wound die to the damage.
 
 ***Superior:*** On hit the creature is staggered. They do not benefit from criticals with defense rolls until the start of their next turn.
+
+#### Leap
+
+- **AP Cost:** 2/2/2
+- **Weapon:** N/A
+- **Range:** melee
+- **Level Required:** 3/9/14
+
+Jump up to your Strength score in tiles. This movement does not provoke opportunity attacks. When you land all adjacent creatures make a Strength save against your Athletics check. On fail they are staggered.
+
+***Enhanced:*** Add an enhanced die to your Athletics check. You have combat advantage against creatures staggered by this maneuver until the start of your next turn.
+
+***Superior:*** You may use another maneuver immediately after using this one.
 
 #### Pinning Shot
 
@@ -9863,7 +9904,7 @@ Make a ranged attack against a medium or smaller creature, adding an enhanced di
 - **Range:** melee
 - **Level Required:** 3/9/14
 
-Strike into a creature, pushing them back. Make a melee attack against a creature, adding a normal die to the roll. On hit they take normal damage, are pushed back 1 tile, and you move to occupy their space ignoring opportunity attacks.
+Strike into a creature, pushing them back. Make a weapon attack against a creature, adding a normal die to the roll. On hit they take normal damage, are pushed back 1 tile, and you move to occupy their space ignoring opportunity attacks.
 
 ***Enhanced:*** Add a wound die to the damage and replace the normal die with an enhanced die. Creatures are staggered on hit.
 
@@ -9877,7 +9918,7 @@ Strike into a creature, pushing them back. Make a melee attack against a creatur
 - **Range:** melee
 - **Level Required:** 3/12/19
 
-Empower your weapon with holy might, consuming up to 2 mana. Make a melee attack against a creature using your divine spellcasting roll for the attack and adding an enhanced die to the roll. On hit the creature takes an extra wound die, adding a wound die for every mana spent, in holy damage. If the target is undead they take wounds instead, and are turned for 1 minute on a critical.
+Empower your weapon with holy might, consuming up to 2 mana. Make a weapon attack against a creature using your divine spellcasting roll for the attack and adding an enhanced die to the roll. On hit the creature takes an extra wound die, adding a wound die for every mana spent, in holy damage. If the target is undead they take wounds instead, and are turned for 1 minute on a critical.
 
 ***Enhanced:*** Add a superior die instead of an enhanced die to your attack roll and you may use up to 4 mana.
 
@@ -9905,7 +9946,7 @@ Take advantage of an opponents spellcasting to quickly attack. As a reaction, wh
 - **Range:** melee
 - **Level Required:** 4/13/23
 
-With a wide swing you cleave all creatures in your zone of control. Make a melee weapon attack adding a bad die to the roll. On hit the creatures take 1 wound in damage.
+With a wide swing you cleave all creatures in your zone of control. Make a weapon attack adding a bad die to the roll. On hit the creatures take 1 wound in damage.
 
 ***Enhanced:*** You deal normal damage to all creatures.
 
@@ -9961,7 +10002,7 @@ You channel magic into your weapon, empowering the next attack and consuming up 
 - **Range:** melee
 - **Level Required:** 5/11/18
 
-Make a melee attack against a creature, adding a normal die. On hit you deal normal damage, breaking their armor on a critical. Armor broken this way provides 1 less defense die until repaired.
+Make a weapon attack against a creature, adding a normal die. On hit you deal normal damage, breaking their armor on a critical. Armor broken this way provides 1 less defense die until repaired.
 
 ***Enhanced:*** On hit the creature does not benefit from criticals with defense rolls until the start of their next turn.
 
@@ -9974,7 +10015,7 @@ Make a melee attack against a creature, adding a normal die. On hit you deal nor
 - **Range:** melee
 - **Level Required:** 5/12/22
 
-As an additional cost this maneuver consumes a healing surge. You make a rallying cry before striking a creature, embolding your allies. Make a melee attack against a creature, adding an enhanced die. On hit you deal normal damage, and you and up to 2 other creatures within 5 tiles gains a temporary wound for 1 hour.
+As an additional cost this maneuver consumes a healing surge. You make a rallying cry before striking a creature, embolding your allies. Make a weapon attack against a creature, adding an enhanced die. On hit you deal normal damage, and you and up to 2 other creatures within 5 tiles gains a temporary wound for 1 hour.
 
 ***Enhanced:*** You ignore the effects of Hex and Poison for the attack. You may give up to 4 other creatures temporary wounds.
 
