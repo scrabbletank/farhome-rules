@@ -55,6 +55,7 @@
 - [Long Rests](#Long-Rests)
 - [Exhaustion](#Exhaustion)
 - [Downtime](#Downtime)
+  - [Downtime Tracks](#Downtime-Tracks)
 
 [Combat](#Combat)
 - [Initiative](#Initiative)
@@ -682,7 +683,7 @@ Exhaustion imposes significant strain on a creature, far beyond mere fatigue. Ex
   - Find Contacts: learn and meet notable people, get access to an organization or group, learn information
   - Aquire Resources: scout out specific resources, scrolls, or magic items
 
-### Downtime Tracks
+#### Downtime Tracks
 Players have several tracks, determined by the GM, that indicate a character's status and involvement in the world or surrounding area. They can roll on as many tracks as they want, with each roll increasing in difficulty. The order of the rolls reflects the characters' priorities during their downtime; the first roll is the easiest as it receives the most focus, while subsequent rolls become progressively harder due to decreasing time and energy.
 
 Each track has different levels that show the amount of effort a character has invested. Higher levels provide greater benefits. Players gain 1 level for a successful roll or 2 levels for a critical success. Conversely, they lose 1 point for a failure or 2 levels for a critical failure. Depending on the track, failure may hinder you in other ways, such as souring a relationship with a contact, or losing a sum of coin trying to uncover a mystery. Tracks that players do not roll on lose 1 level.
@@ -720,12 +721,52 @@ However, losing levels on this track can damage your relationships with your con
 |   5   | Regional Renown. You are known to the locals. Most taverngoers at least recognize the name, and some may know of your exploits. |
 
 #### Work
+Adventuring is not always a reliable source of income, and sometimes adventurers need other ways to earn money to cover their lodgings, living expenses, or adventuring supplies. While some adventuring skills can translate to a trade, such as repairing armor or brewing potions, most adventurers make do with whatever odd jobs they can find.
+
+The skill you roll for this track can vary greatly depending on your job. Practicing a trade would require rolling the relevant tool skills, while heavy labor jobs would use your Athletics or Exhaustion skills. Working as a clerk or for a noble would involve using your Lore or Conversation skills.
+
+You earn coin when rolling on this track regardless of your roll. Succeeding on this track advances your career and allows you to live a more extravagant lifestyle, while failing may result in losing your job or a profitable client. To calculate your track reward, roll 3 superior dice, earning a sum of coins based on the successes.
+
+##### Track Rewards
+| Level |  Reward |
+| :---: |  :----- |
+|   0   | You are unemployed, earning 10ct per success per week of downtime. |
+|   1   | Earn 50ct per success per week of downtime. |
+|   2   | Earn 1sc per success per week of downtime. |
+|   3   | Earn 2sc per success per week of downtime. |
+|   4   | Earn 5sc per success per week of downtime. |
+|   5   | Earn 10sc per success per week of downtime. |
 
 #### Training
+Unlike other downtime tracks, training does not have levels to advance or its own reward track. Instead, you spend your time honing a specific skill. You may choose any skill to train, using that skill for your roll during this downtime. This training is highly focused, allowing you to choose only one skill per downtime.
+
+In some cases, you may find a mentor to help you train. For example, a herbalist might take you on as an apprentice to learn Survival or Apothecary tools. Such training might come with a fee determined by the GM. Regardless of the cost, training with a teacher allows you to add a superior die to your downtime roll.
+
+On a successful roll, you may move 1 proficiency point from any other skill into the chosen skill. If you critically succeed, you may reroll 1 die whenever you make a roll with this skill until your next downtime.
 
 #### Mystery
+Mysteries encompass anything your character is actively investigating or attempting to learn in the world. This can range from uncovering the goals of a nefarious cult to locating a hidden shrine or finding a specific person. For each mystery you pursue, create a corresponding mystery track.
+
+Each level on a mystery track represents a clue you uncover about the mystery, with the final level revealing the full solution. Some mysteries may be simple and consist of only a few levels, while more complex mysteries can span many levels and multiple downtimes. Although mystery tracks are a primary way to learn about mysteries, you may also find clues during your adventures. These discoveries can increase the level of a mystery track or resolve the mystery entirely.
+
+The skill used for progressing on a mystery track depends on the nature of the mystery. For example, you might use Insight or Conversation when questioning others, Lore or Arcana when delving into magical secrets, or Religion when uncovering the workings of a cult.
 
 #### Procurement
+Adventurers require equipment and supplies that can be hard to find, even in larger cities. To secure these essential items, most adventurers seek opportunities to make connections with apothecaries, enchanters, and purveyors of exotic goods. These connections are crucial for procuring rare potions, accessing higher-level spell scrolls, and finding markets willing to trade in magical items.
+
+Building these connections gradually increases the availability and rarity of goods. At level 2 and above, adventurers gain access to a magic item dealer, enabling them to buy and sell magical items, depending on the dealer's stock.
+
+You use your Insight, Perception, or Conversation skill when rolling on this track. On a successful roll, if you have access to a magic item dealer, you may sell one magic item. Depending on the GM, the dealer may also have a number of items available for purchase.
+
+##### Track Rewards
+| Level |  Reward |
+| :---: |  :----- |
+|   0   | You can only find common items sold at general stores. |
+|   1   | You find a contact that can find you basic potions, enchantments, and scrolls. |
+|   2   | You meet a magic item dealer. Basic potions and enchanments are more readily available, and you can find higher level spell scrolls. |
+|   3   | You can procure more advanced potions and poisons, and rarer or more dangerous spell scrolls. |
+|   4   | You can procure the most advanced potions available in cities and have connections with a scribing guild you may order a wide variety of spells from. |
+|   5   | You can source powerful magic items, or their wereabouts from your contact. You may fund a local wizard to research high level spells not available for sale elsewhere. |
 
 #### Adventuring
 Embark on a small adventure to explore the surrounding region. During your journey, you may meet new people, discover dungeons or points of interest, and earn a small amount of coin by taking odd jobs.
@@ -1018,23 +1059,21 @@ A creature's zone of control represents the area they threaten in combat, determ
 >With this variant any creature that tries to make a ranged attack, maneuver, or spell attack while another creature is adjacent to them adds 1 terrible die to their roll.
 
 ### Hazards and Terrain
-Creatures are not the only thing on the battle field. Depending on the location there could be a deep river that inhibits movement, a trap that fires poison darts, a pit of bubbling acid, or even plain old darkness. Regardless of the location these hazards have an effect on your adventurers, and the clever ones can use them to their advantage.
+Creatures are not the only things on the battlefield. Depending on the location, there could be a deep river that inhibits movement, a trap that fires poison darts, a pit of bubbling acid, or even plain old darkness. Regardless of the location, these hazards affect your adventurers, and clever ones can use them to their advantage.
 
 #### Difficult Terrain
-Deep water, thick brush, or a rubble filled room could be considered difficult terrain. When moving over difficult terrain every tile of movement costs an extra tile. For example, to move through a deep river 2 tiles wide you need to spend 4 tiles of movement. Climbing a wall or rock face also takes an extra tile of movement, with a difficult to climb wall taking 3 tiles of movement for every 1 tile climbed.
+Deep water, thick brush, or a rubble-filled room can be considered difficult terrain. When moving over difficult terrain, each tile of movement costs an extra tile. For example, to move through a deep river 2 tiles wide, you need to spend 4 tiles of movement. Climbing a wall or rock face also takes an extra tile of movement, with a difficult-to-climb wall requiring 3 tiles of movement for every 1 tile climbed.
 
 #### Traps and Hazards
-Dungeons may be filled with traps or other hazards. Traps may be hidden, triggered only by a careless step or trip of a wire. Other hazards are blatantly obvious, like a pool of lava or ominous pit. While the exact mechanics of a trap or hazard is left up to the GM, characters can attempt to search or spot traps around them. Characters that succeed on a perception challenge may spot a trap or understand how it's triggered.
+Dungeons may be filled with traps or other hazards. Traps may be hidden, triggered only by a careless step or the trip of a wire. Other hazards are blatantly obvious, like a pool of lava or an ominous pit. While the exact mechanics of a trap or hazard are left up to the GM, characters can attempt to search for or spot traps around them. Characters that succeed on a perception challenge may spot a trap or understand how it's triggered.
 
-Hazards, such as a pool of lava or acid, are more obvious. Creatures that enter those tiles take damage immediately, taking damage again at the end of their turn for as long as they are in the hazard. A creature doesn't need to willingly move into a hazard to be affected by it. Characters can shove or push other creatures, or cast spells that knock creatures back.
+Hazards, such as a pool of lava or acid, are more obvious. Creatures that enter those tiles take damage immediately and again at the end of each subsequent turn for as long as they remain in the hazard. A creature doesn't need to willingly move into a hazard to be affected by it. Characters can shove or push other creatures or cast spells that knock creatures back.
 
 #### Darkness
-Most creatures are unable to see in the dark and struggle to see creatures in dim light. When making a single target attack, maneuver, spell attack, or when trying to detect a creature in darkness you add 2 terrible dice to your roll, or 1 terrible die if they are in dim light. If a creature has a free hand they can light a torch, covering a 3 tile area around the creature in bright light and a further 3 tiles in dim light.
-
-
+Most creatures are unable to see in the dark and struggle to see creatures in dim light. When making a single-target attack, maneuver, spell attack, or trying to detect a creature in darkness, you add 2 terrible dice to your roll, or 1 terrible die if they are in dim light. If a creature has a free hand, they can light a torch, covering a 3-tile area around the creature in bright light and an additional 3 tiles in dim light.
 
 #### Cover
-Some terrain can be used as cover, protecting creatures from attacks. Anything that obscures the creature or is large enough to hide behind can be used as cover, such as a stone fence, pillar, tree, or overturned table. The benefit you gain depends on the size of the cover and how well it could reasonably defend you against attacks. A creature that is fully behind cover, for example being behind a wall, are untargetable by most attacks. When the target of an attack, maneuver, or spell attack that targets your defense you add dice based on the table below:
+Some terrain can be used as cover, protecting creatures from attacks. Anything that obscures a creature or is large enough to hide behind, such as a stone fence, pillar, tree, or overturned table, can serve as cover. The benefit gained depends on the size of the cover and how well it can reasonably defend against attacks. A creature that is fully behind cover, such as behind a wall, is untargetable by most attacks. When the target of an attack, maneuver, or spell that targets your defense, add dice based on the table below:
 
 |   Cover    | Bonus                    |
 | :--------: | :----------------------- |
@@ -1044,72 +1083,69 @@ Some terrain can be used as cover, protecting creatures from attacks. Anything t
 |    Full    | untargetable             |
 
 #### Underwater Hazards
-Some dungeons may be submerged, or your adventures may take you to the depths of the sea. Creatures that do not have a swim speed or some method of moving underwater treat all underwater tiles as difficult terrain. Similarly, creatures that cannot breath underwater can only hold their breath for a limited time. A creature can hold their breath for 1 minute, adding a minute for each point of Stamina while not in combat. The exertion of combat greatly limits the time you can hold your breath, with creatures able to hold it for 1 turn, adding a turn for each point of Stamina.
+Some dungeons may be submerged, or your adventures may take you to the depths of the sea. Creatures without a swim speed or a method of moving underwater treat all underwater tiles as difficult terrain. Similarly, creatures that cannot breathe underwater can only hold their breath for a limited time. A creature can hold its breath for 1 minute, adding a minute for each point of Stamina while not in combat. The exertion of combat greatly reduces this time, with creatures able to hold their breath for 1 turn, adding a turn for each point of Stamina.
 
-For every minute, or turn in combat, a creature goes beyond their limit they make an exhaustion challenge against 2 terrible dice and 1 bad die. On failure they gain a level of exhaustion.
+For every minute, or turn in combat, a creature goes beyond its limit, they make an exhaustion challenge against 2 terrible dice and 1 bad die. On failure, they gain a level of exhaustion.
 
 
 ### Attack Types
-Maneuvers and spells come in all kinds of shapes and sizes. Some might target a single creature, while others target an area. Depending on the description these attacks use one of the following areas.
+Maneuvers and spells come in various shapes and sizes. Some might target a single creature, while others target an area. Depending on their descriptions, these attacks use one of the following areas.
 
 ##### Area of Control
-When used by a maneuver this attack hits all creatures inside your zone of control. If your zone of control is extended by a weapon with _Reach_ then this attack's area is also extended. Spells that target your area of control, unless otherwise specified, do not benefit from _Reach_.
+When used by a maneuver, this attack hits all creatures inside your zone of control. If your zone of control is extended by a weapon with _Reach_, then this attack's area is also extended. Spells that target your area of control, unless otherwise specified, do not benefit from _Reach_.
 
 ##### Line
-Line attacks hit all creatures in a line extending outward from the attacker. This line doesn't need to follow the grid exactly and can be any direction you wish. A good rule of thumb is if the line crosses more than 1/3rd of the creatures tile it effects that creature.
+Line attacks hit all creatures in a line extending outward from the attacker. This line doesn't need to follow the grid exactly and can be in any direction you wish. A good rule of thumb is that if the line crosses more than 1/3rd of the creature's tile, it affects that creature.
 
 ##### Area
-Area attacks hit all creatures in a square or rectangular shape centered on a tile. The spell or attack determines the size of the area. For example, the spell _Fireball_ hits all creatures in a 5x5 tile area. Spells that effect all creatures in a radius use this type, creating a square centered on a point with the given radius.
+Area attacks hit all creatures in a square or rectangular shape centered on a tile. The spell or attack determines the size of the area. For example, the spell _Fireball_ hits all creatures in a 5x5 tile area. Spells that affect all creatures in a radius use this type, creating a square centered on a point with the given radius.
 
 ##### Diamond
-Diamond patterns are similar to area attacks, but rotated 45 degrees. Diamond patterns will usually have a size before them, for example a 3 tile diamond would have a size of 3. To determine if a creature is inside a diamond pattern, first make a horizontal and vertical line of tiles based on the dimaonds size, centered on the target of the attack. Then draw a line connecting each of the ends of the lines, if a tile is entirely inside the line they are hit by the attack.
+Diamond patterns are similar to area attacks but rotated 45 degrees. These patterns usually specify a size, such as a 3-tile diamond. To determine if a creature is inside a diamond pattern, first create a horizontal and vertical line of tiles based on the diamond's size, centered on the target of the attack. Then, draw lines connecting the ends of these lines. Any tile entirely inside these lines is hit by the attack.
 
 ##### Touch
-Touch attacks require you to be adjacent to the target, or have their effects begin in an adjacent tile.
+Touch attacks require you to be adjacent to the target or have their effects begin in an adjacent tile.
 
 ##### Cone
-Cone attacks are given as a length and width. The cone starts centered along the width, only effecting the center tile. The cone expands as you go down the length of the attack, reaching its width at the end. If the cone covers at least 1/3rd of the creatures tile it effects that creature.
+Cone attacks are given a length and width. The cone starts centered along the width, initially affecting only the center tile. It expands along its length, reaching its full width at the end. If the cone covers at least one-third of a creature's tile, it affects that creature.
 
 ### Damage Types
-Damage can come from a variety of sources, such as the swing of a sword, an explosion of magic, or a deadly trap. Regardless of how it's inflicted, damage always falls into one of 3 categories: physical damage, elemental damage, and ethereal damage.
+Damage can come from various sources, such as the swing of a sword, an explosion of magic, or a deadly trap. Regardless of how it's inflicted, damage always falls into one of three categories: physical damage, elemental damage, and ethereal damage.
 
 ##### Physical Damage
-The majority of physical damage comes from weapons. From the stab of a spear, swing of a sword, or impact of a hammer, physical damage covers 3 types:
-
+The majority of physical damage comes from weapons. Whether it's the stab of a spear, the swing of a sword, or the impact of a hammer, physical damage covers three types:
 
 - **Bludgeoning:** Impact from a weapon or heavy object.
 - **Slashing:** The cut of a blade or trap.
 - **Piercing:** The stab of a spear or puncture from an arrow.
 
-##### Elemental Damage
-The burn of a fire, chill of an intense cold, or a strike of lightning all fall under elemental damage. Most spells that deal damage deal one of the following damage types:
+### Elemental Damage
+The searing heat of fire, intense cold of winter, or a lightning strike all types of elemental damage. Most damaging spells fall into one of the following types:
+
+- **Fire:** Includes burns and explosions.
+- **Cold:** Encompasses icy chills and frigid blasts.
+- **Lightning:** Involves shocking electrical currents.
+- **Thunder:** Includes loud noises, shockwaves, or bursts of air.
+- **Poison:** Covers lethal toxins, acids, and diseases.
+- **Force:** Refers to the pure magical force unleashed by certain spells.
 
 
-- **Fire:** The burn of a fire or explosion.
-- **Cold:** The chill of winter or a frigid blast of wind.
-- **Lightning:** The shock of lightning
-- **Thunder:** Loud sounds, shockwaves, or blasts of air.
-- **Poison:** Deadly poisons, acids, and other diseases.
-- **Force:** The raw magical force inflicted by some spells.
+**Ethereal Damage**
 
+Ethereal damage directly affects a creature's body and soul, draining life, causing decay, disrupting forms, or smiting a creature. Examples of Ethereal damage include:
 
-
-##### Ethereal Damage
-Ethereal damage directly effects a creatures body and soul. Draining life, causing something to decay, destroying somethings form, or smiting a creature are all examples of Ethereal damage. Ethereal damage covers 3 types:
-
-
-- **Death:** Draining life or unnatural decay.
-- **Holy:** smiting a creature or attacking their spirit.
-- **Psychic:** causing madness or deteriorating the mind.
+- **Death:** Draining life or inducing unnatural decay.
+- **Holy:** Smiting a creature or attacking their spirit.
+- **Psychic:** Causing madness or deteriorating the mind.
 
 
 ## Items and Equipment
 
 ### Currency
-Currency in Farhome is divided into 3 types: the copper trite, silver cross, and platinum talent. A silver cross is worth 100 copper trites, and a platinum talent is worth 100 silver crosses.
+Currency in Farhome is divided into three types: the copper trite, silver cross, and platinum talent. A silver cross is worth 100 copper trites, and a platinum talent is worth 100 silver crosses.
 
 ### Adventuring Gear
-Most towns and some villages will have adventuring gear for sale. While the actual costs are determined by the GM, this list can be used to give guidelines for the costs of typical gear adventurers will need.
+Most towns and some villages offer adventuring gear for sale. While the actual costs are determined by the GM, this list provides guidelines for the costs of typical gear adventurers will need.
 
 |         Item         | Cost       |
 | :------------------: | :--------- |
@@ -1144,91 +1180,95 @@ Most towns and some villages will have adventuring gear for sale. While the actu
 |       Whistle        | 2sc 50ct   |
 
 #### Alembic
-A small, portable Alembic for potion making. When making an Apothecary roll you may reroll 1 die.
+A compact, portable alembic for potion making. When making an Apothecary roll, you may reroll 1 die.
 
 #### Ammunition
-A standard quiver can hold 25 arrows or bolts. Arrows add 0/1 in damage, while bolts only deal the base crossbow damage.
+A standard quiver can hold 25 arrows or bolts. Arrows add 0/1 piercing damage, while bolts deal only the base crossbow damage.
 
 #### Antidote
-A vial of antidote used to treat common poisons. You may spend 2 AP to drink the antidote, curing Poison. This does not work against Poisons of level 2 or higher.
+A vial of antidote used to treat common poisons. You may spend 2 AP to drink the antidote, curing Poison. This does not work against poisons of level 2 or higher.
 
 #### Bandage
-Simple cloth bandages used to cover wounds. During a long or short rest you may use a bandage to reroll a healing surge.
+Simple cloth bandages used to cover wounds. During a long or short rest, you may use a bandage to reroll a healing surge.
 
 #### Bear Trap
-A metal floor trap used to immoblize large creatures. The trap takes 5 minutes to set up and covers a single tile, making a raw Dexterity or Intelligence roll to determine how well it's hidden. A creature attempting to see the trap makes a Survival or Perception challenge against your roll, seeing the trap on success.
+A metal floor trap used to immobilize large creatures. The trap takes 5 minutes to set up and covers a single tile. A creature can attempt to spot the trap by making a perception challenge against your survival, spotting it on success.
 
-When a large or medium creature steps on the trap they make a Dexterity save against 4 enhanced dice. On hit they are grappled and take 1/1 in piercing damage. They or another creature can spend 5 AP to make a Strength save against 4 enhanced dice, freeing themselves on success.
+When a large or medium creature steps on the trap, they must make a Dexterity save against 4 enhanced dice. On a failure, they are grappled and take 1/1 piercing damage. The trapped creature or another creature can spend 5 AP to attempt a Strength save against 4 enhanced dice to free themselves.
 
 #### Black Resin
-A long burning resin made from tar. When ignited, the resin burns for 1 hour, slowly filling a 10x10 tile area (or nearest 100 tiles) with a thick, black smoke. A creature that enters or ends their turn in the smoke this round makes a Stamina save against 3 enhanced dice. A creature that fails this save 3 times over a 2 minute period becomes incapacitated, waking within an hour after the smoke clears.
+A long-burning resin made from tar. When ignited, the resin burns for 1 hour, gradually filling a 10x10 tile area (or the nearest 100 tiles) with thick, black smoke. A creature that enters or ends its turn in the smoke must make a Stamina save against 3 enhanced dice. A creature that fails this save three times within a 2-minute period becomes incapacitated, awakening within an hour after the smoke dissipates.
 
 #### Caltrops
-A sack of caltrops, enough to cover 2 tiles. By spending 5 AP you spread caltrops in 2 adjacent tiles. The Caltrops count as difficult terrain and any creature that falls into the caltrops, either by falling or being knocked prone, takes 1/0 in piercing damage.
+A sack of caltrops, enough to cover 2 tiles. By spending 5 AP, you can spread caltrops across 2 adjacent tiles. Caltrops count as difficult terrain, and any creature that falls onto them, either by stumbling or being knocked prone, takes 1/0 piercing damage.
 
 #### Etching Acid
-A small vial of acid used to engrave metal. When making an Enchanting or Inscription roll you may reroll 1 die, consuming the acid. You may also use the acid to melt a small amount of metal. For example, it can be used on the hinges of a door to fuse them together, barring the door.
+A small vial of acid used for engraving metal. When making an Enchanting or Inscription roll, you may reroll 1 die by consuming the acid. Alternatively, you can use the acid to melt a small amount of metal, such as fusing the hinges of a door shut.
 
 #### Fire Kit
-Contains kindling and equipment to easily start a campfire. Can be used to pass a survival challenge when building a fire. Has 10 uses.
+Contains kindling and equipment for easily starting a campfire. It can be used to pass a survival challenge when building a fire and has 10 uses.
 
 #### Grapple Hook
-A metal hook attached to 50 ft of rope. Used in place of an attack action, make a ranged attack using Strength or Dexterity targeting a point within 10 tiles. The GM adds challenge dice depending on the distance and the surface hooked. On success the hook lodges firmly, able to hold 1000 lbs of weight before breaking.
+A metal hook attached to 50 feet of rope. Instead of attacking, you can make a ranged attack using Strength or Dexterity to target a point within 10 tiles. The GM adds challenge dice based on distance and the surface hooked. On a successful hit, the hook lodges firmly, capable of supporting up to 1000 lbs before breaking.
 
-#### Healers Kit
-A small pack containing banadages, ointments, and other materials used to patch up small injuries. You may spend 1 minute tending to yours or another creatures wounds. The creature may spend a healing surge, healing for the amount rolled. Each kit has 5 uses.
+**Healer's Kit**
+A small pack containing bandages, ointments, and other materials used to patch up small injuries. You may spend 1 minute tending to your or another creature's wounds. The creature may then spend a healing surge, healing for the amount rolled. Each kit has 5 uses.
 
-#### Linseed Oil
-A small jar of linseed oil, used to maintain weapons and armor. When making a Repair roll you may reroll 1 die. 5 uses.
+**Linseed Oil**
+A small jar of linseed oil used to maintain weapons and armor. When making a Repair roll, you may reroll 1 die. 5 uses.
 
-#### Net
-A net made of rope, leather, or twined fibers used to catch a medium or smaller creature. Used in place of the attack action, make a ranged attack using Strength or Dexterity against a creature within 2 tiles. The creature makes a Dexterity save against the attack, being grappled on hit.
+**Net**
+A net made of rope, leather, or twined fibers used to catch a large or smaller creature. Used in place of the attack action, make a ranged attack using Strength or Dexterity against a creature within 2 tiles. The creature makes a Dexterity save against the attack and is grappled on a hit.
 
-Once grappled, the creature can spend 5 AP on their turn making a Strength save against 5 Enhanced dice, freeing themselves and destroying the net on success. Another creature can free the grappled creature by spending 1 turn cutting through the net with an edged weapon, or 1 minute untangling the net.
+Once grappled, the creature can spend 5 AP on their turn making a Strength save against 4 Enhanced dice to free themselves, destroying the net on success. Another creature can free the grappled creature by spending 1 turn cutting through the net with an edged weapon or 1 minute untangling the net.
 
-The net must be properly bundled before being thrown again, reqeuiring 5 minutes of work.
+The net must be properly bundled before being thrown again, requiring 5 minutes of work.
 
-**Banded Net:** A net reinforced with metal. Adds 1 Bad die to your attack rolls with the net. The grappled creature makes a Strength save against 5 Superior dice instead of Enhanced, and attempting to cut the net requires a successful attack roll against 3 Superior Defense dice.
+**Banded Net**
+A net reinforced with metal. Adds 1 Bad die to your attack rolls with the net. The grappled creature makes a Strength save against 4 Superior dice instead of Enhanced dice, and attempting to cut the net requires a successful attack roll against 3 Superior Defense dice.
 
-**Barbed Net:** Adding barbs to the next causes it to deal 0/1 in piercing damage on hit and every time the grappled creature attempts a Strength save to free themselves from the net.
-
+**Barbed Net**
+Adding barbs to the net causes it to deal 0/1 piercing damage on hit and every time the grappled creature attempts a Strength save to free themselves from the net.
 
 **Enchanted Net:** A net made with enchanted rope that seeks out its target. You may target creatures up to 5 tiles away and add 1 Superior die to your attack roll.
 
-#### Smoke Pellet
-Small beads that when thrown create an area of obscuring smoke. You may spend 2 AP to throw the pellet up to 5 tiles, exploding in a cloud of smoke covering a 3x3 tile area centered on the impact.
+**Smoke Pellet:**
+Small beads that, when thrown, create an area of obscuring smoke. You may spend 2 AP to throw the pellet up to 5 tiles away, where it explodes in a cloud covering a 3x3 tile area centered on the impact.
 
-**Black Powder Pellet:** Creates a cloud of flammable black powder when thrown. Any fire in the 3x3 tile area, such as a torch or the flaming projectile of a spell like _Firebolt_ causes it to ignite. All creatures make a Dexterity save against 4 enhanced dice, taking 1/1 in fire damage on fail.
+**Black Powder Pellet:**
+Creates a cloud of flammable black powder when thrown. Any fire source within the 3x3 tile area, such as a torch or a flaming projectile like _Firebolt_, causes it to ignite. All creatures must make a Dexterity save against 4 enhanced dice, taking 1/1 fire damage on a failure.
 
-#### Prayer Chalk
-Chalk made from bones purified by a priest. You may spend 1 minute per tile etching holy wards and inscriptions. For the next day undead treat the inscriptions as difficult terrain and any undead that pass over the inscriptions add 1 bad die to all attacks and attribute saves for the next minute.
+**Prayer Chalk:**
+Chalk made from bones purified by a priest. You may spend 1 minute per tile etching holy wards and inscriptions. For the next day, undead treat the inscriptions as difficult terrain. Any undead that pass over the inscriptions add 1 bad die to all attacks and attribute saves for the next minute.
 
 Each piece of chalk can cover 10 tiles.
 
-#### Rope
-A bundle of rope 50 ft long. A creature bound by the rope can attempt to break free once every hour by making a Strength save against 5 enhanced dice. On success the rope breaks.
+**Rope:**
+A bundle of rope 50 ft long. A creature bound by the rope can attempt to break free once every hour by making a Strength save against 4 enhanced dice. On a success, the rope breaks.
 
-**Banded Rope:** Rope reinforced with metal. Attempting to break the rope uses 5 Superior dice for the Strength save.
+**Banded Rope:**
+Rope reinforced with metal. Attempting to break this rope uses 4 Superior dice for the Strength save.
 
-**Chain:** A metal chain 10 ft long. Attempting to break the chain uses 7 Superior dice for the Strength save.
+**Chain:**
+A metal chain 10 ft long. Attempting to break the chain uses 6 Superior dice for the Strength save.
 
 #### Snare
-Contains everything needed to make a simple snare trap. The snare takes 5 minutes to set up and covers a single tile, making a raw Dexterity or Intelligence roll to determine how well it's hidden. A creature attempting to see the trap makes a Survival or Perception challenge against your roll, seeing the trap on success.
+Contains everything needed to construct a simple snare trap. Setting up the snare takes 5 minutes and covers a single tile. A creature attempting to detect the trap must succeed on a perception challenge against your survival roll.
 
-When triggered by a large or smaller creature they are grappled and knocked prone. The creature or an ally can spend 5 AP to cut the snare, freeing them and destroying the trap.
+When triggered by a large or smaller creature, they are grappled and knocked prone. The creature or an ally can spend 5 AP to cut the snare, freeing them and destroying the trap.
 
 #### Torch
-You can spend 5 AP to light the torch. Torches emit bright light out 3 tiles and dim light a further 3. Once lit a torch will last for 1 hour.
+You can spend 5 AP to ignite the torch. Torches emit bright light up to 3 tiles away and dim light up to 6 tiles away. Once lit, a torch will last for 1 hour.
 
 #### Whistle
-A simple whistle made out of wood. You may spend 2 AP to blow the whistle which is audible up to 60 tiles away.
+A simple wooden whistle. Spending 2 AP allows you to blow the whistle, which can be heard up to 60 tiles away.
 
 ### Potions and Poisons
-Potions and poisons are valuable tools for any adventurer. It's common for an adventurer to carry a few healing potions for difficult situations or to revive an unconscious party member. While basic healing potions are common enough that you can find them in most towns, adventurers have to make due with whatever potions they find or brew themselves. Due to the magical nature of ingredients used in brwing potions an unopened potion can last hundreds of years without spoiling.
+Potions and poisons are invaluable tools for any adventurer. It's common for adventurers to carry healing potions for challenging situations or to revive unconscious party members. While basic healing potions are readily available in most towns, adventurers often have to make do with whatever potions they find or brew themselves. Due to the magical nature of the ingredients used in brewing potions, an unopened potion can last for hundreds of years without spoiling.
 
-With the ever-present danger of living in Farhome even the smallest villages keep a healing potion on hand, although adventurers may find it difficult to get them to part with it. Towns large enough for a herbalist will have a few for sale in their stores, while the large cities carry a wide range of potions. Poisons, being less useful to the common villager, are much harder to find for sale.
+Given the ever-present danger of living in Farhome, even the smallest villages keep a healing potion on hand, though adventurers may find it challenging to get them to part with it. Larger towns with herbalists typically stock them in their stores, while major cities offer a wide range of potions. Poisons, being less useful to the common villager, are much harder to come by for sale.
 
-Using a potion or poison requires a Use action (2 AP) and consumes the item when used. The magical potentency of potions make it impossible to metabolize more than one each round. Potions can be used on onconscious creatures, costing 5 AP instead of 2. Poisons can be used to coat an edged weapon or applied to ammunition. A poison vial contains enough poison to coat a single weapon or 4 pieces of ammunition. Poisons lose their potency after 2 attacks with a weapon or after the ammunition has been fired.
+Using a potion or poison requires a Use action (2 AP) and consumes the item when used. The magical potency of potions prevents metabolizing more than one per round. Potions can also be used on unconscious creatures, costing 5 AP instead of 2. Poisons can be applied to edged weapons or ammunition. A vial of poison contains enough to coat a single weapon or four pieces of ammunition. Poisons lose their potency after two attacks with a weapon or after the ammunition has been fired.
 
 |           Item            | Cost     |
 | :-----------------------: | :------- |
@@ -1259,7 +1299,7 @@ Using a potion or poison requires a Use action (2 AP) and consumes the item when
 For the next hour, any time you gain a condition roll a wound die instead. On a blank you don't gain the condition.
 
 ##### Cleansing Potion
-Ends up to 2 of the following conditions: Daze, Hex, Paralyze, Poison, Slow, Stun, and weaken. If the condition is level 3 or more, remove 2 levels instead. Conditions inflicted by wounds, curses, or persistent effects return at the start of your next turn.
+Ends up to 2 of the following conditions: Blind, Daze, Hex, Paralyze, Poison, Slow, Stun, or Weakened. If the condition is level 3 or more, remove 2 levels instead. Conditions inflicted by wounds, curses, or persistent effects return at the start of your next turn.
 
 ##### Deadly Toxins
 On hit inflicts poison 3 for 10 minutes.
@@ -1315,9 +1355,9 @@ On hit inflicts poison 1, or poison 2 on a critical. The creature does not benef
 Removes a level of exhaustion and refreshes a feat that requires a rest before it can be used again.
 
 ### Spell Scrolls
-Attempting to transfer a spell from one codex to another is a difficult process, and can often destroy the codex in the process. Instead, spells are written from memory onto scrolls. Writing scrolls requires a variety of rare and magical components and the act of copying a scroll into a codex destroys the scroll. Still, it is by far the easiest way wizards teach others spells. Spell scrolls are written in a magical language, allowing them to be understood by anyone regardless of the language of the writer.
+Transferring a spell from one codex to another is a challenging process that often results in the destruction of the codex. Instead, spells are transcribed from memory onto scrolls. Crafting scrolls demands a range of rare and magical components, and copying a scroll into a codex consumes the scroll in the process. Nevertheless, this remains the simplest method for wizards to teach spells to others. Spell scrolls are inscribed in Runic, a magical language, ensuring they can be understood by anyone, regardless of the writer's native tongue.
 
-Spell scrolls can be found for sale all over Farhome, with most towns and cities having wizards practicing their craft. While lower level spells are plentiful, finding higher level spell scrolls for sale may be difficult or downright impossible.
+Spell scrolls are widely available for purchase throughout Farhome, with most towns and cities hosting practicing wizards. While lower-level spells are abundant, acquiring higher-level spell scrolls can prove difficult or even impossible.
 
 | Spell Level | Cost     |
 | :---------: | :------- |
@@ -1333,7 +1373,7 @@ Spell scrolls can be found for sale all over Farhome, with most towns and cities
 |     9th     | 20pt     |
 
 ### Weapons
-There are 2 types of weapons: simple, and proficient. Simple weapons are usable by anyone, even those without training. Proficient weapons require at least one point of proficiency into a related weapon proficiency to wield properly. Someone who uses a proficient weapon without having the proficiency for it adds a terrible die to all rolls made with that weapon. For example, to use a sword effectively you need at least 1 proficiency with one handed weapons, or to use a bow you need at least 1 proficiency in ranged weapons.
+There are two types of weapons: simple and proficient. Simple weapons can be used by anyone, even those without training. Proficient weapons require at least one point of proficiency in a related weapon category to wield properly. Someone using a proficient weapon without the required proficiency adds a terrible die to all rolls made with that weapon. For instance, to effectively use a sword, you need at least 1 proficiency in one-handed weapons; similarly, to use a bow effectively, you need at least 1 proficiency in ranged weapons.
 
 
 | Weapon                                   |            Modifiers             |  Damage on Hit   |       Cost | Damage Type |
@@ -1404,9 +1444,9 @@ You increase the number of wounds dealt by the level of vulnerability. For examp
 This weapon is used with unarmed attacks. Unarmed weapons require both hands and cannot be used with a shield. Unarmed weapons count as dual wielding for offhand attacks.
 
 ### Armor
-There are 3 types of armor: light, medium, and heavy. There is no proficiency required to wear armor, but different armors give different penalties. Medium armor adds a bad die to all Dexterity saves, stealth challenge, and spellcasting rolls. Heavy armor adds a terrible die to all Dexterity saves, stealth challenges, and spellcasting rolls.
+There are three types of armor: light, medium, and heavy. No proficiency is required to wear armor, but each type imposes different penalties. Medium armor adds a bad die to all Dexterity saves, stealth challenges, and spellcasting rolls. Heavy armor adds a terrible die to all Dexterity saves, stealth challenges, and spellcasting rolls.
 
-If you do not meet the Strength requirement for wearing your armor you add 1 terrible die to all attacks, maneuvers, attribute saves and spellcasting rolls.
+If you do not meet the Strength requirement for your armor, you add one terrible die to all attacks, maneuvers, attribute saves, and spellcasting rolls.
 
 | Armor                                          | Defense | Strength |     Cost | Dex/Spell Penalty |
 | :--------------------------------------------- | :-----: | :------: | -------: | :---------------: |
@@ -1424,9 +1464,9 @@ If you do not meet the Strength requirement for wearing your armor you add 1 ter
 | &nbsp;&nbsp;&nbsp;&nbsp;Shield                 |  +1/0   |    2     |     60sc |     1 bad die     |
 
 ### Ammunition
-To use a ranged weapon you need to carry ammunition usable by that weapon. Bows require arrows to fire while crossbows use bolts. Like weapons, ammunition can be enchanted with magic. When using magic ammunition you deal an additional 0/1 in damage for each bonus modifier on the ammunition. For example, a magic arrow with a +1 modifier deals 1/2 piercing damage on hit. Magic ammunition is spent when the attack is made, becoming mundane after the attack.
+To use a ranged weapon, you must carry ammunition appropriate for that weapon. Bows require arrows, while crossbows use bolts. Like weapons, ammunition can be enchanted with magic. When using magic ammunition, you deal an additional 0/1 damage for each bonus modifier on the ammunition. For example, a magic arrow with a +1 modifier deals 1/2 piercing damage on hit. Magic ammunition is expended upon making the attack, reverting to mundane status afterward.
 
-Towns and cities are often large enough to house an enchanter selling magic ammunition. While +1 varieties are common, it is exceedingly rare to find stronger ammunition for sale.
+Towns and cities often have enough size to accommodate enchanters who sell magic ammunition. While +1 variants are common, it is exceedingly rare to find stronger ammunition available for sale.
 
 |    Spell Level     | Cost       | Bonus Damage |
 | :----------------: | :--------- | :----------: |
@@ -1456,10 +1496,9 @@ A damaged weapon adds 1 bad die for every negative modifier, or reduces the supe
 You may attempt to repair a piece of equipment over a long rest. Make a repair roll against 2 bad dice. On success the gear is repaired by 1 level, or 2 on a critical. You may attempt to repair magical gear, adding a terrible die for each modifier.
 
 #### Apothecary Set
+A portable set of tools necessary for brewing potions over a campfire. During a long rest, you may attempt to brew a potion or poison provided you have the correct ingredients, or you may search your surroundings for additional ingredients.
 
-A portable set of tools required to brew potions over a campfire. During a long rest you may attempt to brew a potion or poison if you have the right ingredients, or you may search your surroundings for ingredients.
-
-To search for ingredients make an average difficulty survival challenge, increasing or decreasing the difficulty based the abundance of the wilderness. Searching for ingredients takes 1 hour. On success you roll 3 superior dice to determine the ingredient found on the table below. You gain a number of ingredients equal to the successes in your survival challenge.
+To search for ingredients, make an average difficulty Survival challenge, adjusting the difficulty based on the wilderness's abundance. Searching for ingredients requires 1 hour. On a successful search, roll 3 superior dice to determine the ingredient found from the table below. You gain a number of ingredients equal to the successes in your Survival challenge.
 
 ##### Wilderness Survival Rewards
 |   Area    |       6        |      5       |       4       |       3       |       2       |      1       |    0     |
@@ -1506,9 +1545,9 @@ Poisons are applied to weapons and inflict their effects after landing an attack
 
 
 #### Enchanters Tools
-During a long rest you may attempt to enchant a piece of mundane gear. Enchantments lasts for 3 days and counts as magical equipment for the duration. After the enchantment ends the gear returns to normal. To enchant a piece of gear you must have mana and enchanting supplies available. Make an enchanting roll, adding the difficulty dice for the enchantment. On success you make the enchantment, otherwise losing the supplies on failure. Most cities and towns will sell enchanting supplies.
-  
-You may spend additional mana to improve your roll, adding an enhanced die for every 2 mana spent. Ammunition enchantments are permanent, lasting until the ammunition is used.
+During a long rest, you may attempt to enchant a piece of mundane gear. Enchantments last for 3 days and the gear functions as magical equipment during this time. After the enchantment ends, the gear returns to its normal state. To enchant a piece of gear, you must have mana and enchanting supplies available. Make an enchanting roll, adding the difficulty dice for the enchantment. On success, you successfully enchant the gear; on failure, you lose the supplies expended. Enchanting supplies are typically available for purchase in most cities and towns.
+
+You can enhance your roll by spending additional mana, adding an enhanced die for every 2 mana spent. Ammunition enchantments are permanent, remaining effective until the ammunition is used.
   
   ##### Enchantments
 | Name      | &nbsp;&nbsp;Mana&nbsp;&nbsp; | &nbsp;&nbsp;Supplies&nbsp;&nbsp; | Dice  |        Effect |
@@ -1535,12 +1574,12 @@ You may spend additional mana to improve your roll, adding an enhanced die for e
 | &nbsp;&nbsp;&nbsp;&nbsp;Slaying       | 5  |   4    | 2B/3T |    Choose a creature type. This arrow deals an extra 0/3 against creatures of this type. |
 
 #### Scribing Tools
-A set of tools for writing spell scrolls and inscribing runes. During a long rest you may attempt to inscribe a rune or spell scroll. Spell scrolls are written in a way such that anyone is able to learn it and add it to their codex. Runes are consumables that give a variety of one-time effects, from enhancing one of your spells to creating a magical trap. Creating scrolls and runes requires mana and uses a mix of gemstones and enchanting supplies which can be found in most cities and towns.
+A set of tools for writing spell scrolls and inscribing runes. During a long rest, you can attempt to inscribe either a rune or a spell scroll. Spell scrolls are crafted to allow anyone to learn and add them to their codex. Runes are consumables offering a range of one-time effects, from enhancing your spells to creating magical traps. Crafting scrolls and runes requires mana and a blend of gemstones and enchanting supplies, typically available in most cities and towns.
 
 #### Inscribing Spell Scrolls
-You can create a spell scroll for any spell in your codex that you are able to cast. Creating a spell scroll of 3rd level or lower can be done during a long rest, with spells of 4th level and higher taking 1 day of work for each level above 3rd. You must have mana available which is consumed in creating the scroll.
+You can create a spell scroll for any spell in your codex that you are capable of casting. Crafting a spell scroll of 3rd level or lower can be completed during a long rest, while spells of 4th level and higher require 1 day of work for each level above 3rd. You must have sufficient mana available, which is consumed during the scroll creation process.
 
-When copying spells from a codex you can instead use your scribing tools to create a spell scroll. Doing so costs a single enchanting supply regardless of spell level, ignoring all other costs for creating spell scrolls. For each spell you want to remove from the codex and turn into a scroll you make a scribing roll against that spell levels difficulty. On success you create a spell scroll for that spell, destroying the codex on failure.
+When transcribing spells from a codex, you can alternatively use your scribing tools to craft a spell scroll. This method requires a single enchanting supply, regardless of the spell's level, and disregards all other costs associated with creating spell scrolls. For each spell you wish to remove from the codex and convert into a scroll, you make a scribing roll against the difficulty of that spell's level. On a successful roll, you create a spell scroll for that spell; on a failure, the codex is destroyed in the attempt.
 
 ##### Spell Scrolls
 |  Level  | Mana  |     Gemstones     | Supplies | Challenge Dice |
@@ -1557,49 +1596,47 @@ When copying spells from a codex you can instead use your scribing tools to crea
 |   9th   |  12   |   10pt gemstone   |    10    | 2B/5T          |
 
 #### Inscribing Runes
-You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe a rune you need to have the required supplies and mana which are consumed in creating the rune. Runes are consumed on use, with some requiring a specific trigger to activate. Unless otherwise stated, runes that augment spells require no AP to use while placing a rune takes 2 AP.
+You can inscribe a rune during a long rest or with 2 hours of downtime. To inscribe a rune, you need the necessary supplies and mana, which are consumed during creation. Runes are consumed upon use, with some requiring a specific trigger for activation. Unless specified otherwise, runes that enhance spells require no AP to use, while inscribing a rune takes 2 AP.
 
 ##### Runes
 | Rune            | &nbsp;Mana&nbsp; | &nbsp;Gemstones&nbsp; | &nbsp;Supplies&nbsp; | &nbsp;Challenge&nbsp; |                                                                                                                                                                                                                                                            Effect |
 | :-------------- | :--------------: | :-------------------: | :------------------: | :-------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Longcaster      |        1         |     10sc gemstone     |          0           |          1B           |                                                                                                                                                                                         Doubles the range of a spell that does not have a range of self or touch. |
-| Potency         |        1         |           -           |          1           |          2B           |                                                                                                                                                                                                                         Add a critical to your spellcasting roll. |
-| Fire Ward       |        2         |     10sc gemstone     |          1           |         1B/1T         |                                                                                                           Once placed, the next creature to enter its tile makes a Dexterity save against 3 superior dice, taking 1/1 in fire damage on fail. |
-| Arc Ward        |        2         |     10sc gemstone     |          1           |         1B/1T         |                                                                                                                           Once placed, the next creature to enter its tile makes a Stamina save against 3 superior dice, gaining Paralyze 1 for 1 minute on fail. |
-| Hardened        |        3         |     10sc gemstone     |          2           |          2T           |                                                                                                                                                  Your spell is considered to be 2 levels higher when saving against _Dispel Magic_, _Purge_, and _Counter Spell_. |
-| Expanding       |        3         |     25sc gemstone     |          1           |          2T           |                                                                                                                                                                                                                     Increases the area of effect of a spell by 1. |
-| Anti Magic Ward |        4         |     25sc gemstone     |          1           |         2B/1T         |                                                                                                                           Once placed, the next spell to target a creature or point within 2 tiles of this ward removes 3 criticals from their spellcasting roll. |
-| Sleeping        |        4         |           -           |          2           |         1B/2T         | Once placed, the next time a creature enters its tile roll 5 superior dice. The creature falls asleep if the total successes is greater or equal to their current wounds. The creature wakes up after taking damage or another creature spends 5 AP to wake them. |
+| Longcaster      |        1         |     10sc gemstone     |          0           |          1B           |    Doubles the range of a spell that does not have a range of self or touch. Creates 2 Runes. |
+| Potency         |        1         |           -           |          1           |          2B           |     Add a critical to your spellcasting roll. Creates 3 Runes. |
+| Mana        |        3         |           25sc gemstone           |          -           |         3B         | Your spell costs 2 Mana less to cast. |
+| Elemental Affinity        |        4         |           -           |          3           |         2B/1T         | When crafting this rune choose an elemental damage type. When casting a spell that deals the chosen damage type you may reroll up to 3 wound dice. Creates 3 Runes. |
+| Hardened        |        3         |     10sc gemstone     |          2           |          2T           |   Your spell is considered to be 2 levels higher when saving against _Dispel Magic_, _Purge_, and _Counter Spell_. Creates 2 Runes. |
+| Expanding       |        3         |     25sc gemstone     |          1           |          2T           |    Increases the area of effect of a spell by 1. |
+| Fire Ward       |        2         |     10sc gemstone     |          1           |         1B/1T         |    Once placed, the next creature to enter its tile makes a Dexterity save against 3 superior dice, taking 1/1 in fire damage on fail. |
+| Arc Ward        |        2         |     10sc gemstone     |          1           |         1B/1T         |  Once placed, the next creature to enter its tile makes a Stamina save against 3 superior dice, gaining Paralyze 2 for 1 minute on fail. |
+| Freezing        |        3         |     25sc gemstone     |          1           |         2B/1T         |  Once placed, it activates once the next creature enters its tile. The rune creates ice covering a 3x3 tile area. Creatures moving through the ice make a Dexterity save against 3 superior dice, falling prone on a failure. |
+| Anti Magic Ward |        4         |     25sc gemstone     |          1           |         2B/1T         |  Once placed, the next spell to target a creature or point within 3 tiles of this ward removes 3 criticals from their spellcasting roll. |
+| Sleeping        |        4         |           -           |          2           |         1B/2T         | Once placed, the next time a creature enters its tile roll 5 superior dice. The creature falls asleep if the total successes is greater or equal to their current wounds. The creature wakes up after 1 hour, taking damage, or another creature spends 5 AP to wake them. |
+| Teleportation        |        8         |           -           |          4           |         3T         | When crafting you etch a series of 9 symbols surrounding the rune. Once placed, when a creature steps on the rune they are immediately teleported to another teleportation rune within 1 mile that contains the same 9 symbols. If multiple runes exist within range then they are teleported to a random rune. An unwilling creature can make a Dexterity save against 4 superior dice, evading the teleportation on success. The rune remains active for one day and must spend 1 minute recharging between teleportations.   |
 
 ### Magic Items
-
-Magic items give a variety of effects and bonuses. Only some magic items require attunement, and each character can only attune with 3 magic items at a time. While you can carry multiple magic items of the same type, you can only get the benefit of one of them. For example, you cannot get the benefit of a _Cloak of Shadows_ as well as a _Cloak of Water breathing_.
+Magic items provide a variety of effects and bonuses. Some magic items require attunement, and each character can attune to only 3 magic items at a time. While you can carry multiple magic items of the same type, you can benefit from only one of them. For instance, you cannot gain the benefits of both a _Cloak of Shadows_ and a _Cloak of Water Breathing_ simultaneously.
 
 #### Attunement
-
-Some powerful magic items require attunement to use. To attune to a magic item you must spend 10 minutes focusing on it, and can be done during a short or long rest without interrupting the rest. If you are already attuned to 3 magic items you must choose which item to lose attunement to when attuning to a new item.
+Certain powerful magic items require you to attune to them before you can use their full potential. To attune to a magic item, you must spend 10 minutes focusing on it, a process that can be done during a short or long rest without interrupting the rest. If you are already attuned to 3 magic items, you must choose which item to unattune from when attuning to a new item.
 
 #### Magic Gear
-
-Magic weapons and armor can come with bonus modifiers from +1 to +3. When making an attack roll with a magic weapon you add superior dice to the roll equal to its bonus modifier. For magic armor you add superior dice to your defense roll equal to its bonus modifer instead. Shields do not have bonus modifiers, but can have additional effects.
+Magic weapons and armor can have bonus modifiers ranging from +1 to +3. When making an attack roll with a magic weapon, you add superior dice equal to its bonus modifier to the roll. For magic armor, you add superior defense dice to your defense roll equal to its bonus modifier instead. Some magic items may have bonus modifiers that behave differently, giving benefits in place of adding dice to your attack or defense rolls. By default, shields do not have bonus modifiers but may offer additional effects.
 
 #### Identifying Magic Items
+Magic items can be identified through a successful lore challenge. Each character can attempt a lore roll only once; if you fail, you must either cast _Identify_ on the item or seek someone capable of appraising it.
 
-Magic items can be identified by a successful lore challenge. Each character can only attempt a lore roll once, if you fail then you must either cast _Identify_ on the item or take it to someone who can appraise it.
-
-You can still use magic items without identifying them, but its bonuses will be unknown to you. If the item requires attunement you only benefit from its bonus modifiers unless stated otherwise.
+You can still use magic items without identifying them, but their bonuses will remain unknown to you. If the item requires attunement, you only benefit from its bonus modifiers unless stated otherwise.
 
 #### Cursed Items
+Some magic items may be cursed, imposing a permanent detrimental effect on the holder. Cursed items can manifest their effects in various ways: immediately upon attunement, upon a specific trigger, or even upon mere touch. The effects of a curse are unique to each magic item and persist even if you are no longer attuned to it, unless stated otherwise.
 
-Some magic items may be cursed, giving its holder a permanent, detrimental effect. There are many ways a cursed item can inflict its curse. Some may happen immediately after attuning to the item, some after a specific trigger, and some can curse just by touching the item. The effects of a curse are unique to the magic item and unless otherwise stated last even if you're no longer attuned to the item.
-
-Curses can be removed by successfully casting _Break Curse_ against a level given in the curses description. The spell automatically fails if you still meet the requirements for gaining the curse. For example, a curse that is granted by attuning to the item cannot be removed while you are still attuned to the item.
+Curses can be removed by successfully casting _Break Curse_ against the level specified in the curse's description.
 
 #### Gaining Attributes through Items
+Some magic items grant bonuses to your attributes. There is no limit to how much these bonuses can increase an attribute, but you cannot benefit from two items that boost the same attribute; you only receive the bonus from the larger one.
 
-Some magic items grant bonuses to your attributes. While there is no limit on how much this can increase an attribute, you cannot benefit from two items that give bonuses to the same attribute, instead taking only the larger one.
-
-For example, using a _Cloak of Agility_ granting +1 Dexterity and a _Belt of Elvenkind_ granting +2 Dexterity will only give you +2 Dexterity. You still benefit from the remaining bonuses on those items.
+For example, wearing a _Cloak of Agility_ that grants +1 Dexterity and a _Belt of Elvenkind_ that grants +2 Dexterity will result in a total of +2 Dexterity. You still retain any other bonuses provided by each item.
 
 ## Optional Rules
 
@@ -1650,60 +1687,60 @@ Roll 2 bad dice, counting the failures.
 |   0   | Minor backlash. You take 0/1 in Force damage                                                                                  |
 
 ### Large Battles and Minions
-Fighting hordes of monsters can make for a thrilling and challenging battle. For example, the players may be exploring a cave network deep underground when they hear the skittering sound of ratlings in the dark. Suddenly, hordes of ratlings burst out of the shadows, crude weapons drawn, descending on the party from all sides. The ratlings are weak, but make up for it with overwhelming numbers, backing the players into a corner.
+Fighting hordes of monsters can make for a thrilling and challenging battle. For example, the players may be exploring a cave network deep underground when they hear the skittering sound of ratlings in the dark. Suddenly, hordes of ratlings burst out of the shadows, crude weapons drawn, descending on the party from all sides. The ratlings are weak but make up for it with overwhelming numbers, backing the players into a corner.
 
-An exciting encounter... or would be. While the rules make for great combat, it begins to slow down when there are 3-4 monsters for every player. Rolling multiple attacks against a player, especially from weaker but numerous monsters where only a handful of attacks will hit, can grind the action down to a slog. To prevent the slog we've included these optional rules for large packs of monsters: the Swarm Template and Minions.
+An exciting encounter... or it would be. While the rules make for great combat, it begins to slow down when there are 3-4 monsters for every player. Rolling multiple attacks against a player, especially from weaker but numerous monsters where only a handful of attacks will hit, can grind the action down to a slog. To prevent this, we've included these optional rules for large packs of monsters: the Swarm Template and Minions.
 
 #### Swarm Template
-This template is best used when you want to throw a horde of weaker, less complicated monsters at a party. For example, a horde of Zombies, Goblins, or Bandits. Swarms combine 4-8 identical monsters into a single unit that becomes weaker the more damage it takes. To create a swarm, take any monster stat block and add the following features.
+This template is best used when you want to throw a horde of weaker, less complicated monsters at a party, such as Zombies, Goblins, or Bandits. Swarms combine 4-8 identical monsters into a single unit that becomes weaker the more damage it takes. To create a swarm, take any monster stat block and add the following features.
 
 ##### Swarm Tactics
-This creature has twice as many wounds. This creature can occupy tiles with enemy creatures, but cannot move through them. This creature is immune to conditions that come from single target attacks or spells.
+This creature has twice as many wounds. It can occupy tiles with enemy creatures but cannot move through them. It is immune to conditions that come from single-target attacks or spells.
 
 ##### Swarm Fighting
-This creature adds a success to all attack and maneuver rolls for every quarter of health remaining, rounding up. When making single target attacks or spells, the attack targets an additional creature in range.
+This creature adds a success to all attack and maneuver rolls for every quarter of health remaining, rounding up. When making single-target attacks or spells, the attack targets an additional creature in range.
 
 ##### Swarm Resistance
-Damage from single target attacks, maneuvers, or spells deal half damage, rounded up. While above half health they have expertise in attribute saves.
+Damage from single-target attacks, maneuvers, or spells deals half damage, rounded up. While above half health, they have expertise in attribute saves.
 
 #### Minions
-Minions are weaker, streamlined variants of a monster. Minion stat blocks are identical to the base creature, giving them 1-3 max wounds instead of their normal health. Minions of the same type are grouped together, rolling a single initiative and acting at the same time. Minions only take 2 actions during their turn regardless of AP, and may only take a single reaction. When a minion makes an attack you add 1 success for every other minion of the same type capable of making that attack against the target creature, spending 1 action for all participating minions.
+Minions are weaker, streamlined variants of a monster. Minion stat blocks are identical to the base creature but have 1-3 max wounds instead of their normal health. Minions of the same type are grouped together, rolling a single initiative and acting at the same time. Minions only take 2 actions during their turn regardless of AP and may only take a single reaction. When a minion makes an attack, you add 1 success for every other minion of the same type capable of making that attack against the target creature, spending 1 action for all participating minions.
 
-For example, lets say a party is fighting a group of 6 Skeleton minions. On the skeletons turn they all act together. 3 Skeletons surround one party member and attack that character. You make a single skeleton attack, adding 2 successes to the roll. This spends an action on all 3 skeletons, leaving them with 1 action remaining. They attack again, making the same roll and adding 2 successes.
+For example, let's say a party is fighting a group of 6 Skeleton minions. On the skeletons' turn, they all act together. Three skeletons surround one party member and attack that character. You make a single skeleton attack, adding 2 successes to the roll. This spends an action on all 3 skeletons, leaving them with 1 action remaining. They attack again, making the same roll and adding 2 successes.
 
-The remaining 3 skeletons are further away and spend 1 action moving into range of another player, using their last action to attack. On the players turn they attempt to flee from the skeletons, provoking an opportunity attack. The 3 skeletons all spend their reaction making an opportunity attack, rolling a single attack roll and adding 2 succeses.
+The remaining 3 skeletons are further away and spend 1 action moving into range of another player, using their last action to attack. On the player's turn, they attempt to flee from the skeletons, provoking an opportunity attack. The 3 skeletons all spend their reaction making an opportunity attack, rolling a single attack roll and adding 2 successes.
 
 ### Animal Companions
-Beasts and creatures with -1 or less Intelligence can become animal companions. Finding an animal companion can be challenging, often becoming an adventure on its own. Under normal circumstances a beast is only eligable to become a companion if it meets these conditions:
+Beasts and creatures with an Intelligence of -1 or lower can become animal companions. Finding an animal companion can be challenging, often becoming an adventure on its own. Under normal circumstances, a beast is only eligible to become a companion if it meets these conditions:
 
-- They are young or a newborn.
+- They are young or newborn.
 - They are not hostile.
-- They have an Intelligence score of -1 or less
+- They have an Intelligence score of -1 or lower.
 
-A character can attempt to befriend the animal by making a nature challenge. On success you befriend the animal and they become your companion. New animal companions are untrained. They will follow you, but will not obey any commands or participate in combat. By default a character can only have a single animal companion, however this can be changed with feats.
+A character can attempt to befriend the animal by making a nature challenge. On success, you befriend the animal and it becomes your companion. New animal companions are untrained. They will follow you but will not obey any commands or participate in combat. By default, a character can only have a single animal companion; however, this can be changed with feats.
 
 #### Intelligent Companions
-In some circumstances your GM may allow you to befriend creatures that do not meet the conditions above. In these circumstances you make either a Nature or Conversation challenge, GM's choice, with the GM determining the difficulty. On success they become your companion as normal, however intelligent creatures may obey your commands without training. These companions still require training to effectively fight along side you. Any untrained companion that enters combat is controlled by your GM and acts independently.
+In some circumstances, your GM may allow you to befriend creatures that do not meet the conditions above. In these cases, you make either a Nature or Conversation challenge, at the GM's discretion, with the GM determining the difficulty. On success, they become your companion as normal. However, intelligent creatures may obey your commands without training. These companions still require training to fight effectively alongside you. Any untrained companion that enters combat is controlled by your GM and acts independently.
 
 #### Training
-Companions can be trained to fight and obey your commands. You may train your companion as a downtime action or during a long rest as long as you take no other actions. For every 7 days spent training you make a nature roll against a terrible die, adding a bad die for every 5 CR the creature has. After 3 successes you bond with your companion, allowing them to fight and be given commands.
+Companions can be trained to fight and obey your commands. You may train your companion as a downtime action or during a long rest, as long as you take no other actions. For every 7 days spent training, you make a nature roll against a terrible die, adding a bad die for every 5 CR the creature has. After 3 successes, you bond with your companion, allowing them to fight and follow commands.
 
-Trained creatures gain 1 proficiency to attacks and 2 proficiency to attribute saves. Their max wounds increases based on your level, gaining an extra wound at levels 7, 14, 21, and 28.
+Trained creatures gain 1 proficiency to attacks and 2 proficiency to attribute saves. Their max wounds increase based on your level, gaining an extra wound at levels 7, 14, 21, and 28.
 
 #### Fighting Companions
-Animal companions take their actions during your turn. Each turn they may move, sprint, and make a single basic attack with you controlling their actions.
+Animal companions take their actions during your turn. Each turn, they may move, sprint, and make a single basic attack with you controlling their actions.
 
-While fighting companions have been trained for combat, they are still animals. While your companion is not at full health you make a nature challenge at the start of each of your turns. The challenge for this roll is a terrible die, adding a bad die for each adjacent enemy. If the companion is below half health, rounded down, add terrible dice instead. On fail the companion turns feral, spending its turn attacking a random creature in range. If there is no creature in range it moves towards the closest creature and attacks.
+While fighting companions have been trained for combat, they are still animals. When your companion is not at full health, you must make a nature challenge at the start of each of your turns. The challenge for this roll is a terrible die, with an additional bad die for each adjacent enemy. If the companion is below half health, rounded down, add terrible dice instead. On a failed roll, the companion turns feral, spending its turn attacking a random creature in range. If no creature is in range, it moves toward the closest creature and attacks.
 
 #### Advanced Training
-Completing an adventure or gaining a level with a companion increases your bond with them, making them more effective in combat. For each adventure completed or level gained you may choose one of the following benefits:
+Completing an adventure or gaining a level with a companion increases your bond with them, making them more effective in combat. For each adventure completed or level gained, you may choose one of the following benefits:
 
 - They make two basic attacks each turn instead of one.
-- They learn an attack or maneuver shown on the creatures stat block. You may use this attack or maneuver in place of basic attacks.
+- They learn an attack or maneuver shown on their stat block. You may use this attack or maneuver in place of basic attacks.
 - They gain 2 proficiency points.
 
 #### Companion Equipment
-Trained companions can be given specially made armor and weapons to aid them in combat. Animal equipment can be enchanted, following the same rules as enchanting character equipment. Animal armor replaces one of their normal defense dice with a superior defense die and animal weapons replace a wound die with a wound for all of their attacks and maneuvers. Animal equipment is expensive, usually requiring a blacksmith to custom fit them to your companion.
+Trained companions can be given specially made armor and weapons to aid them in combat. Animal equipment can be enchanted, following the same rules as enchanting character equipment. Animal armor replaces one of their normal defense dice with a superior defense die, and animal weapons replace a wound die with a wound for all their attacks and maneuvers. Animal equipment is expensive, usually requiring a blacksmith to custom-fit it to your companion.
 
 | Equipment | Cost (Medium) | Cost (Large) |
 | :-------: | :-----------: | :----------: |
@@ -1756,28 +1793,28 @@ This can be, and often is, as simple as a village and a dungeon to explore. Sure
 #### Spoken Languages
 
 ##### Common
-- Common language understood by most speicies in Farhome. Its use is so ubiquitous across human nations that the original human language is no longer spoken.
+Common is a universally understood language that nearly every species in Farhome can speak. This language has become so pervasive among human nations that the original human tongues have faded into obscurity, no longer actively spoken or maintained.
 
 ##### Elvish
-- split into 3 categories, High Elf, Wood Elf, Star Elf. High elven and star elven are nearly identical, closer to accents. Wood elven is almost its own language (Valanth).
+The Elven languages are seperated into three distinct categories: High Elf, Wood Elf, and Star Elf. The High Elven and Star Elven languages are closely related, differing mainly in accent. In contrast, Wood Elven is almost a separate language, known among native speakers as Valanth.
 
 ##### Dwarven
-- two variants, high and low dwarvish. Languages are similar, difference in regalness. Low dwarvish is the language of nobility, high dwarvish is more common.
+Dwarvish consists of two dialects: high dwarvish and low dwarvish. While both use a similar structure, they differ significantly in tone and formality. Low dwarvish is seen as the language of nobility, often used in courtly settings and formal ceremonies. In contrast, high dwarvish is more widely spoken among the common populace.
 
 ##### Green Tongue
-- otherwise known as orcish, or Kol'Dak in native tongue, used by most goblins, orcs, and creatures they commonly interact with. Tlani speak an old variant of green tongue (Quel'ilan) with very little overlap with modern orcish.
+Green Tongue, commonly known as Orcish or Kol'Dak in its native tongue, is the primary language spoken by goblins, orcs, and other species they frequently interact with. The Tlani, however, use an ancient variant of this language called Quel'ilan, which has diverged significantly over time, making it distinct from the modern Green Tongue.
 
 ##### Lizan
-- langauge shared by lizardfolk, drakes, kobolds, and a handful of swamp living creatures. While the core language is similar across all species, each race has their own words and phrases that differ.
+Lizan is the language commonly spoken by lizardfolk, drakes, kobolds, and several swamp-dwelling species. Although the core structure and vocabulary of Lizan remain consistent across these groups, each race has developed its own unique words and phrases, resulting in slight variations in dialect.
 
 ##### Sylvani
-- Used by fey creatures, has an enchanting flow that is easy to get lost in, especially when singing. You have expertise with performance challenges when singing Sylvani, and humanoid species that listen are much less likely to pay attention to anyone but you.
+Sylvani, a language used by fey creatures, possesses an enchanting and melodic flow that can easily captivate listeners, especially when sung. You have expertise with performance challenges when singing Sylvani, and humanoid species that listen are much less likely to pay attention to anyone but you.
 
 ##### Druidic
-- language of the druids. Druidic can be understood to an extent by animals. While animals cannot speak it themselves, conversation or nature challenges with animals when speaking druidic have expertise.
+Druidic has a unique connection with nature, allowing it to be partially understood by animals. Although animals cannot speak Druidic themselves, they can easily grasp its meaning. You have expertise with conversation and nature challenges involving animals when speaking Druidic.
 
 ##### Draconic
-- language of dragons, it's nearly impossible for non-dragon species to speak, at least fluently. Draconic words reverberate across the divine weave, making it particularly dangerous for those not fluent in it to speak. Draconic has been known to start small fires, freeze water, and dispell enchantments. Wizards fluent in draconic can use it to channel the elements when casting spells. Spells that deal elemental damage can be prepared and cast in draconic, allowing you to reroll a die in the spellcasting roll. Draconic spells are even more difficult to prepare than normal spells, counting as 2 spells for your prepared spell limit.
+Draconic is notoriously difficult for non-dragon species to speak fluently. Words spoken in Draconic reverberate across the divine weave, making it particularly dangerous. Draconic has been known to start small fires, freeze water, and dispel enchantments. Wizards proficient in Draconic can use it to prepare and cast spells. Preparing a spell in Draconic counts as two spells for your prepared spell limit, and when casting elemental spells in Draconic, you may reroll a die in your spellcasting roll.
 
 ##### Celestial
 - language of spirits, angels, and divine beings
@@ -2141,7 +2178,7 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 ## Bestiary of Monsters
 
 ### Monster Level
-Each monster is given a Monster Level or Challenge, denoted with a C, that gives a rough estimate of the danger a monster poses to the party. Monster level is comparable to a characters level. For example, a monster with a monster level of 5 should be an average challenge to a 5th level character. When building encounters a good estimate of difficulty is comparing the sum level of all monsters and the sum level of the party.
+Each monster is given a Monster Level or Challenge, denoted with a C, that provides a rough estimate of the danger it poses to the party. Monster level is comparable to a character's level. For example, a monster with a challenge of 5 should be an average challenge for a 5th-level character. When building encounters, a good estimate of difficulty is comparing the sum level of all monsters to the sum level of the party.
 
 ### Reading a Monster's Stat Block
 The monsters in this book are arranged into condensed stat sheets. These stat sheets, or statblocks, have all the information you need to run the monster in combat. Lets take a look at the first monster in this book: the wolf.
@@ -2180,10 +2217,10 @@ This section goes over all the miscellaneous statistics that don't fit into anot
 - **Size:** How large the monster is, determining how many tiles this monster occupies.
 
 #### Attribute Scores
-Next is the monster's attribute scores. The scores are arranged into an array with each attribute having two numbers: the first being the attribute score, with the second being the proficiency score for that attributes save and skills. For simplicities sake, monsters do not use the same method for determining their attribute save proficiency. Instead they use the proficiency score for that particular attribute. The proficiency score also determines their proficiency with skills related to that attribute. For example, the Wolf has a Dexterity score of 2 with a proficiency score of 2. They have 2 proficiency when making Dexterity saves, and 2 proficiency with their acrobatics and stealth skills.
+Next are the monster's attribute scores. The scores are arranged into an array, with each attribute having two numbers: the first is the attribute score, and the second is the proficiency score for that attribute's saves and skills. For simplicity's sake, monsters do not use the same method for determining their attribute save proficiency. Instead, they use the proficiency score for that particular attribute. This score also determines their proficiency with skills related to that attribute. For example, the Wolf has a Dexterity score of 2 and a proficiency score of 2. It has a proficiency of 2 when making Dexterity saves and a proficiency of 2 with its Acrobatics and Stealth skills.
 
 #### Feats and Abilities
-The next section contains the monsters feats and abilities. The Wolf in our example has _Pact Tactics_ which gives them combat advantage when their target is adjacent to an ally. These effects are almost always passive, describing some permanent effect or skill the monster possesses.
+The next section contains the monster's feats and abilities. The Wolf in our example has _Pack Tactics_, which gives it combat advantage when its target is adjacent to an ally. These effects are almost always passive, describing some permanent effect or skill the monster possesses.
 
 #### Actions and Maneuvers
 The final section describes any special actions or maneuvers a monster can make. Like players, monsters can take all the default actions laid out in the Combat section, such as Move, Sprint, and Use actions. This section will always contain at least one action that replaces the monster's default attack.
@@ -6214,7 +6251,7 @@ The beam reaches 2 tiles further and deals an extra 0/1 in fire damage for every
 - **Duration:** instant
 - **Damage Type:** lightning
 
-Call a bolt of lightning to strike a nearby creature you can see. Make a spellcasting roll against the creatures Dexterity save. On success they take 1/2 in lightning damage, gaining a level of Paralyze for each critical until the end of their next turn. If cast in rainy conditions this spell only costs 5 AP.
+Call a bolt of lightning to strike a nearby creature you can see. Make a spellcasting roll against the creature's Dexterity save. On success, they take 1/2 lightning damage and gain a level of Paralyze until the end of their next turn for each critical. If cast in rainy conditions, this spell costs only 5 AP.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -6227,7 +6264,7 @@ Add an enhanced die for every level cast above 1st.
 - **Duration:** instant
 - **Damage Type:** cold
 
-Fire a frigid beam at 3 creatures in range you can see. Make a spellcasting roll against the creatures Stamina save. On success, the creature takes 0/1 in cold damage and gains Slow 1, or Slow 2 on a critical.
+Fire a frigid beam at 3 creatures in range you can see. Make a spellcasting roll against the creature's Stamina save. On success, the creature takes 0/1 in cold damage and gains Slow 1, or Slow 2 on a critical.
 
 Add an enhanced die and you may target an additional creature for every level cast above 1st.
 
@@ -6239,7 +6276,7 @@ Add an enhanced die and you may target an additional creature for every level ca
 - **Range:** 10
 - **Duration:** instant
 
-Attempt to read the flow of magic in a 10x10 area centered on a point in range. Making a spellcasting roll against 2 bad dice. On success you can see a faint outline over any magical effect in the area. For each critical you are able to determine the school of a given magic effect and a rough idea of the magic's purpose. For example you may learn a magical effect is a trap, but not how the trap is triggered or what the trap does.
+Attempt to read the flow of magic in a 10x10 tile area centered on a point in range. Making a spellcasting roll against 2 bad dice. On success you can see a faint outline over any magical effect in the area. For each critical you are able to determine the school of a given magic effect and a rough idea of the magic's purpose. For example you may learn a magical effect is a trap, but not how the trap is triggered or what the trap does.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -6462,7 +6499,7 @@ Add an enhanced die for every level cast above 2nd.
 
 Conjure spectral hands to take up arms and defend you. You may conjure up to 5 spectral hands and each hand can hold a melee weapon. Make a spellcasting roll adding a terrible die for each hand conjured. On success the hands grab any weapons of your choosing not held by another creature within 3 tiles of you, returning to float beside you. Each time you use your spectral hands it consumes one of the hands and drops whatever it was holding.
 
-For the duration of this spell when you take the attack action you may choose to attack with your spectral hands. The attack uses your spellcasting roll and deals 1/0 in damage for each weapon matching the type of the held weapon. You have combat advantage with the attack if you're holding two or more weapons.
+For the duration of this spell when you take the attack action you may choose to attack with your spectral hands. The attack uses your spellcasting roll and deals 1/0 in physical damage, adding 0/1 for every weapon past the first. The damage type is based on the weapon used. You have combat advantage with the attack if you're holding two or more weapons.
 
 When attacked you may make a reaction attack against the attacker using a single spectral hand. The attack uses your spellcasting roll and deals 1/0 in damage matching the type of the held weapon.
 
@@ -10092,7 +10129,7 @@ This can only be used when targeted by a ranged weapon. Instead of making a defe
 
 Go into a frenzied rage, focusing your fury into your attacks. For the next minute you are Strengthened. While Strengthened you cannot take reactions.
 
-***Enhanced:*** Choose a humanoid creature within 5 tiles of you to be the focus of your rage. Make an intimidation challenge against the creatures Willpower save. On success they are frightened by you while you are Strengthened.
+***Enhanced:*** While Strengthend, when you roll a triumph in your defense or attribute save rolls you may reroll a wound die in the damage roll, taking the new result.
 
 ***Superior:*** While Strengthened you add a superior die to Strength and Stamina saves.
 
