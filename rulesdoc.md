@@ -1788,6 +1788,39 @@ This can be, and often is, as simple as a village and a dungeon to explore. Sure
 - The Zoranth Empire: A collection of human settlements and kingdoms, united under one rule. Expanding across world, first mentions of ascended. Ends with a battle between ascended, the noble class is torn apart and the rulers die. Zoranth empire splits into minor nations.
 - The Golden Empire: A few hundred years after the Zoranth Empire, a human nation begins to expand, starting the Golden Empire. The Golden Empire succeeds in taking over the majority of the continent, leaving the Far Wilds.
 
+#### The Divine Empire
+The earliest known empire, referenced only in the oldest texts, is known as the Divine Empire. This empire is largely forgotten, remembered only by scholars of ancient civilizations. While few scraps of text from that era confirm its existence, the stories of the Divine Empire are often considered myths and legends. The Divine Empire once spanned nearly a quarter of the continent, with its capital located somewhere in the far west.
+
+The empire was ruled by the Fomorians. Though no depictions of them exist, myths describe them as the progenitors of the Fallen, a species of celestial-touched humans. It is said that during this empire, Angels and Gods, created from the divine weave, roamed the earth, guiding the first humans, elves, and dwarves to civilization.
+
+The Tlani, a species as old as the Fomorians, fell under the rule of Elder Gods. The Elder Gods kept them as thralls, using them to sow despair, insanity, and chaos into the mortal realm. Legends and myths passed down from this age tell of a war between the Gods of creation and the Elder Gods and their servants. This war brought catastrophe to the lands, nearly destroying the Fomorians in the process.
+
+A group of elves, seeking to end the war, aimed to free the Tlani from the influence of the Elder Gods. Along with the Gods of creation, they succeeded in freeing the Tlani and banishing the Elder Gods to the chaotic void, far from the realms of creation. However, their victory came at a great cost. The Gods of creation were gravely injured, returning to the divine weave. Before they were banished the Elder Gods cursed the elves, turning them into the first orcs.
+
+The severely weakened Divine Empire soon collapsed. The Fomorian Mordiggian, a cultist of Ghast, the god of chaos and ruin, was deceived by an Angel who promised the return of his dead god. Instead, Mordiggian brought ruin to the Divine Empire, scattering the Fomorians and transforming them into the celestial-touched Fallen that exist today.
+
+#### The Forest of Time
+After the fall of the Divine Empire, the remaining civilizations were scattered across the continent. Most species became nomadic, traveling far and wide. The elves, however, were the first to settle, choosing the great forests as their home. Naturally attuned to the divine weave, they used their magic to create vibrant cities among the ancient trees. The ivory spires of their cities rose as tall as the trees, and the elves flourished.
+
+It is unknown how much time had passed since the fall of the Divine Empire when the elves began to spread across the continent. They created magnificent works of architecture and art, bending nature to their will and weaving it throughout their cities. They practiced magic and became powerful mages. The Forest of Time endured so long that even the long-lived elves remembered little of the Divine Empire. Most of their creation myths begin at this time, telling how the elves were born from the forests themselves.
+
+During this era, other species also began to establish roots. The dwarves dug into the earth, the Tlani retreated to their reclusive burrows atop the mountains, and small human settlements spread sparsely across the land. The elves, content in their enchanted forests, paid little attention to the rise and fall of these other species. They were unconcerned with the growing human settlements that eventually transformed into large cities fortified with castles and stone walls.
+
+Over the centuries, conflicts between the now sprawling nations grew, eventually spilling over into the elven forests. The other nations chopped down the enchanted trees to fuel their wars and expand their farms, encroaching upon the elves' once untouched domain.
+
+#### The Zoranth Empire
+As conflicts between minor nations intensify, one nation rises above the rest. Centered in the capital city of Zoranth, the Zoranthian Empire emerges, conquering neighboring nations and city-states. Over the next few decades, the empire grows steadily, fueled by both conquest and coerced annexation, as smaller nations seek the relative safety offered by the empire.
+
+Within a few centuries, the Zoranthian Empire spans from the Far Wilds in the east to the Thalian Forest in the west, covering a quarter of the continent. The demand for soldiers eventually exceeds what Zoranth alone can provide, prompting the empire to open its ranks to any who wish to join. Promising land and citizenship in exchange for service, people from various species—including Dwarves, Lizardfolk, and a handful of elves dissatisfied with their forest kingdoms—join the Zoranthian armies.
+
+These new recruits bring valuable experience and expertise from their respective cultures. The Zoranthian Empire flourishes as it adopts new crafting techniques, learns to enchant weapons and armor, and strengthens its military with magic. However, with the newly recruited legions comes the need to pay them, and as the Zoranthians promised land in exchange for service they redouble their expansion efforts. The Zoranthian Empire's eyes turn to the Thalian Forest, a sprawling, ancient woodland that cuts across the continent and houses one of the four Elven cities.
+
+#### The Rise of the Ascended
+
+#### The Great War
+
+#### The Golden Empire
+
 ### Languages
 
 #### Spoken Languages
@@ -2065,6 +2098,24 @@ You can maintain flight for a limited time. On your turn, you may take flight us
 ### The Empire
 
 ### Far Wilds
+
+#### The City of Farhome
+
+#### Shadowfen Keep
+
+#### Hogsfeet
+
+#### Ashgrove
+
+#### Wintergate
+
+#### Wanderers Rest
+
+#### The Elven Forests
+
+#### Dur Buldar
+
+#### Toadfen Swamp
 
 ### The Realms of Creation
 
@@ -6235,7 +6286,7 @@ Add an enhanced die for every level cast above 1st.
 *1st level*
 
 - **Casting Time:** 7 AP
-- **Range:** self
+- **Range:** touch
 - **Duration:** instant
 - **Damage Type:** fire
 
@@ -7551,7 +7602,7 @@ The duration increases by 10 minutes and you add a critical to your roll for eve
 - **Range:** 5
 - **Duration:** 10 minutes
 
-inflict a creature you can see with a hex. Make a spellcasting roll against the creatures Willpower save. On success they gain hex, or hex 2 on a critical.
+Inflict a creature you can see with a hex. Make a spellcasting roll against the creatures Willpower save. On success they gain hex, or hex 2 on a critical.
 
 Add an enhanced die for every level cast above 1st.
 
@@ -7563,7 +7614,7 @@ Add an enhanced die for every level cast above 1st.
 - **Duration:** 10 minutes
 - **Damage Type:** psychic
 
-A foreboding presence surrounds up to 5 creatures in range you can see. Make a spellcasting roll against the creatures Charisma save, adding a bad die for each creature targeted past the first. On success the creatures and their surrounding tiles are covered in dim light. Mundane lights have no effect on these tiles. While in dim light this creatures add a terrible die to all Willpower saves and takes 1/0 in psychic damage whenever they gain Hex.
+A foreboding presence surrounds up to 5 creatures in range you can see. Make a spellcasting roll against the creatures Charisma save, adding a bad die for each creature targeted past the first. On success the creatures and their surrounding tiles are covered in dim light. Mundane lights have no effect on these tiles. While in dim light these creatures add a terrible die to all Willpower saves and take 1/0 in psychic damage whenever they gain Hex.
 
 Add an enhanced die for every level cast above 1st.
 
