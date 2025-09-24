@@ -44,20 +44,35 @@ Character's skills are broken down into several categories. Improving a category
 #### Skill Descriptions
 
 **Acrobatics:** Your general agility and ability to move over hard/difficult terrain, balance.
+
 **Endurance:** Ability to resist exhaustion, use muscles for prolonged time, eg: long distance running
+
 **Muscle:** Short term/instantaneous use of muscle, eg: ripping a door open, jumping really high, etc.
+
 **Survival:** Ability to handle harsh and dangerous environments, go without eating, recover from poison/wounds
+
 **Espionage:** Collect useful information, open locks, glean info from conversation or data that others miss.
+
 **Perception:** Ability to spot things, see through invisiblity, hear things, etc.
+
 **Piloting:** Ability to use anything that isn't your own body. eg: using a mech, riding a bike or piloting a space ship.
+
 **Stealth:** Ability to avoid detection.
+
 **Biology:** Understanding of the natural world, poisons, creatures, beasts, medicine (physical).
+
 **Chemistry:** Understanding of the chemical world, medicines, drugs, etc.
+
 **Engineering:** Understanding of how mechanical things work, ability to repair physical things, understand robots, etc.
+
 **Hacking:** Understanding of digital things. Hack into security systems, take over robotic systems, coding, etc.
+
 **Conversation:** Talking and lying to others. Diplomacy, bartering, etc.
+
 **Insight:** Reading body language, finding connections in information, seeing true intent.
+
 **Legends:** Knowledge of the past, weaving, religion, old ruins, etc.
+
 **Guile:** Anything that displays your cunning or suaveness, playing an instrument, impersonating someone, tricking people, intimidation, etc.
 
 
