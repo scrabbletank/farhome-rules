@@ -137,8 +137,57 @@ Some gear comes with Bonus Modifiers, displayed as a number after their name. Fo
 ### Casters
 Casters are special equipment used by Psykentic and Machine Soul Espers to use their abilities. Casters channel the innate energy in a person to power any of the spells socketed inside. As spells are physical devices they have to be socketed into a Caster, taking up a mod slot. Due to this, Casters tend to have many more mod slots than other items. Casters have an energy limit, increasable with mods, that determines the maximum amount of energy that can be expended at one time. Spells that require more energy than the casters limit can't be used by that caster.
 
+#### Sustained Spells
+There's no more concentration saves, instead some spells have the Sustained tag. While a spell is sustained it reduces the energy limit of the caster by the energy spent on the spell. You can stop sustaining a spell at any time, causing the effects of the spell to end.
 
 ## Espers
 Spells in this game are much flatter than farhome. For example, there is no spell level. As long as you have the spell capsule socketed into a caster you can cast the spell. Instead, all spells can be empowered by spending more energy. The amount of energy you can spend is based on the casters energy limit, with spells having varied base energy costs.
 
 Spells have a base cost ranging from 0-4. Spells that cost 0 are considered cantrips and can be cast even when the user has no energy left.
+
+## Robot Pets
+You can find or build your own robot companion. While having a companion with you your loadout limit is reduced. Companions have their own base stats, along with their own loadout limit. Robots can only equip robot specific items into their loadout, and their loadout can only be changed by an engineer in a proper facility. 
+
+Robots have no Wounds, instead using Armor Points. A campanion that loses all of its Armor Points is broken and no longer functions. Companions can be patched up over a short or long rest. Characters make an Engineering roll, repairing armor based on the roll. Each time a companion is broken it loses access to one of its loadout, only regaining access after being properly repaired at a facility.
+
+Autonomous companions act on your turn, taking their actions when you do. Some companions can be Piloted, such as a Mech Suit. These kinds of companions follow the same rules as normal robot pets, but require an active pilot to take any action.
+
+## Combat
+
+### Initiative
+Spacehome uses a simple initiative system. Each creature in combat places a colored die in a bag. Creatures that act on the same initiative, such as characters with robot pets, do not add extra dice. Dice are drawn from the bag one at a time. When a party memebr or or allied die is drawn, the players choose a party member or ally to activate. When a enemy die is drawn, the game master chooses an enemy to activate. Each creature can only activate once per round.
+
+Some situations can cause dice to be added to the initiative bag. For example, when one side is ambushing another they add up to 3 additional dice, depending on how surprising the ambush is, how prepared they were, etc. Likewise, some Abilities can add dice for the following round, making it more likely for one side to act.
+
+As each creature can only act once per turn, when drawing a die for a team that has no more creatures left to act, the dice is ignored and discarded. Any dice added to the bag last for only a single round. For example, only the first round of combat gets the bonus from surprise.
+
+
+## Feats
+A bunch of ideas for feats, in no particular order.
+
+**Close Combat**
+You add 3 successes to Reflex saves against attacks, abilities, or effects that are adjacent to you.
+
+**Heavy Loadout**
+Your Loadout Limit is increased by 3.
+
+**Longshot**
+Add 1 success when making Ranged attacks against a target 6 tiles or further. In addition, if no enemy is within 6 tiles of you add a critical to your Ranged attacks.
+
+**Skirmisher**
+Hiding behind cover gives you +1 success to defense rolls.
+
+**Armor Specialist**
+When an attack would break your armor, if the damage would not outright kill you, prevent all wounds lost from the attack.
+
+**Light Loadout**
+While you are 3 points below your Loadout Limit, your movespeed is increased by 1.
+
+**Ace Pilot**
+When making a Piloting check, you may remove a single bad or terrible die from the challenge. You must take a long or short rest to use this feat again.
+
+**Careful Hacking**
+When making a Hacking check, as long as you do not critically fail you will not raise any alarm.
+
+**Scavenger**
+You can attempt to salvage spare parts from defeated robots/mechs. A successful Engineering roll allows you to restore 1d3 Armor Points for a creature or repair a damaged subsystem of a robot pet.
