@@ -78,13 +78,21 @@ Character's skills are broken down into several categories. Improving a category
 
 #### Combat Oriented Skills
 **Ranged:** Ability to use common guns and rifles of all kinds.
+
 **Heavy Weapons:** Ability to use big boy guns and melee weapons. Things that explode, gravity hammers, BFGs.
+
 **Melee:** any melee combat, using weaposn or unarmed, clubs, laser swords, etc.
+
 **Reflex:** Ability to defend against things that require you to move your body. eg: diving out of an explosion, avoiding dangerous ground, general dodging.
+
 **Toughness:** Ability to withstand things with your body. eg: blocking/brushing off melee hits, glancing blows from gunfire, being punched in the face.
+
 **Mind:** Ability to withstand mind altering things, mainly from Espers.
+
 **Psykinetics:** Ability to use Casters, channelling bodily energy to power magic-like things like explosions, alter gravity, lightning, etc.
+
 **Machine Soul:** Ability to use Casters to influence the soul eminating from constructs/inanimate objects. Can do things like mind control robots, alter the properties of physical things, mess with technology in general.
+
 **Weaving:** Doesn't require casters, How attuned the person is to the divine weave. Basically magic. Can do things like heal others, fate reading/altering abilities, altering perception of living things.
 
 
