@@ -136,6 +136,11 @@ Energy is used by Espers to cast spells and perform Weavings. Energy is fairly l
 ## Rolls
 Rolls in this game use the same dice as Farhome (with the exception of defense dice) and use an altered method of calculating rolls. All rolls are based off of 1 of the 25 skills. Starting with 5 white dice, replace a white die with a green die for each point of proficiency in a skill. Once all white dice have been replaced, replace green dice with yellow dice for each remaining proficiency. Any proficiency above 10 adds a flat success for every point above 10.
 
+Players will always roll 5 dice for their rolls. Dice cannot be added or removed, with the exception of hero dice.
+
+### Rerolls
+Some abilities or effects give you rerolls. Each reroll allows you to reroll 1 die. You may reroll any dice in your roll, taking the new value. You can reroll the same die multiple times, or reroll multiple dice.
+
 ### Skill Proficiency
 Skill proficiencies are calculated based off the proficiency of the category they are under. Skills that you are proficient in (The skills you choose at character creation or learned through level ups) gain the full benefit of the categories proficiency. All other skills have a proficiency equal to half the categories level, rounded down.
 
@@ -185,6 +190,76 @@ Some situations can cause dice to be added to the initiative bag. For example, w
 As each creature can only act once per turn, when drawing a die for a team that has no more creatures left to act, the dice is ignored and discarded. Any dice added to the bag last for only a single round. For example, only the first round of combat gets the bonus from surprise.
 
 
+### Actions
+Players have 5 AP which they can spend on various actions during their turn.
+
+#### Movement (1 AP, Limit 2)
+Spend an action and move up to their movement speed. Does not need to happen all at once, can be spent between other actions.
+
+#### Attack (Various)
+Make a basic attack with their weapon. Most weapons cost 2 AP, but some weapons cost more or less. Many weapons come with manuevers or alternate firing modes which cost more or less AP.
+
+#### Dual Wield Attack (+1AP)
+Attacks whiel Dual wielding use a single attack roll based on their main hand weapon. A Dual Wield attack adds the offhands base damage to the attack. You may choose a single target for the attack, combining the damage into a single hit for the purposes of armor and resistances. Alternatively, you can declare a second target for the offhand damage as long as the target is in range of the offhand.
+
+You may dual wield any two one-handed weapons and use them to attack as long as both weapons are in range. For example, you may use a pistol and a dagger as long as the target is adjacent to you. This can be used with any attack/manuever as long as the attack/manuever does not require both hands.
+
+#### Use Item (1 AP)
+Using an item, such as a stim pack, costs 1 AP unless otherwise stated. Opening doors or grabbing an object does not cost any AP, but interacting with one does. For example, opening an unlocked door costs no AP, but using a keypad to unlock a door costs 1 AP.
+
+#### Manuever/Weaving (Various)
+Manuevers/Weavings have their own AP costs listed. Like Farhome, they have restrictions on when they can be used:
+- Can only use one Manuever/Weaving a round
+- Cannot use the same Manuever/Weaving on two consecutive rounds
+- Reactions ignore these limits, but can only be used once per creatures turn.
+
+#### Casters (Various)
+Basically spells. They have their own energy/AP costs, but otherwise there is no limit on how many you can do a turn.
+
+#### Disengage (2 AP)
+Safely disengage from melee attackers. Attempting to move away from an enemy without disengaging provokes an opportunity attack.
+
+#### Opportunity Attacks (Free Action, 1/Round)
+While holding a melee weapon you may make an opportunity attack when a creature willingly leaves your zone of control. You can only make a single opportunity attack each round
+
+#### Overwatch (1 AP)
+If you have no enemy adjacent to you, you can declare Overwatch and end your turn. While in overwatch you cannot make opportunity attacks or take reactions. When an enemy at least 3 tiles away from you moves without cover you may make a basic ranged attack against them.
+
+Overwatch ends after you make an attack or at the start of your next turn.
+
+### Cover
+Cover comes in two forms, Light and Heavy cover. While behind cover, any Reflex or Toughness roll you make has added successes.
+
+- **Light Cover:** +1 Success.
+- **Heavy Cover:** +3 Successes.
+
+## Conditions
+various abilities/attacks inflict conditions.
+
+**Suppressed**
+Can stack up to 3 times. When gaining stacks that would take you over 3, you lose all stacks of Suppressed and gain Stun. For each stack of Suppressed your movespeed is decreased by 1 per stack and any attack you make has -1 Success per stack. Lose all stacks after taking a move action.
+
+**Stunned**
+When stunned you lose all AP, cannot overwatch, or take reactions. During your turn you may only take a single move, attack, or caster action, ending your turn immediately after. Unless otherwise specificed, Stun is removed at the end of your turn.
+
+**Bloodied**
+Does nothing by itself, but many abilities gain benefits against Bloodied targets. A creature is considered bloodied if their Wounds are below their maximum.
+
+**Poisoned**
+When making any non-defense roll, lose 1 Success per stack of Poison. Poison does not accumulate, instead only the Poison with the highest stacks is used. Unless otherwise specified, Poison lasts for 10 minutes.
+
+**Bane**
+Bane alters a creatures fate for the worse. When making any roll you must keep a die as white for each stack of bane. For example, if you have 6 proficiency in a skill and have Bane 2 you would roll 1 yellow, 2 green, and 2 white dice.
+
+**Blind**
+Blinded creatures cannot take Overwatch. They lose 2 Successes on Attacks, Reflex rolls, and any Caster ability that requires sight. Any attack or casting made against a target more than 6 tiles away automatically fails.
+
+**Grappled**
+Grappled creatures cannot move and automatically fail Reflex saves. While grappled, creatures lose access to one of their arms, preventing them from using two handed weapons or dual wielding.
+
+**Disrupt**
+Disrupt affects a creatures items rather than the creature itself. While an item is disrupted it no longer functions and cannot be used. When an item that grants Shielding is disrupted, it instead changes its recharge to 0. Mundane items, such as a dagger, cannot be disrupted.
+
 ## Feats
 A bunch of ideas for feats, in no particular order.
 
@@ -214,3 +289,42 @@ When making a Hacking check, as long as you do not critically fail you will not 
 
 **Scavenger**
 You can attempt to salvage spare parts from defeated robots/mechs. A successful Engineering roll allows you to restore 1d3 Armor Points for a creature or repair a damaged subsystem of a robot pet.
+
+**Bloodlust**
+You may reroll 1 die with Melee attacks while you are Bloodied.
+
+**Percussive Maintainence**
+Once per round you may attempt to remove Disrupt from an item. Make an Engineering roll against a terrible die per Loadout point of the item (or recharge rate for shields), on a success the item is no longer disrupted.
+
+
+## Gear Examples
+
+### Ranged
+
+>**Laspistol**
+>- Damage: 1
+>- Damage Type: Fire
+>- Critical Effect: +1 Success
+>
+>***Attacks***
+>
+>**Aimed Shot**
+>- AP: 2
+>- Range: 5/8/12
+
+>**Lasrifle**
+>- Damage: 1/1
+>- Damage Type: Fire
+>- Critical Effect: Inflict Suppression
+>
+>***Attacks***
+>
+>**Aimed Shot**
+>- AP: 2
+>- Range: 8/12/20
+>
+>**Full Auto**
+>- AP: 4
+>- Damage: 1/3
+>- Critical Effect: Inflict Suppression per critical
+>- Range: 3/6/8
