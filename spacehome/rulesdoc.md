@@ -95,6 +95,17 @@ Character's skills are broken down into several categories. Improving a category
 
 **Weaving:** Doesn't require casters, How attuned the person is to the divine weave. Basically magic. Can do things like heal others, fate reading/altering abilities, altering perception of living things.
 
+### Fate Points
+Fate Points replace hero dice. Players get 3 and they gain more throughout the story or by leveling up. Players can spend fate points to do several things:
+
+|      Cost      |    Effect    |
+| :--------------: | :----------: |
+| 1 | Change the result of a roll from a success to a Triumph |
+| 1 | Change the result of a roll from a Disaster to a failure |
+| 2 | Redo a roll. Both the character and cotested dice are rerolled as if it was a new action |
+| 3 | Increase your maximum Action Points for an encounter by 1 |
+| 1+ | Reduce the damage of a lethal blow by 1 per fate point |
+
 
 ### Making a Character
 Start by choosing a species. Species determines starting wounds, movement, initial feat, etc. Choose 7 of the 25 skills to be proficient in. Assign 4 points to categories. Categories cannot go above 3 during character creation. Choose a feat you meet the requirements for.
@@ -103,6 +114,8 @@ Start by choosing a species. Species determines starting wounds, movement, initi
 When leveling up, you get 2 points to improve your character. You can spend them on anything you want, but cannot choose the same category twice in a single level. Eg: You can't put 2 points into Athletics, but can put 1 into Athletics and 1 into Martial.
 
 In addition, you can spend points to improve other aspects of your character. Some of these require multiple points, and points can be acrued over multiple levels. Eg: You can put 1 point into increasing your wounds now, and then at the next level put in another point.
+
+You regain all spent fate points.
 
 
 ##### Level Up Options
@@ -114,6 +127,12 @@ In addition, you can spend points to improve other aspects of your character. So
 | Gain Wounds |      2       | Increases your max Wounds by 1 |
 | Learn Feat |      2       | Gain a Feat you meet the requirements of |
 | Learn Proficiency |      2       | Become proficient in a new skill |
+
+#### Fat Point Increase
+Your maximum fate points are increased by 1 at levels 5, 15, and 25.
+
+#### Action Point Increase
+Your maximum action points are increased by 1 at level 10.
 
 
 ### Hit Points
@@ -148,6 +167,9 @@ Skill proficiencies are calculated based off the proficiency of the category the
 When you lose all your life, you begin making death saving throws. Death saves use your Survival skill, with an increasing difficulty every roll. Failing a death save puts you in a critical state for the next day. While in a critical state, the next death save you fail kills you. You remain in a critical state even if you are stablized or healed until you have completed a long rest.
 
 Death saves start against 1 terrible die, increasing by 1 for each roll.
+
+### Outcome Rolls
+Some abilities, attacks, or random effects may require you to roll a single die to determine an outcome. This can come in many forms, but is usually used to determine the severity of an outcome. For example, if you trip an alarm, the game master may make you roll a bad die to see who responds. a Blank roll could mean just a utility robot, a failure a lone guardsman, or on a Disaster an entire patrol.
 
 ## Gear
 A good chunk of character progression comes from the gear they use. Normally a character can wear a single piece of armor and use a single Caster. Outside of those items characters can equip gear up to their loadout limit. By default this limit is 6, and some pieces of gear cost more or less loadout points. This doesn't mean you cant use things that aren't in your loadout, it's just your loadout is what is immediately available to you. You can change your loadout at any time by spending a full round swaping things out of your pack. You can change any number of items when changing your loadout, as long as your total equipped items are less than your loadout limit.
@@ -191,7 +213,7 @@ As each creature can only act once per turn, when drawing a die for a team that 
 
 
 ### Actions
-Players have 5 AP which they can spend on various actions during their turn.
+Players have 5 AP which they can spend on various actions during their turn. Creatures may take 1 Reaction per round.
 
 #### Movement (1 AP, Limit 2)
 Spend an action and move up to their movement speed. Does not need to happen all at once, can be spent between other actions.
@@ -219,7 +241,7 @@ Basically spells. They have their own energy/AP costs, but otherwise there is no
 #### Disengage (2 AP)
 Safely disengage from melee attackers. Attempting to move away from an enemy without disengaging provokes an opportunity attack.
 
-#### Opportunity Attacks (Free Action, 1/Round)
+#### Opportunity Attacks (Reaction)
 While holding a melee weapon you may make an opportunity attack when a creature willingly leaves your zone of control. You can only make a single opportunity attack each round
 
 #### Overwatch (1 AP)
@@ -227,11 +249,53 @@ If you have no enemy adjacent to you, you can declare Overwatch and end your tur
 
 Overwatch ends after you make an attack or at the start of your next turn.
 
+#### Channeling
+Some attacks or abilities can be channeled for extra effects. An ability is channeled if it is used repeatedly without taking another action inbetween. Abilities can be channeled through rounds as long as the character channeling the ability does not take another action, such as a reaction. Channeling can be interrupted by certain effects, such as being Stunned.
+
+Abilities that use the _Channeling_ tag will also list how many times it can be channeled in a row, what effects are gained, or any outcome that occurs after channeling is ended.
+
 ### Cover
 Cover comes in two forms, Light and Heavy cover. While behind cover, any Reflex or Toughness roll you make has added successes.
 
 - **Light Cover:** +1 Success.
 - **Heavy Cover:** +3 Successes.
+
+
+### Damage
+
+##### Damage Types
+|                  |              |              |
+| :--------------: | :----------: | :----------: |
+|   **Elemental**  |              | |
+|                  |  Heat  | damage from fire, laser, or plasma |
+|                  |  Cold   | freezing cold from cryo/endothermic weapons |
+|                  |    Lightning    | lightning n shit.  |
+|                  |   Acid   | poisonous or corrosive liquids |
+|   **Physical**  |              | |
+|                  |  Kinetic  | Raw physical force, such as clubs, hammers, or bullets. |
+|                  |  Explosive   | Explosive force from grenades or rockets. |
+|                  |    Cutting    | damage from slashing or piercing attacks, like swords, daggers, or bullets intended to cause bleeding |
+
+### Tags
+Various items and abilities use tags as shorthand to explain additional effects.
+
+**Bleeding**
+Attacks inflict Bleeding on hit. Bleeding lasts for 10 minutes and causes the next source of healing to heal half as much, rounded down. Removed after being healed.
+
+**EMP**
+The attack has EMP-like effects. EMP attacks deal 1 extra damage to shields and disables their recharge for 1 round.
+
+**Armor Piercing (1/2/3)**
+Armor Piercing reduces an armors Rating for the given attack. For example, an attack with Armor Piercing 2 reduces the Rating of an armor by 2 when calculating damage for that attack.
+
+**Corrosive**
+Corrosive attacks deal more damage against armor. An attack that deals damage to armor removes an additional point of armor, even if the damage is less than the armors Rating.
+
+**TWo Handed**
+Requires two hands to wield.
+
+**Channeling**
+The ability can be channeled for greater effects. Channeling is broken if you take any other action but the channeled ability.
 
 ## Conditions
 various abilities/attacks inflict conditions.
@@ -240,7 +304,7 @@ various abilities/attacks inflict conditions.
 Can stack up to 3 times. When gaining stacks that would take you over 3, you lose all stacks of Suppressed and gain Stun. For each stack of Suppressed your movespeed is decreased by 1 per stack and any attack you make has -1 Success per stack. Lose all stacks after taking a move action.
 
 **Stunned**
-When stunned you lose all AP, cannot overwatch, or take reactions. During your turn you may only take a single move, attack, or caster action, ending your turn immediately after. Unless otherwise specificed, Stun is removed at the end of your turn.
+When stunned you lose all AP, cannot overwatch, or take reactions. During your turn you may only take a single move, attack, or caster action, ending your turn immediately after. Becoming stunned ends any channeled effect the creature was maintaining. Unless otherwise specificed, Stun is removed at the end of your turn.
 
 **Bloodied**
 Does nothing by itself, but many abilities gain benefits against Bloodied targets. A creature is considered bloodied if their Wounds are below their maximum.
@@ -296,6 +360,17 @@ You may reroll 1 die with Melee attacks while you are Bloodied.
 **Percussive Maintainence**
 Once per round you may attempt to remove Disrupt from an item. Make an Engineering roll against a terrible die per Loadout point of the item (or recharge rate for shields), on a success the item is no longer disrupted.
 
+**Sentinel**
+You may take 2 Reactions per round.
+
+**Heavy Weapons Expert**
+You may take a move action in between actions of a channeled ability without breaking the channeling effect.
+
+**Quick Draw**
+If you are not suprised, add 2 extra dice to the initiative bag during the first round of combat.
+
+**Machine Whisperer**
+When rolling an outcome die for a weapon, machine, or other non-living thing, you may roll two dice, taking your preferred outcome.
 
 ## Gear Examples
 
@@ -303,8 +378,8 @@ Once per round you may attempt to remove Disrupt from an item. Make an Engineeri
 
 >**Laspistol**
 >- Damage: 1
->- Damage Type: Fire
->- Critical Effect: +1 Success
+>- Damage Type: Heat
+>- Critical Effect: +1 Success per critical
 >
 >***Attacks***
 >
@@ -314,7 +389,7 @@ Once per round you may attempt to remove Disrupt from an item. Make an Engineeri
 
 >**Lasrifle**
 >- Damage: 1/1
->- Damage Type: Fire
+>- Damage Type: Heat
 >- Critical Effect: Inflict Suppression
 >
 >***Attacks***
@@ -328,3 +403,106 @@ Once per round you may attempt to remove Disrupt from an item. Make an Engineeri
 >- Damage: 1/3
 >- Critical Effect: Inflict Suppression per critical
 >- Range: 3/6/8
+
+### Heavy Weapon
+
+>**Mining Laser**
+>- Damage: 2/1
+>- Damage Type: Heat
+>- Critical Effect: Armor Piercing per critical
+>
+>***Attacks***
+>
+>**Ignition**
+>- AP: 2
+>- Range: N/A
+>- Damage: 0
+>- Ignites the mining laser, priming it for use. The weapon cannot be used if it has not been ignited, and must be ignited again if channeling is broken for any reason.
+>
+>**Fire**
+>- Tags: _Channeling_
+>- AP: 3
+>- Max Stages: 3
+>- Range: 4/7/10
+>- Can be channeled up to 3 times. Each stage adds a wound die and a failure. After reaching stage 3 make an Outcome roll. Roll a bad die: on a blank the weapon deactivates, on a failure the gun overheats for 1 round, and on a Disaster the weapon becomes damaged. The weapon is unusable for 1 full round when overheated.
+
+## Spell Examples
+
+### Psykinetics
+
+**Plasma Shot**
+- Energy Cost: 1
+- Cast Time: 2 AP
+- Range: 10
+- Tags: *Armor Piercing 1*
+
+Create small balls of plasma and launch them at high speeds. Make a Psykinetics roll against targets Reflex. On hit you deal 1/1 in Heat damage.
+
+***Overcharge***: Deal an extra wound die.
+
+**Discharge**
+- Energy Cost: 2
+- Cast Time: 2 AP
+- Range: 10
+- Tags: *EMP*
+
+Cause a sudden and intense discharge of electricity at a target location. Electricity grounds itself through the two closest creatures within 3 tiles of the target location. Creatures make a Reflex roll against your Psykinetics, dealing 1/1 in Lightning damage on fail.
+
+***Overcharge***: The electricity grounds itself through one additional creature.
+
+**Gravity**
+- Energy Cost: 3
+- Cast Time: 2 AP
+- Range: 10
+
+Create a gravity well at a target location. All creatures within 5 tiles are pulled towards the center. Creatures make a Toughness roll against your Psykinetics. On fail they are pulled up to 2 tiles towards the center.
+
+***Overcharge***: Add a success to your roll and increase both the range creatures are pulled from and amount they are pulled by 1.
+
+### Weaving
+
+**Foresight**
+- Energy Cost: 1
+- Cast Time: 1 AP
+- Duration: 1 round
+- Range: Self
+
+Sense imminent danger on the weave. For the duration you may use your Weaving roll in place of any Reflex or Toughness roll.
+
+***Mastery***: You may spend 2 Energy to increase the duration to 1 minute.
+
+
+**Heal**
+- Energy Cost: 2
+- Cast Time: 3 AP
+- Duration: Instant
+- Range: Touch
+
+Attempt to heal a creatures wounds. Make a Weaving roll, removing a success for every wound the creature is missing. On success, the creature restores 1/1 wounds.
+
+***Adept***: You may spend 3 Energy to add a success and heal an additional wound.
+
+***Mastery***: You may spend 4 Energy to add 2 successes and heal 2 additional wounds.
+
+
+**Lift**
+- Energy Cost: 1
+- Cast Time: 1 AP or Reaction
+- Duration: 1 turn
+- Range: 5
+
+Make a creature momentarily weightless. While Lifted, increases a characters jump distance by 3 tiles and prevents up to 10 tiles worth of fall damage.
+
+***Adept***: When used on yourself you may use it to empower an attack. Making a melee attack during or right after a jump carries extra force, adding a success and dealing an additional wound die in damage.
+
+***Mastery***: Increases jump distance to 5 tiles and prevents 25 tiles worth of fall damage.
+
+
+**Premonition**
+- Energy Cost: 3
+- Cast Time: 1 minute
+- Duration: 1 hour
+
+Peer into the future, seeing multiple outcomes. When you or a creature in your line of sight makes a roll, you may choose either party to redo their roll. This effect ends after one roll.
+
+***Mastery***: This effect ends after two rolls.
