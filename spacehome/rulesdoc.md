@@ -102,6 +102,7 @@ Fate Points replace hero dice. Players get 3 and they gain more throughout the s
 | :--------------: | :----------: |
 | 1 | Change the result of a roll from a success to a Triumph |
 | 1 | Change the result of a roll from a Disaster to a failure |
+| 1 | redo an Outcome roll, taking the new result |
 | 2 | Redo a roll. Both the character and cotested dice are rerolled as if it was a new action |
 | 3 | Increase your maximum Action Points for an encounter by 1 |
 | 1+ | Reduce the damage of a lethal blow by 1 per fate point |
@@ -459,6 +460,83 @@ Create a gravity well at a target location. All creatures within 5 tiles are pul
 
 ***Overcharge***: Add a success to your roll and increase both the range creatures are pulled from and amount they are pulled by 1.
 
+### Machine Soul
+
+**Mask**
+- Tag: _Sustained_
+- Energy Cost: 1
+- Cast Time: 2 AP
+- Range: 20
+
+Alter a machines perception, forcing it to see only what you want it to see. When the machine or any creature looking through the machine's sight tries to percieve something you want hidden they make a Perception check against your Machine Soul roll. On failure they see only what you allow them to see.
+
+***Overcharge***: Add a success to your roll.
+
+**Disrupt**
+- Tag: _Sustained_
+- Energy Cost: 2
+- Cast Time: 2 AP
+- Range: 5
+
+Cause a mechanical or digitial device to malfunction. Make a Machine Soul roll against 2 failures. Add a failure for each loadout point of the item, or for each recharge point on a shield. On a success the item is Disrupted for 10 minutes.
+
+***Overcharge***: Add a success to your roll.
+
+**Bypass**
+- Tag: _Sustained_
+- Energy Cost: 1
+- Cast Time: 5 AP
+- Range: Touch
+
+Cause a glitch allowing you to bypass digital security. Make a Machine Soul roll against a difficulty set by the Game Master. On success, you temporarily bypass the security systems and gain access for as long as you remain touching the object.
+
+This can be used on a keypad to unlock a door, gain access to a security terminal, or login to a locked account on a computer. This spell merely grants access, it does not turn off any alarms that would result from accessing these systems.
+
+***Overcharge***: Add a success to your roll.
+
+**Shutdown**
+- Energy Cost: 1
+- Cast Time: 2 AP
+- Range: 20
+
+Cause a sudden surge in a robot or electrical system. Make a Machine Soul roll against a targets Toughness. On success, they take 1/2 in lightning damage. If this spell deals any damage to the target, they gain Suppression.
+
+***Overcharge***: add a wound die to your damage.
+
+**Projection**
+- Tag: _Sustained_
+- Energy Cost: 2
+- Cast Time: 2 AP
+- Range: 10
+
+Throw a holocube at a target location, projecting a hologram of your own design. The hologram can be up to 2x2 tiles in size and take any shape. The hologram can emit sounds audible up to 20 tiles.
+
+A creature can attempt to percieve the hologram, making a Perception check against your Machine Soul roll. On success the creature sees through the hologram.
+
+***Overcharge***: Increase the area of the hologram by 1.
+
+**Shimmer**
+- Tag: _Sustained_
+- Energy Cost: 2
+- Cast Time: 1 AP
+- Range: Self
+
+Create a holographic body double that mimics your movements. Make a Machine Soul roll, creating a hologram for every 3 successes, rounding down.
+
+While you have at least one hologram when you are the target of a single target attack they must first make an Outcome roll. Rolling a Bad die, on a blank the attack automatically misses, destroying a hologram. The spell ends once all holograms are destroyed.
+
+***Overcharge***: Add a success to your roll
+
+**Control**
+- Tag: _Sustained_
+- Energy Cost: 3
+- Cast Time: 3 AP
+- Range: 5
+
+Hack a robot's systems, temporarily taking control. Make a Machine Soul roll against the target's Mind. On success you take control of the robot, controlling its actions. The duration changes depending on the size of the robot: 10 minutes for small or tiny robots, 1 minute for medium robots, and 1 round for large or bigger robots.
+
+***Overcharge***: Add a success to your roll
+
 ### Weaving
 
 **Foresight**
@@ -506,3 +584,19 @@ Make a creature momentarily weightless. While Lifted, increases a characters jum
 Peer into the future, seeing multiple outcomes. When you or a creature in your line of sight makes a roll, you may choose either party to redo their roll. This effect ends after one roll.
 
 ***Mastery***: This effect ends after two rolls.
+
+
+**Compel**
+- Energy Cost: 1
+- Cast Time: 2 AP
+- Duration: 1 round
+
+Override a biological creatures thoughts, compelling them to obey your command. Make a Weaving roll against their Mind. On success, you compel the creature. While compelled, a creature is incapable of complicated tasks, such as operating heavy machinery, piloting a vehicle, or using a caster. 
+
+The creature remains compelled for only a round, but as long as the action given is one they would normally take the creature will rationalize their actions. For example, a guard may assume you have clearance when compelled to let you through a checkpoint, or a driver may assume you already paid when compelled to take you somewhere.
+
+Compel can be used against hostile creatures, but they add 2 successes to their Mind rolls. Compel ends immediately if the compelled creature takes damage or is attacked.
+
+***Adept***: You may spend 1 more energy to target another creature with the same command.
+
+***Mastery***: Creatures are Compelled for 1 minute.
