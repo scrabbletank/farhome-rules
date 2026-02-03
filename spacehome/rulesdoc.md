@@ -203,6 +203,39 @@ Robots have no Wounds, instead using Armor Points. A campanion that loses all of
 
 Autonomous companions act on your turn, taking their actions when you do. Some companions can be Piloted, such as a Mech Suit. These kinds of companions follow the same rules as normal robot pets, but require an active pilot to take any action.
 
+## Exploring Dungeons
+Exploring dungeons has it's own set of rules to make a pseudo-structured exploration. Players act in 10 minute increments called Dungeon Turns. Player actions happen simultaneously, and Dungeon Turns are used throughout the dungeon as you explore. Similar to combat, there are a number of default actions you can take.
+
+### Actions
+
+#### Interaction
+Spend 10 minutes interacting with an object or group of objects. For example:
+- Reading through notes or papers on a table
+- Tinkering with or understanding an unfamilar device
+- Using a computer console
+- Rearranging objects to make or remove a barricade
+
+#### Keep Lookout
+Actively watch for threats. While keeping a lookout you have +1 on perception checks and can alert the party if something happens, preventing surprise. In addition, if combat starts while keeping watch you add an extra die to the initiative bag.
+
+#### Loot
+Loot everything of value that you know about in a room.
+
+#### Move Quietly
+Move stealthily to a new area. While moving stealthily you have +2 to reactions against traps and +1 to stealth rolls.
+
+#### Search Area
+Investigate a room, uncovering things you might have missed, including traps, loot, or other hidden items.
+
+#### Try Again
+If you fail a skill check that is repeatable, such as forcing a door open, picking a lock, hacking a terminal, by 3 or less you can take your time, spending 10 minutes to automatically succeed.
+
+#### Setup
+You can prepare for an encounter, rearrange your inventory, make traps, or do one action that normally requires a short rest.
+
+#### Short Rest (Group Action)
+You can decide to take a break, letting your guard down and resting for 10 minutes. Rest can only happen if no one else is taking an action, with the exception of Keep Lookout. Only those taking this action gain the benefits of a Short Rest, those not resting or those Keeping Lookout do not get to rest.
+
 ## Combat
 
 ### Initiative
@@ -372,6 +405,9 @@ If you are not suprised, add 2 extra dice to the initiative bag during the first
 
 **Machine Whisperer**
 When rolling an outcome die for a weapon, machine, or other non-living thing, you may roll two dice, taking your preferred outcome.
+
+**Desperate Measure**
+Before initiative is drawn for this turn you may choose to use this feat to imediately take a turn if you have not taken one this round. Remove an initiative die of your color out of the bag and take your turn as normal. You must take a long rest before you can use this feat again.
 
 ## Gear Examples
 
