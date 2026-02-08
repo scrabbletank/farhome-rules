@@ -103,13 +103,13 @@ Fate Points replace hero dice. Players get 3 and they gain more throughout the s
 | 1 | Change the result of a roll from a success to a Triumph |
 | 1 | Change the result of a roll from a Disaster to a failure |
 | 1 | redo an Outcome roll, taking the new result |
-| 2 | Redo a roll. Both the character and cotested dice are rerolled as if it was a new action |
+| 2 | Redo a roll. Both the character and contested dice are rerolled as if it was a new action |
 | 3 | Increase your maximum Action Points for an encounter by 1 |
 | 1+ | Reduce the damage of a lethal blow by 1 per fate point |
 
 
 ### Making a Character
-Start by choosing a species. Species determines starting wounds, movement, initial feat, etc. Choose 7 of the 25 skills to be proficient in. Assign 4 points to categories. Categories cannot go above 3 during character creation. Choose a feat you meet the requirements for.
+Start by crafting a species (detailed in the Species section). Choose 7 of the 25 skills to be proficient in. Assign 4 points to categories. Categories cannot go above 3 during character creation.
 
 ### Leveling Up
 When leveling up, you get 2 points to improve your character. You can spend them on anything you want, but cannot choose the same category twice in a single level. Eg: You can't put 2 points into Athletics, but can put 1 into Athletics and 1 into Martial.
@@ -123,7 +123,7 @@ You regain all spent fate points.
 |      Option      |    Points    |    Effects   |
 | :--------------: | :----------: | :----------: |
 | Improve Category |      1       | Increases the proficieny of that category by 1. Categories have a limit of 10 proficiency, but can be increased through other means. |
-| Learn/Master Ability |      1       | Learn, or improve the effects of a Maneuver or Weaving. Cannot Master an Ability you learned this level. |
+| Learn/Master Weaving |      1       | Learn, or improve the effects of a Weaving. Cannot master a Weaving you learned this level. |
 | Gain Energy |      1       | Increases your max Energy by 1 |
 | Gain Wounds |      2       | Increases your max Wounds by 1 |
 | Learn Feat |      2       | Gain a Feat you meet the requirements of |
@@ -164,16 +164,26 @@ Some abilities or effects give you rerolls. Each reroll allows you to reroll 1 d
 ### Skill Proficiency
 Skill proficiencies are calculated based off the proficiency of the category they are under. Skills that you are proficient in (The skills you choose at character creation or learned through level ups) gain the full benefit of the categories proficiency. All other skills have a proficiency equal to half the categories level, rounded down.
 
-### Death Saves
-When you lose all your life, you begin making death saving throws. Death saves use your Survival skill, with an increasing difficulty every roll. Failing a death save puts you in a critical state for the next day. While in a critical state, the next death save you fail kills you. You remain in a critical state even if you are stablized or healed until you have completed a long rest.
+### Downed
+When a player is reduced to 0 wounds they are put into a Downed state. While Downed, a creature can take no actions.Other creatures can attempt to revive a player by healing them or making a Biology check, adding a terrible die for every wound of damage in the attack that Downed the player. On success (or when healed) the player regains half of their maximum wounds, rounded up, and is put into a Bloodied state. Downed creatures automatically revive at the end of an encounter as if they were revived.
 
-Death saves start against 1 terrible die, increasing by 1 for each roll.
+When a player is Downed while in a Bloodied state they can no longer be revived. Instead they roll an Outcome, using a wound die. On a wound the player dies, otherwise reviving on a blank. Players remain in a Bloodied state until they complete a long rest.
+
+While Downed, creatures can still be targeted by attacks and take damage. When taking damage they make a Survival check, adding a bad die for every wound in the attack. On failure they are killed. Bloodied players use terrible dice instead of bad dice.
 
 ### Outcome Rolls
 Some abilities, attacks, or random effects may require you to roll a single die to determine an outcome. This can come in many forms, but is usually used to determine the severity of an outcome. For example, if you trip an alarm, the game master may make you roll a bad die to see who responds. a Blank roll could mean just a utility robot, a failure a lone guardsman, or on a Disaster an entire patrol.
 
+### Maneuvers
+Unlike Farhome, Maneuvers cannot be learned normally. Instead, maneuvers are attached to weapons.
+
+### Loadout
+Explained more in Gear, Loadout determines how many active items a character can use at once. Characters have a Loadout Limit of 6.
+
 ## Gear
-A good chunk of character progression comes from the gear they use. Normally a character can wear a single piece of armor and use a single Caster. Outside of those items characters can equip gear up to their loadout limit. By default this limit is 6, and some pieces of gear cost more or less loadout points. This doesn't mean you cant use things that aren't in your loadout, it's just your loadout is what is immediately available to you. You can change your loadout at any time by spending a full round swaping things out of your pack. You can change any number of items when changing your loadout, as long as your total equipped items are less than your loadout limit.
+A good chunk of character progression comes from the gear they use. Normally a character can wear a single piece of armor and use a single Caster. Outside of those items characters can equip gear up to their loadout limit. By default this limit is 6, and some pieces of gear cost more or less loadout points. This doesn't mean you cant use things that aren't in your loadout, it's just your loadout is what is immediately available to you. You can take out something from your pack that isn't in your loadout by spending a full round digging it out of your pack. This item cannot be stored on your person and you must spend a full round putting it away. 
+
+For example, you can spend a round taking out a two handed weapon, then use the weapon the following round. If you then try to use a weapon from your loadout you either have to spend a round putting the two handed weapon away or drop it on the ground.
 
 Loadout limit can be increased through feats, armor, or even some gear.
 
@@ -190,6 +200,11 @@ Casters are special equipment used by Psykentic and Machine Soul Espers to use t
 
 #### Sustained Spells
 There's no more concentration saves, instead some spells have the Sustained tag. While a spell is sustained it reduces the energy limit of the caster by the energy spent on the spell. You can stop sustaining a spell at any time, causing the effects of the spell to end.
+
+#### Omnibots
+Some casters come with specialized drones called Omnibots. Omnibots can only be used with Machine Soul spells, and allow you to bypass the _Sustained_ tag by using one of these Omnibots. When used in this way you are unable to end the effects yourself. Unless otherwise stated by the spell, Omnibots have a duration of 1 hour. Omnibots can be targeted by effects that cause _Disrupt_ which automatically ends the spell.
+
+Omnibots recharge at the end of an encounter.
 
 ## Espers
 Spells in this game are much flatter than farhome. For example, there is no spell level. As long as you have the spell capsule socketed into a caster you can cast the spell. Instead, all spells can be empowered by spending more energy. The amount of energy you can spend is based on the casters energy limit, with spells having varied base energy costs.
@@ -236,6 +251,41 @@ You can prepare for an encounter, rearrange your inventory, make traps, or do on
 #### Short Rest (Group Action)
 You can decide to take a break, letting your guard down and resting for 10 minutes. Rest can only happen if no one else is taking an action, with the exception of Keep Lookout. Only those taking this action gain the benefits of a Short Rest, those not resting or those Keeping Lookout do not get to rest.
 
+## Negotiations
+Used when trying to get NPCs to do what you want. Negotiations only happen when two or more groups are at odds with each other.
+
+Two key stats: Interest and Patience. Interest goes up with successes and down with failures, Patience only goes down. Once patience reachs 0 the encounter ends and you get the result based on Interest. Interest goes from 1-6:
+
+- **6 - Yes, And:** You get what you wanted and more. The NPC was so convinced, they decide to go above and beyond.
+- **5 - Yes:** Congrats, you convinced the NPC and get what you wanted.
+- **4 - Yes, But:** You get what you wanted, but there's a catch. Maybe you have to put something on the line, owe someone a favor, or make some kind of other deal to secure this one.
+- **3 - No, But:** You don't get what you wanted, but you do get something. Maybe you get a discount instead of a free item, maybe instead of full backing from a faction, you get a small mercenary squad.
+- **2 - No:** You don't get what you wanted, but nothing much changes. The NPC is roughly where they started.
+- **1 - No, And:** You don't succeed in convincing the NPC, in fact you made everything worse. Some kind of consequence happens, either they don't like you, you get thrown in jail, or turn a faction against you.
+
+### Gaining and Losing Interest
+You gain interest the same way as you normally would get NPCs to do something, by rolling skill checks. Sometimes there maybe third parties acting against you, which either raises the skill challenge, or adds their own rolls to convince the NPC.
+
+Every time you fail a challenge an NPC's patience goes down. When Interest is 3 or above Patience goes down regardless of success. Under normal circumstances there are no effects for critical success/failure.
+
+### Goals and Ideals
+If you know the NPC enough to know their goals or ideals, you can directly appeal to these, but there's always a risk. Checks involving an NPC's ideals can critically succeed or fail. When critically succeeding an appeal of an NPCs ideal Interest is raised twice. If you critically fail an appeal you not only lose Patience, but Interest goes down as well.
+
+### Pitfalls
+Some NPCs have pitfalls. These are either flaws in their character or topics the NPC is opposed to. While succeeding in challenges that appeal to Pitfalls can increase Interest, it will always reduce Patience. Failing an appeal to a Pitfall sets Patience to 0.
+
+### NPC Disposition
+NPCs will start with various amounts of Interest and Patience depending on their disposition
+
+|      Disposition      |    Interest    |    Patience   |
+| :--------------: | :----------: | :----------: |
+| Allied        |      3       | 4 |
+| Friendly      |      2       | 3 |
+| Neutral       |      2       | 2 |
+| Suspicious    |      1       | 2 |
+| Hostile       |      1       | 1 |
+
+
 ## Combat
 
 ### Initiative
@@ -253,20 +303,20 @@ Players have 5 AP which they can spend on various actions during their turn. Cre
 Spend an action and move up to their movement speed. Does not need to happen all at once, can be spent between other actions.
 
 #### Attack (Various)
-Make a basic attack with their weapon. Most weapons cost 2 AP, but some weapons cost more or less. Many weapons come with manuevers or alternate firing modes which cost more or less AP.
+Make a basic attack with their weapon. Most weapons cost 2 AP, but some weapons cost more or less. Many weapons come with maneuvers or alternate firing modes which cost more or less AP.
 
 #### Dual Wield Attack (+1AP)
 Attacks whiel Dual wielding use a single attack roll based on their main hand weapon. A Dual Wield attack adds the offhands base damage to the attack. You may choose a single target for the attack, combining the damage into a single hit for the purposes of armor and resistances. Alternatively, you can declare a second target for the offhand damage as long as the target is in range of the offhand.
 
-You may dual wield any two one-handed weapons and use them to attack as long as both weapons are in range. For example, you may use a pistol and a dagger as long as the target is adjacent to you. This can be used with any attack/manuever as long as the attack/manuever does not require both hands.
+You may dual wield any two one-handed weapons and use them to attack as long as both weapons are in range. For example, you may use a pistol and a dagger as long as the target is adjacent to you. This can be used with any attack/maneuver as long as the attack/maneuver does not require both hands.
 
 #### Use Item (1 AP)
 Using an item, such as a stim pack, costs 1 AP unless otherwise stated. Opening doors or grabbing an object does not cost any AP, but interacting with one does. For example, opening an unlocked door costs no AP, but using a keypad to unlock a door costs 1 AP.
 
-#### Manuever/Weaving (Various)
-Manuevers/Weavings have their own AP costs listed. Like Farhome, they have restrictions on when they can be used:
-- Can only use one Manuever/Weaving a round
-- Cannot use the same Manuever/Weaving on two consecutive rounds
+#### Maneuver/Weaving (Various)
+Maneuvers/Weavings have their own AP costs listed. Like Farhome, they have restrictions on when they can be used:
+- Can only use one Maneuver/Weaving a round
+- Cannot use the same Maneuver/Weaving on two consecutive rounds
 - Reactions ignore these limits, but can only be used once per creatures turn.
 
 #### Casters (Various)
@@ -309,6 +359,8 @@ Cover comes in two forms, Light and Heavy cover. While behind cover, any Reflex 
 |                  |  Kinetic  | Raw physical force, such as clubs, hammers, or bullets. |
 |                  |  Explosive   | Explosive force from grenades or rockets. |
 |                  |    Cutting    | damage from slashing or piercing attacks, like swords, daggers, or bullets intended to cause bleeding |
+|   **Mental**  |              | |
+|                  |  Psychic  | Mental force, attacking the mind directly. This damage type bypasses Armor and Shields. |
 
 ### Tags
 Various items and abilities use tags as shorthand to explain additional effects.
@@ -357,6 +409,118 @@ Grappled creatures cannot move and automatically fail Reflex saves. While grappl
 
 **Disrupt**
 Disrupt affects a creatures items rather than the creature itself. While an item is disrupted it no longer functions and cannot be used. When an item that grants Shielding is disrupted, it instead changes its recharge to 0. Mundane items, such as a dagger, cannot be disrupted.
+
+## Species
+Being space themed, there's really no end to the amount of species there can be. All creatures (aside from robots) use the same base stats. These initial stats are then changed based on 3 racial traits you choose. All racial traits have an upside and a downside. When picking traits, the first trait you pick does not come with a downside, the remaining two give both upside and downsides.
+
+### Base stats:
+Wounds: 3
+Move Speed: 5
+Base Category Level: 1
+
+### Species Traits
+
+#### Strong
++1 to Athletics. You may go up to 4 Atheltics when creating your character. **Downside:** Cannot take Intelligence Proficiencies during character creation.
+
+#### Agile
++1 to Dexterity. You may go up to 4 Dexterity when creating your character. **Downside:** Cannot take Athletics Proficiencies during character creation.
+
+#### Smart
++1 to Intelligence. You may go up to 4 Intelligence when creating your character. **Downside:** Cannot take Charisma Proficiencies during character creation.
+
+#### Charismatic
++1 to Charisma. You may go up to 4 Charisma when creating your character. **Downside:** Cannot take Dexterity Proficiencies during character creation.
+
+#### Heavy
++1 to Wounds. **Downside:** Move speed is reduced by 1.
+
+#### Aquatic
+Gain swim speed equal to your move speed. You can breathe underwater. **Downside:** -2 to Survival checks while outside water. Can be overcome with a proper environmental suit.
+
+#### Winged
+Gain a fly speed equal to your movespeed. **Downside:** Your Loadout Limit is 2 less.
+
+#### Telepathic
+You communicate telepathically up to 15 tiles. You gain the _Sense Mind_ ability. **Downside:** You have Vulnerability I to Psychic damage.
+
+**Sense Mind** Attempt to sense all minds within 10 tiles. Creatures make a Mind roll against your Mind. On fail you know their rough wereabouts. Does not work on mechanical creatures.
+
+#### Quick
++1 Move Speed. **Downside:** Your Loadout Limit is 1 less.
+
+#### Armored
+Gain 1 Armor with an Armor rating of 2. This armor cannot be repaired, but regrows after a long rest. **Downside:** -1 Wounds.
+
+#### Large
++2 Wounds. **Downside:** You cannot be Proficient in Reflex.
+
+#### Mental Fortitude
+You have Resistance I to Pyschic damage. **Downside:** -1 Wounds.
+
+#### Natural Talent
++2 Category Points. **Downside:** -1 Starting Proficiencies.
+
+#### Multifaceted
++1 Starting Proficiencies. **Downside:** -2 Category Points.
+
+#### War Focused
++1 Martial. Learn 1 Martial Proficiency. **Downside:** Cannot take Esper Proficiencies.
+
+#### Gifted
++1 Esper. Learn 1 Esper Proficiency. **Downside:** Cannot take Defense Proficiencies.
+
+#### Fast-Twitch Muscles
+You can jump up to your Move Speed.**Downside:** -1 Category Points.
+
+#### Charmeleon
+You have expertise in Stealth. **Downside:** -1 Starting Proficiency.
+
+#### Multiple Arms
+You have 4 usable arms and can hold up to 4 One-Handed or 2 Two-Handed weapons. **Downside:** -1 to Martial rolls while using more than 2 hands.
+
+#### Regenerating
+You regain 3 Wounds every day. **Downside:** -1 Starting Proficiency.
+
+#### Hot Environment
+You are unaffected by Hot or Dry Climates. **Downside:** -1 to Survival checks in normal climates and -2 in cold climates. Can be bypassed with an environmental suit.
+
+#### Cold Environment
+You are unaffected by Cold Climates. **Downside:** -1 to Survival checks in normal climates and -2 in hot climates. Can be bypassed with an environmental suit.
+
+#### Irradiated Environment
+You are unaffected by Irradiated Climate. You heal 1 extra wound each night while in an Irradiated Climate. **Downside:** -1 to Survival checks in non-irradiated climates. Can be bypassed with an environmental suit.
+
+#### Low Gravity Environment
+You gain a hover speed equal to your move speed while in Low or No Gravity environments. **Downside:** -1 to Athletics rolls while in Normal/High Gravity environments.
+
+#### Beast of Burden
++2 to Loadout Limit. **Downside:** -1 Move Speed.
+
+#### Soothing Pheremones
+Gain expertise in Conversation. +1 to allies Negotiation rolls while present. **Downside:** -1 Starting Proficiency.
+
+#### Bioelectric
+Resistance I to Lightning. Gain _Voltage_ ability. **Downside:** -2 Loadout Limit.
+
+**Voltage** Once per encounter, can spend 1 AP to discharge stored electricity. Adjacent creatures make a Reflex save against your Reflex. On fail they take 1/0 in Lightning damage and gain 1 stack of _Surpressed_.
+
+#### Corrosive Bile
+Resistance I to Acid. Gain _Corrosive Spit_ ability.**Downside:** -2 Loadout Limit.
+
+**Corrosive Spit** Once per encounter, can spend 1 AP to lob corrosive spit at a creature within 5 tiles. Creature makes a Reflex save against your Ranged. On fail they take 0/1 in Acid damage. This attack is _Corrosive_.
+
+#### Cybernetic
+You gain 1 mod slot. Mods that can be equipped into robot companions can be equipped in yourself. **Downside:** Cannot take Weaving Proficiency.
+
+#### Cold Blooded
+Resistance I to cold. **Downside:** Vulernability I to heat.
+
+#### Hot Blooded
+Resistance I to heat. **Downside:** Vulernability I to cold.
+
+#### Prey Sense
++1 to Defense. **Downside:** Cannot take Martial Proficiencies during character creation.
 
 ## Feats
 A bunch of ideas for feats, in no particular order.
@@ -495,6 +659,15 @@ Cause a sudden and intense discharge of electricity at a target location. Electr
 Create a gravity well at a target location. All creatures within 5 tiles are pulled towards the center. Creatures make a Toughness roll against your Psykinetics. On fail they are pulled up to 2 tiles towards the center.
 
 ***Overcharge***: Add a success to your roll and increase both the range creatures are pulled from and amount they are pulled by 1.
+
+**Psychic Lance**
+- Energy Cost: 4
+- Cast Time: 3 AP
+- Range: 10
+
+Throw a lance of psychic energy at a target creature. The target creature makes a Mind roll against your Psykinetics, taking 1/2 Psychic damage on fail. This damage bypasses shields, but any resistances given from shields apply. This has no effect on robotic creatures.
+
+***Overcharge***: Add a success to your roll.
 
 ### Machine Soul
 
