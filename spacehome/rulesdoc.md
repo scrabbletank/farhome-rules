@@ -129,7 +129,7 @@ You regain all spent fate points.
 | Learn Feat |      2       | Gain a Feat you meet the requirements of |
 | Learn Proficiency |      2       | Become proficient in a new skill |
 
-#### Fat Point Increase
+#### Fate Point Increase
 Your maximum fate points are increased by 1 at levels 5, 15, and 25.
 
 #### Action Point Increase
@@ -386,8 +386,10 @@ Cover comes in two forms, Light and Heavy cover. While behind cover, any Reflex 
 |                  |  Kinetic  | Raw physical force, such as clubs, hammers, or bullets. |
 |                  |  Explosive   | Explosive force from grenades or rockets. |
 |                  |    Cutting    | damage from slashing or piercing attacks, like swords, daggers, or bullets intended to cause bleeding |
-|   **Mental**  |              | |
+|   **Special**  |              | |
 |                  |  Psychic  | Mental force, attacking the mind directly. This damage type bypasses Armor and Shields. |
+|                  |  Sonic  | Sound waves or vibrational force. Sonic weapons move unimpeded through most mediums. This damage bypasses Shields. |
+|                  |  Radiation  | radiation of all kinds. This damage bypasses Armor. |
 
 ### Tags
 Various items and abilities use tags as shorthand to explain additional effects.
@@ -1188,6 +1190,50 @@ Mods are small trinkets that can be socketed into weapons, casters, armor, vehic
 
 ### Psykinetics
 
+##### 0 Cost
+- Plasma Shot
+- Smoke
+- Throw
+
+##### 1 Cost
+- Barrier
+- Flash Freeze
+- Weld
+
+##### 2 Cost
+- Corrosive Spray
+- Discharge
+
+##### 3 Cost
+- Gamma Beam
+- Gravity
+- Lightning Storm
+- Plasma Blast
+
+##### 4 Cost
+- Psychic Lance
+
+**Plasma Shot**
+- Energy Cost: 0
+- Cast Time: 2 AP
+- Range: 10
+- Tags: *Armor Piercing 1*
+
+Create small balls of plasma and launch them at high speeds. Make a Psykinetics roll against targets Reflex. On hit you deal 1/0 in Heat damage.
+
+***Overcharge***: +0/1 damage.
+
+**Smoke**
+- Energy Cost: 0
+- Cast Time: 4 AP
+- Range: 10
+
+Create a thick, slow moving smoke that obscures vision centered on a point in range you can see. Make a Psykinetics roll, the smoke cloud has an area up to half of your roll, rounded up. The cloud may be smaller than what you rolled.
+
+Creatures attacking through the smoke attack as if the target is under Heavy Cover.
+
+***Overcharge***: +2 Successes to your roll.
+
 **Throw**
 - Energy Cost: 0
 - Cast Time: 2 AP
@@ -1197,34 +1243,24 @@ Grab an object and throw it at a target you can see. Make a Psykinetics roll aga
 
 ***Overcharge***: Double the amount this spell can lift.
 
-**Plasma Shot**
+**Barrier**
+- Tag: _Sustained_
 - Energy Cost: 1
 - Cast Time: 2 AP
-- Range: 10
-- Tags: *Armor Piercing 1*
+- Range: Self
 
-Create small balls of plasma and launch them at high speeds. Make a Psykinetics roll against targets Reflex. On hit you deal 1/1 in Heat damage.
+Form a thin barrier of psykentic energy around yourself. Make a Psykentics roll, For every 3 successes, rounded up, you gain +1 to any Toughness rolls you make. You ignore any Suppression or Stunned you recieve unless the roll that inflicts them is 3 or more successes greater than your own.
 
-***Overcharge***: Deal an extra wound die.
-
-**Discharge**
-- Energy Cost: 2
-- Cast Time: 2 AP
-- Range: 5
-- Tags: *EMP*
-
-Cause a sudden and intense discharge of electricity at a point in range you can see. Electricity grounds itself through the two closest creatures within 3 tiles of the target location. Creatures make a Reflex roll against your Psykinetics, dealing 1/1 in Lightning damage on fail.
-
-***Overcharge***: The electricity grounds itself through one additional creature.
+***Overcharge***: +1 Successes to your roll.
 
 **Flash Freeze**
-- Energy Cost: 2
+- Energy Cost: 1
 - Cast Time: 3 AP
 - Range: 10
 
 Cause a sudden drop in temperature at a point in range you can see. Large creatures have +1 to their save while Huge and bigger have +3. Make a Psykinetics roll against the targets Toughness. On success the creature takes 0/2 in Cold damage and is Frozen until the end of their turn.
 
-***Overcharge***: Add a success to your roll.
+***Overcharge***: +1 Success to your roll.
 
 **Weld**
 - Energy Cost: 1
@@ -1237,6 +1273,43 @@ Emit a continuous stream of plasma. This abiltiy has 4 stages, for every stage p
 This ability can be used on metal objects to weld them together, such as welding a door to a frame.
 
 ***Overcharge***: Start one stage higher.
+
+**Corrosive Spray**
+- Energy Cost: 2
+- Cast Time: 2 AP
+- Range: 10
+
+Create a 3x3 corrosive field centered on a point in range you can see. Creatures in the field make a Toughness roll against your Psykinetics. On fail the next attack against them gains _Corrosive_ and adds -1 to their Toughness roll.
+
+***Overcharge***: +1 Success to your roll.
+
+**Discharge**
+- Energy Cost: 2
+- Cast Time: 2 AP
+- Range: 5
+- Tags: *EMP*
+
+Cause a sudden and intense discharge of electricity at a point in range you can see. Electricity grounds itself through the two closest creatures within 3 tiles of the target location. Creatures make a Reflex roll against your Psykinetics, dealing 1/1 in Lightning damage on fail.
+
+***Overcharge***: The electricity grounds itself through one additional creature.
+
+**Gamma Beam**
+- Energy Cost: 3
+- Cast Time: 3 AP
+- Range: Touch
+
+Fire a concentrated beam of radiation hitting all creatures in a 10 tile line. Creatures in the beam make a Toughness roll against your Psykinetics. On Fail they take 2/0 in Radiation damage. Non-robotic creatures gain _Poisoned_ for 10 minutes on a critical.
+
+***Overcharge***: +0/1 damage.
+
+**Gravity**
+- Energy Cost: 3
+- Cast Time: 2 AP
+- Range: 10
+
+Create a gravity well at a target location. All creatures within 5 tiles are pulled towards the center. Creatures make a Toughness roll against your Psykinetics. On fail they are pulled up to 2 tiles towards the center.
+
+***Overcharge***: Add a success to your roll and increase both the range creatures are pulled from and amount they are pulled by 1.
 
 **Lightning Storm**
 - Energy Cost: 3
@@ -1258,15 +1331,6 @@ Lob a concentrated ball of fire at a point in range you can see. The ball explod
 
 ***Overcharge***: Increase area by 1.
 
-**Gravity**
-- Energy Cost: 3
-- Cast Time: 2 AP
-- Range: 10
-
-Create a gravity well at a target location. All creatures within 5 tiles are pulled towards the center. Creatures make a Toughness roll against your Psykinetics. On fail they are pulled up to 2 tiles towards the center.
-
-***Overcharge***: Add a success to your roll and increase both the range creatures are pulled from and amount they are pulled by 1.
-
 **Psychic Lance**
 - Energy Cost: 4
 - Cast Time: 3 AP
@@ -1278,13 +1342,45 @@ Throw a lance of psychic energy at a target creature. The target creature makes 
 
 ### Machine Soul
 
-**Mask**
-- Tag: _Sustained_
-- Energy Cost: 1
-- Cast Time: 2 AP
-- Range: 20
+##### 0 Cost
+- Sonic Blast
+- Surge
 
-Alter a machines perception, forcing it to see only what you want it to see. When the machine or any creature looking through the machine's sight tries to percieve something you want hidden they make a Perception check against your Machine Soul roll. On failure they see only what you allow them to see.
+##### 1 Cost
+- Alarm
+- Bypass
+- Digital Lock
+- Mask
+- Shutdown
+- Trap
+
+##### 2 Cost
+- Crystalize Metal
+- Disrupt
+- Ignite Soul
+- Projection
+- Shimmer
+
+##### 3 Cost
+- Charge Shield
+- Control
+
+
+**Sonic Blast**
+- Energy Cost: 0
+- Cast Time: 3 AP
+- Range: 10
+
+Targeting a 3x3 area in range you can see, blast it with high frequency waves. Creatures make a Toughness roll against your Machine Soul. On hit they take 0/1 in Sonic damage, gaining Suppression on crit.
+
+***Overcharge***: +1 critical to your roll.
+
+**Surge**
+- Energy Cost: 0
+- Cast Time: 2 AP
+- Range: Touch
+
+Cause a debilitating surge of static electricity on a creature or object you touch. Make a Machine Soul roll against the targets Toughness. On hit you deal 0/2 in Lightning damage, inflicting _Suppression_ for each critical. When targeting a robot, if the _Suppression_ inflicted by this attack would _Stun_ the creature they are _Disrupted_ instead.
 
 ***Overcharge***: Add a success to your roll.
 
@@ -1307,6 +1403,18 @@ Creatures may make a Perception check to spot the alarm or an Engineering check 
 
 ***Overcharge***: Add a success to your roll.
 
+**Bypass**
+- Tag: _Sustained_
+- Energy Cost: 1
+- Cast Time: 5 AP
+- Range: Touch
+
+Cause a glitch allowing you to bypass digital security. Make a Machine Soul roll against a difficulty set by the Game Master. On success, you temporarily bypass the security systems and gain access for as long as you remain touching the object.
+
+This can be used on a keypad to unlock a door, gain access to a security terminal, or login to a locked account on a computer. This spell merely grants access, it does not turn off any alarms that would result from accessing these systems.
+
+***Overcharge***: Add a success to your roll.
+
 
 **Digital Lock**
 - Tag: _Sustained_
@@ -1317,6 +1425,26 @@ Creatures may make a Perception check to spot the alarm or an Engineering check 
 Lock a door, container, or other openable object with a digital lock and code of your choosing. A creature attempting to open the object is prompted to enter a 5 digit code, unlocking the object with the correct code. Creatures may attempt to bypass your lock, making a Hacking check against your Machine Soul roll, on success the lock is disabled.
 
 ***Overcharge***: Add a success to your roll.
+
+**Mask**
+- Tag: _Sustained_
+- Energy Cost: 1
+- Cast Time: 2 AP
+- Range: 20
+
+Alter a machines perception, forcing it to see only what you want it to see. When the machine or any creature looking through the machine's sight tries to percieve something you want hidden they make a Perception check against your Machine Soul roll. On failure they see only what you allow them to see.
+
+***Overcharge***: Add a success to your roll.
+
+
+**Shutdown**
+- Energy Cost: 1
+- Cast Time: 2 AP
+- Range: 20
+
+Cause a sudden surge in a robot or electrical system. Make a Machine Soul roll against a targets Toughness. On success, they take 1/1 in lightning damage. If this spell deals any damage to the target, they gain Suppression.
+
+***Overcharge***: +0/1 damage
 
 
 **Trap**
@@ -1331,6 +1459,18 @@ Creatures may make a Perception check to spot the alarm or an Engineering check 
 
 ***Overcharge***: Add a success to your roll.
 
+
+**Crystalize Metal**
+- Tag: _Sustained_
+- Energy Cost: 2
+- Cast Time: 2 AP
+- Range: 5
+
+Harden a metalic surface or object, vastly improving its strength. Targeting a creature or object with armor you can see make a Machine Soul roll subtracting -1 for each Armor Point remaining. On success their Armor Rating increases by 1 for the duration.
+
+***Overcharge***: +1 Successes to your roll
+
+
 **Disrupt**
 - Tag: _Sustained_
 - Energy Cost: 2
@@ -1341,26 +1481,17 @@ Cause a mechanical or digitial device to malfunction. Make a Machine Soul roll a
 
 ***Overcharge***: Add a success to your roll.
 
-**Bypass**
+
+**Ignite Soul**
 - Tag: _Sustained_
-- Energy Cost: 1
-- Cast Time: 5 AP
+- Energy Cost: 2
+- Cast Time: 1 AP
 - Range: Touch
 
-Cause a glitch allowing you to bypass digital security. Make a Machine Soul roll against a difficulty set by the Game Master. On success, you temporarily bypass the security systems and gain access for as long as you remain touching the object.
+Imbue a weapon with the spirit of a Machine. While imbued they may use your Machine Soul roll when making attacks and may ignore the next _Outcome_ roll from that weaon.
 
-This can be used on a keypad to unlock a door, gain access to a security terminal, or login to a locked account on a computer. This spell merely grants access, it does not turn off any alarms that would result from accessing these systems.
+***Overcharge***: Ignore an additional _Outcome_ roll.
 
-***Overcharge***: Add a success to your roll.
-
-**Shutdown**
-- Energy Cost: 1
-- Cast Time: 2 AP
-- Range: 20
-
-Cause a sudden surge in a robot or electrical system. Make a Machine Soul roll against a targets Toughness. On success, they take 1/1 in lightning damage. If this spell deals any damage to the target, they gain Suppression.
-
-***Overcharge***: add a wound die to your damage.
 
 **Projection**
 - Tag: _Sustained_
@@ -1374,6 +1505,7 @@ A creature can attempt to percieve the hologram, making a Perception check again
 
 ***Overcharge***: Increase the area of the hologram by 1.
 
+
 **Shimmer**
 - Tag: _Sustained_
 - Energy Cost: 2
@@ -1386,15 +1518,16 @@ While you have at least one hologram when you are the target of a single target 
 
 ***Overcharge***: Add a success to your roll
 
-**Ignite Soul**
-- Tag: _Sustained_
-- Energy Cost: 2
-- Cast Time: 1 AP
-- Range: Touch
 
-Imbue a weapon with the spirit of a Machine. While imbued they may use your Machine Soul roll when making attacks and may ignore the next _Outcome_ roll from that weaon.
+**Charge Shield**
+- Energy Cost: 3
+- Cast Time: Reaction
+- Range: Self
 
-***Overcharge***: Ignore an additional _Outcome_ roll.
+Enhance your shield greatly increasing your Shield Points while making it immobile. Make a Machine Soul, gaining a Shield Point for every 2 successes in your roll, rounded up. This can exceed the shield's limit. Effect ends once all Shield Points have been depleted or you take a move action.
+
+***Overcharge***: Gain an extra Shield Point.
+
 
 **Control**
 - Tag: _Sustained_
@@ -1406,7 +1539,79 @@ Hack a robot's systems, temporarily taking control. Make a Machine Soul roll aga
 
 ***Overcharge***: Add a success to your roll
 
+
 ### Weaving
+
+##### 0 Cost
+- Luck
+- Reflex
+
+##### 1 Cost
+- Compel
+- Counter
+- Foresight
+- Guidance
+- Lift
+- Push
+
+##### 2 Cost
+- Heal
+- Power
+
+##### 3 Cost
+- Premonition
+
+
+**Luck**
+- Energy Cost: 0
+- Cast Time: Reaction
+- Duration: instant
+- Range: Self
+
+Subtly influence the world based on your connection to the weave. As a reaction you may reroll a die for every 2 proficiency you have in Weaving.
+
+***Mastery***: You may pay 2 energy to use this ability as a Free Action.
+
+
+**Reflex**
+- Energy Cost: 0
+- Cast Time: Reaction
+- Duration: instant
+- Range: Self
+
+Sense imminent danger on the weave. For the duration you may use your Weaving roll in place of any Reflex or Toughness roll.
+
+***Mastery***: If the attack misses you regain your Reaction.
+
+
+**Compel**
+- Energy Cost: 1
+- Cast Time: 2 AP
+- Duration: 1 round
+
+Override a biological creatures thoughts, compelling them to obey your command. Make a Weaving roll against their Mind. On success, you compel the creature. While compelled, a creature is incapable of complicated tasks, such as operating heavy machinery, piloting a vehicle, or using a caster. 
+
+The creature remains compelled for only a round, but as long as the action given is one they would normally take the creature will rationalize their actions. For example, a guard may assume you have clearance when compelled to let you through a checkpoint, or a driver may assume you already paid when compelled to take you somewhere.
+
+Compel can be used against hostile creatures, but they add 2 successes to their Mind rolls. Compel ends immediately if the compelled creature takes damage or is attacked.
+
+***Adept***: You may spend 1 more energy to target another creature with the same command.
+
+***Mastery***: Creatures are Compelled for 1 minute.
+
+
+**Counter**
+- Energy Cost: 1
+- Cast Time: Reaction
+- Duration: instant
+- Range: Melee
+
+After being targeted by a melee attack you counter with an opportunity attack, using your Weaving roll for the attack.
+
+***Adept***: if the triggering attack missed, add +1 Success and 0/1 to the damage.
+
+***Mastery***: If your attack hits this does not spend your Reaction.
+
 
 **Foresight**
 - Energy Cost: 1
@@ -1414,24 +1619,24 @@ Hack a robot's systems, temporarily taking control. Make a Machine Soul roll aga
 - Duration: 1 round
 - Range: Self
 
-Sense imminent danger on the weave. For the duration you may use your Weaving roll in place of any Reflex or Toughness roll.
+Tap into the weave gaining insight into the intent of all nearby creatures. At the start of the next round add an additional die into the Initiative bag.
 
-***Adept***: You may spend 2 Energy to increase the duration to 1 minute.
+***Adept***: Add two dice into the Initiative bag instead of one.
 
-***Mastery***: You may spend 3 Energy to give you Resistance I to Physical damage.
+***Mastery***: Add three dice into the Initiative bag instead of one.
 
 
-**Heal**
-- Energy Cost: 2
-- Cast Time: 3 AP
-- Duration: Instant
-- Range: Touch
+**Guidance**
+- Energy Cost: 1
+- Cast Time: 1 AP
+- Duration: 1 round
+- Range: Self
 
-Attempt to heal a creatures wounds. Make a Weaving roll, removing a success for every wound the creature is missing. On success, the creature restores 1/1 wounds.
+Use the weave to guide your next attack, making it unnaturally potent. Use your Weaving roll for the attack, giving it the _Penetrating_ tag.
 
-***Adept***: You may spend 3 Energy to add a success and heal an additional wound.
+***Adept***: Energy cost is reduced to 0.
 
-***Mastery***: You may spend 4 Energy to add 2 successes and heal 2 additional wounds.
+***Mastery***: Prevents the target from using Reactions against this attack.
 
 
 **Lift**
@@ -1442,7 +1647,7 @@ Attempt to heal a creatures wounds. Make a Weaving roll, removing a success for 
 
 Make a creature momentarily weightless. While Lifted, increases a characters jump distance by 3 tiles and prevents up to 10 tiles worth of fall damage.
 
-***Adept***: When used on yourself you may use it to empower an attack. Making a melee attack during or right after a jump carries extra force, adding +1 success and +0/1 damage.
+***Adept***: Energy cost is reduced to 0.
 
 ***Mastery***: Increases jump distance to 5 tiles and prevents 25 tiles worth of fall damage.
 
@@ -1460,15 +1665,17 @@ Targeting a Medium or smaller creature, attempt to move them in a direction of y
 ***Mastery***: Costs 2 Energy. Can target Large creatures. Adds +2 to your Weaving roll and can push up to 6 tiles.
 
 
-**Guidance**
-- Energy Cost: 1
-- Cast Time: 1 AP
-- Duration: 1 round
-- Range: Self
+**Heal**
+- Energy Cost: 2
+- Cast Time: 3 AP
+- Duration: Instant
+- Range: Touch
 
-Use the weave to guide your next attack, making it unnaturally potent. Use your Weaving roll for the attack, giving it the _Penetrating_ tag.
+Attempt to heal a creatures wounds. Make a Weaving roll, removing a success for every wound the creature is missing. On success, the creature restores 1/1 wounds.
 
-***Adept***: Prevents the target from using Reactions against this attack.
+***Adept***: You add +1 success and heal an additional wound.
+
+***Mastery***: You may spend 3 Energy to add +2 successes and heal 2 additional wounds.
 
 
 **Power**
@@ -1484,40 +1691,11 @@ Empower your melee attack with force, causing it to strike creatures in a 5 tile
 ***Mastery***: You may spend 3 energy to make it a 9 tile line.
 
 
-**Counter**
-- Energy Cost: 1
-- Cast Time: Reaction
-- Duration: instant
-- Range: Melee
-
-After being targeted by a melee attack you counter with an opportunity attack, using your Weaving roll for the attack.
-
-***Adept***: if the triggering attack missed, add +1 Success and 0/1 to the damage.
-
-***Mastery***: If your attack hits this does not spend your Reaction.
-
-
 **Premonition**
 - Energy Cost: 3
-- Cast Time: 1 minute
-- Duration: 1 hour
+- Cast Time: Reaction
+- Duration: instant
 
-Peer into the future, seeing multiple outcomes. When you or a creature in your line of sight makes a roll, you may choose either party to redo their roll. This effect ends after one roll.
+Peer into the future, seeing multiple outcomes. When you or a creature in your line of sight makes a roll, you may choose either party to redo their roll.
 
-***Mastery***: This effect ends after two rolls.
-
-
-**Compel**
-- Energy Cost: 1
-- Cast Time: 2 AP
-- Duration: 1 round
-
-Override a biological creatures thoughts, compelling them to obey your command. Make a Weaving roll against their Mind. On success, you compel the creature. While compelled, a creature is incapable of complicated tasks, such as operating heavy machinery, piloting a vehicle, or using a caster. 
-
-The creature remains compelled for only a round, but as long as the action given is one they would normally take the creature will rationalize their actions. For example, a guard may assume you have clearance when compelled to let you through a checkpoint, or a driver may assume you already paid when compelled to take you somewhere.
-
-Compel can be used against hostile creatures, but they add 2 successes to their Mind rolls. Compel ends immediately if the compelled creature takes damage or is attacked.
-
-***Adept***: You may spend 1 more energy to target another creature with the same command.
-
-***Mastery***: Creatures are Compelled for 1 minute.
+***Mastery***: You may add or remove a success from the new roll.
