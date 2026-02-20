@@ -205,7 +205,7 @@ Some modifiers may increase the loadout points of the item it is socketed into.
 Some gear comes with Bonus Modifiers, displayed as a number after their name. For example, Las Pistol +1, or Carapice Armor +2. By default, Bonus Modifiers increase the number of Modifier slots on an item for non-armor gear, or increases the Point value for armor/shielding gear.
 
 ### Casters
-Casters are special equipment used by Psykentic and Machine Soul Espers to use their abilities. Casters channel the innate energy in a person to power any of the spells socketed inside. As spells are physical devices they have to be socketed into a Caster, taking up a mod slot. Due to this, Casters tend to have many more mod slots than other items. Casters have an energy limit, increasable with mods, that determines the maximum amount of energy that can be expended at one time. Spells that require more energy than the casters limit can't be used by that caster.
+Casters are special equipment used by Psykinetic and Machine Soul Espers to use their abilities. Casters channel the innate energy in a person to power any of the spells socketed inside. As spells are physical devices they have to be socketed into a Caster, taking up a mod slot. Due to this, Casters tend to have many more mod slots than other items. Casters have an energy limit, increasable with mods, that determines the maximum amount of energy that can be expended at one time. Spells that require more energy than the casters limit can't be used by that caster.
 
 #### Sustained Spells
 There's no more concentration saves, instead some spells have the Sustained tag. While a spell is sustained it reduces the energy limit of the caster by the energy spent on the spell. You can stop sustaining a spell at any time, causing the effects of the spell to end.
@@ -1249,7 +1249,7 @@ Grab an object and throw it at a target you can see. Make a Psykinetics roll aga
 - Cast Time: 2 AP
 - Range: Self
 
-Form a thin barrier of psykentic energy around yourself. Make a Psykentics roll, For every 3 successes, rounded up, you gain +1 to any Toughness rolls you make. You ignore any Suppression or Stunned you recieve unless the roll that inflicts them is 3 or more successes greater than your own.
+Form a thin barrier of psykinetic energy around yourself. Make a Psykinetic roll, For every 3 successes, rounded up, you gain +1 to any Toughness rolls you make. You ignore any Suppression or Stunned you recieve unless the roll that inflicts them is 3 or more successes greater than your own.
 
 ***Overcharge***: +1 Successes to your roll.
 
