@@ -152,6 +152,14 @@ Shielding is provided by your equipment. Like armor, Shielding has two propertie
 
 By default shields do not function properly when wearing armor. Shields require a mod to allow them to be used with armor and often come at a steep Loadout penalty.
 
+### Temporary Wounds
+Some effects give characters temporary wounds. When gaining temporary wounds you:
+
+- Increase your maximum wounds by the temporary wound granted
+- Heal yourself equal to the temporary wounds granted
+
+Temporary Wounds last for a duration, after which your max wounds are reduced to normal. Losing Temporary Wounds does not remove any wounds you may have unless your current wounds are higher than your new maximum.
+
 ### Energy
 Energy is used by Espers to cast spells and perform Weavings. Energy is fairly limited, but characters restore all of their energy after a short or long rest.
 
@@ -188,6 +196,19 @@ When exploring harsh environments or doing strenuous tasks players may gain exha
 For the first 3 levels of Exhaustion players take -1 to all Rolls per level of exhaustion. Levels 4 and on instead reduce your maximum Wounds and Energy by 1. If this would reduce your wounds to 0 the player dies of exhaustion.
 
 Exhaustion can be removed through rest actions. Taking the Short Rest dungeon turn removes a level of exhaustion, while taking a long rest in a 'safe area' (such as a town, a ship, etc) removes all levels of exhaustion.
+
+### Sight
+Most abilities require to you to be able to see the target of your action, such as attacking or casting spells. Creatures or objects behind walls or otherwise out of sight cannot be targeted with actions requiring sight. The exception are creatures that are _Invisible_. _Invisible_ creatures can be targeted (as long as you know they're there) as if they were visible, however all single target abilities take -2 to their roll against them.
+
+Darkness also impacts a characters abilities. Darkness comes in two levels: Dim Light and Darkness. Dim light covers any light level where sight would be hindered, such as outside during the night, in an enclosed room with emergency lighting, etc. Darkness is reserved for situations where there is no light sources at all, such as underground rooms with no light source.
+
+Darkness only effects a handful of skills: Acrobatics, Perception, Reflex, and any Martial or Esper roll relying on sight.
+
+##### Light Levels
+|      Level      |    Roll Penalty    |    Immunity From   |
+| :--------------: | :----------: | :----------: |
+| Dim Light        |      -1       | Limited Night Vision |
+| Darkness        |      -3       | Night Vision |
 
 ## Gear
 A good chunk of character progression comes from the gear they use. Normally a character can wear a single piece of armor and use a single Caster. Outside of those items characters can equip gear up to their loadout limit. By default this limit is 6, and some pieces of gear cost more or less loadout points. This doesn't mean you cant use things that aren't in your loadout, it's just your loadout is what is immediately available to you. You can take out something from your pack that isn't in your loadout by spending a full round digging it out of your pack. This item cannot be stored on your person and you must spend a full round putting it away. 
@@ -418,6 +439,178 @@ Ranged determines how far a weapon can attack, measured in tiles. Range comes in
 **Penetrating:**
 Penetrating attacks can still deal damage even if the attack misses. If the Penetrating attack misses by less than 3 the attack deals half damage.
 
+## Crafting
+
+### Drugs!
+Players with access to a Chemistry Station are able to create a variety of Pharmaceuticals by mixing chemicals. Common drugs are made using 1 or 2 ingredients, and complex drugs are made with 3 or 4 ingredients. The difficulty increases based on the ingredient used and the number of ingredients you attempt to mix.
+
+Creating pharmaceuticals can lead to unintended side effects depending on the skill of the player. Each ingredient belongs to a category, with each category giving different effects to the drug. The potency of a category is based on the total successes, with ingredients adding a number of successes to their category. Players may spend successes in their roll to increase the potency of a category as long as there is an ingredient of that category in use.
+
+Crafting rolls work differently than normal rolls. When using the Chemistry station you make a Chemistry roll without rolling the difficulty dice. After seeing the result of your roll you may choose to spend your successes to increase an Ingredient Category's potency or remove difficulty dice that have not been rolled. It costs 1 success to remove a bad die and 2 successes to remove a terrible die. Once all successes have been spent roll the difficulty dice following the instability rules below.
+
+When making drugs, each ingredient must belong to a different category.
+
+**Recipes**
+|      Name      |    Ingredient Count    |    Difficulty Dice   |
+| :--------------: | :----------: | :----------: |
+| Simple Drug | 1 | BBT |
+| Common Drug | 2 | BBTT |
+| Complex Drug | 3 | BBBTT |
+| Advanced Drug | 4 | BBBTTT |
+
+#### Categories
+For each category, choose a single table to draw from.
+
+##### Stimulants
+These types of drugs give bonuses to Athletics, Dexterity, Intelligence, or Charisma categories and skills
+
+**Proficiency**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 2 | +1 to a proficiency roll for 1 hour. |
+| 2 | 3 | +2 to a proficiency roll for 1 hour. |
+| 3 | 3 | +3 to a proficiency roll for 1 hour. |
+
+**Category**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 3 | +1 to a Category for 1 hour. |
+| 2 | 3 | +2 to a Category for 1 hour. |
+| 3 | 5 | +3 to a Category for 1 hour. |
+
+**Physical Buffs**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 2 | You gain Limited Nightvision for 1 hour. |
+| 2 | 3 | Your Jump distance and carry weight are doubled for 1 hour. |
+| 3 | 3 | You gain a Passive Perception equal to your Perception score. Lasts for 1 hour. |
+
+**Mental Buffs**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 2 | You gain expertise with Conversation. Lasts for 1 hour. |
+| 2 | 4 | You ignore mind altering effects unless the roll that causes them has 3 or more successes than your own. Lasts for 1 hour. |
+| 3 | 2 | You gain a Passive Insight equal to your Insight score. Lasts for 1 hour. |
+
+##### Curative
+These heal wounds, restore energy
+
+**Healing**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 2 | +1 Temporary Wounds for 1 hour. |
+| 2 | 2 | +2 Temporary Wounds for 1 hour. |
+| 3 | 3 | +3 Temporary Wounds for 1 hour. |
+| 4 | 3 | +5 Temporary Wounds for 1 hour. |
+
+**Energy**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 2 | Restore 2 Energy. |
+| 2 | 2 | Restore 4 Energy. |
+| 3 | 3 | Restore 7 Energy. |
+| 4 | 3 | Restory 10 Energy. |
+
+**Mixed**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 3 | +1 Temporary Wounds for 1 hour. Restore 2 Energy. |
+| 2 | 3 | +2 Temporary Wounds for 1 hour. Restore 3 Energy. |
+| 3 | 3 | +3 Temporary Wounds for 1 hour. Restore 5 Energy. |
+
+##### Steroids
+These types of drugs give bonuses to Martial, Defense, or Esper categories and skills
+
+**Proficiency**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 2 | +1 to a proficiency roll for 1 hour. |
+| 2 | 3 | +2 to a proficiency roll for 1 hour. |
+| 3 | 3 | +3 to a proficiency roll for 1 hour. |
+
+**Category**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 3 | +1 to a Category for 1 hour. |
+| 2 | 3 | +2 to a Category for 1 hour. |
+| 3 | 5 | +3 to a Category for 1 hour. |
+
+**Physical Buffs**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 5 | Gain expertise in a Martial proficiency for 1 encounter. |
+| 2 | 1 | Melee attacks gain +0/1 damage for 1 encounter. |
+| 3 | 1 | Ranged attacks gain +1 Critical for 1 encounter. |
+
+**Mental Buffs**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 3 | Gain expertise in Mind for 1 encounter. |
+| 2 | 2 | 0 and 1 cost spells are _Overcharged_ at no cost. Lasts 1 encounter. |
+| 3 | 1 | Gain a second Reaction each round only usable by weavings. Lasts 1 encounter. |
+| 2 | 2 | 0, 1, and 2 cost spells are _Overcharged_ at no cost. Lasts 1 encounter. |
+
+##### Suppressants
+These can be used to grant immunities or remove statuses
+
+**Immunities**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 3 | Ignore Suppression from abilities unless the attacker beat your roll by 3 or more. Lasts 1 encounter. |
+| 2 | 3 | Ignore Poisoned from abilities unless the attacker beat your roll by 3 or more. Lasts 1 encounter. |
+| 3 | 4 | Ignore Stunned from abilities unless the attacker beat your roll by 3 or more. Lasts 1 encounter. |
+
+**Status Effects**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 1 | Removes Poisoned, but not Heavy Poison. |
+| 2 | 2 | Removes one of: Blind, Poisoned, Stunned |
+| 3 | 3 | Removes all of: Blind, Poisoned, Stunned |
+
+**Resistances**
+|      Potency      |    Success Cost    |    Effect   |
+| :--------------: | :----------: | :----------: |
+| 1 | 3 | Prevents you from being _Bloodied_. Lasts 1 hour. |
+| 2 | 4 | Gives you Resistance I to one of: Psychic, Radiation, Sonic. Lasts 1 hour. |
+| 3 | 2 | Gives you Resistance I to one of: Heat, Cold, Lightning, Acid. Lasts 1 hour. |
+
+#### Additives
+These are ingredients similar to categories, but instead of adding any effects themselves they alter the effects of the drug as a whole.
+
+##### Stabliziers
+These don't improve the overall drug, but reduce failures in your roll.
+
+##### Enhancers
+These can be added to increase the successes of an ingredient category of your choice at the expense of increasing the number of failures.
+
+##### Sustainers
+If an effect has a duration of 1 hour, this can increase those durations to 4 hours.
+
+#### Instability
+Intability is added from the difficutly dice in your Chemistry roll. When bad and terrible dice are rolled, the faces rolled increase one of 3 tracks: Single Failures, Double Failures, or Critical Failures. Blank rolls do not effect Instability. If a track is pushed past the maximum level the drugs become duds and have no effect.
+
+**Single Failure**
+|      Level      |    Effect   |
+| :--------------: | :----------: |
+| 1 | You gain _Bloodied_ for the duration. |
+| 2 | You gain Poisoned for 10 minutes on use. |
+| 3 | A random Defense proficiency has -2 for the duration. |
+| 4 | You gain Blind for 10 minutes on use. |
+
+**Double Failure**
+|      Level      |    Effect   |
+| :--------------: | :----------: |
+| 1 | A random Category between Athletics, Dexterity, Intelligence, and Charisma has -1 for the duration. Cannot be a category being improved by the drug. |
+| 2 | You lose a wound on taking this drug. |
+| 3 | You have no memory of the past hour on taking this drug. |
+
+**Crticial Failure**
+|      Level      |    Effect   |
+| :--------------: | :----------: |
+| 1 | You are stunned for 1 round on use. |
+| 2 | The highest potency Ingredient Category is reduced by 1. |
+| 3 | A random Category between Martial, Defense, and Esper has -3 for the duration. Cannot be a category being improved by the drug. |
+
 ## Conditions
 various abilities/attacks inflict conditions.
 
@@ -447,6 +640,9 @@ Disrupt affects a creatures items rather than the creature itself. While an item
 
 **Frozen**
 Frozen creatures have their Move Speed set to 0 and cannot move. Melee and Reflex have -2 to their rolls.
+
+**Invisible**
+All single target abilities made against Invisible creatures has -2 Successes to their roll.
 
 **Prone**
 While prone a creatures Move Speed is reduced to 1 and have Expertise in Defense rolls against ranged attacks. Creatures can remove _Proned_ by spending a Move action.
@@ -1182,11 +1378,37 @@ Mods are small trinkets that can be socketed into weapons, casters, armor, vehic
 
 >**CORADIN Safety Bypass Δ**
 > The next outcome triggered by equipment this is socketed inside is ignored. Works once, then takes 10 minutes to recharge.
-> 
+
 >**CORADIN Safety Bypass Θ**
 > An outcome of the users chooosing triggered by equipment this is socketed inside is ignored. Works once, then takes 10 minutes to recharge.
 
-## Spell Examples
+
+### Robot Companion Mods
+
+>**M-SPEC A50 Burst Servo**
+> When taking a Move action you may double your movement. 1 hour recharge.
+
+>**M-SPEC A40 Lift Servo**
+> Once per round allows you to Jump up to your movespeed.
+
+>**MYR Tech GS4 Overclocker**
+> Can be used to increase your AP by 2 for one round. 1 hour recharge.
+
+>**MYR Tech PS30-R Shielding**
+> Gives 1 Shield Point. While the Shield Point isn't depleted you have +1 against Machine Soul rolls. Once Depleted takes 1 hour to recharge.
+
+>**NOVOS GR25M Grapple Mount**
+> Gives you the _Grapple Arm_ Ability.
+> 
+> **Grapple**
+>- AP: 2
+>- Range: 4/7
+> Fires a grapple hook at a target. Target makes a Reflex/Toughness roll against your Ranged. On hit the grapple hook is latched. You may retract it, moving the lighter creature up to 7 tiles towards the other. If attached to an object you can swing up to 7 tiles.
+
+>**M-SPEC S70 Area Scanner**
+> Gives +1 to Perception checks and limited night vision.
+
+## Esper Spells
 
 ### Psykinetics
 
