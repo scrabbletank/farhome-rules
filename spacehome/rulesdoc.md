@@ -210,6 +210,21 @@ Darkness only effects a handful of skills: Acrobatics, Perception, Reflex, and a
 | Dim Light        |      -1       | Limited Night Vision |
 | Darkness        |      -3       | Night Vision |
 
+### Piloting
+There are a multitude of vehicle, ships, and mech suits your character can pilot. Piloting these takes skill, practice, and nerves of steel. When getting into a vehicle for the the first time you make a Piloting roll against a difficulty set by the GM. Regardless of the roll you can begin piloting the vehicle as normal but failures and critical failures give stress.
+
+#### Stress
+Piloting and pulling off maneuvers is stressful and is something only the most skilled pilots can pull off normally. When making your initial piloting roll you gain 1 stress for every 2 failures in your roll. In addition you gain 1 stress for every critical failure in your roll even if you succeed. While you have stress any roll you make with your vehicle is impacted. When making a vehicle roll, roll a bad die for every point of stress: every Disaster rolled with your stress dice reduces the successes of your vehicle roll by 1.
+
+#### Special Maneuvers
+Most vehicles come with one or more special maneuvers. These are abilities that normally only skilled pilots can pull off. Special Maneuvers will list a Piloting skill and amount of stress added; characters that are below the Piloting skill add stress when using the maneuver.
+
+#### Removing Stress
+While piloting a vehicle you have access to a new action: Calm Nerves.
+
+##### Calm Nerves (2 AP)
+Take a moment to calm yourself and regain control of the vehicle. Make a Piloting roll against a difficulty set by the GM. Remove 1 stress for every 2 successes in your roll, removing an additional stress for every critical success.
+
 ## Gear
 A good chunk of character progression comes from the gear they use. Normally a character can wear a single piece of armor and use a single Caster. Outside of those items characters can equip gear up to their loadout limit. By default this limit is 6, and some pieces of gear cost more or less loadout points. This doesn't mean you cant use things that aren't in your loadout, it's just your loadout is what is immediately available to you. You can take out something from your pack that isn't in your loadout by spending a full round digging it out of your pack. This item cannot be stored on your person and you must spend a full round putting it away. 
 
@@ -794,7 +809,7 @@ When an attack would break your armor, if the damage would not outright kill you
 While you are 3 points below your Loadout Limit, your movespeed is increased by 1.
 
 **Ace Pilot**
-When making a Piloting check, you may remove a single bad or terrible die from the challenge. You must take a long or short rest to use this feat again.
+Once per encounter, when making a Piloting roll you may give yourself expertise. If you succeed on your roll you remove 1 stress.
 
 **Careful Hacking**
 When making a Hacking check, as long as you do not critically fail you will not raise any alarm.
@@ -830,9 +845,9 @@ When Patience reaches 0 during a Negotiation you may make one final appeal.
 _Requires Proficiency in Insight_
 You may spend 3 AP to size up a humanoid character. Make an Insight check against their raw Charisma. On success you learn about the character: such as their CR, possible ideals and pitfalls, and notable feats they may have.
 
-**Overdrive**
+**Lock In**
 _Requires Proficiency in Piloting_
-Temporarily increase your vehicles speed, doubling your movement for a single action. Make a Piloting roll against challenge dice determined by the GM, on failure your vehicle spins out. Challenge increases each time its used in an encounter.
+Once per encounter you may ignore the Piloting requirement of a vehicle maneuver.
 
 **Evade**
 _Requires Proficiency in Acrobatics_
@@ -888,6 +903,10 @@ When making a Mind roll you may use your reaction to gain Resistance I to Psychi
 **Machine Whisperer**
 _Requires Proficiency in Machine Soul_
 When rolling an outcome die for a weapon, machine, or other non-living thing, you may roll two dice, taking your preferred outcome.
+
+**Dual Wield Expert**
+_Requires 5 Martial_
+Your Dual Wield attacks do not cost an additional AP.
 
 ## Gear
 
@@ -1038,6 +1057,55 @@ When rolling an outcome die for a weapon, machine, or other non-living thing, yo
 >- AP: 2
 >- Range: 6/12/18
 
+>**Autopistol**
+>- Loadout: 2
+>- Damage: 1/0
+>- Damage Type: Kinetic
+>- Critical Effect: +1 Success/crit
+>
+>***Attacks***
+>
+>**Full Auto**
+>- AP: 3
+>- Damage: 1/3
+>- Range: 3/5/7
+
+>**Military Rifle**
+>- Loadout: 3, Mods: 2
+>- Damage: 1/1
+>- Damage Type: Kinetic
+>- Critical Effect: Inflict Suppression/crit
+>
+>***Attacks***
+>
+>**Attack**
+>- AP: 2
+>- Range: 10/15/20
+>
+>**Full Auto**
+>- AP: 4
+>- Damage: 1/3
+>- Range: 5/8/12
+
+
+>**Enforcer**
+>- Loadout: 3, Mods: 2
+>- Damage: 2/1
+>- Damage Type: Kinetic
+>- Critical Effect: +0/1 Damage
+>
+>***Attacks***
+>
+>**Reload**
+>- AP: 2
+> Reloads the gun allowing it to be used
+>
+>**Attack**
+>- AP: 2
+>- Damage: 1/3
+>- Range: 4/7/10
+> After attack roll outcome: bad die: critical -> must reload to use again
+
 ### Heavy Weapon
 
 >**Mining Laser**
@@ -1135,6 +1203,22 @@ When rolling an outcome die for a weapon, machine, or other non-living thing, yo
 >- Tags: _Penetrating_
 > Must be launched from a Rocket pod. Maximum 5 targets. Heavy weapons vs Toughness.
 
+>**Toxigun**
+>- Loadout: 4, Mods: 2
+>- Damage: 1/2
+>- Damage Type: Acid
+>- Critical Effect: Inflict Poisoned
+>
+>***Attacks***
+>
+>**Charge**
+>- AP: 2
+> Each shot gives -1 to Attack rolls, cumulating. Charge resets this counter.
+>
+>**Attack**
+>- AP: 2
+>- Range: 8/10/15
+
 
 ### Casters
 
@@ -1142,6 +1226,13 @@ When rolling an outcome die for a weapon, machine, or other non-living thing, yo
 >- Loadout: 1
 >- Energy Limit: 1
 >- Mod Slots: 6
+
+>**MYR Tech C70 Diviner**
+>- Loadout: 1
+>- Energy Limit: 1
+>- Omnibots: 1
+>- Mod Slots: 4
+> 0 Cost spells gain 1 level of overcharge at no cost
 
 >**MYR Tech C90 Reasearcher**
 >- Loadout: 2
@@ -1153,6 +1244,11 @@ When rolling an outcome die for a weapon, machine, or other non-living thing, yo
 >- Energy Limit: 3
 >- Omnibots: 1
 >- Mod Slots: 2
+
+>**CORADIN Psyker μ**
+>- Loadout: 2
+>- Energy Limit: 3
+>- Mod Slots: 3
 
 
 ### Armor
@@ -1180,6 +1276,11 @@ When rolling an outcome die for a weapon, machine, or other non-living thing, yo
 >- Armor Points: 2
 >- Armor Rating: 1
 > Increases Loadout by 2.
+
+>**M-SPEC Combat Armor**
+>- Armor Points: 3
+>- Armor Rating: 2
+> Gives Resistance I against Kinetic damage.
 
 ### Shield
 
@@ -1278,6 +1379,109 @@ When rolling an outcome die for a weapon, machine, or other non-living thing, yo
 >- Critical Effect: Inflicts Stun
 > Must be Armed before it can be thrown. Explodes in a 5x5 tile area centered on a tile in range. Throwing past the first range has a 50% chance to land 1 tile off from your target. Creatures make a Mind roll against 5 Enhanced dice. This attack is non-lethal.
 
+### Robot Companions
+
+#### NOVOS Scout Drone
+> ### Stats:
+> ___
+> **Health:** 2/2 Armor
+> 
+> **Move:** 5, Floating
+> 
+> **AP:** 3
+> 
+> **Skills:** Reflex 3, Toughness 3, Mind 0, Ranged 2, Perception 4
+> 
+> **Loadout:** 2, _Ranged Only_
+> 
+> **Mods:** 2
+>
+> ### Skills:
+> ___
+> **Area Scanner:** Grants this drone Limited Night Vision.
+> 
+> **Broadcast:** Can see through drones senses up to 30 tiles.
+> 
+> ### Attacks:
+> ___
+> None
+
+#### CORADIN Cerberus
+> ### Stats:
+> ___
+> **Health:** 3/3 Armor
+> 
+> **Move:** 6
+> 
+> **AP:** 3
+> 
+> **Skills:** Reflex 5, Toughness 2, Mind 0, Ranged 2, Melee 3, Perception 3
+> 
+> **Loadout:** 3, _Ranged Only_
+> 
+> **Mods:** 3
+>
+> ### Skills:
+> ___
+> **Scent Tracker:** Gains +5 to Perception of _Bloodied_ creatures.
+> 
+> **Run and Gun:** Can take a free move action when making a Ranged attack.
+> 
+> ### Attacks:
+> ___
+> **Bite** - 2 AP, Melee, 1/1 Cutting, +0/1 on Crit, Vs Reflex/Toughness
+
+#### CORADIN Excalibur
+> ### Stats:
+> ___
+> **Health:** 5/3 Armor
+> 
+> **Move:** 4
+> 
+> **AP:** 4
+> 
+> **Skills:** Reflex 3, Toughness 7, Mind 3, Ranged 6, Melee 4
+> 
+> **Loadout:** 8
+> 
+> **Mods:** 3
+>
+> ### Skills:
+> ___
+> **Mech Suit:** Can't take actions unless Piloted. Uses Mech's AP instead of characters.
+> 
+> **Overcharge:** Piloting 7. At the start of your round you may choose to increase your AP by 2, gaining 2 stress.
+> 
+> ### Actions:
+> ___
+> **Defense Matrix** - Reaction, Special, Piloting 9, Gain +3 to Toughness and Reflex rolls for the attack and gaining 1 stress.
+
+#### CORADIN Lancer
+> ### Stats:
+> ___
+> **Health:** 3/2 Armor
+> 
+> **Move:** 5
+> 
+> **AP:** N/A
+> 
+> **Skills:** Reflex 6, Toughness 2, Mind 0, Ranged 4
+> 
+> **Loadout:** 2, _Ranged Only_
+> 
+> **Mods:** 1
+>
+> ### Skills:
+> ___
+> **Vehicle:** Can't take actions unless Piloted.
+> 
+> **Exposed:** When taking damage can choose to take damage yourself or damage the Lancer.
+> 
+> **Accelerate:** Choose One: Piloting 4. When taking a move action gain +2 Move, gaining 1 stress. **OR** Piloting 9. When taking a move action gain +5 Move, gaining 2 stress.
+> 
+> ### Actions:
+> ___
+> **Tail Swipe** - Piloting 6, 2 AP, Melee, 1/1 Kinetic, +0/1 on crit, Vs Reflex/Toughness, Can only be used after moving 3 tiles. Attack gains +1/0 for each stage of Accelerate used in the last Move action. Gain 2 stress.
 
 ## Mods
 Mods are small trinkets that can be socketed into weapons, casters, armor, vehicles, even robot pets. These trinkets provide a whoel range of effects that modify how the gear works. Most items have 0-1 mod slots, casters having far more as spells are socketed through mods.
@@ -1318,6 +1522,12 @@ Mods are small trinkets that can be socketed into weapons, casters, armor, vehic
 >- AP: 1
 > All attacks with this weapon add 0/1 Cold damage. Criticals inflict Frozen for 1 round. Lasts for 1 minute. 1 Hour recharge.
 
+>**M-SPEC M3 Lasersight**
+> +1 to Ranged rolls.
+
+>**GUNKOR Hollow Splatz**
+> Deals +1/0 against Wounds, deals -1/0 to Armor.
+
 ### Melee
 
 >**NOVOS A80 Piercer**
@@ -1332,16 +1542,32 @@ Mods are small trinkets that can be socketed into weapons, casters, armor, vehic
 >- _Kenetic Only_
 > Attacks deal an extra 0/1 in lightning damage. **Outcome:** Roll a bad die. On a critical fail this mod stops working until repaired.
 
+>**NOVOS S55 Vibroblade**
+>- _Cutting Only_
+> Converts all Cutting damage to Sonic damage.
+
+>**M-SPEC K7 Dynamic Weights**
+> Adds a Critical to your Melee rolls.
+
 ### Shields
 
 >**ELECTRA G14 Capacitor**
 > Increases the Shield Points by 1. ***Outcome:*** When losing your last shield roll a bad die, on a critical the shield is _Disrupted_ for 1 minute.
 
 >**MYR Tech RK25 Reserve Battery**
-> When the last Shield Point is lost immediately recharge 1 Shield. Works once, then takes 1 hour to recharge.
+> When the last Shield Point is lost immediately recharge 1 Shield. 1 hour recharge.
 
 >**MYR Tech PS55 Shielding**
 > Gives Resistance I to Psychic.
+
+>**ELECTRA G17 Capacitor**
+> Increases Shield Points by 2. ***Outcome:*** When losing your last shield roll a bad die, on a critical the shield is _Disrupted_ for 1 minute.
+
+>**NOVOS K9 Insulation**
+> Removes Loadout Penalty when wearing armor.
+
+>**CORADIN Myrmidon ε**
+> Grants +2 to rolls when defending against Esper rolls.
 
 ### Armor
 
@@ -1360,6 +1586,12 @@ Mods are small trinkets that can be socketed into weapons, casters, armor, vehic
 >**M-SPEC K700 Power Servos**
 > +1 to Toughness Rolls.
 
+>**M-SPEC H45 Exoskeleton**
+> Removes penalties to Acrobatics and Reflex rolls from armor.
+
+>**NOVOS L40 Thermal Conductors**
+> Gives Resistance I to Heat.
+
 ### Casters
 
 >**MYR Tech BF3 Enhancer**
@@ -1373,6 +1605,9 @@ Mods are small trinkets that can be socketed into weapons, casters, armor, vehic
 
 >**CORADIN Droneport Δ**
 > Increases Omnibot Limit by 1.
+
+>**MYR Tech DR Insulation**
+> Your rolls have +2 against effects that would _Disrupt_ this caster.
 
 ### General Purpose
 
@@ -1407,6 +1642,24 @@ Mods are small trinkets that can be socketed into weapons, casters, armor, vehic
 
 >**M-SPEC S70 Area Scanner**
 > Gives +1 to Perception checks and limited night vision.
+
+>**M-SPEC B450 Reserve Battery**
+> Can be used to instantly recharge another mod. 1 hour recharge.
+
+>**CORADIN Rangefinder α**
+> Gives +1 to Ranged.
+
+>**CORADIN Power Amp β**
+> Gives +1 to Melee.
+
+>**NOVOS DR8 Subsystems**
+> Gives +2 to Reflex and -1 to Toughness
+
+>**NOVOS DR8-R Subsystems**
+> Gives +2 to Toughness and -1 to Reflex
+
+>**NOVOS AP20 Plating**
+> Increases natural Armor Points by 1.
 
 ## Esper Spells
 
@@ -1585,6 +1838,7 @@ Throw a lance of psychic energy at a target creature. The target creature makes 
 
 ##### 3 Cost
 - Charge Shield
+- Cloaking
 - Control
 
 
@@ -1751,6 +2005,17 @@ Enhance your shield greatly increasing your Shield Points while making it immobi
 ***Overcharge***: Gain an extra Shield Point.
 
 
+**Cloaking**
+- Tag: _Sustained_
+- Energy Cost: 3
+- Cast Time: 3 AP
+- Range: 5
+
+Create a cloaking field that follows a creature. The creature gains _Invisiblity_; anyone attempting to perceive the creature makes a Perception roll against your Machine Soul. When the creature takes damage trigger an outcome: Roll a normal die, on a blank the spell ends. The spell ends if the creature moves more than 30 tiles away from you.
+
+***Overcharge***: Ignore an additional outcome from this spell
+
+
 **Control**
 - Tag: _Sustained_
 - Energy Cost: 3
@@ -1830,7 +2095,7 @@ Compel can be used against hostile creatures, but they add 2 successes to their 
 
 After being targeted by a melee attack you counter with an opportunity attack, using your Weaving roll for the attack.
 
-***Adept***: if the triggering attack missed, add +1 Success and 0/1 to the damage.
+***Adept***: if the triggering attack missed, add +1 Success and +0/1 to the damage.
 
 ***Mastery***: If your attack hits this does not spend your Reaction.
 
