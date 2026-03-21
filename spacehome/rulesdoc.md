@@ -454,6 +454,9 @@ Ranged determines how far a weapon can attack, measured in tiles. Range comes in
 **Penetrating:**
 Penetrating attacks can still deal damage even if the attack misses. If the Penetrating attack misses by less than 3 the attack deals half damage.
 
+**Pull:**
+Some attacks can latch two targets together, such as with a grappling hook, and pull them together. An attack with the Pull tag moves the targets together based on its magnitude. The heaviest target remains stationary while the lighter target is moved. For example, a grapple hook with Pull 4 would move a small creature 4 tiles towards you, or if you target a wall pull you 4 tiles towards the wall.
+
 ## Crafting
 
 ### Drugs!
