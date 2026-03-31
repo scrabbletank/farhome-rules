@@ -164,9 +164,7 @@ Temporary Wounds last for a duration, after which your max wounds are reduced to
 Energy is used by Espers to cast spells and perform Weavings. Energy is fairly limited, but characters restore all of their energy after a short or long rest.
 
 ## Rolls
-Rolls in this game use the same dice as Farhome (with the exception of defense dice) and use an altered method of calculating rolls. All rolls are based off of 1 of the 25 skills. Starting with 5 white dice, replace a white die with a green die for each point of proficiency in a skill. Once all white dice have been replaced, replace green dice with yellow dice for each remaining proficiency. Any proficiency above 10 adds a flat success for every point above 10.
-
-Players will always roll 5 dice for their rolls. Dice cannot be added or removed, with the exception of hero dice.
+Rolls in this game use the same dice as Farhome (with the exception of defense dice) and use an altered method of calculating rolls. All rolls are based off of 1 of the 25 skills. Starting with 5 white dice, replace a white die with a green die for each point of proficiency in a skill. Once all white dice have been replaced, replace green dice with yellow dice for each remaining proficiency. Any proficiency above 10 adds +1 success.
 
 ### Rerolls
 Some abilities or effects give you rerolls. Each reroll allows you to reroll 1 die. You may reroll any dice in your roll, taking the new value. You can reroll the same die multiple times, or reroll multiple dice.
@@ -174,12 +172,24 @@ Some abilities or effects give you rerolls. Each reroll allows you to reroll 1 d
 ### Skill Proficiency
 Skill proficiencies are calculated based off the proficiency of the category they are under. Skills that you are proficient in (The skills you choose at character creation or learned through level ups) gain the full benefit of the categories proficiency. All other skills have a proficiency equal to half the categories level, rounded down.
 
+### Damage Dice
+There are two kinds of damage dice: Heavy and Light wound dice. When rolling damage you roll a number of Heavy and Light wound dice based on the attack. Damage dice is listed as two numbers denoting the Heavy wound dice and Light wound dice. For example, an attack that deals `1/2` would roll 1 Heavy wound die and 2 Light wound dice.
+
+Heavy wound dice have an equal chance of dealing 2, 1, or 0 damage. Light wound dice have an equal chance of dealing 1 or 0 damage.
+
+### Critical Success
+A roll is considered a Critical Success if:
+- The roll has more Successes than the opposing roll.
+- The roll has more Criticals than the opposing roll.
+
+Critical rolls can have a variety of effects, usually outlined by the attack or ability that triggered the roll. Damaging attacks that Critically Succeed always deal a minimum of 1 damage.
+
 ### Downed
-When a player is reduced to 0 wounds they are put into a Downed state. While Downed, a creature can take no actions.Other creatures can attempt to revive a player by healing them or making a Biology check, adding a terrible die for every wound of damage in the attack that Downed the player. On success (or when healed) the player regains half of their maximum wounds, rounded up, and is put into a Bloodied state. Downed creatures automatically revive at the end of an encounter as if they were revived.
+When a player is reduced to 0 wounds they are put into a Downed state. While Downed, a creature can take no actions. Other creatures can attempt to revive a player by healing them or making a Biology check, adding a terrible die for every wound of damage in the attack that Downed the player. On success (or when healed) the player regains half of their maximum wounds, rounded up, and is put into an Injured state. Downed creatures automatically revive at the end of an encounter as if they were revived.
 
-When a player is Downed while in a Bloodied state they can no longer be revived. Instead they roll an Outcome, using a wound die. On a wound the player dies, otherwise reviving on a blank. Players remain in a Bloodied state until they complete a long rest.
+When a player is Downed while in a Injured state they can no longer be revived. Instead they roll an Outcome, using a wound die. On a wound the player dies, otherwise reviving on a blank. Players remain in a Injured state until they complete a long rest.
 
-While Downed, creatures can still be targeted by attacks and take damage. When taking damage they make a Survival check, adding a bad die for every wound in the attack. On failure they are killed. Bloodied players use terrible dice instead of bad dice.
+While Downed, creatures can still be targeted by attacks and take damage. When taking damage they make a Survival check, adding a bad die for every wound in the attack. On failure they are killed. Injured players use terrible dice instead of bad dice.
 
 ### Outcome Rolls
 Some abilities, attacks, or random effects may require you to roll a single die to determine an outcome. This can come in many forms, but is usually used to determine the severity of an outcome. For example, if you trip an alarm, the game master may make you roll a bad die to see who responds. a Blank roll could mean just a utility robot, a failure a lone guardsman, or on a Disaster an entire patrol.
@@ -414,9 +424,9 @@ Cover comes in two forms, Light and Heavy cover. While behind cover, any Reflex 
 |                  |              |              |
 | :--------------: | :----------: | :----------: |
 |   **Elemental**  |              | |
-|                  |  Heat  | damage from fire, laser, or plasma |
+|                  |  Heat  | damage from fire or plasma |
 |                  |  Cold   | freezing cold from cryo/endothermic weapons |
-|                  |    Lightning    | lightning n shit.  |
+|                  |    Energy    | lasers and lightning n shit.  |
 |                  |   Acid   | poisonous or corrosive liquids |
 |   **Physical**  |              | |
 |                  |  Kinetic  | Raw physical force, such as clubs, hammers, or bullets. |
@@ -430,8 +440,8 @@ Cover comes in two forms, Light and Heavy cover. While behind cover, any Reflex 
 ### Tags
 Various items and abilities use tags as shorthand to explain additional effects.
 
-**Bleeding:**
-Attacks inflict Bleeding on hit. Bleeding lasts for 10 minutes and causes the next source of healing to heal half as much, rounded down. Removed after being healed.
+**Maim:**
+Attacks with Maim allow you reroll wound dice equal to its magnitude. For example, an attack with _Maim 2_ let you reroll 2 wound dice.
 
 **EMP:**
 The attack has EMP-like effects. EMP attacks deal 1 extra damage to shields and disables their recharge for 1 round.
@@ -590,7 +600,7 @@ These can be used to grant immunities or remove statuses
 | :--------------: | :----------: | :----------: |
 | 1 | 3 | Prevents you from being _Bloodied_. Lasts 1 hour. |
 | 2 | 4 | Gives you Resistance I to one of: Psychic, Radiation, Sonic. Lasts 1 hour. |
-| 3 | 2 | Gives you Resistance I to one of: Heat, Cold, Lightning, Acid. Lasts 1 hour. |
+| 3 | 2 | Gives you Resistance I to one of: Heat, Cold, Energy, Acid. Lasts 1 hour. |
 
 #### Additives
 These are ingredients similar to categories, but instead of adding any effects themselves they alter the effects of the drug as a whole.
@@ -648,7 +658,7 @@ When making any non-defense roll, take -1 Success, or -3 if Heavily Poisoned. Ga
 Bane alters a creatures fate for the worse. When making any roll you must keep a die as white for each stack of bane. For example, if you have 6 proficiency in a skill and have Bane 2 you would roll 1 yellow, 2 green, and 2 white dice.
 
 **Blind**
-Blinded creatures cannot take Overwatch. They lose 2 Successes on Attacks, Reflex rolls, and any Caster ability that requires sight. Any attack or casting made against a target more than 6 tiles away automatically fails.
+Blinded creatures cannot take Overwatch. They have -2 Successes on Attacks, Reflex rolls, and any Caster ability that requires sight. Any attack or casting made against a target more than 8 tiles away automatically fails.
 
 **Grappled**
 Grappled creatures cannot move and automatically fail Reflex saves. While grappled, creatures lose access to one of their arms, preventing them from using two handed weapons or dual wielding.
@@ -769,9 +779,9 @@ Gain expertise in Conversation. +1 to allies Negotiation rolls while present. **
 Can see in dim light with no penalties. **Downside:** -2 to Perception rolls during the day.
 
 #### Bioelectric
-Resistance I to Lightning. Gain _Voltage_ ability. **Downside:** -2 Loadout Limit.
+Resistance I to Energy. Gain _Voltage_ ability. **Downside:** -2 Loadout Limit.
 
-**Voltage** Once per encounter, can spend 1 AP to discharge stored electricity. Adjacent creatures make a Reflex save against your Reflex. On fail they take 1/0 in Lightning damage and gain 1 stack of _Surpressed_.
+**Voltage** Once per encounter, can spend 1 AP to discharge stored electricity. Adjacent creatures make a Reflex save against your Reflex. On fail they take 1/0 in Energy damage and gain 1 stack of _Surpressed_.
 
 #### Corrosive Bile
 Resistance I to Acid. Gain _Corrosive Spit_ ability. **Downside:** -2 Loadout Limit.
@@ -803,25 +813,19 @@ Your Loadout Limit is increased by 3.
 Add 1 success when making Ranged attacks against a target 6 tiles or further. In addition, if no enemy is within 6 tiles of you add a critical to your Ranged attacks.
 
 **Skirmisher**
-Hiding behind cover gives you +1 success to defense rolls.
+Your attacks against adjacent creatures have _Maim_.
 
 **Armor Specialist**
-When an attack would break your armor, if the damage would not outright kill you, prevent all wounds lost from the attack.
+Outcome: When an attack deals less than your Armor Rating roll a Light wound die. On a blank you take no damage.
 
 **Light Loadout**
-While you are 3 points below your Loadout Limit, your movespeed is increased by 1.
-
-**Ace Pilot**
-Once per encounter, when making a Piloting roll you may give yourself expertise. If you succeed on your roll you remove 1 stress.
-
-**Careful Hacking**
-When making a Hacking check, as long as you do not critically fail you will not raise any alarm.
+While you are 3 points below your Loadout Limit, your movespeed is increased by 2 and you gain +1 to Reflex.
 
 **Scavenger**
-You can attempt to salvage spare parts from defeated robots/mechs. A successful Engineering roll allows you to restore 1d3 Armor Points for a creature or repair a damaged subsystem of a robot pet.
+You can attempt to repair Armor or a Robot using scrap during a short rest. When taking a short rest roll a Heavy Wound die, restoring Armor Points equal to the wounds rolled. You can repair damaged weapons over a short rest.
 
 **Bloodlust**
-You may reroll 1 die with Melee attacks while you are Bloodied.
+Your melee attacks gain _Maim_ when you or your target are _Bloodied_.
 
 **Percussive Maintainence**
 Once per round you may attempt to remove Disrupt from an item. Make an Engineering roll against a terrible die per Loadout point of the item (or recharge rate for shields), on a success the item is no longer disrupted.
@@ -832,8 +836,20 @@ You may take 2 Reactions per round.
 **Heavy Weapons Expert**
 You may take a move action in between actions of a channeled ability without breaking the channeling effect.
 
+**Lucky**
+Once per encounter you may change a success to a Triumph or a Disaster to a failure.
+
+**Fated**
+Increase your maximum Fate Points by 2.
+
+**Type A Mind**
+Your damaging spells have Maim. Non damaging spells have -1 Successes.
+
+**Type B Mind**
+Non damaging spells have +1 Success. Damaging spells cannot critically hit.
+
 **Quick Draw**
-If you are not suprised, add 2 extra dice to the initiative bag during the first round of combat.
+If you are not suprised, add 3 extra dice to the initiative bag during the first round of combat.
 
 **Desperate Measure**
 Before initiative is drawn for this turn you may choose to use this feat to imediately take a turn if you have not taken one this round. Remove an initiative die of your color out of the bag and take your turn as normal. You must take a long rest before you can use this feat again.
@@ -842,7 +858,7 @@ Before initiative is drawn for this turn you may choose to use this feat to imed
 
 **Last Word**
 _Requires Proficiency in Conversation_
-When Patience reaches 0 during a Negotiation you may make one final appeal.
+When Patience reaches 0 during a Negotiation you may make one final appeal. You have +2 successes to your Negotiation roll with this appeal.
 
 **Size up**
 _Requires Proficiency in Insight_
@@ -850,7 +866,7 @@ You may spend 3 AP to size up a humanoid character. Make an Insight check agains
 
 **Lock In**
 _Requires Proficiency in Piloting_
-Once per encounter you may ignore the Piloting requirement of a vehicle maneuver.
+Once per encounter you may ignore the Piloting requirement of a vehicle maneuver. Reduce your stress by 3 when using this feat.
 
 **Evade**
 _Requires Proficiency in Acrobatics_
@@ -869,11 +885,11 @@ You may use the _Shove_ action.
 
 **Wasteland Traveler**
 _Requires Proficiency in Survival_
-You have +4 to Survival checks while in the wilderness as long as it is a climate you are accustomed.
+You have +4 to Survival checks while in the wilderness as long as it is a climate you are accustomed. Become accustomed to a wilderness type of your choosing when taking this feat.
 
-**Battlefield Repair**
+**Standard Maintenance**
 _Requires Proficiency in Engineering_
-Allows you to attempt to repair armor during a Dungeon Turn. Make an Engineering roll, subtracting successes equal to the armor's Armor Rating. You restore 1 Armor Point per 2 remaining successes, rounding up. Armor can only be repaired this way once between full repairs.
+During a long rest you can tune up to 2 pieces of equipment used by you or your party. Whiled tuned up Weapons have +1 success to their attack rolls, Armor has +1 Rating, and Shields have +1 Points. Lasts 24 hours.
 
 **Blend in to the Crowd**
 _Requires Proficiency in Espionage_
@@ -885,11 +901,11 @@ You have a 6th sense for danger, giving you a passive Perception equal to your D
 
 **Without a Trace**
 _Requires Proficiency in Sealth_
-When you succeed on a Sealth check you prevent any trail being left by you or your party.
+When you succeed on a Sealth check you may also choose another creature to succeed on theirs. You have +1 to Stealth rolls.
 
 **Excessive Confidence**
 _Requires Proficiency in Guile_
-When making a Guile check it always critically succeeds or critically fails.
+When making a Guile check it always critically succeeds or critically fails. Your Charisma increases by 1 when taking this feat.
 
 **Homebrewed Curatives**
 _Requires Proficiency in Chemistry_
@@ -897,15 +913,19 @@ Most places that house species, at least sentient ones, also keep a handful of m
 
 **Withstand The Elements**
 _Requires Proficiency in Toughness_
-When you critically defend with Toughness you have Resistance I to elemental damage.
+When you critically defend with Toughness you have Resistance I to elemental damage. Once per encounter you may choose to take half damage from an elemental attack.
 
 **Mental Barrier**
 _Requires Proficiency in Mind_
-When making a Mind roll you may use your reaction to gain Resistance I to Psychic damage.
+When making a Mind roll you may use your reaction to gain Resistance I to Psychic damage. Once per encounter you may choose to succeed a Mind roll.
 
 **Machine Whisperer**
 _Requires Proficiency in Machine Soul_
 When rolling an outcome die for a weapon, machine, or other non-living thing, you may roll two dice, taking your preferred outcome.
+
+**Elemental Esper**
+_Requires Proficiency in Psykinetics_
+You may reroll a wound die with spells that deal elemental damage.
 
 **Dual Wield Expert**
 _Requires 5 Martial_
@@ -917,9 +937,9 @@ Your Dual Wield attacks do not cost an additional AP.
 
 >**Plasteel Katana**
 >- Loadout: 2
->- Damage: 1/1
+>- Damage: 2/0
 >- Damage Type: Cutting
->- Critical Effect: +0/1 Damage
+>- Critical Effect: Maim/Crit
 >- Two-Handed
 >
 >***Attacks***
@@ -935,9 +955,9 @@ Your Dual Wield attacks do not cost an additional AP.
 
 >**Plasteel Dagger**
 >- Loadout: 1
->- Damage: 1/0
+>- Damage: 0/3
 >- Damage Type: Cutting
->- Critical Effect: Armor Piercing I
+>- Critical Effect: +0/1 Damage
 >- One-Handed
 >
 >***Attacks***
@@ -948,8 +968,9 @@ Your Dual Wield attacks do not cost an additional AP.
 >
 >**Backstab**
 >- AP: 2
+>- Tags: Maim 3
 >- Range: Melee
-> Must be flanking a target. Adds 0/1 to damage.
+> Must be flanking a target.
 
 >**Arc Baton**
 >- Loadout: 2
@@ -962,7 +983,7 @@ Your Dual Wield attacks do not cost an additional AP.
 >
 >**Charge**
 >- AP: 1
-> Electrifies the Baton, adding 0/1 Lightning damage. Lasts 10 minutes. 1 hour recharge.
+> Electrifies the Baton, adding 0/1 Energy damage. Lasts 10 minutes. 1 hour recharge.
 >
 >**Attack**
 >- AP: 2
@@ -970,7 +991,7 @@ Your Dual Wield attacks do not cost an additional AP.
 
 >**Powerfist**
 >- Loadout: 3
->- Damage: 1/2
+>- Damage: 1/3
 >- Damage Type: Explosive
 >- Critical Effect: Inflicts Suppression
 >- One-Handed
@@ -989,39 +1010,40 @@ Your Dual Wield attacks do not cost an additional AP.
 ### Ranged
 
 >**Laspistol**
->- Loadout: 2
->- Damage: 1
->- Damage Type: Heat
->- Critical Effect: +1 Success per critical
+>- Loadout: 1
+>- Damage: 0/2
+>- Damage Type: Energy
+>- Critical Effect: +1 Success/critical
 >
 >***Attacks***
 >
 >**Aimed Shot**
 >- AP: 2
->- Range: 5/8/12
+>- Range: 4/8/12
 
 >**Lasrifle**
->- Loadout: 3
->- Damage: 1/1
->- Damage Type: Heat
+>- Loadout: 2
+>- Damage: 0/3
+>- Damage Type: Energy
 >- Critical Effect: Inflict Suppression/crit
 >
 >***Attacks***
 >
 >**Attack**
 >- AP: 2
->- Range: 8/12/20
+>- Range: 4/8/12
 >
 >**Full Auto**
->- AP: 4
->- Damage: 1/4
->- Range: 3/6/9
+>- AP: 3
+>- Tags: Maim 1
+>- Damage: 0/5
+>- Range: -/4/8
 
 >**Arc Thrower**
 >- Loadout: 2
->- Damage: 0/3
->- Damage Type: Lightning
->- Critical Effect: Inflict Suppression per critical
+>- Damage: 0/4
+>- Damage Type: Energy
+>- Critical Effect: Inflict Suppression/critical
 >
 >***Attacks***
 >
@@ -1031,27 +1053,27 @@ Your Dual Wield attacks do not cost an additional AP.
 >
 >**Attack**
 >- AP: 1
->- Range: --/2/5
-> Consumes charge. Attack vs Reflex or Toughness.
+>- Range: --/2/4
+> Consumes charge. Attack vs Reflex.
 
 >**Hunting Rifle**
 >- Loadout: 1
->- Damage: 1/1
+>- Damage: 0/3
 >- Damage Type: Kinetic
->- Critical Effect: +1/0 Wounds
+>- Critical Effect: Maim/crit
 >
 >***Attacks***
 >
 >**Attack**
->- AP: 3
->- Range: 12/20/30
+>- AP: 2
+>- Range: 12/16/20
 > Has -2 to rolls when targeting a creature within 3 tiles.
 
 >**Custom Magnum**
 >- Loadout: 2
 >- Damage: 1/0
 >- Damage Type: Kinetic
->- Critical Effect: +0/1 Wounds
+>- Critical Effect: +0/1 Damage
 >- Mod Slots: 2
 >
 >***Attacks***
@@ -1062,7 +1084,7 @@ Your Dual Wield attacks do not cost an additional AP.
 
 >**Autopistol**
 >- Loadout: 2
->- Damage: 1/0
+>- Damage: 0/2
 >- Damage Type: Kinetic
 >- Critical Effect: +1 Success/crit
 >
@@ -1070,12 +1092,12 @@ Your Dual Wield attacks do not cost an additional AP.
 >
 >**Full Auto**
 >- AP: 3
->- Damage: 1/3
->- Range: 3/5/7
+>- Damage: 0/4
+>- Range: 4/6/8
 
 >**Military Rifle**
 >- Loadout: 3, Mods: 2
->- Damage: 1/1
+>- Damage: 0/3
 >- Damage Type: Kinetic
 >- Critical Effect: Inflict Suppression/crit
 >
@@ -1083,37 +1105,88 @@ Your Dual Wield attacks do not cost an additional AP.
 >
 >**Attack**
 >- AP: 2
->- Range: 10/15/20
+>- Range: 8/12/16
 >
 >**Full Auto**
 >- AP: 4
->- Damage: 1/3
->- Range: 5/8/12
+>- Tags: Maim 1
+>- Damage: 0/5
+>- Range: -/4/8
 
 
->**Enforcer**
->- Loadout: 3, Mods: 2
->- Damage: 2/1
+>**Gauss Pistol**
+>- Loadout: 2, Mods: 2
+>- Damage: 1/2
 >- Damage Type: Kinetic
->- Critical Effect: +0/1 Damage
+>- Critical Effect: Maim/crit
 >
 >***Attacks***
 >
->**Reload**
+>**Attack**
 >- AP: 2
-> Reloads the gun allowing it to be used
+>- Range: 12/16/24
+>
+>**Outcome**
+> After attacking roll a bad die: Disaster - The weapon jams, gaining _Disrupt_ until the start of your next turn.
+
+
+>**Gauss Rifle**
+>- Loadout: 3, Mods: 2
+>- Damage: 1/3
+>- Damage Type: Kinetic
+>- Critical Effect: Maim/crit
+>
+>***Attacks***
 >
 >**Attack**
 >- AP: 2
->- Damage: 1/3
->- Range: 4/7/10
-> After attack roll outcome: bad die: critical -> must reload to use again
+>- Range: 12/16/24
+> +1 to Attack rolls when not dual wielded.
+>
+>**Outcome**
+> After attacking roll a bad die: Disaster - The weapon jams, gaining _Disrupt_ until the start of your next turn.
+
+
+>**Plasma Pistol**
+>- Loadout: 2, Mods: 2
+>- Damage: 1/1
+>- Damage Type: Heat
+>- Critical Effect: +0/2 Damage
+>
+>***Attacks***
+>
+>**Attack**
+>- AP: 2
+>- Range: 8/12/16
+>- -1 Successes per stage.
+>
+>**Outcome**
+> After each attack gain a stage. At 3 stages roll a normal die: success - weapon explodes dealing weapon damage to all adjacent creatures (5 green vs reflex). Lose 1 stage each round.
+
+
+>**Plasma Rifle**
+>- Loadout: 3, Mods: 2
+>- Damage: 2/0
+>- Damage Type: Heat
+>- Critical Effect: +0/2 Damage
+>
+>***Attacks***
+>
+>**Attack**
+>- AP: 2
+>- Range: 8/12/16
+>- -1 Successes per stage.
+>
+>**Outcome**
+> After each attack gain a stage. At 3 stages roll a normal die: success - weapon explodes dealing weapon damage to all adjacent creatures (5 green vs reflex). Lose 1 stage each round.
+
 
 ### Heavy Weapon
 
 >**Mining Laser**
 >- Loadout: 4
->- Damage: 2/1
+>- Damage: 0/3
+>- Tags: _Penetrating_
 >- Damage Type: Heat
 >- Critical Effect: Armor Piercing per critical
 >
@@ -1126,43 +1199,43 @@ Your Dual Wield attacks do not cost an additional AP.
 >- Ignites the mining laser, priming it for use. The weapon cannot be used if it has not been ignited, and must be ignited again if channeling is broken for any reason.
 >
 > **Fire**
->- Tags: _Channeling_, _Penetrating_
+>- Tags: _Channeling_
 >- AP: 3
 >- Max Stages: 3
->- Range: 4/7/10
->- Can be channeled up to 3 times. Each stage adds 0/1 damage and -1 Success. After reaching stage 3 make an Outcome roll. Roll a bad die: on a blank the weapon deactivates, on a failure the gun overheats for 1 round, and on a Disaster the weapon becomes damaged. The weapon is unusable for 1 full round when overheated.
+>- Range: 4/8/12
+>- Can be channeled up to 3 times. Each stage adds 1/0 damage and -1 Success. After reaching stage 3 make an Outcome roll. Roll a bad die: on a blank the weapon deactivates, on a failure the gun overheats for 1 round, and on a Disaster the weapon becomes damaged. The weapon is unusable for 1 full round when overheated.
 
 >**Nail Bolter**
 >- Loadout: 4
->- Damage: 1/3
+>- Damage: 2/0
 >- Damage Type: Kinetic
->- Critical Effect: Armor Piercing
+>- Critical Effect: Maim/crit
 >- Tags: _Armor Piercing I_
 >
 >***Attacks***
 >
 > **Attack**
 >- AP: 3
->- Range: 3/6/15
->- Launches Nails at extreme velocities. Attack vs Reflex.
+>- Range: 4/8/12
+>- Launches Nails at extreme velocities.
 
 >**Flamethrower**
 >- Loadout: 4
->- Damage: 0/2
+>- Damage: 0/3
 >- Damage Type: Heat
->- Critical Effect: +0/1 Damage
+>- Critical Effect: +1/0 Damage
 >
 >***Attacks***
 >
 > **Attack**
 >- AP: 3
->- Range: 2/4/7
+>- Range: 2/4/6
 >- Sprays fire in an arc, hitting up to 3 adjacent targets. Cannot shoot through creatures. Hit vs Reflex.
 >
 > **Fireball**
 >- AP: 4
->- Damage: 1/2
->- Range: 6/9/12
+>- Damage: 0/4
+>- Range: 4/8/12
 >- Tags: _Penetrating_
 >- Lobs a high density blast exploding in a 3x3 tile area. Hit vs Reflex. 1 minute cooldown.
 
@@ -1183,44 +1256,57 @@ Your Dual Wield attacks do not cost an additional AP.
 >- Range: 12/20/30
 > Launch a rocket from your Loadout. This attack has -3 to its roll if no target has been locked on. Attack is based on rocket used, ignores cover.
 
-> **Impact Rocket**
->- Loadout: 1
->- Damage: 3/2
->- Damage Type: Explosive
->- Critical Effect: Suppression/crit
->- Tags: _Penetrating_
-> Must be launched from a Rocket pod. Heavy weapons vs Toughness.
-
-> **HE Rocket**
->- Loadout: 1
->- Damage: 1/3
->- Damage Type: Heat
->- Critical Effect: +0/1 damage
-> Must be launched from a Rocket pod. Heavy weapons vs Toughness. Adjacent creatures take 1/0 in Heat.
-
-> **Cluster Rocket**
->- Loadout: 2
->- Damage: 2/1
->- Damage Type: Explosive
->- Critical Effect: Suppression/crit
->- Tags: _Penetrating_
-> Must be launched from a Rocket pod. Maximum 5 targets. Heavy weapons vs Toughness.
-
 >**Toxigun**
 >- Loadout: 4, Mods: 2
->- Damage: 1/2
+>- Damage: 0/3
+>- Tags: Corrosive
 >- Damage Type: Acid
 >- Critical Effect: Inflict Poisoned
 >
 >***Attacks***
 >
 >**Charge**
->- AP: 2
+>- AP: 3
 > Each shot gives -1 to Attack rolls, cumulating. Charge resets this counter.
 >
 >**Attack**
 >- AP: 2
->- Range: 8/10/15
+>- Range: -/8/12
+
+
+>**Auto Cannon**
+>- Loadout: 4
+>- Damage: 0/2
+>- Damage Type: Kinetic
+>- Critical Effect: Maim/crit
+>
+>***Attacks***
+>
+> **Attack**
+>- AP: 2-5
+>- Range: 12/16/20
+>- Muscle 7. Add -3 to attacks if you are not deployed. Attack deals +0/2 for every AP above 2. You may target any number of creatures in a 5x5 tile area, dividing wound dice between them as you see fit.
+>
+>**Deploy**
+>- AP: 2
+>- Setup the Auto Cannon, bracing it for firing. Moving breaks deployment.
+
+
+>**Heavy Plasma**
+>- Loadout: 4
+>- Damage: 2/2
+>- Damage Type: Heat
+>- Critical Effect: +0/2 Damage
+>
+>***Attacks***
+>
+> **Attack**
+>- AP: 3
+>- Range: 8/12/16
+>- Attack, -1 Success per stage
+>
+>**Outcome**
+>- Loses 1 stage each turn. When fired at 3+ stages roll white die: on success the gun explodes dealing weapon damage to all adjacent creatures (5 green vs reflex).
 
 
 ### Casters
@@ -1257,31 +1343,31 @@ Your Dual Wield attacks do not cost an additional AP.
 ### Armor
 
 >**Ceramic Plating**
->- Armor Points: 4
->- Armor Rating: 1
+>- Armor Points: 5
+>- Armor Rating: 2
 > Reflex and Acrobatics rolls have -1.
 
 >**Hardened Ceramic Plating**
->- Armor Points: 3
->- Armor Rating: 2
+>- Armor Points: 4
+>- Armor Rating: 3
 > Reflex and Acrobatics rolls have -1.
 
 >**Heavy Ceramic Plating**
->- Armor Points: 4
->- Armor Rating: 2
+>- Armor Points: 5
+>- Armor Rating: 3
 > Reflex and Acrobatics rolls have -2.
 
 >**Fibersteel Mesh**
->- Armor Points: 1
->- Armor Rating: 3
+>- Armor Points: 2
+>- Armor Rating: 4
 
 >**Trooper Mesh**
->- Armor Points: 2
->- Armor Rating: 1
+>- Armor Points: 3
+>- Armor Rating: 2
 > Increases Loadout by 2.
 
 >**M-SPEC Combat Armor**
->- Armor Points: 3
+>- Armor Points: 4
 >- Armor Rating: 2
 > Gives Resistance I against Kinetic damage.
 
@@ -1289,25 +1375,25 @@ Your Dual Wield attacks do not cost an additional AP.
 
 >**Environmental Shield**
 >- Loadout: 2
->- Shield Points: 1
+>- Shield Points: 2
 >- Shield Recharge: 1
 > Gives Resistance I to Elemental damage.
 
 >**Civilian Shield**
 >- Loadout: 1
->- Shield Points: 2
->- Shield Recharge: 1
-
->**Mercenary Shield**
->- Loadout: 2
 >- Shield Points: 3
 >- Shield Recharge: 1
 
 >**Bootleg Military Spec**
 >- Loadout: 2
->- Shield Points: 2
+>- Shield Points: 4
 >- Shield Recharge: 2
 > **Outcome:** When shield is reduced to 0 roll a normal die. On a blank the shield gains _Disrupt_ for 1 minute.
+
+>**Mercenary Shield**
+>- Loadout: 2
+>- Shield Points: 4
+>- Shield Recharge: 2
 
 ### Consumables
 
@@ -1331,6 +1417,53 @@ Your Dual Wield attacks do not cost an additional AP.
 >- AP: 1
 > Gives 1 Temporary Wound and restores 2 Energy.
 
+>**Bandolier:**
+>- Loadout: 2
+>- This item can hold 4 Loadout worth of consumable items.
+
+> **Impact Rocket**
+>- Loadout: 1
+>- Damage: 3/2
+>- Damage Type: Explosive
+>- Critical Effect: Maim/crit
+>- Tags: _Penetrating_
+> Must be launched from a Rocket pod. Heavy weapons vs Toughness.
+
+> **HE Rocket**
+>- Loadout: 1
+>- Damage: 2/1
+>- Damage Type: Heat
+>- Critical Effect: +0/2 damage
+> Must be launched from a Rocket pod. Hits all creatures in a 3x3 tile area. Heavy weapons vs Reflex.
+
+> **Cluster Rocket**
+>- Loadout: 2
+>- Damage: 1/3
+>- Damage Type: Explosive
+>- Critical Effect: +0/1 damage
+>- Tags: _Penetrating_
+> Must be launched from a Rocket pod. Maximum 5 targets. Heavy weapons vs Toughness.
+
+>**Grenade Rounds**
+>- Loadout: 1
+>- AP: 1
+>- Damage: 1/2
+>- Damage Type: Explosive
+>- Charges: 5
+>- Critical Effect: +1/0 wounds
+>- Tags: _Penetrating_
+>
+> ***Attacks***
+> 
+> **Grenade Round**
+> Must be launched from a Grenade Launcher.
+>
+> **Fire**
+>- AP: 2
+>- Range: 8/-/-
+> Heavy Weapons 6. Roll 2 Normal dice, target moves 1 tile per success.
+> Attack hits in a 3x3 tile area. All creatures make a Reflex save against 5 enhanced dice.
+
 >**Thermal Grenade**
 >- Loadout: 1
 >- AP: 1
@@ -1341,12 +1474,12 @@ Your Dual Wield attacks do not cost an additional AP.
 > Arms the grenade. If dropped or the creature holding this is knocked unconscious the grenade will explode at the start of this creatures next turn.
 >
 > **Throw**
->- Damage: 1/2
+>- Damage: 0/3
 >- Damage Type: Heat
 >- Range: 5/10
->- Critical Effect: +1/0 wounds
+>- Critical Effect: +0/2 wounds
 >- Tags: _Penetrating_
-> Must be Armed before it can be thrown. Explodes in a 3x3 tile area centered on a tile in range. Throwing past the first range has a 50% chance to land 1 tile off from your target. Creatures make a Reflex or Toughness roll against 5 Enhanced dice.
+> Must be Armed before it can be thrown. Explodes in a 3x3 tile area centered on a tile in range. Throwing past the first range has a 50% chance to land 1 tile off from your target. Creatures make a Reflex roll against 5 Enhanced dice.
 
 >**EMP Grenade**
 >- Loadout: 1
@@ -1360,15 +1493,14 @@ Your Dual Wield attacks do not cost an additional AP.
 >
 > **Throw**
 >- Damage: 0/2
->- Damage Type: Lightning
+>- Damage Type: Energy
 >- Range: 5/10
 >- Critical Effect: Inflicts Suppression/crit
-> Must be Armed before it can be thrown. Explodes in a 3x3 tile area centered on a tile in range. Throwing past the first range has a 50% chance to land 1 tile off from your target. Creatures make a Reflex or Toughness roll against 5 Enhanced dice.
+> Must be Armed before it can be thrown. Explodes in a 3x3 tile area centered on a tile in range. Throwing past the first range has a 50% chance to land 1 tile off from your target. Creatures make a Reflex roll against 5 Enhanced dice.
 
 >**Stun Grenade**
 >- Loadout: 1
 >- AP: 1
->- Tags: _EMP_
 >
 > ***Attacks***
 > 
@@ -1382,7 +1514,7 @@ Your Dual Wield attacks do not cost an additional AP.
 >- Critical Effect: Inflicts Stun
 > Must be Armed before it can be thrown. Explodes in a 5x5 tile area centered on a tile in range. Throwing past the first range has a 50% chance to land 1 tile off from your target. Creatures make a Mind roll against 5 Enhanced dice. This attack is non-lethal.
 
-### Robot Companions
+### Robot Companions 
 
 #### NOVOS Scout Drone
 > ### Stats:
@@ -1489,128 +1621,191 @@ Your Dual Wield attacks do not cost an additional AP.
 ## Mods
 Mods are small trinkets that can be socketed into weapons, casters, armor, vehicles, even robot pets. These trinkets provide a whoel range of effects that modify how the gear works. Most items have 0-1 mod slots, casters having far more as spells are socketed through mods.
 
-### Ranged Mods
+### Weapon Mods
 
->**ELECTRA E9 Range Finder**
-> Reduces the attack penalty for Far ranged shots by 2.
+>**Range Finder**
+> Reduces the attack penalty for Medium and Far ranged shots by 1.
 
->**ELECTRA G22 Capacitor**
-> Reduces the AP cost of _Charge_ actions by 1, to a minimum of 1. ***Outcome:*** When attacking with this weapon roll a bad die, on a critical the weapon is _Disrupted_ for 1 round.
+>**Spare Capacitor**
+> Reduces the AP cost of _Charge_ actions by 1, to a minimum of 1. -1 Success to your next attack.
 
->**ELECTRA H12 Inductor**
->- _Heat Only_
-> +1/0 Heat damage. -1 to Martial Rolls with weapon.
+>**Focusing Crystal**
+>- _Energy Only_
+> Attacks gain Maim.
 
->**NOVOS ML7 Magline**
+>**Disruptor Ray**
+>- _Energy Only_
+> Once per encounter. Your next attack Upgrades 3 Wound dice but only deals Shield damage.
+
+>**Magline**
 >- _Kenetic Only_
-> Attacks deal 0/1 more wounds at close range. Attacks at Far range have -5 to Attack rolls.
+> +0/1 Damage at Close range.
 
->**GUNKOR Ez-Mag**
->- _Kenetic Only_
+>**Ez-Mag**
 > _Full Auto_ attacks deal 0/1 more wounds. All ranges reduced by 1.
 
->**GUNKOR Blasta-0**
-> Augments a weapon with a grenade launcher. Must be loaded with a grenade. Grenades loaded this way do not count to your Loadout Limit. Takes 2 AP to load a grenade.
+>**Blasta-0**
+> Augments a weapon with a grenade launcher. Must be loaded with a grenade. Grenades loaded this way do not count to your Loadout Limit.
 > 
 > **Launch Grenade**
 >- AP: 2
 >- Range: 10/--/--
-> Automatically arms the grenade as its launched, ignoring any accuracy penalties you would incur from throwing it. Uses the grenades attack block.
+> Automatically arms the grenade as its launched. Uses the grenades attack block.
 
->**CORADIN Cryo Rounds Λ**
->- _Kenetic Only_
-> Adds the _Arm Rounds_ ability.
+>**Cryo Chamber**
+>- _Physical Only_
+> Adds the _Arm Rounds_ Encounter ability.
 > 
-> **Arm Rounds**
+> **Arm**
 >- AP: 1
-> All attacks with this weapon add 0/1 Cold damage. Criticals inflict Frozen for 1 round. Lasts for 1 minute. 1 Hour recharge.
+> Attacks deal +0/1 Cold damage. Criticals inflict Frozen for 1 round. Lasts for 1 minute.
 
->**M-SPEC M3 Lasersight**
-> +1 to Ranged rolls.
+>**Lasersight**
+> +1 to Ranged and Heavy Weapons.
 
->**GUNKOR Hollow Splatz**
-> Deals +1/0 against Wounds, deals -1/0 to Armor.
+>**Targeting Computer**
+> +2 to Ranged and Heavy Weapons.
+> +1 to Loadout Cost.
 
-### Melee
+>**Heatsink**
+>- _Heat Only_
+> Your next attack upgrades 2 Wound dice and has Maim. Your weapon gains Disrupt for 1 minute after attacking.
 
->**NOVOS A80 Piercer**
->- _Cutting Only_
+>**Plasteel Rounds**
+>- _Physical Only_
+> Attacks gain Maim.
+
+>**Hollow Splatz**
+>- _Kenetic Only_
+> Upgrade a wound die against Wounds.
+
+>**Sonic Piercer**
+>- _Physical Only_
 > Attacks have Armor Piercing I.
 
->**ELECTRA CF Cryoblade**
->- _Cutting Only_
-> Attacks deal an extra 0/1 in cold damage. **Outcome:** Roll a bad die. On a critical fail this mod stops working until repaired.
-
->**ELECTRA LF Magstick**
->- _Kenetic Only_
-> Attacks deal an extra 0/1 in lightning damage. **Outcome:** Roll a bad die. On a critical fail this mod stops working until repaired.
-
->**NOVOS S55 Vibroblade**
+>**Vibroblade**
 >- _Cutting Only_
 > Converts all Cutting damage to Sonic damage.
 
->**M-SPEC K7 Dynamic Weights**
-> Adds a Critical to your Melee rolls.
+>**Dynamic Counterweight**
+> +1 Critical to Melee attacks.
+
+>**Honing Mechanism**
+>- _Melee Only_
+> +0/1 Damage.
 
 ### Shields
 
->**ELECTRA G14 Capacitor**
-> Increases the Shield Points by 1. ***Outcome:*** When losing your last shield roll a bad die, on a critical the shield is _Disrupted_ for 1 minute.
+>**G14 Capacitor**
+> +1 Shield Point.
 
->**MYR Tech RK25 Reserve Battery**
-> When the last Shield Point is lost immediately recharge 1 Shield. 1 hour recharge.
+>**G17 Capacitor**
+> +2 Shield Points.
+> +1 to Loadout Cost.
 
->**MYR Tech PS55 Shielding**
+>**G25 Heavy Capacitor**
+> +3 Shield Points.
+> +1 Shield Recharge.
+> +1 to Loadout Cost.
+
+>**RK25 Reserve Battery**
+> Once per encounter, when your Shield Points are reduced to 0 gain 2 Shield Points.
+
+>**PS55 Shielding**
 > Gives Resistance I to Psychic.
 
->**ELECTRA G17 Capacitor**
-> Increases Shield Points by 2. ***Outcome:*** When losing your last shield roll a bad die, on a critical the shield is _Disrupted_ for 1 minute.
+>**RS55 Shielding**
+> Gives Resistance I to Radiation.
 
->**NOVOS K9 Insulation**
+>**Burst Capacitor**
+> When hit by a Melee attack, attacker takes 0/1 Energy damage. This cannot damage Armor.
+
+>**Magnetic Insulation**
 > Removes Loadout Penalty when wearing armor.
 
->**CORADIN Myrmidon ε**
-> Grants +2 to rolls when defending against Esper rolls.
+>**Phase Disruptor**
+> +2 Successes with rolls against Esper.
+
+>**Backup Circuit**
+> +3 Successes against abilities that _Disrupt_ this item.
 
 ### Armor
 
->**GUNKOR Bullet-B-Gone**
-> Increases Armor Rating by 1. Can only be repaired at a Repair Bench.
+>**Layered Plating**
+> +1 Armor Points.
 
->**GUNKOR Big-Boyz Plating**
-> Increases Armor Points by 1. -1 to Reflex and Acrobatics Rolls.
+>**Fibermesh Layering**
+> +2 Armor Points.
+> +1 to Loadout Cost.
 
->**NOVOS G7M Ablative Plates**
-> Gives Resistance I to Kinetic. Reduces Armor Rating by 1.
+>**Heavy Plating**
+> +1 Armor Points and Armor Rating.
+> -1 to Reflex and Acrobatics Rolls.
 
->**M-SPEC Mag Mounts**
+>**Ablative Plates**
+> Gives Resistance I to Physical. Reduces Armor Rating by 1.
+
+>**Reactive Hardening**
+> Once per Encounter. When an attack exceeds your Armor Rating, gain +2 Armor Rating for the attack.
+
+>**Mag Mounts**
 > Increases Loadout Limit by 2.
 
->**M-SPEC K700 Power Servos**
+>**Power Servos**
 > +1 to Toughness Rolls.
 
->**M-SPEC H45 Exoskeleton**
-> Removes penalties to Acrobatics and Reflex rolls from armor.
+>**Exoskeleton**
+> +1 to Athletics Rolls.
 
->**NOVOS L40 Thermal Conductors**
+>**Thermal Shielding**
 > Gives Resistance I to Heat.
+
+>**Conductive Grounding**
+> Gives Resistance I to Energy.
+
+>**Powered Armor**
+> +1 to Melee and Muscle.
+
+>**Combat Guidance System**
+> +2 to Melee and Muscle.
+> +2 to Loadout Cost.
 
 ### Casters
 
->**MYR Tech BF3 Enhancer**
-> Increases Energy Limit by 1. Spending 2 or more energy adds -1 to Esper rolls.
+>**BF3 Enhancer**
+> +1 Energy Limit.
 
->**MYR Tech BF5 Enhancer**
-> Increases Energy Limit by 1.
+>**BF5 Enhancer**
+> +2 Energy Limit.
+> +1 to Loadout Cost.
 
->**MYR Tech BF5 Enhancer-Ex**
-> Increases Energy Limit by 2. **Outcome:** When spending 5 or more energy roll a normal die. On a success the caster gains _Disrupt_ until the end of your next turn.
+>**BF5 Enhancer-Ex**
+> +2 Energy Limit.
+> 0-Cost spells have 1 level of _Overcharge_.
+> +1 to Loadout Cost.
 
->**CORADIN Droneport Δ**
+>**Droneport**
 > Increases Omnibot Limit by 1.
 
->**MYR Tech DR Insulation**
-> Your rolls have +2 against effects that would _Disrupt_ this caster.
+>**Droneport-Ex**
+> Increases Omnibot Limit by 2.
+> +1 to Loadout Cost.
+
+>**DR Insulation**
+> +3 Successes against abilities that _Disrupt_ this item.
+
+>**Dynamic Replicant**
+> Stores a spell mod. You may spend 2 AP to swap a spell mod with another spell mod.
+
+>**Heatform Crystal**
+> Your spells that deal Heat have Maim.
+
+>**Energy Catalyst**
+> Your Energy spells deal +0/1 damage and have -1 Success.
+
+>**Ego Amplification**
+> Your spells that deal Pyschic damage have Maim and +1 Success.
+> +1 to Loadout Cost.
 
 ### General Purpose
 
@@ -1677,10 +1872,13 @@ Mods are small trinkets that can be socketed into weapons, casters, armor, vehic
 - Barrier
 - Flash Freeze
 - Weld
+- Cryo Wave
+- Panic
 
 ##### 2 Cost
 - Corrosive Spray
 - Discharge
+- Freezing Mist
 
 ##### 3 Cost
 - Gamma Beam
@@ -1694,17 +1892,17 @@ Mods are small trinkets that can be socketed into weapons, casters, armor, vehic
 **Plasma Shot**
 - Energy Cost: 0
 - Cast Time: 2 AP
-- Range: 10
+- Range: 12
 - Tags: *Armor Piercing 1*
 
-Create small balls of plasma and launch them at high speeds. Make a Psykinetics roll against targets Reflex. On hit you deal 1/0 in Heat damage.
+Create small balls of plasma and launch them at high speeds. Make a Psykinetics roll against targets Toughness. On hit you deal 1/0 in Heat damage.
 
 ***Overcharge***: +0/1 damage.
 
 **Smoke**
 - Energy Cost: 0
 - Cast Time: 4 AP
-- Range: 10
+- Range: 8
 
 Create a thick, slow moving smoke that obscures vision centered on a point in range you can see. Make a Psykinetics roll, the smoke cloud has an area up to half of your roll, rounded up. The cloud may be smaller than what you rolled.
 
@@ -1715,7 +1913,7 @@ Creatures attacking through the smoke attack as if the target is under Heavy Cov
 **Throw**
 - Energy Cost: 0
 - Cast Time: 2 AP
-- Range: 10
+- Range: 12
 
 Grab an object and throw it at a target you can see. Make a Psykinetics roll against targets Toughness. On hit you deal 1/0 in Kinetic damage, adding 0/1 for every 50lbs thrown. Can be used to lift and move objects instead. Lifts up to 50lbs.
 
@@ -1729,21 +1927,21 @@ Grab an object and throw it at a target you can see. Make a Psykinetics roll aga
 
 Form a thin barrier of psykinetic energy around yourself. Make a Psykinetic roll, For every 3 successes, rounded up, you gain +1 to any Toughness rolls you make. You ignore any Suppression or Stunned you recieve unless the roll that inflicts them is 3 or more successes greater than your own.
 
-***Overcharge***: +1 Successes to your roll.
+***Overcharge***: +1 Success to your roll.
 
 **Flash Freeze**
 - Energy Cost: 1
 - Cast Time: 3 AP
-- Range: 10
+- Range: 12
 
-Cause a sudden drop in temperature at a point in range you can see. Large creatures have +1 to their save while Huge and bigger have +3. Make a Psykinetics roll against the targets Toughness. On success the creature takes 0/2 in Cold damage and is Frozen until the end of their turn.
+Cause a sudden drop in temperature at a point in range you can see. Large creatures have +1 to their save while Huge and bigger have +3. Make a Psykinetics roll against the targets Toughness. On success the creature takes 0/3 in Cold damage and is Frozen until the end of their turn.
 
 ***Overcharge***: +1 Success to your roll.
 
 **Weld**
 - Energy Cost: 1
 - Cast Time: 2 AP
-- Range: 2
+- Range: 4
 - Tags: *Channeling*
 
 Emit a continuous stream of plasma. This abiltiy has 4 stages, for every stage past the first increases damage by 0/1 and increases _Armor Piercing_ by 1. Make a Psykinetics roll against the targets Toughness. On success you deal 1/0 in Heat damage.
@@ -1752,40 +1950,73 @@ This ability can be used on metal objects to weld them together, such as welding
 
 ***Overcharge***: Start one stage higher.
 
+**Cryo Wave**
+- Energy Cost: 1
+- Cast Time: 3 AP
+- Range: 12
+- Tags: *Sustained*
+
+Create sub-zero point that continuously absorbs heat. When casting and at the end of each creatures turn, any creature in or adjacent to the point makes a Toughness roll against your Psykinetics. On fail they take 0/1 in Cold damage and gain _Surpressed_.
+
+***Overcharge***: +0/1 Damage.
+
+**Panic**
+- Energy Cost: 1
+- Cast Time: 2 AP
+- Range: 12
+- Tags: *Sustained*
+
+Alter the perception of a living creature in range you can see, whipsering into their mind. Make a Psykinetics roll against the creatures Mind. On success they believe all creatures are enemies and will attack indiscriminately. At the end of each turn they take 0/1 non-lethal Psychic damage.
+
+Outcome: Whenever they deal or take non-psychic damage roll a Normal die: Success - the effect ends.
+
+***Overcharge***: Target an additional creature within 3 tiles.
+
 **Corrosive Spray**
 - Energy Cost: 2
 - Cast Time: 2 AP
-- Range: 10
+- Range: 8
 
-Create a 3x3 corrosive field centered on a point in range you can see. Creatures in the field make a Toughness roll against your Psykinetics. On fail the next attack against them gains _Corrosive_ and adds -1 to their Toughness roll.
+Create a 3x3 corrosive field centered on a point in range you can see. Creatures in the field make a Reflex roll against your Psykinetics. On fail they take 0/2 in acid damage and the next attack against them gains _Corrosive_ and adds -2 to their Toughness roll.
 
 ***Overcharge***: +1 Success to your roll.
 
 **Discharge**
 - Energy Cost: 2
-- Cast Time: 2 AP
-- Range: 5
+- Cast Time: 3 AP
+- Range: 4
 - Tags: *EMP*
 
-Cause a sudden and intense discharge of electricity at a point in range you can see. Electricity grounds itself through the two closest creatures within 3 tiles of the target location. Creatures make a Reflex roll against your Psykinetics, dealing 1/1 in Lightning damage on fail.
+Cause a sudden and intense discharge of electricity at a point in range you can see. Electricity grounds itself through the two closest creatures within 3 tiles of the target location. Creatures make a Reflex roll against your Psykinetics, dealing 0/4 in Energy damage on fail.
 
 ***Overcharge***: The electricity grounds itself through one additional creature.
+
+**Freezing Mist**
+- Energy Cost: 2
+- Cast Time: 2-5 AP
+- Range: 16
+
+Create a freezing mist centered on a point in range you can see, priming those inside to freeze. Make a Psykinetics roll, adding 2 Successes for every AP spent past 2. You create a freezing mist with an Area equal to half your successes, rounded up.
+
+When creatures in the mist take cold damage the damage is increased by 0/1. Outcome: When taking cold damage roll a Normal die: Success - They gain Frozen until the end of their next turn.
+
+***Overcharge***: +1 Area.
 
 **Gamma Beam**
 - Energy Cost: 3
 - Cast Time: 3 AP
 - Range: Touch
 
-Fire a concentrated beam of radiation hitting all creatures in a 10 tile line. Creatures in the beam make a Toughness roll against your Psykinetics. On Fail they take 2/0 in Radiation damage. Non-robotic creatures gain _Poisoned_ for 10 minutes on a critical.
+Fire a concentrated beam of radiation hitting all creatures in a 8 tile line. Creatures in the beam make a Toughness roll against your Psykinetics. On Fail they take 2/0 in Radiation damage. Non-robotic creatures gain _Poisoned_ for 10 minutes on a critical.
 
 ***Overcharge***: +0/1 damage.
 
 **Gravity**
 - Energy Cost: 3
 - Cast Time: 2 AP
-- Range: 10
+- Range: 12
 
-Create a gravity well at a target location. All creatures within 5 tiles are pulled towards the center. Creatures make a Toughness roll against your Psykinetics. On fail they are pulled up to 2 tiles towards the center.
+Create a gravity well at a target location. All creatures within 6 tiles are pulled towards the center. Creatures make a Muscle roll against your Psykinetics. On fail they are pulled up to 2 tiles towards the center.
 
 ***Overcharge***: Add a success to your roll and increase both the range creatures are pulled from and amount they are pulled by 1.
 
@@ -1793,30 +2024,30 @@ Create a gravity well at a target location. All creatures within 5 tiles are pul
 - Energy Cost: 3
 - Cast Time: 4 AP
 - Range: 20
-- Tags: _Penetrating_
+- Tags: _EMP_
 
-Charge the air in a 5x5 tile area centered on a point in range you can see. Lightning strikes up to 3 random targets in the area. Creatures make a Reflex save against your Psykinetics. On fail they take 1/2 in Lightning damage and gain _Surpressed_.
+Charge the air in a 5x5 tile area centered on a point in range you can see. Lightning strikes all creatues in the area. Creatures make a Reflex save against your Psykinetics. On fail they take 2/0 in Energy damage and gain _Surpressed_.
 
-***Overcharge***: Area and number of targets increase by 1.
+***Overcharge***: +0/1 damage.
 
 **Plasma Blast**
-- Energy Cost: 3
-- Cast Time: 3 AP
-- Range: 15
+- Energy Cost: 4
+- Cast Time: 4 AP
+- Range: 16
 - Tags: _Penetrating_
 
-Lob a concentrated ball of fire at a point in range you can see. The ball explodes in a 5x5 area. Creatures make a Reflex save against your Psykinetics. On fail they take 1/2 in Heat damage.
+Lob a concentrated ball of fire at a point in range you can see. The ball explodes in a 5x5 area. Creatures make a Reflex save against your Psykinetics. On fail they take 1/2 in Heat damage, adding 0/2 on a critical.
 
 ***Overcharge***: Increase area by 1.
 
 **Psychic Lance**
 - Energy Cost: 4
 - Cast Time: 3 AP
-- Range: 10
+- Range: 12
 
-Throw a lance of psychic energy at a target creature. The target creature makes a Mind roll against your Psykinetics, taking 1/2 Psychic damage on fail, gaining _Stunned_ on a critical. This has no effect on robotic creatures.
+Throw a lance of psychic energy at a target creature. The target creature makes a Mind roll against your Psykinetics, taking 2/1 Psychic damage on fail, gaining _Stunned_ on a critical. This has no effect on robotic creatures.
 
-***Overcharge***: Add a success to your roll.
+***Overcharge***: +1 Success to your roll.
 
 ### Machine Soul
 
@@ -1831,13 +2062,16 @@ Throw a lance of psychic energy at a target creature. The target creature makes 
 - Mask
 - Shutdown
 - Trap
+- Ignite Soul
+- Flashbang
 
 ##### 2 Cost
 - Crystalize Metal
 - Disrupt
-- Ignite Soul
 - Projection
 - Shimmer
+- Dismantle
+- Countermeasures
 
 ##### 3 Cost
 - Charge Shield
@@ -1848,20 +2082,20 @@ Throw a lance of psychic energy at a target creature. The target creature makes 
 **Sonic Blast**
 - Energy Cost: 0
 - Cast Time: 3 AP
-- Range: 10
+- Range: 8
 
-Targeting a 3x3 area in range you can see, blast it with high frequency waves. Creatures make a Toughness roll against your Machine Soul. On hit they take 0/1 in Sonic damage, gaining Suppression on crit.
+Targeting a 4x4 area in range you can see, blast it with high frequency waves. Creatures make a Toughness roll against your Machine Soul. On hit they take 0/1 in Sonic damage, gaining Suppression on crit.
 
-***Overcharge***: +1 critical to your roll.
+***Overcharge***: +1 Critical to your roll.
 
 **Surge**
 - Energy Cost: 0
 - Cast Time: 2 AP
 - Range: Touch
 
-Cause a debilitating surge of static electricity on a creature or object you touch. Make a Machine Soul roll against the targets Toughness. On hit you deal 0/2 in Lightning damage, inflicting _Suppression_ for each critical. When targeting a robot, if the _Suppression_ inflicted by this attack would _Stun_ the creature they are _Disrupted_ instead.
+Cause a debilitating surge of static electricity on a creature or object you touch. Make a Machine Soul roll against the targets Toughness. On hit you deal 0/3 in Energy damage, inflicting _Suppression_ for each critical. When targeting a robot, if the _Suppression_ inflicted by this attack would _Stun_ the creature they are _Disrupted_ instead.
 
-***Overcharge***: Add a success to your roll.
+***Overcharge***: +1 Success to your roll.
 
 **Alarm**
 - Tag: _Sustained_
@@ -1880,7 +2114,7 @@ You cannot use any mental state for the alarm, such as creatures with hostile in
 
 Creatures may make a Perception check to spot the alarm or an Engineering check to disarm it, both against your Machine Soul roll.
 
-***Overcharge***: Add a success to your roll.
+***Overcharge***: +1 Success to your roll.
 
 **Bypass**
 - Tag: _Sustained_
@@ -1892,7 +2126,7 @@ Cause a glitch allowing you to bypass digital security. Make a Machine Soul roll
 
 This can be used on a keypad to unlock a door, gain access to a security terminal, or login to a locked account on a computer. This spell merely grants access, it does not turn off any alarms that would result from accessing these systems.
 
-***Overcharge***: Add a success to your roll.
+***Overcharge***: +1 Success to your roll.
 
 
 **Digital Lock**
@@ -1903,7 +2137,7 @@ This can be used on a keypad to unlock a door, gain access to a security termina
 
 Lock a door, container, or other openable object with a digital lock and code of your choosing. A creature attempting to open the object is prompted to enter a 5 digit code, unlocking the object with the correct code. Creatures may attempt to bypass your lock, making a Hacking check against your Machine Soul roll, on success the lock is disabled.
 
-***Overcharge***: Add a success to your roll.
+***Overcharge***: +1 Success to your roll.
 
 **Mask**
 - Tag: _Sustained_
@@ -1913,17 +2147,39 @@ Lock a door, container, or other openable object with a digital lock and code of
 
 Alter a machines perception, forcing it to see only what you want it to see. When the machine or any creature looking through the machine's sight tries to percieve something you want hidden they make a Perception check against your Machine Soul roll. On failure they see only what you allow them to see.
 
-***Overcharge***: Add a success to your roll.
+***Overcharge***: +1 Success to your roll.
 
 
 **Shutdown**
+- Tag: _EMP_
 - Energy Cost: 1
 - Cast Time: 2 AP
 - Range: 20
 
-Cause a sudden surge in a robot or electrical system. Make a Machine Soul roll against a targets Toughness. On success, they take 1/1 in lightning damage. If this spell deals any damage to the target, they gain Suppression.
+Cause a sudden surge in a robot, shield, or electrical system in range you can see. Make a Machine Soul roll against a targets Mind. On success, they take 1/1 in Energy damage. If this spell deals any damage to the target, they gain Suppression. This can only damage Shields and Armor.
 
 ***Overcharge***: +0/1 damage
+
+
+**Flashbang**
+- Energy Cost: 1
+- Cast Time: 3 AP
+- Range: 12
+
+Create an array of blinding lights in a 4x4 tile area centered at a point in range you can see. Make a Machine Soul roll against the targets Mind. On success they are _Blind_ until the end of their next turn.
+
+***Overcharge***: +1 Success
+
+
+**Ignite Soul**
+- Tag: _Sustained_
+- Energy Cost: 1
+- Cast Time: Reaction
+- Range: Touch
+
+Imbue a weapon with the spirit of a Machine. While imbued they may use your Machine Soul roll when making attacks and may ignore the next _Outcome_ roll from that weapon.
+
+***Overcharge***: Ignore an additional _Outcome_ roll.
 
 
 **Trap**
@@ -1936,47 +2192,36 @@ Arm a consumable or other item to trigger under circumstances of your choosing. 
 
 Creatures may make a Perception check to spot the alarm or an Engineering check to disarm it, both against your Machine Soul roll.
 
-***Overcharge***: Add a success to your roll.
+***Overcharge***: +1 Success
 
 
 **Crystalize Metal**
 - Tag: _Sustained_
 - Energy Cost: 2
 - Cast Time: 2 AP
-- Range: 5
+- Range: 4
 
-Harden a metalic surface or object, vastly improving its strength. Targeting a creature or object with armor you can see make a Machine Soul roll subtracting -1 for each Armor Point remaining. On success their Armor Rating increases by 1 for the duration.
+Harden a metalic surface or object, vastly improving its strength. Targeting a creature or object with armor you can see make a Machine Soul roll. On success their Armor Rating increases by 1 for every 4 successes, rounded up, the duration.
 
-***Overcharge***: +1 Successes to your roll
+***Overcharge***: +2 Successes
 
 
 **Disrupt**
 - Tag: _Sustained_
 - Energy Cost: 2
 - Cast Time: 2 AP
-- Range: 5
+- Range: 8
 
-Cause a mechanical or digitial device to malfunction. Make a Machine Soul roll against 2 failures. Add a failure for each loadout point of the item, or for each recharge point on a shield. On a success the item is Disrupted for 10 minutes.
+Cause a item or non-living creature to malfunction. Make a Machine Soul roll adding failures equal to the loadout cost/limit of the target. On success the target is Disrupted.
 
-***Overcharge***: Add a success to your roll.
-
-
-**Ignite Soul**
-- Tag: _Sustained_
-- Energy Cost: 2
-- Cast Time: 1 AP
-- Range: Touch
-
-Imbue a weapon with the spirit of a Machine. While imbued they may use your Machine Soul roll when making attacks and may ignore the next _Outcome_ roll from that weaon.
-
-***Overcharge***: Ignore an additional _Outcome_ roll.
+***Overcharge***: +1 Success to your roll.
 
 
 **Projection**
 - Tag: _Sustained_
 - Energy Cost: 2
 - Cast Time: 2 AP
-- Range: 10
+- Range: 20
 
 Throw a holocube at a target location, projecting a hologram of your own design. The hologram can be up to 2x2 tiles in size and take any shape. The hologram can emit sounds audible up to 20 tiles.
 
@@ -1991,12 +2236,34 @@ A creature can attempt to percieve the hologram, making a Perception check again
 - Cast Time: 1 AP
 - Range: Self
 
-Create a holographic body double that mimics your movements. Make a Machine Soul roll, creating a hologram for every 3 successes, rounding down.
+Create a holographic body double that mimics your movements. Make a Machine Soul roll, creating a hologram for every 2 successes, rounding down.
 
-While you have at least one hologram when you are the target of a single target attack they must first make an Outcome roll. Rolling a Bad die, on a blank the attack automatically misses, destroying a hologram. The spell ends once all holograms are destroyed.
+While you have at least one hologram when you are the target of a single target attack they must first make an Outcome roll. Rolling a Normal die, on a blank the attack automatically misses, destroying a hologram. The spell ends once all holograms are destroyed.
 
 ***Overcharge***: Add a success to your roll
 
+
+**Dismantle**
+- Tag: _Sustained_
+- Energy Cost: 2
+- Cast Time: 3 AP
+- Range: 8
+
+Launch a flight of 3 Scrapbots at a target creature you can see. Make a Machine Soul roll against the targets Reflex. On success the 3 Scrapbots begin dismantling any Armor or Shields on the target. At the end of each of that creatures turns they take 0/1 per Scrapbot on them. This damage can only damage Armor and Shields.
+
+The scrapbots can be targeted with melee attacks. Attacks against them automatically hit and a Scrapbot is destroyed for every wound dealt in the attack. If the target takes Energy damage the Scrapbots explode, adding 0/1 to the Energy damage for every remaining scrapbot and ending the effects of this spell.
+
+***Overcharge***: Add an additional Scrapbot.
+
+
+**Countermeasures**
+- Energy Cost: 2
+- Cast Time: 2 AP
+- Range: 4
+
+Clear all negative effects aflicting gear or a non-living creature. If a condition is is being sustained by another creature make a Machine Soul roll against their casting roll, otherwise make a Machine Soul roll adding a failure per loadout cost/limit of the target. On success all negative effects aflicting the target end and all conditions are cleared.
+
+***Overcharge***: +1 Success
 
 **Charge Shield**
 - Energy Cost: 3
@@ -2011,8 +2278,8 @@ Enhance your shield greatly increasing your Shield Points while making it immobi
 **Cloaking**
 - Tag: _Sustained_
 - Energy Cost: 3
-- Cast Time: 3 AP
-- Range: 5
+- Cast Time: 2 AP
+- Range: 8
 
 Create a cloaking field that follows a creature. The creature gains _Invisiblity_; anyone attempting to perceive the creature makes a Perception roll against your Machine Soul. When the creature takes damage trigger an outcome: Roll a normal die, on a blank the spell ends. The spell ends if the creature moves more than 30 tiles away from you.
 
@@ -2023,7 +2290,7 @@ Create a cloaking field that follows a creature. The creature gains _Invisiblity
 - Tag: _Sustained_
 - Energy Cost: 3
 - Cast Time: 3 AP
-- Range: 5
+- Range: 12
 
 Hack a robot's systems, temporarily taking control. Make a Machine Soul roll against the target's Mind. On success you take control of the robot, controlling its actions. The duration changes depending on the size of the robot: 10 minutes for small or tiny robots, 1 minute for medium robots, and 1 round for large or bigger robots.
 
@@ -2043,10 +2310,12 @@ Hack a robot's systems, temporarily taking control. Make a Machine Soul roll aga
 - Guidance
 - Lift
 - Push
+- Purity of Body
 
 ##### 2 Cost
 - Heal
 - Power
+- Bane
 
 ##### 3 Cost
 - Premonition
@@ -2069,7 +2338,7 @@ Subtly influence the world based on your connection to the weave. As a reaction 
 - Duration: instant
 - Range: Self
 
-Sense imminent danger on the weave. For the duration you may use your Weaving roll in place of any Reflex or Toughness roll.
+Sense imminent danger on the weave. You may use your Weaving roll in place of any Reflex or Toughness roll.
 
 ***Mastery***: If the attack misses you regain your Reaction.
 
@@ -2079,13 +2348,13 @@ Sense imminent danger on the weave. For the duration you may use your Weaving ro
 - Cast Time: 2 AP
 - Duration: 1 round
 
-Override a biological creatures thoughts, compelling them to obey your command. Make a Weaving roll against their Mind. On success, you compel the creature. While compelled, a creature is incapable of complicated tasks, such as operating heavy machinery, piloting a vehicle, or using a caster. 
+Override a biological creatures thoughts, compelling them to obey your command. Make a Weaving roll against their Mind. On success, you compel the creature. While compelled, a creature is incapable of complicated tasks, such as operating heavy machinery, piloting a vehicle, or using a caster.
 
 The creature remains compelled for only a round, but as long as the action given is one they would normally take the creature will rationalize their actions. For example, a guard may assume you have clearance when compelled to let you through a checkpoint, or a driver may assume you already paid when compelled to take you somewhere.
 
 Compel can be used against hostile creatures, but they add 2 successes to their Mind rolls. Compel ends immediately if the compelled creature takes damage or is attacked.
 
-***Adept***: You may spend 1 more energy to target another creature with the same command.
+***Adept***: You may target up to 3 creatures with the same command, spending 1 energy per additional creature.
 
 ***Mastery***: Creatures are Compelled for 1 minute.
 
@@ -2133,7 +2402,7 @@ Use the weave to guide your next attack, making it unnaturally potent. Use your 
 - Energy Cost: 1
 - Cast Time: 1 AP or Reaction
 - Duration: 1 turn
-- Range: 5
+- Range: 8
 
 Make a creature momentarily weightless. While Lifted, increases a characters jump distance by 3 tiles and prevents up to 10 tiles worth of fall damage.
 
@@ -2146,13 +2415,24 @@ Make a creature momentarily weightless. While Lifted, increases a characters jum
 - Energy Cost: 1
 - Cast Time: 1 AP
 - Duration: instant
-- Range: 5
+- Range: 8
 
 Targeting a Medium or smaller creature, attempt to move them in a direction of your choosing. Make a Weaving roll against the creatures Toughness. For every success in your roll the creature moves 1 tile, up to a maximum of 2. A creature is knocked _Prone_ on a critical.
 
 ***Adept***: Adds +1 to your Weaving roll and can push up to 4 tiles.
 
 ***Mastery***: Costs 2 Energy. Can target Large creatures. Adds +2 to your Weaving roll and can push up to 6 tiles.
+
+
+**Purity of Body**
+- Energy Cost: 1
+- Cast Time: 2 AP
+- Duration: instant
+- Range: Touch
+
+Purge negative effects from a living creature. Make a Weaving roll, you may remove 1 condition for every 2 Successes. Conditions that stack, such as Bane or Suppression, remove a single stack for every 2 Successes.
+
+***Mastery***: Remove an additional condition for every Triumph rolled.
 
 
 **Heal**
@@ -2163,9 +2443,9 @@ Targeting a Medium or smaller creature, attempt to move them in a direction of y
 
 Attempt to heal a creatures wounds. Make a Weaving roll, removing a success for every wound the creature is missing. On success, the creature restores 1/1 wounds.
 
-***Adept***: You add +1 success and heal an additional wound.
+***Adept***: You add +1 success and +1/0 healed.
 
-***Mastery***: You may spend 3 Energy to add +2 successes and heal 2 additional wounds.
+***Mastery***: You may spend 3 Energy to add +2 successes and +2/0 healed.
 
 
 **Power**
@@ -2174,11 +2454,24 @@ Attempt to heal a creatures wounds. Make a Weaving roll, removing a success for 
 - Duration: instant
 - Range: Self
 
-Empower your melee attack with force, causing it to strike creatures in a 5 tile line. Use your Weaving roll for your attack. Creatures in the line make a Toughness roll against the attack. On hit they take 1/0 in Explosive damage.
+Empower your melee attack with force, causing it to strike creatures in a 4 tile line. Use your Weaving roll for your attack. Creatures in the line make a Toughness roll against the attack. On hit they take 1/0 in Explosive damage.
 
-***Adept***: Add 0/1 to the damage.
+***Adept***: Add 0/2 to the damage.
 
-***Mastery***: You may spend 3 energy to make it a 9 tile line.
+***Mastery***: You may spend 3 energy to make it a 8 tile line.
+
+
+**Bane**
+- Energy Cost: 2
+- Cast Time: 2 AP
+- Duration: 1 minute
+- Range: 4
+
+Alter a creatures fate, limiting their ability. Make a Weaving roll against the targets Mind. On success they gain _Bane 1_ for 1 minute.
+
+***Adept***: Gives _Bane 2_ instead of _Bane 1_.
+
+***Mastery***: You can target up to 3 creatures in range, spending 1 energy per creature.
 
 
 **Premonition**
