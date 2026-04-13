@@ -804,7 +804,7 @@ Resistance I to heat. **Downside:** Vulernability I to cold.
 A bunch of ideas for feats, in no particular order.
 
 **Close Combat**
-You add 3 successes to Reflex saves against attacks, abilities, or effects that are adjacent to you.
+You add 2 successes to Reflex and Toughness saves against ranged attacks, abilities, or effects from an adjacent creature.
 
 **Heavy Loadout**
 Your Loadout Limit is increased by 3.
