@@ -122,7 +122,8 @@ You regain all spent fate points.
 ##### Level Up Options
 |      Option      |    Points    |    Effects   |
 | :--------------: | :----------: | :----------: |
-| Improve Category |      1       | Increases the proficieny of that category by 1. Categories have a limit of 10 proficiency, but can be increased through other means. |
+| Improve Skill Category |      1       | Increases the proficieny of that category by 1, to a max of 10. |
+| Improve Combat Category |      1       | Increases the proficieny of that category by 1, to a max of 10. |
 | Learn/Master Weaving |      1       | Learn, or improve the effects of a Weaving. Cannot master a Weaving you learned this level. |
 | Gain Energy |      1       | Increases your max Energy by 1 |
 | Gain Wounds |      2       | Increases your max Wounds by 1 |
@@ -849,12 +850,25 @@ Your damaging spells have Maim. Non damaging spells have -1 Successes.
 Non damaging spells have +1 Success. Damaging spells cannot critically hit.
 
 **Quick Draw**
-If you are not suprised, add 3 extra dice to the initiative bag during the first round of combat.
+If you are not suprised, add 3 extra dice to the initiative bag during the first round of combat. You have 2 additional AP on your first round of combat.
+
+**Second Wind**
+Once per long rest, you can restore 5 Energy as a Free Action.
 
 **Desperate Measure**
 Before initiative is drawn for this turn you may choose to use this feat to imediately take a turn if you have not taken one this round. Remove an initiative die of your color out of the bag and take your turn as normal. You must take a long rest before you can use this feat again.
 
+**Mind Over Matter**
+When making a Martial, Defense, or Athletics roll you may spend energy to add a success to the roll per energy spent. You may spend up to half of your Esper Category score, rounded up.
+
+**Matter Over Mind**
+When casting a spell you may choose to reduce the energy cost by 4, rolling an outcome after casting. Outcome: Roll a Heavy Wound die, you take unblockable Psychic damage equal to the amount rolled.
+
 ### Advanced Feats
+
+**Memorization**
+_Requires 3 Intelligence_
+Over a long rest you may choose to study a Replicant, preparing the spell without having to socket it into your caster. You may study a spell for every 3 Intelligence, rounded down. Spells prepared this way fade from your memory after 24 hours.
 
 **Last Word**
 _Requires Proficiency in Conversation_
@@ -925,11 +939,23 @@ When rolling an outcome die for a weapon, machine, or other non-living thing, yo
 
 **Elemental Esper**
 _Requires Proficiency in Psykinetics_
-You may reroll a wound die with spells that deal elemental damage.
+Your spells that deal Elemental damage have _Maim_.
 
 **Dual Wield Expert**
 _Requires 5 Martial_
 Your Dual Wield attacks do not cost an additional AP.
+
+**Feint**
+_Requires Skirmisher_
+If you miss an attack against an adjacent creature you may make a basic attack against that creature as a Free Action. You may only use this feat once per creature.
+
+**Cut Down**
+_Requires Close Combat_
+You may reroll a die when attacking an adjacent creature without a melee weapon.
+
+**Intimidation**
+_Requires Proficiency in Muscle_
+Once per encounter you may Taunt as a Free Action. Select up to 3 creatures within 8 tiles that can see you; during their next turn they will try to attack you if able, taking -3 to their attacks if you are not their target. You gain +1 to Toughness rolls against Taunted creatures if you have no cover.
 
 ## Gear
 
@@ -2466,6 +2492,19 @@ Empower your melee attack with force, causing it to strike creatures in a 4 tile
 - Cast Time: 2 AP
 - Duration: 1 minute
 - Range: 4
+
+Alter a creatures fate, limiting their ability. Make a Weaving roll against the targets Mind. On success they gain _Bane 1_ for 1 minute.
+
+***Adept***: Gives _Bane 2_ instead of _Bane 1_.
+
+***Mastery***: You can target up to 3 creatures in range, spending 1 energy per creature.
+
+
+**Fortify Body**
+- Energy Cost: 2
+- Cast Time: 2 AP
+- Duration: 1 minute
+- Range: Self
 
 Alter a creatures fate, limiting their ability. Make a Weaving roll against the targets Mind. On success they gain _Bane 1_ for 1 minute.
 

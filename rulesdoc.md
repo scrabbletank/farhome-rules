@@ -10562,7 +10562,6 @@ You have training in divine spells and increase your divine spellcasting profici
 You gain 4 healing surges instead of 3 each long rest. Your healing surges heal an additional wound.
 
 #### Signature Move
-
 Choose a maneuver you have learned, you use the enhanced version if you meet the requirements for the normal version, or the superior version if you meet the requirements for the enhanced verison. If you meet the requirements for the superior version you have expertise with the maneuver.
 
 #### Witch
