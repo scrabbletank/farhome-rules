@@ -195,9 +195,9 @@
 | Padded                 |   2   |       none        |
 | Leather       |   3    |       none        |
 | *Medium*                                       |         |          |
-| Hide                   |   4   |     1 bad die     |
+| Hide                   |   4   |     none     |
 | Chain Shirt |   5   |     1 bad die     |
-| Scalemail |   6   |     1 terrible die     |
+| Scalemail |   6   |     1 bad die     |
 | *Heavy*                                        |         |          |
 | Half Plate     |   7   |  2 terrible die   |
 | Full Plate             |   8   |  2 terrible die   |
