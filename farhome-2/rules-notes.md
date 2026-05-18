@@ -21,24 +21,26 @@
 - Short rests are 10 minutes, long rests are 8 hours.
 
 ## Abilities/Attributes
-- Split into 6 categories, 3 phys/3 mental: Strength, Dexterity, Stamina, Intelligence, Willpower, Charisma.
+- Split into 6 categories, 3 phys/3 mental: Strength, Dexterity, Stamina, Intelligence, Willpower, Spirit.
 
 ### Strength
 - *Attack*: innate, repeatable, allows attacks with Strength based weapons.
   - [ ] Gives Multi-Attack tag (Can target an extra creature in range, or +Y on one creature?)
   - [ ] All STR attacks/maneuvers have Maim
 - *Muscle*: innate, perform a feat of strength, such as move/lift a heavy object, smash an object, throw something far, etc.
+  - [ ] *Unarmored Defense*: Your minimum armor rating is 1/2 your Strength.
 - [ ] [ ] [ ] *Maneuver*: Can learn a Maneuver (repeatable up to 3 times)
   - [ ] Add +G to Maneuver rolls
   - [ ] Can use two different maneuvers each turn
-- [ ] *Block*: Unlocks benefits from wearing shields (Phys DR). Reaction when hit, doubles DR from shield for one attack.
+- [ ] *Block*: Unlocks benefits from wearing shields. Reaction when hit, doubles effect from shield for one attack.
   - [ ] Reaction, Can use your shield with dex saves and gain 1 DR for the attack.
 - [ ] *Leap*: Action, gain movement up to half your movespeed (rounded up) and allows you to jump a maximum of 2 + 1/2 STR tiles.
 - [ ] *Attack* (Unarmed): unarmed attacks deal extra damage?
 - [ ] *Intimidate*: Coerce a person through intimiation. Critical success gives best case scenario, success gives conditional benefit, failure gives you requirements needed to turn this into success, crit fail adds 'consequence'
-  - [ ] *Intimidating Aura*: Intelligent creatuers with a Willpower lower than your Strength add a bad die to their first action against you.
+  - [ ] *Intimidating Aura*: Intelligent creatures with a Willpower lower than your Strength add a bad die to their first action against you.
 - [ ] *Armourer*: Non-combat action, can attempt to fix broken armor and weapons.
   - [ ] Can be used to give +1 Armor to a non-magic Armor.
+- [ ] *Grapple*: Some kind of grapple rules, but better because it takes a whole action.
 
 ### Dexterity
 - *Attack*: innate, repeatable, allows attacks with Dexterity based weapons.
@@ -53,12 +55,13 @@
 - [ ] [ ][ ] *Cunning Action*: Essentially dex maneuvers, repeatable up to 3 times.
   - [ ] You may shift 1 tile after taking a Cunning Action without provoking opportunity attacks.
 - [ ] *Dodge*: Gives +1 to Armor if dex is higher than armor. Reaction when attacked, you may use Dex roll in place of Armor (gaining any magical effects of armor)
+  - [ ] You may shift 1 tile when taking the Dodge action, ignoring opportunity attacks.
 - [ ] *Pick Lock*: Attempt to break into a place or object. Critical success gives best case scenario, success gives conditional benefit, failure gives you requirements needed to turn this into success, crit fail adds 'consequence'
 - [ ] *Steal*: Attempt to take a visibly displayed item from a non-hostile creature. Critical success gives best case scenario, success gives conditional benefit, failure gives you requirements needed to turn this into success, crit fail adds 'consequence'
   - [ ] *Grab*: Encounter Power, when critically hitting an adjacent creature you can take 1 visible, non-held item.
   - [ ] *Disarm*: Encounter Power, when critically hitting an adjacent creature you force them to drop a held item to an adjacent tile of their choosing.
 - [ ] *Acrobatics*: Perform an acrobatic feat, such as swinging on a chandelier, walking on a tight rope, or dodging a trap. Critical success gives best case scenario, success gives conditional benefit, failure gives you requirements needed to turn this into success, crit fail adds 'consequence'.
-  - [ ] *Climb*: You can climb rough walls, such as cave walls or rough brickwork, with ease. You have no disadvantages to rolls for climbing.
+  - [ ] *Climb*: You can climb rough walls, such as cave walls or rough brickwork, with ease. You have no disadvantages to rolls when climbing.
   
 ### Stamina
 - *Fortitude*: innate, reaction. Can be used to resist the physical effects of something, such as being pushed, resisting poison, enduring heat/cold. Success means it has no effect on you.
@@ -68,16 +71,19 @@
 - [ ] *Concentration*: reaction to resist stun/spell concentration
   - [ ] *Split Mind*: Can concentrate on two effects at once. All concentration checks use terrible dice.
 - [ ] *Armor Mastery*: Allows you to wear Armor with a rating 5 and above.
-  - [ ] Removes Penalties for Heavy Armor.
+  - [ ] Removes Dexterity Penalties for Armor.
 - [ ] *Defend*: action, increases your Armor by 2 until the start of your next turn.
+  - [ ] Gain 1 DR with Armor rolls when using Defend.
 - [ ] *Second Wind*: Daily Action, recover 0/1 wounds for every 2 stamina.
-- [ ] [ ] [ ] *Health*: Increases max wounds by 1 and hit dice by 1.
+- [ ] [ ] [ ] *Health*: Increases max wounds by 1 and Healing Surges by 1.
   - [ ] Increases max wounds by 1 for every 2 stamina.
 - [ ] *Exertion*: Encounter Power, Action does not spend an action this round.
   - [ ] [ ] Gain +1 Encounter Power.
+- [ ] *Scavenge*: Harvest natural resources, find usable equipment/parts, extract valuables from an item.
 
 ### Intelligence
 - *Investigate*: innate, investigate an object or creature in an attempt to deduce its purpose or true intent. Critical success gives best case scenario, success gives conditional benefit, failure gives you requirements needed to turn this into success, crit fail adds 'consequence'
+  - [ ] When you succeed on Investigating a creature you learn of a lead to uncover a secret they have.
 - [ ] *Recall*: history check, giving information about a place or creature, etc. Critical success gives best case scenario, success gives conditional benefit, failure gives you requirements needed to turn this into success, crit fail adds 'consequence'
 - [ ] *Study*: Non-combat action, allows you to spend time studying a topic of your choosing. Guaranteed success if you have a book or expert on the topic available. Critical success gives best case scenario, success gives conditional benefit, failure gives you requirements needed to turn this into success, crit fail adds 'consequence'
 - [ ] *Cast Spell*: allows you to learn and cast Evocation spells, gain 1 Evocation Spell Power.
@@ -105,6 +111,8 @@
 - [ ] *Portent*: Daily Power, reaction, when a creature you can see makes a roll, reveal you have seen this in a vision. You give that creature rerolls equal to 1/2 Willpower.
 - [ ] *Prepare Spells*: Non-combat action, replace a prepared spell with another spell.
 - [ ] [ ] *Danger Sense*: Choose an attribute. Your saving throws of that attribute have +1 if they are less than or equal to your Willpower.
+- [ ] *Brew Potion*: Allows you to brew a potion from various ingredients.
+  - [ ] Remove 1 challenge die when brewing with 2 or more ingredients.
 - [ ] *Opportunity Attack*: Reaction, make a melee attack when a creature leaves your zone of control.
 
 ### Spirit
@@ -177,6 +185,25 @@
 - *Encounter Power*: 4
 - *Attribute*: Str/Spi
 
+## Example Gear
+
+### Armors
+
+| Armor                                          | Armor Rating | Dex/Spell Penalty |
+| :--------------------------------------------- | :-----: |  :---------------: |
+| *Light*                                        |         |          |
+| Padded                 |   2   |       none        |
+| Leather       |   3    |       none        |
+| *Medium*                                       |         |          |
+| Hide                   |   4   |     1 bad die     |
+| Chain Shirt |   5   |     1 bad die     |
+| Scalemail |   6   |     1 terrible die     |
+| *Heavy*                                        |         |          |
+| Half Plate     |   7   |  2 terrible die   |
+| Full Plate             |   8   |  2 terrible die   |
+| *Shield*                                       |         |          |
+| Buckler                |  +1 Reroll   |       none        |
+| Shield                 |  +1 Phys DR   |     1 bad die     |
 
 ## Example Spells
 
@@ -200,6 +227,34 @@ Blast a creature you can see with a bolt of fire. Make a spellcasting roll again
 
 A wave of thunder roars around you, hitting all creatures within 1/2 Intelligence. Make a spellcasting roll against the creatures defense. On success the creatures take 1/1 in thunder damage, being pushed away 1 tile for every critical. Creatures take an additional 0/1 when colliding with an object for every tile moved.
 
+
+#### Poison Fog
+*1st level*
+
+- **Range:** self
+- **Duration:** 1 minute
+- **Damage Type:** poison
+- **Tags:** _Dangerous_, _Area_
+
+Conjure a slow moving poison fog. Targeting an adjacent tile create a 3 tile wide and 2 + Intelligence tile long poisonous fog. Creatures in the fog and any that end their turn there make a Stamina save against your spellcasting. On fail they take 0/3 in poison damage and are Poisoned for 1 minute.
+
+
+#### Hex
+*Cantrip*
+
+- **Range:** 8
+- **Duration:** 10 minutes
+
+Place a hex on a number of creatures you can see. You may target 1 + 1/2 Willpower creatures. Creatures make a Willpower save against your spellcasting. On fail they gain Hex, increasing its level for every critical rolled.
+
+
+#### Close Wounds
+*1st Level*
+
+- **Range:** touch
+- **Duration:** instant
+
+Heal a creatures wounds. Make a spellcasting roll, healing 1 wound for every 3 successes. Creatures heal an additional 0/1 for every 2 Spirit.
 
 ## Example Maneuver
 
