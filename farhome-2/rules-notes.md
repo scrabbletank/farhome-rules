@@ -11,7 +11,6 @@
 - Actions span both combat and non-combat purposes. Some actions are encounter powers, you can only perform so many encounter powers each encounter.
 - Do I turn casters into warlocks? Have an action under int/will/cha that unlocks that given spell tree, also have upgrades that give spell power. You can cast any number of cantrip spells, but all other spells cost spell power. When using spell power you can cast it at a level equal to your ability score? Seems busted unless numbers change, OR change magic completely to use no level and scale based on stat.
 - Spells have a stat requirement to learn, then can scale effects based on total ability in that school. For example firebolt requires an ability score of 0 (cantrip) and deals 1/0 + 0/1 for every 2 intelligence you have.
-- Cantrips only get increased effect if spellpower is used, otherwise is just baseline damage.
 - Use heavy/light wound dice for damage, add hits deal a minimum of 1 damage if attack exceeds by 2 or more, add DR to armor?
 - Some actions are reactions and used when it's not your turn. No limit on total reactions, but each reaction can only be used once per round.
 - Actions can only be used once per turn unless they have the _Repeatable_ tag
@@ -262,8 +261,25 @@ Heal a creatures wounds. Make a spellcasting roll, healing 1 wound for every 3 s
 
 - **Weapon:** any melee Strength weapon
 - **Range:** 1/2 Movespeed
+- **Tags:** _Single Target_
 
 Cannot use while adjacent to a hostile creature. Move up to half your movespeed making a deadly attack. Make a normal weapon attack, adding 0/1 damage, or 1/0 damage on a critical.
+
+#### Wide Swing
+
+- **Weapon:** any melee Strength weapon
+- **Range:** melee
+- **Tags:** _Dangerous_, _Area_
+
+Make a wide attack hitting all creatures in your zone of control. Creatures make an Armor roll against your weapon attack.
+
+#### Daze
+
+- **Weapon:** any melee Strength weapon
+- **Range:** Melee
+- **Tags:** _Single Target_
+
+Attack an adjacent creature your size or smaller with the blunt side of your weapon. Make a normal weapon attack inflicting daze on hit. On a critical they take an additional 0/1 in damage and are knocked prone.
 
 ## Example Cunning Action
 
@@ -273,3 +289,13 @@ Cannot use while adjacent to a hostile creature. Move up to half your movespeed 
 - **Range:** melee
 
 Move to the back of the creature, attacking them from behind. Make a normal weapon attack, gaining Maim 3 for the attack. Targets lose the benefit of a shield for this attack.
+
+#### Take Down
+
+- **Weapon:** any melee Dexterity weapon
+- **Range:** 2
+- **Tags:** _Single Target_
+
+Climb a creature larger than you and try to sink your weapon into a weak point. You may move up to 2 tiles, climbing the creature as you make your attack. On hit you upgrade 2 wound dice.
+
+You cling to the creature until they hit you with an attack or you willingly release the creature. While clinging to the creature you have expertise on Armor rolls against this creature.
